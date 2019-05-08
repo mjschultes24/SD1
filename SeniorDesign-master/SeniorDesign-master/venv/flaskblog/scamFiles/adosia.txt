@@ -1,0 +1,398 @@
+﻿Kyle Solomon
+Adosia LLC
+January 18, 2018
+technology whitepaper
+version 1.7
+Mission statement:
+to rapidly accelerate the proliferation of IoT deployments
+while leveraging advanced distributed ledger architectures to
+enable new incremental revenues
+ADOSIA WHITEPAPER                                               1
+
+
+
+
+Abstract:
+Tremendous opportunities to participate in cascading disruption are presented as new
+and exciting evolutions in distributed ledger architectures are coming to realization via
+the efforts of select pioneering third-generation cryptocurrency initiatives."
+Adosia is an embedded Internet of Things (IoT) hardware, software and transactional
+data initiative. Our mission is to rapidly accelerate the adoption and proliferation of
+real-world energy-efficient IoT technologies while aligning Adosia embedded hardware
+to  participate  as  secured  nodes  within  advancing  distributed  ledger  architectures.
+We’re  building  a  suite  of  fundamental  hardware  subassembly  products  and  SaaS
+platform  solutions  with  the  goal  of  enabling  an  ecosystem  for  agile  development,
+deployment, monetization and proliferation of new class of innovative connected IoT
+devices.  We  envision  Adosia  technology  playing  a  significant  role  within  the
+decentralized  IoT  ecosystem  by  facilitating  rapid  creation  of  new  and  innovative
+business opportunities for OEMs, system integrators, entrepreneurs, and industrial and
+consumer installers across a variety of market segments."
+Adosia  is  working  to  manufacture  physical  technologies  to  immediately  address  a
+variety of real-world applications within select target IoT markets. By making utilities
+available to the market today, we are able to establish immediate value proposition
+resulting in new revenue opportunities for Adosia as well as third-party ecosystem
+partners and entrepreneurs. Adosia is strategically aligning our product roadmap to
+deliver high-performance low-lower IoT embedded computing platforms in a manner
+that leverages and supports the next generation of distributed ledger architectures."
+Adosia began as an ad-tech initiative (founded in 2012), offering the value proposition
+of increasing and creating new viewable ad inventory on publisher websites. Adosia
+first realized revenue from our ad delivery platform in  2014, and has served over a
+billion ad requests for Adosia publishers to date. Adosia entered the IoT space in
+Q2-2017 with our first generation spin for BluPonix (subassembly for self-watering pot),
+yielding functional prototypes which have been operating since July  2017. Adosia’s
+initial WiFi IoT subassembly hardware is in production (paid product has shipped), with
+subsequent roadmap products currently in various stages of development."
+Our existing technical infrastructure enables an accelerated execution of our vision.
+Adosia  maintains  a  highly  scalable  custom  MVC  backend  web  architecture  which
+enables rapid development and seamless scalability for agile feature set expansion. To
+date we have leveraged the latter expertise to architect and implement a backend
+administrative  platform  to  easily  manage  and  scale  supported  IoT  hardware
+configurations. This architecture enables an ability to rapidly add new WiFi hardware
+configurations to our system, including the ability to define discrete IO pin assignments
+as correlated to specific supported subsets of hardware components. This enables
+automated  generation  of  device  profiles  to  be  dynamically  inherited  by  individual
+Adosia IoT network devices based on countless factors limited only by imagination."
+ADOSIA WHITEPAPER                                                                             2
+
+
+
+
+Internet-of-Things and the Adosia Token (ADO)
+Adosia’s approach to enabling cascading disruption in IoT leverages one core concept: "
+each IoT device IO pin will entail remotely configurable functionality to enable
+near-endless application configuration profiles limited only by user imagination
+Each hardware component or sensor associated with an Adosia IoT hardware device
+can be setup to trigger external alerts or notifications, or to switch arbitrary digital IO to
+activate other local or external device components. Adosia IoT device profiles can be
+easily updated, and will soon support time-specific activation of device profiles. This
+approach to hardware control and customization enables Adosia IoT platform users the
+ability to create custom and personalized use cases for a better quality of life. This is a
+tremendous advancement and offers a number of new benefits."
+The greatest benefit in approaching IoT management at a pin-component granularity is
+the wide array of diverse and application-specific implementations that can be instantly
+derived and implemented using a single common base hardware configuration. With
+this  model  target  IoT  applications  will  increase  exponentially  with  each  new  IoT
+hardware configuration Adosia releases."
+While the current Adosia IoT remote management platform is a centralized application
+deployment, it is our goal to either leverage, or partner with, a highly sophisticated
+distributed  ledger  architecture  initiative  to  create  additional  incremental  revenue
+opportunities by:"
+• securing Adosia IoT device profiles to enable further differentiated SaaS offerings"
+• enabling personal IoT data ownership and differentiated IoT data marketplaces"
+• aligning  IoT  hardware  requirements  to  enable  participation  as  secured  nodes
+within the next-generation of advancing distributed ledger architectures"
+The  Adosia  (ADO)  token  will  be  deployed  for  use  within  an  advanced  sidechain-
+enabled  distributed  ledger  architecture.  ADO  will  be  the  base  currency  utilized  to
+facilitate transactions within the following Adosia revenue models:"
+• inbound payments for Adosia IoT hardware"
+• wireless solar battery adapter to power/enhance Adosia sensors"
+• solar battery adapter for low power WiFi computing baseboard"
+• outbound payments on cryptocurrency revenues from Adosia IoT device mining"
+ADOSIA WHITEPAPER                                                                                3
+
+
+
+
+Hardware Productization - IoT Building Blocks
+Adosia is committed to maintaining sophisticated engineering capabilities to instill an
+ongoing culture rooted in rapid innovation. This approach will ensure Adosia’s ongoing
+ability to navigate, induce, and participate in cascading disruption while deploying a
+variety of high potential IoT initiatives. All Adosia IoT hardware will support remote
+upgradeability to ensure rapid deployment development and to permit an ongoing
+expansion of feature sets."
+Hobby Kits
+The first generation of Adosia IoT products are being released in form of various hobby
+kit subassemblies. This approach enables immediate paths to revenue, while allotting
+appropriate fielding for Adosia to gather application-specific requirements for the next
+generation of Adosia IoT products. This approach also enables an low-risk production
+environment where the Adosia IoT management platform can be refined. Adosia hobby
+kits  will  consist  of  both  open  hardware  components  and  custom  electronics
+manufactured  by  Adosia,  and  will  be  pin-compatible  with  popular  open  source
+hardware computing modules such as Arduino for optimal early adoption."
+Embedded Computing Modules
+The next generation of Adosia IoT products will entail development of select low-power
+high-performance embedded IoT computing hardware modules to serve as a core set
+of  microprocessing  subassemblies.  These  computing  modules  are  designed
+specifically to enable a wide variety of next-generation wirelessly connected products,
+with feature sets ranging from WiFi and Bluetooth connectivity, customizable digital IO,
+encrypted flash, touch sense, variable expansion, IR, and support for multi-channel
+analog  inputs.     Adosia  intends  to  align  this  segment  of  our  roadmap  for  optimal
+synergy and participation within advanced distributed ledger ecosystems."
+Application-Specific Consumer and Industrial Products
+While the Adosia IoT ecosystem will enable entrepreneurs to rapidly deploy solutions
+addressing  specific  real-world  problems  that  viable  businesses  can  be  built  upon,
+Adosia  will  continually  work  to  identity  and  pursue  non-cannibalistic  product
+opportunities within our IoT ecosystem targeting industrial and consumer applications."
+with each product line then transitioning into vertical-specific subassemblies usable by
+third-party entrepreneurs and system integrators interested in creating their own unique
+product offerings. Adosia plans to produce consumer and industrial implementations of
+select hobby kit product lines."
+ADOSIA WHITEPAPER                                                                               4
+
+
+
+
+Adosia IoT Hardware Roadmap
+• ultra low-power, IO-expandable WiFI embedded computing baseboard (ESP8266)"
+• wireless solar battery adapter to power/enhance Adosia sensors"
+• solar battery adapter for low power WiFi computing baseboard"
+• dual-core, heavy IO-expandable WiFi/Bluetooth CPU baseboard (ESP32)"
+• application specific IO boards to complement embedded computing module"
+• analog and digital sensors to enable new applications for existing hardware"
+Mining with Adosia IoT Hardware
+Adosia IoT hardware users will have the option to earn incremental revenue by using
+select Adosia IoT hardware devices to mine or support transactional activities relevant
+to cryptocurrency. Adosia hardware operators can be individual users controlling a
+handful  of  devices,  or  third-party  system  integrators  or  manufacturers  controlling
+hundreds or thousands of devices. Adosia plans to align our embedded computing
+board roadmap so as to best capitalize on participation within advanced emerging
+distributed  ledger  architectures.  Adosia  is  aligning  dual-core  embedded  silicon  for
+these applications, where one of the processing cores will be entirely dedicated to
+supporting appropriate distributed ledger transaction activities."
+Adosia expects growth in the rate and scale of malicious attacks on IoT WiFi devices.
+These  attacks  entail  a  primary  goal  of  establishing  a  decentralized  network  of
+compromised  hardware  devices  to  mine  on  behalf  of  the  malicious  party  leaving
+unsuspecting IoT hardware operators to absorb the power costs. A peripheral benefit
+to enabling mining on Adosia IoT devices is that a general consensus for the specific
+mining revenue range a given device family would be expected to generate will be
+established. This approach provides an extended mechanism to assess whether any
+particular hardware device has become compromised (hacked). Adosia is not claiming
+this observational approach as substitute for implementing sound security protocols,
+but simply suggesting it becomes a powerful approach when also combined with
+security the platform via a distributed ledger."
+IoT Mining Revenue Distribution:"
+5%
+15%
+IoT Hardware Operators (80%)
+Sustained Operations (15%)
+Advanced R&D (5%)
+80%
+ADOSIA WHITEPAPER                                                                              5
+
+
+
+
+"
+Adosia will lead our early IoT initiatives with the release of our first products from our
+BluPonix initiative. BluPonix is the first open hardware WiFi platform for hydroponic,
+gardening and general plant cultivation. BluPonix makes growing plants a fun and fully
+internet-customizable  experience.  The  cryptocurrency,  agriculture  tech,  and  legal
+cultivation markets are accelerating, and BluPonix creates a unique value proposition
+by unlocking entirely new monetization opportunities."
+Configuration possibilities are limited only by the end-user’s imagination.   For example,
+in  the  case  of  BluPonix,  devices  connected  to  the  Adosia  platform  can  easily  be
+configured  to  send  a  text  or  email  when  a  water  reservoir  is  low  or  following  a
+sequence  of  digital  inputs  that  have  detected  motion.  Another  example  could  be
+switching on external fans or lights when the temperature reaches a certain threshold,
+or for some predefined cycle or time period during any given day. As Adosia releases
+additional products, this approach will forever enhance the way we are able to interact
+with our homes and will provide a better overall quality of life."
+BluPonix has been selected as our lead product initiative in light of current market
+conditions. BluPonix product has also been successfully prototyped and is ramping for
+production. The Adosia roadmap quickly follows up a variety of unique and significantly
+marketable IO boards, all of which will be interoperable and web configurable by the
+end-user  in  a  manner  entirely  unavailable  today.     Adosia  have  shipped  our  first
+BluPonix Space Hydro hobby kits."
+"
+ADOSIA WHITEPAPER                                                                                6
+
+
+
+
+BluPonix SPACE v.2.2 IO Board
+"
+ADOSIA WHITEPAPER               7
+
+
+
+
+BluPonix SPACE v.2.2 IO Board Features
+•                                                            dual diode-protected transistor switch channels to interchangeably drive water
+                                                             pumps, air pumps or solenoid water valves (5W / 400mA)
+•                                                            Interchangeable water level sensor switch and temperature sensor (4.7k pullup)
+•                                                            x1 analog port for Soil Moisture Sensor
+•                                                            x2 digital IO pins for external relay and / or motion sensor control
+•                                                            90º header pin breakout voltage supply rail: x2 GND, x2 3.3V, x2 5V, x2 Vin (12V)
+•                                                            dual relay expansion mounts (lights, larger pumps, fans, etc; 15A)
+•                                                            WiFi-ready for Adosia IoT, onboard RGB LED
+This  functional  hydroponic  snake  uses
+Adosia’s BluPonix SPACE v2.2 hobby kit
+in hydroponic cycle mode. The dual pump
+channels are used to transport water from
+the  reservoir  to  the  top  of  the  snake.
+Digital  IO                                                  #1  is  wired  to  an  external
+solenoid  water  valve  to  refill  the  main
+reservoir when water level sensor switch
+#1 is triggered. Digital IO #2 is wired to a
+separate external solenoid water valve to
+refill the dogs’ water bowl when needed.
+This  Adosia  SPACE-powered  self-watering  pot  prototype
+determines when to begin the watering cycle based on the
+soil                                                         (or  medium)  moisture  level.  The  self-watering  pot
+                                                             example uses a BluPonix SPACE subassembly with a single
+                                                             submersible  water  pump,  water  level  sensor  switch  and
+analog soil moisture sensor."
+ADOSIA WHITEPAPER                                            8
+
+
+
+
+BluPonix RAIN Analog Soil Moisture Sensor
+"
+Adosia’s  RAIN  Analog  Soil  Moisture  Sensor  for  our  BluPonix  line  is  based  on  a
+modified open design hardware design (thanks DFRobot). Design, schematic, layout,
+prototype spin and delivery all within 2 weeks from start to finish."
+BluPonix RAIN:
+•                                                                                            1st prototypes in July 2018
+•                                                                                                                                            eliminates most expensive BOM vendor (>75% cost reduction)
+•                                                                                            enhanced for industrial applications
+•                                                                                            rapid prototype - demonstrates Adosia agility
+ADOSIA WHITEPAPER                                                                            9
+
+
+
+
+Additional Hobby Kit IO Board Initiatives
+"
+TapLock is a touch-based password lock platform that will forever change the way we
+use locks in our homes and businesses. Instead of using keys, biometrics or temporary
+access codes, TapLock will utilize multiple capacitive sensors that must be stimulated
+in  the  correct  pre-defined  pattern                                                       (password)  in  order  to  trigger  unlocking  of  a
+TapLock-enabled device. TapLock touch sensors can be detected through wood and
+configured remotely via the Adosia platform.   One use case for Adosia’s TapLock would
+entail furniture having a hidden locked compartment to discretely store valuables or
+potentially  even  firearms.  In  event  a  TapLock  device  is  opened,  TapLock  can  be
+seamlessly configured with the Adosia platform to send alert notifications or to trigger
+or perform some other action to be taken by a separate external Adosia IoT hardware
+device. TapLock was initially prototyped the form of a locking gun cabinet.
+MailMail is a solar-powered WiFi module that hangs out in your mailbox and keeps
+record of when your mail comes by using simple motion-detect. MailMan can be
+checked on-demand or programmed to send alerts or to trigger any other Adosia IoT
+hardware device into action. The prelude to MailMan requires the development of an
+open hardware solar-chargeable battery pack power module which will also be used to
+power a variety of Adosia IoT products. MailMain is in schematic phase, and its solar
+charging module is likely spin to off into its own product family."
+GarageBug is a hybrid WiFi sentry that enables remote garage door status viewing
+(open/close) and remote control from any internet connected device. GarageBug also
+includes motion detect triggering and support for a variety of custom IO configurations.
+One practical implementation of GarageBug would be to remotely check garage door
+status (to determine if the door is open or closed), while for added security having a
+custom motion-detect alert setup to be sent only between certain hours and only when
+the garage door is closed."
+ADOSIA WHITEPAPER                                                                            10
+
+
+
+
+Adosia Revenue Model
+Adosia will generate a variety of incremental revenue streams methodically, starting
+with immediate monetization of available Adosia embedded hardware. Aligning Adosia
+IoT  hardware  for  compatibility  with,  and  participation  within,  nodes  of  advanced
+distributed  ledger  architectures  enables  tremendous  opportunities  to  pursue
+incremental revenues."
+Adosia IoT SaaS services enable residual monetization for continued use of connected
+Adosia IoT hardware"
+Adosia IoT Data marketplaces will enable peer-to-peer residual monetization of IoT
+field data collected by Adosia IoT hardware."
+ADOSIA WHITEPAPER                                                                            11
+
+
+
+
+Appendix A:   ESP32 Dual-Core Embedded Computing Board
+ESP32 Dual-Core SoC with Wi-Fi & Dual-mode Bluetooth Features
+•                                                               Two independently-controlled CPU cores with adjustable clock frequency (80 MHz to 240 MHz)
+•                                                               +19.5 dBm output at the antenna ensures a good physical range
+•                                                               Classic Bluetooth for legacy connections, also supporting L2CAP, SDP, GAP, SMP, AVDTP,
+                                                                AVCTP, A2DP (SNK) and AVRCP (CT)
+•                                                               Support for  Bluetooth Low Energy (BLE) profiles including  L2CAP, GAP, GATT, SMP, and GATT-
+                                                                based profiles like BluFi, SPP-like, etc
+•                                                               Bluetooth Low Energy (BLE) connects to smart phones, broadcasting low-energy beacons for
+easy detection
+•                                                               Sleep current is less than 5 μA, making it suitable for battery-powered IoT applications
+•                                                               Integrates 4 MB flash with encryption
+•                                                               Peripherals include capacitive touch sensors, Hall sensor, low-noise sense amplifiers, SD card
+                                                                interface, Ethernet, high-speed SPI, UART, I2S and I2C
+•                                                               Fully certified with integrated antenna and software stacks
+ADOSIA WHITEPAPER                                               12
+
+
+
+
+Appendix B:   Education is Ripe
+This appendix outlines a synopsis of Adosia’s Advanced R&D “Curriculums” initiative. A
+brief  summary  has  been  included  to  convey  an  understanding  of  the  disruptive
+potential entailed within Adosia’s Advanced R&D initiatives.   Further details relevant to
+Adosia’s Advanced R&D initiatives will be released with future progress updates."
+It  is  Adosia’s  view  that  secondary  and  higher  education  are  prime  for  disruption.
+Currently the quantity of valuable high-quality educational content readily available to
+the general public is near obscene. An individual’s relevant and immediate access to
+such content is limited only by:"
+&                                                                                               1.&   the individual’s accessibility to a free and open internet,"
+&                                                                                               2.&   the individual’s ability to effectively identify and consume desired content in a
+                                                                                                manner that achieves their learning goals (effective “search skills”), and,"
+&                                                                                               3.&   that individual’s own internal ambition(s) and drive to better oneself via self-
+                                                                                                sanctioned continued learning"
+Adosia is arguing higher education is already freely available to any internet-connected
+individual willing to invest the time, energy and dedication it takes to self-educate
+oneself to achieve higher learning. As corporations have already proven they are willing
+to pay for such online content consumption in the form of digital ad revenue."
+Adosia proposes a curriculum initiative based on a simple idea that we can leverage a
+hybrid  platform  consisting  of  a  centralized  web-based  ecosystem  capable  of
+facilitating  varying  degrees  of  self-education,  while  simultaneously  incorporating  a
+decentralized and queryable ledger to record and measure the extent of an anonymous
+individual’s self-learning ability, eagerness and continued progress.   "
+Adosia believes distributed ledger technology can be leveraged to effectively measure
+an individual’s learning ambitions, abilities and discrete progresses - and over a short
+time, that data footprint will aggregate to an effective measurement of human potential.
+This  information  could  be  subsequently  queried  in  a  manner  far  more  useful  to
+prospective employers seeking to identify strong candidates for employment and much
+more effectively than resumes and potentially even interviews.   Enabling applicants to
+anonymously submit learning records will also assist with mitigating potential systemic
+racial biases that could otherwise exist within an HR chain."
+ADOSIA WHITEPAPER                                                                               13
+
+
+
+
+How a Distributed Ledger Curriculum Platform Might Work
+The ability to effectively search for content is an acquired skill often taking years of
+practice to master, and requires an adaptive attentiveness as search algorithms change
+and can be inconsistent across varying content platforms. By organizing content in
+detail according to various subjects, knowledgeable curriculum creators will use the
+online platform to outline effective learning vehicles for utilization by individuals whom
+have yet to mature their own personal online content searching skills."
+Curriculum  creators  are  effectively  the  world’s  next  generation  of                       (incentivized)
+teachers. They are synonymous with content organizers, and will serve as subject
+guides  and  knowledge  retention  evaluators.  Curriculum  teachers  will  create  and
+maintain curriculums of various subjects of which they possess intimate knowledge.
+These curriculums will consist of any freely accessible information available on the
+web,  including  video  and  text  content  both  internal  and  external  to  the  platform.
+Teachers will be rewarded with a share total revenue (generated from online ads, from
+mining using a students’ client hardware, and as a bounty transaction split for certain
+content conditions). The revenue a curriculum creator can generate is proportional to
+the level of overall student engagement and exposure their particular curriculum(s)
+achieve(s).  Students  may  rate  each  curriculum  and/or  applicable  curriculum
+subcomponent which provides the more competent/effective teachers greater organic
+exposure  and  thus  naturally  earning  more  revenue.  Content  creators  will  also  be
+rewarded a portion of overall revenue generated based on the usage and reach their
+content achieves."
+Students will have the ability to control the specific datasets a prospective employer
+will be able to associate with their identity when applying for job employment. To
+achieve  this,  students  will  be  able  to  create  various  sub-identities  within  the
+curriculums platform, with the ability to further partition each of those identities into
+customized subject groups where knowledge has been accumulated for submission to
+potential employers as addenda to a resume. To generate additional revenue, the
+platform could enable various data search services to assist employers with obtaining
+useful information from student data."
+We’d like to begin engaging and building a community having common interest in
+significantly  disrupting  education  and  in  exploring  resolutions  for  additional  global
+socioeconomic  issues.  Please  see  the  Adosia  website  Community  Page  (https://
+adosia.com/community.php) for   more information on how to participate in the Adosia
+community.
+ADOSIA WHITEPAPER                                                                                14
+
+
+
+
+

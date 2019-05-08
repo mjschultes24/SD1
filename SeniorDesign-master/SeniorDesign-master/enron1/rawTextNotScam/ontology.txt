@@ -1,0 +1,983 @@
+﻿A New High-Performance Public Multi-Chain Project &
+A Distributed Trust Collaboration Platform
+
+
+
+
+Table of Contents
+                    PART I: TRUST SYSTEMS AND Ontology                                      PART III: Ontology'S ECOSYSTEM AND
+                                                                     APPLICABLE SCENARIOS
+P1                  The Three Dimensions of Trust
+                                                                     P15                    Introduction
+P3                  Current Issues in Trust Networks
+                                                                     P16                    Multi-Source Identity System for People
+P4                  Ontology's Ethos
+                                                                     P17                    Multi-Source Identity System for Objects
+P5                  Vision and Structure
+                                                                     P18                    Distributed Data Exchange
+                                                                     P19                    Distributed Collaborative Systems
+                    PART II: ONTOLOGY TRUST NETWORK
+                                                                     P20                    Distributed Equity Management
+P7                  Ontology's Trust Ecosystem
+                                                                     P21                    Distributed Community Management
+P9                  Ontology's Framework Technology
+                                                                     P22                    Distributed Content Generation and
+P10                 Decentralized Identity Verification and Multi-
+                                                                                            Trade Modules
+                    Factor Authentication
+                                                                     P23                    Distributed Reputation System
+                    Delivering a Decentralized Trust System
+                                                                     P24                    Decentralized Inclusive Financial Services
+P11                 Distributed Ledger Technology
+                                                                     P25                    Applicable Scenarios
+P12                 Distributed Data Exchange
+P13                 Other Key Functions and Modules
+                                                                                            PART IV: ECOSYSTEM / GOVERNANCE /
+                                                                     INCENTIVIZATION
+                                                                     P27                    The Ontology Family
+                                                                     P29                    Compliance
+
+
+
+
+Ontology is a blockchain/distributed ledger
+network which combines a distributed identity
+system, distributed data exchange, distributed data
+collaboration, distributed procedure protocols,
+distributed communities, distributed attestation, and
+various industry-specific modules. Together this builds
+the infrastructure for a peer-to-peer trust network
+which is cross-chain, cross-system, cross-industry,
+cross-application, and cross-device.
+
+
+
+
+TRUST SYSTEMS
+AND ONTOLOGY
+NETWORK
+I
+The Three Dimensions of Trust
+Trust is a key component in human organization and social
+collaboration. Trust has become the core requirement
+of social and economic partnership that has been built
+up through technology, law, and community throughout
+history.
+1
+
+
+
+
+PART I. TRUST SYSTEMS AND ONTOLOGY
+Trust through Technology:                 Trust through Legal Systems:             Trust through Communities:
+Building trust through technology is      Trust in legal systems is the oldest     Trusting those close to us can be the
+seen as a promising area in today's       and the most basic trust mechanism,      most natural form of trust. Sociologists
+information society. Technologies like    assuring rights and protections across   put the number of people we trust at
+cryptology, biological devices, and       industries and across the world.         less than one hundred; it is intrinsically
+big data are being used to build trust                                             difficult to build trust networks on
+                                          Economic systems, which are
+across industries.                                                                 larger scales.
+                                          inseparable from legal systems, are
+The introduction of blockchain            a top choice for integration into        Since the era of informatization and
+technology has brought trust to the       blockchain. This means a pairing of      the internet, decentralized network
+masses through shared access to           economic and legal systems is needed     systems such as peer-to-peer networks
+decentralized information. Blockchain     to address certain issues including:     and blockchains have created online
+has not just built trust in individual                                             communities much larger than
+The issue of legal authentication.
+projects - it has fundamentally changed   traditional communities. Based on
+Due to the decentralized and
+the future of trust ecosystems.           these there have been many attempts
+digitalized nature of blockchains,
+to build new communities of trust,
+comprehensive collaboration with
+such as Google PageRank, Pretty Good
+offline legal entities is needed.
+Privacy, Web of Trust, as well as other
+decentralized evaluation systems and
+The issue of legal support.
+decentralized communities.
+Support for sandbox experiments,
+automated compliance, and
+moderation are required for the
+entire blockchain system.
+The issue of identification.
+Blockchains need to better collabo-
+rate with the world to build better
+identity verification solutions.
+2
+
+
+
+
+PART I. TRUST SYSTEMS AND ONTOLOGY
+Current Issues in Trust Networks
+Although we now have a range of trust mechanisms we still
+face many barriers in establishing trust including:
+Fragmented sources of trust. When                             Inaccurate identity verification. Us-     Weak community management.
+data has to be verified by multiple                           ing a single information management       Current community management
+sources the process can become                                system makes it difficult to form         systems do not have sufficient
+time consuming, costly, and put data                          comprehensive identity portfolios.        moderation tools.
+security in jeopardy.
+                                                              Security issues in the Internet           Identifying false information. There
+Missing role of the individual.                               of Things. Currently there are            are not sufficient mechanisms to
+Individuals do not have enough say                            not sufficient identity verification      identify, report, and remove false
+in the use of their own data and                              mechanisms to prevent illegal and         information from online systems.
+authentication of other data.                                 malicious node access to the Internet
+                                                                                                        Weak reputation systems. Adequate
+                                                              of Things.
+Emergence of new sources of trust.                                                                      reputation systems require massive
+With fragmented sources of trust                              Data exchange security issues.            data sets, however fragmentation
+the overall cost of verification has                          Current data exchange systems are         of data in current systems does not
+increased.                                                    centralized, which causes problems        make this possible.
+                                                              such as loss of data origin and
+Data management monopolization.                                                                         Making charitable donations. It is
+                                                              threats to data security.
+Today’s data management systems                                                                         becoming more important to provide
+are monopolizing user data while                              Trust issues in collaborative             high levels of transparency when
+failing to compile useful and                                 systems. Without a central author-        managing charity donations. Basic
+accessible portfolios of data for                             ity it is difficult to form trust in      transaction tracking can only solve
+external use.                                                 collaborative systems.                    part of the problem; comprehensive
+                                                                                                        verification of organizations and
+Data fragmentation. Due to frag-                              Transparency issues in equity
+                                                                                                        recipients is needed.
+mentation of databases, data which                            management. New equity manage-
+is not monopolized loses out on                               ment models such as crowdfunding
+trading potential and can often not                           find it hard to build trust due to lack
+be authenticated and used.                                    of transparency.
+The variety of trust mechanisms at hand today have
+indirectly become the weakness of today's trust systems.
+Building a network which integrates the fragmented industry
+is needed to build a true and complete trust system.
+3
+
+
+
+
+PART I. TRUST SYSTEMS AND ONTOLOGY
+Ontology's Ethos
+Ontology has architected a distributed trust system. It
+incorporates multiple trust types in an integrated protocol
+system with various blockchains and databases. Multi-
+source identities and multi-source data exchange protocols
+have been implemented into the network, building a
+distributed trust system that is cross-chain, cross-industry,
+cross-system, cross-application, and cross-device.
+Ontology aims to develop its trust ecosystem through
+partnerships to provide distributed services including
+distributed communities, data verification, data exchange,
+and credit across industries.
+4
+
+
+
+
+PART I. TRUST SYSTEMS AND ONTOLOGY
+Vision and Structure
+Ontology’s Trust Network is a protocol network built with multiple
+blockchains and systems to support use with all business types.
+In order to meet the needs of different industries, the flexible
+design structure is modularized, pluggable, and easily expandable.
+Ontology applies blockchain technology to all business types,
+providing blockchains, smart contracts, distributed verification
+management, data exchange, and other protocols and APIs. Users
+can easily develop distributed services through Ontology without
+having previous knowledge of distributed networks.
+An integrated and diverse distributed trust network and the
+tool for building a trust ecosystem
+5
+
+
+
+
+PART I. TRUST SYSTEMS AND ONTOLOGY
+VERIFICATION OF PEOPLE                    VERIFICATION OF OBJECTS     FINANCIAL SERVICES
+REPUTATION EVALUATION                                                 EQUITY MANAGEMENT
+COMMUNITY MANAGEMENT                                                  CONTENT GENERATION & TRADE
+DATA COLLABORATION & EXCHANGE                                         PROCEDURE MANAGEMENT
+SCENARIOS
+PEOPLE, WEALTH, THINGS, & ORGANIZATIONS
+APPLICATIONS
+MODULE                                    PROTOCOL                    SDK                          API
+MODULES & PROTOCOLS
+CROSS-CHAIN ENTITY MAPPING                CROSS-CHAIN DATA TRANSFER
+ONTOLOGY NETWORK CHAINS
+ONTOLOGY NETWORK'S TRUST ECOSYSTEM
+6
+
+
+
+
+ONTOLOGY
+TRUST
+NETWORK
+II
+Ontology's Trust Ecosystem
+Ontology is devoted to building a trust ecosystem through its
+decentralized services.
+With Ontology's infrastructure industries can integrate and
+develop their own systems of trust.
+7
+
+
+
+
+PART II. ONTOLOGY TRUST NETWORK
+Peer-to-Peer Collaboration in the Trust Network
+Collaborative Ecosystem
+Supported Scenarios
+Distributed Ledger Technology
+Foundational
+Distributed identity verification and
+Infrastructure                                    Distributed trust transfer system
+authentication system
+8
+
+
+
+
+PART II. ONTOLOGY TRUST NETWORK
+Ontology's Framework Technology
+Decentralized                              Decentralized
+                                           Decentralized                           Decentralized
+data collaboration                         collaborative                                                                …
+                                           content sharing                         reputation system
+and trade                                  systems
+Application Framework
+SDK                                        Data trade module                       Data protection module
+…
+Data synchronization                       Multi-source verification
+API
+module                                     module
+Registration/verification                  Multi-source
+Data reading protocol
+protocol                                   verification protocol
+User authorization
+Data exchange protocol                     …
+protocol
+Core Protocols
+Distributed Trust Framework
+Data
+Multi-source                               Protection
+identity                                   Authorization
+verification
+Smart                                      …
+Contracts
+Trustworthy certification
+Trustworthy
+Data Storage
+Distributed identification
+Distributed Ledger Layer
+…
+ONT Core Ledger                            NEO                                     Ethereum                             Bitcoin
+At Ontology’s foundation is a fully        Ontology also provides systems for      and procedure management protocols
+decentralized ledger system that           secure data storage, hardware options   through the use of APIs, SDKs, and
+includes smart contracts and               for key management, and encrypted       other modules.
+security protocols. Ontology provides      data analysis. Together this creates
+compatibility support for complex          an application platform that allows
+technological systems, whether that        for all kinds of services to become
+be existing blockchains or tradition       decentralized.
+information systems. All systems feature
+                                           Ontology provides the framework
+decentralized entity management with
+                                           for use of all type of applications,
+support for main protocols and different
+                                           including decentralized data exchange
+password standards.
+9
+
+
+
+
+PART II. ONTOLOGY TRUST NETWORK
+Decentralized Identity Verification and
+Multi-Factor Authentication
+A decentralized and multi-factor identity verification system that assures data
+privacy is core to building a trust network. Such a system can provide identity
+verification systems for individuals, organizations, and physical objects.
+Multi-Factor Authentication                                                       Organizational Identity                                  Specialized Identity Verification
+Ontology’s identity verification system                                           Organizational networks can be                           Entities can create specialized identity
+is characteristically decentralized.                                              established using information such as                    verification systems based on industry-
+Decentralized identity verification is not                                        student IDs for academic institutions or                 specific or legal requirements, for
+predefined by industry nor does it come                                           employee IDs for businesses. All entities                example by integrating compatibility
+with set features, it is instead built by                                         can select a range of identity verification              with external electronic identification
+project-specific requirements.                                                    methods in order to create systems                       system such as CA Identity Manager,
+                                                                                  free from third party interference.                      or by integrating requirements of
+                                                                                  Private information is securely stored in                governments, organizations, academia,
+                                                                                  decentralized databases.                                 businesses, or social groups.
+Delivering a Decentralized Trust System
+In Ontology a decentralized trust system can be implemented alongside
+traditional trust systems. This includes:
+Community Trust                                                                   Statement
+Community trust is an effective system in which                                   A statement is the medium of community trust. In
+communities and individuals play an active role in identity                       Ontology a statement is a confirmation passed from
+verification.                                                                     one entity to another; only one statement is needed to
+instantly verify information.
+Trust Anchor
+Trust Transfer
+A trust anchor is an entity that has been entrusted to
+conduct identity verification. The higher the trust in the                        Trust transfer is conducted by submitting information
+trust anchor, the higher the trust in the network.                                required and receiving a statement. This could be an
+individual submitting their own identity information or
+using previously submitted information to form a portfolio
+of multiple identity certifications.
+10
+
+
+
+
+PART II. ONTOLOGY TRUST NETWORK
+Distributed Ledger Technology
+Ontology’s storage system works on a distributed ledger. The key feature
+of the completely decentralized, tamper-proof ledger is that trust is
+shared amongst multiple parties through the use of smart contracts,
+distributed networks, distributed storage, distributed authority,
+distributed security, and a variety of modules.
+Entity Registration and Authorization                                      Procedure Protocols                       Data Attestation
+An identity registration and                                               Ontology’s procedure protocols are        The distributed ledger system does not
+authorization system can be built with                                     carried out with distributed ledger       only store data but also records its use.
+Ontology's adjustable configurations or                                    technology, cross-chain entities,         Each data request, data matching, data
+by using a third-party authentication                                      cross-system privacy, and cross-chain     transfer, and data usage is attested to
+system such as CA Identity Manager.                                        protocols.                                the ledger, forming a complete private
+Community authentication and industry-                                                                               record of the data use.
+                                                                           Data Exchange
+specific verification methods can also be
+                                                                                                                     Smart Contracts
+used to allow participants access
+                                                                           All entities using Ontology can use the
+to identity verification through
+                                                                           data exchange. It allows users to have    Businesses can grow by implementing
+the blockchain.
+                                                                           full control of their data; having the    smart contracts and trust networks
+                                                                           tools to trade it while being able to     through new procedure protocols,
+Data Directory
+                                                                           meet their own privacy requirements.      controls, and exchanges of data.
+Data can be registered categorically to
+directories and use data identifiers
+(ONT Data ID) and data resource
+identifiers (Data URI) to match and
+verify to requirements through the
+decentralized system.
+11
+
+
+
+
+PART II. ONTOLOGY TRUST NETWORK
+Distributed Data Exchange
+Ontology supports distributed data exchange, which includes:
+Peer-to-Peer Data Transmission                                 Data Authorization Mechanisms           Copyright Protection of Data
+The data exchange system uses                                  Data privacy protection and leakage     Ontology stores, manages, and attests
+blockchain to support accurate search and                      prevention are always assured whilst    data throughout its life cycle. A digital
+transmission of data between two parties                       giving the user full control of their   identity is created for each copy of data
+without having a centralized database.                         data; each data transfer must receive   from registration, request, authorization,
+                                                               authorization from all parties.         to exchange. Copyright protection is also
+recorded to each copy on the blockchain.
+Distributed Data Storage
+A distributed data storage layer supports
+decentralized storage for different types
+of data.
+12
+
+
+
+
+PART II. ONTOLOGY TRUST NETWORK
+Other Key Functions and Modules
+Ontology Crypto Package (OCP)              Ontology Marketplace (OM)                GlobalDB
+Ontology provides a series of              Ontology Marketplace is a distributed    GlobalDB is a distributed key-
+cryptography and data security module      data exchange complete with data         value storage. It provides multiple
+support in areas including multi-factor    sets, algorithms, and models. It acts    backend database module options
+entity authentication, distributed data    as an extension to Ontology, providing   including levelDB, RocksDB, TiDB, and
+exchange, and distributed procedure        data products, data predictions, and     cockroachDB.
+protocols. This includes encrypted data    data computing resources. At the same
+                                                                                    GlobalDB is a blockchain database and
+transfer, key sharing protocols, multi-    time it maintains compatibility with
+                                                                                    IPFS module. GlobalDB provides the
+party key management, ring signature       other major cross-chain systems to
+                                                                                    ability for distributed transactions,
+modules, blind signature modules, and      create a large data exchange platform.
+                                                                                    scalability, real time checking of the
+secret sharing mechanisms. In identity     The native dApp lets providers across
+                                                                                    blockchain, and ability to interact
+and data validation zero-knowledge         industries implement the data trading
+                                                                                    with data off-chain. It can be used to
+proof and homomorphic encryption           market.
+                                                                                    correlate the blockchain and data, the
+schemes are used, and in a collaborative
+                                                                                    blockchain and AI, and so on.
+application two records are kept. Other
+multi-party technology schemes are
+being explored for the future.
+13
+
+
+
+
+PART II. ONTOLOGY TRUST NETWORK
+Ontology will build further modules according to
+project-specific requirements.
+HydraDAO                                           Ortorand Consensus Engine
+HydraDAO is a data prediction and                  Certain distributed ledger networks
+interaction module integrating smart               within Ontology’s chain network support
+contracts, cross-chain, and cross-                 Ontorand Consensus Engine (OCE), a new
+data source collaboration. It contains             consensus engine. Ontorand is a highly
+Ontology’s DAO (distributed autonomous             effective version of the DBFT consensus
+organization) and cross-chain data                 protocol based on Onchain’s Distributed
+interaction (big data/AI) features.                Networks Architecture (DNA). It has
+Ontology’s governance mechanism                    reached near-infinite scalability and
+supports democratic and AI-automated               requires a relatively low hashing rate,
+propositions and verifications. A unique           making it highly unlikely to experience
+DAO address and polling token will                 forks of the network. Ontorand’s
+be created during the process, which               block-creation speed is only limited
+allows DAO to automatically add funds              to internet speed, usually resulting in
+and results to Ontology. Once polling              confirmations within 20 seconds. As a
+is complete, DAO will autonomously                 truly decentralized protocol, Ontorand
+execute in accordance with the tamper-             entitles its users to consensus rights,
+proof smart contract. The mechanism                eliminating cases where miners or other
+allows data exchange and governance in             parties solely control confirmation
+Ontology to function with flexibility and          power. Ontorand selects who confirms
+supports the technology for large-scale            the blockchain using a verifiable random
+automated network operations.                      function, every confirmation receiving
+an Ontology seed directing to the next
+confirmation. Ontorand also supports
+pluggable verifiers and online protocol
+recovery and upgrade. Meanwhile, in
+order to meet needs
+from different chains in Ontology,
+the distributed ledger framework
+also supports pluggable consensus
+mechanisms including DBFT, RBFT, and
+custom PoW.
+14
+
+
+
+
+ONTOLOGY'S
+ECOSYSTEM AND
+APPLICABLE SCENARIOS
+III
+Ontology helps its partners improve their systems by
+integrating them into the blockchain infrastructure and
+designing comprehensive applications that come with
+full technical support.
+This part will introduce some of the applications that can
+be built onto the network.
+15
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Multi-Source Identity System for People
+Users can collect and manage their own identity data from various
+sources including public institutions, banks, businesses, family,
+colleagues, and friends.
+What do I want?
+Faith, knowledge, interest, viewpoint
+What skills do I have?                                              What have I experienced?
+Language, driving, profession                                       Education, work, travel
+What unique characteristics do I have?                              What do I own?
+Fingerprints, height, weight, DNA                                   Assets, debt, property
+                                                                                                                           ONTOLOGY NETWORK
+                                                                                                                           Multi-Source Identity Verification
+School                                                              Family                                                 Classmates                           Friends
+Government                                                          Bank                                                   Company                              Partners   NGOs
+Multi-Source Identity Authentication                                Data Tracking
+Multi-source identity authentication is the verification            All authentications on Ontology are performed with
+process of an identity by more than one source to give it a         signatures, which cannot be forged or repudiated.
+more secure and trustworthy certification.                          Meanwhile, to assure a secure authentication system,
+authenticators themselves can be subject to review if their
+Comprehensive Personal Profile
+authority or trustworthiness is questioned.
+A comprehensive personal profile describes the state in
+which an individual has built up an identity with data from
+multiple sources relevant to them.
+16
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Multi-Source Identity System for Objects
+In Ontology you can register digital identities of physical objects into the
+distributed network under the supervision of the product owners and/or
+producers. Each object has its own API and can interact with other digital
+identity holders.
+Relationship with People
+Ownership, right of use,
+manufacturing, sale, transport
+Relationship with Other Goods
+Relationship with Money
+Manufacturing, assembling, storage,
+Price, rent
+compatibility, consumption
+Tangible
+Characteristics
+Location, date, properties
+ONTOLOGY NETWORK
+Object Authentication Cycle                                                    Object Data Recording and Authentication
+Objects can be tracked throughout their life cycle                             Ontology can fully record and authenticate
+with multi-factor authentication by:                                           object data including ownership, circulation, user
+behavior, and other relevant information.
+Registering digital DIDs onto Ontology.
+Verifying objects with digital signatures and
+endorsement verification.
+Tracking the use and any other related data.
+17
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Distributed Data Exchange
+Decentralized
+Database
+6. Obtain exchanged data                                                     5. Upload encrypted data
+Data Buyer                                                                   Data Provider
+User
+1. Data request                                                              Registration
+Data Discovery
+Data Transaction dApp
+Data on a single entity no longer has
+to be manually gathered from multiple
+sources. In Ontology a comprehensive
+portfolio of data is already compiled
+and can be accessed with the user ID,
+                                                                             2. Authorization           Data Exchange   3. Data application   Data Exchange
+                                                                                                                                                              allowing for easy data collection and
+User Agent                                                                                              Module                                Module
+                                                                                                        (ODTP)                                (ODTP)          use.
+Data Exchange
+7. Smart contract                                                            4. Smart transaction       Registration
+Attest
+transacton complete
+The data owner must accept the data
+request before the data is exchanged
+ONTOLOGY NETWORK
+and the users credited.
+User online behavior data is often stored by service providers for
+analysis and trade. Ontology provides a data exchange system in which
+all data (with consent of the owner) can be discovered and traded to
+the owner's benefit whilst meeting individual privacy requirements. By
+nature of blockchain and smart contracts, all records on Ontology are
+open, transparent, trackable, and tamper-proof. This technology can be
+applied to areas including signing certificates, joint credit, distributed
+collaborative computing, and AI training data.
+18
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Distributed Collaborative Systems
+Distributed collaborative systems in Ontology help build up the trust network.
+See a doctor
+Send electronic prescription and medical history
+Doctor                                                                           Patient
+Send credentials
+Register to identity
+and service interface
+Ont ID
+Register to identity
+and service interface
+Inquire doctor and hospital
+service interface
+Check hospital's credentials
+Hospital
+Pharmacy
+An example of distributed collaborative systems in
+medicine:
+When doctors, hospitals, and patients register their
+identities onto the blockchain, the blockchain fills in the
+trust gap between the pharmacy and patient with record
+of the medicine's key information. The pharmaceutical
+enterprise then sells the prescribed medicine to the patient
+after verification of the doctor and hospital's credentials.
+Authorization Records                                                            Activity Records                        Evaluation
+Modifiable authorities of each                                                   All activity is recorded to ensure      A multi-party confirmation and
+participant are recorded and confirmed                                           transparency of participant identity,   endorsement mechanism allows for
+by all relevant parties.                                                         activity, and outcomes.                 evaluation of collaborative entities.
+19
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Distributed Equity Management
+Today's economic system contains a range of equity management models,
+though due to factors such as low transparency and information asymmetry
+these projects lack credible trust mechanisms. Equity management is also facing
+obstacles regarding project assessment, risk warnings, information disclosure,
+equity circulation, and authority entrustment. In light of this Ontology has built a
+trustworthy distributed equity management system.
+ONTOLOGY NETWORK
+Investor
+Trustor
+Rights entrust                                                                         Equity circulation
+                                                                                                                                                                                        Decision making
+                                                                                                                                                                             Trustee/                     Company,
+Investor                                                                               Investor                                                      Investor   Investor
+                                                                                                                                                                             Investor                     organization or project
+Providing project
+information/
+risk warnings
+Ont ID
+Upstream and                                                                           Cooperative                                                   Media      Regulatory
+downstream                                                                             organizations                                                            agencies
+enterprises
+Example in Investment Management:                                                      Distributed Interests Configuration
+Ontology has the functions to:                                                         Interests configurations are transparent to all parties and
+                                                                                       recorded onto the blockchain.
+Safely circulate data by having the option to include
+factors such as basic project information, operation                                   Distributed Rights Entrustment
+status, risk warnings, and records.
+                                                                                       Ontology allows for multi-party rights entrustment and
+Create a multi-party assessment system to include                                      recording, including the function to dispute actions by
+project operators, investors, cooperative organizations,                               providing relevant data.
+and upstream and downstream enterprises in which
+parties provide information on each other.
+Manage a project evaluation system where data can be
+accessed and assessed by its investors.
+20
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Distributed Community Management
+Current online communities are run by centralized
+service providers. Ontology provides the framework for
+communities to run in a purely decentralized system.
+Online community 1                                        Online community 2                          Online community 3
+Entrance 1                                                Entrance 2                                  Entrance 3
+Ont ID
+ONTOLOGY NETWORK
+Multi-source
+evaluation
+Organizations,                                            Other individuals                           Credentials
+companies, etc
+New Member Control                                        Other Features                              munities is essential. Ontology
+offers a system where users with
+In Ontology community managers can                        To address the difficulty of certifying
+authority can directly push content
+build their communities steadily by                       an individual's authority and credibility
+and ordinary users must first pass
+managing the inflow of members into                       within a distributed community
+content approval.
+the community.                                            Ontology has integrated:
+                                                                                                      An incentivization design. A reward
+Community Ranking                                         A public credibility system.
+                                                                                                      mechanism recognizes content
+                                                          According to the personal details,
+                                                                                                      creators for the reactions their
+Most communities have ranking
+                                                          publication history, and chat
+                                                                                                      content receives from other
+system where different users hold
+                                                          history of an individual, the com-
+                                                                                                      community members (such as
+different levels of authority and
+                                                          munity can carry out multi-party
+                                                                                                      “likes”). All content reactions
+discourse power. In Ontology users can
+                                                          evaluation of community members
+                                                                                                      are recorded to the blockchain to
+present their DIDs or other evidence
+                                                          to reward public credibility.
+                                                                                                      avoid data manipulation.
+of experience (for example someone
+presenting proof of a Java community                      Content publication control.
+group they manage) to community                           Controlling false or inappropriate
+managers to receive recognition.                          information in distributed com-
+21
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Distributed Content Generation and Trade Modules
+Current services can convert content into tangible assets (e.g. paid
+content) or into other types of intangible assets (e.g. content publishing
+with a profit model), though nevertheless at a cost to the content
+producer. Ontology, however, has introduced a comprehensive distributed
+trade system between content generator and consumer.
+Optimized Content Search                                                     Content Security Guarantee
+Users can choose to only view content produced by users                      Ontology’s tamper-proof identification system can function
+with a certain reputation level or entrust third-parties for                 with legal validity. Since blockchain is an open source
+content recommendations. In this system users have greater                   third-party technology, users can carry out IP legal right
+control in getting the content they want and can getting a                   authentication, payments, and transfers worldwide. The
+fairer price for it.                                                         reputation system helps build a reputation-based protection
+for content that adds another layer of security to the
+content exchange system.
+Text
+Content as Property
+Images                                                                       Ownership confirmation, profit,
+                                                                                                                                           Content
+                                                                             transfer of intellectual property                             creator's rights
+Audio                                                                                                                                      protection
+Video
+The cost of
+Liquidity                                                                    Maximized liquidity                                           trust
+Author
+Transaction
+Audience                                                                     Content as Information                                        Cost
+Trustworthy data provision, fair ranking
+system, recognition of high quality content
+Content
+provider
+22
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Distributed Reputation System
+In our daily lives we have to provide valid proof of certification for
+personal endorsement, for example with academic certificates. A
+reputation on the other hand is seen as a weak form of validation.
+School                                                                   Company                                             NGO                    Family
+Bank
+                                                                         Multi-party
+                                                                         Receive
+                                                                         evaluation
+                                                                         information
+                                                                                                                             Applicable scenarios
+Police
+                                                                         Authorization                                       Job applications
+Receive information                                                      channel
+Loan applications
+Ont ID
+Check credentials
+Multi-source authentication
+Reputation management
+Tax office                                                                                                                   Comprehensive
+                                                                                                                             Personal Profile       …
+                                                                         Multi-source                                        Receive
+                                                                         authentification                                    information
+Utilities
+                                                                                                                             Certification
+Industry                                                                 Media                                               Community
+                                                                                                                             authority
+Credit Management                                                        Building on Trust Models
+Ontology calculates local and global trust levels                        Trust models can be further developed by
+according to modifiable criteria. Local trust                            collaborating with the content generation and
+calculation uses local evaluation parameters and                         exchange system, for example by using multi-
+opinions, whereas comprehensive trust uses global                        source or multi-factor authentication systems for
+evaluation parameters to assure certainty and                            content evaluation and verification.
+diminish the influence of false information.
+Data Management
+Ontology combines two types of trust data
+management models: one storing data in a
+completely decentralized system and another
+storing data partly in centralized management
+systems where needed.
+23
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Decentralized Inclusive Financial Services
+Small businesses and individuals often lack credit records and collateral
+while facing high operation costs. This makes them riskier for banks and
+other financial institutions, leading to high interest rates. At the same
+time the cost of change is high and businesses face retributions to their
+reputation if they do not comply, leading to a multifaceted dilemma.
+Inclusive financial services
+Trust information
+Data/identity                                                               Funds/identity
+Follaborative system                                                        collaborative system
+Effective Coordination                                                      On-chain
+of Identity Data                                                            Management of Funds
+Authorization                                                               Application
+Multiple trustworthy
+                                                                            Financial
+data sources
+Medium-sized and                                                            institutions
+small enterprises
+/individuals
+From a Financial Aspect
+Ontology helps businesses and Ontology helps
+businesses and individuals become active
+managers of their data. With multi-source data
+coordination and authorization individuals can
+easily and safely provide information to apply
+for financial services and receive fairer interest
+rates from reducing risks to the other party.
+From a Social Aspect
+Financial institutions can also collaborate with
+Ontology, establishing multi-party security
+coordination and analysis mechanisms to
+provide better interest rates and services to
+small businesses and individuals.
+24
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Applicable Scenarios
+Ontology can provide distributed infrastructure to a range of scenarios
+without service providers having previous knowledge of distributed networks,
+blockchain, or cryptography.
+Listed below are scenarios that can benefit from integration into Ontology:
+Finance                                                                        Internet of Things
+Trading                                                                        Device-to-device payments
+Securities                                                                     Automated operations
+Wealth management                                                              Grid management
+Derivatives trading                                                            Smart home management
+Collateral management                                                          Office management
+Supply chain finance                                                           Consumer
+Payments                                                                       Sharing economy
+Micropayments                                                                  Supply chain
+Business-to-business international remittance                                  Pharmaceutical tracking
+Tax filing and collection                                                      Agricultural food authentication
+Know your customer (KYC)                                                       Shipping and logistics management
+Anti-money laundering (AML)                                                    Media
+Insurance                                                                      Digital rights management
+Claim filings                                                                  Art authentication
+Claims processing and admin                                                    Ad placement
+Fraud detection                                                                Ad click fraud reduction
+Telematics and ratings                                                         Resale of authentic assets
+Digital authentication
+25
+
+
+
+
+PART III: ONTOLOGY'S ECOSYSTEM AND APPLICABLE SCENARIOS
+Software Development                                      Asset Titles
+Micritization of work                                     Diamonds
+Disbursement of work                                      Designer brands
+Ad placement direct to developer payments                 Car leasing and sales
+Ad placement API platform                                 Home mortgages
+Ad placement notarization and certification               Land title ownership
+Medical                                                   Digitalization of assets
+Record sharing                                            Government
+Prescription sharing                                      Voting
+Multi-factor authentication                               Vehicle registration
+Personalized medicine                                     Benefits distribution
+DNA sequencing                                            Copyrights
+Education certificates
+26
+
+
+
+
+ECOSYSTEM /
+GOVERNANCE/
+INCENTIVIZATION
+IV
+The Ontology Family
+Ontology is built to be the foundational infrastructure
+of a trust ecosystem, supporting the development and
+upkeep of decentralized technology and data systems
+while acting as the connector between networks so that
+partners only need to focus on their business operations.
+Ontology Family are the major partners in the Ontology
+ecosystem. The following are the groups that make up
+the Ontology Family:
+27
+
+
+
+
+PART IV. ECOSYSTEM/GOVERNANCE/INCENTIVIZATION
+Distributed                                     Distributed Content
+Equity Management                               Generation and Trade
+Asset                                           Copyrights
+Management                                      Protection
+Verification                                    Internet of                                                                              Verification
+                                                                                            Public Welfare
+of Things                                       Things                                                                                   of People
+Distributed                                                                                 Finance                                      Distributed
+                                                Insurance                                                                                Community
+Data Systems                                                                                Services
+and Exchange                                                                                                                             Management
+Government
+                                                                                            Health Care
+Administration
+Distributed                                                                                 Distributed
+Reputation                                      ONTOLOGY                                    Community
+Management                                                                                  Management
+TRUST
+NETWORK
+3FHJPOBM 4DFOBSJP
+$SPTT SFHJPOBM 4DFOBSJP
+3FHJPOBM $PMMBCPSBUJPO
+$SPTT SFHJPOBM $PMMBCPSBUJPO
+Verification Service Providers                  Application Service Providers               Communities
+Electonic identification, CA                    Cross-industry application teams            Communities in Ontology can pool
+Identity Manager, and other publicly            establishing their own projects on top      together global institutional and
+credible identity verification service          of the Ontology infrastructure are core     individual-level talent to create an ideal
+providers for institutions, companies,          to the Ontology Family. At   the same       environment for sharing and growth.
+organizations, social groups,                   time Ontology   helps services succeed at
+                                                                                            Individuals
+and individuals.                                their projects by helping
+                                                with the creation and development
+                                                                                            Individuals act as fuel to the Ontology
+                                                of applications.
+ecosystem, powering the authentication
+and endorsement systems whilst helping
+expand the decentralized communities.
+28
+
+
+
+
+PART IV. ECOSYSTEM/GOVERNANCE/INCENTIVIZATION
+Compliance
+Cross-industry
+compliance
+Compliance with                                 Compliance with
+regulators                                      data verification
+Cross-legal system                              Cross-region
+compliance                                      compliance
+Compliance with
+data exchange
+Ontology Network's Compliance Support
+Cross-industry
+cross-chain compliance
+Cross-legal system
+cross-chain compliance
+Cross-region
+cross-chain compliance
+29
+
+
+
+
+PART IV. ECOSYSTEM/GOVERNANCE/INCENTIVIZATION
+Ontology’s identity verification and data       easily integrate legal framework into the
+systems are compliant with the various          ecosystem, making it easy for all entities
+legal frameworks in different regions and       to be compliant across the board while
+industries across the world. To accomplish      securing Ontology’s status as a secure
+this Ontology has built in mechanisms to        decentralized trust network.
+30
+ONT
+
+
+
+
+www .
+31
+
+
+
+
+ont .io
+Contact Us
+Email: contact@ont.io      Telegram: OntologyNetwork
+Twitter: OntologyNetwork   Facebook: ONTnetwork
+32
+
+
+
+
+© 2017 The Ontology Team
+
+
+
+
+

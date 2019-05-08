@@ -1,0 +1,2449 @@
+﻿Growth as a Service
+Distributed Platform. Universal. Business-to-business.
+Unleash the Power of Small Businesses
+Nikola Leger & Thomas Le Maguer (last updated Dec 06, 2018)
+integrity.one / White Paper draft - v1.50  / readability: grade 9 / 63 pages - 68 min
+
+
+
+
+White Paper Updates - Summary
+Dec 06, 2018
+In this update, we:
+●   updated the order of subsections in tokenomics
+●   added new material for tokenomics
+●   updated operating model chart
+●   updated council model
+●   updated order of narrative
+●   updated growth hacking chart
+●   placed some material in supplementals
+●   further edited for brevity
+White Paper draft - page 1                           Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Disclaimer
+The document is a marketing document and is not intended to be legally binding. Nothing in this document
+shall be deemed to constitute a prospectus of any sort or a solicitation for investment, nor does it in any way
+pertain to an offering or a solicitation of an offer to buy any securities in any jurisdiction. The information in
+this document does not constitute a recommendation by any person, nor does it constitute advice on the
+merits of participation in any purchase of Integrity Tokens or any other cryptographic tokens or currency.
+Potential purchasers should refer to the Terms and Conditions, as available on the Integrity website from
+time  to  time  for  the  terms  of  the  token  sales  and a non-exhaustive analysis of the risks involved in
+purchasing Integrity Tokens. You will be required to agree to these Terms and Conditions before purchasing
+any Integrity Tokens.
+Participants  must  make  their  own  independent  assessment,  after  making  such  investigations as they
+consider necessary, of the merits of purchasing any Integrity Tokens. Participants should consult and rely
+upon their accounting, legal and tax representatives and advisers in order to evaluate the economic, legal
+and tax consequences of purchasing Integrity Tokens.
+Certain statements contained in this document constitute forward-looking statements or speak to future
+events or plans. Such forward-looking statements or information involve known and unknown risks and
+uncertainties, which may cause actual events to differ materially. No reliance should be placed on any such
+forward-looking statements or information.
+White Paper draft - page 2                                                                                           Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Table Of Content
+White Paper Updates - Summary                                                                                     1
+Disclaimer                                                                                                        2
+Abstract                                                                                                          8
+Background                                                                                                        8
+Opportunity                                                                                                       8
+Problem                                                                                                           9
+Leading Causes                                                                                                    9
+Operating AND Growing at the Same Time is Very Hard                                                               9
+We Don’t Know Who to Trust for Marketing                                                                          9
+                                                      A Marketing Ecosystem Plagued by Waste and Inefficiencies   9
+What if?                                                                                                          10
+Solution                                                                                                          10
+Embrace the Platform Revolution                                                                                   10
+Core Values                                                                                                       11
+Blockchain use case                                                                                               12
+Unleash the Power - market timing                                                                                 12
+A Distributed Record Of Trust                                                                                     13
+The Three Layers of the PoWR2 protocol                                                                            13
+Proof of Wisdom                                                                                                   14
+Proof of Reputation                                                                                               16
+Proof of Results                                                                                                  16
+GRIT - the integrity work token                                                                                   20
+Why GRIT?                                                                                                         20
+Incentive is behavior                                                                                             21
+Game theory                                                                                                       22
+Focus                                                                                                             22
+Transparency                                                                                                      22
+Collaboration                                                                                                     23
+Specialization                                                                                                    23
+The Two Engines of a Platform                                                                                     23
+White Paper draft - page 3                            Integrity.one                                               to contribute: thomas@integrity.one
+
+
+
+
+Transaction engine                                                        23
+Learning engine                                                           24
+Machine Learning                                                          25
+Payments, Money and Engine Fuel                                           25
+Crypto vs fiat                                                            26
+Coin or token?                                                            26
+Existing or new?                                                          26
+INTEGRITY DOLLAR (ID) - the integrity utility token                       28
+Wealth Distribution                                                       28
+Why ID, the integrity dollar?                                             28
+VIRTUE - the integrity vote token                                         29
+The Foundation and the Council                                            29
+Traction & Market Fit                                                     30
+Talent                                                                    33
+Leadership                                                                33
+Team                                                                      33
+Collective (Partners, Advisors, Consultants)                              35
+Financial partners                                                        37
+Building The Platform                                                     38
+Pilot                                                                     38
+Prototype                                                                 38
+Agile development                                                         38
+User Interface and user experience                                        39
+Mind Map                                                                  39
+Drill up - drill down                                                     40
+Timeline                                                                  40
+Chatbot                                                                   40
+Business Intelligence, Relevant documents and Artefacts                   41
+Functional prototype                                                      41
+Product Roadmap                                                           41
+Go to market strategy                                                     42
+Marketing Collateral                                                      43
+White Paper draft - page 4                                Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Total Addressable Market                                         44
+Serviceable Market and Target Market                             46
+Token Usage and Demand                                           46
+Growth as a Service - first use case - one agency                46
+Growth as a Service - first generations of clusters              46
+Growth as a service - the total network                          46
+Propensity to Hodl Derived From a True Circular Economy          47
+The network effect of a virtuous circle                          48
+Burn and mint or reinvest in small business growth?              50
+Market Conditions and Timing                                     51
+Tokenomics                                                       52
+Economic Model                                                   52
+Token design                                                     52
+Economic Equation                                                53
+Demand                                                           54
+Supply                                                           55
+Monetary Policy                                                  55
+Use of Funds                                                     55
+Operating a Surplus Economy                                      56
+Treasury Management                                              57
+Asset-backed Integrity Dollar                                    57
+Fiat to Integrity Dollar Exchange Rate Risk                      58
+Circular Economy: Value for All                                  59
+Token Sale                                                       60
+Programmatic Releases                                            60
+Token Allocation                                                 62
+Token sale                                                       62
+HOW TO PARTICIPATE                                               63
+Seed Round (being finalized)
+(for 5% equity of the company building/operating the platform)   63
+Private pre-sale (-live-)                                        63
+Private sale (- Q1 2019 -)                                       63
+Public pre-sale (- Q2 2019 -)                                    63
+White Paper draft - page 5                                       Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Public sale (3 stages) (- to be announced -)          63
+SUPPLEMENTALS                                         71
+Token design (continued)                              71
+Capturing Value                                       72
+Valuation models                                      72
+Equation of exchange and velocity                     72
+Compelling motivation to hold and net present value   73
+Incentive to hold                                     73
+Small business owners                                 74
+Freelancers and agencies                              74
+Experts and consultants                               74
+Tech providers                                        74
+Crowd                                                 75
+Vesting                                               75
+Market Cap                                            75
+White Paper draft - page 6                            Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Abstract
+(these 3 sections were last updated as of 2018-12-04)
+This white paper describes a distributed Growth as a Service platform. It is based on the Proof of Wisdom,
+Proof of Results and Proof of Reputation  (PoWR2) protocol. The integrity.one platform matches small
+businesses to marketing providers (people, process, technology). It empowers the ecosystem to deliver fair
+and accessible growth on demand.
+Background
+Small businesses1 matter. They’re the true engine of the economy (with 54% of all sales, 66% of new jobs 2
+and 64% of innovation in America3). And numbers are similar around the world4, for both high income5 and
+emerging economies. Small businesses drive the world.
+Opportunity
+In the U.S., 29M small businesses spend around 49B USD a year advertising6, to try and fuel their growth. On
+a global scale, that number is closer to 200B - for the more than 125M registered small businesses7 around
+the world.
+Digital marketing has been on the rise but is still leaving most behind. Business owners generally lack the
+time or expertise to take advantage. Only about a third of small businesses know their marketing efforts are
+working8. Most find themselves rather frustrated and eager for a solution.
+1 Throughout this document, we use “small business” in reference to “Micro, Small & Medium Businesses”
+2 Source: SBA U.S. Small Business Administration
+3 Source: Entrepreneur.com
+4 Account for 60-70% of jobs in most OECD countries. - World Forum
+5 Source: World Bank / IFC 2010
+6 Source: emarketer reports 151B in U.S local ad spend for 2018. About 64B  national ads, 49B SMB and 36B local, non SMB
+7 Source World Bank / IFC 2010
+8 Source https://www.infusionsoft.com/resources/small-business-marketing-trends-report
+White Paper draft - page 7                                                                                                 Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Problem
+(this section was last updated as of 2018-12-06)
+More than half of new businesses will not survive the first 5 years. And 70-80% will be out of business by the
+10-year mark. 9
+Leading Causes
+1.                                                                                                               Operating AND Growing at the Same Time is Very Hard
+10
+You have to run the business, grow the business and deliver value to your customers                              , all at the
+same time.  But those three core areas require very different skills. Few owners go into business
+11
+knowing how to manage a business well                                                                            ... and even fewer excel at sales or marketing.
+Most people start a business because they love delivering a certain product/service. The whole
+struggle over the rest of it ultimately results in wasting a lot of time and money. And as they try to
+12
+juggle it all, they often end up neglecting what creates the most value: their product
+2.                                                                                                               We Don’t Know Who to Trust for Marketing
+To grow, you need the right people, process and technology. Who can we trust with that? Agencies
+are usually costly. Freelancers often lack results. And local media has been struggling with “digital”
+forever. How do we know who’s got the skills, expertise or tools to deliver? Sadly, we don’t.  And
+precious funds get wasted, at an alarming rate, as owners try to figure it out.
+The owners often end up having to come up with the overall strategy. They have to assemble the
+pieces of this very complex puzzle. That results in a challenging process for everyone involved. It
+creates a vicious circle of failures, from which very few recover.
+3.                                                                                                               A Marketing Ecosystem Plagued by Waste and Inefficiencies
+To make matters worse, the market is very fragmented. Long gone are days of the simple listing in
+13
+the phone book. There are now over 7000 technology providers                                                     . That is across more than 100
+14
+functional areas of marketing)                                                                                   . And they overlap in ways that prove overwhelming for most.
+enlarge                                                                                                          enlarge
+9   Source: Entrepreneur.com
+10 Unbundling the Corporation by John Hagel III, Marc Singer, Harvard Business Review
+11 E-Myth revisited: Why Most Small Businesses Don't Work and What to Do About It Michael Gerber
+12 Throughout this document, we often use “product” in reference to “product and/or services”
+13 Source  https://chiefmartec.com/2018/04/marketing-technology-landscape-supergraphic-2018/
+14 Source https://www.gartner.com/technology/research/digital-marketing/transit-map.jsp
+White Paper draft - page 8                                                                                       Integrity.one                                                  to contribute: thomas@integrity.one
+
+
+
+
+As we touched on, 29M small businesses spend over 49B a year on ads in the USA15 alone. And 125M small
+businesses invest well over 200B16 in advertising globally. Bear in mind that most insiders estimate that
+17
+50-80% of that ad spend goes straight  to waste
+What if?
+What if there was a way to leverage all that wasted capital? What if those millions of businesses didn’t have
+to  fail  over  the  next  5  years? What if a better model has already been emerging, at the edge of the
+ecosystem? What would happen if over 100B a year, instead of getting wasted, could build upon itself? What
+if it compounded year after year, in an efficient circular economy?
+1.   What if a new business model can finally manage to unbundle small businesses?
+What if business owners got to focus on product while trusted experts handled the growth?
+2.   What if blockchain can finally enable a real trust index of marketing providers?
+And what if legitimate people, process and technology joined forces on ONE platform?
+18
+3.   What if such a platform makes it possible to power and fuel a true circular economy                                       ?
+What if we eliminated most of the 100B+ of waste and invested in efficient sustained growth?
+Solution
+(this section was last updated as of 2018-11-28)
+A Growth as a Service  platform to empower small businesses to win.
+Embrace the Platform Revolution
+A true platform model 19that operates on the prescribed three levels:
+1.   individual/organization level: oust the bad actors and reward productive behavior
+2.   community/interaction level: establish trust to help and orchestrate collaboration
+3.   ecosystem level: reduce friction for marketing, advertising and growth.
+15 Source: of the 150B annual ad spend reported by BIA Kelsey in the U.S, approximately ⅓ or 50B comes from small businesses
+16 Source emarketer
+17 Very few marketers will publicly admit it. But they will do so off the record and it’s a well known fact in the industry.
+18 Source: https://www.ellenmacarthurfoundation.org/circular-economy/overview/concept
+19 as defined by Simone Cicero in the acclaimed  Platform Design Toolkit white paper
+White Paper draft - page 9                                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+A first universal 20platform, with a simple intuitive and visual interface, that delivers:
+●   anything and everything you could ever need to grow a small business, all in one place
+●   powerful incentives to collaborate and co-create (freelancers, experts & tech providers)
+●   true waste reduction and fair wealth distribution, for the whole ecosystem to prosper.
+GROW
+Get matched to the right mix of people,
+process & technology, to grow on demand
+CO-CREATE
+The best marketers, specialists and tech
+providers join forces to be better together.
+PROSPER
+Fuel a true circular economy between:
+- freelancers, experts & tech builders
+- small business owners
+- the backers, contributors and community
+Core Values
+To deliver on this vision, we honor 7 core values that we hire, fire and promote by:
+1.   Put People First
+The only way to get people to care is if they know you care first
+2.   Evolve, Always
+Seek and embrace change. Innovate and mutate to evolve.
+3.   Better Together
+None of us is better than all of us. Together, we go further and achieve more.
+4.   Deliver more value
+We focus on giving exponentially more than we take.
+5.   Believe
+Believe in the vision, the mission, the customer, the team, yourself, and life.
+6.   Tell the real story
+Have the courage to tell and receive the uncomfortable truth.
+7.   Build resilience
+Thrive to outlast, to serve and honor the next 9 generations behind us.
+20 Integrity is agnostic, a truly unified platform to access all the people, process and technology that can deliver growth
+White Paper draft - page 10                                                                                                   Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Blockchain use case
+What does any of that have to do with blockchain, tokens or smart contracts?
+21
+blockchain
+“Blockchain  refers  to  a  type  of  data  structure that enables identifying and tracking
+transactions  digitally  and  sharing  this  information  across  a  distributed  network  of
+computers, creating in a sense a distributed trust network.” - Webopedia
+1.                                                                                                                     We can rebuild a layer of distributed trust as a new foundation for the small business marketing
+ecosystem
+22
+token                                                                                                                   
+                                                                                                                       “A  unit  of  value  that  an organization creates to self-govern its business model, and
+                                                                                                                       empower its users to interact with its products, while facilitating the distribution and
+                                                                                                                       sharing of rewards and benefits to all of its stakeholders.”- William Mougayar
+2.                                                                                                                     We can use a  “point system”, tokens as powerful incentives for marketers to do right by small
+businesses.
+23
+smart contracts
+"a set of promises, specified in digital form, including protocols within which the parties
+perform on the other promises"  [...] to improve execution of the four basic contract
+objectives: [...] observability, verifiability, privity and enforceability.  - Nick Szabo
+3.                                                                                                                     We  distribute  operations  and  applications  to  impact  a  maximum  of  businesses  much  more
+efficiently
+Unleash the Power - market timing
+We’ve been monitoring the space for 25 years for the right conditions for this paradigm shift when it comes
+to:
+●   software development frameworks
+●   microservices architecture
+●   machine learning
+●   natural language processing
+●   blockchain
+●   smart contracts
+●   crowdfunding
+●   smart tokens & cryptocurrency
+●   governance and regulations.
+●   and so much more!
+And we’re now finally standing in the eye of the perfect storm. There’s never been a better time to unleash
+the PoWR2.
+21 Source: https://www.webopedia.com/TERM/B/blockchain.html
+22 Source: https://medium.com/@wmougayar/tokenomics-a-business-guide-to-token-usage-utility-and-value-b19242053416
+23 Source: www.nasdaq.com/article/smart-contracts-described-by-nick-szabo-20-years-ago-now-becoming-reality-cm611829
+White Paper draft - page 11                                                                                            Integrity.one                                                                                       to contribute: thomas@integrity.one
+
+
+
+
+A Distributed Record Of Trust
+24
+The ecosystem is ripe with incompetence                                                                          , fraud25 and a big tech bubble of shoddy software. With people,
+process and technology on one platform, we can measure their performance.  Despite all the snake oil out
+there, we can follow the science and find the precious signal within the noise. We can determine:
+●   who’s doing good work
+●   who knows how to grow a business well
+●   and who builds great tools that actually produce results.
+A blockchain allows us to secure that data on a distributed public source that can’t be tampered with. It also
+allows us to filter out the bad agents. And we can reward the good ones for being a productive member of
+26
+the ecosystem. Together, we will finally be able to write new rules and change the game
+The Three Layers of the PoWR2 protocol
+Our first major contribution to the ecosystem will be to develop the protocol. It will enable people, process
+and technology to join forces. Distributed entities can deliver more value together. We are focusing on the
+use case to orchestrate distributed growth on demand. But there is already interest for use cases in other
+industries as well.
+To determine what works best and delivers the most value for growth, marketers have to test:
+●   a variety of marketing people (freelancers, agencies, etc.)
+●   processes (strategies, tactics, procedures,etc.)
+●   and technologies (systems, applications, software, etc.).
+We  observe  series of campaigns and funnels. And have to change, quantify and adjust a multitude of
+variables throughout. We then test and refine until we end up with a proven system. It can then deliver
+consistent growth. That is: on demand and across a huge variety of different use cases and scenarios.
+24 Source: Linkedin
+25 Source: Business Insider
+26 Source: Market Design: Auctions and matching
+White Paper draft - page 12                                                                                      Integrity.one                                                      to contribute: thomas@integrity.one
+
+
+
+
+Thanks to recent advances in computer science, we can build that logic into algorithms. And form the basis
+of our Proof of Wisdom, Proof of Results and Proof of Reputation (PoWR2) protocols.
+1.  Proof of Wisdom
+Experts  spend  years  mastering  a  niche  and  perfecting  their  craft.  And  we could not achieve
+exceptional growth without them. Growth hacking requires a good dose of both art and science.
+They are the masters who know what works, how to make it work and why it works. They have
+27
+what’s referred to as wisdom                                                                                          . In knowledge management, it is the highest and most valuable form
+of knowledge.
+wisdom
+“Uncover why the derived knowledge is applied by individuals in a specific way. i.e.
+finding the reason behind any decision-making..”
+- CertGuidance
+The Data - Information - Knowledge - Wisdom pyramid model:
+28
+source: Electronics360
+They craft those processes over the years. They hold the kind of recipe for growth we all need to
+29
+fuel  our  businesses. There’s a reason that experts like Sean Ellis                                                  , one of the original growth
+30
+hackers                                                                                                               , was able to:
+31
+●   grow LastPass (Logmein) from zero to a 342M IPO in 6 short years
+●   put DropBox on the path to a 1 Billion run rate in 7 months
+●   grow and sell Qualaroo for millions (valued between 29M-44M) 32under 4 years
+growth hacking
+is a process of rapid experimentation across marketing channels and product development
+33
+to identify the most effective, efficient ways to grow a business. - barnraisersllc.com
+27 Source: https://www.certguidance.com/explaining-dikw-hierarchy/
+28 Source: https://electronics360.globalspec.com/article/4890/optimal-analysis-algorithms-are-iot-s-big-opportunity
+29 Source: https://blog.growthhackers.com/@SeanEllis
+30 Source: http://rocketship.fm/episodes/the_strange_origin_of_growth_hacking_growth_ep_1/
+31 Source: https://www.crunchbase.com/ipo/logmein-ipo--bd96aa19
+32 Source: https://finder.startupdelta.org/companies/qualaroo/
+33 Source: http://barnraisersllc.com/2017/07/10-greatest-growth-hacking-case-studies-learning/
+White Paper draft - page 13                                                                                           Integrity.one                                                         to contribute: thomas@integrity.one
+
+
+
+
+True growth hackers have proven track records up to 10-20X returns34 on marketing investment.
+Most marketers struggle to achieve even a 2-3X return. The key to their consistency and amazing
+results starts with their processes.
+We can infer the level of wisdom for these experts by measuring the performance delivered (leads,
+sales, revenues, etc.). And by the strength of those results.
+We obtain proof of wisdom by validating that a process is consistent. It needs to yield proven results
+over a statistically significant sample size.
+Using using smart contracts allows the platform to issue those experts work tokens. These tokens
+grants them rights on the platform. They act as a license to allow them to contribute their expertise
+to the system. It’s a small piece of secure code issued to them that will act as a permission. It lets
+them access different areas and platform features.
+Smart contracts allow us to take advantage of software automation. The business organization is
+the opposite of traditional command and control corporate structures. They need large quantities
+of middle management and clerks throughout. We don't.
+A lot of efforts focus on increasing the scalability of smart contracts. They aim to compete with
+high frequency transactions like credit cards, as an example. They need to handle over 150 million
+transactions per day.
+We expect thousand of members to join integrity in the next couple of years. Even then, our daily
+transaction volume will remain in the thousands at first. It DOES NOT present much technical
+challenges, as far as volume, for the foreseeable future.
+As experts contribute their wisdom to the platform, it benefits all the businesses that need it to
+grow.  The  platform  uses  a  series  of  smarts  contracts  and  micropayments.  It  ensures  fair
+compensation of experts. And pays them every time someone uses their process.
+34 Source: http://barnraisersllc.com/2017/07/10-greatest-growth-hacking-case-studies-learning/
+White Paper draft - page 14                                                                              Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Ultimately, a blockchain allows them to commit their process to the platform. It ensures a wider
+distribution and streams of passive income. It also encrypts and protects their intellectual property.
+The mechanics are similar to licensing or royalties.
+2.                                                                                                         Proof of Reputation
+To execute those processes correctly, we need people with the right attitude/aptitudes to deliver
+the best results. Those are the honest people who care and have what it takes to get the job done
+right. They are reputable players in the ecosystem. They spent years doing good work, building their
+name and reputation. They’re the ones we can count on to build and manage what the experts
+recommend and for their process to deliver growth.
+Once a freelancer or agency is proven to have reputation and deliver consistent work, we also issue
+them work tokens. The work tokens grant them their own set of rights on the platform. It also acts
+as a license that allows them to perform certain work in the system. It is based on their specific skill
+set and track record.
+We’re also developing a potential staking mechanism to allow them to leverage the work token they
+earn as they build their credentials on the platform.
+The platform also uses a series of smarts contracts, escrow and micropayments to ensure the right
+people qualify for an assignment. When a process requires execution to deliver results and grow a
+business, it is assigned to the right worker, based on their specific skills and proof of reputation.
+The people selected to perform the work then use the learning engine of the platform to get a clear
+definition of the task at hand. They access educational material on the work involved. They can also
+access case studies, step by step guides, full standard operating procedures and checklists to help
+them achieve the work with the greatest level of efficiency.
+And they can request support from the community of practice within the platform. It ensures
+optimal results to fulfill their contractual obligation. It also benefits the collective.
+The  work is completed and submitted, at every step of the process. It then gets audited and micro
+payments  are  released  from  escrow,  once  the  quality  meets  the  standards,.  Auditing  will  be
+assigned to peer validators in the beta and expected to be progressively automated via machine
+learning over the next 3 years.
+A blockchain allows us to commit that performance history to the platform in full transparency. It
+creates opportunities for the freelancers and agencies by ensuring a steady flow of assignments and
+income based strictly on the quality of their work and their proof of reputation. They can earn work
+simply by doing good work rather than being forced to solicit prospects and waste precious energy
+on sales and marketing efforts. All that is also achieved by way of smart contracts to keep the whole
+operation lean and limit the layers of middle management.
+3.                                                                                                         Proof of Results
+                                                                                                           And finally, those people need the right tools to execute those processes efficiently. Software is
+                                                                                                           generally meant to deliver efficiency. There are thousands of marketing tools and pieces of code out
+                                                                                                           there. But only a fraction delivers the results we need to fuel consistent growth.
+White Paper draft - page 15                                                                                Integrity.one                                                                                          to contribute: thomas@integrity.one
+
+
+
+
+Thousands of hours spent implementing different technology across thousands of funnels enable
+growth hackers and marketers to follow the science, and pinpoint the right pieces of software and
+code to deliver the most value.
+We can connect all the proper marketing and advertising technologies to the platform via their
+Application Programming Interface or APIs. The sum of these components (web-based systems,
+operating  systems,  database  systems,  computer  hardware,  or  software  library)  allow  our
+programmers to fetch exactly what people need to execute and deliver growth for the expert
+processes in question.
+35
+Thanks  to  the  rise  of  microservices  architecture                                                      ,  our  software  architects,  engineers  and
+developers  can  use  all  these  different  pieces  of  the  puzzle  (whether  they  be  routines,  data
+structures, object classes, variables, or remote calls) and assemble them, or mash them up together,
+following our very own recipe, as well as building our own user experience and interface, to deliver
+the exceptional growth we’re after - in the simplest, most user friendly, comprehensive and holistic
+format possible.
+36
+As everything that happens on the platform, each piece of software, each microservice will be
+subject to split testing and multivariate testing. When microservice A proves objectively more
+efficient than microservice B, the system can establish proof of results.
+Once a tech provider and their software or hardware is proven to produce results, the platform also
+issues them work tokens. Those tokens grant them their own set of rights on the platform. It’s like a
+license that allows them to connect and contribute their technology to the system, based on the
+specific ability of their machines/code.
+It can sometimes feel a bit abstract, in theory, to imagine a system that can measure software
+efficiency. It simply entails measuring the gains in efficiency the tools provide.
+e.g. imagine that a gardener has to water a field. It takes him 3 hours to water it with a bucket. If
+he were to use a hose that would allow him to do it in 1 hour. You can track that gain in efficiency.
+35 Source: https://blog.g2crowd.com/blog/trends/digital-platforms/2018-dp/microservices/
+36 https://blog.g2crowd.com/blog/trends/digital-platforms/2018-dp/microservices/
+White Paper draft - page 16                                                                                 Integrity.one                                   to contribute: thomas@integrity.one
+
+
+
+
+And the same is true of a sprinkler that would take him 5 minutes to set up. That’s what we mean
+by results and efficiency.
+The platform also uses a series of smarts contracts, escrow and micropayments to pick and reward
+the right tools for the job. Whenever a process requires their software or hardware to deliver
+results and grow a business, the tech providers simply get the business, based on results.
+A blockchain allows them to earn a steady flow of income through an API call model (or pay as you
+go model, if you will) based on the merit of their technology - as opposed to a tech provider earning
+market shares based on the ability of their sales and marketing team to push their product unto
+users, regardless of the merit.
+37
+This means that software developers will gain the ability to focus on their niche and progressively
+divest from sales and marketing to further invest in research, development and actual computer
+science. It means they can progressively do away with all the bells and whistles in their application
+and focus on the raw power of what makes them different.
+It means that a bunch of bloatware and vaporware will wither away while the great technology out
+there finally gets to thrive in a much more efficient and powerful meritocracy. It means we get to
+write new rules to reward research, progress, collaboration and actual results rather than sales and
+marketing buzz.
+It  will,  of  course,  in  part,  be  a  potential  initial  nightmare  for  the  venture  capital  who  are
+backing/pushing bad tech at the moment.  But it will also bring a progressive but powerful relief
+over time  - as they gain new insights into what tech actually deliver results and is worth their
+investment. Together, we can usher a new era of objective tech valuation.
+37 source: https://steemit.com/ethereum/@ryuzakilost/ethereum-smart-contracts-101-hello-world
+White Paper draft - page 17                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Tech capital is currently diluted like the billions of kilojoules that get dispersed from the sun. That
+kind of massive energy sometimes only amount to a mere sunburn when it is scattered as such. But
+you can also harvest and concentrate just a few kilojoules of energy and cut through the thickest
+steel, once it gains the focus of a laser beam.
+It’s time to collectively focus our efforts towards true small business growth. It’s time to get rid of
+the inefficiencies and the waste in the ecosystem; time for laser focus!
+We don’t have to put up with choosing from an exponentially growing set of over 7000 different
+technologies anymore. We can connect them all into one massive efficient machine and evolve the
+system as a whole. One test, one experiment at a time, we can emulate natural selection and
+evolution of its components. All that, through one massive universal matrix.
+We’re not against diversity. We embrace and encourage it. We’re creating a common ecosystem for
+it to thrive more than in the actual broken system. And we’re simplifying the ability for the small
+business owner to capture the value that emanates from a higher order of collaboration.
+White Paper draft - page 18                                                                               Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+GRIT - the integrity work token
+We’ve  established  that  as  the  best  experts, freelancers and tech providers join forces to run
+campaigns on ONE platform, we can monitor their true results and the growth they generate. A
+work token will allow us to grant them rights to contribute to the platform.
+But complex systems need more than a simple binary permission as a driving force, if we want them
+to greatly evolve over time. We also need our work token to express a dimension of quantity, a
+certain gradient of intensity. It will be necessary if we want to be able to accelerate the growth. It
+will be required to efficiently catalyze the behaviors we are looking to shape and influence - for the
+greater common good, through this platform.
+And this is why we're introducing GRIT, the integrity work token. Freelancers, experts and tech
+providers will be able to earn this work token based on the quantity and the quality of their input
+and their output. They will earn GRIT based on the quantity and quality of their contribution,
+throughout their own journey and the history of the platform.
+And they will lose GRIT if they don’t act in the best interest of the ecosystem. - We’re currently
+working with our team of engineers in Ukraine and our economists in Switzerland to design, model,
+build and test the best staking mechanism for the work token.
+These work tokens cannot be traded or sold. They serve the single purpose of empowering the
+individual or the entity who earns them, in order to serve the greater common good. This kind of
+token enables us to build a layer of distributed trust as a robust foundation for the platform and the
+ecosystem.
+(As a side note: we will cover later how the second type of token, the utility token will also help fuel
+this new economy. And we’ll cover how everyone can take advantage to grow and prosper.)
+Why GRIT?
+The concept has been getting a lot of attention, thanks namely to the work of pioneer psychologist
+38                                                                                                         39
+Angela Duckworth                                                                                           . She’s the Founder/CEO of Character Lab      , a nonprofit whose mission is to
+advance the science and practice of character development. She is also the Christopher H. Browne
+Distinguished Professor of Psychology at the University of Pennsylvania, faculty co-director of the
+40
+Penn-Wharton Behavior Change For Good Initiative                                                           , and faculty co-director of Wharton People
+41
+Analytics
+42
+Grit
+“in  psychology  is  a  positive,  non-cognitive  trait  based  on  an  individual's
+perseverance of effort combined with passion for a particular long-term goal or
+end state (a powerful motivation to achieve an objective). This perseverance of
+effort promotes the overcoming of obstacles or challenges that lie on the path to
+accomplishment  and  serves  as  a  driving  force  in  achievement  realization”  -
+wikipedia/Grit_(personality_trait)
+Angela received a MacArthur genius grant in 2013 and has advised the White House, the World
+Bank, NBA and NFL teams as well as Fortune 500 CEOs. Her TED talk is among the most-viewed of
+38 Source: https://angeladuckworth.com/about-angela/
+39 Source: https://characterlab.org/
+40 Source: https://bcfg.wharton.upenn.edu
+41 Source: https://wpa.wharton.upenn.edu
+42 Source: https://en.wikipedia.org/wiki/Grit_(personality_trait)
+White Paper draft - page 19                                                                                Integrity.one                                 to contribute: thomas@integrity.one
+
+
+
+
+43                                                                                                                                                                                       44
+all time                                                                                                        . Her first book, the 2016 Grit: The Power of Passion and Perseverance   , is a #1 New York
+Times bestseller.
+Her work is second to none and perfectly embodies the struggle of the small business . Passion and
+Perseverance are certainly at the heart of this fight. It’s ultimately what drives the economy.
+And it impacts the livelihood of most families and most communities around the world. It seems
+fitting to have the integrity work token be a constant and powerful reminder of that.
+Incentive is behavior
+Thanks  to  the  general  properties  of  cryptocurrency  and  utility  tokens,  we  have  a  unique
+opportunity to further incentivize and catalyze this whole process.
+A smart contract is the ideal technology to reward the freelancers with the best reputation and
+progressively  increase their rights on the platform. The better people perform and the higher
+quality work they deliver on time, the more work they get. It’s the perfect use case for a work token.
+It also keeps the incompetent, the charlatans and the unreliable at bay.
+The  same  is true for the experts with the most reliable and consistent marketing wisdom.  A
+blockchain is the ideal environment to test the different processes they contribute to the platform.
+We can transparently share the results and create a public record of trust that can’t be tampered
+with while properly licensing and monetizing their intellectual property around the knowledge they
+crafted and accumulated over the years.
+The more efficient their process, the more it gets used, the more income it generates for them and
+the more growth for the small businesses, and the community. Everybody wins! That’s the power of
+a circular economy! Who said economies had to be zero sum games?
+And the same logic applies to the more than 7000 different marketing and advertising technologies
+out there. Marketing software is meant to help marketers gain efficiency. Tech providers should
+accrue markets shares based on the results they yield… not on the strength of their sales and
+marketing, or the size of their budget.
+Comparing and recording results on a blockchain also allows the platform to reward the very best
+and protect small businesses against the snake oil that’s been rampant these last 2 decades.
+This  empowers  promising  small  businesses  to  purchase  growth  on  demand  from  trusted
+contributors, knowing their investment is safe and will yield a great return. If we can band together
+to achieve this, we can change the face of capitalism as we know it.
+If we can gain critical mass and enlist the world’s most prominents experts in the various disciplines
+this unique feat requires, we can truly usher the next era of work and abundance for the 99%. Let’s
+take our rightful place at the forefront of the 4th industrial revolution!
+Game theory
+As  we  touched  on briefly before, one of the best use cases for blockchain, smart contract and token
+technology is to provide the ability for the platform to shape behaviors. This ability revolves around the
+capacity to reward various participants when they engage in productive behaviors (i.e. when they act in the
+best interest of the greater common good i.e. contribute to shift the ecosystem towards a state or near state
+of Pareto Optimality or Pareto Efficiency).
+43 Source: https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance
+44 Source: https://www.amazon.com/Grit
+White Paper draft - page 20                                                                                     Integrity.one                                                            to contribute: thomas@integrity.one
+
+
+
+
+In basic game theory, we can help predict the behavior or certain players by knowing:
+●   the rules of the game
+●   what they anticipate as a payoff (or utility)
+●   what knowledge players have when it comes to these rules, the payoffs and how they anticipate
+others to play (strategy).
+It will therefore be essential to design rules and rewards for the platform that benefit the growth, the
+evolution and the sustainability of the community and its participants. Designing effective and powerful
+incentives will help to predict and fuel the growth of this new economy for the benefit of its participants and
+the community that supports it.
+Let’s recap some of the current behaviors in the small business marketing ecosystem that are causing waste
+and inefficiencies and list the powerful incentives we can create to remedy some of that waste.
+Focus
+Rather than wasting precious funds and energy trying to market their services, it will
+be more much productive for freelancers, experts and tech providers to focus their
+energy on the quality of their output.
+Allowing such a meritocracy to form where market shares results from the quality of
+the  contribution  makes  the  whole  system  much  more  efficient.  These  gain  in
+efficiencies can translate to both more affordable growth for the small business and
+more profitable marketing for the providers.
+Transparency
+The current small business marketing ecosystem is plagued with what Nassim Taleb
+45
+would refer to as information asymmetry                                                                           . It’s what we like to refer as snake oil. And it
+encompasses every lie, half truth, false claim and fraud that various players are ready
+to embrace in order to get your money.
+The false claims are sometimes perpetrated quite maliciously and consciously by bad
+actors/crooks who choose to defraud businesses as a mean of living. They can count on
+the complexity of digital marketing to blame other factors for their lack of results.
+And in numerous other cases, it also comes down to incompetence and lack of skills or
+of mastery on the part of foolish marketers. They’re trying their best to deliver growth
+through what they think should be appropriate work, tools and processes but they just
+can’t hack it. The market grew too big, too fast and left them behind. They have been
+stuck trying to play catch up ever since but, for the most part, failing to deliver.
+By rewarding the good actors who deliver real growth with both work and utility
+tokens, the protocols can increase their ability to secure work on the platform and earn
+more. This builds a virtuous circle where excellence and merit are fueling financial
+abundance and opportunities at a much faster rate than any fraudulent attempt would.
+This incentive can attract high performing marketers because their talent will be much
+more valuable on the platform as a true signal of growth rather than lost in the noise of
+competition, in the general market, outside of integrity.
+45 Source: Skin in the Game, Nassim Nicholas Taleb, Feb 2018
+White Paper draft - page 21                                                                                       Integrity.one                                       to contribute: thomas@integrity.one
+
+
+
+
+It  can also inspire and motivate less experienced marketers to perfect their skills
+through the learning engine on the platform - (more on that later…)- and increase their
+competence to create more opportunities.
+And  it keeps fraudsters and crooks at bay since their usual deception will not be
+fruitful in a performance based system where they can’t sell, market or charm their
+way through.
+Collaboration
+By allowing experts to specialize and focus on their processes, freelancers to focus and
+specialize in execution and tech providers on the quality of their tools, we are creating a
+powerful incentive for these players to collaborate and work better as a team.
+Specialization
+Once they are free to focus on what they do well, providers will also have an incentive
+to specialize in what makes them unique. Tech providers will be better off focusing on
+the microservice that makes them stand out. Experts will profit more by honing their
+unique process. And freelancers will also perform better by focusing on their strength.
+The Two Engines of a Platform
+Once we establish a solid foundation for our platform with the three layers of the PoWR2 protocol to build
+distributed trust in the ecosystem, we can finally build a platform on top, in the application layer. Platforms
+empower people to connect and interact through a transaction engine and they empower them to learn and
+share knowledge through a learning engine.
+1.  Transaction engine
+The platform takes advantage of smart contracts to orchestrate the work you need to grow. Out in
+the market, a lot of time and money is usually spent on coordinating work at the execution level.
+Here we can build a proper workflow engine to call in the right experts, assign work to the right
+people and take advantage of the right tools. That becomes the transaction engine of the platform.
+Everyone focuses on what they’re best at and gets fairly compensated.
+Money can be held in escrow and the funds released once the quality of the work has been validated
+by the system. This completes the transaction and initiates the next step in the sequence.
+Performance based marketing has been extremely popular with business owners (e.g Google Ads or
+Facebook Ads) but only covers a portion of current marketing investments, in the market as a
+whole. Recent advances in technology can help deliver that kind of performance based payments
+across the full marketing spectrum and completely flip the tables for the industry.
+Removing several layers of middle men makes the whole process much more efficient and much
+more affordable for small businesses. It also makes the work much more profitable for the experts,
+the freelancers and the tech providers. Everybody wins.
+Focus on what you do best and let integrity handle the rest.
+White Paper draft - page 22                                                                                       Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+2.                                                                                                       Learning engine
+From successfully onboarding members to helping them learn how to use the platform well and
+ultimately how to capture new and better opportunities, the learning component of a platform is
+46
+extremely crucial.
+The Experience Learning Canvas
+“The more the platform helps participants reach new opportunities the more the
+learning engine attracts new participants thanks to the power of success stories.
+Learning is indeed a fundamental engine of growth: not only success stories drive
+more  interest and participation from the ecosystem, but the learning process
+creates skilled participants that increasingly hold a bigger stake in the common
+platform  and care more about its evolution and governance. When Platforms
+generate an evolutionary path ranging from initial participation and ending in
+participating  in  governance  the  learning  process  becomes the most powerful
+evolutionary engine for the Platform and the organization(s) behind it.”
+47
+- Simone Cicero - Stories of platform design
+If we want those who create processes to behave in a productive manner, it helps if we help them to
+learn how to do so. The same is true of those who execute the processes. And it also applies to those
+who build tools to help. Education is key on all fronts.
+That means we must empower the community to define what those behaviors are and help them
+build a learning engine around that content. It’s in the best interest of all the participants for the
+system to continuously evolve. And sharing knowledge is a good way to stimulate and accelerate
+evolution.
+As we’ll see later when we explore the essence of what makes a circular economy thrive, it is
+essential for economic activity to build and rebuild overall system health. And learning contributes
+48
+largely to system health.
+46 Source: https://platformdesigntoolkit.com/platform-design-whitepaper/
+47 Source:  https://stories.platformdesigntoolkit.com/platforms-are-engines-of-learning-4f7b70249177
+48 Source: https://www.ellenmacarthurfoundation.org/circular-economy/overview/concept
+White Paper draft - page 23                                                                              Integrity.one     to contribute: thomas@integrity.one
+
+
+
+
+It creates a powerful incentive for the ones who are not performing as well to hone their skills. It
+leads them down a path where they too can aspire for more financial abundance by up levelling
+their skill set and improving the quality of their results.
+Machine Learning
+Over and above the human learning that needs to take place, there is also a massive opportunity for
+the ecosystem to use the platform to take advantage of recent advances in machine learning and
+deep neural networks.
+Ultimately, we’ve established that in order to be able to deliver growth on demand on a very large
+scale,  we  need  to  continuously  monitor  a  very large amount of data and constantly measure
+wisdom, reputation and results for all the people, process and technology involved, across the
+whole platform. The only way to achieve that efficiently, at scale, and in the most resilient fashion
+will be to use computing power, machine learning and powerful algorithms to speed up the process.
+From a technology standpoint, that’s how we need to rev up the Proof of Wisdom, Proof of Results
+and Proof of Reputation that constitute our PoWR2 protocol.
+Payments, Money and Engine Fuel
+How do we fuel those two engines? What should we use for payments and transactions? Bitcoin, ethereum,
+fiat money? A payment token specific to the platform? Why? Why would integrity even consider building its
+own coin or utility token?
+49
+Crypto vs fiat
+Let’s first examine the case of using some sort of crypto currency versus traditional fiat currency.
+Crypto currencies are progressively getting better suited for global transactions than fiat money.
+●   it facilitates using one single currency across all economies.
+50
+●   better suited for micropayments, in theory                                                              ,  since usually divisible to 8 or 10 decimals.
+●   alleviates a lot of the processing fees by removing a lot of the intermediate layers.
+In our case, using a common currency across global markets not only simplifies transactions and
+reduce fees, but also enables the small business to take advantage of much more competitive and
+affordable costs around the globe. There is a significant opportunity for arbitrage on the platform
+49 Source: https://www.linkedin.com/feed/update/urn:li:activity:6425251433473544192
+50 Source: https://bitcoinmagazine.com/articles/bitcoin-now-useless-micropayments-solutions-are-coming1/
+White Paper draft - page 24                                                                                 Integrity.one                                     to contribute: thomas@integrity.one
+
+
+
+
+.e.g. you can get a great designer offshore at a highly discounted price that will deliver great design,
+while providing financial security for his family. Everybody wins.
+As far as micropayments go, depending on the size of our payments to the different contributors,
+our engineers may have to explore potential integrations with probabilistic payment channels51 if
+we  truly  move  into  micropayment  territory.  That  essentially  means  that some of the smaller
+payments could be made off chain and finalized on chain periodically. It’s an efficient way to lighten
+the load, if it comes down to it, while the technology continues to mature and evolve.
+By building a distributed platform, we can:
+●   unite the best world experts
+●   tap into the best technology
+●   and connect a global workforce to do the work for a fraction of the cost.
+A universal token allows us to transact seamlessly across economies. It also removes 6 or 7 layers
+of middle men between the provider and the end user, when compared to handling marketing
+transactions in the traditional financial system.
+Coin or token?
+So should integrity build its own blockchain and mint its own coin? Or should it take advantage of an
+existing and established blockchain with robust smart contracts to issue its own token?
+Let’s establish that we have no immediate appetite for creating our own blockchain or our own coin.
+The industry is still fairly experimental and we can mitigate a substantial portion of the risk by
+building  our  token  on  top  of  one of the more proven blockchains such as Ethereum. We are
+considering  different  possibilities  and leaning towards an ERC-223  utility token for the token
+crowdsale - but certainly not building our own blockchain or coin for the time being.
+Existing or new?
+Shouldn’t the platform use on one of the well established coins as currency like Bitcoin, Ethereum or
+Litecoin?
+It certainly presents advantages and we have considered it, at length. It does however expose us to
+volatility,  speculation,  security  risks  and  potential  market  manipulation  that  could  be  quite
+detrimental to the community and the platform.
+We have to keep in mind that tokens are very intimately linked to smart contracts. In the case of
+building a platform like integrity, with a clear aim to reduce inefficiencies in a given ecosystem,
+issuing an integrity utility token does open a world of opportunities for:
+●   better governance
+●   better incentives
+●   and better influence
+...when it comes to shaping the behavior of agents in the system and on the platform.
+52
+51 Source:
+52 Source:
+White Pap
+
+
+
+
+It benefits the greater common good substantially if the transaction engine runs on its own utility
+token. The platform can accrue the value generated by reducing the prevalent risk of running a
+great  business  but  poorly  managing growth. There's an inherent systemic risk in seeing great
+business fail! And a unique opportunity to capture value by solving that for the ecosystem.
+INTEGRITY DOLLAR (ID) - the integrity utility token
+We need all kinds of transactions to make this platform engine purr. Business owners need to pay the
+platform, pay people, pay for the process, and pay for technologies. And we ideally want the ability to make
+seamless micro payments every time a set of conditions is met. That’s what our smart contracts and integrity
+dollar (with ticker symbol ID), the utility token, are designed for.
+Issuing a utility token allows platform members to purchase future access to the growth they seek. By the
+simple act of purchasing services in advance, the members do two things:
+1.   Every token they stake is creating value and growth for the platform to build, operate and evolve.
+2.   Drive the price and value of the economy simply by investing in their growth
+The better the platform gets at reducing inefficiencies in the ecosystem, the more it accrues value. The
+better it gets at delivering consistent and efficient growth, the more desirable it becomes. And that causes
+the utility token to appreciate in value.
+Operating with its own utility token also allows a unique symbiosis between the platform and the members.
+Members can consciously support the platform financially by acquiring and staking utility token. They know
+that every token they stake fuels the cash flow to build the platform, to operate it and to make sure it
+improves and evolves over time.
+White Paper draft - page 26                                                                                    Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+In order to reward that behavior, staking integrity dollars yields a return every 2 months. The initial yield is
+set at  1% every two months The community can therefore earn the equivalent of 7.2% of compounded
+interest per year for supporting the platform. The community and council will have the ability to increase or
+decrease the yield. This instrument of monetary policy will help increase or decrease the velocity of the
+token as need be, to promote the well being of the new economy.
+They can increase the yield to encourage token holders to stake more of it and support the platform. Or they
+can decrease it to encourage token holders to spend their token on growth to increase liquidity in the
+economy.
+And lastly, as a token holder, you also know that any contribution in kind you make to the ecosystem by
+helping members, increasing reach, referring business contacts and more, also supports the value of the
+token you hold and the platform that fuels the growth of your business.
+Wealth Distribution
+That unique synergy promotes a fair and sustainable distribution of wealth in the ecosystem. And it
+is made possible, in large part, by introducing ION, the integrity.one utility token.
+The integrity utility token model allows wealth and value to be shared and distributed between all
+participants, in a fair and sustainable way.
+Why ID, the integrity dollar?
+The Integrity Dollar (ID) is meant to promote the unification and consolidation of the ecosystem
+into one single universal distributed platform and new circular economy based on integrity.
+White Paper draft - page 27                                                                                        Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+VIRTUE - the integrity vote token
+One  of  the  big  challenges  we  face in building a distributed platform is to articulate good distributed
+governance mechanisms that  will help serve the greater common good and stay true to our core values.
+One of those values is to build resilient infrastructures that can benefit the next 9 generations - well beyond
+the span of our own lives.
+We are currently seeking and enlisting  the help of some of the world's foremost experts to build that
+governance framework and stay true to the essence of the fourth industrial revolution.
+The Foundation and the Council
+We are exploring the ability for platform members to delegate some of their influence to a council
+of leaders in a set of key disciplines. We are paying close attention to the foundation model and
+have been drafting a council model. The 2 founders would sit with 7-9 delegates that strongly align
+with our core values and whose core genius would span across the different chairs we need to
+deliver on this vision, namely in the fields of:
+1.   platform design
+2.   sustainable development
+3.   social entrepreneurship
+4.   small businesses
+5.   investments and portfolio management
+6.   economics and game theory
+7.   governance, compliance and regulations
+8.   ethics
+9.   evolution of computer science
+(machine learning, business automation, software architecture and microservices)
+This council would bear the responsibility of leading the basic research and attracting the talent
+integrity needs in each of those fields to deliver on this vision and fuel progress over the next 9
+generations.  On  one  hand  they  would  lead  the  academic  effort  for  research,  funding  and
+publications on relevant topics. On the other hand they would also attract the world’s foremost
+experts in applied sciences to execute and apply the science, driving innovation.
+We can design governance mechanics where they would harness influence when they align with the
+core values and when their actions are aligned with the greater common good and benefit the
+community and the platform. And they would lose influence when they digress.
+This can be achieved by introducing VIRTUE, the integrity vote token. We are currently exploring
+different existing governance models and mechanisms that are being experimented with in the
+blockchain and crypto space. It will allow us to devise the best system to align the incentives of the
+platform contributors, the token holders and the council members.
+We  are  looking  to  design  the  optimal  model  to  efficiently  foster  proper  accountability  and
+stewardship of this common good and new circular economy.
+White Paper draft - page 28                                                                                       Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Traction & Market Fit
+(this section was last updated as of 2018-11-28)
+We’ve been testing the Growth as a Service model and validating our driving assumptions through our
+existing agency, with paying clients, over the last 18 months. Here are some results:
+White Paper draft - page 29                                                                           Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+White Paper draft - page 30   Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+White Paper draft - page 31   Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Talent
+(these 4 sections - talent, leadership, team, collective -  were last updated as of 2018-11-30)
+Emboldened by the incredible growth we’ve been able to fuel the last 18+ months, the lives we’ve changed
+and the businesses we’ve turned around,  the incredible partners we’ve attracted and the traction we’ve
+been getting, it’s time to scale Growth as a Service to the platform level.
+Time for us to give the ecosystem the means to self organize into a new version of itself that is much leaner,
+much  more  efficient,  much  more honest and that takes advantage of everything the fourth industrial
+revolution has to offer.
+Building such a platform will present a mountain of challenges and we’ve also spent the last 18 months
+attracting the right type of talent and putting together the right team to do so.
+Leadership
+Thomas
+Co-founder, CEO
+Founder/CEO  eRational Marketing  - contending for top  50  fastest-growing new companies in
+Canada. Generated over 500k leads/ 35M in revenues. Proud father of 4, former VP Sales of 350M
+investment firm at 25. Founder of  algorithmic Forex trading co.
+Niko
+Co-founder, President/COO
+President/COO at eRational Marketing. Former Digital Product Director at TC Media, a 2B/year
+media group. Co-created a workflow engine to handle 500 clients/account manager with 4% annual
+churn. Spent last decade growing multiple business units from zero to 7 figures. Corp rebel at heart.
+Dmitry
+Head of Technology
+Leads platform engineering at Integrity. CEO at SHS, an international technology consulting firm in AI,
+Big Data and Blockchain. Predictive analytics maestro. Responsible for the granulating and designing
+of blockchain philosophy and projects for top European financial institutions.
+Jose
+Head of Growth
+Partner  at  eRational  and  Integrity.  Leads  growth  strategy  and  product  innovation.  Found  his
+inspiration at 21 when diagnosed with cancer while living in China.  Founder of 5 successful startups
+(last one reaching 8 figures). Acted as consultant on the British Airways and Iberia merger.
+White Paper draft - page 32                                                                                      Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Camilla
+Marketing Campaign & Strategy
+With a background in business management, founded two startups and now advises small to
+medium businesses on growth, digital and marketing  strategies.
+Simone
+Platform Design Expert
+Creator of Platform Design Toolkit. Managing partner at Boundaryless. Helping organisations
+create platform strategies to mobilise ecosystems for growth, impact and evolution.
+Christian
+Lead Economist
+Regulation  &  competition.  Produces  expert  reports  for  government  departments/regulatory
+bodies. Also specializes in pricing & quantitative management.
+Peter
+Privacy.Tech.Innovation
+Privacy, data protection, IP, corporate, commercial and regulatory work in the tech, innovation
+and financial technology.
+Team
+Max
+Lead Developer - platform, blockchain
+High-performing Project Manager with 15+ years of successful delivery in developing complex web
+based applications and e-commerce websites. Specialized in roadmaps design, adoption and new
+concepts based on Hyperledger, Ethereum, Bitcoin protocols.
+Dirk
+Lead Analyst - platform, blockchain
+Business Analyst and Project Manager with 20+ years in the digital marketing industry, having
+engaged with Fortune 500 companies successfully delivering on complex web-based applications
+and e-commerce websites.
+Rob
+Head of Information Systems
+CIO/CFO  at  eRational  Marketing.  Former  IT  Director  for  Sun  Life  Financial,  and  Executive
+Director  of  the  Canadian  &  American  Investors Associations. Fueling the rocket boosters of
+infrastructure.  Led  multiple  turnaround  and  mergers/acquisitions  as a consultant for a big  6
+accounting firms.
+Ross
+Subject Matter Expert - Automation
+Campaign strategy, automation and customer experience specialist for marketing funnels.  Built
+world class campaigns for major Internet marketing players from Frank Kern to Digital Marketer.
+Nick
+Head of Client Success
+Leads the client  success team. Built his own growth hacking boutique firm from the ground up.
+Specializes  in  marketing  automation,  strategy,  conversion-focused  copywriting  and  training,
+having helped generate over 500k leads and 35M in revenues for small businesses.
+White Paper draft - page 33                                                                            Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Trevor
+Subject Matter Expert - Lead Generation
+Lead Generation and Online Reputation Expert. Accomplished Serial Entrepreneur and co-founder
+of Linked Into Leads helping businesses leverage the power of Linkedin to add millions to their
+pipelines.
+Mark
+Subject Matter Expert - Sales enablement
+Business development and sales expert  helping companies like Mitsubishi, Sobeys, Toyota, State
+Farm Insurance and Manulife Securities. At Sobeys Pharmacy achieved record MOM sales growth
+and at Selloffvacations.com the biggest YOY growth in company history.
+Bryan
+Subject Matter Expert - Business and marketing
+International  marketing  and  business  keynote/conference  speaker,  best-selling  author  and
+strategist who consults Fortune 500 clients such as IBM, Cisco, Bloomberg and Pitney Bowes on
+humanizing business through social media, content and digital marketing.
+Justin - Community Manager                                                                         Jason - Linkedin Specialist
+Manages  some  of  our  social  media                                                              Targets Linkedin customized audience
+communities and communications                                                                     for our clients
+Christine - Funding                                                                                Asif - Creative Lead Designer
+Coordinates  grant  applications  and                                                              Design, UI, UX &  Front End
+various forms of alternate funding                                                                 Development for our clients
+Michael & team - Telesales                                                                         Daryl - Video Buff
+Sets phone appointments with                                                                       Shooting, editing and directing video
+prospects for our clients                                                                          content for our clients
+Waraq & team - Messages                                                                            Ashlyn - Video Queen
+Sets phone appointments with                                                                       Shooting and editing video content for
+prospects for our clients                                                                          our clients
+Edgar - Back End Maestro                                                                           Jenn - Client Success Manager
+Lead developer for marketing funnels                                                               Client onboarding, customer satisfaction
+and quality assurance                                                                              and loyalty
+Chris - marketing
+                                                                                                   And many more!
+Handles messaging and scripting for
+various lead generation initiatives
+White Paper draft - page 34                                                                        Integrity.one                              to contribute: thomas@integrity.one
+
+
+
+
+Collective (Partners, Advisors, Consultants)
+Jason Coles
+ICO Co-Founder
+With  a  degree  in  accounting,  Jason  has vast cryptocurrency experience as a trader, investor and
+entrepreneur. Experienced Blockchain and ICO advisor, having helped over 100 different ICO's in the
+past 2 years. Jason's primary focuses are in community building, oversight and project management, as
+well as business strategy and investor relations.
+Bobby Barone
+ICO Co-Founder
+Experienced advisor, investor & enthusiast with a proven history of working in financial services and
+blockchain industry. Formerly a Financial Securities Advisor, became deeply intrigued by blockchain
+technology & disruptive business models. Advised and consulted for several cryptocurrency projects.
+Edmund Lowell
+ICO Founder                                                                                                22M Raise
+Founder of KYC-Chain and SelfKey, a platform to empower individuals and organizations with more
+freedom and privacy through full ownership of their digital identity. Selfkey and KYC-Chain helped a
+dozen ICOs succeed, including Polymath. Advises on Asia strategy, banking and financial modelling.
+Samuel Banks
+Blockchain and Securities Token Expert
+Former Partner at Appleby Global - corporate law. Successfully structured a series of ICOs to go to
+market, helping them raise millions.  Background in computer science and led legal structuring and
+offering from a Cayman Law Perspective.
+Peter Colegate
+Data Privacy, Technology and Innovation
+Lawyer at Appleby. Privacy, data protection, IP and commercial and regulatory work in
+the technology and innovation sector.
+Rebecca Jack
+Legal. Tech. Regulation
+Lawyer at Appleby specialising in corporate, equity investment, finance and regulation in the technology
+and innovation sector.
+Robert Sestito
+Blockchain and Machine Learning
+CEO, SHS Canada. Co-founded an 8 figure international software development company
+(crypto & blockchain since 2012). Responsible for blockchain projects with top European
+banks.  Robert advises Integrity on technology/business applications of blockchain.
+Giovanni Lesna
+Blockchain Strategy
+Advised over 15 startup’s and ICOs, providing unique solutions in business development and
+commercialization of blockchain technologies.
+White Paper draft - page 35                                                                                Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Christian Jaag
+Lead Economist
+Regulation and competition. Produces expert reports for government departments and regulatory
+bodies. Also specializes in pricing and quantitative management
+Tobias Binz
+Economist
+Focuses on the economic analysis and quantification of effects arising from mergers, horizontal and
+vertical agreements, as well as abuse of dominance cases.
+Matthias Hafner
+Economist
+Research, regulation and competition. Acts as liaison for the cryptecon partnership
+Stephen Brown
+Fundraising
+Co-founder at Crypto IB.  Specializing in releasing  value & raise funding  from smart contracts &
+blockchain technology through our offices in Hong  Kong, Singapore, Shanghai,  Chile, Ireland, Korea and
+Monaco.
+Brian Elders
+Compliance and fundraising
+Founder at Crypto IB.  Innovating in the blockchain /  token / ICO / SCO revolution  that is impacting
+global  finance. Advising established  companies that wish to  tokenize meeting the highest  standards in
+compliance and  best practice.
+Simon Wajcenberg
+Founder at North Block Capital
+Manages an investment bank  for the digital token capital  markets that delivers advisory,  capital
+markets, and asset  management services.
+Cenk Utkan
+Capital raising
+Managing partner at  Devonshire Warwick Capital  LLP. Provides capital raising  services for alternative
+investment managers who  are seeking clients in Europe,  the US, the Middle East and  Asia. Cenk is a
+FCA Securities  and Financial Derivatives  Representative in the United  Kingdom.
+Upcoming announcements
+Various fields and disciplines
+We  are  also  onboarding  various  leading  experts  in  the  field  of  tokenomics,  platform  design,  merger
+acquisitions,  private  equity,  machine  learning,  mind  mapping  and  advanced  game  theory  to deliver a
+platform that can truly capture the full network effect at the edge of the local marketing ecosystem.
+White Paper draft - page 36                                                                                        Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Financial partners
+(this section was last updated as of 2018-11-30)
+White Paper draft - page 37                        Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Building The Platform
+(this section was last updated as of 2018-11-30)
+Pilot
+Being an existing business allowed us to take our value proposition to the market, with a low tech prototype,
+spend the last  18+ months testing the business model with paying clients and results have been simply
+spectacular.
+We now have dozens of testimonials and use cases from paying customers who love focusing on their
+product while someone else powers their growth. They no longer have to deal with multiple vendors or face
+the prohibitive cost and mixed results of traditional agencies.
+●   We attracted top experts who are happy to join forces, finally offload fulfillment and to be
+able to focus on client relations and strategy instead.
+●   We now have access to a vast pool of freelancers, around the globe, who can do the work at
+a fraction of the cost.
+●   And we have our first dozen of technology providers who have been dying to find a way to
+tap into the small business market at a reasonable acquisition cost.
+Prototype
+We were able to use our existing business, our marketing agency to run the model as well as test and map
+the processes. We also implemented a minimal viable set software automation to validate assumptions.
+We’re happy to report that the pilot phase has been wildly successful with this minimal viable product and
+helped eRational Marketing place somewhere mid field in the top 50 fastest growing startups in Canada (for
+new companies over a million in revenues).
+We will now leverage our expertise in product management and software engineering to build that very
+model into a highly scalable distributed platform.
+Agile development
+As we continue to grow the client base, add experts, freelancers and connect with more technology, our
+product management team is mapping processes and features in order for our software engineers to build
+up the platform that will progressively automate most of these processes over time.
+Every few weeks, we aim to release a portion of code that automates a new aspect of the work. That is
+expected to enable us to deliver a highly automated solution over the next 18-36 months.
+White Paper draft - page 38                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+User Interface and user experience
+Most  marketing  automation  software  present a degree of complexity that would send most
+business owners running for the hills - especially when you have to use dozens of them to get
+the job done. We believe growing your business should be simple and straightforward.
+Mind Map
+A picture paints a thousand words. And we’re working with top data visualization and user interface experts
+to design a simple yet compelling mind map to illustrate the journey of your business and evolution of
+different functional areas over time.
+example of mind map, for illustrative purpose only
+Why a mind map you might ask? Because managing your business, getting a sense of where things are at and
+monitoring your progress should be efficient, fun and entertaining. Moreover, it should be near addictive.
+Wouldn’t you rather form the habit of checking up on your business’ progress throughout the day rather
+than wandering aimlessly on Youtube or getting lost in a Facebook or Instagram feed?
+Any gamer who’s ever had the pleasure of checking out their progress in a good video game whether it be
+through the character profile or a good skill tree knows exactly what we mean here. Making progress on key
+items, celebrating milestones and keeping a pulse on how everyone’s work is shaping the business should be
+53
+thrilling. And it can be. Our brains are designed to process visuals much more efficiently than anything else
+example of blockchain ecosystem map, for illustrative purpose only
+53 Source: blogs.biomedcentral.com
+White Paper draft - page 39                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Let’s get in the habit of painting a picture, day by day, of the dream life that our small businesses can provide
+for our families. As Nir Eyal puts it, in the excellent Hooked, that explores our near addiction to modern
+platforms and software... Let’s release endorphins where it counts, one completed task and one victory at a
+time. Let’s get a sense of progression, completion and validation, as we, business owners, take care of
+business, execute and deliver on our vision.
+Mind Maps to the rescue
+To further illustrate the power of truly visual interfaces, consider the story of a friend of
+ours with a PhD in industrial psychology. His team experimented with mind maps with
+colleagues who were helping drug addicts visualize their journey to recovery.
+The results they obtained turned out to be quite the phenomenal breakthrough... They
+managed to increase recovery rates by so much that they received government funding to
+further the research and build a new therapy framework leveraging those types of visual
+aids.
+If better visualization using a mind map can pull an addict from the jaws of drug abuse,
+imagine what it can do to:
+●    alleviate the daily burden of a business owner
+●   engage them fully with their growth
+●   and bring more clarity on the state of their journey.
+Drill up - drill down
+The integrity Mind Map also allows you to zoom in and out anywhere in the map in order to inspect
+everything from the big picture to the smallest micro detail.
+Timeline
+And you can also use a slider to travel across the timeline, as icons line up all the way from the very birth of a
+simple idea, through the different stages of your growth, the present state, and even project yourself  into
+the future where you can map out your big plans... and the ultimate vision and exit strategy for your
+business.
+Chatbot
+The picture takes shape as you fuel it with data. And the chatbot window triggers conversations around
+each element to help you define your business goals with a quick chat and a brain dump.
+We simply invite you to an ongoing conversation about your business and map your different systems as you
+share relevant pieces of information on your progress. It’s a natural way to feed the data room for your
+business and to capture all the pieces of information that are relevant to telling your story, monitoring your
+progress, and measuring performance with the most appropriate set of KPIs.
+White Paper draft - page 40                                                                                          Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Business Intelligence, Relevant documents and Artefacts
+Business owners constantly have to package information on the  business in a wide variety of different
+formats:
+one pagers, pitch decks, executive summary, brochures, websites, landing pages, business model canvas,
+Profit & Loss statements, balance sheets, cash flow budgets, white papers, issues list, backlogs, product
+roadmaps, strategic planning, rocks, and the list goes on.
+The artefact window displays the business document that is relevant to the portion of the mind map that
+you’re interacting with and displays the appropriate corresponding business documents so it always on hand
+as you work on the business.
+Our team of engineers are also working on population the document assembly directly from the database in
+order to allow all your various business documents to update in real time as you share information with your
+mind map interface and the corresponding chat bot.
+Functional prototype
+Our team of developers and engineers is hard at work, collaborating with a leading expert in user interface
+and user experience to deliver a minimal viable product over the next few months so we can engage the
+community as we test and experiment with this exciting new platform.
+Product Roadmap
+(last updated as of 2018-12-05 and CURRENTLY UNDER REVIEW with our team of engineers to combine with ICO page roadmap)
+White Paper draft - page 41                                                                                              Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Go to market strategy
+Running a growth agency that’s contending for the top 50 fastest growing startups in Canada presents the
+advantage of benefitting from our own products to fuel our growth.
+We are using our 3 proven and scalable growth systems to generate leads both on the supply and demand
+side (see next page)
+1.   ultra funnel:  video funnel and email automation
+2.   Linkedin lead generation: messaging and telesales lead generation funnel
+3.   event funnel: automated event filling funnel
+And have also concluded powerful marketing alliances with established industry leaders:
+White Paper draft - page 42                                                                                Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+(this section was last updated as of 2018-10-04)
+Marketing Collateral
+Press Kit
+Summary                                                  Light Paper        White Paper                           One-Pager        Pitch Deck          Yellow Paper
+5 pages                                                  18 pages - draft   68 pages - draft                      1 page - draft   20 slides - draft   Winter 2019
+Banners
+Community Building Funnel ( lucidchart )community.page   newsletter page    ICO page
+[ live! ]                                                [ live! ]          [ live! ]                             [ live!]
+White Paper draft - page 43                              Integrity.one      to contribute: thomas@integrity.one
+
+
+
+
+Total Addressable Market
+With the equation of exchange in mind, we can look at the total addressable market for our ecosystem, take
+into consideration the business model as well as the go to market strategy and project the acquisition of
+reasonable market shares over the next 3-5 years - based on current traction - in order to infer a certain
+potential for appreciation.
+With 29M registered small business in the U.S., the local advertising market stands at about 150B a year.
+Small  business  accounts  for  about  49B54 of  it.  With  the  more  than  125M  small  business  registered
+55                                                                                                                                                                                              56
+worldwide                                                                                                          , we can roughly infer a total ad spend global market of about 200B a year   .
+As we touched on before, it’s estimated that 50-80% of that ad spend goes to waste due to the widely
+reported inefficiency, friction and information asymmetry in the ecosystem (charlatans, snake oil, rampant
+fraud,   ignorance,   fragmentation,   aggressive   funding,   legacy   companies   struggling   with   digital
+transformation, etc.)
+If we peg our total addressable market on capturing just the lower 50% of that waste, we’re looking at a
+100B/year market. And if we consider the full ad spend, we’re looking at a full 200B.
+Here it is important to keep in mind that if we were to factor in all costs related to sales and marketing, as
+opposed to strictly the ad spend, the total cost would be much higher.
+And the same is true of the total global number of small businesses. Definitions vary largely by country so
+the  exact  numbers  tend  to  be  elusive.  But  it  is  well  known  there  are  tons  of micro businesses and
+solopreneurs that don’t appear in official numbers. The 125M number for officially registered businesses
+goes  back  to  a  2010  report.  Estimates  in  the  same  report  gauged  the  potential  total number to be
+somewhere around 375M at the time. And let’s also factor in that those numbers have grown substantially
+over the last 8 years.
+All that to say that we’re looking at a robust                                                                     100-200B total addressable market here. If we were to
+consider the full sales and marketing spend, the rise of small businesses as one of the fastest growing market
+in the world and the rise of the gig economy as the largest workforce in the world, some experts think this
+market may actually be over a trillion dollar or more.
+Here’s a quick acid test on that math:
+57
+The World Gross Product was estimated around US$78.28 trillion in nominal terms in 2014
+Considering, as we stated and established earlier in this paper that small businesses tend to
+account around 50% of that revenue globally, you can infer that small businesses around the
+world are earning at least 35 trillion a year. How much of their revenues would you expect these
+businesses to be spending collectively on their growth effort? The average marketing spend of
+8-12% would translate to 3.5 trillion.
+A 1 trillion USD total addressable market would imply that they are spending on average less than 3% of
+their collective revenues on sales and marketing. Some experts consider that to still be very conservative.
+54 emarketer
+55 Source: World Bank Group
+56 The total amount invested in overall sales and marketing effort is actually much larger.
+57 Source https://en.wikipedia.org/wiki/Gross_world_product
+White Paper draft - page 44                                                                                        Integrity.one                                                                to contribute: thomas@integrity.one
+
+
+
+
+The small business market is one of the fastest growing in the world,
+58
+as demonstrated in the Intuit QuickBooks Future of Small Business Report
+And the gig economy is rapidly growing into the largest workforce in the world:
+When we state that small businesses drive the world... And that solving some of the inherent inefficiencies
+of that ecosystem is one of the largest market you can imagine... You start to get a sense for the size of the
+opportunity and the impact our joint efforts can have if we band together and join forces as a collective to
+make a difference here.
+58 Source: https://www.slideshare.net/IntuitInc/intuit-quickbooks-future-of-small-business-report/1
+White Paper draft - page 45                                                                                      Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Serviceable Market and Target Market
+From a top down perspective, if we aim to service about ¼ of 1% of the market share over the next 4 years,
+we’d be looking at generating around 500M a year for the Growth as a Service platform and its community.
+As much as such a top down calculations can give us a decent, fast and loose, high level idea, let’s validate
+that further with some more robust bottom up analysis and driving assumptions derived from our actual
+experience and ongoing pilots in the field.
+Token Usage and Demand
+(last updated as of 2018-12-05 and CURRENTLY UNDER REVIEW with our Swiss crypto economics partners)
+We will focus on 3 value drivers for token demand in the early stages of the roadmap.
+1.                                                                                                              Growth as a Service - first use case - one agency
+eRational will be the first use case of an agency using the platform to grow and scale. We’ve been
+working tirelessly with our team of engineers to devise a system that will allow to scale the lead
+agency, to roughly 23M, 60M and 100M a year over the next 3-4 years. Based on the current:
+●   sales level
+●   growth rate
+●   and acquisition strategy.
+Two additional agencies are already in beta to deploy our model to their client base and about a half
+dozen more have organically taken interest already.
+Our team of economist currently estimates that the platform could allow the lead agency to reach
+another 50 agencies over 4 years. They have factored in that if the others were to generate half as
+much revenue, at a much slower rate and with a  50% rate of  failure that the platform could
+realistically generate around 165M by then.
+Token Demand: 165M/yr after 4 years (mostly lead agency with some clustering)
+2.                                                                                                              Growth as a Service - first generations of clusters
+That most recent draft and simulation of our distribution model organizes the network in clusters
+where a lead agency uses the platform’s learning engine to train and guide the growth of 6 agencies
+over a period of 5-9 years.
+The mechanics of that distributed growth organized in a network of clusters accelerate the growth
+rate substantially after 4 years and reach an equilibrium around 9 years or so.
+As an indication, our economists currently anticipate growth revenues totalling around 475M a
+year around year 5 (with 2 new agencies per cluster every 9 months). At that point in time, clusters
+of agencies are on average at about 16% maturity.
+Token Demand: around 475M/yr (acceleration of clusters) after 5 years
+3.                                                                                                              Growth as a service - the total network
+                                                                                                                They estimate the current network configuration would allow the platform to deploy the model to a
+                                                                                                                total of around 223 other agencies globally over the first 9-10 years. And the network would find an
+                                                                                                                equilibrium at around 4.5B a year. At that point in time, clusters of agencies are on average at about
+White Paper draft - page 46                                                                                     Integrity.one                                                                                            to contribute: thomas@integrity.one
+
+
+
+
+88% maturity.
+Token Demand: 4.5B a year (network at maturity and equilibrium)
+Propensity to Hodl Derived From a True Circular Economy
+59
+circular economy
+“Looking beyond the current take-make-dispose extractive industrial model, a circular economy
+aims to redefine growth, focusing on positive society-wide benefits. It entails gradually decoupling
+economic activity from the consumption of finite resources, and designing waste out of the system.
+Underpinned by a transition to renewable energy sources, the circular model builds economic,
+natural, and social capital. It is based on three principles:
+●   Design out waste and pollution
+●   Keep products and materials in use
+●   Regenerate natural systems”
+- Ellen MacArthur Foundation
+We share the opinion that aside from the current speculation craze of the last 10 years, productive token
+models  should  yield  a  value  fairly  aligned  with  the  cash  flow  generated  by  the  underlying  network.
+Therefore we are presented with a massive opportunity.
+Anyone who spent more than a couple of years in local marketing, and small business marketing over the
+last 25 years can tell you that the model is broken. That market is quite simply ripe for an evolution in the
+business  model  that  will  massively  disrupt  the  current  small  business  marketing  ecosystem  and
+progressively gobble its more than 200 Billion a year in revenues.
+But much more importantly, such an evolution can also massively reduce the inefficiencies in the ecosystem.
+And when that ecosystem happens to drive most of the economy, impact the livelihood of most families, is
+60
+responsible for most innovation and provides most jobs, we could be looking at a potential Moneyball
+event on a massive scale.
+61
+Something  that  if  it  were  to  occur,  like  sabermetrics                                                         ,  could  prove  truly  revolutionary  and  could
+unexpectedly change the game forever. Except this time, the game is not merely baseball but how small
+business drives most of the world economy. How about that for scale?
+Whoever  cracks  the  code  of  delivering  truly  effective,  properly  distributed,  resilient  and  sustainable
+performance based Growth as a Service for small businesses will encounter massive exponential adoption,
+the likes of which we have not seen yet - with any of the distributed technology that have been emerging in
+the last 10  years.
+Aside perhaps from the likes of Bitcoin competing as a digital store of value, this is arguably the ultimate use
+case for distributed ledger technology for the 4th industrial revolution. Growth as a Service can empower
+the 99%, finally distribute wealth in a fair and sustainable way and usher a new era of abundance, unlike
+anything we’ve seen to date in the industrial era.
+What would happen to a network that could capture anywhere from 100-160B of waste (or even 500-800B
+of waste if you subscribe to the trillion dollar market hypothesis), and reinvest it, year after year, into fueling
+that network?
+59 Source: https://www.ellenmacarthurfoundation.org/circular-economy/overview/concept
+60 Source: https://en.wikipedia.org/wiki/Moneyball
+61 Source: https://en.wikipedia.org/wiki/Sabermetrics
+White Paper draft - page 47                                                                                           Integrity.one                                       to contribute: thomas@integrity.one
+
+
+
+
+It would compound quite substantially over the years and benefits all the participants massively. The
+infrastructure that would emerge over the  long term from such deployment could be the answer to the
+eventual collapse of the current capital markets that some of the experts have been predicting.
+A platform that was able to capture the value of a fraction of the the current 100-160B of waste per year
+through the ecosystem could already be generating more than 200B on its own, in its first 4 years.
+That’s with a conservative 20% year over year growth. It’s interesting to note here that in growth hacking,
+growth results are more typically in the 50%-300% range… And that is why anyone who is both well versed
+in growth hacking and the frictions that can be reduced in this ecosystem find this to be a very compelling
+addressable market
+If one subscribes to the notion that we’re actually facing a trillion dollar market, the terminal value gets
+substantially larger, quite rapidly…
+The network effect of a virtuous circle
+That all sounds like a bit much doesn’t it? Can fixing some of the growth problems of small business really
+have such a massive impact?
+White Paper draft - page 48                                                                                    Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Let’s look at the math behind a simple use case for one given business.
+Let’s take a small business with a million in revenues, netting a 12% profit, with a 50% cost of goods sold,
+13% sales cost, 15% overhead and spending 10% on marketing.
+If you look at the difference between losing  5% of your revenues to competition with poor marketing,
+gaining a decent 20% growth with 2X marketing return or achieving an excellent 5X return while growth
+hacking while investing 10% of your revenues, over 4 years, you get:
+●                                                                                                                  5% annual loss = 1M to 857k
+●                                                                                                                  20% annual growth = 1M to 1.728M…
+●                                                                                                                  50% annual growth = 1M to 3.375M
+When a small business can consistently count on a 5X return while investing 10% of its revenues in Growth
+as a Service, it nearly doubles in size every 2 years.
+No wonder true growth hackers have been quite in vogue this last decade or so...
+But how feasible is a 5X return? Most marketing experts consider 3X to be a good baseline and 5X to be an
+excellent return. 5X is quite achievable when you can ensure you work with the best people, process and
+technology for the task at hand. It’s actually in the middle of the bell curve. In growth hacking, it’s not
+uncommon to see returns that even go up to 12X,15X and 20X when working with an exceptional team. A
+5X return on marketing investment is a good bar to set.
+Now keep in mind that in the integrity.one ecosystem, all players are small businesses: both on the demand
+side  (the  customer  business)  and  on  the  supply  side  (with  the  freelancers,  the  experts and the tech
+providers). So, imagine the potential of a 100-200B (or a trillion dollar!) market that nearly doubles every
+two years…
+Of course, delivering Growth as a Service is no easy feat. It requires an intimate knowledge of the small
+business marketing landscape and a highly innovative platform design. It will also need to take advantage of
+all the most recent advances in:
+●   workflow engines and business automation
+●   microservices architecture
+●   distributed ledgers and cryptocurrency
+●   machine learning
+●   natural language processing
+●   data visualization
+●   and so much more!
+The real story here is that there are a mountain of challenges to overcome to get there. But whoever can
+deliver on such a vision will potentially become the ultimate use case of the 4th industrial revolution and will
+White Paper draft - page 49                                                                                        Integrity.one                       to contribute: thomas@integrity.one
+
+
+
+
+62
+seriously put a ding in the universe                                                                            - as the founder of the first american company to recently hit a trillion
+dollar valuation 63would put it.
+Burn and mint or reinvest in small business growth?
+When it comes to designing some of the market dynamics for this token, there’s something quite elegant
+about a burn and mint equilibrium strategy. We could take everything the platform earns in token every
+month and burn it to reduce the supply. We could then in turn mint a new amount of token every month at a
+predetermined constant rate.
+This kind of strategy allows the market to self correct with short cycles of 30 days. When you burn less
+token than you mint, the supply increases and prices lower. On the other hand, when you burn more token
+than  you  released,  the  supply  decreases and prices raise. The whole thing acts as a safety valve and
+definitely promotes a fairly efficient equilibrium over time. And for those reasons, we had to consider it.
+But the nature of the interaction that link the different players in our ecosystem does however lend a unique
+opportunity to create a sustainable circular economy. By reinjecting the profits of the platform into Growth
+as a Service for the platform itself, instead of the monthly bonfire of tokens, integrity ends up not only
+accelerating distribution and adoption of the platform and substantially catalyzing the network effect but
+also putting more members to work. It does create a virtuous circle that can sustain rapid and robust growth
+for the benefit of the greater common good and in a very resilient way, through a circular economy..
+As alluring as a burnt and mint equilibrium could be, it seems to be in the best interest of the ecosystem to
+simply cycle back the profits of the platform into its own Growth as a Service, in order to keep fueling the
+network effect. Doing so continuously improves the opportunity for each and every participating small
+business to grow better and faster.
+We can still consider a burn mechanism on top of the yield rate to act as an additional instrument when it
+comes to governance and the monetary policy. And we are. Paired with our successive minting rounds
+62 Source: https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537
+63 Source: https://www.theatlantic.com/technology/archive/2018/08/apple-1-trillion-market-cap/566672/
+White Paper draft - page 50                                                                                     Integrity.one                                                               to contribute: thomas@integrity.one
+
+
+
+
+deterministic token sales, it could be quite the effective combo in our final monetary policy and governance
+model.
+Competition
+The universal platform approach is quite unique. It requires a deep understanding of the local advertising
+market and a the very specific combination of deep technical expertise this specific team has assembled
+over  the  last  couple  of  years.  Only  with  recent  developments  in  distributed  software,  microservices
+architecture and deep learning can this vision be achieved.
+The biggest competition for the time being, is from every agent of the ecosystem who are vying for the small
+business  attention,  outside  of  the  platform  (local  media,  agencies,  freelancers,  marketing  technology
+providers,  etc.)  Direct  competitors  will  soon  emerge  as  the  local  marketing  industry  matures  and
+consolidates while distributed technologies keep emerging and new teams scramble to catch up.
+Market Conditions and Timing
+the Perfect Storm
+The conditions of this current market are very peculiar and have been brewing the perfect storm of the
+fourth industrial revolution for a few decades:
+●   Small  businesses  still  drive  most  sales,  jobs  and  innovation  around  the  world  but  face  new
+challenges with the accelerating rise of digital.
+●   Freelancers  are  the largest and fastest growing workforce. They will make up  51% of the US
+64
+workforce by 2027 and generate 2.7 trillion of global GDP.
+●   Marketing technology is now more complex than ever and ballooned from 150 providers in 2011 to
+over 7000 in 2018 across more than a 100 functional areas.
+65
+●   Marketers and agencies are struggling with the traditional business model.
+●                                                                                                                  60 years in the making, deep learning & natural language processing finally reaching inflection.
+66
+●   Platforms have been dominating older and more traditional business models.
+●   Token sales allowed crowdfunding to reach a whole new level and are overtaking venture capital.
+67
+●   APIs, microservices architecture and devops on the rise & revolutionizing how we build software.
+There is no doubt that we are at an inflection point and that this timing is creating unique opportunities. The
+question is who will be able to ride the wave.
+64 source: Forbes
+65 https://www.ft.com/content/3081a2ee-c955-11e7-ab18-7a9fb7d6163e
+66 https://www.forbes.com/sites/gregsatell/2016/09/02/platforms-are-eating-the-world-3/#31419f014064
+67 https://www.accenture.com/us-en/blogs/blogs-microservice-architecture-devops
+White Paper draft - page 51                                                                                        Integrity.one                                                                                      to contribute: thomas@integrity.one
+
+
+
+
+Tokenomics
+(last updated as of 2018-12-06 and CURRENTLY UNDER REVIEW with our Swiss crypto economics partners)
+Economic Model
+The Integrity economic model is a circular economy that captures the value of the ecosystem and circulates
+it back to the ecosystem participants.
+It is the first meaningful use case that bridges the gap between traditional businesses that are operating in
+fiat and bringing that value into a digital economy with significant volumes (462 Million USD in yearly
+demand by year 5 according to our resident economists).  This make Integrity a disruptor in creating a long
+term viable alternative digital economy with the small business as the main value engine.
+Small businesses already account for 54% of economic production and therefore are the most powerful
+driver of value known to the world.
+As we dive into the token economics for the platform, let’s first have a quick recap of the different type of
+tokens we mentioned.
+Token design
+Integrity.one  takes  advantage  of  3  token  types  to  shape the behavior of the different players in the
+ecosystem. Shaping these behaviors allows the platform to reduce waste in the ecosystem by:
+●   eliminating some of the inefficiencies.
+●   reducing friction
+●   reducing information asymmetry
+Delivering growth for small businesses in a way that is more efficient than outside attempts is in part what
+makes the platform desirable and valuable. It allows the platform to capture some of the value it creates by
+empowering participants to increase efficiency. Distributing that value between the players in a fair and
+sustainable way allows that growth to compound over time, not only at the small business level, but also at
+the whole ecosystem level (more on that later…)
+Here is a quick overview of the 3 tokens in question:
+●   GRIT is a work token that allows good actors to contribute their process, tech or time to the
+platform for the benefit of the network and community. You can’t buy, sell, trade or transfer the
+work  token.  Earning  more  simply  makes  you  a  better  contributor  and  grants  you  more
+opportunities in this new economy.
+●   VIRTUE is a vote token that enables good actors, aligned with the core values, to contribute to the
+governance of the platform and ensure good stewardship of the ecosystem, for generations to
+come. You can’t buy, sell, trade or transfer the vote token. Earning more of it, simply makes you
+more influential and grants you more decision power within the network, over time, as your actions
+benefit the common greater good.
+●   the INTEGRITY DOLLAR (ID), our utility token, is the preferred means of payment for the platform.
+It’s the crypto currency designed to purchase Growth as a Service and sustain a robust economy for
+its participants. You can buy it, you can earn it by contributing to the ecosystem, you can trade it for
+growth and, once listed, you will be able to sell it on exchanges. You can also stake it to accrue an
+initial yield of 1% every 2 months
+White Paper draft - page 52                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Economic Equation
+Given its use as a payment currency, from an economic model standpoint, some will argue that, as a medium
+of exchange, we can expect our utility token to behave like a freestanding monetary base. As such, monetary
+68
+bases are usually valued based on the equation of exchange                                                     :
+Money Supply x Velocity  = average Price level of Goods x index of expenditures (such as the total volume of
+economic Transactions).
+Also known as MV = PT
+On that topic, we tend to align with Vitalik’s analysis in his brilliant article on the topic:
+“Traditional macroeconomics has a simple equation 69to try to value a medium of exchange:
+MV = PT Here:
+●   M is the total money supply; that is, the total number of coins
+●   V is the “velocity of money”; that is, the number of times that an average coin changes
+hands every day
+●   P is the “price level”. This is the price of goods and services in terms of the token; so it is
+actually the inverse of the currency’s price
+●   T is the transaction volume: the economic value of transactions per day
+The proof for this is a trivial equality: if there are N coins, and each changes hands M times per
+day, then this is M * N coins’ worth of economic value transacted per day. If this represents $T
+worth of economic value, then the price of each coin is T / (M * N), so the “price level” is the
+inverse of this, M * N / T.
+For easier analysis, we can recast two variables:
+●   We refer to 1/V with “H”, the time that a user holds a coin before using it...
+●   We refer to 1/P with “C”, the price of the currency (think C = cost)
+Now, we have: M/H = T/C or MC = TH
+The left term is quite simply the market cap. The right term is the economic value transacted per
+day, multiplied by the amount of time that a user holds a coin before using it to transact.
+This is a steady-state model, assuming that the same quantity of users will also be there. In
+reality, however, the quantity of users may change, and so the price may change. The time that
+70
+users hold a coin may change, and this may cause the price to change as well.”
+– Vitalik Buterin
+68 https://www.investopedia.com/terms/e/equation_of_exchange.asp
+69 https://en.wikipedia.org/wiki/Equation_of_exchange
+70 Source: On Medium-of-Exchange Token Valuations
+White Paper draft - page 53                                                                                    Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Demand
+The demand for the Integrity Currency is rooted in its use in growing businesses. It is the unit of value used
+in the ecosystem to purchase business growth and facilitating trade.
+Based on 5 year projections, we are expecting a $462 Million USD demand for the Integrity Dollar.
+Monte Carlo simulations over 9 years point to $4.5 Billion USD in demand for the digital currency.
+White Paper draft - page 54                                                                                      Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Supply
+3 potential releases over a period of 3-4 years will amount to a total supply of 1.2 billion tokens. That is a
+healthy  supply  to  align  with  demand  and  does  include  built-in mechanisms for additional releases to
+alleviate price pressure, if need be.
+●   Circulating Supply:                                                                                          50M liquidity/other 250M progressively unlocks through vesting schedule
+71
+●   Total Supply                                                                                                 :                                                                         1.2B (300M, 300M, 600M) over 3 releases
+●   Max Supply:                                                                                                                                                                                                                                                                                  kept in line with demand over 9 generations by  distributed governance
+Monetary Policy
+                                                                                                                                                                                           The Integrity Economy has  3 core monetary policy tools to manage and protect the ecosystem and the
+currency value.
+●   Minting                                                                                                                                                                                create new token to increase supply and decrease price
+●   Burning                                                                                                                                                                                                                                                                                      eliminate token within the ecosystem to reduce supply and increase price
+●   Staking                                                                                                                                                                                                                                                                                      allowing participants to stake their tokens on the platform for incentive*
+                                                                                                                                                                                           *currently set to 6% annualized.  Decreases supply and  velocity and exerts upward price pressure.
+Use of Funds
+20M USD being raised for the initial token sale.
+●                                                                                                                                                                                          10M acquisition of geographically distributed agencies (for approx. 3M USD in yearly profit).
+●                                                                                                                4M platform growth and user acquisition (sales and marketing)
+●                                                                                                                                                                                          5M held in Bitcoin to asset back the Integrity Dollar and fund platform development
+71 Source: https://www.coinist.io/understanding-token-supply/
+White Paper draft - page 55                                                                                      Integrity.one                                                             to contribute: thomas@integrity.one
+
+
+
+
+Operating a Surplus Economy
+The operating model of the Integrity Economy involves the acquisition of profitable agencies that will help
+us penetrate 6 different markets in North America, South America, Europe and Asia. The profit from these
+agencies is expected to be $3,000,000 USD per year.
+The Integrity Platform development budget is $2,000,000 USD/year with a Canadian Tax Credit and Grant
+manoeuver that will help Integrity recover 40% of those operating costs within 1 year ($800,000 USD/year).
+This allows the Economy and Platform to operate in a net cash flow positive position of +$1,800,000 USD /
+year.
+Including the covered call revenue on the 5M in BTC inventory of $750,000 USD assuming a 15% premium
+collected, this would represent a Digital Economy with a net year 1 operating surplus of $2,550,000 USD,
+not including any client revenues for services.
+White Paper draft - page 56                                                                                   Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Treasury Management
+We are in discussion with  one of the top 3  regulated digital custodian in the world to hold the 5M in Bitcoin
+assets, the 30M in ID liquidity reserves and the 900M in undistributed minted ID token to be placed in their
+custody with full insurance  and full cybersecurity.
+Integrity is connected to multiple liquidity providers and OTC desks outside of the platform.  This is to
+ensure price stability and access to liquidity for platform participants when they want to cash out into fiat
+economies.
+Integrity will write covered calls on the BTC inventory for a yield of 15-25% per year in premium captured,
+while the 5M in BTC are held in custody.
+Platform participant tokens that are staked will also be held in insured, encrypted and cyber secured
+custody for proper safekeeping and record-keeping.
+Asset-backed Integrity Dollar
+We are also currently in discussion with a lead financial institution in Europe and Asia to back a portion of
+the currency with further digital assets.
+5M in Bitcoin assets, the liquidity reserves and the 900M in undistributed minted tokens would be held at a
+regulated digital custodian with full cybersecurity.
+Integrity  would  write  covered calls on the BTC inventory for a yield of  15-25% per year in premium
+captured, while the 5M in BTC are held in custody.
+Tokens staked by the platform participants, in exchange for the yield specified by the Council (currently
+placed at 6%), would also be held in insured, encrypted and cyber secured custody for proper safekeeping
+and record-keeping.
+The Us Dollar backing with the gold standard was the reason the American people could have faith in the
+value of their currency.  Although a volatile asset, gold was still recognized as a store of value that, in time,
+appreciated with inflation.
+In the case of the Integrity Economy, we are backing our dollar with the strength of Bitcoin.  Given its
+limited  supply,  increasing  demand  and  54%  market share of the entire cryptocurrency market, it is
+currently the best choice, in the eyes of our financial partners,  for a digital store of value and reputation
+strength in today’s crypto space.  As such, Integrity is discussing placing 5M in Bitcoin holdings in custody
+to create additional trust in the value of the Integrity Dollar.
+This is done with transparent and clear proof of digital asset backing on the Integrity Dollar. It will create
+an integrity dollar floor price but increase the trust and value of the new digital currency. However, unlike
+Fort Knox, the gold can’t be emptied without everyone knowing.
+White Paper draft - page 57                                                                                         Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Fiat to Integrity Dollar Exchange Rate Risk
+There is an exchange rate risk due to ID fluctuations for both the small business buying the growth services
+and the participants in the platform delivering the growth. This risk is mitigated by pegging the SERVICES to
+the USD.  Only at the point of service delivery where the smart contract is activated, client account is
+debited  in  USD,  that  amount  is  converted  to  ID,  and  the ID are distributed directly to the platform
+participants delivering the growth.
+This ensures that while we build the strength and liquidity of ID, all ecosystem participants pay and get paid
+in the USD equivalent of ID. Therefore, regardless of token price, everyone can pay/capture the true market
+value of the services being delivered.
+White Paper draft - page 58                                                                                      Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Circular Economy: Value for All
+The key to a long term sustainable economy and strong currency is an economic model where profits and
+value are circulated back into the ecosystem.  Sources of the value are the 50% profit margin on all services
+offered on the platform generating a sizable token reserve, and the profits generated from the profitable
+agencies that have been acquired.  Key examples of circular value drivers that benefit all:
+1)   BTC Futures: Integrity can purchase BTC futures contracts to take delivery of the 3M worth of
+profits in BTC at the time of profit realization.  For example, if the profits are expected to be 3M or
+$750,000 per quarter, and current price of BTC is $4000 USD, and the Chicago Mercantile
+Exchange contract is for 5 BTC, Integrity would purchase 37 futures contract per quarter for BTC
+delivery 90 days out.  At the 90 day mark, Integrity would take delivery of 37x5 BTC = 185 BTC that
+would then go into Custody for further currency backing and strength to the benefit of all.
+2)   Token Roll-Ups: Integrity can purchase more profitable agencies at 80% token and 20% cash using
+token inventory and reserves.  This accelerate economic growth and value since this increases the
+economic surplus, which increases platform development and BTC reserve purchase from profits
+into BTC reserves for ID backing.
+3)   Platform Growth: Grow the platform participant base of small business clients, freelancers, experts
+and tech providers to increase adoption, which increases ID value and security.  Also increases
+revenue which feeds the operating model, the circular economy and ecosystem growth.
+4)   Develop Platform: Advance technology, learning engine, transaction engine and processes to
+increase efficiency, optimize outcomes and facilitate value transfer between ecosystem participants
+to maximize value exchange and creation
+5)   Buy more BTC Reserves: Integrity can then increase the price floor of ID for the long term benefit
+and safety of the entire ecosystem
+White Paper draft - page 59                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Token Sale
+(last updated as of 2018-12-06  and CURRENTLY UNDER REVIEW with our crypto economics partners in Switzerland)
+Programmatic Releases
+In order to fund the development of the platform and the growth of the ecosystem, we’ve designed a series
+of successive token crowdsales. As suggested by Vitalik Buterin, we tied the token sales to the roadmap, the
+progress and the evolution of the platform, over the course of the next 9 generations.
+We can have a sale which is uncapped as a whole, but which consists of a variable
+number of periods, where the sale within each period is capped; this way teams
+would not be asking for very large amounts of money without proving their ability to
+handle smaller rounds first. We can sell small portions of the token supply at a time,
+removing the political uncertainty that this entails by putting the remaining supply
+into a contract that continues to sell it automatically according to a prespecified
+72
+formula.
+– Vitalik Buterin
+The first token sale will allow backers and members of the community to pre-order access to the platform
+and to fund its development. It enables the team to build a beta version of the software. It also allows the
+team to start backing the integrity dollar with both digital assets and productive assets (more on that later).
+As the platform delivers business growth, it will progressively onboard more users and grow its transaction
+volume. . Once the transaction volume reaches a certain predetermined threshold, the next token sale will
+release the next wave of token.
+We initially drafted the threshold with a price trigger but the work of our world class team of economists
+from cryptecon in Switzerland determined that transaction volume would be a much better trigger
+●   that correlates even better to platform and ecosystem growth
+●   and that is much more resilient to manipulation
+The increase in circulating supply over time helps to reduce price pressure and avoid speculation. The funds
+raised allow the team to further improve the platform, invest in growth and increase the necessary reach
+and distribution as the ecosystem grows.
+It also allows the team to collateralized\ some of the platform’s assets by performing a series of acquisitions
+of  profitable  agencies  that  can  help  roll  up  some of their expert processes, freelancers or marketing
+technology directly into the platform.
+This series of acquisitions allows us to generate free cash flow that is reinvested in growth. The cutting edge
+work of integrating all those existing and proven technologies into a seamless platform lends itself very well
+for grant funding and research development credits, further reducing the operating cost and mitigating risk.
+The  cycle  repeats  whenever  the  price  reaches  one  of  the  predetermined thresholds and every cycle
+contributes to expand the circular economy, for the mutual benefit of all the participant in the ecosystem.
+Our current modelling projects 3 token sale over the next 36-48 months. Thanks to our partnership with
+world  class  experts  out  of  Switzerland,  we  have  started  to  test  the  model  in  order  to  validate  the
+72 Source: https://vitalik.ca/general/2017/06/09/sales.html
+White Paper draft - page 60                                                                                           Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+73
+mathematical assumptions. We are building the model in R                                                         , and running simulations from a game theory
+standpoint to observe potential strategies, behaviors, incentives and scenarios when it comes to:
+●   pricing, demand and supply
+●   speculation and manipulation
+●   monetary policies
+●   circulating supply, total supply and max supply
+●   minting, burning and staking mechanisms
+●   revenue streams
+●   contribution
+●   governance mechanisms
+●   and much more
+These simulations help us further validate/stress test token design and crypto-economic model.
+This model allows the platform to grow over time but based on real results and proven utility. Rather than
+raise the full amount upfront (for the kind of investment such a platform will require over the years) we have
+opted to raise a smaller amount. We can deliver results to increase the demand and release more token in
+the market once we reach the next milestone.
+This deterministic and programmatic token sales mechanism is inspired by the work of Vitalik Buterin on
+Analyzing Token Sales 74and the next generation of initial coin offerings and token crowdsales. It helps:
+➔  align management supply with demand.
+➔  promote a steady rise in value with a healthy degree of liquidity and price stability
+➔  limit the effects of  speculation by delivering value in stages with proven results
+Here’s a quick look at what the first 3 token crowdsales would look like over the next 3-4 years or so with a
+total supply of around 1.2 Billion tokens. That time table could be accelerated if the platforms grows much
+faster. The advantage of a programmatic system is that it stays in line with the market. The community and
+the  council  will  have  control over how the platform and ecosystem grows passed those  3  first token
+crowdsales through our governance protocol.
+Our token crowdsales mechanics are still very much in the works and getting tested by our economists
+partners in Switzerland. Here’s a link to the latest draft of what the programmatic token crowdsales table
+could look like over the span of the next 9 generations.
+Here’s an overview for some of the crypto economics questions and matters we are testing, modelling and
+exploring over the next months with our Swiss Partners (economists, behavioral economists, monetary
+policy experts, ani-trust experts and crypto economists) :
+●   What is the best trigger mechanism for ongoing subsequent token sales?
+●   How resilient is the model long term when it comes to manipulation by speculators?
+●   What’s the best economic model to reflect the value this productive utility token aims to capture
+and model the evolution of the market cap outside of sentiment and speculation?
+●   What’s the best potential staking mechanism design for the work token?
+73 Source: https://www.r-project.org/about.html
+74 Source: https://vitalik.ca/general/2017/06/09/sales.html
+White Paper draft - page 61                                                                                      Integrity.one                                  to contribute: thomas@integrity.one
+
+
+
+
+●   How could adding a burn mechanic benefit this ecosystem?
+●   How could a mining layer improve the resilience of the network over time? How can we reward
+contributions in kind with a mix of mining and utility token?
+●   What’s an optimal total supply over the next decade or so? What’s an optimal maximum supply for
+this ecosystem over the next 9 generations?
+●   What will be the positive effect on the model of backing a portion of the integrity dollar economy
+with Bitcoin through our financial partners?
+Token Allocation
+(300M token)
+(last updated as of 2018-11-30 and CURRENTLY UNDER REVIEW with our Swiss crypto economics partners)
+➔ Token Sale (76.3%)
+41.7% token sale ($20M) - vested
+5.0% early investors premium - vested
+15.0% BTC premium bonus - vested
+14.6% ETH premium bonus - vested
+➔ Incentives (13.9%)
+1.5% legal and compliance - vested
+9.0% founders - vested
+3.0% advisors, contributors & community - vested
+➔ Liquidity (10.5%)
+10.2% small business growth - liquid
+0.0% reserve
+Token sale
+(20M dollars)
+➔ 20M hard cap
+➔ considering a stretch goal based on traction
+➔ 2M soft cap
+White Paper draft - page 62                                                                              Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+(this section was last updated as of 2018-11-30)
+HOW TO PARTICIPATE
+Integrity is raising around 20M for the first of a series of token sale. This sale has multiple private and public
+75
+stages of participation.  Here are the details for the various stages.
+Target price: 1 integrity token = 0.16 USD
+Staking tokens yields and initial return of 1% every 2 months
+TAKE ADVANTAGE NOW:
+With our premium exchange rate* of ETH at 180 USD and BTC at 6500 USD
+*Premium rates are subject to change, based on market
+Seed Round (being finalized)
+(for 5% equity of the company building/operating the platform)
+➔   1M for 5% equity with a 50% token bonus
+➔  with 6% cash dividend (paid quarterly)
+➔  min 100k, max 1M
+➔  vested 9 months
+Private pre-sale (-live-)
+➔   5M at 0.12$ (25% bonus)
+➔  min 200k, max 1M
+➔  vested 9 months
+Private sale (- Q1 2019 -)
+➔   4M at 0.14$ (13.5% bonus)
+➔  min 20k, max 1M
+➔  vested 9 months
+Public pre-sale (- Q2 2019 -)
+➔   2M at 0.15$ (6.25% bonus)  - (to be confirmed)
+➔  min 1k, max 8k - (to be confirmed)
+➔  vested 6 months
+Public sale (3 stages) (- to be announced -)
+➔   12M at  0.16$ - (to be confirmed)
+➔  min 1k, max 2k - (to be confirmed)
+➔  vested 6 months
+Join us - Unleash the PoWR2 of Small Business!
+75 for additional details  on next stages of token sale, please reach out to thomas@integrity.one and we’ll be happy to fill you in
+White Paper draft - page 63                                                                                                           Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+FAQ (FREQUENTLY ASKED QUESTIONS)
+(this section was last updated as of 2018-11-30)
+What are the dates of the token sale?
+Here are the dates
+Can I pre-register?
+Yes, you can pre-register here. - Just click <Get me on the Whitelist>.
+Is there a soft cap/hard cap?
+We are finalizing the mechanics of the token sale and currently looking at a 2M USD soft cap and a 20M
+hard cap. Since there is good traction, we might include a stretch goal to firther fund acquisitions.
+Do you have a privacy policy?
+Yes. You can consult our policy here
+Do you have a KYC procedure?
+yes [insert link]
+What is the Integrity utility token used for?
+To buy Growth as a Service for your small business
+I am part of the bounty or airdrop, when will I receive my tokens?
+At the very end of the last round of the public sale.
+I invested. When will I receive my token?
+At the very end of the last round of the public sale.
+I’m a contributor/advisor/team member. When will I receive my token?
+At the very end of the last round of the public sale.
+Is Integrity expected to trade on a digital exchange?
+Yes.  We  are  aiming  to  get  the  Integrity  Utility  Token  traded  on  4-5  exchanges.  We  are  concluding
+partnerships to get pre-listed so we can essential provide liquidity as soon as we mint the token.
+Can US citizens participate? Are there any country restrictions?
+Yes, it should be possible for US citizens to participate if they are an accredited investor. We cannot accept
+participants from China. And please note that the Issuer does not offer to sell Integrity Tokens and is not
+soliciting the participation in the Integrity Token Sales in any jurisdiction or to any person to whom it is
+unlawful to make such offer or solicitation in such jurisdiction.
+White Paper draft - page 64                                                                                        Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Is your token a security? What’s the regulatory risk?
+We enlisted the services of a world class firm to make sure we structure our token model and token sale to
+release a utility token that does not constitute a security under Cayman Law. We are not selling to retail
+investors into the U.S; are not selling to China; to further mitigate any risk. And the Issuer does not offer to
+sell Integrity Tokens and is not soliciting the participation in the Integrity Token Sales in any jurisdiction or
+to any person to whom it is unlawful to make such offer or solicitation in such jurisdiction.
+Are my integrity utility tokens transferable during the token sale or while they are still vested? Can I
+move them between ETH addresses?
+For security reasons, users will receive tokens at the same ETH address they used to make the token
+purchase. They can't transfer utility tokens from one ETH address to another during the token sale and
+vesting period. They can withdraw unlocked tokens from the platform system to the original ETH address,
+after the vesting period, and then transfer them to any other account of their choice.
+How would you explain integrity.one to a 5 year old?
+Imagine that stores want to get more customers. Each store owner gives money to people who work in
+"marketing". The  job of the “marketing” people is to get more customers.
+A good way to get customers is to tell people about the store on the Internet. A lot of people use the Internet
+and they use it a lot! But convincing people on the Internet to come to a store is hard. You have to know a lot
+about how to use computer programs to spread your message on the Internet. You also have to know a lot
+about making ads. So you need someone in “marketing” who knows all that.
+The big problem is that there are a lot of dishonest people out there. Crooks! And also people who are bad
+at that job. Fools! And computer programs that cost a lot of money but are not very good - like a bad toy or a
+bad game.
+In the end, the “marketing” people are always happy to take the money of the store. But they don't always
+bring customers. They don’t always do their job well. That is very bad for the business. So bad, that a lot of
+business have to close down.
+So we’re making a “website” where only the good marketing people can work. They need a special “code” to
+enter the website. And we only give them this “secret code” if they can pass a test. This way, when a business
+needs to get more customers, they know it will work. It’s guaranteed to work. Only the good people will
+work on getting them more customers. If ever something was to happen and they don’t get more customers,
+they can also get their money back. Isn’t that wonderful?
+We invite the best marketing people. We invite the best computer programs. And we invite the best experts
+to come together and do great “marketing” with us. To get all these stores much more customers!
+And to encourage them, to inspire them and to motivate them we even play a game together. To play this
+game we have our own “points” system. The business buys points and they give points to the marketing
+people. The better the marketing people do their job, the more points they get. And we have rules to make
+sure everyone plays fair. And when you’re a good honest player, you get more and more points. Bad players
+& cheaters lose points.
+And what can the marketing people get with those points? They can get whatever they want. Because they
+can sell their points to the next business owners who also want more customers. And they can buy whatever
+they want with that money. And it goes on and on like that. And everybody wins. :)
+Why do you need a blockchain?
+White Paper draft - page 65                                                                                         Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+To build our growth as a service platform on a distributed layer of trust. To use smart contracts instead of
+tons of clerks, middle men and layers of middle management. And to keep automatically keep payment fairly
+in escrow until quality work and results are delivered.
+Why do you need a utility token?
+To make it easier to reward contributors and build a fair and sustainable circular economy between all the
+participants.
+Why not just use Bitcoin or Ethereum instead?
+To avoid volatility and speculation. To better align the incentives of our contributors.
+Why do you need smart contracts and a work token?
+Work token allows the platform to empower the contributors who deliver real growth and keep the bad
+actors out of the equation. Smart contracts allow us to reach more people with a leaner model.
+How can you ensure proper governance?
+We  are  working  with  leading  experts  in  the  field  to  introduce  a  vote token to build mechanisms of
+distributed governance within the platform and the ecosystem.
+How can you drive value and ensure the value of the utility token won’t crash?
+Like any market, the value will be maintained if the demand is greater than the supply. We make sure to
+build a platform that delivers real value to the members, that puts the greater common good first and that
+offers a desirable utility. Given the size of the market, the limited total supply, and the sound monetary
+policy with distributed governance,  it makes for robust economics.
+Can the PoWR2 protocol be used outside of small business growth?
+Absolutely. We have friends in the crypto space who are working on decentralizing manufacturing and they
+have to vet engineers. They see a potential use case for our protocol and so do we.
+We are just starting with Growth as a Service for small businesses because it’s something we know, we’re
+really good at and has a massive impact. But we certainly invite our partners, community members and
+contributors to put the tools we build to great use. We’re definitely better together and always happy to
+collaborate for the greater common good!
+White Paper draft - page 66                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Who owns the platform? the network or the company?
+Most of the platform code will be open source. So most of the code will belong to the community. Our
+engineers are working on the best way to time the release of the open source portion of the code into the
+ecosystem.
+The platform is being built on a distributed architecture which means the nodes will be mostly owned and
+operated by members of the community as well.
+The different companies that constitute our global corporate structure are mostly operators. They operate
+the platform for the benefit of the community. Those companies are owned by our founding team and seed
+investors in the early stages of the platform rollout.
+Why do you have corporations building and operating the platform?
+We were initially hoping to operate as a Distributed Autonomous Organization from the start but there is
+still a good bit of risk and complexity around technology and regulation so we started with a global structure
+of limited partnerships.
+We’re planning to transition to a distributed organization over the next 24-36 months.
+Will there be a guide on how to add the custom token?
+[insert answer]
+What is the price of one token during the token sale?
+We are currently aiming for 1 integrity utility token = 0,16 USD
+Are there any refunds for token sale funds?
+Tokne sale funds will be refunded in the event that the soft cap is not reached or under any other provision
+of the Terms and Conditions that legally warrants a refund.
+Are there any refunds for seed funding?
+No. Seed funding is not refundable.
+Does Integrity have any partnerships?
+Yes, they are listed on www.integrity.one
+Is this an Ethereum-based token?
+Yes, we are planning to use an ERC 223 protocol to release this token.
+Is the Integrity Utility Token a security token, utility token, or consumer token?
+A utility token
+White Paper draft - page 67                                                                                      Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Will you compensate me for sending money to scammers?
+No. Be mindful to follow the crowdsales instructions and process throughout so you don’t fall prey to all the
+scammers out there. The process is safe and secure if you follow the guidelines.
+Do you have a bounty campaign?
+Yes. Here is the link to the bounty post on BitcoinTalk.org. We have second bounty campaign on its way.
+Will there be a token airdrop?
+Yes. Here is the link to the 1st  airdrop post on BitcoinTalk.org and the 2nd airdrop post
+What is the total token supply or max supply? Will there ever be more tokens?
+We are currently aiming for a total supply of 1.2 billion tokens over the first 3 token sales.
+Beyond that, our economists are hard at work to build a governance system that will allow the council to be
+good stewards of the economy with a robust monetary policy. The monetary policy will include the ability to
+set the proper yield rate based on the velocity of the token and to burn token when need be.
+The council will be managing a potential max supply of approximately 1 trillion token over 297 years or 9
+generations. We are working with our resident economists to ensure the economic model is optimal and can
+be progressively right sized over generations. Once that ultimate max supply number is set, there will never
+be any more tokens.
+Can I participate in the ICO without a private wallet?
+[insert answer]
+During the token sale, do you accept credit cards or paypal? Fiat or cryptocurrencies?
+We aim to accept fiat, BTC and ETH. For fiat purchases, we aim to accept credits cards,  Paypal and any
+other  payment  channel  we  can  reasonably  accommodate.  We  are  finalizing  the  protocols  with  the
+development team and will soon share the conversion mechanisms and flow of funds from an investor’s
+perspective.
+Where should i keep my token stored?
+You can stake it on the integrity platform to receive a yield. Or in a secure online wallet or cold wallet
+What is the minimum and maximum investment?
+They are listed in the “How to Participate” section
+Which blockchain will be used for your project? Explain your choice.
+Our distributed team of developers and engineers that have been developing enterprise grade blockchain
+for nearly 7 years including clients like some of the top Europe banks are considering all available platforms
+including Ethereum, Hyperledger and a few more.
+We are also building the platform to be modular, portable and agnostic in order to allow us to migrate to a
+different blockchain, if need be, as the industry matures over the next few years.
+Where is your team based?
+Canada,  Spain, the Netherlands, Ukraine, Philippines, the U.K., Sri Lanka, Hong Kong and the Cayman
+Islands, for the most part.
+How did the team come together?
+White Paper draft - page 68                                                                                      Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Mostly through our growth agency www.erationalmarketing.com and our business networks.
+What is the marketing strategy after the token sale?
+We will deploy our 3 existing  proven business to business marketing funnels to attract experts, freelancers
+and tech providers:
+●   event filling funnel
+●   lead generation funnel (linkedin messaging and outbound telesales funnel)
+●   ultra-funnel (video and email automation nurturing funnel)
+We also use a distributed strategy of agency clusters where a lead agency uses the platform to scale and
+then teaches 2 more agencies every 9 months (up to a maximum of 6) over a period of 5-9 years. This allows
+each cluster of agencies to properly customize and localize the strategy to their specific market, region and
+niche.
+How can I participate in the token crowdsale sale? Is there a guide?
+See www.integrity.one
+Do you have a video explaining your project?
+Yes. See www.integrity.one These are the first drafts and we are working on improved versions.
+Do you have a price in ETH or BTC, or is it fixed to a fiat value?
+We are aiming for a fixed 0.16 USD price for the token crowdsale. We are however offering a premium
+exchange rate of approximately 1-% on Bitcoin and Ethereum. Our current premium rate is around 6500
+USD for BTC and 180$ for ETH to help backers participate in the crowdsale without having to time their
+token purchase with an upswing in the market.
+Note: Those rates are subject to change and updated when necessary.
+Is the operating company incorporated? Where?
+Yes. Canada and the Cayman Islands.
+Have you got a vesting period for founders and early contributors?
+yes, 12 months and 9 months respectively.
+White Paper draft - page 69                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Is your smart contract deployed for the crowdsale/ICO?
+No, we’re currently in the last steps of the testing phase. We determined it would be more efficient to run
+the yield and vesting periods of tokens on a different smart contract after the token sale so we are putting
+the final touches to separating what started as one big smart contract into something more agile and more
+modular.
+Do you have a working product that users can test? An MVP?
+We have been servicing a limited number of small businesses and validating the business model through our
+existing marketing agency over the last 18+ months. We are currently building the first prototype of the
+distributed software platform that will enable us to scale this model. We are planning to open that prototype
+for beta testing over the course of 2019.
+Do you have a reputable third party for KYC? How safe is it to upload my ID on your site?
+Yes, we are working with Chappuis Halder and KYC-Chain under the guidance of our legal team.
+I’d like to participate in the seed or private rounds of the token crowdsale. Who should I reach out to?
+thomas@integrity.one
+I’d like to contribute to building the platform. Who should I reach out to?
+nikleger@integrity.one
+How can I contact the Integrity team?
+www.integrity.one
+Help! I have a question that wasn’t answered here.
+www.integrity.one
+White Paper draft - page 70                                                                                     Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+SUPPLEMENTALS
+(this section was last updated as of 2018-12-06)
+Token design (continued)
+Tokens that currently trade in the market generally fall under three types of crypto assets. They usually
+either act as a:
+●   currencies and commodities (store of value)
+●   utility tokens
+●   security token
+76
+As we touched on briefly, our integrity.one utility token is very much designed to serve its purpose as a
+payment currency for the Growth as a Service platform we’re building.
+Although it may present a certain interest as a store of value, it’s definitely not the primary intended role.
+And we diligently, constantly do everything in our power, with the assistance of our different legal teams, to
+keep it from looking, feeling or behaving in any way, shape, or form, like any kind of security token.
+From a risk mitigation standpoint, we do align with regulation wherever possible to minimize the impact in
+case utility tokens were ever declared to be deemed securities for some of the jurisdiction we operate in.
+But we are very much dealing with a true utility token here, as far as the law and our legal counsels are
+concerned.
+76 Source: https://hackernoon.com/capturing-crypto-value-a-guide-to-tokenization-strategies-part-2-3-af7a696e02cd
+White Paper draft - page 71                                                                                         Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+Capturing Value
+Once we’ve established the token model, how can we gain any type of insight on how its potential value
+could evolve over time and if the crowd should support it?
+Traditional valuation mechanism can yield some clues (with discounted cash flow analysis, net present value
+or internal rate of return calculations) as to the value of the underlying economic activity. But these models
+have also turned out, for the most part, quite elusive when it comes to nailing cryptocurrency fundamentals.
+Valuation of token models and cryptocurrency are still very much a challenge. There are many schools of
+thought and the jury is still out on how to best assess the current and future expected value of any given
+distributed application or distributed platform token.
+The current massive market cap for cryptocurrency has been mostly fueled by speculation.  And so has its
+extreme volatility. Very few token sales or initial coin offerings relate to a truly productive economic model.
+77
+And the efforts to capture true value in token design are still rare and few apart.
+The  small  business  marketing  and  growth ecosystem is riddled with waste, friction, inefficiencies and
+liabilities. There is a tremendous amount of value to be created in reducing that waste. And one of the
+challenges is to design a token model to capture as much of that value as possible.
+Let’s have a look at some of the different economic perspectives that are available to us.
+Valuation models
+What is the proper valuation model for an instrument like the integrity dollar? Since the jury is still
+out on the question, we use the following pages to explore different schools of thought on the
+topic and bridge the work of various leading expert with the work of our resident economists.
+Equation of exchange and velocity
+If we want to examine the potential value over time from the angle of an equation of exchange, we also need
+to build an assumption for velocity.
+As Kyle Samani78 points out in his brilliant work, the velocity of the USD M1 is about 5.5. Prior to the
+financial crisis (for which the Federal Reserve approximately doubled the money supply), the velocity was
+79
+about 10
+Since the Integrity Dollar (ID) doesn’t intend to act as general-purpose money, and if we assume, for the
+time being, that there is no real profound compelling motivation to hold the token beyond accruing 1% yield
+every  2  months, we can explore a  3-10x higher velocity than USD M1. This would imply a velocity of
+30-100,based on his work that we use for illustrative purpose here.
+The terminal value of the market cap for the Integrity Dollar,  assuming 100% market saturation, at the
+advertising level, would therefore land somewhere in the estimated range of $1.5B - $5B ($150B/100 and
+$150B/30). If you subscribe to the idea of the trillion dollar market based on true extent of sales and
+marketing  spend  and  number  of  small  businesses  on  the rise, you would multiply that by  6-7  for an
+estimated terminal value of $9B-$30B.
+77 https://medium.com/paratii/on-the-immaturity-of-tokenized-value-capture-mechanisms-1fde33f2bc8e
+78 Source: https://www.forbes.com/sites/ksamani/#4291e64d6057
+79 Source:  https://medium.com/multicoin-capital/new-models-for-utility-tokens-d26c12ec00c5
+White Paper draft - page 72                                                                                       Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+That would represent the total potential market cap for this token model, under that framework. As Phil
+Bonello however expressed it in his equally brilliant work, we tend, like him, to subscribe to the idea that:
+“MV=PQ is generally not suitable for valuing productive assets. Rather, it demonstrates a semi-useful way
+to understand how a medium of exchange token behaves relative to the economic activity it generates.” -
+80
+Philip Bonello
+Compelling motivation to hold and net present value
+Which takes us to the next model. If Growth as a Service were, on the other hand, a pure and simple
+commodity like storage space, or computing power, we could most certainly rely on the Net Present Value
+equation to determine the potential terminal value of the platform.
+81
+Similar to Kyle Samani’s analysis of Filecoin, assuming an estimated discount rate of 40%                        (for this type of
+startup), and operating margins of 50%, the potential estimated terminal value for integrity could then be:
+$150B x 50% / 40% = $187.5B
+That’s more than a ten fold difference!
+Since velocity exerts perpetual downwards price pressure, the impact of managing to escape that problem
+(usually associated with pure proprietary payment currencies) is quite impressive.
+For that model, however,to be undeniably true, growth would have to be a simple commodity. And if it were,
+instead of earning a work token based on merit, as in our model, the users would simply buy a work token
+and stake it in order to bid on a job. The more cashflow the platform would generate, the more demand
+there would be to hold that tradable work token, and the price would increase with the capacity for the
+platform to produce cash flow.
+And models for  a good or service that is indeed a pure commodity lend themselves very well to that kind of
+mechanics. But considering that Growth as a Service  is not a pure commodity when it comes to the people,
+process and technology that power it, our platform users would seemingly need a different (strong and
+compelling) motivation to hold or stake integrity dollars.
+And that motivation would need to grow fairly linearly with the ability of the platform to deliver growth on a
+larger and ever increasing scale. This is where the notion of circular economy becomes increasingly relevant
+as a crucial factor in the long term outlook of this platform and this new economy.
+Incentive to hold
+But how does the model tie in with the velocity of the token or propensity of the platform members to hold
+token?
+In order to see the appeal of the model and the impact on the velocity of the token and the impact on the
+market cap, you have to be familiar with the pain that comes with the status quo. Here are the advantages
+for each entity to back, support and fund the development and growth of the platform throughout.
+Small business owners
+status quo - small businesses can sit on their marketing budget, earning little to
+no interest and be stuck on their own when it comes to figuring out the best
+80 Source: https://hackernoon.com/valuing-productive-cryptoassets-89cedad444e6
+81 Source: http://people.stern.nyu.edu/adamodar/pdfiles/papers/younggrowth.pdf
+White Paper draft - page 73                                                                                      Integrity.one       to contr
+
+
+
+
+people process and technology to deliver the growth they need, amidst all the
+noise in the market.
+hold integrity token - Or they can invest their marketing budget in integrity
+token, earn a 7.2% yield, and support the platform that allows them to benefit
+from the best people, process and technology to deliver growth on demand..
+Freelancers and agencies
+status quo  - freelancers can sit on their marketing budget, earning little to no
+interest and have to spend precious time on figuring out to compete for contracts
+with the rest of the pack.
+hold integrity token - Or they can invest that budget in integrity token, earn a
+yield, benefit from the best people, process & technology to deliver growth on
+demand and back a platform that expands this new source of no hassle merit-based
+to take their business to a whole new level.
+Experts and consultants
+status quo - experts could also sit on their budget, earning little to no interest
+and have to spend precious time not only figuring out to compete for contracts
+with  the  rest  of the pack but also be stuck with executing campaigns and
+funnels for their clients.
+hold integrity token - Or they can invest their marketing budget in integrity
+token, stake it and get paid a yield. They can support the platform that helps
+them build their business with a steady and growing flow of new clients; that
+lets them focus on strategy and advisory while a team of freelancers delivers
+the work required to power their process.
+Tech providers
+status quo - tech providers can watch their marketing budget sit idle, earning little
+to no interest and have to spend precious sales and marketing resources trying to
+acquire small business customers at an acceptable cost.
+hold integrity token - Or they can invest their marketing budget in integrity token
+and get paid to back the platform that allows them to earn market shares based on
+the merit of their software, divest from sales and marketing to push their product
+development, and focus their concentrated efforts on their niche and area of true
+expertise as this new acquisition channel grows.
+Crowd
+status quo - the crowd can speculate with the vast majority of tokens
+out there; try to time gains with a highly volatile crypto market; back
+projects that are, for the most part, still at concept level. And face the
+risk of backing unproven business models.
+hold integrity token - Or they can choose to back a business with a
+proven model that’s looking to scale; fund something that can improve
+the livelihood of most families in their community, build a sustainable
+White Paper draft - page 74                                                             Integrity.one   to cont
+
+
+
+
+future for generations to come, bridge the gap in wealth distribution
+and finally empower awesome small businesses to win big.
+Incentive is behavior. Integrity can flourish with a strong incentive for
+the  small  business  ecosystem  to  support its growth, not unlike the
+incentive for bitcoin and ethereum developers to support their growth.
+And the very design of this innovative platform model ensures that such
+incentives  rewards  and  shapes   the  desired behaviors for this new
+economy to flourish.
+Vesting
+With the exception of the first 5M assigned to growth for the early adopters in our ongoing pilots, most of
+the early backers are vested for periods of 6-9 months. The founders and some key partners are also vested
+for 12 months.This allows us to allocate the funds of the token sale to ramp up the prototype and grow the
+platform for the benefit of the ecosystem.
+The vesting schedule then allows a release of 10% per month over the next 9 months, allowing backers to
+get full liquidity/utility on their token purchase within 15-21 months, if need be.
+Market Cap
+For illustrative purposes and as an example:
+A 0.60$ integrity dollar value after 4-5 years would translate to a 720M USD market cap. That would put
+us (in the current bear market) around  #15 on the coinmarketcap list, between NEM & IOTA.
+From a value creation standpoint, we are helping to increase the survival rate of small businesses, driving
+connection, learning and cooperation. But we’re also enabling a better wealth distribution, with stronger
+fundamentals AND a circular economy, for the greater common good. This provides a strong foundation, a
+robust  floor  value  for  the  ecosystem  and  delivers  robust  economics  for  the  distributed platform, its
+supporters and its participants.
+White Paper draft - page 75                                                                                        Integrity.one   to contribute: thomas@integrity.one
+
+
+
+
+

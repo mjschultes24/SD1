@@ -1,0 +1,179 @@
+﻿The Movement DAO
+WHITEPAPER VERSION 1  /  10.09.17
+ABSTRACT
+The Movement is a Decentralized Autonomous Organization  (DAO) that is
+entirely owned and shaped by its participants. By harnessing the power of
+the Ethereum computing platform and related cutting-edge technologies, the
+world’s first fully crowdsourced DAO is being created. Without any central
+leader and built from the bottom up, the Movement supports humans on the
+internet to come together and create freely.
+New and innovative spaces are emerging, communities and markets governed by
+internet citizens are arising. Independent from government agendas or corporate
+entities, the Movement uses the latest technology to offer a decentralized and
+unstoppable breeding ground for people from all around the world to connect
+and create.
+
+
+
+
+C O N T E N T S
+the  interwoven  analog  and  digital  world                                          1
+a  meeting  point  for  grassroots  movements                                         2
+incentivizing  collaboration  with  tao                                               3
+brief  technical  overview                                                            4
+frequently  asked  questions                                                          5
+1                                                                                     T H E  I N T E R WOV E N  A N A L O G  A N D  D I G I TA L  WO R L D
+Today, people from all around the world have access to the internet, allowing
+anyone to potentially interact, cooperate, and create. Decentralized blockchain
+technology can be utilized to facilitate new opportunities for connecting with
+fellow humans, allowing friendship across cultures to be made and enhanced.
+With access to the growing capabilities of the digital world, before us lie unima-
+ginable ways of collaboration. In today’s world society that is growing more and
+more intertwined, people can have the power to personally create and recreate
+parts of both the digital and analog environments that they live in by cultivat-
+ing networks based on trust and friendship, thereby transcending organizational
+boundaries.
+The ever-increasing digitalization brings with it both new benefits and issues.
+By focusing on the human roots of technology, the beneficial power of the inter-
+net can be fuel for positive social activity. In this interwoven analog and digital
+1
+
+
+
+
+world, the true power of decentralized movements by and for humans comes to
+light. The Movement aims at building bridges between existing forms of orga-
+nizations, be it social groups or full-fledged non-government organizations, and
+decentralized blockchain technology. Its core idea is not against governments
+but for people a priori - guided by the vision of creating valuable environments
+and sustainable networks.
+2                                                                                   A  M E E T I N G  P O I N T  FO R  G R A S S R O O T S  M OV E M E N T S
+The Movement is establishing a virtual meeting point for participants to interact
+and create. In addition to traditional channels such as websites and forums,
+anyone with access to the internet and a web browser will be able to immerse
+in Greenpoint, a place in a 3D open virtual reality world. Having acquired 50,000
+MANA (50 LAND, 1000 MANA = 1 LAND) in the original Decentraland token
+sale, the Movement is securing its headquarters for the community within the
+virtual world of the future.
+By using our own decentralized LAND, we build an environment that thri-
+ves to create new opportunities for human collaboration. No matter where you
+reside, the virtual world offers a meeting point to connect to at any time. On
+top of that, Greenpoint is owned and fully shaped by the Movement’s partici-
+pants, creating an immutable record of ownership. Within the land, you can
+use Decentraland’s native currency MANA, as well as The Movement’s TAO
+token.
+We will begin by building a virtual coffeehouse for people to get together.
+Greenpoint is a place where people can meet, new organizations can be created,
+and existing organizations can connect. Whether you would like to hang out
+with friends, lead stimulating conversations, or start a new social movement, the
+green meeting point is a vibrant place to get started. You are heartily invited
+to come around.
+2
+
+
+
+
+Host a meeting or a party in the virtual world. Create a study or research
+group. Connect with likeminded people and make new friends. Engage in crea-
+tivity exercises. Start a social movement. Do what you love. Greenpoint is a
+place to connect.
+3                                                                                    I N C E N T I V I Z I N G  C O L L A B O R AT I O N  W I T H  TAO
+To incentivize activity within the organization’s movements, as well as to allow
+participants to vote and take part in the creation and governance of the DAO’s
+parts, The Movement introduces TAO. The TAO token is based on Ethereum’s
+ERC20 Token Standard. No ICO has been held, and no funds have been raised.
+The Movement, in essence, is not for profit but for people.
+On August 06, 2017, a bot called Dropper  (Bitcointalk ID 1091123) posted
+the Movement’s original announcement thread on the Bitcointalk forums, al-
+lowing Bitcointalk members to apply for a free so-called airdrop by sending
+a private message to the bot. Thousands of accounts applied to become early
+participants of the organization, and eventually, about 700 founding members
+were accepted. To ensure widespread distribution only one account per person
+is allowed - alt accounts, automated signups, and robots are effectively removed
+by an extensive audit system. Over the course of several weeks, the Movement’s
+founding members voted the airdrop to end on August 31, 2017.
+In order to distribute TAO in a fair and beneficial manner, every partici-
+pant’s activity towards the project is measured. Before the official genesis snap-
+shot and the establishment of The Movement on the Ethereum blockchain,
+all participants can increase their activity and earn a higher share by actively
+participating in creating and extending the DAO’s infrastructure. TAO is distri-
+buted proportional to each participant’s contributions towards the DAO, and
+according to the below scheme consisting of both Bitcointalk Activity Ranks
+3
+
+
+
+
+and Movement Activity Ranks. The number next to each rank is the respective
+activity value.
+Bitcointalk Ranks: Newbie 2, Junior 1.75, Member 1.5, Full Member 1, Se-
+nior Member 0.9, Hero 0.8, Legendary 0.7 (Decreasing numbers: higher reward
+in TAO)
+Movement Activity Ranks: Idler 0.5, Mover 1, Contributor 1.75, Ambas-
+sador 2, Developer 3 (Increasing numbers: higher reward in TAO)
+In total, 3,000,000 (3 Million) TAO will be created and distributed according
+to the below formula (where ∆ = founding member and τ = TAO):
+{(3, 000, 000τ/(∆total ∗ ∆rank)) ∗ (∆activity + boni)}
+The absolute amount of TAO distributed to each participant will become
+available on the official data spreadsheet. TAO will be distributed between the
+end of September and the first half of October 2017. It will be solely in the hands
+of the community and can be used to incentivize activity and the creation of
+value. If you are a founding member it is a wise idea to redistribute a part of
+your TAO tokens and reward people for valuable contributions. The DAO is not
+affiliated with or controlled by any third party entities, and it is solely governed
+and shaped by those who take part in its development and governance.
+4                                                                                      B R I E F  T E C H N I C A L  OV E R V I E W
+The Movement will run on the Ethereum blockchain and make use of advanced
+technologies such as the Aragon Network (which acts as a digital jurisdiction
+that makes it easy and friendly for organizations to operate on the blockchain),
+the District0x Network (which is a network of decentralized markets and com-
+munities), as well as the Decentraland Open Virtual Reality Platform (which
+builds a virtual open world that runs on open standards).
+4
+
+
+
+
+This symbiosis constitutes the foundation for the Movement’s decentralized
+organizational structure. Holders of TAO will be able to make proposals and
+vote. In the virtual meeting place Greenpoint, people can get together. The
+Movement DAO’s infrastructure will be built over time and is a collective work
+of the community. Core developers are working on the technical infrastructu-
+re, and all participants together are building and growing the Movement by
+“painting the walls with many magnificent colors”.
+5                                                                                      F R E Q U E N T LY  A S K E D  Q U E S T I O N S
+1 .  H OW  T O  J O I N  T H E  M OV E M E N T ,  H OW  T O  C O N T R I B U T E ?
+No matter if you are among the approximately 700 founding members of The
+Movement or simply interested in its endeavor, please feel free to join and take
+part anytime you wish. Simply start by visiting one of the official channels and
+reaching out to members of the community. Founding members are responsible
+for TAO’s redistribution by offering TAO rewards. Make new friends and create
+value.
+2 .  W H AT  I S  T H E  D I F F E R E N C E  B E T W E E N  T H E DAO  A N D  T H E
+M OV E M E N T ?
+The name DAO refers to “Decentralized Autonomous Organization” and is often
+linked to “TheDAO” which was founded in 2016. However, The Movement DAO
+is not an investor-directed venture capital fund as TheDAO manifested. The
+Movement does not raise any funds, and its token, TAO, is distributed as a
+free gift. Once the Movement is established, TAO is its fuel. There is no central
+5
+
+
+
+
+frequently  asked  questions
+authority that owns TAO or can create more TAO. The token can only be
+obtained by either participating in the community or by acquiring it on the open
+market. Whereas TheDAO aimed at providing an entirely new model for the
+organization of both commercial and non-profit organizations, The Movement
+aims at providing a breeding ground for new ways of social collaboration. Fully
+crowdsourced by and for the people and thereby built from the ground up, The
+Movement is not designed for profit but for the advancement of cross-cultural
+and transnational human interaction in conjunction with blockchain technology.
+It is a decentralized organization that can evolve freely.
+6
+
+
+
+
+

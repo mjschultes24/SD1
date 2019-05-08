@@ -1,0 +1,1787 @@
+﻿Global LED Adoption
+Through Blockchain Technology
+Whitepaper
+The Essentials White Paper
+(A brief outline of Terawatt’s platform and vision)
+(c)2018, Terawatt Corp.
+All Rights Reserved
+1
+
+
+
+
+Global LED Adoption
+Through Blockchain Technology                                                       Evan William
+Author
+Overview
+Terawatt is a patent-pending, renewable energy blockchain startup, with a
+strong focus on monetization and driving global L.E.D. adoption.
+Terawatt will create a DAO, and also a deflationary Ethereum-based, private
+(zk-SNARKS) currency for global payments.
+The DAO will be funded and used by Utility Companies, L.E.D. Sellers,
+Businesses, token holders, and energy customers worldwide. The DAO
+will act like a                                                                     decentralized global insurance fund   to ensure Utilities
+(and  businesses)  always  have  access  to  funding  (which  constantly
+runs out) for subsidizing L.E.D. sales to their energy customers (or for
+businesses and people to overcome the upfront cost of upgrading to
+L.E.D.s).
+Total Supply: 100 Million Tokens
+Circulating Supply: 65 million ( supply will decrease exponentially in an s-curve
+fashion to as low as 1 million tokens over time).
+This is due to our continuous coin burning algorithm. Terawatt will automatically
+use 50-75% of company profits earned from DAO entry/exit fees, (no exit fee if
+LED purchase is verified), profit taking fees (like an exchange), carbon tax data
+storage fees, purchase record access fees  (for businesses using our tokens as
+payment), carbon credits, and even from affiliate L.E.D. sales commissions to
+buyback and burn (LED) Tokens.
+This is similar to the BNB token, but they only burn every quarter,
+We Will Burn 24/7.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+2
+
+
+
+
+Utilities and other businesses will want to accept our tokens for payments
+because our rate of deflation is much greater than all FIAT currencies and
+most, if not all, cryptocurrencies/tokens while also being more private and
+secure  with  zk-SNARKS  and  masternodes  when  available.  They  can  also
+reduce accounting costs as all transaction data will be stored securely on
+the decentralized ethereum blockchain. Furthermore, the more tokens they
+have to enter into the DAO fund, the more voting power, profits, and staking
+rewards they can receive. This may further increase token value due to the
+network effect. (Metcalfe's Law)
+Competitors                                                                    PreICO         Cap
+No Direct Competitors                                                          August 2018    $11,460,000
+Private sale                                                                   ICO
+July 2018                                                                      October 2018
+(c)2018, Terawatt Corp.
+All Rights Reserved
+3
+
+
+
+
+Table of Contents
+4
+Abstract
+6
+Market Data
+12
+Lighting Problem/Solution
+24
+Funding Problem/Solution
+27
+DAO Economics
+29
+DAO Technical Diagrams
+30
+Token Description
+32
+Token Specification
+33
+ROI/Security/MVP
+36
+Token Utility
+37
+Monetization
+40
+Legal
+43
+Team
+51
+Partners
+52
+Roadmap
+(c)2018, Terawatt Corp.
+All Rights Reserved
+
+
+
+
+Abstract
+Goal:
+Leverage  blockchain  technology  to  help  reduce  global  lighting  electricity
+consumption                                                                          50  percent   (roughly   2000  Terawatts)  by   2035,  while  also
+increasing light output by 50 percent. Terawatt will also create a deflationary
+currency to compete with FIAT and digital alternatives like Bitcoin. Terawatt
+aims to tackle other renewable sectors like Solar, Wind, Electric Vehicles
+after proof of concept is achieved with L.E.D.s.
+Method:
+Method 1
+Terawatt will create a Decentralized Autonomous Organization  (DAO), and also
+create a highly deflationary Ethereum based currency for global payments. The
+DAO will be funded and used by Utility Companies, L.E.D. Sellers, Businesses,
+Token  Holders,  and  Energy  Customers  worldwide.  The  DAO  will  act  as  a
+decentralized global mutual/insurance fund to ensure Utilities (and businesses)
+always have access to funding (which constantly runs out) for subsidizing L.E.D.\
+sales to their energy customers (or for businesses upgrading to L.E.D.s).
+This is a major benefit to utility companies as they want 100 percent of their
+customers to have energy efficient lights due to progressive grid overload,
+which forces power companies to build (and maintain) expensive (Hundreds
+of millions of dollars) power plants to meet demand. They are also mandated
+by government agencies (i.e. US Department of Energy and US Environmental
+Protection Agency) to increase L.E.D. adoption in their respective markets.
+Businesses want L.E.D.s because they reduce electricity bills, increase light
+output, reduce maintenance costs, and qualify them for tax incentives. The
+upfront cost was the issue, but Terawatt will help overcome this.
+Method 2
+The Terawatt Token will also be used as a currency similar to ETH at any business
+or utility company that will accept it as method of payment. DAO members with
+businesses will want to accept Terawatt tokens as payment because they will gain
+increased voting/staking power in the DAO, and because it's much more deflationary
+than FIAT or other cryptocurrencies due to continual coin burning structure, which
+equals potentially increased profitability.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+4
+
+
+
+
+The  power  companies,  and  other token  holders,  will buy  into  the  DAO with  our
+tokens,  we’ll  charge  a  fee  for  entering  and  exiting,  and  when  they  sell  their
+position, we take a percentage of their profits  (like a mutual fund or an exchange
+does). We will take  50-75% of these profits to buyback and burn our own tokens
+daily  (per  transaction  depending).  With  Terawatt,  all  people  and  businesses  can
+have uninterrupted access to inexpensive/free L.E.D.s which substantially decreases
+their purchasing costs, electricity bills, increases global lighting efficiency, and in
+turn reduces global greenhouse emissions.
+The  (LED) token will may or may not exponentially increase in value as more
+power companies  (and buyers/energy customers/other companies) realize the
+advantages of using our tokens and of joining the DAO (Metcalfe’s Law), thereby
+increasing demand while also decreasing supply.
+Through DAO utilization, key partnerships ( We are actively pursuing collaborations
+and  partnerships  with  utility  companies  globally)                                       ,  deflationary  supply,  token
+incentives,  and  voracious  marketing,  Terawatt  aims  to  help  put  L.E.D.s  in  all
+commercial, industrial (street lights), government and residential buildings/facilities
+worldwide and e fficiently increase the changeover from less efficient Incandescent,
+Metal Halide (MH), High Pressure Sodium (HPS), and Compact Fluorescent Lighting
+(CFL) to 100% L.E.D. lighting (Light Emitting Diode).
+Token holders will also be able to find and utilize applicable instant tax rebates,
+search for tax credits, and then securely store this purchase data on the network
+for later use in filing their taxes. Participants can buy, sell, stake with masternodes
+(when available), vote, donate, or hold (LED) tokens, which will power the Terawatt
+Ecosystem.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+5
+
+
+
+
+Market Data
+Global Light Emitting Diodes(LED) Market
+Size and Forecast ( 2013-2020 )
+Global Light Emitting Diodes(LED)                                                       Global Light Market by              Global Light Market by
+Market                                                                                  Applications                        Geography
+Global Light Emitting Diodes(LED)                                                       Automotive
+Market is forecast reach $42.7 billion by 2020
+                                                                                        General Lighting
+Mobile Device
+Signal and Signage
+North America
+Others
+Fastest Growing Region at a
+Healthcare                                                                              CAGR 15.3%
+Forensic
+Academic and Research
+                                                                                                                                                                                                                          The comprehensive view on the 9% share of   LAMEA, Asia Pacific, Europe
+                                                                                                                                                                                                                          application segment (2013)
+2013                                                                                    2014                                2015                     2016                                      2017   2018   2019  2020
+                                                                                                                                                     Growing at a CAGR of 13.5% ( 2014-2020)
+                                                                                                                                                     Global Light Market by                                               Global Light Emitting Diodes(LED)           Top Impacting
+                                                                                                                                                     Technology                                                           Market Dynamics                             Factors
+                                                                                                                            Basic LED                                                                                     Drivers                                     Growing Display
+                                                                                                                                                                                                                                                                      Market
+                                                                                        Light Brightness LED                                                                                                              Growing display and large screen
+                                                                                                                                                                                                                          backlighting market                         Growing Demand in             Increasing green
+                                                                                                                            Organic LED                                                                                   Increasing green construction               General Lighting              Construction
+                                                                                                                                                                                                                          Longer Life span                                                          Longer
+Ultra violet LED                                                                        High Efficacy
+                                                                                        Dimmability                         LED                      Life Span
+Polymer LED
+                                                                                        Falling cost of LED lampsnad LEDs   High initial cost        Dimmability
+The comprehensive view on the % share of
+                                                                                                                            Falling cost of LED
+technologies segment (2013)                                                             Restraints
+lamps
+High initial cost                                                                       2013                                2020
+“The rapid adoption of LEDs in lighting marks one of the fastest 1 technology
+shifts in human history,” Goldman Sachs stated in a new report.
+The  accelerated  deployment  of light-emitting  diode  (LED)  bulbs  is  on track to
+save U.S. consumers and businesses $20 billion a year in electricity costs within
+a decade, which would lower U.S. CO2 emissions by some 100 million metric tons
+a year! The growing global effort to speed up LED adoption could ultimately cut
+global energy costs and carbon pollution 5 times as much.
+Let’s look at some key charts and facts that illustrate the LED lighting  “miracle,”
+which is every bit as remarkable — and every bit as unheralded by the major media
+— as the solar miracle , the battery miracle , and the electric vehicle miracle .
+1. www.specgradeled.com/global-led-market-hit-42-7-billion-2020/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+6
+
+
+
+
+LED Lighting
+$/Kilolumen                                                                                                                                          Millions
+$160                                                                                                                                                 80
+$140                                                                                 LED A- Type Price                                               70
+$120                                                                                                                                                 60
+                                                                                                                       Cumulative LED
+                                                                                                                       A-Type Installations
+$100                                                                                                                                                 50
+$80                                                                                                                                                  40
+$60                                                                                                                                                  30
+$40                                                                                                                                                  20
+$20                                                                                                                                                  10
+$0                                                                                                                                                   0
+2008                                                                                 2009                2010   2011   2012                   2013   2014
+As recently as 2009, this country didn’t have even 400,000 installations of common
+home LED bulbs,  according to the November  2015 Department of Energy report
+“Revolution… Now The Future Arrives for Five Clean Energy Technologies.” And yet
+by 2012, we had 14 million — and by 2014 we had whopping 78 million installations.
+This revolution has been driven by  “sharp cost reductions and performance
+improvements, relatively short replacement cycles for incumbent technologies,
+and aggressive policy support  (including bans on incandescent technology in
+major markets such as the U.S., the E.U. and China),” as Goldman Sachs has
+detailed in its recent reports on “ The Low Carbon Economy .”
+Since 2008 alone, prices for LED light bulbs have dropped a remarkable 90 percent,
+and you can now buy a 60-watt-equivalent LED bulb for a little more than $3.
+Goldman forecasts “that LEDs will account for 69 percent of light bulbs sold and
+over 60 percent of the installed global base by 2020.” This chart of where LEDs
+have been and where Goldman Sachs projects they are going in the near term is
+from their July 20 report, “The Low Carbon Economy: Our Thesis In 60 CHARTS.”
+It compares LED adoption with the adoption of hybrid and electric vehicles and
+solar PV and wind.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+7
+
+
+
+
+Exhibit 19: The rapid adoption of LEDs in lighting marks one of the
+fastest technology shifts in human history.
+LEDs for general lighting were commercialized only recently, but will
+dominate sales by the end of this decade
+100%
+95%
+Hybrid & electric vehicles
+80%
+Solar PV & Wind
+LEDs                                                                                    69%
+60%
+                                                                                        51%
+40%
+                                                                                        31%
+                                                                                        22%
+28%
+20%
+20%
+12%                                                                                     7%
+3%
+1%                                                                                      1%
+0%
+2010                                                                                    2015   2020   2025
+Source : IHS, Company data, IEA, IRENA, BP, Goldman Sachs Global Investment Research.
+Currently the best LED bulbs cut electricity use by  85 percent compared to
+incandescent light bulbs and by 40 percent compared to fluorescent lights. By
+2020, Goldman expects those savings to increase to over 90 percent and  50
+percent respectively.
+At the same time, LEDs can last for up to 5 years of nonstop use — or a few decades
+if used just a few hours a day. This is 50 times longer than incandescents and some 3
+to 7 times longer than fluorescents. At the same time, LED bulbs provide superior
+light quality than compact fluorescent lights (CFLs). For all these reasons and more,
+GE announced earlier this year it would stop making CFLs “for the U.S. market and
+instead focus its consumer lighting efforts on LED lamps.”
+With the initial price dropping sharply while the ultra-low lifecycle costs also keep
+dropping, you end up with a revolution — one that is happening even faster in the
+United States:
+(c)2018, Terawatt Corp.
+All Rights Reserved
+8
+
+
+
+
+Exhibit 53:.....and LEDs now account for over half or US lighting sales...
+LEDs for residential lighting are seeing over 1000 basis points in market
+share gain per annum.
+100%
+75%
+50%
+77%
+75%
+72%
+68%
+61%
+25%
+48%
+37%
+24%
+8%
+0%
+LED Lighting                                                                             Solar PV & Wind
+Source : DOE, Goldman Sachs Global Investment Research.
+With such an unprecedented technology revolution, it’s no wonder that, in  2014,
+the Nobel Committee awarded the Physics Prize to three scientists for their 1990s
+invention of “efficient blue light-emitting diodes [LEDs], which has enabled a bright,
+energy-saving white light source.”
+And in case you think that one small product you can hold in the palm of your
+hand can’t be a game-changer in the arena of energy and climate solutions, think
+again. The nation’s total electricity bill for residential and commercial customers
+is now more than $320 billion . Of that about 15 percent is lighting — nearly $50
+billion a year.
+Goldman Sachs projected last month that LED lights “are on track to cut power
+consumption for lighting… by over 40 percent.” That would provide annual savings
+of more than $20 billion for consumers and businesses within a decade. And that
+in turn would reduce U.S. CO2 emissions by some 100 million metric tons a year.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+9
+
+
+
+
+Exhibit 54:.....and are on track to cut power consumption for lighting
+(17% of total) by over 40%
+As LEDs lighting rapidly penetrates the installed base, US power demand
+for lighting begins to drop substantially
+Residential
+600
+521
+Commercial
+500                                                                                              489
+Industrial
+400
+391
+300                                                                                              283
+200
+100
+0
+2015E                                                                                            2016E   2020E   2025E
+Source : Goldman Sachs Global Investment Reserch.
+I  have  previously  noted  that  electricity  sales  in  this  country  have  been  flat  for
+nearly a decade even as the economy has kept growing. This shift has been driven
+federal energy efficiency standards for appliances (including lighting) and a growing
+embrace of policies to promote efficiency at the state level.
+Clearly, the LED lighting revolution will help ensure that trend continues for at
+least one more decade. Indeed, the only plausible way the United States could
+return to an era of significant electricity demand growth is if the electric vehicle
+revolution takes off in the 2020s, which as we’ve seen is entirely possible, if not
+likely.
+The energy and climate benefits of LEDs are so large, it’s no wonder the U.S.
+Department of Energy has been working to advance the technology and promote
+their deployment for over 15 years. And it’s no surprise the DOE has worked with
+countries like India on technical and analytic approaches to rapidly accelerate
+their adoption of LED lights.
+Indeed, most of the major countries in the world have adopted policies that have
+sped  up  the  adoption  of  LEDs,  the  most  important  of which  have  been  the
+mandatory phaseout of inefficient incandescent lights:
+(c)2018, Terawatt Corp.
+All Rights Reserved
+10
+
+
+
+
+Exhibit 20: Aggressive policy support in all major jurisdiction has been
+a key catalyst for growth
+Mandatory phase-outs of incandescent lighting in all major markets
+played a key role in boosting investment in LEDs
+Russia
+UK
+2011-2014
+Canada                                                                                         2010-2012
+2012-2014
+                                                                                                           China
+                                                                                               EU          2007-2017   South Korea
+USA                                                                                            2009-2012
+                                                                                                                       2013
+2012-2014
+                                                                                                           India
+                                                                                                           2009-2012   Taiwan         Japan
+Mexico
+                                                                                                                       2009-2013      2012
+2011-2014
+                                                                                               Cuba
+                                                                                                                       Phillippines
+                                                                                               2005
+                                                                                                                       2008-2010
+Venezuela
+                                                                                                                       Malasia
+2005
+                                                                                                                       2010-2013
+                                                                                               Brazil
+                                                                                                                       Australia
+                                                                                               2005
+                                                                                                                       2009-2012
+Argentina
+2010-2011
+Source : Goldman Sachs Global Investment Reserch.
+On top of all that, in 2015, the world’s energy ministers embraced a Global Lighting
+Challenge , which is “a global race to accelerate phase-in of high efficiency, high-
+quality  and  affordable  advanced  lamps  and  lighting  systems  with  a  target  of
+achieving  cumulative  global  sales  of  10  billion  such  units  as  fast  as  possible.”
+LED lighting will be a central focus.
+As with solar energy, advanced batteries, and electric vehicles, the LED lighting
+revolution may not be televised by the major media, but it is happening at a torrid
+pace nonetheless — with a big boost from government deployment policies.”2
+(c)2018, Terawatt Corp.
+All Rights Reserved
+11
+
+
+
+
+LED’s  have  the  potential  to  fundamentally  change  the  future  of  lighting  in  the
+United  States,  and  abroad.  Residential  LEDs,  especially  ENERGY  STAR  rated
+products, use at least 75% less energy, and last 25 times longer, than incandescent
+lighting.
+Widespread use of LED lighting has the greatest potential impact on energy savings
+in the United States. By 2027, widespread use of LEDs could save about 348 TWH
+(compared to  no  LED  use)  of electricity: This  is the  equivalent  annual electrical
+output of                                                                                    44 large electric power plants   (1000 megawatts each), and a total savings
+of more than                                                                                 $30 billion                      at today's electricity prices.3
+The Lighting Problem/Solution
+Inefficient light bulbs are creating both unnecessary greenhouse gas emissions,
+which contribute to climate change, and unnecessarily exorbitant electricity bills
+for peoples and governments. Terawatt will help to fix this problem by driving LED
+adoption
+The Greenhouse Emissions Problem
+Greenhouse  gases trap  heat  and  make the  planet
+Total U.S. Greenhouse Gas Emissions
+warmer.  Human  activities  are  responsible  for
+by Economic Sector in 2015
+almost  all of the  increase  in  greenhouse  gases  in
+Agriculture
+the  atmosphere  over  the  last                                                             150  years.                      1  The
+9%
+largestsource  of  greenhouse  gas  emissions  from
+human  activities  in  the  United  States  is  from
+Commercial &
+burning  fossil  fuels  for  electricity,  heat,  and                                        Residential
+                                                                                                                              Electricity
+                                                                                             12%
+transportation.  EPA tracks  total  U.S.  emissions  by                                                                       29%
+publishing  the  Inventory  of  U.S.  Greenhouse  Gas
+Emissions and Sinks. This annual report estimates
+the  total  national  greenhouse  gas  emissions  and                                        Industry
+                                                                                             21%                              Transportation
+removals  associated  with  human  activities  across                                                                         27%
+the United States. The primary source of greenhouse
+gas emissions in the United States is:
+Electricity production (29 percent of 2015 greenhouse gas emissions) - Electricity
+production generates the largest share of greenhouse gas emissions. Approximately
+67  percent  of  our  electricity  comes  from  burning  fossil  fuels,  mostly  coal  and
+natural gas. 2
+3. www.energy.gov/energysaver/led-lighting
+4. www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions
+(c)2018, Terawatt Corp.
+All Rights Reserved
+12
+
+
+
+
+Electricity Sector Emissions
+Total Emissions in 2015 = 6,587 Million Metric Tons of CO2 equivalent
+Land Use, Land-Use Change, and Forestry in the United States is a net sink and
+offsets approximately 11.8 percent of these greenhouse gas emissions, not included
+in total above. All emission estimates from the Inventory of U.S. Greenhouse Gas
+Emissions and Sinks: 1990-2015 .
+The Electricity sector involves the generation, transmission, and distribution of
+electricity. Carbon dioxide (CO2) makes up the vast majority of greenhouse gas
+emissions from the sector, but smaller amounts of methane  (CH4) and nitrous
+oxide  (N2O) are also emitted. These gases are released during the combustion
+of fossil fuels, such as coal, oil, and natural gas, to produce electricity. Less than
+1  percent  of  greenhouse  gas  emissions  from  the  sector  come  from  sulfur
+hexafluoride (SF6) , an insulating chemical used in electricity transmission and
+distribution equipment.
+Greenhouse Gas Emissions in the Electricity Sector by Fuel Source
+Coal combustion is generally more carbon intensive than burning natural gas or
+petroleum for electricity. Although coal accounted for about  70 percent of CO2
+emissions from the sector, it represented only about 34 percent of the electricity
+generated in the United States in 2015. Another 32 percent of electricity generated
+in  2015 was generated using natural gas, an increase relative to  2014. Petroleum
+accounted for less than 1 percent of electricity generation in 2015. The remaining
+generation in 2015 came from non-fossil fuel sources including nuclear (about 20
+percent) and renewable sources (about 13 percent), which include hydroelectricity,
+biomass, wind, and solar. These other sources usually release fewer greenhouse
+gas emissions than fossil fuel combustion, if any emissions at all.
+Emissions and Trends
+In 2015, the electricity sector was the largest source of U.S. greenhouse gas
+emissions, accounting for about 29 percent of the U.S. total. Greenhouse gas
+emissions
+from electricity have increased by about 4 percent since 1990 as electricity
+demand has grown and fossil fuels have remained the dominant source for
+generation.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+13
+
+
+
+
+The Excessive Electricity Bill Problem/
+Solution : LEDS Vs Other Bulbs
+Calgary under conventional streetlights back in 2013 (left), taken by astronaut Chris
+Hadfield compared to Calgary in 2015 (right) with LED streetlights, taken by astronaut
+Scott Kelly (Photo Courtesy of Chris Hadfield and Scott Kelly via Twitter
+LED lighting solutions have never been more accessible or affordable than now.
+With multiple rebate programs and incentives, more cities are making the switch
+to LED street lighting. And why wouldn’t they? As we all know by now, LEDs are
+energy-efficient and long-lasting which means huge savings on the energy bill as
+well as reduced maintenance costs. But what about the other benefits? Such as
+reduced  crime  rate,  safer  neighborhoods,  and  overall  perceived  improvement?
+These are all benefits that LED street lighting can offer compared to the orangey
+glow of the high pressure sodium (HPS) street lighting still illuminating most of our
+streets and neighborhoods.
+5. www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions
+6. www.etrenzikled.com/big-picture-led-impact/led-lit-canadian-city-looks-fairer-now-
+from-space/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+14
+
+
+
+
+SAFER STREETS
+The biggest difference between LEDs and HPS lights (other than the energy savings,
+of course) is the overall appearance of the light. LEDs not only feature a crisp color
+similar to moonlight/natural light (anywhere from 4000K to 6000K), but also a great
+Color Rendering Index (CRI) of at least 70. This is hugely important because the CRI
+is what determines the visibility and ability to see things as intended. The CRI for
+HPS lights, in comparison, can be as low as 20. This makes visibility “muddier” and
+more difficult to discern detail and color. When visibility is decreased, so is safety\
+which means an increase in crime. Visibility is an obviously important factor when it
+comes to lighting streets and neighborhoods at night. Take a look at this chart that
+compares basic statistics between LED street lighting and HPS.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+15
+
+
+
+
+COMPARISON CHART : LED VS HPS
+                                       HPS                     LED
+                                       Non-uniform,            Uniform, much less aging of
+Optics
+                                       optics degradation      the optics
+CCT*                                   2000K                   4000-6000K
+Life                                   3,000hrs 30%-35%        50,000hrs<5%
+Power Factor                           0.85                    0.95
+Turn on time                           15-20 min               <0.1sec
+Spectrum                               Ultraviolet             No UV
+CRI                                    20-30                   >70
+Uniformity                             Bad                     Good
+Environment                            Hg                      No Harm
+Smart Control                          No smart control        Smart control
+                                       High pressure and       Constant current,
+Flickering
+                                       high frequency op       no flickering
+Heat                                   High Heat, temp >100C   Less Heat, temp <60C
+Voltage                                4000-7000V              110-220V
+*CCT is Correlated Color Temperature
+(c)2018, Terawatt Corp.
+All Rights Reserved
+16
+
+
+
+
+CASE STUDY : PORTLAND SAVING
+$100K PER MONTH
+Portland, Oregon recently converted  20,000 city street lights to LED in the largest
+efficiency  upgrade  the  city  has  undergone.  Savings  from  the  program  have  now
+topped                                                                                     $100,000   per month  and those  monthly savings will continue to  grow as
+more lights are converted. The money saved can be utilized to improve infrastructure
+(i.e.  roads, water lines,  and sewer lines) without the need of raising taxes.  Re ad
+more here .
+CASE STUDY: LOS ANGELES REACHES ANNUAL SAVINGS OF
+$8.7 MILLION
+Los Angeles  , California began a huge installation of 140,000 LED street lamps in
+2009.  Since the conversion from HPS to LEDs, the city has recorded up to  63%
+energy savings and cost savings of $8.7 million this past year. The cost savings are
+the result of not only a savings in electricity cost, but a reduction i n maintenance
+costs  as  well.  As  an  article  on  Forbes  reports,                                    “In        2008,  pre-LED  roll-out,
+Los Angeles logged 70,000 street light repair and maintenance events; in FY 2012,
+maintenance  and  repair  events  fell  to  46,300.  LEDs  are  longer  lived  than  the
+incumbent  units  they  replace  (10-15  years  versus  4-6  years),  which  means  that
+maintenance should steadily decline as LED units are fully deployed.” Again, savings
+in energy costs and maintenance equates to a minimization in tax increases and
+revised budgets with money allocated to much needed and often put
+off infrastructure repairs. R ead the entire Forbes article on LA’s LED
+lighting project here
+7. www.luxtg.com/led-vs-hps-street-lighting/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+17
+
+
+
+
+LEDs Vs CFLs and Incandescent Bulbs
+I think it's fair to say that most people and businesses understand LEDs are more
+efficient,  can  reduce  their  electricity  bills,  and  are  generally  better  for  the
+environment. However, most LED buyers are not aware they could have utilized
+local city/state tax rebates to reduce the purchase price by 50-80 percent, and
+also that they can apply for a tax credit at the end of the year (as always, consult
+with your local tax professional). Take a quick look at the table below:
+LED vs CFL vs
+                                                                                             Incandescent   CFL     LED
+Incandescent Cost
+Watts used                                                                                   60W            14W     7W
+                                                                                                                             ($0-2 when using instant
+Average cost per bulb                                                                        $1             $2      $4       tax rebates!)
+Average lifespan                                                                             1,200 hours    8,000   25,000
+                                                                                                            hours            hours
+Bulbs needed for 25,000 hours                                                                21             3       1
+Total purchase price of bulbs                                                                                                ($0-2 when using instant
+                                                                                             $21            $6      $4       tax rebates!)
+over 20 years
+Cost of electricity (25,000 hours
+$169                                                                                         $52            $30
+at $0.15 per kWh)
+Total estimated cost over
+$211                                                                                         $54            $34
+20 years
+While prices for LED light bulbs were astronomical just a few years ago — upwards
+of  $100 for one  bulb  — you  can  now pick up  a cheap,  60-watt-equivalent  LED
+light bulb for less than  $5  . They will become even less expensive as technology
+advances.
+Incandescent light bulbs are being phased out: An almost complete ban on their
+sale started in 2014 and will take full effect in 2020. Simply put, they waste a lot of
+energy and don’t last very long.
+8. www.viribright.com/lumen-output-comparing-led-vs-cfl-vs-incandescent-wattage/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+18
+
+
+
+
+Even though CFL’s are better than incandescents, LEDs are the superior option in
+every area. Modern CFLs also contain a small amount of mercury, which is very
+harmful to  both your health  and the  environment. That  means  it’s  bad  news to
+break one  (  here’s  how to  clean  it  up  safely if you  do  ),  and they shouldn’t  be
+disposed of in your regular household trash ( here’s how to recycle them ). If these
+bulbs are not properly disposed the mercury could contaminate groundwater which
+we use as a source for drinking water. This is just some of the severity we face if
+CFL’s are not properly disposed.
+LEDs: Light-Emitting Diodes
+Light-emitting  diodes,  or  LEDs,  were  for  years  most  commonly  found  in  small
+electronic displays, such as the clock on your cable box. Because the light emitted
+by each tiny LED is directional and fairly weak, household LED bulbs were on the
+fringe of mainstream technology just a few years ago.
+According  to  the  Lighting  Research  Center  ,  LED  light  bulbs  work  by  bringing
+together  currents  with  a  positive  and  negative  charge  to  create  energy  released
+in the form of light. The result is a fast source of light that is reliable, instantaneous,
+and able to be dimmed. What sets LEDs apart from incandescent bulbs and CFLs is
+just how long they can last. According to Consumer Reports  , LED light bulbs can
+last  anywhere from  20,000 to  50,000 hours,  or up to five times  longer than any
+comparable  bulb  on  the  market.  However,  that  combination  of  efficiency  and
+durability has historically come at a cost. LEDs cost more money than CFLs and
+incandescent  bulbs.  The  good  news,  however,  is  that  their  price  has  dropped
+considerably over the years, as seen in the table above.
+Where once it was common to pay $50 or even $100 for an LED light bulb, they’re
+now available for about $8 a bulb on Amazon . IKEA sells its own 60W-equivalent
+LED light bulbs for just $5 , and Home Depot is reportedly running a promotion in
+May that will discount Philips LED light bulbs to as low as $2.50 per bulb, and that's
+before rebates, token incentives from Terawatt, tax credits, and tax deductions
+9 www.greenisbetterinc.com/light-bulb-showdown-led-vs-cfl-vs-incandescent/
+10 www.greenisbetterinc.com/light-bulb-showdown-led-vs-cfl-vs-incandescent/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+19
+
+
+
+
+How Much Could You Save?
+Now consider that those savings are from just one bulb. Think about the number
+of lights in your house  — some fixtures, like chandeliers or ceiling fans, probably
+even use three bulbs or more. If you replaced 20 incandescent bulbs with LED light
+bulbs throughout your home, you could save up to $3,260 over their 23-year lifespan
+(and that’s assuming utility rates don’t rise).
+Now lets see what the savings will be if every house in the US converted to LEDs
+Sample Home Test Results
+(40 Light Bulbs, 40 LED Bulbs)
+You have the same number of light fixtures as the average U.S. household.
+You use                                                                                33.6 more           efficient bulbs than the average.
+You are likely                                                                         saving      about   $127.44                             more than the average U.S. household each year
+on lighting energy, due to your choice of bulbs.
+If every household in the United States took the same steps on lighting efficiency
+$
+it would save $14,400,695,050 in energy costs.
+it would be like shutting down 20 coal power plants.
+it would be like talking 15,587,765 cars off the road.
+it would reduce Co2   emissions by 79,497,604 metric tons.
+it would cut emissions equivalent to 432,876 railcars of coal.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+20
+
+
+
+
+The savings are exponentially greater when you then apply this same data to
+business, commercial, and industrial applications. Energy efficiency, blockchain
+technology, and sustainability are growing trends that show no signs of slowing
+down.
+Other Ways to Compare CFL vs. LED
+Light Bulbs
+Let’s put cost aside for a moment and look at these lighting options based solely
+on quality and other important factors. Here are some pros and cons of CFLs vs.
+LEDs:
+CFL Light Bulbs
+Pros:
+Use less energy than incandescent bulbs
+Cost less than LED light bulbs
+Produce extremely bright light that spreads evenly
+Available in soft, warm, and bright white hues
+Cons:
+Cannot be used with a dimmer switch
+Take a few moments to heat up and reach full brightness
+Contain mercury, a toxic heavy metal
+Can be sensitive to cold temperatures
+11. www.environment.nationalgeographic.com/environment/energy/great-energy-challenge/
+light-bulb-savings-calculator/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+21
+
+
+
+
+LED Light Bulbs
+Pros:
+Light up immediately, like an incandescent bulb
+Don’t heat up much at all - they stay cool to the touch even after use
+Last up to five times longer than CFLs; can literally last a lifetime
+No sensitivity to cold temperatures
+Do not contain mercury
+Some models can be used with a dimmer switch
+Available in soft, warm, and bright white hues
+Cons:
+Directional light that may not spread as evenly as other sources
+In some cases, more expensive to purchase up front, but less
+expensive overall
+CFL vs. LED Light Bulbs : Who Wins?
+After conducting research using my own personal experience and expert sources
+like                                                                                  Consumer Reports   and   EnergyStar.gov, I’ve concluded that it’s hard to beat
+the value offered by modern LEDs. Not only are their prices getting more affordable
+every day, they also lasts up to decades longer than the competition.
+With soft and warm white hues that mimic the glow of traditional incandescent
+bulbs,  the  ability  to  use  some  models  with  a  dimmer  switch,  and  their
+instantaneous illumination, LEDs are simply a better option around the house
+than CFLs.
+12. www.greenisbetterinc.com/light-bulb-showdown-led-vs-cfl-vs-incandescent/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+22
+
+
+
+
+Personally, I have all LEDs in my home. Prices for LEDs are lower than they’ve
+ever been (and continue to get more competitive), and they are the most durable,
+efficient home lighting option on the market. It’s hard to argue against a product
+that more than pays for itself in energy savings and might last for the rest of your
+life.
+You don’t have to make a huge commitment now. If you want, you can upgrade to
+more efficient lighting one room at a time, or as old light bulbs burn out. Or start
+with installing an LED light bulb in a hard-to-reach spot, like a cathedral ceiling
+fixture, since you won’t have to replace it for many, many years.
+There is no right or wrong way to make the switch. But the sooner you do, the
+sooner you’ll start saving.
+In  short,  It’s  easy to  see that we  can  have  a dramatically positive  effect  on  our
+environment (and our wallets!) by simply changing our light bulbs to more efficient
+LED ones. The above example is a small one, however, imagine if everyone in the
+world made the switch! The US, China, and Asia-Pacific countries are the biggest
+offenders, with the bulk of the lighting being used in the Commercial and Residential
+sectors  (businesses  and  homes)  It’s  also  extremely  cost  effective,  often  greatly
+reducing electric bills, is profitable over time, and it helps save the environment.
+13. www.greenisbetterinc.com/light-bulb-showdown-led-vs-cfl-vs-incandescent/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+23
+
+
+
+
+Funding Problem/Solution
+Terawatt Decentralized LED DAO Project
+“Lighting Efficiency Decentralized”
+Problem:
+Significant upfront costs to upgrade to LEDs for businesses and consumers, and
+also, electrical grids get overloaded as electricity consumption continues to grow
+with the population as well as our increased reliance on electricity. This is likely to
+continue to become an even greater issue as more electric vehicles hit the market.
+To meet this demand power/utility companies have to build expensive additional
+power  plants                                                                               (hundreds  of  millions  of  dollars).  OR,  what  they  are  doing  is
+incentivising their customers to upgrade to LED lighting, (and other energy efficient
+appliances,  devices,  building  methods,  etcetera)  Power  companies  are  even
+encouraging their customers to consider solar panels or provide their own electricity
+somehow. Sounds counterintuitive right? It makes sense though when you realize
+how expensive it is to build and mainatain a new power plant versus just having
+your  customers  change  their  light  bulbs.  Also,  in  the  US,  power  companies  are
+mandated by the EPA to incentivise the changeover from CFL’s to all LED because
+CFLs contain mercury! Most people do not recycle them either because it's easier
+to just throw them in the trash.
+I spoke to DUKE energy, one of the largest utility companies in the USA and world,
+and they are even giving LED’s away for FREE! Up to six bulbs and the rest are
+heavily discounted. This tells us they REALLY need their entire user base to adopt
+LEDS  (and  other  energy  star  rated  appliances,  building  materials,  switch  to
+renewable energy sources, etcetera)
+The power companies are given funds by the State and Federal governments, and
+also  use  their  own  money  (TECO  is  investor/privately  owned  for  example)  to
+subsidize the cost of the LEDs. DUKE energy for example, it's worth it for them to
+offer their customers  1 million dollars worth of free LED bulbs, if it helps them
+avoid building a  200 million dollar power plant, and also paying to maintain it.
+Power  companies  are  required  to  incentivise  the  changeover  from  Mercury
+containing CFL’s to Clean LEDs to maintain compliance with the EPA!
+(c)2018, Terawatt Corp.
+All Rights Reserved
+24
+
+
+
+
+The power companies usually run these programs until they run out of funding to
+subsidize the cost  of the LEDs.  I  have seen some utility providers like Century
+Hudson only offering the instant tax rebates (discounted prices essentially) for 3-4
+months out of the year. Upon speaking with them, they of course would like to
+have this available for the entire year, but simply run out of funds depending on
+their budgets.
+Power companies only usually allow their current customers to access these
+discounts because they are paying for it, and want to primarily reduce their
+electricity usage through increased lighting (electrical) efficiency. So it wouldn't
+make sense for them to offer this subsidized cost to other power companies’
+customers. Hm...a challenge!
+The Decentralized Terawatt DAO Solution:
+What is a DAO? Is this something new?
+The DAO is a next-generation organisation that will change the way we create
+products and share profit.
+“ The DAO is now the biggest crowdfunded project of all time. In less than a month
+the organisation has a market cap of $140 million. So what is the DAO really? And
+why should you care? Simply put, the DAO is a self-running company. It has no
+directors, no managers and no employees — at least not in the conventional sense
+of  the  words.  DAO  stands  for  ‘Decentralised  Autonomous  Organisation’  and  it’s
+powered by a crypto currency called                                                          Ethereum.   To better understand how the DAO
+works requires a quick explanation of Ethereum. This is the future of trust..
+Money  is  the  second  most  important  thing  human  beings  have  invented,  after
+language.  More  than  just  a way  of buying  things,  currency  is  a  symbol  of trust.
+Until now, that trust has relied on central authorities, like banks, for verification.
+We no longer need those monolithic entities thanks to cryptocurrencies like Bitcoin.
+Ethereum,  like  Bitcoin,  is  a  cryptocurrency  and,  like  other  cryptocurrencies,
+Ethereum  is  built  on  a  blockchain.  What  makes  Ethereum  different,  however,  is
+that it has been designed as a platform for  ‘smart contracts’, allowing anyone to
+create a trust agreement without requiring middlemen.
+Bitcoin was designed to be both a currency and asset. Its blockchain can also be
+used for other forms of transactions or contracts, but it isn’t easy to build out
+these applications yet. Ethereum, on the other hand, was designed for contracts
+from  the  get-go  and  makes  it  easier  for  developers  to  build  applications
+accordingly.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+25
+
+
+
+
+Enter the DAO
+With Ethereum gaining traction, the scene was set for a new kind of organisation.
+The DAO uses Ethereum smart contracts to power everything from its funding to
+how it pays people for the work they do. Like a traditional company, the DAO is
+built for profit. It is seeded via the sale of ‘DAO tokens’ during the crowdfunding
+period ending 28 May 2016. The tokens empower whoever holds them to vote on
+what the organisation will do.
+If we use familiar terms to describe the DAO, you could think of tokens as ‘company
+equity’  and  token  holders  as                                                              ‘shareholders’.  While  not  entirely  accurate  in
+conventional business terms, substituting those words when you read the rest of
+this  article  may  be  useful.  What  the  company  actually  does  is  up  to  the  token
+holders. New ideas are presented to the DAO in the form of proposals. Token holders
+then vote on proposals and, if approved, contractors will be allowed to compete
+for work on the resulting projects.”
+With a basic understanding of what a DAO is and how it works, we can now get
+into more details on how the Terawatt DAO will function. We will build a DAO, and
+they will come . This is a decentralized autonomous organization that is essentially
+a bank/pool of funding allocation for power companies, all businesses, and their
+customers  (business  and  residential),  which  they  can  tap  to  ensure  that  these
+L.E.D discounts can be offered/available 12 months out of the year instead of 3-6
+months, or not at all in some cases. For businesses and everyday consumers, The
+DAO  can  help  provide  them with  the  funding  needed  to  afford  upgrading  their
+existing lights to LEDs. So, this project does not entirely rely on utility company
+partnerships. Terawatt will act as both a funding bank, payment currency, and as an
+immutable verifiable data ledger. Think of it like an insurance fund, or a merry-go-
+round  of  appreciating  money,  that  allows  utility  companies,  businesses,  and  all
+people worldwide  to  help  each  other  afford  LEDs.  This  helps  reduce  everyone's
+electricity bills, helps the environment, increases light output, and further advances
+the federal and state initiatives that are pushing for 100% LED adoption anyway.
+14. www.medium.com/simondingle/the-company-of-the-future-a-beginners-guide-to-the-
+dao-112b8855d9ca
+(c)2018, Terawatt Corp.
+All Rights Reserved
+26
+
+
+
+
+We  may  use  a  percentage  of the  ICO  money  to  fund  the  DAO  initially.  We  are
+actively pursuing partnerships with some of the largest utility companies, utility
+commissions, and Lighting manufacturers  (such as GE and Philips) in the world,
+and they are open to trying out this model . Terawatt will offer them a free-trial
+basically, allowing the utility company to partake in the DAO and experience its
+benefits firsthand. This removes the risk from the utility providers, and businesses,
+and will help them realize the benefits of accepting the LED token as a payment
+currency.
+Terawatt DAO economics
+Primary Participants of the DAO
+1) Utility Companies 2) L.E.D. bulb sellers 3) All businesses, consumers, and token
+holders
+Terawatt token will also be used as a payment currency. Utilities and busienss
+will want to accept it because it’s much more deflationary, secure, and private
+than FIAT(and even all other crypotocurrencies ). Also, the more tokens a utility
+DAO Fund
+or business has. the more they can enter into the DAO fund, and that equals
+more voting power, and more potential profits as well. This creates an upward
+Economic Model                                                                             cycle of increase d usage and the before exponentially increases the rate of
+token burning, which is likely to have a positive impact on price.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+27
+
+
+
+
+DAO Funding
+Participants will add funds to the DAO in the form of Terawatt tokens (LED ticker).
+All interested businesses and consumers, not just utility providers, can buy LED
+tokens  and  participate  in  the  DAO.  This  will  help  increase  the  network  effect
+(Metcalfe's  Law).  Now  we  have  a  growing  decentralized  fund  as  more  token
+holders join.
+Why invest in this DAO? High probability of making profits, to direct the funds via
+voting on community proposals, and to help drive global L.E.D. adoption
+The Terawatt token supply will rapidly and exponentially decrease with a continuous
+coin burning algorithm. Terawatt will automatically use 50-75% of company profits
+earned from DAO entry/exit fees, profit taking fees  (like an exchange), Carbon tax
+data storage fees, carbon credits, and also from affiliate L.E.D. sales commissions
+to buyback and burn (LED) Tokens. This is similar to the BNB token, but they only
+burn every quarter. We will burn continuously.
+This may or may not mathematically cause token value to greatly increase as we
+are decreasing supply, while also increasing demand through marketing and growing
+adoption. Ex: If a Utility company invests $10,000/month, in one year their account
+value has possibly increased 200% from $120,000 to $360,000. They could withdraw
+part, or all, of their account balance to provide subsidized LED’s to their customers
+as  needed,  or  to  fund  other  green  initiatives,  like  solar,  wind,  energy  star-rated
+materials. products, electric vehicles, etc. Businesses and token holders can use
+their DAO  profits to  buy L.E.D.  bulbs which will reduce their utility bills,  qualify
+them  for  government  tax  credits/rebates,  and  reduce  greenhouse  emissions.
+We will also offer a token incentive or discount for participants who verify that they
+used profits for buying/selling L.E.D.s or related technologies.
+Moreover, it acts like a decentralized insurance fund, with the Terawatt token that
+powers it also acting as a fast, private, secure monetary currency which can be
+accepted at businesses and utility providers globally. It will make sense for utilities
+and businesses to take payment in our tokens as it will allow them to add more
+tokens into the DAO, and potentially greatly increase their profits. With the supply
+being  extremely  more  deflationary  than  FIAT,  and  even  than  most  other
+cryptocurrencies, it will become highly attractive as a payment currency.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+28
+
+
+
+
+DAO Technical Diagrams
+1. Proposal
+A Proposal can be submitted at anytime by any DAO Token
+Holder. The proposal defines how much ether will be paid
+to a Service Provider in exchange of the development of
+products or service. It’s expected of a DAO to engage on
+several proposals over time.
+4. Deployment                                                                        2. Vote
+The DAO can charge anyone outside the                                                DAO token holder debate and then vote on
+DAO Token Holders for using the products                                             a proposal. The DAO Token Holders stay in
+or services created as part of a Proposal.                                           control of their ETH at all times. They can
+This potential revenue is then sent directly                                         even elect a new Service Provider, for any
+to the DAO in the form of ether. The DAO                                             reason. DAO Token Holders maintain their
+then has the option to accumulate this ETH                                           right to receive the rewards from the DAO
+to support its growth, or   redistribute it to                                       even if they choose to leave the DAO.
+the DAO Token Holders as a reward.
+3. Development
+If the proposal is accepted, work starts. The Service Provider is
+bound by irrefutable smart contract code to deliver on a series
+of objectives. Because the proposal is paid for an predefined
+installments instead of a lamp sum, the Service Provider and
+the DAO’s enjoy a mutualistic relationship.
+New User                                                                             Register                                      Purchase Votes
+1                                                                                    2
+PROPOSAL
+Valid
+Proposal
+Self Proposal                                                                        Submit Proposal
+Activate
+Quorum
+YES
+Vote                                                                                 Payment
+15. www.steemit.com/crypto-news/steempower/the-dao-an-ethereum-based-token-saleico
+-is-now-live-a-few-hours-old-and
+16. www.draglet.com/smart-contract-platform-act/smart-contract-daoact-platform-
+infographic/
+(c)2018, Terawatt Corp.
+All Rights Reserved
+29
+
+
+
+
+Who can join the DAO?
+All interested businesses and consumers, not just utility providers, can buy LED
+tokens and participate in the DAO. This will help increase the network effect
+(Metcalfe's Law) Now we have a growing decentralized fund as more and more
+token holders join.
+We also aim to do this for GAS, and SOLAR, and WIND, Electric Vehicles, Etcetera.
+LEDs are just the beginning of the titan Terawatt will become. LEDs will be proof
+of concept and then it will snowball from there into these other sectors. Once
+utility companies experience the innumerable benefits of joining the DAO, they will
+happily pay to join, and other companies that don’t do this will experience F.O.M.O
+(fear of missing out).
+Token Description
+Our project will use Ethereum to issue and create
+tokens  mainly  because  it  has  the  base  foundation
+that  our  technology  will  implement.  Terawatt  will
+manipulate  the  blockchain  smart  contracts.  Our
+token  will  be  a  standard  ERC20  token  with  some
+specific  modifications.  Our  algorithms  will  verify
+that the consumer has actually purchased the bulbs
+from a suitable seller and add the transaction to the
+blockchain. Smart contracts will execute and manage
+the entire process.
+How LED Token will be implemented?
+Our  token  will  use  POS  so  that  it  will  help  with
+emissions  and  keep  the  environment  clean  and
+green.  Our  first  implementation  will  be  on  the
+Ethereum  Casper  Network  using  Proof  of  Stake.
+This  network  is  able  to  finalize  blocks/messages
+in  constant  time  O(1).  This  is  incontrast  to  the
+O(N)  time  required  for  Byzantine  fault  tolerant
+state  machine  replication.  Casper  uses  a  binary
+consensus  protocol.  Protocol messages  has three
+parts An Estimate(0 or 1), a sender( validator name)
+and a justification. An Estimator then translates the
+messages into 0’s and 1’s.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+30
+
+
+
+
+CBC Casper is a method for "deriving" consensus protocols . Using this method,
+a family of protocols have been created that enjoy a variety of benefits over
+traditional consensus protocols. These benefits include:
+A (relatively) simple consensus safety proof!
+No "in-protocol" finality threshold.
+The ability to trade off latency to finality with number of validators,
+rather than just network overhead.
+Theoretically optimal network overhead in the certain cases.
+0101o1
+0101o1
+0101o1
+Terawatt LED token is actually going to be part of a global distribution of how
+consumers interact with energy not just about lighting. We are offering tokens to
+consumers that use our patent-pending verification technology in order to verify
+that  they  have  purchased  led  bulbs.  Product  tracking,  verification,  ecosystem
+expansions are all in future works. We believe that being transparent and open
+will help keep the sustainability and value of this token. We will also offer several
+utilities such as:
+(c)2018, Terawatt Corp.
+All Rights Reserved
+31
+
+
+
+
+DAO  - A decentralized fund for funding  sustainable  lighting  solutions worldwide.
+A percentage of funds will be locked into a pool, and the global Terawatt community
+will  vote/decide  on  what  projects  get  funded  and  how  much  funding  will  be
+provided or set on the side for these projects.
+Payment Currency - Terawatt will be accepted by utility companies and businesses
+around the world
+Incentives  - Terawatt Token will also act as a rewards system for each L.E.D.
+bulb purchase that's verified by our patent-pending process. This serves as an
+incentive for users to purchase LEDs for home, businesses, or government use
+and verify them through our interface
+Data Storage  -  LED  purchase  records,  and  all token  payment  records,  may be
+securely stored in the Terawatt ecosystem. This allows the purchasing entity to
+return at tax time and have all of their LED and other Energy Star Rated Purchase
+records readily available. The user pays a small token fee to access the records
+again.
+Masternodes - When Ethereum makes it available. This will help to further secure
+and decentralize the Terawatt ecosystem, while providing benefits like residuals
+and staking/voting power to token holders
+Token Specifications
+Terawatt - Decentralized, Fast, Private, Secure, Sustainable
+Overall Supply  :  100,000,000 LED Tokens Circulating Supply  :  65,000,000  (This
+number will decrease to                                                                 1 Million   or less over time) Terawatt will be mathematically
+delationary as we have a continuous coin burning algorithm using 50-75% of DAO
+profits to buyback and burn our own tokens daily 1 LED Token Represents 10,000
+Watts (10 KW) of potential L.E.D. Electricity Usage As a verified LED bulb purchaser,
+you may get LED Tokens for free.  3-5% of LED Tokens will be given to LED bulb
+purchasers over the next 20 years
+(c)2018, Terawatt Corp.
+All Rights Reserved
+32
+
+
+
+
+The  remaining  LED Tokens will be  used for developing  strong  partnerships with
+government agencies and initiatives like the Department of Energy, Global Lighting
+development,  LED  retailers  like  Amazon,  Philips,  and  General  Electric,  DAO
+operations, marketing, legal, token participants, overhead, and to expand into other
+rapidly growing renewable sectors like Solar, Wind, Electric Vehicles, Etcetera.
+The end goal is to help cut  2,000 Terawatts of electricity usage worldwide  (~50%)
+and  9 trillion tons of greenhouse emissions from electricity usage over the life of
+the project. The beauty of LEDs is this will also increase light output by ~50 percent
+as well. This will have a significant global impact on the environment, especially
+in  countries  like  the  United  States,  China,  India,  The  EU,  etcetera.  Then  though
+further  marketing,  education,  government/corporate/individual  partnerships,  and
+strong development we will continue to drive global LED adoption initiatives.
+ROI
+Below  is  a  chart  showing  the  extreme  bullish  nature  of  the  BNB  token.  BNB
+(Binance’s token) has a strong focus on monetization also, and they use some of
+their profits from trading fees to  buy back and  burn their supply.  However, they
+only burn once every quarter and with a goal of reducing supply  50% over a long
+time, Terawatt will be burning everyday with a goal of reducing supply 99%! We will
+also  be  marketing  aggressively  and  growing  our  user  base  while  simultaneously
+reducing  supply,  just  IMAGINE  what  that  will  do  to  the  LED  token  price.  Still,
+participants  should  do  their  own  research  and  acknowledge  that  we  cannot
+guarantee any results. This example is only meant to show one of many possibilities:
+(c)2018, Terawatt Corp.
+All Rights Reserved
+33
+
+
+
+
+Participant  funds  will  be  cold  stored  in  offline  multisig  wallets  requiring       3+
+confirmations to withdraw ETH, further secured with MetaMask, and with offsite
+keys/backups with detailed instructions left with a trusted entity in the event one
+of  our  core  members  dies.  Participants  should  feel  extremely  safe  buying  our
+tokens.
+Our  smart  contracts  were  audited  by  Applicature’s  team,  and  we  will  audit  the
+DAO vigorously, run bug bounties, and take exhaustive security measures to ensure
+that our DAO will be “bulletproof.” As we build it we will look to add as many robust
+security  features  as  possible,  these  may  include:  cold  storage  of  DAO  funds,
+compartmentalize the DAO so if one section is compromised it will be contained,
+an insurance fund, time delay on funding withdrawals, heavy encryption, and other
+safeguards that we will discover as we  continue  building the  prototype  and final
+product. Prototype is being built by the co-creator of the Ethereum DAO, Shubham
+Tatvamasi. We can’t think of anyone better for this role than the person who helped
+build the largest DAO ever constructed. Prototype is expected to be completed prior
+to ICO in September. With a working product expected to be functioning shortly after,
+which will put us way ahead of schedule. It would be built already, but we need
+funds to finish it.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+34
+
+
+
+
+Terawatt Contribution
+Allocation
+Operations
+20%
+Development
+30%                       Legal and
+Contingency
+10%
+Marketing and
+Growth
+40%
+Terawatt LED
+Token Distribution
+Team
+and
+Advisors
+20%
+Participant Sales
+65%
+Growth and
+Incentives
+15%
+(c)2018, Terawatt Corp.
+All Rights Reserved
+35
+
+
+
+
+Token Utility
+Why do we need blockchain?
+To create an immutable, decentralized, secure, private (zk-SNARKS) deflationary
+currency with utility functions
+We need complex smart contracts to power the D.A.O.
+We need Transparency, Immutability, Decentralization and verifications of all
+transactions performed on the platform
+Extremely precise process automation
+It becomes convenient to work with other cryptocurrencies in an increasingly
+digital world. Integration with other projects on blockchain (product tracking,
+verification, ecosystem expansions, and so on)
+Reliability and fault tolerance
+The Terawatt token will have several utility functions:
+Used as a secure, private (zk-SNARKS), fast, low cost, decentralized payment currency
+at Utility Companies, LED Bulb Sellers, and any other interested merchants
+Allows entry to the DAO, staking/voting abilities, powers the DAO ecosystem with
+Ethereum Smart Contracts
+Allows access to decentralized immutable renewable tax data records (for a small
+fee), used as financial incentive to verify L.E.D. bulb purchases
+Incentive                                                                               -  The  Terawatt  Token/Currency  acts  as  a  reward  for  each  L.E.D.
+bulb/fixture purchase that's verified by our patent-pending process. This serves
+as an incentive for users to purchase LEDs for home, businesses, or government
+use and verify them through our interface
+Data Storage  -  LED  purchase  records  may be  securely stored  in  the Terawatt
+ecosystem. This allows the purchasing entity to return at tax time and have all of
+their LED and other Energy Star Rated Purchase  records  readily available. The
+user pays a small token fee to access the records again.
+Masternodes - When Ethereum makes it available. This will help to further secure
+and decentralize the Terawatt ecosystem, while providing benefits like residual
+rewards and DAO voting/staking power to token holders
+(c)2018, Terawatt Corp.
+All Rights Reserved
+36
+
+
+
+
+There are no companies doing this right now, and our project will have a token
+ecosystem that can expand into many different renewable sectors like Wind, Solar,
+Electric Vehicles, and more  . Terawatt i s patent-pending  (further patents to be
+granted) and will use a community based governance model where participants
+can vote with their tokens on which city/application we can help convert to LED’s.
+Terawatt will also help to educate others about the benefits of switching to LEDs.
+Monetization
+We noticed that most (99 percent) crypto projects, coins, tokens, and ICO’s, have no
+plan for monetizing their company, or its product/offering (except for accumulating
+participant dollars). Very few solve a “real world” problem either, have token utility,
+and even fewer further the global sustainability agenda that is progressing rapidly.
+Also, almost none are patent-pending, proprietary in any way, or have the largest
+contributor of the Ethereum DAO on their team. We wanted to tackle these pain
+points head on, and deliver a superior blockchain based product and service. This
+will  not  only  differentiate  this  project  and  make  it  very  attractive  to  financial
+participants , but also will help change the world and provide a sustainable business
+model going forward.
+1. Fees from DAO usage, record storage, profit taking
+Terawatt  will  earn  profits  from  DAO  entry/exit  fees,  profit  taking  fees  (like  an
+exchange or mutual fund does),  Carbon tax data storage fees, time decay fees,
+carbon credits, and also from affiliate L.E.D. sales commissions to buyback and
+burn  (LED)  Tokens.  This  is  similar  to  the  BNB  token,  but  they  only  burn  every
+quarter causing massive “pump and dumps” and we will burn tokens continuously.
+2. Utilizing Local, State, Federal, and Global Tax Incentives, Carbon
+Credits, and Rebates
+“The  Federal  Government  provides  incentives  for  commercial  and  residential
+entities to use energy efficient lighting measures. According to the Database of
+State Incentives for Renewables and Efficiency, the Federal Government will offer
+any commercial entity                                                                           $0.30 to $1.80 per square foot of the building   , depending
+on  the  technology  and  amount  of  energy  reduction,  to  allow the  company to
+become more environmentally friendly.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+37
+
+
+
+
+The term “energy efficient lighting” includes the use of extremely energy efficient
+LED light bulbs  .                                                                               Generally,  corporate  buildings  are  outfitted with  stronger,  and
+therefore more expensive, light bulbs than residential buildings, and require more
+of them. It can become rather expensive, so, as a result, the government provides
+incentives for corporations to become more energy efficient. The Government also
+provides a Tribal Energy Program Grant for tribal governments. The amount they
+provide varies by solicitation. The Government will also possibly provide personal
+exemptions for individuals looking to install energy efficient applications. If eligible,
+the amount provided is  100% of the subsidy…. Almost every power company will
+provide incentives , such as rebates , for people to take energy efficient measures
+and to work towards a more sustainable environment. Check with your local power
+or electric company to see what incentives they provide to encourage you to use
+efficient LED light bulbs. You can also visit the website to see various incentives
+provided in your area www.dsireusa.org
+We  can  probably  gain  a  percentage  of  these  tax  incentives/rebates,  as  well  as
+Carbon  Credits,  for  motivating  people/entities  to  switch  over,  and  this  will  be  a
+huge revenue stream as we actively drive tons of traffic through our user interface
+via aggressive marketing strategies. Think “Shapeshift” interface. They have a token
+currency, but they also make millions with their website. If no rebates are available
+for a specific  area or business, there will likely be  a tax write-off,  deduction,  or
+credit available. Our software will scan for everything available to help drive LED
+adoption globally. We are also developing a way to decentralize the rebate process
+so that there is always an instant rebate available for the buyer. We are actively
+contacting large energy companies like DUKE, Nextera, and PSE&G to find solutions.
+3. Partnerships with L.E.D. manufacturers and Governments
+It will be a no-brainer for a lighting manufacturer like General Electric, or Philips
+for example, to partner with us as this business model inherently drives sales of
+all L.E.D.  products.  Furthermore,  since  Governments  are  already pushing for this,
+they will be quick to partner with us, lead by example, and switch over local, state,
+and  federal  facilities  to  L.E.D.’s.  The  Department  Of  Energy  (DOE)  will  also  be  a
+prime target for a partnership. Our COO is a Civil Engineer and will be focusing on
+this  aspect  as well.  Our Advisor Jacob has  also helped build hundreds  of power
+plants  in  emerging  nations.  Furthermore,  this  is  a  good  public  relations  move,
+promoting a cleaner, more sustainable future through use of L.E.D. lighting solutions.
+This is a cost saving measure that will help states drastically cut electricity costs
+over time, leaving more money in budgets for other green initiatives.
+17. www.gogreenledbulbs.com/c/150/information-on-government-incentives-for-
+switching-to-led
+(c)2018, Terawatt Corp.
+All Rights Reserved
+38
+
+
+
+
+4. Commissions from L.E.D. bulb sales
+Once a participant signs up, we can give them the option to purchase the bulbs
+through our websites affiliate links (Ie:, Home Depot, GE, Phillips, DUKE energy,
+etc.). This will earn revenue for both this company, the L.E.D. manufacturer, and
+also provides the buyer with convenience. We won't need to hold inventory or
+deal with shipping, customer service, etcetera as it will just be an affiliate link.
+(or we may go with drop shipping, or even installs and bulb recycling if it makes
+sense down the road)
+There are many other income opportunities that will present themselves. Imagine
+when we  start  acquiring  big  government  or  corporate  contracts,  like  all of the
+street  lights/lamps  in  Shanghai,  New  York  City,  or  Mumbai  for  example.  Or  if
+companies like Walmart, or Costco, switch over to all LEDs and partner with us
+to further their green energy initiatives and increase PR. From small companies to
+large  ones,  one  bedroom  apartments,  to                                                80  story  hotels,  small  eco-friendly
+nonprofits, to large global and governmental initiatives, the possibilities for growth
+are endless.
+5. Donations
+We anticipate getting a lot of support for this project as the renewable energy and
+sustainability initiatives continue their upward trends. We will accept donations to
+the project in the form of Bitcoin, Ethereum, and potentially other crypto tokens
+going forward. This is a “feel-good” project with a positive and altruistic mission,
+and  everyone  can  contribute  to  helping  us  reduce  greenhouse  emissions  and
+combat global warming. We have already received a lot of positive interest from
+other blockchain projects. Going green is in! We aim to have a DAO (decentralised
+autonomous organization) as part of our ecosystem that will contain a donated
+LED token pool, and community users will vote on where they want to see the
+tokens used to further certain initiatives. For example, option one could be to help
+the city of Mumbai reach  100% LED adoption, but they need  1 million dollars to
+reach that goal. The DAO will allocate the tokens to this project if the community
+chooses  it  over  the  other  choices,  almost  like  a  kickstarter  platform  for
+sustainability projects.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+39
+
+
+
+
+Legal Disclaimer
+Please read the following notice carefully before proceeding to read this White
+Paper document issued by Terawatt, a company incorporated under the laws of
+the Netherlands (hereinafter - “Distributor”). This notice applies to all persons
+who read this document. Please note this notice may be altered or updated.
+The White Paper does not constitute any relations between you (hereinafter -
+“you” or “Holder”) and the Distributor. Acquisition of the token issued by the
+Distributor  is  available  only  after  accepting  the  Token  Sale  Agreement
+(hereinafter - “TSA”).
+Acquisition of cryptographic tokens does not present an exchange of cryptocurrencies
+for  any form  of  ordinary  shares  of the  Distributor,  and  a  Holder  of  cryptographic
+token  is  not  entitled  to  any  guaranteed  form  of  the  dividends,  Holders  of  our
+tokens are only entitled to certain rights within the TSA.
+Tokens Are Not Intended To Constitute Securities In Any Jurisdiction. This White
+Paper Does Not Constitute A Prospectus Or Offer Document Of Any Sort And Is
+Not Intended To Constitute An Offer Of Securities Or A Solicitation For Investments
+In Securities In Any Jurisdiction.
+This White  Paper is for information  purposes  only. The  contents  of this White
+Paper are not a financial promotion. Therefore, none of the contents of this White
+Paper serves as an invitation or inducement to engage in any sort of investment
+activity.
+Prospective acquirers of our tokens should carefully consider and evaluate all risks
+and uncertainties associated with the cryptocurrencies, Terawatt and their respective
+businesses and operations, and the Terawatt Initial Coin Offering. Familiarise yourself
+with all the information set out in this White Paper and the TSA prior to any purchase
+of our tokens.
+Ensure that you are aware of all of them would be risks prior to obtaining our
+tokens. The Risk Statement details all potential risks that you should consider.
+We recommend that you seek out independent financial advice before engaging
+in any sort of business endeavour.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+40
+
+
+
+
+Risk Statement
+No regulatory authority has examined or approved any of the information set out
+in this White Paper. No such action has been or will be taken under the laws,
+regulatory requirements or rules of any jurisdiction. The publication, distribution
+or dissemination of this White Paper does not imply that the applicable laws,
+regulatory requirements, or rules have complied.
+To The Maximum Extent Permitted By The Applicable Laws, Regulations And Rules,
+Terawatt And  Its Affiliates And Their Respective  Officers,  Employees, Advisors  Or
+Agents Will, In Relation To The Website And Tokens, Not Be Liable For Any Damages
+Of Any Kind, Including, But Not Limited To, Direct, Consequential, Incidental, Special
+Or Indirect Damages (including But Not Limited To Lost Profits, Loss Of Revenue Or
+Third Party Loss Whether Foreseeable Or Otherwise, Trading Losses Or Damages
+That Result From Use Or Loss Of Use Of The Website And Tokens).
+For The Avoidance Of Doubt, The Distributor Expressly Disclaims Any And All
+Responsibility For Any Direct Or Consequential Loss Or Damage Of Any Kind
+Whatsoever Arising Directly Or Indirectly From: (I) Reliance On Any Information
+Contained In This Document, (ii) Any Error, Omission Or Inaccuracy In Any Such
+Information, (iii) Any Action Resulting Therefrom, Or (iv) Usage Or Acquisition Of
+Products, Available Through The Website.
+You Acknowledge And Agree That You Are Not Purchasing Tokens For Purposes Of
+Investment, Speculation, As Some Type Of Arbitrage Strategy, For Immediate Resale
+Or Other Financial Purposes.
+Some of the statements in the White Paper include forward-looking statements
+that reflect the Distributor's current views with respect to execution roadmap,
+financial performance, business strategy and future plans, both with respect to
+the Distributor and the sectors and industries in which the Distributor operates.
+Statements  which  include  the  words  ''expects'',  ''plans'',  ''believes'',  ''projects'',
+''anticipates'',  ''will'',  ''aims'',  ''may'',  ''would'',  ''could'',  ''continue''  and  similar
+statements are of a future or forward-looking nature. All forward-looking statements
+address matters that involve risks and uncertainties. Accordingly, there are or will
+be  important  factors  that  could  cause  the  Distributor’s  actual  results  to  differ
+materially from those indicated in these statements.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+41
+
+
+
+
+These factors include but are not limited to those described in Articles 5 and 9 of
+the TSA, which should be read in conjunction with the other cautionary statements
+that are included in the TSA.
+Any  forward-looking  statements  in  the  White  Paper  reflect  the  Distributor’s
+current views with respect to future events and are subject to these and other
+risks, uncertainties and assumptions relating to the Distributor’s operations, results
+of operations and growth strategy.
+These forward-looking statements speak only as of the date of the White Paper.
+Prospective buyers of the tokens should specifically consider the factors identified
+in the White Paper and TSA that could cause actual results to differ before making
+a  purchase  decision.  No  statement  in  the  White  Paper  is  intended  as  a  profit
+forecast and no statement in the White Paper should be interpreted to mean that
+the earnings of the Distributor for the current or future years would be as may be
+implied in this White Paper.
+Restricted Areas
+We will be using Sum and Substance for our KYC/AML Citizens, residents (tax or
+otherwise), or green card holders, of the United States of America are ineligible to
+purchase any LED tokens in the LED Initial Coin Offering, PreICO, Private Sale or
+any  other  sale  offered  by  Terawatt.  The  same  applies  for  residents  of  Belize,
+Singapore, China, Canada, Iran, North Korea, Syria, Iraq, and any other countries
+the US is in direct conflict with or where token sales are prohibited.
+This Whitepaper, or any part thereof, as well as any copies, must not be taken or
+transmitted to any country where distribution or dissemination of this Whitepaper
+is prohibited or restricted.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+42
+
+
+
+
+Our Team
+/evan-william
+Evan William
+Founder and Chief Executive Officer
+B.S. in Business Management from The State University of New Jersey at Montclair.
+12+ years of experience in operations, sales, and management. Worked at Fortune
+100’s  Verizon  Wireless  and  Enterprise  Holdings,  was  Director  of  Business
+Development  for  TBAviation,  currently  a  U.S.  Government  Contractor  who
+engineers  custom  aircraft  coatings  for  sale  to  the  D.O.D.,  and  is  a  self-made
+business owner, cryptocurrency trader, investor, and blockchain enthusiast
+/morris
+Morris Hallowell Layton III                                                                 h-layton-iii-5624229/
+Chief Operations Officer
+B.S. in CIvil Engineering from University of Texas at Arlington. Morris has 10+ years
+of  experience  in  civil  engineering,  business  development,  marketing,  and  event
+promotions.  He  has  had  the  opportunity  to  work  on  software  pre-launch,  and
+promote affiliate products. He has a thorough understanding of current infrastructure
+needs, and economics in funding maintenance, reconstruction and new construction.
+He  is  pro-sustainability and pro-tax savings.  He  joined this team to build client
+relationships with government authorities, individuals, and businesses.
+/jerome-raymond-8b06278
+Jerome Raymond
+Chief Technical Officer
+B.S. in Software Engineering from the University of Texas at Dallas. 10+ years
+of  experience  developing  software  and  Android  and  IOS  apps.  Expert  in
+Solidity,  Angular,  Javascript.  Has  strong  knowledge  of  the  Software
+Development Lifecycle and building out business infrastructures. Provides
+executive  leadership  as  head  of  global  IT.  Responsible  for  all  aspects  of
+strategic IT planning, implementation, and support worldwide as an integral
+component  of  business  plan.  Managed  and  delivered  multimillion  dollar
+projects on time and within budget. Responsible for budgeting, design and
+support of all technologies.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+43
+
+
+
+
+Our Team
+/shubhamtatvamasi/
+Shubham Tatvamasi
+DAO architect
+Shubham  is  the  largest  contributor  to  the  Ethereum  DAO  and  has  been
+working  on  Blockchain  technologies  since  2015.  He  has  contributed  to  the
+Bitcoin  Blockchain,  Ethereum,  Hyperledger  Fabric,  Ethos,  Abyss,  Microsoft
+Azure,  Zcash,  Token  Market,  ChronoBank,  Monero,  Loom,  Aragon,  EthLend,
+Origin, EOS, and many others. Shubham also has experience with Decentralized
+Web  Applications,  Corporate  Blockchains,  Hedera  Hashgraph,  Decentralized
+Exchange Platforms, and CryptoCurrency Mining Servers. Shubham has helped
+many  community  events/meetups  for  Blockchain  Devs,  HyperLedger  Delhi/
+NCR, CryptoCurrencyIndia, PyDelhi, ILUGD & volunteered/spoke in conferences
+like Global Blockchain Conference, PyCon India.
+Hase Takujiro                                                                              /hase-takujiro-251011167/
+Advisor/Developer
+Master  of  Science  in  Distributed  Computing  at  The  University  of  Tokyo.
+Previously a Full Stack Developer at Ubisoft Tokyo, and Blockchain Developer
+at  NashTech  Japan  with  over  15  years  of  programming  and  blockchain
+development  experience.  Hase  has  recently  worked  on  projects  such  as
+zaif.jp , bullxchange.io , psalm.io , CATS, COTN, and others.
+/savio-gomez-capt/
+Savio Gomez, Capt., PhD
+Strategic Advisor
+Savio  has  close  to  three  decades  of  international  and  diverse  experience  in
+the  Transportation  &  Technology  field.  He  is  a  certified  Blockchain  &  AI
+professional,  a  Master  Mariner,  has  an  MBA in  international  business  /  trade
+/ logistics, among other degrees leading to a PhD. He is an auditor for various
+systems  including  ISO  (9001,14001,  21500),  OHSAS  18001,  ISPS  and  a  Marine
+Quality  Inspector  as  well.  Savio  continues  to  be  active  advisor  to  a  diverse
+range of projects. At Terawatt Savio advises in strategic matters like partnerships,
+exchange listings, best practices, investor relations and helping us continue to
+scale globally.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+44
+
+
+
+
+Our Team
+Roy Davey                                                                         /roy-davey-204497135/
+Lead Engineer
+Solidity, Ethereum, NEO, Blockchain expert with 8+ years of full stack web
+development experience including Python, Javascript, Ruby, PHP, GoLang,
+Django,  AngularJS,  Ruby  on  Rails,  Laravel,  React.JS.  Deep  knowledge  in
+Cryptocurrency development (Ethereum, Smart Contracts), organization of
+ICOs,  DAO  creation,  Cryptocurrency  wallet  and  exchange  development,
+Cryptocurrency Trading, Lending bots on Poloniex, Bitfinex, Bittrex, Solidity,
+Web3js, Truffle, and ERC20 tokens.
+Jacob Salvador                                                                    /jacobohansen/
+Advisor/Marketing
+Helped  build  dozens  of  solar  and  renewable  energy  power  plants  around
+the world. CFO of Bitspace, one of Norway’s leading blockchain companies
+and EOS block producer candidate. Experienced investment professional with
+a track record of solid hands-on experience implementing tech projects in
+the  financial,  renewable  energy  and  blockchain  industries.  His  in-depth
+market  knowledge within  disruptive technologies  has  contributed to  some
+of today's most promising blockchain companies where he has held advisory
+board positions.
+AnuDeep Reddy                                                                     /anudeepreddy200/
+Advisor/Marketing
+Anudeep is a world-class blockchain and business consultant. As an active
+supporter and advocate of blockchain technology, he provides consultancy
+and  advice to  selected  ICOs  and  has worked  closely with  successful ICO
+launches who have achieved their marketing, media and PR targets. Anudeep
+has worked with  30+  ICOs  and  blockchain  based  companies  as  a Growth
+Hacker and Marketing Strategist.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+45
+
+
+
+
+Our Team
+Dr. David Meszaros                                                                 /meszaroslaw/
+Legal
+Dr.  Meszaros  is  among  the  leading  legal  experts  when  it  comes  to  all
+matters that arise at the intersection of blockchain and law. He has been
+the  legal  advisor  for  over  19  ICOs  and  assisted  Fortune  500  companies
+with corporate and compliance matters alike. With a doctorate in law and
+many years of international legal experience, Dr. Meszaros guides TeraWATT
+through the regulatory maze of ICOs.
+Miikka Saloseutu
+Advisor
+Miikka is our strategic marketing advisor and an ICO Bench ranked advisor.
+He is a founder of icotokennews.com and cryptocoinjudge.com websites.
+He’s an experienced marketing professional with a demonstrated history of
+working in the internet industry with many challenging projects relating to
+Search  Engine  Optimization                                                       (SEO),  venture  capital  investments,  angel
+investments, E-commerce Optimization, Sales, Initial Coin Offerings, Crypto
+Currencies  and  Pay  Per  Click  (PPC)  marketing.  He  has  his  own  internet
+marketing company Triplex Trading OU, which specialized in highly targeted
+SEO  based  affiliate  marketing  in  the  financial  space  and  has  grown
+exponentially in a last few years.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+46
+
+
+
+
+Our Team
+/ego97516/
+Roman Karimov
+Advisor
+Results-oriented  Business  Leader  with                                            10+  years  of  entrepreneurial
+experience  in  the  IT and  Internet Technologies.  Since  2016  focused  on
+digital assets, becoming crypto enthusiast. Blockchain technology, bitcoin,
+ethereum and smart contracts have become for him the embodiment of
+the changes in which he must participate. Invested in different ICO’s and
+participated  at  several  crypto  projects  as  an  advisor  by  joining  to  at
+various stages - from development of the project conception, tokenomics
+and  marketing  strategy  to  attracting  investments  and  listing  n  crypto
+exchanges. Currently Roman is an Advisor and Private Investor in projects
+and startups which use blockchain technology. He is also an experienced
+specialist  on  ICO  Strategy,  member  of the  ICO  TOP ADVISORS,  Bitcoin
+Foundation  and  RACIB.  Regularly  attends  the  industry  conferences  and
+events  as  a  public  speaker  where  discussed  the  topics  of  blockchain,
+ICO  and  investing  in  cryptocurrencies.  Advisor  only  if  strongly  believes
+in the project. NO compromises.
+Antoun Toubia                                                                       /icoadviser/
+Advisor
+Investor & Chairman, United Capital Investments.
+Antoun is an investment services professional with years of experience
+in Private Equity investments, venture capital and Blockchain Technology.
+He is currently building a new type of Private Equity Portfolio Fund based
+on  the  Blockchain  technology  and  has  already  secured  several project
+agreements  including  government  backed  contracts.  Through  his
+extensive network, he is bringing high value projects to the ICO market.
+Antoun brings expertise in JV negotiations, acquisitions, ICOs and venture
+financing deals. His portfolio currently includes diversified projects across
+several  markets  including  Fintech,  Green  Energy,  medical  technology,
+industrial technology and IT.
+(c)2018, Terawatt Corp.
+All Rights Reserved
+47
+
+
+
+
+Our Team
+Carlo Buonpane                                                                        /carlo-buonpane-a9a44684/
+Entrepreneur, Investor, Crypto enthusiast, Coach and Mentor. Carlo has gained
+various experiences in various digital startups, helping raise millions of dollars
+for  various  ICOs  globally.  Expert  fundraiser  with  deep  connections  in  the
+blockchain industry
+Alexander Pavlov                                                                      /pavlovsasha/
+Advisor
+Co-Founder of a media portal with 1M + active users per month.
+I hold 10+ years of IT experience and 6+ years in upper echelon management.
+In  the  present  I  am  CEO  &  Founder  Crypto  Launch,  an  agency  of  experts
+which helps startups and new brands to navigate in the World of blockchain,
+strategize  accordingly  and  align  their  ideas  correctly  with  blockchain
+philosophies  and  token  economies.  Also  I  am  CEO  &  Founder  of  Web  Dev
+Company Webinsight LLC, which is amongst TOP-10 companies in CIS Region,
+rated by ru-net rating agencies. Since 2017 I am COO of decentralized gaming
+PvP platform IQeon, which has raised more than 3.000 ETH in Token Sales to
+date.  I  have successfully taken an active part as an advisor globally,  at the
+events, such as CryptoSpace (Moscow), Belarus Blockchain Conference (Minsk),
+Crypto BAZAR (Moscow), Blockchain Cruise Asia (Thailand), London Blockchain
+Week  (London),  Blockchain  Economic  Forum                                          (Singapore),  White  Nights
+Conference                                                                            (Prague),  Decenter  CryptoEvent   (Minsk),  Blockchain  Economic
+Forum 2018 (San Francisco).
+(c)2018, Terawatt Corp.
+All Rights Reserved
+48
+
+
+
+
+Our Ratings
+4.6                       4.8
+(c)2018, Terawatt Corp.
+All Rights Reserved
+49
+
+
+
+
+Exchange Listings
+(c)2018, Terawatt Corp.
+All Rights Reserved
+50
+
+
+
+
+Partners
+(c)2018, Terawatt Corp.
+All Rights Reserved
+51
+
+
+
+
+2017
+Project Conception, Whitepaper drafted,
+Roadmap                                         Patent Filed
+Dec 2017
+Team Building- Acquired CTO, COO,
+and Advisor
+Jan 2018
+Whitepaper/Website, Trademark Granted, Listed
+on KICKICO
+Feb 2018
+Building Presence, Token Presale site under
+development
+June 2018
+Private Sale Launch, Development
+August 2018
+PreICO
+Oct 2018
+ICO, DAO construction begins
+Nov 2018
+Acquire key partnerships and meet
+with more Utility companies
+Dec 2018
+Exchange Listing(s), Hire more Devs
+Jan 2019
+Mobile Wallet release, continue development
+Feb 2019
+Masternode and DAO testnet
+Mar 2019
+Fully Functional User Interface Released,
+DAO Mainnet Online
+Apr 2019
+Devcon and Acquire More Partnerships
+May 2019
+Receipt Verification/Tax Incentive
+Utility/LED Token Development
+Jan 2020
+Expansion of Terawatt’s LED
+Ecosystem into related
+sectors
+(c)2018, Terawatt Corp.
+All Rights Reserved
+52
+
+
+
+
+"The Terawatt Foundation - Ground, 1st, 2nd and 3rd floor
+Joop Geesinkweg 901 - 999 Amsterdam - Duivendrecht 1114 AB
+Netherlands”
+(c)2018, Terawatt Corp.
+All Rights Reserved
+53
+
+
+
+
+

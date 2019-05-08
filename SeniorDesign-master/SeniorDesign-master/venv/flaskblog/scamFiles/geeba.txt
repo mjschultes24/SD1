@@ -1,0 +1,1160 @@
+﻿BRINGING A NEW ERA
+OF DELIVERY SERVICE
+Whitepaper ver1.0
+
+
+
+
+     CONTENTS                              Pg                                           Pg
+01   State Of Last Mile Logistics Today    1    13   Enabling the Platform
+02   Delivery Market Analysis              4         Phases                             26
+03   Geeba as a Delivery Service Company   6         Operational Model and Processes    27
+04   Meeting Industry Needs                9         Regulations and Monetization       28
+05   Why Blockchain?                       12   14   Vision for the Future              29
+06   Why Autonomous Robots?                13   15   Vision for the Community           30
+07   Geeba Ecosystem Model                 14   16   Roadmap                            31
+08   How Geeba Works                       16   17   ICO                                32
+09   Components Overview                        18   Financial Management
+     Autonomous Vehicles                   17        Structure and Token Sale Summary   33
+     Smart Hubs                            18        Token Distribution                 34
+     G-Ship / G-Sales Solutions            19        Bonuses                            35
+     G-Nest                                20        Funds Usage                        36
+10   Geeba Economy                         21   19   Founders’ Experience               37
+11   Blockchain Development                22   20   Board of Advisors
+12   Benefits                                   21   Partners and Supporters            38
+     Community                             23   22   Press                              39
+     Retailers                             24
+     Shippers                              25
+
+
+
+
+EXECUTIVE SUMMARY
+DISRUPTING URBAN
+MOBILITY AND LOGISTICS
+The “last-mile” in the delivery industry is the final
+segment of the parcel delivery journey where
+parcels are transported from a distribution hub
+or warehouse to the end-consumer’s location.
+It’s an expensive and resource-intensive part of
+parcel delivery. Therefore, Geeba is a decentralized
+delivery ecosystem that enables businesses to
+operate deliveries with autonomous vehicles and
+smart hubs. The high costs, lack of efficiency,
+and demand of deliveries today enables Geeba
+to introduce a new approach to the industry by
+allowing the community to actively participate in
+the evolution through leveraging blockchain.
+Geeba, bringing a smile to delivery.
+
+
+
+
+MARKET REALITY
+URBAN LOGISTICS
+TODAY IS BROKEN
+
+
+
+
+                                                                                                           whitepaper v1.0   2
+01                                                      STATE OF LAST MILE LOGISTICS TODAY
+ROOM FOR IMPROVEMENT
+The last-mile of Fast Moving Consumer Goods
+(FMCG) and logistics industry is an expensive and
+Delivery of consumer goods is expensive
+and resource heavy.
+resource exhaustive part of product delivery.
+Customers demand better,
+Customers require cheaper and flexible service while
+cheaper and faster delivery services.
+businesses are unable to provide it due to limitation
+in supply chain and outdated technologies restricting
+Existing transportation fleets are
+their growth.                                           inefficient! Majority of local delivery is still
+made using bulky, polluting, expensively
+operated and costly vehicles.
+Traditional freight transport accounts for
+6-18% of total urban travel (costing ~1% of
+GDP of the European economy), 19% of
+energy use and 21% of CO2 emissions.
+
+
+
+
+                                                                                                       whitepaper v1.0                              3
+01                                                    STATE OF LAST MILE LOGISTICS TODAY
+The local urban mobility and transportation sector
+is suffering from a lack of efficient, sustainable,
+scalable and affordable solutions.
+CUSTOMERS ARE                                         BUSINESSES ARE                                   LAST-MILE LOGISTICS
+COMPLAINING ABOUT:                                    SUFFERING ABOUT:                                 COMPANIES ARE FACING :
+•  Delayed and late deliveries                        •  Costs of repeated delivery attempts:          •  Costs associated with customers not
+                                                      Customers not at home and not answering
+                                                                                                       available to receive delivery
+•  Overpriced deliveries                              when at the door, causing additional costs
+                                                      for second time delivery
+                                                                                                       •  Managing peak times (Weekends, holidays
+•  Lengthy delivery times
+                                                                                                       and special occasions)
+                                                      •  Not being able to grow business due to
+•  Forced to stay home and wait for delivery
+                                                      limited capacity of delivery and related costs
+                                                                                                       •  Handling customer complaints
+•  Communications within fleet and with
+customers
+•  Difficulties offering real-time tracking
+options to customers
+•  Increasing cost of deliveries due to increase
+of minimum wage
+
+
+
+
+                                                                                                 whitepaper v1.0                                    4
+02                                              DELIVERY MARKET ANALYSIS
+LOOKING INTO THE E-COMMERCE DELIVERY SPACE
+In 2013, products
+                                                With e-commerce being the largest driver of      Javelin Group, 2011). Internet shopping is         will continue to generate the largest online
+ordered online
+                                                growth in last-mile deliveries, it has shifted   intertwined with express delivery to homes         volumes, growing by nearly 50% between 2013
+generated just over
+                                                market share from the B2B to the B2C             and therefore has an impact on urban freight       and 2018. Moreover, by 2018, food orders are
+                                                segment. B2C once made up around 40%             transport: more at homes, less at shops. Also,     anticipated to exceed deliveries and downloads
+one billion deliveries.
+                                                of the market, but has since exceeded 50%        consumers make use of the internet (f.i. by        of books. A result of this trend will be that
+By 2018, this number
+                                                in several countries, including Germany. The     Ebay, Amazon, Etsy) to buy from and sell           supermarkets and online grocery retailers will
+                                                market share of internet shopping grows and      goods to other consumers (C2C e-commerce).         need to prepare for an increasingly competitive
+is expected to grow by
+                                                substitutes traditional shopping. This is more   Although a lot of the goods are picked up by       and busy online market and ensure that their
+28.8% to 1.35 billion.                          evident by the fact that by 2020 up to one       the buyer themselves, a lot of goods (two thirds   delivery provisions are equipped for increased
+                                                third of the total shops at shopping centres     in the Netherlands) are delivered to the home      volumes.
+The cost of global parcel delivery, excluding
+in countries like the Netherlands will be       by express delivery (Visser & Hassall, 2005).
+pickup, line-haul, and sorting, amounts to
+closed down due to the economic crisis and      Analysing the different ecommerce sectors,
+about €70 billion, with China, Germany,
+competition from web shops (KiM, in press;      unsurprisingly, sales of fashion products
+and the United States accounting for more
+than 40% of the market. Not only is the
+market large, but it’s also highly dynamic,
+with growth rates in 2015 of between 7 and
+10% in mature markets (such as Germany
+and the United States) and almost 250%
+in developing markets such as India. This
+means that, in mature markets, volumes
+could double over the next ten years,
+reaching roughly 5 billion and 25 billion
+parcels per year in Germany and the US
+respectively.
+Current delivery growth rate is                 As much as one-third of brick                    Customers want deliveries
+estimated at 7-10% annually                     and mortar shops will close in                   faster for instant gratification
+in mature markets and almost                    markets like Netherlands by                      from ordering experience.
+250% in developing markets                      2020 due to competition from
+such as India.                                  web stores.
+
+
+
+
+                                                                                             whitepaper v1.0                                   5
+02                                        DELIVERY MARKET ANALYSIS
+                                          DELIVERY OPTION PRIORITIZATION
+                                          According to research conducted by Statista,       This share is likely to increase, given that                                                  Research shows that customers nowadays are
+6
+0% of customers
+                                          83% of respondents chose home delivery             younger consumers are more inclined -just         more time-conscious and over 60% of
+                                          when purchasing goods or services online in        over 30% - to choose same-day and                 customers are requesting weekend and
+request weekend
+                                          France during the first half of 2015 instead of    instant delivery over regular delivery.           off-hourdelivery. Moreover, a significant
+and off-hour                              alternative to lockers pickup and other options.   However, the remaining 70% of                                                                 percentage of consumers opting for late-night
+                                          Home delivery also tops the choice of delivery     consumers still prefer the cheapest option of                                                 shopping opportunities. Lastly, customers are
+delivery
+                                          location preferences among e-shoppers              home delivery. Moreover, only a minority of                                                   willing to pay the premium for faster delivery
+                                          elsewhere in Europe in countries including         consumers indicate a willingness to opt for                                                   and overall their preference can be ranked as
+                                          Germany, Italy, the Netherlands, Spain and         unattended delivery, e.g., parcel lockers, even   shown below.
+                                          the UK. Almost 25% of consumers are willing        at discounted prices. Its predicted that there
+                                          to pay significant premiums for the privilege of   will be great demand for an instant and same-
+                                          same-day or instant delivery.                      day delivery offering, at least for some
+                                                                                             product categories in the future.
+FOR CUSTOMERS , COST OF DELIVERY IS # 1
+COST                                      33%
+SPEED                                     25 %
+FLEXIBILITY                               23%
+REPUTATION                                12%
+SERVICE                                   7 %
+
+
+
+
+                                                                                                               whitepaper v1.0                 6
+03                                                        GEEBA AS A DELIVERY SERVICE COMPANY
+TARGET MARKET
+                                                                                                               G
+As order fulfilment is both store-based and                                                                    eeba aims to facilitate the
+distribution centre-based, while delivery is direct-to-                                                        use of robots to make
+consumer, Geeba aims to develop a sustainable city                                                             5 million deliveries by 2022.
+logistics solutions that directly serves centralized-
+extended and fully-extended supply chains. Moreover,
+the proposed business model assumes Geeba will be
+working together with businesses as well such that the
+B2X model is complete.
+Thus, Geeba will be primarily targeting logistics         differentiators: Last mile delivery (i.e. delivery
+providers and couriers (facilitators). However,           range), medium to light weight parcels
+given shared operational needs and customer               (i.e. volumetric weight), and lastly the 2nd day
+profiles, Ecommerce retailers will represent a            and express delivery span (i.e. delivery time
+secondary target market for Geeba such that               window).
+all target market conditions follow the key
+
+
+
+
+                                                                                                                                                    whitepaper v1.0                                      7
+03                                           GEEBA AS A DELIVERY SERVICE COMPANY
+                                                                                                LOOKING IN
+Today, the majority of
+                                                                                                In Europe, cargo transport in cities is extremely   useful in European cities with their large
+parcels could be delivered
+                                                                                                inefficient. As it currently stands, almost 100%    historical centers consisting of narrow, winding
+                                                                                                of it is done by motorized vehicles, ranging        streets. Population density also influences
+by light industry robots.
+                                                                                                from personal cars to commercial delivery vans      the usefulness of cargo cycles, which again
+                                                                                                and trucks (lorries). However, these heavy          plays into the hands of European cities. A
+                                                                                                vehicles often transport very light goods. The      third observation is that cities where cargo
+HERE ’S WHY
+                                                                                                average payload transported in European cities      cycles are again in use already had a relatively
+The average payload per parcel is less                                                          weighs less than 100kg and has a volume of less     strong bicycle culture and a decent cycle
+                                                                                                than 1m3. Of the 1,900 vans and trucks that         infrastructure prior to their arrival.
+than 100kg and volume is less than 1m3
+                                                                                                enter the city of Breda in the Netherlands each
+                                                                                                day, less than 10% of the cargo being delivered     The global logistics industry is a 70 billion euro
+                                                                                                requires a van or truck and 40% of deliveries       market with over 1.35 billion deliveries made
+Using the Netherlands as an example,
+                                                                                                involve just one box. This means that a large       from ecommerce transactions alone in 2015.
+                                                                                                share of the cargo being moved in and out of        Meanwhile, the total serviceable/obtainable
+less than 10% of the cargo actually
+                                             cities could be transported by autonomousn         market size as per the 5-year market entry
+requires a van or truck
+                                             cargo cycles.                                      strategy is estimated at 5 million instant and
+                                                                                                same day deliveries, calculated as 25% from the
+                                             According to research undertaken by the            addressable 20 million B2X last-mile deliveries
+40% of deliveries involve just one box       CycleLogistics, cyclists could easily move 25%     per year, in both the Qatari and the European
+                                             of all cargo in cities (considering loads up to    market (Dutch market) combined. The value
+                                             250kg), while In Berlin, it was found that cargo   of this market is estimated at 170 million euros
+In Berlin, it’s estimated that 85% of car    cycles using electric assist can replace up to     and expected to grow by approximately 12%
+                                             85% of car trips made by courier services.         per year.
+trips made by courier services could be
+In conclusion, cargo cycles are especially
+replaced by electric assisted cargo cycles
+
+
+
+
+A DISRUPTIVE EVOLUTION
+GEEBA IS A NEW ERA
+OF DELIVERY SERVICE
+
+
+
+
+                                                                   whitepaper v1.0   9
+04                                        MEETING INDUSTRY NEEDS
+FOR RETAILERS
+Geeba is developing a decentralized
+•  Higher capacity to cope with
+ecosystem enabling businesses to
+delivery demand
+cut down expenses of local deliveries
+•  Integrated services with
+powered by blockchain, autonomous
+enhanced customer experience
+vehicles and smart hubs.
+•  Innovative supply chain
+The ecosystem acts as a growth enabler
+FOR CONSUMERS
+to empower retailers and provide
+•  City-friendly delivery
+limitless scale opportunity to shippers
+•  Flexible service
+with a community centric approach.
+•  Improved user experience
+FOR SHIPPERS
+•  Economy and technology to
+facilitate fleets scalability
+•  Access to demand compatible with
+autonomous vehicles capability
+•  Alliances to support with regulators
+to acquire operation licenses
+
+
+
+
+                                                                     whitepaper v1.0   10
+04                                          MEETING INDUSTRY NEEDS
+By putting the needs of what the industry
+first, we are building a balanced and
+efficient ecosystem.
+
+
+
+
+OUR MISSION
+WE ARE REDEFINING
+DELIVERY THROUGH
+BLOCKCHAIN & ROBOTS
+
+
+
+
+                                                                                                                                                                                                           whitepaper v1.0             12
+05                                                 WHY BLOCKCHAIN?
+                                                                                                      BEYOND PEER TO PEER
+G                                                                                                     Looking beyond the value of distributed ledger     Above adding visibility and predictability to     Utilization of blockchain
+eeba aims to
+                                                                                                      and the powerful peer-to-peer network of           logistics operations that result in accelerated   achieves cost savings by
+add visibility and                                                                                    the blockchain, there lies great potential in      physical flow of goods, provenance tracking       powering leaner, more
+                                                                                                      the blockchain economy. Enabling cheaper           of deliveries in last-mile logistics can enable   automated and error-
+predictability to
+                                                                                                      and flexible delivery with robots requires         responsible and sustainable supply chains at      free processes
+logistics operations                                                                                  capabilities of tremendous scalability. Similar    scale and help to enhance the experience.
+                                                                                                      to what Uber did globally to scale, it required    There are already many projects are underway
+to accelerate the                                                                                                                                                                                          Unleash trapped
+                                                                                                      millions of drivers sign up and believe in their   to apply blockchain technology to global
+value in logistics and
+logistics, adding value by boosting supply chain   mission, “making transportation reliable for
+physical flow of
+transportation due
+everyone everywhere”.                              transparency and automating administrative
+to fragmented and
+goods.
+operations.
+competitive nature
+The relevance of blockchain for autonomous
+of the industry
+delivery comes in involving the community as       In the near future, we can anticipate
+part of the solution, part of a “blockchain for    blockchain technologies intersecting with
+delivery economy”. Specifically, the utilization   other innovations to amplify impact. The           Physical flow of
+of the community’s sense of ownership              physical flow of goods can be more effectively     goods will sync with
+                                                                                                      information and
+possess great potential with such applications     orchestrated and synced with information and
+                                                                                                      financial flows enhancing
+like cryptocurrency—this leverages on user’s       financial flows when blockchain is combined
+UNBOXING AN INDUSTRY                                                                                  efficiencies, customer
+becoming advocates for the vision, drawing in      with complementary technologies like IoT,
+experience and
+There is a significant amount of trapped           developers, investors, and salespeople to play a   artificial intelligence, robotics.
+                                                                                                                                                         community benefits
+value in logistics and transportation, largely     much active role.
+due to the fragmented and competitive
+nature of the logistics industry. For              In addition, the use of blockchain for autonomy
+example, in the US alone, it is estimated          means robots can be active part of the delivery
+that there are over 500,000 individual             economy as they perform machine-to-
+trucking companies. With such a huge               machine (M2M) transactions with their own
+number of stakeholders involved in the             wallets, be leased and sold on the market and
+supply chain, this often creates low               keep a secured record of all transactions.
+transparency, unstandardized, slow and
+costly processes.
+
+
+
+
+                                                                                      whitepaper v1.0   13
+06                                                  WHY AUTONOMOUS ROBOTS?
+Over US$200 million
+invested in automated
+delivery startups globally
+The industry of autonomous delivery robots/
+devices is developing rapidly, in many cities
+around the globe, companies such as Airlift,
+Marble, Starship, Dispatch and many others
+are making it a reality. Currently the main
+operational focus is on sidewalks, which makes
+droids confined to the operational limitations
+of the sidewalk, keeping their speed limit to
+walking pace of pedestrians. Companies such
+Startship; over $40 million in investment           Marble working with Doordash
+as Starship managed to influence the passing
+of regulations allowing “Personal Delivery
+Devices” to operate in multiple US states.
+Overall, the autonomous delivery market has
+witnessed profound developments over the
+last 4 years, and regulative developments have
+been growing in USA and Europe, it’s just a
+matter of time for droids to be spreading all
+around urban streets, being a part of the traffic
+regulative structure of each country.
+Alibaba G Plus Autonomous vehicle                   Airlift Modular Delivery Droids
+
+
+
+
+                                                                           whitepaper v1.0   14
+07                                             GEEBA ECOSYSTEM MODEL
+To bind the needs of the industry,
+we approach the decentralization process
+of deliveries through leveraging blockchain,
+autonomous vehicles and smart hubs.
+Geeba’s blockchain ecosystem is structured
+and managed through focusing on the            AUTONOMY
+advancement of the three following aspects:    ECONOMY
+autonomy, economy, and technology.             TECHNOLOGY
+ADVANCING                                      ADVANCING                   ADVANCING
+AUTONOMY                                       ECONOMY                     TECHNOLOGY
+•  Aerial vehicles                             •  Cryptocurrency payment   •  Reship fleet
+management platform
+•  Ground robots                               •  Geeba Nest Market
+•  E-commerce platform
+•  Smart hubs                                  •  Transparent governance
+•  Application Programming
+Interface (API)
+
+
+
+
+                                                                                                                                            whitepaper v1.0   15
+07                                                      GEEBA BLOCKCHAIN ECOSYSTEM
+                                                                                     OUR OPERATIONAL MODEL
+We aim to work towards
+a fully decentralized                                   1                            Droids, drones, and hubs working seamlessly within
+                                                                                     the community in a neighbourhood near you.             1
+autonomous delivery
+and economy.                                            2                            Integrating just below the surface, the Software
+                                                                                     Applications layer enables the ecosystem to function
+It is our commitment to provide innovative                                           autonomously. Consisting of the shippers platform,
+automated delivery technologies that is                 ecommerce and SDKs.
+2
+fulfilling to customer’s needs, sustainable for
+the environment and efficient for businesses.           3                            Managed by Geeba, the Nest Market is a
+marketplace for supporters and shippers to invest and
+3
+The ecosystem will be built in accordance with                                       deploy operational droids to the surface layer.
+a scalable and decentralized approach that
+ensures stability and sustainability in the long        4                            The Community Governance layer is an operational       5
+term. It’ll involve the following components                                         component that manages the ecosystem’s activities—
+where the blockchain is at the base and the                                          powering the platform and streamlining the business
+consumer is at the top interacting directly with        operations.
+the autonomy components. The enablement
+layer contains both the community governance            5                            External secure data storage for Identity Services
+                                                                                                                                            6
+                                                                                                                                                              4
+and the Geeba Nest Market components. All                                            to store user activities and governing transactions
+integrated together through the application                                          between parties. Accessible with the combination of
+layer with the web platform, ecommerce and                                           public and private key.
+SDK toolkit.
+Smart Contract component that facilitates the           6
+automated and transparent delivery transaction
+between shippers, retailers and the community.
+7
+Last of all, the core technology that powers it all,    7
+the Geeba Blockchain. Delivery transactions and
+cryptocurrency payments completing the ecosystem.
+
+
+
+
+                                                                          whitepaper v1.0   16
+08                                                      HOW GEEBA WORKS
+SERVICE DELIVERY CHAIN
+Using the Geeba Ecosystem,
+CUSTOMER
+retailers and carriers connect
+Within the architecture
+with a network of shippers that
+lies three products to serve
+G-Sales
+are powered by autonomous                               eCommerce
+between the relationship of
+Platform
+vehicles to offer 24/7, express
+the stakeholders.
+and same-day delivery services
+RETAILER
+G-Sales (eCommerce Platform)
+through one shipping web
+Retailer & Customer
+An online store platform to allow retailers to easily
+interface or by API integrations.
+G-Ship
+setup their business online which integrates the
+Shipper
+Geeba delivery service.
+Platform
+G-Ship (Shipper Platform/API)
+Retailer & Shipper                                      SHIPPER
+On one end, G-Ship is drop shipment console for
+retailers to manage and deliver packages.
+                                                        G-Nest
+G-Nest (marketplace)
+                                                        Marketplace
+Manufacturer & Supporter
+A open marketplace to allow 3rd party manufacturers
+to sell droids, while allowing supporters to purchase
+droids and profit from deliveries made.                 MANUFACTURER
+
+
+
+
+                                                                            whitepaper v1.0   17
+09                                    COMPONENTS OVERVIEW
+AUTONOMOUS VEHICLES
+Modular fully autonomous vehicles
+developed with businesses needs and
+customer experience in mind.
+Inspired by the current delivery      to achieve situational awareness,
+systems available in the market,      thus it adjust its speed limits and
+delivery bikes and delivery           manoeuvre types according to
+scooters comprise the most            the operational environment.
+efficient means for last mile         The droids have droid-to-station
+delivery. A tricycle based            communication and peer-to-
+concept which utilizes the state      peer communication to achieve
+of the art technology in AI is        collaborative tasks with other
+being developed for Geeba.            delivery robots.
+The key behind developing
+an autonomous tricycle is to          With the support of aerial
+utilize bicycle lanes in cities yet   vehicles—multicopter
+enable it to work on car lanes        autonomous vehicle capable
+with speeds not exceeding             of flying long distances
+50km per hour. This allows two        while carrying medium sized
+tricycles to move next to one         packages—the range of local
+another on one car lane. With         deliveries  will be extended
+such capability, the droid can        substantially to suburbs and
+deliver packages faster than any      remote areas.
+other ground based system. The
+autonomy  of the droid allows it
+
+
+
+
+                                                                             whitepaper v1.0   18
+09                                                     COMPONENTS OVERVIEW
+SMART HUBS
+Sustainable and low cost
+design that is city friendly
+and extremely functional.
+Geeba utilizes available parking space in
+specific public and accessible location to station
+the Smart Hubs with variable sizes. The dual-
+purpose hub functions as storage space for
+parcels and a charging station for parked
+robots. It’s designed to automatically manage
+and store up to 40 standard size packages with
+option of landing pads for drone to load and
+unload packages. Each is designed on the
+thought of recycling used shipping containers
+within a standard car parking stall. The standard
+parallel stall size for on-street parking shall be a
+minimum 6m long by 2.5m wide.
+
+
+
+
+                                                                                                                                                                       whitepaper v1.0                                    19
+09                                                  COMPONENTS OVERVIEW
+G -SHIP SOLUTION                                                                                                     G -SALES SOLUTION
+Web Platform Interface                                                    Delivery App for Consumers
+The web interface for shippers and service                                The delivery app will provide a smooth     Developed from scratch, Geeba ecommerce           Lightweight: User behavior on websites is
+providers will run in a web browser without the                           order tracking and customer service        solution will complete the ecosystem by           totally affected by the time for the website
+requirement of local installation and allow to                            process for end-consumers. The delivery    creating demand for the delivery platform.        to load and be fully displayed on the screen.
+perform all actions: including order placement;                           app will allow end-consumers to interact   Businesses can list their products directly on    Geeba platform and development techniques
+scheduling; reviewing history and payments;                               with the delivery robots and will be       the platform or consumers can search for          are based on gaining a lightweight solution even
+registering; dispatching and managing fleets;                             published on Apple App Store and Android   products aggregated from multiple partner         with its fully loaded features to gain user’s
+setting delivery options and pricing policies.                            Play Store.                                sites and pay using Geeba Coin.                   satisfaction and keep them coming back to the
+For service providers, Geeba platform’s                                                                                                                                website.
+predictive tools, shippers will receive real-time                                                                    Smooth UI and UX: Alongside to an attractive
+completion estimates, allowing for immediate                                                                         GUI, internet users look for user friendly        Multiple Language Support: the Geeba
+error resolution and re-routing. It will also                                                                        interfaces that could get them what they’re       ecommerce and website is built with default
+provide estimated vehicle departure times                                                                            looking for without wasting any time. Geeba       languages, English and Arabic, with the option
+that assist with route planning and scheduling.                                                                      ecommerce mobile app and website interface        of integrating other languages for specific
+For shippers, Proof-of-delivery is critical                                                                          emphasizes on the ease of locating the required   sections or the complete solution.
+information to record, hence it’s embedded                                                                           data within the minimum amount of time to all
+within Geeba platform. Shippers receive                                                                              types of users.
+proof of delivery in two formats: 1- Consumer
+validates the smart contract through the
+delivery app where their QR-Code is scanned
+and information is confirmed to receive the
+package. 2- Consumers are prompted to sign
+on the touch screen of the autonomous vehicle
+making the delivery.
+
+
+
+
+                                                                             whitepaper v1.0                                           20
+09                                                    COMPONENTS OVERVIEW
+G -NEST MARKET                                        INTEGRATIONS SUPPORT
+AND 3 RD PARTY
+Geeba Nest is an open marketplace
+PROVIDERS
+allowing shippers and robot
+SUPPORTERS /
+manufacturers to list and sell their                  DISTRIBUTE
+                                                      BACKERS                Automated order entry is another essential
+vehicles, while allowing supporters to
+                                                                             component when operating an efficient delivery
+virtually own the robots.
+                                                                             operation at scale. The ability to integrate seamlessly
+                                                                             and reliably with shipper’s software is paramount.
+Supporters profit from each delivery
+                                                      BUY
+these vehicles make as long as they’re
+                                                                             The Geeba API is a modern RESTful web service
+connected to the network.
+for developers and integrations to programmatically
+interact with Geeba data and real-time delivery
+management and analytics functionality. With
+efficient integration efforts, interacting with our
+RESTful API can modernize your operation beyond
+GEEBA DELIVERY                                        OPERATE                PROFITS
+even the most established legacy players.
+All requests must be authenticated using one of
+shipper’s Public keys. The administrator can create
+and maintain Public keys through the “API &
+LIST
+Webhooks” tab in their dashboard settings.
+SHIPPER /
+DISTRIBUTE
+MANUFACTURER
+
+
+
+
+                                                                                                                                                  whitepaper v1.0                                 21
+10                                            GEEBA ECONOMY
+                                              PLATFORM GOVERNANCE
+                                              Facilitating service availability and quality     Wallets cap is defined as per the vehicle         where the demand is high, represented by
+                                              components (robots and hubs) are connected        life-time, once the cap is reached, the vehicle   the rapid Geeba coins transferred to vehicles
+                                              with the network and maintained via Geeba         must be recycled and a replacement vehicle        wallets, indicate to the network and shippers
+                                              coins in their wallets. Payments for deliveries   should be registered on the network by the        that more vehicles must be supplied to said
+                                              are made to the vehicle’s wallet directly.        owning shipper. Moreover, geographical areas      geographical area.
+Geeba Coin
+Geeba Coins are the primary payment
+currency for the delivery services and
+                                                                                                OPEN TENDERS FOR                                                                                  SCALE AS
+                                              SURVEY ZONE                                       DEPLOY HUBS                                       SERVICE ZONE
+community incentiviation.                                                                       HUB HOSTS                                                                                         PER DEMAND
+EXPANSION
+PROCESS
+IDENTIFY SUITABLE                             CONCURRENT OPEN                                   MARKETING                                         BUILD INVESTOR                                  DEPLOY DROIDS ,
+HUB LOCATIONS                                 INVESTMENT ROUND                                  CAMPAIGN                                          RELATIONS                                       DRONES , AND HUBS
+                                              FOR EXPANSION                                                                                                                                       ACCORDINGLY
+ENGAGE LOCAL
+PARTNERS
+Geeba Wallet Solution                         Community members can host the hubs               fees with Geeba. The hosting mechanism
+                                              in their accessible parking space or front        will be published on a dedicated dashboard
+During the registration, the system will
+                                              yard, allowing shippers vehicles to make          for community members to join as Geeba
+create a user profile and a wallet address.
+                                              deliveries in the neighborhood near them.         expands to new cities and neighborhoods.
+Each participant of the ecosystem can
+                                              Reward for hosting the hubs comes in from
+download the wallet that preserves all data
+                                              Proof of Delivery rewards or monthly rental
+in the decentralized database and interact
+with other parties. Moreover, customers
+use their mobile wallets to open package
+compartments and sign smart contracts
+to verify the proof of delivery.
+
+
+
+
+                                                                                                   whitepaper v1.0                                   22
+11                                               BLOCKCHAIN DEVELOPMENT
+STRUCTURE OF THE GEEBA PLATFORM                                                                                                                      BLOCKCHAIN AND
+                                                                                                                                                     DATA MANAGEMENT
+Core layer                                       Service and components layer                      Application layer
+In the core layer, all data collected during     The Service & Component Layer acts as a           This is where Geeba data is used to create        Geeba development approach takes two
+order placement will be uploaded and stored in   window that allows Geeba developers and third     various services. All sorts of apps will be       steps to create the blockchain network for
+an external distributed storage. This external   parties to access to the data in the Core Layer   operated here using the SDKs provided in the      data storage. In the first step, Ethereum
+distributed storage is a required for more       so they can create decentralized application      Service & Component Layer. Therefore, the         network will be used to store Geeba data
+storage space.                                   programs. Services in the Geeba Ecosystem         data collected by these apps will pass through    on the blockchain. But as Ethereum
+                                                 will be able to connect to the Geeba blockchain   the Service & Component Layer. The Geeba          has inherent limitations in transaction
+                                                 only through this Service & Component             team will make various services and help other    bandwidth (currently limited to a dozen
+                                                 Layer. When the Geeba blockchain network is       developers or services by providing SDK for       transactions per second), Geeba is
+                                                 ready after the release of the ecosystem, the     major languages. This SDK will be used by third   working in parallel towards developing an
+                                                 heavy weight on the blockchain, such as fast      party developers to access vehicle data and use   independent blockchain network enabling
+                                                 transaction and categorizing core data, will be   it to spur the growth of the Geeba Ecosystem.     up to thousands of transactions per second.
+                                                 soothed. Moreover, in this layer, API will be                                                       Geeba also operates an external data
+                                                 provided in the form of SDK so many services,                                                       storage for those that get in the way of the
+                                                 or DApps, can be developed on top of the                                                            blockchain efficiency. It uses distributed
+                                                 Geeba ecosystem.                                                                                    storage that is free of damage due to
+central server error.
+
+
+
+
+                                                                                           whitepaper v1.0                            23
+12                                               BENEFITS / COMMUNITY
+Flexible Service                                 Live Alerts                               Safer Roads
+24/7 availability and flexibility
+                                                 Timely and reliable tracking with smart   Improved road safety for pedestrians and
+                                                 notifications                             vehicles
+City Friendly                                    Lower Price                               Less Congestion
+                                                 Reduced costs of local delivery           Increased Public Transport Efficiency
+Access to greener and cost effective last mile
+alternative
+Easy Returns                                     Lower Emissions
+                                                 Resuced vehicles emissions and carbon
+Streamlined returns shipping process for
+                                                 pollution
+retailers and customers
+
+
+
+
+                                                                                                      whitepaper v1.0                                24
+12                                                 BENEFITS / RETAILERS
+Network of Couriers                                Increased Service Capacity                         Reduction in Price                             Shipment Visibility
+Connect with multiple service providers that       Enable faster deliveries and catering for          Offer lower fees for express and same day
+                                                                                                                                                     aggregate shipping statuses with standardized
+are powered by autonomous vehicles to offer        large numbers of customers with faster and         lastmile delivery via costs reductions while
+                                                                                                                                                     tracking across service providers. Perfect for
+off-hour, express, and same-day delivery           highly manoeuvrable autonomous vehicles .          using autonomous vehicles.
+                                                                                                                                                     enterprises
+services through one shipping API.
+Enhanced Sustainability                            Return Shipping                                    Minimising Delays                              Simple Integrations
+Usage of electric-powered autonomous               Geeba Streamline returns for your customers        Geeba avoids the delays by providing instant   Retailers can join the platform in simple easy
+vehicles will reduce toxic emissions, noise and    and your business.                                 exchange, review and approval of documents     steps to enable robots delivery.
+traffic contribution that is normally associated                                                      and payments between the parties involved in
+with traditional last-mile logistics methods.                                                         the Smart Contract.
+Trust and Security                                 Reducing Fraud                                     And more...
+Geeba relies on the public infrastructure of the   Geeba minimises the risk of fraud and in many      •  Customer Experience
+Ethereum blockchain, backed by thousands           cases completely eliminates it, by not releasing   •  Customer Rating
+of people in a peer-to-peer decentralised          any payments until all parties’ pre-set            •  Proof of Delivery
+infrastructure.                                    conditions are fully met.                          •  Routes & Optimization
+•  Smart Tracking
+
+
+
+
+                                                                                                    whitepaper v1.0                              25
+12                                               BENEFITS / SHIPPERS
+High Demand                                      Easy Integrations                                  Smart Tracking                               Proof of Delivery
+Geeba, aggregates demand from trusted            Autonomous vehicle providers can register as       Realtime tracking of fleets for optimal      Making it a standard for customers to sign for
+shippers with streamlined, tested operations     shippers to join the community and list their      operational visibility                       proof of delivery
+                                                 vehicles.
+Safe Archiving                                   Trust and Security                                 Securing Information                         Minimising Delays
+Geeba, not just relies but fully allows for      Geeba relies on the public infrastructure of the   Geeba is naturally secured as it relies on   Geeba avoids the delays by providing instant
+full historic storage of all transactions ever   Ethereum blockchain, backed by thousands of        the blockchain’s proven hashing algorithm    exchange, review and approval of documents
+conducted, avoiding risks of physical loss or    people in a peer-to-peer decentralised             technology without the possibility of        and payments between the parties involved in
+destruction of paper documents                   infrastructure.                                    information leakage.                         the Smart Contract
+
+
+
+
+                                                                                                                               whitepaper v1.0                                              26
+13                                                               ENABLING THE PLATFORM
+PHASE 1                                                          PHASE 2                                                       PHASE 3
+Deployment of local ecommerce delivery service powered by        Deployment of highly autonomous vehicles and ecommerce        Opening the platform for shippers to register their
+Geeba semi autonomous vehicles and smart hubs:                   platform:                                                     autonomous vehicles and smart hubs:
+Robotic fleet remotely controlled based at Geeba                 Highly autonomous fleet of aerial and ground vehicles         Compliant shippers register their vehicles on the platform
+decentralized hubs for a leaner entry strategy, robots collect   based at Geeba decentralized hubs with less dependency        to acquire demand from retailers
+data from the environment using all on board sensors.            on human operators. Geeba operators remain necessary for
+                                                                                                                               Launching Geeba ecommerce platform for micro, small
+This data will be used to refine learning-based models and       intervention in extreme cases and safety measures
+                                                                                                                               and medium businesses
+optimize the autonomy technology on the long term
+                                                                 Hubs hosting scales with partnerships with commercial
+                                                                                                                               Scaling operations beyond the Netherlands
+Managing delivery inbound from retailers to hubs with            entities such as hotels, shopping malls that are located in
+in-house fleet of electric vans and local partners               the desired location as per Geeba analysis
+Delivery windows as little as 30 minutes
+Hubs are hosted by community members in carefully                Serving initial area of 40 km2 in the Netherlands
+selected public spaces
+                                                                 Delivering for carriers and ecommerce businesses
+Serving initial area of 40 km2 in Rotterdam and the city
+                                                                 Delivery windows as little as 1-hour
+of Delft
+Delivering for ecommerce businesses
+Delivery windows as little as 1-hour
+
+
+
+
+                                                                                                      whitepaper v1.0                                 27
+13                                                 ENABLING THE PLATFORM
+OPERATIONAL MODEL AND PROCESSES                    SHIPPER-SERVICE                                    PAYMENT PROCESS
+                                                   PROVIDER STEPS
+Geeba will provide a automated local delivery
+                                                   1. Order Placement:                                1. C ustomer pays for the product and service
+                                                   a. Shippers place orders with web platform.        fee on the retailer/merchant platform
+service consisting of express, same day or
+b.  Or; orders placed through the APIs and
+2.  Retailer pays for the service fee using
+scheduled orders for small and medium size
+integrations on Merchants websites,
+Geeba  coin from their Geeba wallet to
+packages to destinations inside the Netherlands
+the vehicle’s wallet
+2.  Orders are transferred to Geeba blockchain,
+powered by proprietary software and hardware.      smart contract data include locations, value
+                                                   3.  Payment accepted with GEEBA, BTC, ETH
+                                                   and timing.
+                                                   and Credit Card to Crypto with specific fees
+                                                   3.  Orders now on Blockchain are scheduled
+                                                   4.  Geeba transaction fee is deducted from
+During Phase one of the strategy, the inter-
+for dispatch and will be sent to the nearest
+the payment before it reaches the shipper’s
+urban last-mile delivery service will be enabled   delivery device when delivery time is due.
+vehicle wallet
+through autonomous vehicles which consists of a    4.  Droids get exact customer location and basic
+SERVICE PROVIDER
+info as per placed orders.
+fleet of autonomous ground and aerial robots.
+REGISTRATION
+5.  Consumer/Receiver scan the package
+to verify the transaction which acts as a          1. Service Provider input vehicle specification:
+verification for the proof of delivery.            a. Functionality
+                                                   b. Capacity
+6.  Both merchant and the customer can track
+                                                   c. Location
+the delivery as its being made.
+                                                   d. Life time
+2. Service Provider input cost or service price
+3. Geeba Audit
+4. Compliance Check
+5. Vehicle Live on Geeba network
+
+
+
+
+                                                                                                                                                                                              whitepaper v1.0   28
+13                                                ENABLING THE PLATFORM
+REGULATIONS AND COMPLIANCE                                                                                                                                MONETIZING THE PLATFORM
+Vehicles Security and Safety                                              Regulations
+                                                                                                                             Revenue Streams:
+The droids are equipped with different                                    Geeba is working with regulators in the
+technologies to ensure the security and                                   Netherlands and other geographies to design
+                                                                                                                             •                            Direct service delivery fees from
+safety of the delivered packages. Through the                             the compliance scheme, mainly the RDW and
+droid-to-station communication, real time                                 Directorate-General for Mobility and Transport     Geeba  owned fleet
+tracking of each package can be achieved.                                 -Ministry of Infrastructure. The compliance
+Additionally, each package inside the droid can                           shall consider the current laws and regulation,
+                                                                                                                             •                            Proof of Delivery through smart
+only be accessed using a security code which is                           a set of regulatory steps that facilitates
+available only to the end user. The droid body                            deployment of autonomous vehicle delivery          contracts transaction fees
+has a rugged design, thus breaking into the                               services to the local market with safety, user
+content of the droid requires the use of tools.                           experience and commercial feasibility are
+                                                                                                                             •                            Geeba ecommerce sales commission
+In such case, the cameras on the droid can be                             in mind. The guidelines translate to include
+used to identify and record any attempt to                                vehicles engineering; communication, testing,
+steal the packages in the droid and the footage                           safety and security measures. It’ll also include   •                            Geeba Nest sales commissions
+can be used for legal action.                                             insurance guidelines, operational domains and
+                                                                          other customer experiences aspects.
+                                                                                                                             •                            Geeba Smart Hubs rental to third-
+                                                                                                                             party shippers
+
+
+
+
+                                                                            whitepaper v1.0   29
+14                                                  VISION FOR THE FUTURE
+Geeba envisions a future
+where autonomous
+vehicles including drones
+will deliver close to 100%
+of X2C and 80% of all
+items.
+Only ~ 2% will be delivered by bike couriers
+in the relatively small instant delivery
+segment. Traditional delivery will account for
+the remaining ~ 20% of all items: big B2B
+customers with high drop factors (i.e., the
+number of parcels dropped per stop/ recipient)
+and often special delivery requirements (e.g.,
+hanging goods) will favor mostly human
+delivery as we know it today. The same is true
+for e-grocery delivery, as people will still want
+crates to be carried up to their apartments and
+returns to be handled directly.
+
+
+
+
+                                                                                                          whitepaper v1.0                                       30
+15                                                   VISION FOR THE COMMUNITY
+RETAILERS                                            SHIPPERS                                             TECH ENTHUSIASTS & INTERNS
+Acting as advocates for consumer best interests,     Representatives of autonomous vehicles providers     Geeba believe that technology’s only objective
+retailers represent a critical component of the      form the Geeba alliance to work together on issues   is to empower communities. Hence, a dedicated
+community. Geeba plans to engage with retailers in   of access to market, insurance, legislation and      share of the ICO contributions will be utilized for
+every geography to further understand their needs    others.                                              community and human development. Primarily,
+and ensure quality value delivered to them.                                                               programs to train and inspire young technology
+enthusiasts to engage more with the industry.
+
+
+
+
+                                                                                                            whitepaper v1.0                           31
+16                                                 ROADMAP
+                                                   2018                                          2019       2020
+January                                            Joint Venture between Airlift BV              Q1         Token listed on exchanges                 Q1          Invite shippers and service providers
+                                                                                                 Trial                                                Expansion
+and N-Gon LLC                                                                                                                                                     to Geeba Ecosystem in the Netherlands
+                                                                                                            Launch of the G-Ship Web Platform v2
+                                                                                                            for Pilot phase with SDK, API,
+                                                                                                                                                                  Growth and Expansion
+and Route Optimization
+Q2                                                 Public Road Testing with Pilot Retailers in
+Pilot
+the City of Delft and Rotterdam, the Netherlands
+Launch of Geeba Blockchain for Delivery,
+Mainnet, Coin and Wallet
+Q3                                                 Launch of Initial Coin Offering               Q3         Release of Geeba Ecommerce platform
+ICO                                                                                              Pre Sale
+Q4                                                 Controlled Testing of Delivery Robots         Q4         Installation of Smart Hubs in Rotterdam
+Trial                                                                                            Scale
+in the City of Delft.                                                                                       and neighboring communities.
+Release of G-Ship Web Platform v1
+with real-time Tracking and order placement
+Release of G-Nest Marketplace
+End of ICO
+
+
+
+
+                                                                                           whitepaper v1.0                                    32
+17                                               GEEBA INITIAL COIN OFFERING (ICO)
+THE ROLE OF GEEBA IN THE ICO
+Geeba Ecosystem, incorporated as a               To become an eco-system participant,
+Geeba token creation and the token launch to
+BV company (“Geeba”), is the official            the user creates an account on the
+fund development and expansion.
+entity that creates the Geeba tokens,            Geeba mobile and web app. During
+                                                                                           Listing of the Geeba token on cryptographic
+platform and technology. Geeba is                the registration, the system will
+                                                                                           token exchanges, giving an opportunity to
+focused on releasing open source                 create a user profile and a wallet.       openly purchase them.
+cryptographic technologies that                  The wallet will preserve all data in
+                                                                                           Establishment of a decentralized, fair and
+                                                                                           secure model for order execution
+operates the Geeba ecosystem.                    the decentralized database which
+                                                 interacts with other parties, utilizing   Development of smart contracts to run the
+order payment and fulfillment process
+For the avoidance of doubt, the                  smart contracts.
+Release of the web interfaces for shippers and
+Geeba tokens do not provide token
+delivery service providers, driver app for
+holders with any ownership or other              Geeba will actively plan to have it’s     delivery service providers workers/couriers and
+the ecommerce website and app
+interest in Geeba.                               token listed on cryptographic token
+                                                                                           Creation of an effective incentive model for all
+                                                 exchanges, giving an opportunity
+                                                                                           parties to join the Geeba ecosystem
+Token holders are not entitled to                to openly buy them (to residents
+                                                                                           Develop the governance with members of the
+any guaranteed form of dividends,                of countries where the purchase of        community and regulators
+revenue distributions, and voting                digital tokens does not violate local     Development of active marketing campaigns to
+ignite initial traction
+rights.                                          laws)*.
+Elaboration of the ecosystem’s regulatory
+aspects
+* Countries include USA, China, and Iran
+
+
+
+
+                                                                                                                                                                                                whitepaper v1.0           33
+18                                                                                   FINANCIAL MANAGEMENT
+STRUCTURE                                                                            TOKEN SALE SUMMARY
+                                                                                     Private Sale Start Date                                                         Pre-Sale Start Date        ICO Public Sale
+After the ICO period,
+all contributors will                                                                11:00a.m. (GMT)                                                                 11:00a.m. (GMT)            Quarter 4 2018
+receive an ERC20                                                                     August 5, 2018                                                                  September 1, 2018
+exchangeable Geeba                                                                   to August 12, 2018                                                              to September 15, 2018
+tokens on the
+                                                                                     Private Sale                                                                    Soft Cap                   Hard Cap
+Ethereum network.
+                                                                                     US$800,000                                                                      US$3.2 million             US$28 million
+                                                                                     Payment Methods                                                                 Total Token Supply (Max)   Minimum Purchase Amount
+                                                                                     ETH, BCH, BTC,                                                                  400 million Tokens         1,000 Tokens
+Wire Transfer
+Token Exchange Rate                                                                  Terms and Conditions
+•  The exact number of tokens generated depends on the amount of funds contributed
+1 Token = US$0.10
+•  No token creation, minting or mining after the end of the ICO period
+Other Requirements
+•  Tokens will be transferable once the ICO is completed
+Know Your Customer                                                                   •  If the soft cap is not reached, funds will be returned to the participants
+(KYC)                                                                                •  Upon reaching the hard cap, the ICO will end immediately
+Whitelist Availability
+Private Sale Only
+
+
+
+
+                                                                                                                              whitepaper v1.0   34
+18                                       FINANCIAL MANAGEMENT
+TOKEN DISTRIBUTION                                                                              BONUSES
+                                         The token distribution is proportional to the number   Bonus tokens will be
+of Geeba tokens generated.                                                                      staggered and distributed
+                                                                                                over the course of the ICO.
+                                                                                                PHASE                         BONUS
+                                                                                                Private Sale                  35%
+ICO Participants
+70%
+                                                                                                Pre-Sale                      25%
+                                                                                                Phase 1: 14 days              20%
+Bounty                                   Bonus & Affiliates
+2%                                       13%
+                                                                                                Phase 2: 14 days              15%
+Team*
+Advisors
+10%
+5%
+                                         Phase 3: 14 days                                       10%
+* Team tokens are locked for 12 months
+                                         Phase 4: 14 days                                       5%
+
+
+
+
+                                                                                                                                                             whitepaper v1.0                                     35
+18                                                     FINANCIAL MANAGEMENT
+FUNDS USAGE
+                                                                                                             Engineering and Production costs cover          Marketing & Sales budget will be allocated
+                                                       The funds raised during the ICO are planned to be
+                                                                                                             all R&D expenses, including design and          on acquisition of both manufacturers and
+                                                       used in accordance with the roadmap (pg 31).          development of smart contracts, cryptographic   consumers.
+                                                                                                             mechanisms, the Geeba platform, apps and
+                                                       The roadmap assumes the development of all features
+                                                                                                             interfaces, SDK, etc. Includes the production   Legal costs include all legal expenses associated
+                                                       for the Geeba platform and feature-rich apps and      and purchase of approximately 100 vehicles      with expansion of the Geeba ecosystem in
+                                                                                                             and hubs.                                       different countries.
+interfaces for all ecosystem participants, including
+strong sales and marketing support to accelerate       Admin & Operations costs include salaries of
+                                                       all Geeba employees excluding the R&D team.
+adoption by manufacturers and consumers.
+Legal                                                  Community Development and SCR
+                                                       3%
+2%
+Admin and Operations
+14%
+Engineering and Production
+60%
+Marketing and Sales
+21%
+
+
+
+
+                                                                                                  whitepaper v1.0                                  36
+19                                               FOUNDERS EXPERIENCE
+Ahmed Mohamedali                                 Amr Abdelhady                                    Nebras Ozzo                                      Ezz Eldien Ali
+Chief Executive                                  Managing Director                                Head of Engineering                              Head of Commercialization
+Officer (CEO)
+Ahmed is a serial entrepreneur. During his       Abdelhady is one of Qatar’s lead crypto,         Leading the charge towards producing the         Ezz is one of MENA e-Commerce pioneers,
+university days, he founded his first tech       blockchain and tech gurus having built several   Geeba autonomous prototype today, Ozzo           being a part of the founding team members
+venture specialized in hardware products         successful business frameworks that have         is a computer engineering specialist with        of MENA most successful e-Commerce
+design. He then founded other successful         processed over 250 million QAR annual            experience in robotics design and development,   platforms working for Rocket Internet as their
+companies, including Airlift being its CEO. In   turnover. Currently, he is a partner and CEO     worked in drone stabilization systems, ultra-    first MD in Egypt. Founder of Jumia.com /
+addition to Magaza, which he made the largest    at N-Gon, a leading drones and artificial        precision autopilot development, 3D dynamic      Namshi.com…etc., e-commerce project that
+SME’s online incubator in Qatar onboarding       intelligence company. Abdelhady is the lead      Lidars and SLAM technologies for UGVs in         invoiced over US$1 billion annual turnover,
+Qatar Development Bank (QDB) as a strategic      architect behind Geeba crypto and Blockchain     Germany, Qatar, Latvia and Egypt.                Ezz knows how to start and scale e-commerce
+partner. He also works as a business             frameworks. He holds a Bachelor’s degree in                                                       related projects. He has also participated in
+entrepreneur and is a member of angel            Business Administration, Management and                                                           Mizado, Zidaya and Nedina. Further, he runs
+ventures providing support services to help      Operations from University of Warsaw.                                                             some Qatari startups out of Doha, having
+entrepreneurs and companies who either have                                                       managed and invested in several digital
+an idea to start a business or want to grow an                                                    startups.
+existing business.
+
+
+
+
+                                                                                                     whitepaper v1.0                                     37
+19                                                FOUNDERS EXPERIENCE
+Webster Tai                                                                                          Munera Al Dosari                                    Dr. David Meszaros                               Anis Touibi
+Head of Innovation                                                                                   Head of Strategy                                    Head of Legal                                    Head of Software
+                                                                                                                                                                                                          Development
+Hands-on creative entrepreneur from               Munera is the Chief Strategist Officer at the      Dr. Meszaros is our Blockchain Legal Master,        At a very early age Anis developed an IDE-
+Singapore, Webster is a specialist in the field   MENA leading GSM provider Ooredoo, as one          with seemingly nebulous and quickly expanding       software for web designers. Leading a team of
+of innovation design and user experience. As a    of Qatar’s top Entrepreneurs she is the co-        world of Blockchain technology, ICOs,               15 software developers, UI and UX specialists,
+former designer at IDEO, Webster has been         founder of Magaza and of Airlift systems. She      and cryptocurrency at large comes with a            he founded Astrolab in 2015 working with
+on board numerous design teams, working           is a multipotintialite who thrives in different    labyrinthine assortment of potential legal          teams in France, Switzerland, Tunisia, Germany
+across a broad range of clients including         disciplines in life. Gained vast experience from   questions. When it comes to all matters that        and Qatar. Furthermore, he has helped lay the
+Google, Shell, Intercontinental Hotels Group,     Qatar, leading Corporates such as Ooredoo          arise at the intersection of Blockchain and         technical foundation for what is today Qatar’s
+and Changi Airport Group. With a Masters          working in various occupations and her key         law, as a dually trained legal professional and a   biggest Tech Hubs.
+degree in Experience Design, and an MBA, he       areas of strength are business planning,           doctor of law, he provides services as an
+is armed with both a design and commercial        strategies creation, financial control and         international lawyer, business consultant and
+lens to tackle complex business models,           telecom engineering. She is the Winner of the      Blockchain enthusiast.
+simplifying them into well crafted narratives     talent of the year award from the Arab Women
+and comprehensive commercial viability.           Awards in 2014.
+
+
+
+
+                                                                                                   whitepaper v1.0                                  38
+19                                                 FOUNDERS EXPERIENCE
+Musab AlMozien                                     Marcin Richter                                  Alaeldien AbouHamda                              Bram Beugels
+Mechanical Engineer                                Lead Blockchain Developer                       Product Manager                                  Industrial Designer
+Musab is a talented innovator and engineer who     Marcin is a Blockchain Enthusiast and a Full    An advanced Product-specialist by nature,        Graduate from Windesheim University
+designs, prototypes and manufactures robotics      Stack Web Developer, he is a Product-oriented   starting from Qatar, Alaeldien helped            of Applied Sciences with great passion for
+solutions and M2M products that satisfy the        software engineer, always hands-on technical    entrepreneurs and inventors among the            industrial design and user experience.
+need of local and global market. He is leading     leader. Having managed several Tech projects    community to realize innovative ideas into
+the product mechanical development with our        across Paris, Berlin, Warsaw and London.        products, and is making market decisions
+task force of engineers. He holds a Bachelor       Marcin holds a Master’s Degree in               concerning those new products.                   Ahmed Mahgoub
+degree of (hons. BSc) in Mechanical                International Business FROM SGH Warsaw                                                           Robotics Engineer
+Engineering.                                       School of Economics.
+Ahmed is an aerospace engineer holding a
+Masters Degree in Aeronautical Engineering
+from Politencnico do Milano with passion for
+drones and robotics.
+20                                                 BOARD OF ADVISORS
+Mohamed Gabr                                       Fatima Al Kuwari                                Dr Ehab Awad                                     Paul Andrus
+Operations and Management                          Chief Commercial Officer,                       Investment Strategy Advisor,                     CEO, Prairie Innovators
+Advisor, Deputy GM                                 Ooredoo Group                                   CEO Concept Investment
+Accomplished engineer with more than 15            Telco expert with over 12 years of experience   Multi-talented business maverick with over       Inventor, international electronics product
+years of qualitative experience in construction.   in marketing, product development, life-cycle   5 years experience in cryptocurrency             award winner, IP strategy expert, technology
+                                                   management, vendor-relationship management      investment and trading.                          business consultant.
+Charles Nolan
+                                                   and brand & communication.
+VP IT Strategy Governance
+                                                                                                   Sheikh Khalid bin Nasser Al-Thani Shk
+Innovation, Qatar Airways
+                                                                                                   Member of Qatar Ruling Family,
+                                                                                                   Assistant CEO - Insurance, Qatar General Group
+Technology and strategy specialist, expert in
+complex solution architecture.
+
+
+
+
+                                                                                                        whitepaper v1.0                                39
+21                                                 PARTNERS AND SUPPORTERS
+QATAR SCIENCE & TECHNOLOGY PARK                    QATAR UNIVERSITY,
+                                                   COLLEGE OF ENGINEERING
+Is a member of Qatar Foundation, acting as
+a technology hub, home to business from            College of engineering and department of
+around the world and an open ecosystem for         mechanical engineering provide access for
+innovation and entrepreneurship. QSTP is           Airlift to fully utilize all department facilities
+supporting Airlift with access for testing space   and manufacturing workshops.
+and funding.
+GEEBA IN THE PRESS                                 22
+THE BLOCK                                          SILICON CANALS                                       AD                                             INNOVATION QUARTER
+Geeba wants to disrupt local deliveries with       This Dutch startup uses blockchains, drones          Drones bezorgen straks jouw pakjes: Qatarese   Autonomous delivery vehicles on pavements
+blockchain, droids and drones                      and droids to transport and deliver packages         bedrijven willen pilot in Rotterdam            and in the air: these two companies from Qatar
+chose Rotterdam to make their innovation
+happen
+
+
+
+
+ACT TODAY, CHANGE TOMORROW
+WE INVITE YOU TO
+HELP US BRING A
+SMILE TO DELIVERY
+
+
+
+
+Geeba Technologies B.V.
+Cambridge Innovation Center
+3013 AK Rotterdam, The
+Al Ezz Tower 4 Asalata, D
+E: hello@geeba.io
+W: www.geeba.io
+
+
+
+
+

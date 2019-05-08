@@ -1,0 +1,2499 @@
+﻿BLOCKCHAIN FOR
+BETTER DECISIONS
+A global & transparent
+blockchain-based
+data exchange
+Whitepaper v1.02
+Updated: November 19, 2018
+
+
+
+
+Executive Summary
+Today society produces a huge amount of data each and everyday. In 2016, we generated
+16.1 zettabytes of data and that number is expected to grow ten-fold by 2025.   Data is now a
+vital element of all aspects of our daily lives.   The growth of real-time data is enabling better
+data driven decisions in many socially impactful sectors such as: health, education, public
+transportation, technology, and urban planning. Data is addressing a range of societal issues
+and creating a more prosperous, safer, and healthier future for the next generations.
+However, only a small fraction of data is analyzed. Many organizations have collected vast
+amounts of data just to let it sit dormant in silos. Furthermore, users who have access to the
+internet are losing the value of their own data to few centralized platforms. Those who are
+digitally excluded, while also generating data everyday, are always at a loss since very little
+of their data is captured with the intention of benefitting their lives. The year is 2018, and yet,
+everyday we lose so much valuable data that could improve productivity and benefit to many.
+The arrival of artificial intelligence (AI) and blockchain technology is improving data accessibility
+by removing endless layers of friction. The Dattabot team as a leading big data company in
+Indonesia has been successful in providing access to data and bringing valuable insights across
+industries. Now, a combination of AI and blockchain is unleashing the next phase of our mission:
+to democratize data for the world›s most socially impactful sectors. Starting with the food sector,
+Dattabot, as the parent company, is developing HARA into a decentralized data exchange.
+This ecosystem brings data symmetry to all players and incentivizes participants to continuously
+partake in a virtuous cycle. All proceeds raised from the Initial Token Sale (ITS) is used by HARA to
+continue building the platform, expand its ecosystem, and fund its incentive mechanisms. HARA
+aims to help people, especially those who are at the bottom of the wealth pyramid, to make
+better decisions and improve their livelihood.
+The value of data comes from its accuracy. The moment new data enters the system, data
+qualifiers are incentivized to validate the data which acts as a crowd-sourced indicator of its
+quality. Overtime, this will help improve the overall robustness of the data and help generate
+healthy, ongoing demand. Furthermore, data also becomes more valuable when it is processed,
+so HARA also provides an ‘enriched data’ category that allows data buyers to resubmit data
+that has been analyzed and rendered useful - all the while sharing proceeds with the original
+data provider(s). The platform will be automated by the smart contracts on HARA’s blockchain
+and different methods of data submissions, including: the HARA suite of mobile apps, Internet of
+Things (IoT) devices, satellites data, imagery and more. Since Dattabot has been in the media
+and big data business for years, it already has relationships with businesses in all sectors, financial
+institutions, scientists, governments, NGOs, and educators who are ready, willing, and able to
+afford access to this rare and crucial data. HARA data exchange already has critical use cases
+that are needed to be solved today.
+
+
+
+
+Executive Summary
+Before the democratization of data, different silos of data sets were not linked together and
+were controlled by separate central institutions. Therefore, these use cases below will be difficult
+to realize without HARA’s decentralized data exchange. Some of the immediate benefits that
+players will see:
+yy                                                                                                         Financial institutions can now access new segments to provide low-cost banking services
+yy                                                                                                         Insurance companies can now provide products that leverage better climate forecasts and
+soil information
+yy                                                                                                         Green energy companies can use enriched data to further innovate in renewable local
+energy production
+yy                                                                                                         Data companies can build sophisticated credit scoring models for untapped segments
+yy                                                                                                         FMCG companies or retailers can provide customers with traceability information
+yy                                                                                                         Certification agencies can receive information to certify and monitor real-time certification
+requirements
+yy                                                                                                         Marketplaces can now be more efficient and competitive by providing price transparency to
+all players
+yy                                                                                                         Biotech firms can accelerate the evolution in microbiology supporting effective substitutes for
+chemical and otherwise toxic farm inputs
+yy                                                                                                         Smallholders and family farmers now have agronomical data, online-advice and market
+information, such prices and off take-volumes of products and farm inputs on a micro-market
+level in a timely fashion
+Data empowers billions and levels the playing field for everyone. With a traceable and transparent
+data exchange, we do not have to lose any more valuable data and players of all sizes will have
+access to the data we generate collectively every day. Beginning with the food sector, HARA will
+touch up to 1 billion people in the planet and work its way up to the value chains of health, education,
+mobility, and recreation sectors.
+Starting with one byte at a time.
+
+
+
+
+Contents
+1. Company Background               1
+2. Problems                         5
+3. HARA - The Equality Solution     7
+Mission                             7
+Our Products                        7
+Revenue Model                       8
+4. Total Addressable Market (TAM)   9
+5. Demand for Data                  15
+6. HARA Ecosystem                   21
+7. Use Cases                        23
+8. HARA Platform                    29
+9. Roadmap                          34
+10. Team                            35
+Our Advisors                        40
+11. Token Sale                      45
+Fact Sheet                          45
+Token Allocation                    45
+Use of Funds                        46
+12. Our Partnerships                47
+13. Token Flow                      49
+14. Concluding Remarks              50
+15. Important Notices               51
+16. Risk Factors                    53
+
+
+
+
+Company
+1                                                                                                       Background
+Established in 2003 as Mediatrac, Dattabot’s origins were “big data” and content acquisition from
+online and offline sources. Our company amassed an immense volume of data in its linguistic
+database and through AI applications, enabled computers to understand, digitize and curate
+Indonesian-language-content from all media sources. From this platform, we aided business customers
+with data-driven consulting services, geo-demographic data, and media monitoring services.
+In 2016, the company rebranded itself as Dattabot. Still a leader in big data analytics, we have
+extended our services portfolio to include systems integration, industrial internet, and our Big
+Data Dojo. Our technology platform now encompasses leading edge proprietary AI software
+applications, IoT integrations and further advancements in big data to deliver groundbreaking
+solutions for big problems.
+Below is a glimpse of accomplishments that characterize our journey:
+y  Dattabot is the leading company in big data analytics, territory management, supply-chain
+optimization, document digitalization, text analytics, consumer profiling and marketing analytics
+y  Created the first Indonesia’s contextual legal taxonomy
+y  First start-up company in the world to establish a partnership with GE Digital to serve industrial
+internet market on a big data industry
+y  The only start-up to be invited and speak at an internal World Bank Group retreat in Kuala
+Lumpur, Malaysia in March 2018 with a focus on technology disruption in social impact sectors
+We realize that data equals power, but we are not the only one to realize it. More and more
+private firms now focus their attention on data mining. They collect, analyze, and sell personal
+data to corporations, marketers, governments and even political parties. This data gives them
+an informational advantage that not only provides limitless strategies to beat their competitors
+but also leads to the misuse and abuse of data. While these private firms are generating massive
+profits, their users, do not receive any benefits from it and in many cases do not even have
+access to their own data. At Dattabot, we believe in data democratization. Not only should all
+users have access to the data, but they should also be rewarded for the data they provide.
+page 1
+
+
+
+
+Company
+1                                                                                                       Background
+IMPACT
+The ability to think and
+act upon knowledge and
+experience, in a way to
+WISDOM                                                                                                  effect change.
+Understanding of a
+human rights issue gained
+from studying information
+about it.
+KNOWLEDGE
+Data, that is selected,
+organised and presented
+in a way that is useful for a
+human rights purpose.
+INFORMATION
+Raw facts. Unorganised.
+Uncurated
+DATA
+The more data we have, the more problems we solve. If we could increase access to data,
+we could develop innovative solutions to innumerable problems and to identify limitless
+opportunities. With data democratization in mind, we believe we owe our data to society and
+to the individuals who continuously contribute, byte by byte. Building a technology platform that
+could ensure economic and informational equality to all users in the data ecosystem is our way
+to give back to society, particularly those who are at the bottom of the wealth pyramid: the
+largest yet the poorest and the most digitally excluded socio-economic group.
+Coming from Indonesia, we understand the economic and informational inequalities suffered
+by those living in the digitally excluded world. Dattabot is focused on solving large societal
+problems. We want to accomplish this mission by developing HARA’s decentralized data
+exchange and ecosystem which will support better data-driven decisions for data buyers and
+incentivize data providers to share their data. It is our dream to create a virtuous cycle that could
+help all users to fully embrace the opportunities in this new era of data age.
+page 2
+
+
+
+
+Company
+1                                                                                             Background
+Through our experience in the big data industry, HARA is well positioned as we already have
+a wide and diverse network of data providers, data buyers, and value-added services. Our
+technological assets, custom-built solutions, network of clients and partners, community
+relationships and proactive engagement with NGOs/government bodies makes HARA a perfect
+complementary initiative for Dattabot. Below are the channels through which Dattabot will
+support the growth of HARA:
+DATTABOT                                                                                      DATTABOT
+Data Library                                                                                  Partnerships
+3 million plus                                                                                ++1,000 indices
+POINTS OF INTEREST                                                                            CONSUMER
+                                                                                              GOODS
+1000 variables                                                                                150 million plus
+GEO DEMOGRAPHIC                                                                               CONSUMER
+DATA                                                                                          DATA               FMCG                  TELECOM
+                                                                                                                 40 million            15 million
+34 provinces                                                                                  16 YEARS OF        customers             subscribers
+512 districts                                                                                 WEATHER DATA
+6942 sub districts
+                                                                                                                 BANK                  DIGITAL MEDIA
+78265 villages                                                                                STREET
+generating
+GEO SPATIAL                                                                                   ADDRESSES          14 million
+                                                                                                                 26 million traffic
+POLYGONS                                                                                      LINGUISTIC DATA    customers
+                                                                                              HARA
+                                                                                              Platform
+DATTABOT                                                                                                         DATTABOT
+Technology Assets                                                                                                Community Ecosystem
+                                                                                              Industrial
+Agriculture
+                                                                                              internet
+Territory                                                                                     Marketing
+Management                                                                                    Analytics
+Digital                                                                                       Big Data
+Media
+Supply chain                                                                                  A.I.
+                                                                                                                 Blockchain            Universities
+Optimization
+                                                                                                                                       page 3
+
+
+
+
+Company
+1                                                                                                     Background
+yy                                                                                                    Our data library contributes its rich datasets to HARA. It supports HARA data exchange
+                                                                                                      platform as a data provider, below are what we currently have:
+yy                                                                                                    3,000,000 ++ Point-of-Interest data covering traditional markets, hyper and mini markets,
+education institutions, and business institutions.
+yy                                                                                                    150,000,000 ++ Consumer data and 1000 variables of consumer goods
+yy   Geo-demographic data consist of socioeconomic information and geo-spatial data
+with detailed polygons for Indonesian region covering 34 provinces (512 districts, 6,942
+subdistricts, and 78,265 villages).
+yy                                                                                                    16 years of weather data
+yy   Linguistic data including 35 million formal media articles, 98,000,000 ++ social media
+conversations and 4,500 ++ e-books.
+yy   Street addresses
+yy                                                                                                    Our existing partnerships with a diverse network of clients and partners across business
+sectors connect HARA with potential data buyers, such as:
+yy   The only authorized channel partner of GE Digital in Indonesia
+yy   FMCGs with 40 million customers
+yy   Banks with 14 million registered customers
+yy   Telecommunication companies with 15 million subscribers
+yy   Media partnerships that generate 26 million traffic
+yy   The World Bank
+yy   Local government bodies
+yy   NGOs
+yy                                                                                                    With our on-board technology assets, we perform the function as value-added service
+provider that maximizes data potentials in the HARA platform. Our assets include:
+yy   Big data solution for 360-degree customer profiling
+yy   Deploying Industrial Internet-of-things (IoT) solutions on GE Predix platform
+yy   Territory management for effective routing of sales and distribution
+yy   Supply-chain optimization
+yy   Marketing analytics solution catering to digital marketing strategy and implementation
+for FMCGs
+yy   Search and recommendation engine for digital media platforms
+yy   Artificial intelligence, text analytics and precision agriculture capabilities
+yy                                                                                                    Our close relationships with the relevant communities also support HARA in empowering the
+ecosystem by expanding access to value-added services. Our past activities include:
+yy   Partnering with universities and other institutions such as World Bank’s Pulse Lab in research
+and development activities.
+yy   Founding member of big data associations and IoT forums in Indonesia.
+yy   Conducting regular knowledge-sharing and meet-up sessions for blockchain enthusiasts
+page 4
+
+
+
+
+2                                                                                                                              Problems
+Huge amount                                                                                                                    Data is owned      Concerns on
+of data is                                                                                                                     by separate        data quality
+underutilized                                                                                                                  institutions
+                                                                                                                               or silos
+High cost                                                                                                                      Limited data       Lack of benefits
+of data                                                                                                                        availability in    for data
+acquisition                                                                                                                    certain areas or   providers
+sectors
+The advancement of technology also advances our ability to collect, manage, process, and
+deliver data. According to the International Data Corporation (IDC), the world will produce and
+replicate approximately 163ZB of data by 2025, or a tenfold increase from the amount of data
+created in 20161.   Data driven decision-making is crucial to gaining a competitive advantage. It
+is not only vital for business operations but also for consumers, governments, and society at large.
+It offers limitless possibility to address a range of societal issues across many sectors, from food,
+health, education, transportation, technology to economic sectors.
+According to McKinsey only 1% of data is collected and analyzed2. Considering the considerable
+investment for data collection, management and analytics, data acquisition can be too
+costly for many organizations. On the other hand, there are some organizations that own vast
+amounts of data but failed to realize the potential of sharing the data and extracting insights
+that were previously unimaginable. Furthermore, data quality has always been a concern.
+Since organizations are the only ones responsible for data management and analytics, they
+must allocate considerable resources and time to maintain data integrity, accountability,
+and security. Ensuring the precision of data, consistency, trustworthiness, avoiding bias, and
+anticipating security threats are crucial in producing good quality data. Data should also be
+traceable back to its original source while being made transparent and reliable. Poor quality
+data from unreliable sources is the biggest risk in data-driven decision-making and can lead to
+formulation of damaging strategies.
+1   David Reinsel, John Gantz, John Rydning. April 2017, IDC White Paper. Data Age 2025: The Evolution of Data to Life-
+Critical. https://www.seagate.com/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf
+2   http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/the-internet-of-things-the-value-of-digitizing-
+the-physical- world
+page 5
+
+
+
+
+2                                                                                                                       Problems
+As the use of connected devices is rapidly becoming more widespread, the average person’s
+level of interaction with data also dramatically increases. Currently, only a few centralized
+institutions are capturing and formulating data into insights, leaving the original data provider at
+a loss. IDC estimates that an average connected person anywhere in the world  will interact with
+devices nearly 4,800 times per day — basically one interaction every 18 seconds by 20253. This
+contributes to the huge amount data being generated and drives the importance of personal
+data. However, these people do not have access to their own data nor are they gaining any
+benefits from of it. Across the world, vulnerable communities and the digitally excluded lose when
+the few powerful centralized platforms decide what to do and what not to do with their data.
+While these issues occur in all sectors, we would like to focus our attention on the agriculture
+and food sector due to its role in expanding economic opportunities at multiple levels of society.
+Food is the most fundamental need and billions of people depend on cultivating, processing,
+and selling food, particularly in developing countries where agriculture plays a vital role in
+economic development. The lack of near-time valuable data creates many hidden problems to
+all stakeholders across the agriculture and food value chain, for example:
+•y Farmers, particularly in developing countries, have little to no access to agricultural data and
+market information that could reduce productivity loss and increase profits.
+•y High percentage of food is wasted through inefficiencies in the food supply chain due to lack
+of location-specific and market data.
+•y Agriculture insurance companies are unable to predict weather and climate risks as well as
+production value due to lack of cultivation and ecological data.
+•y A customer today would want to know where a juice comes from, how it was produced, or if
+it was exposed to harmful materials since being produced. This information does not exist.
+•y Our transportation system is unable to satisfy public food demand or needs with public
+policies that are developed with minimal real-time data.
+These problems occur due to several reasons. First, only few centralized institutions collect, store,
+and analyze specific agricultural and food-related sector data. It limits data accessibility to
+stakeholders in this sector, particularly smallholder players and individual users. Second, some
+data is simply not available. Individuals, groups, and regions may be at a disadvantage due to
+lack of access to technological infrastructure, related skills and tools to produce and utilize data
+in ways that benefit their lives and communities.
+3 David Reinsel, John Gantz, John Rydning. April 2017, IDC White Paper. Data Age 2025: The Evolution of Data to Life-
+Critical. https://www.seagate.com/www-content/our-story/trends/files/Seagate-WP-DataAge2025-March-2017.pdf
+page 6
+
+
+
+
+HARA -
+The Equality Solution                                                                                    3
+In the Indonesian language, the word “hara” means soil nutrients. HARA Ecosystem supplies life-
+sustaining nutrients in the form of transformational knowledge that enables our partners to grow and
+flourish so that they may collectively nourish the world.
+Mission
+Empowering billions by utilizing a global and transparent data exchange.
+Our mission began within the agriculture and food sector and continues toward overall
+sustainability for the world’s most socially impactful sectors. The potential impacts of a global
+and transparent data access on agriculture and food sector are increase in productivity, supply-
+chain and market efficiencies. The growth in this sector directly influences the health sector, for
+instance, improvement in household ability to purchase and consume cheaper and better food.
+Access to location specific data also enables well-targeted infrastructure development that will
+impact the transportation sector. Overall, a global and transparent data exchange platform
+will improve the welfare of agriculture workers and provide a trigger for remarkable economic
+growth and expansion to other sectors, particularly in developing countries where agriculture
+plays a pivotal role to the country’s economic development.
+Recreation
+Phase 3
+Education
+Transportation
+Phase 2
+Health
+Phase 1
+Food
+Frictionless                                                                                             Economic   Overall
+Information                                                                                              Growth     Sustainability
+HARA’s Social Impact
+Our Products
+y  A Decentralized Data Exchange - HARA Ecosystem provides decentralized data exchange for
+data providers to provide their data and data buyers to access the data. Powered by blockchain
+technology, this exchange is traceable, transparent, and secured. Vast amounts of data, ranging
+from farmers identification data, cultivation data, location specific data, ecological data, and
+market information and transaction data, are collected via a variety of sources including IoT and
+satellite as well as from third-parties such as farmers, governments, scientists, academia, farm-input
+manufactures and other entities. These data originators are enabled to upload datasets to the
+data exchange and sell their data to other third-party data buyers via the decentralized token-
+based data exchange.
+page 7
+
+
+
+
+HARA -
+The Equality Solution                                                                            3
+	  Suite of Data Acquisition Applications - Mobile app and web portal enable data providers
+to easily supply data. The app and web portal are gamified and data providers who
+supply and verify data are rewarded with loyalty points. These points may be redeemed for
+various products and services, such as phone credits, discounts on agriculture supplies, and
+education supplies. This mechanism encourages data providers to continuously supply data
+to HARA Data Exchange Platform.
+HARA Ecosystem is a decentralized, secured and transparent platform that is built on top of an
+Ethereum-enabled blockchain with smart contracts. The main benefits of this platform are:
+Facilitates                                                                                      Offers more         Provides traceable
+integration of                                                                                   affordable data     and transparent
+numerous data sets                                                                               management system   data that can be
+                                                                                                                     continuously verified
+Simplifies data                                                                                  Ensures that data   Incentivizes data
+connectivity to all                                                                              ownership belongs   providers through
+stakeholders                                                                                     to data providers   tokens
+Revenue Model
+HARA Ecosystem retains a modest portion of each dataset transaction, with the remainder to
+be earned by data providers and data qualifiers (if applicable). Data providers include crop
+and livestock farmers, data companies, NGOs, as well as other agriculture data collection
+technology purveyors (satellite and IoT data providers).
+page 8
+
+
+
+
+Total Addressable
+Market (TAM)                                                                                                             4
+HARA is a marriage between digitalizing the bottom of the pyramid and creating
+visibility across the agriculture industry.
+HARA aims to target three growing industries, which are: agriculture and food sector, data
+commercial market, and digital advertising. Data collected in the HARA data exchange
+platform will be of great benefit in improving productivity and efficiencies as well as facilitating
+market expansion and fair playing field in these industries.
+Agriculture and Food Sector
+HARA starts with the agriculture and food sector in order to address one of the world’s most
+fundamental problems: food security. According to Department of Economics and Social Affairs of
+the UN, the current world population of 7.6 billion is expected to reach 8.6 billion in 2030, 9.6 billion
+in 2050 and 11.2 billion in 2100. The majority of growth will occur  in Asia and Sub-Saharan Africa4.
+Consequently, the global agriculture and food sector is changing rapidly because of the intensive
+increase of global food demand. The Food and Agriculture Organization (FAO) estimates that food
+production will need to increase by 100% globally to ensure food security in 20505 and to meet 70%
+increase in caloric demand. There is a clear need for improvement in the sector’s technological,
+infrastructural, and institutional basis to ensure its sustainable development.
+One of the biggest challenges in ensuring food security is to make the agriculture and food
+system to be more effective, inclusive, and resilient. The global agriculture and food sector is
+worth US$ 5 trillion and represents 10% of consumer spending and 40% of the employment6.
+The Food and Agriculture Organization of the United Nations estimates the combined global
+gross production of cereal, crops, and livestock to be nearly $4 trillion. Moreover, global food
+exports grew by approximately 45% between 2006 and 2016. However, according to the FAO,
+approximately 30% of global food production or 1.3 billion tons of food is either lost or wasted7.
+It is estimated that global food waste and loss cost $940 billion a year8. In developing countries,
+32% of total loss occurs during production and handling9, mainly caused by managerial and
+technical limitations during storage, transportation, processing, packaging and marketing of the
+food production.
+To solve these problems, the agriculture and food sector needs to embrace the potentials of digital
+innovations that could increase productivity, supply-chain and market efficiencies. As the sector
+involves a wide range of stakeholders, from input suppliers, logistics, traders, financial services to
+data companies, access to near-time valuable data is extremely crucial to link information from
+diverse points across the value chain. It will increase the capacity to absorb foreign and domestic
+knowledge and better respond to the dynamics of the supply-chain and the market.
+4 United Nations, Department of Economic and Social Affairs, World Population Projected to Reach 9.8 Billion in 2050,
+and 11.2 Billion in 2100, June 21, 2017, https://www.un.org/development/desa/en/news/ population/world-population-
+prospects-2017.html
+5 Food and Agriculture Organization of the United Nations, The State of Food Security and Nutrition in the World 2017,
+http://www.fao.org/state-of-food-security-nutrition
+6 Goedde, L, Horii, M. and Sanghvi, S., 2015. Pursuing the global opportunity in food and agribusiness. https://www.
+mckinsey.com/industries/chemicals/our-insights/pursuing-the-global-opportunity-in-food-and-agribusiness
+7 Food and Agriculture Organization, United Nations, New online platform fosters efforts to curb food losses through
+information sharing, 2014, http://www.fao.org/news/story/en/item/262504/icode/
+8 Magnin, C. 2016. How big data will revolutionize the global food chain. https://www.mckinsey.com/business-functions/
+digital-mckinsey/our-insights/how-big-data-will-revolutionize-the-global-food-chain
+9 The FAO of the United Nations, 2011. Food Balance Data. www.fao.org/faostat/
+page 9
+
+
+
+
+Total Addressable
+Market (TAM)                                                                                                             4
+Innovations such as precision agriculture enable the collection of valuable data that will provide all
+stakeholders with new opportunities. Precision agriculture is a modern farming management tactic
+that utilizes IoT, big data, and satellite imagery to maximize resources and improve productivity.
+Combining different data sources is particularly important because agriculture is very location-
+specific. Water, land, weather, and climate characteristics are largely varied from one area to
+another, the proximity of a given farming operation to the marketplace and the logistic also differs
+greatly from location to location. In addition, farming methods and practices are influenced by
+local values and cultural roots, which result in distinctive behavior and decisions made on the
+farm. Precision agriculture is one of the vital components in the smart agriculture market. The smart
+agriculture market alone is projected to grow from $5.18 billion in 2016 to $11.23 billion by 2022, at a
+compound annual growth rate of 13.27% between 2017 and 2022.
+Initial Target Countries
+Aligned with Dattabot’s mission to ensure economic and informational equality for all, HARA
+focuses on the agriculture and food sector in developing countries. Increased agricultural
+productivity plays a vital role in alleviating poverty in these areas. Various studies have found that
+there are “significant relationships between productivity growth and poverty and nutrition, and
+the agriculture had a greater impact on poverty than the other sectors”10. Attempts to quantify
+the impact of poverty abatement through increased of agriculture productivity estimates that
+one percent (1%) increase in productivity reduces the percentage of people living on less than a
+dollar per day by between 0.6% and 1.2%.11
+Furthermore, in developing countries where critical agricultural data is more difficult to find,
+having a decentralized data exchange platform will solve the painful problems of data
+asymmetry. Access to the market and agricultural data remains key challenge for farmers in
+these countries and will push the adoption of HARA platform. Starting from the needs of financial
+inclusions enabled by the financial institutions, to food traceability, precision agriculture, logistics,
+supply chain and general market place.
+Our pilot project shows that the impact is big. This impact has not gone unnoticed and is
+reflected by the supports HARA receives from: International NGOs; multinational and national
+banks; insurance companies; support from local governments and communities; and also
+national and international media.
+The markets that HARA will focus on are developing countries located near the equator,
+characterized by long growing periods (many are year-round), and where access to mobile
+phone service is available. Dattabot has identified eight (8) countries that possess these
+attributes, where collectively, these countries represent nearly one third of all smallholder farmers
+in the world, which are:
+Bangladesh                                                                                                               Indonesia   Vietnam   Thailand
+                                                                                                                         Uganda      Mexico    Peru
+Kenya
+10 Australian Government, Australian Centre for International Agricultural Research, The Contribution of Agricultural
+Growth to Poverty Reduction, ACAIR Impact Assessment Series, 2012 , 29, http://aciar.gov.au/ les/node/14358/ias76_the_
+contribution_of_agricultural_growth_to_p_27524.pdf
+11 International Finance Corporation, World Bank Group, Poverty Literature Review Summary: Agriculture and Poverty
+Reduction, June 29, 2012, 2, International Finance Corporation, World Bank Group, Poverty Literature Review Summary:
+Agriculture and Poverty Reduction, 2012, https://www.ifc.org
+page 10
+
+
+
+
+Total Addressable
+Market (TAM)                                                                                          4
+Below is the analysis of the size of agriculture and food sector, as well as internet and mobile
+penetration to ensure that HARA platform will be easily adopted in these countries. We also
+considered financial services penetration, as it can be used to measure growth potentials in
+the agriculture and food sector. In addition, financial services can also utilize HARA platform
+to expand their business opportunities by touching previously untapped segments, such as
+smallholder farmers, due to lack of valuable data.
+Agriculture and Food Sector: Brief Overview
+The agriculture and food sector is crucial in these countries. Agriculture employed almost 200
+million people, or equal to 23% of total population. Furthermore, with Peru as an exception,
+more than 30% of land area is used for agricultural purposes (areas that are characterized as
+arable, under permanent crops, and under permanent pastures)12. In Bangladesh and Uganda,
+agricultural land constitutes more than 70% of total land area thus highlights how important
+agricultural sector in these countries. In size wise, Mexico has the largest agricultural land with
+more than 1 million square kilometer. In total, agricultural production value in these eight
+countries is worth US$ 499 billion, of which food production (e.g. cereals, food crops, and dairy
+products) contributes to almost 90% of total production.
+Agricultural Land
+Total Land
+                                                                                                                         Production Value       Total Workers                            (% of Land Area)
+Target Market                                                                                         Total Population   (Current US$) Total    in Agriculture            Area (Sq.km)   2015
+Bangladesh                                                                                            162,951,560        $ 62,644,488,070       40,445,519                130,170        70.6%
+Indonesia                                                                                             261,115,460        $ 153,225,975,712      46,178,507                1,811,570      31.5%
+Kenya                                                                                                 48,461,570         $ 15,365,895,535       27,333,732                569,140        48.5%
+Mexico                                                                                                127,540,420        $ 85,286,916,154       6,767,994                 1,943,950      54.9%
+Peru                                                                                                  31,773,840         $ 20,849,232,121       4,291,679                 1,280,000      19.0%
+Thailand                                                                                              68,863,510         $ 75,068,128,347       16,310,773                510,890        43.3%
+Uganda                                                                                                41,487,960         $ 10,700,763,022       12,164,802                200,520        71.9%
+Vietnam                                                                                               92,701,100         $ 75,887,835,992       41,204,574                310,070        37.8%
+                                                                                                      834,895,420        $ 499,029,234,952      194,697,580
+Internet and Mobile Penetration
+Internet and mobile penetration are the most important factors to ensure the penetration of
+HARA platform. Our target countries are among the most populous countries in the world and
+all have relatively high internet penetration rate13. Kenya and Thailand have highest penetration
+with up to 85% of the population already connected to the internet. In terms of size, Indonesia
+has the largest internet-connected population with approximately 140 million users. Mobile
+penetration rate is also very high. Seven out of 8 countries have more than 80% penetration
+rate. With the requisite mobile connectivity in place, the HARA Ecosystem solution is ready for
+deployment in these countries.
+Target Market                                                                                         Total Population   Internet Penetration   Mobile Penetration Rate
+Bangladesh                                                                                            162,951,560        45%                    83.4%
+Indonesia                                                                                             261,115,460        54%                    99.7%
+Kenya                                                                                                 48,461,570         85%                    80.4%
+Mexico                                                                                                127,540,420        64%                    87.6%
+Peru                                                                                                  31,773,840         68%                    109.8%
+Thailand                                                                                              68,863,510         84%                    105.0%
+Uganda                                                                                                41,487,960         46%                    55.0%
+Vietnam                                                                                               92,701,100         67%                    79.0%
+834,895,420
+12 https://data.worldbank.org/indicator/AG.LND.AGRI.ZS
+13 Combined data from www.internetstats.com and www.statista.com
+page 11
+
+
+
+
+Total Addressable
+Market (TAM)                                                                                                              4
+Financial services
+The development of agriculture and food sector requires financial services to support bigger
+investment of agriculture-related infrastructure and other production-related resources. Thus, it is
+important to have an overview of financial service industries and its potentials in the target countries.
+All target countries have high potentials in mobile and banking/microfinance institutions
+reach. According to the International Finance Corporation (IFC)14, Indonesia, for example, is
+categorized as a major potential country as it has large unbanked population and high mobile
+penetration. Other target countries, which are: Kenya, Mexico, Uganda, Vietnam, and Thailand,
+are categorized as quick risers. This category has high mobile penetration and high adoption
+rate in mobile money or digital wallet. Mobile money or digital wallet can improve efficiencies
+across the food value chain and open the opportunities to utilize mobile-based technology to
+advance agricultural operations. For example, in Kenya, MFarm developed an app providing
+up-to-date market prices for agricultural products. This app also links farmers with buyers with a
+group-selling service that facilitates smallholder farmers to market their products to large buyers15.
+Mobile vs Banking Reach
+6.0
+                                                                                                                          Tanzania   B                    A                  A              Major Potential
+5.5                                                                                                                                                                                         •   Large unbanked
+populations
+•   High Mobile vs.
+5.0
+banking reach
+4.5                                                                                                                       Kenya
+                                                                                                                                                          B                  Quick Risers
+                                                                                                                                     Pakistan             •   High to very
+4.0
+high mobile vs.
+banking reach
+3.5
+Ukraine
+                                                                                                                                                                                                                                             C     Giants
+3.0                                                                                                                       Iraq                                                                                                                     •   Relatively low
+                                                                                                                                     Argentina                                              Nigeria
+                                                                                                                                                                                                                                                   mobile vs.
+2.5                                                                                                                                  Philippines                             Mexico                                                                banking reach
+                                                                                                                          Algeria                                                                                                                  •   Very large
+                                                                                                                                     Morocco
+2.0                                                                                                                                  Colombia             Vietnam                                                                                  unbanked
+                                                                                                                          South                                                                                                                    population in
+                                                                                                                          Africa     Sudan
+                                                                                                                                                                                                                                                   absolute terms
+1.5                                                                                                                       Uganda     Turkey                                                 Brazil
+                                                                                                                                                                                                                 Indonesia
+                                                                                                                                     Thailand                                                                                                D     Unclear
+1.0                                                                                                                       Poland                                                                                                     China
+                                                                                                                                                                                            Bangladesh
+                                                                                                                                                                                                                                                   Potential
+                                                                                                                                                          D                  C
+                                                                                                                                                                                                                             India                 •   Low mobile
+0.5
+                                                                                                                          Nepal                                                                                                                    & banking
+                                                                                                                                     Myanmar   Ethiopia                                                                                            penetration
+0
+10                                                                                                                        20         30                   40                 50             60                   70          80      90      100   110                  120   130   140   150   160   600   610   620   630760   770   780
+14 The International Finance Corporation of the World Bank Group, April 2013. IFC Mobile Money Scoping. www.ifc.org
+15 Magnin, C. 2016. How big data will revolutionize the global food chain. https://www.mckinsey.com/business-functions/
+digital-mckinsey/our-insights/how-big-data-will-revolutionize-the-global-food-chain
+page 12
+
+
+
+
+Total Addressable
+Market (TAM)                                                                                                                 4
+Despite the potentials of banking reach, microfinance institutions are still the key to improve
+financial access to agriculture workers in developing countries, given its advantage in proximity
+to the customers and its frequent association with more cooperative financing approaches.
+Some of the target countries, which are: Vietnam, Bangladesh, Peru, and Mexico, are among
+the top 10 countries for micro-loan portfolio outreach as shown in the table below:
+Top 10 countries by borrowers   and loan portfolio outreach
+                                                                                                                                          Borrower FY 2016 &   GLP(USD) &
+                                                                                                                                          borrower growth      GLP growth
+Rank                                                                                                                         Country      since 2015 (%)       since 2015 (%)
+1                                                                                                                            India        47.0m (+18.4%)       14.7bn (+24.4%)
+2                                                                                                                            Vietnam      7.6m (0.0%)          7.4bn (+0.2%)
+3                                                                                                                            Bangladesh   25.2m (+5.1%)        6.9bn (+19.7%)
+4                                                                                                                            Peru         4.6m (+12.4%)        10.8bn (+16.3%)
+5                                                                                                                            Mexico       7.0m (+3.2%)         4.4bn (-6.4%)
+6                                                                                                                            Cambodia     2.3m (-0.1%)         6.4bn (+20.7%)
+7                                                                                                                            Colombia     2.8m (+0.4%)         6.0bn (+12.5%)
+8                                                                                                                            Bolivia      1.3m (+2.4%)         7.4bn (+13.1%)
+9                                                                                                                            Brazil       3.2m (0.0%)          1.9bn (+11.8)
+10                                                                                                                           Ecuador      1.3m (-10.0%)        5.1bn (-7.2%)
+The top 10 countries listed are defined based on   the loan portfolio and borrowers registered in each country during 2016
+To conclude, our initial target is developing countries where agriculture has been vital to the
+country’s economic development. Agricultural land occupies large percentage of total land
+area and has been one of the main sources of employment. These countries also have high
+internet and mobile penetration rate, which are the requisite for the adoption of HARA platform.
+In addition, combination of high mobile and banking/microfinance institutions reach increases
+the potentials for HARA and its incentive system to be accepted by farmers as data providers.
+Despite limited data available to illustrate the food value chain in these countries, our local
+knowledge assures us that these countries are promising markets that are suitable to be the focus
+of our data collection.
+Data Commercial Market
+As previously stated, vast amounts of data is underutilized. Many organizations are still reluctant
+to invest in data management due to its high cost of data acquisition as well as limited
+strategic and human resources to convert cost of data management into assets. It creates
+big opportunities for players in the data commercial market. It is estimated that big data
+and analytics sales will reach US$187 billion by 2019, an increase of over 50% to 2015 levels.
+Furthermore, PWC estimated that revenue from commercializing financial data could be worth
+US$300 billion annually by 2018 with 10.38% compound annual growth. A Capgemini survey
+supports the PWC finding, in which 61% respondents state that big data is now a driver of
+revenues in its own right.
+page 13
+
+
+
+
+Total Addressable
+Market (TAM)                                                                                                4
+Digital Advertising and Adoption
+HARA focuses on the bottom of the pyramid data. This group previously received little attention
+resulting in limited data availability. HARA offers limitless potentials of data commercialization,
+particularly in the digital advertising to reach this particular market. The digital advertising industry
+is projected to continue to experience remarkable growth through 2021 to reach almost USD
+100 billion in annual revenue, with mobile and social advertising becoming the top destinations,
+which the latter expected to double in size to USD 30.8 billion by 2021. Furthermore, in the Global
+Advertising Forecast report published in December 2016, Magna estimated revenues from
+digital advertising for 2016 to be over $178 billion (36% of the total global spend of $493 billion).
+Approximately 54% of this was shared between Google and Facebook. Magna expects this 36%
+figure to rise to 50% of the total by 2021 (i.e., $300 billions of an estimated $600 billion). Digital
+advertising revenues are thus considerable, averaging about $89 per internet user, and $287 per
+US Internet user, and they are projected to grow at 11% annually.
+In addition, HARA platform facilitates data democratization that incentivizes owner of the data
+or data providers. It prevents unethical/unfair data commercialization practice that only benefits
+few centralized platforms that has been collecting and managing data. The market is huge, for
+instance, in 2015, the data broker market alone amassed USD 156 billion from selling data that
+does not belong to them.
+page 14
+
+
+
+
+Demand
+5                                                                                                       For Data
+$
+HARA offers near-time                                                                                   All stakeholders across      HARA is a solution to
+valuable data that is                                                                                   the value chain will get     connect farms, markets,
+crucial to increasing                                                                                   access to actionable data-   consumers, and other
+productivity and reducing                                                                               driven insights that will    stakeholders that will
+losses and market                                                                                       help them embrace market     support the efforts to
+inefficiencies in the                                                                                   opportunities and improve    ensure food security and
+agriculture and food sector.                                                                            their economic decisions.    secure solid economic
+growth for all.
+Having visibility and understanding of accurate data is vital to identify problems and
+opportunities across the food value chain. HARA facilitates implementation of precision
+agriculture using a suite of applications that combines data from IoT and satellite as well as from
+third parties such as farmers, input suppliers, logistics, traders, retailers, governments, and other
+entities. Data collected will provide actionable data-driven insights to support results in improved
+productivity and efficiency in the agriculture and food sector. HARA is a solution to connect
+farms, markets, consumers, and other stakeholders that supports the efforts to ensure food
+security and secure solid economic growth for all.
+page 15
+
+
+
+
+Demand
+5                      For Data
+Type of Data
+Farmer                 Cultivation
+related data           data
+FARMER DATA            FARM INPUT DATA      HARVEST DATA           PLANTING
+Farmer’s ID            Farmer               Farmer                 DATA
+Farmer’s Profile       Field                Field                  Farmer
+Profile Photo          Commodity            Commodity              Field
+Selfie with ID         Brand                Selling Price per KG   Commodity
+Birth Date             Amount               Cost for a Season      Cost of Seed
+Address                Cost of Farm Input   Date                   Date
+Date
+COMMODITY
+DATA
+Name
+                       DISEASE DATA         PEST DATA
+                       Farmer               Farmer
+                       Field                Field
+FIELD OWNERSHIP        Commodity            Commodity
+DATA                   Disease Info         Pest Info
+Farmer                 Cost of Medicine     Cost of Chemical
+Field                  Date                 Date
+Ownership Status
+Validity Status
+                       SOIL DATA            WEATHER DATA
+                       Soil Detail          Weather
+FIELD DATA             Date                 Temperature
+Name                                        Date
+Polygon
+Farmer’s ID
+Farmer’s Profile
+Profile Photo                               Ecological
+Selfie with ID                              data
+Birth Date
+Address
+Location
+specific data
+Market information
+& transactional data
+MARKET DATA            YIELD                FARM INPUT             TRADITIONAL    BUSINESS
+Traditional Market     TRANSACTION          TRANSACTION            MARKET DATA    ENTITY DATA
+Commodity              DATA                 DATA                   Name           Name
+Price                  Farmer               Farmer                 Commodity      Commodity
+Date                   Business Entity      Business Entity        Country        Country
+                       Commodity            Brand                  Province       Province
+                       Price per KG         Type                   Area           Area
+                       Total Price          Amount (Dose)                         Type
+                       Date                 Price
+Date
+page 16
+
+
+
+
+Demand
+5                                                                                                              For Data
+Potential Data Usage
+Agriculture Input Suppliers
+Agriculture input suppliers are retailers who provide farmers with products needed for agricultural
+production, such as animal feeds, vaccines, seeds, fertilizers, and pesticides.
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                            • Improving inventory management, product-
+flow scheduling, and ability to predict future
+Cultivation data
+shortages, bottlenecks, and excess stock.
+• Identifying market opportunities and meeting
+Location specific
+specific demands of the farmers based on type
+data
+of farms, regions, climate and weather conditions
+Ecological data
+Market information
+& transactional data
+Crop and Livestock Farmers
+Farmers in developing countries are mainly smallholders or farm households that own/cultivate
+a plot of land of less than 2 hectares. The vast majority of smallholder farms are located in rural
+areas, especially on the continents of Asia and Africa. As a group, they earn at or below the
+poverty levels in their home countries, typically earning less than $2.00 per day. These farmers
+generally have minimal access to modern farming techniques, agricultural data, and access to
+market information.
+Relevant Type
+Data Potentials:
+of Data:
+Ecological data                                                                                                • Reducing weather and climate risks
+                                                                                                               • Improving farming management through access
+Location specific                                                                                              to ecological and location specific data
+data                                                                                                           • Improving operational efficiencies through
+                                                                                                               access to supply-chain data
+Market information                                                                                             • Increasing profit by improving access to current
+& transactional data                                                                                           market information
+Agricultural Logistics and Transport
+Logistics in the agriculture and food sector are responsible for the physical flow of agricultural
+products from production to consumption.
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                            • Improving delivery reliability through location
+specific data that offers the status, performance,
+Ecological data                                                                                                and potential roadblocks in real time
+• Reducing loss from product spoilage
+• Improve operational efficiencies (e.g. cutting
+Location specific
+data                                                                                                           transport times by choosing better routes)
+• Combining transport-management systems with
+agricultural sensors can generate average savings
+of 10 to 20% in operational costs*.
+* Magnin, C. 2016. How big data will revolutionize the global food chain. https://www.mckinsey.com/business-
+functions/digital-mckinsey/our-insights/how-big-data-will-revolutionize-the-global-food-chain
+page 17
+
+
+
+
+Demand
+5                                                                                                          For Data
+Off-takers and Traders
+Off-takers and traders are those who purchase agricultural products directly from the farmers.
+Off-takers invest on the farmers and agree to purchase farmers’ future production. One of the
+biggest risks for off-takers is failing to recover cost of their investment because farmers sell some or
+most of their increased productivity to other buyers, or also known as side selling.
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                        • Formulating better harvest prediction
+• Improving quality of output and product traceability
+Cultivation data
+• Enabling better stocking management system at the
+warehouses
+Location specific
+• Increasing profit by improving access to current
+data
+market information
+Ecological data
+• Reducing the risks of side selling
+Market information
+& transactional data
+FMCG and Retailers
+FMCG and retailers supply agricultural and food products to the consumers, both households
+and business consumers (e.g. hotels and restaurants).
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                        • Improving product quality, safety and traceability
+• Meeting the rising demand of healthier food products
+Cultivation data
+• Having deeper understanding on market situation
+(e.g. demand potential, gaining insights for R&D)
+Location specific
+• Performing targeted marketing activities
+data
+Ecological data
+Market information
+& transactional data
+Banking, Insurance Companies, and Other Financial Institutions
+Agricultural financial services include banks, insurance companies, and other microfinance
+institutions that support farmers to expand their operations through investment on agriculture-
+related infrastructure and other production-related resources.
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                        • Formulating credit scoring or risk profiling
+• Getting access to untapped segments
+Cultivation data
+• Calculating insurance premiums with better
+risks prediction
+Location specific
+• Facilitating the implementation of mobile
+data
+banking to provide low-cost banking services
+Ecological data
+Market information
+& transactional data
+page 18
+
+
+
+
+Demand
+5                                                                                                   For Data
+Data Companies
+Data companies offer access of agricultural-related data to manufacturers, institutions, and
+other stakeholders across the food value chain. They can utilize HARA platform to gain access to
+both raw and structured data. In addition, data companies can also provide simple static data
+about the population that would be valuable for banks and insurance companies amongst other
+stakeholders, such as names, date of birth, addresses, marital status, and land ownership/size.
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                 • Gaining access to valuable data sets in both raw
+and structured formats
+Cultivation data
+• Offering possibilities for data companies to enrich
+their own data sets
+Location specific
+• Offering opportunities to monetize their data by
+data
+submitting it to HARA platform or by processing
+Ecological data
+the raw data and submitting the more valuable
+structured data back into the platform
+Market information
+& transactional data
+Government
+The roles of government are crucial in agricultural development, such as, formation and execution
+of policies, provision of physical infrastructure, and ensuring financial inclusion for farmers.
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                 • Embracing potentials of data-driven policy making
+that could benefit all stakeholders in the agriculture
+Cultivation data
+and food sector
+• Improving ability to anticipate and tackle
+Location specific
+agricultural-related problems
+data
+• Facilitating more efficient government
+Ecological data
+• Boosting economy in a sustainable manner
+Market information
+& transactional data
+NGOs
+NGOs have played an important role in the agricultural development. They serve as public
+actors who link farmers to government, international and local funding institutions, and
+development agencies. They formulate agricultural programs that could create sustainable
+agricultural development for local farming communities.
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                 • Gaining better knowledge of local people’s
+circumstances and their needs
+Cultivation data
+• Formulating effective agricultural programs
+that could benefit local communities
+Location specific
+data
+Ecological data
+Market information
+& transactional data
+page 19
+
+
+
+
+Demand
+5                                                                                                   For Data
+Academic and Research Institutions
+The roles of academic and research institutions are crucial in providing new knowledge and skills
+as well as accelerating innovation and technology adoption in the agricultural sector.
+Relevant Type
+Data Potentials:
+of Data:
+Farmer related data                                                                                 • Gaining access to valuable data that
+offers limitless possibilities in research
+Cultivation data
+and development.
+Location specific
+data
+Ecological data
+Market information
+& transactional data
+page 20
+
+
+
+
+HARA
+6                                                                                                   Ecosystem
+The HARA Ecosystem is a decentralized, secure and transparent platform that is built on top of an
+Ethereum-enabled blockchain. HARA securely connects and governs data providers and buyers in
+its ecosystem with a market driven revenue distribution model and proprietary rating system. Data
+provisioning and consumption is facilitated through mobile and web-based applications. These
+applications enable integrated data transactions, acquisition, processing, storage and analysis.
+Input data                                                                                          contribute token
+Data providers                                                                                      Data buyers
+Data companies,                                                                                     Banks, insurance
+cooperatives, NGOs,                                                                                 companies, government,
+get incentive                                                                                       access data
+farmers, field agents,                                                                              enterprises, retailers
+IoT devices, satellites
+                                                                                                    Access to near-time and
+Receive tokens and
+                                                                                                    highly valuable data
+loyalty points when
+they continuously and
+frequently share their data
+Value-added services                                                                                Data qualifiers
+Academic institutions,                                                                              Any HARA token holder
+access and
+credit bureaus, data
+process
+analytics companies
+raw data                                                                                            get incentive
+                                                                                                    Receive tokens when
+                                                                                                    perform basic tasks of
+Enrich raw data sets that                                                                           verifying the quality
+input data &                                                                                        improving data
+can be capitalized back                                                                             of data and help
+get incentives                                                                                      quality
+on the exchange                                                                                     increasing its rating
+page 21
+
+
+
+
+HARA
+6                                                                                   Ecosystem
+Data Providers
+Data providers include individual data contributors, data companies,
+cooperatives, NGOs, field agents, and governments. They can use the data
+exchange to assess the quality of their data and monetize it by exchanging
+it for tokens.
+Data Qualifiers
+Data qualifiers add value to the ecosystem by providing verification in the
+form of proof of work. They acts as a crowd-sourced indicator of data quality,
+which overtime, will help improve the overall robustness of the data and
+help generate healthy, ongoing demand. Data qualifiers will receive tokens
+based on their efforts related to the tasks they perform in verifying data on the
+exchange. Data qualifiers can be any HARA token holders.
+Data Buyers
+Data buyers include enterprises such as banks, insurance companies, retailers,
+agriculture input suppliers, NGOs, and government - all the way down to local
+communities or even individuals.
+Value-added Services
+Companies and institutions that access and process raw data from HARA
+Ecosystem, and resubmit it as ‘enriched data’. These can be academic
+institutions, brands, data analytics, financial technology and agriculture
+technology companies. They create value-added insights from the raw data
+and share in the proceeds with the original data providers by submitting the
+cleansed, organized, and structured data back to the HARA Ecosystem.
+page 22
+
+
+
+
+Use
+7                                                                                                        Cases
+A native token in the HARA ecosystem is required in order to encompass the inner economy and
+protects it from those with large stakes of ETH and interests that are alien to the system. Similar to
+how arcades prefer to use pre-paid cards or proprietary physical tokens, without a native token,
+it would be difficult to manage the ecosystem at large. It is important to note that HARA token is
+issued as a pure utility token and does not represent any form of security under Singapore law,
+rules, and regulations.
+Smallholder Farmer as any Data Provider
+Smallholder farmers use the HARA platform with the expectation of receiving multiple benefits
+from the various value-added providers in the ecosystem. By being a part of HARA, they gain
+access to many benefits including, but not limited to:
+y  Access to precision farming advice catered specifically to their farm to help them produce
+greater yields per hectare accompanied with instructions and guidance
+y  Recommendations regarding the best farm inputs - crop types, seed types, fertilizers, pest
+controls, irrigation and more that are specific to each farmer’s location and environment
+y  Access to market information specific to each farm including: local supply chain partners,
+post-harvest off-takers, traders, and wholesalers
+y  The farmer uploads certified land title document and other associated data that may be
+leveraged to receive loans and other financial services
+y  Access to other non-banking financial services such as crop/health/life insurance
+y  Access to market data related to supply and demand levels and local market prices for
+each type of crop
+y  Ability to earn loyalty points that can be redeemed for a variety of goods and services
+provided by HARA partners
+The following diagram illustrates the flow a farmer will follow to add data to his account and
+other inputs such as GPS data, crop planting suggestions, pest data and other information
+associated with their farming practice.
+Data providers and loyalty points - farmer data flow
+Seeding Fund
+Farmers                                                                                                  Unstructured   Field     HARA mobile/   HARA Data
+                                                                                                         Data           Officer   ww web app     Exchange
+                                                                                                                                                 bank
+Loyalty                                                                                                                 Loyalty                  Network
+points                                                                                                                  points                   operator
+page 23
+
+
+
+
+Use
+7                                                                                                          Cases
+Given the inherent challenges of training farmers to submit data, HARA is employing field officers
+to assists farmers in registering their profiles and continuously collecting agriculture data throughout
+the farming cycle of cultivation, harvest and post-harvest seasons. Smart contracts award tokens
+to these data providers in the form of loyalty points, and the farmers can collect incentives (such as
+discounts on fertilizers and seeds) through local partners also in the HARA ecosystem.
+AgriTech or IoT Companies as any Data Provider
+Businesses operating in the realm of agriculture, food, supply-chain and technology industries are
+rewarded in the HARA ecosystem for sharing their data sets on the exchange. The HARA suite
+of applications include a variety of apps for companies to upload data onto the HARA data
+exchange platform. To simplify the token acquisition process, we are providing an entity called a
+‘Network Operator’, which maintains a reserve of HARA tokens. When data is transacted, these
+companies will receive proceeds in the form of tokens and can choose to convert them into
+local currency using a network operator.
+Data Providers
+Tokens
+AgriTech
+company
+Food
+company
+                                                                                                           Unstructured   HARA partner
+                                                                                                           Data           app            HARA Data
+                                                                                                                                         Exchange
+IoT
+bank
+FIAT                                                                                                       Network
+operator
+Data providers have to use HARA Token to be listed on the exchange. A portion of those tokens
+is allocated to receive a basic rating and compensate for the work that goes into validating their
+data. Data providers that get their data qualified by more qualifiers will receive higher ratings,
+which will increase credibility compared to other data sets listed on the HARA decentralized
+data exchange.
+page 24
+
+
+
+
+Use
+7                                                                                                  Cases
+Data Buyer - Purchase Raw Data Sets
+In this scenario, a company, NGO, government institution, or even an individual can contribute
+tokens to get access to raw data sets from HARA. These data buyers will input a search query
+using parameters and filters provided in the HARA ecosystem, initially concentrated around
+agriculture and food sector data. When buyers access data, they can do so directly with tokens
+or go through a network operator using local currency. The network operator will find the best
+exchange price and make the transaction seamless for the buyer.
+Data buyer contributes token to access unstructured data from
+data providers - Access to raw data flow via network operator
+Data Buyers
+bank
+                                                                                                                    Contribute   Network
+                                                                                                                    Token        operator
+Off Takers                                                                                         Distributors
+Banks                                                                                              Kiosks
+HARA Data
+Exchange
+Raw data contributed
+over time by data
+Governments                                                                                        Farm input       providers
+                                                                                                   suppliers
+                                                                                                   Data Providers
+                                                                                                                                            Loyalty points /
+Farmers                                                                                            Field            Satellite    IoT        Tokens
+                                                                                                   Officer          Data
+In addition to accessing data on the platform, HARA is adding a data seeking program feature
+for data that is not yet available. Any data buyers can request and fund the acquisition of
+highly specific granular data that is not yet available in the platform in the form of a ‘mini
+tasks’. Data providers are crowd-sourced and incentivized to provide the requested data.
+Through this feature, these ‘mini tasks’ can be pushed out to users and targetted based on GPS,
+demographic segmentation (e.g. age, gender, location), time, and so forth.
+HARA also integrates a customized marketing platform where data buyers can directly offer
+their services, such as loans/insurance applications and general advertisements, with basic opt-
+in and subscription functionality directly within the HARA application. For example, insurance
+companies can now automatically target people based on a set of criteria - effectively creating
+leads in an ongoing manner.
+page 25
+
+
+
+
+Use
+7                                                                                                 Cases
+Value-Added Services: Data Buyers Enriching Data
+HARA is empowering data sharing in this collaborative ecosystem through the formation of an
+“enriched data” category. This allows data buyers to re-submit data they have accessed in
+a cleansed, analyzed and more processed format providing value-added ready-to-use data
+to other buyers. For example, a company may choose to use agriculture data set to produce
+seasonal harvest reports for companies to estimate the yield of a particular crop. The proceeds
+of these data sets will trickle back down to the original data providers.
+Value-added service providers
+Data Providers
+                                                                                                            Unstructured   HARA Data
+                                                                                                            Data           Exchange
+Farmers                                                                                           Field
+                                                                                                  Officer
+                                                                                                                                       Upload data
+                                                                                                            Contribute                 to exchange
+                                                                                                            Token
+Satellite                                                                                         IoT
+Data                                                                                                                       Access
+data
+Value-added
+Process/
+Service
+enrich data
+page 26
+
+
+
+
+Use
+7                                                                                                        Cases
+Data Qualifiers: Improving Data Quality
+HARA is implementing a qualification mechanism to drive the accurate rating of data. Any
+data submitted on the exchange must earn a minimum basic rating before any exchange
+can occur. This adds a secondary level of information aggregation to allow for dynamic
+forecasting. Data providers can allocate more token in order to drive more qualifications,
+thereby increasing its rating.
+Data qualification method will be gamified in various ways, such as:
+• Swiping for image recognition or confirmation
+• Providing photographic proof of requested items
+• Answering questions related to the data
+In addition, part of a data qualifier’s rating comes from qualifying other data qualifiers in order to
+ensure high quality data is being submitted. The tokens for rating qualifiers are initially taken from
+HARA seeding fund then funded by portion of the proceeds from the ongoing transactions. This
+acts as a self-regulating mechanism to ensure that data qualifiers are providing accurate data
+and to avoid data qualifiers gaming the system. The rating that data qualifiers received enables
+them to have access to better tiers of mini tasks and automatically increase their credibility.
+Data                                                                                                     Data
+Data Qualifiers                                                                                          Other Data
+Providers                                                                                                Buyers
+Qualifiers
+Rate other
+Data
+Qualifiers
+                                                                                                                                    Off Takers
+Farmers
+                                                                                                                                    Banks
+                                                                                                         Rate data      Rate data
+                                                                                                         sets           sets
+Field
+Officer
+Governments
+Distributors
+                                                                                                                        Data        Data         Data   Data   Data
+Satellite
+                                                                                                                        sets        sets         sets   sets   sets
+Data
+                                                                                                                                                                                   Kiosks
+                                                                                                                                                                      Access
+                                                                                                                                                                      rated data
+                                                                                                         Unstructured
+                                                                                                         Data
+IoT
+Farm input
+HARA Data                                                                                                suppliers
+Exchange
+page 27
+
+
+
+
+Use
+7                                                                                                 Cases
+Staking
+In order to maintain their accounts and get access to the platform, stakeholders (data buyers,
+value-added services, data providers, and data qualifiers) need to have a minimum staked
+balance. The minimum balance allows them to receive push notifications on any activities in the
+platform. Each notification will reduce their staked token balance.
+Notifications can be customized to allow stakeholders to choose what they want to receive,
+including: relevant bounties, solicitations, and data set updates. Once the staking balance is
+below the minimum level, the account goes dormant. The account will be given a grace period
+and then ultimately will be frozen if no more activity is recorded. This allows the platform to
+differentiate between active and dormant accounts.
+page 28
+
+
+
+
+HARA
+8                                                                                                 Platform
+The purpose of HARA ecosystem is to create a prosperous data exchange economy that
+drives the use of informed data-driven decisions in society. Data providers use the platform to
+exchange their data for tokens, while data buyers can access quality data and crowd-source
+new data that can help them make better data-driven decisions.
+HARA Suite of Apps Ecosystem
+Features
+HARA App                                                                                          HARA
+for farmers                                                                                       Business
+Data Providers Protocols, to:
+1.  Allow access to data
+HARA App                                                                                          HARA App
+2.  Record access
+for kiosks                                                                                        for field agents
+(or transactions)
+3.  Ensure data integrit
+Connector
+Smart
+Contract                                                                                          Data
+ERC-20
+Exchange
+Cross Chain Protocol, to
+optimize the maximum benefit
+and flexibility of utilizing other
+Chains:
+Rating                                                                                            Registration
+                                                                                                  1.  Security, e.g. for ERC20
+                                                                                                  2.  Low cost, e.g. for registration
+                                                                                                  3.  Ease of use, e.g. for interface
+Connector
+Cross chain connector
+Platform                                                                                                                                HARA builds a private-chain to
+                                                                                                  Ethereum                              manage HARA Token (HART)
+HARA chain
+main net                                                                                          transaction efficiently.
+It contains:
+1.  Blockchain Explorer (HART
+SCAN): To view all activities
+Other Chain                                                                                       Other Chain
+within the chain
+2.  Token bridge: To bridge the
+smart contract transaction
+between HARA Chain and
+other chains.
+3.  Wallet: To keep HART
+page 29
+
+
+
+
+HARA
+8                        Platform
+HARA Data Exchange
+Network Participants
+Data                     Data
+Providers                Buyers
+Data
+Qualifiers
+HARA application suite
+Machine
+HARA Mobile              HARA SMS       Data Provider   Partner
+Learning
+/ Web App                Gateway        App             App
+& Analytics
+HARA Technology Layer
+Data   Security          Revenue        Data
+Connectivity
+& Governance             Distribution   Rating
+Network Layer
+Storage Layer
+Compute Layer
+AWS Lambda
+Off-Chain                On-Chain
+page 30
+
+
+
+
+HARA
+8                                                                                                      Platform
+The interactions between data providers, data buyers, and data qualifiers in the open and
+secure HARA Data Exchange Platform are explained below:
+yy                                                                                                     Data providers are incentivized for data submission, which they can monetize through token
+exchange.
+yy                                                                                                     Data buyers can trace and trust the data source and gain access to valuable and validated
+data to achieve insights to achieve their objectives.
+yy                                                                                                     Data qualifiers perform qualifications tasks to validate data and earn tokens.
+                                                                                                       The salient features of HARA Data Exchange Platform are:
+yy                                                                                                     Secure, open, connected and decentralized access to data
+yy                                                                                                     Traceable and transparent data history
+yy                                                                                                     Decentralized and individual data access permissions
+yy                                                                                                     Facilitation of fluid and borderless token exchange that could be globally transacted
+Blockchain Technology
+Blockchain is an immutable, transparent, public and append-only ledger. A peer-to-peer
+network that can maintain updates to the ledger and verifies those updates in a way that it is
+impossible to fraud or to alter data.
+HARA Data Exchange Platform uses Ethereum to create smart contracts, trace and validate
+transactions and ownership rights, perform transactions through HARA tokens, and enable tokens
+to be traded on third-party token exchanges. Through smart contracts, we can optimize our
+activities. Currently, we are developing five categories of smart contracts:
+yy                                                                                                     Data acquisition: Enables access control and data connection to supplementary data. It
+allows for automatic data generation and enrichment.
+yy                                                                                                     Data traceability: Enables tracking the origin of data, who owns and use it.
+yy                                                                                                     Data rating: Enables measurement on how useable the data is, like a rating system of   the
+data by data buyers.
+yy                                                                                                     Data access permission: Enables access to every data providers.
+yy                                                                                                     Proceeds allocation: Enables the distribution of proceeds between participants.
+Private (Permissioned) Ethereum Network
+The decision to use Ethereum is because HARA is a running project that needs to be
+implemented fast using a proven technology. Ethereum has the biggest dApps projects and
+connection support to other layers through Oraclize, Infura, and so forth. It also has the most
+robust community and developer support while not closing the door entirely to other blockchain
+technology along the way. That is why HARA is also exploring research and development
+partnerships with other blockchain technology companies.
+Inter Planetary File System (IPFS)
+IPFS is a distributed file system protocol to connect all computing devices with the same system
+of files. IPFS is a versioned file system that can access, manage and store files. It can also track
+versions over time. IPFS also accounts for how those files move across the network, as it is also a
+distributed file system.
+Infura
+Use of Infura APIs and developer tools provide secure, reliable, and scalable access to Ethereum
+and IPFS. Infura enables HARA Data Exchange Platform to access IPFS seamlessly without the
+hassle of managing the infrastructure.
+page 31
+
+
+
+
+HARA
+8                                                                                                       Platform
+Oraclize
+Oraclize is a data carrier for decentralized apps. As data carrier, it provides a reliable connection
+between Web APIs and HARA’s App using enforced cryptographic proofs. It eliminates the need
+to open additional trust lines.
+Bluzelle
+A decentralized, on-demand, scalable database service for HARA data-exchange developers.
+GDPR and PDPA Data Compliance
+Blockchain technology enables decentralized data transaction that serves as a major basis
+for compliance of data protection. The platform generally fulfills Singapore’s Personal Data
+Protection Act (PDPA) and Europe’s General Data Protection Regulation (GDPR) requirements
+concerning privacy and protection of personal data. Following are the provisions in the HARA
+data exchange platform to adhere to the obligations:
+Consent
+Data providers agree to consent for storing personal data in an encrypted format. They can
+decide whether or not they consent to allow data buyers accessing their data.
+In the HARA data exchange platform, document encryption is realized through the use of AES-
+256 algorithm in producing an encryption key. The encryption key is further broken down into
+several keys known as secret keys. The secret keys are distributed amongst data provider’s
+wallet, HARA system and trusted third-party (e.g. government, value-added service providers). To
+decrypt the data, the minimum of three keys is required. Any party (other than the data provider)
+that possesses the key cannot decrypt the data without the consent of other key holders.
+Purpose Limitation
+Data buyers must inform data providers of the purpose of data set usage, which will be stated
+and mutually agreed upon purchase agreement.
+Notification
+Data providers are notified whenever data buyers want to access their data. This is realized
+through document provider smart contract that grants access permission to any stored data.
+When data buyers want to access data, the system notifies the owner of the data or data
+provider via blockchain. The blockchain verifies data availability using the proof of existence
+smart contract.
+Access and Correction
+Data providers have full ownerships of their data sets. They have full access and control to
+create, edit and modify the data. HARA only provides the access information in this ecosystem.
+Accuracy
+Every effort is made to ensure accurate personal data is collected. For example, in the case of
+farmer as data provider, field officers are assigned to assist farmer in verifying, uploading and
+maintaining data in the HARA application.
+Additionally, the HARA data exchange platform provides a data qualification mechanism that
+is supported by data rating features to evaluate data sets based on input such as historical
+transactions, and buyer feedback and connected data points.
+page 32
+
+
+
+
+HARA
+8                                                                                                      Platform
+Protection
+Data is securely stored and processed in the HARA data exchange platform. A combination of
+IPFS permanent web, Bluezelle protocols, and Amazon web services (S3 and Dynamo DB) will be
+implemented as data storage systems off the chain.
+Proof of existence smart contract is deployed in the blockchain to ensure data is tamper-proof
+and uncompromised. Every data is signed with fingerprint-like proof. If the data is changed, then
+the associated fingerprint will also change. To verify the data, the fingerprint must match or it is
+considered as tampered. Nevertheless, data providers should also ensure that a safe and reliable
+data storage and accessible mechanism is maintained.
+Retention
+Data providers have full control on when the data is made accessible and can set the period to
+allow data access.
+Breach Notification
+The appointed data protection officer will notify to supervisory authorities and stakeholders (data
+providers, data buyers and value-added service providers) of any breach of data with high
+priority and without any undue delay.
+Data Erasure
+HARA data exchange supports the rights to rectification and erasure. Data providers are in
+absolute control of their data sets. When an account is deleted in the platform, private keys will
+be destroyed, implying loss of corresponding and encrypted data.
+Privacy by Design
+The platform architecture ensures:
+• Data providers own the personal data and have full control over it.
+• Personal data is always encrypted and data providers hold the key to decrypt it.
+• Transaction of personal data in the ecosystem is carried out with explicit permission and
+consent from data provider. Data provider also understands how the data set is used and for
+what purpose.
+• Personal data transactions are fully transparent and traceable on the blockchain and
+anonymity of trading parties is completely protected.
+page 33
+
+
+
+
+9                                             Roadmap
+Q4 2017
+2017
+HARA mobile apps
+Q1 2018
+2018
+Data Validation features
+Q2 2018
+HARA partner’s app
+Q3 2018
+Data-Exchange PoC deployment
+Sidechain PoC
+Data Registration
+Q4 2018
+Qualification features
+Data Qualification Mechanism
+Q1 2019
+2019
+Platform Launch
+(MVP)
+Q2 2019
+Advance Features
+Data Connectivity Service
+Advanced Data Rating
+Q3 2019
+Decentralizing
+Data-Exchange Platform
+ID Management Platform
+AI-Powered Verification
+Integration with Bluzelle for Data Provider
+General Data Provider Protocol
+Network Operator Protocol
+Partners’ Sealer Node
+Farmers’ Wallet Apps
+Q4 2019
+Cross Chain Connectivity
+Cross Chain Connector Protocol
+Q1 2020
+2020
+Value Added as a Service
+On-Demand Data Processing
+Q2 2020
+Crypto-wallet Integration
+Easy Access to Entire HARA Ecosystem
+page 34
+
+
+
+
+10                                                                                    Team
+Regi Wahyu
+Founder and CEO
+Regi is the founder and the driver of the whole business in HARA as CEO. His vision
+is to deliver world-changing solutions by leveraging on technology. He has proven
+track records as professional in the area of business development. He successfully
+developed a start-up business, turned around the “mature-declining” organization
+and managed growth strategies across the Asia Pacific region. He had worked for
+Development Dimension International (DDI), General Electric (GE) Asia Pacific, and
+Dupont. Regi is part of the high impact entrepreneurs of Endeavor network.
+Imron Zuhri
+CTO
+As CTO of HARA, Imron leads the technical direction of the company by herding
+a talented pack of nerds, data scientists, and data engineers. Imron leverages his
+interests and expertise in mathematics, physics, analytics, and big data technology
+to continuously advance the company’s unique capabilities and technology
+solutions. Previously, Imron was the youngest person to hold a director position
+at one of Indosat’s subsidiaries.
+Alexander Jatra
+CFO
+Alex spent 7 years in private equity and venture capital, beginning with Francisco
+Partners, a private equity firm in San Francisco, California. During this time, he
+worked directly with companies and financial sponsors across the United States
+and Europe to execute various investment transactions including M&A, IPOs, debt
+financing/restructuring and other equity offerings. Afterwards, he joined Kejora
+Ventures in Jakarta and worked closely together with startup founders to assess and
+analyze strategic opportunities, revenue generating models, and cost efficiency to
+drive the growth of the companies.
+Farina Situmorang
+CMO
+Farina has more than 15 years of experiences in marketing for technology products.
+She co-founded Catalyst Strategy, a boutique data-driven marketing firm and
+led the digital marketing campaign for current President of Indonesia during the
+2014 presidential election. She then led the agricultural policy delivery unit for
+the Presidential Transition Team. Prior to Catalyst, Farina worked for WhatsApp,
+BlackBerry, Microsoft and IBM. Farina holds an MBA from the Kellogg School of
+Management.
+page 35
+
+
+
+
+10                                                                                                        Team
+Tom Malik
+Head of Legal and Compliance
+Tom has extensive experience in multinational and national companies such as
+Rio Tinto, Newmont and Burson-Marsteller holding various senior positions in public
+relations, stakeholder management, marketing in the Communications, Mining,
+Property, and Engineering fields. He joined Dattabot as COO in 2012. He holds a
+Master Engineering Degree from Cornell University.
+Lisa Irawati
+Head of Operations
+Lisa has over 20 years of experience in the field of marketing, market intelligence, business
+development and strategic planning. During her service for Phillip Morris (HM Sampoerna Tbk) ,
+she championed numerous innovation initiatives, such as Territory Management Digital Platform,
+Marketing Channel Optimization, and Community Based Marketing. In the last 5 years, she is
+also active as social entrepreneur in the field of education and culture. She is appointed as
+subject matter expert for Ministry of Education & Culture and UNESCO.
+Larissa Sidarto
+Head of Business Development
+With a strong background in the finance and technology sectors, Larissa is experienced in business
+development and corporate strategy. Her core strengths includes strategic planning, consulting,
+and implementing new business endeavors. She is responsible for the whole Retail Business division
+portfolio at Dattabot, and has successfully overhauled its strategy for scalable product growth.Larissa
+is a graduate of Citi’s prestigious Management Associate; a 3 years leadership development program
+with exposure to top leadership at regional level. She is also currently an active commissioner and
+management advisor for Burgreens; a social enterprise, organic fast food chain with focus in
+empowering women and farmers, as well as promote healthy eating. Prior to Dattabot and Citi, Larissa
+worked for Accenture, World Bank, and think tank Center for Strategic and International Studies.
+Renée Corstens
+Head of Partnerships
+Renée has worked with local communities through her experience with Peduli Anak
+Foundation, a Dutch-sponsored NGO operating in Indonesia. Her tenure at the
+Economic Department of Dutch Embassy in Jakarta has equipped her with market
+knowledge in agriculture and sustainability. She also previously worked for Tax
+Department of Dutch Government and Delta Lloyd, a financial service provider. In
+2017, she joined HARA team as a researcher and development advisor. She holds
+an MBA from the University of Amsterdam.
+Changhyun Cho
+Head of Investor Relations
+Changhyun Cho is the CEO of FSN ASIA, an overseas business subsidiary of FSN and
+a leading ad-tech company as listed on Korean stock market. He is also the board
+member of FSN. Before he joined FSN, he worked as a partner at A.T. Kearney, a
+global management-consulting firm, with expertise in new business strategy and
+M&A advisory.
+page 36
+
+
+
+
+10                                                                                                     Team
+Raditya Alwafi Surachman
+Head of Software Engineering
+Raditya has over 8 years experience in the field of Product Development and
+Engineering. He co-founded Etomotiv, a platform for the Automotive Industry and
+worked for Traveloka, Style Theory, Tencent and Garena. Currently, he is leading
+the Engineering team for HARA development. Raditya holds a Bachelor Degree in
+Computer Science from the Binus University.
+Bembi Prima
+Head of Cloud Operations
+Bembi has over 8 years of experience in the field of Information Technology and expert in
+DevOps, SRE and Native Cloud Operations. He started his career at Nielsen as Data Processor
+and joined Dattabot in early 2014. Bembi is managing the Cloud Infrastructure for HARA. He
+holds a degree in Information Technology from the University of Indonesia (UI).
+Jaewoo Hwang
+Korea Representative
+Business Development
+Jaewoo is the head of new business department at FutureStream Networks (FSN), the no. 1
+ad-tech company in Korea. He has experiences in expanding overseas market such as China,
+Taiwan, Thailand, and Indonesia by establishing new products and services. Before he joined
+FSN, he has worked at A.T. Kearney, a global management consulting firm, and Hyundai
+Capital, a financial arm of Hyundai Motor Group.
+Robert Lee
+Korea Representative
+Business Development
+Robert Lee is a deputy manager at FSN ASIA, an overseas business subsidiary of FSN. He has
+managed numerous projects in different countries and has led the team to enter Thailand,
+Vietnam, Indonesia and Taiwan since 2015. Before joining FSN, he worked at Woori Investment
+and Securities, a leading Korean financial firm, as well as at A.T. Kearney, a global management
+consulting firm, specializing in new financial products and business strategy.
+Andy Laver
+Japan Representative
+Business Development
+Andy developed strong skills in strategic planning, corporate strategy, and financial control during
+his work for Deutsche Bank, Citibank and Deloitte. Afterwards, he co-founded Asia Strategic
+Advisory (M&A Advisory) and Asia Strategic Human Capital (Executive Search). He is passionate
+to contribute on the development of entrepreneurship in Indonesia, especially in digital and
+creative industries. He is involved in many nationwide initiatives such as Mekar Exchange (Putera
+Sampoerna Foundation), IMULAI (Microsoft -USAID) and GEPI (Global Entrepreneurship Program
+Indonesia). He holds an MBA from International University of Japan.
+page 37
+
+
+
+
+10                                                                                                     Team
+Edoardo Baldoni, PhD
+Europe Representative
+Data Scientist
+Edoardo is a PhD in Economics and an R programmer. He currently works as Research Fellow at
+Università Politecnica delle Marche, Italy. His research interests span several areas but are mostly
+focused on the measurement and analysis of agricultural Total Factor Productivity (TFP) using farm-
+level data. His has recently published scientific articles on the relationship between agricultural
+productivity and emission intensity at the farm-level, on the contribution of migrant work to
+agricultural productivity for Italian farms and on the spatial properties of TFP measurements.
+Camilo A. Cupitre A.
+Latin America Representative
+Business Development
+Camilo is an experienced researcher and practitioner in the field of Social Innovation applied
+to rural areas. During more than 10 years long career, Camilo has been working with multiple
+Nonprofits Organizations and Social Enterprises in Indonesia, The Dominican Republic and
+Malaysia; including the National Cancer Council Malaysia - MAKNA and the Singaporean
+CSR consultancy firm GreenShoots Communications, conducting a diverse range or projects
+related to microfinance, rural development, education, social Entrepreneurship and Cancer
+Prevention. With a background in Business & Economics, currently he is finishing a MSc. in Social
+Entrepreneurship & Management at Roskilde University in Denmark.
+Joshua Agonya
+Africa Representative
+Business Development
+Joshua is determined to transform Africa’s socio-economic landscape through business and
+innovation. Joshua co-founded Pearl Trek Adventures after graduating from African Business
+Institute of which he holds a Business Degree. During his studies, Joshua was part of the Business
+Advisory from ABI and performed market research for international companies. Over the last
+couple of years Joshua worked with several NGO’s on youth leadership programs, marketing,
+community training and development programs. His aim is to make information accessible and
+simpler to use by the common man through teaching and technology.
+Virdi Permana, PhD
+Sr IoT Expert
+Virdi has over 18 years of professional working experiences as an engineer and
+researcher in technology and IoT fields. He got his PhD from University of Denver
+and accelerated his career at Carrier-United Technologies, Johnson Controls
+and Boland Trane-Ingersoll-Rand. During his career, he obtained excellent
+accreditations of CEM, CMVP, CEA, LEED GA. After spending more than a decade
+advancing his career and engineering credentials in the United States, he returned
+to Indonesia in 2016 to lead business development for Industrial Internet.
+Hasan Yusuf
+Sr Digital Expert
+Hasan has over 6 years’ experience in digital marketing. Through his work as Data
+Analyst, he strengthened his skills in data discovery and transforming data into
+business value. His recent works cover FMCG, retail banking, telecommunication
+industry and online media. Hasan holds a master’s degree in finance mathematics
+and actuarial science from the University of Stuttgart.
+page 38
+
+
+
+
+10                                                                                                Team
+Arkan Gilang
+Sr Blockchain Developer
+Along with Imron, Gilang is the brain behind the HARA platform. Previous cross-
+functional experience such as engineering and data scientist and his passion in
+cutting-edge technology like blockchain bring him to leadership position for the
+HARA platform. He previously worked as a creative designer for two years at Ayuta
+Samarthya, an event organizing company. Gilang holds a degree in Mathematics
+from the University of Indonesia.
+Wisnu Pradana
+Sr Data Scientist
+Wisnu has years of experience in the field of Data Science. Along with Imron he is
+developing the pricing mechanism, incentive distribution and data rating algorithm
+for HARA. He is currently a PhD candidate in Mathematical System and Control
+Theory of the University of Twente-Enschede.
+Anatasof Wirapraja
+Sr Product Manager
+Anatasof has over 8 years of experience in the Information Technology Industry. He is an expert
+in Product Design and serial entrepreneur, he co-founded GDIlab (Design Strategy) and Nuieu
+(a blockchain-based art platform). Recently he worked for Red Tree Asia on Strategy Design,
+Uber as Ambassador and Kudo, an online-to-offline platform to connect small businesses. He
+holds a Bachelor Degree in Art from Institut Teknologi Bandung (ITB).
+Juwita Winadwiastuti
+Blockchain Developer
+Juwita is one of the Blockchain Engineers for HARA. She joined Dattabot in 2016 as a Data
+Engineer and developed her career further as Scrum Master and Developer. Currently, she is the
+brain behind the development of the smart contracts and API building. She holds a Bachelor
+Degree in Informatics Engineering from Gunadarma University.
+page 39
+
+
+
+
+10                                                                                Team
+Our Advisors
+Muhamad Chatib Basri, PhD
+Economic Policy Expert
+Dr. Basri is a leading expert on international trade, macroeconomics
+and political economy. He had served in numerous distinguished roles in
+government and academia, including as Minister of Finance of Indonesia,
+Vice Chairman of the National Economic Committee of the President of
+Indonesia, Senior Fellow Harvard University at the Harvard Kennedy School,
+Pacific Leadership Fellow at the University of California San Diego Centre
+on Global Transformation, and professorships at the Australian National
+University, University of Indonesia, and at the National Trade Union Congress.
+He holds a PhD in Philosophy from the Australian National University. As an
+economic policy expert, Dr. Basri advises HARA token on the viability and
+feasibility of the tokenomy aspect of the ecosystem.
+Yos Adiguna Ginting, PhD
+Stakeholder Outreach Expert
+Dr. Ginting is a blockchain promoter in the service industry. He is the
+secretary general of the Association of the Indonesian Agricultural Society
+and serves as chairman of the board of directors at Indonesia Services
+Dialogue. Furthermore, after progressing through several important positions
+at Sampoerna, he now holds a position on the board of commissioners.
+Previously, Dr. Ginting was the director of government affairs and stakeholder
+outreach at Philip Morris International. He has a Bachelor of Science in
+Chemistry and a PhD in Theoretical Chemistry from the University of Tasmania
+in Tasmania, Australia. With his expertise in outreach activities, Dr. Ginting
+advises HARA on community development and supports engagement with
+blockchain and agriculture industry experts and business leaders.
+Raoul Oberman, PhD
+Global Agriculture and Technology Investor
+Dr. Oberman is a McKinsey senior partner and Director Emeritus. He is an
+experienced boardroom counselor in multinational settings and practiced
+facilitator of change at scale. He has worked in Europe, Northern Asia and
+South East Asia. His areas of expertise in the private sectors range from
+agriculture power to financial services. In the public sector, Dr. Oberman
+has worked extensively with central banks/regulators and finance ministries.
+He has also dedicated his time to various non-profit organizations, including
+Partnership for Sustainable Agriculture Indonesia and Endeavor Indonesia. He
+holds a PhD in Economics from the Frankfurt University and a Master’s degree in
+Economics from the University of Cologne. As a long-time respected consultant
+who is passionate in the agriculture sector, Dr. Oberman advises HARA Token on
+its strategy to penetrate stakeholders within the agriculture sector.
+page 40
+
+
+
+
+10                                                                               Team
+Our Advisors
+Constantin Papadimitriou
+Blockchain Expert
+Constantin Papadimitriou is the president of Pundi X, a global blockchain
+company which aims to transform retail businesses with its blockchain-based
+point of sale solution. Before joining Pundi X, Papadimitriou accumulated over
+17 years’ experience as founding CEO of two Indonesian fintech companies
+- Infinetworks and E2Pay. He has an MSc in Computer Science from Purdue
+University. As an advisor, Papadimitriou will lend his knowledge of the
+blockchain ecosystem and market to help ensure HARA’s success can follow
+that of Pundi X.
+Charles Pyo
+Blockchain Expert
+Mr Pyo is a Korean technology entrepreneur and blockchain evangelist.
+He is the CEO and founder of Chain Partners, the first blockchain company
+builder in Korea that has numerous subsidiaries operate in every core area
+of the blockchain world. Mr Pyo is also known as the youngest founder
+of a company in Korea, having started his first business at the age of 14.
+He was included in Business Week’s Top 25 Entrepreneurs in Asia for his
+contribution to the spread of Widget in Asia. He became a director of the
+Venture Business Association at the age of 29. Mr Pyo holds a Bachelor in
+Communications and Business from Yonsei University, South Korea. With
+his vast expertise of growing blockchain ventures, Mr Pyo advises HARA to
+ensure its growth reaches its full potential.
+Richard Yun
+Business Development Expert
+Mr Yun is the Chief Operating Officer of Coinplug, a leading South Korean
+bitcoin brokerage and service provider. The company is famous for
+developing blockchain solutions for corporations like Hyundai and LG. Mr
+Yun started his career at Exio Communications where he served as the head
+of Finance, M&A and Operations department. Afterwards, Mr Yun worked for
+Cisco Systems and Mobile Agent Technology as finance M&A and business
+development specialist. In 2006, he founded Conaxtech, Inc., a tech-based
+satellite receiver company. He obtained his BA in Economics from University
+of California at Berkeley, USA. With his vast knowledge, Mr Yun helps
+accelerate the widespread adoption and implementation of HARA
+Token and its social impacts to the ecosystem.
+page 41
+
+
+
+
+10                                                                                 Team
+Our Advisors
+Darius Rugevicius
+Blockchain Venture Capitalist
+Mr Rugevicius is the Managing Partner at Connect Capital, a blockchain
+and digital assets investment fund that takes a venture capitalist approach.
+The company aims link industry pioneers and prosperous advocates by
+providing a platform that thrives through its strong network and dedication
+to accelerating success. Mr Rugevicius previously held a position as Value
+Engineer at CIVITTA, in which he was part of a VC team responsible for
+numerous startup initiatives in Europe, and was a Partner at Prime Block
+Capital, an investment fund focused on blockchain technology. Mr
+Rugevicius obtained a Bachelor’s degree in Business/Managerial Economics
+from the ISM University of Management and Economics, Vilnius, Lithuania.
+Mr Rugevicius’ experience with guiding the development of blockchain
+companies from a VC perspective will be invaluable to the success of HARA.
+Jonathan Lee
+Digital Marketing Expert
+Mr. Lee is the Chief Corporate Officer of Yello Digital Marketing Group (YDM),
+who leads the company’s corporate development and M&A (mergers and
+acqusitions) investment. YDM is the number one digital marketing and ad
+technology group in Korea with over 20 companies across Korea and South
+East Asia region. As the second employee to join YDM, he played a key role
+in developing YDM’s growth strategies and South East Asia expansion. Prior to
+joining YDM, Jonathan served as the Business Development Director for the
+WPP Korea, where he was responsible for the group’s country strategies and
+M&A. Previously, Jonathan was also part of the International Business Team
+and Corporate Strategy Team at the CJ Music and CJ Mnet Media (currently
+CJ E&M).   He holds a BS degree in Management Science from the University
+of California San Diego. With his extensive experience in East Asia’s crypto
+investment, Mr. Lee advises HARA Token on its ICO fundraising process.
+Nizam Ismail
+Legal Expert
+Mr. Ismail has led the RHTLaw Compliance Solutions, a dedicated financial
+services compliance consultancy/solutions provider in Singapore, Malaysia
+and Indonesia. He has also managed the Financial Services Practice of
+RHTLaw Taylor Wessing LLP. He had more than 25 years of experience and
+expertise in financial services regulatory compliance and litigation. Mr. Ismail
+spent six year as regulator at the Monetary Authority of Singapore, where
+he had worked with other regulators, exchanges, markets, banks, broker-
+dealers, commodities firms, fund managers, trust companies, and financial
+advisers. He had also worked with a variety of FinTech firms, cryptocurrency
+firms and ICO/TGE issuers. As an expert in financial services regulatory
+compliance and litigation, Mr. Ismail advises HARA Token on all aspects in
+legal and compliance of FinTech and ICO.
+page 42
+
+
+
+
+10                                                                              Team
+Our Advisors
+Vachara Aemavat
+Technology Expert
+Mr. Aemavat is the co-founder and co-CEO of SIX.network, a blockchain
+platform to reinvent digital economy. He is also the co-founder of
+Computerlogy, a leading startup focusing on the social media tools for
+enterprise in Thailand with a range of products from social media analytics,
+command center, chatbot, and more. He departed his first startup to join
+Yello Digital Marketing Group (YDMG) in 2016, where he assumed the role
+of Chief Technology Officer. With his experience in developing blockchain-
+based platforms, Mr. Aemavat advises HARA Token on technical aspects of
+developing and rolling out blockchain-based technology.
+Tiago Alves, MBA
+Digital Asset Expert
+After leading its Series-A round, Mr. Alves has become the VP Asia Pacific
+at Aptoide (Android App Store with 200M active users). Recently, his role
+was instrumental in raising USD 17 million in AppCoins’ ICO. He is a regular
+attendee and speaker at tech events, such as Echelon, Tech in Asia,
+GMASA, GOAB, RISE, and Android Meetups. Prior to joining Aptoide, Mr.
+Alves spent 12 years at Portugal Telecom where he had several technology-
+related roles. He holds a bachelor’s degree in software engineering from
+the University of Macau, a master’s degree in Mandarin from the Beijing
+Language and Culture University, and an MBA in Tech Management from
+the University of San Francisco. He is a Fulbright scholar and Dean’s Medal
+awardee. As a technology expert with successful fundraising experience, Mr.
+Alves advises HARA Token on its ICO process.
+Jefrey Joe, MBA
+Venture Capital Investor
+Mr. Joe is a venture capitalist with technology, product and consulting
+background. Prior to co-founding Alpha JWC, Mr. Joe was the Chief
+Operating Officer (COO) of Groupon Indonesia, the leading daily deals
+site in Indonesia, where he focused on technology, customer experience
+and logistics. Before Groupon, Jefrey was a strategy consultant at The
+Boston Consulting Group (BCG) where he primarily worked on strategy
+development, market assessment, and business plan development projects
+for some of the leading corporations in Indonesia. Jefrey also spent a
+few years at Ernst & Young Advisory Services where he specialized in
+performing share valuation projects relating to M&A and IPO situations. As an
+experienced crypto investor, Mr. Joe advises HARA Token on the contributor
+climate in Southeast Asia.
+page 43
+
+
+
+
+10                                                                                 Team
+Our Advisors
+Wolf Kluge
+Microfinance Expert
+Mr. Kluge decided to invest his time in Indonesia 18 years ago to rebuild the
+finance industry after the crisis. As a pioneer in providing financial access
+to Indonesians, he created a wide range of lending products and the base
+for digitalization of loan approval process for smallholder businesses. Until
+the beginning of 2018, he held a position in the board of directors of BTPN,
+one of the largest private banks in Indonesia. Previously, he had experience
+in Deutsche Bank, Aegis Korea and Danamon in several countries. As a
+seasoned financial risk expert, Mr. Kluge advises on the development of
+HARA Token in lending products.
+Taco Bottema, PhD
+Agriculture and Economic Policy Expert
+Dr. Bottema has more than 20 years of senior managerial experience from
+the United Nations, the European Union, and the Asian Development Bank.
+His previous projects revolve around livelihoods, agriculture, natural resource
+management and capacity and institutional development at the local and
+central level. Currently, Dr. Bottema strives to improve sustainable agriculture
+in South East Asia through his ventures and consultations for Indonesia state-
+owned fertilizer company, Pupuk Indonesia, by helping them to introduce
+sustainable agriculture products to the market. With his extensive knowledge
+in sustainable agriculture, Dr. Bottema advises the development and
+implementation of HARA Token and its social impacts to the ecosystem.
+Koji Shima
+Technology Investor
+Mr. Shima has been the President Commissioner of PT Mitra Pinasthika Mustika
+(MPM) Finance and PT Mitra Pinasthika Mustika Rent since 2013. He has also
+served as the President Director of PT MPM Tbk since 2013. Prior to joining MPM,
+he spent 20 years with Japan’s major trade and investment house, Nissho Iwai
+Corporation. Mr. Shima had more than 30 years of experience in international
+trade, retail sales, and investment experience in America, Europe and
+Southeast Asia. He received his Bachelor of Laws degree from the University
+of Tokyo. With his investment experience around the world, Mr. Shima advises
+HARA Token how to approach new investors in cryptocurrency.
+page 44
+
+
+
+
+Token
+11                                                                                                         Sale
+Fact Sheet
+Utility Token
+Token Name                                                                                                 HARA
+Token Symbol                                                                                               HART
+Token Type                                                                                                 ERC20
+Total Token Supply                                                                                         1,200,000,000
+Tokens for Sale                                                                                            360,000,000 (30%)
+HARA is seeking to raise 46,000 ETH
+Token Allocation
+5%
+Advisors
+30%
+ITS Contributors
+10%
+Team
+20%
+HARA
+35%
+Treasury
+Seeding Fund
+A total of 1.2 billion HARA tokens will be pre-minted at the Token Generation Event, with 30% of
+tokens distributed to contributors of the Initial Token Sale. The HARA Token is issued as a pure utility
+token and does not represent any form of security under Singapore law, rules, and regulations.
+Careful thought was given to the distribution of HARA tokens to create a thriving and sustainable
+ecosystem. This includes:
+yy                                                                                                         Initial Token Sale Contributors: Tokens distributed to private sale, presale, and public sale
+contributors. Private sale and presale participants may receive bonus tokens for their support,
+however their tokens are subject to prorated vesting schedules.
+yy                                                                                                         Seeding Fund: Tokens used to incentivize platform growth across data providers, buyers,
+value-added service providers, bounties and airdrops (if required).
+yy                                                                                                         HARA Treasury: Tokens used to support the HARA Treasury function, liquidity management,
+network operator and ongoing operations.
+yy                                                                                                         Team: Tokens distributed to the team and early contributors. Tokens are locked for the first 6
+months, then vesting on a prorated basis over the next 18 months.
+yy                                                                                                         Advisors: Tokens allocated to key advisors, critical to the success of the project.
+page 45
+
+
+
+
+Token
+11                                                                                                 Sale
+Use of Funds
+4%
+Reserve
+6%
+Operations
+8%
+Business
+development                                                                                        45%
+Deployment
+/ Acquisition
+37%
+Product
+development
+Hard Cap                                                                                           46,000 ETH
+HARA will use the proceeds raised from the Initial Token Sale to continue building data exchange
+platform and to grow and expand HARA Ecosystem. This includes:
+yy                                                                                                 Deployment/Acquisition: Covers the deployment and acquisition costs of engaging and
+onboarding data providers and buyers at scale. Initial focus will be directed at onboarding
+smallholder farmers and other data providers while establishing strategic partnerships with
+cornerstone data buyers and value-added service providers.
+yy                                                                                                 Product Development: Covers the cost of developing HARA blockchain data exchange
+and related services, including but not limited to, creation of the blockchain and platform
+infrastructure, machine learning algorithms, and smart contracts.
+yy                                                                                                 Business Development: Covers the expansion of HARA across Southeast Asia and globally,
+with focus on countries on the equator line. This includes the cost of entering and establishing
+operations in new markets.
+yy                                                                                                 Operations: Covers operating expenses required to scale up the HARA business, including
+fees for external consultants such as legal and accounting.
+yy                                                                                                 Reserve: Funds for contingency reserve.
+page 46
+
+
+
+
+Our
+Partnerships                                                              12
+Dattabot
+Enriching HARA data with Dattabot - the pioneer of big data
+analytics in Indonesia
+BNI
+One of the largest financial institutions in Indonesia utilizing HARA
+data to disburse microcredits
+Pundi X
+HARA has teamed up with Pundi X to promote financial inclusion
+and bring digital payments to an untapped market of smallholder
+farmers in rural Indonesia.
+Bluzelle
+HARA and Bluzelle will optimize stakeholders’ income potential by
+extending data storage services to the HARA ecosystem.
+Blockchain for Social Impact
+HARA is a member of Blockchain for Social Impact Coalition (BSIC)
+— ConsenSys’ initiative to solve UN Sustainable Development Goals
+through blockchain solutions
+Asuransi Parolamas
+HARA and Parolamas are developing digital insurance products for
+smallholder farmers together
+Trace Alliance
+HARA joined the Trace Alliance, a network of companies and
+parties that are working on real blockchain solutions.
+Japan International Cooperation Agency
+HARA is partnering with the Public-Private-Partnership-Project for the
+improvement of the agriculture product marketing and distribution
+system. This is the technical cooperation project assisted by the
+Japan International Cooperation Agency (JICA)
+PRISMA
+PRISMA, a multi-year program under the AIP-Rural, and HARA
+collaborate together to help spur growth in the agriculture value chain
+HEXA Agro
+HEXA Agro (offtaker) will act as data buyer in HARA ecosystem and
+will help to establish a closed loop farming ecosystem
+page 47
+
+
+
+
+Our
+Partnerships                                                             12
+BridgeX Network
+BridgeX Network will help facilitate the conversion between crypto and
+fiat currencies in the HARA ecosystem.
+African Business Institute
+ABI represents HARA in Africa and will serve as a bridge of
+communication between various key stakeholders
+BOI Research
+HARA is engaging with BOI Research - the research partner who
+enriches data from exchange
+Haluan Rekadaya Konsultindo (HRK)
+HARA and HRK   team up to develop better solutions for the food and
+agriculture sector
+XCHNG
+HARA is partnering with XCHNG, a blockchain-based framework for the
+digital advertising ecosystem
+Synchro
+HARA partners up with Synchro, a data transmission and distribution
+service from Indonesia
+Universitas Muhammadiyah Gresik
+HARA and UMG are conducting a study on the developments of
+blockchain in the agriculture sector in Indonesia.
+TeleCTG
+HARA expands to the healthcare by partnering with TeleCTG, a
+medical technology start-up.
+Liquid
+The upcoming pre-sale and public sale of the HARA Token (HART) can
+be joined through Liquid, the exchange run by QUOINE.
+Tokenomy
+The upcoming pre-sale and public sale of HARA Token (HART) can be
+joined through Tokenomy platform.
+page 48
+
+
+
+
+Token
+13                  Flow
+HARA
+Seeding Fund
+SUPPLY                                DEMAND
+Farmers             ECOSYSTEM         INSTITUTIONAL
+Field               HARA Suite Apps   Banks
+Officers
+Data
+Qualifiers          HARA DATA         HARA FOR        HART   DATA
+                    ACQUISITION       BUSINESS        SCAN              NGOs
+                                                             EXCHANGE
+Airdrop /
+Bounties
+HARA DATA           HARA AGRO         HARA
+QUALIFICATION       COMPANION         CRYPTO
+WALLET
+Finance
+HARA POINT
+OF SALE
+Government
+HARA Partner Apps
+NETWORK OPERATORS
+Dapps
+FREE MARKET
+Crypto Exchanges
+Token Flow
+page 49
+
+
+
+
+Concluding
+14                                                                                                  Remarks
+Dattabot, as a leading big data company in Indonesia, has been successfully providing access
+to data and bring valuable insights across industries since its establishment in 2003. With our
+experience in combining AI and blockchain technology, we believe it is now the time to pursue
+the next phase of our mission: data democratization for the world’s most socially impactful
+sectors. We began with the agriculture and food sector because we believe we should start at
+the bottom of the pyramid and touch the largest, yet the most likely to suffer from economic and
+informational inequalities. If we agree that the agriculture and food sector is the foundation of
+how we can alleviate poverty and bring economic and social benefits to many, then this is where
+we need to start.
+Rapid growth of the world population has made food security a critical issue in the near future.
+The challenge is not only to increase production but also to reduce productivity loss that counts
+almost 30% across the value chain. We believe that near-time valuable data are crucial for the
+agriculture and food sector to become more productive, inclusive, and resilient. To address this
+challenge, we are developing HARA as the first end-to-end solution for all stakeholders in the
+data exchange market and starting with agriculture and food sector value chain. The greater
+the access to valuable agriculture data, the more applications of the data that people will find.
+Furthermore, it is only the beginning. The HARA Data Exchange Platform will expand to the value
+chains of health, transportation, education, and recreation sectors to amplify the impact of HARA
+tokens to larger population.
+The challenge now is to encourage adaptation and implementation of HARA Data Exchange
+Platform as impactful and as universal as possible. Contributing tokens to HARA platform will
+create opportunities to transform the lives of others.
+Together, we can empower billions, one byte at a time.
+page 50
+
+
+
+
+Important
+15                                                                                       Notices
+THE HARA TOKENS ARE NOT SECURITIES OR UNITS IN A COLLECTIVE INVESTMENT SCHEME OR
+BUSINESS TRUST, EACH AS DEFINED UNDER SINGAPORE’S SECURITIES AND FUTURES ACT (CAP.
+289) (“SFA”). ACCORDINGLY, THE SFA DOES NOT APPLY TO THE OFFER AND SALE OF HARA
+TOKENS. FOR THE AVOIDANCE OF DOUBT, THIS INITIAL OFFERING OF HARA TOKENS NEED NOT BE
+ACCOMPANIED BY ANY PROSPECTUS OR PROFILE STATEMENT AND NO PROSPECTUS OR PROFILE
+STATEMENT NEEDS TO BE LODGED WITH THE MONETARY AUTHORITY OF SINGAPORE (“MAS”).
+THIS WHITE PAPER DOES NOT CONSTITUTE, AND IS NOT INTENDED TO BE, AN OFFER OF, OR AN
+INVITATION TO PURCHASE, SECURITIES OR ANY OTHER FINANCIAL OR INVESTMENT INSTRUMENT
+IN ANY JURISDICTION. THIS WHITE PAPER ALSO DOES NOT CONSTITUTE AN OFFER OF, OR AN
+INVITATION TO PURCHASE, HARA TOKENS IN ANY JURISDICTION IN WHICH SUCH OFFER OR SALE
+WOULD BE UNLAWFUL. NO REGULATORY AUTHORITY IN SINGAPORE, INCLUDING THE MAS, HAS
+REVIEWED, OR APPROVED OR DISAPPROVED OF, HARA TOKENS OR THIS WHITE PAPER. THIS WHITE
+PAPER AND ANY PART HEREOF MAY NOT BE DISTRIBUTED OR OTHERWISE DISSEMINATED IN ANY
+JURISDICTION WHERE OFFERING TOKENS IN THE MANNER SET OUT THIS WHITE PAPER IS REGULATED
+OR PROHIBITED.
+THE INFORMATION IN THIS WHITE PAPER IS CURRENT ONLY AS OF THE DATE ON THE COVER
+HEREOF. FOR ANY TIME AFTER THE COVER DATE OF THIS WHITE PAPER, THE INFORMATION
+HEREIN (INCLUDING INFORMATION CONCERNING HARA TECHNOLOGY PTE LTD’S BUSINESS
+OPERATIONS AND FINANCIAL CONDITION) MAY HAVE CHANGED. NEITHER THE DELIVERY OF THIS
+WHITE PAPER NOR ANY SALE MADE IN THE RELATED INITIAL TOKEN OFFERING SHALL, UNDER ANY
+CIRCUMSTANCES, CONSTITUTE A REPRESENTATION THAT NO SUCH CHANGES HAVE OCCURRED.
+HARA TECHNOLOGY PTE LTD DOES NOT MAKE OR PURPORT TO MAKE, AND HEREBY DISCLAIMS ALL
+RESPONSIBILITY AND LIABILITY FOR, ANY REPRESENTATION, WARRANTY, UNDERTAKING, OR OTHER
+ASSURANCE IN ANY FORM WHATSOEVER TO ANY PERSON, INCLUDING ANY REPRESENTATIONS,
+WARRANTIES, UNDERTAKINGS, OR OTHER ASSURANCES IN RELATION TO THE TRUTH, ACCURACY,
+OR COMPLETENESS OF ANY PART OF THE INFORMATION IN THIS WHITE PAPER.
+WHETHER TAKEN AS A WHOLE OR READ IN PART, THIS WHITE PAPER IS NOT, AND SHOULD NOT BE
+REGARDED AS, ANY FORM OF LEGAL, FINANCIAL, TAX, OR OTHER PROFESSIONAL ADVICE. HARA
+TECHNOLOGY PTE LTD DOES NOT REPRESENT THAT THIS WHITE PAPER DISCLOSES ALL RISKS AND
+OTHER SIGNIFICANT ASPECTS ASSOCIATED WITH HARA TOKENS AND/OR HARA TECHNOLOGY
+PTE LTD. YOU SHOULD SEEK INDEPENDENT PROFESSIONAL ADVICE BEFORE MAKING YOUR OWN
+DECISION AS TO WHETHER OR NOT TO PURCHASE ANY HARA TOKENS. YOU ARE RESPONSIBLE
+FOR ANY AND ALL EVALUATIONS, ASSESSMENTS, AND DECISIONS YOU MAKE IN RELATION TO
+PURCHASING HARA TOKENS. YOU MAY REQUEST FOR ADDITIONAL INFORMATION FROM HARA
+TECHNOLOGY PTE LTD IN RELATION TO THIS OFFER OF HARA TOKENS. HARA TECHNOLOGY PTE LTD
+MAY, BUT IS NOT OBLIGED TO, DISCLOSE SUCH INFORMATION DEPENDING ON WHETHER (I) IT IS
+LEGAL TO DO SO AND (II) THE REQUESTED INFORMATION IS REASONABLY NECESSARY TO VERIFY
+THE INFORMATION CONTAINED IN THIS WHITE PAPER.
+UPON PURCHASING ANY HARA TOKENS, YOU WILL BE DEEMED TO HAVE REVIEWED THIS WHITE
+PAPER (AND ANY INFORMATION YOU MAY HAVE REQUESTED AND OBTAINED FROM HARA
+TECHNOLOGY PTE LTD) IN FULL AND TO HAVE AGREED TO THE TERMS OF THIS OFFERING OF
+HARA TOKENS, INCLUDING TO THE FACT THAT THIS OFFERING DOES NOT FALL WITHIN THE SCOPE
+OF ANY SECURITIES LAWS IN SINGAPORE AND IS NOT REGULATED BY THE MAS. YOU FURTHER
+ACKNOWLEDGE AND AGREE THAT THE HARA TOKENS ARE NOT SECURITIES AND ARE NOT MEANT
+TO GENERATE ANY FORM OF INVESTMENT RETURN. PERSONS CONSIDERING INVESTING IN HARA
+TOKENS ARE RESPONSIBLE FOR CONDUCTING THEIR OWN DUE DILIGENCE ON HARA TECHNOLOGY
+PTE LTD AND THE HARA TOKENS, AND SHOULD ENSURE THAT THEY UNDERSTAND AND ARE ABLE TO
+BEAR THE RISKS OF PURCHASING HARA TOKENS.
+page 51
+
+
+
+
+Important
+15                                                                                        Notices
+THE PLATFORM, HARA TOKENS, AND ANY RELATED SERVICES PROVIDED BY HARA TECHNOLOGY
+PTE LTD ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. HARA TECHNOLOGY PTE
+LTD DOES NOT GRANT ANY WARRANTIES OR MAKE ANY REPRESENTATION, EXPRESS OR IMPLIED
+OR OTHERWISE, AS TO THE ACCESSIBILITY, QUALITY, SUITABILITY, ACCURACY, ADEQUACY, OR
+COMPLETENESS OF THE PLATFORM, HARA TOKENS, OR ANY RELATED SERVICES PROVIDED
+BY HARA TECHNOLOGY PTE LTD, AND EXPRESSLY DISCLAIMS ANY LIABILITY FOR ERRORS,
+DELAYS, OR OMISSIONS IN, OR FOR ANY ACTION TAKEN IN RELIANCE ON, THE \ PLATFORM,
+HARA TOKENS, AND ANY RELATED SERVICES PROVIDED BY HARA TECHNOLOGY PTE LTD. NO
+WARRANTY, INCLUDING THE WARRANTIES OF NON-INFRINGEMENT OF THIRD PARTY RIGHTS, TITLE,
+MERCHANTABILITY, SATISFACTORY QUALITY, OR FITNESS FOR A PARTICULAR PURPOSE, IS GIVEN IN
+CONJUNCTION WITH THE PLATFORM, HARA TOKENS, AND ANY RELATED SERVICES PROVIDED BY
+HARA TECHNOLOGY PTE LTD.
+page 52
+
+
+
+
+Risk
+16                                                                                                    Factors
+Regulatory risks. The regulation of tokens such as HARA Tokens is still in a very nascent stage of
+development in Singapore. A high degree of uncertainty as to how tokens and token-related
+activities are to be treated exists. The applicable legal and regulatory framework may change
+subsequent to the date of issuance of this White Paper. Such change may be very rapid and it is
+not possible to anticipate with any degree of certainty the nature of such regulatory evolution.
+HARA TECHNOLOGY PTE LTD does not in any way represent that the regulatory status of HARA
+Tokens will remain unaffected by any regulatory changes that arise at any point in time before,
+during, and after this offering.
+No regulatory supervision. None of HARA TECHNOLOGY PTE LTD or its affiliates is currently
+regulated or subject to the supervision of any regulatory body in Singapore. In particular, HARA
+TECHNOLOGY PTE LTD and its affiliates are not registered with MAS in Singapore as any type of
+regulated financial institution or financial advisor and are not subject to the standards imposed
+upon such persons under the Securities and Futures Act, Financial Advisors Act, and other related
+regulatory instruments. Such persons are required to comply with a variety of requirements and
+standards concerning disclosures, reporting, compliance, and conduct of their operations for
+purposes or maximizing investor protections. Since HARA TECHNOLOGY PTE LTD is not subject to
+such requirements or standards, it will make decisions on those issues at its own discretion. While
+HARA TECHNOLOGY PTE LTD will have regard to best practices on these issues, holders of HARA
+Tokens will not necessarily enjoy the same extent and degree of investor protections as would be
+the case should they purchase products or services from regulated entities instead.
+Regulation from jurisdictions other than Singapore. The regulatory risks described herein
+take into consideration Singapore law only. If it is anticipated that HARA Tokens will be sold or
+resold outside Singapore, this would subject HARA TECHNOLOGY PTE LTD or your HARA Tokens to
+non-Singapore legal requirements. These legal requirements may be significant. Non-Singapore
+regulation could involve the same types of changes and outcomes described above with
+respect to Singapore regulation, and may negatively affect the value of HARA Tokens or cause
+HARA TECHNOLOGY PTE LTD to cease operations.
+No fiduciary duties owed. As HARA TECHNOLOGY PTE LTD is not a regulated financial
+institution, it does not owe investors in HARA Tokens any fiduciary duties. This means that HARA
+TECHNOLOGY PTE LTD has no legal obligation to always act in good faith in the best interests
+of holders of HARA Tokens. While HARA TECHNOLOGY PTE LTD will have regard to the interests
+of holders of HARA Tokens, it is also permitted to consider the interests of other key stakeholders
+and to prefer these interests over the interests of HARA Token holders. This may mean that HARA
+TECHNOLOGY PTE LTD is permitted to make decisions that conflict with, or are not necessarily in,
+the interests of HARA Tokens holders. Not owing any fiduciary duties to holders of HARA Tokens
+also means that holders of HARA Tokens may have limited rights of recourse against HARA
+TECHNOLOGY PTE LTD and its affiliates in the event of disputes.
+Tax risks. The tax characterization of HARA Tokens is unclear. Accordingly, the tax treatment
+to which they will be subject is uncertain. All persons who wish to purchase HARA Tokens should
+seek independent tax advice prior to deciding whether to purchase any HARA Tokens. HARA
+TECHNOLOGY PTE LTD does not make any representation as to whether any tax consequences
+may arise from purchasing or holding HARA Tokens.
+page 53
+
+
+
+
+Risk
+16                                                                                                        Factors
+Risks from third parties. The tokenized nature of HARA Tokens means that they are a
+blockchain-based asset. The security, transferability, storage, and accessibility of blockchain
+assets depends on factors outside of HARA TECHNOLOGY PTE LTD’s control, such as the security,
+stability, and suitability of the underlying blockchain (in this case, the [Ethereum] blockchain),
+mining disruptions, and who has access to the private key of any wallet where HARA Tokens are
+stored. HARA TECHNOLOGY PTE LTD does not represent or otherwise assure that it can prevent
+such external factors from having any direct or indirect adverse impact on any of HARA Tokens.
+Persons intending to purchase HARA Tokens should note that adverse events caused by such
+external factors may results in the loss of some or all HARA Tokens purchased. Such loss may be
+irreversible. HARA TECHNOLOGY PTE LTD is not responsible for taking steps to retrieve HARA Tokens
+lost in this manner.
+Risks of purchasing HARA Tokens. HARA TECHNOLOGY PTE LTD cannot and does not
+guarantee or otherwise assure that there are no risks in relation to your purchase of HARA Tokens.
+The purchase of HARA Tokens may, depending on the manner in which the relevant purchase
+is effected, involve third parties or external platforms (e.g., wallets). The involvement of such
+parties or platforms may introduce risks that would not otherwise be present, such as misconduct
+or fraud by the third party, or your failure to receive HARA Tokens upon duly making payment
+because of a third-party wallet’s incompatibility with HARA Tokens. HARA TECHNOLOGY PTE LTD
+is not responsible for any risks arising due to the involvement of third parties, including the risk of
+not receiving (or subsequently losing) any or all HARA Tokens you attempt to (or successfully)
+purchase.
+Vulnerability to cyberattacks. The platform and Services are available for use in part by
+leveraging on distributed computing and storage resources available through wide area network
+connections (the “Cloud”). As a result, the Services are susceptible to a number of risks related
+to Cloud-based computing and data storage. While HARA TECHNOLOGY PTE LTD does not have
+access to the encrypted contents of the data stored through the Services, the Services may
+involve the storage of large amounts of sensitive and/or proprietary information, which may be
+compromised in the event of a cyberattack or other malicious activity. Similarly, the Services may
+be interrupted and files may become temporarily unavailable in the event of such an attack or
+malicious activity. Because users can use a variety of hardware and software that may interface
+with the platform, there is the risk that the Services may become unavailable or interrupted
+based on a failure of interoperability or an inability to integrate these third-party systems and
+devices that HARA TECHNOLOGY PTE LTD does not control with HARA TECHNOLOGY PTE LTD’s
+Services. The risk that the Services may face increasing interruptions and the platform may face
+additional security vulnerabilities could adversely affect the platform and, therefore, the future
+value and utility of your HARA Tokens.
+Vulnerability to mining attacks. As with other decentralized cryptographic tokens based on
+the [Ethereum] protocol, your HARA Tokens are susceptible to attacks by miners in the course of
+validating the Token transactions on the [Ethereum] blockchain. Such attacks include double-
+spend attacks, majority mining power attacks, and selfish-mining attacks, among others. Any
+successful attack presents a risk to your HARA Tokens and the platform, including, but not limited
+to, accurate execution and recording of transactions involving your HARA Tokens.
+Disruption in operations. Technical difficulties may affect HARA TECHNOLOGY PTE LTD or its
+affiliates. Such disruptions may prevent your access to or use of HARA Tokens or the platform.
+While HARA TECHNOLOGY PTE LTD   will take all reasonable steps to prevent or mitigate the
+impact of such disruptions on its provision of services and its operations in general, there can be
+no guarantee that all such disruptions may be successfully prevented.
+page 54
+
+
+
+
+Risk
+16                                                                                                          Factors
+No guarantee of value of HARA Tokens. There is no guarantee that your HARA Tokens will hold
+their value or increase in value. You may lose the entire, or part of the, amount of any payment
+you made for HARA Tokens. If you are financing your purchase of HARA Tokens and the value of
+your HARA Tokens decreases, you may be unable to repay the loan used to purchase your HARA
+Tokens. There is considerable uncertainty about their long-term viability, which could be affected
+by a variety of factors, including market-based factors such as economic growth. In addition, the
+success of your HARA Tokens will depend on whether blockchain and other new technologies
+related to your HARA Tokens turn out to be useful and economically viable. HARA TECHNOLOGY
+PTE LTD does not control any of these factors, and therefore may not be able to control the long-
+term success of your HARA Tokens as a feature of the platform, or the ability of your HARA Tokens
+to maintain their value. HARA TECHNOLOGY PTE LTD provides no guarantee that the amount of
+your HARA Tokens you purchase will retain their value. You may lose all or some of that value. HARA
+TECHNOLOGY PTE LTD does not plan to maintain any type of bond or trust account designed to
+protect holders of your HARA Tokens. Even if HARA TECHNOLOGY PTE LTD did so, you should be
+aware that any bond or trust account maintained by HARA TECHNOLOGY PTE LTD for the benefit
+of its customers may not be sufficient to cover all losses incurred by holders of HARA Tokens.
+Volatility of HARA Tokens. The volatility and unpredictability of the price of HARA Tokens relative
+to other virtual and fiat currencies may result in significant loss over a short period of time. Although
+HARA Tokens cannot be purchased with fiat currency, the value of the cryptocurrencies that may
+be used to purchase HARA Tokens can be. As a result, the value of HARA Tokens may in part be
+affected by or derived from the continued willingness of market participants to exchange fiat
+currency for cryptocurrencies. Changes in such currencies relative to each other as well as to fiat
+currencies may accordingly affect the price and, in turn, the value of HARA Tokens.
+Level of demand for HARA Tokens not assured or constant. It is possible that there will be
+minimal to no demand for your HARA Tokens. In such an event, the short-term and long-term
+viability of your HARA Tokens and the platform will be in doubt, and HARA TECHNOLOGY PTE
+LTD may terminate your HARA Tokens and cease all operations. Moreover, the cryptocurrency
+market is a new and untested market, the characteristics and behavior of which, in the context
+of domestic and global markets, is not fully understood. The level of demand for HARA Tokens
+cannot be accurately predicted or projected.
+Use and continued acceptance of HARA Tokens. Although HARA Tokens may be accepted
+as payment at any point in time, there is no assurance that HARA Tokens will still be accepted as
+payment (or as a medium of exchange) at any subsequent point in time.
+Risks in holding HARA Tokens. If you store your HARA Tokens in a hot wallet or certain types
+of cold wallets, your HARA Tokens balance will be associated with the public key address of
+your wallet and, in turn, your private key address. You are responsible for knowing your private
+key address and keeping it a secret. Because a private key, or a combination of private keys, is
+necessary to control and dispose of HARA Tokens stored in your digital wallet or vault, the loss of
+one or more of your private keys associated with your digital wallet or vault storing HARA Tokens
+will result in the loss of your HARA Tokens. Moreover, any third party that gains access to one or
+more of your private keys, including by gaining access to login credentials of a hosted wallet
+service you use, may be able to misappropriate your HARA Tokens. HARA TECHNOLOGY PTE LTD
+and its affiliates will never ask you for your private key address, and you should never share this
+information with someone you do not know and trust.
+page 55
+
+
+
+
+Risk
+16                                                                                                       Factors
+Reversal of transactions. Transactions of HARA Tokens may be irreversible. This includes
+transactions made fraudulently, erroneously, or accidentally. HARA Tokens involved in such
+irreversible transactions may not be recoverable. HARA TECHNOLOGY PTE LTD does not
+anticipate that it will redeem HARA Tokens from holders of HARA Tokens for any reason.
+Token supply. The supply of HARA Tokens may decrease for various reasons, including reasons
+outlined in this section on risk factors. In addition, if a wallet is lost, HARA Tokens stored therein
+may not reenter the Token supply. Alternatively, HARA TECHNOLOGY PTE LTD may burn any
+number of HARA Tokens. Burning HARA Tokens will destroy the HARA Tokens and reduce the
+overall HARA Tokens supply. The supply of HARA Tokens may increase should HARA TECHNOLOGY
+PTE LTD decide, after having issued and distributed the maximum number of HARA Tokens in its
+initial token offering, to have one or more token generation events.
+Subsequent sale and exchange. HARA Tokens may be sold on exchanges or directly between
+parties after the close of the initial token offering for fiat or other cryptocurrencies. However,
+there is no guarantee that such a secondary market will develop or that mechanisms for such
+secondary trading will develop or be available at any given time. HARA TECHNOLOGY PTE LTD is
+not involved in operating these exchanges and is not responsible for encouraging them or any
+other person to transact in HARA Tokens. It should additionally be noted that cryptocurrency
+exchanges may be newly established and subject to little or no regulatory supervision and, as
+a consequence, more vulnerable to attacks, fraud, or manipulation. Fluctuations in the value
+ascribed to HARA Tokens on any cryptocurrency exchange may affect the value of HARA Tokens
+on other cryptocurrency exchanges. Regulatory restrictions may apply on the resale of HARA
+Tokens, whether under Singapore law or the law of any other jurisdiction.
+No assured use of HARA Tokens on platforms other than the platform. HARA Tokens are
+designed for use on the platform. Although third parties may also build systems that also allow
+the use of HARA Tokens, HARA TECHNOLOGY PTE LTD does not anticipate any involvement in
+those uses of HARA Tokens and has no responsibility for them. There is no guarantee that any third
+parties will develop alternative uses of your HARA Tokens.
+No participation in operations. Holding HARA Tokens does not confer any right to vote on, be
+consulted about, or have a say in (i) any aspect of HARA TECHNOLOGY PTE LTD’s management
+or (ii) how the platform is administered, developed, or governed. As a result, HARA Token holders
+will not have control over the platform or HARA Tokens and may not prevent or prohibit HARA
+TECHNOLOGY PTE LTD from making decisions that may adversely affect the platform or HARA Tokens.
+Cessation of operations. There is no guarantee that HARA TECHNOLOGY PTE LTD or any of its
+affiliates will continue as viable companies. The utility and value of HARA Tokens depend on
+HARA TECHNOLOGY PTE LTD’s success and support of the platform. If HARA TECHNOLOGY PTE LTD
+ceases operations and goes out of business, you may lose 100% of the value of your HARA Tokens.
+page 56
+
+
+
+
+Whitepaper v1.02
+Updated: November 19, 2018
+
+
+
+
+

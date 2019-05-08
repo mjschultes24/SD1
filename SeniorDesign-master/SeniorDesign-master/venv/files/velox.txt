@@ -1,0 +1,662 @@
+﻿Table of Contents:
+Velox Project Overview              3
+Intro                               3
+The Current and Growing Issue       3
+Velox Project = The Solution        3
+Roadmap                             4
+VeloxCoin [VLX]                     5
+Overview                            5
+Coin Information and Distribution   5
+Planned Buy-Back Information        6
+Future Use                          6
+VeloxCoin [VLX] Exchange
+(VLX Exchange)                      6
+Overview                            6
+Infrastructure                      6
+VeloxBolt Transition                7
+Future/Post-Transition Use          7
+VeloxBolt Exchange (VeloxBolt)      8
+Overview                            8
+Revenue Model                       8
+Addressing Points-of-Failure        9
+Features                            10
+Fiat Policy                         11
+Planned Release                     11
+Velox Novum Wallet (vNovum)         12
+Overview                            12
+Security                            12
+Decentralized Trading               12
+Velox Bolt Pairing                  13
+Additional Features                 13
+Open-Source Conditions              14
+Planned Release                     14
+2
+
+
+
+
+Velox Project Overview
+Intro                                                                     Velox Project = The Solution
+The  dawn  of  crypto  currency  envisioned  a                            The only solution to the unsettling reality that
+future where transacting digital currency will                            is becoming of crypto currency, is a collective,
+be   anonymous,   peer   to   peer,   free   of                           disruptive  reboot  of  the  whole  system,  with
+governance   and   transparent   thanks   to                              those  who  are  dedicated  to  upholding  the
+Blockchain technology. This was the vision of a                           original  structure  and  purpose  of  crypto
+notorious,   yet   revolutionary   figure   known                         currency in their own proposed way.
+commonly   by   the   pseudonym   Satoshi                                 Every  day,  new  decentralized  projects  are
+Nakamoto,  the  unknown  founder  of  the                                 established,  joining  this  movement  with  a
+Blockchain  technology  and  Bitcoin,  the  first                         common goal of decentralization, anonymity
+crypto currency bought into existence.                                    and  freedom.  The  Velox  Project,  a  group  of
+As years pass, Bitcoin, and most of the crypto                            like-minded individuals, have formed with this
+currency market that came after it, is gradually                          common   goal   and   the   core   focus   of
+moving away from the values and core beliefs                              decentralization & anonymity.
+entailed  in  Satoshi’s  vision  and  has  moved                          The Velox Project will be focusing on these
+closer  toward  the  very                              “governed  money   two very important aspects by creating a set of
+system”  that  it  was  meant  to  replace.  A                            advanced, disruptive utilities and services that
+direction in which we do not believe is the way                           is open for anyone around the world to use
+the crypto currency was originally envisioned.                            with absolutely zero restriction and enhanced
+This is where the Velox project will attempt a                            privacy.  These  planned  utilities  and  services
+hard fork and change this current course of                               will  be  thoroughly  covered  throughout  this
+cryptocurrency,   by   developing   a   set   of                          document  and  are  listed  in  our  project
+disruptive  utilities  and  tools  that  will  allow                      roadmap (see following page) which lists our
+cryptocurrency  users  all  over  the  world  to                          completed  (Q4  2017-Q1  2018) and ongoing
+transact & trade digital currency anonymously,                            targets we aim to accomplish. Our roadmap is
+in  a  completely  peer  to  peer  fashion,  and                          updated  every  quarter,  most  recently  being
+eventually without a governing/third party. The                           toward the end of Quarter One (Q1) of 2018.
+way it was meant to be.
+The Current & Growing Issue
+Crypto Currency exchanges in the current day
+and age have moved a long way from their
+original structure at the beginning phases of
+crypto   currency.   What   used   to   be   a
+semi-anonymous  and  seamless  process  to
+trade  between  one  crypto  currency  and
+another has become a heavily regulated and
+di  cult process for users all over the world,
+arguably   caused   by   adoption   of   crypto
+currency majorly by centralized institutions.
+The adoption by centralized institutions has
+forced  exchanges  to  adopt  the  current  fiat
+monetary structure that we most use in our
+day to day lives into crypto currency. Adopting
+this system which arguably discourages some
+of the core foundations of Satoshi’s vision, the
+freedom of money & anonymity.
+Over time this current direction of the crypto
+currency exchanges and platforms, has made
+the revival the core values of crypto currency,
+along   with   the   ability   to   transact   and
+exchange crypto currency without a regulatory
+party, a little less possible almost impossible.
+3
+
+
+
+
+4
+
+
+
+
+VeloxCoin [VLX]
+Overview
+VeloxCoin is a Proof-of-Work/Proof-of-Stake (POW/POS) hybrid which comprises the digital aspect of the
+Velox Project. Each quarter, a percentage of profit accumulated from revenue generated by the utilities
+and services offered by the Velox Project, will be used towards VeloxCoin [VLX] “buy-¬backs”, performed
+on-exchange by the team, this will reduce the overall circulating supply of VeloxCoin [VLX] in the market
+and strengthen the VeloxCoin [VLX] community as well as the marketplace overall. VeloxCoin [VLX] is
+the only aspect of the Velox Project externally tradable, the rest of the Velox Project utilities and services
+will reside exclusively on the VeloxCoin [VLX] platform. All other Velox-associated currencies are not
+(such as the Velox Utility Currency) do not have any value outside of its designated platform.
+Distribution
+80% Distribution via Proof-Of-Work (up to Block #10000)
+and Proof-of-Stake
+9% Supply Allocation to Marketing and Public Relations
+7.5% Supply Allocation to Development Team & Staff
+3% Allocation to Bounty & Translation Campaigns
+0.5% Initially Sold Supply
+Coin O   cial Name                                                                                               Coin Code/Abbreviation
+VeloxCoin                                                                                                        VLX
+Maximum Supply                                                                                                   Address Prefix
+124,000,000 VLX                                                                                                  V
+Coin Type                                                                                                        Coin Algorithm
+Limited                                                                                                          POW/POS   Scrypt
+POW Block Reward                                                                                                 Proof-of-Stake Interest (APR)
+240 VLX                                                                                                          13%
+Last Proof-of-Work Block                                                                                         Proof-of-Stake Maturity
+#10000                                                                                                           20 Blocks
+Block Time  Target                                                                                               Block Spacing Target
+64 Seconds                                                                                                       1 Block
+5
+
+
+
+
+Planned Buy-Back                                                                                               Future-Use
+                                                                                                               VeloxCoin  [VLX]  will  always  serve  as  a  valid
+information
+                                                                                                               form of digital currency which can be used on
+VeloxCoin [VLX] purchased via the “Buy-Back”
+                                                                                                               all  Velox  utilities  and  services.  VLX  will  also
+process, will be locked in a designated wallet
+                                                                                                               become  a  permanent  share  into  the  Velox
+until  the  next  quarters  buy-back.  When  the
+                                                                                                               project’s which can be traded freely (as usual)
+next VLX buy-back period is in progress, the
+                                                                                                               after the designated buy-back cap (64,000,000
+VLX purchased from the previous quarter will
+                                                                                                               VLX) has been reached.
+be destroyed and become unrecoverable. This
+is also referred to as a “Coin Burn”.
+The buy-back amount will be determined by
+the  amount  of  profit  made  by  all  active
+platforms after each quarter. This profit will be
+calculated  in  a  Bitcoin  [BTC]  value  and  the
+amount bought-back will be measured based
+on VLX/BTC markets.
+A  maximum  of  64,000,000  VLX  can  be
+bought-back over time in total (51.6% of Total
+Supply).
+VeloxCoin [VLX] Exchange
+Overview
+The VLX Exchange will provide a temporary, yet instant & safe way, to exchange VeloxCoin [VLX] with a
+number of pairs upon the launch of the Velox Project. This is to reach the initial 0.5% VLX distribution, to
+instantly offer a means of exchange for VeloxCoin [VLX] holders and to create an operational real-world
+environment for the future open-source version of the platform.
+The Velox Project has transformed the outdated & centralized WLOX open-source platform into a simple
+yet secure, fast & anonymous exclusively cryptocurrency exchange with absolutely no limitation for users
+all over the globe.
+Infrastructure
+The VLX Exchange is developed on the basis of the WLOX project codebase, an abandoned fiat/crypto
+open source exchange project created by Crypto Capital in 2014. The original source code has been
+stripped  down,  adjusted  and  re-developed  by  the  Velox  Development  Team  into  an  exclusively
+cryptocurrency  exchange  with  the  most  up-to-date  security  mechanisms  &  protocols,  a  new  fully
+anonymous user structure and an effective yet simple trading engine for VLX pairs.
+The VLX Exchange consists of a complete security & backend upgrade from the WLOX code to maximize
+user security, incorporating the most up-to-date security standards, measures and protocols. All FIAT
+and banking related features have been completely removed from the VLX Exchange Platform.
+The VLX Exchange has a dual purpose, initially it will act as a fully functional exchange during the first
+phase of launch, and once the VeloxBolt Platform is launched, it (VLX Exchange) will then become an
+open-source exchange project to allow new exchange platform owners access to a new, secure &
+revamped codebase as opposed to the outdated and abandoned WLOX project. This transition is further
+explained in “Future/Post-Transition Use”.
+6
+
+
+
+
+VeloxBolt Transition
+The transition from the VLX Exchange to VeloxBolt will be seamless and require little to no effort on the
+client end. Users of the VLX Exchange will automatically have their accounts migrated to the VeloxBolt
+platform on community-beta release prior to complete commencement.
+VLX Exchange users will be given two clear reminders prior to the transition one week and one day before
+the  transition  respectively.  These  reminders  will  be  broadcasted  via  all  Velox  social  and  direct
+communication channels including:
+Email to VLX Exchange provided email (if any & if opted in)
+Forum Boards: BitcoinTalk, BitcoinGarden
+Social Media: Twitter, Facebook, Medium
+Communication Channels: Telegram, Discord, Slack
+All channels will be notified to ensure all users are aware of the upcoming transition.
+During this one-week period, users will be requested to complete the following:
+Backup any trades they wish to keep on record, though this information will be available on request in .csv format
+for some time after the transition.
+Withdraw any balances if they would not like their balance transferred to the VeloxBolt platform
+Ensure their account information is correct and written down so that they can login without issue into the
+VeloxBolt platform after the transition is complete.
+All VLX Exchange users will still be able to trade, deposit and withdraw up until the transition commences.
+There will be a set time and countdown offered closer to the date.
+Once the transition period has ended, all exchange functions will be deactivated on the Velox Exchange and
+all users, accounts and balances will be migrated across to the VeloxBolt platform. After confirmation from
+the development and security team that the migration has been successfully completed, users will be able
+login into the VeloxBolt platform with the same login information that they used for the VLX exchange. All
+users will then have full access to their accounts and admin functionality.
+Once  the  transition  has  been  completed,  The  VLX  Exchange  domain  will  redirect  to  the  VeloxBolt
+platform where a notice will be presented for users who were not aware of the transition notifying that their
+VLX Exchange credentials will still be accessible and trade history upon request, along with detailed
+information regarding the overall transition process that took place.
+During the transition process all VLX Exchange functions will be disabled. The transition is expected to be
+completed in approx. 3 hours, however to ensure the transition takes place in the smoothest and most
+secure fashion possible, this expected time frame may be subject to slight delay.
+Future/Post-Transition Use
+The Velox Project will continually strive to strengthen the support for the decentralization & anonymity
+movement by offering utilities and services that do not require personal information to access and have very
+minimum central control. The WLOX Open-Source Exchange codebase, being the base coding of the VLX
+Exchange,  was  built  and  designed  in  2014  by  Crypto  Capital  as  a  centralized  &  institutional  based
+infrastructure for FIAT to Crypto  (and vice versa) use. As aforementioned, all FIAT and banking related
+features were stripped away in the creation of the VLX Exchange code and customized to create a modern,
+cryptocurrency exclusive exchange platform.
+The ultimate goal of making the VLX Exchange platform open-source, is to offer a modern cryptocurrency
+exchange codebase that will constantly be updated by an interested and vested community while being
+fully supported and semi-managed by the Velox Project Developers. The intent is to frequently update the
+source code with up-to-date security & functionality updates, to facilitate future new exchanges to benefit
+from the security and stability improvements of the infrastructure to ensure these new exchanges have
+minimal risk of exploitation and hacking.
+After the complete transition of the VLX Exchange into the VeloxBolt platform, the Velox Development
+Team will prepare the VLX Exchange platform codebase for complete open source access to the whole
+community, with the Velox source code project available on Github. This will allow users, developers and
+potential/existing exchange owners to freely interact and improve the platform, solve issues and easily build
+new functionalities using a stable resource that has been tested extensively and operated in a real time
+user-based environment, and worked on recently in modern conditions.
+7
+
+
+
+
+VeloxBolt Exchange
+Overview
+The  VeloxBolt  Anonymous  Cryptocurrency
+Exchange is one of the two vital components
+to  achieve  the  Velox  Project  vision.  The
+platform   is   a   completely   anonymous
+exchange  open  to  users  worldwide  and  is
+planned  to  be  one  of  the  most  secure,
+responsive    and    advanced    anonymous
+exchanges in operation. VeloxBolt will offer
+industry-grade  trading  facilities  that  will
+allow users to exchange hundreds of crypto
+currency pairs instantly with no limitations
+on  trading,  withdrawal,  or  deposits  and
+absolute privacy with no private or personal
+information  required  to  use  the  exchange,
+made possible by ZeroNet technology.
+The  VeloxBolt  platform  will  launch  as  a
+completely    anonymous    cryptocurrency
+exchange                                                                            with                                                                           planned   future
+developments  to  introduce  decentralized
+exchange  facilities  for  Bitcoin,  Ethereum
+(and others based on demand) pairs as well
+as instant swap services.
+Revenue Model
+The VeloxBolt Exchange will generate revenue from the following avenues:
+Revenue Stream                                                                      Description
+Standard Fee: 0.1% Maker Fee - 0.15% Taker Fee
+Trading Fees                                                                        Fees Paid in [VLX]: 0.075% Maker Fee - 0.125% Taker Fee
+Fees can be user-opted to be paid in VeloxCoin [VLX] which will incur a
+discount as shown above.
+Coins that do not opt to be directly listed but rather listed on our listing poll
+Paid Listing
+page are able to receive paid votes which yield higher power to free votes.
+We constantly accept new assets and coins to be accepted and listed onto
+Listing Fees
+our exchange, these listings can incur a fee.
+Private trades that are automatically escrowed by the VeloxBolt exchange
+Escrow Fees
+will incur dynamic fees depending on transaction size.
+Transfer Fees                                                                       VeloxBolt will charge small fees for account-to-account direct transfers and
+withdrawal fees.
+8
+
+
+
+
+Regulation & Takedowns
+The VeloxBolt platform has addressed the possibility of
+regulation and takedowns to prevent the possibility of
+downtime  by  utilizing  an  upgraded  and  updated
+version of the open-source ZeroNet technology to allow
+the platform to be served all over the world anonymous-
+ly and securely. By using ZeroNet technology to serve
+the VeloxBolt platform web interface, users who access
+the platform act as peers to strengthen the privacy and
+accessibility for both other users and their own environ-
+ments. The Velox Development Team will continuously
+refine and upgrade the ZeroNet protocols in prepara-
+tion for the VeloxBolt platform release to ensure the
+highest  level  of  privacy,  anonymity  and  security  is
+offered when accessing the platform and its features.
+To learn more about ZeroNet technology, please visit
+the ZeroNet website.
+With this being stated, The VeloxBolt platform will take
+on board requests to limit certain countries from access
+and is willing to adjust the way the platform operates
+for these specific countries if su  cient cause to do so is
+provided. The VeloxBolt platform, however, will not seize
+operation  for  certain  regions  if  there  is  no  su  cient
+reasoning and evidence to do so.
+Theft & Hacks
+Financial Theft
+Similarly, to the point above regarding Takedowns, the cryptocurrencies stored by the platform will be
+hosted o   ine with a partial reserve spread across multiple locked down servers which will act as the
+hot-wallet for the platform. The VeloxBolt platform has security mechanisms pre-tested in the VeloxCoin
+[VLX] Exchange period which will be fully implemented on the VeloxBolt platform.
+The  cold-storage  facilities  are  manned  by  our  founding  team  and  use  extremely  secure
+multi-signature technology. Multi-Signature wallets only permit the transfer of cryptocurrency with
+signatures from at least 3 of our higher-authority board members. Even if hackers were able to access
+the cold-storage facilities or breach a team members wallet/working environment, transactions will not
+be able to be made without a minimum of 3 signatures.
+Client Data Theft
+In  2016,  over  4.2billion  cases  of  user-data  theft  by  cybercriminals  were  recorded,  as  reported  by
+RiskBasedSecurity.com in January 2017. The solution to this rapidly growing figure is simple, eliminate
+unnecessary storage or requirement for sensitive user information for web-based services that can be
+targeted by hackers.
+VeloxBolt solves this issue by never allowing personal user data to be submitted to our platform,
+eliminating the need for users to submit their private or sensitive information to use the platform. This
+critical feature of VeloxBolt virtually eliminates the threat of hacking because there is nothing for the
+hackers to gain by hacking the system. No user specific personal data will be stored on the VeloxBolt
+Platform now or in the future.
+Usernames are pre-generated when registering to the VeloxBolt platform to enhance anonymity and
+eliminate security issues potentially caused on the client end, therefor if this information were to be
+intercepted by hackers, it would be unique only to the VeloxBolt platform and not effect client logins on
+other services.
+Passwords are permanently hashed and can never be decoded by hackers if the database were to be
+intercepted,  and  as  aforementioned  above,  would  be  worthless  with  a  pre-generated  username
+unrelated to services outside of the VeloxBolt platform.
+9
+
+
+
+
+Performance
+The VeloxBolt platform utilizes state-of-the-art server technology to ensure the uptime and stability of
+the platform at all times. This is achieved through using the peer-to-peer ZeroNet protocol to serve as
+the VeloxBolt platform rather than using a singular, centralized server farm that would be subject to
+attacks, takedowns and potential performance issues. This is explained further under “Service Attacks &
+Hardware Failure”.
+An increase in tra  c while utilizing the peer-to-peer ZeroNet protocol will increase the security and
+stability of the entire platform, whereas limiting tra  c to one centralized server, the ZeroNet protocol
+will eliminate risks of downtime, hardware failure or outage. This level of security is not possible when
+using a single server to deliver content to clients, as maintenance to resolve any issues that arise would
+result in client-side downtime or reduced speed of the platform.
+Service Attacks & Hardware Failure
+Since the VeloxBolt platform will deliver content at a faster rate and become increasingly more secure
+as nodes (users) connect to the platform, it is impossible for the platform to be taken o   ine or attacked
+unless all nodes are completely disconnected from the platform. The ZeroNet protocol which will be
+utilized in the platform will allow VeloxBolt to remain online through the strongest of attacks and
+takedown attempts, while maintaining (and improving) optimal performance and service speed in any
+situation.
+Features                                                                                                      Deposits & Withdrawals
+The  VeloxBolt  platform  will  support  standard                                                             VeloxBolt   offers   instant                          (1   confirmation)
+cryptocurrency exchange functions on release, as                                                              deposits & withdrawals and will never hold or
+well  as  the  following  unique  features  available                                                         freeze user account balances for any reason.
+upon     initial     release     and     implemented
+post-release.  Said  features  are  briefly  described                                                        Order Matching Engine
+below.                                                                                                        Our  order  matching  engine  will  be  able  to
+                                                                                                              support up to 5000 orders per second on initial
+Anonymous Registration                                                                                        release. As the platform grows on extending this
+Accounts created with VeloxBolt will only require                                                             limit  to                                             20000  orders  per  second  within  a
+a username and password. Email submission is                                                                  6-month period after o  cial release.
+optional, though highly recommended to enable
+                                                                                                              Trading Functions
+use   of   forgotten   password   and   notification
+features. Usernames will be pre-generated though                                                              The state-of-the-art trading facilities offered at
+are  able  to  be  customized  post-registration.                                                             VeloxBolt   does   not   stop   at   the   industry
+VeloxBolt accounts will never require verification                                                            standard  exchange.  Below  are  the  trading
+to create or use an account on our platform.                                                                  features offered on the VeloxBolt platform:
+Spot Trading
+Account Security
+Margin Trading*
+Users are offered state of the art account security
+functions to ensure extensive measures are taken                                                              Futures Trading*
+to  prevent  unauthorized  account  access.  These
+                                                                                                              One-Click Anonymous Exchange*
+features include but are not limited to:
+                                                                                                              P2P Private Exchanges with inbuilt Escrow
+2-Factor Authentication
+                                                                                                              Decentralized Trading (vNovum Pairing) *
+Secondary Password Setup
+                                                                                                              Coin Pairs
+PIN Code Setup
+                                                                                                              The VeloxBolt Exchange will support all major
+Email Authorization                                                                                           coins, with paid & free options for new coins to
+                                                                                                              be listed. VeloxBolt will use BTC, ETH and VLX
+N-Authentication  (Novum Authentication, see
+                                                                                                              pairs on o  cial release though may consider
+vNovum > VeloxBolt Pairing)
+new  principle  pairs  as  the  cryptocurrency
+Account Modification Lock                                                                                     market evolves and as the platform grows.
+10
+
+
+
+
+Anonymity Features                                         balance.   POS   earnings   for   each   coin   are
+                                                           automatically  and  instantly  credited  as  staking
+The VeloxBolt exchange will house first of its kind
+rewards are earned.
+anonymity  features  which  will  allow  users  to
+enhance their account privacy immensely while
+Supported Devices
+using our exchange. These features include:
+                                                           VeloxBolt   will   begin   as   web-only   exchange
+Off-Record Trading*
+                                                           platform  during  initial  release  and  will  expand
+                                                           access options with applications for Android & iOS
+Expire Trading & Account History
+as well as full mobile browser support shortly after
+Instant Account Deletion                                   the initial release.
+Much more…*
+Multi-Lingual Support
+The  VeloxBolt  exchange  will  be  launched  in
+Velox Novum & VeloxBolt Pairing*
+English,  however  further  support  for  Russian,
+VeloxBolt  will  allow  pairing  with  Velox  Novum
+Korean, Chinese, Japanese and more will follow as
+Wallet once it has been o  cially released. Pairing
+a priority as the platform progresses.
+will enable users to use the VeloxBolt platform
+from their vNovum wallet seamlessly and without
+Support
+any  complication.  Additional  information  about
+The following support structures will be in place
+this  feature  can  be  found  under  the  “VeloxBolt
+for the users to resolve any issues they might have.
+Pairing” section of the vNovum Feature Overview.
+Live Chat Support
+Portfolio Management
+Community on-site chat
+The  VeloxBolt  platform  will  offer  automatic  &
+real-time reports of your trading and assets with          24/7 Help Ticket Desk
+our portfolio management features, to give you
+real  insights  on  your  trading  profits,  current
+portfolio and portfolio history.                           Features marked with * are subject to public
+availability after initial release.
+Detailed tracking and information of trading,
+assets etc.
+Fiat Policy
+Portfolio Overview Page (Holdings Summary)                 The VeloxBolt platform is strictly cryptocurrency
+                                                           only exchange and will never accept or consider
+Advanced Graphing and Reporting*
+                                                           accepting any forms of FIAT currency for deposit,
+Localized Currency Settings                                trading or withdrawal on the platform.
+Proof-of-Stake Support*                                    Planned Release
+All  users  will  be  able  to  stake  their  POS  coins   The VeloxBolt Platform is scheduled to be beta
+simply by holding their POS coins in their account         released in Quarter 3 of 2018.
+11
+
+
+
+
+Velox Novum Wallet
+Overview
+The vNovum Wallet is a native open-source
+cryptocurrency wallet that will facilitate multiple
+forms of cryptocurrency exchange, including the
+use of the VeloxBolt exchange services, and its
+own decentralized (P2P) exchange. The wallet
+does not share financial information such as
+private keys with any third party or online server
+and houses a wide range of security features,
+making it one of the most secure solutions for
+cryptocurrency storage.
+The vNovum wallet will be the first wallet of its
+kind to be accompanied by a completely
+anonymous online exchange and will allow fully
+synchronized accessibility.
+Security
+The Novum Wallet allows users to securely store,
+send and receive cryptocurrencies by encrypting
+private keys and storing them locally on the
+users operating environment. This prevents
+private keys from being transmitted or accessed
+by third parties/servers, preventing theft of
+private keys. Transactions are made by briefly
+decrypting the private key to sign the
+transaction before the transaction is
+broadcasted over the network. Transaction data
+is encrypted and only accessible by the user
+locally.
+Decentralized Trading
+Secure storage of cryptocurrency &
+decentralized in-wallet exchanges are the core
+focus in the development and operation of the
+vNovum wallet. The decentralized on-chain
+exchange facility will utilize the VeloxBolt
+platform to execute trades instantly, free of
+governance and without third party regulation
+or interference.
+Trading using the vNovum exchange function
+is instantaneous, decentralized and secure. This
+is made possible by the Input Validity Protocol
+(IVP).
+12
+
+
+
+
+means orders made from the vNovum wallet are
+Input Validity Protocol
+                                                     matched on the VeloxBolt exchange and
+To prevent inputs being spent in other wallet
+                                                     conducted via decentralized on-chain
+clients or double spent while an order is active
+                                                     matchmaking and processing.
+on another wallet client that support sweeping or
+importing of private keys, each order is validated
+after each new block to confirm that the original
+VeloxBolt Pairing
+input has not been spent.
+                                                     The vNovum client allows users to pair their
+Once the order has been matched, the balance
+                                                     VeloxBolt accounts with the vNovum wallet to
+is again validated by the matchmaking engine to
+                                                     allow them the use of most VeloxBolt features
+determine:
+                                                     without accessing the platform via web browser,
+If the input has not been spent, the fee is          instead from the vNovum local client. Accessible
+su  cient to network conditions and the              features will include, but are not limited to:
+previous inputs are valid to proceed with the
+trade.                                               In-Wallet Trading
+                                                     Trading from the VeloxBolt platform is
+If the input has been spent on another
+                                                     possible from within the vNovum local wallet
+platform all orders involving spent inputs are
+                                                     once the VeloxBolt account is paired with the
+voided and remaining unfilled balance (if any)
+                                                     client.
+from the order is credited back to the user’s
+wallet.
+                                                     Instant Balance Transfers
+                                                     Balances held in the vNovum wallet or
+Users can conduct cryptocurrency exchanges
+                                                     VeloxBolt platform can be instantly
+using the vNovum wallet by making or taking
+                                                     transferred between each other within the
+orders from the VeloxBolt exchange:
+                                                     VeloxBolt platform or the vNovum wallet.
+Making Orders (Maker)
+                                                     Cross Platform Syncing
+Order is created from the vNovum Exchange            Trading History, Portfolio Information &
+Interface                                            Reports as well as balance deposits and
+                                                     withdrawals will be synchronized in real time
+Balance is locked until the order is filled or
+                                                     with the VeloxBolt account to allow accurate
+cancelled by the user
+and real-time tracking of operations
+After each new block of the principle                performed on both platforms.
+currency, the order is validated by the IVP
+                                                     N-Auth Account Security
+protocol to ensure the order is still valid.
+                                                     To enhance VeloxBolt account security, the
+Once validated and matched, the transaction
+                                                     vNovum wallet will offer an additional
+is signed, validated and broadcasted on-chain
+                                                     authorization requirement (N-Auth) to access
+instantly for both parties to complete the
+                                                     the VeloxBolt platform account. This feature is
+trade.
+an optional feature with extensive security
+measures on top of the standard PIN, 2-Auth
+Taking Orders (Taker):
+and Secondary Password functions offered on
+the VeloxBolt exchange.
+Order is taken from the vNovum Exchange
+Interface
+Additional Features
+vNovum ensures the order is valid using Input
+                                                     The vNovum wallet will include the following
+Validity Protocol and proceeds to match
+                                                     standard crypto currency wallet functions:
+orders.
+                                                     Import/Export Wallet & Private Keys
+Once the order is validated and matched, the
+transaction is signed, validated and                 Static & Dynamic Fee Adjustment
+broadcasted on-chain instantly for both
+                                                     Mass send/Pay to Many
+parties to complete the trade.
+                                                     Simple wallet backup
+The Velox Novum wallet uses the VeloxBolt
+exchange to conduct and record trades allowing       Enable/Disable supported currencies
+users from both platforms to exchange without
+the need to use both clients individually. This
+13
+
+
+
+
+Multi-Coin Acceptance                                   VeloxBolt     Functionalities                     including     all
+vNovum will support most major crypto                   exchange,  matchmaking  engine  and  pairing
+currencies and offer users the ability to vote for      elements will not be included in the publicly
+new currencies in the form of the in-built poll         available   open-source   codebase   and   will
+function. Users can vote for new coins by paid          remain  closed-source  until  the  team  and
+votes and free votes, this will function similarly to   community have o  cially agreed (in the form
+the VeloxBolt exchange poll function.                   of a community poll) that these functionalities
+are deemed production capable.
+POS Staking Support
+The vNovum wallet will allow users to easily
+receive staking rewards on supported POS coins.
+Planned Release
+The Velox Novum Wallet is scheduled to be beta
+Customizable Themes
+released in early 2019.
+Different wallet styles and themes will be made
+available as the wallet development progresses to
+enhance usability and to suit individual user
+preference.
+Portfolio Tracking
+Just like the VeloxBolt asset management
+capabilities, the vNovum wallet will allow users to
+track assets stored in their wallet and/or
+VeloxBolt account (if paired) in a simple yet
+detailed summary page.
+Localization Settings
+As development progresses, multiple languages
+as well as other localization features will be
+added for use and will be possible to adjust in
+the user settings of the wallet. This includes
+multiple languages, currency localization and
+more.
+Device Support:
+Supported operating systems on initial release
+include
+Windows x64
+Mac x64
+Linux x64
+vNovum will release applications for Android &
+iOS as well as a Local Browser Client after initial
+release to the supported operating systems listed
+above.
+Open-Source Conditions
+Users will have the ability to modify, republish
+or commit to the code (under approval) once
+the beta phase has ended and a stable version
+of the wallet has been publicly released.
+The vNovum wallet will allow users to access a
+managed  open-source  codebase  including
+access  to  all  wallet  functionalities,  excluding
+the matchmaking & trading engine.
+14
+
+
+
+
+

@@ -1,0 +1,955 @@
+WHITE PAPER
+ Bitwin 2.0
+We do not give empty promises.
+We follow through.
+© 2018 Bitwin. All rights reserved.
+This document contains proprietary information.
+Written consent is required for distribution
+or duplication of any portion contained herein. 
+03 Chapter 01 Introduction
+04 Introduction
+05 Global Online Gambling Market
+06 Problems
+07 Bitwin Solutions
+08 Opportunities
+10 Chapter 02 Bitwin Platform 1.0
+11 Bitwin Platform 1.0
+13 Chapter 03 Bitwin Platform 2.0
+14 Bitwin Platform 2.0
+15 MVP
+17 Bitwin Network
+18 Random Number Generator
+19 Sportsbook
+22 Bitwin Vault
+23 Community of Game Developers
+24 Game Developers Kit
+25 Bitwin Global Jackpot
+26 Chapter 04 Roadmap
+27 MVP
+28 Phase 1
+29 Phase 2
+30 Phase 3
+31 Chapter 05 Token
+32 Technical Specification
+33 Token Applications
+33 In-game currency
+33 Cashback system
+33 Rewarding developers
+33 Bitwin Vault
+33 Voting
+34 Chapter 06 Crowdsale
+35 Token distribution
+36 Fund distribution
+37 Chapter 07 KYC
+38 KYC
+39 Chapter 08 Our Team
+40 Core Team
+43 Advisory Board
+44 Chapter 09 Contact Us
+45 Contact Us
+BITWIN 2.0
+Table of Content
+Chapter 01
+INTRODUCTION
+White Paper
+© 2018 Bitwin. All rights reserved. 03 BACK TO
+TABLE OF CONTENT
+Be that as it may, online casinos are also a competitive and unpredictable
+industry, driven by rising economic prosperity and social desire for entertainment.
+However, to fully enjoy the platform and the online gambling experience, every
+step of the game has to be transparent and inexpensive.
+Up until the emergence of blockchain, a direct and fast exchange
+of funds, along with indisputable
+transparency and inability to tamper with the outcome of the games
+were not possible in an online casino model. This fraudulent premise
+is very often a sole and sufficient
+argument against playing in an online casino - it is hard to prove that
+a result is truly fair and without any
+interference.
+the recent years, the online gambling industry has been steadily
+following an upward growth trend. In fact, the internet has become
+a dominant gambling platform, even for casino chains which have been
+present on the market for a while. It is a great time to be developing online,
+dedicated platforms with opportunities for an international growth.
+In
+White Paper
+© 2018 Bitwin. All rights reserved. 04
+However, thanks to the penetration
+of new technological innovations,
+a fair online casino model has
+finally become a reality and our
+team wants to help in shaping
+it by designing a reliable,
+affordable, transparent and easily
+accessible platform that focuses on
+bringing out what is best in gambling
+- entertainment.
+Bitwin Team
+Introduction
+BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+Further expansion of this sector in
+upcoming years will be driven by
+increasing global financial prosperity, slacking of online gambling
+regulations, but mostly through the
+information technology development and seamless mobile broadband access around the world. With
+the introduction of blockchain and
+global online gambling industry has been steadily undergoing significant
+growth over last couple of years. It was worth 41.77 billion USD in 2016,
+followed by 47.11 billion USD in 2017 and is estimated to reach
+59.79 billion USD by the end of 2020, at a CAGR of 10.8%1, which is 3
+times faster than the global GDP. The projections for the global online
+casinos show that between 2017-2025 the market will experience
+a growth of about 130%, reaching 97 billion USD2.
+The
+White Paper
+© 2018 Bitwin. All rights reserved. 05
+Global Online Gambling Market
+Figure 1. Size of the online gambling market from 2009 to 2020 (in billion U.S. dollars)3
+1 https://www.statista.com/statistics/270728/market-volume-of-online-gaming-worldwide/
+2 https://www.transparencymarketresearch.com/online-gamblingbetting.html
+3 https://www.statista.com/statistics/270728/market-volume-of-online-gaming-worldwide/
+4 https://thebitcoinstrip.com/stats/
+cryptocurrencies, the idea of online
+gambling services was taken to the
+next level. According to thebitcoinstrip.com, people were placing 337
+bets per second and wagering three
+BTC per minute in April 2017 alone4.
+Since then, we have observed an
+exponential increase of interest in
+Bitcoin and other cryptocurrencies
+across the globe.
+BACK TO
+TABLE OF CONTENT
+Numerous online casinos are deliberately hiding data such as gaming
+results, winnings or other financial
+details from the public, thus making
+it impossible to verify internal casino
+mechanics.
+Undisclosed way of choosing the
+winner, mainly through random
+number generator, accounts for inability to verify the fairness of the
+games. To clarify - a process of random number generation is based
+on two seed numbers (one from
+the house, the other from the player) placed in an equation that provides a random number as a result.
+However, before both unknowns are
+substituted by the seed numbers,
+there is a short time frame in which
+the number provided by a client
+can be uncovered allowing house
+to choose one that will rig the bet.
+If a player picks the seed number by
+himself and leaves it unchanged for
+the following games, a casino can
+easily change its seed accordingly
+in order to win the next bets. Also,
+when a player decides for automatic
+seed generation, it could actually be
+generated intentionally by the casino.
+urrently, online casinos struggle with users’ trust and loyalty. Why shouldn’t
+they? There are many ways for an online casino to use unfair techniques in
+order to increase its profits, mainly because all the calculations for online
+casino games are done behind the stage, with no transparency whatsoever.
+C
+White Paper
+© 2018 Bitwin. All rights reserved. 06
+Problems
+Another aspect of online gambling
+with much room for improvement
+are transactions. Withdrawal fees,
+which could be as high as 9% in existing solutions, could be easily reduced, improving overall cost-effectiveness as a result. Daily withdrawal
+limits imposed by casinos are also a
+common practice. In addition, transaction processing time should be
+even shorter than it is now. Besides
+extra costs, standard payment methods take too much time to process,
+in some cases up to 48 hours depending on the currency and service
+provider. Even something seemingly simple - the process of deploying
+a Visa or MasterCard payments - is
+lengthy, complicated and involves
+multiple intermediaries.
+Besides the aforementioned shortcomings, there are other practices that online casinos use to drain
+profits, even those based on Bitcoin blockchain. How? Well, even
+though blockchain transactions are
+fully transparent, it is not that easy
+to figure out what each transaction
+means and why they are carried out.
+It is possible, for example, to manipulate the code of the game to make
+one, specific wallet address a determined winner in every bet.
+BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+Moreover, thanks to an insight into these contracts, a doorway for disruptive profit
+draining will be closed, as opposed to Bitcoin blockchain vulnerabilities. Being
+able to verify every line of the code describing the set of rules for a given game
+makes it impossible for casino to hide malpractices based on code manipulation
+or other types of tampering.
+When it comes to resolving an issue regarding transaction costs and their processing time, we have come up with a system and a set of solutions called simply
+the Bitwin Network. This element of Bitwin ecosystem will not only allow us to
+transfer just the final result of player’s wagers to the Ethereum blockchain, but also
+enable near-instant payments with negligible transactional costs, even in case of
+the lowest wagers.
+have decided to develop a new and better online casino model which
+eliminates problems discussed in the previous paragraph. In Bitwin, all
+transactions and computing will be based on Ethereum network and its
+unbiased smart contracts.
+We
+White Paper
+© 2018 Bitwin. All rights reserved. 07
+Bitwin Solutions
+BACK TO
+TABLE OF CONTENT
+efore blockchain-based solutions became available, online casinos
+were just an alternative to the standard gambling establishments and
+a convenient way of playing one’s favourite game without having to leave
+the comforts of their home. No matter which option you chose, all the
+unfriendly rules, like the large house edge and payout percentages,
+still apply.
+With the existence of blockchain in different forms, a new and better alternative
+that fosters iGaming segment development is finally available.
+B
+White Paper
+© 2018 Bitwin. All rights reserved. 08
+Opportunities
+BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+Implementing blockchain technology in an online casino model solved the gambling price problem. Cost-effectiveness increased, resulting in a house edge as
+low as 1%, whereas in land and normal online casinos that value could be as high
+as 15%. Moreover, on-chain based casino eliminates the need for most of the costly intermediaries in the standard online casino, such as server hosting, service
+providers or payment service processing, decreasing overall costs even further.
+As a result, such financial perspective attracts more potential players and encourages online casino players to switch to blockchain based platforms.
+What’s more, there is now a transparent way to run
+a provably fair casino thanks to the auditable smart
+contracts. That gives users an assurance of a fair
+game, encouraging them to focus on entertainment
+and still allowing a casino operator to profit.
+White Paper
+© 2018 Bitwin. All rights reserved. 09 BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved. 10
+Chapter 02
+BITWIN
+PLATFORM 1.0
+BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+The first and early Bitwin 1.0 platform, created prior to 2.0 version, was built with
+the best standards in mind. Driven by clear and achievable vision, Bitwin dedicated all the resources at hand to design a visually sensational space that cannot be
+challenged by any other gambling platform.
+itwin was founded by a group of casino and sportsbook professionals
+with years of vast experience originating from the gambling industry
+who teamed up to create a distinctive and unique platform in the already
+crowded iGaming space. Knowing that in order to become the platform
+everyone looks up to, it has to remain competitive at every stage of the
+challenge and at the same time offer the most attractive gaming
+conditions and environment.
+B
+White Paper
+© 2018 Bitwin. All rights reserved. 11
+Graphical effort combined with a strong emphasis on a flawless user
+journey led to the inception of a truly immersive, multisensory gaming
+experience. As a result, Bitwin has created an online casino registered
+under the Curacao Gaming license, with hundreds of ring-tested and
+audited games running on 128-Bit SSL encryption, propped by another
+crucial feature - random number generator tested in line with industry
+standards.
+Bitwin Platform 1.0
+BACK TO
+TABLE OF CONTENT
+AS OF TODAY, BITWIN’S ROSTER OFFERS NEARLY
+1000 VARIOUS GAMES
+- including all kinds of table and slot games, as well as live casino provided by the industry’s best game suppliers, such as, Microgaming, NETENT or Evolution Gaming. Besides
+casino and live casino, the platform has a sportsbook section with over thirty thousand
+different sport events every month.
+Since our fundamental
+tenet is responding to
+players expectations,
+cryptocurrency payments
+were implemented into 1.0
+version of the platfrom.
+The list of accepted currencies includes, among others,
+Bitcoin, Bitcoin Cash,
+Ethereum, Litecoin or Dash.
+White Paper
+© 2018 Bitwin. All rights reserved. 12 BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+Chapter 03
+BITWIN
+PLATFORM 2.0
+White Paper
+© 2018 Bitwin. All rights reserved. 13 BACK TO
+TABLE OF CONTENT
+So far, there is no prominent creator
+of on-chain casino games. However,
+we know how to gain that position
+and become the NetEnt of blockchain gaming solutions. Our team
+has gained immense knowledge
+and experience in running an online
+casino by years of working closely
+with the leaders in the industry, such
+as Yggdrasil or NetEnt.
+This environment also allowed us
+to gain detailed insight into the slot
+games creation process. Bitwin team
+is more than capable of providing the same, if not better, gaming
+solutions - from the graphical point
+of view, through technicalities, to a
+complete, magical user experience.
+itwin 2.0 will be a casino platform built on blockchain, with Bitwin Token
+(BWT) at its heart. Our vision is to provide a truly transparent and provably
+fair online casino experience with low transaction costs and instant
+withdrawals of any amount. In order to accomplish that, we are building
+on top of our current platform to adapt possibilities brought about with
+blockchain technology. Bitwin 2.0 moves random number generation and
+transactions to Ethereum network, while keeping the superb user
+experience that our current users value so much.
+B
+White Paper
+© 2018 Bitwin. All rights reserved. 14
+We know that our technical experts
+are skilled enough to not only
+envision and fulfill premises
+concerning gaming solutions,
+but also become pillars in
+creating the biggest betting
+exchange in the blockchain
+environment, like an off-chain
+Betfair currently is.
+Bitwin Platform 2.0
+BACK TO
+TABLE OF CONTENT
+During MVP phase, our developers will provide a set of games running on
+Ethereum network :
+ provide a taste of user experience that Bitwin 2.0 can deliver to customers,
+our main goal is to develop a working solution for players to experience
+and give feedback about. That is why, we decided to develop the
+foundation of the platform by Bitwin developers alone, before we invite
+a Community of Game Developers to shape the platform with us.
+To
+White Paper
+© 2018 Bitwin. All rights reserved. 15
+MVP
+ Slot Games Roulette Blackjack Dice
+You might think, that games like these already exist on blockchain infrastructure,
+and you would be correct, but none of them look like this :
+BACK TO
+TABLE OF CONTENT White Paper
+© 2018 Bitwin. All rights reserved.
+User experience is what sets Bitwin 2.0 apart from other blockchain casino projects. We truly believe that our goal should be mesmerizing players, so they feel
+equally satisfied and entertained every time they come back. As our ambitions
+do not end solely within Bitwin platform, we are planning on sharing results of
+our work with the blockchain casinos community by provision of various on-chain
+gaming solutions easily adoptable in other platforms alike.
+White Paper
+© 2018 Bitwin. All rights reserved. 16
+Additional two components that need to be finalized during
+MVP phase are :
+Bitwin Network Random Number Generation
+Figure 3. ‘Whispers of The Lost Land’ game design.
+BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+of the main issues that trouble iGaming industry is transaction cost
+efficiency, you either experience a long transfer time or a large fee for
+withdrawing your funds. However, running transactions inside the platform
+would not differentiate our platform from any other online casino.
+That is why we came up with a novel solution to overcome that problem
+and created Bitwin Network.
+One
+White Paper
+© 2018 Bitwin. All rights reserved. 17
+Bitwin Network
+Bitwin Network is based on Raiden Network’s open source
+project, providing a secure off-chain scaling solution.
+Most important features are :
+Sub-second confirmation time
+Low-fees
+Bi-directional payment channels
+No fixed transactions per second limit
+Payment routing
+This allows us to create a payment mesh between players and casino, scaling upwards and downwards depending on the player
+base. Only the final result of player’s wagers is being transferred to
+the Ethereum blockchain, allowing Bitwin to decrease transactional
+costs to negligible amount, even with the lowest wager amounts.
+Among other benefits of Raiden Network implementation comes
+sub-second confirmation time for transactions.
+Making bi-directional payment channels a foundation of Bitwin Network allows for a first ever on-chain white label iGaming platform,
+that is economically viable, provably fair and secure for the users,
+since the casino never really holds any of their funds.
+For the MVP phase, we prepared a solution based on Micro Raiden,
+which is currently live on Ethereum Mainnet. There is a more robust
+implementation of Bitwin Network under development, that we
+plan to use to allow payment routing between all players enjoying
+casino games at any given time.
+BACK TO
+TABLE OF CONTENT
+thereum blockchain smart contracts, in their design, allow for carrying out
+a pre-programed task in the exact same way every time they are called.
+We wanted to take advantage of that and deploy a solution that is easily
+verifiable, because fairness is currently one of the main concerns regarding
+online casinos.
+Considering these factors, we decided to use smart contracts to provide a provably fair random number generator. In order to generate random numbers, the
+smart contract will be using repeated hashing function to generate a stream of
+random numbers, as big as is required for the player to play the game seamlessly.
+This solution allows anybody interested to verify the randomness by dehashing
+last revealed hash output and comparing it to the outcome on Ethereum blockchain.
+This method can be used not only in games such as slots, but also in a multi-player
+games like Blackjack or Roulette. Each participants reveals his/hers hash function
+output one at a time, thus generating one random number per round.
+E
+White Paper
+© 2018 Bitwin. All rights reserved. 18
+Random Number Generator
+BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+sportsbook is built upon the FansUnite Protocol created by our trusted
+partners at FansUnite. We decided to source a solution from people well
+established in the industry to simplify and speed up the process
+of deployment on Bitwin 2.0 platform.
+Our
+White Paper
+© 2018 Bitwin. All rights reserved. 19
+Sportsbook
+The FansUnite Protocol provides the
+infrastructure necessary for a host of
+dApps to build atop of and will include
+the following:
+Solidity Smart Contracts
+InterPlanetary File System (IPFS)
+Standardized Data Structures for Team
+and Event Information
+Developer Tools - FansUnite.js
+JavaScript Library
+Event listing and Oracle
+management DApp
+BACK TO
+TABLE OF CONTENT
+Figure 4. FansUnite sample Sportsbook layout.
+The FansUnite Protocol (https://fansunite.com/) allows dApps such as the Bitwin
+2.0 platform to leverage a decentralized network of incentivized oracles to supply
+player and event data. These oracles are rewarded based on how accurately and
+quickly they provide the requisite data. This network of incentivized data providers enables Bitwin 2.0 to resolve transactions requiring sports data to execute,
+which includes sports betting, daily fantasy, or any other type of transaction that
+needs sports data. As such, Bitwin will save on data feed costs through the oracle
+network and will not require payment processor services by using the FansUnite
+smart contracts, savings of which can be passed on directly to Bitwin users.
+White Paper
+© 2018 Bitwin. All rights reserved. 20 BACK TO
+TABLE OF CONTENT
+Figure 5. FansUnite Oracle verification scheme.
+White Paper
+© 2018 Bitwin. All rights reserved.
+Ultimately, the FansUnite Protocol will significantly reduce the technical barrier
+to entering the blockchain-based sports betting market.
+Inside the sportsbook platform all bets are placed using Bitwin Tokens and
+resolved by a combination of smart contracts and oracles.
+FansUnite provides a solution that is able to integrate with any ERC20 token and
+their team will be involved in FansUnite Protocol roll-out of the Bitwin Platform.
+We understand that sportsbook ecosystem needs time to grow, that is why we
+thought of and created another core component, called Bitwin Vault, to provide
+liquidity at the early stages of sportsbook operation.
+For general information on the FansUnite Protocol, please read here, and for
+a technical overview, please read here.
+White Paper
+© 2018 Bitwin. All rights reserved. 21 BACK TO
+TABLE OF CONTENT
+the early stages of Bitwin 2.0 platform we are expecting low liquidity in
+our sportsbook. That is why we have created the Bitwin Vault, the primary
+usage of tokens remaining in possession of the Bitwin Team.
+Bitwin Vault will freeze BWT tokens for 6 month period after the launch of Sportsbook section. It will not be possible for Bitwin Team to use the tokens locked inside the Vault for any other purpose other than to wager and pay winnings to
+players using our Sportsbook.
+At the end of this period 50% of the frozen tokens will be unlocked to Bitwin’s
+Team members. The sole purpose of the BWT tokens left in Bitwin Vault will be to
+provide liquidity for Sportsbook. Our risk management team will set up wagers
+with players until there is enough liquidity to enable participants to wager with
+each other.
+In
+White Paper
+© 2018 Bitwin. All rights reserved. 22
+Bitwin Vault
+BACK TO
+TABLE OF CONTENT
+itwin 2.0 platform delivers an opportunity for game developers to reach a
+bigger audience. We deliver a core engine for our slot games in the form of
+Game Developers Kit ( GDK ) that is natively compatible with the platform.
+When you think your game is ready, you just submit the project and after a short
+verification period, it is placed into our Queue where users can play with Play
+Money to test the game in and vote for their favourites with BWT tokens. After 1
+month period has passed, 10% of the games from the Queue are placed on the
+main platform, BWT tokens are returned to the voters and the process repeats
+itself.
+Methodology mentioned above allows us to curate content by the players themselves and limits Bitwin involvement to a minimum. The only verification performed
+by us is a platform compatibility and game duplicate check.
+B
+White Paper
+© 2018 Bitwin. All rights reserved. 23
+Community of Game Developers
+BACK TO
+TABLE OF CONTENT
+Figure 6. Relationship of Bitwin 2.0 Platform with Community of Game Developers and Players.
+White Paper
+© 2018 Bitwin. All rights reserved.
+strive for a community fueled platform that allows for users entertainment,
+but also grows together with the community. In order to fulfill that premise,
+Bitwin 2.0 will include a Game Developers Kit.
+It will consist of all the game development tools necessary for seamless creation
+and adoption of the final product into the platform, such as game engine licences, unified developer program and other crucial middleware. This creators package allows developers to self-publish their games to Bitwin Queue from which,
+monthly, 10% of the highest scoring positions will advance to the Main Bitwin 2.0
+Platform roster for good.
+We
+White Paper
+© 2018 Bitwin. All rights reserved. 24
+Game Developers Kit
+BACK TO
+TABLE OF CONTENT
+goal with Bitwin Global Jackpot is to create a network of blockchain
+slot games run by our white-label platform operators accumulating
+a percentage of winnings into one, truly enormous jackpot.
+Considering the fact that the base platform of Bitwin 2.0 will be available to license
+by other parties interested in running a blockchain based casino, autonomous
+smart contracts will accumulate a percentage of winnings and make it available as
+a first global, cross-operator blockchain jackpot.
+However players should not be worried about Global Jackpot cutting into their
+odds, a fee is only subtracted from casino operators in order to reach a bigger
+audience. With tens of billions of dollars gambled every year with Bitcoin and
+other cryptocurrencies, creation of a consistent ecosystem combined with a rapid
+growth in crypto-gambling allows for a competitive sums of money accumulated
+in jackpot, even in comparison with Las Vegas casinos.
+Our
+White Paper
+© 2018 Bitwin. All rights reserved. 25
+Bitwin Global Jackpot
+BACK TO
+TABLE OF CONTENT White Paper
+© 2018 Bitwin. All rights reserved.
+Figure 7. Bitwin 2.0 platform licensing and Global Jackpot scheme.
+Chapter 04
+ROADMAP
+White Paper
+© 2018 Bitwin. All rights reserved. 26 BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+Description
+An MVP part of our project is the first and
+most crucial one. During the course of this
+phase we will focus on launching a basic
+gaming content and a production ready
+random number generator responsible for
+provable fairness of the games.
+At the same time, Bitwin Team will develop
+foundations for payment channels within
+the platform.
+White Paper
+© 2018 Bitwin. All rights reserved. 27
+MVP
+BACK TO
+TABLE OF CONTENT
+EFFORT ESTIMATION
+We estimate that we can
+deliver the MVP in 8-10
+months starting from the
+date we reach our soft cap.
+OBJECTIVES
+Developing basic gaming content
+running entirely on Ethereum
+blockchain as a PoC of the platform
+consisting of :
+Slot Games
+Blackjack
+Dice
+Roulette
+Random Number Generator
+productive use.
+Establishing the Bitwin Network
+payment channels based on Micro
+Raiden solution for a productive
+environment.
+2
+3
+1
+Description
+Carrying out Phase 1 will begin as soon as
+an MVP phase ends successfully. With it, two
+distinctive elements of the Bitwin ecosystem
+will be developed. Firstly, a Game Developers Kit consisting of all the game development tools and middleware necessary for
+the creation and adoption of games into the
+platform.
+Secondly, a sportsbook with Bitwin Vault as
+one of the pillars, which sole purpose will
+be to provide liquidity for sportsbook in the
+first 6 months.
+White Paper
+© 2018 Bitwin. All rights reserved. 28
+Phase 1
+BACK TO
+TABLE OF CONTENT
+EFFORT ESTIMATION
+Depending on the
+number of participants
+taking part in the testing
+stage of Game Developers
+Kit, as well as their involvement, this part should take
+up to 6 months. A launch
+and implementation of
+the sportsbook and Bitwin
+Vault will take no longer
+than 5 months, however
+these parts will be developed simultaneously, so we
+do not expect this phase to
+last longer than 6 months
+altogether. After completion of both goals we will
+proceed to Phase 2 of the
+project.
+OBJECTIVES
+Game Developers Kit - launch of a
+beta version available for testing by
+community members.
+Sportsbook with Bitwin Vault - an
+implementation of the FansUnite
+Sportsbook solution within our
+platform.
+2
+1
+White Paper
+© 2018 Bitwin. All rights reserved.
+Description
+In the second phase, our main goal is to
+proceed from the beta version of Game
+Developers Kit by starting a fully functional
+Game Developers Community system that
+allows for submission of the game project
+into our Queue, where users can play with
+Play Money to test the game and vote for
+their favourites with BWT tokens.
+Secondly, while putting finishing touches to
+the Developers Community system, Bitwin
+developers team will be simultaneously
+working on a set of additional games for the
+platform.
+White Paper
+© 2018 Bitwin. All rights reserved. 29
+Phase 2
+BACK TO
+TABLE OF CONTENT
+EFFORT ESTIMATION
+We predict that both features,
+that is a functioning Game
+Developers Community and an
+additional game pack, will be
+ready 5 months after starting
+the phase.
+OBJECTIVES
+Game Developers Community -
+transition from a beta version of the
+Game Developers Kit to launching
+a functional community.
+Additional slot and table games for
+the platform from Bitwin Team.
+2
+1
+Description
+The goal of the third phase of our project is
+to launch a Global Jackpot which connects
+the network of blockchain slot games run
+by multiple Bitwin platform operators and
+accumulates a percentage of winnings into
+one, truly enormous jackpot.
+White Paper
+© 2018 Bitwin. All rights reserved. 30
+Phase 3
+BACK TO
+TABLE OF CONTENT
+EFFORT ESTIMATION
+According to our estimates,
+this phase will take no
+longer than 5 months.
+OBJECTIVES
+Launch of the Global Jackpot.
+2 Licensing Platform to other operators.
+1
+White Paper
+© 2018 Bitwin. All rights reserved.
+Chapter 05
+TOKEN
+White Paper
+© 2018 Bitwin. All rights reserved. 31 BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved. 32
+Technical Specification
+BACK TO
+TABLE OF CONTENT
+TICKER
+BWT
+TOKENS CREATED
+450 000 000 BWT
+PLATFORM
+Ethereum
+TOKEN STANDARD
+ERC20
+White Paper
+© 2018 Bitwin. All rights reserved. 33
+Token Applications
+IN-GAME CURRENCY
+BWT is one of the means of exchange inside the Platform. It serves a purpose of
+putting wagers inside the sportsbook,
+betting in blackjack or any other game on
+Bitwin 2.0, as well as providing additional
+benefits.
+BACK TO
+TABLE OF CONTENT
+REWARDING DEVELOPERS
+Game developers are rewarded with
+BWT tokens for contributing to Bitwin’s
+ecosystem. Once their game is live on
+the platform, a percentage of winnings in
+BWT is transferred to the creators of the
+specific product.
+BITWIN VAULT
+Bitwin Tokens are being held inside
+Bitwin Vault account in order to provide
+liquidity for sportsbook wagers in the
+early stages of the project.
+VOTING
+Players can vote on the games submitted
+by developers and placed in the Queue,
+games with the biggest amount of votes
+are transferred onto the main platform.
+White Paper
+© 2018 Bitwin. All rights reserved.
+CASHBACK SYSTEM
+Even though, Bitwin Platform 2.0 will allow for the use of Ethereum in games,
+BWT tokens will wield additional cashback system benefit. It means that players using Bitwin Tokens for settling the
+payments, and betting or wagering in different games, will be rewarded back with
+a percentage of money they have previously paid/lost. In most online casinos
+this feature is reserved for VIP members,
+but not on our platform. Every BWT Token user can count on up to 60% monthly
+cashback bonus.
+Chapter 06
+CROWDSALE
+White Paper
+© 2018 Bitwin. All rights reserved. 34 BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+itwin Token crowdsale will not be conducted within a specified timeframe.
+We are not trying to raise funding for years ahead within a week, like most
+other projects do. Our goal is to raise capital as the project evolves, so that
+investors can grow more confident over time.
+Of course, early crowdsale participants have to be rewarded for higher risk that
+they are taking, so we divided BWT token sale into a few tiers, which will be publicly available on our website, alongside the Token Sale start date announcement.
+B
+White Paper
+© 2018 Bitwin. All rights reserved. 35
+Crowdsale
+BACK TO
+TABLE OF CONTENT
+TOKEN
+DISTRIBUTION
+POINTS SCORED
+2,0% Bounty
+10,0% Advisors and Partners
+33,0% Bitwin Vault 10,0% Private Sale
+45,0% Public Sale
+Figure 8. Token distribution graphical representation.
+White Paper
+© 2018 Bitwin. All rights reserved. 36 BACK TO
+TABLE OF CONTENT
+FUND
+DISTRIBUTION Figure 9. Fund distribution graphical representation.
+50,0% Development
+6,0% Legal
+4,0% Team Bonus
+25,0% Marketing
+10,0% Operational
+5,0% Partnerships 
+White Paper
+© 2018 Bitwin. All rights reserved.
+Chapter 07
+KYC
+White Paper
+© 2018 Bitwin. All rights reserved. 37 BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved. 38
+KYC
+BACK TO
+TABLE OF CONTENT
+Bitwin 2.0 has to be compliant with
+all legal restrictions of running an online
+casino in order to operate as a live
+platform on bitwin.com.
+We take KYC/AML laws very seriously to be
+competitive and allow other operators to license
+the platform, so Bitwin 2.0 will comply with all the
+laws and regulations required by a regular online
+casino. ICO process will be covered by KYC as well.
+White Paper
+© 2018 Bitwin. All rights reserved.
+Chapter 08
+OUR TEAM
+White Paper
+© 2018 Bitwin. All rights reserved. 39 BACK TO
+TABLE OF CONTENT
+itwin team, together with the developers, consists of 38 professionals
+with extensive and multiannual experience in the online gambling industry.
+We are also supported by an advisory board team comprised
+of accomplished experts from blockchain and iGaming domain.
+B
+Bartosz Biliński
+Co-Founder and Chief Technology Officer
+Co-Founder and Chief Technology Officer at Bitwin, graduated
+at the WSB University in Poznan. Bartek started his IT journey
+working for SAP as an IT system administrator and business process consultant. He leads a team of nine developers for Bitwin
+and is also a project leader in SAP Hybris Marketing for Apollogic company and SAP consultant for ENTICODE Consulting. In
+addition, Bartosz holds a position of CEO at Anchor Blockchain
+Consulting and was invited to deliver speeches on leading, regional blockchain conferences.
+https://www.linkedin.com/in/bartosz-bili%C5%84ski-b86500166/
+White Paper
+© 2018 Bitwin. All rights reserved. 40
+Our Team
+BACK TO
+TABLE OF CONTENT
+Bartłomiej Bulda
+Chief Executive Officer and Co-Founder of Bitwin.com
+Chief Executive Officer and Co-Founder of Bitwin.com, graduated at The Polish Open University in Warsaw. Bartek is an experienced business executive and entrepreneur with extensive
+qualifications in all facets of product lifecycle development and
+management. His entrepreneurial venture began in 2000 when
+he became a professional investor in NYSE, NASDAQ, Forex and
+Futures Market. After an 8 year run, Bartek started his first big
+scale business by co-founding Auto-Spa, the largest international network of self-service car washes in Central Eastern Europe,
+which made its debut on Warsaw Stock Exchange. Simultaneously, in 2010, he entered a Real Estate Business, in which he
+manages for-rent house investments up until this day. In addition, in 2011 Bartek became early cryptocurrency supporter and
+has been actively investing on blockchain and cryptocurrency
+market through the Ramenford Estates Limited Fund. In 2015 he
+became a Co-Founder and CEO of Bitwin.com, online sportsbook and casino.
+https://www.linkedin.com/in/bart%C5%82omiej-bulda927a58171/
+White Paper
+© 2018 Bitwin. All rights reserved. 41 BACK TO
+TABLE OF CONTENT
+Łukasz Hirsch
+Chief Marketing Officer
+Chief Marketing Officer, also acting for Bitwin as a Global
+Affiliate Manager leading a team of four Marketing Specialists,
+graduated as Bachelor of Arts, Tourism and Travel Services Manager at the Salford University of Manchester. Łukasz has more
+than 9 years experience as Affiliate and Local Brand Manager
+in Betsson Group where he was tasked with, among others, affiliate deals coordination, budgeting, digital marketing, campaigns creation and coordination.
+https://www.linkedin.com/in/lukas-hirsch-2a4b6965/
+Kamila Śpiewak
+Chief Financial Officer
+Chief Financial Officer, graduated with Masters Degree in Russian-English Philology at the Adam Mickiewicz University in
+Poznan. Kamila also attended and completed postgraduate
+studies in International Business and Economics (2009), English Translation (2010), and graduated from School of Modern
+Greek with proficiency level. In 2018 she acquired ACA qualification at the Institute of Chartered Accountants in England
+and Wales (ICAEW). Kamila has extensive knowledge spanning
+across business development, accounting, auditing, translation,
+finance and more, plus work experience and training for companies such as EXSUS International, KPMG Cyprus or Ministry of
+Foreign Affairs of the Republic of Poland.
+https://www.linkedin.com/in/kamila-spiewak-6a28b348
+White Paper
+© 2018 Bitwin. All rights reserved.
+Bogdan Stanczak
+Advisory to the Board
+Advisory to the Board, acting for Bitwin as a Non-Executive
+Managing Director and iGaming Consulting Specialist, with
+over 18 years of experience in online and brick and mortar operations, with a vast array of advisory services in the online gambling industry. During that time, he spent 12 years as a country
+manager for Expekt, Betway and Betsafe. Bogdan also worked
+with and co-created numerous gambling companies, such as
+Betway, Betsafe, Betngo, Betpoint or Europe-bet.
+https://www.linkedin.com/in/bogdan-stanczak-51bbbb83/
+White Paper
+© 2018 Bitwin. All rights reserved. 42 BACK TO
+TABLE OF CONTENT
+Krystian Jabłoński
+Chief Information Officer
+Chief Information Officer, also a Manager and Consultant in
+Energy sector, Cybersecurity and Blockchain enthusiast, a leader of team of four IT specialists. Krystian graduated with Masters
+Degree in Law at the Kozminski University, currently acquiring
+an Engineer’s Degree in Computer Science at the Polish-Japanese Academy of Information Technology (PJAIT) and broadening his cybersecurity knowledge to fit the level of CISSP, CISM
+and CISA. Krystian’s expertise spans across research and development, analysis, advising and trading, especially in energy and
+IT sector.
+https://www.linkedin.com/in/krystianjablonski/
+Andrzej Kicza
+Head of Communications
+Head of Communications, graduated with specialty in International Business and Global Economy at the Adam Mickiewicz
+University in Poznan. Started working in social media marketing
+field as freelancer from 2009. Since then he became responsible for marketing department in one of the most popular polish
+clubs - Pacha Poznań and had a chance to work with top regional celebrities perfecting his influencer marketing skills. Besides
+leading a team of two Marketing Specialists for Bitwin, he currently occupies a CMO position at Anchor Blockchain Consulting.
+https://www.linkedin.com/in/andrzej-kicza-4a717016a/
+Piotr Baran
+Head of Front-end Development
+Head of Front-end Development, leading a team of three developers, graduated in Computer Science and Econometry at the
+Cracow University of Economics. Piotr has more than 10 years
+experience in the webdevelopment field for companies related to 3D design, engineering software and user experience.
+He specializes in front-end development since 2012 with extensive knowledge in, among others, CSS, HTML5, jQuery.
+https://www.linkedin.com/in/piotr-baran-alki/
+White Paper
+© 2018 Bitwin. All rights reserved. 43 BACK TO
+TABLE OF CONTENT
+Ewa Partyka
+Head of SEO
+Head of SEO, graduated in IT & Econometrics at the Cracow
+University of Economics. Ewa has almost 5 years of experience
+in branch coordination and customer service. Prior to starting
+her individual practice as a SEO specialist, she has worked with
+that title for a year in Betsson Group. She joined Bitwin in late
+2017.
+https://www.linkedin.com/in/ewa-partyka/
+Łukasz Młynarczyk
+Head of Support
+Head of Support, graduated with Masters Degree in Land
+Management and Spatial Development at the Cracow University of Economics. Łukasz has more than 6 years experience in the
+Customer Service branch, half of which was gained with bet-athome.com. Currently, he leads a small team of customer service
+specialists for Bitwin.
+https://www.linkedin.com/in/%C5%82ukasz-m%C5%82ynarczyk-a1566b16b/
+Grzegorz Skupień
+Casino and Bonus Tool Product Manager
+Casino and Bonus Tool Product Manager, has been a part of
+Bitwin Team since late 2015. Grzegorz has skills spanning across
+data analysis, research, customer service or QA engineering.
+He is responsible for maintaining strong relationship between
+external partners and internal departments, customer care as
+well as keeping track of novelties in the iGaming world.
+https://www.linkedin.com/in/gregskupien/
+White Paper
+© 2018 Bitwin. All rights reserved.
+Chapter 09
+CONTACT US
+White Paper
+© 2018 Bitwin. All rights reserved. 44 BACK TO
+TABLE OF CONTENT
+White Paper
+© 2018 Bitwin. All rights reserved.
+BITWIN GROUP B.V.
+Kaya Richard J. Beaujon Z/N
+P.O. Box 6248, Curacao
+White Paper
+© 2018 Bitwin. All rights reserved. 45
+Contact Us
+BACK TO
+TABLE OF CONTENT
+SUPPORT@BITWIN.COM
+Royal Ascot Ltd
+registered address:
+103 Archbishop Street,
+Valletta, Malta
+https://www.facebook.com/bwtoken
+https://www.instagram.com/bitwintoken/
+https://twitter.com/BitwinToken
+https://medium.com/@bitwintoken
+https://discordapp.com/invite/DNCksEm
+https://t.me/BitwinToken
+https://www.reddit.com/r/BitwinToken

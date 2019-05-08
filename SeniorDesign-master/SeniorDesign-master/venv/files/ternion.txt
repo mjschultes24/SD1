@@ -1,0 +1,1526 @@
+﻿Bridging the gap
+between traditional
+and decentralized
+finances
+WHITEPAPER 2.0
+
+
+
+
+Table of Contents
+1.                  Disclaimer                                                                                3
+2.                  Executive Summary                                                                         4
+3.                  Market Overview                                                                           4
+                    3.1    Challenges to Cryptocurrency Adoption                                              5
+                    3.2    Market Opportunities                                                               6
+                    3.3    Problems with Crypto Exchanges Today                                               7
+4.                  Introducing Ternion: A regulated, secure platform to accelerate cryptocurrency adoption   7
+                    4.1  The Exchange                                                                         8
+                    4.2  Ternion Payments                                                                     10
+                    4.3  Ternion Liquidity Fund                                                               12
+5.                  Marketing Plan                                                                            13
+                    5.1  Survey                                                                               13
+                    5.2  Competitive Analysis                                                                 13
+                    5.3  Competitive Advantages                                                               16
+                    5.4  Target Audience                                                                      16
+                    5.5  Marketing Strategy                                                                   17
+6.                  Financials                                                                                18
+7.                  The Ternion Token Economics                                                               22
+                    7.1  The Token Utility Features: Liquidity Support                                        22
+                    7.2  Ternion Exchange: Trading Fee Discount                                               23
+                    7.3  Financial Model: Asset Price via Token Burn                                          23
+8.                  Ternion Token Sale                                                                        25
+                    8.1  Token Structure                                                                      25
+                    8.2  Token Sale                                                                           26
+                    8.3  Allocation of Public Token Sale Funds                                                27
+                    8.4  Token Distribution                                                                   28
+9.                  Corporate Structure                                                                       29
+                    9.1  Team Members                                                                         31
+                    9.2  Advisors                                                                             31
+                    10.    Ternion OÜ                                                                         33
+                    10.1  Why Estonia?                                                                        33
+                    10.2  Governance & Corporate Structure                                                    33
+                    11.    Roadmap                                                                            34
+                    12.    Summary                                                                            35
+Ternion
+WHITEPAPER 2.0      2
+
+
+
+
+1. Disclaimer
+Please read the following document carefully.                                                       document does not constitute a public
+In case of any doubt, please seek legal,                                                            offer of any kind, including, but not limited
+financial or fiscal advice in your jurisdiction.                                                    to a financial security offer, regardless of
+The information below is not exhaustive nor                                                         jurisdiction. Ternion OÜ does not consult,
+does it fully cover all aspects of the Ternion                                                      advise or provide any opinions concerning
+Token Sale. This document is not legally                                                            the acquisition, sale or any other transaction
+binding for Ternion OÜ and/or any third party                                                       performed with Ternion tokens.
+and imposes no contractual obligations
+between such parties. The contents of this                                                          The present document cannot be a basis for
+document shall not be considered as legal                                                           any kind of binding agreement or investment
+opinion or advice on any subjects covered                                                           decisions related to Ternion. There is no
+herein.                                                                                             obligation of any kind regarding the purchase
+                                                                                                    or sale of Ternion tokens arising from the
+Before entering any legally binding                                                                 present document.
+contractual relation or performing any kind
+of related transactions, we recommend                                                               The Ternion whitepaper, website and other
+that future Ternion token holders seek                                                              informational materials may be available in
+an independent opinion and professional                                                             multiple languages. In all such cases, the
+consultation, as all the contents of the                                                            English version of any given document is
+present Whitepaper are provided for                                                                 the original and binding one, and it prevails
+information purposes only.                                                                          over any other version in the event of any
+                                                                                                    discrepancies. Ternion OÜ shall not be held
+The Ternion token should not be considered                                                          responsible for any erroneous, inadequate or
+as a share, bond or any kind of financial                                                           misleading translations.
+security regardless of jurisdiction. This
+Attention
+Residents of the People’s Republic of China and the Republic of Singapore, as well as residents
+of the United States of America who are not accredited investors, are prohibited from purchasing,
+selling or performing any other kind of transactions with Ternion tokens. Upon taking part
+in any such transaction, residents of the above countries will bear full responsibility for any
+consequences, and they indemnify Ternion OÜ from any damage, claim and responsibility.
+Ternion
+WHITEPAPER 2.0                                                                                      3
+
+
+
+
+2. Executive Summary
+Ternion is a licensed cryptocurrency             Exchange will incorporate a decentralized
+exchange based in Estonia offering first class   exchange (DEX) platform.
+fiat-to-crypto and crypto-to-crypto exchange
+and payment processing solutions. Holding        The Ternion Ecosystem provides a real
+a cryptocurrency license that will provide a     solution for all legal financial institutions
+platform for institutions to interact with the   that are understandably nervous to utilize
+Blockchain, Ternion OÜ will launch a fully       the growing cryptocurrency exchanges, by
+functioning exchange platform during 2018.       operating under a license [FVR000209]. This
+The Ternion ecosystem is made up of three        license will allow institutions to safely operate
+pillars: Ternion Exchange, Ternion               with cryptocurrencies. The Ternion Exchange
+Payments and Ternion Liquidity Fund.             provides a simple, secure and diverse offering
+Ternion blends the security of traditional       with full customer support. The payment
+financial platforms within the framework of      processor will enable Ternion’s customers
+a cryptocurrency exchange. Ternion offers        and merchant partners to seamlessly
+contributors seamless transition between         integrate cryptocurrencies into their day-to-
+the old world of fiat currencies and the new     day lives.
+world of Cryptocurrencies. As liquidity on
+the centralized exchange increases, Ternion
+3. Market overview
+The total market capitalisation for the          an accelerating speed. One of the main data
+cryptocurrency sector suddenly increased by      aggregators in the market, CryptoCompare.
+$600bn during the last months of 2017. While     com, counts 120+ exchanges globally. These
+Bitcoin made up a significant portion of the     exchanges differentiate themselves on a
+growth, rising by over $200bn over the course    number of elements, including: size, model
+of the year, a number of other alternative       (centralized or decentralized) and number of
+cryptocurrencies (Altcoins) followed the         assets traded.
+same trend. Overall trading volumes grew
+accordingly within the same period arriving at   The top 10 exchanges are generating well in
+a peak of over $50Bn in 24 hours, in the same    excess of $3 million in fees a day, or more
+range as the NYSE’s average volume. With         than $1 billion per year (Bloomberg).
+increased demand on trading platforms a
+number of the core exchanges suffered Denial     While these figures are not exact, the
+of Service (DoS) as their infrastructure was     magnitude of cash flows currently associated
+not ready to handle such rapid increases in      with the cryptocurrency exchange sector
+trading volume. The end results for the user     is vast. The largest exchange by volume is
+was a slow service, missed opportunity and       currently Binance. Binance alone registered
+in some cases significant losses, as traders     $200M net profit in the first quarter of
+were unable to liquidate their open positions.   2018, an increase of over 2800% versus the
+                                                 previous quarter. According to data compiled
+Since that situation, exchanges have             by the smart contract platform Aelf, Asia
+consolidated their operations and teams, but     based exchanges such as Huobi, Bitfinex,
+there is still a generalized lack of gateways    Upbit and Bithumb process between $600
+to access the crypto space, representing a       million and $1.4 billion of daily trading
+problem for contributors that need quick in      volume and charge fees of 0.3% on average,
+and out from Crypto to Fiat and vice versa.      making Asia accounting for half of the crypto
+currency global trading.
+Cryptocurrency exchanges have been setting
+up operations in countries across the world at
+Ternion
+WHITEPAPER 2.0                                   4
+
+
+
+
+An interesting phenomenon that came with                                                      million in its ICO.
+the second half of 2017 is the launch of                                                      Exchange tokens are useful assets for the
+Exchange Tokens, used by exchange users to                                                    traders to benefit from discounts and access
+access additional services or discounts. The                                                  to exclusive rights. The value creation
+first to introduce this concept was Binance                                                   process is straightforward: the more the
+with the BNB token, raising $15million at                                                     system incentives the use of tokens the more
+ICO. The Binance coin attracted the attention                                                 the utility for the users and the more the value
+of tech and investment world, through both                                                    for the traders. Ternion provides a token that
+the novelty of the asset and the value that                                                   balances utility with appreciation, within
+it promised to bring to the users. Kucoin                                                     a system that cares about its customers
+subsequently launched a similar model with                                                    by sharing with them shares of its profits
+“Kucoin Share” and 2018 saw the arrival                                                       periodically and transparently.
+of Huobi exchange token that raised $300
+Why Blockchain?
+Why Blockchain? In order to get cryptocurrency implemented worldwide, we need a good crypto
+exchange and it starts with blockchain. Blockchain is decentralized and it liberates people
+and allows them freedom and control of their assets. Blockchain allows you to use and move
+cryptocurrency around the world.
+3.1 Challenges to Cryptocurrency Adoption
+Cryptocurrency as an asset class seeks                                                        overcrowding.
+to address inefficiencies within the global                                                   Within the context of the cryptofinance
+payments industry. These currencies                                                           market, since cryptocurrencies aren’t issued
+resolve a number of functional problems                                                       by a central authority, they possess an
+that arise with centrally governed, national                                                  inherent level of uncertainty. Their value
+payment architectures. These currencies                                                       is instead derived from a combination of
+improve transaction cost and speed, they                                                      foundational monetary economics (the
+are censorship resistance, they enhance                                                       equilibrium between Supply and Demand)
+user privacy and they allow uninterrupted                                                     as well as the speculative nature that
+ownership access.                                                                             accompanies the development of a ground-
+                                                                                              breaking technology.
+Aside from the many benefits this asset class
+brings, various parties still refuse to pay with                                              Finally, social awareness of cryptocurrencies
+or accept payment in cryptocurrency. The                                                      still has a long way to develop. In the current
+challenges to cryptocurrency adoption can be                                                  technological landscape there continue to
+segmented into three parts; The Technology,                                                   be significant challenges for the everyday
+The Cryptofinance Market and Social                                                           investor to purchase and actively trade this
+Awareness.                                                                                    asset class.
+Cryptocurrency technology is still in the                                                     We see a significant gap in the market for
+foundation building stage of its development                                                  a trading platform that improves social
+and last year saw cryptocurrency interest                                                     awareness through exceptional customer
+exceed the overall capabilities of the                                                        service and a familiar user interface. At
+technology. There were examples of this in                                                    Ternion we are focused on improving the user
+both the Bitcoin and Ethereum where users                                                     experience and opening the market to the
+were unable to complete transactions in an                                                    vast majority of contributors not currently
+affordable and timely manner, as a result of                                                  active in the cryptocurrency space.
+Ternion
+WHITEPAPER 2.0                                                                                5
+
+
+
+
+3.2 Market Opportunities*
+There is a crypto market trend that can be                                                                       market.
+observed by looking at the trading volume of
+crypto exchanges. Top three exchanges on                                                                         These market findings mean that there is
+the market, Bitmex, Okex and Binance, are                                                                        a vigorous undersupply of fiat-to-crypto
+relatively new and they do not offer fiat-to-                                                                    exchanges that exposes a market opportunity
+crypto trading.                                                                                                  for new and sound exchanges that offer such
+                                                                                                                 option. Even the Upbit Exchange that has
+There are only old crypto-to-fiat exchanges                                                                      Korean Won ranks 7th. Thus, providing a good
+which still have less trading volume                                                                             regulated exchange with a fiat deposit in EUR
+than the new crypto - crypto exchanges.                                                                          and USD will open a door to the Global market
+Kraken, for example, ranks 11th according                                                                        and has a lot of potential to be a large market
+to CoinMarketCap although it became                                                                              player on a global scale.
+operational long before the Crypto mega rally.
+All new exchanges with the most volume                                                                           The Ternion Exchange offers fiat-to-
+don’t offer an ability to do wire transfers in                                                                   crypto trading and due to being licensed,
+fiat currencies, e.g. Huobi and Binance. There                                                                   it will efficiently climb the ladder on the
+is a deficit of fiat to crypto exchanges on the                                                                  CoinMarketCap after the launch of full public
+market.  And a new Crypto to Fiat exchange                                                                       trading thanks to the availability of trading for
+can definitely become a turning point for the                                                                    auditable institutions all around the world.
+                                                                                                                                                                     Trading Volume
+BITMEX (EST.2015)                                                                                                                                                                       $3 500 450 000
+OKEX (EST.2014)                                                                                                                                                      $1 372 779 503
+BINANCE (EST.2017)                                                                                                                                                   $1 258 841 690
+HUOBI (EST.2013)                                                                                                 $983 759 081
+BITFINEX (EST.2012)                                                                                              $826 421 203
+COINBENE (EST.2017)                                                                                              $736 075 857
+UPBIT (EST.2012)                                                                                                 $381 399 334
+BITHUMB (EST.2013)                                                                                               $303 700 078
+ZB.COM (EST.2017)                                                                                                $291 553 699
+HITBTC (EST.2013)                                                                                                $271 070 752
+KRAKEN (EST.2011)                                                                                                $255 540 005
+GDAX (EST.2012)                                                                                                  $231 533 610                                        CRYPTO TO CRYPTO   FIAT TO CRYPTO
+* - all the data provided in this section is subject to change due to the constant fluctuations in the market.
+Ternion
+WHITEPAPER 2.0                                                                                                   6
+
+
+
+
+3. 3 Problems with Crypto Exchanges Today
+The path to mainstream adoption of crypto                                                            •  Lack of Fiat gateways
+remains blocked by a lack of financial
+                                                                                                     •  Low liquidity
+infrastructure solutions. Exchanges play
+                                                                                                     •  Lack of Regulated Exchanges
+a fundamental role in this infrastructure,
+                                                                                                     •  Complicated interface design
+representing the main gateway in and out of
+the cryptocurrency investment space.                                                                 •  Limited or poor-quality customer support
+                                                                                                     •  Lack of trust in exchange security
+In order to overcome these issues, exchanges
+                                                                                                     •  Insufficient anti-money laundering
+should be perceived as a safe and trustworthy
+                                                                                                     procedures
+platform that works in the interest of their
+                                                                                                     •  The whole daily use experience is
+customers. The main problems that digital
+exchanges are currently facing are:                                                                  fragmented among several service
+providers each one with its own interface
+4. Introducing Ternion: A regulated,
+secure   platform to accelerate
+cryptocurrency adoption
+Ternion is a multi-faceted exchange platform
+Ternion
+with the overarching goal of increasing
+Exchange
+accessibility to crypto currency markets. The
+Ternion ecosystem (where “Ternion” means
+                                                                                                     Supports Ternion Payments
+a group of three) will consist of three pillars;
+                                                                                                     First-class User Experience & Usability
+The Ternion Exchange, The Liquidity Fund and
+Ternion Payments, all overseen by a singular                                                         24/7 Support, Security & Transparency
+parent entity Ternion OÜ.
+Having obtained a cryptocurrency license                                                             Ternion
+[FVR000209] that will allow institutions to                                                          Liquidity Fund
+efficiently operate with cryptocurrencies,
+Ternion will begin by launching the Ternion                                                          Provides Ecosystem Capital Risk Hedging
+Exchange in September 2018. From 2Q’19
+                                                                                                     Sustains Ternion Exchange Trading Pool
+Ternion will offer payment processor solutions
+                                                                                                     Manages Ternion Payments Liquidity
+to both merchants and individuals.
+Ternion has been issued two licenses by
+Ternion
+Estonian Financial Intelligence Unit (FIU):
+Payments
+license №FVR000209 allows Ternion to provide
+services of exchanging a virtual currency
+Accept Cryptocurrency, Receive Fiat
+against a fiat currency, license № FRK000174
+Regulated Financial Institution
+allows Ternion to provide a virtual currency
+wallet service. The latter license will be useful                                                    Simple API Integration
+for the future development of the company.
+The three pillars of the Ternion ecosystem fall within the remit of the Ternion OÜ parent company.
+Our system is designed in such a way that each element contributes to the on-going efficiency of
+the Ternion Ecosystem.
+Ternion
+WHITEPAPER 2.0                                                                                       7
+
+
+
+
+4.1 The Exchange
+The Exchange serves as the first of two profit-generating subsidiaries that support the Ternion
+Liquidity Fund.
+The Ternion Exchange holds a European crypto trading license
+№ FVR000209. The license will position us as a reliable market player
+than can be safely engaged by institutional capital. Being regulated
+will not only reduce counterparty risk, but it will also help expand the
+cryptocurrency market as a whole by leading the way towards proper
+accreditation.
+Rudolfs Medvedevs, CEO
+The core Ternion platform (with minimum viable product) is currently live in closed beta phase
+since April 2018. After the public launch of the platform scheduled for Q3’18, we anticipate rapid
+international expansion. The Ternion Exchange will be launched for public trading in September.
+As we progress through the final stages of the development cycle and beyond, we will continue to
+value user feedback and the user experience.
+Unlike a number of competitors in the space,                                                         backend must support that usability.
+the Ternion exchange will be:                                                                        Both the end user experience and our
+                                                                                                     system architecture will support this goal,
+                                                                                                     creating a seamless experience for even
+•  Licensed: The Ternion Exchange is a
+                                                                                                     the most demanding user.
+licensed exchange which allows it to be a
+counterparty to institutional companies
+and operate on a larger scale than current                                                           •  Above-board: The exchange will be fully
+exchanges operating on the market.                                                                   KYC-compliant, which will stack upon the
+                                                                                                     transparency inherent to the blockchain
+                                                                                                     infrastructure to give users a sense of
+•  Accessible: Ternion put a sharp focus
+                                                                                                     security and comfort that is all too rare
+on making the exchange accessible to
+                                                                                                     among competing solutions. The Ternion
+newcomers in the cryptocurrency space,
+furthering our overarching goal of creating                                                          team have a comprehensive knowledge
+                                                                                                     of KYC procedures and 24hr support to
+a digital reserve currency for everyone.
+                                                                                                     help implement the relevant measures
+                                                                                                     efficiently.
+•  Efficient: Our approach is simple. The
+frontend must have high usability, the
+is initially supported by the Ternion Liquidity
+Exchange Features
+pool.
+                                                                                                     The Ternion Exchange due to being licensed
+The Ternion Exchange will initially launch as
+                                                                                                     and offering Fiat-to-Crypto and Crypto-to-
+a centralized cryptocurrency exchange with
+                                                                                                     Crypto places itself among the top exchanges
+carefully selected features that surpass those
+                                                                                                     in the global market. The Ternion Token
+provided by competitors. The goal for this
+                                                                                                     (TRN) is in close competition with leading
+pillar of the Ternion Ecosystem is to offer an
+                                                                                                     exchanges in terms of the token functionality
+all-encompassing solution for cryptocurrency
+                                                                                                     and their token buyback scheme.
+traders. Phase two of the exchange is to build
+a decentralized exchange platform (DEX) that
+Ternion
+WHITEPAPER 2.0                                                                                       8
+
+
+
+
+Future Development
+of the exchange
+The rate at which development of the             A long-term commitment to a reliable
+exchange can take place will depend on the       cryptocurrency exchange means keeping up
+amount of money raised. We are confident         with technological progress and evolving user
+that the soft cap will be reached during the     demands. To this end, the Ternion Exchange
+pre-sale stage (based on the current rate of     plans to include a decentralized exchange
+investment). Once the soft cap is reached,       component that will be interconnected with
+all the core features of the exchange will       the standard exchange.
+go ahead. If no additional money is raised       The Ternion DEX will serve the same core
+beyond the soft cap, the additional features -   purpose of supporting Ternion liquidity as
+including the development of the DEX - will      all other parts of the Ternion Ecosystem,
+be funded through the revenue model that         supporting demand from dedicated
+underpins the Ternion Ecosystem.                 cryptocurrency users and the segment of the
+blockchain community.
+What is a hybrid architecture?
+A combination of a decentralized exchange
+(DEX) and a centralized exchange (CEX).
+Main Features Of A Hybrid Architecture:
+•  Aggregated Liquidity
+•  High-end Security
+•  Transparency
+•  Efficiency
+9
+
+
+
+
+Exchange Fees
+Upon future
+Fee                                              Starting point                                    Volumes > $35M /24hr
+                                                                                                                                                    development
+Maker Fee                                        -0,05%                                            0,10%                                            0,00%
+Taker Fee                                        0,10%                                             0,15%                                            0,08%
+                                                                                                   That said, Ternion exchange is committed
+New Token Listings
+                                                                                                   to a disciplined listing process to ensure
+                                                                                                   only quality assets are tradable on our
+As a community-centric exchange platform,
+                                                                                                   platform. Coins and tokens first submit a full
+our focus is on adding the cryptocurrencies
+                                                                                                   application with all relevant documentation.
+that TRN token holders want to trade with.
+                                                                                                   Ternion will perform their extensive due
+When it comes to choosing the assets to
+                                                                                                   diligence procedure to ensure that the asset
+trade on the Ternion platform, Ternion will
+                                                                                                   does not qualify as a scam. Assets will be
+in some cases list a coin with discounted
+                                                                                                   screened for trading volumes to ensure that
+trading fees, forfeiting their profit in the
+                                                                                                   there is ample liquidity available to enable
+exchange listing in order to provide access to
+                                                                                                   users to trade with acceptable levels of
+the market.
+                                                 spread.
+4.2 Ternion Payments
+Ternion payments serves as a key contributor     to receive their revenue in crypto due to at an
+towards increasing cryptocurrency access         unpredictable future rate. On the other end of
+and usability. Ternion payments is a payment     the equation, buyers are reluctant to spend
+processing system that will be integrated        in a currency that may see positive price
+directly into the Ternion Exchange for           movement in the near future, Bitcoin as an
+maximum efficiency. In addition to enhancing     example seeing 800% increase in price during
+accessibility of cryptocurrency for consumers    2017.
+and merchants alike, Ternion Payments
+generate revenue through a small transaction     In order for cryptocurrencies to see
+fee on each transaction.                         widespread adoption and become an integral
+part of the mobile payments ecosystem it
+is necessary to find ways to eliminate the
+What is the problem that Ternion Payments
+volatility risk. This can be approached in
+seeks to address?
+                                                 two ways; creating a stable cryptocurrency
+                                                 (Stablecoin) or involving a payment processor
+According to Boston Consulting Group,
+                                                 to fix the exchange rate at point of sale. The
+mobile payments as a share of total
+                                                 latter solution provides solace only for the
+ecommerce are expected to increase to 48.5%
+                                                 merchant since the buyer continues to spend
+by 2020, growing from 23.6% in 2015. Experts
+                                                 a (potentially) appreciating asset.
+believe that a significant portion of this
+growth will be comprised of cryptocurrencies.
+However, at current merchants are unwilling
+Ternion
+WHITEPAPER 2.0                                   10
+
+
+
+
+How does Ternion Payments support the                                                               As an example of how Ternion Payments
+                                                                                                    will serve the Cryptocurrency community.
+Ternion Ecosystem?
+                                                                                                    Customers holding their funds in Bitcoin
+                                                                                                    (BTC) can go to a store and use them to
+Ternion Payments will handle transactions
+from various channels, converting the                                                               purchase an item that is priced in USD.
+                                                                                                    Ternion payments will enable this by
+cryptocurrency to FIAT directly through our
+                                                                                                    exchanging BTC for USD at point of sale,
+in-house exchange, securing the best rates
+                                                                                                    leveraging the Ternion Exchange. The
+through a reliable service. Through providing
+                                                                                                    customer will pay with cryptocurrency,
+both the exchange function and payment
+process function, the Ternion Ecosystem is                                                          Ternion payments will convert it and the
+                                                                                                    merchant will receive fiat currency, all in
+able to:
+                                                                                                    one smooth transaction, comparable to any
+                                                                                                    other FX transaction. The customer is able to
+•  Enact fixed cryptocurrency rates for the
+                                                                                                    utilize their cryptocurrency holdings and the
+duration of transactions.
+                                                                                                    merchants can increase their market shares
+                                                                                                    without carrying any of the volatility risk that
+•  Implement a transaction confirmation
+                                                                                                    comes with cryptocurrencies.
+system that will prevent fraudulent
+interactions between merchants utilizing
+the Ternion Payments API and their
+clients.
+Ternion Payment Processor Fees
+The Ternion payment processor function will charge competitive market rates for the services
+provided. The pricing is straightforward, transparent and competitive:
+Payment processor                                                                                   Discount Fees
+Mastercard                                                                                          1,65 - 1,90% + Assessment Fees
+Visa                                                                                                1,30 - 1,50% + Assessment Fees
+American Express                                                                                    2,30 - 2,50%
+1,50% from a BTC account
+Ternion
+0,85% from a USD topped up account
+Transaction Cancellation
+In the event of cancelled transactions, Ternion Payments will absorb the cost. To facilitate this
+functionality, Ternion Payments will need to have a considerable store of cryptocurrencies. As
+such, a large portion of the funds raised through Ternion Payments will go towards the purchase
+of various cryptocurrencies at favourable rates over the course of the payment system’s
+development process.
+Ternion
+WHITEPAPER 2.0                                                                                      11
+
+
+
+
+Regulation of Ternion Payments
+As with the Ternion Exchange, the Ternion Payments entity will be a regulated financial institution,
+cultivating an aura of trust and security unmatched by many of our competitors. Ultimately,
+regulatory oversight along with the aforementioned measures will grant the Ternion Ecosystem a
+reputation of reliability to rival traditional institutions like VISA and PayPal.
+4.3 Ternion Liquidity Fund
+The Ternion Liquidity                                                                                  Security of the Liquidity Fund
+Fund is a central pillar
+The systematic security of the Ternion
+Liquidity fund is a high priority within
+within the Ternion
+the structure of the Ternion Ecosystem.
+Ecosystem. The                                                                                         As is common with exchange providers,
+Ternion will spread the liquidity fund across
+Liquidity Fund’s primary
+a combination of Cold storage, online
+(for direct access on the exchange) and
+function is to enhance
+custodial accounts. Ternion OÜ is currently in
+liquidity for the Ternion                                                                              discussions with one of the world’s leading
+custodianship providers to facilitate the
+Exchange and for
+integration of this custody account service
+into the Ternion Liquidity Fund.
+the Ternion Payment
+Processor.
+Managing Liquidity Fund balance
+transfers
+The Liquidity Fund will operate via a web
+The Role of the Ternion Liquidity                                                                      cabinet storage mechanism. The dealing
+Fund                                                                                                   department will have this web cabinet
+                                                                                                       integrated inside the system to reallocate
+The fund will be responsible for the                                                                   capital between the cold storage wallet and
+introduction of new tokens and ensuring a                                                              the wallet that is providing direct liquidity
+smooth market-making process. In practical                                                             to the exchange clients. The process will be
+terms, the Ternion Liquidity Fund aims to                                                              overseen by the Chief Dealing Officer (CDO)
+make sure that the Ternion Exchange and                                                                who has 15 years applied experience across
+Ternion Payments always have the required                                                              numerous trading platforms. Our procedure
+resources for on-going product development                                                             is heavily secured and controlled by an
+and that the Ternion Exchange has sufficient                                                           integrated risk module. The risk module will
+liquidity. 25% of accumulated funds will be                                                            allow us to track how much liquidity is in
+stored in the Liquidity Fund to always have                                                            exchange, the types of liquidity and where it
+available liquidity towards the expansion of                                                           is distributed across the Ternion ecosystem.
+Ternion globally. Ternion cannot guarantee                                                             Once we open an account with a leading
+the existence of any unspent revenues on a                                                             global custodian, the 40% of the Ternion
+quarterly basis.                                                                                       Liquidity Fund that is in custody will have
+                                                                                                       proof of funds at all times.
+Ternion
+WHITEPAPER 2.0                                                                                         12
+
+
+
+
+5. Marketing plan
+In this chapter, we present market analysis conducted for an efficient allocation of our marketing
+efforts.
+5.1 Survey
+Ternion understands the importance of filling a void in the market of cryptocurrency exchanges.
+In order to get a better understanding of the needs of potential customers, we have conducted
+one of the many upcoming surveys asking potential users about the importance of regulation,
+audits, customer support, as well as other features that Ternion is to provide. You can find more
+information and results of the survey by following the link: https://www.surveymonkey.com/
+results/SM-ZYRCT2NSL/.
+5.2 Competitive Analysis
+Ternion is one of a few platforms in the industry that offer the same business-oriented triad
+ecosystem. Our main competitors on the market are fiat-to-crypto and crypto-to-crypto
+exchanges, as well as payment systems.
+Below you can find a comparative analysis of the Ternion Exchange compared to other fiat-to-
+crypto and crypto-to-crypto exchanges.
+                                                                                                     Ternion       Binance      Huobi     Kucoin       Kraken
+Discount                                                                                             50% then      50% then     up to
+                                                                                                                                          Variable     None
+Fees                                                                                                 increasing    decreasing   50%
+                                                                                                     Access to
+                                                                                                     additional                           Consulting
+                                                                                                                                Receive
+                                                                                                     plugins                              -
+Exclusive                                                                                                                       newly
+                                                                                                     -             NO                     Expedited    NO
+Rights                                                                                                                          listed
+                                                                                                     Advertising                          customer
+tokens
+through                                                                                              service
+Ternion
+FIAT
+YES                                                                                                  NO            NO           NO        YES
+to Crypto
+24/7 Support                                                                                         YES           YES          YES       YES          NO
+In
+Regulation                                                                                           YES                        NO        NO           NO
+                                                                                                                   process
+Annual
+                                                                                                     YES           YES          NO        NO           NO
+Audits
+Ternion
+WHITEPAPER 2.0                                                                                       13
+
+
+
+
+As it can be evident from the table above, the Ternion Exchange stands out among others due to
+the following features:
+•                                                                                                The Ternion Exchange will be listing future     •  Another insight that our survey gave us
+                                                                                                 coins and ICO projects for a fee in Ternion     is that customer support is essential for
+                                                                                                 Tokens. It will stimulate the demand and        an efficient operation of an exchange,
+                                                                                                 the tokens liquidity.                           however the quality of the exchange
+                                                                                                                                                 does not correspond with the needs and
+•                                                                                                Ternion will have 50% discount fees,            standards of the clients. Ternion, however,
+                                                                                                 which will increase with the decrease of        will provide top-notch 24/7 support
+                                                                                                 the number of tokens circulating.               through phone, emails and instant chats.
+•                                                                                                Ternion will offer additional plugins, as       •  About 58% of the survey respondents also
+                                                                                                 well as a possibility for advertising and       ranked regulation as being important and
+                                                                                                 making competitions through Ternion.            very important. The Ternion Exchange
+                                                                                                                                                 has been issued a license by Estonian
+•                                                                                                According to the survey conducted,many          Financial Intelligence Unit, license
+                                                                                                 respondents consider multi-currency fiat        №FVR000209.
+                                                                                                 support for all major alt-coin pairs very
+                                                                                                 important; however, only a relatively small     •  About 80% of the respondents also
+                                                                                                 number of the respondents changes their         mentioned that trading on a fully audited
+                                                                                                 alt-coins into fiat very often.That signifies   exchange is important or very important.
+                                                                                                 a deficit of infrastructure in place that       Ternion will undergo yearly audits
+                                                                                                 allows such ease of transactions.For this       conducted by external party to uphold
+                                                                                                 reason, Ternion provides a good regulated       transparency for its customers.
+                                                                                                 exchange with a fiat deposit in EUR and
+                                                                                                 USD which will open the door to the             In the table below, you can find a comparative
+                                                                                                 Global market and the segregated stratum        analysis of the Ternion Payment Processor
+                                                                                                 of potential investors.                         compared to other processors in the industry.
+1
+
+
+
+
+Ternion            BitPay              Monaco            TenX
+                   Integration of
+                   The Ternion
+                   Exchange:                             The merchant
+                                                                            Real-time
+                   •                   Fixed rates       and the seller
+                                                                            Interbank       Real time
+Volatility         •                   Instant           get a fixed rate
+                                                                            exchange        rates
+                                       conversion        in the 15-minute
+rate
+of crypto-         window only
+to-fiat at the
+point of sale
+A small fixed
+1,50% from a       1% transaction      fee only for
+0.5 - 3%
+BTC account        fee (higher fees    a transfer
+from a
+Fees               0,85% from a        are applied       of crypto
+merchant’s
+USD topped up      for high-risk       to external
+                                       side
+account            industries)         wallet
+                                       addresses
+                                       As quickly
+                                       as the
+                   Determined          relevant
+Maximum            by the Bitcoin      payment
+Instant
+Transfer           efficiency due      network: may                         schemes
+                                                         on the MCO
+Times              to the built-in     take from a few                      and financial
+                                                         platform
+                   Exchange            seconds to a                         networks
+                                       few days                             allow (1-2
+                                                                            business
+                                                                            days)
+                                                                            Easy to
+                   Simple API
+                                                                            use, App,
+integration, App
+Ease                                   Easy to use,      Easy to use,       Availability
+                   to follow, cards
+of Use                                 App, cards        App                of thecards
+                   will be issued to
+                                                                            is highly
+                   the users
+                                                                            limited
+Regulation         Will be regulated   None              None               None
+                                       Transaction
+                                       confirmation
+                                                                            Hosted
+                   Transaction         system on
+                                                         Hosted             wallet
+Security           confirmation        either the
+                                                         wallet             and smart
+system                                 Bitcoin or
+contract
+Bitcoin Cash
+blockchains
+Major
+7 fiat and 4       Multiple
+cryptocurrencies
+Cryptocurrency     Only Bitcoin        crypto-           crypto-
+and top 10 fiat
+                                       currencies        currencies
+currencies
+Ternion
+WHITEPAPER 2.0     15
+
+
+
+
+As it can be evident from the table above, The Ternion Payment Processor will be standing out
+among other top payment processors due to being regulated and supporting more currencies.
+The Ternion Payment Processor has been already planned and verified by a partner company
+(Flashboys) to be working. Furthermore, it keeps up-to-speed with the other leading payment
+processor platforms and offers cards, an app and integrated exchange to ease the payment
+transactions. Moreover, we will be partnering with banks making the Payment Processor more
+efficient and more secure.
+5.3 Competitive Advantages
+The detailed market opportunity for the Ternion Exchange can be found in Chapter 3.2.
+The current situation on the market shows us a need for a newly established, regulated, licensed
+fiat-to-crypto exchange. If we take a look at current exchanges, then we can see that there is only
+a handful of those who have license, and even a smaller number of them who have fiat-to-crypto
+exchange and excellent customer service. Ternion provides both of them, thus, we can conclude
+that the monthly volume of these exchanges will be the bare minimum of the trade volume
+Ternion can expect per year. These numbers will be enhanced due to a large amount of money
+that Ternion plans to use on advertising opportunities and placing the Exchange on the top of all
+search engines.
+5.4 Target Audience
+Traditional investors                                                                                 Institutional investors
+Ternion caters to the needs of traditional                                                            Investors can easily and safely benefit
+investors by providing an ease of transaction,                                                        from the cryptocurrency market due to the
+issuing cards to the users and allowing                                                               infrastructure provided by Ternion. The
+them to pay for services and goods using                                                              Ternion Exchange is regulated and licensed
+a cryptocurrency at different merchant                                                                by an EU authority. It will undergo yearly
+partners. Due to the integration of the                                                               audits for the purposes of transparency and
+exchange, the transactions are extremely                                                              it offers segregated customer accounts for all
+efficient, the fees are quite low, and the                                                            investors. It offers constant and high-quality
+volatility is kept at bay. The usage of the                                                           24/7 support and a possibility to do wire
+products is easy: users can download an                                                               transfers.
+app on their smartphone and always have an
+oversight of their finances at their fingertips.                                                      Merchant customers
+Furthermore, Ternion offers top-notch
+24/7 customer support. The platform has                                                               Furthermore, the merchants will receive fiat if
+multiple technical analysis tools and it can                                                          they choose to, when the payee has utilized
+facilitate a large number of customers at the                                                         cryptocurrency to purchase the goods. This
+same time. There is also a high capacity of                                                           will be made possible due to the Ternion
+plugins available for Ternion to implement                                                            API integrated into the merchant’s system;
+in the system, including, but not limited to,                                                         and integration of the Ternion Exchange
+behavioural risk analysis and prediction                                                              that converts crypto-to-fiat at the point of
+markets.                                                                                              sale, thus protecting the merchants against
+the volatility of cryptocurrency. Ternion
+also provides individual customer support
+managers to make the usage of Ternion
+products as efficient and smooth as possible.
+Ternion
+WHITEPAPER 2.0                                                                                        16
+
+
+
+
+5.5 Marketing strategy
+“Build it, and they will come” - works only in the stories and movies, nowadays, it is not enough to
+build a good product, you need to show that you have a good product. Ternion understands the
+importance of a properly conducted marketing strategy. We employ the following marketing plan
+to achieve our objectives and make customers aware of the product and the advantages it will
+bring.
+PR Marketing                                                                                           Digital Marketing
+Ternion pays a lot of attention to public                                                              Ternion also runs ads across the web to raise
+relations and raising awareness using organic                                                          awareness among specific audience. Besides
+methods. This includes building relations                                                              that, Ternion has an SEO specialist who will
+with media representatives, giving interviews                                                          work on a high ranking of Ternion in search
+on traditional and social media channels,                                                              engines. We are active on social media and
+filming videos to raise awareness about our                                                            post daily updates and announcements on
+products among the crypto community. We                                                                social media channels.
+are also constantly networking and building
+strong strategic alliances with emerging and                                                           Email Marketing
+experienced players in the industry.
+                                                                                                       Ternion also uses email marketing to
+Event Marketing                                                                                        distribute valuable content: newsletters and
+updates to the subscribers.
+We run events to promote Ternion, to
+raise awareness about our product, to find                                                             Community Marketing
+investors, build lasting relations with our
+customers and media representatives.                                                                   We believe that a strong community is an
+                                                                                                       essential part of Ternion’s success. We have
+Roadshows                                                                                              a bounty program, we ask our community
+                                                                                                       members about their needs and expectations
+Ternion Team frequently attends roadshows                                                              through a survey, we will offer an Airdrop
+all around the world to build investor relations                                                       program. We also offer a referral program,
+and also present Ternion products. The                                                                 you can find more information and get your
+latest roadshows took place in the Asian                                                               referral link in your Ternion Account:
+regions, Hong Kong and Japan. Ternion CEO
+is a frequent speaker at Blockchain events.                                                            •   For the Exchange: 15% from total turnover
+Ternion team visits different Blockchain                                                               from the client attracted
+summits.                                                                                               •   For the Payment Processor: 10% from a
+                                                                                                       turnover from the client attracted.
+Content Marketing
+                                                                                                       Who Will Be Attracted First?
+Ternion uses social media to primarily
+share its native content and provide useful
+                                                                                                       Retail brokers will be the first ones attracted
+materials to the audience. Besides that,
+                                                                                                       to the platform. Being from the industry
+Ternion also has its own blog where we
+                                                                                                       ourselves and having multiple parties
+frequently discuss fintech hot topics, publish
+                                                                                                       from that sphere already interested in the
+news and announcements. Ternion has
+                                                                                                       project, our initial business offer is tailored
+been featured in many media channels and
+                                                                                                       specifically for their needs. Additional retail
+traditional media websites and print editions
+                                                                                                       clients will be attracted to the project from
+of newspapers.
+the events that we are conducting and
+participating in, like the Ethereum meetup in
+London.
+Ternion
+WHITEPAPER 2.0                                                                                         17
+
+
+
+
+6. Financials
+Key Assumptions of Revenue Forecast:
+•                                          Overall the summary in the calculations       •   And exchange overall turnover after
+                                           can be seen as a medium scenario                  3 months of opening at $25 million is
+(conservative assumption).                                                                   highly probable due to Ternion Exchange
+having already for the moment $5 million
+•                                          Forecasted Ecosystem Income is based              turnover per day.
+                                           on the financial projections of the
+                                           Exchange and the Payment System.              •   $5 million turnover per day does not
+                                                                                             include the pending 6 brokers that wish
+•                                          The Exchange’s expected daily volume is           to be onboarded on to the exchange
+                                           $14 million with average 34% quarterly            that are currently in the middle of the
+                                           traded volume growth rate in the 1st              onboarding process (number of brokers
+                                           financial year, average 2% quarterly traded       starts to increase to 20 from the 2nd
+                                           volume growth rate in the 2nd financial           financial year).A turnover per one broker is
+                                           year and average 8% quarterly traded              expected to reach $1,700,000 per day.
+                                           volume growth in the 3rd financial year.
+                                                                                         •   5,000,000$ turnover per day does not
+•                                          The total volume on the Exchange will be          include the pending 50 Retail - Private
+                                           the most important point of view on the           clients that wish to be onboarded on
+                                           profits from the activity of the Exchange.        to the exchange that are currently in
+                                                                                             the middle of the onboarding process
+•                                          The Exchange’s expected income is based           (a number of Retail - private clients
+                                           on 0.03% revenue margin from daily                beginning from the 2nd financial year
+                                           volume (difference between a limit order          reaches up to 150). A turnover per one
+                                           and a market order)                               Retail - private client is expected to reach
+6,667$ per day.
+•                                          The numbers represent the overall total
+turnover for the Exchange. That implies
+BTC, BCH, EOS, NEO, ETH, Zcash, XMR and
+other top 15 crypto currencies to trade.
+1
+
+
+
+
+Key assumptions           1st Financial Year   2nd Financial Year   3d Financial Year
+Volume per day, USD       14,000,000           54,720,000           132,073,758
+Average growth per
++34%                      +2%                  +8%
+year, %
+Net Commission, %         0.03%                0.03%                0.03%
+Exchange’s expected
+3,283,200                 7,633,932            13,464,146
+income, USD
+Changes (%)
++31% (average per Q)      +133%                +76%
+in revenue
+Total number of Insti-
+tutional clients - Bro-   12                   18                   20
+kers
+Turnover per day for 1
+1,700                     1,700                1,700
+Broker, USD
+Total revenue from
+                          1,698,300            3,672,000            3,672,000
+brokerage, USD
+Changes (%)
+                          -                    +116%                0%
+in revenue
+Total number of Private   From 25 to 125 at
+                                               150                  150
+person (Retail)           the end of period
+Turnover per day for 1
+6,667                     6,667                6,667
+private person, USD
+Total revenue from
+63,000                    108,000              108,000
+retail, USD
+Changes (%) in revenue    +71%                 0%
+Total revenue (net)
+                          4,021,687            9,589,631            15,419,844
+from sale, USD
+Changes (%)
+                          -                    +138%                +61%
+in revenue
+Ternion
+WHITEPAPER 2.0            19
+
+
+
+
+Key assumptions for forecasted expenses:
+•  The numbers of expenses represent the costs that have been similar to other large scale
+Brokerage companies that operate under a similar business model and that have been
+working with or have belonged to the shareholders of Ternion.
+•  The numbers that are mentioned and shown represent only cryptocurrency trading without a
+marginal business model.
+•  The cost goes up in value each year due to a new representative office opening in countries,
+which is cost efficient, but legally well bound to operations.
+1st Financial                                                                                     2nd Financial   3d Financial
+Key assumptions
+                                                                                                  Year            Year           Year
+Rent of premises (rental, maintenance,
+                                                                                                  9,900           45,000         45,000
+utility, insurance, security) quarterly, USD
+Wages, salaries                                                                                   90,600          136,172        136,172
+Expenses for Retail per 1 person, USD                                                             175             175            175
+Expenses for Broker per 1 person, USD                                                             12,000          12,000         12,000
+Other expenses                                                                                    34,529          34,529         34,529
+COGS (Cost of goods sold) - total                                                                 1,022,813       1,824,302      1,824,302
+COGS (% of net revenue)                                                                           22%             16%            11%
+Selling expenses (% of net revenue)                                                               3%              2%             1%
+Administration expenses (% of net revenue)                                                        4%              1%             1%
+Gross margin (%)                                                                                  78%             84%            89%
+Ternion
+WHITEPAPER 2.0                                                                                    20
+
+
+
+
+Key Ratio for Investors
+                                          1st Financial   2nd Financial   3d Financial
+Key assumptions
+                                          Year            Year            Year
+Investments, total, USD                   3,500,000       5,000,000       5,000,000
+EBITDA, USD                               3,782,060       9,259,295       15,121,886
+Discount rate                             24%             24%             24%
+Discounted Free Cash Flow, USD            3,782,060       9,259,295       15,121,886
+Other expenses                            34,529          34,529          34,529
+                                          1,022,813       1,824,302       1,824,302
+COGS (Cost of goods sold) - total
+COGS (% of net revenue)                   22%             16%             11%
+Gross margin (%)                          78%             84%             89%
+NPV - NET PRESENT VALUE, USD              12,003,199
+DPP (Discounted Payback period), month    18,45
+PI - PROFITABILITY INDEX                  2,40
+IRR - Internal Rate of Return             63%
+MIRR - Modified Internal Rate of Return   40.58%
+ARR  Accounting Rate of Return            366%
+Ternion
+WHITEPAPER 2.0                            21
+
+
+
+
+7. The Ternion Token Economics
+Ternion’s ecosystem will be supported by the TRN Utility Token. The TRN Token is an ERC-
+20 compliant token to be issued on the Ethereum blockchain. The TRN token will be the core
+payment mechanism for all goods and services exchanged through the Ternion Ecosystem, and
+will give a competitive advantage to those who use it in the Ternion Ecosystem.
+Overview of the Ternion Ecosystem
+Within the Ternion Ecosystem, all internal revenue-generating mechanisms are geared towards
+upholding the Ternion Liquidity Fund. Just as the Ternion Financial Model relies on natural market
+forces to support Ternion liquidity, so too does the utility functionality of the Ternion token. The
+TRN token is exceptionally well integrated into the Ternion Ecosystem, serving as a method of
+exchange for fees incurred through the Ternion Exchange and the Ternion Payments business. If a
+party wants to list on our Exchange, then it can pay commission fees with the Ternion tokens and
+get a lower price. This utility mechanism may result in higher demand for the TRN token, which is
+then channeled back into the ecosystem, creating a contained cycle of supply and demand.
+Accredited Investors
+For accredited investors we are selling a token which shall be repurchased with 25% of the
+company’s profit once per quarter at a determined price. For more details please contact the team
+directly at info@ternion.io and schedule a conference call.
+Public Sale
+For the Public sale, we are selling a token which can be used to pay commission on a discount
+and access additional services on the exchange and payment mechanism.
+The utility tokens which will be used for payment of commission and listings will be sent to the
+token burn program. Please refer to section 7.3 for more details.
+7.1 The Token Utility Features: Liquidity Support
+The TRN is a utility token positioned to grant users access to a variety of benefits within the
+Ternion Ecosystem. TRN utility functions include to pay for:
+Ternion Exchange                                                                                       Ternion Payments                       Ternion Liquidity Fund
+Access to additional plugins on the
+Ternion Exchange:
+Fees for cross
+•                                                                                                      Technical indicators, trading
+exchange liquidity
+signals, latest news, online reports
+purchases
+and risk analytics tools
+                                                                                                                                                                       •   Available to high
+•                                                                                                      A fixed fee of $2.5K for the plugins
+                                                                                                                                              Merchant Fees
+                                                                                                                                                                           volume traders
+is to be paid in TRN Tokens
+Coin and Token Listings                                                                                                                                                •   Source liquidity from
+on the Ternion Exchange                                                                                                                                                    alternate exchanges
+for arbitrage ops
+Trading Fees
+Advertising with the Ternion Exchange
+Ternion
+WHITEPAPER 2.0                                                                                         22
+
+
+
+
+7.2 Ternion Exchange: Trading Fee Discounts
+Ternion wants to encourage users to pay for their trading fees with the TRN tokens. Users will be
+heavily incentivized to use TRN tokens by receiving significant discounted trading fees. Trading
+fees will move in three well-defined stages. The circulating supply of TRN tokens will determine
+the current stage. When the Ternion Exchange is launched for public trading in September, the
+TRN token holders can start instantly using the tokens on the Exchange, for example, to lower
+their commission fees.
+All the TRN tokens that have been received as a part of promotions can be sold only in one year.
+In the meantime, they can be used to pay the commission fees on the platform. This procedure is
+essential for sustaining the value of the token.
+Total Tokens in Circulation                                                                            Discount using TRN tokens
+100%                                                                                                   50%
+70%                                                                                                    65%
+25%                                                                                                    75%
+7.3 Financial Model: Asset Price via Token Burn
+In order to facilitate reliable liquidity, Ternion operates around a financial model built on market
+forces. The Ternion financial model and the ecosystem that supports it ensure the Ternion token
+remains relevant and provides a competitive advantage. The Ternion token (TRN) is an intrinsic
+part of the Ecosystem and serves as the native currency for Ternion’s three fundamental pillars:
+The Exchange, Ternion Payments and The Liquidity Reserve.
+Ternion
+Payments
+Ternion
+WHITEPAPER 2.0                                                                                         23
+
+
+
+
+Feature 1: Revenue Generation                                                                     of Ternion globally. We maintain liquidity
+in the Fund, and thus we allow the
+•  The Ternion Exchange operates based on                                                         business to develop and grow.
+a progressive commission (from 0.25%
+down to 0.1% based on monthly traded
+Feature 3: Token Burn
+asset volume).
+                                                                                                  •  Utilizing 25% of the company’s profit we
+•  Ternion Payments charges a 0.85% - 1.5%
+                                                                                                  first burn the tokens that were received as
+commission per transaction, dependent
+                                                                                                  commission fees and payments for other
+on the purchasing currency.
+                                                                                                  internal services. If there is a shortage of
+                                                                                                  the tokens to sustain the 25% bench mark,
+Feature 2: Liquidity Fund Replenishment                                                           then we go and buy the TRN tokens from
+                                                                                                  the market and burn them.This procedure
+•  Ternion stores 25% of accumulated funds                                                        will limit the supply of the tokens and thus
+in the Liquidity Fund to always have                                                              will sustain their price.
+available liquidity towards the expansion
+Token Burn
+Token burn based financial models have shown themselves to offer a number of key benefits:
+1. Sustainability of the token.
+2. Token Demand Stimulation.
+3. A wide array of competitive advantages when utilizing the token.
+4. The amount of burnt tokens depends on the overall popularity of the platform.
+Ternion Ecosystem Volume vs. Token Supply
+100M                                                                                                                                             60
+90M                                                                                               SUPPLY
+50
+80M
+70M
+40
+60M
+50M                                                                                               30
+40M
+20
+30M
+20M
+10
+10M
+VOLUME
+0
+Q1                                                                                                Q2                                             Q3   Q4   Q5   Q6   Q7   Q8   Q9   Q10   Q11
+What does token burn do?
+Sustains the demand for the initially distributed tokens.
+Allows individuals who make payments with the TRN Tokens to access benefits.
+The Ternion Token is a digital asset that is a key element in the ecosystem of the Exchange and
+the Payment System and creates a sustainable support model for its holders.
+Ternion
+WHITEPAPER 2.0                                                                                    24
+
+
+
+
+8. Ternion Token Sale
+The Ternion Token (TRN) will be used as the
+What TRN Tokens are:
+method of exchange across the entire Ternion
+Ecosystem. This includes trading fees,
+                                                  TRN Tokens are an Ethereum based
+merchant fees and listing fees. TRN will only
+                                                  ERC20 Cryptocurrency.
+be created during a single event commencing
+during the private pre-sale. Further, no tokens
+                                                  TRN Tokens are the method of exchange
+will be created once the final round of the
+                                                  used across the Ternion Ecosystem.
+Token Sale is complete. Any unsold tokens
+will be destroyed. Institutional Offering
+                                                  TRN Tokens only have value in the Ternion
+will be different, please request additional
+Ecosystem.
+information from our team.
+                                                  TRN Tokens are available to hold in your
+What the TRN Tokens are not:                      compatible ERC20 wallet.
+Ternion Tokens do not grant their holders         TRN Tokens are Exchangeable on
+voting rights                                     Cryptocurrency Exchanges
+Ternion Tokens do not pay any dividend,           TRN Tokens have 4 decimal places.
+commissions, shares or provide equity
+based on their acquisition.
+8.1 Token Structure
+Maximum total supply:                             95 000 000 TRN
+Available in pre-sale:                            22 500 000 TRN
+Available in public sale
+                                                  53 500 000 TRN
+(Plus any unsold presale tokens)
+                                                  Minimum Contributions:
+SOFT CAP : $5 000 000
+HARD CAP : $30 000 000                            •  Public token sale, minimum transaction:
+                                                  0.1 ETH
+The reason for a big spread between our soft
+and hard cap is because launching a fully         The following discounts depend on
+running exchange requires $5 000 000.             the amount contributed during the:
+                                                  •  Round A:
+Reaching the soft cap will allow us to
+                                                  Institutional and VC round, which is
+successfully launch an exchange. In order
+                                                  aimed at providing a higher discount for
+to follow our development path through,
+                                                  institutional investors.
+we need extra 5 millions for successful
+                                                  Discount up to 125 000$ - 35%.
+implementation of each next step (the
+                                                  Above 125 000$ - Institutional discount,
+payment system, a decentralized exchange
+                                                  ask team for more details.
+and market overcapitalization). Furthermore,
+we put 50% of the accumulated funds into the
+                                                  •  Round B: discount up to 30%
+Liquidity Fund.
+                                                  •  Round C: no discount
+Ternion
+WHITEPAPER 2.0                                    25
+
+
+
+
+8.2 Token Sale
+Token Sale Dates
+The Ternion token sale is split into Pre A,  A, B, C rounds. Presale and a Public Token Sale.
+Token Presale (Pre-A round)
+The Presale will run until: June 28th 2018.
+The pre-sale will allow Ternion to raise the necessary funds to begin building the exchange,
+having a Minimum Viable Product (MVP) available during the Public Token Sale. The pre-sale will
+also help us acquire valuable feedback early on in the build, contributing to the efficiency of the
+exchange development process.
+The funds raised during the public pre-sale will be used primarily for development and growth
+efforts, though a fraction will still go towards laying the foundation of the Ternion Liquidity Fund.
+PRE-TOKEN SALE
+Ternion Liquidity                                                                                       Ternion Ecosystem                    Ternion Exchange          Marketing
+Support                                                                                                 Incorporation                        & Payments R&D            & PR
+Public token sale
+Once the Pre-sale is concluded and Ternion has developed the MVP of the Ternion Exchange, then
+the project will be open to a Public Token Sale. The Public Token Sale will go through 3 rounds,
+with a lower discount rate for each subsequent round.
+ROUND A                                                                                                 ROUND B                              ROUND C
+June 29, 2018 - September 29, 2018                                                                      September 30, 2018 - June 30, 2019   TBA
+During the A Round Sale                                                                                 During the B Round Sale              During the C Round Sale
+22 500 000 TRN                                                                                          41 500 000 TRN                       12 000 000 TRN
+tokens shall be sold at:                                                                                tokens shall be sold at:             tokens shall be sold if
+0.65 USD per TRN                                                                                        2.10 USD per TRN                     necessary by Ternion
+                                                                                                                                             at a Price of 3.23$
+The Maximum Discount                                                                                    The Maximum Discount
+will be - 35% *                                                                                         will be - 30%
+* - for institutional discount ask the team for more information
+Ternion
+WHITEPAPER 2.0                                                                                          26
+
+
+
+
+Token Sale Discount Rates                                                                         The issuing of tokens
+Earlier contributors will be rewarded for                                                         TRN Tokens will be issued to contributors
+their commitment to the Ternion Ecosystem                                                         within one month of the conclusion of the
+by receiving higher discounts. High grade                                                         final round.
+discounts will be available for those who
+have contributed more than $125 000, these                                                        Refund Policy
+customers will be contacted individually by
+the sales team.                                                                                   If the Ternion token sale does not reach its
+                                                                                                  soft cap of $5,000,000, then all the money
+Unsold Ternion Tokens                                                                             contributed, excluding the charges, will be
+                                                                                                  returned to the respective beneficiaries to the
+Any unsold Tokens will be destroyed by the                                                        same wallets that were used for the initial
+Ethereum smart contract on the last day of                                                        transactions.
+the token sale. The PHP codes relating to
+this burn are available publicly on Github for
+review.
+8.3 Allocation of Public Token Sale Funds
+To fully capitalize the Ternion Liquidity Fund and complete the development of the pillars that
+make up the Ternion Ecosystem, the public sale will be the final leg of the Ternion Token Sale.
+Funds raised through the public sale will be distributed as follows:
+Ternion Token Sale
+Ternion
+WHITEPAPER 2.0                                                                                    27
+
+
+
+
+8.4 Token Distribution
+The Ternion Token Sale follows the baseline principle of non-minable, Ethereum based token
+distribution, in that all Ternion tokens are generated and distributed as part of the public sale
+process.
+3%                                                                                                  Ternion tokens will be distributed as
+5%
+                                                                                                    follows:
+12%
+Will be available for purchase to the public
+during the Ternion Token Sale
+Will be distributed between the Ternion team
+with a five-year vesting period
+Will be distributed among the Ternion advisory
+board
+Will reward Ternion bug bounty program
+80%                                                                                                 participants
+2
+
+
+
+
+9. Corporate Structure
+Ternion OÜ has invested a lot of time and energy in building a strong core management structure
+focusing on reliable and first-class performance so to develop and maintain the Ternion
+Ecosystem and promoting the Ternion brand.
+9.1 Team Members
+Rudolfs Medvedevs
+FOUNDER & CEO
+Skilled trader with a broad experience in classical finance in the industry of banks,
+brokerages and financial planning. Trading on his own funds since the year of 2012 on the
+FX, Stock and Futures markets, the knowledge has expanded not only in terms of trading
+strategies but as well market making and dealing operations. With starting to learn about
+crypto currencies back in 2013 and beginning to fully investigate and devote himself to
+cryptocurrencies starting from beginning of 2017.
+Gary Sum
+CEO OF TERNION CHINA
+Gary Sum has been Chairman of Swiss Capital Group since 2006 - China’s top Swiss
+heritage multi-family office comprising groups of WOFE financial holding investment bank
+in China. Swiss banker for 25 years, Chinese Merchants Awardee, Ask Satoshi speaker and
+author of the first publication at ICNNSP since 1993.
+Anatolii Lytvynenko
+BLOCKCHAIN DEVELOPMENT LEAD
+Yandex alumni with roots in digital map products and several tech start-ups under his belt,
+now immersed in the world of decentralized blockchain solutions.
+Vladimir Platonov
+CHIEF LEGAL OFFICER
+General counsel with over 20 years of experience with multiple executive roles under
+his belt, expertise in corporate law advisory, and a thorough grasp of the international
+regulatory landscape, including cryptocurrency.
+Alex Ariestov
+LEAD DEVELOPER
+Alex has more than 8 years of a wide-ranging experience as a full stack developer. He has
+successfully developed and implemented numerous web projects, websites, mobile apps
+and games that went on to have successful digital lives of their own.
+Ternion
+WHITEPAPER 2.0                                                                                    29
+
+
+
+
+Yaroslav Boiko
+SOFTWARE LEAD
+Yaroslav is a prominent developer with an extensive 10+ years of experience in the IT
+sphere. He has earned a degree in the Information Design Technology. His degree along
+with his profound experience in trade allows him to navigate rough waters of Blockchain
+projects with ease.
+Clara Florey
+COMMUNICATIONS SPECIALIST
+With over 20 years’ experience in PR, digital marketing & social networking, Clara is a
+London-based PR, marketing, social media and digital professional. She is an expert in
+managing the communications programmes for ICOs and for brands using technology to
+make ‘things better’ - whether that technology is AI, IoT or Blockchain. Her experience in
+running her own company gives her a commercial edge - she supports her clients from a
+marketing and PR perspective.
+Valeria Cealic
+MARKETING AND PR LEAD
+Driven online marketing manager with diverse start up experience, business school roots,
+and a passion for the dynamically unfolding cryptocurrency field.
+Oliver Cheatham
+DIGITAL MARKETING SPECIALIST
+Oliver heads up DisPRuptive New York City, and specialises in working with disruptive
+brands. Oliver has extensive experience in strategic marketing and managing integrated
+PR and marketing campaigns for ICOs. He has implemented comprehensive strategies and
+tactical plans across branding and marketing in New York City and London. He has worked
+with a diverse range of clientele including ICOs, FinTech, CPG’s, e-commerce, mobile apps,
+and professional services.
+Artem Shabanov
+LEAD WEB DESIGNER
+Modern minimalist UI and icon design specialist with a diverse skill set spanning web page,
+digital document, and print design.
+Merlock Fairwood
+CONTENT MANAGER
+Brand identity zealot with over a decade of experience with hundreds of different tech
+products, services, and types of online content.
+Ternion
+WHITEPAPER 2.0                                                                                30
+
+
+
+
+David Mark
+CHIEF GROWTH OFFICER
+David is a growth expert with a focus on fintech, emerging markets, and blockchain
+projects. He has served as Director of Web Strategy at FiveBlocks and was a key player
+in helping OurCrowd build their initial investor community. David currently heads up
+fintech intiatives for sustainability in the developing world and is a strategic advisor to
+SecurityTokenLawyers.io.
+Eugene Petrov
+CREATIVE CONTENT WRITER
+Experienced content manager with a history of multiple Chief Communications Officer
+positions and a passion for decentralized fintech content.
+Viesturs Bremze
+SENIOR INVESTOR RELATIONS CIS & EUROPE
+International business owner since 2013 operating companies which grossed millions
+usd in turnover. Broad experience as a team leading manager in an international trading
+company employing more than 90 people. Cryptocurrency trader and enthusiast.
+Roberts Erdmanis
+INVESTOR RELATIONS WESTERN EUROPE
+Experience in business and finance analysis, foreign policy, project management and
+business processes optimization.
+9.2 Advisors
+Gareth Rhodes
+BLOCKCHAIN ADVISOR
+Gareth is an early adopter of cryptocurrencies and blockchain technology, having founded
+a specialized consulting business in the Netherlands. In 2017 Gareth has started working
+for Paragon, a business developing smart-contract seed-to-sale tracking. Gareth is also
+the co-founder ChainSprout, a leading crypto marketing and branding firm. Gareth holds a
+BSc. International Finance & Control.
+Ternion
+WHITEPAPER 2.0                                                                                31
+
+
+
+
+Jill Godsil
+BLOCKCHAIN ADVISOR
+Jillian has held senior positions with global PR companies in Sydney, Singapore, London
+and Dublin. She was PRO of Iona Technologies (Ireland’s first company to float on
+NASDAQ). She changed the law in Ireland in 2014 and is a former European Parliamentary
+candidate (as an independent). She is a freelance journalist with CryptoCoin.News, The
+Irish Independent and The Irish Times. She is advisor to a number of ICOs, has been named
+a Crypto Queen by In Zero Conferences as well as listed in the 50 most influential women in
+the global blockchain rollcall.
+Arthur Iinuma
+BLOCKCHAIN AND ICO ADVISOR
+Arthur is the President & Co-Founder of ISBX, a market-leading blockchain and
+software development agency based in Los Angeles, with a team of over 60 technology
+professionals. He is also a writer for CoinTelegraph’s Expert Take section as well as Forbes
+where he covers the topics of cryptocurrency and blockchain. He has participated as an
+Advisor and Investor to several ICO’s and has experience forging strategic partnerships.
+Prior to that he was a FINRA-licensed trader at Morgan Stanley and a VP at UBS
+Ian Scarffe
+BLOCKCHAIN ADVISOR
+A leading expert in Bitcoin, Blockchain and Crypto industries, Ian is at the very heart of
+revolutionizing the financing industry across the globe and currently consults and advises
+for a range of multi-million dollar companies.
+Roger Crook
+CEO OF SPRINGBOARD
+He is CEO Capital Springboard in Singapore, strategic advisor to private equity in Europe
+and Asia and a board advisor to several startup companies in Americas, Asia, and Europe in
+FinTech and Logistics Technology with a focus on disruption.
+Mark Noorlander
+CO-FOUNDER OF FLASHBOYS
+Mark is the co-founder of one of Europe’s biggest and best blockchain studios, Flashboys.
+It launched in 2015 with the aim of capitalising on the then nascent blockchain technology
+scene and has since built a formidable reputation in the space, advising and working on
+the technical aspects of numerous blockchain and ICO projects. Current projects include
+financial services, luxury goods and property as well as anti-fraud and counterfeiting
+solutions.
+Ternion
+WHITEPAPER 2.0                                                                                 32
+
+
+
+
+10. Ternion OÜ
+Based in Estonia, Ternion OÜ serves as the holding company for the three core components of the
+Ternion Ecosystem, allowing for the necessary level of control while granting a beneficial degree
+of formal separation between subsidiaries.
+10.1 Why Estonia?
+The Republic of Estonia is emerging as a key                                                        Financing Prevention Act, which allows
+player in the Distributed Ledger Technology                                                         for the formal licensing of cryptocurrency
+space, particularly when it comes to founding                                                       exchanges - such as the license that Ternion
+corporate entities and Initial Coin Offerings.                                                      have obtained.
+With the government’s ambitions to enhance
+economic growth, favourable regulation                                                              Estonia has actively embraced the concept
+regarding ICOs, and residents being allowed                                                         of e-residency, welcoming entrepreneurs
+to participate in said ICOs, this Eastern                                                           from around the globe and proving itself
+European nation is an obvious choice for                                                            to be a truly technologically advanced
+Ternion to base itself.                                                                             nation by allowing incorporation and entity
+                                                                                                    management through digital channels,
+Estonia is actively positioning itself to be                                                        helping business owners avoid typically
+a global ICO hub through its favourable                                                             lengthy hassles with corporate bureaucratic
+legislation, most notably the latest version of                                                     processes.
+the Estonian Money Laundering and Terrorist
+10.2 Governance & Corporate Structure
+Ternion OÜ will be structured to have a clear division of roles and responsibilities while
+maintaining standard management structure with the unique objective of a reliable performance.
+The main target is growing the Ternion Ecosystem and promoting the Ternion brand. The Ternion
+team already consists of 15 full time employees dedicated to building a high-performance
+cryptocurrency exchange.
+3
+
+
+
+
+                                                                                                  Board                                        Shareholders
+Exchange
+                                                                                                  Blockchain
+& Payment                                                                                         Finance                Investments           Advisors
+                                                                                                  Development
+Development
+Matching engine                                                                                   Blockchain solutions   Manages financial     Attract investment
+adjustments                                                                                                              resources to achive
+                                                                                                  Smart contract and                           Manage exсess liquidity
+                                                                                                                         strategic goals                                 Strategic
+Exchange set up                                                                                   PHP Development
+                                                                                                                                               Foster connections with
+                                                                                                                         Financial modeling                              partners
+                                                                                                  DEX dedicated                                partners and funds
+                                                                                                                         and analytics
+                                                                                                  support
+Marketing                                                                                         Legal &                                      Technical
+Technology
+& PR                                                                                              Compilance             Support
+Customer
+R&D                                                                                               Media                  HR
+Support
+11. Roadmap
+Working on the Ternion Ecosystem, our primary objective is to reduce the amount of time lost
+between major milestones and give contributors access to the Ternion Ecosystem immediately
+following the public sale. This will give us a decisive edge against competitors who tend to be
+mired in lengthy delivery times post-token sale. The following roadmap includes all the major
+steps in the development of the Ternion Ecosystem.
+Ternion
+WHITEPAPER 2.0                                                                                    34
+
+
+
+
+12. Summary
+Ternion is a licensed                            Ternion
+cryptocurrency exchange                          Exchange
+regulated within the European
+Supports Ternion Payments
+Union. Ternion offers first
+First-class User Experience & Usability
+class fiat-to-crypto and
+24/7 Support, Security & Transparency
+crypto-to-crypto exchange and
+payment processing solutions
+Ternion
+and positions itself as a key
+driver of increasing global                      Liquidity Fund
+cryptocurrency adoption.
+Provides Ecosystem Capital Risk Hedging
+Sustains Ternion Exchange Trading Pool
+Ternion offers contributors, traders and         Manages Ternion Payments Liquidity
+everyday consumers frictionless access to
+the emerging world of cryptocurrencies. The
+Ternion
+Ternion Exchange is a licensed exchange
+which allows it to be a counterparty to          Payments
+institutional companies and operate on a
+                                                 Accept Cryptocurrency, Receive Fiat
+larger scale than current exchanges operating
+on the market.                                   Regulated Financial Institution
+Simple API Integration
+The Ternion ecosystem consists of three
+pillars; The Ternion Exchange, The Liquidity
+Fund and Ternion Payments, all overseen by
+a singular parent entity Ternion OÜ.
+The competition is fierce amongst
+The Customer Comes First
+                                                 cryptocurrency exchanges, however, many
+                                                 of those competitors remain unregulated.
+Our approach is simple. The customer
+                                                 With a license granted by an EU entity and
+experience is key. The frontend must have
+                                                 an exceptional team of technical experts,
+high usability, the backend must support that
+                                                 Ternion will help bring cryptocurrencies to the
+usability. Both the end user experience and
+                                                 masses.
+our system architecture will support this goal
+to create a seamless trading experience for
+                                                 If security, customer experience,
+even the most demanding user.
+accountability and regulation are important to
+you, please join our Token Sale.
+Security is Paramount
+A number of Cryptocurrency exchanges have
+failed due to weak security procedures. We,
+along with the crypto community, believe
+most prior breaches could have been
+prevented by taking simple precautions to
+protect customer and business resources.
+Our team has developed the Ternion
+ecosystem with security as a foremost
+concern.
+Ternion
+WHITEPAPER 2.0                                   35
+
+
+
+
+

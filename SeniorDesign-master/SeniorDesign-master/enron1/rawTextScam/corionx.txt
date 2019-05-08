@@ -1,0 +1,737 @@
+﻿White Paper
+The future of stablecoins;
+Corion Foundation project;
+CorionX token.
+Authors:
+Corion Foundation
+CH - Zug
+(CHE-374.881.022)
+Attila Dancs
+Miklos Denkler
+Channel’s
+Website: https://www.corion.io
+Medium: https://medium.com/@Corion
+Telegram: https://t.me/CorionFoundation
+Twitter: https://twitter.com/CorionPlatform
+Github: https://github.com/Corionplatform
+Facebook: https://www.facebook.com/CORIONPlatform
+Linkedin: https://www.linkedin.com/company/corionplatform
+22.09.2018 Zug, Switzerland
+
+
+
+
+Abstract                                                                       1
+The road that led to stablecoins                                               2
+2.1. Introduction                                                              2
+2.2. How the stabilization system works (backing methods)                      8
+Market participants                                                            9
+3.1. Who are the participants                                                  9
+3.2 CorionPay stablecoin (start in 2019)                                       10
+The Corion Foundation                                                          11
+4.1. Corion Foundation                                                         11
+4.2. Foundation mission                                                        11
+4.3. How can the Foundation facilitate stablecoin projects directly?           11
+4.4. What kind of infrastructure is the Foundation building for stablecoins?   12
+CorionX utility token                                                          13
+5.1. Opportunity in stablecoin industry                                        13
+5.2. CorionX token use cases & benefits                                        13
+5.2.1. CorionX utility token, as backing asset:                                13
+5.2.2 CorionX utility token use cases on Corion infrastructure:                14
+5.2.3. CorionX use cases by Corion Foundation:                                 14
+5.2.4. Extras:                                                                 15
+5.3. Why HODL CX?                                                              15
+5.4. CorionX utility token technical details                                   15
+5.5. CorionX Token distribution - Stablecoin Loyalty Program                   16
+More info                                                                      16
+6.1. How can I support foundation activity?                                    16
+6.2. When we do it?                                                            18
+6.3. Who we are?                                                               18
+6.4. Corion Foundation contact infos, official channels:                       18
+6.5. Conclusion                                                                19
+6.6. Risk disclosure                                                           19
+References                                                                     20
+1
+
+
+
+
+1.                                                                                                                      Abstract
+The exchange of value between parties has a long history, from barter all the way to the world of digital currencies.
+Nowadays users expect to be able to transfer money at any given time of day (24/7), anywhere they might be on
+the planet, to anyone regardless of their age or sex, instantly, for a low cost with ease. The real development phase
+is just starting and it has plenty of business opportunities!
+To be able to expand the range of alternative means of payment, there is a strong need for an easy-to-use e-Wallet
+(an electronic device or online service that allows an individual to make electronic transactions), a stable price
+payment asset, blockchain technology, a dedicated community and market players.
+In a few years, almost half of the world's financial transactions will be made through e-wallets. Blockchain
+technology has become an significant factor in the world of payments. These payment assets require some sort of
+a “backing” in order to stay stable. In the international market, at least 48 stablecoin projects are developing
+different solutions designed to make currencies less volatile. The Corion Foundation  - the author of this
+whitepaper - is dedicated to assisting and supporting projects that offer blockchain-based stable price payment
+solutions. Corion offers a common infrastructure for these projects, besides other general and unique services that
+simplify the use of stablecoins. In order to achieve this, a mutual E-wallet, swap, merchant gateway will be
+developed and marketed.
+Corion Foundation is entering the market with a stablecoin (CorionPay) in the near future via a fintech company.
+The Foundation's view is that there is great opportunity for alternative means of payment and their expansion.
+Anyone who develops a business, business relationship, capital, or even a user site can benefit from it.
+The Corion Foundation has created the CorionX utility token, which will be used partially for CorionPay backing,
+for listing on Corion’s infrastructure (wallet, swap, merchant gateway), for using foundation services, and for
+users to use the platform. The CorionX token (Ethereum-based ERC20 token) will be entering (Stablecoin Loyalty
+Program) the market via the stablecoin community in 2018, which can only be purchased at exchanges later.
+The Corion Foundation, which was registered in 2016 in Switzerland, is supported by a dedicated core team,
+advisors and ambassadors. We are looking forward to welcoming new pioneers who want to contribute to the
+historic breakthrough of the blockchain-based stable price payment assets, hereinafter stablecoins, thus making
+Satoshi Nakamoto's dream of P2P payments.
+2.                                                                                                                      The road that led to stablecoins
+2.1. Introduction
+From barter to digital cash.
+Money has been a part of human history for more than 5,000 years. From the origins of bartering to modern crypto
+money, this is how the system has evolved. At the dawn of humanity, bartering was used in lieu of money to buy
+goods. As man began to domesticate livestock, one of the earliest forms of barter included cattle, sheep, as well
+as vegetables and grain.
+The first known currency was created by King Alyattes in Lydia, now part of Turkey, in around 600BC. The first
+coin ever minted features a roaring lion. Coins then evolved into bank notes around 1661 AD.
+"We have gold because we can not trust governments," President Herbert Hoover famously said in his statement
+in 1933 to Franklin D. Roosevelt’s inauguration.
+The gold standard is a monetary system where a country's currency or paper money has a value directly linked to
+gold. With the gold standard, countries were committed to convert their paper money into a fixed amount of gold.
+A country that uses the gold standard sets a fixed price for gold and buys and sells gold at that price.That fixed
+price is used to determine the value of the currency. The gold standard is not currently (2018) used by any
+government. Britain stopped using the gold standard in 1931 and the U.S. followed suit in 1933 and abandoned
+the remnants of the system in 1971. As World War II was coming to an end, the leading Western powers met to
+develop the Bretton Woods Agreement, which would be the framework for the global currency markets until
+1971. Within the Bretton Woods system, most of the national currencies were valued in relation to the U.S. dollar,
+which was itself directly linked to gold. The dollar became the dominant reserve currency.
+2
+
+
+
+
+The gold standard was completely replaced by fiat money, a term used to describe currency that is issued by a
+government and must be accepted as a means of payment within its territory. (more about the gold standard: here).
+The first credit card was introduced in 1946.
+The infographic below shows how money has developed from these early roots through to Apple's instant iPhone
+payments and bitcoin  - the world's first decentralised blockchain-based cryptocurrency. Bitcoin, the first
+cryptocurrency was born in the chaotic days of the last big financial crisis in 2008. The financial crisis of 2008
+was, in part, due to unrealistic expectations of financial institutions. By accident or design - or a combination of
+the two - large financial institutions engaged in practises in which they assumed the outcome had no downside
+for them. By assuming the government would opt as a backstop, the bank’s actions were a good example of moral
+hazard and behavior of people and institutions who think they are given a free option.
+How did moral hazard contribute to the 2008 financial crisis? Read more: here
+This moral hazard lead to the creation of the first Peer to Peer payment protocol by Satoshi Nakamoto, Bitcoin.
+Bitcoin opened a gateway to the new technology of the internet in value transfer by using blockchain. Although
+blockchain-based cryptocurrencies are in a embryonic age, they can assume all the functions of money: medium
+of exchange, measure of value, store of value, unit of account, a standard of postponed payment, the basis of
+credit.
+Why do bitcoins have value?
+Cryptocurrencies have value because they are useful as a form of money. Money is accepted because it is
+accepted (this is paradox of money). Crypto has the characteristics of money (durability, portability, fungibility,
+scarcity, divisibility, and recognizability) based on the properties of mathematics rather than relying on physical
+properties (like gold and silver) or trust in central authorities (like fiat currencies). In short, Bitcoin and other
+cryptos are backed by mathematics. With these attributes, all that is required for a form of money to hold value is
+trust and acceptance. In the case of crypto, this can be measured by its growing base of users (merchants, startups,
+individuals). As with all currency, bitcoin’s value comes only and directly from people willing to accept it as
+payment.
+Although cryptocurrencies are in a baby age, they can represent all the functions of money: medium of exchange,
+measure of value, store of value, unit of account, a standard of postponed payment, the basis of credit.  Functions
+of money? Read more: here
+The most used function of the money is as medium of exchange and it is one of the most beneficial function that
+crypto can add value to people.
+The advent of modern - digital - bartering has brought the system full circle.
+3
+
+
+
+
+Source: here
+4
+
+
+
+
+The near future payments and cryptocurrencies
+Technological progress has come to a level where it ensures that people can solve their daily payment challenges
+with a single smartphone.
+Technology allows other solutions an alternative - alternative to traditional bank payment systems.
+(In the near future, the word "alternative" will disappear as it becomes a part of everyday use, taking over from
+traditional bank transfers and credit card payments)
+It’s a basic expectation in the 21st century that bank transfers are accessible to everyone, immediately,
+inexpensively, safely, 7/24, anywhere in the world.
+As we all know banks do not work on weekends, so if you want to make a transfer on Saturday, you have to wait
+until Monday for it to arrive, not even taking the multi-day holidays into account. The answer to this challenge are
+e-wallets. E-wallets provide the sufficient accounting systems and related infrastructure for flawless money-transfer.
+Original study: here
+Infrastructure: e-Wallets are easy and secure to use, this is the fastest growing payment method in the world and
+it’s increasingly popular across all sectors. Consumers can either use stored value or take funds from a payment type
+linked to their e-Wallet, giving them choice and convenience.
+Mediums of exchange: The coins and tokens that are included in the e-wallets will maintain the many attributes of
+conventional payment assets (Fiat money)
+-                                                                                                                        Conventional, assets controlled by governments and banks által (USD, EUR and other fiat currencies),
+-                                                                                                                        Payment systems of multinational companies (GooglePay, ApplePay, Wechat Pay, Alipay, (Facebook pay)),
+-                                                                                                                        Fintech startups’ payment systems (Paypal, Transferwise, N26, Revolut, ….),
+-                                                                                                                        and of course here is the promising opportunity: the blockchain-based cryptocurrency protocols with all
+functions of the money and it’s e-wallet interfaces
+more about the “alternative” payments future: here, here, here, here
+5
+
+
+
+
+Three scenario of the Blockchain technology
+The solutions and advantages that blockchain provides are recognised by the biggest companies. Blockchain brought
+a revolution of digital asset transfers. Anyone can transfer assets using blockchain at any given time, swiftly and for
+a very low cost. It makes sending, receiving and storing assets possible on a simple device without the involvement
+of a third party.
+Blockchain-related developments are evolving in three directions.
+Data digitisation: Data storage, authentification, identification and asset digitalisation. Where the given “asset”
+doesn’t have an actual value. It just “represents” a given information in a digital format (e.g. vehicle registration,
+mail tracking, personal data storage, etc).
+Investments: primarily securities, new way of fundraising (ICO-s), coin exchange trading, speculative assets, high
+risk and volatile product (The current coin/token market (85+% of the currently available coins or tokens are or will
+become such a product). The stored asset is self-sufficient, marketable and has a market value.
+Its value is determined by market supply and demand. Its usability and manageability is not a major consideration.
+Storage, however, constitutes a high risk. Such products are primarily used for investment, speculation, the ability to
+pay and their use is a secondary aspect.
+Payments: alternative payment asset with price stabilization system. It is a medium of exchange. In order to achieve
+mainstream adoption the payment asset has to have a predictable value. Value is generally adjusted to one of the
+global currencies (USD, EUR and other fiat money).  Furthermore, it is an extremely important feature that it should
+be easy to use. These products are mainly created for transfers and daily usage. Speculative and investment usage is
+not typical.
+(The payment also includes fixed-value internal settlement units (e.g.: local money), point collectors, utility, bounty,
+club points, coupons etc...)
+It is obvious that the “alternative” payment assets and solutions are able to take up a large percentage of the market
+even in a short time span. These solutions no longer need to be backed by a government or banks. In some cases they
+are backed by companies, communities and organisations. A measurable fraction of this new payment system market
+will be taken up by stablecoins because they are capable of functioning as traditional money.
+What does it mean “Stablecoin”?
+“A stablecoin is a cryptocurrency that is pegged to another stable asset, like gold or the U.S. dollar. It’s a currency
+that is global, but is not tied to a central bank and has low volatility. This allows for practical usage of using
+cryptocurrency like paying for things every single day.”
+6
+
+
+
+
+Who chooses the stablecoins?
+You keep your payment asset on your own account (public key). You can make a transfer regardless of your e-Wallet
+provider. Currently the technology is mainly usable online but given the technology’s rate of development, payments
+in offline stores can be expected in the next couple of years.
+Advantages of transferring via blockchain:
+-                                                                                                                     The transactions are unfalsifiable
+-                                                                                                                     Swift transactions (to any part of the world)
+-                                                                                                                     Cheap transactions
+-                                                                                                                     Opening an account online, that is accessible within minutes
+-                                                                                                                     Make a transfer any time (24/7)
+-                                                                                                                     Transfer to any part of the world
+-                                                                                                                     Anyone can make a transfer regardless of their age, gender, location etc...
+-                                                                                                                     You can spend it on any product or service world-wide
+-                                                                                                                     Use it regardless of your wallet provider
+-                                                                                                                     Easily integratable to any wallet
+-                                                                                                                     Offers a solution for micropayments
+-                                                                                                                     Low transaction fees for merchants
+-                                                                                                                     Due to a large community the usage and storing is made especially easy
+Target Group:
+                                                                                                                      It can offer a solution to billions of people. It will grow into a multi-billion dollar industry
+-                                                                                                                     Instant payments between international parties
+-                                                                                                                     Solution for money transfer for unbanked people
+-                                                                                                                     young people, Z generation, who are very open for the new gen technology,
+-                                                                                                                     People preferring discretion. (e.g.: gambling or adult industry)
+-                                                                                                                     People loving easy to use, simple and fast payment wallets
+-                                                                                                                     Great alternative for citizens of countries with a very volatile currency
+-                                                                                                                     Traders, using stable cryptocurrency as an intermediary asset on exchanges to change volatile assets to the
+stable asset
+7
+
+
+
+
+2.2. How the stabilization system works (backing methods)
+In order for stablecoins to maintain their stability a system or a method needs to be applied.  By that we mean that if
+there is no demand for the payment asset then the issuer will repurchase it from the backed collateral provided by the
+system at a pre-fixed price. If there is no such system or it is used incorrectly, then the price will be determined by
+speculations of the whales, which leads to extreme volatility even in the short term. The system must ensure that the
+issuer is able to repurchase the total amount of coin issuance at a pre-fixed exchange rate even in the short term. The
+rate of issuance by the blockchain accountant device and the system that ensures that the price is stable requires
+substantial economic knowledge.
+The successful stablecoin projects are more like a Fintech startup company than a fully decentralized system. The
+primary reason for this is that individual interests do not prioritise the interest of the community. Hence, without an
+adequate system in place the value of stablecoins can be very volatile.
+In the case of independent projects, there are currently 5 types of solutions for exchange rate stability.
+Fiat-backed: The most convenient solution is that every coin purchased it is backed by an actual US Dollar or Euro
+on a bank account. This FIAT backing can only be used to repurchase previously issued coins. In this the involvement
+of a third party (bank, escrow) is inevitable.
+Crypto backed:  When a stable cryptocurrency is collateralized by other liquid cryptocurrencies or a cryptocurrency
+portfolio it can be a great solution to strengthen decentralization. The biggest drawback is that the collateral is very
+volatile. Hence it requires the system to implement multiple safeguards. Meaning that 1 USD worth of issued coins
+should be backed by at least 2 USD worth of cryptocurrencies that can only be used to repurchase previously issued
+coins. This can be solved by using smart contracts or escrow handlers.
+Other asset backed: In this case the issued payment assets are not backed by other payment assets. Instead, they are
+backed by securities, stocks, government bonds or even gold. This is a great method to ensure stability but we must
+be borne in mind that these assets are not as liquid. The portfolio to be hedged must be continuously evaluated for
+market capitalisation and coin issuance is only possible with that value in mind.
+Community  and/or  algorithmic  backed:  Complete  decentralization  can  be  achieved  if  the  community  is
+responsible for coin issuance and coin price based on a previously agreed system or algorithm. Corion Foundation
+made a Smart Contract based attempt earlier to achieve a stable price payment asset using this method. There is a
+risk that users of short-term interest and speculative behavior will act against the interests of the community, thus
+exacerbating stability
+Hybrid: It can significantly reduce risks if a stablecoin is backed by the “hybrid” method. This means that the hedge
+is made up of multiple items as stated above. This gives the system room for maneuvering and provides extended
+security. As the payment asset becomes more and more adopted it allows the system to extend the portfolio with less
+liquid assets such as real estate funds or hedge funds.
+Each of these solutions can be found on the market in order to achieve stability.
+Easy adoption and usage is absolutely key in the mainstream adoption of stable price payment assets. Decentralization
+means that the system can operate without the involvement of a third party although it significantly complicates
+usability. So at the current levels of technology we believe that the general adoption of decentralised stablecoins are
+highly unlikely.
+Easy usage is followed by security, cost and speed.
+There are newer and better solutions emerging everyday to support the ease of use (e.g.: new exchange, merchant
+gateway, swap, e-wallet, private key storage, platforms).
+8
+
+
+
+
+                                                                               3.                                                                           Market participants
+                                                                               3.1. Who are the participants
+                                                                                                                                                            We made our research in the stablecoin industry using different features with the main focus on stability, usability,
+                                                                               project stage and backing partners. The main criteria’s are the following:
+Project name:                                                                  Name of stablecoin:                                                          Website:                                                                                                                Short description:
+Pegged to:                                                                     Backed by:                                                                   Backing method:                                                                                                         Project stage:
+Technical:                                                                     Partners:                                                                    Team location:                                                                                                          Market cap and circulation:
+Blog:                                                                          Telegram channel:                                                            Twitter channel:
+The global table is available here, let’s use it:
+https://drive.google.com/drive/u/3/folders/193fZ1WWLe2L65UtxDqrXnwY5_CtEpLbw
+9
+
+
+
+
+Global companies, funds, ventures, angel investors, backers that are already forming partnerships with stablecoin
+providers:
+Polychain Capital, Cervin Ventures, R&R ventures, SV angel, Social Capital, Nima Capital, Kilowatt Capital,
+Andreessen Horowitz, Winklevoss firm - Gemini Trust CompanyJack Dorsey, Coinbase, Bain Capital Ventures,
+Foundation Capital, Valor Capital Group, Sky9 Capital, AlphaCoin Fund, Plug and Play, General Catalyst, Digital
+Currency Group Pantera Capital, True Ventures, Founder Collective, Slow Venture, FBG Capital, Alphablock
+Investments, Astronaut Capital, AlphaCoin Fund, Magnet Capital, Beachhead Venture Capital, Sandbar Investments,
+Founders Fund, Slow Ventures, ZhenFund, GGV Capital, JumpCapital, Signia VentureBitmainBreyer, CapitalIDG
+Capital, Goldman Sachs, General Catalyst, BaiDu, IBM, SunValley Investments, Colombian Mint, Providencia Gold
+Corp, Quintana, Eaton Gold, and BlueGold
+3.2 CorionPay stablecoin (start in 2019)
+Based on our experience Corion Foundation is working on its own stablecoin (working title: CorionPay). Expected
+to launch in 2019.
+Our self-developed wallet, swap and merchant gateway ensures that the payment is quick and easy to use. We are
+paying close attention to the regulatory (e-money license), privacy (GDPR) and hedge fund portfolio management
+rules. The payment system will be implemented in a registered Fintech company. The coin will be an Ethereum-
+based ERC20 token in the beginning and developing our own blockchain is one of our key mid-term goals. The
+stability of the Corion Pay’s value will be ensured by a “Hybrid” system. This means that the value of every coin
+will be 1 USD and after every emitted coin the equivalent amount will be placed in an Asset management escrow or
+bank account built up from “Hybrid” assets. Only then will the coin enter into circulation.
+The building up of the “hybrid” asset portfolio that ensures the backing of CorionPay (plan):
+10
+
+
+
+
+When creating the hybrid portfolio to back CorionPay the following criteria are taken into consideration: Low
+volatility, quick liquidation opportunity so it can be swiftly used to repurchase previously emitted coins. We do not
+aim to create inflation and/or deflationary systems with this currency, our aim is to achieve constant liquidity
+management and stability. The proposed backing method aims to achieve at least 100% backing and while providing
+independence from assets and providers. The issuance of the payment asset will be done at a fintech company. They
+will be responsible for the management of the backing at launch. As the currency grows and is integrated into the
+world of payments, its scope will be divided increasingly between various assets. The backing package will include
+various crypto assets as well as the CorionX token, given that these assets can generate a sufficient daily demand and
+market cap. The motive behind that is that crypto users can easily and instantly trade CorionPay using our self-
+developed swap system. CorionX users will get significant discounts when using CorionPay and other related
+services.
+The infrastructure behind CorionPay (e-wallet, merchant gateway, swap) is developed specifically in a way that other
+valid stablecoins can be integrated with ease, by strengthening and assisting the expansion of stablecoins. The Corion
+Foundation plays an active role in this.
+4.                                                                                                                       The Corion Foundation
+4.1. Corion Foundation
+Corion Foundation is a Swiss-based foundation founded in 2016.
+It was created with the aim of helping the development and expansion of stablecoins in the world.
+4.2. Foundation mission
+The need for blockchain-based stable price payment asset (stablecoins) has been demonstrated in the section on
+market information. Most of the payment assets are only functioning as intermediaries on several above exchanges.
+With our activity, we are helping to increase the adoption of payment assets in everyday life with the use of our
+infrastructures. CorionX utility token is functioning as an incentive for the usage of stablecoins.
+Our aim is to encourage world-wide adoption of the stablecoins. To help unbanked, young people gain access to
+swift, safe and cheap banking. We support projects that are working on such developments in gaining new clients,
+contacts and infrastructure. Corion Foundation aims to create a common platform for such projects, as their universal
+adoption is what all of us are looking for. We are determined and will do everything possible to make stablecoins
+available in most e-wallets, hence making them accessible in more and more regions of the world. This helps users,
+to have access to stable pay-per-click, crypto payments, regardless of what wallet they use.
+The Foundation will finance its ongoing activities from previous donations, new donations, the result of its asset
+management and income made from its activities in a non-profit way. Its audited report is prepared under Swiss law.
+4.3. How can the Foundation facilitate stablecoin projects directly?
+The Corion Foundation helps the generalization of stablecoins with the following activities:
+-                                                                                                                        Market research and sharing it with the participating stablecoin projects
+-                                                                                                                        Identifying stablecoin projects, bringing them together and exploring ways to collaborate
+-                                                                                                                        Publishing supporting articles about stablecoins
+-                                                                                                                        Promote and grow the stablecoin ecosystem as a whole
+-                                                                                                                        Review on our blog and social media channels
+-                                                                                                                        Interview with industry experts (blog or video interview)
+-                                                                                                                        Users tests
+11
+
+
+
+
+-                                                                                                                          Mutual infrastructure (e-wallet, swap, merchant gateway)
+-                                                                                                                          Dedicated stablecoin booths at events, roundtable talks, representing the stablecoin community
+-                                                                                                                          Convincing e-wallet providers to accept stablecoin
+-                                                                                                                          Obtaining acceptance of stablecoins by a wide range merchants, payment providers
+                                                                                                                           Unique support to stablecoin projects, special partnership/membership,
+-                                                                                                                          Consulting, project rating
+-                                                                                                                          Business model and whitepaper review
+-                                                                                                                          Legal, regulatory clarity and company setup
+-                                                                                                                          Code review, audits
+-                                                                                                                          Fundraising, investment
+-                                                                                                                          Intellectual capital, partnerships
+-                                                                                                                          Representing on events
+-                                                                                                                          Wallet, merchant gateway, swap integration
+-                                                                                                                          Merchant acquisition
+-                                                                                                                          Exchange listing, trading liquidity
+-                                                                                                                          Access to stablecoin community, awareness
+-                                                                                                                          Communication, collaboration,  lobbying
+-                                                                                                                          Reaching out to industry stakeholders (regulators, investors, traders, rating agents, exchanges and insurance
+companies) to engage them on the stablecoin movement and matchmaking collaborations
+4.4. What kind of infrastructure is the Foundation building for stablecoins?
+Usability is one of the most important aspects of the mainstream adoption of stablecoins. Sadly we cannot accept the
+masses to store their own private key safely or to run nodes on their computer. Stablecoins can only really be accepted,
+if they are at least as easy to use the more conventional ways of money keeping (e.g. online banks) Thus, in the case
+of cryptocurrencies for day-to-day purchasing (non-speculative or stock market trading), it is indispensable for third-
+party service providers to intervene.
+We aim to make all stablecoins accessible on our platform if they are deemed valid by our group of experts. Giving
+the possibility to all users to store, transfer and buy these assets on the same platform. With it’s operations Corion
+Foundation is set to support the creation of a Fintech company that support stablecoins and is capable of creating an
+infrastructure that complies with all relevant regulations and data protection laws.
+-                                                                                                                          That develops and operates an e-Wallet, that can store stablecoins,
+                                                                                                                           e.g.: KYC, Send, receive, transaction history, two factor authentication, private key secure, one button
+                                                                                                                           send/receive, QR code generating, bankcard integration, “gas station”,
+-                                                                                                                          Creates and operates a “Swap” interface, through which the user can easily buy and sell these assets (not an
+exchange, there is no orderbook)
+e.g.: fast, easy to use, multicoin,
+-                                                                                                                          Creates and operates a merchant gateway that can be easily integrated by all stablecoin accepting retailers.
+e.g.: easy integration to the merchants, multicoin solution, transaction history,
+12
+
+
+
+
+5.                                                                                                                          CorionX utility token
+5.1. Opportunity in stablecoin industry
+Unquestionably, a new category of currency was created by stablecoins. Those that are working with it or are thinking
+about it are really at an early stage. Whoever deals with this, invests time, money, and energy into it, expects multiple
+return, because in just a few years hundreds of millions of people will use this payment tool everyday! So, there is a
+significant chance that stablecoins will become the dominant player in the market in the near future. The outstanding
+players in the payment industry - Peter Thiel (PayPal), Coinbase, IBM - have already recognized this and have
+stepped up and involved important resources in stablecoin projects.
+Stable price payment platforms are not just serving as potential, popular use cases, but opening great business
+opportunities in the fast growing Fintech industry.   Everybody has the opportunity to participate in the game of the
+stable price payment assets and become one of it’s users to take the benefit in everyday transactions
+Source: Corion Foundation's own research
+5.2. CorionX token use cases & benefits
+CorionX utility token stands for stablecoins. It brings the different stablecoin projects together, to introduce them to
+the world and supports the building of a stablecoin user community. CorionX creates the framework for the
+expansion, for the usage and payment with different stablecoins on one platform. CorionX leads the movement to
+succeed in the paradigm shift and using stable crypto as payment.
+CorionX is a “gas” for stablecoins infrastructure and an utility asset to back CorionPay payment asset and later other
+stablecoins.  CorionX provides large benefits in usage and trading of stablecoins to its users. Buy, Hodl, Use
+CorionX is an ERC20, Ethereum based utility token (technical details below).
+5.2.1. CorionX utility token, as backing asset:
+-                                                                                                                           CorionX utility token is a partial collateral asset of CorionPay. As CorionPay demand reaches certain
+levels, CorionX will be used partial as collateral (backing). The increase of CorionPay supply lead to
+increase in CorionX utility token demand and market cap vica versa.
+Criterions:
+-                                                                                                                           If the collateral deposit face value is above 105%, from the surplus deposit CorionX can be bought without
+any other criteria.
+-                                                                                                                           Otherwise CorionX should reach and stay above $100k daily trading volume and $3mn market cap to use it
+as collateral, than use as a backing asset:
+-                                                                                                                           Detailed sheet of application as collateral utility
+13
+
+
+
+
+-                                                                                                                Stablecoins (others than CorionPay) can use CorionX utility token as partial backing crypto asset, as
+CorionX intended to utilize and to represent the stable price payment industry. This usage as collateral
+should be organized by the Foundation and configure standards to provide liquidity and a kind of a  price
+guarantee to the projects which apply CorionX for backing.
+5.2.2 CorionX utility token use cases on Corion infrastructure:
+note: Heavily depends on the development possibilities and scheduling
+-                                                                                                                CorionX users can use the infrastructure for free or at low cost. If users hold a certain amount of CorionX
+in their wallet, they are eligible to use a wide range of services of the stablecoin infrastructure like the
+swap, the wallet and the merchant gateway (chapter: What kind of infrastructure is the Foundation building
+for stablecoins). Users can pay membership fee and other service fees of Corion infrastructure and our
+partners with CorionX.
+-                                                                                                                Extra benefits paid in CorionX utility token to merchants using Corion infrastructure. Merchants who use
+                                                                                                                 Corion applications can use for promotions and cash back encourage the usage within  their existing
+clients.
+-                                                                                                                Users can apply CorionX through Corion payment gateway, and pay with it by the accepting merchants.
+-                                                                                                                Purchase stablecoins in Corion Swap with CorionX and get 1-20% discount, if changing CorionX to
+certain promoted stablecoins. The most promising stablecoins will be listed in Corion Swap
+-                                                                                                                Integrating stablecoins in Stably/Corion Wallet. Users will able to send, receive, store and spend certain
+stablecoins using Stably/Corion Wallet and use it free or at low cost if they hold certain amount of CorionX
+in the Wallet.
+-                                                                                                                CorionX holders will be eligible to engage in stablecoin airdrops Corion is doing in partnership to support
+their expansion.
+-                                                                                                                Recruiting Webshops to accept stablecoins and CorionX utility token. The community recruits merchants
+to accept stablecoins and they will able to discuss promotions donated with CorionX.
+-                                                                                                                Investing CorionX utility token in stablecoin projects. We will discussing with stablecoin projects to be
+able to invest with CorionX in their projects or purchase their utility token during the Private/Pre sale with
+CorionX.
+5.2.3. CorionX use cases by Corion Foundation:
+-                                                                                                                Donors will able to donate in Fiat money, in crypto and in CorionX. The Foundation will support crypto
+communities and Hub’s in certain regions to promote and support expansion of stablecoins. Foundation
+will attend on events, promote, and pitch CorionX and partner projects.
+14
+
+
+
+
+-                                                                                                            Strategic stablecoin partner projects can pay for the services they get from the Foundation in CorionX
+(chapter: How can the Foundation facilitate stablecoin project directly ).
+-                                                                                                            CorionX serves as a payment token for listing stablecoins in the Corion infrastructure. The different listing
+fees will be paid in CorionX. The main elements of the infrastructure are the Corion Wallet, the Corion
+Swap and the Corion Merchant Gateway. If a stablecoin would be integrated in our infrastructure, it should
+pay the listing fee and other services in CorionX.
+-                                                                                                            Foundation invests CX utility token into strategic partners who are working on or supporting stablecoins
+                                                                                                             projects or infrastructure. The investment can be traditional equity investment or ICO based token
+investment.
+5.2.4. Extras:
+-                                                                                                            CorionX is used for bounties by Corion Foundation to increase the number of community members and
+their stablecoins usage. We cooperate with bounty program providers and Telegram groups.  The goal of
+the bounties is creating content, doing marketing, sharing in social media, joining specific groups.
+-                                                                                                            The goal of CorionX is to be listed on relevant exchanges where stable intermediary coins are traded.
+Community active participation needed to take part in listing votings and other supporting activities.
+Foundation will work on to expand CorionX utility as voting token in the partnership with the voting
+systems.
+-                                                                                                            CorionX is the gateway into the stablecoin world. Use it’s utilities to grab the opportunity of stable price
+payment assets.
+5.3. Why HODL CX?
+-                                                                                                            Blockchain offers many opportunities
+-                                                                                                            CorionX helps to scale up stablecoin projects
+-                                                                                                            Stablecoins are an unexplored treasure
+-                                                                                                                                                                                                                            The 3000+ years history of money will change dramatically and stablecoins disrupt the payment and
+                                                                                                             financial industry
+-                                                                                                                                                                                                                            Stablecoins can be a payment solution for millions of unbanked people, such as millions of digital people
+-                                                                                                                                                                                                                            stable price cryptocurrencies are expected to grow significantly, this means that the utility tokens that are
+                                                                                                             associated with these coins are likely to develop a major market.
+                                                                                                             5.4. CorionX utility token technical details
+-                                                                                                            CorionX is a blockchain-based ERC20 (Ethereum Request for Comment 20) utility token
+-                                                                                                            ERC20 token transfers are fast, cheap, secure, and supported by huge and professional ETH  developer team
+-                                                                                                            CorionX utility token can be stored easily in your ETH wallet, where all ERC20 tokens are supported
+-                                                                                                            How  to  swiftly  and  easily  create  an  ETH  address,  where  you  can  store  your  CorionX  tokens
+                                                                                                             https://www.youtube.com/watch?v=Zbn_lmPWflE
+-                                                                                                            Full name: CorionX utility token
+-                                                                                                            Short name: CORX
+-                                                                                                            CorionX token total supply: maximum 400.000.000 (four hundred million), non-renewable
+-                                                                                                            Decimal: 8
+-                                                                                                            Contract address: 0x26a604DFFE3ddaB3BEE816097F81d3C4a2A4CF97
+-                                                                                                            Github: https://github.com/CORIONplatform/CorionX
+-                                                                                                            Etherscan: https://etherscan.io/token/0x26a604DFFE3ddaB3BEE816097F81d3C4a2A4CF97
+-                                                                                                            Emission value: $0.015
+-                                                                                                            Market price is based on supply and demand
+-                                                                                                            The price stability of CorionX is not guaranteed
+-                                                                                                            Learn more about risks from the Risk disclosure bellow
+                                                                                                             Complete technical documentation available here: https://github.com/CORIONplatform/CorionX
+                                                                                                             15
+
+
+
+
+5.5. CorionX Token distribution - Stablecoin Loyalty Program
+The 400,000,000 CorionX utility tokens to be issued by the Foundation will be allocated to 2 parties:
+340.000.000 CorionX distribution: to Community, Foundation and Bounty/Team before introduction to the market.
+60.000.000 CorionX tokens are allocated as loyalty bonus for stablecoin holders. These will be released within 18
+months after launch (end of Q1 2019).
+The 340.000.000 CorionX distribution: before market introduction:
+75% of the 340,000,000 CorionX tokens to be issued by the Foundation (255,000,000 tokens) will be distributed
+among the members, backers and supporters of the stablecoin community before introducing it to the market. (There
+will be no ICO and no Airdrop for the token distribution!).
+To stablecoin community which supported worldwide stablecoin developments, and has Corion wallet, will be able
+to swap Corion Coin and Corion Premium Token to CorionX, will become part of the entire stablecoin industry.
+There will be a special bonus value to swap Corions to CorionX before the exchange listing is available to the
+community. After the exchange listing the swap price will be the same as the market price.
+Maximum 20% of the tokens to be issued by the Foundation will be kept within the Foundation to fulfill its goals
+stated in the Whitepaper.
+The Foundation invests through CorionX tokens, promotes promising stablecoin projects and promotes the stablecoin
+industry's awareness of community growth.
+Maximum 5% of the tokens by the Foundation will be distributed between those who were dedicated to help the
+Foundation’s mission.
+Bounty delivery will not be done immediately, but in 12 equal installments for 12 months after the launch happen.
+The 60.000.000 CorionX distribution: In 4 installments, 15.000.000 CorionX tokens are distributed each time, in
+proportion to capital between all public addresses holding CorionX tokens at the following dates.
+After the official launch (end of Q1 2019):
+Day 90.                                                                                                                                                                            15.000.000 CorionX tokens are distributed, in proportion to capital
+Day 180.                                                                                                                                                                           15.000.000 CorionX tokens are distributed, in proportion to capital
+Day 270.                                                                                                                                                                           15.000.000 CorionX tokens are distributed, in proportion to capital
+Day 360.                                                                                                                                                                           15.000.000 CorionX tokens are distributed, in proportion to capita
+                                                                                                                                                                                   At the given dates the Foundation scans all public addresses on the entire Ethereum network for the amount of
+                                                                                                                                                                                   CorionX tokens they hold. Each 15.000.000 token release will be distributed between those addresses that hold
+                                                                                                                                                                                   CorionX tokens at that given time in proportion to capital (based on the number of CorionX token hold at that time).
+                                                                                                                    6.                                                             More info
+                                                                                                                    6.1. How can I support foundation activity?
+-                                                                                                                   as philanthropy with donations
+-                                                                                                                   as advisor or ambassador
+-                                                                                                                   as bank providing services to us and our stablecoin partners
+16
+
+
+
+
+-                                                                                               acceleration our partners
+-                                                                                                                                                                    expand stablecoin community by gaining new users who are in favour of using stablecoins
+-                                                                                                                                                                    helping CorionX to integrations in any wallets and listing on coin exchanges
+-                                                                                               introducing stablecoin projects
+-                                                                                               creating any content, and help to spreading out our mission
+-                                                                                               positive and supporting comments on various social media platforms
+-                                                                                               gaining new, accepting merchants
+Donate the Foundation’s goals now. You can transfer your donation to the following addresses:
+Bitcoin: Transfer to Corion Foundation BTC public key address:
+3DwC8XQgaH85s978B4WHHddsM3qkUvzAgA
+ETH and any ERC20 tokens: Transfer to Corion Foundation ETH public key address:
+0x098245358F6EC15066f8F712327F25C86fd8497e
+                                                                                                EURO: Transfer to Corion Foundation bank account:
+Foundation details:
+Name:                                                                                           Corion Stiftung
+Address:                                                                                        CH-6300 Zug, Bahnhofstrasse 7.
+                                                                                                Euro account:   HU04 1980 0011 2100 0335 0000 0000
+Bank / payment service provider details:
+Name:                                                                                           Virpay Payment Service Provider Ltd.
+Address:                                                                                        H-9200 Mosonmagyaróvár, Szent István király street 49.
+SWIFT (BIC):  VIRPHUHB
+Include in comment:
+Corion Stiftung donation from (your name)
+Corion Coin: Transfer to Corion Foundation COR (ETC blockchain) public key address:
+0xe0ce8253dee8542c249fc3d98a71030af93b0d97
+17
+
+
+
+
+6.2. When we do it?
+6.3. Who we are?
+We are a foundation based in Switzerland, established in 2016 to support stablecoin movements
+-                                                                                               Like Minded/enlightened Economists who believe in the transition of payments and the increasing usage of
+stablecoins
+-                                                                                               Team has background in banking, investments and entrepreneurship
+-                                                                                               Engaged in blockchain since late 2015
+-                                                                                               Focus on the stable price payment asset industry
+-                                                                                               Advising several blockchain startups, participation in numerous successful ICO’s
+-                                                                                               We have been invited to all major blockchain conferences (more than 35 conferences in the last two years
+                                                                                                (e.g: consensus, d10e, finwise, gibfin, crypto investor show,)
+-                                                                                               We have strong professional network in the blockchain industry.
+-                                                                                               Members: Pál Kukorelly, Attila Dancs, Miklos Denkler, Houng Kwang Kim
+6.4. Corion Foundation contact infos, official channels:
+There are scammers out there impersonating us.
+The only authentic Corion official channels are these:
+Corion Stiftung / Corion Foundation (CHE - 374.881.022)
+CH-6300 Zug, Bahnhofstrasse 7.
+-                                                                                               Website: https://www.corion.io
+-                                                                                               Support: https://corion.zendesk.com/hc/en-us
+-                                                                                               Github: https://github.com/Corionplatform
+-                                                                                               Medium: https://medium.com/@Corion
+-                                                                                               Twitter: https://twitter.com/CorionPlatform
+-                                                                                               Telegram: https://t.me/CorionFoundation
+-                                                                                               Facebook: https://www.facebook.com/CORIONPlatform
+-                                                                                               LinkedIn: https://www.linkedin.com/company/corionplatform
+-                                                                                               YouTube: https://www.youtube.com/channel/UCD9royvfm_-02vV9eHvZk8A
+18
+
+
+
+
+6.5. Conclusion
+This document is intended to draw attention to the fact that the development of alternative payment instruments is
+unstoppable. Within this industry stablecoins will also represent a significant market rapidly.
+Anyone who is in the early stages of this financial transition can gain a significant market advantage. At the time of
+this document, at least 45 projects are known on the international market that have set up a "stablecoin”. (in 2016
+this number was only 5)
+For this reason, the Corion Foundation is a pioneer in its ability to simplify the day-to-day financial activities of tens
+or even hundreds of millions of people. The Foundation is working to create an infrastructure that makes stablecoins
+more useful in everyday life.
+Through CorionX utility tokens issued by the Foundation, we help projects that believe in this mission and take a
+pioneering role. With appropriate risk assessment and engagement, we encourage everyone to take part in the
+spreading and everyday use of "stablecoins".
+6.6. Risk disclosure
+The significant expansion of alternative payments requires the combination of several factors.
+The spread of smartphones, NFC technology, fintech start ups, more opened regulatory environment, a positive
+outlook in the in the world economy will further contribute to growth of the crypto industry. Compared to alternative
+payments, blockchain-based solutions constitute outstanding opportunities.
+Blockchain technology, however has a history of just 1 decade, its broader popularity is only a few years old.
+The world of decentralized payment assets is not or hardly understood by the regulatory environment.
+Over the last six months, there is a strong market cleansing and a positive attitude of regulators and institutional
+representatives.
+Great opportunity, but also risk! And this must be known to every stablecoin user. User of any coin, token
+(including CorionX utility token), uses this type of payment asset on their own responsibility and risk.
+The total loss, neglect, and ban on the use of such payments is currently a real danger.
+A multitude of market players need to be able to create long-term value and reduce the risk of using it (eg, nation-
+states, banks, escrows, investors, acceptor sites, cryptographic exchanges and, of course, broad masses of users).
+This Whitepaper is not considered an investment or business advice.
+Corion Foundation is not responsible for the authenticity of shared information.
+19
+
+
+
+
+7.                                                                                                               References
+More about stablecoins (article and other info’s):
+https://www.investopedia.com/tech/stablecoin-answer-all-cryptocurrency-problems/
+https://bitcoinmagazine.com/articles/berkeley-professor-questions-stablecoin-viability-unflattering-op-ed/amp/
+https://www.forbes.com/sites/andrewrossow/2018/09/07/stability-in-volatile-markets-what-you-need-to-know-
+about-stable-coins/
+https://blog.ethereum.org/2014/11/11/search-stable-cryptocurrency/
+https://www.coindesk.com/stablecoins-will-do-more-than-just-reduce-crypto-price-volatility/
+https://coinjournal.net/the-rise-of-stablecoins/
+https://cryptomenow.com/the-most-easy-to-understand-guide-to-stablecoins-in-blockchain/
+https://bitcoinexchangeguide.com/stablecoins/
+https://multicoin.capital/2018/01/17/an-overview-of-stablecoins/
+https://hackernoon.com/stablecoins-designing-a-price-stable-cryptocurrency-6bf24e2689e5
+https://cryptoslate.com/stablecoins-101-the-who-what-why-and-how/
+https://www.mycryptopedia.com/what-is-a-stablecoin/
+https://thecontrol.co/stablecoins-a-holy-grail-in-digital-currency-b64f3371e111
+https://medium.com/@ronaldmulder/why-stablecoins-make-no-sense-999490b08910
+https://blog.bitmex.com/a-brief-history-of-stablecoins-part-1/
+https://media.consensys.net/the-state-of-stablecoins-2018-79ccb9988e63
+https://www.technologyreview.com/s/611370/stablecoins-are-trending-but-they-may-ignore-basic-economics/
+https://news.bitcoin.com/an-in-depth-look-at-the-cryptocurrency-economys-stable-coin-trend/
+https://masterthecrypto.com/guide-to-stablecoin-types-of-stablecoins/
+https://thefintechtimes.com/stablecoins-overview/
+https://medium.com/@max_profit/stablecoins-the-future-of-crypto-1beed0733981
+https://medium.com/workchain-io/what-the-heck-is-a-stable-coin-and-why-theyre-the-answer-for-instant-
+paychecks-c8f7cb49dd47
+https://news.bitcoin.com/a-complete-a-z-of-stablecoins/
+https://nulltx.com/top-4-upcoming-stablecoins-worth-keeping-an-eye-on/
+https://bitcoinmagazine.com/articles/newly-launched-stablecoin-youve-never-heard-coming-ledger/
+https://blog.havven.io/we-need-a-decentralised-stablecoin-b3e13346c74f
+https://medium.com/stably-blog/how-stablecoins-will-help-shape-the-future-tokenized-asset-class-a9035c7cd703
+https://www.forbes.com/sites/andrewrossow/2018/09/07/stability-in-volatile-markets-what-you-need-to-know-
+about-stable-coins/#30d5d03d226c
+https://theblockcrypto.com/2018/09/14/block-by-block-stablecoins/
+https://nontechcryptotalk.com/what-is-a-stablecoin/
+https://medium.com/@Digix/the-importance-of-a-stablecoin-5b6d0dfc179f
+20
+
+
+
+
+Companies, funds, ventures, angel investors, backer’s sources:
+https://celo.org/about-us
+https://www.basis.io/
+https://www.carbon.money/
+https://www.fragments.org/about/#team
+https://havven.io/
+https://www.trusttoken.com/trueusd/
+https://www.circle.com/hu/about
+https://www.ibm.com/blogs/blockchain/2018/07/stable-coins-enabling-payments-on-blockchain-through-
+alternative-digital-currencies/
+http://vault.ch/faq/
+21
+
+
+
+
+

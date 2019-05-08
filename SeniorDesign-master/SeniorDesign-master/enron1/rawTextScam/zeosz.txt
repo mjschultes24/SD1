@@ -1,0 +1,814 @@
+Whitepaper
+ Version 2
+The World’s First Cryptocurrency Bank
+REDEFINING THE FUTURE OF FINANCE FOR A
+WORLD-CLASS BANKING EXPERIENCE
+All Rights Reserved
+ © 2018
+ 2
+TABLE OF CONTENTS
+1. Abstract 5
+1.1 Why Choose zeosX Platform?
+1.2 Vision and Mission
+1.3 The Need For Blockchain Technology
+ Cross-border transactions and payments
+ Clearances and settlements systems
+ Securities
+2. PROBLEM ANALYSIS 10
+ Loans and credits
+ Centralized banking system
+ Fees and charges
+ Insurance
+3. MARKET ANALYSIS 14
+ Financial Markets
+ Crowdfunding
+ Initial Coin Offering
+ Growth Of The Cryptocurrency Markets
+3.1 Market Potential
+3.2 Competitive Advantage
+4. Core Technology 18
+4.1 Smart Contracts 
+ 3
+5. zeosX platform 19
+5.1 Crypto Mobile Wallet
+ Wallet
+ Crypto Exchange and Loan
+ Debit Card
+ ZeoPay
+5.2 The zeosX Cards
+ The Spectral Infinite Black Metal Card
+ Why choose the impeccable design and uncompromising quality zeosX cards?
+ Why operate on zeosX Core?
+5.3 zeosX Loan
+ Collateral Loan
+ Non-Collateral Loan
+5.4 Investments, auction, and lending
+6. ZeoRewards 28
+6.1 Zeoniteans Ranking System
+6.2 ZeoPoints
+6.3 ZeoTickets
+7. zeosX ICO 30
+ Why Initial Coin Offering?
+ Why Invest In zeosX?
+7.1 Basic Token Sale Info
+7.2 Token Distribution
+7.3 Use of ICO Proceeds 
+
+4
+8. Roadmap 32
+9. The zeosX Team 33
+9.1 Advisors
+10. Contact And Support 38
+Disclaimer 40
+ IMPORTANT NOTICE
+ ELIGIBILITY
+ FORWARD-LOOKING STATEMENTS
+ ANTI-MONEY LAUNDERING
+References 42
+
+5
+The
+Future
+Of
+Banking
+1 ABSTRACT
+The Blockchain technology is taken
+seriously by the financial sector, as it
+can become a major disruptor of the
+traditional banking sector.
+The unchanging and inviolable nature of
+the blockchain makes it the ideal solution
+to reduce costs and simplify everything
+from payments to transactions, securities
+issues, retail banking, clearing, settlement,
+etc.
+It is becoming clear that the blockchain
+technology is much more than Bitcoin or
+cryptocurrencies. While implementations
+such as payment and monetary systems
+are certainly disruptive, the greatest
+disruption could come from other uses
+of these unique and powerful features.
+zeosX is a decentralized crypto bank aiming
+to revolutionize the traditional banking
+industry. Our cutting-edge technological
+system is built based on a powerful finance
+ecosystem which consists of futuristic
+banking components.
+1. Borrow with or without collateral
+2. Superior crypto mobile wallet
+3. Luxurious and stunning quality cards
+4. Investments, auction, and lending
+Taking a cue from cryptocurrencies, we can
+see, as stated below, the problems it has
+solved in general.
+ 6
+1.1 Why Choose zeosX Platform?
+Real-time military grade security
+Platform security will always be our top priority. zeosX consists of multiple layers of protection, providing
+clients with seamless user experiences.
+High-performance crypto fortress
+Clients’ crypto assets will be safely secured in a cold storage vault. Confidential information can never be
+accessed by anyone.
+Monthly ZeoAirdrops
+Beside producing monthly passive income, ZEOS tokens also offer clients with bountiful benefits such as
+additional discounts on collateral loan.
+
+7
+1.2 Vision and Mission
+The reason why cryptocurrencies have not achieved mainstream adoption is that the majority of people still think of them only as
+another store of value, a risky investment and nothing else. The truth is, Bitcoin and cryptocurrencies are much more than that...
+Vision Statement
+Not only does zeosX offer banking security with countless added benefits, but it is also created to rewrite history and to change
+people perception of cryptocurrencies. With zeosX, there is no need for traditional banks and third-party payment networks
+anymore as our banking components are equipped with the latest groundbreaking finance technologies. From taking a loan, online
+shopping to even paying for coffee, we have got everything covered.
+With the gradual decline in the number of users using traditional banking, zeosX will expand even at a faster rate as cryptocurrencies
+continue to grow. We are expecting more than 50 million users in the next 3 years.
+Mission Statement
+With zeosX, our goal is to implement Blockchain technology to ultimately achieve a decentralized and cashless society without
+relying on trusted third parties such as banks. Also, tools such as smart contracts promise to automate many problematic processes
+in the banking sectors, from compliance and processing requirements to content distributions.
+ 8
+1.3 The Need For Blockchain Technology
+1. Cross-border transactions and payments
+Today, Trillions of dollars are distributed throughout the world thanks to the traditional system of slow payment and additional
+fees.
+If you work in San Francisco and want to send money to your family in London, you may have to pay a $25 transfer fees, with an
+additional service charge of up to 7%.
+Besides paying all the heavy fees and with the cut-off times between yours and the receiving bank, your family will not receive
+the money until a week later.
+Typical transaction costs for senders are 7.68%, which consist of unnecessary payments such as transfer fees or hidden margin
+gains. Facilitating payments is very profitable for all the centralized banks which give them very little incentives to reduce their
+rates. Cross-border transactions, from payment to letter of credit, accounted for 40% of the total revenues of global payment
+transactions in 2016.
+Solution:
+By eliminating the need for agents to approve consumer-to-consumer transactions, blockchain technology could allow for faster
+payments at lower rates than banks.
+2. Clearances and settlements systems
+The fact that the average bank transfers, as described above, take at least three days to complete have a lot to do with the way
+in which our slow financial infrastructure was built.
+It is not just a pain for the consumers. Moving money around the world has always been a logical nightmare for the banks
+themselves.
+Today, a simple bank transfer, from one account to another, must bypass the complex system of intermediaries and the corresponding
+banks before arriving at any destinations. The two banks must be reconciled through a global financial system consisting of a vast
+network of merchants, funds, asset managers, etc.
+Solution:
+Blockchain technology and distributed accounting can reduce operating costs and allows transactions in real-time between
+financial institutions.
+3. Securities
+To buy or sell assets such as stocks, debts, and commodities, you need a way to know who owns that particular asset. The financial
+markets today achieve this also through a complex chain of intermediaries, stock exchanges, central security deposits,
+compensations, and deposit banks. These different parts were built around an obsolete and traditional system.
+Suppose if you want to buy some of Apple’s stocks, you can place your order through the stock exchange that needs many
+complicated confidential pieces of information before you can complete the sign-up process. In the past, you have to call the
+sellers just to buy a certificate of ownership of shares.
+This is much more complex when you try to perform the transaction electronically. Thus, we do not want to deal with the daily
+management of assets, such as the exchange of certificates, accounting or dividend management. Therefore, we have subdivided
+the deposit actions to the custodian banks. Buyers and sellers do not need to always make the same depositaries of trust as they
+have to rely on a trusted third party to keep all certificates on paper.
+ 9
+In practice, this means that whenever you buy or sell assets, this order is transmitted by a group of third parties. The transfer of
+ownership is complicated because each party has to keep their version of the truth in the book.
+This system is not only inefficient but also imprecise. Security transactions can take between one to three days to settle because
+all the books must be updated and aligned at the end of the day. And because many different parties are involved, transactions
+often have to be verified manually, with each party charging a fee too.
+Solution:
+By tokenizing traditional securities such as stocks, bonds, and alternative assets, we aim to use the blockchain technology to
+revolutionize the structure of capital markets.
+Overall, with the integration of blockchain into the zeosX platform, we will quickly ease the process of banking while disrupting
+the financial sector at large.
+We are giving everyone an equal opportunity to be a part of this financial revolution as we aim to offer the ZEOS token in exchange
+for cash or fiat currencies from our special investors around the world.
+ 10
+2 PROBLEM ANALYSIS
+The World Bank is currently an industry of $134 Trillion. The promise of blockchain as a technology without trust and a mediator
+is to reinvent the banking industry.
+i. Loans and credits
+Banks help with payments, loans, and credits. However, traditional lenders are subscribed to loans based on an inaccurate and
+unsecured credit reporting system.
+When completing a bank loan application, banks must assess the risk that the loans will not be returned. They do this by having
+complex factors such as credit ratings, the proportion of debt and income and the ownership of properties. To obtain this
+information, they access clients’ credit report provided by one of the three leading credit agencies which are Experian, TransUnion,
+and Equifax. By using these data, banks can then evaluate the risk of defaults and interests on the loans.
+zeosX solution:
+By erasing the need for middlemen or intermediaries in the loan and credit industry, we aim to make it more secure to borrow
+money and provide lower interest rates using zeosX loan.
+With the zeosX loan, we offer clients with either collateral or non-collateral loan. The collateral loan allows users to get dollars fast
+without selling any of their crypto-assets. The non-collateral loan also rewards users with ZeoPoints for early repayment.
+Users can easily access zeosX loans without going through any rigorous or cumbersome process.
+ii. Centralized banking system
+It is safe to say the centralized banking system has been failing because most of its core operations are manipulated by the “greedy
+and powerful” people within the sector. This has led to corruption in the traditional banks and system and gradually, the fiat
+currency system will fail. Transparency in this banking system is far-fetched as clients have no insight to what their money is used
+for as they have no control of it. Thus, the monies kept by clients, which have little or no interest at all, in these banks are used by
+the corrupt people to enrich themselves.
+
+11
+Will you get your cash IN A FINANCIAL CRISIS?
+When a large number of people withdraw their money from the banks, how much cash do you think is in their reserve? If a bank
+run is to occur, will you get back your money? The number below might shock you!
+JPMorgan Chase Deposits: $1,375,179,000,000
+Assiniboine CU Cash on Hand: $23,873,000,000
+JPMorgan Chase Cash To Deposit Ratio: 98.26% of Deposits not covered
+Wells Fargo Deposits: $1,306,079,000,000
+Wells Fargo Cash on Hand: $20,729,000,000
+Cash To Deposit Ratio: 98.41% of Deposits not covered
+Goldman Sachs Deposits: $728,919,000,000
+Goldman Sachs on Hand: $9,070,000,000
+Cash To Deposit Ratio: 98.76% of Deposits not covered
+Citibank Deposits: $698,175,000,000
+Citibank Cash on Hand: $28,701,000,000
+Cash To Deposit Ratio: 95.89% of Deposits not covered
+Barclays Deposits: £455,339,000,000
+Barclays Cash on Hand: £49,711,000,000
+Cash To Deposit Ratio: 89.08% of Deposits not covered
+Generally, we do know that the banks make money on the interest they charge on loans because that interest is higher than the
+interest they pay on depositors’ accounts. The amount available to lend also depends upon the reserve requirement the Federal
+Reserve Board has set.
+The question to ask is, without any transparent and immutable public ledger, do we really know what they do with our money? 
+ 12
+Weak Link in the centralized banking system banking system
+The centralized banking operations are all tied to a single powerful mainframe and database system and this has invited major
+hacking attempts on the banks themselves.
+Successful hacking attempts:
+The national bank of Bangladesh was hit in a highly sophisticated hacking attack, with the attackers taking off with $81 Million
+(£58 Million) and attempting to steal as much as $1 Billion (£710 Million).
+“The same group has also attacked banks in Ecuador, Vietnam, and Philippines”, according to investigators.
+Hackers are getting more ambitious, spending longer on attacks and demonstrating greater sophistication, experts told Business
+Insider — and the rewards they are reaping are larger than ever.
+zeosX solution:
+We intend to solve the crisis mentioned above faced by the traditional banks by introducing our own zeosX crypto bank.
+With the use of an underlying blockchain ledger which is immutable, we would create and offer a decentralized banking system
+which is fully transparent, giving individuals full access and control to their funds as they can quickly determine how their funds
+are spent and get the relevant interest on the usage of their funds. With the invention of zeosX crypto bank, we will eliminate
+corruption as it is impossible for any single entity to manipulate our public ledgers due to its immutability.
+There is no single mainframe or database system in our zeosX crypto bank, and this will completely cushion any hacking attempt
+launched at this revolutionary banking system. In the case where traditional banks still make use of a database which is vulnerable
+to hacking attacks, zeosX will use decentralized applications (DApps) which will further strengthen our platform security. Our
+DApps are also designed to be highly efficient while being user-friendly by either the older or younger generations.
+III. Fees and charges
+In this section, we aim to cover the problems faced by the traditional banks and third-party payment gateways when it comes to
+the exorbitant fees and charges for every transaction carried out.
+PayPal
+PayPal charges a 2.9% fee from the total amount of payment received and a flat fee of $0.3 on each transaction carried out. In
+some countries where debit cards are not allowed for online transactions worldwide, users who do not have credit cards have
+resorted to asking PayPal third-party providers to top up for them.
+These same users have complained of being billed a fee as high as $50 just for a small amount of only $1000 to top up PayPal
+because of the foreign exchange rates and at the same time, being charged as high as almost 5% to make transfers from one user
+to another. These exorbitant fees are uncalled for and just serve as a way to rob off individuals.
+Users who want to withdraw money out of PayPal also have to wait for at least 3 to 5 business days for the funds to appear in
+their bank accounts.
+Credit Cards
+The charges paid by credit card users are really high and this has been a thorn in the flesh for them. We will list out some of the
+fees being paid by users.
+1. Annual Fees: These fees are paid annually and based on our research, it ranges from $19 to as high as $500 depending on
+the credit card issuer.
+2. Balance Transfer Fees: These fees are paid whenever user transfer balance from one credit card to another which are usually
+3% of the amount transferred.
+3. Cash Advance Fees: These fees are paid whenever users withdraw money out of ATM using their credit cards or for cash
+equivalent transactions. Charges are usually 5% of the cash amount.
+ 13
+4. Expedited Payment Fees: These fees are charged when there are last-minute payments needed to be made by credit card
+users through the phone to avoid being late. These fees are around $10 - $15.
+5. Foreign Transaction Fees: Foreign transaction fees are charged when you make a purchase in a foreign currency in addition
+to the conversion fee. They are usually 3% of the transaction amount.
+6. Late Fees: Late fees are paid for failing to meet up the minimum credit card payment when due. These charges can be up to
+$38.
+7. Returned Check Fees: Returned payment fees are charged when your bank returns your credit card payment. As a penalty,
+fees are as high as $35. They are charged every time a payment is returned.
+Having outlined some of the major fees paid by credit card users, we can completely see the need to eliminate this card payment
+system as some of the fees listed above are just put in place to extort clients and credit card users.
+Intermediaries such as visa and MasterCard also charge merchants with extremely high interchange reimbursement and surcharge
+fees which are unnecessary. There are also rules and regulations that merchants have to follow in order to partner with these
+third-party payment processors.
+zeosX solution:
+We will highlight how the features of zeosX banking components would solve these problems associated with unreasonable fees.
+Our next generation of payment gateway, ZeoPay, is a decentralized payment system suitable for online transactions. Entrepreneurs
+can also integrate ZeoPay to take their businesses to the next level. With ZeoPay, not only users can pay with stable coins, but we
+also promise low and transparent fees. This is beneficial for freelancing platforms because they can reduce enormous service fees
+too.
+Users do not need to pay heavy fees to transfer crypto from one account to another. They can instantly convert their crypto assets
+to fiat and vice versa. We also offer swift and priority cash withdrawal to other payment accounts whom we have partnerships
+with.
+With our own zeosX Point Of Service (POS) devices and ZeoPay, we will use blockchain to reduce fees to its barest minimum,
+there would be no need for currency conversion fees as countries with little or no availability of USD can easily transact across
+borders and even spend their earnings without necessarily converting to USD and transaction fees will be very minimal.
+iv. Insurance
+The major problem with insurance in traditional banking is ingenuity and fraud within the system, not to mention that you have
+to queue long hours and dial countless phone calls to get your desired insurance manually.
+zeosX solution:
+Our remarkable ZeoInsure will solve all the above problems. Not only clients will be exposed to a whole new level of insurance in
+crypto, but we also aim to offer them a seamless and transparent insurance system where they can gain access to different types
+of insurance for life, accident, etc.
+
+14
+3 MARKET ANALYSIS
+A thorough market analysis was carried out for the following markets:
+• Financial Markets
+• Crowdfunding
+• Initial Coin Offering
+• Growth Of The Cryptocurrency Markets
+Financial Markets
+The cryptocurrency market has grown significantly in recent years and is expected to continue growing in value and volume. The
+primary encryption value is Bitcoin, however, other cryptocurrencies are also using blockchain technology recently. The current
+market value of Bitcoin alone is estimated at $19.5 Billion, which is still at infancy compared to other markets.
+The total market capitalization of the world is $80 Trillion and is growing rapidly. The value of the stock market worldwide has
+increased by 320% since 2009, with the US stocks dominating the global stock markets. However, the dot-com crash and the
+2008 financial crisis have severely affected the number of Americans investing in the stock market. As a result, the percentage of
+American investors continue to decrease from 65.5% in 2007 to only 52% in 2016. Currently, the 24/7 forex market is the largest
+financial market in the world, both in value and volume, with the US dollar being the most traded currency in the forex market,
+making up close to 85 percent of all trades.
+As more people recognize the potential of the blockchain, cryptocurrency will only continue to thrive and will achieve a bigger
+market capitalization.
+Crowdfunding
+The use of traditional crowdfunding as a method of raising capital has some advantages: Small or medium companies can collect
+the necessary capital without going through the tedious process of taking a bank loan. It also allows you to obtain feedback from
+the crowd.
+One of the main disadvantages of this approach is the effort and time required. The largest amount of money raised through
+crowdfunding is in China. It is expected that the number of collective financing campaigns and the value of their transactions will
+continue to increase by 2022. 
+
+15
+Initial Coin Offering
+According to reports published by Fabric Ventures and TokenData, Initial Coin Offering (ICO) raised $5.6 Billion last year. In 2017,
+a growing number of companies are issuing their own digital currency as a means of raising capital. The ICO market attracts legal
+attention due to the amount of money it has raised. Both reports found that out of the 913 ICOs created, there are 435 successful
+ones, which means that 48% succeeded.
+The average amount raised was $12.7 Million, with 3/4 of the funds going into block infrastructure projects. Most of the people
+who invest in these ICOs projects are retail investors, and institutions are increasingly looking to invest in ICOs.
+“On average, tokens have returned 12.8x the initial investment against the dollar compared to 7.7x for ETH and 4.9x for BTC
+during 2017”, the reports said.
+The total amount of funds raised through ICOs are close to $4 Billion, which is twice as much as venture capital investments. Most
+ICOs use the Ethereum platform, with popular wallet MyEtherWallet (MEW) recording more attempted attacks than Fortune 500
+banks.
+The total amount raised through ICOs to date is over 9,783,634,561 USD.
+Growth Of The Cryptocurrency Markets
+As of 21st March 2018, there are currently 1,568 different cryptocurrencies (654 tokens and 914 coins) available. The first one,
+Bitcoin, was launched on January 9th, 2009 and various coins were created after that. From December 2013 to the end of 2017,
+the number of cryptocurrencies increased from 40 to 1,273 which is a 3083% increase.
+The number of cryptocurrencies and exchange platforms are also increasing each year. There are 190 exchanges currently,
+compared to just 70 exchanges three years ago. By 15 March 2015, trading volume has increased tremendously as the number
+of cryptocurrencies and trading platforms continue to grow.
+The number of transactions in the blockchain has also dramatically increased. Bitcoin took only 2 years to make a visible appearance
+on the charts in 2011, hitting 13,900 transactions on June 14 that same year, according to BitInfoCharts. Since then, transactions
+had been declining until May 2012 when it officially began its upward trajectory.
+On August 8th, 2015, Ethereum was introduced into the cryptocurrency market, recording 2,881 transactions and had been
+growing in popularity ever since. June 12th, 2017 saw Ethereum overtook Bitcoin in terms of total transactions made in one day,
+with a record of 292,941, compared to Bitcoin’s 268,951 transactions. Bitcoin had not re-claimed the transactional throne ever
+since, however, it still dominated its market capitalization and total volume traded per day. On December 14th, 2017, Bitcoin hit
+its peak, with 490,459 transactions recorded on the blockchain. Ethereum’s peak came soon after, on January 4th, 2018, with a
+total of whopping 1.35 Million transactions recorded.
+ 16
+Q1 2018 saw the decline in transactions for both cryptocurrencies, on March 20th, 2018, Ethereum recorded a total of 661,791
+transactions. Despite dropping since its all-time high, this is still an increase of 22,870.9% compared to its first appearance on
+August 2015. Similarly, Bitcoin clocked in 195,041 on the same date, which was an increase of 1,303.2% since June 2011.
+Despite the current drop in transactions for both Bitcoin and Ethereum, the cumulative total of all blockchain transactions have
+been on the rise with no signs of slowing down. As of March 19th, 2018, there were over 305.61 Million transactions recorded
+in a single day, according to Blockchain.info. This was an increase of 48.27% when compared to the 206.12 Million transactions
+that occurred a year ago on March 18th, 2017.
+3.1 Market Potential
+It takes a lot more than creating a cryptocurrency to revolutionize and disrupt the traditional banking sector completely. zeosX is
+employing a unique approach to transform the financial space using the potency of the blockchain technology and the unique
+features of our ecosystem to completely utilize every potential available in the $1 Trillion combined financial and cryptocurrency
+global market.
+We have carefully analyzed the market opportunities available to zeosX under the following markets in the financial and
+cryptocurrency industry.
+1. ICOs:
+• Tokens using Ethereum platform raised over $18 Million over the course of a month
+• Funds raised in 2017 alone: $6,073,707,934
+• The first three months of 2018: 32 ICOs raised $2,710,641,542
+2. Cryptocurrency:
+• 12,000 crypto transactions per hour
+• 99,000 Bitcoins sent every 60 minutes
+• Predictions for the global crypto market in 2018: over $700 Billion
+3. Crowdfunding:
+• The total amount of crowdfunding volume worldwide: $16.2 Billion
+• Launched projects on Kickstarter in 2018 alone: 385,335
+• Amount of funds raised worldwide: $34 Billion
+
+17
+3.2 Competitive Advantage
+zeosX to traditional banks
+zeosX to payment processors
+As mentioned in the problem analysis section, not only Visa and Mastercard charge merchants with unnecessary costly fees, they
+often have breakdown problems. As a result, The zeosX Cards will not partner with any payment processors and will operate on
+zeosX POS devices which are powered by ultra high lighting speed zeosX Core.
+Furthermore, most of Visa and Mastercard cards users have applied online can’t be delivered to certain countries because they
+are subjected to irrelevant regulations imposed by payment processors. Thus, our Core will enable The zeosX Cards to be distributed
+to investors worldwide.
+zeosX to payment gateways
+Our ZeoPay is the next evolution of decentralized payment gateway that enables customers to shop online without any hassle.
+Merchants are also not subjected to any hidden fees.
+ 18
+4 Core Technology
+Our 4 banking components are powered by zeosX Core. It is a unique innovative technology that offers unprecedented performance.
+zeosX Core consists of Blockchain, smart contract, and DApps which forms an essential part of the whole platform. Besides zeosX
+Core, every software in each of the components has also been thoughtfully implemented using the latest robust technological
+system.
+4.1 Smart Contracts
+zeosX Core will not function without the smart contracts. One of the main reasons we build our Core around smart contracts is
+because of the accuracy, security, and transparency they provide. zeosX uses countless confidential data to carry out transactions,
+and there will be many problems if we are to use the traditional way of storing data. Using smart contracts not only eliminate
+problems such as errors, disputes, miscommunications, and manipulations, but they also provide the platform with the velocious
+lighting speed it needs.
+Each of the banking components is combined into the all-in-one zeosX Hub, a decentralized crypto banking system, which allows
+non-collateral borrowers to receive loan fundings to even auctioning your properties!
+ 19
+5 zeosX platform
+5.1 Crypto Mobile Wallet
+Extremely low fees
+Borrow, store and spend crypto instantly with very low fees.
+Effortless deposit and withdrawal
+Various methods of deposit and withdrawal through local
+currencies.
+ZeoPay
+ZeoPay is a decentralized payment system suitable for daily
+transactions. Entrepreneurs can also integrate ZeoPay to
+take their businesses to the next level.
+This section aims to outline each of the banking components and how zeosX Core works in detail on the platform.
+ 20
+Our Crypto Mobile Wallet has everything that you need, from investing to even tracking your daily transactions.
+• Wallet
+• Crypto Exchange and Loan
+• Debit Card
+• ZeoPay
+Wallet
+Buying any cryptocurrencies have never been easier with the wallet! Clients can even transfer them to external same address
+wallets instantly with almost no fees at all. In addition, we have provided various methods of deposit and withdrawal through fiat
+currencies using local bank accounts or integrated payment networks such as skrill or ePayments.
+Crypto Exchange and Loan
+We offer clients with the mobile version of decentralized crypto exchange and loan. Using ZeoStorm which allows interaction with
+DApps directly from the app, clients can trade main cryptocurrencies and ERC20 tokens in real-time. They can also choose to
+apply for collateral and non-collateral loan with just a few clicks. Both decentralized crypto exchange and loan are secured because
+no confidential information will be stored in our database.
+Debit Card
+Not only can clients track their daily transactions using our decentralized crypto mobile wallet, but they are also able to top up
+their zeosX cards using crypto or fiat too. The zeosX cards also offer convenience to clients as they can withdraw cash to local
+bank accounts or external payment accounts.
+ZeoPay
+Our ZeoPay has various benefits for both clients and merchants. In addition to allowing clients to buy online goods effortlessly
+using stable coins, we also protect merchants from market fluctuations by having the option for them to accept several
+cryptocurrencies and every payment received will be converted to fiat currencies straightaway.
+ 21
+5.2 The zeosX cards
+Our cards are available in different editions and designs
+Celestial Indigo
+Magma Red
+Crystal Blue
+Dysprosium Green
+Plasma Sapphire
+Monthly savings interest rate
+Grow your overall crypto portfolio by holding ZEOS tokens.
+Earn cashback and ZeoPoints
+Rewards can be redeemed for various mouth-watering
+prizes.
+Premium limited edition cards
+Get our Plasma Sapphire and Spectral Infinite cards to
+enjoy complimentary benefits such as exclusive access to
+zeosX’s priority royale solitaire club.
+Spectral Infinite
+(coming soon)
+ 22
+The Spectral Infinite Black Metal Card
+Our Black Card is the world first most prestigious blockchain cards. For the individuals who demand of what life has to provide,
+the exclusive elite Black Card is for you! Made entirely using high quality and pure metals, the Black Card offers you with the
+ultimate and luxurious buying pleasure.
+However, the Black Card is not for everyone, it is available to only the ultra high net worth individuals to ensure the extraordinary
+standard of personal service that is available to every Black Card members.
+Why choose the impeccable design and uncompromising quality zeosX cards?
+1. Cashback and rewards for every transaction which can be exchanged for various gifts and prizes.
+2. Complimentary access to airport lounges worldwide and airline miles welcome bonus.
+3. Up to 100% credit (Loan-to-Value) limit and interest-free installment plans will be available.
+4. Earn ZeoPoints that can be used exclusively for our marketplace.
+With all the above benefits, we only charge fees for the following:
+1. Delivery
+2. Secondary/Replacement card
+3. Inactive/Dormant
+ 23
+Why operate on zeosX Core?
+1. There will never be any breakdowns at all.
+2. If customers lose their cards, they can simply order a new one without any worries. Our zeosX Core is designed not to store
+any confidential information.
+3. We can deliver The zeosX Cards worldwide as there will not be any regulations at all.
+4. zeosX POS devices, which is powered by the zeosX Core, will be effortless and straightforward to use. 
+ 24
+With the zeosX Core, merchants can also use smart contracts to enable the purchase of everyday goods. Every transaction will
+be recorded on the Blockchain which is broadcasted to the mobile app simultaneously, enabling each customer to track them.
+Besides paying in debit, customers can also enjoy up to 100% credit limit based on their collateral’s Loan-to-Value (LTV) ratio. Just
+like zeosX loan, the interest rate will be calculated daily and customers have the option to pay whenever they want. In addition,
+merchants that have VIP partnership with zeosX offer interest-free installment plans to customers who pay by credit.
+To use The zeosX Cards, all you have to do is just to activate it through the mobile app! Whether you want to pay for coffee or
+shop online, our cards are the ultimate solution to everything.
+ 25
+5.3 zeosX Loan
+Clients can choose whether they want to borrow with or without collateral. Our collateral loan allows them to get dollars fast
+without selling any of their crypto-assets. The non-collateral loan also rewards clients with ZeoPoints for early repayment. Our
+DApp based zeosX Loan also offers liquidity investors to earn their own income by lending out their crypto-assets to borrowers,
+aka ZeoLend.
+Features of zeosX Loan
+1. Low interest rate
+2. Simple Process
+3. Fast Approval
+4. No hidden fees
+zeosX Core also has various critical loan functionalities such as automated maintenance, instant notifications, real-time analytics,
+and loan contracts.
+Collateral Loan
+Loan Contracts
+We also use smart contract for the decentralized loan. When clients borrow or lend, transactions will also appear on the Blockchain
+with no third party services. Thus, loan agreements are clear to both parties, eliminating any disputes and manipulations.
+Automated Maintenance
+If clients do not repay the loans, their crypto assets will automatically be unlocked and can be claimed by zeosX’s loan lenders.
+Liquidation procedures will also be initiated once clients’ assets fall below the minimum LTV ratio.
+Instant Notifications
+Daily interest rate will also be updated instantly on zeosX platform with no delays. To maintain loan safety levels, clients will be
+notified with liquidation warnings.
+Real-Time Analytics
+When the value of clients’ main assets appreciate in value or after they repay their loans, loan limits will automatically increase and
+can be withdrawn immediately.
+ 26
+As mentioned in the above diagram, clients can borrow in just 3 simple steps with no complicated credit checks at all. The amount
+of borrowed money they get is updated on The zeosX Cards simultaneously, available to be spent or withdrawn anytime. Clients
+also have the option to get their borrowed money through the zeosX marketplace.
+There will be a 50% discount in interest rate and an LTV boost of 70% when clients pledged ZEOS tokens as a collateral.
+ 27
+Non-Collateral Loan
+We also offer non-collateral loan to clients living in certain countries. They can borrow cryptocurrencies with just a national
+identification card.
+As promised, non-collateral loan has no minimum loan repayments within a month, however, borrowers that do not repay their
+loans after the end of each month will have to pay late payment fees. If they default on the loans, our debt collection agency will
+take the necessary legal actions against them.
+Borrowing a larger amount of cryptocurrencies will require a more detailed credit check but it will not be as complicated as the
+traditional banking system. After a loan is approved, it will be posted to zeosX decentralized marketplace where investors and
+lenders worldwide can invest in that loan with up to 30% lending interest rate per annum.
+Loans are determined by smart contract’s grades ranging from A1 to C3 with A1 being the safest and C3 is the riskiest.
+5.4 Investments, auction, and lending
+zeosX Hub
+A decentralized banking platform with transparent
+fees, the all-in-one zeosX Hub enables investors to
+auction their collaterals ranging from valuables such
+as jewelry to even properties.
+ZeoInsure
+ZeoInsure is a whole new level of insurance using
+crypto. Choosing the right plan has never been easier
+with just a few clicks. Secure your future and protect
+your loved ones now!
+ZeoLend
+ZeoLend is the next evolution of p2p lending where
+investors get a higher lending interest rate to lend
+crypto to borrowers. Grow your crypto portfolio now!
+We will also be partnering with reputable companies to offer the best crypto insurance to clients. Furthermore, our smart contract
+is designed to suggest what are the most suitable insurance for them.
+zeosX Hub connects the zeoniteans community together. The moment you invest in zeosX, you become a part of the revolutionary
+ecosystem. Join us on this journey together to rewrite history!
+ 28
+6 ZeoRewards
+Being a member of the Zeoniteans community enables you to gain access to countless exclusive and complimentary benefits.
+6.1 Zeoniteans Ranking System
+We offer investors with 5 tier of membership levels ranging from Beginner to Elite Jedi being the highest rank. In addition to bonus
+tokens that they receive during each phase of token sales, there will also be massive discounts on the number of tokens required
+for each rank. Furthermore, they can convert the tokens into collaterals which can be used for credit payment.
+Make sure you do not miss out on this, as bonus tokens and discounts will decrease after each stage of token sales!
+ 29
+6.2 ZeoPoints
+Accumulating ZeoPoints allow you to exchange them for various zeosX’s gifts. Having each ZeoPoint equivalent to $1 USD also
+enables you to use it for your next item purchase.
+You can earn ZeoPoints from doing certain tasks like:
+1. Item Transactions
+2. Early repayment of non-collateral loan
+3. Acquiring The zeosX Cards
+6.3 ZeoTickets
+During zeosX’s lucky draw event, ZeoTickets are exchanged for extravagant prizes ranging from iPhone Xs Max to a first class flight
+and presidential suite package. Total number of ZeoTickets will be calculated after each round of token sales.
+The more ZeoTickets you have, the higher your chance of winning will be!
+ 30
+7 zeosX ICO
+Why Initial Coin Offering?
+This is a non-regulatory means of raising funds for a new company of cryptographic value. Start-up companies use Initial Coin
+Offering (ICO) to bypass a rigorous and regulated way of raising the capital required by venture capitalists and banks.
+At zeosX, we aim to offer a percentage of ZEOS tokens to our investors interested in this revolutionary project in exchange for
+fiat and other cryptocurrencies. The zeosX’s (ZEOS) token sale is required to enable us to raise funds for further development of
+zeosX platform to completely reinvent the traditional banking industry.
+7.1 Basic Token Sale Info
+Total Supply: 3,000,000,000
+Start Date: 1st Dec 2018
+End Date: 31st July 2019
+Softcap: $20,000,000 USD
+Hardcap: $100,000,000 USD
+Token: ZEOS
+Exchange rate: 1 ETH = 3000 ZEOS
+Project protocol: ERC-20
+Payment methods: BTC, ETH, LTC
+Why Invest In zeosX?
+Firstly, we have a world-class team capable of delivering all of the banking components. Some of them have more than a decade
+of professional experiences working with top finance companies.
+Secondly, a crypto banking service is required to have a mass adoption, hence, zeosX is exactly what the crypto community needs.
+At the same time, the value of ZEOS tokens will also increase because it will generate a higher demand.
+Thirdly, ZEOS token holders will get endless benefits as mentioned previously as we believe in giving as much value as possible
+to the zeoniteans community.
+ 31
+7.2 Token Distribution
+• 75% Token Sale
+• 13% Reserved Funding
+• 9% Founders & Team
+• 2% Advisors
+• 1% Bounty
+7.3 Use Of ICO Proceeds
+• 40% Platform Development
+• 30% Sales & Marketing
+• 17% Operations
+• 10% Security & Legal
+• 3% License 
+ 32
+8 Roadmap
+ 33
+9 The zeosX Team
+Anthony W
+President/Chief Executive Officer
+Anthony has vast experience in marketing along with comprehensive entrepreneurial
+background. He also has a strong trend forecasting ability in developing business
+ideas and solutions. Thus, the potential of Blockchain technology prompted him to
+develop zeosX, the world first cryptocurrency bank.
+Ben Wellington
+Senior Vice President/Chief Financial Officer
+Ben has 10 years of experience working in the finance sector with a deep knowledge
+in the credit area. With an in-depth understanding of each client’s financial position,
+he has managed over $750M portfolio in various type of credits including commercial
+loans.
+Patrícia de Menezes Barbosa
+Executive Vice President/Finance Director
+Patricia has more than 7 years of professional experience in accounting, tax planning
+and auditing with countless multinational firms such as business consulting,
+telecommunication, and real estate.
+Rahul Nambiampurath
+Banking And Finance Manager
+Rahul graduated with a Master’s Degree in Business Administration. He is an
+experienced manager with a deep passion for financial operations, sales, marketing,
+and customer relationship.
+ 34
+Krishna Prasad
+Technical Lead Manager
+Krishna has over 3 years of experience as a software developer with a professional
+history of working in multinational companies like Infosys and Tata Consultancy
+services. His expertise include Python, Django, Flask, and blockchain technology.
+Nitish Kasar
+Senior Blockchain Developer
+Nitish is an exceptionally talented software developer who has more than 4 years of
+experience in website and blockchain technology. His professional expertise includes
+the development of Ethereum Smart Contracts, DApps, and Web Applications.
+Ashwani S.
+Senior Full-Stack Developer
+Ashwani is a professional full-stack developer with a Degree in IT. Apart from being
+well-versed with web3.js and geth, he is also skilled in solidity, C++, JavaScript, and
+HTML.
+Aileen Cerda
+International Digital Marketing Manager
+Aileen is a natural-born leader who has more than 10 years of experience in the
+marketing sector. She has worked with several prestigious companies to enhance her
+reputation as one of the best in her field as a marketing specialist.
+ 35
+Katrina Velasquez
+PR And Communications Manager
+With more than 10 years of PR experience, Katrina has planned and organized major
+events throughout the years. She is a result-driven woman who has the ability to
+deliver highly effective and measurable marketing strategies to organize major events
+successfully.
+Tian Zhao
+Senior Product Manager
+Tian is a skillful designer with a passion in the Blockchain technology. His vast
+portfolio, ever since 2015 when he met Vitalik Buterin, include several tech startups
+in the crypto space such as Cryptiv, Privacy Shell, and MLG. Tian strives to drive social
+innovation and international development through system, design and exponential
+thinking.
+N Drissi El Bouzaidi
+Senior Product Designer
+Nabil has more than 8 years of experience as a talented designer. He has worked for
+numerous clients. Nabil has very impressive skills that allow him to turn complex
+design problems into fully functional web products.
+Melissa Lee
+Compliance Director
+Melissa is a KYC/AML expert with a Degree in Law from University of Melbourne.
+She has managed international and reputable banking firms such as Commonwealth
+Bank.
+ 36
+Melvin Yung
+Business Development Manager
+Melvin Graduated with a Double Major in Accounting and Finance. As an investment
+consultant, he was heavily involved in various current affairs and economics events.
+Having been through the Mt. Gox era, Melvin is continuously keeping a close watch
+on the evolving crypto space.
+Antonis Hannas
+Business Development Manager
+Antonis has more than a decade of experience in the financial sector. He has been
+active in the financial business development of several companies, including KMG
+Capital Markets Ltd, Contentworks Agency, Gan Direct Insurance Ltd, ALICO, and
+ACNielsen.
+Eric Cristobal
+Community And Business Development Manager
+Eric has over 8 years of working experience in customer support and sales sector
+including Telco and Banking. He is involved in numerous projects related to
+cryptocurrency too, including OKEx and BitMart.
+Avdyl Bytyqi
+Finance And Community Manager
+With a Master’s Degree in Banking and Finance, Avdyl is passionate in the future of
+what blockchain can do to revolutionize the traditional banking industry. He has 3
+years of experience in B2C sales with an emphasis on consumer satisfaction.
+ 37
+9.1 Advisors
+Matt Schrage
+ICO Advisor And Cryptocurrency Enthusiast
+Matt is an experienced research specialist who is also skilled in Sales, English, Account
+Management, Teamwork, and Inventory Analysis.
+Steven Glascock
+Banking And Finance Advisor
+Steven has spent over 20 years in multinational investment firms holding various
+senior positions in Mortgage, Business and Investment fields.
+Toska Mardian Wurika
+Business Advisor
+Toska has been involved in reputable investment and audit firms. He has also assisted
+companies in countless investment division projects and IPO syndication.
+Go to https://zeosx.io/company to view the complete
+team members’ linkedIN profile.
+ 38
+10 Contact And Support
+https://www.facebook.com/zeosxlabs
+https://www.twitter.com/zeosxlabs
+https://t.me/zeosxlabs
+https://www.bitcointalk.org/zeosxlabs
+https://www.altcoinstalks.com/zeosxlabs
+ 39
+https://www.youtube.com/channel/UC8aCApVI3rkF7Nh3gOJ3NZA
+https://www.instagram.com/zeosxlabs
+https://www.medium.com/@zeosxlabs
+support@zeosx.io
+ 40
+PLEASE READ THIS DISCLAIMER SECTION CAREFULLY. IF YOU HAVE ANY DOUBT, YOU SHOULD CONSULT YOUR LEGAL,
+FINANCIAL, TAX OR OTHER PROFESSIONAL ADVISOR(S).
+The information below may not be exhaustive and does not imply any elements of a contractual relationship. While we make every
+effort to ensure that any material in this Whitepaper is accurate and up to date, such material in no way constitutes the provision
+of a professional advice. zeosX makes no guarantee and accepts no legal liability whatsoever arising from or connected to, the
+accuracy, reliability, currency, or completeness of any material contained in this Whitepaper. Investors and ZEOS token holders
+should seek appropriate independent professional advice prior to relying on or entering into any commitment or transactions
+based on material published in this Whitepaper, which is purely published for reference purposes alone.
+ZEOS tokens will not be intended to constitute securities in any jurisdiction. This Whitepaper also does not constitute a prospectus
+or offer document of any sort and is not intended to constitute to be an offer of securities or a solicitation for investment in
+securities in any jurisdiction.
+IMPORTANT NOTICE
+Please read the following notice carefully before proceeding to read this document prepared by the Company (the “Whitepaper”).
+This notice applies to all investors who read this document. Please note that it may be altered or updated. The Whitepaper has
+been prepared solely in respect of the Company’s crowd sale of zeosX tokens (“ZEOS”) to be known as “ZEOS tokens”. No shares
+or other securities of the Company are being offered for subscription or sale in any jurisdiction pursuant to the Whitepaper. The
+Whitepaper is being made publicly available for information purposes only and does not require any action to be taken by the
+general public or shareholders of the Company. The Whitepaper does not constitute an offer or invitation to investors to subscribe
+for or register shares of any other securities in the Company.
+Presently, the shares of the Company are not being offered to be registered under the Securities Act of any country or under any
+securities laws of any state. No investor is bound to enter into any contract or binding legal commitment in relation to the sale
+and purchase of ZEOS tokens. And no cryptocurrencies or other forms of payments are to be accepted on the basis of this
+Whitepaper.
+ELIGIBILITY
+You are not eligible to purchase any ZEOS tokens if you are a citizen or resident of a geographic area in which access to or
+ownership of ZEOS tokens is prohibited by applicable law, decree, regulation, treaty, or administrative act.
+FORWARD-LOOKING STATEMENTS
+Some of the statements in the Whitepaper include forward-looking statements which reflect the Company and/or management
+current views with respect to product development, execution roadmap, financial performance, business strategy, and future
+plans, both with respect to the Company and the sectors and industries in which the Company operates. Statements which include
+the words ‘’expects’’, ‘’intends’’, ‘’plans’’, ‘’believes’’, ‘’anticipates’’, ‘’will’’, ‘’targets’’, ‘’aims’’, ‘’may’’, ‘’would’’, ‘’could’’, ‘’continue’’ and
+similar statements are of a future or forward-looking nature.
+All forward-looking statements address matters that involve risks and uncertainties. Accordingly, there are or will be important
+factors that could cause the actual results to differ materially from those indicated in these statements. These factors include but
+are not limited to those described in parts of the Whitepaper entitled ‘’Risk Factors’’, which should be read in conjunction with
+other cautionary statements that are included in the Whitepaper. Any forward-looking statements in the Whitepaper reflect the
+current views with respect to future events and are subject to these and other risks, uncertainties, and assumptions relating to
+the operations, results of operations and growth strategies.
+DISCLAIMER
+
+41
+These forward-looking statements speak only as of the date of the Whitepaper. Subject to industry acceptable disclosure and
+transparency rules and common practices, the Company undertakes no obligation publicly to update or review any forwardlooking statement, whether as a result of new pieces of information, future developments or otherwise. All subsequent written
+and oral forward-looking statements attributable to the Company or individuals acting on behalf of the Company are expressly
+qualified in their entirety by this paragraph.
+Prospective investors of ZEOS token should specifically consider the factors identified in the Whitepaper, which could cause
+actual results to differ before making a purchase decision. No statement in the Whitepaper is intended as a profit forecast and
+should not be interpreted to mean that the earnings of the Company for the current or future years would be as implied in this
+Whitepaper. By purchasing ZEOS tokens, I hereby acknowledge that I have read and understood the above notices and disclaimers.
+ANTI-MONEY LAUNDERING
+Being an active international market player, zeosX pays attention to be in compliance with international Anti-Money Laundering
+and Combating the Financing of Terrorism (AML & CFT) standards. There will be a certain policy covering AML & CFT requirements
+in zeosX upgraded on a regular basis to ensure its best fit and compliance with the constantly changing environment of AML &
+CFT regulations with the best market practices.
+On top of that, zeosX will set up a set of regular AML & CFT training for its employees and officers. We welcome any legitimate
+person interested in our project and supporting it by purchasing ZEOS Tokens. We do not discriminate on the basis of race, color,
+gender, religion, sexual orientation or any other class protected by law. We are building a sustainable, transparent and safe
+ecosystem. This is why it is important for us to know our clients and provide them with legally solid solutions. We will implement
+efficient and high-quality Know Your Client (KYC) procedures, ensure compliance with AML & CFT requirements and best market
+practices.
+ 42
+References
+https://www.cbinsights.com/research/blockchain-disrupting-banking/
+http://uk.businessinsider.com/how-to-hack-a-bank-mikko-hypponen-f-secure-mandiant-fireeye-bangladesh-swift-banking-north-korea-2016-6/?IR=T
+https://www.thebalance.com/common-credit-card-fees-960254
+https://steemit.com/money/@theeconomictruth/is-your-bank-insolvent-bankrupt-will-you-get-yourmoney-in-a-crisis
+https://money.howstuffworks.com/personal-finance/banking/bank4.htm
+ 43
+Scientia Business Park, Jl. Boulevard Gading Serpong Blok 0/2,
+Jakarta, Indonesia 15810

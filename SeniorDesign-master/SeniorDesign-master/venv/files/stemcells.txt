@@ -1,0 +1,2570 @@
+﻿Stem Cells on
+Blockchain
+WHITEPAPER
+V 1.1 | Published June 2018
+
+
+
+
+Disclaimer: The information outlined in this whitepaper is not exhaustive and does not imply any elements of a contractual
+relationship. Its sole purpose is to provide relevant and reasonable information to potential token holders to help them
+determine whether to undertake a thorough analysis of the company with the intent of acquiring SCI tokens. Nothing in
+this whitepaper shall be deemed to constitute a prospectus of any sort or solicitation for investment, nor does it in any way
+pertain to an offering or a solicitation of an offer to buy any securities in any jurisdiction. This document is not composed
+in accordance with, and is not subject to, laws or regulations of any jurisdiction, which are designed to protect investors.
+Important Notice
+This  document                                                                                                                  (“Whitepaper”)  is  not  endorsed  by  any  government  authority.  It  is  only  available  on
+www.scia.io and may not be redistributed, reproduced or passed on to any other person or published, in part or in
+whole, for any purpose, without the prior written consent of Stem Cell Innovations Limited. This Whitepaper, or
+any part of it, must not be taken or transmitted to any country or territory where its distribution or dissemination is
+prohibited or restricted. Any natural persons or legal entities who comes into possession of this Whitepaper must
+inform themselves about and observe any relevant legal or regulatory restrictions they may be subject to and seek
+all necessary professional advice. By any such natural or legal person (“you” or “your”) accessing this Whitepaper,
+you agree to be bound by this requirement.
+Token Sale Summary
+Seller                                                                                                                          Stem Cell Innovations Limited (“the Company”, “we”,
+“us” or “our”)
+A Gibraltar private limited liability company
+Company no. 117387
+Registered address: Suite 7, Hadfield House, Library
+Street, Gibraltar
+Purchase Website                                                                                                                www.scia.io (“Website”)
+& instructions                                                                                                                  Purchasers must follow the instructions on the
+Website to purchase SCIA tokens.
+Token Sale Terms & Conditions                                                                                                   To be made available on the Website. Each purchaser
+of SCIA must ensure that they carefully read the terms
+and conditions and obtain any necessary legal advice
+before agreeing to them.
+Token Name                                                                                                                      SCIA
+(to be sold during Public Sale Period)
+Token Ticker                                                                                                                    SCIA
+(of the SCIA tokens to be sold during Public Sale
+Period)
+Project Summary                                                                                                                 The Stem Cell Innovations project has the following
+elements:
+1.1                                                                                                                             The Company is proposing to develop and
+run on dual blockchain platforms. The first
+platform will be built on the Ethereum network
+for token use only, and it will be powered by
+the ERC20 platform. The second blockchain
+will be a custom application designed and built
+by Stem Cell Innovations engineers tailored to
+fit the healthcare environment with the dual
+purposes of furthering human longevity and
+expanding access to stem cell treatments.
+PAGE 2
+
+
+
+
+1.2                                                     We have decided to build our own blockchain
+for storing and processing patient stem
+cell records. This customized blockchain is
+known as SCIChain. SCIChain will use the
+Hyperledger Fabric network, which will be
+designed to use smart contracts to protect
+data and ensure only authorized individuals
+have access to user data.
+Public Sale Period                                      21 November 2018 at 08.00 UTC to 17 January 2019
+                                                        at 23.59 UTC, unless fully sold before the latter date.
+Total Token Supply                                      800,000,000 SCIA
+Availability:                                           240,000,000 SCIA to be sold during private sale and
+SCIA - during Public Sale Period                        main sale period.
+SCIA price                                              $0.15
+Minimum investment                                      0.4 ETH
+Authorised communication channels                       During the Tokens sale 3 Major cryptocurrencies will
+be accepted via the SCI Token Sale dashboard.
+These are BTC, ETH and LTC.
+The Company will never publish any Token Sale address
+anywhere except on our Website: www.scia.io
+Distribution of purchased SCIA tokens (SCIA)            ETH contributors to receive SCIA instantly via smart
+contracts. BTC and LTC contributors to receive SCIA
+within 30 days of the Token Sale having concluded.
+Authorised communication channels                       The only communication channels authorised by the
+Company for the purposes of the Token Sale are:
+Website: www.scia.io
+Email: info@scia.io
+Twitter: www.twitter.com/stemcellapp
+Facebook: www.facebook.com/stemcellapp
+Telegram: t.me/stemcellinnovations
+Medium: medium.com/@scia
+Reddit: www.reddit.com/r/SCIA
+LinkedIn: www.linkedin.com/company/stem-
+cell-innovations
+PAGE 3
+
+
+
+
+Table of Contents
+INTRODUCTION ...                                           .. 5
+1.1 Stem Cell Innovations Background ...                   . 5
+1.2 Stem Cell Innovations Vision ...                       .. 7
+1.3 Stem Cell Innovations Roadmap ...                      .. 9
+STEM CELL INDUSTRY OVERVIEW ...                            ..11
+2.1 Stem Cell Research ...                                 .. 12
+2.2 Stem Cell Types ...                                    .. 12
+2.3 Stem Cell Key Advantages ...                           .. 14
+2.4 Stem Cell Banking ...                                  ... 14
+2.5 Stem Cell Synthetic - Custom ...                       . 15
+TECHNICAL SPECIFICATIONS ...                               ..16
+3.1 Stem Cell Innovations’ Unique Identifier ...           .. 16
+3.2 Stem Cell Innovations’ Dual Blockchain ...             ... 17
+3.3 Stem Cell Innovations’ Hyperledger Fabric ...          . 17
+3.4 Stem Cell Innovations’ Smart contracts ...             ... 19
+3.5 Stem Cell Innovations’ Data Structure ...              .. 20
+3.6 Decentralization ...                                   ... 21
+STEM CELL INNOVATIONS APPLICATION ...                      ...22
+4.1 Stem Cell Innovations Application Functionality ...    ... 23
+Main Application: Version 1.0 ...                          .. 23
+Main Application: Version 2.0 ...                          .. 26
+Main Application: Version 3.0 ...                          .. 28
+4.2 Professional’s Application Program Interface ...       .. 29
+Professional Application: Version 3.5 ...                  .. 29
+STEM CELL INNOVATIONS TOKEN OVERVIEW ...                   ..32
+5.1 Token Purpose and Usage ...                            .. 32
+5.2 Token Distribution of sale proceeds ...                . 34
+IT Development and R&D ...                                 ... 35
+Marketing and Sales ...                                    ... 37
+Legal ...                                                  ... 37
+International Expansion and Partnership of Stem Labs ...   . 37
+Lobbying Stem Cell USFDA ...                               . 37
+Team and Advisors ...                                      ... 37
+5.3 Token Reserve ...                                      . 38
+5.4 Token Sale Information ...                             . 39
+5.5 Early Bird Bonuses ...                                 .. 40
+5.6 Token Information ...                                  ... 40
+5.7 Token Vesting Schedule ...                             ... 41
+SCI TEAM AND ADVISORY COMMITTEE ...                        ...43
+The Team ...                                               . 43
+Advisory Committee ...                                     ... 51
+DISCLOSURES AND DISCLAIMERS ...                            ..54
+Risk Disclosures ...                                       .. 55
+Anti-Money Laundering (AML) & Anti-Abuse ...               ... 57
+Acknowledgement ...                                        ... 63
+PAGE 4
+
+
+
+
+INTRODUCTION
+Mission stateMent
+Stem Cell Innovations focuses on
+research and development in the field of
+stem cell science, with the dual purposes
+of furthering human longevity and
+expanding access to stem cell treatments
+through cutting-edge technology.
+1.1 Stem Cell Innovations Background
+Stem Cell Innovations (SCI) is a network of highly motivated
+researchers, expert medical professionals, dedicated investors,
+and innovative engineers working together to create a unique
+platform that brings together two of the most life-changing
+innovations of the 21st century: stem cell technology and
+blockchain technology.
+Since its initial founding in early 2013 under the name Camden
+RAD, LLC, SCI has played a crucial role in stem cell research and
+development around the world, and we has conducted our own
+domestic and international case studies to further the research
+in this exciting field. SCI’s activities in the field of stem cell
+science have directly contributed to advancements in the field,        Stem CeLLS ARe A
+as well as to new stem cell discoveries around the world.
+uniquE tyPE of
+Stem cells are a unique type of multicell found in the body of
+muLtICeLL founD In
+human beings. It is an undifferentiated collection of cells that are
+capable of providing countless applications in the development
+thE body of humAn
+of new cells for use in the treatment of diseases and conditions,
+recovery and restoration of body parts, and with our research
+beIng.
+and development, many more applications to come.
+PAGE 5
+
+
+
+
+to date, SCI’s areas of study have included orthopedic,              SCI, ToGETHER WITH ITS vAST
+neurological, and pulmonary conditions, as well as oncological       NETWoRk oF PRoFESSIoNALS AND
+stem cell applications. Although research conducted by SCI           WoRLD-CLASS TEAM, AIM To SoLvE
+has made strides in these areas of medicine, there remains           SEvERAL PRoBLEMS ToRMENTING
+an immediate need for further research and development               THE STEM CELL INDUSTRy ToDAy:
+across a vast nexus of medical conditions that impact millions
+of people around the world. As a leader in stem cell research,       Lack of access to quality
+SCI plans to continue to organize and participate in many            treatment options for
+more case studies to aggregate data that can be used to              patients with a variety of
+advance this innovative field.                                       medical conditions;
+Lack of communication
+based on our research, we’ve been able to identify countless
+between professionals and
+applications for stem cell therapies including treatments
+medical experts who could
+for conditions such as bone marrow transplants, strokes,
+treat patients with stem cell
+traumatic brain injuries, learning disorders, Alzheimer’s disease,
+therapies;
+missing teeth, wound healing, spinal cord injury, baldness,
+blindness, deafness, diabetes, Crohn’s disease, and multiple
+Limited access to, and
+forms of cancer, as well as numerous other conditions. While
+sharing of, information
+advancements have been made in stem cell research previously,
+related to stem cell research;
+the introduction of blockchain technology means that more
+people can gain access to these potentially life-changing
+Difficult international
+treatments -- effectively changing the face of the medical
+collaboration and payment
+community forever.
+of therapies related to stem
+cell treatments;
+SCI, along with its affiliates, continues to closely monitors the
+evolution of stem cell therapy in different medical subspecialties
+Limited number of stem
+around the world. SCI has created an online community that
+cell banks around the world
+shares important information from stem cell professionals’
+make storing and accessing
+research and contributions across multiple social platforms so
+stem cells difficult;
+there is congruity amongst key players and those that are most
+interested in stem cell research and the impact it can make on
+Lack of access to synthetic
+people’s lives. SCI’s network fosters a community where sharing
+stem cells for therapeutic
+and teaching is encouraged to grow the stem cell industry. SCI’s
+purposes;
+online community offers access to videos, blogs, and articles
+about stem cell research that educate, inform, engage, and           A misunderstanding about
+aim to increase awareness amongst professionals, patients and        stem cell research and the
+investors in the proliferation of the stem cell field.               possibilities it provides.
+Having recognized the potential industry-changing link between
+stem cell research with the secure nature of blockchain
+technology, SCI moves to bridge the gap between accessing and
+understanding of stem cell research and development around
+the world while creating a collaborative and effective network of
+key players in the industry.
+PAGE 6
+
+
+
+
+1.2 Stem Cell Innovations Vision
+Stem Cell Innovations is steadfast in its international research,
+development, and implementation of stem cell therapy. We
+work to expand our network with professionals, labs, clinics,
+hospitals, and nonprofit organizations around the world to
+further this research and development. our ultimate goal is to
+connect people who need treatment with a dedicated team of
+professionals who can provide personalized solutions based
+on patient factors and demographics collected in our dual
+blockchain-supported platform.
+A lack of communication and access continues to plague the
+medical community in many areas of the world. At SCI, we
+believe such communication, access, and connections should
+be convenient and available when needed, just as so many
+other services are in modern society. With so much information
+at our fingertips, it was only a matter of time before stem cell
+research and treatment became mainstream and SCI is ready to
+take research and treatment to the next level. Can you imagine a
+world where every person, regardless of location, will be able to
+connect with a doctor instantly? We did, and we are building the
+Stem Cell Innovations Application (SCIApplication) in which such      ouR uLtImAte goAL IS to
+transactions can occur. What’s more, the same connection will
+facilitate determinations of how much information to share, who       ConneCt PeoPLe WHo
+to share it with, and when based on a patient’s preferences.
+neeD tReAtment WItH
+our vision is to provide a safe storage solution for users’ medical
+data and give those users control over their individual stem cell     A dEdicAtEd tEAm of
+records. Data related to a user’s stem cell needs will be stored
+PRofeSSIonALS WHo CAn
+on the SCI blockchain. Such data will be accessible via our
+secure application. With access to our application, users will
+PRovIDe PeRSonALIzeD
+have the ability to not only share, but also limit the information
+doctors and medical organizations can see in an individual
+SoLutIonS bASeD
+medical profile. users will also have the ability to provide access
+to network providers to view individually-owned stem cell
+on PAtiEnt fActors
+records for a limited time to facilitate treatment or consultation.
+And dEmoGrAPhics
+the SCIApplication and website will be in full compliance with
+the Health Insurance Portability and Accountability Act of 1996       CoLLeCteD In ouR DuAL
+privacy regulations (HIPAA), and will keep user information
+safe and secure. In case of an emergency, users will be able to       bLoCkCHAIn-SuPPoRteD
+provide medical history to emergency responders in seconds via
+the SCIApplication on the user’s phone.                               PLAtfoRm.
+PAGE 7
+
+
+
+
+Information, such as names and dosages of medications, as
+well as previous surgeries and other medical information can
+be crucial in an emergency situation. Such information will be
+stored in the SCIApplication so that emergency care providers
+can quickly access, understand, and provide needed medical
+attention based on a user’s profile and accessible information.
+In addition to providing secure access to a user’s medical
+information, the SCIApplication will allow users to seamlessly
+register for life insurance policies, bone marrow donor registries,
+and organ donation registries. furthermore, the SCIApplication
+will also enable users to access their individualized stem
+cell profile, which will facilitate access to stem cell therapies
+and services in a convenient and straightforward manner.
+our goal is to bring stem cell therapies into the mainstream
+medical community while providing harmonious access to
+medical records for patients and their doctors. It is our vision
+to empower patients and reduce inefficiency in their access to
+medical care around the world.
+tHe SCIAPPLICAtIon
+WILL ALSo enAbLe
+usErs to AccEss thEir
+InDIvIDuALIzeD Stem
+CeLL PRofILe, WHICH WILL
+fACILItAte ACCeSS to
+Stem CeLL tHeRAPIeS AnD
+sErvicEs in A convEniEnt
+AnD StRAIgHtfoRWARD
+mAnneR.
+PAGE 8
+
+
+
+
+1.3 Stem Cell Innovations Roadmap
+establishment of Camden RAD,
+LLC, a company devoted to stem         2013
+cell research and development.
+Camden RAD, LLC is rebranded as
+Stem Cell Innovations, and a new
+company is established, based on
+Q4
+blockchain technology.
+2017
+Attended token 2049
+                                                                         Advanced research begins
+conference in Hong kong.
+                                                                         to determine market and
+Attended Stem Cell Summit at                                             development opportunities.
+the university of California in        Q1
+Los Angeles (uCLA).                    2018
+Attended CbC conference in
+                                                                         Attended ICo20 Summit in Santa
+San francisco, CA.
+monica, CA.
+Integration of smart contract
+technology is established.
+Q2
+Company headquarters
+2018
+incorporated in gibraltar, gb.
+Strategic efforts toward
+development begins.
+Whitelist is scheduled to go live.
+Interviews with potential medical
+Q3
+token Sale starts.
+participants take place.
+2018
+token Sale ends and min max caps
+are assessed.
+Q4
+Distribution of tokens to
+2018
+SCI will begin final testing and       participants through eRC20 will
+reporting based on blockchain          commence.
+technology being used.
+Creation of a non-identical
+Q1
+patient identification factor on
+2019
+Passive blockchain node will be
+initialized.
+Demo testing for SCIApplication
+v 1.0 will begin.
+Release of the SCIApplication v1.1
+Q2                                     enrollment begins for doctors,
+2019
+patients, and stem cell laboratories
+in the united States
+continuE
+PAge 9
+
+
+
+
+Release of market Surveillance strategy
+for further growth
+Release SCIApplication v2.0
+Q3
+enrollment begins for professionals,
+2019
+patients, and stem cell laboratories in       Announcement of clinical development
+middle east and across north Africa.          and research strategy in the stem cell
+field.
+Announcement of first SCI Lab location
+and franchise expansion plan.                 Public announcement regarding SCI
+                                              achievements to date.
+                                              Q4
+                                              2019
+                                              first ever online synthetic stem cell
+                                              purchase through the SCI Application.
+Stem Cell Lab evaluation report per first
+                                              Release SCIApplication v3.0, fully
+year of operation and development.
+Q1                                            functional platform for professionals and
+Release SCI earnings and financials report.
+2020                                          patients.
+Release results of SCI’s stem cell research
+and development to date.
+expansion of SCI stem cell labs and clinics
+in China, Japan, South korea, and India.
+Q2
+begin charging membership fees (payable
+2020
+                                              in Stem Cell Innovations tokens) for
+begin second phase of SCI stem cell
+                                              professional-facing portion of SCI
+research and development.
+                                              application.
+Release SCIApplication v3.5, including
+Q3
+professional-facing component to help
+2020
+practitioners become more involved
+in the stem cell research space and
+contribute to the network.
+Q4                                            expansion and acquisition of SCI stem cell
+2020                                          labs and clinics in europe.
+Release SCI earnings and financials
+report for second year operation and
+                                              Release SCIApplication v4.0 including:
+development.
+Q1
+                                              new platform for medical students,
+Release public update on SCI stem cell
+2021
+                                                                                           Q1     universities, and hospitals to engage with
+research and development.
+                                                                                           2021   the SCIApplication.
+Stem Cell Lab evaluation report for
+                                                                                                  fully functional emR Worldwide enforcing
+                                              second year.
+HIPPA and expanding of synthetic stem cell
+delivery to Latin America.
+PAge 10
+
+
+
+
+STEM CELL INDUSTRY
+OVERVIEW
+2.1 Stem Cell Research
+Stem cell therapies are drastically changing today’s available
+options for surgery, medication, and physical therapy. With more
+research, access, and consistent communication, more lives can
+be changed for the better. medical professionals have a vast
+array of options at their disposal when it comes to medicine,
+treatments, and therapies thanks to research and case studies
+done over the years, but there is still more work to be done.
+many experienced medical professionals champion stem cells
+as the next stage of evolution in medical care, and we couldn’t
+agree more.
+founder and Ceo of Avm biotechnology, Dr. theresa Deisher,
+has this to say about stem cell research:
+“Every person has stem cells in their own body . . . And while
+there are exceptions, when we want to treat someone with a
+disease, we can take their own stem cells and use their own
+stem cells to induce regeneration and recovery in that patient.
+That’s the value of adult stem cells. They’re safe. They work.
+And they’re affordable.”1
+Stem CeLL tHeRAPIeS ARe
+At SCI, we also believe that at the center of stem cell therapy is
+the phenomenon of the body healing itself. Whenever possible,
+DRAStICALLy CHAngIng
+regeneration, healing, and improved quality of life can be
+obtained without invasive procedures, harsh medications, and         toDAy’S AvAILAbLe
+faulty treatment rates.
+oPtIonS foR SuRgeRy,
+Stem cells have been recognized for the potential to impact
+human lives in a positive way. those outside the medical             meDICAtIon, AnD
+community agree. billionaire and philanthropist eli broad said
+PHySICAL tHeRAPy.
+this about stem cells:
+1                                                                    https://www.stemcellresearchfacts.org/dr-theresa-deisher
+PAge 11
+
+
+
+
+“Without a doubt, stem cell research will lead to dramatic
+improvement in the human condition and will benefit millions of
+people.”
+many countries have already moved beyond the research phases
+related to cutting edge stem cell therapies including South
+korea, Singapore, China, mexico, germany, Israel, ukraine,
+Austria, turkey, thailand, India, Spain, and Switzerland.
+With the discovery of stem cells dating back over 30 years, the
+uses and benefits of stem cells have proven effective throughout
+innovative studies and medical trials time and time again.
+In 1968, the first bone marrow transplant was performed to
+treat two siblings with severe combined immunodeficiency
+successfully. other key events in stem cell research include the
+following advancements and discoveries:
+•                                                                     1978: Stem cells discovered in human cord blood.
+•                                                                     1981: the first in vitro stem cell line developed from mice.
+•                                                                     1988: embryonic stem cell lines created from a hamster.
+•                                                                     1995: the first embryonic stem cell line derived from a
+primate.
+•                                                                     1997: A cloned lamb created from stem cells.
+•                                                                     1997: the origin of Leukemia was found to be the
+hematopoietic stem cell, indicating possible proof of cancer
+stem cells.2
+2.2 Stem Cell Types
+SCI plans to have all stem cell services available for users in a
+single effortless process, thereby streamlining what is currently a
+complicated process for accessing stem cell storage and services
+around the world.
+2                                                                     www.explorestemcells.co.uk/historystemcellresearch.html
+PAge 12
+
+
+
+
+Stem cells have the ability to regenerate, repair, and replenish
+other cells, which provides hope for the possibility of replacing
+diseased cells. the information gained through research and
+provide us with a deeper understanding of why abnormalities
+develop in cells in the first place. In addition to helping us
+understand why diseases occur, research and development in
+stem cell technology can bring with it new advancements in the
+drug industry treat conditions without harmful side effects such
+Stem CeLLS HAve tHe
+as those brought about by chemotherapy.
+AbILIty to RegeneRAte,
+to date, four types of stem cells have been identified as being
+able to provide stem cell-related treatments and therapies.          RePAIR, AnD RePLenISH
+these types include embryonic stem cells, tissue-specified
+adult stem cells, mesenchymal synthetic stem cells, and induced      otHeR CeLLS, WHICH
+pluripotent stem cells.
+ProvidEs hoPE for thE
+of all the four cell types, embryonic stem cells are the purest
+form of stem cell. they are extracted from embryos and stored        PoSSIbILIty of RePLACIng
+until needed. embryonic stem cells can form into 220 known
+DISeASeD CeLLS.
+different cell types, providing the opportunity for a broad range
+of applications.
+tissue-specified adult stem cells are limited in their application
+in medical treatments, and more information is needed about
+potential applications in the future.
+Induced pluripotent stem cells can be reprogrammed by
+scientists to match the tissue of specified adult stem cells which
+mimic embryonic stem cells. Scientists hope that more research
+related to induced pluripotent stem cells will allow doctors to
+treat patients with regenerated stem cells from their own body.
+there is also a potential for pluripotent stem cells to work to
+prevent the immune system from rejecting organ transplants
+following surgery.
+Regardless of the type of stem cell, diverse application and
+possibility remain at the forefront of research. Researchers
+agree that stem cells may hold the key to human longevity,
+but certainly hold the key to improved quality of life and they
+provide a much-improved approach to treating diseases humans
+face around the globe.
+PAge 13
+
+
+
+
+2.3 Stem Cell Key Advantages                                          STEM CELL THERAPIES THAT ARE
+CURRENTLy oN THE MARkET oR
+Currently, hospitals and organizations in the united States and
+UNDER DEvELoPMENT ARoUND
+around the world are conducting stem cell research to further
+THE WoRLD INCLUDE:
+the field. to date, the majority of case studies reveal positive
+findings. During clinical research outside of the united States,      •                                 Immune System Therapies
+stem cells have been used as a form of treatment successfully.
+•                                                                     CHo Cell and Hybridomas
+Stem cell treatment and technology continues to be on the
+cutting edge of medical research and discovery, and we predict
+•                                                                     Neural Stem Cell Therapies
+that stem cells will become an even more important part of the
+medical community.
+•                                                                     Pluripotent Stem Cell Therapies
+breakthroughs in stem cell research spans the gamut. the
+                                                                      •                                 Hematopoietic Stem Cells
+most successful and established stem cell therapies have been
+conducted with bone marrow transplants, which were first
+                                                                      •                                 Mesenchymal Stem Cells
+performed over 40 years ago thanks to researchers at Johns
+Hopkins university and their contributions. Since then, further       •                                 Mammary Epithelial
+developments in bone marrow transplants have been made and                                              Cell Therapies
+are well documented in “Half-matched transplants,” and “Human
+Stem Cells at Johns Hopkins: A forty year History”.                   •                                 Prostate Epithelial Cell Therapies
+Prior to advancements in stem cell research, doctors collected        •                                 Pulmonary Stem Cell Research
+bone marrow for transplants from a patient’s own bone
+•                                                                     Intestinal Stem Cell Research
+marrow, but with the successes in stem cell research, medical
+professionals can now harvest stem cells from blood for the
+purposes of bone marrow transplants. the impacts of stem cells
+on bone marrow transplants means that patients do not have to
+wait for a donor and painful surgical procedures can be avoided.
+Stem cells can provide us with a unique approach to therapy
+in a variety of conditions. We’re confident that such research
+and advancement will continue to change the way the medical
+community views many of the world’s most prevalent diseases.
+2.4 Stem Cell Banking
+one of the richest sources of stem cells is found on cord blood.
+Cord blood is found in the umbilical cord and placenta after a
+baby is delivered. the cells in this type of blood boosts
+the immunity of both the mother and baby in preparation for
+labor. being able to collect and store that blood for future use is
+a growing trend in medicine. Cord blood banking (also known as
+stem cell banking) is the process of collecting the cord blood and
+cryogenically freezing its stem cells.
+PAge 14
+
+
+
+
+Stem cell banking allows parents to safeguard their children
+against possible medical issues in the future by ensuring they
+have access to their own pure stem cells, if needed. However,
+the complexity and cost of the current stem cell banking options
+present many barriers to parents who wish to take advantage of
+this medical technology.
+In addition to furthering research, SCI plans to offer stem cell
+banking through its stem cell application ecosystem. Parents will
+be able to order a collection kit, schedule courier pickup, and          Stem CeLL teCHnoLogIeS
+sign up for stem cell storage, all through one secure application.
+rEPrEsEnt thE nExt
+because SCI will offer a worldwide network of stem cell storage
+and therapy options to its users, it is uniquely positioned to
+geneRAtIon In HeALtH
+streamline the process of stem cell banking for parents and
+lower the costs for collection and storage.
+CARe, yet tHeRe ARe
+onLy A feW HeALtH CARe
+2.5 Stem Cell Synthetic - Custom
+PRovIDeRS InvoLveD In
+Stem cell technologies represent the next generation in health care,
+yet there are only a few health care providers involved in stem
+Stem CeLL tReAtmentS
+cell treatments around the world. our goal is to include as many
+people as possible from the medical industry in stem cells research      ARounD tHe WoRLD.
+and use. We envision a world where people have access to the
+treatments and therapies they need. to achieve this vision, SCI is
+developing a network of experts to educate and inform about the
+possibilities - miracles even - of stem cell technologies.
+our network of stem cell labs incorporates secure, convenient,
+state-of-the-art services for our clients’ stem cell needs. We
+go above and beyond to provide the utmost quality in our
+lab, products, and services. not only will users be able to buy
+synthetic stem cells directly from our lab, but they will also be
+able to use a third-party lab in our extensive network.
+SCI has developed a unique formula that will allow our users to
+purchase a unique, custom-made, synthetic stem cell treatment
+for their medical needs. With the patient’s consent and minimal
+information such as date of birth, blood type, allergies, diagnostics,
+and several health-related questions, SCI will run internal, secure
+lab sequences that are plugged into a proprietary algorithm we
+have developed. the algorithm results in the ability to structure a
+custom-designed, synthetic stem cell for an individual in need of
+specific treatment. SCI is proud of this groundbreaking technology,
+and even more excited to share it with the world. Advancements in
+stem cell research and accessibility from SCI will lead the world to
+outstanding innovations for life.
+PAge 15
+
+
+
+
+TECHNICAL
+SPECIFICATIONS
+the functionalities of blockchain
+technology and smart contracts provide
+an opportunity in the health care system
+to reinvent decades-old systems of
+data sharing, storing, and management
+supporting stem cell data integrity and
+security while giving patients control over
+their own data.
+3.1 Stem Cell Innovations’ Unique Identifier
+Protecting confidential user information is vital to the success of
+a system like the one we are proposing. to ensure security and
+privacy, Stem Cell Innovations will require users signing into the
+SCIApplication to provide information and generate a unique
+identifier within the SCI ecosystem. A unique identifier is an
+alphanumeric string of information that is assigned to a specific
+piece of data in an electronic database; in this case, the SCI
+platform and application. users will be given a unique identifier
+that will be generated using a proprietary algorithm, which will
+be used and stored using blockchain technology. the SCI unique
+identifier will act as users’ keys within the SCI network. through
+cryptographic methods, the data used to generate the key will
+be kept secret and secure, able to be parsed only by the SCI
+decoder. unique identifiers enable access to customized stem
+thE sci uniquE
+cell services and therapies offered throughout the expansive
+SCI network to our users. SCI will provide personalized stem cell     IDentIfIeR WILL ACt AS
+solutions to patients using our platform, and as the SCI network
+and suite of services grow, users who opt into these services         uSeRS’ keyS WItHIn tHe
+will be apprised of advancements and new treatment options as
+they become available.                                                SCI netWoRk.
+PAge 16
+
+
+
+
+3.2 Stem Cell Innovations’ Dual Blockchain
+SCI plans to run on dual blockchain platforms. the first platform will be built on an ethereum base for
+token use only, and it will be powered by the eRC20 platform. the second blockchain will be a custom
+application designed and built by SCI engineers tailored to fit the healthcare environment.
+SCI has decided to build its own blockchain for storing and processing patient stem cell records. this
+customized blockchain is known as SCIChain. SCIChain will use the Hyperledger fabric network, which will
+be designed to use smart contracts to protect data and ensure only authorized individuals have access to user
+data. SCI engineers realize that the Hyperledger fabric blockchain has unique functionalities that differ from
+other blockchain types that fit with the needs of SCI’s vision and product.
+Authorizations on the network are controlled by Hyperledger modeling which allows SCIApplication to
+save a user’s stem cell record on the blockchain securely. SCIChain and SCIApplication operate vertically
+while ensuring the integrity and security of the transactions.
+SCI believes it can achieve integrity and security of data by using our proprietary unique identifier and
+control languages. Credentials will also run vertically between the SCIChain and SCIApplication, ensuring
+high-level authentication for professionals, providers, users, and all members of the SCI network.
+Currently, SCI engineers are developing more ways to initiate faster, more secure connectivity between
+SCIChain and SCIApplication, which will be released in subsequent versions. furthermore, SCI is working
+on a broader project to create separate blockchains for different stem cell specialties, ensuring further
+security of data across various fields of study.
+GLOBAL
+PARTNERSHIPS
+PATIENT
+INSURANCE                                                                                                        INFORMATION
+STEM CELL
+INNovATIoN
+BLoCkCHAIN
+NETWoRk                                                                                                          MEDICAL
+PATIENT
+                                                                                                                 RECORDS
+RESEARCH                                                                                                         LABS
+HOSPITALS
+PAge 17
+
+
+
+
+3.3 Stem Cell Innovations’ Hyperledger Fabric                        WoRkING WITH THE
+HyPERLEDGER FABRIC
+Hyperledger fabric enables SCIApplication to be portable,
+MoDEL, SCI WILL:
+private, and scalable. Hyperledger fabric’s unique topology
+allows SCIChain to interact securely with our network providers’     •                          have the ability to define
+systems. SCIChain will carry the SCI unique identifier within the                               assets, such as the data to
+blockchain to privatize and authenticate—ensuring the highest                                   be collected and stored;
+level of security within SCIApplication.
+                                                                     •                          have access to chaincode
+Hyperledger fabric data remains isolated inside the blockchain,                                 that enhances security
+which increases security and is more compatible with data                                       across the networks;
+shared and stored in the health care environment. the use of a
+privatized network provides robust security as well as the ability   •                          have the ability to rely on the
+scale the use case on blockchain technology. by using carriers,                                 secure ledger system that audits,
+SCI can easily add providers to and from the SCI network,                                       verifies and resolves disputes;
+providing control over the data size. furthermore, SCI will be
+•                                                                    ensure privacy across
+able to ensure HIPAA compliance by allowing portability on
+multiple channels such as
+SCIChain.
+those within our network;
+Hyperledger fabric utilizes many key factors that will allow SCI
+•                                                                    provide transparency
+to carry out its plan to collect, store, and share information
+in transactions where
+among certified networks in the stem cell community. the
+information can be verified
+technology allows SCI to perform a variety of tasks that ensure
+and confirmed by decoders;
+security, consensus, and more.
+•                                                                    create consensus on how
+Hyperledger fabric models provide the ability to:
+information is collected,
+•   use key-based lookups, or unique identifiers, SCI can query      stored, and distributed.
+and update data
+•   perform rich or read-only queries for deeper understanding
+of data
+•   perform transactions using a unique identifier in chaincode
+•   collect and verify unique signatures of data
+•   perform transactions and deliver a service to peers in the
+SCI network
+•   validate transactions and endorse consensus
+•   verify consistency in data and reduce compromise of data
+once verified
+•   collect and store various data from membership or network
+certificate authorities in the SCI network.
+PAge 18
+
+
+
+
+3.4 Stem Cell Innovations’ Smart contracts
+Smart contracts are a major benefit to utilizing blockchain
+technology to collect, store, and manage data in today’s health
+care system. In short, smart contracts are digital protocols that
+allow authentication of information online without the use of
+third-party providers. Such contracts are executed automatically    tHe SCIAPPLICAtIon WILL
+within the SCIApplication when a user registers for the service.
+usE smArt contrActs
+the SCIApplication will use smart contracts to provide secure
+business logic for users and enable dynamic settings upon user
+to ProvidE sEcurE
+demand. All users can set up their unique preferences in the
+SCIApplication. Smart contracts will allow users to define their
+buSIneSS LogIC foR
+preferred stem cell providers on the SCIApplication, assigning
+stem cell records to their preferred list of doctors, labs, or
+uSeRS AnD enAbLe
+entities. Smart contracts will be stored on the SCIChain (SCI’s
+secondary customized blockchain). each block on SCIChain will
+dynAmic sEttinGs uPon
+carry all smart contracts to ensure security, enable speed, and
+provide assurance.                                                  uSeR DemAnD.
+managing data and user preferences is easy with smart
+contracts. When a user decides to grant or restrict permission,
+the smart contract will be automatically updated, and
+SCIApplication will comply with user preferences to grant or
+deny records to health care providers in the network.
+Smart contracts are the gatekeepers of the SCIApplication.
+users will be free to change their settings at will should their
+treatments change or preferences change. using mathematical
+equations equal to the eRC20 platform, SCI ensures user
+privacy. the straightforward validation associated with a
+blockchain environment is a secure process that ensures data
+integrity. furthermore, a cryptography public key will be added
+to the SCIChain and application to promote a higher standard
+of security. the symmetric-encrypted key used by SCIChain
+is 2048-bit, which is a supremely secure method of data
+transformation in today’s technology-based world.
+PAge 19
+
+
+
+
+3.5 Stem Cell Innovations’ Data Structure
+Hyperledger fabric allows SCI to use multiple languages to communicate with current electronic medical
+Records and Health electronic Records (emR/HeR) systems. HIPAA regulations need to be considered
+at all access points where medical data is concerned. SCI uses the highly-encrypted 2048-bit unique
+identifier to manage those regulations and considerations. the unique identifier string code will have
+static attributes. the access control language will define the settings for the data to be transmitted, and
+will grant or restrict transmission on the network.
+the SCI system uses double-encryption methodology on a private blockchain designed by SCI. the data
+are private and not accessible to anyone outside the blockchain or the network curated by SCI.
+Information travels to and from blockchain technology based on permissions provided by users for
+providers to view records, which are activated by triggers via the unique identifier. this index will be
+stored on each node on the blockchain and will carry an address to the next node in the blockchain,
+building an unbreakable indexed blockchain. In addition, there will be an auditing trail that will monitor
+changes on the blockchain and will enable the viewing of the history of stem cell records from creation
+to a set point in time. Record trails allow SCI to find errors, debug issues, improve the customized
+blockchain, and report on network functional views to upgrade SCI’s blockchain as needed.
+SCI will implement the smart contract on the eRC20 platform, which enables secure distribution
+of currency via public key cryptography. these transactions carry unique, cryptographically-signed
+agreements to complete the values of the transactions. the smart contract attribute will follow particular
+instructions and update the entire blockchain to ensure a high level of security and data integrity.
+Self-contained                                                                                                Security             Backup             aSSurance
+bLoCkCHAIn                                                                                                    usErs                sPEEd              eConomICAL            QuICk
+freedom to                                                                                                    Data are stored      on a blockchain    virtual electronic
+use electronic                                                                                                on a secure ledger   network data       data discounts
+predefined rules                                                                                              then compared        are constantly     the possibility of
+                                                                                                              with every node      duplicated         human error filling
+                                                                                                              on the blockchain    on multiple        out forms the
+                                                                                                                                   drives making it   traditional way
+decentralized
+PAge 20
+
+
+
+
+3.6 Decentralization
+the ultimate goal of the SCIApplication is to give users control
+over their own stem cell data while storing and processing that
+data in a decentralized way to ensure data integrity and security.
+In this case, decentralization means removing barriers to access
+for patients in need of stem cell treatment and putting the
+tHe uLtImAte goAL of
+control of information and access in the hands of those that
+need it most. Decentralization enables an SCI user to access         tHe SCIAPPLICAtIon IS
+our network of stem cell services and therapies without having
+to wait for time-consuming referrals, wait-lists for treatments,     to gIve uSeRS ContRoL
+and access to their own information. the private nature of the
+data SCI will handle through its application requires maximum        oveR tHeIR oWn Stem
+security and care; therefore, SCI has developed a process of
+CeLL DAtA WHILe StoRIng
+approving new nodes on the blockchain network that will ensure
+the security and integrity of user data remains safe.
+And ProcEssinG thAt
+At a minimum, creating new nodes on the SCI blockchain will
+DAtA In A DeCentRALIzeD
+need to meet the following requirements:
+WAy to enSuRe DAtA
+•   Applying transparent encryption to protect sensitive data
+at the string or bit level in noSQL databases (Cassandra,
+IntegRIty AnD SeCuRIty.
+mongoDb, and Hbase, etc.) and SQL databases (microsoft
+SQL Server, oracle, Ibm Db2, mySQL, PostgreSQL, etc.);
+•   Defining smart contracts using SCIChain to control who and
+what can access the data, including database administrators
+and other privileged users;
+•   using SCI unique identification as a key and policy for
+management and operations, auditing capability on database
+transactions.
+In the health care system, decentralization disrupts the industry
+that has relied on person-to-person transactions and sharing of
+information from a centralized place, leaving patients without
+access to their own information and in many cases, powerless to
+take ownership of their health and wellness. SCI is changing the
+way people seek health care and gain access to the services they
+need around the world.
+PAge 21
+
+
+
+
+STEM CELL INNOVATIONS APPLICATION
+the Stem Cell Innovations Application can help people manage their
+own health and wellness, promote healthy living, and gain access
+to the world of stem cell innovations. Such tools are being adopted
+almost as quickly as they can be developed. According to the uS
+food and Drug Administration, “by 2018, 50 percent of the more
+than 3.4 billion smartphone and tablet users will have downloaded
+mobile health applications.”3
+Blockchain
+Enterprise
+User
+Gateway                                                               Cloud Portal                                                                             Server Runtime   API Management   Connectivity
+User Directory
+Blockchain
+Service
+Application
+Events                                                                Applications
+System
+Blockchain Admin                                                      Integration
+and Services
+Data
+Web
+Mobile
+3                                                                     https://www.fda.gov/MedicalDevices/DigitalHealth/MobileMedicalApplications/default.htm
+PAGE 22
+
+
+
+
+4.1 Stem Cell Innovations Application Functionality
+Main Application: Version 1.0
+In the first iteration of SCIApplication, several specialized formulas and algorithms will be used to
+collect data from users for personal and emergency use, and for tracking purposes, determination of
+health, as well as pregnancy, child growth, and more.
+Front End User APP
+Emergency Info
+Remote Monitoring
+Personal Info
+                                                                                                               Age of B. O. D.                               B. M. I. Calculator Boys
+                                                                                                                                                                                         Express Order Buy Synthetic Stem
+Medical Record
+                                                                                                               Pill Identifier   Estimate Delivery Date      B. M. I. Calculator Girls
+Account Management                                                                                             BMI Calculator                                Height Percentile Boys
+                                                                                                                                 Pregnancy Calculator
+                                                                                                                                                                                         Buy Pharmaceuticals
+Link to Insurance Provider                                                                                                                                   Height Percentile Girls
+Doctor Appointment 24/7                                                                                                          Parental Iron Replacement
+Doctor on Demand
+Infant Weight Percentile
+Emergency Patient Information
+In this section of the application, users will sign an electronic waiver form allowing stem cell specialists
+and medical groups full access to their private information via smart contracts within blockchain
+technology. A predetermined information set will be collected and stored in the application for use during
+an emergency situation. users will be able to set guidelines for the use of and access to their personal
+information.
+PAGE 23
+
+
+
+
+Non-Emergency Patient Information
+each user will provide personal information including contact
+information, an email and password, medical insurance carrier,
+and employer information. using a customer support application
+interface, users will be able to provide access to support teams
+and medical professionals to gain access to their services. In
+addition, feedback will be collected from users to determine the
+overall experience of application users and the information will
+be beneficial to improving user experience.
+Patient Tools
+Age Determination
+Determining patients exact age is possible using an “age by
+Dob” function that will provide practitioners with age in years,
+months, and days.
+b.m.I Calculator
+by using an algorithm to calculate body mass index (bmI)
+for both males and females, practitioners will have access to
+information that could determine the condition of a patient’s
+body. the algorithm for this patient tool is based on the user’s
+height, weight, age, and gender. bmI provides information
+related to weight class to aid decision making and treatments.
+this section of the tool will also provide a notes section and
+reference guide.
+B.M.I Calculator Boys: this is a very specialized calculator for boys
+(2-20 years). the application is based on sex, age, weight, and
+height and will provide b.m.I score and z-score. Practitioners
+can use this information to determine if a boy is underweight,
+at a healthy weight, overweight or considered obese. there will
+also be formulas and references based on pertinent information
+related to boys aged 2-20 years old.
+•   Height Percentile Boys: Also designed for boys aged 2-20
+years old, this calculator formula will be based on the
+algorithms used by the Center for Disease Control and
+Prevention (CDC) providing information related to age
+in years and height “in centimeters/ inches”. After the
+calculation, the application will give results displaying a
+z-score and a height percentile. It will determine if the boy is
+of short stature, normal stature, or tall stature. this is crucial
+in determining the boy’s health for practitioners to make
+decisions about treatment options.
+PAGE 24
+
+
+
+
+B.M.I Calculator Girls: this is a separate, very specialized
+calculator for girls (2-20 years). the application is based on sex,
+age, weight, and height of a young girl. b.m.I score and z-score
+are provided based on the information collected. this application
+will identify if the girl is underweight, healthy weight, overweight
+or obese. there will also be formulas and references customized
+especially for girls
+•   Height Percentile Girls: Also based on the algorithms used
+by the Center for Disease Control and Prevention (CDC),
+this calculator is for girls ages 2-20 years. this application
+is based on a girl’s age in years and height “in centimeters/
+inches”. After the calculation, the application will give results
+displaying a z-score and a height percentile for the girl. It will
+determine if the girl is of short stature, normal stature, or
+tall stature. this is crucial in determining the girl’s health for
+treatment options available to a practitioner.
+Pill Identifier
+ensuring accurate information related to patient medication is
+vital to understand treatment, stopping and starting treatment,
+and more. this tool allows patients to identify medications they
+have to take based on qualities about the pills. Information
+such as shape, color, form, and scoring will provide pictures of
+possible medications matching pills in our database.
+Pregnancy
+Estimated delivery date: this is a very important calculator for
+expecting mothers. this application estimates the delivery
+date of birth based on patient information collected in the
+application. It uses the current date and the first day of last
+period to determine a patient’s date of delivery based on the
+timing of patients last menstrual period. the application will
+provide a gestation age estimating how long the baby has been
+developing since conception, measured in weeks.
+Pregnancy calculator: Pregnancy calculator estimated Date of
+delivery (eDD). this is a more advanced delivery date calculator.
+the application estimates the date of delivery based on multiple
+parameters. the patient can choose the parameter they are
+more comfortable with or the parameter available to them at
+the time of calculation. the calculation allows the patient to
+choose between the current gestational age of the baby, or by
+adding 40 weeks to the first day of the last menstrual period or
+gestational age by ultrasound date (uS). users can then compare
+that information to the current date to give an estimated date of
+delivery.
+PAGE 25
+
+
+
+
+Prenatal Iron Replacement: this application is for prenatal iron
+replacement (prenatal dosing). the application will calculate the
+iron deficiency in pregnant women based on weight “kilograms/
+pound”, age, height and hemoglobin blood test. the calculator
+will prescribe the needed dosage of iron. there will be a formula,
+notes, and references for additional information and record
+keeping.
+Infant weight percentile: this application, based on the Center
+for Disease Control and Prevention “CDC”, uses algorithms for
+infant weight percentile in reference to infant age (under 36
+months). It uses infant sex, age “in months”, weight “in kilograms/
+pounds”. the application will provide the result of a z-score and
+a weight-to-age percentile to determine infant health based on
+weight. this is a specialized formula used only for infants under
+36 months.
+Main Application: Version 2.0
+In the second iteration of SCIApplication, more robust features
+will be added including more advanced medical record
+collection, settings for favorite providers, preferred pharmacies,
+insurance and account management preferences.
+Medical Records
+there is a lack of transparency between all parties involved in
+the current medical systems around the world. Patients have
+no immediate access to health records written by medical
+professionals. medical professionals are only able to share
+data quickly within their own organization or with other health
+professionals using the same eHR system; in some cases,
+transferring data through eHR could be delayed up to 30 days
+due to the delay of administrative fees and reliance on human
+collection and preparation of documents. this type of record
+keeping also means that patients don’t have access to their own
+records and can’t review them as needed or wanted.
+the following features related to medical records will be added
+to version 2.0 of the SCIApplication:
+•   A 24/7 live and interactive “decentralized, cloud-based”
+document center for patient medical records. using a
+comprehensive, secure database, we will be able to gather all
+possible patients medical information for storage or recall as
+needed.
+PAGE 26
+
+
+
+
+•   A ledger of all patients medical visits that includes past and
+all future appointments to be made. Information collected
+will include what happened during medical appointments
+and outcomes found as a result of testing, etc.
+Labs tests: Collection of all lab tests requested by different
+providers, different medical institutes, and different doctors will
+captured in the application or Application Program Interface.
+Patients can grant access to different lab test records to
+preferred practitioners.
+Favorite provider
+A list of all medical providers, and institutions available to the
+patient in the SCI network will appear here. the user will be able
+to pick and choose a favorite provider and or doctor/ medical
+institute; preferences will be the first point of contact in case of
+emergency or appointment.
+Pharmacies
+Patients will have an opportunity to list their favorite pharmacies
+based on location and personal preferences available in our
+network.
+Account Management
+Patients will be able to control practitioner access to his/
+her records using the account management system, acting as
+administrator of their own information. A log-in and a user-
+friendly interactive front end make it easy for the patient
+to grant or deny levels of access to preferred to medical
+professionals.
+Preferred Payment Method (PPM)
+Patients will add preferred payment methods, which will include
+insurance card information if applicable. using our token-based
+Application Program Interface linked to PPm, patients will
+be able to utilize coupons and discounts offered by medical
+providers, medical institutes and pharmaceuticals where patients
+can enjoy the benefits of being part of our blockchain.
+Link to Insurance Provider
+Patients can connect their insurance provider to our application
+interface. Patients will have administrator rights to configure and
+control the use of insurance. updates to insurance information
+can be made at any time in this section of the SCIApplication.
+PAGE 27
+
+
+
+
+Main Application: Version 3.0
+With the third iteration of SCIApplication, users will be able
+to book appointments with a stem cell specialist in our vast
+network of professionals, gain access to specialists on demand,
+and use video-consulting technology to engage with medical
+professionals as needed.
+Stem Cell Specialist (SCS) Appointments
+An Application Program Interface linked interactively with
+“medical records, account management, and link to insurance
+providers” will be established. users will also be able to set up
+appointment reminders with an in-app calendar and a road-map
+linked to an Application Program Interface estimating time and
+traffic.
+Stem Cell Specialist onDemand (SCSoD)
+A video consultation software will be added that allows
+communication between patient and stem cell specialist.
+Providers in our network will have the same video consultation
+software via an Application Program Interface linking provider to
+patient in the main application’s Professional section.
+key features of this on-demand service include:
+•   Round-the-clock Access: SCSoD will be linked to patient
+information such as personal information, medical records,
+insurance provider, and preferred payment options. Patients
+maintain control of what information is released to providers
+in this section as well.
+•   Schedule a live, video appointment or in-person appointment
+with a provider directly through the application.
+•   video Consultation Assets
+•   SCIApplication platform will use three new technologies
+for the SCSoD
+•   user matching engine (ume)
+•   Cross diagnosis engine (CDe)
+•   Smart Routing (SR)
+PAGE 28
+
+
+
+
+Non-Emergency Medical Transport
+this feature will link non-emergency medical transport to
+patients who need transportation between services. With the
+ability to choose from a variety of services including door-
+to-door ambulatory care, wheelchair or gurney/stretcher
+transportation, users can use preferred payment methods,
+insurance, or SCI tokens as payment for such services.
+4.2 Professional’s Application Program Interface
+this section of the SCIApplication is the professional Application
+Program Interface for specialists, medical practitioners,
+physicians, and stem cell specialists around the world. the
+interface allows information to be shared with practitioners
+based on access granted by users.
+Professional Application: Version 3.5
+Several benefits of the SCIApplication Professional Platform
+include:
+•   Reduction of counterparty risk
+•   Increase in efficiency and the ability to see more patients in a
+shorter period of time
+•   Stem Cell Specialist will advance more accurate diagnosis for
+their patients
+•   Stem Cell Specialist can communicate with their patient any
+time, from anywhere
+•   Real-time reporting
+•   geographic health monitoring (gHm) of population in real
+time
+Medical Journal
+the Professional Application Program Interface will provide the
+latest medical news, studies, and perspectives from stem cell
+research around the globe. It will deliver information in a blog
+format, which will be updated on daily bases. It will also include
+medical headline news from across the globe. In addition,
+medical education based on the latest in medical research and
+science will be available to professional users.
+PAge 29
+
+
+
+
+CDC Alerts
+SCIApplication Program Interface will provide live alerts from
+the “Centers for Disease Control and Prevention”. It will provide
+the latest articles written by the CDC to keep the professionals
+in our network up to date with the latest medical emergencies.
+It will also have a library of previously published articles and an
+extensive medical reference.
+Health Directory
+the directory will provide practitioners with a list of all contact
+information related to hospitals, pharmacies and labs based on
+zip code and keywords entered into the database.
+Pill Identifier
+Similar to the Pill Identifier available in the main Application,
+this version will provide doctors with detailed information about
+medications and pills. breaking down the pill structure and what
+the pill does will allow practitioners to identify any pill they
+have based on visual representations. the application requires
+information about the pill’s shape, marks, and other details,
+and provides pictures of the possible pill. Doctors can choose
+the pill that matches a patient’s medication based on looks and
+markings.
+Electronics Health Care Records
+Similar to the access patient’s have to their own medical records,
+the Professional Application will provide Stem Cell Specialists
+and other health care professional with permission (where
+granted by patients) to access a patient’s information based
+on need. Patients and Stem Cell Specialists will share medical
+records 24/7, 365 days a year. this application will be integrated
+with an emR/eHR system, allowing access to labs, test results,
+x-rays, videos and more.
+Conferencing
+this is the medium in which professionals and patients will
+interact online. video conferences also allows professional
+users to interact with our support team when necessary.
+Professionals can also interact with each other in this section of
+the application.
+Several important functionalities included in the Conferencing
+application are:
+PAge 30
+
+
+
+
+•   Language: Professionals from different countries and different
+nationalities will have a chance to interact with each other
+via video, or text. our team will provide translation services.
+there will be live video translators and/or the text chats
+that will get translated live, or at a later time via emails for
+reference and consultation.
+•   Collaboration: After overcoming the language barrier, patient
+and Stem Cell Specialists will be able to collaborate to fulfill
+application transactions. Professionals will also be able
+to collaborate via our decentralized blockchain network
+instantaneously.
+•   Collaboration between Stem Cell Specialist professionals,
+lab team, medical insurers and the government will all
+be possible via stem cell innovation application with fast,
+secure and accurate transmission with “almost no human
+errors”.
+PAge 31
+
+
+
+
+STEM CELL INNOVATIONS
+TOKEN OVERVIEW
+the Stem Cell Innovations token will be implemented as an eRC-20
+token over the ethereum public blockchain. the token will primarily
+be used within the SCI ecosystem as a method for users to access the
+full range of SCI products and services. given the self-contained nature
+of the ecosystem, a token-based model for product usage will support
+security and exclusivity of access for SCIApplication token holders,
+which will, in turn, drive the fundamental value of the token.
+5.1 Token Purpose and Usage
+Stem CeLL
+innovAtions
+EcosystEm And
+APPLICAtIon
+Physicians’ API                                                            Storage of         Access to          Access to patient   Data is owned      Availability   Access to stem
+wherein physicians                                                         and access         purchase of        tools for health    by the patient     of patient     cell services
+can access medical                                                         to patient         pharmaceuticals    maintenance         and accessible     information    such as stem
+journals, CDC                                                              medical records,   that the patient   and information,    via their own      for patient    cell storage
+alerts, health                                                             insurance data,    needs.             such as pill        private key,       monitoring     and access
+directories, pill                                                          appointment                           identification,     which they         and            to synthetic
+identification,                                                            data, and                             bmI calculation,    may share with     emergency      stem cells for
+electronic health                                                          personal                              pregnancy           their physicians   information.   therapeutic
+records that have                                                          information on                        information,        or emergency                      purposes.
+been shared                                                                the Stem Cell                         parental iron       personnel as
+with them,                                                                 Innovations                           replacement         needed.
+teleconferencing,                                                          blockchain.                           needs, and height
+and video                                                                                                        percentiles.
+consultation
+non-exhaustive set of products and services that will be available to
+patients and Stem Cell specialist using the SCIA token.
+PAGE 32
+
+
+
+
+Purchase of Products and Services
+the primary use case for the token will be the purchase of products
+and services through the SCI ecosystem. the token will be the
+exclusive means of purchasing within the ecosystem. As additional
+applications and services are added to the ecosystem, the token will
+gain utility as a means to access these new products.                  tHe SCI token IS
+Secure Access                                                          nEcEssAry for thE
+the SCI ecosystem will allow patients to quickly and securely
+Stem CeLL InnovAtIonS
+access their medical records from anywhere in the world and
+provide users with an avenue to purchase SCI’s products within         EcosystEm
+the ecosystem. Additionally, the participation of physicians
+within the ecosystem will allow patients to access medical
+care through avenues, such as teleconferencing and video
+consultations inside the application. because patients have
+control over their own medical data within the ecosystem, they
+can seamlessly consult with relevant physicians who can get up
+to speed on their case when users provide physicians with direct
+access to their medical records through the application.
+Exclusivity
+With years of experience in the stem cell field, SCI is uniquely
+positioned to act as a curator of quality medical and stem cell
+services for patients and their physicians. SCI token holders will
+have exclusive access to the set of products and services within
+the SCI ecosystem, allowing them to purchase what they need
+through the SCIApplication. exclusive access to SCI products
+and services ensures that token holders benefit directly from
+acquiring SCI tokens, which ensures the continued growth and
+development of the ecosystem itself.
+use of the SCI token will eliminate payment inefficiencies and allow
+SCI to provide access to cutting-edge stem cell technology for users
+within the ecosystem. All purchases and tools can be completed
+using the token within the ecosystem, allowing for a seamless
+experience for patients, doctors, and other service providers.
+traditional payment methods for medical services and products
+are inconvenient and often laborious, while international
+payments are particularly fraught with difficulties, such as long
+processing times and hefty transaction fees. using one token to
+access everything in the SCI ecosystem breaks down barriers for
+patients and service providers to gain access to these services,
+which increases the frequency of use for patients and service
+providers alike. the use of the token allows for quick and secure
+PAGE 33
+
+
+
+
+payments, particularly in an international setting when a patient    IN SUMMARy, SCI’S LAUNCH oF
+has emergency medical needs while traveling or sees a physician      THE ExCLUSIvE TokEN ADDRESSES
+in another country.                                                  SEvERAL vITAL FACETS THAT MAkE
+SCI’S PRoDUCTS AND SERvICES
+It makes sense to create and use one exclusive token within
+UNIqUE AND NECESSARy:
+the SCI ecosystem and application. by accepting only SCI
+tokens for its products and services, SCI further ensures the        •                                The token as the only method of
+security of its network and data by reducing the technical                                            payment helps ensure the security
+risks that accompany accepting multiple forms of payment.                                             of payments and further supports
+because the SCIApplication will be secure and self-contained                                          the protection of patient data.
+using blockchain technology, the use of SCI tokens within the
+•                                                                    SCI token payments are more
+application will support the security of patient information.
+efficient than other forms of
+payment for medical services and
+will be easy to use in international
+5.2 Token Distribution of sale proceeds
+settings when needed.
+SCI’s goal is to raise a maximum of $36,000,000 and a minimum
+•                                                                    The use of the SCI token as
+of $3,000,000. Some of these numbers may change with etH/
+the single form of payment
+uSD exchange rates and volatility throughout the ICo and
+within the ecosystem ensures
+launch phase of the company’s growth. this document is based
+exclusivity for SCI token holders,
+on exchange rate estimates at the time of writing. SCI will mint a
+allowing them valuable access
+total of 800 million tokens. of these, 240 million tokens will be
+to SCI products and services.
+available during the token sale to start on September 17, 2018.
+each token will be sold at $0.15. Should all 240 million tokens
+be sold, the raised funds will be $36,000,000. tokens unsold
+from the 240 million will be burned. the funds raised during the
+token sale are to be used per the project roadmap above.
+Pre-Sale from 17th September 2018 0800 HRS utC/gmt
+to 29th october 2018 2359 HRS utC/gmt.
+main-Sale from 21st november 2018 0800 HRS utC/gmt
+to 17th January 2019 2359 HRS utC/gmt.
+the total number of tokens sold during the pre-sale period
+cannot exceed 60% of the total number of tokens initially put
+up for sale by the main-Sale. If the number of requests received
+during the pre-sale period exceeds, request will be honored
+in the chronological order in line with the set limit, and excess
+orders will be returned to clients.
+PAGE 34
+
+
+
+
+USD Value
+Purpose                                                           Percentage          Million Tokens
+                                                                                                       (Approx. in millions.)
+It development and R&D                                            25%                 60               $9
+marketing and sales                                               20%                 48               $7.2
+Legal                                                             5%                  12               $1,8
+International expansion and partnership of stem cell labs         15%                 36               $5.4
+Infrastructure and project management                             10%                 24               $3.6
+Lobbying stem cell uS fDA                                         6%                  14.4             $2.16
+team and advisors                                                 19%                 45.6             $6.84
+our roadmap assumes development of essential features for the
+SCI platform and includes strong sales and marketing support to
+accelerate adoption.
+6%
+19%
+10%
+IT development and R&D
+Marketing and sales
+Legal
+International expansion and
+15%
+partnership of stem cell labs
+Infrastructure and project
+management
+Lobbying stem cell US FDA
+25%
+5%                                                                Team and advisors
+20%
+PAGE 35
+
+
+
+
+IT Development and R&D
+Compared to other blockchain technology-based companies,
+the SCIApplication and ecosystem has tremendous impact on
+the associated It hardware and software costs and burdens.
+the application development work will be funded by 25
+percent of token pre-sales and 5 percent from token reserves
+(potentially a total It budget of $13.2 million). Appropriate time
+and resources will be committed to the hardware, software, and
+R&D deliverables, which will enhance the product and concepts
+within the platform.
+SCI considers the security of sensitive data as the utmost
+important part of the blockchain technology being used; SCI will
+utilize appropriate and powerful servers provisioned in a highly
+secured and encrypted environment on our custom blockchain
+technology, and in association with the ethereum blockchain.
+SCI engineers and software solutions teams will work to ensure
+rapid delivery of, and security in, all aspects of the project.
+Software design is paramount to ensure ease of use by both
+doctors and patients. the application design and development
+itself requires a strong team of knowledgeable individuals to
+design, reshape, and develop the SCI software applications.
+Significant research and development is required because of the
+many new and future-forward elements that SCI is developing
+to expand the scope of the stem cell field. Internal and external
+It professionals will be involved in the innovation of the
+customized blockchain technology.
+Marketing and Sales
+marketing of the SCIApplication will focus on expanding
+awareness and speeding the adoption and onboarding
+processes, recruitment of doctors for the stem cell specialist
+service, and for other products outside the main application.
+As part of a targeted marketing campaign, SCI will allocate
+a number of tokens to individuals who are familiar with our
+company and want to promote our product to social media
+audiences around the world. An additional number of tokens will
+be reserved for bounty reward programs. bounty tokens will be
+divided into group bounties and individual bounties, which will
+help promote the SCI project across platforms.
+PAGE 36
+
+
+
+
+Legal
+the landscape for initial coin offerings, tokens, and all forms of
+cryptocurrency are in their infancy, with legislation continuing to
+evolve regularly. this coupled with the complex legal aspects of
+the medical profession move the SCI team to allocate substantial
+resources and funding to legal compliance across all aspects of
+the venture.
+International Expansion and Partnership of Stem Labs
+SCI will increase its reach over time with a structured
+international expansion program and by forging partnerships
+with other professionals, doctors, and merchants worldwide.
+the roadmap also provides an opportunity for SCI to open and
+operate stem cell labs and banking networks on a global scale.
+Infrastructure and Project Management
+Asset management and project management will form a
+significant part of the ongoing post-sale project. the nature
+of the platform data and the R&D requires secure and robust
+management to ensure the continued improvement of the
+applications. Additionally, domestic and international recruitment
+will be undertaken to staff new global offices as the company
+grows.
+Lobbying Stem Cell USFDA
+As advances in stem cell work are furthered, the allocation
+of funds will assist in user adoption by creating a movement
+to directly influence decision makers in the united States to
+promote and regulate uS stem cell use.
+Team and Advisors
+the team supports the project and expects its advisors to do
+the same. Regarding their commitment to and confidence in the
+project, they have instigated a 90 percent vest for 12 months.
+Additionally, 10 percent of the allocation will vest for one
+month.
+PAGE 37
+
+
+
+
+5.3 Token Reserve
+SCI will consider the usage of reserve tokens over a period of
+time both pre- and post-launch. the number of reserve tokens
+cannot be fixed due to the nature of the sales and bonus offers.
+SCI may choose to burn tokens or consider distributions at SCI’s
+discretion under the following headings (non-exhaustive) and
+initial suggested allocations:
+USD Value
+Purpose                                                                                        Percentage                      Million Tokens
+                                                                                                                                                (Approx. in millions.)
+It development and R&D                                                                         15%                             84               $12.6
+marketing and sales                                                                            22%                             123.2            $18.48
+Legal                                                                                          9%                              50.4             $7.56
+International expansion and partnership of stem labs                                           11%                             61.6             $9.24
+Infrastructure and project management                                                          18%                             100.8            $15.12
+Lobbying stem cell uSfDA                                                                       2%                              11.2             $1.680
+team and advisors                                                                              18%                             100.8            $15.12
+Reserve                                                                                        5%                              28               $4.2
+*The totals in the table above will vary depending on the outcome of the bonus allocation in
+the pre-sale. The assumption above is that the 40 percent average bonus allocations is made,
+and 240 m tokens are sold, leaving 464 m tokens in reserve. Usage of funds is aligned to the
+same activities as the pre-sale above.
+5%
+15%
+18%
+IT development and R&D
+Marketing and sales
+Legal
+International expansion and
+2%
+22%                                                                                            partnership of stem cell labs
+Infrastructure and project
+management
+Lobbying stem cell US FDA
+18%                                                                                            Team and advisors
+Reserve
+9%
+11%
+PAGE 38
+
+
+
+
+Additional aspects being considered for reserve token allocation
+include, but are not limited to:
+•   Stem cell community (doctors and patients) initiatives
+•   Share cost of stem cord bank storage
+•   offering inside-platform SCIApplication user promotions and
+gifts
+•   offering inside-platform SCIApplication users promotions
+and bonuses at certain milestones
+•   buying or selling SCI tokens on the open market
+5.4 Token Sale Information
+Start date: 00:00 a.m. (GMT) on September 17, 2018
+End Date: 00:00 a.m. (GMT) on January 17, 2019
+Payment methods accepted: BTC, ETH, LTC, FIAT
+Soft cap: $3,000,000
+Hard cap: $36,000,000
+Token Sale price: $0.15
+Total token supply (max): 800,000,000
+Min purchase Pre-Sale : $500 USD
+Min purchase Main-Sale : 0.4 ETH
+Max purchase: 4000 ETH
+the exact procedure to buy SCI tokens is available on our
+website (ico.scia.io) and in our social media channels. SCI may
+adjust the procedure and payment channels during the sale if
+required. for up-to-date information, consult the website.
+excluded/restricted jurisdictions include the following: the
+united States of America, People’s Republic of China (except
+Hong kong, macau, and taiwan), Cuba, Iran, Democratic People’s
+Republic of korea, Syria, Crimea Region.
+PAge 39
+
+
+
+
+5.5 Early Bird Bonuses
+Pre- Sale Bonuses
+Starting 17th September 2018 0800 HRS UTC/GMT
+to 29th October 2018, 2359 HRS UTC/GMT
+Day 1-7                                                                                           60%
+Day 8-14                                                                                          55%
+Day 15-21                                                                                         50%
+Day 22-28                                                                                         45%
+Day 29-42                                                                                         40%
+Main- Sale Bonuses
+                                                                                                  Starting 21st November 2018 0800 HRS UTC/GMT
+                                                                                                  to 17th January 2019, 2359 HRS UTC/GMT
+Day 43-54                                                                                         30%
+Day 55-69                                                                                         25%
+Day 70-end                                                                                        15%
+** Also, all participants in the pre-sale and main token sale will gain lifetime free access to
+the app once the sale is live.
+***SCI is committed to a transparent token sale process and will notify the public of the
+total tokens in circulation after the completion of the token sale. SCI will not create any
+new tokens after the token sale.
+5.6 Token Information
+Important information related to the exclusive token for
+SCIApplication:
+•   the number of tokens distributed and the value of
+funds raised will depend on the bonus amounts and/or
+contributors attracted during the sale.
+•   tokens are minted as a one-time event. no additional token
+minting or mining shall take place. un-issued tokens may,
+from time to time, be burned at the discretion of SCI.
+•   tokens will be transferred 30 days after the sale is complete.
+•   tokens purchased during the sale vest for six months from
+the date of allocation while tokens allocated as early-bird
+bonus tokens vest for 12 months from the date of allocation.
+PAge 40
+
+
+
+
+•                                                                 Should the soft cap not be achieved, all funds (less
+                                                                  transaction fees) will be returned using the same
+                                                                  contribution address/account and in the same token or
+currency.
+•                                                                 Should the hard cap be reached, the sale will end
+immediately.
+•                                                                 the token’s utility is that it will be used for hassle-free
+procurement of various services provided through the
+application including, but not limited to:
+•   buying cord blood services
+•   Purchasing medical supplies
+•   Acquiring synthetic stem cells (discounted, which could
+save up to 70 percent of market price)
+•   Paying online app annual membership fees for
+professionals (doctors) and discounted memberships for
+medical students
+•   Contacting stem cell consultant specialists 24/7
+•   Conducting DnA ethnicity tests
+5.7 Token Vesting Schedule
+vesting schedules are typically used to focus and reward the
+executives and team for growing the company and platform.
+vesting schedules are a reasonable and transparent technique to
+reward executives, employees, advisors, consultants, and early
+supporters incrementally. the reserved tokens, when allocated,
+are subject to the vesting schedules below:
+Terms of Reserved Vested Tokens
+executives                                                        20% every 12 months, 100% vesting at 60 months
+SCI employees                                                     25% every 12 months, 100% vesting at 48 months
+Advisory board members                                            25% every six months, 100% vesting at 24 months
+Consultants and Partners                                          25% every three months, 100% vesting at 12 months
+early Supporters                                                  100% at the completion of regular sales
+PAge 41
+
+
+
+
+•   the reserved tokens will be allocated at the sole
+discretion of the SCI governance council.
+•   the vesting schedule begins from the date of token sale
+completion.
+•   Reserve tokens cannot be sold at a discount to issuance
+price.
+•   All lock-ups will be controlled by a dedicated smart
+contract (vesting Contract)
+PAGE 42
+
+
+
+
+SCI TEAM AND
+ADVISORY COMMITTEE
+the SCI team and advisory committee is
+represented by world-class professionals
+in their fields and together, they bring
+about the successes of the company and
+its life-changing work.
+The Team
+Moe Galal - Chief Executive Officer/ CO-FOUNDER
+moe is a founder of Stem Cell Innovations, and hopes to usher
+in the next generation of medicine using stem cells and other
+technological advancements. moe has more than 20 years’
+experience as an entrepreneur along with a strong belief in stem
+cell innovation as the future of medical care. He earned a degree
+in Political Science at California State university - northridge.
+Prior to becoming a part of the executive team at Stem Cell
+Innovations, moe successfully founded California Panther
+Security Inc., a leading security firm in the state of California,
+specializing in executive protection and all security services.
+He worked closely with the development and leadership of
+the business from the ground up. moe has also helped many
+startup businesses by lending his expertise in the field of medical
+management.
+As Ceo of Stem Cell Innovations, moe will bring his many
+years of leadership experience to growing this company and its
+network in order to become the premier provider of stem cell
+services and therapies around the world.
+PAGE 43
+
+
+
+
+Ben Barel - Chief Operations Officer/ CO-FOUNDER
+ben is a seasoned healthcare professional with over 20 years
+of experience managing and overseeing corporate operations,
+human resources, and compliance reporting in a variety of
+settings As the Coo, ben is a key member of SCI’s leadership
+team.
+becoming certified in HIPAA training has inspired ben to be a
+strong advocate for patient privacy by focusing on Privacy Act
+regulations that enable patients to access their medical records
+when needed and limit the information exposed.
+ben has taken on a vital leadership role in the building,
+implementing, and overseeing all of SCI’s corporate operations,
+processes, workflows and procedures. He plays a critical role in
+helping to shape and guide the future growth and development
+of the organization.
+ben was a founder of Camden RAD LLC, which initiated
+research and development of stem cells in the beginning of
+2013 and later led to the formation of SCI. ben co-founded
+SCI to further the research and development of cord blood
+and Syntactic Stem Cell Labs, leading toward SCI’s futuristic
+application that will change the stem cell services landscape.
+Ali Alrashidi - Chief Technology Officer/ CO-FOUNDER
+Ali Alrashidi joined SCI because of his interest in combining
+blockchain technology and the health care systems around the
+world. He has experience developing his own smart contract
+platform, and has worked with Solidity programming, ethereum,
+Hyperledger and more. He has extensive experience in web
+development, computer networking, and web design.
+Ali has been actively learning and developing cloud computing
+processes over the last ten years and he focuses on
+decentralizing networks, such as those found on blockchain
+platforms. Prior to joining SCI, Ali started PCfinal in 1998,
+specializing in It support. Ali has successfully expanded PCfinal
+over 2 decades by taking his knowledge and experience to
+help maximize the growth of his company to meet his clients’
+technological business needs head on.
+PAGE 44
+
+
+
+
+With a networking background rich in subnetting, Cisco,
+Windows servers and active directory, Linux server, linux
+command line, and advanced ethical hacking and security, Ali
+is well versed in python, javascript , php, mysql,jquery, and C#.
+His web development experience consists of HtmL5, CSS3,
+bootstrap, and eclipse IDe.
+As Cto, Ali will be a vital team member for Stem Cell
+Innovations in managing and running our blockchain platform.
+Ali’s support in furthering academic research in the field of
+blockchain will allow SCI to maximize growth and minimize
+issues in the future.
+Matt Galal - Chief of Staff/ CO-FOUNDER
+As a C-level executive in charge of putting the team together at
+SCI, matt galal is the very definition of the “American Dream”
+and now he wants to help the team at SCI achieve their dreams
+as well. He first founded and grew master’s Limousine Inc.,
+creating the company with the intention to build a better life
+for his family. His assertive and practical hands-on approach to
+managing companies has secured him a place as Chief of Staff
+at SCI. Having decided to join the team at SCI, he dedicates his
+years of experience to the goals held by SCI and its team.
+matt has over 15 years of experience as successful
+entrepreneur. He is driven by success and takes a detail-oriented
+approach to everything he does. It’s what would make him a
+great asset to any company’s vision of growth, but in particular,
+SCI’s vision to improve the stem cell industry by cultivating a
+team that can ensure success now and in the future.
+Kobi Barel - Operations Engineer/ CO-FOUNDER
+kobi barel is the operations engineer at Stem Cell Innovations.
+With years of experience in the technology sector, kobi quickly
+recognized the power of blockchain, radiology, and stem cell
+technologies could have on one another when used in the right
+right way.
+Working for a leading radiology imaging center called Innovate
+Radiology Imaging, Inc., kobi has helped pioneer technologies
+related to stem cell research and is proud to be part of the SCI
+founding team.
+PAGE 45
+
+
+
+
+His years of experience and dedicating to making the world a
+better place through medical innovation have lead to world-class
+accomplishments in the medical industry. knowing he is helping
+to forge the future where three intersection industries collide
+is an important motivator for him, and SCI will benefit from
+his ambitions to break down barriers and change the face of
+medicine around the world.
+Dr. Glavinovich - Medical Director
+With over 30 years of hospital-related experiences focusing on
+clinical, operational, and management practices in California,
+Dr. John glavinovich can attest to the dire state of the health
+care system in north America. He has run numerous emergency
+departments, urgent care clinics and hospital “in-house
+emergency coverage” for several long-term care facilities.
+more recently, Dr. glavinovich has focused on preventative,
+proactive, and restorative approaches to medical treatments. He
+is working with several professionals on a proposed
+east West medical facility in Asia inclusive of forms of Stem Cell
+therapies known as biologic
+Allografts. He has significant interest in nutrition, environmental
+evaluation and detoxification, weight loss, curing diabetes, and
+autoimmune disease as well as utilizing Iv therapy for many
+benefits. Dr. glavinovich brings years of experience and insight
+to the team at SCI and will provide a non-traditional approach to
+the work being done by the team and executives.
+Dr. Philip Glukhovsky - Health Informatics Manager
+In 1997, Dr. Philip glukhovsky graduated with honors from the
+university of California at berkeley with a degree in molecular
+and cell biology with an emphasis in genetics. After graduation,
+he worked for 6 years at Rheumatology Diagnostics Laboratory,
+a leading specialty laboratory in Los Angeles, CA, heading
+up their genotyping division. While at RDL, Dr. glukhovsky
+participated in multiple studies in genetic testing and
+pharmaceutical testing.
+Dr. glukhovsky has been involved in the development of
+important genetic testing for HIv and Hepatitis and multiple
+other diseases. In 2003, Dr. glukhovsky left RDL to attend
+Cleveland Chiropractic College. He graduated in 2006 with high
+honors, as the valedictorian of his class.
+PAGE 46
+
+
+
+
+to date, Dr. glukhovsky has been in private chiropractic practice
+since 2007 utilizing his own blend of skills to provide total
+wellness care with an appreciation for genetic counseling and
+the most modern and cutting edge treatments for his patients.
+Dr. glukhovsky is a key member of the team at SCI and will
+provide a unique level of understanding and insight related to
+genetic testing and cellular activity.
+Roger Williams - VP Marketing
+Roger began his career in medical Sales in 1980 in Southern
+California. He sold orthopedic implants for Swiss and American
+orthopedic implant companies and was a pioneer in introducing
+many new products to the u.S. market. He sold hip and knee
+replacement to domestic and international companies, and
+entered the field of spinal implants in the 1990s.
+Roger began selling biologics for the spine and orthopedics in
+the late 1990s, which were used primarily to augment bone
+growth. In 2010, Roger began working with stem cell companies
+and then cord blood stem cells. He now focuses his professional
+career on the sale and application of these innovative products.
+Roger is known for his innovative approach to marketing
+and the introduction of new products and technologies. He
+has relationships with doctors and healthcare professionals
+throughout the u.S. and abroad. Roger has a passion for stem
+cell therapy because it offers an option to treat certain diseases
+which may otherwise go untreated. Roger’s extensive marketing
+experience will greatly benefit SCI as the company expands it
+network and services in the stem cell industry.
+Liz Curlett - VP, PR & Corporate Communications
+Liz brings 20 years of project management experience to the
+team, 10 of which is working with technology start up’s. Liz’s
+educational background in Chemical engineering and her varied
+experience in other sectors, such as enterprise data analytics,
+software development, and healthcare It, has given her the
+ability to cross-translate even the most technical information
+into engaging and easily-understood narratives that capture the
+eye and stand out among the best on the market.
+PAGE 47
+
+
+
+
+Liz spent most of her life abroad but has recently moved back
+to Calgary, where she was born. After seeing a market for media
+producers with a technical background, Liz founded her own
+production company and was later introduced to SCI. What
+started as a single project grew into something much bigger. Liz
+is thrilled support SCI through media production, communication
+strategy, and will be here to update all SCI stakeholders the as
+team meets each and every milestone moving forward.
+Candice Kouchache - Business Development
+Candice provides administrative support to the SCI development
+team. With over 10 years of experience in business management,
+Candice’s skills and expertise have allowed her to provide support
+to the founders and the team at SCI, ensuring the success and
+growth of the organization. Her experiences in client support,
+client relations, data analysis, public relations, marketing,
+and executive support allows her to contribute an important
+perspective in the developmental phase of the SCI vision.
+Candice continuously seeks to research and develop internal
+practices, resources, and overall department management to
+ensure streamlined administrative support. She contributes her
+extensive administrative and management experience to ensure
+that SCI continues to grow and thrive.
+Ahmed Elsantawi - VP of International Human Resources
+With over 15 years experience in Human Resources, Ahmed has
+had many opportunities to work with multinational companies
+in a highly diversified range of fields. He has held HR positions
+supporting large projects all over the world, improving and
+implementing HRIS and HR processes, while providing HR
+solutions for his clients through the use of innovative technology
+with a people-centric focus on compliance. Ahmed’s expertise
+includes talent management, organizational development, and
+leadership and management coaching. Ahmed also enjoys
+consulting with early stage ventures.
+PAGE 48
+
+
+
+
+Ahmed completed a master of business Administration degree
+with a concentration in Human Resources from the university
+of Atlanta, uSA - Dubai, uAe. He also holds a bachelor of
+Commerce degree from Suez Canal university in egypt. He
+brings a passion for people to his work and focuses on process
+improvements to build robust corporate communities. Ahmed’s
+contribution to SCI allows the company to ensure that the
+organization grows in a sustainable and efficient way.
+David Marmon - Web Designer
+An experienced and accomplished web designer, David marmon
+injects years of experience and creativity into every project he
+touches. He is a strong believer in collaboration and building
+a community that shares a vision for the future. David’s
+contributions to SCI include conceptualizing and building the
+website, designing vital documentation, and more.
+Working with SCI to bring their web presence to life ensures
+that the company has a key asset that will be the forward facing
+representation people will turn to for information and insight
+related to stem cell research and development. While he hasn’t
+yet surfed the waves of Siargao Island or climbed mount everest,
+he sets his sights high for SCI and the work he will contribute to
+the company.
+Heather Deveaux - Copywriter
+Heather is an experienced copywriter with an extensive
+background in adult learning, technology, and management.
+With superior research skills, Heather is able to draw out
+the most important aspects of a document and ensure that
+the information readers want is front and center. Heather
+contributes to the success of SCI by preparing formal documents
+such as the Whitepaper, press releases, and articles related to
+the stem cell industry, research and development, ICo launch,
+and more.
+She holds a degree in english and Communication, a master of
+Adult education degree, and works as a freelance copywriter
+with clients all over the world. Heather offers a unique voice in
+her writing that helps readers become more educated, informed,
+and engaged with content that is meaningful to them and their
+lives. focusing on ensuring SCI’s voice is heard in the mass
+media, Heather works with the team to get the words just right.
+PAge 49
+
+
+
+
+Everlecia Taylor - Creative Writer
+everlecia taylor is a published author (thriving tool, 2015) and
+brings strong writing skills, customer service, and management
+experience to the SCI team. She plays a pivotal part in digital
+branding of SCI through engaging content and copy across all of
+SCI’s media platforms.
+With an educational background in journalism, everlecia has
+continued to expand on her writing experiences in a variety of
+professional settings, including a C-level position in her own
+company. She is thrilled to be working with SCI to develop a
+strong brand and content creation strategy.
+Marina Evglevskaya - Administrative Manager
+marina has worked as a Senior Administrator for almost 10
+years and has become quite the expert in scheduling and
+correspondence. Having held positions in the medical and business
+fields, she brings an organized approach to the work happening
+behind the scenes to support SCI’s mandate and research.
+marina’s focus as an Administrative manager is to ensure that
+the company’s administrative processes run smoothly. Relying
+on her many years of experience, she has worked to improve
+management systems at SCI related to calendar planning, logging
+activity, and communication within and between departments.
+marina’s organized and communicative approach makes her a
+strong asset for SCI, and she will continue to increase efficiency
+and collaboration within the organization as it grows.
+Rakel Apodaca - Project Manager
+Rakel Apodaca, founder of Revive A Cell biotechnology, is a
+proud united States Air force veteran which also donates her
+time to her military foundation named the Warrior Health
+foundation. one of miss Apodaca’s sought after missions
+are to donate Stem Cell therapy to injured military personnel
+and veterans in need. Rakel’s education background consists
+of environmental biology, a bachelors of Science in nursing,
+Rn, and business Law. Her interest are in creating new
+advancements in the world of biotechnology for both Domestic
+and International fields of medicine; most importantly to create
+new ways for doctors to treat patients, and for patients to gain
+access to new treatment options. Rakel donates her teams’
+laboratory research and medical technology accessibility to
+charities in need of treatments and education.
+PAge 50
+
+
+
+
+Michelle Chavon - Marketing
+michelle Aragon works as an International business developer
+for Revive A Cell biotechnology. michelle has been a medical
+manager for surgery centers for over 30 years. Her focus is to
+bring continual advancements in new biotechnology into surgery
+centers in support of the biotechnology community and to bring
+modern international advancements into the hands of doctors
+nationwide. michelle’s interests are in local foundations that help
+bring stem cells treatment to the local communities.
+Advisory Committee
+Boyan Josic
+boyan is the founder & Ceo of mogul media, JoSIC media,
+and the leading ICo management platform, ICoDashboard.io.
+boyan has been involved as an advisor on numerous ICo and
+blockchain projects including Aeron, SignIX, velix.ID, Cashbag,
+Luckbox, blocktrics, Stem Cell Innovations, bountymissions,
+blockchain media, bloxkapital, gofind, CryptoChats and
+energy Premier.
+Marc X. Ellul
+marc X. ellul has 25 years’ experience as a gibraltar lawyer.
+He is the managing Partner of ellul & Co. (www.ellul.gi) and
+heads the firm’s fintech team. He is Chairman of the gibraltar
+finance Centre Council.   Representatives of all of gibraltar’s
+financial services industry associations are members of this
+Council whose objects are to promote the economic interests of
+gibraltar by developing the finance center.  the Council meets
+regularly with the minister for Commerce, government officials
+and the fSC and has an important role in shaping finance center
+policy and legislation.   He was also Chairman of the Company
+Law Reform Committee which updated the Companies Act in
+2014 and he formed a part of team which drew up the AmL
+guidance notes for gibraltar lawyers. He now mainly practices
+as a corporate, funds, tax and fintech lawyer. He is actively
+involved in blockchain work in gibraltar advising on the set-up
+of regulated cryptocurrency exchanges, token sale (ICos) and on
+the establishment of digital asset investment funds.
+PAge 51
+
+
+
+
+Dr. Pantea Nakieen
+Dr. Pantea nakieen is an advisor to the Stem Cell Innovations
+team. She is an experienced Chiropractor with successful history
+of focusing on patient needs in the medical community. She is
+skilled in Chiropractic biophysics(CbP), nutritional counseling,
+psychology, the beauty industry, rehabilitation, and fitness
+training.
+Dr. nakieen is a successful healthcare services professional with
+a doctorate in Chiropractics from Southern California university
+of Health Sciences. She has joined the advisement team at SCI
+to help them identify opportunities to grow the company and
+support the medical industry from a variety of viewpoints, as
+is evident in her unique experiences and passion for helping
+people get well again.
+Dr. Roger Shortz
+Dr. Shortz is a board certified neurosurgeon with decades
+of experience. He has advanced training and interest in
+minimally invasive spinal surgery, as well as complicated spinal
+instrumentation and fusion.
+Dr. Shortz utilizes state-of-the-art technology and procedures to
+provide optimal surgical outcomes and minimize postoperative
+recovery time. He is a member of the north American Spine
+Society, American Association of neurological Surgeons,
+California Society of Industrial medicine and Surgery, the
+California Association of neurological Surgeons, and a past
+director of the American Cancer Society and the national brain
+tumor foundation.
+Working with SCI in an advisory role, Dr. Shortz can provide
+insight into the possible treatments and therapies related to
+spinal injuries, conditions, and more. A professional and trusted
+doctor, Roger Shortz will round out the collective experiences of
+other advisory roles on the SCI team.
+Dr. Greg Maddex
+Dr. greg maddex is an esteemed advisor to the team at SCI. He
+attended michigan State university east Lansing, mI earning his
+b.A. in 1972. In 1978 Dr. greg maddex earned his Doctor of
+osteopathy degree from michigan State university, completing
+his internship rotation at fifth Avenue medical Center (formerly
+Waldo general Hospital) in Seattle WA.
+PAGE 52
+
+
+
+
+over the years, Dr. maddex has run a private medical practice
+in vashon Washington and in Diamond bar, CA. He is the past
+president of the San bernardino County osteopathic Association
+and past national president of the American osteopathic
+Academy of Addiction medicine. He regularly supervises
+external rotations for various osteopathic medical schools.
+He has proudly practiced a variety of holistic measures in his
+extensive career that have brought him on board with the Stem
+Cell Innovations team, such as natural hormone replacement,
+vitamin supplementation including intravenous vitamins (John
+mayer Cocktails) in appropriate patients for the last 30 years.
+Shahab Sajadi
+Shahab is a pharmacist and owner of Woodland Hills Rx
+Pharmacy, where he provides individualized and thorough
+services to his customers. He is well known for his caring
+and devoted nature for taking the time to address customer
+concerns.
+As a pharmacist, Shahab understands the struggles of patients
+navigating today’s health system, and provides invaluable
+insights into patient needs when it comes to accessing
+innovative services and therapies such as those that will
+be offered by SCI. He will be a great asset to the medical,
+engineering, and executive teams at SCI as the company grows
+and transforms the stem cell and medical communities around
+the globe.
+Igor Soshkin
+As the Ceo of Shopping Cart elite, a software and marketing
+agency, Igor leads over 250+
+employees across seven divisions. He is the cofounder of rek9,
+which recently rolled out bcdbazaar.com for bitcoin Diamond,
+the first ecommerce crypto store, and he is the marketing
+director for bitcoin gold leading the btgpay initiative. He has
+successfully launched and lead over a dozen companies and is
+an avid investor in innovative ideas and technologies.
+PAGE 53
+
+
+
+
+DISCLOSURES AND
+DISCLAIMERS
+the purpose of this whitepaper is to communicate who we
+are and what we are working toward in the software industry,
+explain our work with stem cell research, and clarify how we
+integrate features such as ethereum blockchain storage, cloud
+CPu processing, and real-time 3D object recognition to power
+data and services within our platform applications. Included in
+this whitepaper is our 2018 to 2023 project roadmap, a brief
+overview of our goals in both the blockchain and medical realms,
+and a benefits summary outlining the details of what we will
+deliver to the community and when.
+the information outlined in this whitepaper is not exhaustive
+and does not imply any elements of a contractual relationship.
+Its sole purpose is to provide relevant and reasonable
+information to potential token holders to help them determine
+whether to undertake a thorough analysis of the company with
+the intent of acquiring SCI tokens. nothing in this whitepaper
+shall be deemed to constitute a prospectus of any sort or
+solicitation for investment, nor does it in any way pertain to
+an offering or a solicitation of an offer to buy any securities
+in any jurisdiction.
+the product token has not been registered under the Securities
+Act, the securities laws of any state of the united States, or the
+securities laws of any other country, including the securities laws
+of any jurisdiction in which a potential token holder is a resident.
+the SCI token cannot be used for any purpose other than as
+provided in this whitepaper, including but not limited to any
+investment or speculative or other financial purposes. nothing
+in this whitepaper shall constitute advertising or marketing
+publication and does not in any way relate to offering or bidding
+to purchase securities in any jurisdiction.
+PAGE 54
+
+
+
+
+Although we have made an effort to ensure that all information
+in this whitepaper is accurate and up-to-date, no information
+herein is professional advice. We make no representations
+or warranties regarding accuracy, reliability, relevance, or
+completeness of any information herein. this whitepaper should
+not be the only source you consider and rely on when deciding
+to acquire SCI tokens. your decision should be based on your
+own investigation, which you deem necessary and sufficient for
+your needs.
+Risk Disclosures
+to the fullest extent permitted by applicable law and except
+as otherwise specified in writing by Stem Cell Innovations
+Corporation (“SCI”): (A) token is sold on an “AS IS” and “AS
+AvAILAbLe” basis without warranties of any kind, and SCI
+expressly disclaims all implied warranties as to token, including,
+without limitation, implied warranties of merchantability, fitness
+for particular purposes, title and non-infringement; (b) SCI does
+not represent or warrant that token is reliable, current or error-
+free, and meets your requirements—or that defects in token, if
+such are found, will be corrected; and (C) SCI cannot and does
+not represent or warrant that token or the delivery mechanism
+for token is free of viruses or other harmful components. SCI
+will do its best to take all possible measures to avoid any errors
+and improve them if any are detected.
+All information laid out this disclaimer that appears forward-
+looking is speculative and may change in response to numerous
+factors including technological innovations, regulatory factors,
+and/ or currency fluctuations, including but not limited to the
+market value of cryptocurrencies related to SCI. these forward-
+looking statements can be identified by such words or phrases
+as “will,” “seek,” “potential,” or the negative and or the similar
+terms expressed in the disclaimer.
+furthermore, statements relating to matters outlined in this
+whitepaper that contain forward-looking statements, associated
+with SCI’s present plan are related to objectives only and are
+not a forecast or projection of future results of operations. SCI
+does not take on any obligation to update any forward-looking
+statement to reflect events or circumstances after the date of
+this disclaimer.
+PAGE 55
+
+
+
+
+Pre-sale and/or initial coin offering (ICo) participation can be
+considered high-risk trading; purchasing financial instruments
+via a pre-sale and/or ICo or utilizing services offered on the SCI
+website may result in significant losses or even in a total loss of
+all funds invested:
+•                                                                     no information provided on the SCI platform or website
+should be interpreted as investment advice. It does not
+constitute an offer or invitation by SCI to any user to buy
+or sell tokens or make any investment.
+•                                                                     users guarantee that they are legally capable persons of
+majority age and comply with the legal rules and applicable
+laws of the jurisdiction where the users live.
+•                                                                     users guarantee that the purchase of SCIA tokens does not
+contravene legislation in their country and/or geographical
+area pertaining to the purchase, storage, and exchange of
+digital currency assets including tokens.
+•                                                                     Prospective buyers must agree, fully understand, and accept
+                                                                      these potential risks before proceeding in purchasing SCIA
+tokens.
+•                                                                     During the pre-sale period, all sales are final, and there
+are no RefunDS or cancellations except those that may
+be required by law or regulation. SCI reserves the right to
+refuse or cancel token purchase requests at any time in the
+company’s discretion.
+•                                                                     SCI promises no future value and to make no promises
+concerning SCI tokens, including no promise of inherent
+value or continuing payments and no guarantee that SCI
+tokens will hold any value.
+PAGE 56
+
+
+
+
+Additional Risk Factors
+the following are risk factors you should consider relating to the
+SCIA token sale, the SCIChain and the projects to be undertaken
+in this regard.
+•                                                                    the Company may not raise sufficient funds to execute and
+deliver the SCIChain.
+•                                                                    SCIA may be significantly influenced by digital currency
+market trends and their value may be seriously depreciated
+due to events in the digital currency markets not related to
+the Company’s actions.
+•                                                                    the SCIChain will comprise a complex software platform and
+its launch may be significantly delayed due to unforeseen
+development barriers.
+•                                                                    Competition may introduce the same or better solutions to
+the SCIChain as a whole and may cause SCIA tokens to lose
+market share and eventually fail to deliver on its business
+goals and on those of the SCIChain.
+•                                                                    Digital currencies are extremely volatile and SCIA may suffer
+from such volatility.
+•                                                                    International laws and regulations may render the trading of
+SCIA impossible.
+•                                                                    the use of SCIA may come under the scrutiny of
+governmental institutions and regulatory authorities.
+•                                                                    the ownership of SCIA may fall under new and unpredicted
+taxation laws that may erode their benefits.
+•                                                                    the Company may not succeed in creating the necessary
+momentum and acceptance for SCIA or the SCIChain which
+may result in low liquidity and depletion of trades.
+Anti-Money Laundering (AML) & Anti-Abuse
+1.  SCI has zero tolerance toward the use of our services for
+any illegal purposes. Any such abuse by any purchaser will
+result in immediate termination of the account and reporting
+of such activities to concerned regulatory and statutory
+authorities.
+PAGE 57
+
+
+
+
+2.                                                                   SCI will not allow its services, and any future platforms that
+it might support, to be used for any illegal purpose, including
+for money laundering or the funding of terrorism or any
+other criminal activities.
+3.                                                                   SCI shall report all suspicious activities to the concerned
+authorities to ensure initiation of investigation and prosecution.
+Purchasers are therefore strongly cautioned against misuse of
+our services in any manner for illegal activities.
+4.                                                                   Acceptance of the terms herein shall be tantamount to
+acceptance of the Stem Cell Innovations anti-money
+laundering (“AmL”) policy and the terms contained therein.
+Purchasers are required to read, understand, and affirm
+the AmL policy before clicking the “I Accept” button. SCI
+may periodically review and revise, modify, or update the
+AmL policy to ensure that it complies with the requisites
+of applicable law. by accepting the terms herein and by
+continued use of our services, users/purchasers are deemed
+to have agreed to such revised terms of the AmL policy and
+shall be bound by the same. Purchasers who do not wish
+to abide by the same are not permitted to continue use
+of our services, and the same shall stand terminated upon
+compliance with the process set out herein.
+5.                                                                   SCI reserves the right to decline or discontinue, as the case
+may be, any account, at its discretion, with present as well as
+prospective purchasers/users, at all times. In the event of any
+suspicious activity being disclosed or users being suspected
+of abusing its services or platform, SCI has the right but not
+the obligation to suspend or terminate any account of a user/
+purchaser, until a reasonable and satisfactory explanation
+with supporting documents is provided.
+6.                                                                   Where applicable, intimation of such suspension or
+termination shall be duly sent to the purchaser, and the
+accumulated monies or tokens in the account of such users
+will be duly secured and accrue in favor of such users, unless
+otherwise appropriated by SCI toward dues owed to it or
+retained pending confirmation from a regulatory or statutory
+authority or in compliance with an order from a government
+authority or court. Amounts lying in the accounts of users
+suspected of illegal activities or of abusing the platform will
+however not be released in favor of such users until the
+requisite documents and explanations, as set out above, are
+furnished or upon receipt of an order permitting the same
+from an appropriate court or government authority.
+PAGE 58
+
+
+
+
+Legal Disclosures
+Contents of this whitepaper
+you must read the contents of this whitepaper carefully before
+participating in the SCIA token sale. the contents of this
+whitepaper are not used for financial promotions. no entity
+other than the Company can engage in issuing SCIA which are
+intended to operate and function in accordance with the plans
+described in the whitepaper (subject to development changes).
+Sale of SCIA
+this whitepaper and any other documents published in
+association therewith relate to a token offering for the sale of
+SCIA in respect of the intended development and use of the
+SCIChain as more particularly set out herein.
+No offer of regulated products
+this whitepaper does not constitute an offer or solicitation
+of securities or any other regulated product, nor a promotion,
+invitation or solicitation for investment purposes. the terms of
+the purchase of SCIA are not intended to be a financial service
+offering document or a prospectus.
+the sole purpose of SCIA are to access the SCI blockchain
+known as SCIChain and the related products and services as
+described in this whitepaper.
+SCIA does not represent equity, shares, units, royalties or rights
+to capital, profit, returns or income in the platform or software
+or in the Company or in any other company or intellectual
+property associated with the SCIChain or any other public or
+private enterprise, corporation, foundation or other entity in
+any jurisdiction. SCIA are not intended to represent a security or
+similar legal interest and are not an investment product
+Risk warnings
+the purchase of SCIA carry significant risks. you should carefully
+assess this whitepaper and all risks related thereto before
+purchasing any SCIA.
+Obtain all necessary professional advice
+you should consult a lawyer and/or accountant and/or tax
+professional (as required) before deciding to purchase any SCIA.
+PAge 59
+
+
+
+
+This whitepaper describes a future project
+this whitepaper contains forward-looking statements which
+are based on the beliefs of the Company, certain assumptions
+made by us and information available to us. the projects
+described in this whitepaper are under development and are
+constantly being updated, including but not limited to, its
+technical features. Accordingly, if and when the SCIChain is
+completed, it may differ significantly from the project set out
+in this whitepaper. no representation or warranty is given as
+to the achievement or reasonableness of any plans, future
+projections or prospects and nothing in this document is or
+should be relied upon as a promise or representation as to the
+future.
+SCIA relate to the development and use of experimental
+software and technologies that may not come to fruition or
+achieve the objectives specified in this whitepaper.
+Licences and approvals are not assured in all jurisdictions
+the Company intends to operate in full compliance with
+applicable laws and regulations and obtain the necessary
+licences and approvals in key markets. therefore, the
+development and rollout of all the features of the SCIChain
+described in this whitepaper are not guaranteed. Regulatory
+licences and/or approvals are likely to be required in gibraltar
+and, potentially, in a number of relevant jurisdictions in
+which relevant activities may take place. It is not possible to
+guarantee and we, and no member of its management team
+nor its Advisers, makes any assurances that any such licences
+or approvals will be obtained within a particular timeframe or at
+all. It is, therefore possible that some features of the proposed
+SCIChain may not be available in certain markets, or at all. this
+could require restructuring of particular aspects of the platform
+and/or may result in its unavailability in whole or in part.
+Views of the Company only
+the views and opinions expressed in this whitepaper are those
+of the Company and do not reflect the official policy or position
+of any government, quasi-government, authority or public
+body (including but not limited to any regulatory body of any
+jurisdiction) in any jurisdiction. Information contained in this
+whitepaper is based on sources considered reliable by us but
+there is no assurance as to their accuracy or completeness.
+PAge 60
+
+
+
+
+Corporate Governance
+Corporate Governance Principles
+the Company has adopted a set of six key principles to guide
+the behaviour of its management team. this will assist us
+in achieving our commercial objectives, those of SCI and in
+striving to comply with best practice at all times.
+Leadership
+the management team shall lead with the intent of meeting
+our commercial objectives and those of SCI in the short and
+the long term.
+Ethics, Honesty & Integrity
+the management team shall ensure that the business of the
+Company is conducted in an ethical, fair and transparent
+manner.  the management team shall act with honesty
+and integrity in their work and also in their personal lives.
+Capability
+the management team shall have an appropriate combination
+of knowledge, skills, qualifications and experience to enable
+them to discharge their duties and responsibilities effectively
+and to the highest standards.
+Sustainability
+the management team shall guide the business of the
+Company to create value and allocate it fairly and sustainably
+to ensure that adequate financial and non-financial resources
+are maintained.
+Accountability
+the management team shall be accountable and shall
+communicate to stakeholders at regular intervals, a fair and
+balanced assessment of how the Company is meeting its
+business commercial objectives and those of SCI.
+Reputation
+the management team shall ensure that they uphold and
+protect the interests of the communities in which SCI
+operates and safeguard the reputation and integrity of
+gibraltar and of the global blockchain community.
+PAge 61
+
+
+
+
+Internal corporate governance controls, policies & procedures
+the above key principles, serve as a good governance guide to
+the management team. In addition, the Company has a range
+of policies which assist it in adhering to the highest standards.
+these include:
+•                                                                   Corporate Governance Policy - this sets out how we
+implement internal controls to manage our business in
+accordance with high corporate governance standards.
+It includes board and other operating procedures which we
+will follow and clearly specifies the responsibilities of the
+board of Directors and also of each other member of the
+management team. Amongst other things, it specifies a
+reporting methodology (to the board of Directors),
+conflicts of interest policy and a whole series of other
+internal controls.
+•                                                                   Anti-Financial Crime Policy - this includes a methodology,
+in full compliance with gibraltar law (eu standard) to prevent
+money laundering, terrorist financing, bribery and corruption
+and to report suspicious transaction to the gibraltar
+authorities.
+•                                                                   Customer Due Diligence Measures Policy - this includes
+a methodology (to eu standards) to risk assess our clients
+including an approach for individuals and all types of
+legal entities.
+•                                                                   Risk Management Policy - this sets out a methodology
+for us to identify, assess, manage and mitigate the risks
+of our business.
+•                                                                   GDPR-compliant Data Protection Policy - We take data
+protection very seriously and have implemented a policy to
+handle customer data which complies with the eu general
+Data Protection Regulation which came into effect on
+25 may 2018.
+•                                                                   Policies on the protection of digital assets and
+ICT/Cybersecurity - We have thorough policies and
+procedures in this regard which we have developed
+with the assistance of specialised professionals.
+PAGE 62
+
+
+
+
+Acknowledgement
+I understand that tokens are not being offered in any jurisdiction
+or to any person where such offer is not permitted. nor are
+they being offered for the account or benefit of any such
+person. I further understand that the status of tokens under the
+securities, financial, and other laws of different jurisdictions may
+be uncertain and subject to change. I represent that I am
+not a uS citizen or resident of the united States of America
+(including any natural person resident in the united States,
+a uS citizen, green Card holder, or any other person or entity
+that would be considered a uS person, as defined under
+Regulation S under the uS Securities Act of 1933, as amended,
+and I am not purchasing the tokens for the account or benefit
+of any such uS person. the tokens have not been and will not
+be registered under and are not being offered and may not be
+offered or sold within the united States or to, or for the account
+or benefit of, any such uS person, except in a transaction
+exempt from the registration requirements of the Securities
+Act. I agree that I will not offer, sell, or deliver or enter into
+any hedging transactions regarding the tokens at any time or
+otherwise until one year after delivery of the tokens, within the
+united States or to, or for the account or benefit of, uS persons,
+unless exempt from registration and the purchaser agrees to be
+bound by similar restrictions.
+PAGE 63
+
+
+
+
+

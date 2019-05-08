@@ -1,0 +1,696 @@
+﻿WHITE PAPER
+JULY 2018
+
+
+
+
+2
+JINBI TOKEN
+INTRODUCTION
+The Jinbi Token (JNB) merges a traditional gold                                              within seconds. This is possible due to an existing
+investment holding with blockchain technology, giving                                        decentralized blockchain technology platform. Jinbi
+the token holder the best of both worlds. Everyone                                           has developed this concept further. The blockchain
+knows gold and its history as a store of value and                                           technology holds its primary advantages in securing
+purchasing power.                                                                            transactions anonymously, fast, safely, traceably and
+transparently.
+The Cryptocurrency market has adopted some
+of gold’s benefits with the creation of crypto
+currencies such as bitcoin, a digital coin that can
+easily be transferred between peers anonymously
+The time has come for the synthesis of both gold and crypto currencies in the Jinbi Token.
+This step is the next generation of both investments and we invite you to participate
+in this exciting new wave of crypto-assets.
+JINBI MEANS GOLD COIN IN MANDARIN.
+Jinbi  Token Characteristics
+º  Fully tradeable and transferable                                                          Jinbi is a clear, transparent and fully auditable
+                                                                                             peer to peer platform built on the blockchain. Jinbi
+º  Listed on a number of Cryptocurrency Exchanges
+                                                                                             Token holders will benefit directly and share in the
+º  Quarterly reported inner Gold Value i.e. a stable
+                                                                                             profitability from the production of Gold at source.
+and increasing Gold Floor
+                                                                                             Jinbi will create liquidity events following production
+º   150,000 ounces linked to a smart contract by 2019
+                                                                                             milestones whereby each coin holder will receive
+º  Creation of biannual liquidity events via Gold                                            a dividend payable in physical gold, ethereum or
+dividends.                                                                                   bitcoin. All other funds are reinvested back into Jinbi
+                                                                                             to continue further Gold production. Not only will
+º  Jinbi Tokens can be used to purchase monthly
+                                                                                             a coin holder benefit from biannual physical gold
+in-depth market commentary and analysis on
+                                                                                             dividends but also participate in the appreciation of
+all crypto and Gold developments.
+                                                                                             the underlying token, Jinbi backed by an audited and
+º  Secured Gold Storage paid for with tokens, secured
+                                                                                             increasing gold floor.
+within Jinbi accredited and associated
+vaults and discounted over time.
+º  Jinbi tokens are held in the most secure ethereum
+wallet, Pillar.
+
+
+
+
+3
+JINBI TOKEN
+TOKEN SMART CONTRACT
+º All fully audited Jinbi Gold Assets
+º Full 3rd Party Audit Documentation with Bureau Veritas***
+º Time and Date Creation
+º Serial Number including the brand of Gold
+º Storage Confirmation and Location
+º Amount of Gold in Troy Ounces
+All features will be permanently documented on a decentralized database
+using the Ethereum Platform via the Pillar Wallet.
+THE SIX KEY STAGES OF THE GOLD BACKED JINBI TOKEN:
+1
+Jinbi holds a legal
+off-take agreement with
+the mining partner for
+the production of gold
+2                                                                         3
+*The Gold is refined by
+GOLD PRODUCED
+Internationally recognised
+and leading precious
+metals refineries. All
+refined Gold is fully
+compliant.
+4                                                                         5                                                 6
+Gold stored securely                                                      Bureau Veritas**                                  Once approved and
+and insured                                                               performs role of                                  verified Jinbi Gold linked
+                                                                          independent                                       to Smart Contract
+                                                                          3rd party auditor                                 permanently on
+                                                                                                                            blockchain
+* http://www.kalotipm.com  Kaloti Precious                                ** http://www.bureauveritas.co.uk Bureau
+Metals is a global leader in integrated                                   Veritas S. A. is an international certification
+precious metals solutions.                                                agency.
+
+
+
+
+4
+JINBI TOKEN
+GOLD VALIDATION PARTICIPANTS
+Gold Refinery                                               Independent Auditor
+Produits Artistiques Metaux Precieux or PAMP, based in      Bureau Veritas Inspectorate will carry out quarterly
+Ticino, Switzerland, is the world’s leading bullion brand   audit inspections on the quantity and quality of Gold
+and one of the most trusted refiners and fabricators of     stored in our associate vaults to ensure proper and
+precious metals.                                            correct accounting is upheld. They are the premier
+                                                            independent precious metals inspector in this space
+Kaloti Refinery, based in Dubai, UAE, is situated within
+                                                            and have a well-deserved and long heritage dating
+the Free Trade Zone.  Kaloti have a strong track record
+back to 1828.
+in the gold refinery business and are ideally situated
+for any African produced gold.
+Storage Vault
+Jinbi has a series of partnerships with custodian
+vaults. This network will develop along with gold
+produced and culminate in secured facilities
+owned by Jinbi. All Jinbi gold will be held in these
+vaults, adequately insured and documented
+permanently on the blockchain once approved
+by the quarterly audit inspectors, Bureau Veritas.
+Annual Audit
+In keeping not only with good governance, but
+also with common sense, Jinbi will commission an
+independent annual audit from one of the five top
+tier accounting firms. The Jinbi Token Annual Audit
+will occur every January and be made public via our
+website at www.jinbitoken.io
+permanently on the decentralized blockchain,
+Multi Party Trust Mechanism
+Ethereum. All parties have been chosen specifically
+All parties are independent of one another with             because they are professional, established and for this
+specific roles within the chain of custody. Collusion       reason have an incentive to complete their contracted
+between parties is therefore eliminated within              tasks accurately and independently of one another.
+the strong governance and auditing directives.              No one provider will ever be responsible or tasked with
+This system culminates in proving asset quality,            providing more than one provision in the audit trail
+quantity, location and ownership that will be stored        process.
+
+
+
+
+5
+JINBI TOKEN
+GOLD VALIDATION PARTICIPANTS
+Gold Delivery
+º  The minimum weight for dividend Gold Delivery         º  Gold bars will be produced and made available in
+is 5 grams, with no maximum.                             various sizes from 5g to 12.5kg. Once allocated,
+                                                         gold can be delivered or stored.
+º  All our bars are certified 24 carat Gold with
+a fineness of 999.9 and are delivered brand new.         º  All gold will be individually segregated.
+º  Jinbi will adhere to The LBMA’s Good Delivery         º  Jinbi can upon request buy back the physical
+Rules which are considered the international             gold  in exchange for ethereum or bitcoin
+regulatory standard for gold delivery.                   at the agreed market price.
+Jinbi Token custody, vaulting                            Cryptography
+and insurance fees
+                                                         Jinbi uses industry-standard public-key cryptography
+º  All storage and insurance costs paid using Jinbi      tools and techniques. To authorise transactions
+tokens calculated via a smart contract                   the initiator must generate its hash, using SHA256
+                                                         algorithm, and sign it with a private key using ED 25519
+º  No maximum or minimum storage
+algorithm.
+º  Storage and insurance costs are at a subsidised
+rate and paid for using tokens
+º  All gold individually segregated and insured
+º  Longer term storage is incentivised by
+a 5pc discount year upon year
+Key Storage
+All keys are stored in a subsystem called “Key
+                                                         and a user’s password as the encryption key.  After
+Server”. A unique key identifier is generated before
+                                                         this preparation, the key identifier and encrypted
+adding any new key to the Key Server. We use a
+                                                         private key are uploaded to our Key Server.  Using
+Scrypt cryptography algorithm, an approach that
+                                                         this approach, the sensitive data from users is never
+is considered best practice in preventing hacking
+                                                         stored directly in our system, so even admins do
+attacks. A client-side combination of a password
+                                                         not have access to it.  To ensure that users’ keys
+and unique salt is used to prove and verify with
+                                                         are further secured, we use 2-factor authentication
+our server, that the requestor actually knows the
+                                                         by using Google’s Authenticator (MFA) to retrieve
+password without the need to send it to us. To encrypt
+                                                         encrypted keys from the storage.
+a user’s private key we use AES-256-GCM algorithm
+
+
+
+
+6
+JINBI TOKEN
+GOLD VALIDATION PARTICIPANTS
+KYC Encryption
+Jinbi secures all your KYC information at every step.       that your information is protected from unauthorised
+An encrypted format (using 128-bit AES encryption           access both in transit and when it’s stored. Only the
+algorithm) is always used at all stages of the data         owners of the data and a limited number of admins,
+management lifecycle. Elliptic curve asymmetric             who review KYC, have access to it. In addition Jinbi
+cryptography is used for authentication. This means         never provides encryption keys to any third parties.
+Pillar Project and 2030 Ltd
+Jinbi have partnered with the highly successful             Jinbi has also undertaken to be the first authorised
+ICO team of the Pillar Project (www.pillarproject.io)       Crypto asset to be listed on this white-list exchange.
+and 2030 ltd AG (www.2030.io) as consultants and
+                                                            The Jinbi token will have its own exclusive wallet using
+technological experts in blockchain structures, token
+                                                            Pillar’s unique and first to market platform that will
+transaction security and general ICO and post-ICO
+                                                            provide additional security and transparency to token
+process.
+                                                            holders.
+Mining partner
+Jinbi Token has a working relationship with                 certified by BRINKS Global.
+International Precious Metals Limited, “IPM”, and its
+                                                            Jinbi will have dedicated and full access to this
+associated network of refineries and vaults around the
+                                                            infrastructure 24hrs a day, 365 days a year for itself
+globe. IPM is directly involved in sourcing, mining and
+                                                            and all its clients. Furthermore, Jinbi will have direct
+smelting at origin and will be delivering its precious
+                                                            access to the technical and engineering expertise
+metals directly to its own refinery and vault.
+                                                            of the team to ensure future physical delivery of its
+IPM is also building, (65% built and operational before     requirements.
+end 2018), its own LBMA grade precious metals
+                                                            This will allow Jinbi to satisfy all its physical precious
+refinery in the Mediterranean and an international
+                                                            metals requirements in an efficient and direct manner.
+grade Bullion Vault and Depository. The aim is to
+                                                            Jinbi has an agreement in place with IPM that locks in
+achieve 5 bullion vaults globally, a total of 25,000 safe
+                                                            a minimum five-year Gold supply chain to produce
+deposit boxes and one high grade precious metals
+                                                            999.5 bars with the JINBI stamp incorporating our own
+refinery.  All will be insured by Lloyds of London, carry
+                                                            mint to be certified under the LBMA directives.
+independent SGS Certification and the vaults will be
+Offtake agreements
+Jinbi will enter into a number of mining offtake
+agreements. An offtake agreement is a contract
+between the gold miner and Jinbi, whereby we agree
+to purchase a pre-determined fraction of future
+production at a discounted price in exchange for
+finance. This broad structure is an industry standard
+which clarifies the obligations of the mining partner
+and the concessions we receive.
+
+
+
+
+7
+JINBI
+THE TEAM
+Jinbi takes great pride in its professionalism and    The Jinbi team, from the management to strategic
+the wide array of talents it has that form the team   partners and advisors, all contribute and form an
+in supporting what is sure to be a successful ICO     important role in the company’s current and future
+and beyond.                                           values and success.
+                                                      JOSEPH CRAWLEY
+ANDRE RAFNSSON
+                                                      Co-Founder
+Co-Founder
+                                                      Joe heads up the Gold Mining Operations
+Andre is responsible for Business Development
+                                                      and Corporate Strategy for Jinbi. Joe is an
+and Investor Relations at Jinbi, with over
+                                                      experienced manager in base and precious
+20 years management experience in the
+                                                      metals, trading, and mining and has been
+international pharmaceutical, medical device,
+                                                      involved within the commodities, mining and
+specialty chemicals, and recently the biotech
+                                                      finance sectors for over 10 years.
+sector. Since 2010, Andre has been working in
+                                                      He has previously managed mining projects
+private equity as an investor and director  in
+                                                      and JVs in Turkey and Ghana. Joe holds
+various life-science start-ups. He holds an
+                                                      a degree in International Business and Politics
+equity stake as well as supervisory board
+                                                      from the University of Liverpool.
+positions in those companies. Andre has for
+the past 10 years been a personal investor
+in physical Gold & Silver.
+STUART HAY
+VITOR PY                                              Operations Manager
+Senior Cryptographer
+                                                      Stuart takes up the role of Operations
+                                                      Manager at Jinbi. He has held commodities
+Vitor, a Senior Cryptographer and Software
+                                                      operations positions for Goldman Sachs,
+Developer, has led cross functional teams
+                                                      Valero Energy Corporation and SEM Group
+as diverse as aerospace, energy and law
+                                                      over the last 10 years. Stuart brings with
+enforcement. Former founder of SIM, a Brazilian
+                                                      him a wealth of technical and operational
+computational materials science start-
+                                                      commodities experience and has strong
+up.  Vitor is helping us with all the back-end
+                                                      interests in Blockchain technology and
+systems and programming to support our
+                                                      Cryptocurrencies. Stuart graduated in Law
+projects.
+from the University of Gloucester and holds
+an MBA in Business Administration from the
+University of Wales.
+
+
+
+
+8
+JINBI
+THE TEAM
+HENRY COURTNEY
+ARNOLD YANOVICH                                     Head of Investor Relations
+ICO Manager
+                                                    Henry is experienced in commodities
+                                                    sales and trading with over a decade
+Arnold is a team leader with public and private
+                                                    being involved with Investment banks
+sector business development experience
+                                                    and brokerages within the city of London.
+across financial services, media and energy
+                                                    Over this time Henry has also developed
+sectors. Arnold is working on the Jinbi ICO and
+                                                    a unique understanding of corporate
+helping to organize our successful launch.
+                                                    strategy within the commodity and crypto
+Arnold is also an ICO manager for 2030.
+                                                    sector. Henry is a member of the Chartered
+                                                    Institute for Securities and Investments and
+                                                    has held a CF30 Level 4 license.
+RALPH REIJS
+Cyber Security
+THAIS SANTOS
+Ralph is a Cyber Security Expert and an early
+Website Development
+bitcoin miner, acting as ICO Security Advisor
+for the blockchain Pillar Project.  He was          Thaís is a Brazil-born web designer who
+developer and consultant for Rabobank, Shell,       has lived in many European locations. She
+HP, CSC and 2E2 Consulting.  He also worked         enjoys communicating in different languages
+as a solution Architect for Roche in Switzerland,   and uses her skills to produce creative
+Lead Designer and Engineer for Cloudlynx AG         user experience solutions and high quality,
+and Senior Consultant for Ligicalis SMC.  He        professional graphic material. Thaís is also
+is Author, Designer and Developer of Ingress        skilled in coding languages and can convey
+Bootcamp and was Lead iOS Consultant of             her ideas clearly to all team members involved
+AppCodex.                                           in a project.
+
+
+
+
+9
+JINBI
+ADVISORS
+JOHN VAKIS
+John trades precious metals and specializes in all aspects of gold processing.  He is a stakeholder
+in mines in Africa, South America, Armenia and Mongolia and has been involved in mining and
+trading gold since 1999.  He has worked for and still advises a number of commodities houses,
+international and central banks.  He is now focused on developing physical infrastructure to
+integrate downstream and upstream operations.  John’s history includes degrees in Economics
+from UCL, London, LIFFE trader, Fund Manager and futures and options trader.  He is licensed by the
+USA Commodity Futures Trading Commission and the National Futures Association.
+NIGEL WYATT
+Graduating from the industry leading Cambourne School of Mines, Nigel has direct and vast
+experience on the ground in total resource evaluation for a variety of metals including copper,
+nickel, cobalt, gold, platinum and silver. As a leading consulting source in the industry, Nigel has
+worked with and advised the likes of Anglo American, RTZ, De Beers and more recently Chromex and
+Goldplat.  Nigel is an invaluable engineer and has a resource network second to none.  Nigel is able
+to use his experience and knowledge of over 45 years in the industry to make correct assessments
+regarding quality of resource, accessibility and recoverability rates.  His qualifications include CEng,
+MIMMM, ACSM.
+TINA FOTHERBY
+Tina Fotherby is the founder and MD of the UK-based PR agency, Famous Publicity Ltd.  The agency
+has vast experience supporting international brands and global businesses.  The agency also has
+considerable expertise in supporting companies undertaking ICOs and crowdfunding initiatives.
+TOMER SOFINZON
+Tomer Sofinzon has spent over 15 years between the US, Europe and Israel focusing on technology
+entrepreneurship and investments.  Tomer founded eight companies, some of which were
+successfully acquired or made IPOs.  Most recently he founded ClearCi, a company focused on
+delivering Enterprise Intelligence solutions, which was recently successfully acquired.  He has worked
+extensively in venture capital with a focus on strategic partnerships and has made multiple angel
+investments. Tomer has co-founded Twenty Thirty AG with David Siegel and serves as its CRO. Tomer
+has an undergraduate degree from UC Berkeley and also graduated Summa Cum Laude from
+Babson College in Wellesley, MA where he was a Babson Scholar.
+
+
+
+
+10
+JINBI
+ADVISORS
+MIKE CARTIER
+Mike is a commodity and financial markets professional with career assignments in Chicago,
+London, Paris and Zug spanning over 35 years.  As a 10-year Swiss resident, he has been osmotically
+exposed to blockchain technology and crypto assets while the COO of a Zug based commodity
+fund.  Mike’s hands on experience in commodity asset management injects a salient reality and
+common sense approach to the Jinbi team.
+LARS BOLLERUP
+Principally trained as a lawyer, Lars is an expert in advising across a wide array of specialisms
+notably in the Tech, Biotech and IT space. Having advised many clients on investing in the emerging
+markets, Lars has subsequently lived and worked in Ghana for the past 15 years. He holds a Law
+degree from the University of Copenhagen. Lars’ expertise lies within Agriculture Biotech, Mining , IT
+Technology and Real Estate.
+ROB GASKELL
+Rob has held Director positions of award-winning financial-services and multi-family-office
+businesses. He has over 13 years as a Director and 25 years’ experience in technology, operations,
+software, security, and M&A. Rob has a Fintech Qualification from MIT and strong interests in
+Blockchain, Cryptocurrencies, and Artificial Intelligence. He has an undergraduate degree in
+Engineering with Management from King’s College London and a Leadership Development
+certificate from Cambridge Judge Business School.
+ANDRA NICOLAU
+Andra has spent the last 7 years between Silicon Valley and Europe working as a digital strategist
+and systems designer. She has a degree from the University of California Berkeley in Economics
+and has started three companies in the commodities industry. For the past 3 years, she has been
+working closely with startups in the US and Europe helping them scale through innovative pricing
+strategies, systems & product design, strategic partnerships & management consulting.
+
+
+
+
+11
+JINBI TOKEN
+TOKEN ROAD MAP
+SEPTEMBER                          OCTOBER                      NOVEMBER                        DECEMBER
+2017                               2017                         2017                            2017
+º  Jinbi Token Founded             º  White paper preparation   º  Platform development         º  Token structure platform
+º  PLC Management                  º  ICO preparation           º  White paper V.2 completed    º  PR firm chosen
+º  Legal advice on
+º  ICO decision made               º  Team formation            º  Back office formation
+                                                                                                token structure
+                                                                º  Internet site v.1 launched
+                                                                                                º  Mining partner agreements
+                                                                                                review and revisions
+JANUARY                            FEBRUARY                     MARCH                           APRIL
+2018                               2018                         2018                            2018
+º  ICO schedule announced          º Token Structure Revised    º Pre ICO cash offer launched   º Presale date announced:
+                                                                                                Monday June 18th, 2018
+º  Promotional plan developed      º White Paper updated        º PR activities initiated
+º  Additional off take LOI         º Website Prepared           º Daily PR ICO activities       º Automated AML and KYC
+agreements in place                                             in motion
+                                                                                                º Jinbi community news
+                                                                º KYC documentation in place
+                                                                                                º PR push continues
+MAY                                JUNE                         JULY                            AUGUST
+2018                               2018                         2018                            2018
+º Office location decision in      ºPre-ICO Sale Monday         º Jinbi office launch           º 15 percent bonus
+London and IT Review               June 18th, 2018                                              available
+                                                                º Mining audit and
+                                   ºMain ICO Sale
+º PR Push Continues                Thursday June 28th, 2018     production update
+                                                                º Gold Fund execution
+SEPTEMBER                          OCTOBER                      NOVEMBER                        DECEMBER
+2018                               2018                         2018                            2018
+º 10percent                        º Jinbi office launch        º Mining production             º Investment and token
+bonus available                                                 quarterly audit                 holders letter issued
+                                   º Mining audit and           and review
+                                   production update                                            º Mining production
+                                                                º General meeting               review
+                                   º Gold Fund execution        In Jinbi Token
+º Year end board meeting
+º First investment                 held in Jinbi Token
+report issued
+º ICO closes 31st December
+Q1
+2019
+º Gold (Jinbi Token holder gold)
+shipped and stored in Dubai
+and Switzerland
+º General meeting
+in Jinbi Token
+º Exchange Listing
+º ERC-20 Jinbi Tokens sent to
+investors
+
+
+
+
+12
+JINBI TOKEN
+TOKEN
+Token ICO (JNB)
+Jinbi has embarked on a blockchain crowdfunding ICO
+(Initial Coin Offering) to be launched and completed in Q2
+2018, with an aim to raise 88,000,000.00 USD in a 28 day ICO
+offer period by launching a crypto token named Jinbi on the
+Ethereum blockchain.
+Bonus on ICO
+During the Pre-ICO and ICO sales, additional bonus Jinbi tokens will be distributed to participants.
+The bonus means that extra tokens will be added on top of the deposit amount. For example, if Mr
+Smith buys 10 JNB Tokens for $70.40 during the first week of the ICO, he will receive an additional
+15% bonus. He will therefore receive 11.5 JNB Tokens, valued at $80.96 in total. Alternatively, if Ms Smith
+buys 10 JNB Tokens during week three she will receive 10.5 JNB Tokens. From the start of
+the ICO there will be a set amount of bonus tokens awarded each week.
+Coin Token Price = $7.04
+Pre ICO = 20% =bonus
+ICO Main Sale:
+July                                                                                                          = 20% bonus
+August                                                                                                        = 15% Bonus
+September                                                                                                     = 10% Bonus
+The minimum raise for presale and sale combined is set at $8million, set ahead of the
+sale and priced in ether (ETH). The cap will be 12.5 million tokens.
+Maximum Jinbi Token (JNB) Minted 12.5M
+Total Valuation:                                                                                              $60,000,000
+                                                                                                                            Jinbi ICO
+                                                                                                                            70%
+Total tokens issued:                                                                                          12,500,000                Marketing
+                                                                                                                                        5%
+Management Tokens:                                                                                            2,500,000
+Available to Investor:                                                                                        10,000,000
+                                                                                                                                        Jinbi Team
+Pre-Sale ICO offer:                                                                                           1,250,000                 15%
+JINBI ICO Price:                                                                                              $7.04
+Minimum ICO offer:                                                                                            8,750,000
+Pre ICO
+10%
+Jinbi will follow the ICO tradition of launching a pre-ICO cash offer to the closest network
+of sophisticated investors a minimum of one month before the official ICO
+
+
+
+
+13
+JINBI TOKEN
+TOKEN
+Presale
+The presale will take place using a smart contract and                                          Buyers will receive ERC20 tokens at the conclusion of
+an ether address that will be sent with instructions by                                         the sale.
+email. The presale is limited to 1.25 million tokens.
+                                                                                                All unsold tokens from both the presale and the sale
+The ICO token sale will offer 8,750,000 tokens to the                                           will immediately go on ice for two years using a smart
+public. They will be sold using a smart contract until all                                      contract. After two years, they may be sold, re-iced,
+tokens have been sold, or 60 hours, whichever comes                                             or burned according to our token-management
+first. The price will be set in ether (ETH).                                                    directives, which will evolve along with the system.
+We forecast that in 2025, Jinbi will have an inner gold value of more than USD 997  per Coin.
+Minimum subscription amount equivalent to 0.1 ether - ETH (approximately 50 USD)
+Inner gold value
+Jinbi expects to have production of 150,000 oz of gold                                          improvements. So in 2019, the underlying value of the
+underpinning the Jinbi Coin in 2019, 305,000 oz of gold                                         smart contract Jinbi Gold Token will be 202.5 million
+in 2020, 575,00 oz of gold in 2021 and 1.15 million oz of                                       USD (against ICO raise of USD 88 million), in 2020
+gold in 2022. The Jinbi Gold hard floor will be reported                                        USD 411.75 million, in 2021 USD 776.25 million and in
+in line with our audit directives and specifically                                              2022 USD 1.15 billion - in the following years it will be
+designed multi party trust mechanism. Jinbi will make                                           exponentially more as production and number of
+use of various off-take agreements and Green Mining                                             mining partners increase.
+Technology (GMT), against finance and production
+Base Case Gold at 1,350 USD per ounce
+The forecasted inner Gold value of Jinbi at per coin will be:
+2019 USD 16.20
+2020 USD 32.94
+2021 USD    62.10
+2022 USD 121.50
+2025 USD 997.92
+
+
+
+
+14
+JINBI TOKEN
+TOKEN
+A critical structural characteristic of the Jinbi Token      This hybrid functionality allows for a rising token price
+is the re-introduction of fresh gold into the token          with upside volatility, i.e. the volatility that you want. For
+ecosystem. This is done to provide an ever-rising lower      example, with a reported and audited inner gold value
+boundary for the token value in the secondary market.        of 150,000 ounces in Q4 2019 with a forecasted gold
+Arbitrage traders would rationally buy Jinbi and sell        price of 1,350 USD per ounce the Jinbi token should not
+gold should the token price fall below the inner gold        trade below 16.20 per token. Rational market makers
+value providing a floor price for the token. The value       will buy any dip below this hard gold floor as the inner
+of a gold equity can be considered the sum of all its        reported gold value is greater than the underlying
+future cash flows, but a Jinbi token is rationally the sum   price.
+of its future cash flows PLUS the inner gold value.
+Gold at 2,000 USD per ounce
+The forecasted inner Gold value of Jinbi per coin will be:
+2019                                                         USD 24.00
+2020                                                         USD 44.80
+2021                                                         USD 92.00
+2022                                                         USD 180.00
+2025                                                         USD 1,478.40
+Liquidity Events
+A gold dividend will be paid after the 100,000 ounces
+are refined and tokenized. The first payout is expected
+at the end of Q1 2019 and will be proportionally
+distributed to all Jinbi Token holders. Thereafter,
+at six monthly intervals further pro-rata payouts
+will be made per 100,000 ounces produced.
+The gold dividend can be collected from Jinbi
+approved distribution outlets worldwide within
+7 days of notice being given or sent directly to your
+nominated address. Jinbi can also sell the gold
+dividend for you at the official gold price on the
+notice day, and transfer to your nominated wallet
+address.
+
+
+
+
+15
+JINBI TOKEN
+FAQS
+WHAT ARE JINBI TOKENS?
+Jinbi tokens are our new ERC20 tokens that will be connected to physical gold, stored under each
+investor’s profile.
+HOW DO I USE JINBI TOKENS?
+Jinbi Tokens, which you will receive via a smart contract, are your documentation in invested
+physical gold holdings. Additionally, Jinbi Token holders are eligible to receive quarterly precious
+metals and crypto currency investment reports. To receive the investment reports, one must have
+invested a minimum of 1 ether ( in value ) during the ICO.
+HOW DO I BUY JINBI TOKENS?
+Jinbi tokens will be available from our website during our presale and ICO. Once the ICO has
+completed, Jinbi tokens will be available to purchase on selected exchanges. Jinbi Management
+will inform investors of which exchanges will be selected for Jinbi Token trading.
+CAN I SELL MY JINBI TOKENS?
+Once the ICO fundraising is complete, Jinbi tokens can be sold through selected exchanges.
+HOW WILL MY DIVIDENDS BE RETURNED?
+Liquidity events generated by hitting production targets from Jinbi gold mining exploration will be
+distributed bi-annually. Investors can choose payment in Physical Gold or Jinbi (JNB) Tokens.
+IS THE JINBI TOKEN PLATFORM SECURE?
+Jinbi Token customer data is completely secure, and your information is held confidentially. We
+use a standard ERC20 token on the Ethereum network, which uses military grade cryptography to
+address security concerns.
+HOW WILL I RECEIVE UPDATES ON MY JINBI TOKEN INVESTMENT?
+Updates and relevant news will be regularly posted to the Jinbi social media channels. Personal
+communications regarding your holdings will be sent securely to your nominated email address.
+
+
+
+
+16
+JINBI TOKEN
+FAQS
+DO GEOGRAPHICAL RESTRICTIONS APPLY TO THE JINBI TOKEN ICO?
+Citizens of the United States of America, China and Canada are unable to invest in this ICO.
+WHAT PERSONAL INFORMATION IS REQUIRED FOR SIGN UP?
+To register your participation in the ICO, you will be required to provide your full name and address
+and may be asked to submit scanned copies of proof of identity. This will be managed as part of our
+online validation process, which we will provide assistance for.
+JINBI Token mission statement
+The Jinbi Token will provide both the precious metals                                                   The Jinbi Token provides the investor an innovative
+investor market and crypto currency enthusiast with                                                     and accountable structure using a blockchain smart
+an advanced value preservation solution. Our mission                                                    contract and is expected to generate substantial
+is to offer a blockchain based smart contract service,                                                  capital appreciation whilst maintaining an attractive
+with the aim of delivering the most sophisticated, safe                                                 risk profile.
+and stable instrument for physical gold investments
+and storage.
+
+
+
+
+17
+JINBI
+DISCLAIMER (I)
+PLEASE READ THIS DISCLAIMER SECTION CAREFULLY. CONSULT LEGAL AND FINANCIAL EXPERTS FOR FURTHER GUIDANCE. In case
+you invest via the website using US, Canadian or Chinese IP, your actions are considered to be illegal and are prohibited by
+the legislation of your country. This is not applicable to certified investors.
+The following information may be incomplete and in no way implies a contractual relationship. Jinbi Token makes every
+effort to ensure all information in this white paper is accurate and up to date however, in no way constitutes professional
+investment advice. Jinbi Token neither guarantees or accepts responsibility for the accuracy, reliability, current or
+completeness of this document. Individuals intending to invest should seek independent professional advice prior to
+acting on any of the information contained in this white paper. Citizens, residents (tax or otherwise) and green card
+holders of the United States of America or other U.S. Person are exempt from buying Jinbi Tokens. The term U.S Person
+refers to anyone who lives in the United States or any entity that is incorporated under United States law.
+DISCLAIMER (II)
+The document is being issued by Jinbi Token (the “company”) and is being provided for informational purposes
+only. No information set out or referred to in this document shall form the basis of any contract. These pages and
+presentation Pages & Slides (the “Pages & Slides”) do not constitute an offer or invitation to purchase or subscribe for
+any securities of the Company and should not be relied on in connection with a decision to purchase or subscribe for
+any such securities. The Pages & Slides and the accompanying verbal presentation do not constitute a recommendation
+regarding any decision to sell or purchase securities in the Company. The Pages & Slides and the accompanying verbal
+presentation are confidential and the Pages & Slides are being supplied to you solely for your information and may not
+be reproduced or distributed to any other person or published, in whole or in part, for any purpose. No reliance may be
+placed for any purpose whatsoever on the information contained in the Pages & Slides and the accompanying verbal
+presentation or the completeness or accuracy of such information. No representation or warranty, express or implied,
+is given by or on behalf of the Company or its respective shareholders, directors, officers or employees or any other
+person as to the accuracy or completeness of the information or opinions contained in the Pages & Slides and the
+accompanying verbal presentation, and no liability is accepted for any such information or opinions (including in the
+case of negligence, but excluding any liability for fraud). All opinions and estimates contained in the Pages & Slides and
+the accompanying verbal presentation are subject to change without notice and are provided in good faith but without
+legal responsibility. The Pages & Slides and the accompanying verbal presentation contain forward-looking statements,
+which relate, inter alia, to the Company’s proposed strategy, plans and objectives. Such forward- looking statements
+involve known and unknown risks, uncertainties and other important factors beyond the control of the Company that
+could cause the actual performance or achievements of the Company to be materially different from such forward-
+looking statements. Accordingly, you should not rely on any forward-looking statements and the Company accepts
+no obligation to disseminate any updates or revisions to such forward-looking statements. Any individual who is in any
+doubt about the investment to which the Pages & Slides relates should consult an authorised person specialising in
+advising on investments of the kind referred to in the Pages & Slides. Any investment, investment activity or controlled
+activity to which the Pages & Slides relate is available only to Relevant Persons and will be engaged in only with Relevant
+Persons. Persons of any other description, including those that do not have professional experience in matters relating
+to investments, should not rely or act upon the Pages & Slides. The Pages & Slides should not be distributed, published,
+reproduced or otherwise made available in whole or in part by recipients to any other person. The Pages & Slides and
+their contents are confidential and should not unless otherwise agreed in writing by the Company be copied, distributed,
+published or reproduced (in whole or in part) or disclosed by recipients to any other person. The transaction and financial
+matters referred to in these Pages & Slides may not be suitable for every investor and any offering may be restricted to
+those investors that meet certain criteria imposed by applicable law or regulation. Transactions of the type described
+herein may involve a high degree of risk and the value of such investments may be highly volatile. Such risks may include
+without limitation risk of adverse or unanticipated market developments, risk of issuers default and risk of liquidity. In
+certain transactions counter-parties may lose their entire investment or incur an unlimited loss. This brief statement
+does not purport to identify or suggest all the risks (directly or indirectly) and other significant aspects in connection with
+transactions of the type described herein, and counter-parties should ensure that they fully understand the terms of the
+transaction, including the relevant risk factors and any legal, tax, regulatory or accounting considerations applicable
+to them, prior to transacting. Each recipient of the Pages & Slides is strongly urged to consult with its accounting, legal
+and tax advisers before entering into any transaction. Jinbi Token expressly disclaims any advisory, fiduciary or similar
+relationship with the recipient.
+
+
+
+
+

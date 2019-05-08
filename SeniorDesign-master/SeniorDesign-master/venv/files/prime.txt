@@ -1,0 +1,1120 @@
+﻿Content
+17
+1. Abstract                    3    Prime Crypto Bank
+                                    - Obtaining SWIFT Membership            17
+                                    - Debit & Credit Card Issuing License   18
+2. Introduction                4
+Shipping Advantages            5    Prime Freight Platform
+                                                                            18
+Market opportunity             5    Prime Investment Fund                   19
+How it works now               8
+                                    6. The PRIME token                      21
+3. Problem                     9    Token distribution                      21
+What should we change?         9    Volume of token sale                    22
+                                    - Private sale                          23
+How does Prime Shipping        11
+Foundation help?                    - PreTGE sale                           23
+                                    - TGE sale                              23
+How will Prime Shipping        12
+Foundation do it?                   - Distribution of funds                 24
+                                    - Target goals                          25
+Advantages of PSF’s
+                               13
+ecosystem
+                                    7. Prime Shipping Fix Coin              26
+4. Our vision                  14
+                                    8. Strategy                             27
+Transparency & tracking        14
+Instant conversion & payment   14
+                                    9. Financial model                      28
+Smart-contract security        15
+                                    10. Roadmap                             30
+5. Technology &
+                               16
+implementation                      11. Team
+                                                                            32
+Prime Payment System           16   Core company group
+                                                                            37
+Prime Exchange
+                               17   Partners                                38
+                                    Contacts                                40
+
+
+
+
+ABSTRACT
+Abstract
+Introducing Prime Shipping Foundation (PSF) — the world’s first payment ecosystem
+for shipping, residing 100% in the Blockchain. An online payment system, crypto
+bank and exchange for business customers, small and big corporations, partici-
+pating in the marine shipping market.
+PSF aims to simplify and make transparent any payments between all the shipping
+market participants. PSF has developed the PRIME token - the key to rapid and low
+costed transactions for freight payment and bunkering services.
+By utilising the PSF’s ecosystem, freight market participants such as shipowners,
+charterers, freight operators, brokers, agents and bunker suppliers can increase the
+efficiency of their operations while simultaneously cutting operating expenditures by
+substantial margins.
+The PRIME token solves the problems of the shipping industry, revolutionising the
+way the world moves goods. This document describes PSF’s ecosystem and the PRIME
+token which have been developed to form a transparent, fast and cheap sea freight
+market, ultimately making the cheaper price of goods for consumers.
+Prime Shipping Foundation started with the idea that a technology-driven B2B
+payment processing can provide payments for the shipping industry with significantly less
+overhead. All our products are based on the cloud and store relevant data in block-
+chain. For end-customers, we provide an online service with interface via
+modern web & mobile apps. Designed not for tech geeks, but for average users, for
+businessmen.
+3
+
+
+
+
+INTRODUCTION
+Introduction
+Sea transport has stood the test of time. As society has replaced horse-drawn carts
+and caravans with road and air transport system, ocean vessels packed with cargo still
+plow 75% of our planet.
+But exactly how relevant is shipping today?
+Consider the volume:
+•                                                                                              62% of the world’s freight turnover uses sea transportation.
+•                                                                                              90% of the world’s maritime transport is engaged in international transportation.
+Global economic importance:
+•   Maritime transport has no viable alternative for transcontinental transport.
+Maritime Transportation provides a staggering 98% of Japan and the United
+Kingdom’s foreign trade, and more than 90% of the United States’ foreign trade.
+•   For many countries, such as Australia, New Zealand, Indonesia and Japan,
+maritime transport has been and will remain the main thread connecting them to
+the outside world.
+•   Large-scale delivery of cargo to some areas is only possible by sea — for example,
+the Arctic Regions of Russia, such as Chukotka or Kamchatka for example.
+•   More than a half of the world’s countries have access to sea ports.
+And the most important thing is that maritime shipping is the real lifeblood of world trade:
+modern era transport services about 80% of international trade (UNCTAD 2018).
+4
+
+
+
+
+INTRODUCTION
+Shipping Advantages
+High load capacity                                                                         Lower cost than other                                                   High security
+usage of containers
+modes of transport
+Single legal field                                                                         Practical absence of                                                    Unified standards
+restrictions on cargo
+dimensions / capacity
+Market opportunity
+Market volume overview:
+•                                                                                          80% of world trade is carried by the international shipping industry.
+•   There are over 50,000 merchant ships trading internationally, transporting every
+kind of cargo. The world fleet is registered in over 150 nations, and manned by
+over a million seafarers of virtually every nationality. (ICS)
+•   Dead-weight capacity of the world commercial fleet was 1.86 billion dead-weight
+tons (dwt) in early 2017, worth $829 billion.
+•   Total volumes reached 10.3 billion tons, reflecting the addition of over 260 million
+tons of cargo, about half of which was attributed to tanker trade.
+UNCTAD market review.
+A massive consolidation is underway in the global industry and the survivors enjoy big
+economies of scale and increased demand.
+5
+
+
+
+
+INTRODUCTION
+The global market is massive and expanding, but in desperate need of modernisation.
+Ancient business practices are causing industry players to be extremely inefficient,
+resulting in a black hole of wasted resources, time, and most importantly money.
+In a world driven by customers expectation of 2 day delivery, customers are continually
+expecting lower prices and faster shipments coupled with flexibility and a transparent
+transaction process. This is impossible for shippers to achieve with the archaic
+model of tracking, booking and compliance that relies on long-hand ledgers,
+enormous digital archives and in many cases a full time paid staff.
+Estimates from KPMG’s 2014 Global Manufacturing Outlook reveal that limited visibility
+across the supply chain remains a growing concern:
+•                                                                                               40% of global manufacturers say they lack information and material visibility
+across their supply base.
+•                                                                                               38% say they lack critical details on supplier performance, and 36% lack adequate
+supply chain IT systems.
+Supply chain transparency & visibility remain a key challenge
+40%                                                                                             36%
+admit they lack visibility                                                                      said it was due to
+across their extended                                                                           inadequate IT systems
+supply chain
+According to half of respondents, the biggest obstacle to achieving more visibility is a lack
+of mature technology, followed by lack of governance (19%) and lack of strategy (14%).
+KPMG outlook report.
+6
+
+
+
+
+INTRODUCTION
+Owners increasingly experience delays in payment processing and issues accessing
+the capital required meet their growth strategy targets. Sometimes such delays are
+systemic and can lead to a substantial decrease of the efficiency of asset and capital
+utilization.
+Some market participants report that delays of crediting USD denominated
+payments for either goods, freight or services can be as long as 14 days or even
+longer. This situation is especially exposing businesses residing in or working with
+countries with high central bank refinancing rates and respective cost of funds.
+The ocean market is fragile, driven to overcapacity and pressured rates, according to.
+•   Shippers are  more and more focusing on streamlining their supply chains end to
+end, looking at reliability, predictability, speed to market, SKU-level visibility,
+guaranteed delivery windows, net working capital optimization and CO2 footprint.
+•   Carriers need to provide reliable allocations, and high-quality visibility to ensure
+your supply chain won’t be at risk in case of disruptive events
+•   Clients want variable booking options and service windows, which let businesses
+designate which shipments are highest priority and which ones can be allowed to
+roll, better tailoring their supply chain to their business needs.
+Supply Chain Dive outlook report.
+According to the World Economic Forum, reducing the friction around informa-
+tion-sharing and border administration for international trade could increase GDP by
+nearly 5% and trade by 15% — a boost that amounts to trillions of dollars. Addition-
+ally, reducing supply chain barriers to trade could increase GDP up to six times more
+than removing tariffs. They have been under managed by both countries and com-
+panies. By providing a single view of all transactions taking place among a complex
+network of parties, PSF can help eliminate considerable resource waste.
+Over the long-term we see that Prime Shipping’s world view of the supply chain can
+be leveraged by third parties to continue to enhance the value of our service while
+improving adoption by all participants in the shipping industry.
+7
+
+
+
+
+INTRODUCTION
+How it works now
+Shipping freight can be done by air, sea, rail or truck transportation. Whatever the
+mode of transportation used, there are multiple entities that will interact with the
+freight, and several steps taken before the shipment arrives:
+SHIPPERS — are the customers that have the cargo and want to transport it.
+They want easy logistics, accountability for their freight and a predictable price.
+BROKERS —  are the “facilitators” of the freight deal.
+They facilitate the freight deal, coordinate with parties involved, and provide minimal
+tracking services. They get paid by the shippers and often ask a high mark-up fee
+(middle-man).
+CARRIERS — own the freight transport service (air, sea, truck, etc).
+This portion of the supply chain often requires multiple legs with different carriers.
+Records are transferred many times between each carrier and in some cases
+transcribed, leading to inconsistent information throughout the supply chain. This
+leads to a lack of transparency which is rare in the industry, because the freight
+changes hands many times.
+8
+
+
+
+
+PROBLEM
+Problem
+While the shipping industry has proven to be a pioneer of longevity, it has struggled
+to adapt to the rapidly advancing modern world. Among participants of the industry,
+there is a running joke: “The most powerful invention to improve this area of logistics
+was the telegraph.”
+However, all good jokes contain some truth. The reality is that nothing fundamentally
+new in technology has been properly introduced to the sea transportation business
+since “e-mail”.
+Today Prime Shipping Foundation —
+is ready to be the catalyst for change.
+What should we change?
+At the heart of the PSF is a single task:
+simplifying and making transparent any
+payments between any participants in
+the maritime market.
+9
+
+
+
+
+PROBLEM
+All the payments between partners involved in the provision of continuous marine
+logistics operations have several glaring weaknesses:
+1. Transfers of funds between participants in the supply chain may not reach the
+addressee, and thus be returned to the sender.
+Real- Life SWIFT
+Message Example
+79:  Narrative
+REGARDING  PAYMENT  TRANSACTION
+GDH9002963590472  OUR  REFERENCE  S0672851529601
+PAYMENT  VIA  VALUE  DATE  OCT  12,  2017  FOR  DEBIT
+AMOUNT  32,000.00/USD  CREDIT  AMOUNT  31,988.00/USD
+PLEASE  BE  ADVISE  THAT  REMITTER  REQUEST  FOR
+RECALL  OF  FUNDS  WE  REQUEST  YOU  TO  TREAT  OUR
+MT103  NULL  AND  VOID
+CHARTERER                                                                               OWNER
+Charterer’s                                                                             Owner’s
+Bank                                                                                    Bank
+Correspondent                                                                           Correspondent
+Bank                                                                                    Bank
+2. The delay in crediting funds to beneficiaries’ accounts, even under the most
+favourable conditions, up to 20 days, maybe even more. This, with the time value
+of money, can accrue significant additional or unwarranted costs to beneficiaries.
+3. In case of untimely crediting of funds, idle time of assets brings great losses to
+all parties involved in the transaction.
+10
+
+
+
+
+PROBLEM
+4. The complexity of transferring money between different jurisdictions of
+partner companies. As an example not all countries participate in the signing of the
+OECD protocol, and as a result the de-fiscalization process has made calculations
+between the banks of beneficiaries extremely high.
+Real-Life Bank
+Dear  Client,                                                                            Message Example
+Unfortunately,  the  USD  payments  cannot  be
+executed  to  the  indicated  beneficiary  bank.
+Kind  regards
+5. Multilateral conversions of various currencies lead to significant losses of
+working capital. Every exchange from one currency to another results in at least
+0.5% loss (sometimes up to 2%), if currency is exchanged multiple times, the costs
+mount up very quickly.
+6. The cost of a single transaction through partner banks can reach several hun-
+dred dollars. This, coupled with a large number of transactions, significantly affects
+the margins of companies. And as a result — the total cost of service.
+How does Prime Shipping
+Foundation help?
+The tasks that Prime undertakes are both transparent as well as challenging:
+Eliminating difficulties with the
+speed and reliability of remittances.                                                    1.
+Removing unnecessary intermediaries
+2.
+in making payments.
+Making the system for receiving and
+3.
+sending funds transparent through the
+use of blockchain technology.
+11
+
+
+
+
+PROBLEM
+Blockchain is a cryptographic technique to tie freely created blocks of data in a timely
+sequence that everyone can verify and trust. Blockchain (or Distributed Ledger Technol-
+ogy) is the best concept to build a consensus protocol in a decentralised real-time trans-
+action network where scalability and data propagation time is an issue. With in-depth
+cryptographically proofed, the blockchain becomes the center of trust for every organi-
+sation.
+The principles of the operation of blockchain technology are often referred to as “revo-
+lutionary” because of the implications it can provide to digital systems, especially in rela-
+tion to the shipping industry. The most notorious and stagnant business process can be
+effectively replaced with the work of blockchain specialists, resulting in a system that is
+a thousand times more practical and refined. Imagine replacing a cart drawn by horses
+with a super high-speed train.
+Blockchain will be able to digitise the processes of registry record-keeping for trade
+operations and cargoes, and indefinitely improve the area of mutual settlements. PSF
+is poised to implement all of this through the use of Smart-Contracts as the basis for a
+new level of confidence in trade operations, and a new speed of settlements.
+This will bring a single source of truth to the shipping industry, where one unified re-
+cord can be trusted by all participants to provide an accurate account for each step in
+the shipping of goods.
+How will Prime Shipping Foundation do it?
+PSF will use special niche cryptocurrency — PRIME token, specifically designed for
+the shipping industry and will manage the issuer of the currency, the development of
+the technology, and the distribution of the funds raised during the Token Generation
+Event (TGE). The PSF Advisory Board will include representatives made up of key
+industry players.
+So, we can definitively say that the future of the shipping industry is here.
+PSF is forming a more transparent, faster and cheaper sea freight market. We are not
+only intending to raise the entire industry to a totally new level, while also making the
+price of goods cheaper for the final consumer. It’s a win-win deal.
+12
+
+
+
+
+PROBLEM
+Advantages of PSF’s ecosystem
+Instant conversion of tokens with the USD/EUR and other currencies to simplify
+the calculations between beneficiaries and in operational objectives within the
+companies themselves.
+Blockchain technology allows you to track the entire chain of origin and
+passage of money, which greatly facilitates the process compliance.
+Smart-Contract usage in the conclusion of transactions garants a high level
+of security.
+Instant payments, regardless of the jurisdiction of the company participating
+in the transaction.
+First online crypto-bank tailored for marine shipping business.
+Intuitive online/mobile banking client.
+1
+
+
+
+
+OUR VISION
+Our vision
+PSF’s ecosystem is a revolution in the shipping industry
+with simplifying transactions between market participants
+“
+and solving the number of weaknesses of marine logistic,
+payments and legal operations.
+Ivan Vikulov
+CHIEF EXECUTIVE OFFICER OF PSF
+Transparency & tracking
+9000T OF CORN
+Blockchain technology will allow users to effortlessly track the
+entire supply chain movement from start to finish, including the
+DESTINATION: JAPAN
+passing of money. This will greatly facilitate the Compliance
+process by publicly validating the recording of all transactions on
+the blockchain. Information will be encrypted and only available
+to participating parties. Miscommunication and shipping/receiving
+delays will become a thing of the past — giving shippers and
+carriers a unified model of improving communication and visibility.
+Instant conversion & payment
+PRIME token will lead to a change in the fundamental factors of the
+industry’s cost of services. Payments are made instantly, regardless
+of the jurisdiction of the company or participant of the transaction.
+Instant conversion of PRIME tokens with the US Dollar and other
+currencies will facilitate the calculation both between beneficiaries
+and operational objectives within the companies themselves.
+14
+
+
+
+
+OUR VISION
+Smart-contract security
+All negotiation will be conducted using Smart-Contract technology,
+ensuring a high-level of safety and transparency. Carriers can
+negotiate freely with shippers based on personalised needs to
+find the best fit for the job. Contracts will be generated where
+payments are held in escrow until the release conditions are met,
+all the while being monitored through the blockchain. By this
+standard, assets and report logs can be electronically verified,
+decreasing theft and increasing product visibility for all parties.
+A truly trustless digital participation system is defined, and
+conflicting accounts and false reports are eliminated. Because
+of this inbuilt security, third parties such as insurance companies
+can provide new and refined insurance products directly tied to
+this newly visible information.
+1
+
+
+
+
+TECHNOLOGY & IMPLEMENTATION
+Technology &
+implementation
+PSF provides software solutions which will implement new standards for the marine
+transportation market. Once the testing moves to implementation stage, PSF will seek
+to deploy their services across many shipping companies establishing a floating trade
+ecosystem supported by the PRIME token.
+Prime Payment System
+The PSF’s ecosystem is based on the blockchain payment system Prime Payment —
+a next-generation processing service for instantly settling instant transactions. Prime
+Payment service uses PRIME token as a main currency of all operations. Find more
+information about the token in PRIME token.
+It will be realised with the application of wallet functions and “bank-client” to recharge,
+storage, fulfillment and tracking operations on business-accounts. It is also planned
+in the later stages of the exchanger will be added to the application and the ability to
+bind a fiat card.
+Transferring funds with Prime Payment is convenient and fast, requiring only the
+authorised public address of the recipient’s wallet. The service will be accessed
+through a web-version, and iOS/Android applications. Making a payment does not
+require any special knowledge of blockchain or any cryptocurrency. The entire infra-
+structure will be stored in the cloud and put all relevant data in blockchain.
+This solution will provide the ability to transfer payment anywhere in the world within
+seconds and will become the new standard for payment transactions in the sea
+freight market, with a fixed commission of $1 per transfer (the commission will
+become close to 0 as the technology becomes widely accepted).
+16
+
+
+
+
+TECHNOLOGY & IMPLEMENTATION
+Prime Exchange
+Prime Exchange will be developed for the exchange of USD, EUR, BTC, ETH into PRIME
+and back and other popular currency/cryptocurrency pairs. Anyone placing funds on
+the exchange can place orders with a required exchange rate, which will be filled by
+other users or the system itself. Received PRIME tokens will be automatically
+displayed on your wallet in the Prime Payment system without fees.
+Later, margin trading functionality will be introduced at the exchange (trading using
+leverage). This will attract a large number of traders and gradually reduce the central
+part exchange. The SaaS-model will also be used as the technical implementation of
+the exchange.
+Prime Crypto Bank
+Prime Crypto Bank will be free to open accounts for entrepreneurs using the PRIME
+token. The bank will also work with the EUR/USD, so organisations can conduct
+business using the fiat settlements (settlement and cash services) within one bank.
+For the withdrawals the PSF will issue its own plastic card and support cash & payroll
+processing. The card will have on the balance of PRIME tokens, with which will be
+automatically converted into EUR/USD at the time of purchase or withdrawal.
+The Prime Crypto Bank will also:
+Obtaining SWIFT Membership
+SWIFT stands for Society for Worldwide Interbank Financial Telecommunication, which
+is a member owned cooperative, which is used by over 9,000 banking institutions,
+securities institutions and corporate customers, from 209 countries, for their stand-
+ardised financial messages sending. The SWIFT system basically acts as a communica-
+tions gateway that connects banks and other financial institutions to each other, and
+allows an easy form of interbank communication.
+17
+
+
+
+
+TECHNOLOGY & IMPLEMENTATION
+SWIFT membership is a vital tool for banks that wish to work with other banks from
+around the world. SWIFT membership is required to specialise in payment processing,
+wire transfer services and trade management.
+Debit & Credit Card Issuing License
+Debit and credit cards are vital tools for banks that are looking to specialize in deposit
+taking and lending, and debit and credit card services. Having a card issuing license
+allows the issue of branded debit and credit cards of major card issuer (Visa, Master-
+Card, Amex). With a card issuing license Prime Crypto Bank can issue own debit and
+credit cards.
+Being licensed with debit and credit card issuing license, Prime Crypto Bank will be
+connected to the processing systems of the major card issuers as a card issuer, so
+that when acquiring banks process payments from these cards, they will be able to
+connect to the account information in the Prime Crypto Bank to clear the payment.
+Prime Freight Platform
+The Prime Freight Platform will provide a matching engine to pair “cargo and carrier”
+and the mechanism of smart contracts for processing escrow in a distributed registry.
+Each smart contract will store the characteristics of the transaction: the number of
+PRIME tokens, destination address, origin address, type of cargo, tonnage, date of
+delivery. This will allow a shipper to complete transactions safely without the risk of
+shipping delays.
+Goods can be transported and the available freight will be searchable. Cargo owners
+will be able to find and bid via an auction format on the exact type of cargo they can
+transport and their location vs. the origin port of dispatch. This will allow the carrier to
+optimize their fleet and the shipper to seek out the best combination of  transporta-
+tion time and cost via the inbuilt auction process.
+18
+
+
+
+
+TECHNOLOGY & IMPLEMENTATION
+SMART CONTRACT
+Number of PRIME tokens;
+Destination address;
+MATCHING                                                                                     Origin address;
+ACCEPTING
+ENGINE                                                                                       Type of cargo;
+Tonnage;
+Date of delivery.
+(Figure 1. Prime Freight Platform)
+The system will collect and analyze public information by placing AIS data (Automatic
+Identification System in the shipping industry, serving for the identification of vessels,
+their size, rate and other data via VHF radio waves) for commercial data on transac-
+tions, thus predicting a full business cycle and prompting carriers the most favorable
+potential contracts. On the basis of this data, brokers will be able to choose the most
+appropriate carriers.
+Prime Investment Fund
+For investors interested in a passive income with minimal risk, and for storing raised
+during TGE fiat funds it is planned to create an automated hedge fund.
+Trading robots designed for Liquidity Management will work with key cryptocurrency
+pairs, taking profit in USD/EUR. This wil ensure the conservation of the fund’s assets and
+stimulation Crypto-Economy. Technically, the trade will be carried out both through its
+own Prime Exchange, as well as through large, and the safest Crypto Exchanges with
+a dedicated API (application programming interface). For client access to the deposit
+fund and an analysis of financial metrics will be available through a single web-version
+or a mobile app.
+19
+
+
+
+
+Whole PSF ecosystem:
+PRIME
+Prime   Exchange
+Any Other Crypto
+Exchange
+PRIME
+PRIME
+ETH
+ETH
+BTC
+BTC
+Prime Payment
+Prime Crypto Bank
+PRIME
+ETH BTC                USD
+USD EUR                EUR
+USD
+Prime                  EUR
+Investment
+Fund
+20
+
+
+
+
+THE PRIME TOKEN
+The PRIME token
+The PRIME token uses Ethereum ERC 20 protocol. PRIME token will be used as the
+primary and the only currency for payment via Prime Payment system. The system
+will use the Ethereum network.
+Prime Freight Platform will implement smart contracts and storage of transaction
+history through our own fork of the Ethereum Blockchain.
+Prime Crypto Bank will provide accounts for PRIME token to all interested organisa-
+tions. As the main users of the PRIME token - legal entities conducting activities in the
+field of shipping, they need the bank to carry out lawful operations. Prime Investment
+Fund will ensure the safety of funds from investors in TGE and store assets in PRIME
+tokens.
+The total volume of emitted tokens will be correspond to a 100% share in the Prime
+Shipping Foundation group.
+Token distribution
+In total, during preTGE/TGE maximum 6 000 000 000 PRIME tokens will be issued.
+No further token emissions will be possible. A maximum of 150 000 000 USD will be
+raised through this fundraising.
+•                                                                                           51% of total emitted tokens will be holded by founders team (maximum 3 060 000
+PRIMEs)
+•                                                                                           35% of total emitted tokens will be sold (maximum 2 100 000 000 PRIMEs)
+•                                                                                           11,5% of total emitted tokens (maximum 690 000 000 PRIMEs) will be transferred
+to the PSF Reserve Fund.
+•                                                                                           2,5% of total emitted tokens (maximum 150 000 000 PRIMEs) will go to the advi-
+sors, participants of Bounty programs and promotion agents.
+21
+
+
+
+
+THE PRIME TOKEN
+total maximum emission
+6,000,000,000 PRIME
+3,060,000,000 PRIME
+Tokens for owners
+2,100,000,000 PRIME
+Tokens for public sale
+690,000,000 PRIME
+Reserve fund
+150,000,000 PRIME
+Advisors, community, referrals
+Volume of token sale
+2,100,000,000 PRIME maximum will be sold at preTGE/TGE. Any unsold tokens will be avail-
+able for purchase after the completion of TGE through smart-contracts at $1 per 1 PRIME
+until the full distribution of all 2,100,000,000 PRIME; No further tokens will ever be emitted.
+                                                                                                  TOKENS VOLUME                             PRIME/   FUNDING
+                                                                                                                        SALE VOLUME (USD)
+                                                                                                  (PRIME)                                   USD      RECEIVED
+Round 0 (pre-TGE)                                                                                 245,000,000 PRIME     12,250,000 USD      $0.050   $12,500,000
+Round 1                                                                                           240,000,000 PRIME     13,200,000 USD      $0.055   $25,450,000
+Round 2                                                                                           240,000,000 PRIME     14,400,000 USD      $0.060   $39,850,000
+Round 3                                                                                           230,000,000 PRIME     14,950,000 USD      $0.065   $54,800,000
+Round 4                                                                                           225,000,000 PRIME     15,750,000 USD      $0.070   $70,550,000
+Round 5                                                                                           185,000,000 PRIME     13,875,000 USD      $0.075   $84,425,000
+Round 6                                                                                           170,000,000 PRIME     13,600,000 USD      $0.080   $98,025,000
+Round 7                                                                                           160,000,000 PRIME     13,600,000 USD      $0.085   $111,625,000
+Round 8                                                                                           145,000,000 PRIME     13,050,000 USD      $0.090   $124,675,000
+Round 9                                                                                           135,000,000 PRIME     12,825,000 USD      $0.095   $137,500,000
+Round 10                                                                                          125,000,000 PRIME     12,500,000 USD      $0.100   $150,000,000
+Max for
+955,000,000 PRIME                                                                                 $54,800,000.00
+private sale
+Total for sale                                                                                    2,100,000,000 PRIME   $150,000,000.00
+22
+
+
+
+
+THE PRIME TOKEN
+Private sale
+Private sale will be completed upon reaching the limit of 955 mln. tokens. At the
+time of private token sale any eligible person may purchase PRIME at starting price
+of $0.05 (50% off nominal) per PRIME depends of volume of sold tokens. Purchase
+through wire transfer ETH or BTC minimum in a volume equal $10,000. If you want to
+participate at private sale contact privatesale@primeshipping.io .
+preTGE sale
+During the preTGE stage 245,000,000 PRIME will be sold. Price will depend of volume
+of sold tokens. Soft cap — $1 250 000, hard cap — $12 250 000.  Minimum investment
+amount — 5 ETH or the equivalent in USD/EUR at the market exchange rate.
+PreTGE tokens (ticker: PRIME), purchased during the preTGE phase will be exchanged
+1:1 into the final ticker used during the TGE stage and thereafter.
+TGE sale
+The preTGE is then followed by 10 rounds of public auction at the main TGE phase,
+with the price of Token gradually raising to $0.1, which is the price at which tokens
+will be placed at crypto exchange. Soft cap — $15 000 000, hard cap — $ 150 000 000.
+There are no minimal limits as to the investment amount at this stage.
+23
+
+
+
+
+THE PRIME TOKEN
+Distribution of funds
+Having attracted funding from the TGE, funds will be distributed in the following way:
+30%                                                                                      Company products development
+Reserve fund of fiat funds to keep exchange
+25%
+capacity
+(But no less than $20 000 000) Securing the
+20%
+bank license and deposit
+15%                                                                                      Marketing promotion
+10%                                                                                      For team
+Since Prime Shipping Foundation is a non-commercial organization, any surpluses
+earned at operations will be reinvested in the development:
+30%                                                                                      Company product development
+10%                                                                                      Marketing and promotion
+Reserve fund of fiat currency to
+30%
+support conversion liquidity
+Investment fund to maintain crypto
+30%
+economy and innovative shipping projects
+24
+
+
+
+
+THE PRIME TOKEN
+Target goals
+HARD CAP
+$ 150 000 000
+•   Opening additional sales offices in CHINA, TURKEY,
+SOUTH AFRICA, KSA, DUBAI.
+•   Opening operating office in Zug.
+•   Hiring additional development department.
+•   Launching Prime Investment Fund, Prime Crypto
+Bank, Prime Freight Platform, Prime Exchange,
+Prime Payment System.
+•   Release of Stable Prime Coin.
+$ 100 000 000
+•   Opening additional sales offices in CHINA, TURKEY,
+SOUTH AFRICA, KSA, DUBAI.
+•   Opening operating office in Zug.
+•   Hiring additional development department.
+•   Launching Prime Investment Fund, Prime Crypto
+Bank, Prime Freight Platform, Prime Exchange,
+Prime Payment System.
+•   Release of Stable Prime Coin.
+$ 65 000 000
+•   Opening additional sales offices in TURKEY, SOUTH
+AFRICA, KSA, DUBAI.
+•   Opening operating office in Zug.
+•   Hiring additional development department.
+•   Launching Prime Investment Fund, Prime Crypto
+Bank, Prime Freight Platform, Prime Exchange, Prime
+Payment System.
+•   Release of Stable Prime Coin.
+$ 50 000 000
+•   Opening additional sales offices in SOUTH AFRICA,
+KSA, DUBAI.
+•   Opening operating office in Zug.
+•   Hiring additional development department.
+•   Launching Prime Freight Platform, Prime Exchange,
+Prime Crypto Bank, Prime Payment System.
+•   Release of Stable Prime Coin.
+SOFT CAP
+$ 20 000 000                                                                                              $ 35 000 000
+$ 15 000 000
+                                                         •   Opening additional sales offices in DUBAI.   •   Opening additional sales offices in KSA, DUBAI.
+•   Opening operating office in Zug.                     •   Hiring additional development department.    •   Hiring additional development department.
+•   Launching Prime Payment System.                      •   Opening operating office in Zug.             •   Opening operating office in Zug.
+•   Release of Stable Prime Coin.                        •   Launching Prime Crypto Bank, Prime           •   Launching Prime Exchange, Prime Crypto Bank, Prime
+                                                         Payment System.                                  Payment System.
+                                                         •   Release of Stable Prime Coin.                •   Release of Stable Prime Coin.
+25
+
+
+
+
+PRIME SHIPPING FIX COIN
+Prime Shipping Fix Coin
+(stable token PSF coin)
+The emission of stable token — Prime Shipping Fix coin (PSF coin) is an important
+step in the development of the PSF ecosystem. All PSF coins to be output will be
+supported by the US dollar, acting as a stable currency for digital exchange in the
+PSF ecosystem.
+Any company, passed the standard KYC / AML procedure can open a settlement
+account with Prime Crypto Bank and will be able to buy PSF coin with USD (the rate
+is: 1 USD = 1 PSF).
+Prime Crypto Bank will open a separate account, called   a “Guarantee Account”, to
+keep all USD funds from sales of emitted PSF coin. This account is subject to a neces-
+sary monthly professional audit.
+The results of the audit will be published openly. Any time, any holder of PSF coins
+can exchange stable coins from the bank at the rate of 1 PSF = 1 USD. The PSF coins
+received by the bank will be sold to a next buyer, so the turnover of PSF coins
+in world trade will always be equal to the amount of USD on the Guarantee
+Account in Prime Crypto Bank. That is the way to support the stability of the token
+exchange rate.
+PSF coins are also intended for payments between participants of sea freight traffic,
+and will be used to encourage holders of PRIME tokens.
+PRIME token holders can expect to receive a certain amount of PSF coin, depending
+on the number of PRIME tokens are held by them and the operational activity of
+commercial companies in the Prime Shipping Foundation (Prime Payment, Prime
+Exchange, Prime Crypto Bank). At the same time, the volume of PSF coin in the market
+will be equal to the number of USD in the Guarantee Account of Prime Crypto Bank.
+26
+
+
+
+
+STRATEGY
+Strategy
+An essential task of the PSF project is
+1) Facilitating liquidity inflow into the cryptocurrencies through the integration of
+real economy businesses, focused on marine shipping industry.
+2) Developing a decentralised, self-sufficient ecosystem to facilitate immediate
+payments and conversions between cryptocurrency and fiat.
+Enjoying extensive experience and a flawless reputation in the real economy, PSF
+values complete transparency in it`s investor relations. Understanding the global
+scope and the importance of the concept for the future integration of Blockchain
+technology and cryptocurrencies into the real economy, the team is working with
+top auditing organisations to oversee the TGE event scheduled for end of 2018.
+Audited reports on the progress made throughout the main TGE will be published in
+the investor relations section of the website on a regular basis.
+Throughout the course of the creation of the ecosystem, the PSF will partner with
+commercial banks to create the liquidity, necessary to allow efficient movement of
+the value between the crypto-economy and the real economy. The added liquidity is
+a key for further integration of the use of cryptocurrencies into real world business.
+As the PSF network grows, every new participant will exponentially add to the value
+of the PSF’s ecosystem. PSF already has agreements with several shipping compa-
+nies to deploy using the Prime Payment system.
+27
+
+
+
+
+FINANCIAL MODEL
+Financial model
+Non-commercial organisations — Prime Freight Platform, Prime Shipping Foundation.
+Commercial ones — Prime Payment, Prime Exchange, Prime Crypto Bank, Prime
+Invest Fund.
+Commercial units will donate a fixed percentage of their profit to PSF for development
+and achievement of strategic goals.
+Prime Payment is a payment processing service for settling instant transactions with
+a fixed commission of less than $1 per B2B transactions and flexible commission for a
+withdraw.
+Prime Freight Platform will connect the cargo owners, ship owners and freight bro-
+kers, cutting cost for transportation by 1-5%. Platform will operate on a 1.25% success
+fee. Currently the matching of suitable cargos and vessels is mostly done manually
+through brokers or direct communication, which is time-consuming, inefficient and
+non-transparent.
+Prime Crypto Bank forms an imperative and integral part of the PSF’s ecosystem by
+ensuring that enough liquidity is present to facilitate instant business transactions.
+The Bank acts as an interface between the fiat currencies and the Prime Exchange.
+In the long-term, the Prime Crypto Bank would make use of interbank funding to
+facilitate transactions, drastically decreasing the costs and increasing the pace. As the
+Prime Crypto Bank will be established as a commercial entity, the sources of income
+would include, but are not limited to:
+1) trade finance
+2) affordable conversion margins between fiat and PRIME Tokens
+3) fiat banking operations
+4) short-term/mid-term operative loans
+5) documentary collections
+28
+
+
+
+
+FINANCIAL MODEL
+6) Letters of Credit (both classical and smart-contracts)
+The main clients of Prime Crypto Bank will be companies, because a “B to B” Crypto
+Bank is the very thing business sphere needs.  Individuals will have an opportunity to
+participate with deposits beginning from 250.000 EUR or equal in fiat or cryptocurrency .
+Prime Exchange allows the ecosystem to operate within the universal scope of all
+available cryptocurrencies. This does not only create additional liquidity for the PRIME
+Token and the PSF’s ecosystem overall, and with the Prime Crypto Bank acts as an
+interface between the real economy and the crypto world. This interface allows easier
+integration of the Blockchain Technology into business. The exchange is a commercial
+module and will cover its running costs through affordable transaction fees.
+29
+
+
+
+
+ROADMAP
+Roadmap
+Q1 - Q2 2016
+Establishment of core freight
+related processes.
+Q3-Q4 2016
+Concept development of ship pairing
+system to act as agent for freight.
+Establishment of internationally
+acting freight brokerage company.
+Q1-Q2 2017
+Establishment of an automatic vessel
+tracking system based on AIS.
+Q3-Q4 2017
+Core concept development, prephase of
+PSF. First Cryptocurrency Freight Deal
+Takes Russian Wheat to Turkey.
+Q1-Q2 2018
+preTGE smart contract development, white
+paper and white list. Launch of private sale.
+Start of product development.
+30
+
+
+
+
+ROADMAP
+15.09.2018
+Start of preTGE.
+01.10.2018
+End of preTGE.
+15.11.2018
+Start of main TGE.
+01.12.2018
+End of main TGE.
+Q1-Q3 2019
+Closed beta of Prime Payment
+system. Opening а Prime Investment
+Fund. Setting up a new office in Zug
+for a Fund and Crypto Bank. Filling
+Prime Payment System with 100 of
+verified B2B users. Opening an addi-
+tional development department for
+covering needs of Prime Exchange
+and Prime Crypto Bank.
+Q3 2019 - Q3 2020
+Working on Prime Crypto Bank. Opening a
+sales office in Hong Kong and Dubai.
+Release of stable token. Starting depart-
+ment for a Prime Freight Platform.
+Closed beta of crypto exchange.
+Q4 2020 - Q3 2021
+Public beta of Prime Exchange and
+Prime Freight Platform. Stable
+release of Prime payment. Up to 500
+of verified B2B users. Opening sales
+offices in US, KSA and South Africa.
+Additional 3000 users from foreign
+offices.
+31
+
+
+
+
+TEAM
+Team
+Ivan V. Vikulov
+CHIEF EXECUTIVE OFFICER, GERMANY
+LinkedIn profile
+Master of Business Administration in Global Management.
+Expert in the global raw material markets, leader in food industry, crisis man-
+ager. Executive partner of Quorum Capital Ltd, Gibraltar. Over 15 years of
+experience in international and transnational companies. Integrator of innova-
+tions in classical business models.
+Brian Heinen
+DIRECTOR OF COMMUNICATIONS, SPAIN
+LinkedIn profile
+Connector, advocate, ambassador and strategy director of organizational and
+business platforms. For over 15 years, Brian has collaborated with an extensive
+network of multinational influencers, suppliers, and professional resources in
+Blockchain, Crypto, Bitcoin, ICOs, Banking, Procurement/ Supply Chain, Food
+Farm-to-fork value chain, Open Innovation, Retail, Tech, Gaming, and Enter-
+tainment - helping brands and organizations implement business community
+development. Brian was the Executive Producer of the Bitcoin Foundation´s
+Bitcoin14 Conference.
+32
+
+
+
+
+TEAM
+Jean-Jacques Elong
+FINTECH DIRECTOR, SWITZERLAND
+LinkedIn profile
+J-Jacques has over 10 years experience in the banking industry and over 8
+years experience in the FINTECH industry from mobile wallet products and
+product development, acquiring services, prepaid card programs and
+decentralise banking services. J-Jacques has spent the last 7 years as Founder
+of a Swiss FINTECH company, SMARTLINK SA, that he started from scratch,
+obtained a License from the FINMA (Swiss Financial Market Supervisory Au-
+thority) to conduct mobile payment and mobile money transfer services, he
+successfully raised $1.1 million as seed investment then secure a serie A in-
+vestment of $25 million. Today his former start-up company, SMARTLINK, has
+more than +100 employees and +30 white label Mobile Wallets used by finan -
+cial institutions worldwide, which cover the basic concept of creating a secure
+leather wallet metaphor on mobile devices, with multiple accounts, issuing
+cards, NFC transactions and more.
+Tim Panchenko
+THE HEAD OF BUSINESS DEVELOPMENT AND BUSINESS
+COMMUNICATIONS DEPARTMENT, LUXEMBOURG
+LinkedIn profile
+Leading specialist in development of Kohlbecker Architecture   of urban and
+business environment (Germany).The head of Southern Russia Paul Wurth
+branch (Luxembourg). Founder of the Foreign Business Department in the RSS
+Construction (Turkey) . An early crypto evangelist, one of the first to carry out
+transactions for the implementation of residential construction for crypto
+currency. More than 15 years in the business-management and processing.
+Jon Matonis
+HEAD OF ADVISORY BOARD, LITHUANIA
+LinkedIn profile
+Founding Director of the Bitcoin Foundation and his career has included senior
+influential posts at VISA International, VeriSign, Sumitomo Bank, and Hushmail.
+33
+
+
+
+
+TEAM
+An economist and e-Money researcher focused on expanding the circulation of
+nonpolitical digital currencies, Jon also serves as an independent board direc-
+tor to companies in the Bitcoin, the Blockchain, mobile payments, and gaming
+sectors. Jon has been a featured guest on CNN, Bloomberg, NPR, Al Jazeera,
+RT, Virgin Radio, and numerous podcasts. As a prominent fintech columnist
+with Forbes Magazine, American Banker, and CoinDesk, he recently joined the
+editorial board for the cryptocurrency journal Ledger. His early work on digital
+cash systems and financial cryptography has been published by Dow Jones and
+the London School of Economics.
+Jon advocates worldwide for Bitcoin and its disruptive economic implications to
+a wide variety of audiences, including members of the Federal Reserve, Bank of
+England, ECB, SWIFT, IRS, DOJ, retail payment networks, major financial insti -
+tutions, financial regulatory bodies, mobile money issuers, iGaming operators,
+information security firms, hedge funds, gold investors, and family offices.
+Phillip Nunn
+TGE ADVISOR, UNITED KINGDOM
+LinkedIn profile
+Entrepreneur, CEO and international speaker on Blockchain, Cryptocurrency and
+fintech. Phillip Nunn founded The Blackmore Group in 2013. Today it’s grown
+into a business with substantial assets under management and a suite of invest-
+ment products across multiple classes for individuals and institutions in the UK
+and overseas.
+With more than 15 years’ experience in financial services, Phillip specialises in
+wealth management, angel investment, commercial property investment and
+financial technology. He founded The Blackmore Group on the core belief of
+giving clients real and tangible alternatives to poor investment performance
+and providing “future proof” investment strategies.
+Phillip has become a well-known, online influencer in the blockchain and crypto
+space and has travelled the world evangelising and talking on these subjects.
+Phillip has sat on the advisory boards of many ICO’s over the past 12 months
+and has helped structure and fund some of the biggest companies of the future.
+Along with his business Wealth Chain, Phillip will be launching his own crypto
+fund that looks to invest in ICO’s along with existing blockchain technology com-
+panies.
+34
+
+
+
+
+TEAM
+Trofim Zhugastrov
+CHIEF PRODUCT OFFICER, RUSSIA
+LinkedIn profile
+Master of Computer Science. Over 10 years of experience in making soft-
+ware for fintech, big data, AI. Founder, general director of Elonsoft (deveping
+software for kronologic.ai, twotap.com, George Mason University, Internet
+Initiatives Development Fund (IIDF) pre-accelerator) , product director in Sofin,
+IIDF tracker, former deputy director of the Southern IT-park (OJSC «Regional
+Development Corporation »), IT61 — IT Community founder.
+Alex Zavarskiy
+СHIEF OPERATING OFFICER, RUSSIA
+LinkedIn profile
+Since 2003, Managing Director of Ocean Inc, Ocean City, MD, Fleet Manager
+at Gals LLC, founder and managing partner of ABM Chartering, founder and
+managing partner of Interchart LLC, a high-level expert in fleet management
+and organization of accounting and controlling within the structure of international
+maritime shipping. 15 years of experience in the field of freight transport.
+Edwin Carlson
+TGE ADVISOR, USA
+LinkedIn profile
+COO of the London Football Exchange a global fan-driven football (soccer)
+blockchain based community. He has been involved in blockchain technology
+companies since 2013. Edwin has over 20 years’ experience in financial services,
+including FinTech and Blockchain technology, and teaches the “Blockchain and
+Business” course to industry executives around the world.
+He has consulted on FinTech strategy for Bank of America, JPMorganChase,
+HSBC and Royal & Sun Alliance. He holds a BSc (Hons) in Computer Studies
+from the University of South Wales.
+35
+
+
+
+
+TEAM
+Malak Al Akiley
+MIDDLE EAST ADVISOR, HASHEMITE KINGDOM OF JORDAN
+LinkedIn profile
+Malak Al Akiley is Founder and CEO of Golden Wheat for Grain Trading, Ltd., one
+of the main suppliers of grains to the Government of Jordan & Private Sector.
+She is co-Partner in Golden Kayan for Marketing Consultation Co. for Oil &
+Energy. Business Consultant in NearEast Group for Energy, Renewable Energy &
+Waste Management. Has been selected in 2017 as a Young Global Leader (YGL)
+by the World Economic Forum which is to recognize the most distinguished
+leaders under the age of 40, the selection recognizes the record of professional
+accomplishments, commitment to society, and potential to contribute to shap-
+ing the future of the world through leadership.
+Alex Gogunsky
+SHIPPING ADVISOR, UKRAINE
+LinkedIn profile
+Alex Gogunsky, Senior Chartering Manager, Aquavita International, S.A. Began
+career as a computer specialist, but always loved the sea, decided to merge
+both favourite activities. Started as a ship agent, passed through all the steps
+heading to chartering. Presently Senior Chartering Manager at Aquavita Inter-
+national S.A.— handy and supramax desks within all the basins.
+36
+
+
+
+
+CORE COMPANY GROUP
+Core company group
+QUORUM CAPITAL LTD, GIBRALTAR
+International Commodity Trading company enjoying a
+high level of reputation and integrity within the cash
+commodity market. The venture was founded in 2017
+with its turnover in value of the goods in Q3-Q4 2017
+already exceeding 180 Million USD.
+INTERCHART LLC
+An internationally recognized freight operator founded
+by a team of professionals with over 15 years of experi-
+ence in shipping and supply-chain management. An-
+nual physically moved tonnage exceeds 500.000 Metric
+Tons.
+37
+
+
+
+
+PARTNERS
+Partners
+NEW AGE CONSULTANCY CORPORATION
+is consulting clients on operations, strategy and legal
+aspects of international transactions and contracts.
+Their clients range from local exporters to transnation-
+al cooperations active in the global commodity trade.
+DELTRADE LLC
+is an exporter of agricultural products out of the Black
+Sea region. Investments into the supply chain repre-
+sent an important part of archieving sustainable opera-
+tions on such a competitive market. Deltrade operates
+their own fleet of trucks used for procurement of the
+goods.
+ELONSOFT LLC
+is software development company focused on web
+and blockchain solutions. Specialised in Ruby on Rails,
+Phoenix, AngularJS, React and Ethereum. Works with
+customers from USA, Europe, Australia. Production
+based in Russia.
+38
+
+
+
+
+PARTNERS
+GALS LTD
+was founded in 2006 as company providing agency &
+brokering services. Relying on the vast experience of
+our staff and long lasting cooperation with major play-
+ers of chartering market. “GALS” Agency department
+represents the interests both: ship owners and charter-
+ers in the ports of Rostov, Azov and Taganrog. “GALS”
+also performs customs transit formalities of ships/
+cargoes sailing to the Caspian Sea or through the inner
+waterways of Russian Federation.   Chartering depart-
+ment concentrate on dry-bulk cargoes from the ports
+of the Azov, Black, Marmara, Mediterranean and Caspi-
+an seas as well as river ports of Volga and Do
+39
+
+
+
+
+Our contacts
+info@primeshipping.io
+https://primeshipping.io
+t.me/psf_channel
+
+
+
+
+

@@ -1,0 +1,258 @@
+﻿Viacoin Whitepaper
+Viacoin Dev Team
+September 12, 2017
+Last updated on March 17, 2018
+Abstract
+Viacoin  is  an  open  source  crypto-currency  created  in                               2014,  derived  from  the
+[bitcoin2008]Bitcoin protocol that supports embedded consensus with an extended
+OP_RETURN of 120 byte. Viacoin features Scrypt Merged mining, also called Auxiliary
+proof of work or AuxPoW, and 25x faster transactions than Bitcoin. Viacoin mining
+reward halving takes place every 6 months and has a total supply of 23,176,392.41459
+coins. The inflation rate of Viacoin is low due to minimal mining reward.
+As the block reward of Viacoin is low, miners are given incentive to mine Viacoin
+through Merged mining (AuxPoW). Viacoin is currently mined by one of the biggest
+mining pools  (F2Pool) with a very high hashrate. Other features include a mining
+difficulty adjustment algorithm to address flaws in Kimoto’s Gravity Well (DarkGravity-
+Wave), Versionbits to allow for 29 simultaneous Soft Fork changes to be implemented
+at a time, Segwit and the Lightning Network
+small Note: The whitepaper, documentation, designs are in research and development
+phase and subject to change.
+Viacoin.org - September 2017                                                              1
+
+
+
+
+Viacoin Whitepaper
+1. Scrypt
+In cryptography, [scrypt]Scrypt is a password based key derivation function created by
+Colin Percival. The algorithm was designed to make it costly to perform large-scale
+custom hardware attacks by requiring large amounts of memory. In 2012, the algo-
+rithm was published by the IETF as an internet draft intended to become an informa-
+tional RFC, but a version of Scrypt is now used as a proof of work scheme by cryptocur-
+rencies like Viacoin.
+Scrypt is a memory hard key derivation function, it requires a reasonably large amount
+of Random Ac-cess Memory to be evaluated. This makes implementation in special
+purpose custom hardware  (ASICs) require more VLSI area, which would make it
+unprofitable to build for the purpose of mining Viacoins. The requirement of Scrypt
+algorithm is a large array of pseudo random bits to be held in memory and a key that is
+derived from this. The algorithm is based on TMTO (Time-Memory Tradeoff). ASIC
+advantage in Viacoin is reduced by a factor of 10 compared to Bitcoin.
+Scrypt uses the following parameters to generate a derived key:
+- Passphrase: String of characters to hash
+- Salt: Random string provided to Scrypt functions
+- N: Memory/CPU cost parameter
+- P: Parallelization parameter
+- R: Blocksize parameter
+- dkLen: Intended length of the key derived key in bytes
+kd = scrypt(P, S, N, P, R, dkLen)
+Viacoin parameters where N=1024, R=1, P=1 and S= random 80 bytes producing a
+256-bit output
+Viacoin.org - September 2017                                                              2
+
+
+
+
+Viacoin Whitepaper
+2. Merged Mining AuxPow
+Viacoin                                                                                       [auxpow]Merged  mining  aims  to  reuse  the  mining  power  of  any  other
+[scrypt]Scrypt coin to add security to the Viacoin blockchain, allowing a miner to mine
+for more than one blockchain at the same time. For example, a miner could mine
+Viacoin and Litecoin or any other Scrypt coin together with Viacoin with little to no
+impact on the hashrate of either one.
+Every hash the miner contributes is for the total hashrate of both cryptocurrencies and
+results in a more secure blockchain. An AuxPoW block is a type of block similar to a
+standard Bitcoin block with two differences. The hash of the block header does not meet
+the difficulty level of the blockchain. Secondly, it has additional data elements that
+shows that the miner who created a block did mining on the parent blockchain and that
+works meet the difficulty level of the aux blockchain.
+Miners have an incentive to mine Viacoin even if the reward is low as they are able to
+mine any other Scrypt coin simultaneously Viacoin for “free”. As Viacoin mining isn’t
+driven by large block rewards, this allows Viacoin to have a lower rate of inflation com-
+pared to other cryptocurrencies that do not support merged mining.
+3. Dark Gravity Wave
+[darkGravityWave]Dark Gravity Wave (DGW) is an open source difficulty algorithm.
+DGW was authored by Evan Duffield, the developer and creator of X11/Darkcoin/Dash.
+The algorithm was designed to address flaws like the Time warp attack in Kimoto
+Gravity Wave algorithm.
+Dark Gravity Wave was first introduced in Dash (Darkcoin). DGW makes use of multiple
+exponential moving averages and simple moving averages to smoothen the
+readjustment mechanism.
+Formula:
+2222222/(((Difficulty + 2600)/9) )
+Dark Gravity Wave version 3 is the latest version and allows for improved difficulty retar-
+geting compared to
+the well known Kimo Gravity Well algorithm.
+Viacoin.org - September 2017                                                                  3
+
+
+
+
+Viacoin Whitepaper
+4. Segwit
+Viacoin has [segwit]Segwit (BIP 141) activated. Segregated Witness helps to shrink the
+size of a transaction and cope with the UTXO growth. Segregated Witness is a
+transaction format where witness data is segregated from the transaction.
+It also aims to increase the per-block transaction throughput by a factor of 2 or 3, while
+simultaneously making block syncing faster for new nodes.
+The main purpose of Segwit implementation in Viacoin is not to increase capacity
+however, it is to fix malleability and make scripting easier to upgrade.
+Fixing malleability allows for the addition of features in Viacoin like [atomic]atomic
+swaps, bidirectional payment channels and Lightning networks that could increase
+Viacoin interoperability with Bitcoin.
+Segwit includes versioning for scripts so that additional opcodes (that would normally
+require a hard-fork in non-segwit transactions) can be used instead. Easier changes to
+script opcodes will make advancing Viacoin easier. This makes the addition of Schnorr
+signatures, sidechains, MAST and other features possible.
+5. The Lightning Network
+[lightningNetwork]The Lightning Network is a transfer network operating at a layer
+above the Viacoin blockchain using smart contract functionality in the blockchain to
+enable instant payments across a net- work of participants. This enables improve-
+ments of several orders of magnitude in transaction throughput by moving the majority
+of transactions outside the consensus ledgers into Payment channels. This allows
+millions to billions of transactions per second across the network. A capacity that
+blows away legacy payment rails. This is made possible by supporting on-chain scripts
+in which parties enter into bilateral stateful contracts, in which the state can be updat-
+ed by sharing a digital signature and can be closed by publishing evidence onto the
+blockchain.
+The Lightning Network allows for exceptionally low fees. For a low-value transaction,
+the Lightning Network is the silver bullet. It allows for new kinds of commerce.
+By opening a payment channel with many parties, participants in the LN can become a
+focal point for routing the payment of others leading into a fully connected payment
+channel. The payments are enforced using a script which enforces the atomicity via
+decrementing time-locks.
+Viacoin.org - September 2017                                                                 4
+
+
+
+
+Viacoin Whitepaper
+Another benefit is the possibility of atomic cross-chain transactions, enabling users to
+trade viacoin, bitcoin, litecoin and other Segwit coins instantaneously, allowing for
+extremely efficient, decentralized exchanges or a decentralized form of ’Shapeshift.io’.
+6. Schnorr signature
+Schnorr signature aggregation is part of upcoming developments as well. This func-
+tionality has also been proposed in Bitcoin as the successor of ECDSA as it is a more
+efficient algorithm. Until recently, in Viacoin and in many other cryptocoins, it was not
+possible to implement Schnorr signatures without a hardfork. Now with the malleabili-
+ty of Segwit, it is possible. All signature data is moved to the witness. Viacoin currently
+utilized Elliptic Curve Digital Signatures (ECDSA) as a zk proof of ownership in order to
+authorize the transfer from one output to another. In  2015, Daniel J. Bernstein
+proposed to use a Schnorr like signature on top of an Elliptic Curve.
+Some Advantages:
+- Provably secure under standard assumptions
+- Immunity to malleability
+- Resistance to hash-function collisions
+- Batch validation for a 2-3x speedup
+- Native k-of-k Multisignatures . . .
+Schnorr signature supports batch validation, which means that if you have a group of
+public key message signature pairs rather than just a single one, you can verify the
+authenticity of the group as a whole at a higher speed than each of them individually.
+This method is ideal since blocks are just big batches of signatures to validate.
+Native k-of-k multi signatures, the idea of Schnorr is that you can take multiple keys
+together and have a single signature that proves that all of them are signed. A group
+can create a signature valid for the sum of keys. U1, U2 and U3 are the users. There’s a
+2 round interaction scheme where they all come up with a n-once k1, k2, k3 and they
+all compute a corresponding public point R1, R2, R3. They communicate those to each
+other and add them up with an overall R value. This overall R value signs this nonce
+with their own key resulting in an S1, 2, S3 and then you combine all the S values into
+one final S. A signature that will be valid for the sum of their keys.
+This has the advantage of the k-of-k multisig.
+Viacoin.org - September 2017                                                                  5
+
+
+
+
+Viacoin Whitepaper
+Even if there is not a k-of-k situation, any other policy of what combination of keys can
+be signed. All one needs is a merkle tree plus the ability for Schnorr to add up and build
+a tree where every node leaf of the tree is a combination of keys that can be signed.
+These then need to be hashed together and the root is the address. OP_CHECKSIG &
+OP_CHECKMULTISIG will be modified so that they can stack pubkeys, delin- earize and
+associate validated inputs and produce a combined signature for the transaction
+resulting into a 20% reduction in block size.
+2 out of 4 (k1...k4)
+O( 1) verification time
+O(log n) signature size
+O(n) signing time
+It is possible to do aggregation over all signatures in a single transaction. The idea
+behind it, is to enable system validators like Viacoin nodes to compute a single key for
+every input of all transactions.
+Viacoin.org - September 2017                                                                 6
+
+
+
+
+Viacoin Whitepaper
+7. Non-atomic flushing
+In order to make the system robust, the state on the disk has to be persistent with a
+block. With an unexpected shutdown of the wallet, we can startup and rollback or roll
+forward inside of it and be able to get a consistent tip on the disk. Normally whenever
+the cache would fill up, a flush would be forced. If it is present at startup it means we
+crashed during flush, and we rollback/roll forward blocks inside of it to get a consistent
+tip on disk before proceeding.
+8. Colored coins
+Viacoin scripting language allows to store small amounts of metadata on the
+blockchain which can represent asset manipulation instructions. A Viacoin transaction
+can be encoded that x units of a new asset were issued and are credited to a Viacoin
+address. The term is derived from the idea of “coloring” a nominal amount of coins. By
+coloring a Viacoin, it turns into a token that can represent anything a user wants to
+trade like com- pany stocks or physical goods.
+This seems very similar to ’Counterparty’ but there are some key differences. It uses
+the Viacoin blockchain (e.g NXT).
+It does not issue an auxiliary coin (e.g Counterparty and Mastercoin). The medata gives
+meaning to a [coloredCoins]colored coin transaction which is usually stored in one of
+the OP_RETURN opcodes. The output containing the OP_RETURN is called a marker
+output. This marketcout can have a zero or non-zero value. The marker outputs starts
+with the OP_RETURN opcode and can be followed by any sequence of opcodes which
+must contain a PUSHDATA opcode containing a parsable open Asset market Payload.
+The asset quantity list field is used to determine the quantity of each output of the asset
+and each integer is using LEB128 encoding. If this exceeds 9 bytes, the market output
+is deemed invalid. The maximum asset quantity for an output is 263 − 1units. The
+colored coins [openAsset]Open Asset Protocol sits on top of the Viacoin protocol. It
+does not require any changes to the Viacoin protocol itself.
+Viacoin.org - September 2017                                                                  7
+
+
+
+
+Viacoin Whitepaper
+9. MAST (Merkelized Abstract Syntax Trees)
+[MAST]Mast allows Viacoin transaction validation scripts to be stored in partial-
+ly-hashed form and allows nodes to interact with Merkle Trees. “When spending, users
+may provide only the branches they are ex- ecuting, and hashes that connect the
+branches to the fixed size Merkle root. This reduces the size of the redemption stack
+from O(n) to O(log n) (n as the number of branches). This enables complicated redemp-
+tion conditions that is currently not possible due to the script size and opcode limit,
+improves privacy by hiding unexecuted branches, and allows inclusion of non-consen-
+sus enforced data with very low or no additional cost.”
+It is important because MAST allows smart contracts to be created without clogging up
+the blockchain. Usually all smart contracts would be visible on the blockchain and take
+up space. With MAST it is possible to only reveal the smart contracts that have been
+completed, saving space as nodes only have to read the top layer of the Merkle Tree.
+This may seem familiar to Ethereum’s smart contract system but there is a difference.
+Ethereum accesses a VM directly where VIA will obtain access to a VM though Root-
+Stock (RSK). RSK aims to be what Ethereum should have been:
+a decentralized, Turing-complete smart contract platform.
+10.Viacoin RSK smart contracts
+[rootstock]Rootstock is a smart contract platform which has a two-way peg. The idea
+is to enable it to work with smart contracts. Rootstock runs a turing complete Virtual
+machine called Rootstock Virtual Machine (which is also compatible with Ethereum
+virtual machine!) and allows solidity compiled smart contracts to run. It could work by
+merge mining with Viacoin, which allows the RSK blockchain to have the same security
+level as Viacoin. It should allow for approximately  2000 transactions per second
+on-chain and 20000 transactions per second off-chain.
+Viacoin.org - September 2017                                                              8
+
+
+
+
+Viacoin Whitepaper
+11. Anonymous transactions
+[styx]An Unlinkable Anonymous Atomic Payment Hub For Viacoin based on Tumblebit.
+https://github.com/viacoin/documents/blob/master/whitepapers/styx/Viacoin-Styx-Whitepaper.pdf
+Viacoin.org - September 2017                                                                    9
+
+
+
+
+

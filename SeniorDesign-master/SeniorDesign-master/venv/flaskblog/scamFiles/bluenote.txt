@@ -1,0 +1,1718 @@
+The Leading
+Blockchain Solution to
+a Zero Emission World
+BLUENOTE (BNOW) WHITE PAPER
+ZUG, SWITZERLAND
+DECEMBER 2 0 1 8
+www.bluenote.world
+WHITEPAPER
+1
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+SUMMARY
+Creating a zero emission world may be both the greatest environmental challenge & the greatest financial
+opportunity of our generation.
+Buildings cause 33% of global climate changing greenhouse gases through the energy they consume. When
+buildings use less energy, they can lower their operating costs and become significantly more valuable. In fact,
+reducing their emissions by reducing their energy consumption may unlock more than $6.5 trillion in global
+asset value. So why hasn’t this happened yet?
+The Problem. Getting the right data to make the best decisions about energy efficiency in buildings is difficult.
+A building’s energy use, operational and asset value data is rarely available. If it is, it is typically siloed in
+vendor hardware and software products, walled off from one another in expensive proprietary solutions.
+Without easy access to data, building owners and investors have had difficulty proving how specific
+investments in building technology impact energy use and the bottom line.
+The Solution. Bluenote will pull these data streams out of buildings and standardize it through a distributed
+blockchain solution called the Bluenote Protocol. The Bluenote Protocol is an open-access, confidential
+network that enables simple data sharing, data services, and building analysis in order to unlock new energy
+efficiency strategies in buildings. The software-based Bluenote Protocol can be used both with new
+applications and with energy technologies already installed in buildings throughout the world.
+The Token. The Bluenote token is ERC20-compliant, utilizing smart contracts, which will be tradable under the
+ticker BNOW. Buildings and devices that integrate the Bluenote Protocol and share data are rewarded in
+Bluenote tokens. Buildings can then buy and use Bluenote tokens to purchase energy efficiency analytics on
+the Bluenote Protocol.
+The Marketplace. The Bluenote Protocol simplifies and speeds up the energy efficiency service market. Rather
+than developing dedicated hardware and software integration for each vendor, a building connected to the
+protocol can buy a service with Bluenote tokens, and simply point the application to the location of their data
+already on the Bluenote Protocol. Further, as more data becomes linked through the Bluenote Protocol,
+applications will be able to mine the large data network for insights into building efficiency strategies that
+work, while preserving the confidentiality of the buildings sharing the data.
+Who will use Bluenote?
+● Building Owners and Managers can make retrofit decisions they can trust.
+● Energy Tech Companies can have instantaneous access to building customers.
+● Utilities gain a new way to manage the demand and costs of energy in real time.
+● Financial Institutions can trace a change in asset value to verified energy reductions.
+The Bluenote Protocol is a potentially revolutionary technology with a unique approach to the market. Where
+other blockchain solutions in the energy industry simply attempt to tokenize energy trading, Bluenote instead
+opens up an entirely new market for decentralized energy efficiency data services in buildings.
+WHITEPAPER
+2
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+TABLE OF CONTENTS
+Summary 1
+Table of contents 2
+Disclaimer 4
+Why are we doing this? 6
+How will we get there? 9
+Who will use Bluenote? 9
+Market background 10
+Why commercial office buildings? 11
+Opening up the energy efficiency market 12
+Proving measurement and verification 14
+Unlocking building asset value 15
+Bluenote solution 17
+Introducing the Bluenote Protocol 18
+The Bluenote Protocol: getting the data 22
+The Bluenote token 24
+Bluenote Protocol: the market 25
+How the reward pool works 29
+Token sale details 30
+Bluenote token 31
+Token sale project features roadmap 34
+Technology 39
+Bluenote Protocol: the technology 40
+How buildings participate in the real world 43
+Initial product development status 47
+Use cases 53
+WHITEPAPER
+3
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Gaining market adoption 58
+How does the ecosystem scale? 59
+Building adoption 60
+Integrating the Bluenote Protocol into existing technology 61
+Geographic focus 62
+Long-term sustainability of the Bluenote infrastructure 63
+Team 64
+History 65
+Organization 66
+Contact 69
+Appendix 69
+References 70
+Glossary 71
+WHITEPAPER
+4
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+DISCLAIMER
+THE PURPOSE OF THIS WHITE PAPER IS TO PRESENT BLUENOTE TO POTENTIAL TOKEN HOLDERS IN
+CONNECTION WITH ITS PROPOSED TOKEN LAUNCH. THE INFORMATION PRESENTED MAY NOT BE EXHAUSTIVE
+AND SUBJECT TO CHANGE. ITS SOLE PURPOSE IS TO PROVIDE RELEVANT AND REASONABLE INFORMATION TO
+PROSPECTIVE TOKEN HOLDERS.
+THE READER HAS BEEN ADVISED THAT BLUENOTE TOKENS COULD IN CERTAIN JURISDICTIONS QUALIFY AS A
+SECURITY AND THAT THE OFFERS AND SALES OF THIS INSTRUMENT HAVE NOT BEEN AND WILL NOT BE
+REGISTERED UNDER ANY JURISDICTION’S SECURITIES OR SIMILAR LAWS AND CANNOT BE RESOLD EXCEPT IN
+COMPLIANCE WITH THE APPLICABLE JURISDICTION’S LAWS.
+THE READER HAS BEEN ADVISED THAT THIS INSTRUMENT COULD IN CERTAIN JURISDICTIONS QUALIFY AS A
+SECURITY AND THAT THE OFFERS AND SALES OF THIS INSTRUMENT HAVE NOT BEEN, AND WILL NOT BE,
+REGISTERED UNDER ANY JURISDICTION’S SECURITIES OR SIMILAR LAWS AND, THEREFORE, CANNOT BE RESOLD
+EXCEPT IN COMPLIANCE WITHTHE APPLICABLE JURISDICTION’S LAWS.
+NOTICE TO RESIDENTS OF THE UNITED STATES
+THE OFFER AND SALE OF THESE FINANCIAL INSTRUMENTS OR RIGHTS HAS NOT BEEN REGISTERED UNDER THE
+U.S. SECURITIES ACT OF 1933, AS AMENDED (U.S. SECURITIES ACT), OR UNDER THE SECURITIES LAWS OF
+CERTAIN STATES. THESE FINANCIAL INSTRUMENTS OR RIGHTS MAY THEREFORE NOT BE OFFERED, SOLD OR
+OTHERWISE TRANSFERRED, PLEDGED OR HYPOTHECATED EXCEPT AS PERMITTED UNDER THE ACT AND
+APPLICABLE STATE SECURITIES LAWS PURSUANT TO AN EFFECTIVE REGISTRATION STATEMENT OR AN
+EXEMPTION THEREFROM.
+NOTICE TO RESIDENTS OF CANADA
+UNLESS PERMITTED UNDER SECURITIES LEGISLATION, THE HOLDER OF THESE FINANCIAL INSTRUMENTS OR
+RIGHTS MUST NOT TRADE THEM BEFORE THE DATE THAT THE ISSUER BECOMES A REPORTING ISSUER IN ANY
+PROVINCE OR TERRITORY.
+NOTICE TO RESIDENTS OF CHINA
+THE RIGHTS ARE NOT BEING OFFERED OR SOLD AND MAY NOT BE OFFERED OR SOLD, DIRECTLY OR
+INDIRECTLY, WITHIN THE PEOPLE’S REPUBLIC OF CHINA (FOR SUCH PURPOSES, NOT INCLUDING THE HONG
+KONG AND MACAU SPECIAL ADMINISTRATIVE REGIONS OR TAIWAN), EXCEPT AS PERMITTED BY THE
+SECURITIES AND OTHER LAWS AND REGULATIONS OF THE PEOPLE’S REPUBLIC OF CHINA.
+NOTICE TO RESIDENTS OF SOUTH KOREA
+THE RIGHTS ARE NOT BEING OFFERED OR SOLD AND MAY NOT BE OFFERED OR SOLD, DIRECTLY OR
+INDIRECTLY, WITHIN SOUTH KOREA, EXCEPT AS PERMITTED BY THE SECURITIES AND OTHER LAWS AND
+REGULATIONS OF SOUTH KOREA.
+WHITEPAPER
+5
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+NOTICE TO RESIDENTS OF NEW ZEALAND
+THE RIGHTS ARE NOT BEING OFFERED OR SOLD AND MAY NOT BE OFFERED OR SOLD, DIRECTLY OR
+INDIRECTLY, WITHIN NEW ZEALAND, EXCEPT AS PERMITTED BY THE SECURITIES AND OTHER LAWS AND
+REGULATIONS OF NEW ZEALAND.
+NOTICE TO RESIDENTS OF INDIA
+THE RIGHTS ARE NOT BEING OFFERED OR SOLD AND MAY NOT BE OFFERED OR SOLD, DIRECTLY OR
+INDIRECTLY, WITHIN INDIA, EXCEPT AS PERMITTED BY THE SECURITIES AND OTHER LAWS AND REGULATIONS
+OF INDIA.
+NOTICE TO RESIDENTS OF VIETNAM
+THE RIGHTS ARE NOT BEING OFFERED OR SOLD AND MAY NOT BE OFFERED OR SOLD, DIRECTLY OR
+INDIRECTLY, WITHIN VIETNAM, EXCEPT AS PERMITTED BY THE SECURITIES AND OTHER LAWS AND
+REGULATIONS OF VIETNAM.
+NOTICE TO RESIDENTS OF INDONESIA
+THE RIGHTS ARE NOT BEING OFFERED OR SOLD AND MAY NOT BE OFFERED OR SOLD, DIRECTLY OR
+INDIRECTLY, WITHIN INDONESIA, EXCEPT AS PERMITTED BY THE SECURITIES AND OTHER LAWS AND
+REGULATIONS OF INDONESIA.
+NOTICE TO RESIDENTS OF THE UNITED KINGDOM
+IN THE UNITED KINGDOM THIS DOCUMENT IS BEING DISTRIBUTED ONLY TO, AND IS DIRECTED ONLY AT (AND
+ANY INVESTMENT ACTIVITY TO WHICH IT RELATES WILL BE ENGAGED ONLY WITH): (i) INVESTMENT
+PROFESSIONALS (WITHIN THE MEANING OF ARTICLE 19(5) OF THE FINANCIAL SERVICES AND MARKETS ACT
+2000 (FINANCIAL PROMOTION) ORDER 2005 AS AMENDED (FPO)); (ii) PERSONS OR ENTITIES OF A KIND
+DESCRIBED IN ARTICLE 49 OF THE FPO; (iii) CERTIFIED SOPHISTICATED INVESTORS (WITHIN THE MEANING OF
+ARTICLE 50(1) OF THE FPO); AND (iv) OTHER PERSONS TO WHOM IT MAY OTHERWISE LAWFULLY BE
+COMMUNICATED (ALL SUCH PERSONS TOGETHER BEING REFERRED TO AS RELEVANT PERSONS).
+THIS DOCUMENT HAS NOT BEEN APPROVED BY AN AUTHORIZED PERSON. ANY INVESTMENT TO WHICH THIS
+DOCUMENT RELATES IS AVAILABLE ONLY TO (AND ANY INVESTMENT ACTIVITY TO WHICH IT RELATES WILL BE
+ENGAGED ONLY WITH) RELEVANT PERSONS. THIS DOCUMENT IS DIRECTED ONLY AT RELEVANT PERSONS AND
+PERSONS WHO ARE NOT RELEVANT PERSONS SHOULD NOT TAKE ANY ACTION BASED UPON THIS DOCUMENT
+AND SHOULD NOT RELY ON IT. IT IS A CONDITION OF YOU RECEIVING AND RETAINING THIS DOCUMENT THAT
+YOU WARRANT TO THE COMPANY, ITS DIRECTORS, AND ITS OFFICERS THAT YOU ARE A RELEVANT PERSON.
+WHITEPAPER
+hy are we
+doing this?
+Since the climate conference COP21 in Paris in 2015, an international group of like-minded entrepreneurs, experts and investors have
+worked together as the Bluenote Foundation to solve the biggest
+problem on earth, climate change, without being bound to the constraints ofinvestors or politicians. They focused on globally accessible CO2 emission limiting solutions, with a healthy financial return.
+Through the Bluenote Protocol, we can set the data free, allowing
+innovators to create new products, and even entirely new markets,
+based on analyzing a new universe of high-quality and high-frequency
+data from buildings around the world. With the Bluenote token as an
+incentive method, buildings can enter these new markets outside of
+their traditional annual budgeting cycle, creating a virtuous cycle of
+reinvestment in efficiency strategies.
+BLUENOTE.WORLD 
+WHITEPAPER
+7
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+The Bluenote Foundation has as its core mission to lead the transition to zero emission cities, but to do so in
+a way that is environmentally, economically and socially sustainable.
+Bluenote tackles the largest polluter first
+According to the United Nations, more than two thirds of the world’s population will live in cities by 2050. At
+present, office buildings in cities are the largest source of CO2 emissions, with all the consequences.
+Worldwide, buildings are estimated to be responsible for 33% of all CO2 emissions.
+By way of example, according to the New York Green Bank, commercial real estate accounts for 67% of all CO2
+emissions in New York City1
+.
+Commercial real estate is the low-hanging fruit of the energy world
+The real estate world is driven by traditional financial models, and technological advancements must conform
+to key industry drivers to for solutions to gain traction. Bluenote will accelerate the adoption of building
+energy technology upgrades by providing the transparency, trusted data and data analysis capabilities that
+support investment decisions in energy efficiency measures.
+You cannot improve what you cannot measure
+As governments, companies and individuals around the world launch ambitious initiatives to reduce emissions
+from the power sector, real-time measurement and verification of those efforts has lagged behind. When
+measurement does occur, it often is part of an upfront estimate of costs and benefits, or after the fact through
+a lengthy, consultant-driven analysis. Now that we are seeing more granular and timely data on energy usage,
+we can use that data to: a) prove that an action or initiative has resulted in less energy used and less emissions
+than would have occurred otherwise while it is happening, and b) create confidence in measurements for
+emission reductions or societal values that can be trusted.
+More efficient buildings are more valuable buildings
+The long-term goal is to prove that the highest-performing energy buildings are also the most profitable form
+of real estate investment, leading to a shift in the market that drives emissions downward. A study done in
+collaboration between Deutsche Bank and the Rockefeller Foundation calculates that reducing just 30% of the
+electricity expenses borne by commercial buildings in the United States is worth $100 billion annually. The
+Bluenote Protocol will help unlock building asset value globally by creating the link between verified energy
+performance and financial returns.
+Blockchain offers the best way to make the Bluenote Protocol successful
+The Bluenote Protocol recognizes the simple fact that there is value in energy efficiency data. With a
+decentralized platform and independent governance, anyone is able to verify and value data and results,
+allowing for a new, global trust in energy efficiency.
+ 1 http://www.dec.ny.gov/docs/administration_pdf/nycghg.pdf
+WHITEPAPER
+8
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+The Bluenote Protocol is designed to collect, process and analyze data in a decentralized manner. It is designed
+to share all value it creates through Bluenote tokens. There is no dividend, there are no shareholders, there
+are only bluenotes and all possible value that the ecosystem contains, will translate into the value of those
+bluenotes.
+Only a neutral, decentralized protocol can make this happen
+Governmental entities cannot initiate such a project on their own, because it falls outside of regular policy
+instruments. Further, as the protocol stretches across borders and across industry sectors, there is no common
+government agency to oversee it.
+Large companies in the energy and buildings industry have proven they can only hoard this data, not exchange
+it or value it for those who produce it. The large industry players today have developed a reputation for
+working poorly with competitors and being biased towards their own solutions and ecosystems.
+NAVIGATING THIS DOCUMENT
+This document provides a comprehensive overview of how and why the Bluenote ecosystem will work, grow
+and develop. It is organized into the following chapters:
+➔ Market Background. An overview of why we are focused on commercial buildings, and the market
+potential for opening the energy efficiency market, proving results, and increasing building asset
+value.
+➔ Bluenote Protocol. A description of how the Bluenote Protocol works, how applications layer on top
+of the protocol, and examples of how this works in the real world.
+➔ Token Sale Details. An overview of the upcoming Token Sale and the Distribution Roadmap
+➔ Gaining Market Adoption. A roadmap describing the path to market for the Bluenote Protocol, how
+we will grow building, technology, and partner adoption.
+➔ Technology. A more in depth look at the technology behind the Bluenote Protocol.
+➔ Team and history. Introduction to the team of global experts that are leading this effort with a
+description of the Bluenote-related developments that have taken place so far.
+WHITEPAPER
+9
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+HOW WILL WE GET THERE?
+OPEN UP THE ENERGY
+EFFICIENCY MARKET
+PROVING MEASUREMENT AND
+VERIFICATION
+UNLOCK BUILDING ASSET
+VALUE
+WHO WILL USE BLUENOTE?
+OPENING UP THE ENERGY EFFICIENCY MARKET
+Building Managers and Engineers: They get new resources and tools to create better
+performing buildings.
+PROVING MEASUREMENT AND VERIFICATION
+Lenders: Gain confidence in building investments through real-time performance and
+financial tracking.
+Utilities: Can verify energy reductions and energy efficiency performance in real time,
+enabling new pay-for-performance markets and models.
+UNLOCKING BUILDING ASSET VALUE
+Corporate Tenants and their Brokers: Can verify the energy and environmental
+performance of their office use, supporting their global sustainability goals, while
+paying less for energy.
+Building Owners and Investors: They can make more money through a reduction in
+operating costs, and reduce their upgrade investment risk by using the Bluenote
+token and protocol to drive efficient buildings.
+
+WHITEPAPER
+11
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+WHY COMMERCIAL OFFICE BUILDINGS?
+According to the United Nations Environment Program (UNEP) 33% all of global emissions are caused by
+buildings and the electricity they consume.2
+While residential and industrial buildings also play a substantial role, commercial real estate is governed by
+more rational and quantitative decision-making. Buildings are durable assets that have decades of useful
+lifespan3
+. That means when they are constructed, developers choose materials and energy controls; and those
+choices can lock in the building’s greenhouse gas emissions footprint.
+Building owners and the banks that finance the purchase and development of these assets haven’t
+traditionally looked at energy usage as a key metric. They focus more on asset appreciation and cash flow than
+energy use, which is viewed largely as an expense over which they have little influence. However, giving
+buildings the tools to uncover the financial impacts and opportunities of changing their energy systems can
+more clearly illustrate the ROI of each potential upgrade and, more importantly, the opportunity to improve
+the underlying asset valuation.
+If we can reduce the friction in the energy efficiency market, prove that efficiency strategies
+work, and demonstrate the impact of improved energy performance on asset value, we will
+be able to drive a market-based solution to reducing greenhouse gas emissions.
+The market is beginning to draw the connections between building energy use and asset performance. For
+example, buildings that use more energy than necessary have been shown to be at greater risk to default on
+their debt obligations4
+. This is an important factor for both building developers and the institutional investors
+that provide traditional financing, because it shines a light on potential underlying investment risk.
+The question becomes, then, if it is possible to not only mitigate energy-related investment risk by taking
+preventative measures, but also to identify which specific activities can help buildings cross the threshold into
+creating greater cash flow and return potential.
+While every building is unique and demands a customized approach to reducing energy expenditures, financial
+models for commercial real estate are relatively uniform throughout the global market. Understanding and
+helping buildings identify the specific elements that can help them reach their energy goals drives investment
+decisions. Accelerating energy efficiency retrofit activity can then also accelerate the reduction of greenhouse
+gas emissions that result from building energy use.
+ 2 http://staging.unep.org/sbci/AboutSBCI/Background.asp
+3 https://www.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_chapter9.pdf
+4
+https://cbs.lbl.gov/sites/default/files/docs/Mortgage%20Default%20Risk%20and%20Energy%20-Technical%20Report%206-28-17.pdf
+WHITEPAPER
+12
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+OPENING UP THE ENERGY EFFICIENCY MARKET
+Building efficiency is the cheapest form of energy
+While buildings are responsible for 33% of global emissions, building energy efficiency represents 40% of the
+greenhouse gas reduction potential that can be achieved cost-effectively.5 On a cents/kilowatt-hour basis,
+comparing the levelized cost of energy over the life of the investments among all energy investments in the
+power sector, energy efficiency comes in significantly below its fossil-fuel, uranium, and even carbon-free
+competitors.6
+Energy consumption in buildings can be reduced by 30% to 80% using proven and commercially
+available technologies.7
+- United Nations Environment Programme
+ 5
+“Pathways to a Low-Carbon Economy: Version 2 of the Global Greenhouse Gas Abatement Cost Curve,” McKinsey and Company.
+6
+https://energyindemand.com/2018/01/13/the-lessons-from-utilities-energy-efficiency-programmes-for-spending-carbon-pricingrevenues-effectively/
+7 http://staging.unep.org/sbci/AboutSBCI/Background.asp
+WHITEPAPER
+13
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Energy efficiency services market exceeds $118 billion/yr.
+Global energy efficiency investment in buildings has been increasing, and in 2015 reached USD 118 billion,
+according to the IEA.8 Globally, energy services companies (ESCOs) generated USD 24 billion in revenue in
+2016.9 In the United States, ESCO revenues reached USD 6.3 billion, in the European Union they were USD 2.7
+billion, in China, USD 13.3 billion.10
+Energy efficiency investment by region and sector
+There remain significant barriers at the building level and the system level that have impeded the potential of
+this market:
+Data in buildings is imprisoned in vendor and hardware silos
+Today, valuable data on a building’s energy, operations, and finances, when it exists, is trapped in a menagerie
+of silos: with hardware vendors, software as a service, the manager’s own spreadsheets. Even the most
+advanced building energy intelligence platforms are limited to models, proprietary datasets, and assumptions.
+Risk and uncertainty
+Buildings typically finance energy efficiency investments through an operating budget with an expected
+payback in reduced utility bills. That often means buildings usually pursue projects with a payback of less than
+two years. When a specific energy efficiency strategy is unproven or has an uncertain impact within the
+shorter-term lifecycle of a commercial office property, buildings do not take the risk. Their willingness to take a
+risk on an efficiency strategy decreases as the payback term increases, and they simply don’t trust the
+numbers enough from the vendor selling them the product or solution to overcome that hurdle.
+ 8
+“Energy Efficiency Market Report,” International Energy Agency, http://www.iea.org/eemr16/
+9 Ibid
+10 Ibid
+WHITEPAPER
+14
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+PROVING MEASUREMENT AND VERIFICATION
+Shining a light on efficiency performance creates confidence in investments
+Bluenote will establish a new foundation for long-term trustable quantification of energy efficiency impacts to
+enable policies and policy-directed markets to work.
+The opportunity to measure energy efficiency impacts at a granular level has begun to emerge in the building
+sector with digital metering and operations equipment. An increased understanding of and trust in energy
+efficiency performance would unlock the opportunity to have investments be funded not from cash
+flow/operations, but through third party financial instruments.
+Markets work on trust
+Historically, there has been a lack of quality real time information on the results and impacts of energy
+efficiency strategies. There is a reason that most blockchain solutions in the energy industry have focused on
+buying electricity generation (from renewable or from wholesale markets), and that is simply because that
+energy can be recorded on a trusted electricity meter that is good enough to be billed on by a utility. If you can
+bring that same level of trust to the reduction of energy use in real time, you could find ways to credit and
+value that energy reduction at the same, or greater, level as energy production.
+This is not a trend we will start on our own. With more confidence in the impacts of energy efficiency, its value
+to electricity system operations is starting to be recognize in more markets. In the United States, energy
+efficiency has begun to be allowed to compete as a resource in competitive wholesale electricity markets such
+as capacity markets, competing directly against power generators for contracts to meet peak power needs.
+These contracts face a constant criticism from regulators, however, that energy efficiency reductions can’t be
+quantified in the same way power generation can. In some European countries, such as France, Italy, and
+Poland, “white certificate” markets have operated, allowing utilities to trade the achievement of energy
+efficiency policies. However, as program rules tighten to ensure savings are actually being achieved, programs
+lacking data structures have difficulty maintaining a market position.
+What can you do with real-time Measurement and Verification of efficiency?
+● Enabling new markets: If you could create a trustworthy verification of efficiency, you could stimulate
+new transactions and create entirely new markets for the electric grid, such as new demand response,
+peak reduction, or grid balancing markets.
+● Transparent Policy and Performance Measurement: Governments or utilities that invest in emissionreducing initiatives can enable the public to see, track, and analyze for themselves the efficacy of
+different civic strategies.
+● A Protocol of Protocols: By leveraging the data validation and attribute verification modules on the
+Bluenote Protocol, other markets can create their own transactions on top of the Bluenote Protocol,
+now with trust in the impact they are transacting.
+WHITEPAPER
+15
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+UNLOCKING BUILDING ASSET VALUE
+Reducing energy use can improve the IRR of building investments
+Investors and lenders are bound by a fiduciary duty to make decisions which lead to greater profitability. When
+they have the tools to demand buildings make energy efficiency upgrades because they make the assets more
+profitable, we can change the fundamental business practice for an entire global industry.
+In the US alone, the Rockefeller Foundation has estimated that $100B saved in electricity in buildings each year
+would translate to roughly $600B - $800B in increased asset value, plus an additional estimated $279B spent
+on actual efficiency upgrades11 12.
+The new efficiency potential that can be unlocked by the Bluenote Protocol creates a new value proposition
+for building asset owners. This value can be determined by using the traditional methodology called the
+“Income Capitalization Method,” a standard technique used by commercial real estate investors around the
+world to determine the value of a building asset. These are the important variables used in the “capitalization
+rate” (or “cap rate”) formula:
+1. Net Operating Income (NOI) where NOI = Operating Income - Operating Expenses
+2. “Capitalization Rate”: is the ratio of net operating income (NOI) to a property’s value (NOI ÷ Value =
+Cap Rate). A building with an annual NOI of $1,000,000 which was purchased $10,000,000 would have
+a cap rate of 10%.
+3. Valuation: the formula expressed to determine the value of an asset is (NOI ÷ Cap Rate = Value). A
+building with an NOI $1,000,000 and a cap rate of 10% (as determined by local market averages for
+similar buildings) would have a value of $10,000,000.
+Assuming that all other market conditions are equal, we see that increasing NOI is how investors drive an
+increase in building value, and this can be done through either by growing revenue or reducing expenses.
+Why is energy important to building valuation?
+According to the Building Owners and Managers Association’s 2016 Experience Exchange Report, a survey of
+5,200 commercial buildings in the United States and Canada, Utility expenses account for an average of 26.7%
+of total operating expenses. Using the income capitalization method, building managers able to reduce
+operating expenses associated with utility or energy expenses can also increase the value of the whole asset.
+ 11https://www.rockefellerfoundation.org/report/united-states-building-energy-efficiency-retrofits/
+12 Uses the income capitalization method, assuming that $100B in lower aggregate market expenditures will results in $100B in equivalent
+increased aggregate NOI, and uses a CAP rate of 6%-8% for the calculation.
+WHITEPAPER
+16
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+A study done in collaboration between Deutsche Bank and the Rockefeller Foundation calculates the value of
+those energy expenditures, stating that just 30% of the electricity expenses borne by commercial buildings in
+the United States is worth $100 billion annually. 13
+BASELINE PERFORMANCE
+Models predicted performance using traditional
+acquisition and management methodologies
+POTENTIAL
+Models predicted performance using an
+assumed 30% reduction in energy efficiency
+expenditures and the integrated cost of energy
+efficiency retrofits.
+Example Single Building Detailed Financial Analysis using this Methodology
+Using these traditional financial methodologies as a foundation allows us to calculate the total possible value
+created by reducing energy use within buildings: assuming a 10% cap rate, and increasing the total NOI by
+$100 Billion no longer being used to pay for 30% of energy expenditures.
+$100 Billion ÷ 10% = $1 Trillion
+ 13 United States Building Energy Efficiency Retrofits, Market Sizing and Financing Models, March 2012.
+By the Rockefeller Foundation and Deutsche Bank Group
+
+WHITEPAPER
+18
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+INTRODUCING THE BLUENOTE PROTOCOL
+Background
+We set out to create a protocol that leverages the benefits of the blockchain ecosystem to provide an open
+access, decentralized, transparent, confidential, and value-focused data ecosystem that will open up a new
+energy efficiency data market, prove the measurement and verification of solutions, and ultimately unlock
+new building asset value.
+There is a fundamental shift emerging in how buildings are generating, collecting, analyzing and acting on their
+data. As the Internet of Things revolution expands, bringing with it amounts of new data orders of magnitude
+larger than exist today, buildings should be able to:
+● use that data to understand how they are and should be managing their building minute by minute
+● identify outlier events and conditions
+● understand what measures would make their building more efficient
+● respond to grid needs and participate in grid markets
+● track their performance against themselves or their peers, and
+● prove how these investments not only lower operating costs but increase a building’s value.
+Yet, the energy services industry has pushed buildings to adopt proprietary analytics hardware and software,
+tying their customers to their own ecosystem and trapping data. This happens because building technology
+companies readily admit that their primary focus is to sell hardware, and often see software services simply as
+a means to sell even more hardware to a building. The result of this siloed approach means, today, even the
+“smartest” buildings are limited to a data universe of their own building, and whatever model their vendor
+offers. They can’t compare and contrast energy savings investments because they don’t have the time or skills
+to conduct advanced modeling on their own, and they can’t track the performance of similar efforts in similar
+buildings. They are stuck at the mercy of their vendor, a relationship that has become fraught with distrust.
+The Bluenote Protocol changes that. It provides an alternative to keeping data locked in vendor silos, and
+allows for the easy sharing the intelligence exposed by data across a decentralized network, opening up new
+opportunities for energy efficiency that are not otherwise possible.
+WHITEPAPER
+19
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Protocol Overview
+The Bluenote Protocol is a decentralized network of building data, paired with a token-based
+system for data processing and decision making software services. The Bluenote Protocol does
+not act as a data gatekeeper or central hub, but rather as a collaboration enabler.
+The protocol is developed as a series of Nodes, packaged data services connected through the network and
+recorded on the common ledger. Each node allows data to be pulled in standard formats from buildings into
+separate data streams, each one accessible with permission by the broader network without jeopardizing
+confidentiality of the building.
+By pulling its data out of its silos, uploading it to a node, and connecting it to the network, a building will be
+able to easily contract for energy efficiency services, data services, analytics services, or verification services
+through a marketplace of software modules. These software modules could provide building-specific products,
+as simple as a benchmarking analysis to as complicated as a continuous-commissioning analytics engine, just
+by being directed to the location of a building’s data stream.
+The software modules can also leverage the wisdom of the enormous dataset connected to the network,
+scouring confidential and anonymous building data to identify trends, characteristics, or performance of
+similar buildings and desired technologies. Buildings will use Bluenote tokens, and associated smart contracts,
+to procure those modules, and receive the output data stream for use in their dashboard or building energy
+management systems.
+The more data that is connected to the Bluenote Protocol, the greater the insights that can be gained from the
+entire network of data by third-party application developers. As third-party modules search for and use
+anonymous building data, any buildings whose data was used gets a small commission, generating additional
+token revenue over time for participants.
+Utilities, Regulatory Bodies, and Lenders that are requiring certain energy efficiency performance of a building
+can easily access data streams from participants, reducing or eliminating the need for separate engineering
+studies, audits, or evaluation regimes that can take months to complete. With the Bluenote Protocol, these
+interested parties could simply execute software applications, called Attribute Modules, that calculate the
+energy, environmental, or financial impact of a building, producing an output data stream that is recorded on
+the blockchain common ledger and auditable back to its source data.
+WHITEPAPER
+20
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Core Principles
+The Bluenote Protocol will be a trusted decentralized foundation for the recording, calculation, exchanging and
+verification of the impact of energy efficiency in buildings. The Bluenote Protocol is built on five core
+principles:
+● Open Access: Any project can upload data and gain access to the Bluenote Protocol and its ecosystem.
+● Decentralized: The Bluenote Protocol is a method of categorizing and trading data among a
+decentralized network of nodes, not a single relational database or centralized server.
+● Transparent: All shared data streams connected to the protocol are accessible to all apps to be used,
+along with any transactions or uses of that data.
+● Confidential: To maintain confidentiality, all data streams are identified by a unique key that is known
+only to the owner and anyone they share it with.
+● Data has value: Participants can be rewarded with bluenotes simply for uploading useful data to the
+protocol, with the amount of rewards dependent on the type, quality, frequency, and demand for
+that data.
+Open up the Data
+Open Access. With the Bluenote Protocol, a building establishes its own data streams of static, historical, or
+real-time data on a node it has control over. The building can choose, on its own or in coordination with an
+energy services company, what data is uploaded, what quality of data is shared, and how to map the data
+streams to its three-dimensional structure.
+Decentralized. The building’s data is not trapped in a single vendor’s own database. Instead, it is part of a
+network that is connected to all the other nodes. This decentralized organization allows for a building to easily
+pick and choose how it wants to use the data. Even when it allows for the sharing of that data, or to purchase
+analytics based on that data, the building can keep the data on their own node. For example, if it wishes to use
+analytics services from a third-party module provider, it simply shares its data stream reference ID with the
+service provider.. The data stays on the building’s own node but authorizes access to its data streams to the
+module provider. Similarly, if a building wishes to use a module to calculate a particular attribute, such as
+verified energy savings, in order to participate in a utility energy efficiency program or a certificate trading
+program, it simply uses the Bluenote protocol for that verification from the attribute module provider, while
+keeping its data on its own node.
+WHITEPAPER
+21
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Transparent. All data stream locations, as well as transactions, are recorded in the blockchain ledger, but no
+data is transferred away from any node and stored elsewhere. Further, data stream records on the chain
+would be recorded with a unique hash code in order to maintain data integrity over time. As the Bluenote
+Protocol is used to prove measurement and verification of the impact of energy efficiency investments on
+performance and finances in buildings, it is important for the community to know that data has not been
+tampered with. As buildings use attribute modules to prove the verified impacts of their efforts, this
+transparency also allows for a permanent accounting of verified attributes. Being able to forever track data
+back to its source ensures an auditable record of energy efficiency performance that does not exist in any
+other form today.
+Confidential. A building can choose to disclose how much or how little of its data is exposed to the community
+as a whole, and even to the module provider. By establishing separate data streams, a building can distinguish,
+for example, the raw real-time electricity data it uploads in one stream, while including any personally
+identifiable information in a separate stream with its own unique key. When purchasing analytics services, the
+building would provide the unique IDs of all necessary data streams to the module provider in order to gain
+necessary insights and results, but otherwise the protocol as a whole would have no way to relate the two
+distinct data streams.
+Data has value. While a building may choose to make all of its data confidential, the Bluenote Protocol will
+strive to create a herd effect, incentivizing buildings to share identifiable and non-identifiable data streams
+with the broader community in order to enable recommendations module providers to have a strong data set
+from which to use. In order to incentivize data sharing, buildings will be provided with Bluenote token rewards
+as they seed a market segment, with greater rewards depending on data quality, frequency, rarity, and
+value/demand.
+WHITEPAPER
+22
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+BLUENOTE PROTOCOL: GETTING THE DATA
+The success of the Bluenote Protocol is dependent on the quantity and quality of data it can pull out of
+buildings and into distributed nodes to be part of the network. A few opportunities exist to get data out of
+vendor siloes today and into a distributed platform, and new opportunities are beginning to emerge with the
+growth of IoT technology in buildings. The number of buildings and the volume of data that is connected to the
+Protocol will depend on the ease through which the everyday building operator, or their designee, can
+connect.
+How do you get data out of buildings?
+Existing hardware. Most medium to large commercial buildings have some form of digital hardware device in
+their buildings, even if it is not the same piece. Most buildings built in the last 20 years have come with DDC
+(Direct Digital Controls), and many commercial buildings have converted from pneumatic or other analog
+controls in the past 10 years. Over the past 8 years, the deployment of “smart meters” (utility meters that
+record interval usage digitally as opposed to gross usage on a dial) has reached significant scale, with a recent
+Navigant report projecting that smart meter deployment will grow from 30% at the end of 2016 to 53% by
+2025.14 A smaller percentage of large buildings have installed their own sub-metering, either as an efficiency
+strategy, billing strategy, or to participate in demand response.
+● Utility Smart Metering. The major revolution in the deployment of smart meters is the granularity of
+data moving from monthly, to sub-hourly. The Bluenote team has worked with utility metering
+vendors, ZigBee technology partners, and pulse-reader data servers to pull that data from the utility
+meters as frequently as every 6 seconds. Some solutions will require an additional piece of
+inexpensive hardware as an intermediary (for example, a ZigBee communication device that transmits
+meter data to a node), while new partnership may allow for direct connections.
+● Sub-metering. Many buildings that have installed sub-metering to measure energy usage on multiple
+electricity loads in a building are already well-equipped to configure that hardware to upload data
+directly to a node. Sub-metering systems typically store data in a database of choice, and can be local
+or off-site already today, depending on a building’s needs. The Bluenote team will work to integrate
+standard data export formats so that the top systems on the market can send directly to a Bluenote
+node.
+Existing Software. In some cases, a building has already installed a software platform on a local server, or in a
+vendor’s cloud to aggregate and store the data collected from its systems. These could be the software
+systems and associated controls that work with the digital controls to automate the buildings heating and
+cooling needs, lighting, pumps, or air flow.
+ 14 https://www.navigantresearch.com/newsroom/the-global-penetration-of-smart-meters-is-expected-to-reach-approximately-53-by-theend-of-2025
+WHITEPAPER
+23
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+The Bluenote team has already started working with software vendors to find solutions to pull this data onto a
+distributed node. Many vendors that have a primary interest in selling the digital control hardware are
+motivated to find ways to make their hardware and software more useful to buildings, so they can sell more.
+● Building Automation Systems servers. Getting data out of a Building Automation System is more
+difficult than accessing utility metering data. Building Automation Systems typically involve servers
+with proprietary interfaces, and a back-end database (or databases) that store records of events in a
+chronological fashion. This is because Automation systems typically are used for command and
+control (output), not input. The Bluenote team will be working with the leading Building Automation
+System vendors to integrate APIs into the servers that allow for the one-way flow of data to a
+Bluenote node.
+● Building Energy Management Systems. In contrast to Building Automation Systems, Building Energy
+Management Systems are actually designed to give input and feedback to a building operator. These
+systems are typically built on a more accessible database structure, making API development to a
+Bluenote node easier.
+● Financial Management Software. The Bluenote Protocol seeks to break down the barriers between
+building operating data and financial data in order to draw a straight line from energy efficiency
+improvements to increases in a building’s profit. Yet, there are no consistent software mechanisms
+for financial data, with some larger ownership groups adopting software packages for multiple-owned
+buildings, while some buildings still operate on spreadsheets. The Bluenote team will work to find the
+simplest and most accessible financial information that can draw the needed insights.
+Building Inputs. Not all data will come in the form of an existing real-time data stream. There are many
+variables and data sources that have value to a building that are more static, descriptive, or infrequent. The
+Bluenote team will gather this data by developing an easy-to-use front-end for data input as a prototype.
+While other third-parties can develop their own, the Bluenote version will be seen as a model for what and
+how data should be collected. The front-end will allow for easy and regular collecting of the following data,
+and the connection of that data to individual data streams on a Bluenote node:
+● One-time data/annual data. Basic building data such as geographic location, building envelope,
+height, control systems, major mechanicals, contact information.
+● Quarterly Data. Non-routine changes to basic info, such as tenant occupancy levels or major
+investments.
+● Monthly Data. Month-specific data, such as utility expenses, operating expenses, income, and other
+variables.
+New hardware. As the IoT market evolves, there will be an even greater penetration of hardware and data
+service solutions that can serve the needs of the buildings and Bluenote. Bluenote will work with IoT hardware
+developers to make their new sensors and data acquisition servers to be ready to be integrated into the
+Bluenote Protocol at the option of the building. For hardware companies (such as those who want to sell
+thermostats, occupancy sensors, air quality sensors, or distributed lighting control), making their devices ready
+to participate in the Bluenote Protocol will allow them to focus on selling their core business - hardware -
+rather than having to develop their own software services as well. 
+WHITEPAPER
+24
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+THE BLUENOTE TOKEN
+The token used to implement the Bluenote Protocol is the Bluenote token. All transactions on the Protocol are
+made through the Bluenote token. The token itself has value - a price reflective of market demand for services,
+velocity of money in the market, market cap constraints, and the volume of transactions.
+How do you get bluenotes?
+You can receive bluenotes through one or all of the following methods:
+● Uploading Data. By uploading and connecting data to the Bluenote Protocol, you will be rewarded
+with Bluenote tokens based on the quality, frequency, and demand for the data you upload.
+● Buying on an Exchange. You can exchange fiat currency for Bluenote tokens on a public exchange.
+● Use of Your Data. Some types of modules scour raw data on the network to produce analytics for
+similar building types.
+What can you do with the Bluenote token?
+The Bluenote token can be used in the Bluenote Protocol’s marketplace to purchase services and products
+from Bluenote. You can also exchange the Bluenote token back into fiat currency on a public exchange.
+BLUENOTE PROTOCOL: THE MARKET
+1. Connects through existing systems like smart meters and building management systems, as well as
+building financial systems
+2. Verifies performance as to which specific technologies create the most value.
+3. Data is linked to a distributed ledger, so it can be audited to its source and trusted by everyone. It
+doesn’t go through the filter of existing proprietary systems which are designed to limit data access
+and insight.
+4. Participants are rewarded in Bluenote tokens for connecting their data to the protocol. Multiple
+industries in the energy value-chain can benefit from using the data on Bluenote Protocol to prove
+the value of business opportunities in real-time
+WHITEPAPER
+25
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+WHITEPAPER
+26
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+RECOMMENDATIONS MODULES
+Recommendations modules will be software analytics micro services that are developed by Bluenote using the
+protocol to identify inefficient operations in buildings, provide recommendations to buildings on energy
+efficiency strategies, calculate potential impact from different efficiency decisions, and conduct other insights
+using individual building data, as well as the large body of building data in the Bluenote community.
+Participants will pay for Recommendations Modules using the Bluenote token.
+While it is possible for a third-party provider to develop a module for a building as a stand-alone product, it is
+likely that the most impactful modules will be ones that leverage data from other buildings as the community
+grows.
+Individual buildings will be able to search for and choose third-party-developed recommendations modules to
+provide building analytics that fit their needs and avoid the need to establish an exclusive relationship with
+one provider or install new equipment for each vendor.
+Typically, third-party building analytics service providers today require a dedicated set-up for data to be sent
+from a building to their local server or cloud-based software, costing buildings thousands of dollars in up-front
+proprietary hardware and on-site server costs, or limiting buildings to a single provider. With the Bluenote
+Protocol, that building is already streaming data out of the building in a standardized format, reducing the
+transaction costs for a building to look around for data analytics services.
+ATTRIBUTE MODULES
+Even the first mathematicians needed to learn to count to 1 before they could discover zero. To get to a zero
+emission world, everybody needs to be able to understand what emissions we are creating and how, and
+whether the actions we are taking to reduce our emissions are having the desired impact. If we are to create
+markets and incentives to account for those reductions, we have to have the same confidence and proof with
+what is being reduced as the electric meter has with what is being produced.
+Typically, calculation of attributes in the energy sector, such as kilowatt-hour reduction or carbon emission
+reductions, are done by consulting firms and researchers that conduct Measurement and Verification studies
+to determine what was achieved by a building, a cumbersome process that can take months. Instead, an 
+WHITEPAPER
+27
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Attribute Module in the Bluenote economy can run that analysis using the building’s own data in real time,
+opening up new opportunities for participants and markets to value energy efficiency performance.
+The Bluenote Protocol will be an open and transparent network, allowing participating buildings to upload
+their raw performance data and receive a community-verified calculation of certain attributes of their
+performance – such as verified reduction of kilowatt-hours in real time, carbon impact, or financial and social
+impact – that is a permanent record that is traceable to its data source. The engines that run these analyses
+are Attribute Modules and are paid for in Bluenote token.
+It is possible for a third-party to develop an Attribute Module for a building as a stand-alone product, or it is
+possible for a third-party to develop an Attribute Module that leverages data from other buildings as the
+community grows.
+In the Bluenote economy, those individual buildings seeking to prove their performance, or government- or
+utility-run efficiency initiatives requiring pay-for-performance metrics, will be able to implement and use
+Attribute Modules that fit their needs. The Attributes Modules will allow the buildings or third-parties to avoid
+the need to establish an exclusive relationship with one evaluation provider or vendor.
+These modules process large data sets and combine data from multiple streams on the protocol - such as data
+from peer buildings, or weather data - to identify measurable results and document them as verified and
+transparent Attributes. With all data living on the open protocol, any Attribute or value can be audited straight
+back through to its source data, never under-counted or double-counted.
+Variety of Module possibilities
+An unlimited number of third-party module developers will be able to implement a range of module types,
+from simple modifications to Bluenote-developed reference modules using the datastream programming
+platform, all the way to advanced software suites.
+The Bluenote community will focus on creating standardized data formats on the protocol for a variety of
+inputs, inviting developers to take the lead to create products and modules designed for different stakeholders 
+WHITEPAPER
+28
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+and different needs. The Bluenote development team will be developing platform level solutions designed to
+both facilitate the use and discovery of data streams, applications and services.
+One of the essential features of Bluenote is to open up the possibility for app developers to integrate Energy
+Efficiency data with financial data, to create new insights and markets related to the impact of energy
+efficiency on asset value where is hasn’t been able to be associated before. The common feature is that all the
+applications will be integrated on the network
+WHITEPAPER
+29
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+HOW THE REWARD POOL WORKS
+The Reward Pool will be established to seed the Bluenote Protocol with quality building data and to facilitate
+data generation, uploads, and application deployment by third-parties, as a kickstart to the Bluenote token
+economy. Early on, participants gain tokens based on the uploading and connecting certain types of data to
+the protocol, with different token values based on the data type, quality, and frequency.
+The number of tokens rewarded for data depends on uniqueness of that data, and its relative value to the
+whole community. For example, the first building uploading its data will receive a larger token reward then the
+1000th building of a similar type. In this way the participants who help create the foundational data set, for
+either the whole economy (all data), or for an important sector of the economy (building financial data) get a
+larger reward.
+Virtuous cycle of data
+Bluenote creates a virtuous cycle for developers and data providers, allowing for buildings to anonymously
+share their data with the community as a whole, This distributed system avoids the need for start-up module
+developers to procure large building datasets separately. The freedom from having to procure data separately
+lets the developer focus on its core analytical expertise, while rewarding data based on its value incentivizes
+more sharing of higher quality data.
+
+WHITEPAPER
+31
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+BLUENOTE TOKEN
+Bluenote will issue an ERC20 standard token to power the Bluenote Protocol, ecosystem and economy, carried
+out via a Token Generation Event (TGE).
+Token Summary
+Token Name Bluenote
+Token Symbol BNOW
+Total Number of Tokens - Supply 12,500,000,000
+Total number of tokens for sale 6,250,000,000 50.00%
+Unsold tokens
+▪ Unsold tokens will be allocated to Bluenote World AG, which will not sell
+more than CHF 10 million per year in tokens, not before 2020.
+Fractions 18 decimals
+Blockchain Ethereum - ERC20
+Sale Period Private Sale
+From June 2018 until the end of
+November 2018.
+Public Sale December 2018
+Accepted Currencies BTC
+Minimum Goal CHF 2,500,000 (CHF 10 million has been raised as of December 2018)
+Maximum Goal
+(Public Sale + Private Sale) CHF 20,000,000
+Bonus Periods
+1st 200 million BNOW – 25% Bonus
+2nd 200 million BNOW – 15% Bonus
+3rd 200 million BNOW – 10% Bonus
+4th 200 million BNOW – 5% Bonus
+5th 200 million BNOW – No Bonus
+Total of 1,000,000,000 BNOW tokens available for the public sale.
+KYC (know your customer) Yes
+Token Price 1 Bluenote token = CHF 0.01
+Token Price in ETH Public Sale To be set at 24 hours prior to Public Sale
+Minimum Buy-in (Private Sale) CHF 2,500
+Minimum Buy-in (Public Sale) CHF 100
+Maximum Buy-in CHF 1,000,000
+*CHF = Swiss Francs (Swiss national currency)
+WHITEPAPER
+32
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Token Distribution
+Bluenote World AG will issue a total of 12,500,000,000 Bluenote tokens. These bluenotes will all be issued at
+the TGE and be distributed according to the illustration below. The process around the Bluenote token
+distribution will be communicated on the website prior to the TGE.
+WHITEPAPER
+33
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Category Allocation Description
+Public Sale 50% Tokens available in public sale are sold in a private sale, at the
+conclusion of which the remainder of tokens not sold, will be sold in a
+public sale, or sold on exchanges by Bluenote World AG.
+Reward Pool 20% The Reward Pool will be established to seed the Bluenote Protocol with
+quality building data and to facilitate data generation, uploads, and
+application deployment by third-parties, as a kickstart to the Bluenote
+token economy.
+Founders 20% Tokens allocated to the founders are subject to a vesting period of 24
+months. The vesting schedule will ensure long term goal alignment.
+Bluenote World AG 10% Tokens allocated to Bluenote World AG will be used to fund
+administration and operational items.
+WHITEPAPER
+34
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Use of Proceeds
+An efficient deployment of the proceeds will be crucial to the success of the protocol and the Bluenote
+ecosystem. At the minimum target level, the following operating costs will be required to achieve a minimum
+viable development of the Bluenote Protocol infrastructure and reference software, and to grow the Bluenote
+community.
+WHITEPAPER
+35
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Category Allocation Description
+Software 30% Building and maintaining the Bluenote Protocol is largely a software
+development effort and an ongoing exercise in innovation. The success is a
+function of the efforts and creativity applied, hence the “software”
+demands the majority of the proceeds from the TGE.
+Personnel 30% A relentless focus on innovation and efficiency requires a dedicated and
+highly skilled team of experts.
+Profiles ranging from Engineering to Marketing will help lift the protocol to
+its full potential and help release the massive value still locked-up in
+building energy efficiency.
+Marketing &
+Business
+Development
+30% Communications is of paramount importance when building a community
+and ensuring a worldwide adoption of a protocol like Bluenote.
+Continued Marketing, Communications and progressive Business
+Development is intended to keep ensure the successful execution of the
+solution as well as being essential to reach critical mass of the ecosystem.
+Operations 6% Security, reliability and availability will be the key drivers of the team
+operating the Bluenote Protocol.
+We are striving to combine these objectives with a lean organization, both
+technical and administrative.
+Regulatory and
+Compliance
+4% Ensuring a sound regulatory framework for the services will be important
+for adoption and growth of the network. Bluenote will work with both
+stakeholder organizations and regulators to allow for the most efficient
+execution of our vision.
+Security
+Bluenote World AG will take all measures to ensure a smooth and secure handling of the TGE process. Allowing
+investors and early adopters to enjoy full trust in the new ecosystem. The Ethereum smart contract used for
+the TGE will be audited to ensure compliance with best practices.
+Governance Mechanism
+The Bluenote Protocol is intended to play a key role in efficient real estate management and real estate
+investments. Future extensions to the protocol, partnerships as well as token utilization features can be posed
+for community voting. Voting power would be weighted based on the number of tokens (excluding any
+unrewarded Reward Pool tokens as well as all non-purchased “Public Sale” tokens).
+WHITEPAPER
+36
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+TOKEN SALE PROJECT FEATURES ROADMAP
+CHF 2,500,000 | MINIMUM TARGET
+Development of Bluenote Protocol infrastructure
+I.1 DISTRIBUTED FILE SYSTEM
+I.2 DATA FORMAT
+I.3 SMART CONTRACTS FOR DATA
+Network
+N.1 INITIAL BLUENOTE NODE
+N.2 MICROSERVICE UPLOADER
+N.3 MICROSERVICE MANAGEMENT
+N.4 DATA ACCESS INTERFACE
+App Platform
+P.1 PROGRAMMING ENGINE
+Recommendations Modules
+R.1 REAL-TIME BASELINE
+Attribute Modules
+A.1 VERIFIED ENERGY EFFICIENCY SAVINGS
+A.2 VERIFIED CHANGE IN ASSET VALUE
+Reference Software
+S.1 BUILDING ANALYTICS DASHBOARD
+WHITEPAPER
+37
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+CHF 5,000,000 | PHASE 2 BENCHMARK
+App Platform
+P.2 MARKETPLACE
+Network
+N.5 BUILDING DATA SEARCH
+Reference Software
+S.2 BUILDING DATA INPUT PORTAL
+CHF 10,000,000 | PHASE 3 BENCHMARK
+App Platform
+P.2 MARKETPLACE
+Network
+N.6 SELF-CONFIGURING NODE CONTAINER
+Recommendations Modules
+R.2 LOAD DISAGGREGATION
+R.3 CONTINUOUS COMMISSIONING
+R.4 MAJOR EQUIPMENT EFFICIENCY VALID.
+Attribute Modules
+A.3 VERIFIED CARBON EMISSION REDUCTION
+A.4 VERIFIED OPERATING COST SAVINGS
+Reference Software
+S.3 REAL-TIME PERFORMANCE DASHBOARD
+WHITEPAPER
+38
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+CHF 15,000,000 | PHASE 4 BENCHMARK
+Reference Software
+S.4 MEASUREMENT & VERIFICATION PORTAL
+
+WHITEPAPER
+40
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+BLUENOTE PROTOCOL: THE TECHNOLOGY
+Traditional data platforms centralize data in the hands of a single firm, controlling the market
+and locking-in participants. Bluenote’s platform enables product development but does not act
+as a data gatekeeper. Instead, data is managed by a decentralized network of nodes: the
+Bluenote Protocol. Openness, trust and a fair market for data are necessary to incentivize the
+beneficial sharing of confidential data such as energy usage, occupancy and financials.
+The protocol runs on a network of Nodes, packaged services connected through the network and maintaining
+a common ledger. Each node participates in a distributed file system, with a defined set of standard data
+formats and establishes a unified access architecture, called a slab hierarchy, for data streams from associated
+buildings.
+On top of the protocol and supported by the platform layer, a number of software modules operate,
+developed by both Bluenote and third parties. Buildings use Bluenote tokens, and associated smart contract.
+Nodes
+A node provides a number of services packaged into an easily installable unit. Each node provides data
+acquisition and storage, processing capacity using a dataflow programming language, a building database
+including a geometric hierarchy locating data sources, a web front end to access the service, APIs for
+uploaders, downloaders and custom modules.
+Decentralization goes beyond the nodes into the building blocks themselves. Building geometrical description,
+data streams, data stream uploaders, processing instances, processing module classes and smart contracts are
+all accessed through a b-link regardless of the actual node it is stored or executed on. 
+WHITEPAPER
+41
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Data
+Building energy, operations and financial data come from a wide variety of sources and in a wide variety of
+formats. The protocol aims at four main goals:
+● Distributing data to enable both scaling and confidentiality,
+● Formatting this information in order to integrate existing sources while being designed to support the
+growing flow of new real time sources (IoT),
+● Structuring the information in a geographical/geometric way that is logical and unambiguous,
+● Associating data with smart contracts to completely decentralize the trading and ensure trust through
+the blockchain.
+Bluenote’s protocol is defined by four basic elements relating to the structure and content of the community
+created repository of building data.
+Distributed file system. A single distributed file system tree is structured following a geographical and
+geometrical approach.
+Slab hierarchy. At every node, a number of subdirectories contain data streams related to this particular 3D
+volume (a slab).
+Data stream. Each standardized data stream device can be the product of real-world measurement, financial
+information or the product of a computation called an attribute.
+Smart contract. Along the data stream comes a smart contract describing how to access it using Bluenote
+tokens.
+Node Container. The technological stack for the establishment of a node on the Bluenote Protocol will be
+provided as a container, and will include a variety of widely supported open source solutions (IPFS, InfluxDB,
+Docker) to enable the functionality.
+WHITEPAPER
+42
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Application Layer
+On top of this very simple distributed protocol, a number of decentralized applications are deployed to
+organize, manage and add value to the data being shared. These fall into 2 categories: platform and product.
+Platform
+The platform enables product development. It handles
+data source identification, access control and discovery
+using semantics (metadata), 3D localization and content
+search. The platform manages the microservices but does
+not aggregate or store data itself.
+Products
+Products are the Bluenote-developed Recommendation
+Modules and Attribute Modules. Bluenote provides a
+standardized library and framework to process data
+streams into attributes and/or recommendation. 
+WHITEPAPER
+43
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+HOW BUILDINGS PARTICIPATE IN THE REAL WORLD
+To understand how the Bluenote Protocol and different modules will work in the real-world, we describe the
+journey of a building that will participate in the Bluenote Protocol. We will call this building the Johnson
+Building, a mid-rise office building of 37,000 sq. meters (400,000 sq. ft) that uses electricity for both cooling
+and heating.
+Uploading Data and Establishing a Node
+The Building first engages with the Bluenote Protocol by establishing its own data streams on its own node to
+connect with the network. In this case, it is being helped by an energy services company that specializes in the
+Bluenote Protocol. The building first:
+1. Creates a node for a distributed software package on its own cloud server or uses the
+already-established node of its energy services company.
+2. Uses a simple web interface product to upload static building information such as size,
+location, floor plate, building envelope, major mechanicals, and other data.
+3. Connects Bluenote-compatible hardware devices with its utility electricity meter and
+building automation system to provide a direct data upload of its real-time data to a data
+stream.
+4. Chooses to make a further small investment to install sensors to collect temperature, air
+quality, occupancy, and daylight data throughout its building, and maps the data streams
+to a 3D building model.
+Rewards for Data
+Participants gain tokens based on the uploading and connecting certain types of data to the protocol, with
+different token values based on the data type, quality, and frequency. In this scenario, the building chooses to
+share all of its data streams to be used by the data community. It receives the most tokens for its real-time
+data streams.
+WHITEPAPER
+44
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Confidentiality
+The four streams of data that the building has established in the node and connected to the Bluenote Protocol
+- static data, electric meter data, automation system data, and sensor data - are mapped as separate data
+streams with their own unique identifier. The decision to combine those data streams together, creating
+personally identifiable information, can only be made by the building by sharing the data stream keys for each
+data stream and identifying them as connected.
+Marketplace
+The building connects to the Module Marketplace developed by Bluenote to search and compare
+for building analytics software providers, review ratings and feedback.
+Recommendations Module
+The building decides to purchase two Recommendations Modules through the Marketplace.
+First, it selects a Recommendations Module that provides the building with an hourly baseline based on its
+historical electricity usage data, weather patterns, and occupancy patterns. It uses some of its reward tokens
+for the purchase of this module. The building shares its historical data stream ID, its base building static data
+stream ID for location data, and its occupancy data stream ID from its sensor data through the smart contract.
+Once accepted, the third-party module uses those IDs to identify the data locations and run its analysis
+module, with the output of the module becoming its own data stream with its own unique ID that is shared
+back with the building.
+WHITEPAPER
+45
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+The building wants to display the hourly baseline data stream from the module provider on a dashboard app,
+so it can track its performance against the baseline in real time. It adds the data stream to its Bluenotepartnered dashboard simply by entering the baseline data stream ID into the dashboard interface. The building
+will use this dashboard to display several pieces of relevant data to its building operators on a real time basis,
+all pulled from various module outputs.
+Now, the building wants to compare its energy intensity against substantially similar buildings. It visits the
+Marketplace to search for a second Recommendations Module to do just that.
+Attributes Module
+The building has partnered with its local utility to enroll in a pay-for-performance energy efficiency program,
+allowing the building to get paid on a cents-per-kilowatt hour basis for verified whole building energy
+efficiency reductions.
+As part of this program, the utility joins the Bluenote community and chooses an Attributes Module to
+calculate the verified energy efficiency performance of the building. Because the building has real-time data
+flowing in to the protocol, the utility is able to use an open source real-time measurement and verification
+Attributes Module that it has reviewed and trusts, that calculates the building’s real time energy performance
+vs. its modeled baseline to come up with an hourly kilowatt-hour saved metric.
+The utility receives as an output a data stream ID of a verified energy efficiency savings metric that is
+permanently traceable back to the source data of the building, avoiding the need to run a separate, offline,
+third-party statistical analysis that does not have access to all the building’s data.
+WHITEPAPER
+46
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Major Upgrade to Reduce Operating Costs and Increase Building Value
+The building is thoroughly enjoying its energy efficiency performance but knows it can do much more. It
+decides to do a major energy efficiency retrofit with a goal of reducing its energy consumption by 20% and its
+energy operating expenditures by 25%.
+The building returns to the Marketplace and chooses a Recommendations Module for conducting retrofit RFPs.
+In this module, the building provides its data stream IDs as part of a smart contract. Now, interested vendors
+that wish to bid on the major retrofit project would access the RFP and the building’s data that is now all
+sitting in one place in an easily processable format. They enter into their own smart contract to receive the
+data stream IDs. and produce as an output back to the building their bid and estimated energy and costs
+savings for each piece of the project, and the project as a whole.
+WHITEPAPER
+47
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+INITIAL PRODUCT DEVELOPMENT STATUS
+APP PLATFORM
+P.1 Data Search / Viewer
+A frontend portal and associated API for the search and identification of distributed data
+streams connected with the Bluenote Protocol.
+Status: In Development
+Developed by: Bluenote Team
+P.2 Marketplace
+An easy-to-use marketplace interface to enable building operators and managers, energy
+analysis companies, and utility and government participants to find, evaluate, and chose
+Recommendations and Attributes Module.
+Status: In Development
+Developed by: Bluenote Team
+RECOMMENDATIONS MODULES
+R.1 Real-time Baseline
+A calculation of a building’s historical baseline of energy usage as a function of its historical
+usage on weather-normalized and occupancy-normalized days/hours. This baseline can be
+provided back to the building in real time for use in dashboard or monitoring software.
+Status: Pilot Deployed in Commercial Buildings
+Developed by: Bluenote Team
+R.2 Load Disaggregation
+Using sub-metering data and machine-learning to identify individual electrical loads by the
+second-by-second energy usage signature, allowing buildings to understand what building
+equipment is using energy when.
+Status: Planned
+Developed by: Partner Company
+R.3 Continuous Commissioning
+Using building automation system data to identify equipment settings that are outside of
+design parameters, identify malfunctioning equipment, predict failures and recommend
+energy savings measures.
+WHITEPAPER
+48
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Status: Planned
+Developed by: Partner Company
+R.4 Major Equipment Efficiency Validation
+Using data from other buildings in the protocol, buildings would be able to model the realworld results of a planned equipment upgrade or efficiency measure to determine whether it
+would achieve the desired results.
+Status: Planned
+Developed by: Bluenote Team
+ATTRIBUTES MODULES
+A.1 Verified Energy Efficiency Savings (KWH)
+A calculation of a building’s verified kilowatt-hour reduction for each hour in a year as a
+function of the difference between its hourly usage and its Real-Time Baseline
+Recommendations Module (historical usage on weather-normalized and occupancynormalized days/hours) prediction, combined with a demonstration of action taken.
+Status: Pilot Deployed in Commercial Buildings
+Developed by: Bluenote Team
+A.2 Verified Change In Asset Value
+A function of the Bluenote retrofit building’s net revenue vs. net expenses and its
+capitalization rate vs. the previous asset valuation.
+Status: Modeling
+Developed by: Bluenote Team
+A.3 Verified Carbon Emission Reduction (CO2)
+A calculation of a building’s carbon dioxide emission reduction as a function of its verified
+kilowatt-hour reduction attribute for each hour, and the corresponding marginal emissions
+data for the corresponding hour.
+Status: Pilot Deployed in Commercial Buildings
+Developed by: Bluenote Team
+WHITEPAPER
+49
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+A.4 Verified Operating Cost Savings
+A calculation of the Bluenote retrofit building’s operating costs vs. its previous operating
+costs. The attribute would be calculated using operational cost and expense data, as well as
+static data, to drive the analysis.
+Status: Modeling
+Developed by: Bluenote Team
+REFERENCE SOFTWARE
+S.1 Building Analytics Dashboard
+A reference software that demonstrates the combination of Recommendations Modules and
+Attribute Modules to provide meaningful insights to building operators, owners, and
+financers in real time.
+Status: Pilot Deployed in Commercial Buildings
+Developed by: Partner
+S.2 Building Data Input Portal
+A reference software that enables easy data entry of building static values that feed into a
+data stream on the Bluenote Protocol. By providing an easy entry point for a building to
+enter core building data without specialized coding knowledge, the universe of building
+participants will increase.
+Status: In Development
+Developed by: Partner
+S.3 Real-Time Performance Dashboard
+A reference software that demonstrates the combination of Recommendations Modules and
+Attribute Modules to provide real-time measurement and verification of a building’s energy
+and financial performance, usable by utility energy efficiency programs, building investors, or
+management to track live asset performance.
+Status: In Development
+Developed by: Partner
+S.4 Measurement & Verification Portal
+A reference software that demonstrates how utilities, lenders, tenants, and brokers can
+easily access the data stream outputs of chosen Attributes Modules that provide
+measurement and verification of energy efficiency returns and community-support
+validation.
+Status: In Development
+WHITEPAPER
+50
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Developed by: Partner
+S.5 Integrated Datastream Dev Environment
+A reference application enabling the visual creation of specific programs mathematically
+chaining various streams into added value attributed or recommendations.
+Status: In Development
+Developed by: Partner
+BLUENOTE PROTOCOL
+I.1 Distributed File System
+A hierarchical distributed file and device system enables the integration of geographically
+and geometrically distributed data into a single tree. Each leaf corresponds to a logical
+boundary and can be accessed through a unique identifier.
+Status: In Development
+Developed by: Bluenote Team
+I.2 Data Format
+Data streams representing time series are provided under a very uniform format enabling
+their integration into a unified and flexible processing architecture. Under such description,
+static data is considered degenerate time series and can be integrated seamlessly.
+Status: In Development
+Developed by: Bluenote Team
+I.3 Smart Contracts For Data
+Data streams available through the distributed file system support their own permission
+through an associated smart contract.
+Status: In Development
+Developed by: Bluenote Team
+WHITEPAPER
+51
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+PLATFORM
+N.1 Initial Bluenote Note
+The initial deployment of the protocol and initial data streams will be hosted on Bluenote’s
+servers in order to start capturing data streams as early as possible. Initial applications and
+services will accordingly be also hosted but designed for decentralization.
+Status: In Development
+Developed by: Bluenote Team
+N.2 Microservice Uploader
+Each real time data stream is handled by a corresponding data stream microservice. Its
+configuration and type establish the gateway from an external data source, regardless of
+interface and the unified Bluenote Data Stream protocol.
+Status: In Development
+Developed by: Bluenote Team
+N.3 Microservice Management
+On each node, microservice status and configuration is handled by a specific web application.
+This management includes establishing and managing smart contracts, access rights and
+confidentiality conditions, as well as logging accesses and uses.
+Status: In Development
+Developed by: Bluenote Team
+N.4 Data Access Interface
+Microservices expose a unified interface to both dataflow programs developed in Bluenote’s
+IDE or third-party applications. A very basic JSON interface returns for a given time interval a
+unit, and two-time series: one reporting the actual value and the second the estimated
+precision.
+Status: In Development
+Developed by: Bluenote Team
+N.5 Building Data Search
+A reference software that demonstrates specific data streams corresponding to precise
+conditions can be found in the overall hierarchy. Basic searches include local climate or
+building characteristic. More advanced searches include processing on the data itself such as
+identifying buildings for which energy performance drops when both wind and temperature
+difference between indoors/outdoors are high.
+Status: In Development
+Developed by: Bluenote Team
+WHITEPAPER
+52
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+N.6 Self-Configuring Node Container
+A reference Docker container will be provided to simplify the deployment of independent
+nodes. Nodes both provide support for the protocol, explicitly hosting a particular part of the
+data hierarchy and support for applications such as specifically configured dashboards,
+portals and infrastructure monitoring.
+Status: In Development
+Developed by: Bluenote Team
+WHITEPAPER
+53
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+USE CASES
+To serve the needs of the building energy efficiency market, the Bluenote team will develop several distinct
+Recommendations Modules and Attributes Modules to demonstrate the capabilities of the Bluenote Protocol.
+The three use cases included here include some of the reference modules that will be developed with the
+proceeds of the Bluenote token sale.
+1.1 BUILDING ANALYTICS USE CASE
+The Bluenote Protocol will allow participants to gain insights from its large body of building data, running
+analytics to help individual building operators to identify best performing solutions and compare across the
+universe of building data on the network. By gathering and aggregating building data from a large population
+of buildings, Bluenote is creating new ways of looking at building performance and better understanding the
+contribution of each subsystem or upgrade.
+Recommendations Modules – Recommendations modules will be software microservices that live on the
+platform and are paid for with Bluenote tokens. Recommendations modules would use as inputs both
+individual and whole-market building-supplied data on building type, envelope, major equipment, lighting,
+plug loads, specific energy efficiency measures, and operations.
+Load Disaggregation Recommendation Module (R.2) Example
+Using sub-metering data and machine-learning to identify individual electrical loads by the second-by-second
+energy usage signature, allowing buildings to understand what building equipment is using energy when.
+WHITEPAPER
+54
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+1.2 BUILDING OPERATIONS USE CASE
+The Bluenote Protocol will also allow for more transactional modules that can be tied in to government- or
+utility-led energy efficiency incentive programs, allowing those programs to track verified energy savings or
+carbon emission savings from the buildings completely within the protocol. A Building Operations Module will
+demonstrate how a Recommendation Module can be combined with Attributes Modules to fill a gap in the
+energy efficiency market today.
+Many buildings have implemented real-time monitoring of electricity usage data, but they lack the ability to
+interpret their real-time usage to know whether it is higher than it should be in any given moment, and why.
+What they are left with is a meaningless number or gauge. A Real-Time Baseline module will be implemented
+that will allow buildings to track their energy usage in real time as compared to a trusted and verifiable hourly
+energy usage baseline. This baseline would be generated from their historical usage data stored on the
+platform and use intelligence from substantially-similar buildings elsewhere on the platform.
+The building would be able to then turn their performance against that baseline into attributes of verifiable
+energy savings. Blue is working with local utilities and government energy efficiency program administrators in
+certain geographies to allow for those attributes to be turned into performance-based incentives. They will be
+able to prove the verified energy efficiency savings or carbon reduction attributes through the token-based
+protocol, replacing the utility’s traditional measurement and verification (M&V) process.
+Real-Time Baseline Recommendation Module (R.1) Example
+A calculation of a building’s historical baseline of energy usage as a function of its historical usage on weathernormalized and occupancy-normalized days/hours. This baseline can be provided back to the building in real
+time for use in dashboard or monitoring software.
+WHITEPAPER
+55
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Verified Energy Efficiency Savings (Kilowatt-Hour Reduction) Attribute Module
+(A.4)
+A calculation a building’s verified kilowatt-hour reduction for each hour in a year as a function of the difference
+between its hourly usage and its Real-Time Baseline Recommendation Module (historical usage on weathernormalized and occupancy-normalized days/hours) prediction, combined with a demonstration of action
+taken.
+Verified CO2 Reduction Attribute Module (A.3)
+A calculation of the Blue retrofit building’s carbon dioxide emissions vs. its previous emissions or the emissions
+of substantially similar buildings. The attribute would be calculated using operational data and static data to
+drive the analysis.
+WHITEPAPER
+56
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+1.3 WHOLE BUILDING RETROFIT USE CASE
+One of the first use cases of the Bluenote will be verification of the financial and energy performance of
+buildings that focus on energy efficiency strategies as value-enhancing investments. The goal of these building
+pilots is to demonstrate that energy efficiency strategies can be capitalized into the building’s asset value
+through a reduction in operating costs.
+The buildings will upload data to the protocol to provide an open, transparent, and auditable data chain that
+can be used to verify its achievement of those values. By sharing the data, the Bluenote retrofit buildings will
+demonstrate to building owners, managers, and investors around the world replicable ways to improve the
+financial performance of buildings through energy efficiency and emission reduction strategies.
+Bluenote retrofit buildings will upload several streams of data to the protocol in different intervals:
+● One-Time Data. Some data, like traditional real estate acquisition data, and static physical data
+dealing with location, building construction, and height, would likely only need to be uploaded one
+time as well as Annual Data,
+● Some data would need to be uploaded each year, including major equipment installed,
+● Monthly Data. Monthly data related to operating expenses, utility bills and rental income, would be
+uploaded monthly,
+● Hourly/Sub-Hourly Data. Building electricity data would be uploaded hourly or sub-hourly (by the
+minute) to the platform, allowing for real-time monitoring and measurement of performance.
+Attributes – To prove that a building is increasing its value by lowering operating costs, it will need to
+demonstrate this through a series of verified metrics called Attributes. As a reminder, Attributes are outputs
+from data analysis modules that use the data on the platform – supplied by the building and available from
+other uploaders – to verify the results of the building’s activity to improve its energy usage. At a minimum, the
+Bluenote’s retrofit pilot projects will produce the following Attributes:
+● Verified Operating Costs Savings (A.4)
+● Verified Change in Asset Value (A.2)
+WHITEPAPER
+57
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+Verified Operating Costs Savings ($/SQ. METER/YR.) (A.4)
+A calculation of the Bluenote retrofit building’s operating costs vs. its previous operating costs or the operating
+costs of substantially similar buildings. The attribute would be calculated use operational cost and expense
+data, as well as static data, to drive the analysis.
+Verified Change in Asset Value (A.2)
+A function of the Bluenote retrofit building’s net revenue vs. net expenses and its capitalization rate vs. the
+previous asset valuation. This is a traditional financial Commercial Real Estate financial model that uses
+Bluenote’s energy modules to validate the source of OPEX cash flow change.
+
+WHITEPAPER
+59
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+HOW DOES THE ECOSYSTEM SCALE?
+The Bluenote economy requires, and will achieve, a large community of building participants. Getting buildings
+to adopt the protocol and use the Bluenote token to purchases services will take significant effort through
+multiple channels. The most direct channel - the building operators and managers themselves - is likely the
+least interested in a token-based market. Building operators are often old-school, navigating the influx of data
+in a building the way cautiously and skeptically. They will need help.
+The main channels through which the Bluenote team will reach buildings include:
+1. Direct to Buildings Operators and Engineers,
+2. Leveraging building energy consulting and data service legwork,
+3. Through Utilities and Governments pursuing data-centric energy efficiency programs,
+4. In partnership with building ownership groups,
+5. Embedded in building and IOT technology
+The most likely people to help building operators upload data and connect to the Bluenote Protocol are other
+actors in their market orbit: utilities, property owners, efficiency services companies, and building technology
+hardware and software companies. History has proven that working through these adoption channels does not
+provide linear scalability. Adoption is lumpy. For example, a property management group will likely decide to
+implement the Bluenote Protocol and engage in the marketplace in one effort, after they have experience with
+the Bluenote in a test building. Similarly, utility and government incentives and partnerships to achieve new
+energy efficiency savings and to measure energy efficiency performance will be implemented region by region
+WHITEPAPER
+60
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+BUILDING ADOPTION
+In order to rapidly scale into the marketplace and drive building adoption, Bluenote will establish channel
+partnerships that already play a role in the building life cycle. Because of the flexibility of the Bluenote
+Protocol, we can approach the market from multiple complementary industries. The Bluenote team has deep
+experience working in these markets and have long-established relationships with decision makers. While each
+of these types of partners may have a slightly different incentive for adopting the Bluenote Protocol, in each
+case success of the overall Bluenote Economy means individual success for the participating partner as well.
+Potential partnership companies fall under two types:
+Internal Controllers
+Companies that have direct access to building equipment functions and performance. These companies are
+responsible for the day-to-day operational success and management of the building.
+1. Energy Service Companies
+2. Building Management Companies and Engineers
+3. Owner/Operators
+External Influencers
+Companies that do not participate in the day-to-day operations of the building, but have the ability to
+influence day-to-day decisions, either through offering market-based and policy-based incentives or through
+exerting fiduciary or financial control.
+1. Developers
+2. Real estate investors
+3. Institutional lenders
+4. Utilities
+5. Government and energy regulators
+WHITEPAPER
+61
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+INTEGRATING THE BLUENOTE PROTOCOL INTO
+EXISTING TECHNOLOGY
+Ultimately, the Bluenote Protocol will be best able to accelerate market adoption when partners that already
+have existing equipment in buildings, and further sales channels in those buildings, agree to integrate the
+Bluenote Protocol into their hardware and software. This integration will allow the Bluenote Protocol to reach
+buildings with which it does not have a primary or secondary relationship and allow those hardware and
+software vendors to provide new value-adding services to their current and prospective customers.
+Software vendors
+The Bluenote team is in discussion with several software-as-a-service energy and building information system
+platforms to integrate the Bluenote Protocol into the software delivery function. The Bluenote team is
+proposing not to replace these software companies as a provider of services to buildings, but rather get the
+software providers to embed the Bluenote Protocol into their software’s data collection processes, with the
+ultimate goal of establishing these software vendors as third-party applications in the Bluenote economy and
+enabling easier access to their customer’s data.
+Hardware vendors
+The Bluenote team will be working with large and small hardware vendors that have a significant presence or
+potential in the commercial building industry to integrate the Bluenote Protocol into their devices. Bluenote
+will work to establish hardware partnerships in 2018 and, depending on the availability of funds, establish
+hardware pilots in buildings to test the implementation of Bluenote Protocol-integrated devices.
+● IOT Devices. Distributed Internet of Things devices often contain a data acquisition server on the site
+of a building. The team will work with hardware vendors to allow for the data acquisition servers to
+upload to their own established Bluenote Protocol nodes through the standardized data format.
+When no server exists on-site, Bluenote will work with the IOT companies to make the Bluenote
+Protocol node their cloud storage mechanism.
+● Building Automation/Energy Systems (BAS/BEMS). Typically, Building Automation Systems and
+Building Energy Management Systems are closed hardware servers that sit on the site of a building
+and provider direct input and control to the building engineer. The team will work with the BAS/BEMS
+companies to develop one-way real time export of their data records to a Bluenote Protocol node,
+ensuring cybersecurity best practices that prevent data downloads or control of building control
+systems.
+● Meters and Submeters. With the recent mass deployment of intelligent metering systems by utilities
+throughout the world, there presents new opportunities to collect interval metering data, and stream
+in instantaneously, or with a short delay, to Bluenote nodes. The team will work with metering and
+submetering companies to integrate firmware and software into metering systems that allow for the
+direct transmission of meter data to Bluenote nodes. 
+WHITEPAPER
+62
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+GEOGRAPHIC FOCUS
+Bluenote will focus on driving adoption in key cities that first and foremost exhibit strong real estate
+fundamentals but are also coupled with relatively high energy prices and intense energy usage throughout the
+year.
+While we envision the Bluenote Protocol as a technology that can be deployed globally, from a practical point
+of view, the team will initially focus on driving market adoption in cities that have strong technical
+fundamentals where we also have pre-existing relationships. Bluenote will first target cities where we have
+existing relationships with one or more “Internal controller” partners plus one or more “external influencer”
+partners.
+We will use those initial markets as a way to test and validate some of the best performing solutions and
+demonstrate the benefit of the Bluenote Protocol. This initial success will not only drive organic market
+adoption in the new cities but will also allow the team to leverage those initial successes to establish new
+channel partnerships. Because channel partners touch different aspects of the commercial real estate industry,
+showing how each channel can be effective will allow for additional and cities to adopt the method that best
+fits the local environment.
+The following cities have strong potential as initial locations. Bluenote team has strong pre-existing
+relationships with potential partners, as well as strong fundamentals potential for building performance in
+each of these cities.
+North America
+● Chicago
+● Los Angeles
+● Austin
+● Boston
+● Honolulu
+● Houston
+● Seattle
+Europe
+● Amsterdam
+● Rotterdam
+● Berlin
+● Dusseldorf
+Middle East & Asia
+● Dubai
+● Tokyo
+● Singapore
+WHITEPAPER
+63
+BLUENOTE.WORLD
+DRAFT version 0.99.c. Content subject to change
+LONG-TERM SUSTAINABILITY OF THE BLUENOTE
+INFRASTRUCTURE
+As the economy of the Bluenote ecosystem continues to grow over time, there are costs to maintain the
+Bluenote Protocol infrastructure, which represent the significant scaling challenges of a nodal data system and
+marketplace. The proceeds from the Bluenote token sale will support the continued initial development of the
+Bluenote Protocol infrastructure, but ongoing expansion will need to be funded through a broad and low
+transaction fee from the marketplace, plus revenue from Bluenote-produced modules.
+Module Revenue
+Products developed by the Bluenote team and market tools will not be the exclusive products in the module
+marketplace. However, they will be priced nominally to provide ongoing support for the growth of the
+Bluenote community and infrastructure.
+Community Voting on New Investments
+Bluenote token holder will be able to vote on Bluenote infrastructure development investments to direct
+where these funds would go, including Node development, module prototype development, front-end
+development, marketplace enhancements, and pilot projects.
+64
+WHITEPAPER
+HISTORY
+Blue City Solutions (“Blue”), the global coalition that helps
+improve people’s lives by testing, sharing and implementing the
+best smart city solutions, officially launches at COP21 in Paris.
+Blue hosts an open innovation debate for stakeholders from the
+international energy world at the Blue Horizon event in
+Amsterdam, where commercial real estate is discussed as the
+largest singular source of carbon emissions in cities.
+Blue initiates a project to develop a protocol that enables the
+global real estate market to track energy efficiency live: the
+Bluenote project.
+The Bluenote project team is formed with the goal to develop a
+protocol that powers an independent, decentralized economy
+that helps to optimize energy efficiency for commercial real
+estate around the world.
+Everyone who passes the KYC process can participate in the
+Bluenote token investment pool and in the economics of
+Bluenote token performance. Bluenote tokens are based on the
+Ethereum blockchain ERC20 Token Standard.
+Bluenote will launch the world’s first open-data, real-time building
+performance protocol to benchmark and verify each building’s
+energy, emissions and financial data..
+December 2015
+Launch
+May 2016
+Discuss
+September 2016
+Focus
+February 2017
+Open
+Fall 2018
+Share a token
+generation event
+2018
+Build realtime energy
+reporting
+65
+B L UENO TE. W O R L D 
+WHITEPAPER
+ORGANIZATION
+Jeremy Adelman
+Energy and Business Models
+Jeremy is a serial entrepreneur and investor. He co-founded
+Energy Foundry, a Chicago-based, energy-focused venture capital
+firm and led deals in energy efficiency technology, distributed
+renewable generation technology, advanced building efficiency
+and oil & gas. He was also Managing Director of the Smart Grid
+Cluster which created more than $120M in growth for innovative
+energy companies.
+Andrew Barbeau
+Energy and innovation policy
+Andrew has helped companies, governments and not-for-profits
+working to advance clean tech, smart cities, innovative
+government and economic development projects at a local and
+global scale.
+Hester Kranendonk
+Community management
+Hester is a successful international corporate law and finance
+attorney, who has decided to pursue her career in sustainable
+business projects and will develop, guard and coordinate the
+relationships between the various participants in the Bluenote
+ecosystem.
+Philippe Tarbouriech
+Technology development
+Philippe is a multidisciplinary technologist with over 20 years of
+European and US-based experience at technology start-ups and
+large international organizations. Philippe operates best at the
+crossroads between business, technology and marketing.
+Recently, Philippe won the Climate Fintech Hackathon at the
+Sustainable FinTech conference in Zurich.
+Core Team
+66
+B L UENO TE. W O R L D
+WHITEPAPER
+Hans Tobé
+Finance
+Hans is co-founder and CFO of Blue and previously worked in
+financial roles in international business for over 25 years. In has
+last role, Hans was responsible for finance and operations at the
+Netherlands Council for Trade Promotion for over a decade,
+responsible for the business support infrastructure in over
+20 countries.
+Quintus Abeln
+Legal
+Quintus has over 35 years of legal experience and is founder of
+Abeln Advocaten, an independent law firm with offices in
+Amsterdam and Paris.
+Michiel Frackers
+Chairman
+Michiel is co-founder and chairman of non profit foundation Blue
+City Solutions (‘Blue’) that leads a global transition to zero emission
+cities by identifying, financing and deploying the best performing
+solutions. He previously founded Planet Internet, the largest
+internet company in the Netherlands (acquired by Royal Dutch
+Telecom KPN) and subsequently invested in technology and media
+startups such as Flabber (acquired by Vice).
+Board members
+67
+B L UENO TE. W O R L D 
+WHITEPAPER
+Chad Blevins
+Financial and data analysis
+Chad is Co-Founder and Managing Director at Grid Economics.
+His clients have included an international real estate developer
+integrating energy into their investments, an international
+organization supporting cooperatives and municipalities with
+economic analysis of energy risk mitigation options and many of
+the world’s most successful solar development and grid-edge
+companies. Chad has built financial models for more than a billion
+dollars worth of PV projects.
+Greg Cooper
+Commercial Real Estate
+Greg is a broker associate at Sotheby’s International Realty. Greg’s
+personal practice specializes in working with developers, builders
+and multifamily projects.
+Francisco Gordillo
+Blockchain strategy
+Francisco is a serial entrepreneur and seasoned executive at
+international technology and media companies. His primary areas
+of expertise are Fintech, Insurtech, Blockchain, cryptocurrencies,
+Bitcoin, Ethereum, smart-contracts and cryptography.
+Advisors
+68
+B L UENO TE. W O R L D
+WHITEPAPER
+CONTACT
+https://bluenote.world
+info@bluenote.world
+https://t.me/bluenote_world
+https://medium.com/@social_72385
+https://twitter.com/bluenote_world
+https://www.linkedin.com/company/11350676/
+https://www.facebook.com/bluenote.world
+69
+B L UENO TE. W O R L D 
+WHITEPAPER
+REFERENCES
+• DEC New York State – Inventory of New York City Greenhous Gas Emissions in 2015 – April
+2017
+• UNEP, United Nations Environment Programme – Why Buildings – Article
+• IPCC, Intergovernmental Panel on Climate Change – Assessment Report, Chapter 9 Buildings
+• Berkeley Lab – Impact of Energy Use and Price Variations on Default Risk in Commercial
+Mortgages Report – September 2017
+• McKinsey & Company – Pathways to a Low-Carbon Economy Report - 2009
+• Energy In Demand - The lessons from utilities’ energy efficiency programmes for spending
+carbon pricing revenues effectively – Article, January 2018
+• IEA, International Energy Agency - Energy Efficiency Market Report 2016 – October 2016
+• Rockefeller Foundation - United States Building Energy Efficiency Retrofits Report – March
+2012
+• Navigant Research – The Global Penetration of Smart Meters is Expected to Reach
+Approximately 53% by the End of 2025 – Article, 2017
+• Global Commercial Real Estate - Global Market Research Report – April 2017
+70
+B L UENO TE. W O R L D
+WHITEPAPER
+71
+BLUENOTE.WORLD
+DRAFT version 0.99.9. Content subject to change
+GLOSSARY
+Attribute An Attribute (the product of an Attribute Module) is a community-verified
+calculation of a building’s performance – such as verified reduction of
+kilowatt-hours in real time, carbon impact, or financial and social impact –
+that is a permanent record that is traceable to its data source.
+BAS Building Automation Systems
+BEMS Building Energy Management Systems
+CHF Swiss Francs (Swiss national currency)
+CRE Commercial Real Estate
+ESCO Energy Service Company
+Module A module is an application (developed by Bluenote or a third party) that runs
+using data from the Bluenote Protocol. It accepts Bluenote tokens as
+payment and rewards data sources according to Protocol rules.
+Node A node is a distributed server on the Bluenote Protocol that contains building
+data, third-party applications, or other Bluenote elements.
+NOI Net Operating Income
+Platform The platform enables product development. It handles data source
+identification and discovery using semantics (metadata), 3D localization and
+content search. The platform manages the microservices but does not
+aggregate or store data itself.
+Private Sale Early investments by invitation only.
+Protocol A set of rules governing the exchange or transmission of data between
+devices. The protocol describes the file format, the trading contracts and
+access control.
+Public Sale Sale open to the public via the bluenote.world website
+Recommendation A recommendation module is a software analytics microservice using the
+protocol to identify inefficient operations in buildings, provide
+recommendations to buildings on energy efficiency strategies, calculate
+potential impact from different efficiency decisions, and conduct other
+insights using individual building data.
+Slab A slab is a 3D volume (a vertically extruded polyline) used to identify a specific
+geographic region, building or sub volume (floor, room, window). Slabs are
+organized in a hierarchy and map to real estate ownership.
+Stream A data stream is a microservice exposing static or real-time data on the
+Protocol.
+Bluenote AG, Gotthardstrasse 26, Zug 6300, Switzerland, info@bluenote.world

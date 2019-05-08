@@ -1,0 +1,976 @@
+﻿NKN: a Scalable Self-Evolving and Self-Incentivized Decentralized Network
+NKN  Lab
+www.nkn.org
+(Dated: March 13, 2018                                                                                    Version:  1.0)
+NKN  (New  Kind  of  Network)  is  a  new  generation  of  highly  scalable,  self-evolving  and  self-
+incentivized blockchain network infrastructure.  NKN addresses the network decentralization and
+self-evolution by introducing Cellular Automata (CA) methodology [1, 2] for both dynamism and
+efficiency. NKN tokenizes network connectivity and data transmission capacity by a novel and use-
+ful Proof of Work.  NKN focuses on decentralizing network resources, similar to how Bitcoin  [3]
+and Ethereum [4] decentralize computing power as well as how IPFS [5] and Filecoin[6] decentralize
+storage.  Together,  they form the three pillars of the Internet infrastructure for next generation
+blockchain systems.  NKN ultimately makes the network more decentralized, efficient, equalized,
+robust and secure, thus enabling healthier, safer, and more open Internet.
+CONTENTS
+1.                                                                                                        Challenges                                                        2
+                                                                                                          1.1. Limitations of P2P Networks                                  2
+                                                                                                          1.2. Resource Utilization                                         2
+                                                                                                          1.3. Net Neutrality & Fragmentation                               2
+2.                                                                                                        Vision                                                            2
+                                                                                                          2.1. Objectives of NKN                                            2
+                                                                                                          2.2. The Third Pillar: Networking                                 3
+                                                                                                          2.3. Elementary Components                                        3
+                                                                                                          2.4. Networking toolkit for Fast and Painless DApp Development    4
+3.                                                                                                        Technology Foundations                                            4
+                                                                                                          3.1. Cellular Automata                                            4
+                                                                                                          3.2. Rules as Formulas                                            5
+4.                                                                                                        New Kind of Network                                               5
+                                                                                                          4.1. Next Generation Decentralized Network                        5
+                                                                                                          4.2. A Useful Proof of Work                                       6
+                                                                                                          4.3. Network Topology and Routing                                 6
+                                                                                                          4.3.1. Dynamics                                                   7
+                                                                                                          4.3.2. Self-Organization                                          7
+                                                                                                          4.3.3. Self-Evolution                                             8
+                                                                                                          4.4. Efficient Decentralization                                   8
+5.                                                                                                        Cellular Automata Powered Consensus                               8
+                                                                                                          5.1. Mainstream Consensus                                         8
+                                                                                                          5.2. Cellular Automata Powered Consensus                          9
+                                                                                                          5.2.1. Scalability Issue of BFT and PBFT                          9
+                                                                                                          5.2.2. Consensus in Cellular Automata Described by Ising Model    9
+                                                                                                          5.2.3. Ising Model                                                9
+                                                                                                          5.2.4. Link Between Cellular Automata and Ising Model             10
+                                                                                                          5.2.5. Majority Vote Cellular Automata as a Consensus Algorithm   10
+                                                                                                          5.2.6. Randomized Neighbors                                       10
+                                                                                                          5.2.7. Simulations of CA Consensus Algorithm                      11
+                                                                                                          5.2.8. Extension to Asynchronous and Unreliable Networks          11
+                                                                                                          5.3. Proof of Relay                                               11
+                                                                                                          5.4. Potential Attacks                                            12
+6.                                                                                                        Conclusions                                                       13
+                                                                                                          References                                                        14
+
+
+
+
+2
+1.    CHALLENGES                                               1.2.   Resource Utilization
+After years of transmutation, the Internet is in dan-          A highly reliable, secure and diverse Internet is essen-
+ger of losing its original vision and  spirit.   For exam-     tial to everyone. Yet, huge inefficiency exists in the cur-
+ple, Network Neutrality is overturned [7]; spectrum and        rent network when providing global connectivity and in-
+bandwidth are not efficiently utilized; information is frag-   formation transmission. It’s time to rebuild the network
+mented and can be censored; privacy protection is lim-         we want, not just patch the network we have.  A fully
+ited. These signal that the network needs a reform.            decentralized and anonymous peer-to-peer system offers
+                                                               huge potential in terms of improved efficiency, sustain-
+Existing solutions are not suitable for next generation
+                                                               ability and safety for industry and society.
+blockchain systems due to the following reasons:
+• Utilize a centralized approach to improve efficiency.
+                                                               1.3.   Net Neutrality & Fragmentation
+• Sacrifice the scalability of the network to speed up
+                                                               When   the   Federal   Communications   Commission
+consensus.
+                                                               (FCC) approved a measure to remove the net neutral-
+                                                               ity rules by the end of 2017 [7], a demand of ending our
+• Limit participation rate of nodes or require autho-          reliance on big telecommunication monopolies and build-
+rization to increase “security”.                               ing decentralized, affordable, locally owned Internet in-
+                                                               frastructure becomes ever stronger. The unrestricted and
+                                                               private Internet access environment is becoming unsus-
+• Use purely financial motivations or trusted third
+                                                               tainable under an endless stream of attacks and blockage,
+parties to solve problems which should be solved
+                                                               leading to selective and biased information propagation.
+by mathematics and technology.
+                                                               Without a proper incentivizing engagement scheme,  it
+                                                               is almost impossible to maintain a constant and secured
+                                                               information propagation channel.
+1.1.   Limitations of P2P Networks                             Furthermore, Internet has become fragmented due to
+                                                               various reasons. This not only exacerbates separation but
+                                                               also negatively impacts innovation of science, technology
+Peer-to-peer (P2P) networks currently face several ma-
+                                                               and economy.
+jor  challenges,  which  are  the  opportunities  for  NKN.
+First static network topology is vulnerable to faulty and
+malicious  attack.   Second,  there  is  no  economic  self-
+2.    VISION
+incentivized scheme for network connectivity and data
+transmission. Finally, network scalability is widely sacri-
+                                                               NKN intends to revolutionize the entire network tech-
+ficed to enhance controllability. These are all to be solved
+                                                               nology  and  business.   NKN  wants  to  be  the  Uber  or
+by the NKN as shown in Fig. 1.
+Airbnb of the trillion-dollar communication service busi-
+ness, but without a central entity.  NKN aspires to free
+the bits, and build the Internet we always wanted.
+2.1.   Objectives of NKN
+NKN sets the following objectives:
+• Any node can connect to this fully open network
+from any place
+• Promote network sharing
+• Secure net neutrality from network layer innova-
+tions
+• Always keep network open and scalable
+• Perform efficient and dynamic routing
+FIG. 1.  Feature comparisons between existing solutions and
+NKN.
+• Tokenize network connectivity and data transmis-
+sion assets and incentivize participating nodes
+
+
+
+
+3
+• Design and build the next generation of blockchain            troduces the concept of decentralized data trans-
+network                                                         mission network (DDTN) scheme and utilizes truly
+decentralized blockchain to provide network con-
+nectivity and data transmission capability by us-
+2.2.   The Third Pillar:  Networking                            ing massive independent relay nodes to solve the
+                                                                problem of precipitation of redundant data on the
+By  blockchainizing  the  third  and  probably  the  last       network.
+pillar of Internet infrastructure, NKN will revolutionize
+2.                                                              Cellular Automata powered DDTN: NKN in-
+the blockchain ecosystem by innovating on the network
+                                                                troduces the idea of using Cellular Automata to
+layer, after Bitcoin [3] and Ethereum [4] blockchainized
+                                                                reconstruct the network layer.  The intrinsic char-
+computing  power  as  well  as  IPFS  [5]  and  Filecoin[6]
+                                                                acteristics of Cellular Automata such as decentral-
+blockchainized storage. The next generation blockchains
+                                                                ization, peer equivalence and concurrency enable us
+based on NKN are capable of supporting new kind of de-
+                                                                to build a truly decentralized blockchain network.
+centralized applications (DApp) which have much more
+powerful connectivity and transmission capability.  The
+3.                                                              Cellular  Automata  driven  consensus:  NKN
+vision of NKN is not only to revolutionize the decentral-
+                                                                achieves consensus efficiently with high fault tol-
+ized network layers, but also to develop core technologies
+                                                                erance in large scale distributed systems based on
+for the next generation blockchain.
+Cellular Automata, which is essential for decentral-
+ized systems without trusted third parties.
+Core Building Blocks of
+                                                                                                                                     4.                 Proof of Relay, A Useful Proof of Work: NKN
+                                                                Compute Infrastructure
+                                                                                                                                                        proposes Proof of Relay (PoR), a mechanism that
+                                                                                                                                                        encourages participants to contribute to blockchain
+Compute:                                                        Storage:
+                                                                Network:                                                                                network by sharing their connectivity and band-
+Bitcoin                                                         IPFS/
+width to get rewards, enhancing network connec-
+NKN
+Ethereum                                                        Filecoin                                                                                tivity  and  data  transmission  capacity.   PoR  is  a
+                                                                                                                                                        useful Proof of Work (PoW).
+                                                                                                                                     5.                 Tokenization  of  network  connectivity  and
+                                                                FIG.  2.   NKN  as  the  3rd  pillar  of  blockchainized  Internet                      data  transmission  capability:  NKN tokenizes
+infrastructure.
+network connectivity and data transmission capa-
+bility  by  encouraging  participants  to  share  their
+connectivity and bandwidth in exchange for tokens.
+Idle network resources can be better used through
+2.3.   Elementary Components
+such sharing mechanism.  NKN improves the uti-
+lization of network resources and the efficiency of
+NKN builds upon several innovative elementary com-              data transmission. Refer to our paper on economics
+ponents  that  are  different  from  existing  solutions,  as
+model for details [8].
+shown in Fig. 3.
+6.                                                              Networking  toolkit  for  fast  and  painless
+DApp  development:  With NKN, DApp devel-
+opers now have a new networking toolkit to build
+Application Layer: DApps & Smart Contracts                      truly  decentralized  applications  quickly  and  eas-
+ily.   DApp  developers  can  focus  entirely  on  cre-
+Incentive Layer:                                                ativity,  innovation,  user  interface                               /  user  experi-
+Transmission & Connectivity Tokenized
+ence and business logic.  This networking toolkit
+Consensus Layer:                                                is entirely complimentary to the toolkit by other
+More Useful Proof of Work: Proof of Relay
+blockchain projects working on identity,  machine
+Networks Layer:                                                 learning, payment, storage, and etc.
+Cellular Automata Rules & Dynamic Topology
+NKN  utilizes  Cellular  Automata  methodologies  to
+Block Structure, Cryptography etc.
+achieve full decentralization.  All nodes are equal, truly
+peer to peer, and each is capable of sending, receiving,
+and relaying data.  Cellular Automata makes it possible
+FIG. 3. NKN elementary components.                              to have simple local rules that can generate highly dy-
+                                                                namical and highly scalable global network overlay topol-
+                                                                ogy that is independent of the underlying physical and
+1. Blockchainizing the remaining core building                  logical infrastructure. The simplicity and locality of rules
+blocks of computing infrastructure:  NKN in-                    make  it  possible  to  have  cost  efficient  implementation
+
+
+
+
+4
+on all types of network devices, from Internet of Things      and provider in the entire system as well. On top of that,
+(IoT), smart phones, all the way to routers.  Despite its     at each layer there are built-in self-incentivized mecha-
+seemingly simplicity, Cellular Automata enabled routing       nism to maximize the network effect and bootstrap the
+can be highly random and unpredictable, thus providing        entire community.
+superior security and privacy.                                NKN will be one of the three foundational elements
+NKN nodes get rewarded for providing connectivity             and play a critical role in this decentralized paradigm.
+and transmission power, resulting in a fully competitive
+marketplace optimized for maximizing the entire network
+capacity.  For existing networks, NKN will increase the       3.    TECHNOLOGY FOUNDATIONS
+utilization of connectivity and data transmission capacity
+by sharing the unused bandwidth of participating nodes.       In this whitepaper, we take selective elements of the
+More and more new nodes will join the network to earn         NKS (New Kind of Science) [2] as inspiration. NKN uti-
+reward,  thus quickly bootstrapping and expanding the         lizes microscopic rules based on Cellular Automata to
+NKN network.  Existing nodes are incentivized to up-          define network topology,  achieves self-evolution behav-
+grade and increase data transmission capacity.   All of       iors, and explores Cellular Automata driven consensus,
+above will further boost overall network capacity, as well    which is fundamentally different from existing blockchain
+as improve the dynamic topology since the network has         network layer.
+much more degrees of freedom in choosing the route.           As a powerful tool to study complex systems, Cellular
+In addition,  NKN proposes a novel and more useful            Automaton is closely linked to philosophical categories
+proof of work.  Unlike traditional hashing computation        such as simple and complex, micro and macro, local and
+type Proof of Work that provides no additional utility,       global, finite and infinite, discrete and continuous, etc.
+NKN introduces Proof of Relay based on many useful ac-
+tivities including staying on-line for extended period, ex-
+panding amount of peer connection, providing high speed       3.1.   Cellular Automata
+and low latency relay, etc. Even the consensus algorithm
+is designed from ground up to improve efficiency and fair-
+ness, while converge deterministically and globally based
+on local knowledge.
+Dynamic
+Furthermore,  NKN  is  intended  to  promote  network
+sharing and network ownership by its users. NKN’s eco-
+nomic model and governance model will reflect this in         Simple                                                         Peer Equal
+design  and  in  implementation.   These  technology  and
+economic model innovations complement each other and
+Cellular
+together will amplify the power of NKN network.
+Automata
+Parallel                                                      Decentralized
+2.4.   Networking toolkit for Fast and Painless
+DApp Development
+Open
+With  NKN,  DApp  developers  now  have  a  new  net-
+working toolkit to build truly decentralized applications
+rapidly and painlessly.  DApp developers can focus en-
+FIG. 4. Properties of Cellular Automata.
+tirely on the ideas and innovation,  UI  (user interface)
+/UX (user experience), and business logic that make their
+product successful to the end users. They no longer need      Cellular Automata (CA) is a state machine with a col-
+to wade through the wild jungle of blockchain, cryptog-       lection of nodes, each changing its state following a local
+raphy, consensus mechanism, identity and security before      rule that only depends on its neighbors. Each node only
+they even write one line of code for their users.             has a few neighbor nodes.   Propagating through local
+For example, in traditional app development with cen-         interactions, local states will eventually affect the global
+tralized SaaS (Software as a Service) offerings, one can      behavior of CA. The desired openness of network is deter-
+host app on cloud computing platforms, store data on          mined by the homogeneity of Cellular Automata where
+cloud storage, use web services for text message, phone       all nodes are identical, forming a fully decentralized P2P
+call and payment. In the decentralized blockchain world,      (peer-to-peer) network.  Each node in the NKN network
+it is already conceivable today to build a new kind of        is constantly updating based on its current state as well
+Facebook by using Ethereum [4] /NEO [9] for comput-           as the states of neighbors. The neighbors of each node are
+ing, IPFS [5] for storage, and NKN for networking. The        also dynamically changing so that the network topology
+beauty of this new paradigm is that users will personally     is also dynamic without changing its underlying infras-
+own their identity and data, and can be both consumer         tructure and protocols.
+
+
+
+
+5
+NKN  utilizes  CA  to  achieve  efficient,  decentralized,      proaches  utilizing  static  and  fully  connected  topology.
+and dynamical topology such that information and data           Complex systems with such a simple structure are closer
+can be transmitted efficiently and dynamically without          to natural systems, thus enabling self-evolution.
+centralized connectivity.
+                                                                4.    NEW KIND OF NETWORK
+3.2.   Rules as Formulas
+                                                                NKN is the next generation of peer to peer network
+The Cellular Automata programming formula is called
+                                                                infrastructure built upon blockchain technology backed
+“local rule”, which is an indispensable rule for next gen-
+                                                                by Cellular Automata theory aiming at revolutionizing
+eration network of NKN and has an important influence
+                                                                the Internet with true decentralization and native token
+on the network topology [2, 10-13].
+incentive mechanism.
+Proper choice of local rules leads to Cellular Automata
+with complex but self-organized behaviors on the bound-
+ary between stability and chaos.  Rules are essential be-
+cause they are formulas to program Cellular Automata            4.1.   Next Generation Decentralized Network
+and Automata Networks.  The static characteristics of a
+Cellular Automaton is a discrete dynamic system defined         As  the  current  leaders  in  blockchain,  Bitcoin  and
+as
+                                                                Ethereum tokenize computational power through Proof
+                                                                of Work (PoW). IPFS [5], Filecoin [6], Sia [14] and Storj
+CA = (S, N, K, f )                                              (1)
+                                                                [15], on the other hand, tokenize storage.  Yet, few sys-
+Finite number of  nodes  interact  in a regular  network.       tems blockchainize network connectivity and data trans-
+S represents states of nodes, where each node has a lo-         mission power, the third essential building block in the
+cal state.  The state of all nodes determines the global        Internet.  NKN is designed to tokenize network connec-
+state. N denotes the number of nodes in network. K de-          tivity and data transmission capability as a useful PoW.
+notes neighbor set, i.e.  which neighbor nodes are taken
+                                                                NKN solves the “efficiency” problem of blockchain by
+into account in local state transitions. f denotes a state
+                                                                equalizing all nodes in the network. Each node follows a
+transition function, which has a dramatic impact on the
+                                                                rule of Cellular Automaton and updates its state based
+global evolution of the system.
+                                                                on local rules. Proposed by Von Neumann in 1940s, Cel-
+The dynamic characteristics of a Cellular Automaton
+                                                                lular Automaton  (CA) is a generic term for a type of
+is illustrated in Fig.  5.  Dynamic evolution starts from
+                                                                model, a state machine characterized by discrete time,
+an initial state. Nodes change their states based on their
+                                                                space and interaction [16, 17]. It is a discrete system that
+current states and the states of their neighbor nodes. The
+                                                                evolves locally according to specific rules and is proven
+global state is fully determined by local states of all nodes
+                                                                to be able to emulate the evolution of complex systems.
+and evolves accordingly.
+Cellular Automaton has the characteristics of decentral-
+ization, peer equality and concurrency. For the first time,
+Dimension                                                       NKN proposed Cellular Automata as the fundamental el-
+ement of the network layer for blockchain, so as to ensure
+Local State of Cells
+Static                                                          that the entire network layer can benefit from it.
+State Transitions
+Updating formulas in Cellular Automata are called “lo-
+cal rules”, which are found to be the critical factor that
+Neighborhood
+controls the transition of Cellular Automaton between
+Initial Local State
+stability and chaos [2]. As an indispensable part of NKN,
+Cellular Automata
+Characterization                                                Dynamic                                                                                   rules are one of the main factors impacting the network
+                                                                                                                                Current State of a Cell
+                                                                Evolution
+topology.
+States of Neighbor Cells
+NKN  introduced  the  concept  of  Decentralized  Data
+                                                                                                                                Local States Evolution    Transmission Network  (DDTN). DDTN combines mul-
+                                                                Evolution
+Dynamic                                                         Correlation                                                                               tiple independent and self-organized relay nodes to pro-
+                                                                                                                                Global States Evolution
+                                                                                                                                                          vide clients with connectivity and data transmission ca-
+                                                                                                                                Synchronous               pability. This coordination is decentralized and does not
+                                                                Dynamics of State                                                                         require trust of any involved parties.  The secure opera-
+                                                                                                                                Asynchronous
+                                                                Transitions
+tion of NKN is achieved through a consensus mechanism
+Stochastic                                                      that coordinates and validates the operations performed
+                                                                by each node. DDTN provides a variety of strategies for
+FIG. 5. Characteristics of Cellular Automata.                   decentralized application (DApp).
+                                                                In  contrast  to  centralized  network  connectivity  and
+The NKN team believes CA-based or CA-driven sys-                data transmission, there are multiple efficient paths be-
+tems  are  more  natural  and  organic  than  current  ap-      tween nodes in DDTN, which can be used to enhance
+
+
+
+
+6
+data  transmission  capacity.   Native  tokens  can  incen-   Markovian updating rule should take both topology of
+tivize the sharing of network resources, and eventually       the network and states of nodes into consideration such
+minimize wasted connectivity and bandwidth.   Such a          that
+property is termed “self-incentivized”.
+                                                              A(t + 1) = f [A(t), S(t)]
+(3)
+S(t + 1) = g[A(t + 1), S(t)]
+4.2.   A Useful Proof of Work
+where S(t) is a vector representing the states of all nodes
+in the network at time t, f is the topology updating rule,
+As the pioneering cryptocurrency, Bitcoin  [3] is gen-        and g is the state updating rule. Similarly, f and g should
+erated by mining, a Proof of Work mechanism that in-          be chosen such that only information of current neigh-
+centivizes miners to verify transactions by solving diffi-    bors are used when updating.  The state could contain
+cult hashing problems.  The downside of Bitcoin mining        historical information.  An example state in blockchain
+is that efficient mining requires specialized and expen-      system is all the blocks that a node stores locally.  Note
+sive hardware and consumes a lot of energy.   Accord-         that although we describe the system formally using the
+ing to Digiconomist, Bitcoin energy consumption rate is       global state S and global connectivity A, each node i only
+close to 50 TWh/year at mid February 2018 and still in-       needs to know and store its local state Si  and neighbors
+creasing, while the number is close to 14 TWh/year for        {j|Aij  = 0}.
+Ethereum. Electricity consumed by these two cryptocur-        Consider a CAoN in a blockchain system where blocks
+rencies combined has surpassed the electricity usage of       are being generated.  Each time a block is received, the
+many countries.                                               node updates its state and send the block to neighbors
+A way to prove the work while avoiding waste of re-           with digital signature. The neighbors will decide whether
+sources is highly desired. NKN proposes an alternative to     to forward the message depending on their states like if
+the current PoW by providing a more decentralized, dy-        it has received the block, if the block is valid, or conflict
+namically evolving, self-organizing and self-evolving net-    with other block in state, effectively affecting the topol-
+work infrastructure and designing a whole new set of con-     ogy of the entire network without changing the physical
+sensus mechanisms. The novel PoW does not result in a         layer or the underlying protocol.
+waste of resources.  Instead, it is a peer-to-peer sharing    As an example to illustrate how we model the network,
+mechanism at blockchain level.  Participants receive re-      one can consider a general Network Automaton that al-
+wards by contributing more network resources than they        lows an arbitrary number of neighbors.  For simplicity,
+consume. NKN uses Proof of Relay mechanism to guar-           a minimalist approach is adopted to emulate blockchain
+antee network connectivity and data transmission capac-       expanding and data relay from a small set of microscopic
+ity.                                                          rules.  Initially (at time zero) the network is a 3D cubic
+structure with 8 nodes, each has 3 neighbors, as shown
+in Fig. 6.
+4.3.   Network Topology and Routing
+Cellular  Automata  on  Networks  (CAoN)  is  a  natu-
+ral extension of Cellular Automata  [10,  11,  18] that is    X
+Y
+able to model networks with non-geometric neighbor con-
+nections.  It is powerful when modeling networks whose        Z
+topology is evolving based on local rules.  As the goal is
+to build a decentralized blockchain system with dynamic
+topology, CAoN is a natural model for the system.
+We consider a dynamic P2P network with N  nodes.
+The network connections at time t can be described by
+an N × N adjacency matrix A(t) that evolves with time.
+Connections between nodes can be added, removed, or                                                                                 FIG. 6. An example of Network Automata with 8 nodes form-
+                                                                                                                                    ing a cubic network in 3D space at initial state.
+altered at each time step. If the dynamics of A is Marko-
+vian, the updating process can be written as
+                                                                                                                                    Starting from the simple network in Fig. 6, the system
+                                                              A(t + 1) = f [A(t)],                                            (2)   is extended by adding nodes to it following various up-
+                                                                                                                                    dating rules. The resulting topology can be dramatically
+where f is the updating rule of network topology. To keep                                                                           different when different rules are used, as shown in Fig. 7.
+the updating rule local, f should be chosen such that only                                                                          NKN  will  bridge  network  evolution  and  blockchain
+information of the neighbors of each node is used when                                                                              functions using similar network models with microscopic
+updating its connections. The updating rule above does                                                                              rules.  The simple local rules make replication straight-
+not contain states of nodes, so the topology evolution is                                                                           forward, simplifying and accelerating system implemen-
+independent of the state of any node.  A more general                                                                               tations.
+
+
+
+
+7
+(a)
+(a)                                                                (b)
+FIG.  7.    Some  examples  of  complex  blockchain  network
+topologies with various simple rule sets (a) ring topology, rule
+1655146,  time step  1573;  (b) pseudo-random topology, rule
+1655185, time step 1573.
+(b)
+4.3.1.   Dynamics
+Dynamics in CAoN are purely local:  each node eval-
+uates the state transition independently of other nodes
+and changes its state accordingly [19]. Node state can be
+driven by either the interaction between nodes, or exter-
+nal information, as shown in Fig. 8.
+(c)
+FIG.  9.   Dynamics  of  network  topology  by  rewriting  rules
+of Cellular Automata at the same time step index,  (a) rule
+1655163, time step 1573; (b) rule 1655175, time step 1573; (c)
+Be Commanded by an
+rule 1655176, time step 1573.
+External Entity
+Autonomously, Based on Some                                        the formation of local structures that can survive for long
+Internal Autonomous                                                periods of time.  Wolfram speculates that although not
+Decision Making
+all of the Class 4 Cellular Automata are capable of uni-
+versal computation, many of them are Turing-complete.
+This view has been successfully proven by the Rules 110
+[2, 20] and Conway’s Game of Life [21].  Complex, self-
+FIG. 8.  Possible conditions for a node to change its state in     organizing and dynamical structures emerge spontaneous
+CAoN.                                                              in Class 4 CA, providing us an ideal candidate for the ba-
+sis of decentralized systems.
+Rules are crucial to the resulting topology in CAoN.
+Network  topology  would  be  very  different  given  small        Stability                                                      Periodic Behavior   Edges of Chaos   Chaos
+changes in the updating rules, as shown in Fig. 9.
+Although  in  the  mathematical  description  discrete
+time step was used for convenience, CAoN does not re-
+quire nodes have any global time or discrete time.  In-
+                                                                                                                                                      Rule248          Rule04      Rule110                Rule30
+stead,  each  node  performs  the  update  asynchronously
+                                                                   0.0                                                                                0.1              0.2         0.3              0.4   0.5
+[19].  This is a more general and realistic description of                                                                        Class-1                              Class-2     Class-4                Class-3     Langton’s λ
+                                                                                                                                  Global                               Periodic,   Complex, Self-         Seemingly
+real blockchain networks.                                                                                                         Uniform                              Regular     organized              Random
+                                                                                                                                  Patterns                             Patterns    Behavior
+4.3.2.   Self-Organization                                         FIG. 10. Wolfram’s 4 classes of behaviors versus Langton’s λ
+                                                                   parameter on 1D Cellular Automata.
+The global dynamics of Cellular Automata can be clas-
+sified into 4 types [2]: steady, periodic, chaotic, and com-       A quantitative measure of the rule that can explain
+plex.  Our focus is in the complex type  (Class  4), also          and predict the behavior type of the CA is the Lang-
+known as the edge of chaos,  where all initial patterns            ton’s λ parameter defined by the fraction of rule table
+evolve into structures that interact in complex ways, with         entries that results in active state.  As λ increases from
+
+
+
+
+8
+0, the system will transit from steady state to periodic       hubs are discouraged. Sparse random network is one pos-
+state, then to complex state, and finally to chaos state,      sible topology that could be generated from such mech-
+as shown in Fig. 10.  In the classic 1D CA with nearest        anism.  It is decentralized and thus robust to the failure
+neighbor interaction, Class 4 behavior emerges when λ is       of any node, while still being efficient in routing due to
+around 0.3.  Langton’s λ parameter provides us a theo-         its small network diameter [12].
+retical guide on how to find the desired updating rules,
+which is essential for high dimensional systems.
+5.    CELLULAR AUTOMATA POWERED
+CONSENSUS
+4.3.3.   Self-Evolution
+Nodes in blockchain are peers due to the decentral-
+CAoN is inherently self-evolving due to its simple but         ized  nature  of  blockchain.   The  inherent  lack  of  trust
+powerful local dynamics.  The updating rule essentially        in blockchain systems is particularly noteworthy because
+sets the direction of evolution, and the system evolves        any node can send any information to any nodes in the
+continuously towards the direction, regardless of the ini-     blockchain.  Peers must evaluate information and make
+tial states or how nodes are added to the network. Fig. 11     agreement on their actions for blockchain to work prop-
+shows an example of the self-evolution in CAoN.                erly [23].
+NKN is designed to be a futuristic blockchain infras-
+tructure that requires low latency, high bandwidth, ex-
+tremely high scalability and low cost to reach consensus.
+These  properties  are  crucial  for  future  DApps.   Thus,
+NKN needs new consensus algorithms that could satisfy
+such high requirements.
+5.1.   Mainstream Consensus
+(a)                                                            (b)                                                              (c)   Currently there are several approaches to reach con-
+                                                                                                                                      sensus in blockchain: Byzantine fault tolerance algorithm
+FIG. 11. Self-evolution of a 3D CAoN model on rule 1655185                                                                            (BFT) [24], practical Byzantine fault tolerance algorithm
+at various time step index (a) 100; (b) 1000; (c) 10000.                                                                              (PBFT) [25], Proof of Work algorithm (PoW) [3], proof
+of stake algorithm (PoS) [26, 27], and delegated Proof of
+Stake algorithm (DPoS) [28].
+1. Practical Byzantine Fault Tolerant (PBFT):
+4.4.   Efficient Decentralization
+                                                               Byzantine  fault  tolerance  is  a  model  that  Leslie
+                                                               Lamport proposed in 1982 to explain the issue of
+Due to the dynamical nature of NKN, network topol-
+                                                               consensus. It discusses the consensus under the sce-
+ogy between nodes is constantly updating.  Proper up-
+                                                               nario where some nodes could be evil (the message
+dating mechanism is critical to achieve decentralization
+                                                               may be forged) and provides a worst-case guaran-
+of the resulting topology.  If, for example, the updating
+                                                               tee [24]. In Byzantine fault tolerance, let the total
+mechanism is chosen such that a newly joined node has
+                                                               number of nodes be N and the number of bad nodes
+higher chance to choose node with more neighbors to be
+                                                               be F , If N ≥ 3F +1, then the problem can be solved
+its neighbor, and the probability to choose a node is pro-
+                                                               by the Byzantine Fault Tolerant (BFT) algorithm.
+portional to the degree of that node, then the resulting
+                                                               Lamport proved that there is a valid algorithm such
+network will be scale-free  [22]:  the degree distribution
+                                                               that when the fraction of bad nodes does not ex-
+follows a power law form.  Such networks have central-
+                                                               ceed one-third, good nodes could always reach con-
+ized hubs defined by nodes with huge degree.  Although
+                                                               sensus no matter what messages bad nodes send.
+hubs could potentially increase efficiency, they make net-
+                                                               Practical Byzantine Fault Tolerant  (PBFT), first
+work less robust as the failure of hubs will have much
+                                                               proposed by Castro and Liskov in  1999,  was the
+larger impact than the failure of other nodes.
+                                                               first BFT algorithm to be widely used in practice
+One of the NKN’s goals is to design and build net-
+                                                               [25]. PBFT is much more efficient and works in an
+works that are decentralized while still being efficient in
+                                                               asynchronized way, while it can still tolerate same
+information transmission. This should be done by using
+                                                               number of faulty nodes as BFT, making it more
+a  proper  topology  updating  mechanism  that  considers
+                                                               practical to use in real systems.
+both algorithm and incentive.   On the algorithm side,
+neighbors should be sampled and chosen randomly; on            2. Proof of Work  (PoW): Bitcoin blockchain net-
+the incentive side, reward for data transmission should        work  introduced  an  innovative  Proof  of  Work
+be sublinear (grows slower than linear function) so that       (PoW)  algorithm  [3].   The  algorithm  limits  the
+
+
+
+
+9
+number of proposals by increasing the cost of them,          totic behavior of the system is controlled by its updating
+and relax the need for final confirmation of con-            rule.  It is possible to achieve guaranteed global consen-
+formity by agreeing that everyone will accept the            sus in CA using message passing algorithm based only
+longest-known chain. In this way, anyone who tries           on sparse local neighbors for a set of updating rules.
+to vandalism will pay a great economic cost. That            Using  the  mathematical  framework  originally  devel-
+is,  to pay more than half the system computing              oped for Ising model [29] in physics, we found and proved
+power.  Later, various “PoX” series algorithms are           that a class of CA rules will guarantee to reach consen-
+proposed  following  this  thought,  using  economic         sus in at most O(N ) iterations using only states of sparse
+penalties to restrict the spoilers.  PoW is the con-         neighbors by an exact map from CA to zero temperature
+sensus used by Bitcoin and is also the earliest used         Ising model.  Some studies investigated the fault toler-
+in blockchain system.  In brief,  PoW means how              ance of Cellular Automata and how to increase robust-
+much work a miner pays and how much it gains.                ness in Cellular Automata-Based systems  [30-32].  We
+The work here is the computing power and time                further showed that the result is robust to random and
+which a miner provides contribute to the blockchain          malicious faulty nodes and compute the threshold when
+system.  The process of providing such services is           desired consensus cannot be made.
+“mining”.  In PoW, the mechanism to allocate re-
+ward is that the mining income is proportional to
+                                                             the computing power.  The more powerful mining                                                       5.2.3.   Ising Model
+                                                             machine  used,  the  more  expected  reward  miners
+will get.
+                                                                                                                                                                  Ising model is a model of spin systems with pairwise in-
+                                                                                                                                                                  teraction under external magnetic field [29]. The Hamil-
+3.                                                           Proof of Stake (PoS): Initially, Proof of Stake re-
+                                                                                                                                                                  tonian (energy) of the system without external magnetic
+                                                             duces the difficulty of calculating hash according to
+                                                                                                                           field can be written as
+                                                             the amount of tokens held. PoS is similar to finan-
+                                                                                                                                                                  ∑
+                                                             cial assets in bank, which distribute financial return
+                                                                                                                                                                  H (s) = −                                                      Jij sisj ,   (4)
+                                                             proportional to the amount of assets that stake-
+                                                                                                                                                                  i,j
+                                                             holder holds in a given period.  Similarly in PoS,
+                                                             the blockchain system allocates “interests” accord-                                                  where si  = ±1 is the spin of node i, and Jij  is the inter-
+                                                             ing to stakeholder’s token amount and hold time                                                      action between node i and node j. We consider the case
+                                                             [26, 27].  In Delegated Proof of Stake (DPoS), not                                                   where Jij  can only be  1  (ferromagnetic interaction) or
+                                                             every stakeholder is able to create block.  Instead,          0                                      (no interaction).  The probability that the system will
+                                                             nodes vote for trustees that represent them to en-                                                   be in state s under equilibrium follows the Boltzmann
+                                                             ter the parliament and create blocks.  Users who              distribution
+                                                             would like to become trustees need to go through
+                                                             community canvassing in order to gain trust of the
+                                                                                                                                                                  p(s) =  1                                                                   (5)
+community [28].                                                                                                                                                   Z e−βH (s)  =  Z eβ ∑i,j Jij sisj ,
+∑
+where Z  =                                                   =
+s e−βH (s)  is the partition function,  β
+1
+ith kB  being Boltzmann constant and T being the
+5.2.   Cellular Automata Powered Consensus                   kB T  w
+                                                             temperature, representing noise level of the system. The
+                                                             units where kB  = 1 will be used for simplicity.
+5.2.1.   Scalability Issue of BFT and PBFT
+                                                             Ising model on lattice has been extensively studied [29,
+                                                             33]. For the Ising model on a D dimensional lattice with
+It is challenging to get consensus in large distributed
+                                                             nearest neighbor interaction,  a phase transition occurs
+systems using BFT and PBFT algorithm.  In BFT al-            at finite critical temperature Tc  except for D = 1 where
+gorithm, the total number of messages to be sent in the
+                                                             the  critical  temperature  Tc                                =  0.   When  T  <  Tc ,  the
+system is O(N !)[24], making it not practical.  PBFT al-     system collapse into one of the two states where nodes
+gorithm reduced the total message count to O(N 2 )[25],      have a preferred spin (spontaneous magnetization), while
+which is tractable but not scalable when N  is large.  In    the system does not have a preferred spin when T  > Tc .
+addition, both BFT and PBFT requires every node to
+                                                             For example, for a 2D square lattice with nearest neigh-
+have a list of all other nodes in the network, which is      bor interaction, the exact solution of the Ising model can
+hard for dynamical network.
+be obtained. The critical temperature is
+2
+                                                                                                                           Tc  =                                  √                                                              ≈ 2.27,      (6)
+5.2.2.   Consensus in Cellular Automata Described by Ising                                                                 ln(1 +                                 2)
+Model
+                                                                                                                           and the spontaneous magnetization is
+Cellular  Automata                                           (CA)  is  naturally  a  large  dis-
+                                                                                                                           [
+tributed system with only local connections. The asymp-                                                                    〈s〉 = ±                                1 − (sinh 2β)−4 ] 8  .                                                      (7)
+
+
+
+
+10
+All of the spins will become the same  (either  1  or  -1)      5.2.5.   Majority Vote Cellular Automata as a Consensus
+when T  → 0.                                                    Algorithm
+If the distributed system of interest can be mathemat-
+ically described by an Ising model, then the system is          Majority Vote Cellular Automata (MVCA) is a Cellu-
+guaranteed to achieve consensus (all nodes have the same
+lar Automata using majority vote as updating rule.  It
+states)  when  temperature  is  zero.   Finite  temperature     can be formalized as
+plays the role of failure by adding randomness to state
+                                                               
+transition, and finite critical temperature leads to robust-
+ness to such failure.                                                                                                                                                                          si+1  = sign                          ∑                                                                  Jij sj                 ,   (14)
+                                                                                                                                                                                                                                     j
+5.2.4.   Link Between Cellular Automata and Ising Model
+                                                                                                                                                                                                                                     where Jij  = 1 if node i and j are connected, otherwise
+                                                                                                                                                                                                                                     0.  sign(x)  =  1  if x  >  0, or  −1  if x  <  0.  sign(0)  =  1
+Cellular  Automata  (CA)  is  closely  related  to  Ising                                                                                                                                                                            or  −1  with equal probability.  The definition of sign(0)
+Model. A CA is characterized by its updating rule                                                                                                                                                                                    does not have any impact if each node has odd number
+∏                                                                                                                                                                                                                                    (k) of connections, which is true for D dimensional Cel-
+p(st+1 |st ) =                                                  p(si+1 |st )                                                     (8)
+lular Automata with nearest neighbor connections and
+i
+self connection. Only odd k is considered fo∑ simplicity.
+that represents the probability of the system to transfer       The Hamiltonian can be defined as H = −
+                                                                i,j Jij sisj .
+to state st+1  at time t + 1 given system state st  at time     One can check that the majority vote rule satisfies the
+t.   The transfer probability is conditional independent        mapping condition p(si+1 |st ) ∝ eβ ∑j Jij si+1 sj   with zero
+because every node in CA updates its state solely de-
+                                                                temperature  (β  →  ∞).  According to the previous sec-
+pending on the previous system state. For deterministic         tion,  when  MVCA  reaches  equilibrium,  all  nodes  will
+CA, the transfer probability p(st+1 |st ) is a∑delta func-
+                                                                have the same state which depends on initial condition.
+tion. If a Hamiltonian of the form H (s) = −
+i,j Jij sisj                                                    To  show  that  MVCA  will  converge  to  its  equilib-
+can be defined for a CA such that
+rium,  we use the  equation  derived in previous section
+p(si+1 |st ) ∝ e−βH (si+1 |st )  = eβ ∑j Jij si+1 sj ,                                                                           (9)                                                           p(St+1 |St )                          ∝  e−βH (St+1) .   Since  β                                         →  ∞,  p(St+1 |St )
+                                                                                                                                                                                                                                     is  nonzero  only  when  H (St+1 )  is  m∑nimized.    From
+where H (si+1 |st ) is the Hamiltonian of the system given                                                                                                                                     the  definition  of  H (S)  we  get   −                                                                   ≤
+                                                                                                                                                                                                                                                                                                         i,j Jij si+1 sj
+                                                                                                                                 ∑
+state sj  = sj , ∀j = i and si  = si+1 .  The transfer proba-                                                                    −
+                                                                                                                                                                                                                                     i,j Jij sisj , ∀si ,  where  equal  is  possible  only  when
+bility becomes
+                                                                                                                                                                                                                                     st+1  = s since st+1  is uniquely determined by st  when
+                                                                                                                                                                                                                                     every node has odd number of connections.  Specifically,
+p(st+1 |st ) ∝ eβ ∑i,j Jij si+1 sj .                                                                                             (10)
+                                                                                                                                                                                                                                     for s  =  st−1   we have H (St+1 )  ≤  H (St ),  where equal
+We now define a new state St  which is a joint state of                                                                                                                                        holds  only  when  st+1               =  st−1 ,  i.e.   system  in  equilib-
+st−1  and st  such that p(St ) ≡ p(st−1 , st ).  The transfer                                                                                                                                                                        rium  or  two  state  oscillation.   The  latter  one  can  be
+probability of St  is now proportional to the Boltzmann                                                                                                                                                                              avoided when J is dynamic so we ignore it for now.  So
+distribution                                                                                                                                                                                                                         H (St+1 ) < H (St ) before MVCA reaches its equilibrium.
+∑
+                                                                                                                                                                                                                                     On the other hand, we note that H (S) can only be inte-
+p(St+1 |St ) = p(st+1 |st ) ∝ eβ                                i,j Jij si+1 sj                                                  = e−βH (St+1) ,
+                                                                                                                                                                                                                                     gers that change in step of 2 and −kN  ≤ H (S) ≤ kN ,
+                                                                                                                                 (11)
+                                                                                                                                                                                                                                     where N is the total number of nodes in the system and
+with Hamiltonian H (St )  ≡  − ∑
+                                                                i,j Jij si−1 sj  where the
+                                                                                                                                                                                                                                     k  is  the  number  of  connections  each  node  has.   Thus
+interaction within st  and within st−1  is zero.  Thus, the
+                                                                                                                                                                                                                                     MVCA guarantees to converge to consensus state in at
+CA is mapped to an Ising model with state S. The sta-
+                                                                                                                                                                                                                                     most kN iterations for any initial state. Similarly, if the
+tionary distribution of S follows the Boltzmann distribu-
+                                                                                                                                                                                                                                     initial state has m  “incorrect” values, it takes at most
+tion
+                                                                                                                                                                                                                                     km iterations to correct those “incorrect” values.
+                                                                                                                                                                                                                                     Although in the derivation above we use CA as the
+p(S) =  1                                                                                                                        (12)
+Z e−βH (S) ,                                                                                                                                                                                                                         model, we did not assume local connectivity. In fact, the
+while the stationary distribution of s is given by                                                                                                                                                                                   results are valid for any network topology with symmetric
+                                                                                                                                                                                               connectivity matrix J .
+∑
+p(s) =  1                                                       eβ ∑i,j Jij sisj                                                 (13)
+Z
+s∗
+5.2.6.   Randomized Neighbors
+Deterministic CA can be mapped to Ising model at
+zero temperature, where T  → 0, β → ∞, p(S) and p(s)
+is nonzero only at state(s) with lowest energy.  In the                                                                          Cellular Automata and Ising model are both lattice
+case of Jij                                                     =  1  or  0  which we are interested in,  only                   based system with interaction strength mostly depends
+two states (si  = 1, ∀i or si  = −1, ∀i) are allowed at zero                                                                     on Euclidean distance.  Such kind of models are mathe-
+temperature.                                                                                                                     matically easier to solve, while not practical to implement
+
+
+
+
+11
+in distributed systems, especially when nodes are dynam-        and does not update their states regardless of the states
+ical, unreliable, and uncontrollable. Here we propose that      of their neighbors.  The goal of the correct nodes is to
+random network should be a better topology for consen-          reach consensus on state 1, while the malicious nodes try
+sus in distributed system with dynamical nodes.   The           to reach consensus on state -1. From the results (Fig. 13)
+consensus algorithm we proposed works in random net-            it can be seen that there is a transition between collapsing
+works without any modification so that every node does          to the wrong state (-1) and keeping most correct nodes
+not need to maintain a specific connectivity.  It should        at the correct state (1). For N = 1, 000, 000 and k = 10,
+be mentioned that the random network discussed here is          the critical fraction of the malicious nodes is around 30%,
+purely an overlay network, regardless of how the nodes          which is significant considering the size of N . The critical
+are physically connected.  In a distributed system where        fraction also depends on k, as shown in Fig. 13. Larger k
+node does not have a list of other nodes,  one can use          has two effects:  more malicious nodes can be tolerated,
+algorithms like peer sampling to achieve random connec-         and less correct nodes will be affected by malicious nodes.
+tivity.                                                         Results in Fig. 12 and Fig. 13 combined show the upper
+A critical parameter that controls how fast information         bound and lower bound of the network dynamics with
+propagates and thus consensus could be made is the net-         faulty initial states:  the former one simulates the case
+work diameter which is defined as the shortest distance         where nodes with incorrect initial state are not malicious,
+between the two most distant nodes in the network. For          while the latter one simulates the case where nodes with
+a random network where each node has k neighbors and            incorrect initial state are all malicious and want the rest
+k  is O(logN ),  the diameter of the network is at most         of the network to agree on the incorrect state.  Network
+O(logN ) [12], much smaller than a lattice based system.        dynamics fall between these two curves with the same
+This is expected since random network could have long           initial states whatever strategy faulty nodes  (the ones
+range connections, which is not possible in lattice sys-        with faulty initial state) take.
+tems.  As a result, random networks converge faster to
+consensus states.  It is also shown that increase k leads
+to smaller diameter [12], as one may expect.                    5.2.8.   Extension to Asynchronous and Unreliable Networks
+Wolfram Class  4  Cellular Automata is ideal to con-
+struct  the  randomized  network  for  superior  consensus
+                                                                One advantage of using Ising model to describe the
+performance.  In Class  4  CA, the connectivity is effec-       system is the natural extension to noisy and unreliable
+tively unpredictable, self-organized and self-evolved.
+                                                                communication channels. The temperature parameter in
+                                                                Ising model controls the amount of noise in the system,
+                                                                and in our case is the randomness in the updating rule.
+5.2.7.   Simulations of CA Consensus Algorithm                  At zero temperature, the updating rule is deterministic,
+                                                                while the rule becomes more random when temperature
+To show the performance of our consensus algorithm,             increases, and eventually becomes purely random when
+                                                                temperature goes to infinity. By including a default state,
+we apply it to a simulated network with N = 1, 000, 000
+nodes.   Each  node  has  k  neighbors  randomly  selected      probabilistic failure of message delivery can be modeled
+from the network. At each iteration, its state is updated       by finite temperature in Ising model.  Thus, consensus
+based on the states of its k neighbors plus its own state       can still be made as long as noise is under the thresh-
+using MVCA rule as proposed above. Neighbors are one            old, as discussed above. The threshold can be computed
+directional so that J is not guaranteed to be symmetric.        numerically given the statistics of network connectivity.
+Initially (iteration 0), the state of each node is indepen-     Asynchronous state update can also be modeled by such
+dently chosen to be 1 or -1 with some probability.  The         noise when communication timeout is added, making it
+simulation is run for several iterations with different k, as   practical for implementation.
+shown in Fig. 12. One can see that the MVCA converges
+to global consensus state in just a few steps even with
+5.3.   Proof of Relay
+k  =  10, much faster than the theoretical upper bound
+kN . Note that consensus will be reached even when the
+initial state contains equal number of  1  and  -1  nodes.      Consensus in NKN is driven by Proof of Relay (PoR),
+Larger k leads to faster convergence.                           a useful Proof of Work  (PoW) where the expected re-
+It should be mentioned that when N is large, the topol-         wards a node gets depend on its network connectivity
+ogy of the random network will be closer to its typical         and data transmission power. Node proves its relay work-
+case as the probability to have any specific connectivity       load by adding digital signature when forwarding data,
+decreases exponentially as N increases. Thus, one should        which is then accepted by the system through consensus
+look at mean convergence time rather than worst case            algorithm.
+when (and only when) N is large, as in our simulations.         PoR is not a waste of resources since the work per-
+We further simulate the scenario where a fraction of            formed in PoR benefits the whole network by providing
+nodes are malicious. In this case correct nodes have ini-       more transmission power.  The “mining” is redefined as
+tial state  1, while malicious nodes have initial state  -1     contributing to the data transmission layer, and the only
+
+
+
+
+12
+k = 10                                                                                                                            k = 100
+1.0                                                                                                                               1.0
+0.5                                                                                                                               0.5
+0.0                                                                                                                               0.0
+0.5                                                                                                                               0.5
+1.0                                                                                                                                                                                                                       1.0
+0                                                                                                                                 2                                                           4           6    8    10    0     2           4           6    8   10
+                                                                                                                                                                                              Iteration                                     Iteration
+FIG.  12.  Average state of the system converges to either  1  or  -1, both representing global consensus.  MVCA converges to
+consensus state which is the state of the majority nodes in just a few steps even with only 10 neighboring nodes in a 1,000,000
+nodes network.  Increasing the number of neighbors accelerates convergence.  Note that when exactly half of the nodes are in
+one state while the other half in the other state, the converged state could be either one.
+k = 10                                                                                                                            k = 100
+0.8                                                                                                                               0.8
+0.6                                                                                                                               0.6
+0.4                                                                                                                               0.4
+0.2                                                                                                                               0.2
+0.0                                                                                                                                                                                                                 0.0
+0                                                                                                                                 5                                                           10          15   20   0     5     10          15          20
+                                                                                                                                                                                              Iteration                         Iteration
+FIG. 13.  Fraction of correct nodes (state 1) under the attack of malicious nodes (state -1) that does not update their states.
+There is a transition between whether the system will collapse to the wrong state when the initial fraction of malicious nodes
+changes.
+way to get more rewards is providing more transmission                                                                            For detailed algorithms and economic model, please re-
+power.  The competition between nodes in the network                                                                              fer to our separate technical yellow paper [34] and paper
+will eventually drive the system towards the direction of                                                                         on economic model [8].
+low latency, high bandwidth data transmission network.
+PoR  is  used  for  both  token  mining  and  transaction
+verification.  On the one hand, token will be rewarded
+5.4.   Potential Attacks
+to nodes for data transmission; on the other hand, the
+expected reward for transaction verification may also de-
+pend on PoR, either through election or difficulty adjust-                                                                        Since NKN is designed with attack prevention in mind,
+ment.                                                                                                                             it is necessary to review related attack types.   Attack
+
+
+
+
+13
+                    analysis and mitigation will be one of the important as-   6.    CONCLUSIONS
+                    pects of NKN development and future work, and will be
+                    included in the technical yellow paper [34].
+                                                                               This whitepaper presents a clear and cohesive path to-
+                                                                               wards  the  construction  of  NKN  system.   We  consider
+1.                  Double  spending  attack:  double spending at-             this work to be a starting point for future research on
+                    tack refers to the case where the same token is spent      decentralized  network  connectivity  and  data  transmis-
+                    more  than  once.   In  classic  blockchain  systems,      sion.  Future work include, but not limited to, Cellular-
+                    nodes prevent double-spending attack by consen-            Automata-driven routing, Cellular-Automata-based con-
+                    sus to confirm the transaction sequence.                   sensus, Proof of Relay etc. NKN has several advantages
+                                                                               compared to current platforms.
+2.                  Sybil  Attacks:  Sybil  attack  refers  to  the  case      First, NKN is an ideal networking platform for devel-
+                    where malicious node pretends to be multiple users.        oping decentralized applications.  DApp developers can
+                    Malicious miners can pretend to deliver more copies        be completely focused on the creative ideas and innova-
+                    and get paid. Physical forwarding is done by creat-        tions that make their products successful for end users,
+                    ing multiple Sybil identities, but only transmitting       as well as business logic.  They no longer need to worry
+data once.                                                                     about details of network infrastructure.
+                                                                               Second, NKN incentive model encourages more people
+3.                  Denial-of-Service  (DoS)  Attacks:  an  off-line           to join the network to share and enhance network connec-
+                    resource centric attack is known as a denial of ser-       tivity and data transmission, changing the entire network
+                    vice attack  (DoS). For example, an attacker may           structure and creating a huge market. NKN is targeting
+                    want to target a specific account and prevent the          the trillion-dollar telecommunications business, and aim
+                    account holder from posting transactions.                  to provide better connectivity to everyone by incentivize
+                                                                               the sharing of unused networking resources, expanding
+4.                  Quality-of-Service  (QoS)  Attacks:  some  at-             and revolutionize the sharing network.
+                    tackers want to slow down the system performance,          Compare  to  current  systems,  NKN  blockchain  plat-
+                    potentially reducing the amount of network connec-         form is more suitable for peer-to-peer data transmission
+                    tivity and data transfer speed.                            and connectivity. In the meantime, this self-incentivized
+                                                                               model encourages more nodes to join the network, build
+5.                  Eclipse  attack:  attacker controls the P2P com-           a flat network structure, implement multi-path routing,
+                    munication  network  and  manipulates  a  node’s           and  create  a  new  generation  of  network  transmission
+                    neighbors so that it only communicates with ma-            structure.
+                    licious nodes.  The vulnerability of the network to        From the perspectives of computing infrastructure in-
+                    eclipse attack depends on the peer sampling algo-          novation, NKN will revolutionize the blockchain ecosys-
+                    rithm,  and can be reduced by carefully choosing           tem  by  blockchainizing  the  third  and  probably  the
+neighbors.                                                                     last pillar of Internet infrastructure,  after Bitcoin and
+                                                                               Ethereum  blockchainized  computing  power  as  well  as
+6.                  Selfish Mining Attacks: in a selfish mining strat-         IPFS and Filecoin blockchainized storage. Complement-
+                    egy,  the selfish miners maintain two blockchains,         ing  the  other  two  pillars  of  the  blockchain  revolution,
+                    one public and one private.  Initially, the private        NKN will be the next generation decentralized network
+                    blockchain  is  the  same  as  the  public  blockchain.    that  is  self-evolving,  self-incentivized,  and  highly  scal-
+                    The attacker always mine on the private chain, un-         able.
+                    less the length of the private chain is being caught       NKN is a strategic exploration and innovation of the
+                    up by the public chain, in which case the attacker         general network layer infrastructure delivering the next
+                    publishes the private chain to get rewards. The at-        generation network to other fields. A highly reliable, se-
+                    tack essentially lower the threshold of 51% attack         cure and decentralized Internet is essential so that every
+                    as it may be more efficient for other miners to mine       individual and every industry can achieve their full po-
+                    the private chain than the public chain. Yet, as an        tential in the digital world.  NKN will offer tremendous
+                    economic attack, selfish mining attack needs to be         potential for achieving a fully decentralized peer-to-peer
+                    announced in advance to attract miners.                    system to make the Internet more efficient, sustainable
+                                                                               and secure.
+7.                  Fraud Attacks: malicious miners can claim large            The current network has huge inefficiencies for provid-
+                    amounts of data to be transmitted but efficiently          ing universal connectivity and access for all information
+                    generate data on-demand using applets. If the ap-          and applications.   It’s time to rebuild the network we
+                    plet is smaller than the actual amount of relay data,      really need instead of constantly patching the networks
+                    it increases the likelihood of malicious miners get-       we already own. Let’s start building the future Internet,
+ting block bonus.                                                              today.
+
+
+
+
+14
+[1]                                  Stephen Wolfram.  Statistical mechanics of cellular au-                The  byzantine  generals  problem.   ACM  Transactions
+                                     tomata. Reviews of modern physics, 55(3):601, 1983.                    on  Programming  Languages  and  Systems  (TOPLAS),
+[2]                                  Stephen Wolfram. A new kind of science, volume 5. Wol-                 4(3):382-401, 1982.
+fram media Champaign, 2002.                                                                         [25]    Miguel  Castro  and  Barbara  Liskov.   Practical  byzan-
+[3]                                  Satoshi  Nakamoto.   Bitcoin:  A  peer-to-peer  electronic             tine fault tolerance and proactive recovery. ACM Trans-
+cash system.  2008.                                                                                         actions  on  Computer  Systems  (TOCS),  20(4):398-461,
+[4]                                  Vitalik  Buterin  et  al.   A  next-generation  smart  con-    2002.
+                                     tract and decentralized application platform. white paper,     [26]    Pavel   Vasin.                                                  Blackcoins   proof-of-stake   protocol
+2014.                                                                                                       v2.   URL:  https://blackcoin.  co/blackcoin-pos-protocol-
+[5]                                  Juan Benet.  Ipfs-content addressed, versioned, p2p file               v2-whitepaper. pdf, 2014.
+                                     system. arXiv preprint arXiv:1407.3561, 2014.                  [27]    Sunny  King  and  Scott  Nadal.   Ppcoin:   Peer-to-peer
+[6]                                  Protocol  Labs.   Filecoin:  A  decentralized  storage  net-           crypto-currency with proof-of-stake. self-published paper,
+work, 2017.                                                                                                 August, 19, 2012.
+[7]                                  Federal Communications Commission. Restoring internet          [28]    BitShares. Delegated proof-of-stake consensus, 2013.
+freedom, 2017.                                                                                      [29]    Ernst Ising.  Beitrag zur theorie des ferromagnetismus.
+[8]                                  NKN.  NKN Economic Model and Roadmap.  nkn.org,                        Zeitschrift für Physik, 31(1):253-258, 1925.
+2018.                                                                                               [30]    Mark McCann and Nicholas Pippenger.  Fault tolerance
+[9]                                  NEO.  Neo white paper:  A distributed network for the                  in cellular automata at high fault rates. Journal of Com-
+smart economy, 2017.                                                                                        puter and System Sciences, 74(5):910-918, 2008.
+[10]                                 Xin-She Yang and Young ZL Yang.  Cellular automata             [31]    Luděk  Žaloudek and Lukáš Sekanina.  Increasing fault-
+                                     networks.   Proceedings  of  Unconventional  Computing,                tolerance  in  cellular  automata-based  systems.   In  In-
+pages 280-302, 2007.                                                                                        ternational Conference on Unconventional Computation,
+[11]                                 Carsten Marr, Mark Müller-Linow, and Marc-Thorsten                     pages 234-245. Springer, 2011.
+                                     Hütt. Regularizing capacity of metabolic networks. Phys-       [32]    ¸ apuni  and  Peter  Gács.   A  turing  machine  resist-
+ical Review E, 75(4):041917, 2007.                                                                          ing isolated bursts of faults. In International Conference
+[12]                                 Fan  Chung  and  Linyuan  Lu.   The  diameter  of  sparse              on Current Trends in Theory and Practice of Computer
+                                     random  graphs.    Advances  in  Applied  Mathematics,                 Science, pages 165-176. Springer, 2012.
+26(4):257-279, 2001.                                                                                [33]    Lars  Onsager.   Crystal  statistics.  i.  a  two-dimensional
+[13]                                 Ali Mohammad Saghiri and Mohammad Reza Meybodi.                        model with an order-disorder transition. Physical Review,
+                                     A closed asynchronous dynamic model of cellular learn-                 65(3-4):117, 1944.
+                                     ing  automata  and  its  application  to  peer-to-peer  net-   [34]    NKN. NKN Yellow Paper. nkn.org, 2018.
+                                     works.  Genetic Programming and Evolvable Machines,            [35]    Benoit B Mandelbrot.  The fractal geometry of nature,
+18(3):313-349, 2017.                                                                                        volume 173. WH freeman New York, 1983.
+[14]                                 David Vorick and Luke Champine. Sia: simple decentral-         [36]    Michael  Abd-El-Malek,  Gregory  R  Ganger,  Garth  R
+ized storage, 2014.                                                                                         Goodson,  Michael  K  Reiter,  and  Jay  J  Wylie.   Fault-
+[15]                                 Shawn Wilkinson, Tome Boshevski, Josh Brandoff, and                    scalable byzantine fault-tolerant services. ACM SIGOPS
+                                     Vitalik Buterin.  Storj a peer-to-peer cloud storage net-              Operating Systems Review, 39(5):59-74, 2005.
+work.  2014.                                                                                        [37]    Kevin  Driscoll,  Brendan  Hall,  Michael  Paulitsch,  Phil
+[16]                                 John Von Neumann.  The general and logical theory of                   Zumsteg,  and  Hakan  Sivencrona.   The  real  byzantine
+                                     automata.  Cerebral mechanisms in behavior,  1(41):1-2,                generals.  In Digital Avionics Systems Conference, 2004.
+1951.                                                                                                       DASC 04. The 23rd, volume 2, pages 6-D. IEEE, 2004.
+[17]                                 John Von Neumann, Arthur W Burks, et al.  Theory of            [38]    Cynthia Dwork and Moni Naor.  Pricing via processing
+                                     self-reproducing automata. IEEE Transactions on Neural                 or combatting junk mail. In Annual International Cryp-
+Networks, 5(1):3-14, 1966.                                                                                  tology Conference, pages 139-147. Springer, 1992.
+[18]                                 David MD Smith, Jukka-Pekka Onnela, Chiu Fan Lee,              [39]    Adam   Back.                                                    A   partial   hash   collision   based
+                                     Mark D Fricker, and Neil F Johnson. Network automata:                  postage  scheme  (1997).    URL  http://www.  hashcash.
+                                     Coupling  structure  and  function  in  dynamic  networks.             org/papers/announce. txt, 2016.
+                                     Advances in Complex Systems, 14(03):317-339, 2011.             [40]    Vitalik Buterin. What proof of stake is and why it mat-
+[19]                                 B Chopard and M Droz.  Cellular automata.  Springer,                   ters. Bitcoin Magazine, August, 26, 2013.
+1998.                                                                                               [41]    Rodney  J  Baxter.   Exactly  solved  models  in  statistical
+[20]                                 Matthew Cook.  Universality in elementary cellular au-                 mechanics. Elsevier, 2016.
+                                     tomata. Complex systems, 15(1):1-40, 2004.                     [42]    Catarina  Cosme,  JM  Viana  Parente  Lopes,  and  João
+[21]                                 John Conway.   The game of life.   Scientific  American,               Penedones.  Conformal symmetry of the critical 3d ising
+223(4):4, 1970.                                                                                             model inside a sphere.  Journal of High Energy Physics,
+[22]                                 Albert-László Barabási and Réka Albert.  Emergence of                  2015(8):22, 2015.
+                                     scaling in random networks. science, 286(5439):509-512,        [43]    Bertrand  Delamotte,   Matthieu  Tissier,   and  Nicolás
+1999.                                                                                                       Wschebor. Scale invariance implies conformal invariance
+[23]                                 Arati Baliga. Understanding blockchain consensus mod-                  for the three-dimensional ising model.  Physical Review
+                                     els. Technical report, Tech. rep., Persistent Systems Ltd,             E, 93(1):012144, 2016.
+Tech. Rep, 2017.                                                                                    [44]    Sheer El-Showk, Miguel F Paulos, David Poland, Slava
+[24]                                 Leslie  Lamport,  Robert  Shostak,  and  Marshall  Pease.              Rychkov, David Simmons-Duffin, and Alessandro Vichi.
+
+
+
+
+15
+Solving the 3d ising model with the conformal bootstrap.        cellular  automata  for  system-under-test  in  distributed
+Physical Review D, 86(2):025022, 2012.                          computing.  Journal of Convergence Information Tech-
+[45] Leemon Baird.  The swirlds hashgraph consensus algo-       nology, 9(6):55, 2014.
+rithm:   Fair,  fast,  byzantine  fault  tolerance.   Techni-   [47] Steven Janke and Matthew Whitehead.  Practical fault
+cal report, Swirlds Tech Report SWIRLDS-TR-2016-01,             tolerant 2d cellular automata.
+available  online,  http://www.  swirlds.  com/developer-       [48] Yoshihiko Kayama. Complex networks derived from cel-
+resources/whitepapers, 2016.                                    lular automata. arXiv preprint arXiv:1009.4509, 2010.
+[46] Arnab  Mitra,  Anirban  Kundu,  Matangini  Chattopad-
+hyay, and Samiran Chattopadhyay.  A novel design with
+
+
+
+
+

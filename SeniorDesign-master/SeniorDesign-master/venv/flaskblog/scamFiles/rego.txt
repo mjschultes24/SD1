@@ -1,0 +1,661 @@
+﻿REGO
+WHITEPAPER V1.5
+1
+
+
+
+
+TABLE OF CONTENTS
+INTRODUCTION ...                                      ...3
+ABSTRACT ...                                          ...4
+Vision ...                                            .4
+REAL ESTATE MARKET ...                                ..5
+Foreign Investment in the US Real Estate Market ...   .6
+US Below Market Real Estate Properties ...            ...7
+REGO PROPERTY LISTING ...                             ..8
+REGO Property Trading Platform ...                    ..8
+Technology Overview ...                               .8
+Blockchain ...                                        .9
+REGO Token ...                                        ...11
+Implementation of REGO Token (REGO) ...               ..11
+Smart Contract ...                                    ...11
+REGO ECOSYSTEM ...                                    ..12
+Types of Property on the Listing ...                  ..12
+Property Management Tools ...                         ..12
+Property Development Tools ...                        .12
+Property Management ...                               ..13
+ROADMAP ...                                           .14
+TOKEN SALE DETAILS ...                                ...15
+Token Allocation ...                                  ...16
+USE OF FUNDS ...                                      ...17
+Governance ...                                        .17
+TEAM ...                                              ...18
+Founders ...                                          ...18
+Other Notable Team Members ...                        .20
+DISCLAIMER ...                                        .21
+© Copyright 2018 Rego, All Rights Reserved.           2/21
+
+
+
+
+INTRODUCTION
+Cryptocurrencies and other blockchain-based technologies have the potential to transform the real estate industry.
+This paper outlines a vision for a new crypto-currency, a trading platform and software applications for the real
+estate industry based on state of the art blockchain technology. This vision was created by the REGO team
+which consists of experienced real estate investors, professionals and technologists who plan to revolutionize the
+industry.
+REGO stands for “Real Estate To Go” which alludes to the ease of conducting real estate transactions with
+blockchain technology based property trading platform and applications. Such technologies will make the buying,
+selling, management and development of real estate properties more efficient, secure and with lower costs.
+This document focuses on a general overview of the proposed technology and its uses.
+© Copyright 2018 Rego, All Rights Reserved.                                                                          3/21
+
+
+
+
+ABSTRACT
+Key challenges for foreign investors in today’s real       platform and for access to the blockchain based
+estate market include the lack of top quality and          applications. Usage of REGO tokens will significantly
+reliable property listing platforms, and dealing with      expedite, securitize and reduce the costs of the
+the time consuming, error prone and costly processes       aforementioned processes.
+in acquiring, managing and funding of properties.
+                                                           REGO can also offer unique services to assist foreign
+This White Paper will describe how REGO, an                investors in making property investments in the
+innovative real estate property sourcing, listing and      US and other countries. Such services will minimize
+technology firm is launching the REGO crypto token,        the challenges of time and costs in acquiring and
+blockchain technology-based trading platform and           managing of properties purchased from our platform.
+applications for the real estate market to revolutionize
+                                                           Vision
+the trading, management and investing of real
+                                                           To build the most disruptive blockchain technology-
+estate properties, especially for foreign investors.
+                                                           based property trading platform and associated
+REGO utility tokens can be used as currency in the
+                                                           applications to revolutionize the real estate industry.
+acquisition of certain properties listed on the trading
+© Copyright 2018 Rego, All Rights Reserved.                4/21
+
+
+
+
+Foreign Investment in the US Real                           that are unlikely to perform badly at the same time.
+Estate Market                                               The US Real Estate Market is especially appealing
+Overseas property investment can be beneficial              because it offers a wide range of Below Market Value
+because it allows property investors to diversify their     properties which will be discussed later on in this
+investment portfolio. This will minimize the risk           paper.
+because you are spreading it out over several markets
+Real House Price Growth in 2016
+Canada
+United Kingdom
+China
+Germany
+Mexico
+United States
+Spain
+Sweden
+Netherlands
+India
+Colombia
+Japan
+Australia
+Switzerland
+France
+Korea
+0                                                           2                                                         4   6                                                                                      8   10   12
+                                                                                                                          Source: IMF Global Housing Watch. The annual Percent change is computed based on the
+                                                                                                                          latest available data for the quarter in 2016.
+Overseas investment in the U.S. real estate market          homes in the US relative to those in the countries of
+has exploded in the past year as it reached a new high      the US’s biggest foreign investors. As can be seen In
+in 2017. Between April 2016 and March 2017 foreign          the chart above, the real estate price growth in 2016
+buyers and recent immigrants purchased $153  billion        was larger in Canada, UK, China, German and Mexico.
+in residential property. For context, this is an increase   Another reason for the growth in investment is the
+of 49% from 2016’s $102.6 billion. One reason for           current strength of foreign currencies against the U.S.
+the explosion in investment is the affordability of         dollar. However, as the strength of foreign currencies
+© Copyright 2018 Rego, All Rights Reserved.                 6/21
+
+
+
+
+REGO PROPERTY
+LISTING
+Access to quality real estate properties, especially for   Technology Overview
+those that have below market pricing or replacement        The REGO Platform includes both mobile and web-
+value, has traditionally not been available to offshore    based applications built for purposes of transacting
+investors because information on these properties is       real estate in a decentralized way. This network is
+usually not transparent. REGO reflects its founders’       governed by Ethereum smart contracts, implementing
+belief that investors should be able to source             and enforcing rules for entities to interact in property
+properties with good value to returns. REGO is set up      ownership or records history.
+to take advantage of the well-established founder’s
+                                                           Ethereum platform with its virtual machine (EVM)
+network and process for sourcing properties at below
+                                                           is currently the most established blockchain-based
+market prices to be listed for serious real estate
+                                                           distributed computing platform with smart contract
+investors from around the world.
+                                                           functionality and is industry standard for issuing
+Our team of real estate experts who have many years        custom digital assets. It powers the contracting
+of experience in the property investment sector will       aspects of the REGO Platform. The platform will
+carefully screen high yield real estate investment         utilize smart contracts and implement complex
+properties to be listed on the REGO platform for           issuance rules executed by EVM to manage voting,
+buyers. With ongoing expansion of the real estate          escrow, property agreements and other auxiliary
+team and network, REGO will provide investors with         contracts. The REGO platform will be a bridge to
+a growing number of quality listings from all over the     communicate with the Ethereum-based smart
+globally.                                                  contract infrastructure.
+                                                           Also, each user signed up on the REGO platform will
+REGO Property Trading Platform
+                                                           be given a REGO Property Wallet. The transaction
+Our trading platform supported by state of the art
+                                                           documents and title deed will be stored in the REGO
+blockchain technology, will allow investors from
+                                                           Property Wallet and the user will conveniently be able
+around the world to execute the purchase quickly
+                                                           to view the respective ledger records of each of their
+and securely. Purchase payments can be made with
+                                                           properties. The development of the REGO Property
+Bitcoin, Ethereum, and other major cryptocurrencies
+                                                           Wallet will facilitate the exchange of REGO, allowing
+including REGO tokens seamlessly. REGO tokens were
+                                                           users to receive, deposit, and transfer in an easy, fast
+created for facilitating overseas property transactions
+                                                           and secure way. Because REGO is an ERC-20 token,
+and management as well as eliminate cumbersome
+                                                           the wallet will be built to ERC standards to allow
+banking process and high fees involved with these
+                                                           interaction on the Ethereum network.
+transactions. REGO tokens will be executed with
+Ethereum based smart contract technology to                ERC stands for Ethereum Request for Comments
+eliminate errors and documented on the decentralized       - an official protocol for proposing improvements
+and distributed ledger of blockchain to assure             to the Ethereum network. ERC-20 assets share the
+transparency and immutability.                             same receiving address as an Ethereum address.
+                                                           Therefore, all ERC-20 tokens transact on the same
+© Copyright 2018 Rego, All Rights Reserved.                8/21
+
+
+
+
+network that a Ethereum wallet uses. Until the wallet        themselves and other nodes in the system to have an
+is developed, any ERC-20 capable wallet can be used          accurate record of transactions that have taken place.
+to store and transact REGO tokens. REGO platform will        In summary, blockchain is simply a shared distributed
+be developed and enhanced in phases over a period of         ledger that has the following characteristics:
+time.
+                                                             • Records transactions in P2P network
+Blockchain                                                   • Distributed to all member nodes
+ADVANTAGES OF BLOCKCHAIN TECHNOLOGY
+                                                             • Stores transactions in blocks
+A blockchain is a shared, distributed, unalterable ledger.
+                                                             • Verified transactions are linked from first block to
+Rather than a central third party holding a record of
+                                                             most current block
+every transaction that has taken place, in a blockchain
+                                                             • Past blocks unalterable
+network, multiple nodes hold complete ledgers of
+transactions. As a result, trust does not need to be         An example of what a blockchain looks like can be seen
+placed in a central third party, but nodes can trust         below:
+TX1                                                          TX2                                                      TX3
+Owner 1’s  Public Key                                        Owner 2’s  Public Key                                    Owner 3’s  Public Key
+Hash                                                         Hash                                                     Hash
+Verify                                                       Verify
+Owner 0’s  Signature                                         Owner 1’s  Signature                                     Owner 2’s  Signature
+Sign                                                         Sign
+Owner 1’s  Private Key                                       Owner 2’s  Private Key                                   Owner 3’s  Private Key
+© Copyright 2018 Rego, All Rights Reserved.                                                                           9/21
+
+
+
+
+Transactions are grouped together into aggregated          malicious node attempts to change a transaction that
+“blocks”. These blocks reference each other, starting      happened in the past, this would invalidate all blocks
+from the very first block that was ever created on a       that come after it, the network would recognize that
+particular blockchain, to the most current block that      a transaction that already took place was trying to
+was added to the chain. Each block includes data from      be changed, and the fraudulent transaction would be
+the most recent previous block added to the chain,         immediately invalidated. REGO will take advantage
+such that they are “linked” together, giving the name      of this technology for its low-cost, transparency,
+blockchain. In linking blocks together in this way, if a   immutability and security.
+Low-Cost                                                   Immutability
+Traditional methods of transferring capital incur          The ledger is policed by every member of the network.
+relatively high transactional costs regardless             Integrity is checked and agreed upon by the network as
+of transaction size due to banks and financial             a collective on an ongoing basis. Any change that one
+intermediaries having to address clearing costs. Through   or other party attempts to make to the blockchain is
+the use of blockchain, these costs can be significantly    recognized and rejected by the majority.
+reduced, as there is no middleman to impose fees. With
+a reward mechanism built into the protocol, transfers
+require only small transaction fees.
+Security
+Transparency
+As the Blockchain is maintained by a large network
+Everything that takes place on the ledger is visible to
+of participants, no one actor can easily gain enough
+anyone. It is possible to see everything that has been
+influence to submit a fraudulent transaction or
+recorded on the blockchain. Every transaction made
+successfully alter recorded data. Although possible in
+on the blockchain will record the time of transaction,
+theory with enough resources, it would be prohibitively
+both receiving and sending wallet address, and time of
+expensive in practice.
+delivery.
+© Copyright 2018 Rego, All Rights Reserved.                10/21
+
+
+
+
+REGO Token                                                 blockchain. The sale and purchase of a property as
+REGO token is the cryptocurrency created for users         well as ownership is managed by the smart contract
+of our property platform as well as the real estate        distributed ledger system. Subsequent buyer of the
+ecosystem and will be available at our Initial Coin        property will be able to trace the ownership trail
+Offering (ICO).  It is the preferred payment method        through REGO blockchain. Our platform will allow
+for acquisition on the platform as it eliminates the       easy access to do so.
+time-consuming banking process and unnecessary
+                                                           The transaction works on the algorithm of Smart
+fees. It is also recorded on the decentralized and
+                                                           Interactive Contract. Smart contract family is written
+distributed ledgers of blockchain and, as such, will be
+                                                           in the Solidity language native to the Ethereum
+secured and immutable. Furthermore, using tokens
+                                                           platform. Ethereum was chosen as the most
+as payment, the purchaser could will qualify for up to
+                                                           trustworthy environment for execution of Turing
+20% discount off the cash price.
+                                                           complete smart contracts. Typically, a smart contract
+Over time, REGO tokens will be listed on all major         will set up algorithm to enable the self enforcement
+cryptocurrency exchanges to provide easy access to         and self execution of the contract. Once both seller
+the tokens and the trading of them.                        and buyer has executed the smart contract using
+                                                           their private key coupled with the system public key,
+Implementation of REGO Token (REGO)
+                                                           the contract is deemed executed and consummated.
+REGO will be implemented on the Ethereum
+                                                           A typical smart contract performs the terms of the
+blockchain as an ERC-20 token. The Ethereum
+                                                           contract with pre-programmed codes.
+blockchain is currently the industry standard for
+                                                           An example use case would be when a user logs
+issuing custom digital assets and smart contracts. The
+                                                           into the REGO platform, they choose a property
+ERC20 token interface allows for the deployment of
+                                                           to purchase. They will then pay a deposit using
+a standard token that is compatible with the existing
+                                                           REGO. The buyer will then to given 14 days to settle
+infrastructure of the Ethereum ecosystem, such as
+                                                           the balance purchase price using REGO. The grace
+development tools, wallets, and exchanges.
+                                                           period for payment will expire on 11.59pm of the
+Ethereum’s ability to deploy Turing complete
+                                                           14th calendar day. The algorithm will program a
+trustless smart contracts enables complex issuance
+                                                           14-day period as a deadline, which when expired,
+rules for cryptocurrencies, digital financial contracts,
+                                                           the property will automatically be forfeited and be
+and automated incentive structures. These advanced
+                                                           returned as unsold units to the REGO site property
+features and active ecosystem make Ethereum a
+                                                           listing. The deposit sum will be set to be forfeited
+natural fit for REGO.
+                                                           concurrently. However, in the event the buyer settles
+                                                           the balance purchase price within the stipulated 14
+Smart Contract
+                                                           calendar days, the Sale Contract is deemed closed.
+The records of transaction on blockchain are
+                                                           REGO blockchain will record the person has the
+transparent and secure. History and ownership of
+                                                           new legal and beneficial owner to the property. The
+each property will be recorded on a blockchain audit
+                                                           system will concurrently be prompted to forward the
+trail that can be traced through the numerous nodes
+                                                           legal documents to the local land registry for title
+along the chain. The record will be based on a ledger
+                                                           deed registration.
+system which will be decentralized across the REGO
+© Copyright 2018 Rego, All Rights Reserved.                11/21
+
+
+
+
+REGO
+ECOSYSTEM
+REGO tokens can be utilized to purchase properties         Australia and Europe, using the same rigorous
+and access blockchain based technology for property        screening and property management processes
+management and the real estate eco-system. Over            perfected by the REGO team in the U.S. and
+time the REGO platform will expand its property pool       leveraging our established affiliates in those countries.
+to other countries in Asia and Europe.                     The goal is to present the same quality property
+                                                           listing with more geographical coverage to maximize
+Real estate related expenses such as brokerage, legal
+                                                           opportunities. Over time, REGO listing will cover all
+fees, builders, renovator, maintenance, service fee,
+                                                           major real estate markets globally.
+consulting and managing agent can also be managed
+and maintained within the REGO platform and
+                                                           Property Management Tools
+potentially paid through REGO tokens. This can be
+                                                           Property management involves many activities
+done using ERC20 compatible mobile wallets for
+                                                           and payment transactions, from signing rental
+easy transactions. Overtime, the REGO platform
+                                                           contracts, rent collection to repair, maintenance,
+will grow to include single and multi-unit residential
+                                                           etc. By using the REGO platform and having smart
+investment properties and commercial properties
+                                                           contract protocol implanted, all contracts, activities
+which can be listed by the public and managed on the
+                                                           and related payment transactions will be recorded
+REGO platform through incentivization with REGO
+                                                           on distributed ledgers for transparency, security
+tokens.
+                                                           and immutability purposes. When REGO token is
+                                                           adapted as means for payment the process will be
+Types of Property on the Listing
+                                                           even more efficient. The self-enforcement nature of
+The listing on the REGO platform will begin with
+                                                           a smart contract in the REGO platform can facilitate
+below market rental properties in the United States,
+                                                           repossession of property in the case of default in
+followed by market valued single and multi-unit
+                                                           tenancy. By virtue of the smart contract protocol,
+residential investment properties and will eventually
+                                                           the tenant could be locked out by a pre-programmed
+include commercial properties and third-party
+                                                           smart lock installed to the premises for example. The
+listings. All these properties will be sourced from
+                                                           landlord could regain possession of his property hassle
+various agents and brokers and will be verified directly
+                                                           free in this case.
+by the REGO team.
+REGO team utilizes a systematic approach in sourcing       Property Development Tools
+for quality below market value properties from             Property development is currently very complicated
+owners and agents as well as engages a series of due       with many contracts, activities and payment
+diligence to ensure genuity of the properties to be        transactions involving multiple parties. By utilizing
+listed on the platform.                                    smart contract protocol implanted in all real estate
+                                                           contracts, transfer of title and ownership of real
+While the platform is sourcing below market value
+                                                           estate can be recorded in the blockchain and retrieved
+properties in the U.S. market, REGO will begin
+                                                           within minutes which would in turn significantly
+expanding into other markets in Malaysia, Canada,
+                                                           reduce recording cost and timing. To take it further,
+© Copyright 2018 Rego, All Rights Reserved.                12/21
+
+
+
+
+transfer of interest, possession and control over real   in dealing with operational issues. REGO can make
+estate, which are not within the current title           arrangements for all of these services for the overseas
+                                                         investors, allowing them to focus solely on the
+registration system, can be traced by all parties
+                                                         investment decision.
+and stakeholders. Property fraud & forgery,
+misrepresentation and withholding of information         For investors that prefer to invest in the property
+by party can be prevented. Property development          through a corporation or other legal entity, REGO
+activities and related payment transactions will be      can set up the legal entity to take ownership of
+recorded on distributed ledgers for transparency,        the property for the buyer before closing all within
+security and immutability purposes. When REGO            the REGO platform. All rental contracts, property
+tokens are adapted as means for payment, the process     management and other related professional services
+will be even more efficient.                             can be set up under a legal entity before closing. This
+                                                         is the most efficient way for the investor to invest in
+Property Management
+                                                         real estate overseas.
+Purchasing and managing property post-acquisition
+                                                         REGO platform provides a network of service
+takes a lot of effort, from hiring property
+                                                         providers, namely lawyers, tax agents, title companies,
+management for rental and maintenance, to dealing
+                                                         secretarial services, property managers, contractors,
+with tax and other related governmental filings. Such
+                                                         renovators, servicemen etc. REGO token can be used
+activities are further complicated if the investors
+                                                         as payment for these services.
+are from overseas with minimal to no experiences
+© Copyright 2018 Rego, All Rights Reserved.              13/21
+
+
+
+
+ROADMAP
+The property listing and technology development         The roadmap is intended as an outline for how REGO
+roadmaps below can and likely will change, especially   intends to continue extending and expanding the
+as market conditions fluctuate and the competitive      platform to achieve our overarching real estate goals.
+landscape shifts, along with user demand changes.
+TECHNOLOGY DEVELOPMENT                                  PROPERTY LISTING
+2Q13-
+Build and test                                          Develop industrial                                       Investigate feasibility of                          Founders started sourcing
+                                                                                                                                              4Q17
+experimental                                            design concepts                                          product concepts                                    properties in the U.S.
+prototypes
+                                                                                                                                              1Q18
+                                                        REGO dashboard                                           REGO token                                          Sourcing of BMV single family
+                                                        release                                                  whitepaper release.                                 rental properties in the U.S.
+                                                                                                                                              2Q18
+ICO Crowdsale                                           Pre-ICO                                                  ICO Private                  Develop global
+(4/26)                                                  (4/05)                                                   Placement (3/15)             marketing plan
+                                                                                                                                              3Q18
+                                                        List on major                                            Token                                               Listing of quality residential
+                                                        cryptocurrency                                           release and                                         properties of selected property
+                                                        exchanges                                                distribution                 owners
+                                                                                                                                              4Q18
+                                                        Hire key                                                 BETA REGO platform           Expand to                                                   Sourcing and listing
+                                                        staff                                                    Test (Mobile + Web)          global recruits                                             of properties in
+                                                                                                                                              and workforce          Malaysia
+                                                                                                                                              1Q19
+Alternative data                                        Market                                                   REGO platform                Sourcing and listing                                        Sourcing and
+partnerships and                                        data feed                                                integration and              of single and multi-                                        listing of
+integration                                             integration                                              public test                                         unit rental properties               properties in
+                                                                                                                                              in the U.S.                                                 Europe
+                                                                                                                                              2Q19
+                                                                                                                 Launch REGO platform on                             Sourcing and listing of commercial
+                                                                                                                 both web and mobile                                 properties in the U.S.
+                                                                                                                                              3Q19
+                                                        Explore Potential Markets in Asia,                                                                           sourcing for commercial US
+                                                                                                                 Europe and Canada                                   properties, Australia and Canada
+                                                                                                                                              4Q19-
+                                                        Development of                                           Development of               Sourcing and                                                Sourcing and listing
+                                                                                                                                              4Q20
+                                                        ecosystem                                                REGO Platform 2.0            listing of                                                  of properties in the
+                                                                                                                                              properties in                                               following countries:
+                                                                                                                                              Malaysia               Malaysia, Canada,
+                                                                                                                                                                                                          Australia and Europe
+© Copyright 2018 Rego, All Rights Reserved.             14/21
+
+
+
+
+M
+
+
+
+
+Token Allocation
+The total supply of REGO token available will be 55,000,000, of which 72% will be allocated to the token sale.
+9.8%
+Advisors
+18.2%
+Reserved
+72.0%
+Public Sale
+9.8%
+72.0%                                                                                                            18.2%
+will go to REGO
+will be in                                                                                                       will be
+                                                                                                                 Founding Team
+ICO                                                                                                              reserved
+                                                                                                                 and Advisors
+© Copyright 2018 Rego, All Rights Reserved.                                                                      16/21
+
+
+
+
+USE OF FUNDS
+Funds raised during the REGO ICO will be used for          ongoing expenses required to support the growth of
+the development of the REGO platform and for the           the ecosystem.
+5.0%
+Legal
+10.0%
+Admin Setup
+10.0%
+Development Costs
+15.0%
+Marketing
+20.0%
+Reserve*
+40.0%
+Sourcing Properties
+5.0%                                                       10.0%                                                   10.0%        15.0%          20.0%       40.0%
+in legal                                                   in development                                          in admin     in marketing   platform    in sourcing
+                                                           costs                                                   and setup.   costs          expansion   properties
+Governance                                                 superiority and widespread adoption in the initial
+The founders of REGO will be responsible for the           stages, but the future value of REGO Tokens will be
+efficient use of funds resulting from any sale of tokens   determined by the global cryptocurrency investment
+from the REGO Token Reserve. Over time, ETH and            community.
+REGO tokens will be exchanged to cash for the sourcing
+                                                           By 2020 the initial REGO vision and architecture will
+of properties for resale on our REGO platform.
+                                                           have been implemented and deployed. REGO will
+REGO Platform and its utility features will serve as a     then work on the continuous evolution of the REGO
+launch pad for REGO Tokens, ensuring its technological     Blockchain and will be maintained by the Founders of
+                                                           REGO.
+© Copyright 2018 Rego, All Rights Reserved.                17/21
+
+
+
+
+TEAM
+The REGO founding team, which has an unparalleled                                                            past performance and were chosen carefully by
+ratio of world class advisors, specialize in a wide                                                          the founder of REGO. The core development team
+variety of fields including real estate, blockchain,                                                         members have years of experience in building scalable
+finance, legal, and more. To become part of the team,                                                        projects for users across the world.
+each of its current members had to show proven
+Founders
+LIONELL TAN
+CEO & Founder
+2012-present CEO Natnaes Investments LLC.
+A successful commodities trader who started his trading career with a Japanese based commodities
+trading company called ORIENTAL Commodities who went on to head a team of traders in OCBC
+Futures before moving on to running a boutique fund trading FX with GAIN Capital while  investing in
+value properties from 2004 in Malaysia and later expanded his expertise to the USA in 2013. Ever since
+then, he has build a portfolio of properties that were sourced through his network of real estate agents
+and property managers in the US. All properties sourced had to have a minimum 15% yield.
+DAVID BRAUT
+Company Advisor
+2012-present: Vice President at VELTRUST.
+David has the spirit of entrepreneurship. He strives for excellence and embraces the risks in life. He
+enjoys working and learning from people from all sources of life.
+JAIAN CUTTARI
+Marketing Advisor
+2012-present: Founder, CEO at VELTRUST.
+Jaian Cuttari is the CEO of Veltrust, a global advisory firm operating in Washington DC. With his broad
+knowledge of the many facets of business and market forces, he uses Veltrust to connect clients from a
+diverse range of industries to opportunities in the government and private sectors. Currently, Veltrust is
+at the forefront of utilizing blockchain technology to meet the needs of the global real estate market.
+© Copyright 2018 Rego, All Rights Reserved.                                                                  18/21
+
+
+
+
+HARSHA CUTTARI
+Blockchain & Crypto Advisor
+B.S. Electrical Engineering (University of Maryland)
+2016-present: CTO, Architect, Lead Engineer at AQUA LLC.
+2012-present: Co-founder, CEO, Architect, Lead Engineer at KROLEO.
+Harsha founded Kroleo Studios to build a digital agency committed to encompass high quality web
+design & application development. At Kroleo, he’s at the forefront of brand and communication
+strategy for their client portfolio. Trained as a designer, he has led several marketing campaigns,
+including full web development and online strategy consulting, for clients large and small in the Mid-
+Atlantic region.
+ELIZABETH SIEW WAI KIT
+Company Advisor & Legal Tech Counsel
+Elizabeth is the Managing Partner of her firm’s Selangor practices and Danga Bay, Johore branch.
+Today Ms Elizabeth manages 2/3 of the firm’s total staff force. Ms. Siew has worked with numerous
+developers on advising and drafting documents in relation to property development, setting up
+structures in respect of gated communities and agreements relating to the sale and purchase of
+industrial lands. She is also sought after for her opinion on management agreements relating to the
+management and operation of hotels by international hotel chains. Currently, Elizabeth Siew has
+ventured into advising tech startups and e-commerce companies, on scopes of legalities of cross border
+transactions, fund raising structures and documentations.
+© Copyright 2018 Rego, All Rights Reserved.                                                              19/21
+
+
+
+
+Other Notable
+Team Members
+LEOW YUEN FONG                                                 OKECHI ONYEJE
+Company Advisor                                                Blockchain & Crypto Advisor
+Leow Yuen Fong, started his career in the financial industry   B.S. Computer Engineering (University of Maryland)
+through rank and file. He graduated with diploma in
+                                                               2016-present: Lead Developer at VISTAPRINT.
+Investment Analysis organized by Malaysia Association
+of Productivity in collaboration with Western Australia        2012-present: Co-founder, CTO, Architect at KROLEO.
+Institute of Technology (Curtin University of Technology)
+                                                               Okechi is an applications developer committed to
+and Permodalan Nasional Berhad (National Investment
+                                                               user experience. He is knowledgeable across multiple
+Company). Through the years, Leow has been incharge
+                                                               programming languages and frameworks including Java,
+of asset management where he doubled the value of his
+                                                               PHP, MySql, Solidity, Ruby, and more. As Technical
+company portfolio within a year of inception. He is also
+                                                               Director for Kroleo Studios, he ensures all code written is
+incharge of business turnaround, operations, customer
+                                                               structured well, has the potential to grow and expand as
+services and marketing. Leow is now a Director of
+                                                               the need arises, and that sound development practices and
+Marketing & Sales, involving all international matters as
+                                                               methodologies, including an agile process, are utilized.
+well as financial investment for the group.
+SEAN TAN                                                       OMAR EL-MIHILMY
+Community Media Manager                                        Blockchain & Crypto Advisor
+Sean has previous experience in launching community            2016-present: Software
+initiatives such as building online forums, launching          Development Engineer at AMAZON
+ambassador programs and creating event series. He is a
+                                                               2012-present: Lead Developer at KROLEO.
+great people person with exceptional customer service
+skills and the ability to moderate both online and offline     Omar is a designer and front-end developer at Kroleo
+conversations. He acts as the face and voice of our brand      Studios. He focuses on creating thoughtful, innovative
+and manage all community communications.                       interactive work brought to life through a well-coordinated
+use of cutting-edge web technology. Omar has built
+large-scale web applications in a variety of environments.
+His area of expertise include: Java, Android development,
+HTML/JS/CSS, C, Python and more.
+© Copyright 2018 Rego, All Rights Reserved.                    20/21
+
+
+
+
+DISCLAIMER
+REGO is not intended to be an investment product.           Quantum computers
+REGO is a mechanism for driving REGO and the
+Technical innovations, like the development
+ecosystem within; supporting REGO is a vote of
+of quantum computers, may pose a danger to
+confidence in the success of REGO. With this being
+cryptocurrencies, including REGO.
+said, there are inherent risks that Presale and Crowdsale
+Regulatory uncertainty
+participants need to be aware of, especially given the
+volatile nature of digital currencies. Do not purchase      Blockchain technologies are subject to supervision and
+more REGO that you are willing to lose and please take      control by various regulatory bodies around the world.
+time to read our Whitepaper and ensure you understand       REGO may fall under one or more requests or actions
+and believe in the project and vision.                      on their part, including but not limited to restrictions
+                                                            imposed on the use or possession of REGO, which
+Risks associated with Ethereum
+                                                            may slow or limit the functionality or repurchase of
+REGO will be issued on the Ethereum blockchain.
+                                                            REGO in the future.
+Therefore, any failure or malfunctioning of the
+This is ICO is not open to citizens and residents
+Ethereum protocol may lead to the trading network of
+residing in the following countries:
+REGO not working as expected.
+                                                            • People’s Republic of China
+Absence of guarantees of income or profit
+                                                            • South Korea
+There is no guarantee that REGO will grow in value.
+There are no guarantees that the price of REGO will         • Singapore
+not decrease, including significantly, due to some
+                                                            • Malaysia
+unforeseen events or because of force majeure
+                                                            • United States of America
+circumstances.
+© Copyright 2018 Rego, All Rights Reserved.                 21/21
+
+
+
+
+

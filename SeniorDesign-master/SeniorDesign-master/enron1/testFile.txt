@@ -1,0 +1,66 @@
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9999999998158604
+incorrect prediction, actual result:  0, prediction 1, actual prediction 1.0
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+incorrect prediction, actual result:  0, prediction 1, actual prediction 0.9999643392784482
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+incorrect prediction, actual result: 1, prediction 0, actual prediction 1.0
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9996245917418745
+correct prediction, actual result: 0, prediction 0, actual prediction 0.9999999999999928
+incorrect prediction, actual result: 1, prediction 0, actual prediction 0.987397736595816
+correct prediction, actual result: 0, prediction 0, actual prediction 0.9999999999999994
+incorrect prediction, actual result:  0, prediction 1, actual prediction 1.0
+correct prediction, actual result: 0, prediction 0, actual prediction 0.999999997326191
+correct prediction, actual result: 0, prediction 0, actual prediction 0.9999999999998986
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+incorrect prediction, actual result:  0, prediction 1, actual prediction 0.8724540853033821
+incorrect prediction, actual result: 1, prediction 0, actual prediction 0.9998042939755237
+correct prediction, actual result: 0, prediction 0, actual prediction 0.9999999412479734
+correct prediction, actual result: 0, prediction 0, actual prediction 1.0
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+correct prediction, actual result: 0, prediction 0, actual prediction 0.9999812371109846
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.999964460376859
+incorrect prediction, actual result: 1, prediction 0, actual prediction 0.9995238134360002
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9996891400978479
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.7283331885705433
+correct prediction, actual result: 0, prediction 0, actual prediction 0.9999999778904848
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+incorrect prediction, actual result: 1, prediction 0, actual prediction 1.0
+correct prediction, actual result: 0, prediction 0, actual prediction 0.8721389278112914
+incorrect prediction, actual result:  0, prediction 1, actual prediction 0.9999999999999933
+incorrect prediction, actual result: 1, prediction 0, actual prediction 0.9999999999999996
+incorrect prediction, actual result:  0, prediction 1, actual prediction 0.968466515024402
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+correct prediction, actual result: 0, prediction 0, actual prediction 0.5550833552693122
+correct prediction, actual result: 0, prediction 0, actual prediction 1.0
+incorrect prediction, actual result: 1, prediction 0, actual prediction 1.0
+incorrect prediction, actual result:  0, prediction 1, actual prediction 1.0
+correct prediction, actual result: 0, prediction 0, actual prediction 1.0
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9405955694521191
+incorrect prediction, actual result: 1, prediction 0, actual prediction 0.9999999999998006
+incorrect prediction, actual result:  0, prediction 1, actual prediction 0.999999999999993
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+incorrect prediction, actual result:  0, prediction 1, actual prediction 1.0
+incorrect prediction, actual result:  0, prediction 1, actual prediction 1.0
+incorrect prediction, actual result: 1, prediction 0, actual prediction 0.9388002686202156
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9999999527291169
+correct prediction, actual result: 0, prediction 0, actual prediction 0.9314380879608282
+correct prediction, actual result: 0, prediction 0, actual prediction 1.0
+correct prediction, actual result: 0, prediction 0, actual prediction 1.0
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9999999999105769
+incorrect prediction, actual result:  0, prediction 1, actual prediction 0.9998475466523776
+correct prediction, actual result: 0, prediction 0, actual prediction 0.9999997032318187
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9999566051799171
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+correct prediction, actual result: 0, prediction 0, actual prediction 1.0
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9999999642524138
+correct prediction, actual result: 0, prediction 0, actual prediction 0.999995802636809
+correct prediction, actual result: 0, prediction 0, actual prediction 1.0
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.999999999983906
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9999999999999999
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+incorrect prediction, actual result:  0, prediction 1, actual prediction 0.9783845628847113
+incorrect prediction, actual result:  0, prediction 1, actual prediction 0.9999925973983593
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 1.0
+incorrect prediction, actual result: 1, prediction 0, actual prediction 0.999999999628608
+correct prediction, actual result: 1, rounded prediction 1, actual prediction 0.9999999999999909

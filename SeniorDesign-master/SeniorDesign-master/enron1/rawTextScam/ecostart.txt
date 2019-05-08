@@ -1,0 +1,1543 @@
+﻿Whitepaper the EcoStart project
+EcoStart
+Public distributed cryptographic platform
+for creating applications and software solutions
+on an open blockchain for supporting
+environmental and nature protection projects
+Site:eco-start.com
+Email: terra@eco-start.com
+Telegram: https://t.me/ecostart2018
+1
+
+
+
+
+Содержание проекта
+1. Introduction ...                                                                                        ..3
+1.1. How much do we invest in ecology? ...                                                                 .3
+1.2. How much should we invest in ecology? ...                                                             ...3
+1.3. Who will give money to improve the environment? ...                                                   ...3
+1.4. Why the block in the EcoStart project? ...                                                            ...4
+2. A brief summary of the project ...                                                                      ...4
+3. Our understanding of the situation and market analysis ...                                              ..7
+3.1. Relevance project ...                                                                                 .7
+3.2. Market analysis. Financial institutions investing in the environment...                               ..8
+3.3. The amount of funding and requirements for projects financed by traditional institutions. ..          ...9
+3.4. Problems of the traditional system of investment of environmental projects. ..                        ..1 0
+4. Project advantages ...                                                                                  ...1 0
+4.1. The amount of funding and requirements for projects financed by traditional institutions. ..          .11
+4.2. What will the Ecostart platform benefit users? ...                                                    ..1 2
+5. Ecostart Ecosystem ...                                                                                  ..1 3
+5.1 Project architecture ...                                                                               .13
+5.2. Crypto currency TerraEcocoin ...                                                                      ..1 3
+5.3. Decentralized investment ecological fund (IEF) ...                                                    ...1 7
+5.4 Fundraising application as a service for creating registered digital tokens - Token Generation Event
+(TGE) ...                                                                                                  .19
+5.5. Cryptomessenger. ..                                                                                   ...2 2
+5.6. Service for examination, recommendations and formation of ratings of trust and reputation. ..         .23
+5.8 Annex - Aerospace monitoring ...                                                                       ..2 4
+5.9. Open API ...                                                                                          ...2 6
+5.10. Description of the platform and the interaction of its elements                                      ...2 6
+6. Initial Coin Offering (ICO)                                                                             ...2 7
+6.1. Conditions for pre-ICO and ICO ...                                                                    ..2 8
+6.2. Structure of pre-ICO and ICO ...                                                                      ...2 8
+6.3. Issue and use of TER tokens ...                                                                       ...3 0
+6.4 Crowdsale ...                                                                                          ...3 1
+6.5. Offers ...                                                                                            ...3 2
+7. RoadMap ...                                                                                             ...3 2
+8. The Team ...                                                                                            ..3 3
+9. Consultants ...                                                                                         ...3 5
+10. Partners ...                                                                                           ...3 7
+11. Terms and conditions ...                                                                               .37
+2
+
+
+
+
+1. Introduction
+We compare nature to the mother, who always provides us, although the relationship
+with the planet turned out to be much more complicated. Perhaps nature is not our
+mother, but our creditor, and under the law of commodity-money relations, she will
+demand to repay the debt. And the time for repayment of loans has already come.
+Intense forest fires resulting indicate that Mother Nature is raging.
+Savings on the environment led to the fact that the environment has become dangerous
+to our health. If we do not invest in environmental protection now, then, according to
+scientists, we are inevitably waiting for a global planetary collapse, which will force the
+inhabitants of the planet to invest all funds for the restoration of nature or leave the
+planet, for example, to Mars. Will there be an opportunity for all of us to fly away?
+The laws by which nature operates have always been, and only now people have
+practically realized the scale of the disaster, they are trying to do something to resurrect
+the almost lost, to correct the spoiled, to prevent the further destruction of nature. And
+only we, all together, must and can preserve our planet and build a safer world for our
+and future generations.
+«If our generation does not do the impossible, waiting for us unthinkable»
+Petra Kelly
+1.1. How much do we invest in ecology?
+Particle "eco" in the word "ecology" in translation from ancient Greek means "home".
+How much money do the owners send to maintain their household? A good owner
+spends much more than 1-2% of the family budget for keeping the house clean and
+beautiful. But if it comes to the fact that our home is the whole Earth, then we are sending
+too little money into the care of our global home; we assign ourselves much more than
+we give in return. Currently, investments in ecology make up only 1% of GDP.
+1.2. How much should we invest in ecology?
+According to environmental experts, to stabilize the environmental situation at the
+current level, it is required to spend at least 3% of GDP, to improve it - at least 4% of
+GDP, for a radical change - at least 5% of GDP. Thus, investments in the environment
+should increase by 3-5 times!
+1.3. Who will give money to improve the environment?
+Those who are always, that is, we are all together. One thing must be taken into account:
+money is dispersed among us unevenly and not everyone likes to share with the
+environment. As a result, money, as always, is not enough. But now there is another
+source of assets - the Cryptocurrency.
+Our team is developing the startup Ecostart on the technology of blockchain, which will
+make its modest contribution to the preservation of our planet using a fundraising
+3
+
+
+
+
+platform and an ecological lottery. Part of the money from the lottery will be used to
+finance environmental projects. The main core of the EcoStart platform will be the new
+crypto currency - TerraEcocoin. Part of the commission from the transactions of this
+crypto currency will be transferred to the Investment Environmental Fund (IEF) for the
+subsequent financing of environmental (green) projects. Many a little makes a mickle
+for nature!
+1.4. Why the blockchain in the EcoStart project?
+Creation of the own cryptocurrency TerraEcocoin (ticker TECO), when generating
+it, the Proof-of-Importance algorithm is used. Blockchain, as a protected digital registry,
+will ensure safe storage and transmission of TECO. We draw your attention to the fact
+that the popularity of the digital currency is growing every year. More and more people
+are discovering its advantages over traditional money. It ceases to be an exclusively
+exchange-traded asset and begins to be perceived as a full-fledged payment instrument.
+Tokenization of the process of financing environmental projects using the Token
+Generation Event (TGE) service to create derivative tokens and smart contracts for each
+project (startup). The use of blockchain in this service excludes intermediaries between
+investors and financial applicants, simplifies access to investment services and attracts
+cryptocurrency owners in the investment process.
+Reputation  management.  Gives  users  with  the  opportunity  to  jointly  influence
+reputation and ratings, use them and collect feedback. This is especially important with
+decentralized funding.
+Expert assessments. Gives credentials to expert assessments on projects (startups),
+platform participants, providing secure acknowledgments.
+Cybersecurity. For the financial system - the most important property. The blockchain
+will provide more reliable protection in comparison with traditional technologies.
+Thanks to the socialization of the Internet and using the EcoStart platform, every owner
+of the cryptocurrency will have the opportunity not only to provide cryptocurrency support
+to  environmental  projects,  but  also  by  investing  in                                    “green”  startups  and  creating
+masternods to confirm TECO transactions and receive a stable income.
+The Ecostart platform will unite all the subjects of the ecological eco-community on a
+common online site, which will make it easier for users:
+- search for a target audience for environmental projects,
+- collection of funds for their investment,
+- coordination of volunteer activities,
+- formation of real ratings of environmental participants ecocommunity,
+- get feedback.
+2. A brief summary of the project
+4
+
+
+
+
+EcoStart is a blockchain-based public distributed cryptographic platform.
+The core of the platform is the TECO cryptocurrency, which is generated using
+The essence of                                                                         the Proof-of-Importance algorithm.
+the project                                                                            EcoStart will be a reliable platform for creating applications for funding in “green”
+projects, in the sphere of ecology and sharing the economy.
+Our  goal  is  to  increase  investment  in  green  projects  and  tokenization  of
+investment activities.
+EcoStart Blockchain has all the necessary characteristics for this:
+  Fast transactions about 100 thousand transactions per second;
+  Mobility;
+  Transparency;
+  Democracy;
+  Lack of intermediaries;
+  Energy-saving verification protocol (up to 100 times less than for Bitcoin)
+  Low transaction cost;
+  Smart contracts with new advanced features and tools for creating it.
+a. Insufficient financing of ecological activities, as another tool for collecting
+money to finance ecological measures, including global ones:
+- problems of ecological pollution;
+What problems
+- problems of the greenhouse effect;
+does the
+- destruction of the ozone layer
+project solve?
+b. Increase mutual trust between the initiators of ecological projects and investors
+from.
+c.Increase of ecological activity and society
+Create a global ecological ecosystem to finance projects to address ecological
+problems of the planet:
+Provide an opportunity for companies to raise capital to finance their ecological
+projects and start-ups in a more efficient, economical and secure way than the
+currently available classical tools;
+Provide investors and sponsors with direct access to initiators, companies and
+Project                                                                                start-ups implementing their ecological projects;
+Objectives
+To stimulate ecological and sanitary activism and development of the population's
+initiative;
+Attracting the attention  of  civil society,  the media, business community and
+municipal and regional authorities to ecological issues;
+Promoting volunteerism and sponsorship in
+ecological sphere
+- Creation of a global investment ecological fund;
+Strategic                                                                              - Development of tools and financial models for the examination of ecological
+objectives of                                                                          projects and determining the possibilities and amount of their investment, etc.;
+the project                                                                            - Creation of an effective mechanism for promoting "green" principles in society
+                                                                                       and business.
+                                                                                       The platform includes the following modules:
+Functionality                                                                          1.  Fundraising application  - service for creating registered digital tokens for
+and values of                                                                          financing any ecological (green) project, approved by Ecostart experts;
+the platform                                                                           2. Creation of the own crypto-currency TerraEcocoin with the Proof-of-Importance
+(POI)
+3. Cryptomessenger, built on P2P technology (peer-to-peer);
+5
+
+
+
+
+4.Investment ecological fund on financing of "green" projects.
+5.System of expertise and recommendations (formation of trust ratings).
+6.Open API
+7. The application for space monitoring of the earth's surface for the detection of
+garbage dumps
+8.  The  motivation  system  (incentives)  of  volunteers,  initiators  of  ecological
+projects and their investors
+9. Ecological lottery. At the same time, 50% of the funds remaining after the
+payment of winnings and operating costs will be sent to the investment ecological
+fund.
+                                                                                                                                                                            Ecostart is a public platform with an open API, with built-in support for additional
+Market position                                                                          applications  for  it                                                              (including  cryptocurrency).  Ready  to  integrate  with  any
+                                                                                         ecological programs and deploy applications on the platform
+To achieve consensus in a distributed Ecostart network blockchain technology is
+used, and to protect the blocks from forgery, the Proof-of-Importance method is
+used. For users, a standalone web application will be developed that you can use
+Technology                                                                               locally on your computer, or online.
+For developers, it is planned to have an API and open sources under a free
+license, an open database of transactions
+Blockchain EcoStart has the following features:
+EcoStart Blockchain has the following features:
+• High transaction processing speed  - about  100 thousand transactions per
+Technology                                                                               second;
+Capabilities                                                                             • The minimum transaction processing time is 1/100 second;
+• Low transaction cost;
+• Smart contracts with new advanced features and tools for its creation;
+• Energy saving verification protocol (up to 100 times less than for Bitcoin)
+The main users  - consumers of this service are all active segments of the
+population  and  socially-oriented  business  circles,  as  well  as  municipal  and
+regional authorities:
+Consumer                                                                                 1.Municipal communities - on the one hand as subjects of pollution of nature, on
+market                                                                                   the other hand, as "customers" of ecological (green) projects
+segments                                                                                 2. Specially protected natural areas (reserves, national parks, etc.)
+3. Ecological start-ups and companies implementing ecological projects
+4. Socially responsible business (investors)
+5. Non-profit organizations, environmental activists and environmental societies
+The  most  promising  environmental  projects,  based  on  the  principles  of
+blockchain:
+Green Earth
+Earth Token
+Competitive                                                                              Eco Coin
+environment                                                                              The Earth Dollar
+Carbon Coin
+Ecotoken
+All these projects are designed for certain areas of environmental activities, do
+not look like the EcoStart project and competitors are not.
+The core of the project is TerraEcocoin cryptocurrency (TECO). Factors for its
+growth are as follows:
+  Unique algorithms for creating and protecting blocks that
+Market
+require less electricity (up to 100 times) than with normal mining and blocks will
+evaluation
+be generated much faster (up to 10 times);
+  Connecting the ecological community to popularization
+                                                                                         6
+
+
+
+
+TECO cryptocurrencies
+  Network effect (see next item)
+We assume that by analogy with the law of Reed's Law that the usefulness of
+large networks can exponentially scale with the size of the network, the growth
+Network effect                                                                                  in the capitalization of the EcoStart platform is also subject to this law. In the
+and potential                                                                                   ecosystem of EcoStart, participants can not only interact with each other, but also
+capitalization of                                                                               create their own tokens, which will lead to the emergence of new communities
+the EcoStart                                                                                    within the ecosystem of EcoStart  (the company within the company), so the
+platform.                                                                                       capitalization (C) of the EcoStart platform can be proportional to K ~ 2n "N is the
+number  of  participants"),  and  not  directly  in  proportion  to  the  number  of
+participants.
+1.Eco Angel Group Comprehensive audit of the current state of the business or
+project in the environmental field https://ecoangel.group/
+2. GO Authentic. Eco-friendly studio GO Authentic, created by Olya Glagoleva.
+https://www.instagram.com/go_authentic_/
+Our                                                                                             3. Lorett ENGINEERING COMPANY Interdisciplinary project laboratories for
+collaborations                                                                                  satellite monitoring at the junction of geography, computer science, physics,
+biology http://eng.lorett.org/
+EcoStart  will  invest  in  these  projects  from  the  IEF  Environmental
+Investment Fund.
+3. Our understanding of the situation and market analysis
+3.1. Relevance project
+In connection with the widespread growth of interest in ecological issues, financial
+institutions that are able to structure and direct investments in ecological protection are
+becoming more and more in demand. For example, global investment in renewable
+energy in 2017 amounted to more than $ 243 billion. More than $ 140 billion is predicted
+that renewable energy will draw in 2040                                                         $ 7.8 trillion. investment.
+This is only one of the directions of development of "green" technologies. In all sectors
+and in all types of activities, a trend is developing to increase the volume of financing for
+ecological projects. At the same time, the crypto industry is booming, which showed
+phenomenal growth of the crypto-currency market in 2017. Its market capitalization for
+the year increased from $ 18 billion to $ 600 billion. Many analysts and experts expect
+that in 2018, the crypto currency will reach new heights.
+The rapid growth of capitalization and the enrichment of the owners of crypto-currencies
+create the prerequisites for the formation of a new source of financing environmental
+projects at the expense of crypto-currency, while the technology of the block system that
+has shown its effectiveness in the creation and circulation of crypto-currencies can be
+used to create new IT products to finance environmental and social projects. At the same
+time, the fundamental properties of the blockchain technology will be especially valuable
+for the EcoStart platform:
+ Transparency, which makes the EcoStart platform particularly reliable;
+ low transaction costs, due to the absence of intermediaries;
+ high speed of settlement of transactions, with operating mode 7/24;
+7
+
+
+
+
+ decentralization of management. The platform is managed by users who own
+TECO cryptocurrency.
+We offer the Ecostart project - a platform for creating applications and software
+solutions  on  an  open  blockchain  for  supporting  ecological  projects,  with
+TerraEcocoin's own cryptocurrency.
+The expectation that the owners of cryptocurrency will invest in environmental projects
+is based on the fact that in Western countries more than 25% of all companies are
+considered to be socially oriented. Environmental investments also relate to socially
+responsible investments. Their goal is to finance investment projects aimed at improving
+the environmental situation.
+Given these circumstances, we hope that the crypto community will follow the global
+trend to increase funding for ecological projects to help humanity achieve economic
+growth and development while fighting against climate change and preventing costly
+ecological destruction and inefficient use of natural resources, and also eliminating the
+accumulated pollution of the environment, which led to the following consequences,
+Fig.1-2:
+                                                                                              Fig.1The concentration of suspended solids PM2.5                                                                Fig.2The number of deaths from contaminated suspended
+                                                                                              on average in 2015 for selected countries of the world                                                          solids PM2.5 and ozone per 1 million people in 2015 for selected
+                                                                                                                                                                               countries of the world
+Australia
+                                                                                              Norma                                                    WHO 10 mlg
+Canada                                                                                                                                                                         Russia
+UK
+                                                                                                                                                                               China
+USA
+Brazil
+                                                                                                                                                                               Germany
+France
+Mexico                                                                                                                                                                         UK
+Germany
+OECD                                                                                                                                                                           France
+Russia
+                                                                                                                                                                               Brazil
+Japan
+                                                                                                                                                                    mlg / m3
+China
+                                                                                                                                                                               Canada
+India
+                                                                                                                                                                               0                        200   400                                                                600   800   1000
+0                                                                                             20                                                       40           60
+3.2. Market analysis. Financial institutions investing in the environment.
+In the world practice, there are several sources of funding for "green" projects: the funds
+of  international  organizations,  national  programs,  local  programs,  specialized
+investment funds, private investors, the banking system:
+Special investment funds were established in a number of countries in Western
+Europe to finance major infrastructure projects to address the problems of disposal of
+solid domestic waste, the construction of municipal wastewater treatment plants, etc.
+Unlike other commercial funds, projects that are supposed to be implemented tend to
+be less profitable than other investments, but these funds could attract funds from
+pension, insurance and other funds, as they received state support in the form of
+granting certain tax benefits to participants in the financial pool.
+Ecological funds (EFs) are widely distributed in countries with economies in transition
+in the countries of Central and Eastern Europe and the CIS and are at different stages
+8
+
+
+
+
+of development: from financing and implementing major effective investment projects
+(Poland and Hungary) to solving the problem of forming a revenue base in the legislative
+level (Central Asian countries). EFs were established to finance medium- and long-term
+environmental projects in countries where financial markets were poorly developed, the
+bank  rate  was  high,  and  financial  institutions  were  not  interested  in  lending  to
+environmental projects (for example, the Global Environment Facility (GEF), the United
+States  Agency  for  International  Development  private  foundations                          -  Rockefeller
+Foundation, MacArthur Foundation).
+International  financial  institutions  and  bilateral  donors  provide  financing  for
+environmental purposes only to developing countries and countries with economies in
+transition.  As  a  rule,  the  provision  of  funding  is  associated  with  the  mandatory
+implementation of certain conditions: indicating the scope of environmental protection
+activities, limiting the choice of technology, an obligatory condition for the purchase of
+equipment produced in the donor country, etc.
+Banking  organizations.  Among  such  creditors  are  the  International  Bank  for
+Reconstruction  and  Development,  the  European  Bank  for  Reconstruction  and
+Development, the European Investment Bank, Green Investment Bank, KfW, Nordic
+Investment Bank.
+Institutions are both state (budgetary and extra-budgetary), and operate on the basis
+of public-private partnership, for example, the Organization for Economic Cooperation
+and Development. The funds can be provided to enterprises in the form of grants, loans,
+including concessional and interest-free loans, in the form of co-financing and financing
+of targeted programs, including investment projects.
+3.3. The amount of funding and requirements for projects financed by traditional
+institutions.
+With financing from international organizations, all loans are provided on commercial
+terms. In addition, investments are provided in the form of equity participation in the
+capital, structural financing.
+The projects of the International Development Association and the International Bank
+for Reconstruction and Development aimed at protecting the environment are estimated
+at approximately $ 13 billion.
+Funding for state and municipal programs is provided in the form of grants or repayable
+loans. Interested companies can participate in tenders and claim amounts ranging from
+several thousand dollars to several million. Grants may have conditions or obligations to
+limit the range of recipients, the need for cooperation, reporting, copyright protection,
+etc.
+Private investors - individuals usually invest up to $ 2 million.
+9
+
+
+
+
+Funds that specialize in investing in "clean" technology can invest larger amounts, but
+as a basic requirement, high profitability of projects is put forth.
+Bank financing is provided only to reliable borrowers. At the same time, the quality of
+collateral may be more important than the ecological effect of the project.
+A special place is occupied by the so-called "tax investments" in developed markets.
+Their essence lies in the fact that large taxpayers have the opportunity to reduce their
+future tax liabilities by investing in priority sectors of innovation established by law. The
+US government even initiated a special grant program to compensate for the deficit of
+tax investments.
+3.4. Problems of the traditional system of investment of environmental projects.
+Practice testifies to the following problems in the sphere of investment of environmental
+projects, using traditional funding institutions:
+1. A fairly expensive mechanism of financing. In fact, all listed investment institutions
+are intermediaries between investors and financing facilities. At the same time, they all
+pursue their own interests, which do not always coincide with the needs of society.
+2. There is no coordination of actions of various investment institutions when investing
+in environmental measures, which leads to duplication, dispersion of material, labor and
+money resources.
+3. There is no choice of priority projects, to a greater extent, affecting the improvement
+of the environmental situation involving the public and the expert community.
+4. There are no standards for disclosing information, which, under the conditions of a
+traditional investment system, leads to insufficient information openness of the process
+of selecting an investment object.
+5. The project financing mechanism is not sufficiently used - "when a particular lender
+knows that his investments will be directed to a particular project, rather than directed at
+unclear goals."
+6. Politicization of the process of selection of financing objects.
+4. Project advantages
+Applications and tools that are developed in the EcoStart project will significantly reduce
+the problems inherent in the traditional system of investing environmental projects can
+provide new business opportunities and attract capital, and investors - to access a wider
+range of investments
+Using the EcoStart platform as a runtime environment for EcoStart platform applications,
+we make it decentralized, getting all the benefits that it has:
+10
+
+
+
+
+- protection against censorship and the ability to have all the information always
+online;
+- fault tolerance;
+- Transparency and the like.
+These  properties  of  the  block  will  enable  to  ensure  the  participation  of  the  eco-
+community of the EcoStart platform in the discussion and decision-making on the
+financing of an environmental projects.
+4.1. The amount of funding and requirements for projects financed by traditional
+institutions.
+With financing from international organizations, all loans are provided on commercial
+terms. In addition, investments are provided in the form of equity participation in the
+capital, structural financing.
+The projects of the International Development Association and the International Bank
+for Reconstruction and Development aimed at protecting the environment are estimated
+at approximately $ 13 billion.
+Funding for state and municipal programs is provided in the form of grants or repayable
+loans. Interested companies can participate in tenders and claim amounts ranging from
+several thousand dollars to several million. Grants may have conditions or obligations to
+limit the range of recipients, the need for cooperation, reporting, copyright protection,
+etc.
+Private investors - individuals usually invest up to $ 2 million.
+Funds that specialize in investing in "clean" technology can invest larger amounts, but
+as a basic requirement, high profitability of projects is put forth.
+Bank financing is provided only to reliable borrowers. At the same time, the quality of
+collateral may be more important than the ecological effect of the project.
+A special place is occupied by the so-called "tax investments" in developed markets.
+Their essence lies in the fact that large taxpayers have the opportunity to reduce their
+future tax liabilities by investing in priority sectors of innovation established by law. The
+US government even initiated a special grant program to compensate for the deficit of
+tax investments.
+Some rating and information agencies are stock indexes of "green" companies, allowing
+to compare the dynamics of stock prices in general on the market with the dynamics of
+quotations of "green" companies. Ecological stock indices, for example, exist in the
+rating agency Standard & Poors.
+A number of rating agencies in the United States and Europe are ranking buildings on
+the level of ecological friendliness. The degree of impact of the erection and operation
+of buildings on the environment is assessed (in terms of energy consumption, CO2
+emissions, waste recycling, etc.). Such ratings are used so far only as a factor for the
+11
+
+
+
+
+promotion  of  real  estate  objects  when  selling  them  and  as  PR  for  construction
+companies.
+Thus,  the  Ecostart  project  is  aimed  at  solving  one  of  the  acute  problems  -
+ecological - by using modern information technologies to create and operate a
+system  of  financing  and  implementing  ecological  measures  and,  as  a
+consequence,  to  communicate  to  the  ecological  movement  of  the  crypto
+community.
+4.2. What will the Ecostart platform benefit users?
+ NPOs and initiators of environmental projects will provide Ecostart with
+a set of tools for creating their own tokens and managing their properties, which can be
+as a crypto currency, bonds, shares in the project, participation certificates, etc. For each
+token, you can specify your own name, output volume, number of decimal places and
+other parameters and properties. Sale of released tokens will allow to collect money for
+the implementation of environmental projects;
+ Volunteers - can receive material and moral encouragement,
+and also receive discounts and bonuses from partners for accommodation, food and
+entertainment, visit new places and contribute to the environment;
+ Investors, sponsors (socially responsible business) for financing of ecological
+projects within the framework of corporate social responsibility will receive a positive
+image and PR, and in the case of investments in "green" commercial projects will also
+receive a profit.
+ For developers, an open API for creating applications and open sources under
+a free license, an open database of transactions, which will enable small companies and
+start-ups to develop in the field of "green" technologies.
+ TerraEcocoin cryptocurrency holders will have the opportunity not to
+only provide cryptocurrency support to specific environmental projects, but also by
+investing in green startups and creating masternodes to confirm TECO transactions, to
+receive a stable income.
+To create a masternode, you need to have at least 20 000 TECO accounts. This node
+will perform functions for verifying transactions and protecting the network. In this case,
+the POI algorithm distributes the reward between the nodes (accounts) by the criterion
+of their activity evaluation in the network, taking into account the hardware capacities
+that they use and the amount of funds in their purses.
+Thus, the POI algorithm gives an advantage to those who make a more real contribution
+to the development of EcoStart depending on the activity of the work;
+ For startups, it becomes possible to apply to the ecological fund that focuses
+on financing businesses and start-ups that implement ecological projects that are too
+risky for commercial lenders: projects whose revenues are either unpredictable or below
+12
+
+
+
+
+the market average, or are expected only in the long term, and grants for implementation
+ecological social projects
+5. Ecostart Ecosystem
+The uniqueness of the EcoStart platform lies in the fact that it will provide users with
+many useful and necessary functions within a single platform, while others provide for
+the simultaneous presence of only some of them.
+5.1 Project architecture
+Ecostart  is  an  innovative  solution  for  the  global  market  for  ecological  projects,
+implemented as a public distributed cryptographic platform for creating applications and
+software decisions on an open detachment to support ecological and ecological projects.
+The platform will include the following modules:
+ Release of TerraEcocoin's own crypto currency with POI generation (Proof-of-
+Importance, proof of importance);
+ Decentralized Investment Ecological Fund (IEF);
+ Fundraising application - service for creation of a personal digital token by initiators
+of ecological projects through one-time, or accelerated emission for financing
+ecological (green) projects approved by Ecostart experts;
+ Cryptomessenger, built on P2P technology (peer-to-peer);
+ Service for examination, recommendations and formation of ratings of trust and
+reputation;
+ Space Surface Earth Surface Application
+ Crypto Lottery;
+ The system of motivation (incentives) of volunteers, initiators of EP and investors;
+ Open API for creating applications for the implementation and support of EP.
+The Ecostart Ecosystem Basis is a registry in the form of a distributed database, where
+all data on user accounts and transactions is stored.
+5.2. Crypto currency TerraEcocoin
+13
+
+
+
+
+The base unit of the EcoStart platform is the crypto currency, TerraEcoCoin, the TECO
+ticker, which serves as the main source of its value, allowing to carry out all the main
+activities and transactions on the platform. TECO has all the properties of the existing
+crypto currency.
+TEСO Transaction Scheme
+Objective                                                                                    Create a crypto currency for trading with the consolidation of part of the
+commission from transactions to the ecological fund
+TerraEcocoin is a private money symbol that allows you to carry out
+unimpeded transactions with a wide range of assets and goods in per-to-
+per mode, and is also a means of exchanging and preserving capital.
+It is expected to grow in price with an increase in the number of users.
+Function                                                                                     This  is  the  only  one  in  the  world,  a  crypto  currency,  which  will
+automatically  financially  support  projects  aimed  at  improving  the
+ecological situation.
+One million will be issued by TECO 210 million, and there is no further emission. There
+will be no possibility of mining. You can get coins only to the owners of accounts (master
+codes) supporting the stability of the platform. Funds for remuneration will be from
+commissions that are paid when making transactions, placing on the platform of various
+14
+
+
+
+
+applications, fees for conducting ICO. And the size of the commission for the transaction
+is determined by the payer himself.
+TECO is divided up to eight decimal places. Such a small coin is called Xnano (XNO)
+and corresponds to 0.00000001 TECO.
+The TECO cryptocurrency is, first, a settlement money and is not securities.
+Secondly, from the financial point of view, this means for exchange on the crypto
+exchange markets and in payment systems.
+Thirdly, it is the core of the EcoStart platform and will ensure the stable operation
+of the entire ecosystem using smart contracts, guarantee of transactions and
+liquidity.
+The popularity of the cryptocurrency is growing every day. More and more people are
+discovering  its  advantages  over  traditional  money.  It  ceases  to  be  an exclusively
+exchange-traded asset and begins to be perceived as a full-fledged payment instrument.
+When carrying out transactions to confirm the blocks, the Proof-of-Importance (POI)
+principle will be used, the POI is built on the basis of the EigenTrust algorithm, a
+reputational system that measures the intensity of interaction of different nodes in the
+network with each other, based on their history downloads and directs traffic to the most
+reliable nodes. Thus, the POI algorithm determines which generated block is considered
+correct and provides through a reliable node the addition of user transactions to the
+block chain in exchange for a small In order to encourage the participating nodes of the
+EcoStart network, they will be accrued TECO coins by a certain algorithm, the so-called
+harvesting (encouragement for the creation of blocks) .In order to be able to confirm the
+created blocks, the account of the node (master node) must have a balance of at least
+20 000 TECO.
+The main advantage of harvesting is that this method uses much less electricity (up to
+100 times) than in normal mining, which means lower commission fees for transactions
+and makes this blockchain the "green".
+All TECO crypto currency emissions are distributed among the owners of the
+tokens (TER) with the exchange in the ratio 1 TECO = 1 TER
+To become a member of the ecosystem, the user will have to create an account on the
+EcoStart platform. During registration, the system will create a user profile and his wallet
+on the official coin website and the corresponding mobile application for the smartphone.
+Each member of the ecosystem will be provided with a crypto-currency wallet, the
+interface of which will be simple, convenient, intuitive and similar to standard Internet
+banking. The wallet is planned to be multicurrency and will allow you to work with popular
+cryptonyms and with dollars and euros.
+15
+
+
+
+
+An alternative option is to store coins on exchanges. If you do not plan daily trading, it is
+more expedient to store coins on the official site for security reasons.
+We believe that after the release of TECO, the processes for managing the movement
+of the crypto currency, the size of commission fees for transactions can be modeled
+using smart contracts, as well as electronic signatures of different parties.
+For the exchange of TECO and other tokens created on the EcoStart platform, another
+crypto currency or fiat money is created by the own decentralized crypto-exchange
+exchange. Its main characteristics:
+ System performance over 60,000 transactions / sec;
+ Integration with common technological solutions,
+ used in traditional financial markets with the addition of the functionality of the
+block;
+ Ability to use tools to work in the mode
+ real time;
+ Generally recognized trading standards;
+ Ability to work with the most common
+connection protocols. This is mBinary, FIX / FAST, WebSocket and REST.
+The exchange must have the following features and functions available to all users of
+the EcoStart platform:
+ KYC & AML;
+ Deposits in fiat currency;
+ Margin trading;
+ Margin trading using swaps and repo;
+ High-frequency trade;
+ Transparency of work;
+ Working with derivatives;
+ Collocation zones;
+ Tools for forecasting and technical analysis;
+ WEB-version of the platform;
+ Mobile version of the platform (iOS, Android);
+ Customizable interface;
+ Support for trading algorithms by web interface;
+ Personalization of funds management. The TECO crypto currency is fully
+integrated  into  the  ecosystem  of  EcoStart,  and  participation  in  all  ecosystem
+components will be carried out with the help of it. Consequently, it is expected that
+the demand for TECO will grow in proportion to the number of active users.
+Thus, the TECO course at the system level is economically rigidly correlated with
+the turnover of the EcoStart platform, its development as a project. The more
+sellers and buyers of crypto-currencies, transactions and activity on the platform,
+the more benefits all participants receive.
+The commission for accommodation will be paid to TECO, which sellers will have
+to purchase independently or indirectly through EcoStart from TECO holders both
+16
+
+
+
+
+on the EcoStart exchange and at other crypto-exchange exchanges, which will
+eventually increase the demand for it.
+Any forecast figures for the cost of TECO in the future at the moment will not be
+correct.
+5.3. Decentralized investment ecological fund (IEF)
+One of the functions of money is to influence the world around us, which allows us to
+change it in the right direction. The conduct of this function of money is the use of various
+ecological funds organized by people who are not indifferent, who take responsibility for
+solving a particular local or global ecological problem. The creation of ecological funds
+is one of the new economic methods and a source of financing for projects aimed at
+improving the state of the environment.
+On our part, participation in the process of improving the world is the creation of a
+decentralized investment ecological fund (IEF) on the EcoStart platform.
+The model of the decentralized organization was chosen as the target model for the
+fund. The fund will be managed through smart contracts, programmatically created
+contracts within the EcoStart blockchain system.
+IEF will finance environmental projects on various environmental protection topics.
+17
+
+
+
+
+IEF Features
+Technology of
+Indelible "receipt" for each transaction from the fund account to
+blockchain
+ensure full transparency
+Compliance with
+Fully complies with the established rules, regulations, KYC and
+legislation
+AML policies
+Sources of fund
+- Marginal financing of commercial projects (dividends)
+capital
+- Transaction proceeds from circulation of TECO
+Several transparent
+- Implementation of TGE and placement on the platform of
+flows of replenishment
+IEF                                                                 third-party applications
+- Deductions from the environmental lottery
+- Sponsorship contributions
+Who is funded from
+-Rendering assistance (grants) to non-commercial
+the fund?
+environmental projects
+- Marginal financing of environmental projects (loans)
+- Financing of the geoportal, based on the aerospace
+monitoring database
+- Volunteer support
+The distribution of
+- Operating expenses (technical support, remuneration to
+capital IEF
+experts and escrow)
+- Investment capital (with automatic calculation of the share of
+grants in total capital)
+Form of investment
+- Grant: for non-commercial environmental
+from IEF
+projects (nonprofit smart contract);
+- Loan: for start-ups and companies,
+realizing profitable environmental projects (credit smart
+contract),
+- Investments: in the form of joint
+financing of environmental projects (investment smart contract)
+Where IEF funds are
+IEF funds are consolidated in a crypto wallet, which should be
+accumulated
+implemented in two versions:
+1. Hardware wallet with a high security threshold, in which
+the assets of the fund will be kept;
+2. Buffer online - a purse for incoming crypto currency, which
+will be stored on the platform EcoStart.
+Selection of projects
+The choice of environmental projects for financing is
+for financing
+- by a majority vote of TerraEcocoin coin holders, after expert
+assessment by EcoStart experts using e-voting technology -
+decentralized decision-making, fund management.
+Escrow
+The  escrow  agent  evaluates  the  vote  and  assesses  the
+expertise and verifies the corresponding Smart contract
+Monitoring of projects
+The projects selected for financing will receive funds in stages,
+undergo a desk audit and report on their work. If the audit
+shows unsatisfactory results, the financing may be suspended.
+Further funding can be provided as the project reaches its
+intended goals.
+18
+
+
+
+
+Business - scheme for IEF
+The IEF funds are consolidated in Crypto wallet, stored on the EcoStart platform and
+allocated for the implementation of IEF in the form of grants and investments approved
+by the majority of TerraEcocoin co-owners, after expert assessment by EcoStart experts
+using e-voting technology  - decentralized decision-making, fund management. The
+projects selected for financing will receive funds, be audited and report on their work. If
+the audit shows unsatisfactory results, the financing may be suspended. Further funding
+can be provided as the project reaches its intended goals.
+The infrastructure of the IEF is separated from the entities that operate in it (investors
+and  entrepreneurs),  which  minimizes  the susceptibility to  monitoring activities  and
+related costs by regulatory bodies.
+With the help of the IEF, the ecosystem will become a single platform for initiators and
+entrepreneurs seeking to attract capital for their ecological projects, as well as for
+investors and sponsors who want to form their own investment audience with specific
+goals that solve ecological projects. This will increase the demand for TECO crypto
+currency, because it will be used by both investors and entrepreneurs who finance their
+campaigns.
+5.4 Fundraising application as a service for creating registered digital tokens -
+Token Generation Event (TGE)
+19
+
+
+
+
+The  Token  Generation  Event  (TGE)  service  will  provide  an  opportunity  for  non-
+commercial organizations (NPOs) and environmental project initiators to create their
+own tokens (digital assets) using an easy-to-use interface of the EcoStart platform.
+The TGE service will be based on the TerraEcocoin crypto currency protocol and will
+allow the issuing of own tokens (digital assets) and managing their properties. Tokens
+can be a product token, an electronic crypto-pixel, a share in the project, a certificate of
+participation, a deposit certificate, an equity, a bond, a crypto currency, points of loyalty
+programs and other assets.
+For each token (digital asset), you can specify your own name, output volume, number
+of decimal places, start date, suspension, returns, elimination and recall, and other
+parameters and properties. All parameters of the token (digital asset) operation are
+managed through a smart contract.
+Tokens can be issued in two types:
+-   commercial ecotokens (CET) to finance recouped environmental projects;
+-   sponsored ecotokens (SET) to finance non-recouped environmental projects and
+use in various referral programs and loyalty programs;
+Tokens are issued by a single or accelerated emission for a specific project, approved
+by the expert community of the Ecostart platform or authorized trackers. The cost of any
+issued token is:
+1 issued token = 1 TerraEcocoin.
+CET type tokens in the TGE can be sold for TerraEcocoin, quoted crypto currency or
+fiat money, and can then be freely traded: sold, exchanged, donated to any crypto
+currency and fiat money. Unsold tokens are destroyed.
+SET-type tokens for ICO can be sold for TerraEcocoin, quoted crypto currency or fiat
+money. Sold tokens from sponsors are used in the service to build trust and reputation
+ratings. The tokens listed in the purse serve as a source of growth of the sponsor's
+rating and a discount when using paid platform services, and the sponsors will have
+wide opportunities for implementing image interests and loyalty programs.
+The service will include:
+ Web site with information on announced environmental projects that conduct
+TGE. Review, analysis, reviews and ratings of planned, implemented and announced
+environmental projects. Using the website, you can monitor your activity, participate in
+TGE, etc.;
+ TGE Library and Designer of smart contracts for process automation;
+ Integration with crypto-exchange for sale-purchase of tokens;
+ Service - tools for creating smart contracts without knowledge of the basics of
+programming. A smart contract is a program code that runs in a decentralized
+EcoStart block network and implements a sequence of calls to functions and
+methods of code within or outside the network. Basic properties:
+20
+
+
+
+
+- Work on the algorithm and conditions laid down in the program;
+- Execution of external or internal actions and commands;
+- Offline actions on a call, condition or schedule.
+Business - scheme "Investor and environmental project"
+Smart contracts work on all masternodes (nodes) of the decentralized EcoStart network.
+The program code is executed in the network of nodes, and on not on one of them. This
+means that if the program is added to the network, it cannot be removed from the
+network.
+The fee for executing the smart contract will be in the TECO crypto currency. The system
+automatically charges the account for the execution of each function from the account.
+The fee comes to owners of master codes, which store the database and carry out
+harvesting.
+Fundraising service will allow investors-users of the EcoStart ecosystem to have a
+platform for reviewing and evaluating new companies pretending to invest. This will help
+investors better evaluate the potential of new enterprises and start-ups to find potential
+partners and customers implementing environmental projects and activities.
+21
+
+
+
+
+5.5. Cryptomessenger.
+This  is  a  communication  channel  for  platform  users,  built  on  P2P                   (peer-to-peer)
+technology. The main goal of the creation of the cryptomessenger is a convenient and
+functional way of communication between the participants of the ecological community,
+aimed at ensuring maximum confidentiality and anonymity. The messenger is created
+with the integration of IPFS technologies (InterPlanetary File System, interplanetary file
+system), whose nodes form a distributed open source filesystem, P2P (peer-to-peer)
+and blockbuster technologies.
+Cryptomessenger Functionality:
+ personal contact list;
+ "Who is online" indication;
+ Correspondence both online and offline;
+ Transfer of photos and video content;
+ Sending a message to the group;
+ Notification of the arrival of new messages, and an exit in online;
+ Create your own channel;
+ General chat + private, publicly accessible forums, blogs / statuses;
+ Settings for deleting messages;
+ Encryption of messages and conversations.
+Users will directly communicate with each other via a P2P connection. If there is no
+immediate connection, the messages will be written to the distributed data store (IPFS).
+This will ensure that all information is protected from interference.
+To ensure confidentiality, the encryption algorithm MTProto, which was developed by
+the creators of Telegram, will be used.
+The data of correspondence and transactions will be stored in decentralized networks
+of blocking, IPFS and on users' devices, which solves the main problem of confidentiality
+of information of the most popular instant messengers that use centralized servers.
+22
+
+
+
+
+Scheme of the messenger
+2
+1                                                                                              3
+IPFS
+N
+User 1                                                                                         User 2
+Thus, the technology of data distribution across multiple devices and decentralized
+servers will protect users from failures and interference by third parties.
+5.6. Service for examination, recommendations and formation of ratings of trust
+and reputation.
+In the financial sphere, there is a huge problem of trust in expert organizations that
+provide investment advice, guarantee the reliability of certain people and organizations.
+Although there is a whole industry of rating agencies, including investment banks that
+issue recommendations, audit companies that certify the truth of certain results or the
+reality of the work done, mistrust remains, both to specific borrowers and to expert gurus.
+In addition, the problem is exacerbated by negative PR activity: the publication of
+unverified "experts" in the media, fabricated fake news, and so on.
+In our case, it is important to trust the initiators of ecological projects and Ecostart
+experts, the reputation and the number of hours worked by volunteers (time bank).
+We propose the solution of this problem with the help of a quantitative reputation system
+for data collection and confidence ratings for initiators of ecological projects and experts
+based on block technology. All actions that are significant for their reputation will be
+recorded in the distributed register of the Ecostart platform and, in the long term, they
+can confirm the accumulated reputation and form a real rating of all participants.
+23
+
+
+
+
+5.8 Annex - Aerospace monitoring
+Aerospace monitoring
+- operative monitoring and control
+over the state of the environment
+and identification of places for
+storing wastes based on remote
+satellite and aerial survey data on
+the earth's surface.
+Although aerospace monitoring on our platform does not lie on the blockage, we believe
+that the task of identifying, mapping, monitoring the storage sites for various types of
+waste is one of the most urgent in the field of ecological protection. Therefore, aerospace
+monitoring will be an application application platform EcoStart with automated and visual
+interpretation of different space images using selective aerial photography, field and
+statistical information.
+Firstly, this is due to the serious negative impact of landfills on all components of the
+landscape due to physical, chemical, biological pollution, as well as deterioration of the
+quality of life of the population due to a sharp decline in the aesthetic value of natural
+complexes and an increase in man-made risks.
+Secondly, space monitoring data from outer space are practically the only source of
+information, giving a complete, timely, operational picture of the problem of landfills and
+at the same time minimizing the financial, time and labor costs for solving this problem.
+Space images are used for monitoring. The opto-electronic complexes installed on
+space vehicles allow to shoot ultra-high spatial resolution  (0.7-1 m), the detail and
+geometric accuracy of which allows for confidently decoding dumps, measuring (linear
+dimensions, area), determining coordinates and types of dumps. With the help of space
+monitoring, you can identify a landfill with an area of 10 m2.
+To clarify the coordinates of landfills, aerial photography from unmanned aerial vehicles
+(BPL) and field survey, which may be carried out by municipal authorities in the territory
+of which such landfills or ecological societies and activists are located, with subsequent
+correction of cartographic materials, will be used.
+24
+
+
+
+
+The recognition of objects in aerospace imagery will be automated with the construction
+of neural networks with a recognition method based on frequency representations. A
+promising  method  of  intellectual  interpretation  of  monitoring  information  is  neural
+networks, which is related to the possibility of their learning, the choice of the topology
+of construction and minimizing the influence of "noise" in the structure of the multizone
+snapshot.
+At the heart of the neural network, represented by a system of interconnected simple
+processors, the principle of the functioning of the human nervous system is laid. Neurons
+of a neural network are grouped into layers so that the output signal of the previous layer
+is fed to the inputs of all neurons of the subsequent layer.
+The network is trained by introducing the original rasters (input channels), the source of
+the labels, the topology of the neural network, and the learning parameters into the
+program. Optimal is the use of "learning with the  teacher,"  in which the types of
+landscape-ecological systems are assigned areas of a space image with similar spectral
+characteristics. The result of the learning process is a trained neural network, which is
+stored in a file and used for subsequent classification of the satellite image.
+The results of the interpretation of the images will be placed on the interactive geoportal
+map with the tools:
+• automatic generation of generalized statistical information on certain criteria (type of
+landfill, date of detection, category, territorial affiliation, etc.);
+• possibility of entering information (clarifying information on field data, as well as putting
+new objects on trusted users);
+•  automatic  generation  of  the  object's  passport  (technical  characteristics,  location,
+ownership of the land plot is indicated and damage is calculated according to approved
+methods).
+The geoportal map will be publicly available on the EcoStart platform website. Changes
+to the interactive map can only be made by the system administrator or trusted users.
+25
+
+
+
+
+A separate topic is the identification of garbage "islands" in the world's oceans and the
+organization of actions to eliminate them with the appropriate collection of funds
+needed to finance this event.
+Financing of the functioning of aerospace monitoring will be carried out at the expense
+of the environmental fund.
+5.9. Open API
+Ecosystem EcoStart opens unlimited opportunities for business and individuals through
+a high-tech software solution with an open API that allows easy connection of any
+technology solution, application development and software solutions on an open block
+system to support ecological and ecological projects.
+Therefore, to advance the platform, we plan to finance the development of the most
+interesting decentralized applications from the eco-fund, the idea of which can arise both
+within our team and third-party developers. Decisions on the financing of certain projects
+will  be  accepted  by  the  holders  of  TerraEcocoin  crypto  currency  based  on  the
+assessment of experts, the competence of the team, the conclusion of the promise of
+the idea and the benefits that it can bring to the platform. The financing scheme is
+described in the section on IEF.
+We plan that funding will be allocated annually for the development of decentralized
+applications. EcoStart will finance and support such decentralized applications that
+promote the EcoStart platform. One of such applications is ecotourism.
+5.10. Description of the platform and the interaction of its elements
+The EcoStart Core
+This component will implement the basic business logic. The component will contain all
+relevant rules and procedures for processing algorithms on the platform, perform data
+validation and provide interaction with the block to handle smart contracts.
+The component will allow EcoStart to integrate its own internal and third-party data. The
+EcoStart platform can support the addition of any additional data exchange protocols,
+which allow to extend the functionality (additional services) of the entire platform.
+Open API
+A set of various programming functions and interfaces for the creation of the EcoStart
+ecosystem,  available  for  software  development  companies.  The  API  will  provide
+sufficient flexibility in compliance with all the security rules implemented on the EcoStart
+platform. The service will encourage third-party developers to create additional services
+in the ecosystem, which will be beneficial for system users and investors.
+Blockchain EcoStart
+This is a trusted transaction register and the execution environment for smart contracts
+that support transactions. Conducting a Token Generation Event (TGE) with the release
+of tokens;
+26
+
+
+
+
+All payments, transfers by currencies or crypto / digital assets and transactions under
+smart contracts are reflected in the public register and are evidence of their processing.
+Features:
+                                                                                            The transaction displayed in the public registry cannot be canceled.
+                                                                                            The appearance in the registry of a smart contract means its execution.
+                                                                                            Proof of the fact of fulfillment of obligations for both parties to the contract.
+                                                                                            Data stored in the public registry is publicly available.
+                                                                                            Transaction registers are an important element of an open economy.
+Decentralized file storage
+The  environment  for  storing  and  exchanging  files  associated  with  persistent
+cryptography (DFS) transactions, in which all system data will be stored. It will include
+user  accounts,  system  data  and  detailed  information  about  smart  contracts.  Data
+provided by EcoStart users will also be stored in this data store.
+Features of information storage in the decentralized file storage:
+                                                                                            Storing information without centralized administration
+                                                                                            Storing information with guarantee of invariability
+                                                                                            Storing information with encryption, open or closed data
+                                                                                            Storing data with free or restricted access
+Certified means of cryptographic information protection (CIC)
+A means of providing additional encryption, legally significant electronic signatures and
+secure timestamps.
+Oracle and external request providers
+These services are information providers operating within the EcoStart platform. Oracle
+is developed by any developer on the EcoStart platform for access to other databases
+(ratings of third-party agencies, exchange rates, etc.). Given that the main calculations
+and analysis of documents in today's realities are carried out outside of smart contracts,
+only data that they are able to process directly into smart contracts is transferred. The
+rest of the information is attached in the form of ordinary formalized files, if necessary
+signed by a strengthened qualified electronic digital signature (EDS) to ensure legal
+significance.
+User interface
+Web portal and mobile applications developed by the EcoStart team. The user interface
+will become the main entry point for users to create and manage their crypto accounts,
+create smart contracts and monitor the balance of the crypto currency in their accounts.
+6. Initial Coin Offering (ICO)
+During the initial placement of coins, EcoStart will issue virtual currency tokens called
+TerraEcoToken (TER) on the unit controlled by a smart contract.
+27
+
+
+
+
+6.1. Conditions for pre-ICO and ICO
+The purpose of the collection is $ 11,85 million. This amount is justified by the cost of
+developing the EcoStart platform, its scaling and the creation of a global public geoportal
+with the placement of waste sites based on aerospace monitoring of the earth's surface.
+Pre-ICO and ICO platforms EcoStart will be implemented on the public blockade of
+Ethereum with the release of a token compatible with ERC20, whose interface allows
+you to deploy a standard token that is compatible with the existing infrastructure of the
+ecosystem Ethereum, including development tools, wallets and exchangers.
+6.2. Structure of pre-ICO and ICO
+Name of the                                                                                   EcoToken (TER)
+token
+What is it?                                                                                   This is a token that is compatible with Ethereum ERC20. The TER
+Token is a certificate of participation in the creation of the EcoStart
+platform and each token gives its holder the following rights:
+The   right   of   exchange   for   the   newly   created   TerraEcocoin
+cryptocurrency (TECO);
+The right to receive partner discounts;
+The  right  to  receive  a  commission  from  third  parties  to  develop
+applications on EcoStart;
+The right to participate in referral programs;
+The right to sell, exchange, donate
+Provide a voice in the entire ecosystem of EcoStart
+Thus, TER is a portable, interchangeable token and can be used openly
+for depositing, voting, securing investment and trading.
+Volume and                                                                                                                                                                                                                                                           1. When conducting ICO, no more than  210 million tokens will be
+conditions of                                                                                                                                                   released. Tokens will be issued on
+release    of                                                                                                                                                                                              platform Ethereum according to the ERC20 standard.
+tokens                                                                                                                                                                                                     2. At the end of ICO, the release of tokens will cease.
+                                                                                              3.Hard cap $ 11,85 million
+                                                                                                                                                                                                                                                                     4. Soft cap - 1.2 million $ US or 6000 ETH or a similar amount in the
+                                                                                              current currency.
+Selling                                                                                       Will be carried out in 2 stages:
+tokens                                                                                        pre-ICO and ICO
+The price of                                                                                  1 TER = 0,07                                                                                                                                                           $US =0,00035 ETH or 30% discount to the nominal value
+the                                                                                           token                                                             of the token. TECO nominal value in $ US
+during   pre-
+ICO
+28
+
+
+
+
+The price of                                                                                                                                      1  TER = 0,1                                                               $US =0,0005 ETH
+the                                                                      token                                                                    TECO nominal value in $ US
+during ICO
+Amount   of                                                                                                                                                                                                                  The minimum amount to buy is 100 tokens.
+purchase                                                                                                                                                                                                                     The maximum amount to purchase tokens is 30,000,000 tokens
+during   pre-
+ICO
+Volume and                                                                                                                                                                                                                   During the pre-ICO period, 20 million TERs will be put up for sale (10%
+conditions of                                                                                                                                     of ICO tokens)
+release    of
+tokens                                                                                                                                                                                                                       During the ICO period, 103,9 million TERs will be put up for sale (47,6%
+                                                                                                                                                  of ICO tokens)
+Distribution                                                                                                                                                                                                                 Total of the 210 million TER will be sold to 123,9 million (59%).
+of tokens                                                                                                                                                                                                                    The distribution of tokens is as follows:
+                                                                                                                                                                                                                             - 33,6 million (16%) to the founders of EcoStart and the team;
+                                                                         -                                                                        21  million                                                                (10%)  encouragement  of  owners  of  master-trees
+                                                                                                                                                  (community rewards);
+- 25,2 million (12%) for partners and marketing;
+- 2,1 million (1%) insurance fund;
+- 4,2 million (2%) for bounty campaigns, Airdrop
+Be careful! Remember that you should not pay from incompatible with
+ERC20 contracts wallets or from an account on a crypto exchange - this
+can lead to loss of control over your acquired tokens
+TER are available immediately after launching pre-ICO through smart
+contracts Ethereum.
+Availability                                                             The sale and transfer of tokens are gradually becoming possible within
+of tokens                                                                a 15-day period after the end of the ICO through smart contracts.
+TER
+Payment                                                                  ETH
+Methods
+                                                                         The whole world
+Geography                                                                Caution: The distribution of TER tokens is not available for US
+of sales                                                                 residents.
+- 45% for marketing and advertising needs: press releases and articles
+in crypto media and social networks, targeted advertising, SMM in 7
+languages, online advertising and offline;
+- 30% for software development, project source code, data structure
+development, smart contracts, server capacity payment, hosting and
+AntiDDOS protection, etc. Hiring first-class experts to maintain the
+Distribution                                                                                                                                      competitive advantages of EcoStart, as well as the development of new
+of attracted                                                             services.
+cryptocurren                                                                                                                                      - 5% for legal services, incl. obtaining licenses and documents for work
+cy                                                                                                                                                in the US and other countries, legal support for the project. Compliance
+after taxes                                                              with legal norms is the key to long-term success;
+and                                                                      -                                                                        15%  operating  expenses:  office rental,  communications,  internet,
+conversion                                                               managerial salaries, other operating expenses.
+29
+
+
+
+
+- 5% insurance fund
+The use of attracted funds is directed to ensure the profitability of
+EcoStart in the long term.
+We strive to realize our goals in the interests of TER token owners
+Site                                                                                                  eco-start.com
+Web  Wallet                                                                                                                                         Will be posted on the website prior to the start of the Pre-ICO
+shopping
+tokens
+                                                                                         The          address                                       of                                                                            the   smart   contract
+Смарт                                                                                                                                               ETHhttps://etherscan.io/address/0x5905E0717F9F76a61fA5ed4636061B50
+контракт                                                                                                                                            6E5A0522will  be  available  on  the  site  before  the  beginning  of  the
+                                                                                         Crowdsdale
+                                                                                                                                                    The funds raised during the ICO will be stored in multisig-purses in
+Security                                                                                              accordance with the standards.
+ICO                                                                                      Ethereum
+platform
+Terms     of                                                                             Pre-ICO
+sale                                                                                     Start -                                                    19/11/2018 at 19:00 CST
+TER Tokens                                                                                            The end is on   the 09/12/2018 at 19:00 CST
+                                                                                         ICO
+                                                                                         Start        -                                             10/12/2018 at 19:00 CST
+                                                                                                      The end is on                                 31/01/2019 at 19:00 CST
+6.3. Issue and use of TER tokens
+Token  emission  technology:  Ethereum  ERC20  with  advanced  security  features
+ERC223. ERC20 is the standard for the Ethereum token, and the compatibility of the
+ERC20 and the Ethereum ecosystem allows you to program intelligent contracts in a
+turing full language, through which you can perform secure and customizable operations
+that meet the specific requirements of EcoStart. It makes it easy to distribute tokens
+between platform members, thus creating a truly decentralized system.
+With the launch of the EcoStart platform and the issuance of the TerraEcocoin crypto
+currency, the TER tokens created in the Ethereum blockchain system will be changed
+to the TECO crypto currency, created on a separate blockchain in a 1: 1 ratio.
+TER owners before the launch of the EcoStart platform will be able to sell-buy TER
+tokens independently. We will also provide an opportunity to buy and sell TER tokens
+on the exchange.
+30
+
+
+
+
+Issue of a token, 210 million pcs. The distribution is as follows:
+Reserve
+Baunty
+For Partners                                                                                   1%2%
+12%
+The Team
+16%
+Miners,
+10%
+masternods                                                                                     Crowdsdale
+59%
+The funds received during crowdsale are designed to create EcoStart platform and
+ensuring its functioning. The release of tokens after this is not provided.
+Softcap pre-ICO - $ 500'000 or 2500 ETN (If this amount is not reached, all investments
+are refunded, net of transaction costs).
+Softcap ICO - $ 1,200,000 or 6000 ETN (If this amount is not reached, all investments
+are refunded, net of transaction costs).
+The sale rate of TerraEcoToken has a rigid binding to Ethereum and varies depending
+on the stages of sales. This means that with the growth of the Ethereum course, the
+EcoToken rate also increases, and vice versa. For the convenience of ICO participants,
+the approximate cost of TER in $ USD is displayed, which is recalculated automatically
+based on the current price of Ethereum at the current date.
+The number of stages of the project to develop a project will depend on the amount of
+funds raised during crowdsale. As a result of each stage, a functionally finished product
+is created, and the execution of each next step adds additional consumer properties to
+it.
+The ICO will contribute to the development of the technical base of EcoStart, increase
+the speed of developing its own software, will enable to create significant financial assets
+of the ecological fund, increase the number of implemented ecological projects, and
+create representative offices in the world financial centers.
+6.4 Crowdsale
+TER token complies with the Ethereum ERC20 standard. The release of tokens and
+control over the transfer of funds is carried out by a system of smart contracts.
+31
+
+
+
+
+To participate in the sale of tokens, investors must first register in the personal account
+of the investor on the project site and pass a KYC  / AML check. The KYC  / AML
+procedure allows you to create a profile of token buyers and exclude the risk of selling
+TER tokens to individuals and legal entities engaged in criminal activities. All investors
+who have not passed the KYC / AML check within two weeks after the end of the ICO
+will have to return the TER tokens, and the amount paid by them will be returned to the
+buyer's wallet.
+6.5. Offers
+the next 20 million TERs are distributed in the pre-ICO period at a 30% discount to the
+nominal TER price;
+In the context of further sales, tokens are distributed without accrual of bonuses.
+7. RoadMap
+The beginning of the pre-announcement. Creation of an information background aimed
+05.2018                                                                                       at drawing attention to EcoStart, forming a community, a loyal image of the brand and
+crowdfunding.
+Start Pre ICO Launch of a marketing and PR campaign to promote EcoStart. Used
+11.2018                                                                                       channels: forums, news resources, trackers, contextual advertising, promotion in social.
+media, direct mail, cooperation with bloggers, etc.
+11.2018                                                                                       ICO (Initial Coin Offering) Listing of tokens on stock exchanges
+                                                                                              Beginning of the ICO Most of the cash collected during the pre-ICO is sent to increase
+12.2018
+                                                                                              the effectiveness of the marketing and PR campaign.
+02.2019                                                                                       Development of the Alpha version of the platform and its testing
+03.2019                                                                                       Upgrading the basic nodes after Alpha testing
+05.2019                                                                                       Beta testing platform. Opening a platform for mass users
+06.2019                                                                                       Release of its own crypto currency TerraEcocoin (TECO)
+06.2019                                                                                       Develop a mobile app on Android and iOS
+06.2019                                                                                       Audit platforms on Android and iOS. Test the mobile application.
+06.2019                                                                                       Final launch of the mobile app on Android and iOS
+07.2019                                                                                       АPI
+07.2019                                                                                       Start an advertising and marketing campaign in key markets
+10.2019                                                                                       Partners Connections
+12.2019                                                                                       Creating a Global Ecosystem EcoStart
+We will create and publish monthly reports on the implementation of goals and objectives
+from the roadmap.
+For the purposes of implementing the road map and developing the project, a corporate
+development plan and a marketing and advertising plan will be formed.
+32
+
+
+
+
+Within the corporate development plan, highly professional staff will be employed,
+offices will be opened in financial centers of the world if necessary, and necessary
+permits and licenses are obtained.
+8. The Team
+                                                                                       Olga Bergen                                                                    Michael McKee                                                                                                     Teymur Nurullaev
+                                                                                       CEO and Co-founder                                                             Chief Visionary Officer                                                 COO (Chief Operating
+                                                                                                                                                                                                                                                                                                           Officer)
+A  corporate  strategist  with  many                                                                                                                                  Before starting out into ICO Advisory,                                  Chief Operating Officer, a successful
+years    of    experience    in    the                                                                                                                                Michael  spent                                13  years  as  Social     businessman, a programmer, one of
+advertising                                                                                                            and                       information          Media Influencer and Digital Marketer                                   the first adepts of the blockchain
+technology industry. In recent years,                                                                                                                                 for  several  dot  com  startups.  After  a
+is engaged in accelerating startups.                                                                                                                                  successful   career   helping   various                                 “I   support   the   project   EcoStart
+                                                                                                                                                                      clothing    companies    and    aspiring                                because the Cryptocurrency will gain
+«I                                                                                     have    been    engaged    in                                                  musicians, Michael now advises ICOs                                     momentum in the event that we start
+accelerating the startup projects for                                                                                                                                 and  Startups  on  how  to  market  their                               creating   as   many   projects   as
+several years. EcoStart is definitely                                                                                                                                 projects on social media and through                                    possible on blockchain. I manage a
+a   powerful   project   with   great                                                                                                                                 SEO. Michael has been a serial ICO                                      whole army of bots - they will help us
+potential.                                                                                                             There     are                           many   investor  since                               2016  and  one  of  the   in this project too!”
+enterprising  young  people  in  the                                                                                                                                  fastest growing Blockchain Influencers
+                                                                                                                                                                                                                                              https://www.facebook.com/TeymurNur
+world  who  really  need  our  help.                                                                                                                                  with over 350,000 followers in total.
+Together with you we will do a very
+important and necessary thing! »                                                                                                                                      «A person who has no vision can never
+                                                                                                                                                                      realize high thoughts and carry out bold
+https://www.linkedin.com/in/olga-bergen-                                                                                                                              enterprises»
+663493163/                                                                                                                                                            https://www.linkedin.com/in/michael-mckee-
+                                                                                                                                                                      74b20634/
+Dhana Timilsina,                                                                       Aleksandr  Goldobin,            Vasiliy Gavrilovich
+Chief strategy officer                                                                 CFO                             VP Software development
+33
+
+
+
+
+Dhana   is   an   innovative   and                                                                                                         The  financial  director  responsible     CEO   Prof-it                                      -   it's   IT-company   for
+dynamic  world  citizen  and  serial                                                                                                       for managing the financial flows of       development  of  the  web  and  mobile
+international                                                                                  entrepreneur,                               the business with vast managerial         applications,   BLOCKCHAIN   solutions,
+consultant,    advisor,    engineer,                                                                                                       experience  in  a  wide  range  of        software and software-based solutions.
+trader, businessman, founder, co-                                                                                                          industries
+                                                                                                                                                                                     https://www.linkedin.com/in/vasiliy-gavrilovich-
+founder,                                       owner,                                          investor,
+                                                                                                                                                                                     9517bb129/
+researcher, and promoter. Dhana                                                                                                            “My  motto   is  think  globally-act
+wears several hats and works and                                                                                                           locally! That is why I proposed to
+supports   for   several   startups,                                                                                                       bring  the  project  Ecostart  to  the
+companies,   ICOs   and   projects                                                                                                         international  level.  I  believe  such
+across the world.                                                                                                                          initiatives  are  important  for  the
+                                                                                                                                           world   community.   Our   financial
+«Without  your  strategy,  you  will                                                                                                       support   is   needed   by   many
+depend on someone else's tactics»                                                                                                          ecological projects!”
+linkedin.com/in/we-love-technologies                                                                                                       https://www.linkedin.com/in/aleksandr-
+                                                                                                                                           goldobin-2ab883162/
+Nataly Nurullaeva                                                                              Olga Gershenzon                                                                       Olga Glagoleva,
+СМО (Chief marketing                                                                           Head of Aerospace                                                                     Eco enthusiast
+                                               officer),                                       Monitoring                                                                            Creator Brand GO Authentic
+                                                                                               Co-Founder, Chief Strategy
+                                                                                               Officer at RBCSignals
+«My     element     is     marketing                                                           «From  the  solar  system,  we  still                                                 GO Authentic is a brand of eco-friendly
+communications     and     project                                                             cannot  get  out  for  a  long  time.                                                 clothing, founded by Olga Glagoleva. We
+management.  In  EcoStart  I  see                                                              Therefore, one must learn to live on                                                  create comfortable clothes with meaning,
+global  opportunities                          -  the  project                                 earth  and  better  on  ecologically                                                  participating  in  a  cyclical  economy.  We
+will  help  to  unite  not  indifferent                                                        friendly»                                                                             cooperate   with   modern   artists,   use
+people around the world around a                                                                                                           environmentally                                                                              friendly   materials,
+great  idea.  It's  just  a  marketer's                                                        https://www.linkedin.com/in/olgagershenzo                                             employ  highly  qualified  specialists  and
+n/
+dream! »                                       use  authentic  textile  techniques,  do  not
+produce anything more ordered.
+https://www.facebook.com/profile.php?id=
+100001662803799
+Olga feels responsible for the fate of our
+Earth, believes in a cyclical economy.
+Clothing for Olga is primarily a concern for
+the Planet, a culture of consumption and
+the ability to influence the world. And she
+creates models of clothes to improve the
+environment, while calculating the carbon
+footprint,  using  recycled  raw  materials
+from  recycled  plastic  bottles,  organic-
+certified                                      materials    or    second-hand
+clothes.
+Instagrams
+https://www.instagram.com/go_authentic
+_/
+34
+
+
+
+
+Artyom Akopyan                           Dina Korn,                                 Aleksandr Myshkin,
+CCO (Chief Community                     PR manager                                 Solidity developer
+Officer)                                 Director in LLC "DinaLand"
+Artyom  is an experienced  project       «Advertising - the most fascinating        He    has    extensive    experience    in
+manager   of   major   international     of   what   you   can   do   without       developing many applications and smart
+event such as Olympic Games, F1          undressing»                                contracts.
+Grand Prix and FIFA World Cup.
+                                         https://www.facebook.com/dina.korn
+                                                                                    Computer  -  a  means  of  communication
+"I saw a big potential of this project                                              programmers with normal people.
+since it touches upon all of us, our
+children  and  future  generations,                                                 https://www.linkedin.com/in/alexander-
+and nobody could stand apart"                                                       myshkin-18baa580/
+https://www.linkedin.com/in/artyo
+m-akopyan-52985b71/
+9. Consultants
+Dr Mohamed Karim                         Beduil Dauis                                                                            Vladimir   Gershenzon
+Leader of advisors                       Advisor for exchange listing of                                                         Advisor- Expert in Earth
+                                         tokens                                                                                  remote sensing systems
+                                         Managing Partner at List a Token           Leading                                      Research                             Scientist
+CEO of Mirak AS
+                                                                                                                                 Center for Computational and Data-
+“When  we  started  with  distributed    and  exchange  listing  manager  at
+                                                                                                                                 Intensive Science and Engineering
+computing  15  years  ago,  we  never
+Tokenget.
+could dream that the whole world will
+Full                                     -  stack  business  developer,
+                                         https://www.facebook.com/profile.php?id=
+be where we are today. Thanks to the
+executive management and strategic       100023895310247
+Blockchain technology, we can now
+partnerships  within  the  Blockchain,
+build projects and concepts beyond
+ICO's,  and  crypto  exchanges,  also
+all imaginations”
+member  of  the  GBA  (Government
+35
+
+
+
+
+Blockchain Association) and strategic
+https://www.linkedin.com/in/drkarim/                            partner   at   Tokenmatch   as   well
+                                              Exchange          listing                                     agent                          at
+                                              Laneaxis.io,      with                                        extensive
+experience  in  cold  calling  &  web
+partner acquisition, meeting potential
+clients,                                      marketing,        project
+management,  attending  exhibitions,
+achieving financial and growth goals,
+monitoring   and   analyzing   market
+data.
+https://www.linkedin.com/in/beduildauis/
+                                              Carlo Buonpane                                                Savio Gomez
+                                              Advisor- Expert                                               Senior- Advisor
+Blockchain and Crypto Advisor, Carlo                            Capt.     Savio     Gomez     is     an
+is a serial entrepreneur, investor and                          entrepreneur  and  an  independent
+consultant with business experience                             active   Advisor                            /   Consultant                 to
+from around the world.                                          organisations,   a VC, an incubator  /
+He has gained various experiences in                            accelerator,                                lending                        houses,
+different    digital    startups    which                       exchanges,  a  market  maker     and
+concerned  real  estate  investments                            more in the Fintech - Blockchain / AI
+and personal and financial growth.                              space.    With an MBA in international
+Since he met the blockchain he has                              business, trade & logistics, backed by
+been thunderstruck   by his potential.                          almost three decades of international
+Participates as an investor in about                            and   diverse   experience   in   the
+20 blockchain projects each year.                               Transportation  &  Technology  field,
+Is  an  ADVISOR  expert  in  Strategy                           Savio   is   a   Master   Mariner,   an
+and Fundraising in ICO con 3+ years                             accredited   auditor   with   degrees
+experience, successfully follows over                           leading up to a PhD.
+35  projects  based  on  blockchain
+technology                                                      Savio is also a certified Blockchain &
+                                                                Artificial   Intelligence   professional.
+https://www.linkedin.com/in/carlo-buonpane-                     Here,  Savio  advises  us  in  strategic
+a9a44684/                                                       matters  like  partnerships,  exchange
+                                                                listings,                                   best    practices,    market
+relations, capital introduction venues
+and assisting us to continue to scale
+globally.
+https://www.linkedin.com/in/savio-
+gomez-capt/
+36
+
+
+
+
+10. Partners
+ENGINEERING
+COMPANY
+Sochi State University   GO                                                              GO Authentic
+Authentic
+11. Terms and conditions
+This white paper is intended solely for information purposes and for presenting
+EcoStart and TerraEcoToken tokens, an TER ticker to potential token buyers in
+connection with the Initial Coin Offering (ICO). The information presented below does
+not purport to be complete and does not imply a contractual relationship.
+Nothing in this White Paper can be regarded as any kind of advertising brochure, or a
+call to invest. Also, nothing here refers to the offer to acquire securities in any
+jurisdiction.
+This document was not drawn up under any laws and regulations of any jurisdiction
+that are intended to protect investors, and is not subject to their regulation.
+TER is not a digital currency, a security, a commodity, or any other type of financial
+instrument, and has not been registered under the Securities Act, any securities laws
+of any state in the United States of America, or securities laws any other country,
+including securities laws of any jurisdiction in which a potential token holder is a
+resident.
+The TER Token cannot be used for any other purposes than those specified in this
+white paper.
+Ownership of TER tokens does not confer ownership or title to the property to EcoStart
+or any other related company.
+37
+
+
+
+
+TER Tokens are not some kind of formal or legally binding investment.
+We  propose  to  purchase  TER  tokens,  which  provide  the  right  (license)  to  use
+EcoStart. The license gives the right to use EcoStart in order to cooperate, share,
+program, develop or create the services of a particular project (application) based on
+EcoStart.
+The TER holder acts as the Licensee, who obtains the rights to use EcoStart. EcoStart
+does not aim to create a joint venture with owners of TER tokens, but provides them
+with a system for implementing their own projects. The success of owners of TER
+tokens depends on their ability to create and manage such projects.
+Due to unforeseen circumstances, the objectives set forth in this document may be
+amended. Despite the fact that we intend to reach all the points described in this
+document, all persons and parties involved in the purchase of TER tokens do so at
+their own risk.
+Certain statements, estimates and financial information contained in this document
+represent   statements   or   forward-looking   information.   Such   forward-looking
+statements and information include known and unknown risks and uncertainties,
+which may lead to events or results that differ materially from the estimates or results
+implied or expressed in such forward-looking statements.
+You agree that your use or inability to use the TER tokens is solely at your own risk
+and you take all responsibility with us. Since the release of TER tokens, they will be
+sent to you without any guarantees.
+By purchasing the TER tokens, you assume the risks and limitations associated with
+digital tokens, crypto-currencies and blocking technologies, including the following:
+1. risk of loss of access to tokens as a result of loss of the private key or keys;
+2. risks associated with the Ethereum platform protocol;
+3. The risk of computer attack and the risk associated with weaknesses in the
+security system;
+4. risk of loss as a result of the price of the token falling;
+5. risks associated with weak regulation and / or coercive measures on the part
+of the regulator.
+The White Paper version in English is the primary official source of information about
+the TER token. Information contained in the English version can be translated into
+other languages, as well as used in written or oral communication with existing or
+potential customers, partners, etc. In the process of translation, or communication,
+some of the information may be lost, distorted, or misreported. The accuracy of such
+alternative communication cannot be guaranteed. In the event of any conflicts, or
+inconsistencies in transfers and communications from the official English version of
+the White Paper, the original English version will prevail.
+38
+
+
+
+
+Social networks
+https://twitter.com/ecostart18?lang=ru
+https://t.me/ecostart2018
+https://github.com/OBergen
+https://www.linkedin.com/in/olga-bergen-663493163/
+https://bitcointalk.org/index.php?action=profile;u=2067916
+https://www.facebook.com/ecostart.eb.9
+https://medium.com/@ecostartbg
+https://www.youtube.com/channel/UCtbF22XquER660PB1mOCFqQ/about?disab
+le_polymer=1
+https://www.reddit.com/user/EcoStart2018
+39
+
+
+
+
+

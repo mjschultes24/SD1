@@ -1,0 +1,790 @@
+﻿The Premier Digital Asset
+Management Ecosystem
+BY ICONIQ HOLDING, POWERED BY THE ICNQ TOKEN
+WHITEPAPER 2.0
+
+
+
+
+Legal Notice (updated Sept. 1, 2018)
+THE PURPOSE OF THIS WHITEPAPER IS TO PRESENT ICONIQ HOLDING AND ITS SUBSIDIARIES,
+ICONIQ LAB AND ICONIQ FUNDS, TO POTENTIAL ICNQ TOKEN PURCHASERS IN CONNECTION
+WITH THE SALE OF THE ICNQ TOKEN. THE INFORMATION SET FORTH BELOW MAY NOT BE
+EXHAUSTIVE AND DOES NOT IMPLY ANY ELEMENTS OF A CONTRACTUAL RELATIONSHIP. ITS
+SOLE PURPOSE IS TO PROVIDE RELEVANT AND REASONABLE INFORMATION TO PROSPECTIVE
+TOKEN  PURCHASERS  IN  ORDER  FOR  THEM  TO  DETERMINE  WHETHER  TO  UNDERTAKE  A
+THOROUGH ANALYSIS OF THE COMPANIES WITH THE INTENT OF ACQUIRING ICNQ TOKENS.
+NOTHING IN THIS DOCUMENT SHALL BE DEEMED TO CONSTITUTE A PROSPECTUS OF ANY
+SORT, NOR DOES IT IN ANY WAY PERTAIN TO AN OFFERING OR A SOLICITATION OF AN OFFER
+TO BUY ANY SECURITIES FOR “NON-U.S. PERSONS.”
+TO  U.S.  PERSONS,  THE  OFFERING  DESCRIBED  HEREIN  IS  BEING  MADE  PURSUANT  TO
+REGULATION D AND REGULATION S PROMULGATED UNDER THE SECURITIES ACT OF 1933, AS
+AMENDED (THE  “SECURITIES ACT”), AND IS LIMITED SOLELY TO “ACCREDITED INVESTORS”
+AND  TO  PERSONS  WHO  ARE  NOT  “U.S.  PERSONS”  (AS  THOSE  TERMS  ARE  DEFINED  IN
+REGULATION D AND REGULATION S OF THE SECURITIES ACT).   ONLY PERSONS OF ADEQUATE
+FINANCIAL MEANS WHO HAVE NO NEED FOR PRESENT LIQUIDITY WITH RESPECT TO THIS
+INVESTMENT SHOULD CONSIDER PURCHASING THE SECURITIES OFFERED HEREBY.
+ANY STATEMENTS SET FORTH IN THIS PRESENTATION THAT ARE NOT HISTORICAL FACTS ARE
+FORWARD-LOOKING  STATEMENTS  THAT  REFLECT  THE  CURRENT  VIEW  OF  MANAGEMENT
+ABOUT FUTURE EVENTS AND FINANCIAL PERFORMANCE BASED ON CERTAIN ESTIMATES,
+ASSUMPTIONS AND PREDICTIONS, AND ARE SUBJECT TO RISKS AND UNCERTAINTIES THAT
+COULD CAUSE ACTUAL RESULTS TO DIFFER MATERIALLY FROM THOSE IN THE FORWARD -
+LOOKING  STATEMENTS.     THE  FORWARD-LOOKING  STATEMENTS  CONTAINED  IN  THIS
+PRESENTATION  ARE  MADE  ONLY  AS  OF  THE  DATE  OF  THE  PRESENTATION,  AND  THE
+COMPANY IS UNDER NO OBLIGATION TO REVISE OR UPDATE THESE FORWARD-LOOKING
+STATEMENTS. NO GUARANTEE ABOUT FUTURE RESULTS, PERFORMANCE OR ACHIEVEMENTS
+CAN BE MADE.
+THIS ENGLISH LANGUAGE WHITEPAPER IS THE PRIMARY OFFICIAL SOURCE OF INFORMATION
+FOR THE ICNQ TOKEN SALE. THE INFORMATION CONTAINED HEREIN MAY FROM TIME TO
+TIME  BE  TRANSLATED  INTO  OTHER  LANGUAGES  OR  USED  IN  WRITTEN  OR  VERBAL
+COMMUNICATIONS WITH EXISTING AND PROSPECTIVE CUSTOMERS, PARTNERS, ETC. IN THE
+COURSE  OF  SUCH  TRANSLATION  OR  COMMUNICATION,  SOME  OF  THE  INFORMATION
+CONTAINED HEREIN MAY BE LOST, CORRUPTED, OR MISREPRESENTED. THE ACCURACY OF
+SUCH ALTERNATIVE COMMUNICATIONS CANNOT BE GUARANTEED. IN THE EVENT OF ANY
+CONFLICTS OR INCONSISTENCIES BETWEEN SUCH TRANSLATIONS AND COMMUNICATIONS
+AND THIS OFFICIAL ENGLISH LANGUAGE WHITEPAPER, THE PROVISIONS OF THIS ENGLISH
+LANGUAGE ORIGINAL DOCUMENT SHALL PREVAIL. WE MAY UPDATE OUR DISCLAIMER FROM
+TIME TO TIME. YOU ARE ADVISED TO REVIEW THIS DOCUMENT PERIODICALLY FOR ANY
+CHANGES.
+P a g e
+2
+
+
+
+
+Abstract
+This  Whitepaper  describes  Iconiq  Holding  and  its  digital  asset  management  ecosystem,  its
+subsidiaries, Iconiq Lab and Iconiq Funds, and the ICNQ token.
+Iconiq Holding is building the premier digital asset management ecosystem, launching trusted
+financial vehicles and business opportunities for investors in the blockchain market, driven by the
+ICNQ token.
+To power the ecosystem, Iconiq Holding has created the ICNQ token, an ERC20 compliant utility
+token. ICNQ provides privileged membership rights to its holders and acts as a voucher for
+services across the ecosystem. Holders of the token gain exclusive access to Iconiq Lab, enjoying
+exposure to some of the most promising ventures graduating the accelerator. Iconiq Funds offers
+holders access to premium share classes in all its investment vehicles, such as PIFs, ETNs and ETFs.
+All funds pay management fees in the ICNQ token. Additionally, Iconiq Funds’ asset management
+platform allows portfolio managers to seamlessly manage their digital asset investment vehicles.
+In April 2018, a finite amount of 20M ICNQ tokens were minted. Of these tokens, 4.1M have been
+sold in presales throughout  2018, raising  €2.5M. The Iconiq Holding team has purchased an
+additional 3M with a 12-month time-lock. A remainder of 2.9M tokens have been burned and
+10M are currently available for sale for a targeted hard-cap raise of €10M. 500k of the available
+ICNQ tokens will be available for purchase in a public sale on GBX beginning Oct. 29th, 2018.
+Keywords: ICNQ, Iconiq, digital asset management, venture capital, blockchain, ICO, tokens
+
+
+
+
+Table of Contents
+Glossary of Terms ...                      .5
+Executive Summary ...                      .6
+1. The ICNQ Ecosystem ...                  ..7
+1.1. The Ecosystem ...                     ...7
+1.2. Ecosystem Value Drivers ...           .8
+2. Iconiq Lab ...                          10
+2.1. Company Description...                10
+2.2. Company Traction...                   11
+2.3. Accelerator Companies ...             12
+2.4. Roadmap ...                           14
+3. Iconiq Funds ...                        15
+3.1. Company Description...                15
+3.2. Company Traction...                   15
+3.3. BITA Partnership ...                  15
+3.4. Asset Management as a Service ...     16
+3.5. Roadmap ...                           17
+4. The ICNQ Token ...                      18
+4.1. ICNQ Token Ecosystem Uses...          18
+4.2. ICNQ Token Sale ...                   20
+4.3. ICNQ Distribution and Fundraise ...   21
+4.4. ICNQ Smart Contract Framework ...     22
+4.5. ICNQ Exchange Listings ...            22
+5. The Iconiq Team ...                     23
+5.1. Core Team ...                         23
+5.2. Advisory Board ...                    25
+5.3. Strategic Partnerships ...            26
+6. Additional Disclosures ...              27
+7. Iconiq Holding Information ...          28
+P a g e
+4
+
+
+
+
+Glossary of Terms
+•                                                                                                                                                                                                                                                      Initial Coin Offer - A means by which funds are raised for a new cryptocurrency venture,
+                                                                                          tokenizable project or business, or NGO
+•                                                                                                                                                                                                                                                      Token Generating Event - An event in which a crypto project, startup or NGO releases a
+                                                                                                                                                                                   token via a smart contract on a public blockchain to participants
+•                                                                                                                                                                                                                                                      “ICO” - For the purposes of this paper refers to Initial Coin Offers, Token Generating Events
+and Token Sales
+•                                                                                                                                                                                                                                                      Venture Capitalist  - Otherwise known as a  “VC”, an individual or fund which typically
+                                                                                                                                                                                                                                                       solicits investment from accredited investors to invest on their behalf in early-stage or
+developing startups
+•                                                                                                                                                                                                                                                      ICNQ  -  Abbreviation  for  the  Iconiq  Holding  token,  a  club  membership  and  voucher
+instrument
+•                                                                                         NGO - A Non-Governmental Organization
+•                                                                                         ETH - Exchange ticker symbol for Ethereum
+•                                                                                         BTC - Exchange ticker symbol for Bitcoin
+•                                                                                                                                                                                                                                                      ETF - Exchange Traded Fund, a marketable security that tracks an index, a commodity,
+bonds, or a basket of assets like an index fund
+•                                                                                         ETN - Exchange Traded Note, a type of unsecured, unsubordinated debt security based
+on the performance of a market index. Similar to exchange-traded funds (ETFs), ETNs are
+traded on major exchanges
+•                                                                                         PIF - Professional Investor Fund, a Maltese hedge fund accessible to investors who can
+                                                                                          meet certain minimum investment requirements
+•                                                                                         GBX - The Gibraltar Blockchain Exchange
+P a g e
+5
+
+
+
+
+Executive Summary
+Digital asset market capitalization reached record highs in 2018 and ICOs offer alternative funding
+mechanisms with improved liquidity for early-stage investors. With trustless custodial sources and
+decentralized wealth generation, allowing for global financial inclusion, it’s easy to see why digital
+assets are the fastest growing asset class today.
+However,  what is  lacking in the digital asset  space  are standard  investor  quality assurances
+typically  afforded  to  institutional  and  retail  participants  of  the  traditional  financial  markets.
+Regulated, trusted investment vehicles, such as ETFs and ETNs, are almost non-existent and many
+ICOs have been revealed as scams or do not perform long-term due to management teams being
+held to a lower level of accountability than traditional startups.
+To bring professional digital asset management to the space, Iconiq Holding launched Iconiq Lab
+in early 2017 as the world’s first decentralized VC club, and Iconiq Funds in 2018, an asset manager
+issuing  a  series  of  digital  asset  index  funds  capturing  the  top  cryptocurrencies  by  market
+capitalization as well as an Asset Manager as a Service (“AMaaS”) platform. The entire Iconiq
+Holding digital asset management ecosystem is powered by the ICNQ token.
+Iconiq Lab offers financing and professional company building to blockchain startups and quality
+investment opportunities to investors through its decentralized VC club and ICO accelerator.
+Through its unique platform, Iconiq Funds offers professional digital asset management with
+regulated, structured vehicles. By integrating premium market data, trade execution, custody,
+auditing and compliance tools, investors will gain diversified exposure to the highest growing
+asset class in the market today through traditional investment structures such as ETFs and ETNs.
+The ICNQ token powers the Iconiq Holding ecosystem through privileged rights offered to holders
+and is redeemable as a voucher instrument for in-ecosystem services. ICNQ holders receive access
+to  exclusive  Iconiq  Lab  graduate  presales  and  Iconiq  Funds  share  classes  with  reduced
+management fees. As a voucher, ICNQ is used by all funds to pay management fees. 10% of all
+redeemed voucher tokens are burned on a quarterly basis, and ecosystem behavior is incentivized
+through a loyalty rewards program distributing ICNQ tokens to longtime club members.
+P a g e
+6
+
+
+
+
+1. The ICNQ Ecosystem
+1.1. The Ecosystem
+The ICNQ Token
+The ICNQ Token powers the Iconiq Holding ecosystem, creating a harmonic solution to digital
+asset management. Holders of the token gain exclusive membership to the ICO investment club
+and fund share classes, available through Iconiq Lab and Iconiq Funds. Additionally, the token is
+redeemable as a voucher by holders for discounts on ecosystem services.
+The Iconiq Holding ecosystem consists of Iconiq Lab, Iconiq Funds, and the Iconiq Media unit
+which publishes the weekly Unbloqed podcast. Each of the Iconiq Holding business units has their
+own unique use case of the ICNQ token, whether as a membership instrument or voucher.
+Figure 1: The ICNQ Ecosystem
+P a g e
+7
+
+
+
+
+1.2. Ecosystem Value Drivers
+Token-economics Best Practices
+Through  extensive  market  research  and  industry  experience  as  a  renowned  ICO  accelerator
+program,  Iconiq  Holding  has  developed  a  best-practice  framework  for  compliant  utility
+tokenization. A high-quality utility token instrument should;
+•   Decrease token velocity through incentivization to hold the token, limiting trading supply
+•   Increase demand through ecosystem service growth and token use cases
+•   Balance circulating supply through token burning and
+•   Reward user behavior in-ecosystem through loyalty rewards programs
+This framework has been implemented into the upgraded ICNQ token design.
+Decreasing Token Velocity
+Purchasers of the ICNQ token are incentivized to hold it through ICNQ’s club membership features
+and loyalty rewards program. There are two tiers of ICNQ club memberships;
+•   ICNQ Membership: holders of at least 1 or more ICNQ tokens who have exclusive access
+to the public presales, with the highest bonuses and discounts, of all Iconiq Lab accelerator
+program graduates. Members participate in the graduate’s presales based on their pro-
+rata holding of the ICNQ token. ICNQ Members also receive access to Iconiq events and
+other membership benefits.
+•   ICON Membership: holders of €100,000 or more of the ICNQ tokens who are given all ICNQ
+Membership  benefits  plus  premium  access  to  Iconiq  Lab’s  accelerator  graduates  to
+negotiate the size of the investment they wish to make into the presale. ICON Members
+also can subscribe to the ICON share classes of the planned index funds, offering reduced
+management fees.
+Additionally, the loyalty rewards program incentivizes ecosystem participants to be longtime
+members of the ICNQ club through ongoing voucher distributions and other planned rewards.
+P a g e
+8
+
+
+
+
+Increasing Token Demand
+Iconiq Holding and its business units continuously create and release new products and services
+in the ICNQ ecosystem to increase demand for membership benefits and the redeemable voucher.
+Iconiq Lab accelerator companies must pay portions of their fee after the completed token sale in
+the ICNQ  token. Additionally, all Funds  issued will pay  their  management  fees  to the asset
+manager, Iconiq Funds, in the ICNQ token. As the Assets Under Management (“AUM”) for the
+funds grows through organic asset appreciation and new fund issuances, so to does the fees the
+funds must pay on an annual basis. This gives rise to systematic, institutional demand for the ICNQ
+token on a recurring basis.
+Balancing Supply and Demand
+10% of all ICNQ tokens Iconiq Holding companies receive back as redeemed vouchers will be
+burned on a quarterly basis, creating exclusivity for ICNQ club membership through the limitation
+of the available token supply.
+Loyalty Rewards Programs
+Iconiq Holding will reward certain in-ecosystem behavior through a loyalty rewards program to
+incentivize users to engage with the ICNQ community positively and constructively. Examples of
+planned loyalty rewards, so long as they remain regulatorily compliant by jurisdiction, include;
+•   Recurring reward distributions of ICNQ to longtime ICNQ club members
+•   Bonuses for reaching the ICON Membership level
+•   Asset managers reaching certain levels of AUM on the AMaaS platform
+•   Unbloqed podcast listenership and event participation
+More potential loyalty rewards are planned based on new ecosystem services and will be released
+as the ICNQ ecosystem grows and evolves.
+P a g e
+9
+
+
+
+
+2. Iconiq Lab
+2.1. Company Description
+Overview
+Iconiq Lab, recently named a top-3 German Accelerator Program alongside Techstars1, provides
+professional  company  building  and  extensive  investment  experience,  offering  hand-picked
+blockchain and ICO opportunities in the crypto economy. Founded in early 2017, Iconiq Lab is the
+world’s first decentralized venture capital club, powered by its own ICO accelerator program.
+Decentralized VC Investor Club
+As the world’s first decentralized VC investor club, ICNQ club members enjoy exposure to some
+of the most promising ventures graduating the accelerator. Exclusive token pre-sales are available
+with the highest discounts to ICNQ token holders.
+Accelerator Program
+Startups issuing their own tokens and blockchain solutions are provided with the financing, tools
+and guidance needed to successfully raise capital to fulfill their vision. To date, we have had over
+500 applications of which our investment committee has selected 9 to join the program. Over €1
+million has been committed to the companies in the program.
+Corporate Consulting
+Iconiq  Lab  engages  small-to-medium-size-enterprises                                                   (SMEs)  and  fortune-500  companies,
+providing a 360-degree blockchain and token sale best-practice consulting service
+Security and Financial Instrument Tokenization
+Iconiq Lab’s team believes in the emergence of security and financial instrument tokenization, as
+well as the use-case for certain utility token instruments. As such, Iconiq Lab is preparing to launch
+compliant security tokens  for our  startups and clients through the accelerator program and
+1 https://global.handelsblatt.com/companies/german-startup-accelerators-mixed-reviews-956881
+P a g e
+10
+
+
+
+
+corporate consulting services. Iconiq Lab is in the process of acquiring the appropriate licenses to
+do so in Europe and the United States.
+2.2. Company Traction
+World’s First Decentralized VC Club and Security Token Issuer
+The ICNQ token, of which portions have been sold to institutional, accredited and retail investors
+in 2018, allows ICNQ holders exclusive access to invest into ICOs which graduate the Iconiq Lab
+accelerator program. Iconiq Lab is now preparing to launch compliant security tokens through its
+platform and issue in a new era of financial instrument tokenization.
+ICO Accelerator Launch in Germany, London and U.S., Asia in Q4 2018
+Iconiq Lab’s accelerator has received over 500 applications, of which only 9 have been accepted
+and financed. Iconiq Lab has committed over €1 million to the 9 companies’ ICO development. In
+addition to being headquartered in Frankfurt, Germany, Iconiq Lab has opened offices in New
+York and London in 2018 and is in the process of hiring an Asian-based team for Q4 2018.
+The Iconiq Lab acceleration process consists of  5 stages:  (1) Sourcing and due diligence;  (2)
+Acceleration and ICO service package; (3) Exclusive presales opportunities to ICNQ Club Members;
+(4) Program graduate public ICO launches; and (5) Post-ICO financial and milestone reporting.
+Professional, VC-caliber due diligence, expert company and ICO building and Post-ICO support
+creates a holistic solution for Iconiq Lab’s accelerator participants and ICNQ club members.
+FinLab AG investment and €2.5 million ICO proceeds
+FinLab AG, a publicly-traded German FinTech company builder and investor, made a strategic
+investment into Iconiq Lab in late 2017. Iconiq Lab has also raised approximately €2.5 million in
+ICNQ token sales, of which there are 20+ premium club members and over 5,000 retail holders.
+P a g e
+11
+
+
+
+
+€100 million EOS Venture Fund
+Iconiq Lab collaborates with FinLab AG on the management of a €100 million EOS venture fund
+backed by block.one, the publisher of EOS. Iconiq Lab assists in due diligence for fund investments
+and helps develop the fund’s companies, leading their EOS ICO campaigns.
+2.3. Accelerator Companies
+Success Cases
+Unibright, the first company to complete its ICO in the Iconiq Lab accelerator
+program, raised its targeted hard cap of $14M, selling out the UBT token sale
+in 10 days.
+https://unibright.io/
+Current Accelerator Companies
+Vreo                                                                                                  Vlux
+Video Game AdTech                                                                                     Energy, P2P Markets
+A  blockchain-based,  real-time,  in-game  video                                                      By  combining  deep  learning  AI  with
+game   advertising   platform   for   real-world                                                      blockchain, our goal is to improve access
+advertisers. The platform decentralizes the video                                                     to  affordable,  low  carbon  energy  by
+game  ads,  creating  a  new  way  to  present,                                                       enabling peers to trade energy between
+measure and monetize advertisements in video                                                          one another via the Verv energy trading
+games.                                                                                                platform.
+https://vreo.io/                                                                                      https://vlux.io/
+P a g e
+12
+
+
+
+
+Solidified                                          Topl
+Cybersecurity                                       Emerging Market Financing
+Solidified has the largest (200+) community of      A   protocol   to   facilitate   blockchain-
+Solidity experts and incorporates all stages of     secured investment in emerging markets
+technical due diligence into a single platform so   through their unique dual-token model.
+you can bulletproof your smart contract.            Establishing  relationships  in  developing
+nations  to  promote  infrastructure  for
+https://solidified.io/
+governments and private companies.
+https://topl.co/
+Braincities                                         Wunder
+AI & Blockchain                                     Art Tech
+A  blockchain  protocol  for  data  storage  made   We are building the first Art-as-a-Service
+available to data scientists with programmed AI     and Art-as-an-Asset infrastructure at the
+to interpret and monetize personal data from        intersection of digital art, patronage and
+users and governments. Partners include HPE,        fractional ownership.
+SAP and more to develop further products using
+https://wunder.art/
+their platform.
+http://www.braincities.co/
+P a g e
+13
+
+
+
+
+Based Global                                                                                                                      Trade Finance Market
+Entertainment Tech                                                                                                                FinTech
+An  entertainment  startup  with  a  blockchain-                                                         Trade  Finance  Market   (TFM)  provides
+based  engine  to  decentralize  live  events  and                                                                                liquidity for global trade, particularly to
+ticketing  through  a  unified  sales  framework,                                                                                 Small  and   Medium   sized  Enterprises
+protecting  fans  and  artists  from  scalpers  &                                                                                 (SMEs) currently ignored by the majority
+counterfeits through their unique platform.                                                                                       of global funding institutions.
+https://basedglobal.com/                                                                                                          http://tradefinancemarket.com/
+2.4. Roadmap
+Global Scaling
+Iconiq Lab has already scaled in Europe and to the United States and is expanding its Asian
+presence. The team aims to offer up to 2-3 quality ICO opportunities per month with a target of
+20-25 per year to drive value to the ICNQ VC investors club.
+Corporates and SMEs
+Large companies, including fortune 500, publicly-listed companies, are approaching Iconiq Lab to
+manage their token sale. As Iconiq Lab onboards such clients, the quality and volume of ICOs
+offered to the ICNQ club will grow. With sizes exceeding $100M, Iconiq Lab will offer 2-4 annually.
+Security and Financial Instrument Tokenization
+The Iconiq Lab team believes in the securitization of traditional financial instruments, such as debts
+and equity, on the blockchain. Iconiq Lab is in the process of obtaining the proper licenses to issue
+and sell such instruments for our portfolio companies to the ICNQ club and investors in 2019.
+P a g e
+14
+
+
+
+
+3. Iconiq Funds
+3.1. Company Description
+Overview
+Iconiq  Funds  offers  investors  the  opportunity  to  diversify  their  cryptocurrency  investments
+through a series of professionally managed digital asset index funds, such as PIFs, ETFs and ETNs.
+Launched in 2018, Iconiq Funds’ digital asset management platform of regulated financial vehicles
+integrates premium market data, trade execution, custody, audit, and compliance tools , creating
+a holistic solution for digital asset management for retail and institutional investors.
+3.2. Company Traction
+Professional Investment Fund (PIF)
+The  first  fund to launch will  be a Maltese Professional Investment  Fund  (“PIF”), planned for
+November 2018. A PIF is an open-ended fund, permitted to have up to €100 million in AUM and
+may accept subscriptions from professional investors only. The PIF fund application is currently
+under review by the Malta Financial Services Authority, the Maltese regulator.
+3.3. BITA Partnership
+Overview
+Iconiq  Funds  has  engaged  BITA,  the  premier  digital  index
+company, to be the index provider for its digital asset index
+funds.  BITA’s  enterprise-grade  index  engines  apply  strict
+quantitative and qualitative filters to ensure digital asset price
+feeds faithfully reflect current market conditions, providing a
+proper price benchmark for all digital assets more accurate
+than any current solution. More information can be found at
+https://www.bitadata.com/.
+P a g e
+15
+
+
+
+
+3.4. Asset Management as a Service
+Description
+Leveraging  the  ecosystem  created  for  Iconiq  Funds’  passively-managed  investment  vehicles,
+Iconiq Funds will license the platform out to external, active digital asset managers, lowering the
+barriers to entry for portfolio managers to launch their own digital asset funds. Services within the
+AMaaS platform or trusted third-party service providers include;
+1.   Investment Vehicle Design and Launch: Initial design of the investment vehicle, development
+of the investment strategy and registration with the competent regulatory authority.
+2.   Ongoing Product Management: Integration into top fund administrators, liquidity providers,
+compliance experts, custodial solutions, banking and audit and taxation professionals.
+3.   Distribution and Execution: Cost-efficient and optimized execution of digital asset transactions
+across multiple exchanges, brokerage access and additional capital markets support.
+4.   Reporting and Investor Relations: Compliant distribution of sophisticated investor marketing
+materials and transparent reporting through KPI analysis of investment performance metrics.
+The Icon Vault
+The AMaaS platform is built around the Icon vault, which provides a safe custodian wallet solution
+for multiple digital assets. It implements both a hot and cold storage split-strategy and multiple
+signature wallets (multisig) to maximize protection. This combination of blockchain custodian
+methods ensures the highest level of protection against theft or human error that might lead to
+the loss of some or all the digital assets.
+Aggregated Order Book
+The AMaaS platform’s aggregated orderbook will provide a streamlined solution for an asset
+manager  to  create, amend,  execute and evaluate  the portfolio  based on their  strategy.  The
+aggregated orderbook allows the asset manager to view the liquidity in the market as defined by
+their investment strategy. To help achieve the lowest cost and optimize investment performance,
+P a g e
+16
+
+
+
+
+the platform will present the weighted-average price of the assets and a trade breakdown required
+to fulfil an order across different providers and crypto trading pairs on various exchanges.
+Order Execution Algorithm
+As the asset manager initiates the creation of the orderbook and declares the assets required, the
+platform retrieves pricing across the various exchanges. Once the data is gathered, the platform
+will aggregate the results and present the options with the best costs for buying and selling the
+assets.
+3.5. Roadmap
+ETNs and ETFs
+Leveraging the team’s  experience with the German  stock  exchange, Deutsche Börse, and as
+auditors of Vanguard, the world’s largest index fund provider, Iconiq Funds plans to launch ETNs
+and ETFs in 2019 to enhance value for the ICNQ ecosystem and the investors of the funds.
+Digital Financial Instruments
+Iconiq Funds believes in the merits of security and financial instrument tokenization. The team
+hypothesizes that in the next few years, cryptocurrencies may be supplemented by digital financial
+instruments such as fortune-500 companies’ debt and equity issuances. Leveraging the technical
+infrastructure of Iconiq Funds’, the platform is uniquely positioned to be not only the premier
+digital asset manager, but a top global asset manager as digital assets become the largest asset
+class. Iconiq Funds is engaging global regulators to educate them on the merits of digital assets
+and develop a framework for compliant digital financial instrument investing.
+AMaaS
+Iconiq  Funds  aims  to  onboard  multiple  external,  active  asset  managers,  allowing  the  ICNQ
+ecosystem to capture the benefits of passively-managed digital asset investments and hedge
+fundesque active management. The platform is planned to go live in Q2 2019 and be offered only
+to high quality and vetted digital asset managers.
+P a g e
+17
+
+
+
+
+4. The ICNQ Token
+4.1. ICNQ Token Ecosystem Uses
+Overview
+The ICNQ token is the value driver of the Iconiq Holding ecosystem, providing membership access
+to high quality investment vehicles and voucher discounts on ecosystem products and services.
+Each business unit has its own unique use for the ICNQ token.
+Iconiq Holding Uses
+•   Voucher Burning: 10% of all redeemed ICNQ voucher tokens Iconiq Holding business units
+receive will be burned to the Ethereum genesis wallet on a quarterly basis.
+•   Loyalty Program Rewards: To influence ecosystem behavior, Iconiq Holding will distribute
+additional redeemable voucher tokens to loyal ICNQ club members. Examples of planned
+loyalty rewards, so long as they remain regulatorily compliant by jurisdiction, include;
+▪   Recurring reward distributions of ICNQ to longtime ICNQ club members
+▪   Bonuses for reaching the ICON Membership level
+▪   Asset managers reaching certain levels of AUM on the AMaaS platform
+▪   Unbloqed podcast listenership and event participation
+•   Reselling: ICNQ tokens redeemed to Iconiq Holding businesses by consumers that are not
+burned or redistributed through the loyalty program will be resold into the marketplace in an
+ongoing  basis to  maintain a  healthy balance of  supply and demand for  new ecosystem
+members.
+Iconiq Lab Uses
+•   Exclusive Presales and Discounts: ICNQ token holders have access to presales with exclusive
+discounts of Iconiq Lab’s accelerator graduates with the ability to participate on a pro-rata
+P a g e
+18
+
+
+
+
+basis, based on their holding of the ICNQ token. Club members are incentivized to hold more
+ICNQ to increase their ability to participate in graduate’s token sales.
+•   Exclusive Presales and Discounts: Startups joining the Iconiq Lab accelerator program get a
+partial discount on their fees by paying with the ICNQ voucher token, increasing demand for
+ICNQ on the open market.
+•   ICON Members: Holders of €100,000 ICNQ tokens or more gain access to the premium ICON
+club where they can engage the startups directly and do not have a limit to ICO contribution
+amounts to graduates at the exclusive ICNQ discount. Club members are incentivized to hold
+large amounts of ICNQ to unlock ICON benefits, decreasing the circulating supply.
+Iconiq Funds Uses
+•   ICON Share Class: Holders of €100,000 of ICNQ tokens or more gain privileged access to the
+ICON  share  class  of  our  funds  and  planned  investment  vehicles,  such  as  ETFs,  enjoying
+discounted management fees for the life of their subscription to Iconiq Funds’ index funds.
+•   Fund Management Fees: Fund management fees are paid to the fund manager, Iconiq Funds,
+in ICNQ tokens, systematically increasing demand on the open market for ICNQ as Assets
+Under Management (AUM) of the planned multiple funds rises through fund underlying asset
+value appreciation and the launch of new investment vehicles.
+•   ICON Members: Platform fees may be paid in ICNQ tokens, providing a partial discount on
+service fees to the AMaaS users. Fund managers pay platform fees in ICNQ tokens. As more
+managers engage our platform and their UAM rises, so to does the demand for ICNQ.
+Iconiq Media Uses
+•   ICON Club: Premium ICON token holders get free entry to all Iconiq events.
+•   Event Discounts: ICNQ token holders get discounts to participate in Iconiq Lab events and
+other media through redeeming the ICNQ voucher token.
+•   Participation Rewards: Participants and listeners of our Unbloqed podcasts and other media
+events receive partial discounts when using the ICNQ voucher token.
+P a g e
+19
+
+
+
+
+4.2. ICNQ Token Sale
+Overview
+In April 2018, a finite amount of 20M ICNQ tokens were minted. Of these tokens, 4.1M have been
+sold in presales throughout  2018, raising  €2.5M. The Iconiq Holding team has purchased an
+additional 3M with a 12-month time-lock. A remainder of 2.9M tokens have been burned and
+10M are currently available for sale for a targeted hard-cap raise of €10M. 500k of the available
+ICNQ tokens will be available for purchase in a public sale on GBX beginning Oct. 29th, 2018.
+Private Presale
+In Feb. 2018, Iconiq Lab closed a private presale of the ICNQ token in a financing led by Token as
+a Service (TAAS). The €1,000,000 raised was used to finance the first accelerator batch.
+Community Presales
+Iconiq Lab issued two rounds of community presales in April and May 2018, selling nearly 1M
+ICNQ tokens and raising roughly €1,000,000.
+Institutional and U.S. Accredited Private Sales
+The private sale is ongoing throughout 2018 will be held open until the close of the GBX public
+sale in Nov. 2018.
+Iconiq  Holding  has  drafted  a  Private  Placement  Memorandum  (“PPM”)  for  U.S.  Accredited
+Investors under Regulation D of the Securities Act. To participate in the Private Sale, please contact
+the team directly, or send an inquiry to contact@iconiqlab.com to receive the PPM.
+If Non-U.S. Institutional investors have an interest in participating in the ICNQ token sale, please
+contact the team directly, or send an inquiry to contact@iconiqlab.com for further information.
+GBX Grid Public Sale
+Iconiq Holding is selling 500k ICNQ tokens on the GBX Grid, beginning Oct. 29th. To participate in
+the sale, interested parties  must  register on the GBX Grid  by following the  instructions and
+completing KYC at the following link: https://platform.gbx.gi/register.
+P a g e
+20
+
+
+
+
+4.3. ICNQ Distribution and Fundraise
+Figure 2: ICNQ Distribution
+•                                                                                                 10M Tokens Available: 8M tokens are available for
+sale to private and institutional purchasers. 500k will
+be sold on the GBX Grid beginning Oct. 29th. 500k in
+total  are  available  for  the  bounty  campaign,  and
+Iconiq Holding will retain 1M ICNQ for future uses.
+•   Sold and Burned: 4.1M tokens have been previously
+sold and 2.9M ICNQ have been burned in 2018.
+•                                                                                                 3M sold to Team and Advisors: The Iconiq Team and
+Advisors purchased 3M ICNQ tokens in 2017.
+Figure 3: Funding Uses
+Iconiq Holding has sold 4M ICNQ tokens, raising €2.5M and burnt 2.9M ICNQ to date. 10MICNQ
+remain available for sale to reach the targeted hard-cap €10M fundraise to launch, optimize and
+scale the ecosystem.
+•                                                                                                 €5M: An allotment for a self-sustaining pool to cover
+accelerator participant ICO-related expenses
+•                                                                                                 €2M:  Scaling  the  accelerator  internationally  and
+                                                                                                  further dealflow and pipeline development
+•                                                                                                 €1M: Marketing related expenses
+•                                                                                                 €1M: Finance and legal expenses of the platform
+•                                                                                                 €1M:  Launching  new  business  units  in  the  Iconiq
+Holding value chain
+P a g e
+21
+
+
+
+
+4.4. ICNQ Smart Contract Framework
+ICNQ Token Specifics
+The ICNQ Token is an ERC20 compliant smart contract on the Ethereum public blockchain. The
+tokens issued by the contract are a representation of the holder’s rights to participate in the Iconiq
+Holding ecosystem as was previously described. The token is divisible up to 18 decimal points.
+Iconiq Lab Smart Contract Framework
+The ICNQ token is identified in an ICNQ Club Member’s ERC20 digital wallet by the smart contract
+language each of the accelerator program graduates is contractually obligated to include in their
+own token issuance. The contracts identify which wallets hold what proportion of the outstanding
+ICNQ tokens and allow participation in a graduate’s presale to originate from said wallet on a pro-
+rata basis. This ensures exclusivity of presales for the ICNQ Club members for program graduates.
+ICNQ Token Assurances & Smart Contract Audit
+The  ICNQ  smart  contract  has  been  audited  by  solidified.io,  one  of  the  most  reputable
+independent, third-party, smart contract auditors in the industry. This provides prospective ICNQ
+token holders quality assurance over their participation in the ICNQ token sale.
+4.5. ICNQ Exchange Listings
+Exchanges
+500k ICNQ tokens will be sold on the GBX Grid, beginning on Oct. 29th. The sale is non-exclusive
+to the GBX Grid. The token will be available to trade on the GBX Digital Asset Exchange after the
+sale with crypto and fiat trading pairs. The token is currently trading on IDEX from the purchases
+made in the prior community presale.
+Related Party Transaction
+Iconiq Lab Holding GmbH is an approved Sponsor Firm of GBX and is sponsoring the listing of
+Iconiq Lab Accelerator GmbH’s ICNQ token on the GBX exchange. Iconiq Lab Holding GmbH
+wholly owns Iconiq Lab Accelerator GmbH.
+P a g e
+22
+
+
+
+
+5. The Iconiq Team
+5.1. Core Team
+Executive Team
+Patrick Lowry - Managing Partner & CEO
+Venture capitalist and investor with over a decade of financial
+industry experience. PwC asset management auditor of clients
+such as Vanguard and Blackrock. Startup co-founder/CFO with
+an MBA, CPA license and BS in finance and accounting.
+Maximilian Lautenschläger - Managing Partner
+Venture  developer  and  blockchain  enthusiast  with  years  of
+experience  in  consulting,  company building,  venture capital,
+fintech  and  private  equity.  BA  in  controlling,  MBA  and
+Chartered Alternative Investment Analyst (CAIA).
+Management Team
+Dominic Ward                                                       Or Barmatz                  Arabdha Sudhir
+US Managing Director                                               Technology Director         Marketing Director
+Accelerator managing                                               CTO and cofounder,          Startup and digital marketing
+director, venture capitalist,                                      blockchain and full-stack   expert, computer science
+hedge fund senior analyst                                          developer, tech due         engineer and MS in
+and Atlas Valley founder                                           diligence expert            Management
+P a g e
+23
+
+
+
+
+Investment Team
+Lukasz Musialski                                                                                  Matthew Nacier
+EU Investment Director                                                                            US Investment Director
+Investment manager,                                                                               Private equity and venture
+technology enthusiast and                                                                         capital analyst, asset
+MS in finance                                                                                     valuation expert
+Team
+Syuzanna Avanesyan                                                                                Omer Bishara                 Thibault Civalier       Finn Zimmer
+Communications and                                                                                Head of Delivery             Working Student         Academic Intern
+Office Manager
+                                                                                                  Product owner,               Master of Finance       Bachelor student, avid
+Communication                                                                                     project delivery             Student, crypto and     coder with a strong
+specialist and                                                                                    manager and serial           blockchain enthusiast   passion for new
+international sales                                                                               technologist                                         technology
+management expert
+Each member of the Iconic Holding Team has formally resigned all other professional obligations
+and is devoted full-time to Iconiq Holding and the ICNQ ecosystem.
+P a g e
+24
+
+
+
+
+5.2. Advisory Board
+Advisors
+Prof. Dr. Philipp Sandner     Sandris Murins              Dimitri Chupryna
+Blockchain Expert             Strategy Advisor            Token Investments
+Head of Frankfurt School      Iconiq Holding Co-Founder   Co-Founder of TaaS Fund
+Blockchain Center
+Dr. iur. Jochen Kasper        Dr. Nina-Luisa Siedler      Mitchell Louriero
+Legal Advisor                 ICO Legal Advisor           ICO Marketing
+M&A and Investment            DWF Partner                 Marketing @ Steem.it &
+Banking Lawyer                                            Santiment
+Ismail Malik                  Junxi Zhang                 Kristofs Blaus
+Media Advisor                 Asia Advisor                Business Development
+Editor in Chief @ ICO Crowd   Venture Capitalist          Serial Entrepreneur
+P a g e
+25
+
+
+
+
+5.3. Strategic Partnerships
+Iconiq Holding has arranged many partnerships with strategic players in the traditional and crypto
+industries to further drive value to the ICNQ community and business units.
+Crypto Specific
+As an exclusive Sponsor Firm of GBX, Iconiq Holding sponsors new token sales on the GBX Grid
+and secondary exchange listings on the Exchange. Iconiq Lab is partners with TAAS, EOS VC funds
+and  Wanchain,  co-investing  in  emerging  companies  and  developing  the  token  sales  of  the
+companies the funds invest into. TAAS was an early investor in the ICNQ token in Jan. 2018.
+Investment and Pipeline
+BITA is the index provider to the Iconiq Funds digital asset index funds. FinLab is a strategic
+investor into Iconiq Holding and manager of an EOS VC fund. FinLab and Iconiq Holding partner
+to develop the companies in the Iconiq Lab accelerator program and place investments. Innogy,
+one of Europe’s largest energy providers, is a avid token investor and driver of innovation.
+Legal and Research
+Iconiq Holding holds legal and regulatory compliance in the utmost esteem, partnering with
+premier  legal  firms  such  ad  DWF,  Liquet  Associates  and  McCarter  and  English  to  ensure
+compliance  in  their  own  token  sale  and  general  business  practices.  The  Frankfurt  School
+Blockchain Center and Iconiq Holding partner on joint-research, exploring  new  use  cases of
+blockchain and tokenization in various industry verticals.
+P a g e
+26
+
+
+
+
+6. Additional Disclosures
+Disclosures
+(i) Iconiq Holding has taken all reasonable care to ensure that the facts stated in this document
+are true and accurate in all material respects, and that there are no other facts the omission of
+which would make any statement in the document misleading, whether of facts or opinion. Iconiq
+Holding accepts responsibility accordingly;
+(ii) The ICNQ token is a  “medium of exchange” and” “means of accessing” the Iconiq Holding
+ecosystem.   It is not intended to be a regulated financial product of any kind. The ICNQ token is
+fully transferable between consenting parties;
+(iii) the GBX Market is not a  ‘regulated market’ as defined under the Directive on Markets in
+Financial Instruments 2004/39/EC;
+(iv) an active secondary market may not necessarily develop in the Tokens;
+(v) GBX is not responsible for the content or accuracy of the Whitepaper or the conduct of the
+Token Sale in any way, and that Admission to the Token Sale Platform pursuant to the Token Sale
+Rules does not constitute a warranty or representation by GBX as to the competence of the
+Applicant, its service providers or any other party connected with the Project, the Token or the
+Token Sale, the adequacy of information contained in the Whitepaper or the suitability of the
+Project or the Token for any purpose;
+(vi) GBX will not be liable for any false, inaccurate, inappropriate  or incomplete information
+contained in the Whitepaper;
+(vii)  This  Whitepaper,  in  full  or  part,  must  not  be  taken  or  transmitted  to  any  place  where
+distribution or dissemination of the Whitepaper is prohibited or restricted. Current restrictions
+include China, North Korea, South Korea, The Philippines, Iran, Iraq, Sudan, and New Zealand;
+(viii) Persons to whose possession the Whitepaper come are required to inform themselves of and
+observe any relevant legal or regulatory restrictions and seek all necessary professional advice;
+(ix) the Whitepaper is not endorsed by GBX nor any regulatory and/or government authority.
+P a g e
+27
+
+
+
+
+7. Iconiq Holding Information
+Organizational Structure
+Iconiq Lab Holding GmbH (“Iconiq Holding”) is structured as a German Limited Liability Company
+and wholly owns Iconiq Lab Accelerator GmbH and Iconiq Lab U.S. Accelerator Inc. (jointly, “Iconiq
+Lab”) and the soon the be opened Iconiq Funds GmbH (“Iconiq Funds”). FinLab AG, a publicly-
+traded German FinTech company builder, made a strategic investment into Iconiq Lab Holding
+GmbH in Nov. 2017. Iconiq Lab Accelerator GmbH is the ICNQ token issuer.
+Iconiq Holding brings a wealth of professional financial experience and a proven track record in
+the digital assets and blockchain industry. Together with the ICNQ token, Iconiq Holding has
+created a holistic value driver for the crypto investment ecosystem, with the trust investors expect.
+Contact Information
+Address                                                                                                 Email                   Online
+Iconiq Lab Holding GmbH                                                                                 contact@iconiqlab.com   https://iconiqlab.com
+Neue Rothofstraße 13-19                                                                                                         https://iconiqlab.com/icnq-
+                                                                                                                                white-paper
+60313 Frankfurt am Main
+                                                                                                                                https://iconiqlab.com/icnq-
+Germany
+color-paper
+http://iconiqlab.com/icnq-terms
+https://funds.iconiqlab.com
+https://facebook.com/iconiqlab
+https://twitter.com/iconiqlab
+https://t.me/iconiqlabchat
+https://github.com/IconiqLab
+https://medium.com/@iconiqlab
+P a g e
+28
+
+
+
+
+

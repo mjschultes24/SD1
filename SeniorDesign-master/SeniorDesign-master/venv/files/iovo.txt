@@ -1,0 +1,1470 @@
+﻿White Paper v1.1
+July 17th, 2018
+
+
+
+
+Table of Contents
+Abstract                                                                              1
+1                   INTRODUCTION TO IOVO                                              2
+1.1                 The coming of the Internet of Value (IoV)  .  .  .                2
+1.2                 Data and freedom                                                  3
+1.3                 The return of human value                                         4
+1.4                 The missing piece of the Internet                                 5
+1.5                 Why is IOVO needed?  .  .  .                                      6
+2                   HOW IOVO WORKS                                                    6
+2.1                 What is IOVO?  .  .  .                                            6
+2.2                 What problems does IOVO solve?                                    7
+2.3                 IOVO as the largest network of data                               9
+2.4                 The IOVO network and dApps                                        10
+2.5                 The development of IOVO .  .  .                                   10
+2.6                 The economics of IOVO                                             11
+2.7                 Examples of IOVO-based applications                               12
+3                   IOVO TECHNOLOGY                                                   14
+3.1                 Definitions .  .  .                                               14
+3.2                 IOVO as a DAG                                                     17
+3.2.1               Limitations of existing DAG-based cryptocurrencies                17
+3.2.2               How IOVO mitigates common DAG-based issues  .  .  .               19
+3.2.3               IOVO DAG description                                              20
+3.2.4               Security and privacy in IOVO .  .  .                              21
+3.2.5               Consensus algorithm  .  .  .                                      22
+3.2.6               Proof of value .  .  .                                            23
+3.2.7               Why IOVO will work                                                23
+3.3                 IOVO Wallet                                                       23
+3.4                 IOVO Manifests                                                    24
+3.5                 Smart contracts .  .  .                                           24
+3.6                 Integration of existing applications                              25
+3.7                 Scorings                                                          25
+3.7.1               Notation .  .  .                                                  26
+3.7.2               Requesting a score                                                26
+3.7.3               Search engine  .  .  .                                            27
+3.7.4               Creating new scorings                                             27
+3.7.5               Earning on scorings                                               28
+3.7.6               Security of scorings .  .  .                                      28
+3.8                 Data storage and aggregation                                      28
+3.9                 Sending text messages and invitations                             29
+3.10                IOVO as a database                                                29
+3.11                Platform for aggregation, analysis and ordering of data .  .  .   29
+3.12                Zero-knowledge proofs                                             31
+i
+
+
+
+
+         3.13  Value-centered economy                             31
+3.13.1   Value score                                              31
+3.13.2   Dynamic fee system                                       33
+4        IOVO TOKEN LAUNCH                                        35
+5        EXPANSION AND MARKETING STRATEGY                         35
+5.1      Expansion plan  .  .  .                                  35
+5.2      The IOVO Foundation  .  .  .                             37
+5.3      Roadmap                                                  37
+6        PROJECT RISKS AND RISK MANAGEMENT                        37
+6.1      Legal and regulatory risk                                37
+6.2      Market risk                                              37
+6.3      Technical risk  .  .  .                                  38
+6.4      Financial risk                                           38
+7        REFERENCES                                               39
+8        Appendix A: Double-parasite chain attack on the tangle   40
+8.1      A.1 Introduction                                         40
+8.2      A.2 The attack (simplified version)                      40
+8.3      A.3 Full version of the attack                           41
+ii
+
+
+
+
+Abstract
+IOVO (Internet Of Value OmniLedger) is a unique global open network
+database for storing and exchanging information on any type of quanti-
+tative value asset.   IOVO is a directed acyclic graph  (DAG), the next
+generation of blockchain, and serves as a data management and scoring
+ledger.  It does this by creating a universal global decentralised ledger of
+all values and then publishing rating scores for individuals and institutions
+across a range of sectors.  Rating scores within IOVO are only accessible
+by the entity being scored, and are only revealed as answers to particular
+questions. In this way, IOVO acts as a zero-knowledge proof platform.
+As a base layer, the IOVO DAG provides the infrastructure for any
+decentralized application (dApp) which focuses on value and scoring data
+usage in fields such as finance, credit, insurance and non-monetary pay-
+ments. IOVO is designed to provide a foundation for decentralized apps.
+As a result, most users will not directly use the low-level functionality of
+IOVO. Instead, they will use user-friendly dApps created by other net-
+work users.  Every dApp developer can create a new scoring along with
+the  dApp  or  use  one  or  more  existing  scorings.   Hence,  the  author  of
+the dApp decides, which user data will be used for a particular business
+purpose and defines the rules for the data access.  Therefore, the actual
+functionality of IOVO will be driven by the dApp developers, not by the
+creators of IOVO.
+IOVO is based on the idea that in every moment of our lives we gen-
+erate an enormous amount of data and that the ownership of those quan-
+titative values is a crucial element of our future freedom.  This valuable
+data (that we generate, store, transfer and share) represents our human
+value.  When we are denied access to the ownership of this data we are
+robbed of its intrinsic value, and therefore our freedom to decide upon
+its usage.  This limits our operational human capital and possibilities to
+monetize our human value by different forms of exchange.  IOVO is fo-
+cused on returning the ownership of that value back to the individual and
+stores it in a safe and secure way.  It democratizes the monetization of
+data  expressed as an electronic identity for all participating parties.
+IOVO allows users and companies to own their individual data and
+decide what is revealed and on what terms via their personal data wallet.
+Being the first truly transparent, universal, personal and institutional de-
+centralized data space, IOVO serves as a global ledger capable of securing
+every type of knowledge-based piece of value relating to both individuals
+and entities. It stores and supplies all possible values and scoring features
+(protocols) for different market and social applications.  It is encrypted,
+secure, distributed, democratic and above all human-centric.  That said,
+IOVO has the capability to reach a broader scope than just the storage
+and authentication of individual value.  It is a database-network serving
+as a base layer for future decentralized value market makers.
+1
+
+
+
+
+1                                                                                   INTRODUCTION TO IOVO
+In our modern digital world, at any given moment we’re generating an enormous
+amount of data. This data is then stored, transferred and shared, often without
+our knowledge.  This valuable data represents our human value, and when we
+are denied ownership and control over this data we are robbed of its intrinsic
+value. This limits our operational human capital and our ability to monetize our
+human value via different forms of exchange. The Internet of Value Omniledger
+(IOVO) will return ownership of that value back to the individual and store
+it in a safe and secure manner.  IOVO democratizes the monetization of data
+—expressed as an electronic identity for all participating parties.
+Currently, multiple centralized structures take full advantage of the data gener-
+ated by users of different platforms and their everyday lives. IOVO remedies this
+by providing a decentralized network database that allows users to benefit from
+collecting, storing, and sharing their personal value directly or via numerous
+decentralized apps (dApps).
+IOVO is designed to democratize valuable data ownership, storage and mone-
+tization in order to protect human capital asset-value in the light of ongoing
+automation of labour and service processes.
+The term “omniledger” refers to IOVO’s status as a “ledger of ledgers, a uni-
+versal global database network acting as a base layer for different decentralized
+social and commercial applications.  As an omniledger, IOVO will become a
+growing, secure, and transparent infrastructure for various quantitative value
+management platforms and dApps, providing both user empowerment and so-
+cial and commercial utility.
+1.1                                                                                 The coming of the Internet of Value (IoV)
+Technology is exceeding our wildest expectations:  this has brought enormous
+benefits, but the rapid pace of change is in danger of spiralling out of control.
+Value is shifting aggressively from the material economy of industry, and ser-
+vices are being colonized by automation and rapidly developing AI technologies.
+Human value is in danger of being undermined.
+The emergence of the Internet of Value  (IoV) is both an opportunity and a
+challenge for the future of human value, measurable via different methods data
+collecting,  scoring and management.  As we witness the rapid growth of in-
+dustry and service-based automation across all sectors, the human value rep-
+resented by labour and data further loses its significance.  IOVO is a DAG, a
+network-database securing complete personal data ownership and management
+2
+
+
+
+
+to mitigate against a future of diminishing human value.
+It is estimated that by 2025, as much as 70% of all current and future global
+markets will rely on blockchain and DAG technology.  IOVO recognizes and
+stores human value by accumulating personal data. It makes data an exchange-
+able asset secured by the distributed global public ledger.  The tools built on
+the IOVO DAG (e.g., dApps) will allow individuals and communities to benefit
+from all personal human capital that can be captured by personal data.
+Until recently, the Internet facilitated the exchange of information and various
+forms of intermediary value —from monetary transactions via mobile banking
+to social significance markers in different social media platforms. Social and eco-
+nomic exchanges were facilitated by for example money, accompanied by ledgers
+- a human invention dating back to when the pace of civilization gained momen-
+tum and expanded into its current complex character. With time, the invention
+of money detached itself from the original value of human assets and services
+and the exchange of commodities, becoming an independent system. This sys-
+tem has come to rule our economy, developing subsequent feature instruments
+and gaining unprecedented influence over all social and economic processes. As
+a result of this process, money has come to wield power over the socioeconomic
+global system, and human value has been diminished. Together with the devel-
+opment of the information-based economy, data rapidly became the currency of
+our times. And as such, it has also become a user-independent system, centrally
+governed by multinational organizations and states.
+We are entering a new stage in history, one where our entire future as a species
+is in the balance. Left unchecked, the rise of the automated machine economy,
+machine learning and AI services could dominate all socioeconomic systems.
+Instead, IOVO intends to leverage the same technology to serve the exchange
+of valued human assets, such as influence, knowledge or time, sustaining human
+value and democratizing personally created human capital.  The emergence of
+the Internet of Value  —possibly the final element of the global Internet ex-
+change network —will allows us to preserve imminent human value at both the
+individual and community level.
+1.2                                                                                   Data and freedom
+The activities of people, businesses, and other entities generate enormous amounts
+of data. This value is currently harvested and appropriated by large commercial
+organizations. People and institutions no longer own their data, and losing own-
+ership of your personal data is tantamount to losing ownership over your life.
+Personal data ownership is therefore a cornerstone of a contemporary definition
+of freedom.
+3
+
+
+
+
+The data we generate is a registry of our lives,  a registry which stores and
+reflects our intrinsic human value.  Data encapsulates and demonstrates our
+human capital, commonly understood as ones potential. The human value and
+capital of every person is stored in the lifetime of data they generate, transfer
+and share with others. It is obvious that this value should be attributed to and
+owned by the individuals who generate it.  The trend of ceding ownership of
+personal digital identity to large organisations limits operational human capital
+and the ability for people to monetize their human value via different forms of
+exchange.
+IOVO is designed to allow individuals and entities to reclaim ownership of their
+data. IOVO facilitates and automates the process of personal data management
+and monetization. The IOVO DAG provides the infrastructure for any and all
+future dApps based on user values and/or focusing on data usage, including
+(but by no means limited to) finance, credit, insurance, banking, news, and
+non-monetary payments.  IOVOs goal is to democratize the monetization of
+data for all participating parties.
+1.3                                                                                 The return of human value
+Human value is increasingly limited in our super-modern economy.  The un-
+precedented technological progress between the mid-20th century and today has
+seen a similarly unprecedented rise in the value of material instruments. From
+early computers to modern interconnected electronic equipment, technologies
+have risen in value and conquered one area of human life after another.  From
+early personal computer solutions to the iPhoneX, technology has both facili-
+tated our daily lives and intrinsically altered almost every fundamental social
+and economic process.
+The economy is now run by markets - just as predicted by multiple scholars.
+Agriculture and industry have become automated, while the services sector has
+been largely democratized. The value of products and processes has thus further
+outgrown the value of individuals. We are at a crucial stage of our history and
+socio-economic development, one where we now face the urgent need to decide
+on our future in an automated world of AI machines.
+Universal basic income, a topic which has seen much lively public discussion
+recently, is just one example of the dangerously escalating global challenge we
+face as a result of diminished human value.  As the Silicon Valley futurist Tim
+OReilly has stated:  “Weve forgotten that if we dont pay people, they cant buy
+our products;  they cant respond to our ads.   So theres a problem with the
+algorithm that were using to run modern businesses.”
+This new emergent economy is increasingly referred to as “Industry 4.0”.  The
+4
+
+
+
+
+coming period in history will take full advantage of many possible technological
+advancements, eventually culminating in the full automatization of all industrial
+and most service-centred global economic systems. In this rationale of progress,
+human value will further diminish if no tools to assess,  store and exchange
+this value are developed and disseminated worldwide. Decentralized ledgers are
+perfect for these tasks.  Human assets are progressively deprived of real value
+due to the lack of a real and publicly trusted ledger. Anything that is not on a
+ledger does not exist - everything that has no underlying ledger, has no value.
+The answer to this civilizational challenge lies in the instruments of exchange
+that shape the global economy and further limit the significance of human value
+within the global economic system.  At this stage in history, we must decide
+whether we will develop tools and instruments that allow human value to flourish
+or simply ignore the impact of further automation processes that fully divorce
+the full spectrum of economic process from human capital and value.   This
+value be only represented in a fully transparent data collecting, storage and
+management system. The IOVO DAG will provide such a system.
+1.4                                                                                   The missing piece of the Internet
+The world is a system of human exchange.  The greatest gift the Internet has
+brought to the world is making new methods of exchange possible. From early
+commodity exchanges and the network of ledgered favour liabilities to mod-
+ern capital markets lubricating global economies, exchange has served human
+progress and socioeconomic fluidity.  The systems of exchange developed con-
+current to the progress of human civilization have become increasingly complex,
+to the point where they are in danger of becoming completely detached from
+intrinsic human value.
+The coming of the Internet of Value will close the global exchange circuit. To-
+gether with the “first two Internets (the Internet of Information and the sub-
+sequent Internet of Things) the Internet of Value will complete the near-future
+Internet of Everything.  Thus, it will become a comprehensive foundation for
+the entire global social exchange system. It will not be a parallel reality, but an
+indispensable layer of the global socio-economic system.
+TTherefore, the Internet of Value will bring about the open trust paradigm,
+creating a barrier-destroying direct economic system. IOVO will be the platform
+and currency of the Internet of Value;  however it will not bring with it all
+the data ownership and monetary burdens of our current system, because all
+transactions and liabilities will be recorded and made public. At the very core of
+IOVO exists the idea that all data transactions and actions of exchange will be
+based on comprehensive personal data ownership and management - for reasons
+of privacy, security and monetization.
+5
+
+
+
+
+1.5                                                                                Why is IOVO needed?
+Contemporary social and economic reality is increasingly dependent on data.
+The flow of data (collection, storage, management, exchange, etc.)  defines the
+structures of power in politics and economies.  The centralization of all data-
+related processes harms democracy and is the root cause of the current and
+future decline in human value.
+There are two key reasons why IOVO is so necessary:
+•  Large organizations harvest and process the data generated by the activi-
+ties of nearly every human on the planet. Individuals have no control over
+this, and they have no technical recourse to determine how their data is
+used. Data is harvested and monetized while the individuals who generate
+that data see no benefits. Once centralized, this personal data is easy for
+unauthorized, often hostile entities to appropriate.
+•  There is a need for a cumulative universal database that can be easily
+browsed  and  analysed.   The  IOVO  DAG  is  a  comprehensive  network
+database accessible to analysts and researchers from every conceivable
+field.
+2                                                                                  HOW IOVO WORKS
+2.1                                                                                What is IOVO?
+IOVO is a DAG  (directed acyclic graph) designed as a platform for various
+applications.  IOVO’s primary functions are to collect, store, and secure user
+data shared with applications built upon the IOVO DAG. User data cannot be
+accessed by other users without the original users consent.  If a user agrees to
+share their data, they will receive an agreed fee when that data is accessed.
+Users decide precisely how much of their data is made externally accessible to
+other parties, while keeping complete control over it.  Every browsing action
+and query requires a payment. IOVO serves as a personal data wallet. It builds
+a powerful universal database that allows unrestricted analysis opportunities.
+IOVO provides the infrastructure to create a new data economy,  one which
+allow users to monetize their data and access benefits that were previously only
+available to the owners of platforms and applications.
+6
+
+
+
+
+Figure 1: An overview of the IOVO network
+2.2                                                                                 What problems does IOVO solve?
+IOVO is a decentralized database ecosystem.  It is dedicated to giving data
+ownership and power over data and its monetization to those whose lives gen-
+erate it:  people.  IOVO is conceived and designed to secure complete control
+over all users’ data and how it is shared. Users decide what gets revealed, who
+gets access, and what they want to be paid for it. Users own all their personal
+data and any further data derived from it (e.g., scorings).  This makes IOVO
+a universal database network infrastructure —a global registry of every kind of
+data-related knowledge, as well as a database of all possible scoring scales and
+information derived from that knowledge.
+IOVO satisfies the following particular needs of different participating parties:
+A. USERS.
+IOVO gives users ownership and full control over their digital value and privacy,
+together with shifting data monetization processes from large data collecting
+organizations to the final user. The benefits of IOVO for users include:
+1.  Data wallet and access to IOVO network.
+2.  Data ownership.
+3.  Data security and transparency.
+4.  Data monetization.
+5.  Anonymity.
+7
+
+
+
+
+B. dApp AND APPLICATION OWNERS.
+IOVO guarantees full data security to operators of applications and decentral-
+ized applications. It also facilitates monetization of this data (with user consent)
+and supports user growth by satisfying stringent data security and privacy stan-
+dards. The benefits of IOVO to dApp and application owners include:
+1.  Access to a comprehensive global database via data wallet.
+2.  Monetization of owned data.
+3.  Data security.
+4.  Acquisition of more users.
+5.  Unmodifiable history.
+C. COMPANIES AND DATA ANALYSTS.
+IOVO is a powerful network database for browsing,  analysis,  and inference.
+The infrastructure is comprehensively analysis-friendly and equipped with easy
+access to external analytical tools. Researchers and analysts can also use tools
+and solutions delivered by IOVO. The benefits of IOVO for companies and data
+analysts include:
+1.  Big data access to complete network.
+2.  Data research and analysis.
+3.  Full anonymity.
+4.  Direct contact with surveyed users.
+5.  Secure data storage and unmodifiable history.
+By aggregating all types of personal data generated by users of dApps based
+on the DAG, IOVO serves as a complete big data infrastructure capable of
+providing answers to complex research and analysis queries.
+In addition to addressing particular needs of the parties participating in the
+IOVO ecosystem, the IOVO DAG also addresses weak points in current-generation
+blockchain and DAG implementations such as scalability, stability, and security.
+The many technical benefits of IOVO are found described in the later sections
+8
+
+
+
+
+Figure 2: The IOVO network can aggregate data from every field
+of this paper.  These include decentralization of data, secure encryption, own-
+ership and control over data, personal data monetization, transaction speed,
+Ethereum-like smart contracts and a powerful database network equipped with
+internal big data analytical tools.
+2.3                                                                                  IOVO as the largest network of data
+In addition to providing data protection,  the IOVO  network  functions as a
+database, collecting data from all applications built or based upon it. The wide
+variety of possible applications and means the IOVO network has the potential
+to become the world’s largest database, aggregating data from various fields.
+The diversity of data stored within the system will generate significant public
+and commercial research potential. Currently, data from different disciplines is
+siloed, and separate databases must be used for comparative analyses, incurring
+significant costs in terms of both time and resources.
+The IOVO network would allow carrying out different case analyses on a multi-
+level basis within a single network/database search. It means a huge increase in
+analytical capabilities and the quality of conclusions drawn, which in traditional
+database approaches had no chance to exist - traditional methods limited access
+to certain databases, increasing the cost and time. The IOVO network provides
+the chance to change the approach to database analysis to methods that were
+not possible or too difficult to conduct within traditional frameworks.
+9
+
+
+
+
+As an example, imagine a study into the influence of various factors affecting
+the development of a disease, one which takes into currently unanalyzed factors
+(e.g., social, personality, etc). The data connection potential is substantial given
+the easy access to data and costs. Of course, this ease of access must not come
+at the expense of data privacy.  Analyses on the IOVO network only use data
+with both user consent and an intrinsic mechanism that allows users to benefit
+from their data use in accordance with the idea of IOVO.
+2.4                                                                                      The IOVO network and dApps
+IOVO is a peer-to-peer network —users can join it at any time and start mak-
+ing transactions.  Every user connected to the network acts as a transmitter
+of transactions  —they broadcast incoming transactions to other nodes in the
+network.  This enables every transaction to reach validators in a fraction of a
+second. Validators in turn are responsible for verifying the transactions —they
+check every transaction for correctness and run their smart contract code  (if
+present).  Validators are incentivized to participate in this verification process
+by the network rewards, which are distributed according to IOVO’s proof-of-
+value (PoV) consensus algorithm, an extension of proof of stake (PoS).
+In a centralized application network there is a central server  (S) and clients
+(K ) which communicate with it.   These client devices include smartphones,
+tablets, and laptops.  The IOVO DAG is a decentralized application network
+system  where  all  users  are  equal.   Therefore  all  connections  are  distributed
+evenly between random nodes within the network.  The clients still exist, but
+some nodes function as validators (V ).
+On top of this network layer, all users can develop and implement decentralized
+apps (dApps):
+2.5                                                                                      The development of IOVO
+In its early stages, the IOVO network will not contain much data —it will take
+time to gather information and create valuable ratings.  Therefore, we need to
+motivate people to participate in the early stages of IOVO.
+When users approve transactions,  they have a chance to mine a coin.   The
+expected gain is proportional to the user’s combined value: this is initially equal
+to the user’s stake, but smoothly evolves into their value score as IOVO matures
+(see Section 3.13).  This mechanism encourages users to increase their rating,
+which in turn encourages progress towards more maturity.   As IOVO tends
+toward this later stage, mining will become less profitable as most earnings will
+10
+
+
+
+
+Figure  3:  Comparison between centralized and decentralized application net-
+works
+come from providing data and creating new ratings.
+This is just a brief overview of the process. For more details, see Section 3.13.
+2.6                                                                                   The economics of IOVO
+Earning in IOVO is directly connected to the novel concept of proof of value
+(PoV). PoV is an evolution of the proof of stake (PoS) approach [8], according to
+which each validator is paid for their work in proportion to their stake (i.e., the
+amount of money deposited for this purpose).  IOVO also relies on validators;
+however, their expected reward is proportional to their combined value.
+The combined value consists of two components:  stake and value score.  The
+stake plays the same role as in PoS, while the value score reflects how valuable
+the user is within the IOVO network.  Every user has a value score which rep-
+resents how valuable their ratings and information are to the IOVO community
+as a whole.
+The stake and value score influence the combined value via different weightings,
+which change over time. Initially, the combined value is based mostly on stake;
+however, as network usage increases, the value score will become increasingly
+important.  Once IOVO reaches a mature stage with many IOVO dApp users,
+the stake will be completely replaced by the value score.
+11
+
+
+
+
+Figure 4: The IOVO network can aggregate data from every field
+2.7                                                                                Examples of IOVO-based applications
+The market and social applications of the IOVO DAG are virtually endless, and
+can cover all business areas. This is because scorings can be both derived from
+different market behaviours and also supply the information necessary to adjust
+the terms of goods and services to particular users.
+However, the basic market-making opportunities facilitated by the IOVO DAG
+are:
+ONLINE INFLUENCE-BASED DYNAMIC PRICING
+Influnomy is a platform being developed by the IOVO team as the first market-
+making proof of concept for the IOVO DAG base layer.  The Influnomy name
+refers to “influence economy”, a very old part of the overall economic system,
+which thanks to technology is now dynamically expanding, just as social and
+sharing economies are. The idea is to facilitate the exchange of personal assets
+other than money, starting with social media consumers behavioural influence.
+The emergence of the influence economy paradigm has so far over-simplified
+the understanding of influence to mean only brand influencing, ignoring the
+opportunity for direct exchange of other influence-based non-monetary human
+assets.
+INSURANCE SCORING SYSTEMS
+12
+
+
+
+
+One clear application of IOVO technology is when insurers need to dynamically
+adjust pricing based on previously scored consumer behaviours. For example, a
+car insurer may want to reprice an individual policy based on previous examples
+of good or bad driving. A IOVO dApp would facilitate data collection, storage
+and processing,  allowing secure and transparent scoring of users automotive
+history and behaviours to indicate their future terms of service. Thanks to the
+IOVO DAG and the decentralised browsable data storage structure, insurance
+companies will be able to create scorings and reach IOVO users accordingly.
+NEWS DAPP: DROPP
+Another decentralized application undergoing final development by the IOVO
+team is the Dropp News dApp, a decentralised news application with a geo-
+graphical focus based on the idea of user-generated content and news.  Dropp
+News empowers its users to participate in both local and global news infras-
+tructures by uploading news information and imagery linked to particular geo-
+graphical locations. Users will be rewarded for their contributions and will help
+build a curated multimedia repository of information about various places.
+BANKING AND FINANCE SCORING
+Once it leaves its earliest stages, the IOVO DAG can be operationally applied to
+create secure foundations for a complex banking and transactional processing
+infrastructure.  In addition to a decentralized database, banking and finance
+institutions need reliable scorings to adjust their offers.  They can also supply
+information (e.g., based on the European PSD2 directive) that helps to create
+future scorings. The IOVO DAG decentralized encrypted database-network can
+supply a comprehensive infrastructure for document processing and all types of
+transactional ledgering.
+HR:  PROFESSIONAL  AND  COOPERATION  DATA  AND  RAT-
+ING
+The IOVO DAG can facilitate the establishment of an HR and recruitment plat-
+form to handle multiple networking and job offering processes. The IOVO DAG
+infrastructure will be useful where institutions and professionals need to choose
+external contractors based not only on existing reviews and review systems, but
+by deriving scoring ratios from users non-sector scored activities.  Thanks to
+IOVO’s zero-knowledge proof facility, IOVO DAG will allow easy and indirect
+exchange of data-based characteristics while preserving users’ privacy until they
+decide to reveal their identity.
+KNOWLEDGE EXCHANGE SCORING
+Using zero-knowledge proofs,  the IOVO DAG will facilitate information ex-
+change that informs societal and consumer decisions on acquiring knowledge
+13
+
+
+
+
+and expertise. IOVO DAG will be useful anywhere that participants in knowl-
+edge and skill exchange platforms need to base decisions not only on qualitative
+reviews but also on reliable scoring ratios derived from a broad range of disci-
+plines and activities.
+FOOD QUALITY AND DISTRIBUTION SCORING
+As a fully operational DAG working as a new blockchain,  IOVO can easily
+become a foundation for a solution to a crucial challenge currently facing hu-
+manity: food quality. It is easy to imagine a sub-database on the IOVO network
+that scores food production and tracks food distribution until it reaches final
+consumers in either shops or restaurants.
+And these are just a few examples of the myriad of use cases IOVO fulfils. Any
+type of data processing and/or scoring-oriented application can be built on top
+of the IOVO DAG, including browsers, communicators, e-commerce and other
+commercial tools already present on the market, as well as those that will come
+to market in the future.
+3                                                                                   IOVO TECHNOLOGY
+3.1                                                                                 Definitions
+IOVO’s high-level value management features are implemented using a highly
+effective distributed system of accounts and the transactions carried out between
+them.  Therefore, we first describe this underlying transaction system before
+covering the main IOVO features built on top of it.
+•  Account
+Every account is a pair of cryptographic keys:  a public key which serves
+as an address and a private key used to sign transactions.  Each IOVO
+user can manage several accounts through their wallet.
+•  Transaction
+The backbone of IOVO is a system of fast and cheap transactions carried
+out between accounts. The most basic type of transaction is one where a
+user, A, transfers IOVO coins (IOVO’s currency) of value v to a second
+user, B. However, more complex transactions are also possible.
+•  Standard Transaction
+By standard transaction, we mean a transaction which carries some value,
+v (measured in IOVO coins), and a short (e.g., 128B) message, m. Since all
+14
+
+
+
+
+transactions are public, this message will be visible to the whole network.
+Therefore, this can be used as an append-only public ledger. On the other
+hand, users can easily use the same feature to send private messages to
+other users by encrypting the message with the recipient’s public key.
+In this case, only the recipient can decrypt the message, by using their
+private key. v can take almost any value, including 0, IOVO can be used
+as a platform for fast and cheap1  money transfers and messaging.
+•                                                                                           Extended Transaction
+In addition to the value, v, and the message, m, every transaction can
+have a script attached to it. This script can contain any data and allows
+smart contracts to be created and processed between users.  The script
+and its data are accessible through the mechanism of scorings, which will
+be extensively covered in Section 3.7.
+Since extended transaction scripts can run long, these transactions are
+much more expensive for the network to handle. Therefore, every extended
+transaction has a higher fee.
+•                                                                                           Gas
+In order to handle extended transactions, we introduce a gas-based fee
+system, similar to Ethereum [1]. The difficulty of the extended transaction
+is measured in the units of gas which must be “burned” to perform every
+virtual machine operation.
+•                                                                                           Blockchain
+Blockchain is a base layer used in traditional cryptocurrencies like Bitcoin
+[2] and Ethereum  [1].   In blockchain,  all transactions are coupled into
+blocks which appear on a public ledger at regular time intervals (e.g., in
+Bitcoin a new transaction block appears every 10 minutes). Transactions
+are verified by the miners who use their computing power to perform some
+computation. This verification process is called proof of work (PoW).
+•                                                                                           Transaction DAG
+Recently, several novel cryptocurrency architectures to supersede blockchain
+have been proposed based on directed acyclic graphs (DAGs).  The two
+most common groups are single-transaction DAGs (e.g., Byteball [3] and
+IOTA  [4]) and multi-blockchain DAGs  (e.g., BitShares  [5], EOS  [6] and
+PolkaDot [7]).
+•                                                                                           Scoring
+The main building block for managing IOVO user data is the mechanism
+of scorings.  Each scoring is a user-generated protocol for collecting and
+aggregating user data.  All the rules about what data can be stored and
+1
+The effective fee for standard transactions will decrease over time as the number of IOVO
+users grows. For more information on fees, please refer to Section 3.13.
+15
+
+
+
+
+how it can be accessed are published in a special document called the
+scoring manifest. The concept of scorings will be covered in greater detail
+in Section 3.7.
+•                                                                               Scoring Manifest
+A scoring manifest is a dedicated document created along with each scor-
+ing.  Any user can create a new scoring at any time by publishing its
+manifest.
+•                                                                               Decentralized Application (dApp)
+IOVO is designed to provide the foundation for building decentralized
+apps (dApps). As a result, most users will not make direct use of IOVO’s
+low-level functionality. Instead, they will use user-friendly dApps created
+by other network users.  Every dApp developer can create a new scoring
+along with the dApp, or use one or more existing scorings.  Hence, the
+dApp author decides which user data will be used for a particular business
+purpose and defines the rules for the data access.  Therefore, the actual
+functionality of IOVO will be driven by the dApp developers, not by the
+creators of IOVO.
+•                                                                               Token
+IOVO allows users to create tokens —coins of a new currency built on top
+of IOVO. dApp developers can either create a new token along with their
+dApp or use one an existing token.  Similar to creating a new scoring,
+the author of the token specifies the rules governing how tokens will be
+distributed, traded, etc.
+•                                                                               Wallet
+Every IOVO user will manage their assets using the IOVO wallet.  The
+wallet gives the user access to their money (IOVO coins, tokens) and all
+their data accessible in the network through the scorings/apps.  A single
+wallet can be used to manage multiple accounts, allowing users to use
+different accounts for different applications if they so choose.
+•                                                                               Proof of Value
+Traditional  cryptocurrencies  (like  Bitcoin  and  Ethereum)  use  proof  of
+work  (PoW) as a consensus mechanism.   In the PoW approach,  every
+transaction is approved (or not) by the miners.  If a disagreement arises,
+the decision is made by the majority, measured in terms of computing
+power. Some newer projects like NXT [8] and Casper (a new protocol for
+Ethereum) [9] use proof of stake (PoS) instead. In PoS, the miners (or val-
+idators) also verify the transactions; however, their reward is proportional
+to their stake, which is the amount of money deposited for this purpose.
+IOVO extends the idea of PoS to create the novel approach of proof of value
+(PoV). Like in PoS, validators are also rewarded for verifying transactions;
+however the reward is proportional to the user’s value, defined as the the
+16
+
+
+
+
+Figure 5: The IOVO proof of value consensus mechanism
+sum of their stake and their value score.  In this way, the most valuable
+users (the users with highest value scores) are rewarded for participating in
+the network. The parameters for computing the value will be dynamically
+adjusted:  this means that in IOVO’s early stages, when there are fewer
+app users with high ratings, rewards will be distributed mainly based on
+stakes.   However,  as the number of users increases,  the importance of
+rating value will grow.  In other words, IOVO will smoothly evolve from
+PoS to PoV.
+3.2                                                                                 IOVO as a DAG
+3.2.1                                                                               Limitations of existing DAG-based cryptocurrencies
+Directed acyclic graph (DAG) has recently gained huge popularity as a novel
+approach which can replace blockchain. DAG-based projects can be divided into
+different groups, of which one particularly interesting one is single-transaction
+DAGs.  These serve as the ledger for cryptocurrencies such as Byteball [3] and
+IOTA  [4].   In  a single-transaction  DAG,  every  transaction is  a node in the
+graph. In order to issue a new transaction, a node must approve two (or more)
+other transactions.  This approval is usually done via proof of work and the
+transaction being approved is directed in the DAG by an edge emanating from
+the issued transaction.  This is an interesting approach; however, DAG-based
+systems constructed in this way suffer from several inherent limitations:
+17
+
+
+
+
+1.                                                                                             No strong motivation to broadcast transactions
+Every  cryptocurrency  works  as  a  peer-to-peer  network  —when  a  new
+transaction appears, it is immediately broadcast to all the nodes.  This
+requires users to be constantly connected.  This connectivity is easy to
+achieve when the miners are used, as they must actively participate in the
+network to be eligible for their rewards.  Without miners no such moti-
+vation exists —the risk of being dropped by neighbouring nodes does not
+seem to be a sufficient incentive to propagate transactions.
+2.                                                                                             Ease of 51% computing power attack
+In order to prevent spam, every user must perform some proof of work
+before issuing a transaction. This cannot be too hard, because we do not
+want to wait very long to approve each transaction (especially if we plan
+to run the cryptocurrency software on smartphones or IoT devices). This
+low PoW threshold makes a 51% attack2  relatively easy, especially in the
+periods of lower activity for honest users.  IOTA currently runs special
+centrally-driven nodes called coordinators to prevent such attacks [10].
+3.                                                                                             Lack of computing power for smart contracts
+The concept of local PoW makes it practically impossible to implement
+smart contracts on such DAGs.  Even if the PoW difficulty were set to
+produce  an  acceptable  verification  time  for  standard  transactions,  the
+same system cannot be used to run smart contracts (which can run much
+longer).  In order to support smart contracts, the network needs miners
+willing to run the smart contract code.
+4.                                                                                             Minimal data storage
+The single-transaction DAG structure was designed to manage small, sim-
+ple transactions. This idea cannot be easily scaled to storing large amounts
+of data, because end devices cannot be forced to store large files.
+5.                                                                                             Risk of potential attacks
+Since blockchain-less DAGs have not been deployed on a large scale and
+they lack strong mathematical foundations, we must be cautious about
+their resistance to other potential attacks.  In particular, we have discov-
+ered a double-parasite chain attack on the Tangle (the transaction DAG
+used by the IOTA cryptocurrency), which, to the best of our knowledge,
+cannot be prevented using the current implementation. For details of the
+attack, please refer to Appendix A.
+We cannot rely on the security of new technology against other possible
+attacks.  For a recent example, we refer to the vulnerability found in the
+Curl hash function used in IOTA [11].  Ultimately, this vulnerability did
+not enable a practical attack on IOTA, and the IOTA developers patched
+2
+An attack in which a malicious user with large computing power connects to the network
+and tries to outpace the rest of the network, e.g., by issuing a double-spending transaction
+18
+
+
+
+
+their implementation after the disclosure [12]. It shows, however, that we
+must be very careful when introducing new features to cryptocurrencies
+which have not been tested in the wild.
+3.2.2                                                                              How IOVO mitigates common DAG-based issues
+IOVO is designed to mitigate all the limitations listed in the previous section:
+1.                                                                                 No strong motivation to broadcast transactions
+IOVO is based on the novel idea of proof of value, which can be seen as
+an extension of proof of stake. Certain users of the network are validators
+who are rewarded for verifying transactions.  Since the validators must
+be connected to the network to claim their rewards, they mitigate the
+problem of propagating the transactions.
+2.                                                                                 Ease of 51% computing power attack
+In IOVO proof of work is replaced by proof of stake and proof of value,
+rendering attacks by a single powerful malicious user practically impossi-
+ble. In addition, the holders of the highest stakes and values are motivated
+to participate in the network constantly and virtuously, so even in periods
+of lower activity by IOVO dApp, an attacker would need to own 51% of
+the stake of all stakeholders to perform a 51% attack.
+3.                                                                                 Lack of computing power for smart contracts
+In IOVO no proof of work is performed at all, so it is no problem for
+low-powered devices to participate in the network.  Instead, transactions
+are verified by the validators, who can have much more powerful hardware
+and process more complicated transactions, including smart contracts.
+4.                                                                                 Minimal data storage
+Because  of  the  validators,  IOVO  users  are  not  required  to  store  large
+amounts of data on their end devices. Thanks to IOVO’s multi-blockchain
+DAG structure, data will be split into several blockchains, meaning only
+a part of the total data needs to be stored locally.  Finally, we plan to
+integrate IOVO with a distributed file system based on proofs of space
+[13], which will further reduce unnecessary memory usage of the part of
+validators.
+5.                                                                                 Risk of potential attacks IOVO does not rely on a single-transaction DAG
+which can be exposed to attacks such as the double parasite channel at-
+tack (cf. Appendix A). Instead, we use well-studied blockchain technology
+in which the stability and security of the network is guaranteed by val-
+idators who verify all transactions using a proof-of-stake-based consensus
+algorithm.
+19
+
+
+
+
+Figure 6: A first-generation blockchain
+IOVO does not employ any custom untested cryptographic functions such as
+Curl hash functions.  Instead, IOVO uses SHA-3, one of the most-challenged
+hash function in the wild.  IOVO also uses lattice-based encryption based on
+learning with errors (LWE) [14], which is also proven secure against quantum
+computing attacks.
+3.2.3                                                                                     IOVO DAG description
+Traditional  cryptocurrencies  like  Bitcoin  [2]  and  Ethereum  [1]  are  based  on
+blockchain technology. In a blockchain, all transactions are arranged in a chain
+structure.  Every block of transactions extends the chain after being approved
+by the miners (in the case of Bitcoin, each block appears approximately every 10
+mins). Miners traditionally secure the chain by performing proof of work (PoW)
+—they use their computing power to verify the transactions and perform some
+calculations.  The miners are rewarded proportionally to the computing power
+spent on the computation.
+This traditional blockchain technology suffers from certain limitations, one of
+them being scalability —networks like Bitcoin and Ethereum can only process
+around                                                                                    10 transactions per second.  This makes them unacceptable to serving
+as a global payment system such as VISA/Mastercard (which can process tens
+of thousands of transactions per second).
+To  avoid  the  limitations  of  traditional  blockchain,  several  more  flexible  ap-
+proaches based on DAG (directed acyclic graph) have recently been proposed.
+Among these, we can distinguish two main groups:
+•  Single-transaction DAG
+In this approach, every node in the DAG is a single transaction. There are
+no miners to approve these transactions; instead, every author of a trans-
+action acts as a miner —they must perform some small amount of proof
+of work in order to issue a transaction. This PoW works as a transaction
+approval mechanism and is reflected in the DAG in the following way:
+an edge between nodes A and B in the graph means that the transaction
+A approves the transaction B. The most notable cryptocurrencies using
+a single-transaction DAG approach are Byteball [3] and IOTA [4].  The
+20
+
+
+
+
+Figure 7: A multi-blockchain DAG
+creators of the latter introduced call their DAG the Tangle.  The stabil-
+ity and security of single-transaction DAGs have not been widely studied,
+and they lack strong mathematical foundations. In particular, the current
+implementation of IOTA requires centrally-driven coordinators to stabi-
+lize network traffic.  Moreover, because of lack of miners, we cannot be
+sure these systems are fully secure against a double-spending attack (cf.
+Appendix A. Double-parasite attack on the tangle).
+•  Multi-blockchain DAG
+The fundamental problem with a classical blockchain approach is that ev-
+ery user must somehow process all the transactions present in the network,
+which are stored in a single, long chain.  This can easily run to tens of
+gigabytes. Several recent ideas have tackled this problem by splitting the
+blockchain into many parallel chains (shardchains) which only occasion-
+ally reference each other, creating a DAG structure.  The most notable
+projects using multi-blockchain DAG include BitShares [5], EOS [6] and
+PolkaDot [7].
+The limitations of single-transaction DAGs means a multi-blockchain DAG ap-
+proach is better suited to IOVO, since it preserves the secure blockchain-based
+structure and facilitates scalability.  All transactions in the DAG along with
+the structure of the DAG itself are publicly visible.  Thus the history of the
+DAG is fully traceable and auditable; however, all sensitive data is encrypted,
+meaning the only publicly accessible data is users’ public keys. Thus, IOVO is
+a pseudonymous system.
+3.2.4                                                                             Security and privacy in IOVO
+DAG security
+21
+
+
+
+
+The security of the IOVO DAG is guaranteed by blockchain technology. Trans-
+actions are coupled into blocks, which are verified by the validators. As long as
+the majority3  of validators is honest, no one can change the history of the DAG
+or perform a double-spending transaction.  This is guaranteed by the proof-of-
+stake-based consensus algorithm.
+Encryption
+Every piece of data in IOVO is encrypted using public-key encryption algo-
+rithms.  Therefore, no-one but the holder of the appropriate private key can
+decrypt the encrypted data, and no one can forge their signature.
+Privacy
+IOVO users are identified by their public keys, which are random-looking byte
+strings. Therefore, IOVO is pseudonymous —the history of all the transactions
+is fully traceable, but transactions cannot be directly connected to any personal
+user data. On the other hand, every user can make their address public if they
+want to share their data publicly.  IOVO data wallets will allow users to man-
+age several accounts, with “public” accounts for some purposes and “private”
+accounts for others.
+Quantum security
+Recently, much attention has been paid to security against attacks performed
+using quantum computers. Quantum computers are not currently practical, but
+they may become a reality soon. When that happens, a lot of current-generation
+cryptographic techniques will be easily broken by a sufficiently powerful quan-
+tum computer.   IOVO uses post-quantum lattice-based encryption based on
+learning with errors (LWE) [14], which has been proven secure against quantum
+attacks.  Therefore, IOVO will remain secure even if a quantum computer is
+created.
+3.2.5                                                                                  Consensus algorithm
+Every decentralized system is based on a consensus algorithm used for resolving
+conflicts.   Traditional cryptocurrencies like Bitcoin and Ethereum are based
+on proof of work.  In PoW, the miners use their computing power to perform
+mathematical computations (basically, they compute the value of a given hash
+function many times). To avoid wasting electricity on useless computations, an
+approach called proof of stake was developed in which the miners (now usually
+called validators) also verify the transactions, but their reward is proportional to
+3 Measured by their combined value
+22
+
+
+
+
+the size of their deposit rather than the amount of computing power expended.
+3.2.6                                                                               Proof of value
+IOVO further develops the concept of proof of stake to create proof of value. In
+proof of value, block rewards are distributed according to the combined value
+of each user. Hence users are rewarded for their value, they are incentivized to
+work on maintaining high value and they do not need to deposit money to earn
+more money.
+3.2.7                                                                               Why IOVO will work
+The stability,  security and performance of IOVO is guaranteed by the well-
+studied components which IOVO is constructed from:
+•   Multi-blockchain  DAG  —IOVO  harnesses  the  potential  of  blockchain
+technology while maintaining scalability and performance.
+•   Proof of value —IOVO extends the well-tested proof-of-stake algorithm
+to make use of a user’s value instead of their stake.
+•  Public-key cryptography —IOVO uses asymmetric cryptography to han-
+dle users’ addresses. This makes all their data secure while preserving ease
+and transparency of usage.
+•  Lattice-based encryption —post-quantum encryption algorithms based on
+learning with errors (LWE) keeps users’ data secure even in the presence
+of a quantum computer
+3.3                                                                                 IOVO Wallet
+The IOVO wallet is users’ gateway to the IOVO network. The main goal of the
+IOVO wallet is to provide access to basic functionalities such as sharing data,
+receiving messages, performing transactions using IOVO coins, and aggregating
+all the user data that has been stored by various applications in the IOVO
+blockchain.
+The IOVO wallet allows a user to manage multiple addresses that are generated
+from a single master key.   This gives each user full control over their data,
+including the ability to easily transfer data to another device simply by knowing
+the master key.  Users can create a new address for each dApp on the IOVO
+23
+
+
+
+
+network or a single address can be shared between many applications, allowing
+users to change privacy preferences for a specific dApp at any time. The IOVO
+wallet will aggregate data from every address linked to the master key.
+3.4                                                                                  IOVO Manifests
+Each IOVO-based application must publish its manifest. A manifest is similar to
+a smart contract familiar from other cryptocurrencies, but it has been adapted to
+IOVO-specific requirements. The main goal of the manifest is to determine what
+type of data will be processed by the application.  For example, the manifest
+for an application used to check programming skills might specify that a user
+receives a rating in the “Java” category in the range from 0 to 100. The manifest
+is therefore a collection of all categories and their values.  Categories are used
+not only to inform users about what data has been collected but also to query
+users who meet certain criteria. In this context, we can consider categories to be
+similar to keywords, i.e., if the recruiter wants to search for a Java programmer,
+the search algorithm would first look through the available manifests and check
+whether the appropriate category exists, and then checks which addresses have
+values in this category and whether those values meet a particular threshold or
+fall within a particular range.
+The manifest also determines whether an application will emit its own token,
+for example to reward users. The manifest also specifies all the operations that
+can be performed on a specific token.  Finally, the manifest determines how
+transaction fees are shared between the application and the IOVO network. For
+example, if a recruitment company wanted to search for all users meeting the
+criterion “Java  ¿ 80”, it would have to pay.  The fee for the search would be
+divided between the application developers (commission) and the users who had
+their data queried in the ratio specified in the manifest.
+3.5                                                                                  Smart contracts
+Every  IOVO  transaction  can  contain  a  script  written  in  a  Turing-complete
+scripting language. This enables users to create arbitrarily complex smart con-
+tracts which run on top of IOVO. Each contract transaction has a higher fee com-
+puted using a gas-based system.  This fee goes to validators who are rewarded
+for verifying all the transactions according to their combined value /textemdash
+a factor computed from the stake and the value score of each user.
+24
+
+
+
+
+3.6                                                                                    Integration of existing applications
+Nowadays,  most  users  are  migrating  from  desktop  devices  to  smartphones.
+Knowing this,  IOVO must provide tools to allow easy integration of mobile
+applications with the IOVO network.  IOVO will provide frameworks for the
+leading mobile platforms, which will enable simple integration and will allow
+support basic operations on the IOVO blockchain.
+IOVO not only allows dApps to store their data in a secure and transparent way;
+it also gives dApp owners the opportunity to increase revenues by monetizing
+user data (provided the data owner agrees).
+3.7                                                                                    Scorings
+Almost all IOVO value-related features are underpinned by scoring mechanisms,
+or “scorings”.  Each scoring is a user-generated protocol which collects partial
+scores about the4  target user and uses them to compute the user’s final score. In
+the simplest case, a scoring can be a numeric scale in some category. Let’s say an
+eBay-like application has been built on top of IOVO. Following each transaction,
+the buyer would give a partial score to the seller.  Then the final score might
+simply be made up of the mean of all the partial scores.  This example was
+chosen for its simplicity; it is easy to imagine much more complicated types of
+scoring, for example:
+•   An insurance company runs on top of IOVO and every car incident in-
+volving a particular driver is recorded as a partial score in an IOVO trans-
+action. The final score is the driver’s insurance premium.
+•  A bank (or a system of banks) runs on top of IOVO and every loan taken
+and every instalment paid are recorded as a partial score in an IOVO
+transactions. The final score is the client’s creditworthiness.
+Not every part of a score needs to come from IOVO transactions. For example,
+the author of a scoring might assign some initial score to users.  This would
+be useful for institutions migrating to IOVO who want to transfer previously
+gathered user data. Crucially, there is no single formula for computing a user’s
+final score; the creator of the scoring can arbitrarily create any and all rules and
+publish them as the scoring manifest.
+4 Anyone can create a scoring and publish all its rules as a manifest
+25
+
+
+
+
+3.7.1                                                                                     Notation
+We will denote all scorings by S1 , S2 , ..., Si . The final score of user U in scoring
+Si  will be denoted by Si (U ), and all the partial scores for user U in scoring Si
+will be denoted by S1 (U ), S2 (U ), ..., Si                                              n (U ). The partial scores are broadcast in
+encrypted form using the target user’s public key pku :
+                                                                                          Ej (U ) = Encpk                               u                                                                               (Sj (U ))
+                                                                                                                                        Therefore only U can compute his own final score from the public information.
+3.7.2                                                                                     Requesting a score
+The primary data operation within the IOVO system is the score request.  In
+this operation, user A wants to know Si (B), the score of user B in scoring Si .
+This score depends on all the partial scores S1 (B), S2 (B), ..., Si                      n (B) that appear
+in the transaction history in the encrypted form E1 (B), E2 (B), ..., Ei                  n (B). The
+only way to reveal the score is to evaluate the following function:
+Revealsk                                                                                  B                                             (E1 (B), E2 (B), ..., Ei                                                        n (B))
+This can only be done by someone who knows the secret key skB .  Therefore,
+the whole procedure of acquiring a score will consist of the following phases:
+•  A. A collects all the partial scores E1 (B), E2 (B), ..., Ei                           n (B) from the net-
+work.
+•  B. A broadcasts a transaction Request(A, B, E1 (B), E2 (B), ..., Ei
+n (B)) with
+c coins attached to it.
+•  C. When B notices a Request transaction addressed to him, he (locally)
+computes his score using the formula:
+(s, π) = RevealskB (E1 (B), E2 (B), ..., Ein (B)),
+where s is the computed score and π is a zero-knowledge proof that it was
+correctly computed on the given set of partial scores (E2 (B), ..., Ei                    n (B)).
+The proof π is important since it is a guarantee that B used all available
+data and did not use any fake partial scores.
+26
+
+
+
+
+•  D. B  broadcasts a transaction Claim(A, B, EncpkA (s), π) to claim the
+reward of c coins. The score, s, is encrypted with A’s public key to prevent
+other users from seeing the result (recall that all transactions are publicly
+visible).
+The Request transaction can be implemented as a time-locked Ethereum-like
+smart contract  —it transfers ccoins to B  only if B  will broadcast a correct
+Claim transaction within some given time period Δt.  In that case the Claim
+transaction will be sent to the Request contract (it will call a contract function).
+If the transaction is not issued within Δt time, the c coins will automatically
+be returned to A.
+Thanks to the mechanism of requesting a score, IOVO users are incentivized to
+actively participate in the network —they will claim the reward for revealing
+their score only in cases where they react to a request within the timeframe
+window Δt.
+3.7.3                                                                                      Search engine
+The mechanism of requesting a score allows users to generate arbitrarily complex
+search queries through the network.  Imagine user A wants to find all network
+users, U , whose scoring Si (U ) satisfies some condition λ(Si (U ), e.g., Si (U ) > T .
+Since all the partial scores are encrypted, A does not know in advance which
+users will satisfy the condition.  A could send a Request transaction to every
+other user in the network, but then he would be obliged to pay every requested
+user, even those not satisfying the condition.
+Instead, A can send a modified transaction:
+CondRequest(A, B, E1 (B), E2 (B), ..., λ)
+which is a conditional request —a user can only claim the reward if he reveals
+a correctly computed score Si (U ), such that it satisfies the condition λ(Si (U )).
+By doing this, A can create arbitrarily complex search queries and pay only the
+set of users who satisfy the filtering rules.
+3.7.4                                                                                      Creating new scorings
+At any given time, any user can create a new scoring by publishing its manifest.
+A manifest is a transaction whose script contains a set of rules that specify
+27
+
+
+
+
+what partial scores are allowed and how to compute the final score from the
+partial scores.  Among others, the manifest contains the code of the Reveal
+function.  Every time a user refers to a scoring Si , it is referred by the hash of
+the transaction containing its manifest.
+There are deliberately no restrictions on the rules for creating a manifest: any
+manifest can be published, provided it is written correctly in the IOVO scripting
+language. In particular, the author can freely set the rules for paying for reveal-
+ing the scoring, e.g., he can introduce a fee for every scoring revealed which is
+paid to him. It is, however, in his interest to introduce rules such that users are
+more likely to use his scoring.
+3.7.5                                                                                 Earning on scorings
+In the most probable scenario, scorings will be created with a fee for requesting
+a score.  The user who reveals his score will be paid from this fee.  Moreover,
+many requests will be directed to some narrow set of the most valuable users in
+some category. Therefore:
+•   users are incentivized to actively participate in the network in order to
+claim the rewards for revealing their score, and
+•   users are incentivized to maintain the highest possible scores, to be in-
+cluded in as many possible narrowed search requests as they can.
+3.7.6                                                                                 Security of scorings
+Scorings in IOVO are constructed in a way that guarantees their security and
+integrity.  Firstly, all the partial scores are encrypted with a public key of the
+target user, so only he can encrypt it and no one else can extract any information
+from them. Furthermore, the final scores are computed locally, so no information
+from this computation is leaked to the network. Finally, the correctness of the
+computed score can be easily verified using the zero-knowledge proof (and, by
+design, no other information from this computation is leaked).
+3.8                                                                                   Data storage and aggregation
+All user data in IOVO is stored in the transaction DAG using scoring mecha-
+nisms. Thus, the only publicly accessible data are the encrypted partial scores.
+The only way to access the users valuable data is through the mechanisms for
+28
+
+
+
+
+revealing scorings, which is secured by smart contracts.  In addition, all data
+access functions as a zero-knowledge proof and hence does not leak any infor-
+mation besides the requested data.
+As the IOVO network grows, it will need more and more space for data storage.
+Therefore, we use a distributed storage system based on proofs of space [13].
+3.9                                                                                  Sending text messages and invitations
+IOVO enables users to send text messages through the mechanism of transac-
+tions. Any user can send a message to any other user as long as they know the
+destination address.  The mechanism of requesting a score serves as an invita-
+tion system: if your search query returns a user satisfying particular conditions,
+you will obtain an address to directly contact the person thus found.
+Messages can be sent publicly (in which case everyone in the network can read
+it) or encrypted using recipients public key, making it accessible only to the
+receiver.
+3.10                                                                                 IOVO as a database
+IOVO serves as a database.  It stores all the data gathered from all the IOVO
+apps.  Primary access to this data is maintained through the low-level mecha-
+nism of scorings; however, dApp developers can create arbitrary user-friendly
+features to enable convenient access to this data, as with a regular database.
+3.11                                                                                 Platform  for  aggregation,  analysis  and  ordering  of
+data
+IOVO app developers can freely create tools for data aggregation and analysis.
+Users can use these tools not only to analyze data themselves, but also to “trade
+data.  This, e.g., creates an opportunity for rating companies to create fully
+adjustable ratings and sell them to their customers.  Separately, IOVO allows
+users to “order particular data from such companies, allowing them to perform
+arbitrarily complex queries on the data.
+29
+
+
+
+
+Figure 8: Overview of the IOVO data request mechanism
+30
+
+
+
+
+Figure 9: Specific or general searches on the IOVO network
+Figure 10: Using zero-knowledge proofs to protect user privacy
+3.12                                                                              Zero-knowledge proofs
+All user data on the IOVO network is accessed using zero-knowledge proofs [15].
+Thanks to this cryptographic technique, in every query only the desired part
+of the data is released and no other information is leaked. Hence, users can be
+sure that none of their data is exposed beyond that which they decided to make
+accessible.
+3.13                                                                              Value-centered economy
+3.13.1                                                                            Value score
+In order to allow IOVO to smoothly evolve from Proof-of-Stake to Proof-of-
+Value, we must define the combined value as a function of value score.  This
+is based on the assumption that the most valuable data is that which had the
+most coins spent on revealing it.
+31
+
+
+
+
+Figure 11: The IOVO combined value function for proof of value.
+The combined value is the public mathematical function CombinedV alue(x, y, z),
+where x represents the total amount of IOVO coins spent on IOVO search engine
+results concerning the user in a given rating, y represents the total amount of
+IOVO coins deposited by the user as a stake and z represents the total amount of
+coins in the system. It is designed to represent how valuable a given user’s assets
+are. The CombinedV alue function must satisfy the following assumptions:
+•  A. It depends on the total amount of IOVO coins paid to the user for
+revealing his ratings
+•  B. It depends on the amount of money deposited by the user, but the
+importance of this factor tends to zero with the growth of IOVO network,
+and the amount of information stored in it.
+•  C. It is dynamically changing and actualized every time the user earns
+from revealing his assets.
+•  D. It should be not easy to change rapidly for a given user  (this is to
+prevent attacks).
+Given the above, we define the function as:
+CombinedV alue(x, y, z) = log(x)(y
+z + 1)
+Note that if z  tends to 0, then z  + 1 tends to 1, in which case it has no impact
+on the combined value. Moreover, as the network grows, z  will decrease even for
+the wealthiest user, because of growing demand and the new coins being mined.
+Thus, we can say that point B is satisfied.  One could argue that  z  + 1 grows
+32
+
+
+
+
+Figure 12: Process of calculating a user’s combined value score
+linearly with y , but in practice y will be very small in comparison to z, which
+in turn leads to the observation, that changes in x will have more influence on
+the combined value —precisely what we want.
+Extrapolating from these properties of the combined value we see that in the
+final stages of IOVO the combined value will depend almost only on user ratings
+and not on the amount of coins held.
+3.13.2                                                                               Dynamic fee system
+For the system to work, there needs to be some entities intermediating in queries
+by providing computational power and memory space.  This is only possible if
+this role comes with a profit. We propose that this should be financed as a part
+of the fee paid when issuing a query. This fee should vary, so it is adjusted well
+to the conditions in the system.  We call these users who sustain the network
+“validators”.
+Assume that the query in the following considerations is fixed.  Let c be the
+cost of the computations needed to handle the query. We argue that fee should
+satisfy the following properties:
+•  Obviously the fee should be greater than c.
+•  We define the memory load M (t) as the percentage of memory provided
+33
+
+
+
+
+Figure 13: Change in the weightings for stake and value as the IOVO network
+matures
+34
+
+
+
+
+by the validators in use at time t. If it is high, the fees should be higher,
+to provide a clear stimulus to sustain the network.
+•  Analogously, we define the computation load C (t), except we look at the
+average of computational power used in the time interval [t − h, t] (recall
+that h is the time take to issue a single transaction) as some short queues
+are acceptable in this case. We want C (t) to satisfy the same property as
+M (t).
+•   As  the  IOVO  economy  is  mostly  based  on  queries,  people  should  be
+encouraged to make a lot of them.  Thus, the price should be lower as
+number of queries, N , performed by the same user (so N ≥ 1) grows. At
+the same time, the percentage discount should not be greater than some
+threshold 0 ≤ K < 1.
+Considering the above, we define the fee function as:
+fee(t) =   K
+g(N )eC (t)+M (t)
+where g is some increasing function with limit 1.  Such a function is not hard
+to find, and it should be adjusted to grow reasonably. Note that eC (t)+M (t)  = 1
+when there is no load in the system and it grows considerably (which can be
+further adjusted with some parameters) as the load increases.
+4                                                                                    IOVO TOKEN LAUNCH
+The IOVO token launch distribution will be preceded by closed private sale.
+Detailed IOVO token economics are available on the www.iovo.io website and
+accessible upon request by emailing team@iovo.io.
+5                                                                                    EXPANSION AND MARKETING STRAT-
+EGY
+5.1                                                                                  Expansion plan
+The IOVO DAG is designed for rapid development and is conceived to expand
+to cover as many social and commercial fields as possible a very short period.
+35
+
+
+
+
+Figure  14:  The IOVO dynamic fee structure  (Note that some DF may not
+exist as users do not satisfy the requirements.  For simplicity, we ignore that
+possibility here.)
+36
+
+
+
+
+Therefore,  particular tools to support this rapid development have been in-
+cluded in the plans for the systems expansion.  The initial stages of expansion
+development will cover the IOVO development teams own projects, explained
+in Section2.7.  In addition, the most promising IOVO DAG-based projects will
+be accelerated under the guidance of the IOVO Foundation.
+5.2                                                                                 The IOVO Foundation
+After final technical development and testing of the transformational IOVO
+DAG, the development team will shift its focus to the progress of the IOVO
+Foundation legal entity.   The IOVO Foundation will work as an accelerator
+for the most promising projects proposed or already under development on the
+IOVO DAG. Once taken under the wings of the IOVO Foundation, the chosen
+projects will find multiple tools necessary for their development, such as legal,
+technical and marketing support.  The greater the number of successful IOVO
+DAG-based projects and the greater their popularity, the faster the whole IOVO
+database network will grow.
+5.3                                                                                 Roadmap
+                                                                                    The current roadmap is available at www.iovo.io
+6                                                                                   PROJECT RISKS AND RISK MANAGEMENT
+6.1                                                                                 Legal and regulatory risk
+As the IOVO DAG is dedicated to data and data-related processes, there is a
+small risk of legal interest from certain national and international regulatory
+bodies.  However, it is important to note that IOVO itself does not store or
+process data as an entity; instead, IOVO facilitates data collection, storage and
+use for it users, who maintain full decision-making control over the data they
+generate and own.
+6.2                                                                                 Market risk
+The primary market risk for IOVO is that insufficient dApps will be developed
+on the IOVO DAG and therefore the system will not scale as quickly as pre-
+37
+
+
+
+
+dicted.  This risk is limited by the strategy chosen by the IOVO Foundation.
+The IOVO Foundation is a full-time project and ICO accelerator, and thus will
+function as a fully operational framework for the most promising IOVO DAG-
+based projects in development. The IOVO Foundation will provide professional
+help in bringing these projects to market, securing the overall growth of the
+IOVO network and a constant influx of users.
+6.3                                                                                   Technical risk
+On superficial inspection, the proof-of-value algorithm may seem to have certain
+vulnerabilities.  For example, since a user’s combined value depends on their
+value score, which is related to the amount of money spent on requesting that
+particular user’s data, a malicious user could artificially inflate their own value
+score by making a lot of scoring requests about themselves.  However, every
+scoring request involves a fee, and the parameters are set such that this fee is
+always higher than the potential increase in value resulting from the request.
+In other words, an artificial scoring request would negatively affect a users total
+combined value, so this attack would not give any advantage to the malicious
+party.
+6.4                                                                                   Financial risk
+Users and investors may be concerned about losing money to malicious attacks
+or market fluctuations. We will try to address some of those concerns here.
+One security issue affecting other cryptocurrencies is the potential hijacking of
+the network. If a malicious user or group of users can acquire 51% of total voting
+power, they can defraud other users.  But in the case of IOVO, voting power
+is derived from combined value  (for a detailed description, see Section  3.13).
+As this value changes very slowly and validators are incentivized to participate
+constantly in the consensus algorithm, it is virtually impossible to perform this
+kind of attack on the IOVO network.
+Another possible concern is fluctuation in the value of the IOVO token.  This
+cannot be easily predicted, but in the long run the value of IOVO should tend
+to increase rather than decrease, because the amount of data in the network
+will constantly grow.
+38
+
+
+
+
+7                                                                            REFERENCES
+References
+[1]                                                                          Buterin, Vitalik, A next generation smart contract and decentralized appli-
+                                                                             cation platform, https://github.com/ethereum/wiki/wiki/White-Paper
+[2]                                                                          Nakamoto,  Satoshi  Bitcoin:   A  Peer-to-Peer  Electronic  Cash  System,
+                                                                             https://bitcoin.org/bitcoin.pdf
+[3]                                                                          Choryumov,  Anton,  Byteball:  A  Decentralized  System  for  Storage  and
+                                                                             Transfer of Value, https://byteball.org/Byteball.pdf
+[4]                                                                          Popov, Serguei The Tangle, https://iota.org/IOTA Whitepaper.pdf
+[5]                                                                          Schuh, Fabian, Larimer, Daniel, BitShares 2.0:  Financial Smart Contract
+                                                                             Platform, https://bitshares.org/
+[6]                                                                          EOS.IO Technical White Paper, https://eos.io
+[7]                                                                          Wood, Gavin, Polkadot: Vision for a heterogeneous multi-chain framework,
+                                                                             https://polkadot.network
+[8]                                                                          Nxt Whitepaper, https://bravenewcoin.com/assets/Whitepapers/NxtWhitepaper-
+v122-rev4.pdf
+[9]                                                                          Buterin,  Vitalik,  Griffith,  Virgil,  Casper  the  Friendly  Finality  Gad-
+                                                                             get,   https://github.com/ethereum/research/blob/master/papers/casper-
+                                                                             basics/casper  basics.pdf
+[10]                                                                         Wall,  Eric,  IOTA  is  centralized,  https://medium.com/@ercwl/iota-is-
+                                                                             centralized-6289246e7b4d
+[11]                                                                         Heilman, Ethan, Narula, Neha, Dryja, Thaddeus, Virza, Madars, IOTA
+Vulnerability  Report:   Cryptanalysis  of  the  Curl  Hash  Function  En-
+abling Practical Signature Forgery Attacks on the IOTA Cryptocurrency,
+https://github.com/mit-dci/tangled-curl/blob/master/vuln-iota.md
+[12]                                                                         Sonstebo,                                                                       David,   Curl     disclosure,   beyond     the     headline,
+https://blog.iota.org/curl-disclosure-beyond-the-headline-1814048d08ef
+[13]                                                                         Dziembowski, Stefan, Faust, Sebastian, Kolmogorov, Vladimir, Pietrzak,
+Krzysztof, Proofs of Space, https://eprint.iacr.org/2013/796.pdf
+[14]                                                                         Regev, Oded, On Lattices, Learning with Errors, Random Linear Codes,
+and Cryptography, https://cims.nyu.edu/ regev/papers/qcrypto.pdf
+[15]                                                                         Goldwasser, Shafi, Micali, Silvio, Rackoff, Charles, The Knowledge Com-
+plexity of Interactive Proof Systems
+39
+
+
+
+
+8                                                                                                   Appendix A: Double-parasite chain attack on
+the tangle
+In this appendix we present a double-spending attack on the tangle  a transac-
+tion DAG (directed acyclic graph) structure used in the IOTA cryptocurrency.
+The attack is based on the parasite chain attack which is described in the tan-
+gle white paper together with a method to defend against it.  To the best of
+our knowledge, none of the original tangle mechanisms can prevent the double-
+parasite chain attack described below.
+8.1                                                                                                 A.1 Introduction
+The  tangle  is  a  novel  instance  of  a  transaction  DAG  which  supersedes  the
+blockchain technology used in most traditional cryptocurrencies. The structure
+and security properties of the tangle are described in the IOTA white paper [4].
+The tangle is the basis for a new cryptocurrency called IOTA 5 . We begin by
+presenting a simplified version to aid understanding before moving on to explain
+the full version of the attack.
+8.2                                                                                                 A.2 The attack (simplified version)
+Assume a malicious party, A, owns  1% of the total computing power of the
+rest of the network.  This party can now “mine” a parasite chain consisting of
+transactions of total weight w, while the rest of the network produces a main
+chain consisting of transactions of total weight 100w.6
+Furthermore, assume (similar to the authors of [4]) that the transaction is ac-
+cepted by the merchant once it achieves some threshold cumulative weight of
+w0 .
+The attack consists of the following steps:
+•  1.  At some time, t0 , A creates two conflicting transactions, tx1  and tx2 ,
+each directly attached to the current top of the network (the two squares
+on the left in figure XXX). A does not publish these transactions yet.
+5 https://iota.org
+6 For  simplicity,  we  assume  the  parasite  chain  does  not  approve  any  transactions  from
+the main chain.   Actually,  the attacker can make his parasite much more  “important” by
+systematically approving the topmost transaction from the main chain.
+40
+
+
+
+
+•  2.  a now splits their computing power to work on two parallel parasite
+chains:
+10% computing power to work on parasite chain one (P C1 ) on top of tx1
+and
+90% computing power to work on parasite chain two (P C2 ) on top of tx2 .
+•  3. A waits until P C1  achieves a total weight of transactions equal to w0 .
+At this point, P C2  should have a total weight of transactions roughly equal
+to  9w0 , and the main tangle should have a total weight of transactions
+roughly equal to 1000w0  (since the rest of the network has approximately
+100 times more computing power than the attacker).
+•  6.  At this point, A publishes P C1  and waits until the merchant accepts
+it.  This should occur immediately, because we defined w0 to be exactly
+equal to the threshold of cumulative transaction weight to be accepted by
+the merchant.
+•  7. Once the merchant accepts tx1 , the attacker publishes P C2 .
+At this time the rest of the network will see two conflicting transactions:  tx1
+approved by P C1  and tx2  approved by P C2 . Because P C2  is approximately nine
+times larger, tx2  will have approximately 100 times greater cumulative weight.
+This means the rest of the network will probably accept tx2  as the correct one,
+effectively allowing A to perform a double-spending transaction.
+Note that A’s 1% ratio of computing power was chosen arbitrarily; an analogous
+attack is possible for less powerful users, but it will take longer to succeed.
+8.3                                                                                 A.3 Full version of the attack
+In the simplified version of the attack, it can be argued that the random walkers
+in the MCMC tip selection algorithm will never choose both parasite chains, so
+neither of the two conflicting transactions will be approved.  However, A can
+easily improve the attack to ensure P C2  will be merged into the main chain,
+and all its transactions will be treated as regular transactions from the main
+chain. This can be done by performing two actions:
+•  While constructing the consecutive elements of P C2 , A can always choose
+to approve the following two transactions:  (1) the previous transactions
+from the parasite chain and  (2) the tip from the main tangle with the
+highest score (according to the MCMC tip selection algorithm).
+41
+
+
+
+
+•  After P C2  is published, A can help it to be merged with the main tangle by
+issuing the transactions which approves the top transaction of this chain
+and the best-scored (according to the MCMC tip selection algorithm) tip
+from the main chain.
+This improved version of the attack is visualized in figure XXX below.
+It is easy to see that, constructed in this way, P C2  is part of the main
+tangle.   For most random walkers,  the tip selected during the MCMC
+algorithm will indirectly approve the conflicting transaction from P C2 .
+42
+
+
+
+
+

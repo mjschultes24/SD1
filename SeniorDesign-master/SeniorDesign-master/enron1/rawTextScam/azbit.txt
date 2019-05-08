@@ -1,0 +1,1776 @@
+﻿B L O C K C H A I N I N V E S T M E N T B A N K I N G
+Whitepaper v.4.12
+1
+
+
+
+
+Contents
+Introduction                                                                  6
+Azbit’s strengths                                                             6
+Banking                                                                       7
+Multi-currency exchange                                                       7
+Investment platform                                                           7
+The Azbit.ID secure identification system                                     8
+Problems and solutions                                                        9
+Tighter regulation of cryptocurrencies and ICOs                               9
+Regulatory complexity                                                         9
+Solution                                                                      10
+Banking                                                                       10
+The complicated relationship between the banking and cryptocurrency sectors   10
+Payment cards                                                                 10
+Banking services                                                              11
+Regulatory pressure on banks and payment systems                              11
+Solution                                                                      12
+Exchanges                                                                     12
+Challenges faced by cryptocurrency services                                   12
+High-quality technical support                                                12
+Listing of new instruments                                                    12
+2
+
+
+
+
+Readiness for explosive growth                                    13
+Comprehensive initial functionality and a high-quality solution   13
+Security and fault tolerance                                      13
+Security and utility tokens                                       14
+Solution                                                          14
+Alternative Trading System                                        15
+A decentralized exchange and simplified token listing             15
+Investment platform                                               15
+The attractiveness and dangers of cryptocurrency investment       15
+Investors’ lack of knowledge and information                      17
+Risks associated with cryptocurrency funds                        18
+Challenges faced by managing traders                              18
+Solution                                                          18
+Benefits of the investment platform for investors                 18
+Benefits of the investment platform for traders                   19
+Benefits for affiliates and thought leaders                       19
+Functionality                                                     20
+Banking                                                           20
+Account services and payments (SWIFT, SEPA)                       21
+Payments and accounts in national currencies                      21
+Fiat payment services                                             21
+Custodial accounts                                                21
+Segregated accounts                                               21
+Instant exchange                                                  22
+3
+
+
+
+
+Issuing and processing debit cards. Contactless payments   22
+Cryptocurrency portfolio-backed P2P lending                22
+P2P lending arrangements                                   23
+Brokerage and blockchain integration                       23
+Multi-currency exchange                                    23
+Crypto-to-crypto trading                                   24
+Crypto-to-fiat trading                                     24
+Security token trading                                     24
+A decentralized exchange                                   24
+Mirror exchange (Ethereum blockchain)                      25
+Liquidity aggregation                                      26
+Margin trading                                             26
+Algorithmic trading and the Algo market                    26
+Investment platform                                        27
+CopyTrade accounts                                         27
+How CopyTrade works                                        28
+ShareTrade accounts                                        28
+How ShareTrade works                                       29
+Portfolio Management accounts                              29
+How Portfolio Management works                             30
+Investment account features                                31
+The Azbit.ID secure identification system                  31
+Technical details                                          32
+Azbit Technical Structure                                  33
+4
+
+
+
+
+Our ICO campaign         34
+Azbit tokens             34
+Azbit tokenized shares   37
+Budget and spending      37
+ICO phases               38
+Who can buy AZ tokens?   38
+Charity                  39
+Roadmap                  40
+Advisors                 41
+Our team                 45
+5
+
+
+
+
+Introduction
+Azbit will provide traditional financial services for crypto projects and private users, as well as
+access to investment products.
+We will offer:
+▲   For blockchain businesses and private individuals: traditional fiat banking and financial services,
+as well as brokerage services providing access to trading on traditional stock and currency
+markets
+▲   For traders and investors: access via a single platform to the most popular cryptocurrency
+investment tools, such as trade copying, social trading and portfolio management
+▲   For every crypto user: access to online trading in cryptocurrencies, as well as utility and security
+tokens.
+To this end, we plan to be registered and regulated in all the necessary jurisdictions, including in
+Europe, Asia and the US.
+Our project will have the following components:
+▲   A banking service and payment processing
+▲   A multi-currency exchange supporting as many cryptocurrencies and utility/security tokens as
+possible
+▲   An investment platform
+▲   The Azbit.ID secure identification system
+Azbit’s strengths
+1. Azbit’s smart contract has been successfully audited by Bloxy
+An external audit is an important stage for any smart contract, because it protects the interests
+of both sides — investors and the company. Bloxy are trusted experts in the field of blockchain
+analytics.  Their  audits  are  based  on  objective  data  and  pure  mathematics,  using  warehouse
+technology.
+2. Tokenized shares
+AZ tokens are backed by shares in Azbit AG, a company registered in Switzerland. Azbit has issued
+2,000,000 shares with a par value of 200,704 AZ tokens each. AZ token holders will automatically
+become shareholders, and will share 75% of the platform’s net profit.
+3. Regulation and licenses
+Azbit is regulated in the U.S. The Securities and Exchange Commission allows U.S. accredited
+investors to purchase AZ tokens.
+6
+
+
+
+
+We have already obtained a Small Payment Institution license to process payments in the European
+Union. The next stage will be to obtain a European banking license. Having these documents will
+open up many opportunities for Azbit.
+4. Support from top advisors
+Azbit’s consultants include Roger Ver, Mate Tokay, Giovanni Lesna Maranetto, and Mickey Choi.
+Roger Ver is a crypto billionaire and the CEO of Bitcoin.com. The last four projects to which he
+has been an advisor successfully reached their declared hard cap, and have raised up to USD
+50,000,000.
+Mate Tokay is the CCO of Bitcoin.com, and one of the most influential people in the blockchain
+media industry.
+Giovanni Lesna Maranetto is a blockchain strategist and entrepreneur, and a top 30 ICObench
+advisor.
+Mickey Choi is a prominent representative of the Korean private investor community. He is a
+business angel, and an early investor in ICOs and STOs.
+5. Strong partner support
+Azbit has already signed cooperation agreements with more than blockchain projects, including
+Ubex, Bitcoin.com, Bitcoincash, FxCash, KMA.biz, Coinspeaker.com, and Bloxy.info. This will give
+us advantages such as:
+- Additional investment
+- Cross-marketing
+- An inflow of clients who will support liquidity and financial performance after the project’s launch
+- Support from the English- and Russian-speaking crypto communities.
+Banking
+A European banking license will allow us to meet all the legislative requirements for working with
+fiat money, to offer account services for established blockchain businesses, start-ups and private
+individuals, and to support the processing of payments for elements of Azbit’s infrastructure.
+It will also allow us to offer access to traditional stock markets and forex markets. An innovative
+feature of our project is that quotes will be recorded in a blockchain, preventing the conflicts
+between the interests of brokers and traders that are typical of such services.
+Multi-currency exchange
+The fact that we will have various divisions with different jurisdictions and regulations will allow
+users to choose the features that meet their requirements.
+Traders will be able to use all the cryptocurrency instruments currently available, as well as pairs
+with fiat currencies and security tokens.
+Investment platform
+Our  investment  platform  is  one  of  Azbit’s  key  innovations.  Successful  traders  will  have  the
+opportunity to raise additional trading capital, and investors to invest in cryptocurrency effectively
+and profitably.
+7
+
+
+
+
+The Azbit.ID secure identification system
+The Azbit.ID system will offer users fast and secure access to all our services via a single registration
+and authentication service. Other blockchain projects will be able to use Azbit.ID for automation
+and to cut the costs of anti-money laundering (AML) and know your customer (KYC) procedures.
+8
+
+
+
+
+Problems and solutions
+Tighter regulation of cryptocurrencies and ICOs
+There is no doubt that the market enthusiasm for ICOs has started to wane, both among investors
+and among the projects holding them. Regulators are interfering more and more with fundraising,
+imposing restrictions and tightening control. At the same time, potential investors are getting
+choosier about where to put their money, studying proposed projects more closely, and weighing
+up the risks more carefully.
+The cryptocurrency market is, quite naturally, heading towards stricter regulation. The relevant
+authorities are trying to prevent uncontrolled movements of cash. Neither the legislation, nor the
+legislators themselves, were ready for such rapid growth of the cryptocurrency industry. In their
+attempts to maintain control over financial flows, the authorities have often put businesses in a
+very difficult position, which has sometimes led to projects being suspended, or even terminated.
+On one hand, the existence of rules would allow all participants in the market to work with greater
+confidence and peace of mind, since a legal framework for their interaction would unquestionably
+reduce the potential risks. On the other, the lack of adequate and up-to-date laws and definitions
+is resulting in complicated legal arrangements and agreements.
+The amount of funds raised by blockchain projects from all the ICOs in the past year has come
+under scrutiny from regulators in many countries, not least because of the number of scam projects
+aimed principally at raising funds while deceiving investors and not fulfilling their obligations.
+As a result of the interference from the regulators, methods that use an ICO to raise funds and avoid
+regulation no longer work. With the legislation still in development and definitions ambiguous,
+holding an ICO has become quite a risky move. Many projects have shut down under the threat of
+regulatory intervention. Some countries have even prohibited ICO fundraising, or have brought in
+tough rules for such procedures, making them impossible for many projects.1
+In creating our project, our legal priorities were:
+▲   To establish an open and legitimate business
+▲   To present the project correctly to regulators
+▲   To minimize the legal risks
+▲   To build transparent, trust-based relationships with our partner
+Regulatory complexity
+The lack of clear regulation is one of the most pressing issues facing the cryptocurrency market
+today. For all their attempts to impose order, legislators in most countries have been unable
+1.   https://www.bitcoinmarketjournal.com/ico-regulations/
+9
+
+
+
+
+to reach agreement and establish once and for all the status of cryptocurrencies and tokens in
+general. In recent times, regulators have been increasingly active, and complying with particular
+laws is not always possible. There have been cases where pressure from regulators has forced even
+established projects to seek refuge in new countries and change jurisdiction to avoid prosecution.2
+Solution
+Azbit’s  main  project  is  therefore  initially  being  established  under  European  jurisdiction,  with
+existing regulations in mind, so as to ensure unhindered access to traditional markets.
+We are also creating a number of subsidiaries, which will be registered independently in other
+jurisdictions in order to provide the functions our users need.
+Even though cryptocurrency legislation has a long way to go, we believe that the future lies in
+a regulated market. And we want to be among the first projects operating in compliance with
+established law.
+Banking
+The complicated relationship between the banking and cryptocurrency
+sectors
+The emergence of cryptocurrencies has only strengthened the trends already seen for a number of
+years in the banking sector. And while the cryptocurrency market might be going through teething
+troubles, the traditional banking sphere is experiencing a number of issues that are only getting
+worse.
+All  this  is  spilling  over  into  serious  disagreements,  and  not  infrequently  even  open  conflict,
+between banks and cryptocurrency projects. Cryptocurrencies clearly present a great danger to
+the monopoly of the traditional financial systems.
+Payment cards
+For  example,  Visa  and  MasterCard  have  stopped  servicing  most  plastic  cards  supporting
+cryptocurrencies. Admittedly, the reason given is that they do not meet the criteria for being part
+of the financial system.3
+As a result, major players such as WaveCrest have lost practically all their business. Their payment
+cards were used by most leading crypto projects, such as Xapo, Advanced Cash (AdvCash), TenX
+and Bitwala. All of these issued WaveCrest cards. As we have a contract with WaveCrest, we have
+also been affected.
+Naturally, this has not stopped the emergence of new solutions and suppliers, but the situation
+with regard to issuing plastic cards for crypto projects remains complicated.
+2. https://cointelegraph.com/news/worlds-second-largest-crypto-exchange-okex-moves-to-blockchain-island-of-malta
+3. https://www.forbes.com/sites/naeemaslam/2018/02/05/banks-banning-cryptocurrency-purchase-on-credit-cards-why
+10
+
+
+
+
+Banking services
+Today,  even  opening  a  regular  bank  account  is  usually  not  possible  for  blockchain  projects.
+Furthermore, it is not uncommon for banks to freeze or close the accounts of projects already
+running, putting their business processes under threat.4
+Traditional banks do not always understand the cryptocurrency business, so the latter is always
+seen as high-risk.
+The tougher rules brought in by regulators and correspondent banks have added to the suspicion
+and mistrust of the cryptocurrency industry among commercial banks. Correspondent banks have
+imposed huge fines for breaches of legislation, which is only making traditional banks even less
+willing to work with crypto projects.5
+Our familiarity with the challenges of the market will help us to provide banking services and to
+perform all the statutory procedures strictly and rigorously while meeting the requirements of the
+cryptocurrency industry.
+Regulatory pressure on banks and payment systems
+In recent times, many banks have experienced difficulties, and have had to pay huge fines for
+various infringements. Just three or four years ago, working with the dollar was not a problem for
+banks.
+New laws adopted in the US on countering the financing of terrorism and AML/KYC procedures
+and compiling internal bank reports and submitting them to regulators. According to these rules,
+electronic payment systems also present risks and need to be fully controlled.
+With this in mind, the US has imposed even tougher regulations, including control over all traceable
+bank transactions. It is no secret that, ostensibly to track possible financial transactions by terrorists,
+the US Treasury Department, as well as the FBI and the CIA, have extensive access to the SWIFT
+system and track the majority of transactions.
+Following the US’s example, albeit to a lesser extent, Europe has also started to toughen its
+regulations. Violations of the rules for working with American correspondent banks now bring
+draconian penalties.
+For example, almost all Latvian banks have had problems in the last two years. Banks such as
+Rietumu Banka have incurred huge losses, and some, such as Aizkraukles Banka, have even folded.6
+There have been a number of test cases. Rietumu Banka has been fined $80 mln by a French court.
+Baltikums Bank, now renamed Blue Orange Bank, has survived, but has lost its correspondent
+accounts in the US. They have been forced to use intermediaries in China, and external transfer
+fees have increased by an order of magnitude.7
+4. https://news.bitcoin.com/norwegian-court-rules-nordea-bank-close-account-crypto-exchange/
+5. http://fortune.com/2018/06/11/wells-fargo-bitcoin-cryptocurrency-credit-cards/
+6. https://www.bankingsupervision.europa.eu/press/pr/date/2018/html/ssm.pr180224.en.html
+7. https://www.bloomberg.com/news/articles/2018-04-26/latvian-leader-wants-bank-clampdown-to-reopen-u-s-dollar-system
+11
+
+
+
+
+Germany’s Deutsche Bank was fined $14 bn by the US Securities and Exchange Commission (SEC),
+but managed to get the amount substantially reduced.8
+Even so, it is clear that most banks are experiencing serious problems, and are feeling more and
+more pressure from regulators. Given all these internal issues, it is not surprising that banks do
+not want to increase their own risks associated with cryptocurrency projects that they do not
+understand.
+The world has become far more regulated than it was. In such conditions, the cryptocurrency
+industry has proved vulnerable. We are well aware of this, and will take all the regulatory conditions
+into account as we provide our banking services. In doing so, we will not only meet our own needs,
+but will also offer services for the whole cryptocurrency industry.
+Solution
+Obtaining our own banking license will make dealing with banking systems smoother, and help to
+avoid problems both for our correspondent banks and for the crypto project itself.
+To date, we have obtained a Payment Institution license in the Czech Republic. The next stage will
+be to obtain a banking license in the European Union.
+Exchanges
+Challenges faced by cryptocurrency services
+While we are optimistic about our proposed cryptocurrency service, we know the challenges
+involved.  In  our  experience,  even  the  biggest  projects  have  their  shortcomings  and  run  into
+stumbling blocks, as outlined below.
+High-quality technical support
+New projects and services coming to the market often underestimate the importance of providing
+their  clients  with  high-quality  and  timely  technical  support.  Exchanges  usually  receive  more
+support requests from their users than they anticipate. Consequently, almost all of them — large or
+small — have problems handling support requests quickly, even when the market is relatively quiet.
+In the event of a spike in activity, many simply stop work, suspending new client registration and
+taking days, if not weeks, to address requests.
+Another problem is that staff often lack the relevant practical experience to deal with problems
+arising in unforeseen situations. Even where the technology works perfectly, there a number of
+aspects of how a cryptocurrency service works with its clients that are not immediately obvious
+and require special training.
+Listing of new instruments
+Thanks to the success and enormous growth of the cryptocurrency market in 2016-2017, initial coin
+8. http://fortune.com/2018/06/11/wells-fargo-bitcoin-cryptocurrency-credit-cards/
+12
+
+
+
+
+offerings (ICOs) have become a popular way to raise investment. Today, however, many blockchain
+start-ups are facing a new problem: how to list their tokens on cryptocurrency exchanges after
+their token sale campaigns.
+Generally, this is solely a matter of costs: prices for listing new trading instruments are often
+unreasonable.
+For example, Business Insider quotes figures of from $50,000 to $1,000,000 for listing tokens on
+crypto platforms.9
+Readiness for explosive growth
+While any business offering services in the cryptocurrency market hopes to have as much work
+as possible, the events of early 2018 showed that even the biggest exchanges were not ready for
+such a rapid expansion of their client base.10 Services have been unable to respond to the market’s
+sudden expansion; not all can afford to maintain spare technical capacity and human resources.
+Furthermore, even those that can have also faced problems, in terms both of network congestion
+and of their other departments being overloaded with work.
+The resulting delays are inevitably leading to client losses and damaging companies’ reputations.
+Inadequate business process optimization is resulting in structural management problems and
+slowing business growth.
+An example of this is the downtime suffered in February by Binance, when the exchange suspended
+its operations completely for several days, reportedly because of technical problems initially,
+followed by a DDoS attack.11
+Drawing up a detailed scalability plan at the infrastructure design stage will allow us to minimize
+the risk of such situations occurring.
+Even when the market is falling, it is still important to prepare for a time when the industry will be
+buoyant again.
+Comprehensive initial functionality and a high-quality solution
+Many services coming to the market offer only a limited range of basic functions. In most cases,
+unfortunately, this does not change. Once they have started to make a profit, services stop investing
+in development and adding functions.
+Having had a narrow and limited range of functions to start with, the vast majority of services stay
+that way. At best, they achieve quantitative growth, but not qualitative.
+Security and fault tolerance
+An appropriate level of information security is a must for cryptocurrency services. Attempts at
+9. http://uk.businessinsider.com/cryptocurrency-exchanges-listing-tokens-cost-fees-ico-2018-3
+10. https://news.bitcoin.com/binance-exchange-disables-new-user-registrations/
+11. http://uk.businessinsider.com/cryptocurrency-exchange-binance-suspends-trading-says-wasnt-hacked-2018-2
+13
+
+
+
+
+hacking, interference with their operations, or information theft are always a possibility. Even where
+employees have good technical training, a lack of practical experience can have dire consequences,
+both for clients and for the business.
+An example of this is the successful hack of the Coincheck exchange in January 2018, a consequence
+of an unwise strategy of keeping clients’ money in hot wallets without multi-sig security. As a
+result, more than $500 mln was stolen.12
+Carrying out detailed analysis of hacking attacks and feasible protection systems is a key part of
+our comprehensive security strategy.
+Security and utility tokens
+At present, the regulators in most countries distinguish two main types of token: utility and security.
+The main problem is that it is not always easy to say for certain which category a particular token
+belongs to. There are a number of parameters by which a token can be classed as one or other
+type. Unfortunately, there is no agreement on such definitions. Typically, it always possible to
+interpret a token’s basic purpose in different ways.
+How tokens are distributed and used directly depends on their classification. An incorrect or
+debatable definition can threaten an entire project issuing such a token.
+In most countries, there is almost no regulation of utility tokens, so there is considerable scope both
+for substantial gains and for fraud-related losses. At the same time, the overwhelming majority of
+tokens declared to be utility tokens are instruments for trading and earning. In effect, they have all
+the features of securities or security tokens. This is also a reason why many projects have drawn
+attention from regulators.
+Most cryptocurrency services, such as exchanges and funds, have been created in an unregulated
+environment. In recent times, however, there has been a strong trend towards greater regulation
+of the cryptocurrency market. As a result, many projects, both established and new, now face
+additional pressure and challenges. For the most part, they are seeking to avoid regulation, by
+moving to countries with more sympathetic laws.
+At the same time, we are seeing a need for services governed by official European regulations. This
+is necessary primarily to ensure the conditions to protect small investors, who are the most active
+in the cryptocurrency market. Without clear regulation and services of an appropriate standard,
+however, major and institutional investors will be unable to enter the market. Were they to do
+so, they would bring significant new investment to the industry, thereby increasing the market’s
+overall value.
+Solution
+Clearly, many people want to be able to work with cryptocurrency instruments and utility tokens
+under looser regulations. Accordingly, the first stage in implementing our ecosystem’s features will
+be the launch of a crypto-crypto exchange.
+12.   http://fortune.com/2018/01/31/coincheck-hack-how/
+14
+
+
+
+
+To this end, our parent company, Azbit, will set up a new company in a non-EU jurisdiction. This
+will host an investment platform and a cryptocurrency exchange without fiat support for utility
+token trading.
+The more favorable regulations will allow the functionality to be implemented, and the platform
+launched, significantly more quickly. This will make it possible to start earning even before the
+main, regulated platform has been fully launched.
+To support trading in crypto/fiat instruments under the project, we are establishing a company
+under European jurisdiction, which will be regulated by European laws and will comply with the
+EU’s MiFID directive. We will also obtain all the necessary brokerage licenses and documents. This
+will make it possible to trade fiat and cryptocurrency instruments in a lawful manner.
+Alternative Trading System
+Once we have set up our own Alternative Trading System (ATS), users will be able to trade security
+instruments and tokens via a single crypto platform. The licensing requirements for such a system
+are much simpler than those for a securities exchange.
+Given the current state of the legislative framework and the extent of the legal procedures involved,
+it is clear that the legalization process in Europe may take considerable time. Nevertheless, we see
+this as a far-sighted, important and necessary step, both for our project, and for the industry as a
+whole.
+A decentralized exchange and simplified token listing
+Another feature of our project will be a decentralized exchange module.
+Listing new ERC-20 tokens will be simply a matter of purchasing AZ tokens to create the initial
+liquidity for an instrument added under the DEX platform’s AZ/Mirror smart contract.
+In this way, token listing on Azbit’s multi-currency exchange will be free of charge, other than for
+the cost of purchasing an arbitrary number of AZ tokens.
+Non-ERC-20-compatible cryptocurrency assets will be listed based on user voting.
+Investment platform
+The attractiveness and dangers of cryptocurrency investment
+In 2017, for the first time in a long time, the general public took an interest in the cryptocurrency
+market. This was hardly surprising: in early 2018, the value of the market surpassed $750 bn. This
+growth was largely fueled by the persistent rise in the value of Bitcoin against fiat currencies.
+Buying Bitcoin was seen as a sensible move and a profitable investment. Few could resist the
+temptation to put their money into this growing market. Many previously conservatively-minded
+people who had never done any stock trading were unable to resist buying cryptocurrency.
+Indeed, the bull market meant that anyone could feel like an investor and see the value of their
+15
+
+
+
+
+holdings rise significantly. People tend to gloss over the fact that most novice investors reduced
+their potential profit through their unsuccessful efforts at trading, but still managed to gain on
+their investment thanks to Bitcoin’s rise in value.
+The graph below shows Bitcoin’s growth in 2017, and its subsequent fall.
+Are such gains from a rising market the result of a genuine and deliberate investment strategy?
+Unfortunately not. In early 2018, the main cryptocurrencies lost more than half their value. As a
+result, most people who had invested in them saw their assets lose value in the same proportions.
+Such a ‘boom and bust’ pattern is a fundamental challenge in terms of investing in the cryptocurrency
+market. The market has undoubtedly proved financially attractive even to people with little interest
+in stock trading and currency speculation. It is therefore important to understand how a trader’s
+professional approach differs from the approach of a novice investor.
+To an experienced trader, the cryptocurrency market’s main attraction is its volatility. This is what
+traders gain from. Spending all their working time trading, traders are always on top of current
+information and trends. This increases their chances of distinguishing genuine indicators of market
+movements from false ones.
+Experienced trader                                                                                      Novice trader
+Gains from market volatility                                                                            Gains from market growth
+Spends their working time trading                                                                       Spends their spare time trading
+Receives income on a regular basis                                                                      Receives income intermittently
+Follows a trading strategy, using both                                                                  Takes a short-term approach; trades based
+technical and fundamental analysis.                                                                     on emotion; is susceptible to market rumors
+and manipulation
+16
+
+
+
+
+Whereas in the past traders could be successful knowing and working with 10-20 instruments/
+cryptocurrencies, they now have to master and monitor at least 100 to achieve stable and regular
+gains. Even when the market overall is falling, there are always instruments among the top 100
+showing growth of 10-30%. Experienced traders know this and can profit from it.
+Inexperienced investors are continually hearing how someone who invested in Bitcoin in  2016
+would have seen the value of their investment increase 50-fold. While this may sound tempting, it is
+important to understand that in reality this is the result of a fortunate combination of circumstances.
+Only a few individuals have managed to take full advantage of the developments; hardly anyone
+expected such a turn of events. Consequently, many inexperienced investors have been attracted
+to the market, but have found it in a bear phase, losing huge amounts as a result. This is further
+evidence that novices tend to make decisions based on the current situation, following which they
+fail to take action to minimize their losses. This contrasts with the tactics of experienced traders,
+who usually base their investment decisions on a set of rules.
+The cryptocurrency market has yet to develop decent services that might help novice investors
+to understand the nuances of stock trading, offering investment analysis tools and minimizing the
+risks, while also helping experienced traders to realize their potential and raise investment.
+Investors’ lack of knowledge and information
+Most people think of investing in the cryptocurrency market as a questionable or dubious move.
+Conservative investors, even after seeing the high returns offered by the market, remain wary.
+The main reason for this is lack of information, and, consequently, uncertainty over whether to
+invest. Many investors do not fully understand blockchain technology. Its complexity puts old-
+school investors off.
+In a survey by Blockport, 70-80% of respondents who did not own any cryptocurrency agreed
+with the statements13
+«I would like to invest in Bitcoin or other cryptocurrencies, but I do
+“                                                                                                         not know enough»
+or
+«I do not want  to invest in Bitcoin or other cryptocurrencies, because I
+“
+do not know enough»
+13. https://medium.com/blockport/blockports-social-trading-features-b4fdb646dd43
+17
+
+
+
+
+This indicates that the main reason stopping people is lack of information. People do not understand
+the investment process and the principles of stock trading. Trading terminals are too complicated
+for new users.
+Risks associated with cryptocurrency funds
+One predictable development in the market has been the increase in the number of crypto funds.
+These seek to raise money from investors, for whom they offer fund management services. In most
+countries, their activities are unregulated, providing ample opportunity for fraud.14
+Many crypto funds resemble a Ponzi scheme. In such a scheme, potential investors are promised
+extraordinary rates of return and are shown tempting figures. However, they have no way of
+assessing whether they are realistic. The main motivation for continuing to invest comes from the
+initial payouts, which are taken from the funds provided by newly attracted investors. Many funds
+are effectively nothing more than pyramid schemes, with no legal framework for their operations.
+Our service uses algorithms of analysis and artificial intelligence to track investment account
+activities, and in the event of anything suspicious can block deposits and withdrawals to prevent
+fraud until the circumstances have been explained. Among other things, this will make it possible
+to prevent even complex schemes from being used to siphon off money through illiquid assets.
+In providing an investment platform as part of our ecosystem, we are aiming to make interactions
+transparent and understandable to investors and to ensure an adequate level of security for all
+participants in the platform. Access to detailed reports and investment account records will help
+users to forecast risks and manage investments more accurately.
+Challenges faced by managing traders
+Successful traders managing investment assets also face challenges. Even the best of them are
+often unable to obtain additional funds to increase the volume of their transactions and their
+returns. The ways in which an independent trader can raise funds are limited. To do so on a large
+scale requires an investment fund or the help of an investment platform. Setting up one’s own fund
+requires substantial resources, first for advertising and marketing, and then to meet the technical
+requirements  and  ensure  the  necessary  security.  Furthermore,  anyone  entering  the  market
+independently inevitably faces challenges in terms of building a positive reputation and trust.
+The lack of simple and understandable tools to raise investment is hampering good traders.
+Solution
+Benefits of the investment platform for investors
+One of the main goals of our investment platform is to help investors to manage their assets
+competently. It aims to meet the needs and requests of investors, whatever their level of experience
+and capital.
+In providing extensive information on the traders using the platform, we also monitor their activities
+14. https://news.bitcoin.com/9-million-day-lost-cryptocurrency-scams/
+18
+
+
+
+
+and block potential fraud schemes. This allows investors to be more confident when choosing
+investment targets, and to reduce their risks.
+Benefits of the investment platform for traders
+Even without raising additional funds, traders can trade on our cryptocurrency exchange using
+their own deposit, using our platform’s extensive features.
+The most successful traders can provide access to their trading records and raise investment. No
+additional investment from them is required for this: traders concentrate on trading, while the
+information on their successes on the platform brings them additional resources from investors.
+Benefits for affiliates and thought leaders
+Our platform offers a wide range of functions supporting different levels of partnership.
+Popular online resources or successful media personalities («thought leaders») can monetize their
+client base. Through our platform, they can find successful traders whom they can trust, and can
+offer their subscribers favorable investment opportunities. In addition, they receive commission
+from the funds raised.
+Thought leaders can work with traders to create portfolios, or traders can manage a thought
+leader’s portfolio. Meanwhile, funds can attract investors and invest in a trader’s portfolio.
+The cryptocurrency exchange’s affiliates will be able to receive up to 50% of the amount of the
+commission on each transaction by a client they have referred.
+Our pro-active marketing policy will ensure constant traffic for the site. This will help to attract
+new clients, both for the exchange and for the traders’ portfolios represented on the investment
+platform.
+19
+
+
+
+
+Functionality
+Banking
+The basic objective of our banking service is to provide access to the traditional financial services
+of other cryptocurrency market participants to blockchain start-ups and established businesses,
+private individuals and crypto enthusiasts, as well as to support all the Azbit ecosystem’s services
+and reduce internal operating expenses and risks, thereby helping to increase profit.
+This will be achieved through the following features:
+▲   Account opening and servicing
+- Account services and payments (SWIFT, SEPA)
+- Payments and accounts in national currencies
+- Fiat payment services
+- Fiat deposits for Azbit services
+- Custodial accounts
+▲   Segregated accounts
+▲   Market-rate currency exchange
+▲   Payment cards
+- Issuing and processing debit cards / Contactless payments
+▲   Cryptocurrency portfolio-backed P2P lending
+▲   B2B services (white label, API)
+▲   Brokerage (forex, stocks)
+In using banking services in our crypto projects, we have built up a wealth of experience of dealing
+with issues and working with banking systems in Switzerland, the Czech Republic, Poland, Slovenia,
+Luxembourg, Bulgaria, and other countries.
+We know how complicated blockchain projects are, and we understand the concerns and risks for
+banks. As a result, we will be able to offer a high-quality solution that answers the requirements
+of both sides.
+Our solution aims to meet the pressing needs of other blockchain projects and private individuals
+for traditional banking services, while fully complying with banking legislation.
+Naturally, this requires obtaining appropriate licenses. We have already taken the first step in this
+20
+
+
+
+
+direction: at the start of 2017, we obtained Payment Institution license No. 05259894 in the Czech
+Republic.
+We also plan to obtain a banking license. This will allow us to lift our restrictions on payment
+amounts, and to expand our range of services.
+Account services and payments (SWIFT, SEPA)
+A basic requirement of any project working with fiat currencies is payment processing. Our choice
+of a sophisticated regulator will allow us to organize this process as effectively as possible. Our
+own experience and understanding of internal processes will help us to build relationships with
+clients, whom we will be able to advise and help to avoid potential risks.
+In order to provide a full-scale banking service, connection to the SWIFT and SEPA networks will
+be arranged. At the approval stage, the service will be supported by our correspondent banks,
+with whom we have preliminary agreements. In the event of unforeseen complications, we will be
+able to ask our partner banks to implement this functionality.
+Payments and accounts in national currencies
+With our clients’ needs in mind, our banking service will work with national banks and correspondent
+banks to integrate national currencies into the project’s operations. This will allow the platform to
+work with new single-currency regions.
+Fiat payment services
+Our banking service will handle fiat payments on Azbit’s multi-currency exchange, as well as fiat
+deposits and withdrawals. Initially, we will work with the euro. Later, we will introduce support for
+the national currencies most popular with our clients. Having a single ecosystem will mean faster
+and less expensive KYC procedures, and will also make it cheaper to deposit and withdraw fiat
+currencies in these services.
+Third-party cryptocurrency projects will be able to use this service to access traditional financial
+services and markets.
+Custodial accounts
+Our banking service will offer custody services for clients’ fiat funds, including funds raised through
+the investment platform. This will ensure sufficient liquidity for the ecosystem.
+As the service will not independently offer credit products, and therefore will not speculate with
+client assets, it will have a Loan-To-Deposit Ratio of 100%. As a result, the system will be solvent
+at all times.
+The lack of lending will also help to significantly reduce registration costs.
+Segregated accounts
+Segregated accounts are often used in trading on traditional financial markets to provide additional
+21
+
+
+
+
+protection for client investments.
+In Azbit’s case, this approach will allow our clients to engage in cryptocurrency trading with the
+involvement of fiat funds without having to transfer assets from banking system accounts to
+accounts on the multi-currency exchange. As they will still be part of the banking system, the fiat
+funds will always be legally protected and insured by relevant national deposit insurance agencies.
+Client  account  management  is  officially  documented  by  bank  statements,  allowing  every
+transaction to be tracked.
+Instant Exchange
+Having  our  own  cryptocurrency  exchange  and  banking  service  will  allow  us  to  offer  instant
+exchange between cryptocurrencies and between cryptocurrencies and fiat currencies ‘on the fly’
+at market rates.
+Issuing and processing debit cards. Contactless payments
+The widespread use and acceptance of cryptocurrencies would not be possible if they were not
+integrated into payment card systems and their implementation. We have been working in this
+area since spring 2017, when we signed a contract with WaveCrest. As a result, we are fully aware
+of the challenges involved.
+Issuing cards through intermediaries is becoming too risky and unpredictable. Accordingly, our
+banking system is working to obtain Visa/MasterСard Principal Member status with appropriate
+networks so as to be able to issue payment cards.
+We will offer business clients acceptance services for bank card payments and for online digital
+payments for work and services. We expect a high level of interest in this service from blockchain
+projects raising funds through ICOs.
+Cryptocurrency portfolio-backed P2P lending
+Now that the cryptocurrency market has shown that it can fall, an obvious new problem has
+emerged: the sell-off of cryptocurrencies means that investors are missing out on the opportunity
+to gain from growth in their crypto assets. Investors buying cryptocurrency are having to hold onto
+it as they wait to be able to sell it at a higher rate.
+This has given rise to a new target audience of users, who need fiat money, but do not want to
+unload their cryptocurrency portfolio at a low exchange rate, although they are ready to use it as
+collateral.
+At the same time, there are also users willing and able to lend fiat money to those who need it.
+To this end, we will offer a cryptocurrency portfolio-backed P2P lending platform.
+22
+
+
+
+
+P2P lending arrangements
+Brokerage and blockchain integration
+Traditional financial markets remain relevant. For fast and reliable access to the securities, futures
+and forex markets, clients will have the opportunity to open brokerage accounts. We plan to support
+DMA (Direct Market Access) trading platforms such as cTrader, MetaTrader 4 and MetaTrader 5 for
+forex and futures, and Laser, Sterling, Das Trader and RealTick for stocks.
+Having a banking license will enable us not only to guarantee and protect traders’ interests, but
+also to demonstrate our bank compliance. Transactions will be carried out exclusively through the
+ECN (Electronic Communication Network) on the interbank market.
+Furthermore, all quotes will be automatically recorded in a blockchain network. This innovation will
+make it possible to avoid a conflict of interests with traders, as it will always be possible to confirm
+the status of a transaction in the event of a dispute.
+Multi-currency exchange
+At the core of Azbit’s ecosystem is our own cryptocurrency exchange. Our team already has
+experience of creating such a service. Building on what we have achieved so far, we are aiming to
+make this functionality as convenient and effective as possible.
+On one hand, the exchange functionality is a self-contained service. On the other, its features will
+be used in all the exchange and payment operations of the platform as a whole.
+Features of the multi-currency exchange:
+▲   A  hybrid  operating  structure:  full  integration  of  a  traditional  centralized  structure  and  a
+decentralized exchange under a single platform
+▲   A wide range of trading tools
+The exchange’s operations will be supported by a number of subsidiaries with their own licenses in
+various jurisdictions. Each module will be responsible for its own functionality and range of trading
+instruments under a single platform. Users will be able to choose a level of verification, thereby
+obtaining access to the services and tools they need.
+23
+
+
+
+
+Relevant exchange modules will support the following services:
+▲   crypto-to-crypto trading
+▲   crypto-to-fiat trading
+▲   security token trading
+▲   a decentralized trading (DEX) module
+Crypto-to-crypto trading
+This exchange module will support trading exclusively between cryptocurrency pairs. Its work will
+be supported by a division of our company that is registered in Central America. This will simplify
+the KYC process because of the simpler regulations there. Users will immediately have easy and
+fast access to our cryptocurrency trading services.
+Crypto-to-fiat trading
+This module will be supported by our European division. Consequently, users will have to undergo
+a more complicated KYC process, in accordance with EU rules.
+As a result, our clients will be able to enjoy full access to trading in crypto-fiat pairs, and to arrange
+deposits and withdrawals of fiat assets through bank accounts and in other convenient ways.
+Security token trading
+This module will be implemented through our American division, which will have an Alternative
+Trading System (ATS) license. It will make it possible to trade in assets we regard as promising,
+such as security tokens.
+Users wanting access to its features will have to undergo an extensive KYC process, as the ATS’s
+operations will be fully subject to the control of US regulators (the SEC).
+A decentralized exchange
+To ensure access to decentralized liquidity, we are also developing a DEX platform.
+For the most popular cryptocurrencies on the market, liquidity is never an issue. For small-cap
+instruments, however, it is a serious problem.
+One way of solving this is to use a model whereby smart tokens are exchanged through Ethereum
+contracts, as has worked well for Bancor.
+We will make use of this successful solution at Azbit, and will combine decentralized and centralized
+liquidity under a single platform.
+The AZ/Mirror smart contract we have developed will hold two balances: one in AZ tokens, and
+the other in any other ERC-20-compatible tokens (for clarity, we call the latter ‘Mirror tokens’).
+24
+
+
+
+
+When an arbitrary number of AZ tokens are sent to this contract, users will receive Mirror tokens in
+exchange. The price of either of the two tokens will depend on their ratio under the smart contract.
+For example:
+A.) The smart contract contains 1000 AZ and 1000 Mirror tokens. The price of 1 AZ = 1 Mirror.
+B.)   The smart contract contains 900 AZ and 1100 Mirror tokens. The price of 1 AZ = 1.222 Mirror.
+C.)   The smart contract contains 800 AZ and 1500 Mirror tokens. The price of 1 AZ = 1.875 Mirror.
+This example clearly shows that reducing the number of AZ tokens in a smart contract significantly
+increases the price of an AZ token compared to a Mirror token. The reverse also applies. It should
+be noted that such a smart contract is a closed system, within which it is not known what the fair
+market value of a particular asset will be. It will be synchronized with the market through arbitrage
+with respect to external liquidity.
+The diagram below shows, on the left, the decentralized structure: users can directly exchange their
+Ethereum-compatible assets for others through the AZ/Mirror system. On the right, the diagram
+shows the centralized structure and a plan for working with the DEX: through the AZ/Mirror smart
+contracts, the Azbit exchange will ensure continuous liquidity and that the Mirror tokens are added
+to other blockchains via a centralized order book.
+Mirror exchange (Ethereum blockchain)
+B
+ETH                                                                                                     MT1
+MT5                                                                                                     MT2
+MT3                                                                                                     MT3
+ICOs and blockchain projects may be interested in creating their own AZ/Mirror smart contracts
+at early stages of their token sale.
+25
+
+
+
+
+Establishing a liquidity threshold for a specific ERC-20-compatible instrument will require including
+it along with the AZ tokens in an AZ/Mirror smart contract, having previously bought back an
+arbitrary number of AZ tokens on the market. Creating such an AZ/Mirror contract will not only
+enable decentralized liquidity, but will also guarantee the listing on Azbit’s unified exchange.
+With this solution, it can be assumed that the number of AZ tokens in free circulation will fall (as
+a result of including them in the AZ/Mirror smart contracts), and their market value will probably
+rise accordingly.
+Liquidity aggregation
+Ensuring sufficient trading liquidity is a necessity for an exchange to function successfully. Having
+sufficient liquidity enables delay-free transactions at the desired price.
+The funds raised, together with the contracts we already have with cryptocurrency exchanges, will
+enable us to aggregate liquidity and ensure that it is sufficient for our clients’ operations.
+The liquidity aggregation function will operate automatically, and will be transparent to clients.
+Margin trading
+Our multi-currency exchange’s margin trading service will allow our clients to use operational
+lending in their transactions. Traders with a limited deposit will be able to use leveraging to increase
+the profitability of their operations severalfold (a leverage ratio of up to 1 to 5 will be available).
+In  addition,  the  margin  trading  service  will  be  used  extensively  in  the  investment  platform’s
+operations.
+Algorithmic trading and the Algo market
+Algorithmic trading will allow users to write trading bots using a built-in scripting language. This will
+enable automation of trading strategies of almost any level of complexity. Users will independently
+be able to create programs to perform autonomous trading on the exchange using a set algorithm.
+In future, the bots will support a significant volume of trading operations.
+A framework for creating and using the bots will be fully available for use on Azbit’s multi-currency
+exchange. Detailed instructions, with examples, as well as a forum for users to hold discussions and
+obtain technical support will make it easy to start working with the service.
+We will also offer an algo market  — a special online marketplace for trading bots, scripts and
+market indicators.
+Users will be able to buy and sell off-the-shelf trading bots. Developers will be able to earn money
+from creating algorithms, while investors will be able to receive a constant passive income by
+purchasing algorithms already developed. Users will be able to browse the products for sale easily
+with the help of a rating system and comments from other users.
+26
+
+
+
+
+Investment platform
+Our  investment  platform  is  one  of  our  project’s  key  features.  Successful  traders,  working
+independently or in cooperation with funds, will be able to set up investment accounts and raise
+funding. Investors, in turn, will be able to analyses the activity and profitability of these accounts
+and thereby make investment decisions with more confidence.
+The investment platform will also be offered as a B2B service to third-party blockchain projects.
+The functionality will be fully available for licensing, including the pool of traders, with the interface
+system for users and investors, and access to liquidity.
+CopyTrade accounts
+CopyTrade accounts represent an investment product for copying the transaction strategies of
+leading traders.
+Investment under the strategy follows the pattern below:
+1.                                                                                                           The investor is given access to records of the performance of the investment accounts of
+leading traders, and can analyses the success rate of their strategies. The investor then chooses
+one of these accounts to copy.
+2.  A special new Copy-account is set up, for copying the trader’s transactions. The investor
+transfers funds to this account using the account’s basic currency.
+3.  The chosen strategies are automatically copied to the investor’s accounts, however much they
+have invested. Copying does not start unless all the current transactions under the chosen
+account have been closed. If they have not been, copying starts immediately after they have,
+or when there is a rollover.
+A rollover occurs once a week, when all transactions are automatically closed.
+4.  For full and instant withdrawal of funds, the investment may be ended at any time. In this case,
+the funds are withdrawn at the current exchange rate for the positions held. Funds invested
+may be partially withdrawn only by prior request during a rollover. The funds are transferred to
+the investor’s account instantly.
+Advantages:
+▲   No one other than the investor can withdraw or transfer funds from the account. The investor
+has complete control of all trading activity.
+▲   The investor always receives the rate of return shown in the statistics for the strategy.
+▲   Investors can arrange to withdraw from the strategy automatically when a critical loss threshold
+is reached (risk management).
+▲   The fee for using the strategy is payable only if the account’s earnings record is positive.
+▲   If one investor pulls out, this does not affect the others’ results.
+27
+
+
+
+
+How CopyTrade works
+CopyTrade
+Trader                                                                                                Azbit
+                                                                                                                                           account
+                                                                                                      wallet         Funds
+                                                                                                                                                               Buy and Sell
+                                                                                                                     allocation
+                                                                                                      Deposit                                                  Orders
+                                                                                                      3              4
+6
+Exchange
+Platform
+Start                                                                                                 45%
+following
+5                                                                                                     9
+Investor
+Funds
+                                                                                                                     7                     Copy buy and sell
+                                                                                                      allocation
+Deposit                                                                                                              orders of trader
+                                                                                                      2
+1
+8
+Close                                                                                                 50% of Azbit
+Azbit
+account                                                                                                              commission
+wallet
+10                                                                                                    11             12
+                                                                                                      10%
+Return funds
+Investment                                                                                            Azbit          Agent
+account                                                                                               commission     who refers Investor
+to Azbit platform
+ShareTrade accounts
+ShareTrade accounts use margin trading with or without leveraging. The maximum leverage ratio
+is 1 to 5.
+Margin trading makes it possible to enter and exit trading positions quickly. This is especially
+convenient for intraday and short-term trading. Typically, this instrument is suitable for traders
+who base their trading strategy on technical analysis.
+Withdrawals are possible only on demand from the investor, at intervals set in advance. This allows
+the trader to implement broader strategies, and to be confident of having sufficient resources
+available.
+PAMM accounts, which have similar features, have long been used in the forex market, and, while
+not popular with everyone, remain in demand as a trading tool. Until now, no crypto exchange has
+offered native (built-in) implementation of them.
+Trading with ShareTrade accounts is a unique feature of our platform.
+28
+
+
+
+
+How ShareTrade works
+                                                                                                                                                ShareTrade               Azbit
+Trader                                                                                                           Azbit      Personal capital
+                                                                                                                                                account                  commission     Agent
+                                                                                                                 wallet     allocation                       10%         50% of Azbit
+Deposit                                                                                                                                                                  commission
+4
+12                                                                                                               13
+3
+11
+who refers
+Investor
+9                                                                                                                6          to Azbit platform
+                                                                                                                                                             Investing
+                                                                                                                                                             of funds
+                                                                                                                                                             5           10
+Investor                                                                                                                    Azbit
+                                                                                                                            wallet
+                                                                                                                                                Funds
+                                                                                                                 Deposit
+                                                                                                                                                allocation
+                                                                                                                 1
+2
+Exchange
+Close
+position                                                                                                         Platform
+8
+7
+Open
+position
+Investment
+account
+Margin Trading
+Platform
+Portfolio Management accounts
+Apart from CopyTrade and ShareTrade accounts, our platform will also offer a portfolio investment
+management facility. A cryptocurrency portfolio is a very simple way for traders and investors to
+work together.
+Our Portfolio Management feature allows investors to withdraw their funds instantly at any time
+without having to seek the trader’s agreement. This makes any type of account more attractive to
+investors, but also restricts the trader to a stable resource. This, in turn, influences the strategy the
+latter may use in trading.
+A portfolio account offers two withdrawal options:
+1. In the portfolio’s basic currency. In this case, the investor’s share in the portfolio is converted
+through the exchange into the basic currency and returned to the investor’s personal account.
+2.  Using  all  the  currencies  in  the  portfolio  (separation).  In  this  case,  the  funds  are  returned
+unconverted in the currencies in the portfolio. Each currency is returned in accordance with the
+investor’s share.
+29
+
+
+
+
+How Portfolio Management works
+Portfolio
+Trader                           Azbit
+                                                                                                                                            account
+                                 wallet                                                                       Funds
+                                                                                                              allocation
+Deposit
+Management
+3                                4                                                                            5
+7
+Personal
+Exchange
+capital
+allocation                       Platform
+8
+Portfolio
+45%                              Buy/Sell
+10
+Investor                                                                                                                                                                       Rebalance
+                                                                                                              Separate
+                                 Deposit                                                                      11b
+                                                                                                              Portfolio
+                                 1
+                                                                                                              2                             6                     9   Return
+funds
+Funds                            50% of Azbit
+Azbit
+                                 allocation                                                                                                 commission
+wallet
+                                                                                                              12                            13
+                                 11a
+                                 Return funds                                                                 10%
+                                 Investment                                                                   Azbit                         Agent
+                                 account                                                                      commission                    who refers Investor
+                                                                                                                                            to Azbit platform
+                                 The table below shows the main differences between the investment options:
+                                                                                                                                            Portfolio
+CopyTrade                        ShareTrade
+                                                                                                                                            Management
+▲   Use of margin trading        ▲   Use of margin trading                                                    ▲   Use of spot trading
+without leveraging               with leveraging
+                                                                                                              ▲   No margin trading
+▲   Short trading                ▲   Short trading
+Instant withdrawal at any        Withdrawal as per a                                                          Instant withdrawal at any
+time or during a rollover        schedule or on request For                                                   time
+the trader, this means:
+▲   Safer for the investor                                                                                    ▲   Safer for the investor
+                                 ▲   Confidence in the size
+▲   The trader has no                                                                                         ▲   The trader has control
+                                 of the portfolio
+control over the volume                                                                                       over the volume of the
+of the resource                  ▲   A high level of resource                                                 resource
+control
+▲   A high expected volume
+▲   A wide choice of             of investment
+strategies
+                                 A model easier to under-
+A high level of asset control
+Higher expected returns          stand and safer for the
+for the investor
+                                 in-vestor
+More suitable for                More suitable for trading                                                    More suitable for trading
+inexperienced investors          with technical analysis                                                      with fundamental analysis
+More suitable for short-         More suitable for short-                                                     More suitable for long-term
+term investments                 term investments                                                             investments
+30
+
+
+
+
+Investment account features
+Funds are always deposited in the basic currency, which is established when the account is opened.
+An investor’s share of the overall account (for ShareTrade and Portfolio Management accounts) is
+calculated using a share-based system, enabling the amount of invested funds belonging to each
+participant at any point in time to be accurately determined.
+There is a limit on the proportion of a portfolio that may be taken up by a single instrument
+or currency. The extent to which a trader is permitted to use an instrument depends on the
+instrument’s current capitalization rating and level of trust. This makes it possible to prevent
+fraudulent withdrawals.
+The Azbit.ID secure identification system
+The Azbit.ID system will offer the user fast and secure access to all Azbit’s services via a single
+registration and authentication service. Other blockchain projects will be able to use Azbit.ID for
+automation and to cut AML/KYC costs.
+Third-party blockchain projects will be able to use the Azbit.ID infrastructure to automate and
+reduce the costs of AML/KYC user identity verification procedures.
+A two-factor authentication system will be used as a standard security system.
+We will also launch a client for iOS and Android.
+31
+
+
+
+
+Technical details
+Our solution constitutes an architecture of services. All the services are clustered, making it
+possible to guarantee fault tolerance and the possibility of horizontal scaling in the event of heavy
+use. The Core and Blockchain services use reliable dedicated servers at the world’s leading data
+centers. The remaining services will be provided on Amazon AWS clusters, allowing our end user-
+applications to work faster through DNS sharding, and computing power to be added quickly.
+We fully appreciate the importance of response time to our users, so our services use the latest
+programming languages and technologies. Our IT stack uses a Push API (WebSockets), Angular
+(as a frontend solution) and Golang (for backend needs). In addition, a Rest API covering all the
+client application functionality will be used in the integration.
+The tech stack comprises the following components, ensuring that the system can handle heavy
+use and can easily be horizontally scaled:
+▲   Percona Cluster (main database)
+▲   Redis Cluster (cache and temporary storage)
+▲   ClickHouse (real-time analytics and order history)
+▲   Rabbit (queue engine)
+32
+
+
+
+
+Azbit Technical Structure
+BANKING
+33
+
+
+
+
+Our ICO campaign
+We decided to use the ICO model for our project, because our expected investors are our potential
+clients. It is they who will be able to assess the project’s profitability first. Any specialist working
+with cryptocurrencies will understand our ideas and arguments. The above-mentioned limitations
+and challenges involved in working with existing services are familiar to any expert in the field.
+We are holding the ICO because we know that by involving a wide range of investors we will
+be able to achieve much more impressive results, and will be able to implement all the planned
+functions in full to the required standard.
+Azbit tokens
+As part of our ICO, we will issue Azbit (AZ) tokens.
+AZ tokens may be used for the following purposes:
+▲   Paying banking fees
+▲   Paying exchange fees at a discounted rate
+▲   Paying the investment platform’s fees at a discounted rate
+▲   Paying for marketplace products
+▲   Creating liquidity through the decentralized exchange module
+In addition, token holders will take part in an airdrop of new tokens, which will subsequently be
+included in the exchange listing.
+The discount on the exchange fees will be as follows:
+▲   75% in the first year
+▲   50% in the second year
+▲   25% in the third year
+▲   10% in the fourth year
+▲   After May 12, 2023, the discount will be fixed at 5%.
+Azbit reserves the right to review the procedure for buying back and subsequently destroying a
+certain number of issued AZ tokens.
+34
+
+
+
+
+Name of token                             Azbit
+Symbol                                    AZ
+Compatibility                             Ethereum (ERC-20)
+Total number of tokens                    401 408 000 000
+Tokens available for purchase             240 844 000 000
+Token sale value                          1 AZ = $0.00012
+Soft cap                                  $7 500 000
+Hard cap                                  $28 901 376
+Participation options                     EUR, ETH, BTC, BCH, LTC, DASH
+Number and distribution of tokens
+Total number                              100%
+Available for purchase                    60%
+Project team                              15%
+Reserve fund                              12.5%
+Advisors                                  7.5%
+Affiliate program participants (bounty)   3%
+Airdrop                                   2%
+35
+
+
+
+
+                                                                                                      Bounty
+AirDrop
+2%                                                                                                    3%
+Public sale
+7.5%
+Fund
+12.5%                                                                                                 Fund
+Public sale
+Team
+60%
+Team
+15%
+The tokens issued to the project’s founders and team will be frozen (a lock-up period) for 2 years
+from the end of the ICO, and will be issued as per the following timetable:
+▲   September 30, 2019: 25% of the tokens
+▲   March 31, 2020: 25% of the tokens
+▲   September 30, 2020: 25% of the tokens
+▲   March 31, 2021: 25% of the tokens
+If before the end of the freezing period the token’s value increases by more than 100% and remains
+so for at least a month, a percentage of the tokens will be unfrozen: 25%, 50%, 75% or 100% for
+increases of up to 200%, 300% and 400% and more than 400% respectively.
+The conditions for freezing and unfreezing the tokens will be set out in the smart contract.
+The tokens issued to the project’s angel investors and advisors will be frozen for 2 years.
+The tokens issued to the reserve fund will be frozen for 5 years from the end of the ICO. If before
+the end of the freezing period the token’s value increases by more than 200% and remains so for
+at least a month, a percentage of the tokens will be unfrozen: 25%, 50%, 75% or 100% for increases
+of up to 300%, 400% and 500% and more than 600% respectively.
+If the soft cap is not reached, we will undertake to return the funds.
+36
+
+
+
+
+Azbit tokenized shares
+Our AZ tokens are backed by shares in Azbit AG, a company registered in Switzerland. We are
+issuing tokenized shares because we fully understand the needs of today’s market: security tokens
+and tokenized shares are becoming increasingly popular.
+Azbit has issued 2,000,000 shares with a par value of 200,704 AZ tokens each. In this way, AZ
+token holders will automatically become shareholders.
+In future, AZ token holders will receive 75% of the project’s net profit. We plan to pay the dividends
+on a monthly basis via airdrop.
+Financial reporting transparency will be ensured by a Swiss audit, which Azbit will undergo every
+three months. Investors will be able to see the audit results on our website, azbit.com, where all the
+necessary documents will be publicly available.
+Budget and spending
+All the ICO proceeds will be allocated as follows:
+20% to marketing, raising awareness of the project, advertising, token promotion and listing;
+25% to supporting liquidity;
+20% to developing the platform;
+15% to nominal capital and security deposits as per regulatory requirements;
+15% to contingencies;
+5% to legal expenses and consultancy, audit and licensing costs.
+Legal
+5%
+Reserve
+Marketing
+Reserve                                                                                                  Marketing
+15%
+                                                                                                         20%
+Contingencies
+15%
+                                                                                                         Liquidity
+Developing                                                                                               Developing   Liquidity
+                                                                                                                      25%
+20%
+37
+
+
+
+
+ICO phases
+The ICO will have three phases.
+Implementation
+                                                                                                       Private sale         Pre-ICO             ICO
+phases
+Start                                                                                                  September 01, 2018   October 01, 2018    December 01, 2018
+End                                                                                                    September 30, 2018   November 30, 2018   March 31, 2019
+Token purchase
+Up to 30%                                                                                              10-20%               0-7%
+bonus
+AZ tokens that have not been not distributed after all the phases will be automatically destroyed.
+No minimum purchase amount has been set.
+The maximum purchase amount per investor will be published immediately before the relevant
+phase on Azbit’s website, and may change during the event.
+AZ tokens will be issued automatically and instantly during participation in the crowdsale campaign.
+Who can buy AZ tokens?
+AZ tokens (and, therefore, tokenized shares) can be purchased by citizens of 239 states, including
+accredited investors from the U.S.
+Unfortunately, Azbit services are not available for citizens of the following countries:
+•   Canada
+•   Singapore
+•   Burma
+•   Côte d’Ivoire
+•   Cuba
+•   Congo
+•   Iran
+•   Iraq
+•   Liberia
+•   North Korea
+•   Sudan
+•   Syria
+•   Zimbabwe
+38
+
+
+
+
+Charity
+On a regular basis (every 3 months), 2.5% of the revenue of the entire Azbit ecosystem will be
+donated to charitable and social causes.
+The funds will be collected and allocated in public using blockchain technology under the Azbit
+Foundation, a not-for-profit entity. This will ensure transparency in terms of how much is donated
+and where the funding goes.
+Priority will be given to funding treatment and operations for sick children, and to projects to
+improve basic and clinical medical services. The projects to be supported will be chosen by users
+of our platform through online voting.
+39
+
+
+
+
+Roadmap
+Q1 2017                                                                   Payment Institution (SPI) license obtained in Europe (Czech Republic).
+Launch of the ICO campaign website, Azbit.com. Publication of the final
+Q2 2018                                                                   edition of the Whitepaper. Azbit announcement at Consensus 2018 in
+New York.
+Q3 2018                                                                   Private Sale campaign (September 1, 2018 - September 30, 2018).
+                                                                          Pre-ICO campaign (October 1, 2018 - November 30, 2018). Portfolio
+Q4 2018
+                                                                          management module demo launch.
+Q4 2018                                                                   Main phase of the ICO campaign (December 1, 2018 - March 31, 2019).
+                                                                          Token listing on major exchanges. Launch of the Azbit cryptocurrency
+Q1 2019
+multi-exchange.
+Q1 2019                                                                   Azbit.ID secure identification platform launch.
+Q2 2019                                                                   Traditional markets (e.g. Forex, Stocks) access launch.
+                                                                          Decentralized exchange module. AZ/ Mirror smart contract service
+Q2 2019
+announcement.
+Q3 2019                                                                   Start of margin trading on the Azbit exchange.
+                                                                          Announcement of the launch of the investment platform. ShareTrade,
+Q3 2019
+                                                                          CopyTrade and Portfolio Management accounts will now be fully available.
+Q4 2019                                                                   Azbit White Label platform announcement for affiliates and partners.
+Q4 2019                                                                   Algorithmic trading and algo market support announcement.
+Launch of the Alternative Trading System module for Security Tokens
+Q1 2020
+support.
+Launch of the European banking structure. Start of fiat payment
+Q4 2020
+processing services for blockchain businesses and individuals.
+40
+
+
+
+
+Advisors
+Roger Ver
+Founder & CEO Bitcoin.com
+Professional Background:
+1999  -  2012  -  CEO  of  the  Memory  Dealers.  Memory  Dealers  offers  the  largest
+selection of discounted and custom transceivers and hardware for PC.
+2012  -  Founding  Member  &  Board  Advisor  of  the  Bitcoin  Foundation.  Bitcoin
+Foundation standardizes, protects and promotes the use of Bitcoin cryptographic
+money for the benefit of users worldwide.
+2014  -  Chief of Business Development of the Blockchain.info. Blockchain.info is
+the most popular Bitcoin related website in the world, in terms of both traffic, and
+number of users.
+2016 - CEO of Bitcoin.com. Bitcoin.com is the premier source for everything Bitcoin
+related. Bitcoin.com has been focused on promoting and supporting the bitcoin
+community worldwide. From providing regular and high quality news publications,
+a thriving and active forum community and the largest data repository of bitcoin
+related topics available, bitcoin.com has led the way amongst its peers in supporting
+bitcoin, and its potential.
+Since  2011 Roger Ver took part in such blockchain and сryptocurrency projects
+as a bitcoin evangelist and angel investor: Bitpay, Ripple, Blockchain.info, Kraken,
+Shapeshift, Coinsetter, Safello, Hivewallet, Coinapult and many more.
+Personal Information:
+Roger Ver is most well known for his work promoting Bitcoin. For this he even
+received  the  nickname  \»Bitcoin-Jesus\».  In  2011,  his  company,  Memorydealers.
+com, became the first mainstream company to start accepting Bitcoin as payment.
+He then went on to create Bitcoinstore.com, the first website in the world to accept
+Bitcoin as payment for hundreds of thousands of items, and was the impetus for the
+future wave of merchant adoption.
+He also became the first person in the entire world to start investing in Bitcoin
+startups. Nearly single-handedly, he funded the seed rounds for the entire first
+generation of Bitcoin businesses. In 2018 he was ranked number 36 in Fortune’s The
+Ledger 40 under 40 for transforming business at the leading edge of finance and
+technology.
+41
+
+
+
+
+Mate Tokay
+COO Bitcoin.com
+Education:
+2012 - University of Buckingham, International Business School Budapest - Bachelor’s
+degree in International Business Relations
+Professional Background:
+2013 - 2015 - CEO of Bitcoinist, the prime source for the latest information about
+Bitcoin, digital currency and blockchain technology.
+2015 - COO of Bitcoin.com, the premier source for everything Bitcoin related.
+Personal Information:
+Currently, together with Roger Ver, Mate Tokay manages the top source in the world
+of Bitcoin - Bitcoin.com. He is also a Co-Founder of one of the leading Bitcoin news
+and review website called Bitcoinist. Moreover, Mate is a former wakeboard world
+champion. Being a COO, Mate focuses on a larger vision and communicating that
+vision to others while staying on top of the major trends in the industry. His goal and
+passion is to make cryptocurrencies as popular as possible
+Giovanni Lesna Maranetto
+CCO Blocktrade.com
+Education:
+2013 - The University of Western Australia - Bachelor of Economics (BEc)
+2015 - South African Institute of Financial Markets (SAIFM) - Registered Persons
+Exams (RPE), Financial Markets
+2016 - University of South Africa - Bachelor of Commerce (BCom) Hons
+Professional Background:
+2017 - 2018 - Chief Commercial Officer of the Hedge (Slovenia), a platform for hedge
+instruments for Crypto markets.
+2017  - Chief commercial officer of the Blocktrade.com  (Liechtenstein), a trading
+facility under the MiFID II regulatory framework, approved by ESMA.
+Present - Strategic advisor in in such blockchain- and crypto-projects as Adbank.
+network  (Canada),  ENKIDU  (India),  FRESCO  (Switzerland),  Aworker  (Estonia),
+SOFIN (Russian Federation), Yookye (Italy), Blockchain Reactor (Ireland), Gamedex
+(Thailand), IMMO.FOUNDATION (Czech Republic), CHERR.IO (Slovenia).
+Personal Information:
+Giovanni is a blockchain strategist, entrepreneur, speaker and ICO specialist. His
+background is in traditional finance, international business and trading systems.
+He spent his years in mutual fund sales before moving to implement tactical and
+strategic solutions for financial institutions. He gained exposure to crypto through
+trading and seeing the potential of blockchain technology.
+Giovanni is an evangelist for blockchain technology and its value adding use-cases
+and sees the next wave of disruptive mass adoption technology emerging from the
+blockchain start-up scene. He is a top 30 ICOBench Advisor and brings a fresh yet
+critical perspective to the team.
+42
+
+
+
+
+Stefan Bergström
+Business Strategic Advisor
+Education:
+Economics, Marketing, Communication, Business Development, Hotel Management
+Professional Background:
+2005 - strategic management expert and advisor
+2011 - owner and manager of 6 hotels
+2017 - founder and chairman of the board of Moonwhale
+2018 - strategist and business consultant at a number of international companies and
+successful blockchain projects, including CoinAnalyst, MapCoin, Aimedis, Ufity SA,
+Sidera Blockchain Technologies, NOBAR, Netscouters International, TokenMatch,
+Morpheus.Network.
+Personal Information:
+Experienced blockchain advisor, private angel investor, serial entrepreneur based
+in Sweden. Invested in  18+ tech start-ups mainly focusing on Privacy by design
+principles, GDPR - General Data Protection Regulation - and compliance.
+Extensive  experience  from  the  Travel  Industry.  Owned  and  operated  6  hotels.
+Involved  in  several  Token  Sales  in  Fintech,  AI,  Augmented-  and  Mixed  Reality.
+Attending  frequently  global  Crypto  events  growing  extensive  network.  Focus
+primarily on the business- marketing aspects as well as raising funds.
+Mickey Choi
+CEO and founder at Mickey Global Business
+Professional Background:
+2007 - Vice President at DaMunhwa English Training center corp.
+2012 - Stock Analyst at Stock Leading
+2017 - CEO and founder at Mickey Global Business
+2018 - CEO at RIV. Advisor at Ubex AI, Ponder, OSA Decentralized (OSA DC)
+Personal Information:
+Mickey Choi is a prominent representative of the Korean private investor community.
+He has 11 years of financial experience. He has been presenting his experience as
+a small shareholder in various business fields since 2007. Today Mickey Choi is a
+prominent business angel and an early investor in ICO and STO. He is an experienced
+market  and  financial  analyst  and  also  a  successful  manager.  Mickey  Choi  is  a
+recognized consultant and expert both in practical use of business technologies
+in blockchain and in practical use of blockchain technologies in business. He was
+involved  in  a  number  of  successful  Fintech  start-ups  and  he  participated  as  a
+business development and blockchain advisor.
+Max Seluk
+CEO at KMA.biz
+Professional Background:
+2013: CEO of KMA.biz, one of the biggest partner networks in the field of banking,
+finance, retail and e-commerce.
+Personal Information:
+10 years in internet marketing, brand-building, PR, investing and
+developing complex internet projects.
+Plays an active role in developing projects linked to the cryptocurrency
+market.
+43
+
+
+
+
+Elena Certa
+Bank J. Safra Sarasin
+Education:
+Elena studied Economics at the European University of Viadrina, Frankfurt (Oder),
+Germany, and at Monash University, Australia.
+She holds an ACI Diploma and a UBS Wealth Management Technical Skills Certificate.
+Professional Background:
+Started her career in 2002 in the Structured Trade Finance Business division at
+Commerzbank AG, Frankfurt (Main).
+Three years later, Elena joined Commerzbank’s foreign exchange team, trading FX
+and interest rates with Eastern European financial institutions.
+In 2006, Elena joined UBS Investment Bank as a sales trader in charge of foreign
+exchange business with banks and asset managers based in Russia, Poland,
+Hungary, and Israel.
+She is currently Director, FSA Direct Access Clients at Bank J. Safra Sarasin Ltd.
+Personal Information:
+Elena has over 11 years of experience in trading in capital markets focusing on FX,
+commodities and interest rates from plain vanilla to structured products, and from
+hedging solutions to opportunistic trading ideas.
+Pavel Kalashnikau
+CEO FxCash
+Professional Background:
+Co-Founder and Director of FxCash, one of the leading forex cashback services.
+From 2006 through 2010 worked as a leading developer at MTS, the biggest
+telecommunications company in Eastern Europe
+44
+
+
+
+
+Our team
+Our team comprises entrepreneurs, programmers, IT specialists and crypto enthusiasts. All of us
+have practical experience of implementing successful commercial projects of varying degrees of
+complexity.
+Max Zmitrovich
+Chief Executive Officer, Co-Founder
+Education:
+1996 - Master Degree equivalent in Law.
+1996 - Major in International Trade Law
+2001 - Preston College, Preston, Lancashire - YMCA Level 3 (highest)
+Professional Background:
+2002 - UK and Western Europe Business Development Manager / Thermowood Ltd,
+Moscow, Russia (UK Office)
+2005 - Senior Negotiator, Branch Lister (valuer) / Connells Estate Agents, Dudley
+Branch
+2010 - Sales Manager / European Electrical Laminations Limited, Netherton, England
+2013 - Commercial Director / Veles Limited, Oxford, England
+Personal Information:
+Maksim Zmitrovich is a highly skilled marketing senior executive with a successful
+background  and  proven  track  record  in  International  and  Domestic  business
+development.  His  latest  projects  include  participation  and  directing  business
+development of projects around the world, to include cryptocurrency exchange,
+International trading companies Veles Limited, Poliphone SIA, largest UK estate
+agency Connells, manufacturing company EELL, Rivera.
+Prof. Alex Siow
+Enterprise Risk Manager
+Education:
+Professor of the National University of Singapore
+Strategic Planning and Risk Management
+Construction and IT Project Management
+Professional Background:
+1980                                                                                              -  Senior  Structural  Engineer,  Chief  Information  Officer  at  Housing  &
+Development Board
+1996 - President at Information Technology Management Association (ITMA)
+2000 - President at Project Management Institute Singapore Chapter
+2005 - Senior Vice President at StarHub
+2014 - Consultant for Enterprise Risk Management, Strategic Planning and Business
+2015 - Director at Strategic Technology Management Institute, Business Advisory
+Consultant, Business Development Consultant
+2016 - Director at Centre for Health Informatics
+2018 - Market Research and Development Consultant, ICO Adviser
+Personal information:
+Alex has a fundamental 38-year experience in the sphere of Strategic Planning and
+IT. He was at the forefront of the IT sphere development and thanks to almost 4
+decades of successful work in leading corporations he has become a living legend of
+the Asian business community. Alex was honoured to be appointed as the Secretary
+General of the South East Asian Computer Confederation. Today he is a Professor
+(Practice) in the National University of Singapore.
+45
+
+
+
+
+Lam Riki Pham
+Head of Strategic Planning
+Education
+Business and Commerce
+Professional Background:
+2011- Executive Officer at Pham & Associates
+2014 - Government Officer for Strategy planning at the State Bank of Vietnam
+2017 - Decentralized Team Leader
+Personal information:
+Lam is a highly experienced leader in financial industry with over 10 years’ experience
+specializing  in  start-ups,  maximizing  sales  growth  and  distribution  expansion.
+Moreover, he partners with various turnkey agencies and investors in many blockchain
+projects. Lam graduated with a Masters degree from Leeds University (UK). He has
+been working with the State Bank of Vietnam as a Government Officer for Strategy
+planning  for  the  banking  industry.  This  gave  him  the  experience  necessary  to
+understand the bigger picture of Macroeconomics.
+Andy Yeo
+Blockchain Lawyer, AML-specialist
+Education:
+Business Law
+Securities and Banking Regulatory Compliance
+Financial Services Risk Management
+Professional Background:
+2018 - Partner at Eldan Law LLP
+2000 - Partner at Allen & Gledhill
+1998 - Deputy Public Prosecutor
+1997 - Magistrate
+Personal information:
+For more than 20 years, he has specialised in financial investigations and is a top
+expert in the area of securities and banking regulatory compliance. He has a wide
+experience in consulting in the sphere of international law, anti-corruption                (FCPA
+& UKBA), corporate governance, risk management. An authoritative analytical
+portal, Global Investigations Review, featured him as one of the leading AML
+experts. He works with a wide range of premium clients, including international
+financial institutions, sovereign wealth funds and listed companies. Andy’s long-
+term experience and professionalism have been fully realized in the sphere of
+cryptocurrencies and blockchain. At the current moment, he is a recognized
+advisor in the issues of fintech regulation and cryptocurrency
+Michael Yermolitski
+Co-Founder
+Education:
+Bachelor Degree in Economics (2007)
+Professional Background:
+CEO of Latvia’s Poliphone, SIA, an electronics wholesaler
+Holder of a $1.5 mln crypto portfolio
+Personal Information:
+Solid  experience  of  organizing  business  projects  in  both  the  financial  and  the
+blockchain spheres. Head of a group of companies in the B2B and B2C sphere.
+46
+
+
+
+
+Andrew Rohau
+Chief Technology Officer
+Education:
+Computing Machinery, Systems and Networks
+Professional Background:
+2003 -   Network design and implementation of computer networks based on CISCO
+Systems technology
+2005 - Strategic advisor relating to ICT at UNDP
+2007 - Business analyst and technical solutions developer based on Sun Microsystems
+and Oracle technologies at Open Technologies
+2010 - Datacom Product Sales Manager at Huawei Technologies
+2014 - IT Consultant at UNICEF and UNHCR
+2016  -  System  Architect.  Head  of  Infrastructure  in  Fintech  projects.  IBM  Gold
+Business Partner.
+Persol Information:
+Andrew  has  17  years’  experience  in  the  development  of  technical  solutions,  IT,
+system  architecture,  business  analysis.  Back  in  the  early  2000s,  he  was  at  the
+forefront in designing and implementing computer networks based on technologies
+of Cisco Systems. He has years of successful experience in working with various
+international  organizations  such  as  Open  Technologies,  Huawei  Technologies,
+UNDP, UNICEF, UNHCR. Andrei is a leading specialist in designing and implementing
+next-generation mission-critical information systems for the Banking and Financial
+sector. He doesn’t like being called “crypto enthusiast”, preferring instead the term
+“crypto professional”.
+Joachim Arthur Sorgho
+Development (Project Manager)
+Education:
+Software Development
+Professional Background:
+2006: Full Stack Developer at the international IT company
+2014: Project Manager
+2016: Team lead for Fintech projects on creation of cloud services
+Personal Information:
+Significant  experience  in  software  development  and  team  management  of  IT
+professionals in the field of Fintech and Internet industry. Has a good understanding
+of strategies applied to Agile and Scrum project management.
+Dmitry Gursky
+Chief Business Development Officer
+Education:
+Bachelor’s Degree in Networking Technology (2000)
+Professional Background:
+Expert in launching ICO projects
+Participated in the release of the first projects with Security Tokens
+Independent blockchain consultant to the government of the Russian Federation
+and the CIS countries
+Personal Information:
+Believes that the field of crypto trading and investment is the most promising
+direction in 2018.
+47
+
+
+
+
+Sergei Ermolitski
+Head of Operations, Co-Founder
+Education:
+Bachelor Degree in Economics (2005)
+Master Degree in Economics (2006)
+Professional Background:
+2009: CEO at FxCash, the first forex cashback service in Eastern Europe. The company
+is one of the leaders in the market.
+2013:  Co-Founder  of  the  HashBuster  project.  The  company  produced  mining
+equipment based on Bitfury and Avalon chips.
+2016: Head of Marketing for the cryptocurrency exchange
+Personal Information:
+Extensive experience of cybersecurity for financial IT projects.
+Believes that decentralized instruments could become a universal means of
+payment.
+Alex Kozorez
+Head of Content
+Education:
+Bachelor’s Degree in Radiophysics and Electronics
+Bachelor’s Degree in Economics
+Master’s Degree in Economic Sciences
+Professional Background:
+2005 - Co-founder of the marketing agency Latmay
+2009  - Coordinator of Media Relations and Special Projects of FxCash, the first
+cashback service on Forex in Eastern Europe
+2016 - Head of Content of the cryptocurrency exchange
+Personal Information:
+Alexander is an experienced manager and analytics in the sphere of integrated
+content  strategy  development  according  to  marketing  and  business  purposes
+of projects.. Economic and technical background as well as deep understanding
+of peculiarities of fintech and blockchain online services enables him to build an
+impeccable strategy that corresponds to relevant demands of the target audience
+even in the constantly changing crypto environment.   Alexander has gained rich
+experience in interviewing top experts and crypto specialists which allows him not
+only to be the first one to react to key information trends but also to create info
+trends himself.
+48
+
+
+
+
+Alex Moroz
+Chief Marketing Officer
+Professional Background:
+2012 - Internet marketing. Private entrepreneurship
+2014 - CEO and Founder of his own advertising agency
+2017 - ICO Marketing Advisor. Market research analyst for blockchain projects.
+Personal information:
+Alex has 6 years of experience in marketing and development of communication
+strategies. Since then he has evolved from an internet marketing specialist to a
+director of his own advertising agency and a private marketing consultant. Thanks to
+such a diverse experience, Alex has an understanding of all marketing processes at
+different stages: from web analytics to the development of an advertising campaign
+media plan. In 2017, he became a private marketing advisor on blockchain projects
+and ICOs. Alex developed his own exclusive methodology for ensuring an effective
+promotion system, which he has successfully applied in several Fintech startups. He
+is one of the leading European analysts in the sphere of global blockchain project
+research.
+Yulia Gushchina
+Business Development and Investor Relations
+Education:
+Business Development and Diplomatic Translation (English, Chinese, French)
+Professional Background:
+2010  - Specialist in intercultural communication and diplomacy. English, French
+translator/interpreter. ESL Teacher.
+2014  -  Specialist  in  building  international  ties  between  Chinese  and  European
+Corporations.
+2015 - Strategic Development Manager at Huawei Technologies Co.Ltd.
+2017 - Independent specialist in business development and customer relations in
+the sphere of technologies. Julia has supported a range of successful ICO projects.
+Personal Information:
+Yulia has 7 years of diverse experience in business development, communication
+management, and investor relations. In  2015 she started to work as a Strategic
+Development Manager and a Pre-sales Manager at Huawei Technologies Co.Ltd.
+Being  a  qualified  specialist  in  international  and  diplomatic  relations  Yulia  was
+responsible for building new communication with top level businesses and State
+local  Government  customers.  She  possesses  such  highly  demanded  skills  as
+marketing concepts creation, sales strategies planning, organization and holding
+negotiations with top level businesses.
+Yulia has deep knowledge in the sphere of business relations psychology and
+has excellent skills in implementation of communicative strategies in the field of
+international business and partnership. In addition, Yulia taught foreign students
+Russian as a volunteer to make a tangible contribution to the development of
+international cooperation and intercultural networking.
+49
+
+
+
+
+Azam Khodzhaev
+Chief Communications Officer
+Professional Background:
+Co-owner of Carousel car sharing (an IT project)
+Eastern Europe’s No. 1 thought leader in the crypto and mining sphere
+An independent advisor to the Russian government on blockchain
+Co-presenter  of  the                                                                        «Business.  Investments.  CryptoCurrencies»  section  on
+Transformator, a major business channel on Youtube.
+Personal Information:
+An active speaker and communicator in the blockchain sphere. One of the first
+people in Eastern Europe to start mining cryptocurrencies and sell mining farms.
+Nikolae Cucuta
+Director of the Partner Department
+Education:
+2012  -  Bachelor  in  International  Relations  and  Politology  /  State  University  of
+Moldova
+Professional Background:
+2012 - Regional Representative Manager / RoboForex NZ, AuckLand
+2013 - Customer Support Agent / Avantaj Prim, Moldova
+2015 - Head of Investment & Research / RoboForex HQ, Cyprus
+2017 - Operational Director / Intcons Ltd, Cyprus
+Personal Information:
+Excellent familiarity with the trends of technology and marketing in the blockbuster
+sphere  and  financial  markets,  including  the  forex  market.  He  believes  that  the
+Crypto-currency market is just beginning its rapid growth.
+Nick Rovneiko
+Head of Analytics
+Education:
+Economics
+Professional Background:
+2008 - Private entrepreneur
+2012 - Practicing trader
+2016 - Senior Analyst at the cryptocurrency exchange
+Personal Information:
+Specialist in trade and investment in ShareTrade and CopyTrade accounts. Use the
+Price Action method for analyzing market assets.
+50
+
+
+
+
+

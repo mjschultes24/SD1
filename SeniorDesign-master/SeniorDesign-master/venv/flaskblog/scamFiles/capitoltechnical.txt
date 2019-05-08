@@ -1,0 +1,245 @@
+﻿Capital Technologies & Research - Technical White Paper
+1
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+Introduction
+This technical whitepaper provides explanation
+of  Capital  Technologies  &  Research’s  end-to-end
+encryption model through blockchain.   We encrypt
+our  users  communications  through  The  Signal
+Protocol,  designed  by  Open  Whisper  Systems,  to
+ensure an up to date solution without inventing the
+wheel.
+The  problem  in  the  today’s  usage  of  Open
+Whispers Systems protocol is that Key Distribution
+Center is centralized, so the risk of a MITM (Man in
+the middle) attack, user metadata leak or server’s
+hack is most likely to happen. Here we come up with
+a solution, public keys of users are stored in the
+blockchain where replacement is almost impossible,
+making those attacks almost unfeasible.
+Vulnerabilities
+Main  vulnerability  is                                   51%  Proof  of  Work
+network attack, that can reverse blockchain history
+and replace users true keys with fake ones; and even
+if  that  will  happen,  no  history  activity  can  be
+recovered.
+2
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+The second major vulnerability that can happen is
+if a hacker intercepts enough messages, the private
+key can be reconstructed back, gaining access to the
+account, but not to the whole activity history behind.
+Features
+We  highlight  the  fact  that  no  activity  history
+(messages or voice calls) can be recovered due to the
+Double  Ratchet  algorithm  that  manages  ongoing
+renewal and maintenance of short-lived session keys.
+“Double Ratchet Algorithm - This algorithm is
+self-healing  because  under  certain  conditions,  it
+disables an attacker from accessing the clear-text of
+messages                                                  ("the   communication")   after   having
+compromised a session key. This condition is that
+between  the  compromise  of  the  key  and  the
+communication in question, there has been at least
+one message which was not tampered with by the
+attacker.  This  effectively  forces  the  attacker  to
+3
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+intercept  all  communication  between  the  honest
+parties, since he loses access as soon as
+one  uncompromised  message  is  passed  between
+them”. This algorithm had been used for a long time
+because it provides both full encryption of contents
+on   the   entire   way   of   transport   as   well   as
+authentication  of  the  remote  users  and  protection
+against manipulation of messages.
+Asynchronicity between users sessions is assured
+by the blockchain technologies that use the Extended
+Public Key to derive multiple public keys in order to
+establish  a  session  between                              2  users.  This  allows
+initialization  of  messaging  sessions  without  the
+presence                                                    of                        other   party   (asynchronous
+communication).
+4
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+The usage of triple Diffie-Hellman key exchange
+(3-DH) as initial key exchange through blockchain
+improves   the   deniability   properties   providing
+anonymity, confidentiality, integrity, authentication,
+participant   consistency,   destination   validation,
+forward   secrecy,   backward   secrecy,   causality
+preservation and message unlinkability.
+An   user   renews   session   key   material   in
+interaction  with  the  remote  peer  using  Diffie-
+Hellman   ratchet   whenever   possible,   otherwise
+independently by using a hash ratchet.
+5
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+Node-to-node   Real-time   Transport   Protocol
+(N2N-RTP)    protocol    designed    by    Capital
+Technologies   and   Research   is   based   on   the
+traditional  Peer-to-Peer                                  (P2P)  technology  that  is
+getting  more  popular  day  by  day,  disrupting  the
+technology for content distribution that we all know
+about it.
+We   give   our   users   the   possibility   of
+communicating to each other in real-time without the
+need for any special infrastructure, since all user’s
+devices and nodes, together, collectively forms the
+infrastructure.
+Nodes of the network don’t need to download the
+entire media buffer before relaying it to the next
+node; this avoids long delays in conversation and
+eliminates the need to store the entire conversations
+into nodes.
+In order to preserve the quality and avoid delays,
+data is not split into equal chunks as it’s not suitable
+for continuous media, which is of a variable bit rate
+nature.
+6
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+When a conversation is started one node queries
+the network mesh to check all possible ways to route
+the connection, according to user preference about
+security and quality of the service. Another mesh is
+created  on  the  network,  that  is  being  used  as  a
+backup  link  in  case  of  first  one’s  failure,  this
+provides  flexibility  and  good  connection  between
+users.
+Let’s assume we have 2 users: Mike and Anna that
+want to connect each other.
+User registration
+All users that want to use the communication system
+are  required  to  register  into  the  network  with  an
+Extended Public Key that is used later in encryption
+layer. Extended Public Key is generated at the time
+of the creation of the wallet, and it’s unique for each
+account.
+7
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+Session Initialization
+Once Mike gets the Anna’s Extended Public Key
+from the public blockchain, he then uses his own ID
+(which was assigned on user’s first registration into
+the network) among with his device id and public
+key to compute a master shared secret. Once shared
+secret is successfully computed by Mike, it is shared
+through a secure tunnel, which is after deciphered
+and validated by Anna. Upon validation of the master
+shared secret by both parties, any of two users can
+message each other.
+Exchanging Messages
+Once session is established, any of two users can
+start sending each other messages, even if one party
+is not online, but only if all participants have already
+registered into the network by sharing their master
+Extended public key.
+8
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+All messages exchanged through the network are
+secured through a protocol that is similar to Extended
+(X3DH) developed by Open Whisper Systems. Even
+if someone tries to sniff the communication through
+the system, it will look like all data are random,
+because  each  message  has  a  different  signature
+calculated with a different key every time (ephemeral
+keys), so there’s no way to calculate a new key from
+an old one, in case of compromising of a party’s
+keys.
+Encryption  of  communication  is                         256-bit  secure
+through                                                   AES-256    symmetric    cipher    and
+authenticated   by   HMAC-SHA256   hashes,   and
+broadcasted to the Node-to-node Real-time Transport
+Protocol (N2N-RTP) layer for distribution.
+9
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+Voice calling
+Once session is established, users have the ability
+to  call  each  other,  by  using  the  agreement  to  a
+common ephemeral session key that is valid only for
+the duration of the specific call, and become useless
+after the end of the call.
+The voice call is made on the Node-to-node Real-
+time  Transport  Protocol                                  (N2N-RTP)  layer  that
+ensures decentralization, security and flexibility.
+Key verification
+Users can always verify and validate the keys of
+any other party anytime. Validation of keys can be
+done directly in the open ledger of the blockchain, or
+through human readable 24 words mnemonic phrase,
+that can be revealed directly from the application.
+Payment system
+Cost of the service will be determined by node
+operators only, the team behind the project or any
+individual user will have to respect node operator’s
+decision about the cost involving his node in the
+system.
+10
+
+
+
+
+Capital Technologies & Research - Technical White Paper
+Capital (CALL) is based on Proof of Work GPU
+only  mining  algorithm.  It  is  used  only  for  call
+initialization procedure that involves keys exchange
+between other nodes and final users.
+CapitalGAS (CALLG) usage is as we all know
+about, like cost  (gas) per minute or cost  (gas) per
+message. CapitalGAS (CALLG) is based on Proof of
+Work  CPU  only  mining  algorithm,  offering  both
+masternode  rewards  for  devoted  node  operators.
+Aragon2d algorithm ensure zero abuse from botnets,
+GPU  farms  &  ASIC’s.  Also  by  using  DELTA
+difficulty  algorithm,  which  is  the  most  advanced
+difficulty  retarget  algorithm  we  will  be  able  to
+protect  against  evil  pools,  that  try  to  disrupt  the
+network stability.
+Conclusion
+Communication  protocol  offered  by  Capital
+Technologies  &  Research  is  one  most  secure
+solution,  delivering  end-to-end  encryption  using
+blockchain as ledger of public keys, offering a bullet
+proof mechanism.
+11
+
+
+
+
+

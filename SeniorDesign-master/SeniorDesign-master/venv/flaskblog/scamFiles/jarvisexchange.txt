@@ -1,0 +1,1692 @@
+﻿Jarvis.Exchange
+Unlocking decentralization
+Andrew Anderson                                                                                           Pascal Tallarida
+CTA, cofounder                                                                                            CEO, cofounder
+“Even as we enter one of the most disruptive eras in human history, one of the biggest challenges
+we face is that today’s systems and structures still live on, past their expiration dates. We are
+locked into twentieth-century approaches that are holding back the next big fundamental shifts in
+human capacity.” From Future Strong by Bill Jensen.
+The Jarvis Exchange infrastructure has been designed to circumvent the problems of these legacy
+systems and unlock the future!
+ABSTRACT
+When decentralized technologies are applied to personal finance they enable new features and
+deliver solutions that are not possible with traditional Fintech. Jarvis is designed to drive large
+scale adoption of these technologies by improving how users can manage their funds, trade, and
+invest.
+Jarvis  allows  users  to build  their  own financial hub using the Jarvis  Exchange Technology
+Framework. This framework includes licensed centralized and semi-decentralized exchanges with
+a  multiple  wallet  structure  with  escrow  functions.    The  technology  connects  and  makes
+interoperable a network of centralized and decentralized liquidity pools and protocols that enable
+instant cross-chain and cross-asset class exchanges. This interoperability provides users access to
+any financial market and a wide range of DApps. Within the framework, user’s assets can be stored
+in a centralized or decentralized way and be utilized as a medium of exchange or of payment, as
+collateral, or contribute to a liquidity pool. To ensure a seamless experience, the Jarvis technology
+automates every process needed for exchanges, transfers, trading, loans and payments.
+Users can customize their wallet to build the financial hub that best fits their needs. Through user-
+friendly interfaces users can leverage from the framework capabilities. They can manage their
+funds and assets, trade and invest on both digital and traditional products. They can link their assets
+to  a  payment  gateway,  lend  or  borrow  money  and  access  DApps  to  further  extend  their
+possibilities. The intuitive user experience is complemented by AI with conversation skills which
+can prevent users from making mistakes, answer their questions, and help users make better
+decisions while making it easier to navigate within their personal ecosystem.
+The Jarvis exchange technology framework is supported through the Jarvis Reward Token (JRT)
+which provides holders private access to the Jarvis DAO which purpose includes the distribution
+of multiple revenue streams among token holders.
+Copyright 2018 Jarvis Exchange                                                                            Page 1
+
+
+
+
+1.                                                             Introduction                                                                                         are not familiar with, the system should be empowering
+                                                                                                                                                                    to  all  levels  of  users.  This  is  done  by  easing  the
+The value that Blockchain and other distributed ledger                                                                                                              management of private keys. Outdated processes such as
+technologies can deliver is much greater than the value                                                                                                             writing down the seed phrase for a wallet will not foster
+currently being derived from the mere speculation on                                                                                                                large-scale adoption. Several technologies can help to
+digital  assets.  Unfortunately  this  incredible  value  is                                                                                                        securely store, encrypt, and retrieve users keys in a user-
+difficult to access by mainstream users who are not as                                                                                                              friendly way equal to the user experience of centralized
+tech  savvy  in  comparison  with  most  cryptocurrency                                                                                                             solutions. User-centric also means providing users the
+enthusiasts.  The systemic lack of user friendly, publicly                                                                                                          choice between the wallet keys being self-managed or
+accessible interfaces to blockchain technologies makes                                                                                                              managed by a trusted third party.  Delegating the storage
+it near impossible for mainstream users to see or use the                                                                                                           of  the  private  keys  does  not  necessarily  require
+value the technology can deliver.  The result is that most                                                                                                          centralization, as there are many ways this can be done
+people  just  see                                                                                                           “blockchain”  through  the  viewpoint   in a decentralized way. Private keys could be broken
+provided by media about Bitcoin and its speculative                                                                                                                 apart and dispersed across several trustable entities to
+bubble. To move the technology from speculation to                                                                                                                  retrieve them easily in case of  loss  while remaining
+utility where billions of people will be able to derive                                                                                                             highly secured when stored.
+direct value from it, requires the development of  an
+entire  ecosystem  that  is  driven  by  a  user-centric                                                                                                            At Jarvis, maintaining this user-centric focus has led to
+approach.                                                                                                                                                           the adoption of a progressive semi-decentralized process
+that sets aside many of the existing narratives regarding
+decentralization.   The Jarvis team has reviewed how it
+can leverage from both centralized and decentralized
+1.1. User centric approach
+                                                                                                                                                                    components and technology.  This interoperability of all
+                                                                                                                                                                    systems  is  vital  because  it  will  allow  for  greater
+Well  established  Fintech  companies  like  Acorns,
+                                                                                                                                                                    scalability  and  a  smoother  path  to  decentralization
+Revolut or Robinhood have fostered a large user base by
+                                                                                                                                                                    through  several steps.    An  additional benefit  to this
+delivering user-centric onboarding processes, low fees,
+                                                                                                                                                                    approach is that it helps ensure greater compliance and
+user-friendly interfaces, and usually having a mobile-
+                                                                                                                                                                    compatibility with existing legacy financial systems and
+first strategy. Their success has shown that with a good
+                                                                                                                                                                    regulations.
+user  experience,  users  are  ready  to  embrace  new
+practices and are open to be more connected to their
+                                                                                                                                                                    By combining both  on-chain and  off-chain solutions
+finances. Unfortunately, the underlying legacy systems
+                                                                                                                                                                    Jarvis  makes  available  technology  that  provides  a
+upon which most of these offerings are built greatly limit
+                                                                                                                                                                    superior experience and greater benefits to users than
+options for these applications. It is not possible to buy
+                                                                                                                                                                    centralized  technology  alone.  Currently  some  of  the
+stock on Robinhood from an Acorns account; neither
+                                                                                                                                                                    centralized solutions still remain more cost effective for
+can one send funds from an N26 user to a Revolut one;
+                                                                                                                                                                    users.   However, it is expected that as various scaling
+nor is it possible to borrow money with Upstart from an
+                                                                                                                                                                    and side change solutions continue to improve, the cost
+Amazon account. Yet all of these scenarios would be
+                                                                                                                                                                    and  efficiency  of  these  solutions  will  also  improve
+possible through the use of various distributed ledger
+                                                                                                                                                                    accordingly and surpass the cost and speed benefits of
+technologies.                                                  At  their  core  many                                        “Blockchain”
+centralized solutions.
+technologies could be considered as being user-centric
+in  the  sense  that  they  allow  the  building  of  an
+interoperable  financial  ecosystem  centered  around
+users. Even more amazing are the many use cases that           1.2. The Jarvis value proposition
+this technology can make possible. This includes giving
+                                                               This  user-centric  approach  has  driven  the  whole
+access to almost all financial services and markets of the
+                                                               development of Jarvis. The goal has been to set the user
+world through a single user account.
+                                                               at the center of their financial ecosystem, and to make
+Being  user-centric  implies  putting  all  effort  towards    this  ecosystem  as  easy  to  use  as  any  centralized
+improving the usability of the technology. It requires         application.
+automating and unifying the underlying processes on the
+                                                               On the backend, a centralized and a semi-decentralized
+backend in order deliver a frontend which allows users
+                                                               exchange will leverage from a network of centralized
+to derive value from it without effort. The current state
+                                                               and decentralized liquidity pools as well as from escrow
+of blockchain is the opposite of this due to the many
+                                                               and  collateralization  type  functions.  This  technology
+difficult or time consuming processes which need to be
+                                                               framework helps Jarvis to facilitate and automate all the
+performed manually.   The current interfaces and many
+                                                               complicated and visible processes behind the transfer,
+steps result in a poor Blockchain experience, which is
+                                                               exchange, trading, and payment of digital assets. It also
+confining the technology to a “speculative playground”.
+                                                               helps to simplify private key management to deliver a
+Rather than forcing new users to begin doing things they
+                                                               smooth  user  experience.  This  structure  will  ease  a
+Copyright 2018 Jarvis Exchange                                 Page 2
+
+
+
+
+variety of different types of transactions such as sending    architecture allows users to leverage from various on-
+Bitcoin to an Ethereum address; exchanging Bitcoin for        chain and off-chain exchanges, protocols, applications
+Apple stocks; trading Forex from a Litecoin deposit;          and liquidity.    This structure also provides users the
+paying a bill with Monero; or accessing a DApp without        choice of managing their assets and data in a centralized
+                                                              or decentralized way with just one click.
+having the correct amount of required tokens.
+                                                              The centralized exchange will be launched first and will
+On  the  frontend,  most  aspects  of  the  underlying
+                                                              then   be  followed   by  the   launch   of   the  Semi-
+technologies  will  be  delivered  in  a  simplified  user
+                                                              decentralized exchange.   After both have been launched
+interface that does not require understanding of how the
+                                                              the two exchanges will coexist at the same time and will
+technology works. An AI with conversational skills will
+                                                              share  some  components  like  the  off-chain  matching
+further help users  to prevent  mistakes  and  will ease
+                                                              engine, and features like margin trading. Initially the
+access to features, data, and provides a new way to
+                                                              centralized exchange will provide users more features
+interact with software.                                       and  functionalities  due  to  its  ability  to  be  easily
+                                                              compliant   with   existing   regulations   and   legacy
+As a result, Jarvis provides users an easier and faster       technology.   However, it is expected that as regulations
+way to build their own decentralized and interoperable        and   technologies   continue   to   evolve,   the   semi-
+financial hub. With a simple deposit within their wallet,     decentralized exchange will acquire more features and
+they could immediately access native services such as         traction than the centralized one.
+trading, lending, and external services such as betting,
+payment  and  more  through  partners’  decentralized
+applications.
+2.1. Centralized exchange technologies
+The future of finance will be split between the evolution
+                                                              The centralized exchange will be the first part of the
+of the current centralized system built around traditional
+                                                              framework to be delivered.   This was done to facilitate
+actors, and an open-source, distributed, decentralized,       the  fiat  gateway  and  to  ensure  compatibility  with
+automated and tokenized one built around users. Jarvis        existing regulations and legacy financial systems.
+will be an important player of decentralized finance and
+will  enable  everyone  to  build  their  own  financial      2.1.1.                                                        On-demand infinite scalability
+ecosystem  with  a  superior  value  proposition  when
+                                                              The ability to provide unlimited scaling is vital. The
+compared to traditional finance.
+exchange framework, matching engine, messaging bus,
+and various components have been built to allow for a
+primarily decentralized but extremely scalable backend
+infrastructure. This infrastructure framework allows any
+2.                                                            Exchange architecture
+                                                                                                                            part or component of the system to be expanded and
+                                                                                                                            provided more resources both generally or specifically.
+To  date  there  are  already  hundreds  of  different
+                                                                                                                            This way the additional resources can be allocated to any
+exchanges  and  protocols  with  new  solutions  being
+                                                                                                                            specific  component  such  as   a  matching  engine,
+launched all the time. A new offering might highlight
+                                                                                                                            messaging bus, or they can be allocated based on another
+their scalability, security, decentralized structure, the
+                                                                                                                            parameter  such  as  be  pair  specific  so  as  to provide
+number of assets listed, or their user-friendly interfaces
+                                                                                                                            additional resources specifically for the for BTC pair,
+as their value proposition. The Jarvis Exchanges will
+                                                                                                                            ETH pair etc. depending on the needs.
+follow these best practices and even deliver more. It is
+important to note that this is possible because the Jarvis
+                                                                                                                            All parts of the system can also be divided and expanded
+exchanges  and the technology framework have been
+                                                                                                                            into  sub  components.     This  framework  allows  for
+built from the ground-up because no other exchange was
+                                                                                                                            theoretical infinite scalability of all these parts as long
+capable  of  providing  the  backend  and  infrastructure
+                                                                                                                            as  they  are  provided  with  the  correct  hardware
+needed to fulfill our user-centric vision.  Other solutions
+                                                                                                                            resources.  The  exchange  structure  has  also  been
+were not capable of enough flexibility to keep up with
+                                                                                                                            designed so that any component can replicate itself and
+the rapidly changing technologies and regulations
+                                                                                                                            expand  the  load  distribution  automatically  to  other
+                                                                                                                            available hardware resources. This scaling structure can
+While the underlying architecture has been designed
+                                                                                                                            be  implemented  at  both  macro  and  micro  levels  to
+without the restraints of the existing financial systems,
+                                                                                                                            optimize performance to the highest level through “On
+it is clear that in order to maximize the functionalities,
+                                                                                                                            Demand Scaling” and planned load balancing.  This load
+provide the greatest range of assets, and facilitate both
+                                                                                                                            distribution structure has also been designed so that key
+technical  and  legal  compatibility  with  the  existing
+                                                                                                                            components are located directly with or very near the
+financial systems, there will initially need to be many
+                                                                                                                            user and not the exchange to increase security and allow
+components which are centralized in nature.
+                                                                                                                            for superior scalability.
+As a result, the Jarvis technology framework provides
+                                                                                                                            2.1.2.                                                        Distributed servers and decentralized
+the seamless interoperability of centralized and semi-
+                                                                                                                                                                                          load resource structure
+decentralized  exchanges  which  are  united  through  a
+single frontend and interoperable backend. This unique
+                                                              Copyright 2018 Jarvis Exchange                                                                                                                                      Page 3
+
+
+
+
+Other aspects have been designed to further support a         such  as  peer-to-peer  trading  or  triggering  a  loan     -
+network load of tens of millions of simultaneous users.       referred as collateral credit - used for margin trading as
+This includes but is not limited to having a decentralized    example.  Depending  on  the  currency  and  associated
+load resource structure where user specific information       protocol that is being used the way escrow function will
+is stored both by the user on their device as well as on
+                                                              work will slightly differ. Locking assets in an escrow
+encrypted  servers  which  are  distributed  around  the
+                                                              can be done directly within the margin wallet using a
+world with commercially available solutions including
+                                                              multi-signature transaction (for BTC, LTC etc.), or by
+Amazon Web Services and Microsoft Azure, as well as
+                                                              using smart contracts connected through API (Figure 1. 1)
+decentralized  storage  solutions.  With  this  distributed
+                                                              (ETH,  NEO  etc.),  or  directly by calling the  locking
+and decentralized structure, historical data can easily be
+                                                              function when the crypto or the token has this features
+made available to the users from “Geo-Local” servers.
+                                                              in their code (like EOS).
+If the ultimate level of privacy is desired, users can set
+their data settings to only be stored on and accessed from
+their own devices.
+2.1.3.                                                        Matching engine and messaging bus
+Current testing has shown the matching engine able to
+sustain prolonged periods requiring more than 5 million
+transactions per second. A single messaging bus has
+easily delivered just under  1 million transactions per
+second when not optimized and is expected to almost
+double  the  capacity  after  further  optimizations  are
+completed.     Should any negative performance appear
+due to reaching a component capacity it is possible to
+subdivide or create multiple matching engines and/or                                                                                     Figure 1. Process flow to issue collateral credit
+messaging buses. For example; if it was expected, or
+needed  for  the  system  load  to  reach                                                                                  10  million   One of the use cases of the escrow type function is to
+transactions  per  second  it  can  be  easily  distributed                                                                              issue  collateral  credit                                        (Figure   1.).  When  assets  are
+between additional matching engines.    This dynamic                                                                                     requested to be locked (Figure 1. 2), it triggers a collateral
+scalability can be set to occur well in advance of any                                                                                   credit  within the liquidity network  (Figure  1.  3) for a
+limits or closer to when they would be reached.
+                                                                                                                                         percentage of the value of the asset.  The credit could be
+                                                                                                                                         issued  in  the  same  asset  or  different  asset  as  the
+2.1.4.                                                        Wallet structure
+                                                                                                                                         collateral,  depending  on  the  needs  of  the  user.  The
+                                                                                                                                         amount of collateral credit and the fees associated may
+Three wallets coexist within the centralized exchange.
+                                                                                                                                         vary  according  to  the  liquidity  and  volatility  of  the
+The non-custodial wallet is the main wallet where user’s
+                                                                                                                                         collateral. For example, by setting 1 BTC as collateral,
+funds are deposited and withdrawn. It can hold both fiat
+                                                                                                                                         users can get collateral credit in BTC or in USD or
+and digital currencies. Funds in this wallet can be moved
+to the sub-wallets in the exchange structure. Whenever                                                                                   others asset, minus a premium fee. They will obtain 1
+                                                                                                                                         BTC (Figure 1. 4) or up to 50% of the Bitcoin value in
+a  user  would  like  to  trade,  funds  are  automatically
+                                                                                                                                         dollar (Figure 1. 5). To ensure that all loans are always
+moved to the non-margin or to the margin wallet.
+                                                                                                                                         sufficiently collateralized, an off-chain margin monitor
+The non-margin wallet only allows exchange of crypto,                                                                                    (Figure 1. 6) is always checking the relative value of the
+tokens, assets, and stocks with a 1:1 leverage ratio. An                                                                                 collateral. Should the value of the collateralized asset
+exchange consists of directly transferring the ownership                                                                                 drop below the required level, the margin monitor will
+of an asset for another one. The majority of the funds                                                                                   automatically trigger a margin call which could be to
+held in this wallet are secured in cold storage.                                                                                         end the loan partially or completely. This action will be
+                                                                                                                                         in accordance with the user’s preferences and settings.
+The margin  wallet  allows  for  the margin  trading of
+digital assets and traditional products such as Forex. A                                                                                 When a loan is ended, users will pay back the loan with
+margin trade consists of depositing funds as margin to                                                                                   the  designated  interest.    If  the  user  no  longer  has
+gain access to a loan - the leverage. The deposit can be                                                                                 sufficient funds to cover the loan amount and interest
+done in fiat or any asset and will be locked in a multi-                                                                                 then a percentage of the collateralize asset will be sold
+signature escrow to generate a collateral credit utilized                                                                                to cover the remaining amount of unpaid interest.
+for trading.
+2.1.5.                                                        Escrow type functions for margin
+                                                              trading
+Several wallets within the Jarvis ecosystem are capable
+of providing escrow function to serve several purpose
+                                                              Copyright 2018 Jarvis Exchange                                                                                                                        Page 4
+
+
+
+
+2.2.1.                                                        Wallet structure
+The semi-decentralized exchange uses a custodial wallet
+which is a multi-signature capable hot wallet used to
+manage users' assets in a decentralized way.
+Like the margin wallet it has an escrow type function
+which allows to collateralize assets and gain access to
+collateral credit, but, more precisely, allows peer-to-peer
+trading.
+2.2.2.                                                        Escrow type function for peer-to-peer
+trading
+Figure 2. Margin trading on the Forex market.
+Regarding margin trading on the Forex market (Figure 2),
+if users cannot or do not want to deposit fiat, they can
+either sell some assets for fiat, or they can trigger a
+collateral credit in dollar based on a portion of their
+portfolio holdings. The collateral credit will be placed
+within  an  account  opened  with  a  liquidity  provider
+(Figure 2. 1). The credit gives the users access to trade
+Forex  with  leverage.  The  available  leverage  will
+                                                              compensate for a smaller amount of collateralization. If                                                           Figure 3. Use of escrow for peer-to-peer trading.
+                                                              a profit  occurs, it  will be converted from dollars  to
+                                                              Bitcoin and sent to the users’ wallet (Figure 2. 2); if a loss                                                     When performing a peer-to-peer exchange, (Figure 3.) the
+                                                              happens, it would be covered by selling part of the users’                                                         custodial wallet utilizes the escrow type function. When
+                                                              Bitcoins  for  dollar  and  settling  this  with  the  lender                                                      a user would like to place either a market or pending
+                                                                                                                                                                                 order, funds will remain in the user’s or counterparty’s
+(Figure                                                       1.                                                               3).  The  collateral  credit  process  will  be
+                                                                                                                                                                                 wallet but will become locked (Figure 3. 1). The funds will
+                                                              automated and simple and make it easy to trade on Forex
+                                                                                                                                                                                 remain in this holding state until a trade is placed and
+                                                              with any assets. For other margin trading product such
+                                                                                                                                                                                 matched by the off-chain matching engine or the user
+                                                              as CFD or cryptocurrencies, the mechanism remains the
+                                                                                                                                                                                 requests the funds to be released back to the wallet when
+same.
+no  trade  takes  place  or  when  a  timeout  function
+implemented by the user is reached. Following a trade
+match, the trade information is sent to the settlement
+engine which sends the request to release the locked
+2.2. Semi-Decentralized Exchange
+                                                              funds  from  escrow  (Figure  3.  2)  into  the  correlating
+Technologies
+                                                              blockchain (Figure 3. 3). Peer-to-peer exchanges can be
+                                                              done with any assets provided by the liquidity network.
+Essentially  the  Semi-Decentralized  Exchange  is  a
+                                                              Some crypto assets will be able to be exchanged without
+hybrid system which delivers most of what centralized
+                                                              any KYC, while some assets such as stocks will require
+and decentralized exchanges have to offer.   The order
+                                                              the user to have completed KYC.
+book technology, matching engine, and several other
+parts of the centralized structure are reused within the
+                                                              We will be using some side-chain protocols which allow
+semi-centralized structure but will remain off-chain to
+                                                              for the delayed settlement of trading. There are a wide
+ensure the highest performance and lowest fees as well
+                                                              range of use cases when such functionality could be
+as to facilitate complex and various orders types. With
+                                                              helpful.  For  example,  a  trader  would  like  to  make
+this structure the trade settlement will be on-chain, and
+                                                              multiple  trades  over  a  short  period  of  time  without
+users will maintain control of their private keys  and
+                                                              having to settle each trade, but rather have one single on-
+custody of their funds and data for increased security,
+                                                              chain settlement for the group of trades. This results in
+privacy   and   flexibility.   In   addition,   the   semi-
+                                                              lower fees for the user and less burden on the network.
+decentralized  exchange  allows  for  trading  without
+account or KYC in a purely anonymous way.
+Copyright 2018 Jarvis Exchange                                Page 5
+
+
+
+
+would only be required if the user decides to use the fiat
+gateway functionality, or to trade on assets on some
+2.2.3.                                                         Collateral credit and margin trading   external  liquidity pool  that  requires  KYC  like  those
+                                                                                                      providing Forex or Stocks (non-tokenized); or to move
+When  margin  trading,  the  wallet  is  capable  of
+                                                                                                      funds into the centralized exchange.
+collateralizing  assets  through  the  same  mechanism
+described  in  the  centralized  exchange.  The  primary                                              To further enhance the privacy of this exchange other
+difference between the solutions is the asset custody                                                 features such as coin mixing will be facilitated through
+structure and the requirement for some assets to only be                                              3rd party technologies.   These features and technologies
+traded by users who have passed a  KYC procedure.                                                     are  already available  for  many top  cryptocurrencies.
+After completing KYC, users of the semi-decentralized                                                 These matching technologies have often been designed
+exchange, will be able to trade Forex and a wide range                                                to  break  apart  and  restructure  trade  requests  into
+of CFDs.                                                                                              alternate sizes, match the trades, and then re-structure
+                                                                                                      the trades back into one confirmation for the end user.
+2.2.4.                                                         On-chain settlement
+                                                                                                      This and other obfuscation technologies are expected to
+                                                                                                      be utilized as much as possible to allow the users to have
+In   contrast   to   the   centralized   exchange   where
+                                                                                                      a  truly  private  decentralized  trading  experience.  On
+transactions  happen  off-chain,  the semi-decentralized
+                                                                                                      some protocols and digital assets it is anticipated that
+exchange  transactions  will  be  settled  on-chain.  The
+                                                                                                      this type of technology will not be utilized initially but
+blockchains processing time will be improved through
+                                                                                                      will be utilized as soon as legally or technically feasible.
+side chain or other scaling technologies. Currently there
+are  many  scaling  solutions  being  tested  on  live
+Blockchain networks which will allow for some creative
+ways to resolve some of these problems. Solutions such
+as atomic swaps, the Lightning or Raiden networks, as
+well as independent scaling solutions such as Bancor,                                                 3.                                                             Wallet framework
+Kyber network, or  0x could be creatively utilized to
+address liquidity and speed issues. Different blockchains                                             One  of  the  key  features  of  the  Jarvis  technology
+will require the utilization of different scaling solutions                                           framework is its wallet structures. There are multiple
+and so the result will be a mix of external protocols and
+                                                                                                      wallets in order to help reduce risk, comply with various
+scaling   solutions   working   together   through   the
+                                                                                                      regulations, provide the choice between self and third-
+interoperable framework.
+party custody of funds and data, and to facilitate features
+such as escrow and collateralization functions.
+2.2.5.                                                         Cross-chain exchange
+By providing the escrow logic within the wallet it allows
+users  to  perform  cross-chain  transactions  between
+                                                                                                      3.1. Collateralization functions
+chains that support functionalities such as time locks,
+smart contracts, multi-signature dependent actions, etc.
+                                                                                                      Within the Jarvis technology framework, several of the
+The settlement engine acts as a coordinator between the
+                                                                                                      different wallets allow for multi-signature escrow type
+different chains and communicates to the wallet when
+                                                                                                      functions and the creation of collateralized credit for
+and to whom to release the funds.   The funds could be
+released  either  back  to  the  user’s  wallet  or  to  the                                          users.  The  escrow  functionality  enables  peer-to-peer
+counterparty.   In   the   future,   protocols   enabling                                             trading as well as margin trading as has been previously
+blockchain interoperability such as Polkadot, Cosmos or                                               mentioned, but this technology can go far beyond these
+the  Komodo  technology  might  be  used  to  further                                                 simple use cases.
+facilitate different types of cross-chain transactions.
+                                                                                                      Collateralization will help eliminate the existing need of
+2.2.6.                                                         Enable off-chain trust                 specific FIAT or Crypto currency deposits in order to
+                                                                                                      trade most assets or perform a task.  The collateralization
+To provide trust within the centralized components, an
+                                                                                                      allows users to leverage from the underlying value of
+audit of some off-chain components such as the order
+                                                                                                      digital assets and utilize them as reserve of value.
+book will be performed every 30 minutes and published
+on the Ethereum blockchain. The audit feature will be
+                                                                                                      Collateralization makes possible the instant transfer of
+outlined later in the whitepaper (section 12).
+                                                                                                      assets  in  a  decentralized  way,  and  provides  a  very
+2.2.7.                                                         Enhanced Privacy and Security          similar user experience as a centralized solution.   The
+                                                                                                      use of escrow type functions to deliver the collateral
+The primary reasons for some users to select the semi-                                                credit allows funds to be instantly exchanged off-chain
+decentralized  exchange  compared  to  a  centralized                                                 within the liquidity network.
+option is that there is not a need for KYC for most crypto
+transactions and that users are able to retain the keys to
+their wallet.   If a user stays in crypto only mode it is
+possible to enable full privacy and anonymity. KYC
+Copyright 2018 Jarvis Exchange                                 Page 6
+
+
+
+
+(Figure 5.) Within Jarvis, users can manage their assets in
+a centralized or decentralized way. According to the
+user’s preference, their funds would be stored within one
+of two different wallet types; custodial or non-custodial.
+A custodial wallet  (Figure 5. 1) can be located on the
+user’s  phone,  computer,  external  hardware  storage
+device, or web browser widget like Metamask.    This
+type  of  wallet  gives  the  user  access  to  the  semi-
+decentralized exchange which will not require KYC for
+most  products  and  features.     This  wallet  will  be
+integrated with partners Dapps  (Figure  5.  2) to further
+extend options and possibilities being provided to the
+users. A non-custodial wallet is the primary wallet type
+for the centralized exchange (Figure 5. 3). This wallet type
+requires the user to complete KYC and the private keys
+will be held or managed securely by a trusted third party.
+Figure 4. Payment gateway from custodial wallet.
+                                                               By  the  mean  of  a  button,  users  can  switch  from
+                                                               centralized to decentralized mode and their funds are
+Collateralization  makes  it  possible  to  use  instant
+                                                               automatically sent to the respective wallets. Whatever
+payment solutions directly in the custodial wallet (Figure
+                                                               the chosen mode is, users can move their funds to three
+4.).    Users can trigger a loan  (Figure  4.  1) within the
+                                                               others wallet which delivers specific use cases.
+liquidity network which is connected to the payment
+gateway (Figure 4. 2). The Bitcoin would be immediately        The holding wallet (Figure 5. 4) is a highly-secured vault
+exchanged for USD (Figure 4. 3) which can then be used         and an alternative to self-managed cold storage. While
+in the payment gateway using a debit card or contactless       the  highest  level  of  security  of  funds  is  generally
+technology  on  the  users  Smartphone.  Following  the        considered to be for the user to put their funds in cold
+initiation of the payment, the Bitcoin will be released        storage, the holding wallet provides an additional level
+from escrow and sent back to the lender (Figure 4. 4). This    of security compared to most other wallet options. A
+settlement transaction happens on-chain. This feature          user who would like to secure his assets can select from
+makes it possible to use any asset to pay anything in Fiat.    the services of an external partner company to put their
+holdings in an audited cold storage solution. From a user
+perspective, it would only require to click a button to
+move a desire percentage of an asset from any wallet to
+3.2. Multiple wallet structure
+the holding one. The transfer will be according to the
+block time and network load.
+The lending wallet (Figure 5. 5) allows users to lock their
+funds in an escrow to participate in the internal liquidity
+network; they can choose to lock their funds for the
+payment gateway, for the margin trading or transaction
+within the network and will receive several rewards such
+as transaction fees as well as premium. From a user
+perspective,  they  will  access  to  a  specific  interface
+where they can loan to the liquidity network and place a
+desired percentage of their assets. Funds will be moved
+automatically to this wallet, and the earnings will be sent
+either in the main exchange wallet or in the personal
+wallet.
+The spending wallet (Figure 5. 6) will allow funds to be
+accessible for spending by the Jarvis debit card, partner
+debit card, or directly on the users mobile phone using
+NFC technology. This wallet will need to be different
+from the previous wallets to ensure compliance with
+existing  regulations.     This  will  also  allow  for  the
+functionality to  lock  exchange  rates  for  holdings  on
+Figure 5. Multiple wallet workflow.
+some  blockchains.    It  is  expected  that  many  of  the
+functions and capabilities of this wallet will be greatly
+Copyright 2018 Jarvis Exchange                                 Page 7
+
+
+
+
+enhanced  or  supported  through  collaboration  with          The pools are connected through credit line. The Jarvis
+partners. No action is needed from a user perspective as       liquidity network can be accessible by both centralized
+funds  are  automatically  sent  to  this  wallet  when  a     and  semi-decentralized  exchange.  However,  some
+payment is needed. Transfer between the custodial and          liquidity providers require that KYC checks have been
+                                                               completed on clients accessing their liquidity.      The
+non-custodial wallet to the spending one are instant and
+                                                               aggregator technology to allow some of the liquidity to
+happen off-chain through the liquidity network.
+                                                               be  aggregated  externally  and  other  liquidity  to  be
+                                                               aggregated internally so that the various liquidity pools
+Despite having multiple wallets, users will be provided
+                                                               can   meet   appropriate   regulatory   and   security
+with  a  simplified  interface  where  they  can  see  and
+                                                               requirements. Therefore, some liquidity pools will only
+manage  the  combined  asset  holdings  in  one  place.
+                                                               be available for users who have passed KYC (Figure 6. 1),
+Advanced users will be able to select an alternate view
+                                                               and others will be accessible to anyone (Figure 6. 2).
+option where they can see all the wallets separately and
+to change allocation within different wallets manually.        Among traditional  liquidity providers  such  as  others
+                                                               exchanges, market makers and various pools, there are
+already several crypto token and assets solutions which
+are helping to create liquidity. These include solutions
+such  as  the  KyberNetwork  or  Bancor  which  make
+possible  the  instant  exchange  of  a  wide  range  of
+4.                                                             Network of liquidity pool
+                                                                                                                           Ethereum tokens. The Jarvis Technology framework has
+                                                                                                                           been designed to work with these solutions alongside
+Many concepts and ideas have driven the development
+                                                                                                                           with upcoming scaling solutions such as atomic swaps,
+of  the  Jarvis  exchange  technologies  and  framework.
+                                                                                                                           blockchain interoperability and lightning network.
+Among them is the underlying ideology that a platform
+should facilitate access to any market or any asset from                                                                   In addition to these external liquidity pools, any user, or
+a  custodial  or  non-custodial  crypto  wallet.  Not  only
+                                                                                                                           partner can freely participate in the liquidity network
+should  there  be  access,  but  these  assets  should  be                                                                 (Figure 6. 3) and make their funds available for the short
+exchangeable and usable at any time.
+                                                                                                                           term or long-term use of other users or others liquidity
+                                                                                                                           pool. Users will be able to choose which pool they want
+A key component of the Jarvis Exchange architecture is
+                                                                                                                           to contribute to. For example, a user might choose to
+not   just   one   aggregator   but   multiple   liquidity
+                                                                                                                           allocate part of their holdings to the payment pool, to the
+aggregators and matching engines.   These components
+                                                                                                                           cross-chain transactions or margin trading one.     Each
+are capable of working together, combining, re-routing,
+                                                                                                                           pool   will   split   its   revenue   among   participants
+and  facilitating  a  wide  range  of  liquidity  solutions.
+                                                                                                                           proportionate to their holdings.  Such actions  will be
+Together  they  form  a  network  of  liquidity  pools
+                                                                                                                           rewarded  through  ongoing  interest  payments  and
+providing a unique multi-assets offering and facilitate
+                                                                                                                           premium  while  also  helping  to increase  the  internal
+any  exchanges  of  value.  This  liquidity  aggregation
+                                                                                                                           liquidity within the network. Another key component of
+solution is not limited to the Jarvis exchanges but will
+                                                                                                                           this  structure  is  the  ability  for  external  partners  to
+be capable of delivering aggregated liquidity to external
+                                                                                                                           contribute to the liquidity pools indirectly, privately, or
+parties though our FIX and REST APIs.
+anonymously where the regulations allow for such.
+Eventually, as much of the liquidity pool holdings as
+possible  will  be  maintained  in  offline  cold  storage.
+4.1. Liquidity providers
+These holdings will be added back to the active liquidity
+pool should there be increased demand or need.
+4.2. Interoperable network
+The Jarvis liquidity network will allow a wide range of
+liquidity pools to seamlessly work together and to be
+combined with native liquidity to facilitate the instant
+exchanging of cross-chain and cross-asset transactions
+and issuing of credit. When a direct exchange between
+products or assets is not possible, the exchange protocol
+will coordinate different liquidity providers to perform
+several transactions to achieve the desired end result.
+Figure 6. Jarvis liquidity network.
+The Jarvis liquidity network (Figure 6.) will consist of
+several connected liquidity providers of different asset
+classes with various internal regulatory requirements.
+Copyright 2018 Jarvis Exchange                                 Page 8
+
+
+
+
+Following  the  launch  of  the  crypto  products,  other
+traditional products and markets such as Forex, stocks,
+commodities, and so on will be enabled. These products
+will  initially  only  be  available  to  clients  who  have
+completed the KYC process. Until the various assets and
+markets become digitalized, Jarvis will use a mirroring
+solution which will function very similar to most CFD
+solutions.   This consists of Jarvis opening an account
+with various liquidity providers and placing identical
+trades  to  match  the  trades  placed  with  Jarvis.  This
+solution has been chosen over creating tokens backed by
+assets because it has been found to be more scalable,
+secure and faster to implement at this time. It is expected
+that this mirroring solution will change over time as
+other digitization solutions become more available and
+Figure 7. Workflow cross-asset and cross-chain transaction.                                                                         regulations  being  to  allow  for  direct  digitization  of
+                                                                                                                                    assets.
+A current example of this would be if a user wanted to
+trade  their  Bitcoin  for  Apple  stocks                       (Figure                                                      7.).   The current lack of regulatory clarification regarding
+Depending on the volume, the asset liquidity, volatility                                                                            digital  assets  is  not  expected  to  limit  the  listing  of
+and the custody of the users funds, various algorithms                                                                              tokenized assets that will cover a wide range of products
+will determine the associated fees, the exchange rate and                                                                           including tokenized  funds,  tokenized  real-estate,  and
+how  the  transaction  will  be  performed  to provide  a                                                                           digitized  versions  of  traditional  products.  The  vast
+favorable  fast  exchange.  For  less  liquid  assets,  the                                                                         majority of these assets will be listed through external
+transactions will happen one after another until all parts                                                                          partners, so most  of this  offering will rely  on  other
+are completed before the confirmation is provided in                                                                                projects successfully tokenizing real world assets. Real
+order  to  reduce  risk.     In  the  Apple  Stock/Bitcoin                                                                          estate,  artwork,  investment  funds,  and  other  similar
+example, both assets are more liquid and this conversion                                                                            types of assets are more likely to be considered more as
+would be able to happen almost simultaneously.   The                                                                                long-term   investments   rather   than   day   trading
+Bitcoins will be sold against the dollar (Figure 7. 1) in one                                                                       opportunities  and  will  not  be  available  for  margin
+liquidity pool at a locked and lower exchange rate to                                                                               trading.   Despite not being allowed for margin trading
+offer a premium; in the meantime, the Apple stocks will                                                                             these digitized assets will be entitled to be collateralized
+be bought through an aggregated dollar pool (Figure 7. 2).                                                                          in order to let users do margin trades based on their
+Finally, the dollar bought by selling the Bitcoins will be                                                                          holdings.   Such assets will also be listed in the market
+sent  to  the  aggregated  dollar  pool.  While  there  are                                                                         place interface along with TGEs and other traditional
+multiple steps the transaction time can be near instant                                                                             investment solutions provided by partners.
+when the Bitcoin is settled with a side chain or internal
+liquidity pool. The same mechanism is used for cross-
+chain transaction or to exchange any crypto to any fiat
+4.4. Providing utility and liquidity
+(Figure 7. 3).
+                                                                The second role of the exchange is to provide ongoing
+It   is  expected  that  some  features   or   levels   of
+                                                                liquidity and exchange functionality for all of the crypto
+interoperability might not be available to all users in all
+                                                                pairs, tokens, or fiat currencies  supported within the
+jurisdictions  due  to  regulations  or  the  lack  thereof.
+                                                                liquidity   networks   and   protocols.   The   automatic
+Jarvis  will  strive  to  deliver  the  highest  level  of
+                                                                interoperability of assets provides great value as this
+interoperability and availability of functions to all users
+                                                                facilitates the user experience by automating the steps
+either  directly  or  through  partnerships  with  existing
+                                                                and making all assets a medium of exchange or payment.
+regulated entities in key jurisdictions such as the USA,
+Japan, South Korea, and Australia.
+Through its API, the true utility and liquidity of the
+system can be delivered to the Blockchain ecosystem.
+Centralized  and  decentralized  financial  applications,
+4.3. Multi-assets trading and exchange                          TGE’s, payment solutions, other exchanges and wallets
+                                                                will all be able to directly and indirectly benefit from
+The first role of the exchange is to provide access to and      this solution.
+interoperability between various assets so that they can
+                                                                The Jarvis Exchange framework might be seen as an
+easily be traded in the centralized exchange, the semi-
+decentralized exchange or from a crypto wallet.                 exchange layer which will fit in the technological stack
+                                                                of underlying applications and services layers that will
+The first stage roll out of products and services will          comprise the new Web 3.0. Even if Jarvis currently has
+focus  on  the  crypto  exchange  which  will  have  top        enabled   some   centralized   components,   they   are
+cryptocurrencies such as BTC, BCH, ETH, LTC and                 primarily  there  to  meet  compliance  with  existing
+USDT.   The   expansion   of   products   will   occur          regulatory requirements for fiat gateways.   Jarvis will
+incrementally over the months following the TGE.                strive to eliminate or provide alternative options to the
+Copyright 2018 Jarvis Exchange                                  Page 9
+
+
+
+
+centralized  parts  as  quickly  as  solutions  become        5.1.3.                              Conversation skills interface
+available.
+The  name  Jarvis  was  inspired  by  a  different  key
+component which will help empower users and simplify
+the interaction with technology framework. This key
+component is an AI with conversation skills, hence the
+name Jarvis. The AI will also provide a new way to
+5.                                                            User interface and applications
+                                                                                                  interact with the software and reach any features, data,
+                                                                                                  applications, or assets.                                     The Jarvis AI will be the main
+The Jarvis team will initially be launching a mobile
+                                                                                                  point of interaction within the software and will be used
+wallet focusing on monitoring and payment solutions                                               to navigate within the apps, learn about features, get
+and  a  cross-platform  multi-assets  trading  interface                                          price quotes, ask questions, etc. As a user continues to
+called Jarvis Trader. Jarvis trader and the Jarvis wallet                                         interact with the software the AI will learn from the
+have been designed to provide a user-friendly interface                                           users  habits  and  will automatically display shortcuts
+for  the  technology  framework  behind  the  Jarvis                                              toward the most used features within the application.
+                                                                                                  The AI will always be accessible through a “+” button
+exchanges. The user-friendly interfaces combined with
+                                                                                                  displayed on every screen of Jarvis application.
+the  interoperability  technology  solution  will  directly
+compete with traditional Fintech applications such as
+                                                                                                  The AI will further simplify the user experience through
+Revolut or Robinhood.
+                                                                                                  writing or voice requests. For example, writing “send 20
+                                                                                                  Euros worth of BTC to @adam” will pre-configure the
+As much as possible, the Jarvis experience simplifies the
+                                                                                                  wallet to send 20 Euros in Bitcoins to the contact Adam.
+users interactions with every aspect of the underlying
+                                                                                                  Saying “ETHUSD H4” will open a ETH/USD chart with
+technology.    This section is a quick overview of the
+                                                                                                  a H4 time frame.  “BTC” will provide data about the
+interfaces and their features; a more detailed one will                                           price or will suggest opening a chart or a wallet.
+be provided in other documents.
+                                                                                                  The AI will be able to help and guide users initially by
+                                                                                                  simplifying the setup of an account and will continue to
+                                                                                                  help  users  by  assisting  with  various  commands  and
+                                                              5.1. General concepts               monitoring  user’s  activities  for  mistakes  such  as
+                                                                                                  entering a non-existing, non-active or wrong address.
+While the two interfaces are targeting different users and                                        The AI can also be requested to monitor and analyze the
+will be marketed in different ways, they both contain                                             risk and exposure of user’s portfolio and so on.
+several common features that makes up the DNA of
+Jarvis applications.                                                                              5.1.4.                                                       Easy purchase, transfer and exchange
+                                                                                                                                                               of assets.
+5.1.1.                                                        Blockchainless experience
+                                                                                                  The interfaces of the Jarvis platform and wallet have
+A good user interface solution shouldn’t require any                                              been  designed  to  facilitate  the  exchange,  buying  or
+difficult user action or input in order to leverage and                                           selling of any assets in the system without the need for
+derive value from the underlying technology.  Whenever                                            a complex or traditional process. Buying a fraction of
+possible  the  existing  trading  processes  need  to  be                                         Bitcoin or apple with fiat or any other funding source
+automated so that the frontend just helps users to request                                        would take few seconds. The same will also be true for
+an action which is fulfilled automatically.   The various                                         the rebalancing of one’s portfolio allocation. This type
+processes and steps such as determining the gas level, or                                         of user interface will greatly ease the transfer of value
+cancelling   an   unconfirmed   transaction,   or   the                                           and assets. Future iterations will even allow users to
+acquisition of specific tokens to work with a specific                                            seamlessly send Bitcoins to an Ethereum address; or to
+DApp’s, or moving funds within wallets, or contributing                                           a contact’s a phone number or an email address even if
+toa specific crowdsale, or the collateralization of assets                                        this person does not have Jarvis account.
+to trigger a collateral credit will be done automatically
+and seamlessly.
+                                                                                                  5.2. Specific features
+5.1.2.                                                        Centralized or semi-decentralized
+                                                              switch
+                                                                                                  The wallet is a mobile application designed to better
+Users will have the choice between a semi-decentralized                                           connect  users  with  their  finances  with  a  greater
+and  a  centralized  mode,  or  other  external  modes                                            emphasis   on   monitoring   and   simple   payment
+provided by other third parties.   This ability to change                                         transactions and asset management while the trading
+                                                                                                  application is a mobile, web and desktop application
+modes will give users the choice between a trusted third
+party and self-custody of their assets, funds, and data                                           focused on the trading aspect.
+through the simple click of a button.
+                                                                                                  5.2.1.                                                       Mobile application Jarvis Wallet
+Copyright 2018 Jarvis Exchange                                                                                                                                                                        Page 10
+
+
+
+
+The Jarvis Wallet could be seen as a hybrid solution that       exchanges and traditional brokers. When a user connects
+mixes the best features of a crypto wallet while also           to another exchange, they will continue to leverage from
+providing features similar to other mobile banking and          the Jarvis Trader UX and UI.
+investing  applications  such  as  Revolut,  N26,  and
+Robinhood.
+5.3. Applications layer
+A Jarvis Wallet user will have the possibility to manage
+their asset portfolio or to buy, sell, exchange and transfer
+assets with ease.   The application will also provide easy
+access to collateral credit, and be capable of making a
+payment with the use of the Jarvis debit card or the NFC
+features of their Smartphone. A user could use any asset
+supported by the exchange as a payment or collateral
+source. Users will be able to pay their bill with their
+Apple stocks, Bitcoin, US Dollars, tokenized assets, or
+any collateral credit.
+5.2.2.                                                          Mobile / Web / Desktop application
+Jarvis Trader
+The Jarvis Trader Platform will be our flagship offering
+and  is  expected  to  be  a  primary  driver  of  user         Figure 2. Applications layer.
+acquisition.  The  platform  will  initially  focus  on
+delivering  the  most  value  to  high-end  and  more
+sophisticated traders who are looking for a user-friendly
+and yet professional trading platform. The goal is to
+focus on the most important yet simple tasks such as            6.                                                            Additional Security Features
+taking and managing a trade or making and sharing
+analysis, and with a great emphasis on enhanced social          One of the user concerns that prevents cryptocurrency
+features, such as tipping for rewarding contributors.           adoption is the security. Whether it is about the security
+                                                                of user accounts or user funds, Jarvis sees it necessary
+The  trading  platform  will  provide  users  with  an          to allocate an important part of our resources to security
+innovative user experience called “mouse trading”.  This        that does not compromise the user-friendliness of Jarvis.
+feature will enable additional faster ways to take trades       In general security features could be divided into two
+                                                                different  categories.  The  first  are  those  which  are
+and adjust the risk of a position.  Several other advanced
+                                                                designed to help protect against and prevent external
+tools  such  as  an  integrated  block  explorer,  trade
+                                                                threats. The second are features designed to help reduce
+analyzer,  market  sentiment  monitor,  and  other  more
+                                                                or prevent user errors. Jarvis has carefully considered
+traditional   technical   analysis   tools   and   technical
+                                                                both types of risk and security features when designing
+indicators will help ensure proper screening and analysis
+                                                                the technology framework.
+of the markets.
+The platform interface has been designed to be modular
+so that any user can modify it to better fit their needs.       6.1. General aspect
+Developers   can   create   widgets   in   almost   any
+programming language to extend the capacity of the              Security  issues  often  stem  from  user  mistakes  and
+                                                                inattention rather than a forceful breach of a system.
+platform. Various tools like a new order book, a trading
+                                                                With this mind, education is seen as one of the primary
+algorithm, an indicator, or any other desired tools are all
+                                                                ways  to  reduce  the  risks.     Educational  tools  and
+possible.  These  customization  options  can  be  used
+                                                                resources specifically designed to reduce this type of
+individually or developers can offer their tools for free
+                                                                risk have been embed within the Jarvis applications and
+or for a fee in the integrated store. The store will offer
+                                                                are  present  from  the  initial  onboarding  through  the
+the  general  community  widgets  as  well  as  several
+                                                                advanced user protocols. There are many helpful tips
+“business-oriented” one which have been designed to
+                                                                and assistance powered by the AI to guide users at every
+help provide professional traders the ability to deliver        step.   Jarvis also explains to users why the various steps
+and  monetize  their  content.    This  will  include  such     or actions are needed to secure their account.
+features as facilitating a live trading session, private chat
+                                                                To protect users from committing unwanted mistakes,
+rooms, e-learning modules, etc…
+                                                                the  Jarvis  AI  can  help  prevent  users  from  making
+By  default,  the  interface  will  be  connected  to  and      mistakes such as sending crypto-assets to a non-existing,
+                                                                wrong or blacklisted address. The AI will also be able to
+powered by the Jarvis exchanges, but it could be used as
+                                                                perform  requested  risk  checks  like  asking  users  to
+standalone  product  that  can  easily  integrate  other
+Copyright 2018 Jarvis Exchange                                  Page 11
+
+
+
+
+double-check details for transactions over a specified           6.3. Decentralized way with custodial wallet
+amount.
+                                                                 Numerous centralized exchanges have been hacked and
+In  addition  to  the  AI  solutions  the  various  Jarvis       remain a prized target for hackers.  Such situations have
+interfaces and systems have been designed to give the            created a lack of trust for these entities and has helped
+user greater control and the ability to decide whether
+                                                                 to drive users to adopt cold storage and self-custody
+they  want  their  funds  managed  in  a  centralized  or
+                                                                 solutions. While such a solution provides great security
+decentralized way.
+this  also  requires  that  users  take  full  responsibility.
+However,  the  outdated  methods  like  the                      12  words
+passphrase or paper wallet do not provide the ease of use
+6.2. Centralized way with non-custodial                                                                                      that is required for large-scale adoption.
+                                                                 wallet
+                                                                                                                             6.3.1.                                                         Storage of private keys
+Generally, it is expected that the centralized option will
+be the best for most new users due to similarities it has                                                                    Much like the system in a banking debit card whose pin
+with existing financial applications.                                                                                        code decrypts the key encrypted within the card, the best
+                                                                                                                             practice for storing the private key is when it remains
+6.2.1.                                                           Funds protection                                            encrypted on the user device. Additional options will be
+                                                                                                                             offered to users to store their private keys within a cold
+When users delegate the security of their funds to the                                                                       storage solution such as plastic card or USB device; the
+Jarvis Exchanges or other 3rd party partners, these funds                                                                    same  device  used  with  the  centralized  exchange  to
+will generally be stored in multiple multi-signature cold                                                                    increase  the  login  process  can  be  used  to  store  the
+storage wallets located in different locations and secured                                                                   encrypted  private  keys  of  users.  The  keys  could  be
+by  different   regulated   teams.   Extensive   AI  and                                                                     decrypted by a password, a pin code, or some biometric
+monitoring  solutions  combined  with  ongoing  audits                                                                       input. In the event the device is lost or stolen, users will
+every  30  minutes  will  be  utilized  internally  to  help                                                                 be able transfer all their funds to another address with
+reduce risks to funds to the greatest extent possible.                                                                       one click for safety. However, to sign these transactions,
+users will need to enter their private keys or their seed,
+6.2.2.                                                           Users account protection
+                                                                                                                             which users will be required to know or retrieve.
+While Jarvis will do all that is possible to ensure the                                                                      6.3.2.                                                         Retrieval of private keys
+highest level of security against external threats, it is
+clear that just merely complying with existing financial                                                                     To retrieve private keys, blockchain systems usually use
+regulations  or  industry                                        “Best  Practices”  such  as                                 a seed made of  12 words. While considered a secure
+providing multi-factor login, IP or device monitoring, is
+                                                                                                                             method, the encryption of the keys within a 12 words
+woefully inadequate when it comes to fully protecting
+                                                                                                                             seed is not convenient as it has to be stored on paper.
+clients.
+                                                                                                                             With  the  advent  of  pattern  and  image  recognition
+                                                                                                                             technology, the 12 words could be replaced by an item
+Security options in Jarvis will be further enhanced by
+                                                                                                                             users take a picture of, or a biometric face scan, or a
+hardware solutions for 3FA logins, and more. This type
+of solution would only allow either trading or a login to                                                                    combination of various verification methods including a
+the account when this device is connected. There are a                                                                       face scan, an image of an object, a drawn pattern, a
+wide  range  of  hardware  solutions  which  can  be                                                                         color, a word, or a pin code, etc… Such custom methods
+implemented.   Some examples include a USB key or                                                                            would normally be considered easier for the user to
+magnetic card that needs to be connected to the users                                                                        remember and thus facilitate the recovery of the private
+phone or computer either manually or through a NFC or                                                                        key. All of these options will be provided so that users
+Bluetooth connection.    Such devices could also include
+                                                                                                                             can choose their preferred one.
+a requirement for a fingerprint or to push buttons for a
+manual  confirmation  of  any  account  related  action.
+                                                                                                                             In the case users would not be able to retrieve their
+These    solutions    combined    with    algorithmic
+                                                                                                                             private key alone, another option will be through the use
+authentication codes (like Google Authenticator) could
+                                                                                                                             of trusted devices. These days it is common for persons
+help  ensure  a  wide  range  of  options  which  will  be
+                                                                                                                             to own multiple devices such as a Smartphone, tablet,
+convenient yet ensure a very secure trading environment
+                                                                                                                             computer, or even a smart watch. Any user owned and
+for Jarvis users.
+                                                                                                                             controlled device could be designated as  trusted and
+To avoid fishing, when setting up an account, users will                                                                     could host the user’s encrypted private key. Specific
+have  to  choose                                                 3  colors.  When  logging  into  their                      small applications will be developed for each type of
+account,  before  entering  their  password,  Jarvis  will                                                                   device and will allow them to hold and encrypt these
+always show these 3 colors so users can know if they are                                                                     keys while also allowing users to retrieve them easily
+on the official website.                                                                                                     with   a  pin  code,  password  or  any  multi-factor
+                                                                                                                             authenticator such as a biometric scan.
+Copyright 2018 Jarvis Exchange                                   Page 12
+
+
+
+
+Similar to the way a trusted device works, a trusted third      external stable coin solution if a strong option with real
+party could be utilized to store all or portions of a private   time audits.  The Jarvis Exchange Framework allows for
+key. Such third-party solutions will most likely deliver        multiple  internal  and  external  stable  coins  to  be
+the  highest  level  of  convenience.  When  using  such        implemented and used.
+external parties it could be possible to break up the seed
+and store different parts of the private key with various
+external  providers  so  that  even  if  decrypted  the
+7.2. Jarvis Reward Token (JRT)
+information  would  still be incomplete.  For  example:
+only 11 of 12 words for the 12 words passphrase, or the         The role of the Jarvis Reward Token (JRT) is to help
+private key without the first or last character would be        grow the user base by redistributing the income of the
+stored externally.   While some external solutions will         Jarvis ecosystem as a reward to token holders, users,
+require an account that has passed the KYC procedure            partners, and developers.   This token and its associated
+others  will not.  Delegating the management  of  keys          structure aim to help create an unending cycle that will
+externally will not mean the user needs to switch to a          continue to support the growth of the project.
+centralized system. If wanted, the users will be able to
+remain  anonymous.  Other  options  for  private  key           7.2.1.                                                         Reward mechanism
+storage include the keys being held with other trusted
+                                                                On a monthly basis, a minimum of 20% and a maximum
+Jarvis users. In the case a user would like to retrieve a
+                                                                of  40%  of the revenues  generated by Jarvis  will be
+seed or keys, they will send a message to their contacts
+                                                                dispatched  among  token  holders.     The  market  has
+holding the portion of their keys through one of the
+                                                                already proven that an exchange with a fiat gateway has
+Jarvis applications.
+                                                                great value in the financial services industry.  The Jarvis
+Additionally, other more traditional solutions will be          Reward Token makes this exchange even more unique
+provided to advanced users such as allowing them to             in  that  it  will  continue  to  reward  token  holders  by
+print their keys or 12 words passphrase or to save them         distributing to them such a large portion of the income.
+on other cold storage solutions.                                The revenue distribution will be done in a fixed value
+instrument  such  as  the  Jarvis  Dollar.  An  additional
+minimum of 5% and maximum of 10% of the revenues
+generated by Jarvis will be distributed among the TGE
+participants to further reward them for their trust and
+7.                                                              Jarvis Tokens                                                  risk taking.
+                                                                                                                               7.2.2.                                                       Distribution of the tokens
+                                                                7.1. Jarvis Dollar Token
+                                                                                                                               The Jarvis Reward Token (JRT) will be used to reward
+The  Jarvis  Dollar  token  is  a  centralized  stable  coin
+                                                                                                                               all  participants  of  the  ecosystem  including  TGE
+backed by real dollars. It always worth 1 dollar and is
+used as a medium of payment and as an asset for trading                                                                        contributors,  partners,  users,  and  developers,  and
+crypto/fiat pairs as well as use with digitized Forex and                                                                      anyone who is bringing more users or adding more value
+stocks from a wallet. The Jarvis Dollar token will be                                                                          to the ecosystem. Two pools of tokens have been created
+launched following the finalizing of several banking                                                                           in  order  to  distribute  to  the  partners,  developers,
+partnerships.                                                                                                                  influencers, and users so as to incentivize them in a
+                                                                                                                               virtuous  circle.  The  more  value  they  add  to  the
+The Jarvis Dollar smart contract will hold billions of
+                                                                                                                               ecosystem,  the  more  tokens  they  will  receive  as  a
+Jarvis Dollar tokens but will only unlock one token for
+                                                                                                                               reward.   In that these tokens are connected with portion
+each real dollar deposited in a Jarvis banking account.
+                                                                                                                               of the company revenue, the holders of the tokens will
+To ensure that each Jarvis Dollar in circulation is backed
+                                                                                                                               be incentivized to keep bringing more value to increase
+by  a  real  dollar  in  the  Jarvis  banking  accounts,  an
+                                                                                                                               the revenue of the ecosystem, and their revenues as well.
+independent audit will be conducted every 30 minutes
+                                                                                                                               The  first  pool  will  focus  on  more  B2B  or  partner
+on the smart contract and on the banking account. The
+results  of  this  audit  will  be  published  on  a  major                                                                    relationships  and  the  second  pool  of  Jarvis  Reward
+blockchain such as Ethereum or EOS.                                                                                            Tokens will be managed by the Jarvis DAO.   Anyone
+who holds Jarvis Reward Tokens will gain membership
+Due to the current lack of strong publicly available and        and rights in the Jarvis DAO.
+audited   stable   coin   options,   Jarvis   has   pursued
+establishing  our  own  stable  coin  on  the  Ethereum
+network.  However,  we will look at the evolution  of
+Ethereum  network  following  the  implementation  of
+various scalability solutions and if the newer Proof of
+Stake model does not significantly improve costs and            8.                                                             Jarvis DAO
+scalability on the network then Jarvis will either use a
+different  network  such  as  EOS  and/or  will  use  an
+Copyright 2018 Jarvis Exchange                                                                                                                                                              Page 13
+
+
+
+
+Every  Jarvis  Reward  Token  holder  will  gain  the           parties  who  are  helping  to  support  Jarvis.     Some
+opportunity to be involved with the Jarvis DAO.   The           examples might be to allocate tokens as a reward for
+Jarvis DAO’s primary role is to organize the community          content contribution, or a reward allocation based on the
+and to manage two pools of tokens which are designated          number of new users a person or entity have referred this
+to foster new user acquisition. The first pool of tokens        month, etc…   The goal of these token pools is to ensure
+will consist of 30 Million Jarvis Reward tokens which           that  users,  partners,  and  developers  will  always  be
+will  be  allocated  to  the  DAO  few  months  after  the      entitled to receive monthly revenue through their tokens
+conclusion of the TGE.    The second pool of tokens will        and  stay  incentivized  to  keep  contributing  to  the
+come from a monthly allocation of profits of the Jarvis         ecosystem.
+ecosystem proportionate to the Jarvis Reward Tokens
+that the DAO is holding.   It is expected that the second
+pool of funds will be held in Jarvis Dollar or other stable
+token. Through a voting mechanism, DAO members can
+decide  to  organize  trading  contests,  hack-a-thons,
+9.                                                              Jarvis TGE
+bounty campaigns or other campaigns which will utilize
+the funds the DAO is holding.  All members of the Jarvis
+                                                                The Jarvis team has decided to run a TGE to increase the
+community  will  be  welcome  to  and  encouraged  to
+                                                                funds to speed up the expansion of the project instead of
+provide ideas  or  proposals  for  projects,  DApps,  and
+                                                                utilizing other funding options. A Token sale allows
+other events which can help improve or grow the Jarvis
+                                                                Jarvis  to simultaneously run  a  marketing strategy to
+ecosystem.  After an idea or proposal has been vetted by
+                                                                acquire users, to raise funds, and to increase general
+the Jarvis team to ensure feasibility, only the members
+                                                                awareness of the project.   This will help to attract new
+of the Jarvis DAO will be able to vote on the proposals
+                                                                clients, additional team members, and potential partners
+they would like to see pursued. DAO members will then
+                                                                who all benefit from the exposure.
+be able to vote on  a regular basis  on which project
+proposals and initiatives they would like to see funded.
+                                                                A key advantage of using the TGE to expand the project
+                                                                is that many contributors will also be existing or future
+The two different pools  of funds will have different
+                                                                users of Jarvis and will thus be rewarded by holding
+allocation rates.   The pool consisting of Jarvis Reward
+                                                                tokens and helping build the community.
+Tokens  will have  a fixed  quarterly distribution  rate.
+This distribution rate will be determined by the first vote
+of  the DAO.    So for  example  if  the DAO  votes  to
+distribute this pool of 30 million tokens equally over a 6      9.1. Details of the TGE
+year period then  there will be 5 million tokens available
+each year.     This would make 1,250,000 Jarvis Reward          Token name                                                   JRT - ERC20
+Tokens available each quarter for projects and events
+                                                                Reward rate                                                  20% of the revenue
+which will help grow the community or enhance Jarvis.
+                                                                Total number
+If  for  any  reason  the  tokens  allocated  to  a  specific   420 000 000
+of tokens
+quarter are not fully utilized then the DAO will be able
+to  vote  if  they  would  like  the  tokens  destroyed  or     Token price                                                  $0.10
+returned back to the pool.
+                                                                Hard cap                                                     $21 000 000
+                                                                Currencies
+In addition to the pool of Jarvis Reward Tokens there                                                                        ETH
+                                                                accepted
+will  be  the  second  pool  of  funds  derived  from  the
+                                                                                                                             •                         30% during the presale period
+monthly profits.   This pool of stable tokens will also be      Presale
+available for full or partial distribution towards projects
+                                                                •                                                            20% during the 1st week
+and initiatives which can help improve Jarvis.   Between
+                                                                •                                                            10% during the 2nd week
+these two pools of tokens the Jarvis project will be able
+                                                                Main sale
+                                                                •                                                            0% during the last week
+to ensure ongoing financial support for a wide range of
+community driven initiatives.   The funds and initiatives
+supported and managed by the Jarvis DAO will not be             KYC
+                                                                Yes
+                                                                required?
+the only growth mechanism for the ecosystem but have
+                                                                Citizens or residents of The
+been designed to be a very complimentary structure to
+                                                                Ineligible
+Republic of China, USA, Canada,
+further enhance the projects and initiatives which will be      contributors?
+and a few other jurisdictions.
+supported and driven internally by the Jarvis team or by
+other partners in the Jarvis ecosystem.
+There is a wide range of ways these two different token
+pools can be allocated.   It is anticipated that the DAO
+will vote to distribute a portion of the tokens to various
+Copyright 2018 Jarvis Exchange                                  Page 14
+
+
+
+
+9.2. Token distribution                                   revenue will be allocated for token buy back.   Then the
+                                                          company  will  use  these  allocated  funds  to  purchase
+280M (70%)
+Jarvis Reward Tokens from time to time from the open
+market.   Any tokens purchased by the company will be
+•                                                         260M for TGE                                                    destroyed and a record of the destroyed tokens will be
+Token distributed
+                                                                                                                          participants                                             published. This will lead to an ongoing or continuous
+to contributors
+                                                          •                                                               20M for bounty and
+                                                                                                                                                                                   reduction  of  JRT  tokens  at  the  same  time  that  the
+                                                                                                                          airdrop
+company is becoming more profitable.    Because the
+monthly reward will be distributed evenly to all tokens
+Tokens for the                                                                                                                                                                                                                                                                                                      the lower the number of tokens the greater the reward.
+                                                                                                                                                                                   30M
+DAO pool
+                                                                                                                                                                                                                                                                                                                    Thus,  the  value  of  the tokens  should  increase  at  an
+Tokens for the
+                                                                                                                                                                                   50M                                                                                                                              exponential  rate  over  time  because  the  increasing
+partnership pool
+                                                                                                                                                                                                                                                                                                                    profitability will further facilitate the company to have
+                                                                                                                                                                                   60M
+                                                                                                                                                                                                                                                                                                                    more funds to buy back and destroy more tokens while
+                                                                                                                                                                                                                                                                                                                    at the same time the increased revenue of the company
+Token for the
+                                                                                                                                                                                   •                                                            50M for the core team        will also be distributed each month.
+company
+                                                                                                                                                                                   •                                                            10M for the advisors
+                                                          9.3. Additional Bonus Pool for TGE
+                                                                                                                                                                                                                                                                                                                                                                                    10.  Monetization
+                                                                                                                          Participants
+                                                          We  are  aware  that  right  after  a  token  is  listed  on                                                                                                                                                                                              Jarvis is planning to exploit the exchange capabilities
+                                                          exchanges sometimes uncommitted holders choose to                                                                                                                                                                                                         through various revenue streams and business models.
+                                                          sell their tokens with the plan to possibly repurchase the                                                                                                                                                                                                The first and more obvious one is through transactions
+                                                          tokens in the future. It is therefore critical for Jarvis to                                                                                                                                                                                              fees.  On  the  centralized  and  on  the  decentralized
+                                                          do all that is possible to ensure the participants of the                                                                                                                                                                                                 exchange, the targeted fees are expected to be as low as
+                                                          TGE get even more value for acquiring the token during                                                                                                                                                                                                    0.1% for the taker and 0.05% for the maker, and a 0.5%
+                                                          the TGE rather than  after  when it  gets  listed  on  an                                                                                                                                                                                                 fee for all fiat withdrawals when the exchange will reach
+                                                          exchange.  To  facilitate  this  Jarvis  will  reward  the                                                                                                                                                                                                certain milestone. For example; the TGE will provide
+original  TGE  participants  with  an  additional                                                                                                                                                                                                                       5%                                          additional funds to the exchange to setup an additional
+                                                          monthly bonus of the Jarvis revenue beyond the already                                                                                                                                                                                                    internal liquidity pool which could help lower the fees.
+                                                          planned 20%. 4% will be allocated among every TGE                                                                                                                                                                                                         For some assets and operations fees might be adapted
+participants,   and                                                                                                                                                                1%   among   the   presale   round                                                                                               higher  or  lower  depending  on  market  needs  or
+                                                          participants.  This  will be  valid  for  all  original TGE                                                                                                                                                        conditions.
+                                                          participants  who  hold  their  tokens  on  the  Jarvis
+                                                                                                                                                                                                                                                                                                                    By providing a public API, Jarvis will be able to provide
+                                                          exchange or other approved wallet.     Eligibility for this
+                                                                                                                                                                                                                                                                                                                    liquidity to compliment solutions and products being
+                                                          bonus will continue for all original TGE participants for
+                                                                                                                                                                                                                                                                                                                    offered by partners.   The Jarvis API will help partners
+                                                          all tokens acquired during the TGE. Tokens acquired by
+                                                                                                                                                                                                                                                                                                                    provide wallets, a fiat gateway, or as convenient way to
+                                                          original TGE participants after the TGE has concluded
+                                                                                                                                                                                                                                                                                                                    exchange one asset for another. The API would also be
+                                                          will not be eligible for this additional monthly bonus.
+                                                                                                                                                                                                                                                                                                                    able to support a wide range of DApps and will be able
+                                                                                                                                                                                                                                                                                                                    to provide access to both centralized and decentralized
+                                                                                                                                                                                                                                                                                                                    exchange liquidity.   This will allow other exchanges to
+                                                          9.4. Token Buy Back and Unsold TGE                                                                                                                                                                                                                        share our liquidity pool, external trading platform, and
+                                                                                                                          token destruction                                                                                                                                                                         other software components. Any entity using the API
+                                                                                                                                                                                                                                                                                                                    will be considered as a partner and will be incentivized
+                                                          To  further  ensure  that  the  Jarvis  Reward  Token
+                                                                                                                                                                                                                                                                                                                    through  various  profit  sharing  programs  or  other
+                                                          maintains as much value as possible for its holders both
+                                                                                                                                                                                                                                                                             appropriate options.
+                                                          at the conclusion of the TGE and for years to come two
+                                                          different solutions will be used.    First, any of the tokens                                                                                                                                                                                             Exchanges fees are expected to drastically drop over the
+                                                          for  the  TGE  which  have been  allocated  for  sale,  or                                                                                                                                                                                                coming years.  It is anticipated that the Crypto exchange
+                                                          airdrop or bounty programs which are not sold or used                                                                                                                                                                                                     fees will follow a similar trajectory to that of Forex
+                                                          will be destroyed after the TGE has been concluded.                                                                                                                                                                                                       exchange fees.  They will continue to go down at an even
+                                                          This will help to ensure that the initial token value is                                                                                                                                                                                                  more rapid pace than Forex did. Where it took Forex
+                                                                                                                                                                                                                                                                                                                    more than 10 years to bottom out, the Crypto market will
+                                                          preserved.    The second method used to ensure token
+                                                                                                                                                                                                                                                                                                                    probably  achieve  this  in  less  than  5  years.    Further
+                                                          value will be an ongoing buyback and destruction of
+                                                                                                                                                                                                                                                                                                                    technological developments and more exchanges will
+                                                          Jarvis Reward tokens by the company.  The way this will
+                                                                                                                                                                                                                                                                                                                    enable more competition that will drive the fees down.
+                                                          work is that every quarter a portion of the company
+                                                                                                                          Copyright 2018 Jarvis Exchange                                                                                                                                                                                                                                                Page 15
+
+
+
+
+We  have  already  begun  to  see  this  with  some                                                        will be able to monetize data that they generate through
+decentralized exchanges which are offering trading with                                                    activity in Jarvis.
+no fees other than the blockchain processing fee charged
+by Bitcoin or Ethereum network.                                                                            11.  Client acquisition
+As Jarvis continues to grow, it is expected that it will
+                                                                                                           The exchange market is a highly competitive one. It is
+become more autonomous from liquidity aspects of the
+                                                                                                           important for almost all client oriented companies to
+business  and  will be fully capable  of  offering other
+                                                                                                           focus  a  significant  portion  of  their  energy  toward
+exchange pricing models such as a fixed monthly fee or
+                                                                                                           growing  the  user  base.  The  Jarvis  team  expects  the
+even fee free trading as clients take advantage of other
+                                                                                                           existing   Jarvis   community   to   continue   growing
+tools and resources in the system which will help to
+                                                                                                           exponentially due to a wide range of factors.    These
+generate revenue for the company.  We see this business
+                                                                                                           factors include the user-friendly interface with a wide
+structuring as vital to ensure ongoing value for token
+holders and for the longevity of the company.                                                              range of features, a competitive fee policy, a wide range
+                                                                                                           of assets with deep liquidity, extensive DApp solutions,
+                                                                                                           etc.  Further  community  growth  will  be  supported
+                                                                                                           through   traditional  marketing   campaigns;   a   very
+10.1.                                                          Investment marketplace and store
+                                                                                                           competitive  referral  program,   airdrops,  and  such
+                                                                                                           projects as will be proposed and endorsed by the Jarvis
+Over the long term, one of the key revenue streams of
+                                                                                                           DAO.
+the company will come from the market place and the
+store.    The market place will list partners’ tokenized
+assets and funds along with ICO/STO, while the store
+will list applications and widgets, as well as services. It                                                11.1.                                                          Referral program.
+is expected that this will increase exponentially as the
+user  base  continues  to  grow.  Transactions  in  the                                                    Referral program strategies have a good proven track
+                                                                                                           record which directly incentivizes users to invite new
+marketplace and the store will eventually generate a
+                                                                                                           users to join. Robinhood, Binance and Kucoin as well as
+large share of the profit among Jarvis’ activities. The
+                                                                                                           other Fintech companies have used these strategies to
+model  consists  of  offering  an  exposure  for  partners
+                                                                                                           grow  their  user  base.  The  Jarvis  referral  program
+applications,                                                  widgets,    services    or    investment
+                                                                                                           consists of a multi-tiered reward program which benefits
+opportunities                                                  (TGEs,  managed  funds,  etc.)  and  then
+                                                                                                           users, partners and developers who invite new users to
+charging 0.5% to 5% on the transactions conducted.
+                                                                                                           join by redistributing a portion of the referred parties
+                                                                                                           fees to the respective person who introduced the user to
+                                                                                                           Jarvis.
+10.2.                                                          Traditional Assets and Institutional
+                                                                                                           For example; Bob refers Alice and earns 20% of the fees
+                                                               Offering
+                                                                                                           paid by her. Alice refers John and she will earn 20% of
+                                                                                                           the fees paid by him. Bob also receives 4% of the fees
+As mentioned previously there will be both FX, CFD’s,
+                                                                                                           from John  (20% of  20%). John invites Michelle and
+and other traditional assets incorporated into the product
+                                                                                                           earns 20% of the fees paid by her, Alice then receives
+offering. Because of the extensive background of some
+                                                                                                           4% of these fees and Bob receives 0,8% of these fees.
+of the team members with traditional financial markets
+there will be  an  additional focus  on  B2B  and  more
+institutional offerings which will not always be publicly
+                                                                                                           11.2.                                                          Crypto holders
+disclosed. Some of the institutional side will include
+providing liquidity to other exchanges over a wide range
+                                                                                                           One  of  the  user  acquisition  strategies  is  to  provide
+of assets as well as Omnibus accounts and white label
+                                                                                                           additional benefits and resources to long term “hodlers”
+offerings  of  the  Jarvis  Exchange.  The  institutional
+                                                                                                           of crypto assets.   Several options for storage including
+offering  also  includes  additional  Fiat  gateway  and
+                                                                                                           personal wallets and cold storage will be provided.  Key
+custodial  account holding options  which  will not be
+                                                                                                           benefits for such users will include the ability to easily
+available  to  retail  clients.  For  more  details  on  the
+                                                                                                           loan  and  collect  interest  on  holdings  while  also
+bespoke  offerings  available  to  institutional  partners
+                                                                                                           maintaining  easy  access  to  the  Jarvis  system  which
+please contact Jarvis directly.
+                                                                                                           provides liquidity and interoperability for their assets
+                                                                                                           should they decide to change their portfolio allocation
+The  business  model  will  evolve  to  adapt  with  the
+                                                                                                           or holdings.
+competition, new technology, and the legal landscape.
+Jarvis  will  keep  exploring  new  business  models  to
+ensure that users of the platform will always have access
+to tools and resources that help them financially.   One
+                                                               11.3.                                       Developers
+example of this could include various ways that users
+Copyright 2018 Jarvis Exchange                                 Page 16
+
+
+
+
+Programmers are a very important aspect to the strength        crypto reserves which can impact the company or its
+and  success  of  the  Jarvis  community.  It  is  external    users  are  properly  monitored  and  accounted  for.
+programmers that contributed to the success of MT4.            Internally,  system  components,  crypto  holdings,  and
+Jarvis provides programmers with a powerful and well           other important data points are always monitored real-
+time.
+documented API that allows them to develop almost
+anything  they  can  imagine  and  to  then  use  this
+13.  Licenses and Legal Compliance
+personally or to share the product for free or to sell it on
+the store.
+The  Jarvis  exchange  does  not  to  run  away  from
+regulation but towards it. The Jarvis team comes with
+decades  of  combined  experience  in  managing  and
+holding licenses for top regulated brokerages in a variety
+11.4.                                                          Service providers.
+                                                                                                                           of jurisdictions including the USA, UK, Korea, Japan,
+                                                                                                                           Cyprus, Australia, and more and is working extensively
+Services providers are often influencers and are leading
+                                                                                                                           with  legal  teams  around  the  world  on  a  variety  of
+large trading communities. By providing the opportunity
+                                                                                                                           complex regulatory compliance aspects.
+for service providers to run their business entirely inside
+Jarvis, it will help to grow the user base.   Jarvis already                                                               At this time Jarvis has an exchange license which allows
+has  several  service  providers  who  are  leading  big                                                                   for FX, CFD, Digital Currencies, and other asset classes.
+communities who have joined the Jarvis project. For                                                                        Currently several additional licenses are already being
+example;  in  the  Jarvis  team  itself  there  are  already                                                               planned to obtain licenses in the UK, Switzerland, and
+several community leaders who will move all of their                                                                       possibly  other  locations  in  Europe  such  as  Malta.
+                                                                                                                           Licenses in the US, South Korea, Japan, Australia, and
+business  within  the  Jarvis  platform  as  soon  as  the
+                                                                                                                           other  jurisdictions  are  expected  to  be  facilitated  via
+centralized   exchange   is   launched.                        This   will
+                                                                                                                           existing   relationships   with   already   licensed   and
+undoubtedly  lead  part  of  their  large  communities  to
+                                                                                                                           established brokerages.
+trade on the Jarvis Exchange.
+We are also carefully evaluating additional regulatory
+developments which are specifically related to digital
+currencies  and digitized securities in Belarus, Malta,
+11.5.                                                          Traders
+                                                                                                                           Estonia, Switzerland, and other countries. The second
+                                                                                                                           aspect of digitized securities is of particular importance
+As previously outlined, the Jarvis trading platform can
+                                                                                                                           because of the incredible applications of such products
+be used to connect to other traditional brokers and other
+                                                                                                                           for institutional or large-scale investments. The Jarvis
+exchanges. These features allow the Jarvis interface to
+                                                                                                                           team is very aware of the complex issues surrounding
+be used as a standalone product. These open features
+                                                                                                                           ongoing legal compliance and the Jarvis infrastructure
+will further facilitate growth of the Jarvis community
+                                                                                                                           has  been  designed  to  be  able  to  address  these  ever
+through external partners driving their users to the Jarvis                                                                evolving compliance aspects.
+platform.    It is when such clients access and use the
+various unique features that have been combined for
+them in Jarvis that they will look to further utilize the
+platform as they strive for better and easier management
+of their financial resources.
+14.  Road map
+The road map is being separated in several phases.
+Phase  1: 2017-2018, the initiation. During this phase
+12.  Real Time Audits                                          which  started  in  late                                    2017  we  have  initiated  the
+                                                               development  of  the centralized  exchange,  its  trading
+To help compliment the other hardware and software             interface and its wallet. The backend of the exchange has
+security  features,  Jarvis  has  already  arranged  with      been finished and currently supports BTC, BCH, ETH,
+external  companies  to  implement  a  very  extensive         DASH and USDT. We have developed and finalized our
+auditing program. This program is currently planned to
+                                                               own HTML5 Canvas charting library. Following this,
+provide a general audit every 30 minutes and a full audit
+                                                               we have finalized two working prototypes (Windows)
+every 12 hours. The results of the audits will be posted
+                                                               for  the trading interface,  one for  Forex  and  one for
+on our website as well as on a Blockchain to provide
+                                                               crypto  trading,  to  showcase  our  UX/UI  ideas  and
+confirmation that results have not been changed.   The
+                                                               features. In parallel we have also launched a simple BTC
+audit will include such things as the number of Jarvis
+                                                               and  ETH  mobile                                            (Android  and  iOS)  and  desktop
+Reward Tokens,  other  crypto holdings, Jarvis  Stable
+                                                               (Windows and MacOS) wallet. We have also launched
+coins, and the Fiat holdings in banks or exchanges which
+are backing the stable coins.   Auditing these data points     a Python to JavaScript converter in order to execute
+as well as others will help to ensure that all Fiat and        Python code into the JavaScript interface. This allows
+Copyright 2018 Jarvis Exchange                                                                                             Page 17
+
+
+
+
+python programmers to execute trading bots or analysis         Jarvis has gathered a core team of incredibly talented
+tools within the trading interface.                            and    passionate   people    coming   from    diverse
+                                                               backgrounds   but   united   around   the   same   idea:
+Phase 2: First Quarter of 2019, the launch. We will be         contributing to this revolution and creating products
+launching  our   centralized   exchange.   Initially  the      that will change people habits. One of the goals of our
+exchange  will  support  cryptocurrencies  and  fiat,  but     TGE will be to further expand our capacity of execution
+                                                               by  the  addition  of  other  talented  and  experienced
+Forex and CFDs will be added by the end soon after.
+                                                               members. The media coverage and the success of the
+With the full range of products, it will be possible to
+                                                               TGE will help us reach new prospective team members
+address the Forex and CFD traders. Jarvis will allow
+                                                               of Jarvis.
+them  to  trade  from  a  wallet  rather  than  with  their
+traditional broker. With the launch of this first product,
+                                                               Pascal  Tallarida,  founder  and  CEO.  Pascal  is  an
+the DAO will be officially opened and start actively
+                                                               entrepreneur and Senior Forex trader with more than 11
+helping to promote the Jarvis exchange offering.               years of experience. He founded a prop trading firm and
+                                                               one  of  the  leading  trading  schools   and  trading
+Phase 3: Second Quarter of 2019, the expansion. During         communities in France called DMTrading.   DMTrading
+the  second  semester,  the  trading  interface  of  the       is  followed  by                                               18k+  French  traders.  Pascal  is  a
+exchange (named Jarvis Trader) will be launched as a           renowned  lecturer  and  is  a  frequent  speaker  at
+standalone  solution  to  be  connected  with  others          conferences   and   universities   throughout   Europe.
+exchanges and other brokers to raise the awareness of          Actively involved and greatly respected in the French
+our brand, products and philosophy. We are confident in        trading community, his trading followers have been the
+                                                               first testers of Jarvis. By closely working with thousands
+our ability to drive user acquisition through this platform
+                                                               of  retail  traders  for  years,  he  acquired  an  in-depth
+as its features have already been tested with 500 traders,
+                                                               knowledge about what traders want, how they think, and
+which gave a very positive feedback and were willing to
+                                                               what leads them to choose a trading platform or trading
+change their usual trading platform for Jarvis Trader. In
+                                                               service. This has helped him to understand their needs
+parallel, by the end of the year, the payment gateway
+                                                               in terms of features and user experience. He is an active
+will be active following the obtention of a European
+                                                               trader of, and educator on cryptocurrencies. He has led
+license and the mobile application will be launched.
+                                                               his team of traders to try most of the existing exchanges
+                                                               and trading platforms.
+Phase 4: end of 2019-2020, the path to decentralization.
+By the end of the year 2019, we will be launching our          Andrew Anderson, founder and CTA. Over the past
+custodial wallet and semi-centralized exchange solution.       two  decades  Andrew  has  held  many  senior  level
+Doing so, users will be capable to participate to the          positions in top regulated financial institutions located
+decentralized  liquidity pool and  lend their assets  for      around the world. Andrew brings extensive experience
+                                                               coming from years of helping to oversee operations for
+several  use  cases.  Initially  the  wallet  will  only  be
+                                                               entities with more than 250,000 clients in 140 countries
+capable of escrow for peer-to-peer trading and will be
+                                                               with monthly trading volumes reaching $80 Billion.   In
+integrated to several partners Ethereum, Neo and EOS
+                                                               addition to holding various licenses from regulators on
+decentralized applications.
+                                                               multiple  continents,  Andrew  has  also  overseen  the
+                                                               development and successful delivery of both frontend
+Phase  5:  2020,  Decentralized  finance.  Following the
+                                                               and backend trading solutions involving various trading
+launch   of   the   semi-decentralized   exchange,   the
+                                                               and  liquidity  technologies.     Andrew  began  to  be
+collateral credit will be available within the custodial
+                                                               involved with Blockchain in 2010. His interest in and
+wallet,  allowing to  launch  a  fully featured  custodial
+                                                               knowledge  of  the  wide  range  of  applications  that
+wallet which allow to instantly connect to the payment
+                                                               distributed   ledger   technologies   can   deliver   has
+gateway.  This  will  set  the  path  for  building  a         continued  to  increase  from  this  time.                     Andrew  is
+decentralized and personal financial hub and to expand         passionate about the many ways that blockchain and
+the offering to tokenized assets and funds. Eventually,        other distributed ledger technologies can be used for
+the data-locker will be launched, which will help to store     increased  efficiencies  in  business  operations  and  the
+users data in a decentralized way in order to build a fully    ways  that  the  associated  technology  solutions  can
+decentralized ecosystem.                                       empower and improve the lives of people around the
+                                                               world.
+                                                               Cyril  Tabet,  founder.  Cyril  graduated  from  York
+15.  The Team                                                  University, Toronto, Canada in 1999. He is an award-
+                                                               winning Telecom and Financial Services executive who
+                                                               held  C-Level  positions  launching  and  driving  the
+The Jarvis founders come with decades of experience in
+                                                               expansion  of  multiple  telecom  and  financial  firms
+managing trading, brokerage operations, and developing
+                                                               including  ActiVia,  Alpari,  Interbank  FX  and  JFD
+some of the most robust matching engines and exchange
+                                                               ranking them into top 10 worldwide listings. His latest
+software that is being utilized today.
+                                                               success was to position JFD among the world's largest
+                                                               MT4 brokers in less than 5 years, leveraging from his
+Copyright 2018 Jarvis Exchange                                                                                                Page 18
+
+
+
+
+strategic vision and in-depth knowledge of the Fintech      scaling  businesses.  Neno  is  managing  and  tracking
+industry.   Passionate   about   tech   and   business      processes  in  Jarvis  to  build  and  develop  the  best
+transformations, Cyril most recently co-founded, seeded     management practices. Since 2017, he has also been a
+and/or supported the deployment of multiple innovative      successful crypto investor and Forex trader.
+ventures   predominantly   focusing   on   Blockchain,
+Financial Services, Data, AI and CSR solutions.             Stefani Todorova, PR and communication. Stefani
+                                                            studied PR and mass communication in Sofia
+Emmanuel   Grand,   UX   designer.   Emmanuel  is           University. One of the first team members at Jarvis,
+passionate  about  people  and  experiences.  He  spent     Stefi is developing the PR and marketing of Jarvis, as
+several  years  as  a  diving  instructor  in  Australia,   well as managing the office and administration of the
+Thailand and Mexico, all the while day trading from all     company.
+over the world. Emmanuel is perfecting the simple and
+powerful UX and UI in Jarvis, utilizing his knowledge       Aleksandar Chervenkov, marketing manager. Over
+of what traders need and want. He is passionate about       the last decade, Alek has challenged himself with
+Jarvis and the immense possibilities the project presents   various projects, building versatile marketing
+for traders.                                                experience, which naturally led him to develop a strong
+                                                            interest in the crypto domain. Prior to Jarvis he played
+Petar Kirov, lead developer. Petar started as a             a key role in several international IT companies
+developer support officer at Telerik where he helped        relating to construction, web hosting and affiliate
+customers build .NET apps. Later on, he decided to          marketing networks. He is ecstatic to be working on a
+follow his passion for system programming by joining        cutting-edge Jarvis Edge project.
+a core C++ platform team at VMware. Petar has also
+been contributing to the D programming language and         Karina Delcheva, community manager and data
+is passionate about open-source leading him to want to      analyst. With a background in the charity sector and a
+contribute to the Blockchain ecosystem. Petar leads all     BScin Social Policy Karina brings a sociological and
+software matters at Jarvis, from design and                 ethical side to data analysis and practice within Jarvis.
+implementation to DevOps.                                   She is passionate about machine learning based on
+                                                            human-produced data. In preparation for the
+Ivan Zhelyazkov, software developer. Ivan is an             fundraising, Karina is using her community and PR
+ambitious coffee-driven software developer with 4           skills from the charity sector to work on the community
+years of C and C++ programming experience. Ivan has         and social media campaign in Jarvis Edge.
+an interest in blockchain technologies which led him to
+learn Solidity and write smart contracts.                   Vsevolod Potorocha, community manager. As an
+                                                            aspiring and motivated business student specializing in
+Fabien  Ducoudray,  TGE  strategist.  Fabien  is  a         digital marketing, Vsevolod (Seva) joined Jarvis as a
+strategy consultant and assists companies in setting up     community manager for the Russian sector as well as
+and   understanding   the   mechanisms   related   to       plays a key part of our Social Media campaign.
+fundraising through cryptocurrencies, from reviewing
+whitepapers to the organization of the communication.       Todor Licheff, UX/UI designer. With a Bachelor of
+He has helped 5 ICOs as a consultant leading him to         Engineering Design, Todor is an experienced Graphic
+build a network of private investors and contractors.       Designer with a demonstrated history of working in the
+                                                            graphic design industry. He is given to Jarvis its
+Eric Lazovic, business developer. Eric is an                branding and visual identity.
+experienced business operations manager with top
+International Commodity Trading companies. While            Tio Torosyan, graphic designer. Tio is an artist,
+overseeing operations in multiple countries in three        graphic designer, illustrator and art director. He has
+continents Eric developed extensive skill in financial      always been passionate about art and creativity. He has
+controls and risks assessment. Eric has helped oversee      mainly worked in fashion magazines as a creative
+the development of new markets for leading global           director, and as a game designer before getting
+companies such as the Interfood Group with a total          interested by Blockchain technologies. He is the
+value of exchange products averaging an annual              curator of Jarvis visual content.
+turnover of over € 1.6 billion. Eric is passionate about
+                                                            Stefan Tonev, videographer. Stefan graduated in
+Fintech innovations, and the way they are combining
+                                                            "Cinema and TV" at New Bulgarian University in
+with the fast evolving blockchain technologies to create
+                                                            Sofia. He has worked as a cinematographer for several
+new innovative financial solutions. Eric is good at
+                                                            Photography studios. He has done various projects as
+building teams and helping connect people and
+                                                            aftermovies, corporate and backstage videos. Through
+technologies to create new synergies. Eric brings with
+                                                            his lens, Stefan is recording the unique development of
+him an amazing network of people who are also
+                                                            Jarvis.
+looking to establish solid and long-term partnerships
+with major actors in the financial services industry.
+Neno Baynov, project manager. Neno spent over two
+years  managing projects  for  UBER  and  has  8  years
+previous experience leading teams and improving and
+Copyright 2018 Jarvis Exchange                              Page 19
+
+
+
+
+16.  Conclusion
+The world of today is built on the top of the traditional financial system. It is the legacy of
+hundreds of years of evolution, and has delivered a lot of value. Over time it has evolved in
+a way that empowers itself, banks, governments and other large corporate structures, more
+than the individuals with access to banking and the billions of unbanked people around the
+world.   Decentralized technologies allow for a user-centric financial system that is free of
+these legacy limitations and where value can be shared by everyone. But these decentralized
+technologies are still in their infancy and do not allow users to leverage from them with ease
+or at a large scale. Centralized solutions are not worse than decentralized ones, they are
+complementary and when combined together they can deliver greater value than they can
+provide alone.   The Jarvis technology framework has been specifically designed to leverage
+from the best of both centralized and decentralized systems and to make all of these benefits
+interoperable.
+A good user experience delivered through a simple to use interface is the key to driving the
+adoption of this new way of interacting with finance. Jarvis has been designed using the
+collective input that has come from an experienced team working with a community of
+thousands over the past decade. With the proper interface and design, billions of users will
+be empowered.                                                                                        The features delivered through Jarvis can truly change the way people
+manage their finances and                                                                            the way users will define money.
+The Jarvis team is excited to be delivering such a solution that can truly help change the
+world through user empowerment.
+It is important to note that the Jarvis Exchange project is the first milestone of our long-term
+mission. It will pave the road for building a strong liquidity network, user base, team and
+awareness to fulfill our long-term vision - the Jarvis Network, the Internet of Finance.
+The Jarvis Network is the multi-layer technology that provides a backend to connect and
+unify on-chain and off-chain financial resources, applications, liquidity, assets and data and
+make them interoperable and accessible. It allows to build centralized or decentralized
+applications upon it to leverage from its core features. It is the natural evolution of the Jarvis
+Exchange framework.
+Disclaimer
+The information found in this document, the Jarvis.Exchange website and other prepared
+materials  is  meant  for  educational  and  informational  purposes  only.    Nothing  in  this
+Copyright 2018 Jarvis Exchange                                                                       Page 20
+
+
+
+
+document, the Jarvis.Exchange website, or other materials prepared by the company should
+be construed as a recommendation to buy or sell cryptocurrencies or securities or to trade
+using any particular strategy or method.   We are not soliciting any action based on this
+material.   It has been prepared as general information for anyone who is or may become
+interested in the Jarvis.Exchange project. Nothing found in this document, the website, and
+associated materials should be considered trading, financial, or investment advice.
+Some of the statements in the white paper include forward-looking statements. All forward-
+looking statements address matters that involve risks and uncertainties. Accordingly, there
+are or will be important factors that could cause actual results to differ materially from those
+indicated in these statements.
+For further information  on the Jarvis.Exchange project  and to read the full terms  and
+conditions, disclaimers, and other important information related to the project please go to
+www.jarvis.exchange.
+Glossary
+centralized: A type of network where all users connect to a central server, which is the
+acting agent for all communications. This server would store both the communications and
+Copyright 2018 Jarvis Exchange                                                                     Page 21
+
+
+
+
+the user account information. Most public instant messaging platforms use centralized
+networks. Also called centralized server-structure
+Decentralized: describes the design of a network that isn’t managed by a central party.
+A decentralized network relies on a host of computers. As a result, blockchain technology
+resides on a P2P network. It physically cannot work with a single computer or point-of-
+connection. Instead, it requires a slew of other computers to join in, in order to complete a
+specific task on the network.
+DApp: is an abbreviated form for decentralized application.
+A DApp has its backend code running on a decentralized peer-to-peer network. Contrast
+this with an app where the backend code is running on centralized servers.
+A DApp can have frontend code and user interfaces written in any language (just like an
+app) that can make calls to its backend. Furthermore, its frontend can be hosted on
+decentralized storage such as Swarm or IPFS.
+Escrow:   Escrow is a legal concept in which a                                                    financial instrument or an asset is held by a
+third party on behalf of two other parties that are in the process of completing a transaction.
+The funds or assets are held by the escrow agent until it receives the appropriate
+instructions or until predetermined contractual obligations have been fulfilled. Money,
+securities, funds and other assets can all be held in escrow.
+liquidity pool:                                                                                   is the trading volume created by institutional orders executed on private
+exchanges and which are mostly unavailable to the public. The bulk of pool liquidity is
+represented by block trades facilitated away from the central exchanges.
+Cross-chain:                                                                                      Cross-chain atomic swaps. The exchange of tokens between users across
+chains, without trusting a third-party.
+Cross-chain atomic swaps are only possible if both chains offer a native escrow function.
+This requires bitcoin-esque script functions at a minimum. Some chains, such as IOTA and
+Sia, for example, don’t support on-chain trustless escrows at all, and as such cannot
+implement trustless cross-chain atomic swaps
+One of the greatest limitations of cross-chain atomic swaps is settlement time. By
+definition, these transactions can only settle as fast as the block time of the slower of the
+two chains. Block Collider’s system allows for settlements that are theoretically even faster
+than the block times of either chain. Enabling cross-chain swaps to settle more quickly than
+the block times of either chain is a pretty wild idea. Given how slow bitcoin blocks are,
+Block Collider could carve out an interesting niche.
+On-chain:                                                                                         On-chain transactions refer to those cryptocurrency transactions which occur on
+the blockchain - that is, on the records of the blockchain - and remain dependent on the
+state of the blockchain for their validity. All such on-chain transactions occur and are
+considered to be valid only when the blockchain is modified to reflect these transactions on
+the public ledger records.
+Off-chain:                                                                                        Off-chain transactions refer to those transactions occurring on a cryptocurrency
+network which move the value outside of the blockchain. Due to their zero/low cost, off-
+chain transactions are gaining popularity, especially among large participants.
+On demand scaling:                                                                                On-demand scaling allows you to manually add or remove running
+dynamic server instances from an active dynamic cluster as needed. For example, if the
+average user-request backlog in dynamic cluster members is trending up, indicating a need
+Copyright 2018 Jarvis Exchange                                                                    Page 22
+
+
+
+
+for higher processing capacity, you can add running dynamic server instances to the
+dynamic cluster. When the backlog for user-requests drops substantially, you can shut
+down idle dynamic server instances.
+When you expand the cluster, the size must not exceed the limit set in Maximum Dynamic
+Cluster Size. WebLogic Server adds only running dynamic server instances up to the
+Maximum Dynamic Cluster Size limit. Also, when you shrink the cluster, the number of
+running dynamic servers cannot be below the limit set in Minimum Dynamic Cluster Size.
+Matching engine: A trade matching engine is the core software and hardware component
+of an electronic exchange. It matches up bids and offers to complete trades. Matching
+engines use one or several algorithms to allocate trades among competing bids and offers at
+the same price.[1][2]
+The most commonly used algorithm is time price priority, meaning those bids and offers
+entered into the match engine first have priority over similar bids or offers that were
+subsequently entered into the system.
+Matching engines support different order types, such as a limit order or market order.
+Matching engines may have unique APIs, or use standard ones such as FIX APIs.
+Peer-to-peer trading:                                                                             A peer-to-peer (P2P) service is a decentralized platform whereby
+two individuals interact directly with each other, without intermediation by a third-party.
+Instead, the buyer and the seller transact directly with each other via the P2P service.
+Custodial wallet:                                                                                 A custodial wallet is a wallet in which your private keys are stored by a
+third party. Thus, you do not have full control over your funds, which makes these wallets a
+dubious choice.
+Non-custodial wallet:                                                                             may be web, paper, mobile, desktop and hardware wallets — as is
+the case with custodial ones. However light (non-custodial) wallets allow you to fully
+control your funds and therefore are more secure
+Hot wallet:                                                                                       Hot wallet refers to any cryptocurrency wallet that is connected to the internet.
+Generally hot wallets are easier to setup, access, and accept more tokens. But, hot wallets
+are also more susceptible to hackers, possible regulation, and other technical vulnerabilities.
+Cold wallet:                                                                                      Cold storage refers to any cryptocurrency wallet that IS NOT connected to the
+internet. Generally cold storage is more secure, but they don’t accept as many
+cryptocurrencies as do many of the hot wallets. Cold storage devices (e.g. Trezor, Ledger)
+also cost close to $80 USD, where as hot wallets are free.
+Asset custody structure:                                                                          A service in which a brokerage or other financial institution
+holds securities on behalf of the client. This reduces the risk of the client losing his/her
+assets or having them stolen. They are also available to the brokerage to sell at the client's
+demand.
+DAO:                                                                                              A decentralized autonomous organization (DAO) is an entity in a digital system
+facilitated by smart contracts. Smart contracts involve digital tools and protocols that help
+support specific transactions or other contract elements.
+Multisignature:                                                                                   Multisignature (often called multisig) is a form of technology used to add
+additional security for cryptocurrency transactions. Multisignature addresses require
+another user or users sign a transaction before it can be broadcast onto the block chain. The
+required number of signatures is agreed at the start once people agree to create the address.
+Copyright 2018 Jarvis Exchange                                                                    Page 23
+
+
+
+
+v.1.7.5
+Copyright 2018 Jarvis Exchange   Page 24
+
+
+
+
+

@@ -1,0 +1,1816 @@
+﻿bountyhunters.io
+WHITEPAPER
+ver 1.0
+
+
+
+
+Contents
+Disclaimer
+List of used terms
+Introduction
+The main benefits of the project
+Preconditions for the platform development
+Solutions offered on the market
+History and development stages
+Key purposes of the platform
+The business model of the platform
+Influencer marketing industry trends
+Market analysis
+Ways the influencer marketing can help the business
+Analysis of the competitive environment
+Target Audience
+The volume of cryptocurrency and blockchain market
+Market analytics
+Problems Solved
+Key Advantages
+a) for a company, brand, startup
+b) Benefits of the platform for bounty hunter / influencer
+C) Benefits to the industry as a whole
+Technical features of the platform
+Automatic activity tracking
+Influencer selection and filtering
+The parameters of the selection and filtration
+Ratings Calculation
+The metrics provided by the platform
+Google Analytics Integration
+Available payment options
+Task Timing Setting
+/ 2
+
+
+
+
+Two-factor authentication
+Technology base (technology stack)
+The tokenized model
+The platform token
+Transactions safety
+Security of rights of the licensed content
+Escrow conditions
+Commissions on the transactions
+Exchange module
+Automation of activities verification - meta-moderation
+The token price
+Motivating Factors For Token Possession
+Crowdsale details
+Legal and Legislative responsibility
+A list of possible risks
+Roadmap
+/ 3
+
+
+
+
+Disclaimer                                                                            !
+This document does not provide personal, financial or legal advice. It neither
+serves as a motivator towards the purchase of any assets of the company and is
+not aimed at motivation to any actions.
+The purpose of this document is to provide information about the project for
+individuals interested in participating in the crowdsale for further decisions on a
+more in-depth study of the details of the company.
+This document cannot be perceived as a financial investment prospectus or
+document, offering any investment assets in any jurisdiction.
+This document is not a subject to legal, civil, and any other right of any existing
+jurisdiction.
+The company is not responsible for any risks arising as a result of reading this
+document or actions taken based on the information below.
+The document can be modified at any time without a notice of an audience
+previously contacted this document. However, we are doing everything
+necessary to keep this document as informative and relevant as appropriate to
+the actual market conditions.
+This document may be used by our company as a reference in press releases,
+news items, publications, but that does not mean that it is a historical fact or
+legally notarized documentation.
+The following token of the company is not offered for sale in those jurisdictions
+in which at the time of the crowdsale are prohibited the performing of such
+campaigns.
+The company token is a utility and not a digital currency, security, product,
+commodity, or a security associated with the expectation of returns and
+investment growth.
+Bountyhunters is a project operating exclusively in the field of software
+development.
+< /p>
+/ 4
+
+
+
+
+List of used terms
+Bounty host
+A startup, brand, company that runs a bounty campaign to achieve its
+marketing objectives (increase brand awareness, perform lead generation,
+increase sales, etc.). The host sets the rules of the campaign, the budgets for
+further distribution of the allocated funds or rates, offers tasks to perform, and
+conducts monitoring and verification of the performed activities.
+Bounty Manager
+A specialist whose responsibilities include setting up and managing the created
+campaign (communication with hunters, dealing with complex issues, if
+necessary, manual inspection and verification of the performed activities, etc.)
+from the side of the startup/project/brand.
+The Bounty Hunter (influencer)
+The person who owns or manages a website, blog, or an account in the
+popular social networks (Facebook, Twitter, Instagram, Telegram, VK, etc.) and
+creates a content at the request of the bounty host (makes reviews, articles,
+news, shares, retweets, etc.), receiving for each action a certain fee. Or has a
+developed communication with editors of media resources (such as large sites,
+publications), offering to publish interviews, articles, reviews, news, and other
+materials. The bounty hunter is a social influencer having built a trust within
+their target audience and got the ability to influence opinions, a behavior of
+their subscribers.
+The platform allows you to filter, select, and target activities/tasks on several
+types of hunters depending on the degree of social influence (number of
+followers, statistics of an average engagement, reach, etc.):
+1. Opinion leader - A  hunter or influencer with the coverage of the
+audience (subscribers) ranging from 5000 to 10,000 people or more.
+2. Micro influencer - owner of a thematic account, blog, or website with
+subscribers/visitors ranging from 500 to 2000 people. A micro influencer
+usually has a smaller reach but demonstrate a significantly higher
+conversions and better ROI «return of investment.» Micro influencers have
+a higher level of engagement within their target audience because they
+publish narrowly focused thematic content and have closer relationships
+with their own followers, rather than opinion-leaders.
+/ 5
+
+
+
+
+Date provider
+Third-party services integrated into the system that provides additional
+information, access to databases, statistical data, etc.
+Steak
+An indicator, charge (illustrating the percentage of the total allocated funds)
+received for the execution of activities (publication of a post, review, etc.). A
+steak is a share which reflects the percentage of funds earned by the hunter (in
+fiat currency, tokens, or other cryptocurrencies) to the total amount of funds
+allocated for distribution between all the participants of the campaign.
+ROI
+Indicator illustrating a return of investments. A ratio that illustrates profitability
+of the business as a whole or its individual strategy, taking into account capex
+(investment) and profits.
+CPA (cost per action)
+Is a figure illustrating a cost for a target action. For example, making clickable
+links, subscribing, publishing content, etc.
+< /p>
+/ 6
+
+
+
+
+Introduction
+Bountyhunters is an automated influencer marketing platform and bounty
+programs managing service. It’s built on the “action=reward” model, and it’s
+based on blockchain technology. The platform aims to help start-ups, ICO
+projects, and existing companies to increase awareness of its own brand in the
+market and to increase the number of significant mentions in social networks
+and specialized marketing, PR channels, and blogs.
+One of the key objectives of the project is to increase a project’s efficiency by
+reducing the time investment and financial cost and to facilitate interaction
+between companies and active participants in the social networks (the hunter,
+influencer, opinion leader) by automating all business processes associated with
+the creation of marketing campaigns, its management, analysis as well as a
+selection, involvement and targeting of active influencers, as well as organizing
+the distribution of payments (in fiat currency, tokens, cryptocurrencies or
+steaks) in accordance with the performed actions.
+Our goal is to create a safe and transparent
+environment in the influencer marketing arena.
+This will benefit the company and the owners of
+social media accounts, receiving the opportunity
+to monetize their own subscription base and
+millions of readers, receiving more interesting and
+relevant content.
+The platform is based on blockchain
+technology and backed with a utility token.
+< /p>
+/ 7
+
+
+
+
+The main benefits of the project
+- Optimized marketing campaigns. This is an opportunity to make
+campaigns more transparent from the standpoint of ROI, CPA. Moreover, it
+reduces financial and time costs associated with product launch and future
+management.
+- Increased coverage of a target audience - It productes the ability, in the
+shortest possible time, to attract a new audience and to present a brand to a
+wide but targeted community.
+- Increased ROI and conversion rates within the sales funnel.
+- Saved time and resources because of the full automation of the processes
+and automated tracking of activities and payments.
+Currently, the project is at the MVP stage
+(minimum viable product). It’s in the process of active testing and debugging.
+We do not offer a prototype or idea. This is already
+a working marketing ecosystem and tested
+business model that generates profit.
+After running the first iteration of the prototype before the launch of the beta
+version (present time), the system significantly increased its influencers base,
+expanded the number of social channels with automated activity tracking
+and performed more than 10 large and successful ICO’s, including Blackmoon,
+Chronobank, etc. The total amount of the distributed funds within the
+performed campaigns is ...... million. The system automatically tracked more
+than a million activities, and the profits made are ...... $.
+The project already covered its own development
+and workflow maintenance costs.
+At the time of the Whitepaper writing, the platform conducted its own
+rebranding, updated user interface design, increased influencers database, and
+signed several long-term contracts for the maintenance of the campaigns. Over
+the next year, we plan to increase own influencers base to tens of times, attract
+to our system a minimum of 20% of planned (for 2018) major ICO projects with
+a minimum capitalization of $10 million.
+/ 8
+
+
+
+
+Preconditions for the platform
+development
+At the moment there is strong growth in consumption of digital content and a
+significant increase in the proportion of advertising budgets allocated to digital
+marketing and digital channels of communication with the target audience.
+However, traditional mechanisms of running and managing advertising
+campaigns and promoting brand awareness in the digital environment
+are quite expensive. Their effectiveness from the perspective of ROI and
+key conversions indicators (cost of customer acquisition - CAC - customer
+acquisition cost; the cost of converting the visitor into buyer - COC - cost of
+client, etc.) significantly decrease, which forces businesses to seek alternative
+means and channels to attract and inform the audience about the product.
+The problem also lies in the fact that more than 30% of users use ad blocking
+services that reduce the effectiveness of contextual and display (banner)
+advertising.
+The idea of developing a platform had some precedent and was not accidental.
+Primarily, it was provoked by the above-described difficulties and problems,
+which were impossible to solve with the existing (at the time of development)
+technical solutions.
+Facing these difficulties, we set the goal to find a way to effectively promote
+our own in-house projects. Numerous tests found the most effective marketing
+channel, which included collaborating with opinion leaders and the pre-
+targeted owners of the thematic accounts in social networks. Unfortunately,
+we encountered a problem. There was not a single solution that would allow us
+automatically conduct such a campaign.
+Solutions offered on the market:
+- were not aimed at pre-targeted audience, which includes the blockchain
+industry and the crypto community.
+- often offered non-transparent pricing. As a result, it was not possible to
+assess the campaign’s effectiveness in terms of conversions, cost per action, etc.
+- required considerable time for the organization of the relationship between
+an advertiser and a content publisher
+- offered limited tools of analysis and performance review both of the
+campaign and of the funds invested.
+- were risky from the viewpoint of payments and internal transactions.
+- not offered the opportunity to quickly attract a large number of influencers
+targeted with a specialized thematic content.
+Our team set a goal to develop a system that could mitigate these difficulties,
+and, in early 2017, they created a model, developed the system architecture, and
+defined the main tasks of its workflow.
+/ 9
+
+
+
+
+History and development stages
+February 2016
+Search and analysis of the existing solutions for the bounty campaign launch for
+the in-house projects.
+January 2017
+We formed the Department of Internal Community Managers, The stack of
+services for the bounty campaign management without possible automation
+were selected.
+March 2017
+Presented the decision on the launch of our own technological base for
+carrying out the bounty campaign, which included the engineering of business
+processes, forming a model of the system, the model of the interaction between
+contractors within the system, and securitization and allocation of funds
+deposited.
+Jun 2017
+The development of parsers for data collection and formation of the slice
+of the target audience and further identifying of potential influencers. By
+developing our own parsers, we managed to collect a targeted database of
+over 25,000 influencers, which were distributed by grades and the parameters
+corresponding to the quality of each account, its content, and audience
+coverage.
+We establish integration with the social networks and channels for automated
+data collection.
+Jul 2017
+Start of the web UI and working prototype of the service for internal clients of
+the company.
+Formed the Department on communicating with influencers - within six
+months specialists of the Department built relationships with each influencer,
+sent an invitation to the system, presented the benefits of using the service.
+/ 10
+
+
+
+
+Development of internal tools and run of the test campaigns. We addressed one
+of the key challenges that faced our team: how to simplify accounting activities
+of influencers when the number of activities per week can reach several
+thousand. Developed unique scripts for each social network channel (Facebook,
+Bitcointalk, Reddit, etc.), which allowed perform automated tracking of the
+actions (tasks completed) of each user.
+Aug 2017
+Full-scale launch of the projects within the platform - Blackmoon, WishFinance,
+SmsChain, Zangll, Acorn and modernization of the system (integration of
+the rating module, dynamic budgeting, preparations for the transition of the
+business model for PR and business direction).
+Integrated primary metrics and carried out deep integration with Google
+Analytics (integration between the platform and the client side) to account
+conversion and perform the calculation of ROI for every action released. As a
+result, there was a significant transformation of the platform model from a
+simple service of managing bounty campaigns into a convenient tool, operating
+on the CPA model and providing the marketer with comprehensive data on the
+actual campaign and thus allowing optimization in real time.
+Actual moment
+The platform is formed as a separate business unit with the full-working staff.
+There is a set of clear objectives and engineered business processes, as well
+as launched advertising, affiliate and PR campaign to increase the number of
+influencers and to attract new customers.
+While testing the first iterations of the platform prototype, we came to the
+conclusion that, for example, a startup launching an ICO is required not just a
+tool to simply launch the bounty campaign, but a competent and systematic
+establishing of meaningful contact with the target audience.
+After gathering the market data and performing the analysis of numerous
+ICO’s bounty campaigns, the specialists of our analytical department came to
+the conclusion that most of the bounty campaigns were ineffective because,
+despite the number of performed activities, - ROI and conversions of every
+activity were not possible to calculate, and the total volume of funds spent (on
+average 1-3% of the gathered funds during the ICO) formed a considerable sum,
+which simply disappeared in «pockets» of owners of the aggregated accounts,
+often not presenting the target audience with any real value.
+< /p>
+/ 11
+
+
+
+
+As we noted above, it’s required to have a
+systemic approach to launch influencer marketing
+campaigns: our platform is initially built to
+achieve such objectives:
+Key purposes the platform
+can be used for:
+- increase awareness of the new brand - an opportunity to increase the
+number of people visiting the company’s website, downloading documents,
+leaving personal contacts, reading any content about the company, etc.
+- involvement/engagement - increasing amount of valuable content which
+generates an active action form the target audience representatives (share,
+comment, repost); active involvement of the audience to affiliate and referral
+tools.
+- audience and customer base growth - ability to increase traffic,
+audience engagement and convert it into quality leads.
+- lead generation - built-in analytical tools for gathering and analyzing data
+of each influencer activity allow to customize the campaign and target it at
+influencers providing the highest quality of leads/clients.
+- sales - increasing points of contact of a brand with a new audience can
+multiply product sales.
+- retaining existing customers and increasing loyalty through up-
+to-date and actual informing of the target audience about the news, positive
+events associated with the brand.
+/ 12
+
+
+
+
+Mission, vision, and objectives
+of the project
+- Transform marketing processes into a more transparent
+(for all contractors) form thereby contributing to the development of the crypto
+economy.
+- Increase the effectiveness of marketing strategies to make
+them the most predictable and measurable.
+- Contribute to the growth of innovative startups and the
+development of an international, innovative field.
+- Tokenize and automate the industry of influencer
+marketing, which will solve the key problems of the industry:
+- time-consuming action to attract influencers
+- the difficulty of accounting of performed actions/tasks of the influencers
+- the complexity of evaluating the quality of tasks performed
+- the complexity of performing transactions (in the case when more than
+1,000 influencers participate in the campaign and the total volume of
+actions/tasks performed is more than 100 000).
+/ 13
+
+
+
+
+Platform workflow scheme
+After creation of the campaign from the side of the campaign host (in the case
+of the correlation of the rating of an influencer/hunter and the options set by
+the host on the participation of a certain type of influencers), an influencer
+receives notification in a private dashboard on the launch of the new campaign.
+In case of confirmation of participation in the campaign from the side of the
+influencer and from the side of the host, the platform automatically creates
+a smart contract and deposits the minimum amount of money (identified by
+the host in the campaign details) for an escrow fund. After performing each
+action (posting content, repost, etc.), the platform automatically monitors and
+tracks all these actions and charges each influencer a steak or some sum of
+money in accordance with the performed actions. After the campaign ends,
+the automatic calculation and allocation of funds between the influencers is
+performed.
+/ 14
+
+
+
+
+The business model of
+the platform
+The platform is developed in the form of the hybrid business model, functioning
+as a SaaS solution (offering the subscription payment model) and the exchange
+model (payment for a specific service or an activity).
+The platform acts as an underwriter of the distribution of the allocated funds,
+and it will guarantee automated tracking of performed activities and collecting
+of metrics. The platform also helps solve complex issues in cooperation with the
+influencers, leveling them due to the decentralized architecture. All parameters
+of the campaign and its conditions are written in the smart contract, and all
+activities are recorded in the blockchain. Each campaign operates an escrow
+fund that guarantees the fulfillment of obligations from the side of the
+influencer and from the side of the business.
+Currently, the platform’s development team is actively working on the
+implementation of analytical tools that enable tracking activities and a deep,
+real-time efficiency analysis of every performed action. After launching the
+beta version of the platform, we also plan to introduce the following payment
+features:
+CPM - cost per thousand impressions - payment for 1000 impressions of a
+certain information block (news, video, post, etc.).
+CPE - cost per engagement - payment for 1 active interaction (like/repost/
+share/comment).
+CPV - cost per 1 view (for youtube video).
+/ 15
+
+
+
+
+Influencer marketing
+industry trends
+Influencer marketing is an alternative form of brand promotion that aims to
+increase coverage and conversion from the target audience. The social networks
+and channels - such as Youtube, Reddit, etc. - help avoid the problem of ad
+blocking since the advertisement becomes native as an embedded part of the
+natural flow of information.
+Influencer marketing is a form of marketing in which the focus is on the person
+(influencer) who has an influence (within their own, often narrow audience). In
+this case, an influencer can be described as someone having an influence on a
+certain circle of people and their decision-making process. The influencer is the
+opinion leader in his own niche. As a result, his information is perceived as more
+authentic and genuine than direct advertising from any brand. Therefore, it
+causes greater confidence in the product than traditional advertising.
+Clarification: a measure of «influence» is not directly proportional to the
+coverage (subscribers, readers). An influencer can be considered a user of the
+social network with 100 readers if he produces focused, readable and good
+quality content. In our paper, a similar segment of influencers is defined as
+«micro-influencer.”
+/ 16
+
+
+
+
+Influencer marketing is in the early stages of development. It is one of the
+most effective social strategies for businesses of almost any size. Selling goods
+through «opinion of other person» - has always been one of the most effective
+forms of product promotion and is now correlated with a 20% - 50% of all
+purchasing decisions. It will continue to grow because there is an active trend
+that’s increasing diversity of products on the market, increasing competition
+in almost every segment of business, and the availability of «information and
+advertising noise» that cause the audience to look for support of their purchase
+decisions. This support comes from the opinions and information of people with
+similar beliefs, values, and socio-demographic characteristics.
+The strong growth in the number of digital products, the growth of
+e-commerce, the growth of information flow, and the emergence of the «new
+media» has forced companies to seek new ways to effectively communicate
+with potential customers. Audiences are skeptical of traditional advertising,
+so contextual, media advertising drives customer decisions regardless of the
+provided information by the brand itself.
+The changing marketing paradigm means that there is a positive and active
+growth trend of the influencer marketing industry and its core tools as the
+primary strategy for many companies.
+Market analysis
+In 2017, roughly 32% of professional marketers began using the influencer
+marketing tools among their key marketing strategies. At the beginning of 2018,
+63% of budgets are allocated to work with the social networks and owners of
+thematic accounts. At the same time, about 36% of the companies spend less
+than $5,000 on this strategy.
+Over the next 12 months, nearly 85% of professionals in the field of marketing
+around the world will launch at least one influencer marketing campaign.
+In the U.S. monthly budgets on this strategy amount to more than $255 million.
+It’s not a coincidence because the number of users (devices) having ad blocking
+specialized applications has already reached 700 million as on the beginning of
+2017. 1
+In 2017, three social platforms were considered most popular: Facebook,
+Youtube, and Twitter. However, local platforms and chat services are also
+gaining significant popularity. Platforms like Wechat, Telegram, Snapchat, and
+specialized content sharing services like Reddit, Golos, Steemit, and others are
+gaining significant attention from users.
+1 https://pagefair.com/downloads/2017/01/PageFair-2017-Adblock-Report.pdf
+/ 17
+
+
+
+
+What’s more, it’s notable that 74% of the audience gets information about new
+products and services from social networking channels, and about 50% of the
+audience decides to make a purchase based on the opinions of influencers
+(blogger, friend, or colleague) who are published in the social networks.
+This strategy attracts leads with higher quality, which further demonstrate the
+higher conversions (LTV, COC, etc). According to Research by Tomoson, 51% of
+marketers appreciate this channel as more effective from the point of view of
+the quality of the attracted leads. A study by eMarketer found that the strategy
+also demonstrates higher ROI (on average 6.85 for invested dollar) than other
+channels attracting target audiences. Pay Per Click and targeted advertising,
+where, because of an overabundance of advertisers, high cost per click does not
+allow businesses to build an effective model of work with potential customers
+since the performed purchases of a product / service does not cover the
+expenses.
+Statista found that the average marketing expenses in the social networks will
+reach $17 billion by 2019.
+What’s more, BI intelligence found that the native advertising segment will
+grow by 30-40% by the end of 2018.
+2 https://blog.tomoson.com/influencer-marketing-study
+3 https://www.emarketer.com/Article/Influencer-Marketing-All-Its-Cracked-Up-Be/1012230
+4 https://www.statista.com/statistics/666485/role-influencer-marketing/
+5 http://www.businessinsider.com/the-native-ad-report-forecasts-2016-5
+/ 18
+
+
+
+
+This data shows a positive conclusion about the potential demand and the need
+to develop a system that operates in this market and solves its key problems.
+We can also note the popularity ratings of the main communication channels:
+Instagram - 91%
+Facebook - 80%
+Youtube - 73%
+Pinterest - 33%
+Snapchat - 32%
+It is also possible to note the age dependence of the efficiency of social
+channels. According to our intelligent system shown below, it’s obvious which
+channel and which target audience slice will be more effective for a brand.
+For example, 62% of the 18-24 year-old audience makes a positive purchasing
+decision when taking into account the information flow from Youtube.
+Among the most common criteria that are assessed before influencer
+marketing campaign launch can be noted the following:
+Quality, uniqueness, and authenticity of the content - 75%.
+The size of the audience and the social impact index - 70%.
+Audience engagement - 64%.
+Influencer cost - 56%.
+Ways the influencer marketing
+can help the business
+- The increase of the audience coverage - By building partnerships with
+influencers, a brand also gets access to their subscription database, which is,
+in the most cases, already pre-targeted based on interests and demographic
+characteristics. This increases the size of its potential audience. As a result,
+conversions and client base increase.
+- The increase of confidence in the brand and its products - According to
+numerous studies, buyers are trying to base their purchasing decisions on
+reviews and opinions of similar audiences. Compared with previous years, this
+figure increased by 70%. According to the econsultancy report, the reviews of
+the product from third-party users are 12 times more effective than the product
+description on the official website.
+6 https://activate.bloglovin.com/docs/whitepaper/bloglovin_marketers_survey_report.pdf
+/ 19
+
+
+
+
+- Improvement of the SMO and SEO parameters -  Because of the constant
+process of the complication of website estimation algorithms and filtering/
+banning of purchased links, search engines take into account the natural
+growth of backlinks weight and already non-anchored brand mentions
+(without URLs) in the text. That increases the rank of a website in search engines
+and also brings a natural increase in traffic.
+Analysis of the competitive
+environment
+At the moment, we can note only one direct competitor and approximately 10
+indirect competitors. We are taking into account the projects that are working
+with the same target audience including the blockchain and crypto startups or
+companies.
+Indirect competitors with a similar target audience or who are using blockchain
+technology for the development of advertising platforms or protocols:
+Blockchain solutions                                                                        Native advertising   Projects at the ICO stage,
+(platforms and protocols),                                                                  platforms            solving different digital
+solving key problems of                                                                                          ads industry issues.
+the digital advertising
+industry.
+7 http://consumerist.com/2015/06/03/nearly-70-of-consumers-rely-on-online-reviews-before-
+making-a-purchase/
+8 https://econsultancy.com/blog/9366-ecommerce-consumer-reviews-why-you-need-them-
+and-how-to-use-them#i.35yv7v2okfp7yq
+/ 20
+
+
+
+
+AdChain                                                                             Fractl         socialmedia.market
+Adex                                                                                TrypleLift     narrative.network
+Amino                                                                               Voluum         qaazqaaz.com (efir.io)
+Faktor                                                                              AdsNative      tokensale.snov.io
+Kochava (XCHNG)                                                                     TheTradeDesk   indahash.com
+NYIAX                                                                               SolveMedia     mavin.network
+Rebel Ai                                                                                           dopameme.io
+The Basic Attention Token                                                                          wardz.cc
+Qchain                                                                                             vevue.com
+MadHive                                                                                            ico.enjoy-life.world
+Adex.network                                                                                       potentiam.io
+Papyrus.global                                                                                     adhive.tv
+loyalcoin.io
+retainly.co/ico
+ico.kickcity.io
+loyaltychain.io
+adperks.io
+ico.galactikka.com
+witcoin.io
+https://www.hoqu.io/
+Comparing the project with indirect competitors, marketing platforms,
+freelance platforms, etc. it is possible to note a key difference of our platform
+from the competition: full automation and the ability to attract to the
+campaign hundreds of influencers over a short period of time. The key
+difference is integrated calculations of CPA indicators, which means that the
+owner of a startup can evaluate the effectiveness of the campaign with the
+help of integrated metrics. In most cases, the bounty or influencer marketing
+campaigns on the market are conducted “as is.” The main task, in this case, is
+only the coverage and the number of influencers. The quality of performed
+activities and their impact on improving website traffic and conversion is not
+assessed.
+Among the major indirect competitors (with the similar business models),
+operating on the market, we can define:
+- The classic ads marketplaces, content exchanges, native advertising platforms.
+- Platforms for lead generation.
+- Companies automating marketing processes.
+The majority of these projects often focus on a single channel (i.e. exclusively
+YouTube or Instagram). They often have a limited amount of influencers and
+often are not fully automatized. One of the key problems of existing solutions
+is the lack of targeting and the lack of an actual working base of influencers
+related to the blockchain/crypto industry.
+/ 21
+
+
+
+
+Target Audience
+The target market of the platform - We are pursuing companies that are
+developing decentralized solutions that are based on the blockchain
+technology. In addition, we are seeking PR and marketing agencies that can
+provide the services of our platform based on the affiliate scheme for private
+customers of the crypto / blockchain / start-up related niche.
+Indirect target audience - bounty hunters/influencers involved in the creation
+of content, perform marketing/pr related activities in social networks for further
+monetizing of social accounts.
+After many years of experience launching the largest ICOs and several in-house
+projects, including one of the first successful ICOs - Chronobank - we created a
+unique solution, which significantly simplifies communication of a startup with
+opinion leaders and allows increase the coverage and engagement of a target
+audience in a short time.
+The system is designed for maximum convenience especially for the
+representatives of the blockchain industry.
+However, the application of the platform is not restricted to the blockchain
+industry. The system can be used by any company, both technological and of
+the traditional sector, working with a similar target audience.
+The volume of cryptocurrency and blockchain market
+The total market size of blockchain technology grew by almost 300% in 2017.
+This sector is becoming more regulated, and many jurisdictions are beginning
+to officially support the existing tools offered by technology companies. The
+recognition of bitcoin as a legal means of payment in Japan and Switzerland,
+the launch of bitcoin futures in the United States, and wide adoption of the
+blockchain technology fueled an interest in the industry and significantly
+increased the number of investments made by the large institutional investors
+in the blockchain startups. The biggest global brands including Microsoft,
+Dell, Expedia, HSBC began working on the integration of solutions of existing
+blockchain startups (IOTA, EOS, RIPPLE, etc.) in their own technological
+ecosystems.
+Market growth of the ICO industry, despite the natural and «healthy» regulation
+from the market and government, continues demonstrating a positive trend. In
+2017, ICOs raised $3.8 billion, and they already secured nearly $3 billion in 2018.
+It has continued growth potential as the industry is still in its early stages of
+development.
+/ 22
+
+
+
+
+Market analytics
+- $1.7+ billion was invested in blockchain startups by major venture funds.
+- Over the last year launched more than 280 new startups based on the
+technology of decentralized ledgers.
+- Capitalization of the crypto-currency market reached $170 billion and
+continues to grow.
+- Every day more than 30 ICO campaigns are being launched in English-
+speaking countries and this number will grow (with the expected correction at
+the end of 2018).
+- The volume of the target audience (people who either invest in startups, either
+use the software developed by the blockchain companies or use investment
+instruments - stock exchanges, short/long investments, futures, etc.) increased
+2-5 times for 2017 and continues to grow.
+- The number of users of cryptocurrency wallets continues to grow and is
+estimated at between 2.9 million to 5.8 million active users.
+This leads to a conclusion about the necessity and feasibility of developing an
+ecosystem that would help new companies and existing brands more quickly,
+cheaply, and effectively build a valuable contact with a target audience.
+After conducting the prototype testing and starting the beta testing of the
+platform, we can say with certainty that the market already shows an interest
+in such solutions, and its representatives are willing to invest in their own brand
+promotion a significant amount of funds.
+The interest in our solution is also fueled by the significant growth of marketing
+budgets. At the beginning of 2016, the average budget for the preparation,
+launching, and conducting of the ICO was about $70,000 (including marketing,
+PR, attracting a pool of advisers, but excluding costs for the team, development
+and testing of the prototype). However, by the end of 2017 budgets increased
+by 3-4 times, reaching $200,000 only for promotion of the company in the
+European region.
+The increase in costs (especially in the case of international expansion) causes
+startups to seek new and better ways to deliver their marketing messages to the
+audience. Working on a startup from a marketing point of view includes dozens
+of processes, many of which are not automated and are very time and money-
+consuming.
+If we consider that almost 90% of the start-ups launch bounty campaigns and
+also the campaigns of the targeted native advertising or allocate the budget
+for the purchasing of testimonials from the thought leaders and distribute the
+average from 1-3% (of the total fees of the collected funds) for such activity, it is
+quite a large financial flow that allows our platform even now reaching the zone
+of the payback.
+In this regard, it is possible to speculate a great market interest in the project.
+/ 23
+
+
+
+
+Problems Solved
+Until developing our own in-house system for the management of the bounty
+campaigns, we personally experienced many of the same problems that plague
+the blockchain industry. These problems were disruptive enough that they
+reduced the effectiveness of the bounty campaigns.
+The financial and time costs for finding influencers:
+Finding influencers usually takes a lot of time and requires the creation of
+a separate pool of managers to contact the potential influencers, to search
+for suitable social accounts, and to build communication with each social
+representative. Therefore, companies must invest additional funds to increase
+their staff.
+The difficulty, and often the impossibility, of an adequate assessment of the
+work performed by influencers:
+Influencers make mistakes, are confused with the documents, don’t have a
+uniform system of operating the received links or documents. That’s why they
+often publish materials that don’t correspond to the timing of the overall PR/
+Marketing strategy (outdated links or content), don’t have a clear marketing
+component, don’t have sales and conversion efficiency, and don’t position
+the brand properly being not relevant to the core brand message. The market
+doesn’t have a solution for the problem of an influencer with an aggregated
+account (botted subscribers, spam content).
+/ 24
+
+
+
+
+Theft of funds in the advertising industry:
+Unfortunately, this is a common practice. In 2017, around $16 billion was spent
+on advertising within the sites with aggregated content and aggregated traffic.
+The problem of the environment:
+For the brand launching an ad campaign, an important question is a visual and
+textual context, within which users will communicate with an advertisement.
+One of the key issues, especially for the automated advertising platforms, is
+the inability to publish the advertising message in an adequate environment
+relevant to the brand.
+The lack of Analytics and Predictive Analytics for evaluating the effectiveness of
+the selected channels:
+It’s difficult to understand that the selected channels (e.g., Twitter) are really
+effective from the standpoint of ROI, CPA.
+The lack of standardized contracts between an advertiser and a contractor. A
+lack of content licensing:
+The industry lacks standards for regulating the relationship between an adviser
+and a contractor. If an advertiser is faced with the necessity of launching a
+campaign in several countries at the same time, and in the case of operating
+a large number of contractors, he has to find consensus among multiple and
+differing campaign strategies.
+Large commission to launch advertising campaigns on existing platforms
+According to a study by Mediatel, more than 70% of advertising budgets are
+spent on commission of the platforms and operating expenses (caused by
+the presence of a sophisticated supply chain: advertising message > content
+provider > publisher > data provider > contractor > web-site, etc. - each of which
+charges a special commission). Auctions, bids (per click, per impression, per
+location, etc.) existing on many platforms, are often opaque, highly dependent
+on the environment (the presence of other brands and advertisers), and do not
+allow conducting measurable and predictable (from the point of view of costs
+and results) advertising strategy. It’s also worth noting the difficulties in signing
+contracts with advertising platforms since signed agreements / contracts often
+do not regulate key terms of the ad placement.
+/ 25
+
+
+
+
+Key Advantages
+A) For a company, brand, startup
+1. The infrastructure of the platform allows maximizing future profits by
+increasing brand awareness through the coverage of a new audience. Moreover,
+the platform helps by mitigating risks, conducting automatic tracking of
+influencers activities with the ability to filter and target tasks only on quality
+accounts.
+2. The platform reduces operating costs. Traditionally the launch of the bounty
+and influencer marketing campaigns is very costly in time and financial
+resources. Working with our platform, there is no need to hire additional staff or
+pay for expensive services of specialized agencies. Full automation of the system
+allows for significantly reduce costs, both for an advertiser (bounty host) and for
+the platform (allowing us charging smaller fees).
+3. Automatic calculation of activities and results of the performed actions. The
+representative of the company has no need to hire a separate staff of managers
+to track activities and perform steaks / payments distribution, as the system
+performs the automatic tracking of all actions, monitors key indicators (ROI,
+CPA, see further, the «Analytics» section), automatically distributes the funds on
+a pre-established plan of the budgeting and allocation.
+4. The real-time data flow. No need to use Excel or other services for accounting
+and management of the marketing campaign.
+5. All-in-one - the maximum convenience for the manager - all existing social
+networks and communication channels in the single manageable space -
+Twitter, Facebook, Youtube, Reddit, etc. The platform provides an opportunity to
+include additional (narrow-targeted channels), creating custom campaigns (for
+specialized tasks).
+6. The absence of the «stealing» steaks / funds problem. The platform allows
+avoiding the common problem of spending funds on low-quality social
+accounts   (aggregated or containing a large percentage of subscribers-bots),
+and on tasks that don’t carry any value (for example, posts that contain
+irrelevant or copied content, not unique content).
+7. Deep verification of all influencers accounts and the presence of reputational
+system - special algorithms (see the section “calculation formulas for ratings and
+metrics”) provide a full transparency of a campaign for a business. The platform
+carries out verification of each user account in a social network and analyses the
+potential effectiveness of social activity of each influencer by parsing the data
+provided by the API of the social network.
+/ 26
+
+
+
+
+Quality control - The platform gathers additional data that allows us to
+determine the «quality/engagement» ranking of each influencer. For the bounty
+host, it allows targeted tasks for influencers with the desired rating.
+Deep learning algorithms are used to provide recommendations (after several
+months of analysis of each influencer activity) regarding the selection of the
+most efficient influencers depending on the task and the content type.
+Accounts verification is held according to the following parameters:
+- The account quality. The platform analyses the following parameters: age of
+account, number of followers, the total number and size of posts, the average
+reposts volume, the average number of likes and comments on a post, growth
+of audience and audience retention rate).
+- the quality of a site / blog including domain authority, domain age, amount of
+content and its average size, the domain search engines rank, the dynamics of
+the traffic growth, traffic quality (purchased / natural), and the social influence
+of a content (shares, likes, reposts in social networks).
+- the quality of a video account (on YouTube) including the age of the account,
+the number of followers, the number of views, likes, reposts, and comments.
+Furthermore, using these indicators, special formulas calculate the correlations,
+and each influencer is awarded a multi-dimensional rating. The rating illustrates
+the influencer’s activity and the quality of performed tasks. A higher overall
+rating allows an influencer to obtain additional performance coefficients, which
+enhances the ratio of each steak or task cost.
+The system continuously analyzes the quality of each performed task by each
+influencer, taking into consideration the above-mentioned indicators and
+continuously correcting the ratings of all influencers.
+8. High-quality and comprehensive database of the influencers who are not just
+registered but are taking an active part in the development of the ecosystem
+of the platform. The database has been tested on numerous projects and is
+narrowly targeted and is aimed at the crypto / blockchain community that
+allows achieving higher ROI and engagement rate within the target audience.
+9. Intelligent selection of influencers - allows the platform to automatically
+choose releva�� influencers based on the campaign objectives. This feature
+is available thanks to the embedded analytical tools, data collection and
+continuous analysis of the big data for all activities, the calculations of audience
+engagement, etc. The brand can serve several purposes, depending on the
+sampling of influencers.
+a) increasing a brand recognition by increasing audience coverage
+b) lead generation
+c) upsell of the previously sold products
+d) formation of the primary customer base for further «warm up»
+d) leveling of negative news about the company
+e) creation of positive information field about the brand
+/ 27
+
+
+
+
+Integrated systems for analysis and processing of data allow with the help
+of the intelligent tips choose the most effective channels of influence and
+content types. The platform uses «templating,” which helps to set the campaign
+configuration based on available data by comparing previous estimates from
+similar campaigns.
+10. The speed of the campaign launch, as well as the speed of attracting
+influencers to the project. One of the key problems of launching the bounty
+campaigns is time needed for establishing contacts with potential influencers.
+The platform allows reducing time costs to a minimum. The average time of
+starting the project and inviting the required number of influencers takes from 1
+to 5 days.
+11. The absence of the «missing» activities. A common problem is when the
+bounty manager either forgets to check the performed action or that action
+is lost because it wasn’t marked by the influencer itself. The platform avoids
+this situation by automatically tracking each action. In the case of «custom»
+channels (e.g. translating content or creating a video), all activities that were
+accepted by an influencer, are automatically flagged. And when they are
+executed, the bounty manager receives a special notification. While these
+labeled activities are not checked by the manager of the bounty program and
+are not approved, the activity is ignored and the steaks are not charged.
+12. The ability to target activity at certain influencers with specified parameters
+and projected indicators, such as the number of views, coverage, number
+of clicks, etc. Therefore, funds are not wasted while also developing a more
+systematic marketing campaign that clearly meets the stated objectives and
+allows more predictable results.
+13. The transparency of costs - integrated analytical tools (ROI, CPA, CTR,
+conversions, number of clicks, impressions, etc.) allows users to more accurately
+meet the marketing objectives without budget lost. They can make decisions on
+the fly by adjusting the strategy and optimizing its work. Analytical tools allow
+building a measurable sales funnel, in which the key goal is not just to increase
+«buzz» around the brand but to fuel monetization.
+14. Global, international expansion - our influencers database is international
+and helps reach an audience not only in European countries and the USA, but
+also in Asia, Russia, India, Turkey, etc.
+15. Easy to use - a separate support staff will help the bounty host arrange the
+campaign and manage the created campaign from its launch until the stakes/
+funds are distributed.
+16. The increase in natural traffic volume (SEO, SMO). The actions performed by
+the influencers, even of the non-popular social accounts, increases the quality
+indicators of the web domain within the search engines like Google, Yandex,
+and Yahoo. The search engines perform tracking of all mentions of a brand
+and a domain. Currently, this occurs without any hashtag and anchor links,
+and it increase the rating of a website. As a result, the company gets a higher
+position on the key search queries and therefore gets the increase in natural
+/ 28
+
+
+
+
+traffic, which greatly reduces the cost of carrying out SEO and PPC campaigns.
+The increase in mentions of a brand in social networks significantly improves
+the «trust» of a website for search engines, which also eliminates the costs of
+specialized SMO (Social Media Optimization) strategies.
+17. Flexibility in configuring and selecting activities. At the moment, the
+platform offers to manage the following activities:
+Main activities:
+- Sharing content
+- Reposts on Twitter / Facebook
+- Creating news, articles, post on Facebook, VK, Twitter, Bitcointalk
+- Likes
+- Activities in discussion groups, forums
+- Work with subscribers in a telegram chat rooms and channels
+- Tagging and hashtagging
+- Writing blog posts or articles on owned or third-party sites, media.
+Custom activities:
+- Translation of content
+- Writing specialized documents (white paper, reviews, analytical reviews, etc.).
+- Subscription in newsletters, etc.
+- Video recording
+- Writing SEO / SMO content
+- Lead generation
+18. Convenient and well-designed interface. This allows users to deeply and
+flexibly adjust the parameters of each campaign by using built-in filters.
+19. Gamification models encourage more active involvement of the influencers.
+The system has integrated badges, tips, and ratings that motivate users to
+actively participate in the process and to create more high-quality content.
+20. The lack of document flow and paperwork. Excessive tasks like the need to
+fill numerous checklists and questionnaires, great slows the content creation
+process. Our platform allows avoiding complex and long process of “briefing”
+because the briefing model is built into the platform. It is a more convenient
+and obvious format because it shows the predictive metrics of each step,
+parameter, or condition.
+21. The ability to view the activity history of each influencer and his interactions
+with other advertisers.
+22. Proof of Result (PoR) or activities verification algorithm. Often, the advertiser
+has no way to evaluate the quality of the campaign. The metrics provided by
+the contractors are often aggregated. For example, when the arbitrage model
+is used, the purchase of cheap traffic creates the illusion of involvement. Our
+system is built on the PoR algorithm. It builds real-time correlation of tens of
+parameters, analyzes the analytical data, and compares it with the predicted
+parameters.
+/ 29
+
+
+
+
+b) Benefits of the platform for bounty
+hunter / influencer
+1. Verification of the companies. This alleviates a common industry problem:
+non-payment of funds / steaks to a bounty hunter. Even responsible projects
+might not collect, for example, a company might not receive the required
+amount of funds during an ICO campaign, and they might have to cancel any
+further business activity. In the end, hunters lose their time and money. To avoid
+these issues, our platform uses verification of the companies by performing an
+overall project audit, making an evaluation of the project team, assessing media
+presence and the feedback from the audience, and a preliminary assessment of
+a business model.
+2. Automatic payouts after completion of the campaign or one of its stages: the
+platform helps avoid a delay in payments. On our platform, the payout happens
+automatically and immediately after the end of the campaign or one of its
+stages. In the personal profile, every influencer can evaluate the result of his
+own activities. A dashboard with key indicators of an account demonstrates the
+actual amount of funds earned.
+3. Escrow fund and escrow conditions
+Every company that works with our system signs the escrow agreement with
+each influencer This is done automatically through the integrated blockchain
+functionality and issuance of smart contracts. Deposited funds will be paid to
+influencers (for more details see “The tokenized model”).
+4. Content monetization - the process of monetizing a personal social media
+account is a laborious task because it takes time to find suitable advertisers. The
+platform equips companies to monetize social activities as soon as possible and
+to perform it on a regular basis.
+5. Access to the platform even for beginner social account holders - Most of the
+platforms and agencies in the market have high entry threshold for the owners
+of social accounts. In our system, there is no limit on the age of the account or
+the number of subscribers. Integrated tools for calculating ratings allow even
+the novice bloggers to participate in the new campaigns. According to the
+rating of each influencer, the system will adjust the payments ratios.
+6. The opportunity to participate immediately in several bounty campaigns.
+The platform does not limit a participation to only one ongoing campaign. On
+the contrary, the system allows an influencer to take the decision to participate
+immediately in several campaigns.
+7. Access to a large number of bounty campaigns in the same space - Hunters
+often have trouble locating advertisers to support and monetize their social
+accounts. Our platform provides a marketplace for those advertisers (bounty
+hosts) that are highly relevant to the content strategy of each influencer and the
+characteristics of its core audience.
+/ 30
+
+
+
+
+8. The affiliate program and opportunities for further monetization - Any
+contractor on the platform can participate in the referral program of our service,
+which attracts new audiences A successful referral earns a percentage of the
+performed activities as well as compensation for providing internal content /
+activities audit services for the brand.
+9. The absence of a security deposit - On many existing ad platforms, an
+influencer is forced to save part of the earned funds in his own profile as a
+guarantee of fulfilling the received orders. Usually, market platforms require a
+minimum balance of 1-5% of the transaction amount of an order. The balance is
+deposited to guarantee completion of a task. In our platform, this practice is not
+used because it increases the complexity of the interaction with an advertiser.
+This practice also increases the time for implementation of transactions within
+the system, which is not stimulating the overall performance of the platform.
+10. Additional monetization through participation in the scoring mechanism.
+The platform gives any influencer the ability to receive additional bonuses
+through participation in the verification (checking for compliance with the
+terms of the order) of activities performed by other users.
+C) Benefits to the industry as a whole
+Because of the integrated tools for assessing the quality of influencer accounts
+and every performed action, the influencers are forced to create more engaging
+and interesting content (to increase the number of views and CTR), which
+stimulates the industry as a whole and increases the quality of the information
+field in this niche.
+Technical features of the platform
+Automatic activity tracking
+Currently, the framework automatically parses and performs permanent action
+tracking for every registered influencer. Automatic parsing is carried out in the
+following channels:
+- Facebook
+- Vk
+- Twitter
+- Bitcointalk
+- Reddit
+- Instagram
+/ 31
+
+
+
+
+The system analyzes each post on several parameters including the number of
+words in the post, the presence of a hashtag with a mention of the brand name,
+the presence of specified keywords, links, and unique text. These parameters are
+used in the formulas for the calculation of the total rating for each influencer.
+If it’s impossible to carry out an automatic activity tracking, verification is done
+manually by the bounty hunter.
+Examples of such tasks:
+- Translation of content
+- Publication of articles / interviews / reviews on third-party media resources
+- Registration for third-party resources, creating the subscription lists, etc.
+For the convenience of task management and verification of actions, an
+instant messenger will be integrated into the system that will allow direct
+communication with each influencer. This is especially useful in the case of
+/ 32
+
+
+
+
+Getting average
+metrics on hunter’s
+social account
+HUNTER                           Performed
+Activity
+ACTIVITY                         predictive metrics
+activity
+Hunter
+Getting post-activity metrics:
+Engagement rate  /
+CTR   /   Replies/comment s
+Leads   / CPA   /   etc.
+NON-VERIFIED
+VERIFIED
+
+
+
+
+custom tasks when a bounty manager has to communicate separately with
+each influencer.
+Influencer selection and filtering
+Within the platform, there are several ways to select influencers:
+1. Automatic invitation of all available influencers into the campaign.
+2. Invitation of influencers selected by certain options (rating, communication
+channel (YouTube, Twitter, Facebook, etc.), metrics (coverage, average number
+of reposts for the post, etc.).
+3. Manual invitation of influencers or creation of a closed bounty program,
+which is accessible only to selected users.
+The parameters of the selection and filtration
+These parameters allow users to more flexibly and accurately define their
+potential audience, which is likely to have similar interests.
+- Themes. This includes broad subjects like «ico,» «investment,»
+«cryptocurrency,» «trading,» etc. This setting is very important because it reflects
+the relevance of the interests of an influencer and his audience to the main
+thematic of the task.
+- Communication channel. This is selected according to the main social channel
+such as website, blog, YouTube, Twitter, Facebook, forum, etc.
+- Gender - male / female
+- The age of the audience ... to. ..
+- Coverage - the number of followers or subscribers.
+- Geo-targeting - region, which includes more than 70% of followers of an
+influencer.
+- Language.
+Ratings Calculation
+To avoid participating in campaigns for influencers with aggregated accounts
+(bot-subscribers, irrelevant, copied content, etc.), the system calculates the
+rating of each influencer and his actions. Depending on the rank score, the
+system adjusts the cost for each action (in case of using CPA model for the
+campaign payout).
+For the formation of rating indicators and key metrics (for each registered
+account), the platform uses the following formula:
+The formulas for calculating the engagement rates. These figures demonstrate
+how the target audience reacts to the posts made by an influencer.
+Facebook engagement rate:
+Post engagement rate = (# of likes + comments + shares (per 1 exact day) / Total
+of FANS (per 1 exact day)) * 100
+/ 34
+
+
+
+
+Twitter engagement rate:
+Twitter engagement rate = ((# of replies + retweets) / Followers)* 100
+Engagement rate for other channels:
+(( Likes ×  X +  Comments × Y +  Shares × Z ) × 100%) / Fans
+Automatic generation of the UTM marks for each influencer task
+For more accurate tracking of the parameters (clicks, conversions, etc.), each
+link provided by the bounty host is marked with UTM label with embedded
+parameters generated separately for each influencer.
+On the basis of Deep Learning instruments
+We are currently testing the deployment of the neural network on the basis
+of Tensor Flow API, and analytical tools of the Python environment - Pandas,
+MatPolib, and others.
+Example: When creating a new campaign, the platform will calculate the
+potential coverage, an indicator of engagement and the expected CTR rate for
+the overall campaign, which are based on the characteristics of the selected
+influencers.
+Predicting performance is possible because of the continuous collection
+and analysis of data on every account of all registered influencers and the
+use of averages over a certain period (at least six months) of these accounts,
+integration of the corrective indices for the «weight» of each indicator. For
+example, the average «weight» for the metric «likes» for a single account is
+calculated as follows: the average number of likes for 1 post (with a certain
+number of characters) for the year / number of followers for the half year
+(excluding new followers increment).
+Please stay tuned to the official website and our blog. We plan to publish a
+series of articles related to the development of analytical tools on the platform.
+We will also release case studies and descriptions of the development of the
+internal processes of our system. We welcome your comments and advice.
+For more information on the topic «analysis of social networks,” please consult
+the following articles and research papers:
+Lyon, E. 2009. Differing Approaches to Social Influence. http://sparxoo.
+com/2009/10/01/differing-approaches-tosocial-influence/.
+Granovetter, M. 1983. The Strength of Weak Ties: A Network Theory Revisited.
+Sociological Theory 1 (1983), 201-233.
+S. M., “Return on influence: The revolutionary power of klout, social scoring, and
+influence marketing.” in McGraw-Hill Professional: London, 2012.
+/ 35
+
+
+
+
+J. Tang, J. Sun, C. Wang, and Z. Yang, “Social influence analysis in large-scale
+networks,” in SIGKDD’09, 2009.
+N. Agarwal, H. Liu, L. Tang, and P. S. Yu, “Identifying the influential bloggers in a
+community,” in WSDM’08, 2008.
+J. Weng, E.-P. Lim, J. Jiang, and Q. He, “Twitterrank: finding topic-sensitive
+influential twitterers,” in WSDM’10, 2010.
+D. Kempe, J. Kleinberg, and E. Tardos, “Maximizing the spread of influence
+through a social network,” in SIGKDD’03, 2003.
+W. Chen, Y. Wang, and S. Yang, “Efficient influence maximization in social
+networks,” in SIGKDD’09, 2009.
+S. Chen, J. Fan, G. Li, J. Feng, K.-l. Tan, and J. Tang, “Online topic-aware influence
+maximization,” Proceedings of the VLDB Endowment, vol. 8, no. 6, pp. 666-677,
+2015.
+A. Khrabrov and G. Cybenko, “Discovering influence in communication networks
+using dynamic graph analysis,” in IEEE Second International Conference on
+Social Computing (SocialCom), 2010.
+The metrics provided by the platform
+For more in-depth analysis and statistics of the used communication channels
+and influencers, as well as updating the ratings of the users, the system collects,
+analyzes and calculates the following indicators. Metric calculations are used as
+internal resources. Analysis of the obtained data with the help of parsing tools
+and social networks API requests) and third-party data providers (SproutSocial,
+Klout), which provide application-specific data that meets the more narrow
+objectives.
+Organic Page Likes / Unlikes: the total number of natural likes / unlikes, obtained
+by the post which wasn’t advertised using Adwords, Facebook Ads,  of unique
+visitors of the page.
+Post Reach / Impressions: the number of unique visitors of the account that saw
+an informational message (content, post, video, etc.).
+Engagement rate: the number of unique visitors who clicked a link, liked,
+commented on or share / retweet the post or add the post to Favorites.
+Link Clicks / CTR (click through rate): the number of users who clicked on the
+links inside the post.
+Replies / comments: the number of comments on a post or replies to tweets.
+Content rate: the Number of units of content (posts, tweets) that an influencer is
+producing for a certain period.
+Audience growth rate: the growth rate or the outflow of followers for a chosen
+account.
+Influence score: a measure of impact - calculated as the ratio of the quality of
+/ 36
+
+
+
+
+the posts, engagement rate and the influx of new followers.
+Cost Per Engagement: allows evaluating the cost of efficiency of an influencer
+activity in real time.
+Google Analytics
+Integration
+For tracking deeper marketing metrics, our platform has a built-in tool to
+integrate a campaign with Google Analytics. Our company also offers a
+specialized platform that offers a personalized presentation the Google
+Analytics on the client side. The following indicators, as well as a more
+customized calculation of the specialized micro-conversions, are available:
+Average purchase value/average order value: the average value of each
+purchase.
+LTV: Lifetime Customer Value: the profit that a customer generates in a certain
+period of time (six months, a year, etc.)
+ARPU / Average revenue per customer: the average profitability per client.
+Conversions: the number of email database registrations, documents
+downloads, website registrations etc.
+CPA (cost per acquisition or cost per action): the cost for the final action
+committed by the client.
+CAC (customer acquisition cost): the cost of attracting a potential customer to a
+web-site.
+COC (cost of a client): the cost of converting a visitor into a real customer.
+RPC (revenue per click): the average profit for one click.
+ROI (return on investment): return on investments spent on an advertising
+campaign or bounty campaign.
+Product sales: number of sales.
+Bounce rate: the number of visitors who clicked the link, went to the site, but
+immediately returned to the social network.
+The platform provides several payment options:
+- The allocated amount for a certain action/task.
+- Steaks with the distribution of the allocated budget in fiat or cryptocurrency.
+Distribution of funds occurs automatically after each reporting period (e.g., once
+a week).
+/ 37
+
+
+
+
+- Steaks with the distribution of a specified pool of tokens of the future project.
+The distribution of funds occurs after the end of an ICO after the automatic
+calculation of steaks for each influencer. The platform integrates with the ICO
+project server-side, creates a separate smart contract, and the distribution of
+steaks happens automatically after the ICO end.
+Campaign setup
+Allows setting the following parameters:
+here are screenshots and a list of parameters with the explanation of each item:
+-
+-
+-
+Task Timing Setting
+The setting of the start / end date of a publishing task. Timing allows for a more
+systematic and flexible marketing and PR strategy. This feature was introduced
+for the convenience of building systematic marketing campaigns. For example,
+when certain activities outside the bounty program (scheduled interview
+publishing or an event/conference), are supported inside the platform with a
+specific type of tasks (publishing of post-release, press releases, reports - only in
+a designated and regular time interval).
+Two-factor authentication
+Is used to protect accounts and payment information.
+Technology base
+(technology stack)
+Used technology:
+7 PHP (Yii2), NodeJS, RESTful, Python
+Doctrine 2, MySQL(Galera cluster), MongoDB
+RabbitMQ, Redis, ZeroMQ
+Angular 4, 4 Bootstrap, SCSS, Jade, Webpack
+Docker (compose, swarm hub)
+Git, Bitbucket, Gitflow
+Rancher, Nginx, Traefik, CircleCI, Satis, Cloudflare
+Amazon AWS, Google Cloud, Linode, DIgital ocean
+Jira, Confluence, Gmail, FreeIPA
+/ 38
+
+
+
+
+Centos 7, Ubuntu
+- Secure transactions with blockchain and smart contracts - Docker-
+containerization of services, a unique sandbox for each service, reliable identical
+environment for each version of the product; the containers orchestration,
+reliable and individual service deployment; Two protocols for communication
+between services - TCP/HTTP, insulated data transfer within the overlay network,
+JWT authentication between services during the connection period;
+- The application is deployed in the cloud, with automatically scaling resources
+depending on load rate, built-in protection against DDoS attacks; Development
+of applications using agile (Scrum), multi-level testing versions (including
+testing errors) during the development.
+Microservice architecture:
+The architectural style of microservices is an approach allowing developing
+an application as a set of small services, each running in its own process and
+communicating with others.
+Connection security is provided by JWT-authorization (JSON Web Token /
+JWT contains all the minimum necessary information for authentication and
+authorization in an encrypted form). There is no need to save user data in
+session because the token is self-contained.
+Cloud storage
+Storing data in a cloud repository on multiple distributed servers with the
+ability to scale resources.
+Protection from DDOS attacks
+At the moment besides the in-house tools, developed especially for the
+platform, it uses also the service provided by the Cloudflare.
+Data structure and platform architecture
+- Influencer register - contains information about the profiles of influencers,
+their ratings and an information used for further targeting (geographic region,
+age, gender, interests, content themes, etc.).
+- Register of social accounts and websites - contains information about the
+metrics and indicators of social accounts and platforms (blogs, websites) of
+influencers (number of subscribers, visitors, virality, engagement, etc.)
+- The register of companies - contains information about the hosts, their activity,
+internal ratings.
+- Financial register contains information about the current activity (the
+orders) and deposited funds, performed and paid activities (orders), and other
+procedural information (currency of a transaction, time of a transaction, etc.).
+/ 39
+
+
+
+
+- Orders register - contains information about performed and current orders
+(tasks), including terms, parameters.
+- Register of the referral program - contains information about the referral
+activity, payout percentages.
+The performance
+For maximum performance, the project adheres to the following principles:
+1. Storage of key processes in memory.
+2. Storing key business logic in a separate thread.
+3. The use of object-oriented information model.
+4. Using separate databases for information flows related to different business
+processes.
+Taking into account these principles, the platform was developed as a
+framework of separate interconnected modules. Each module has its own
+version and can be modified individually without affecting the operation of
+the system as a whole. This provides the flexibility to adjust and complement
+the functionality of the system and to track bugs directly in the event that they
+occur.
+/ 40
+
+
+
+
+Key system modules
+The analytical module - analyzes the information obtained during data-parsing.
+The module consists of multiple internal models, each of which performs
+certain calculations - of conversions, rankings, predictive parameters.
+Data parsing module for the social accounts and activities - provides data
+parsing from social accounts of influencers, as well as from third-party
+platforms (websites, blogs).
+A module for calculating influencer ratings - conducts a weekly calculation
+of quality indicators of social accounts and performed activities and their
+compliance with the objectives of the campaign.
+Activities verification module - performs automatic verification of activities;
+distributes activities for additional manual verification among influencers with
+high ratings.
+Transactional module - a trigger based module (works in case of fulfillment of
+conditions prescribed in the smart contract) interacts with a smart contract,
+ensures the payment and conversion of funds.
+Messaging module - provides instant communication within the system
+between influencers and hosts.
+/ 41
+
+
+
+
+Tokenized
+model
+The tokenized model
+Technologically, the project represents the hybrid model built as with the use
+of traditional tools (relational databases, etc.), and blockchain technologies that
+are integrated with each other to ensure ease of use, greater speed of internal
+transactions and more secure data storage.
+One of the key advantages of using blockchain technology in the framework of
+the project are:
+- Ease of conducting financial transactions within the platform.
+- The lack of the need for signing additional regulatory documentation for each
+contractor. In  particular, the interaction of different contractors from different
+geographical regions with different legal and legislative framework).
+- Reduction commissions on currencies conversion and transaction during the
+payment process (particularly in the case of numerous microtransactions).
+- Secure storage of digital assets (representing high value - data; funds, etc.).
+- Ability to scale the system to millions of users.
+However, taking into consideration the experience of developing our own
+blockchain project and the experience of other industry representatives,
+we are aware of the disadvantages and limitations of existing blockchain
+solutions and protocols. For example, using the popular blockchain platform
+Ethereum obviously limits the project in achieving high transaction volumes
+because Ethereum can only provide up to 20 transactions per second.
+Another significant problem is the implementation of micropayments.
+/ 42
+
+
+
+
+Currently, the average transaction cost within the Ethereum is about $5-10 for
+a 10-minute transaction. For large payment volumes, this imposes significant
+limitations on the overall speed of the system and increases costs. Most of
+the projects of traditional (non-blockchain) industry which use mechanics of
+microtransactions  also offer very high commission rates for the processing and
+withdrawal of funds. For example, on popular freelance exchanges, the average
+fee rate is about 30%. We understand that this might be a rational decision
+when offering a real value to the client. For example, the ability to find the order
+executive in the shortest period of time is a value-proposition. However, within
+our platform, we aim to avoid this problem.
+In this regard, we decided to use a multivariate framework, which uses
+multiple protocols and tools. Realistically understanding of the complexity of
+the simulation, launch, testing, and development entirely in-house solution /
+protocol, we have decided to use tested and proven platforms and protocols,
+demonstrating real effectiveness for high-load systems.
+- Ethereum - to issue smart contracts.
+- To ensure speed and scalability - all of the data that do not bear the critical
+value is written in a traditional relational database. And then the key results
+of the interaction of the information clusters among themselves (i.e. metric
+calculations), is committed to Ethereum.
+- Bitshares Graphene - using an open-source Protocol «Graphene» allows
+significant scaling up the capabilities of the platform. Graphene allows the
+algorithm to handle up to 100,000 (tps) transaction per second (for comparison,
+the Bitcoin Protocol has tps about 7, while the cost of each transaction is 25$).
+During the prototype development and testing of the Protocol, we encountered
+a technical limitation, but there are simple solutions for this problem. The
+Graphene Protocol validates a transaction on average for 1 second, but the
+speed is directly proportional to the used resources of RAM. A slight decrease
+in the speed of transactions can significantly reduce the resource-intensiveness
+of the hardware side and does not affect the provision of value (convenience,
+simplicity, the speed of use) to the contractors of our system. Because even
+with the most optimistic scenario of the development of the platform the peak
+number of transactions will not exceed 50,000 per day.
+/ 43
+
+
+
+
+Additional advantages of the Graphene protocol
+- A reliable and flexible Consensus Protocol - DPoS - Delegated Proof of Stake.
+- Dynamic allocation of rights to existing accounts - (Dynamic Account
+Permissions) - enables to distribute access to accounts; increases the security
+level of storing funds and data, which is especially important when working
+with corporate clients.
+- The referral program built into the Protocol allows increasing the motivation of
+using the system, and motivation of token ownership to third-party users.
+- Recurring & Scheduled Payments and the integration of flexible settings
+and permissions for funds withdrawal. This is particularly important in the
+framework of our platform, as payments distribution and withdrawal to
+influencers is made at specified time intervals, or after achieving certain
+conditions (indicators, metrics).
+The platform token
+HNTR Token                                                                           HNTR SP Token
+/ 44
+
+
+
+
+The value of the platform is represented by the HNTR token, local currency,
+secured with the cryptographic algorithm and that can be used to purchase
+the subscription to use the service, as well as for internal transactions. The HNTR
+token functions as a utility token. The following table shows characteristics
+(marked in bold) of the HNTR utility token :
+Our platform’s utility token can be compared with the API key that is provided
+to access the service and acts as an internal means of payment backed by
+the smart contract, which is generated for each significant activity within the
+platform (the launch of the campaign, funds distribution, etc.).
+The purchase of the token during the ICO provides the opportunity to its
+owner to use internal services and gain access to the entire infrastructure of
+the platform. The token contains the transaction value. It may be transferred,
+donated, sold to a third party, to a counterparty, and purchased on the relevant
+exchanges. This transactional mechanism increases the potential market value
+and liquidity of the token.
+The token is issued on the basis of the Ethereum blockchain, and it is ERC-20
+compatible.
+The platform takes a commission from each completed contract. These fees
+will be used to improve the operation value of the service and to update the
+technical functionality and increase influencers database.
+/ 45
+
+
+
+
+Transactions safety
+The Token is designed with the aim to increase the safety of internal transaction
+between the counterparties (bounty hunters, influencers, and hosts) of the
+platform. The smart contract, integrated with the token, allows configuring the
+flexible parameters of each transaction (for example, if the host does not receive
+the content of pre-defined quality (the posts don’t meet the stated metrics),
+the smart contract algorithm will automatically either reduce the payout per
+performed action or cancel the payment.
+Our platform uses a 3-level approach (host < > influencer, as well as the system
+itself) with a focus on its own verification system - Proof of Result (PoR). This
+verification system calculates the efficiency of each performed action and
+builds correlations (the compliance of action to the pre-defined conditions and
+campaign objectives), uses the above-described estimation algorithms of the
+influencers accounts, averaged metrics obtained from the performed actions
+of other influencers and many other parameters. It provides a system with a
+real opportunity to assess the work of an influencer and make the solution
+(automatically) about the possibility of payoffs and the volume of additional
+bonuses (in the case of increased performance) to each influencer.
+The use of such mechanical verification process avoids the traditional problems
+of the advertising / marketing industry. For example, it eliminates the expenses
+for any fake actions that do not provide any value. It also helps avoid additional
+costs by avoiding long advertising chains in which each step of the chain adds
+extra costs. Our platform allows eliminating these expenses and “theft” of funds,
+as well as to build the maximum transparent scheme of the campaign launch
+with clear performance indicators and standards.
+All data (campaign conditions, the conditions of achievement of predictive
+indicators) of new orders are encoded in the smart contract and stored in a
+decentralized ledger.
+/ 46
+
+
+
+
+Security of rights of the
+licensed content
+Let’s note also an important component of our project: the ability to tag license
+content in a smart contract and to introduce certain conditions for its use.
+Operating with licensing and potential content theft are incredibly prevalent
+in the industry. The appearance of programmatic advertising platforms,
+unfortunately, did not solve the problem, because such systems are composed
+of numerous contractors (websites, data-providers, publishers, content
+generators) that frequently complicate the work and can’t guarantee the proper
+content ownership.
+The platform’s smart contracts embed the licensing details on the created units
+of content (content as provided by a brand and the content that is generated
+by an influencer). The conditions of use of this type of content are configured.
+For example, geographical restrictions or temporary limitations are included in
+the smart contract. This is particularly important in the case of operating with
+other geographical regions and taking into account local legislation. The system
+automatically checks compliance of the license and its conditions to the actual
+facts of performed publications. Integrated tools of linguistic analysis of the
+content (with the help of Natural Language Processing units) allow the platform
+to automatically decide whether the content is copied or modified, etc., and
+then if necessary (if these parameters are set during the order creation), to
+conduct a verification of performed activities and conditions of the license.
+As a result, we can confidently say that our project contributes to the
+transformation of the advertising industry in a more measurable and
+transparent class.
+/ 47
+
+
+
+
+Escrow conditions
+Escrow of allocated funds also allows securing the work of influencers,
+guaranteeing payment from the side of the host. Our platform solves a major
+problem of the industry:  dependence of an influencer on the persons who take
+the final payment decisions. In our case, an influencer doesn’t interact directly
+with the manager of a startup, but with the platform that deposits funds, thus
+guaranteeing the safety and final payouts.
+While creating a campaign, a host can choose the options of conducting a
+campaign:
+1. CPA - pay-for-performance - the platform calculates the cost of campaign
+using the averaged metrics and indicators of influencers-participants and locks
+/ deposits funds of the campaign host prior to the launch of performing of
+activities and achievement of objectives).
+- click (see ip filter / trim cheat) or give the host the opportunity to reject the
+activities of the bounty hunter with a subsequent ban.
+- YouTube (views)
+- lead (api development)
+- purchase (api development)
+2. In the case of the traditional “bounty” campaign launch (with the distribution
+of steaks from the specified overall amount, or a dedicated pool of tokens
+of the project), to avoid problems with upcoming payments (in the case of
+cancellation of the crowdsale), the host deposits 10% of the specified campaign
+funds (according to the cost of buying 1 token during the ICO period) in liquid
+currency / cryptocurrency (eth, btc), but not the tokens (as before they are
+available on crypto-exchanges, they do not carry real financial value). Therefore,
+even in case of cancellation of the ICO, influencers will receive funds for
+completed activities.
+Upon completion of the project, the platform releases the allocated funds and
+process their distribution. Each transaction is recorded in a decentralized ledger
+that guarantees the transparency of the funds’ movement within the ecosystem
+of the platform.
+/ 48
+
+
+
+
+Commissions on the
+transactions
+Currently, high commissions inside the advertising industry are a real
+problem. In the case of using multiple advertising systems by a startup, overall
+commissions, in most cases, exceed the specified conversion parameters
+needed to attract new customers and ensure the profitability of the company
+and preserve the margin parameters of the product). Our platform takes only
+10% of the total cost of the campaign or of each completed and verified activity.
+Exchange module
+The exchange module will be developed to simplify interaction with the
+platform both of influencers and representatives of companies. It aims to:
+- transfer of funds from personal accounts / wallets to the system itself
+- transfer of funds within the system between users (tokens can be transferred
+to another user, donated, paid as a personal bonus).
+- the conversion of the token to other currency (for further withdrawal to the
+popular wallets or exchanges).
+Automation of activities
+verification - meta-
+moderation
+The decentralized framework integrated into our platform also reduces time
+spent on manual activity verification. To increase the motivation of using
+the system from the part of the influencer, the platform offers an additional
+monetization tool - the opportunity to participate in the evaluation of other
+users activities.
+For the brand, it brings the following benefits: no need to manually check all
+activities (although this could be done at any time). For checking other users’
+performed tasks - an influencer gets a bonus. The ability to check other users’
+activities is available only to influencers with a high rating. In this case, we use
+an analog of the PoW algorithm, increasing the quality of verification process
+within the system and reducing the subjective factor (in the case when one
+manager verifies all the activities). A single activity is offered for inspection for
+few hunters simultaneously, and the general decision on the final verification
+of this activity is taken by the system based on an average rate for other
+completed checks.
+/ 49
+
+
+
+
+The token price
+The value of the token at the time of the crowdsale will be 1 HNTR = 0.5$.
+The final cost of the token as a market asset couldn’t be determined at the
+moment because these indices are affected by many factors including supply
+and demand for the token, trading volumes, news and media factors (news
+about the development of our project), correlation factors related to the
+development of the crypto industry as a whole and to the indicators of other
+popular currencies.
+Motivating Factors For
+Token Possession
+To ensure the development of the platform and to increase the interest of the
+counterparties of the platform, additional motivators of token possession are
+introduced:
+- Possession of a number of tokens from BontyHunters enables an influencer
+to obtain the status of a delegate and to participate within the Management
+Board of the platform and to vote on the strategies and tactics of further
+development of the system.
+/ 50
+
+
+
+
+Crowdsale details
+Token issuance and distribution
+                                  Token price,   Tokens
+Stage
+                                  USD            issued   Ratio, %
+White-list (private)              0,25                               4,00    %
+Pre-ICO                           0,3                                3,33    %
+General ICO                       0,5                                2,00    %
+From 2 mln. cap                   0,7                                1,43    %
+From 5 mln. cap                   0,85                               1,18    %
+From 8 mln. cap                   1                                  1,00    %
+Distribution:
+Bounty allocation                                100000              0,83    %
+Referral program                                 200000              1,67    %
+Team incentives                                  1200000             10,00   %
+Advisor incentives                               1200000             10,00   %
+Pr/Marketing                                     3000000             25,00   %
+Development                                      5500000             45,83   %
+Legal (trademark
+registering,
+etc.)/Administration                             160000              1,33    %
+Contingency                                      600000              5,00    %
+Rounds:
+Round 1                                          12000000
+Round 2                           potential
+Round 3                           potential
+Total:                            12000000
+/ 51
+
+
+
+
+- 12 million is offered for the sale.
+- 200 000 tokens are distributed to the referral program.
+- 100 000 tokens are distributed to the bounty program.
+- 100 000 tokens are distributed on a long-term basis within the team of the
+platform as a consolation prize and incentive.
+The process of the crowdsale occurs in the following stages
+1. Up to reaching 2 million of tokens sold - tokens are offered at a cost equivalent
+to 0.5$ (you can pay in the following currencies...                                    ..).
+2. From 2 million - the cost of the token is 0.7$.
+3. From 5 million - the cost of the token is 0.85$.
+4. From 8 million - the cost of the token is 1$.
+Whitelist registration is valid from the purchase volume from 5,000$ and allows
+purchasing the token with 50% discount, i.e. $0.25.
+Referral program
+For each attracted investor the user receives ....% of the amount of purchased
+tokens.
+Legal and Legislative
+responsibility
+Our project adheres to the principles of full legal responsibility. Given the
+current regulatory and legislative framework, crowdsale participate is not
+allowed by users with IP addresses from countries that fall under the restrictions
+of the existing legislation that classifies digital assets as securities or limiting
+the access of non-professional investors to participate in fundraising campaigns.
+For more information, see Statement of the Securities Commission (SEC - The
+United States Securities and Exchange Commission) of 25 July 2017; Statement
+of the Central Bank of China, the Statement of the Financial Commission of
+South Korea (Financial Services Commission (FSC)).
+The full list of countries, citizens of which are restricted to participation in the
+platform crowdsale:
+USA, Canada, China, UK, Singapore, Hong Kong, South Korea, Malaysia, UK.
+During the crowdsale with all participants will be concluded the «click-wrap»
+contract - Public Offer/Terms of conditions, describing the legal characteristics
+of the token and the buyer’s rights and other conditions regulating the
+relationship of the parties.
+/ 52
+
+
+
+
+A list of possible risks
+The risk associated with the effect of violated expectations: the complexity of
+the development of the above-described functionality of the platform. Risk
+category: low.
+At the moment, 70% of the functionality of the platform is already developed,
+60% is tested, the platform is in its operation state, having successfully
+passed the stage of beta testing. And at the moment 70% of the developed
+functionality fully covers the existing needs of our real customers.
+Ethereum functionality violation and related to this risk the problem of not
+issuing of tokens. Risk category: low.
+Taking into account and performing a deep analysis of the experience of ICOs
+of the major market projects that had problems with a) receiving payments
+b) website overload, c) longer (compared with the planned) time of tokens
+release, etc., we have developed our own failure-resistant platform (integrated
+with Ethereum), which acts as an intermediary-service for accepting payments
+in all popular currencies, and also allows to avoid problems with possible
+failures of the website due to an instantaneous large flow of users. This platform
+was successfully integrated into the ICO campaigns of many major projects:
+Micromoney, Blackmoon, etc. You can get more information on the platform via
+this link.
+Risks associated with new legislative regulations. Risk category: medium.
+Our decentralized project operates in a non-fully regulated legislative side of
+the market. In this regard, there is a risk of introduction of certain restrictions
+on the conducting of crowdsales, as well as on the class of digital assets, digital
+products in some jurisdictions. The decisions taken within the legislative
+frameworks of the target markets may affect on the workflow of our project
+and may cause possible changes of dates of the crowdsale launch, or its
+cancellation. In case of cancellation, all the raised funds will be returned to all
+participants.
+Active development of a competitive environment. Risk category: medium.
+Our project operates on a fairly competitive, but not yet fully saturated market.
+Among the possible risks, it is possible to note the emergence of similar projects
+with a similar concept and business model, or the transformation of the
+business models of existing major players (operating, at the moment primarily
+as programmatic advertising platforms). These factors can increase the
+payback time of the project, as well as a possible decline in the token market
+value. However, these factors are taking into account by our team, and niche
+uniqueness inherent in the platform, as well as unique functional elements, will
+provide the platform a strategic perspective and will help to stand out from
+competitors and to offer to the market a valuable and unique product.
+/ 53
+
+
+
+
+Roadmap
+The platform works in a beta testing mode and already is generating profit.
+Plans for 2018:
+1st quarter:
+- Crypto- and tokenized framework integration.
+- Creation and audit of smart contracts.
+- Attracting an array of new influencers.
+- Integration with Wechat, Snapchat, Telegram.
+- Launch of the rating system.
+- Deep integration with Facebook API, Twitter API for further analytics
+calculations of each social account.
+- Intellectual property protection (patent and copyright for the development
+and brand name).
+- Launch of paid channels to attract the target audience (influencers and new
+companies) in - Google Adwords, Yandex Direct, Facebook Target, Twitter,
+Linkedin.
+- Modification of interfaces and UX adjustment.
+2nd quarter:
+- Integration of deep analytical tools and advanced calculation of metrics and
+conversions.
+- Multi-localization and multi-language support.
+- Global marketing and PR campaign.
+- Involvement of large brands and agencies.
+/ 54
+
+
+
+
+bountyhunters.io
+
+
+
+
+

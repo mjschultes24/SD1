@@ -1,0 +1,1206 @@
+﻿CRYPTO-TOKEN
+BACKED BY
+COLOMBIAN
+EMERALDS
+WHITE PAPER V.28.08.2018
+
+
+
+
+Table of Contents
+Introduction………………………………………………………………………………………….                 3
+GEMERA Project
+Problems
+GEMERA´s Solutions
+Colombian Emeralds…………………………………….…………………………………………               8
+Colombian Emerald Market
+Emerald Producers Alliance
+GEMERA Crypto-Token……………………………………………………………………………   12
+Token Generation Event Process
+Total Tokens Issuance
+Marketplace…………………………………………………………………………………………    14
+Redemption
+Business Model…………………………………………………………………………………….    17
+TGE Funds Allocation
+GEMERA Token Projection
+Redemption Revenue
+Technology…………………………………………………………………………………………..   21
+GEMERA Token
+Smart Contract Features
+Custom Functionality
+Marketplace
+Emerald Assessment Process……………………………………………………………………   25
+Emerald Quality Parameters
+Marketing…………………………………………………………………………………………….    29
+Competitors
+Operations…………………………………………………………………………………………..    31
+Storage and Insurance
+Audit
+Legal Aspect
+Environmental and Social Responsibility……………………………………………………..   34
+Road Map……………………………………………………………………………………………    35
+FAQ…………………………………………………………………………………………………..    37
+Team and Advisors………………………………………………………………………………..    39
+Conclusion………………...……….………………………………………………………………..   43
+2
+
+
+
+
+Introduction
+Investing  in  Colombian  emeralds  is  becoming  more  popular  due  to  their  unique
+characteristics, beauty, and scarcity. There are Colombian emeralds worth more than
+USD 10 billion in the market. Currently, 5 to 10% of the yearly production is used for
+investment purposes, and it is expected to grow up to 50% in the coming years.
+Figure 1. Uses of Emeralds
+Colombian emerald production is a multimillion dollar industry, thanks to the outstanding
+quality of these gemstones and their international fame. For instance, in the scale of
+tonality,  Colombian  emeralds,  according  to  experts  and  gemologists,  are  the  most
+balanced, which means they are not very dark nor very light; in other words, they have a
+perfect saturation. Also, they stand out for their deep clarity and often extraordinary size.
+All these attributes make Colombian emeralds a desired precious gemstone, whose
+demand has been growing day by day and whose value has not decreased in the latest
+years. Plus, there are very few mines; new ones have not been discovered in a long time,
+which  means  they  are  a  scarce  asset,  with  unique  qualities,  which  make  them  an
+attractive and profitable investment.
+However, investing in emeralds is a difficult decision, due to several factors: a standard
+investment involves a transaction of thousands of dollars, the investor must have a
+specialized knowledge of the characteristics of the emeralds and their value in the market
+to be sure on paying a fair price, discounts are only possible with large investments and
+there is uncertainty about  the  origin  of  the gemstones,  as  well as  about the legal,
+environmental and labor practices during the production.
+On the other hand, there are too many intermediaries all along the emerald production
+chain,  from  the  mines  where  the  gemstones  are  extracted  to  the  final  customers.
+3
+
+
+
+
+Besides, these intermediaries do not give any added value to the product. Without these
+intermediaries, it would be possible that final customer pays less for the investment and
+the producer earns more for the emeralds.
+GEMERA will help to transform that traditional investment model into a modern, fairer,
+transparent and democratic ecosystem, by connecting investors and emerald producers
+directly with a blockchain based platform, that contains a crypto-token 100% backed by
+Colombian emeralds and a marketplace with all the decentralized information about each
+one of these gemstones.
+GEMERA Project
+GEMERA is a crypto-token backed by Colombian emeralds that provides a mixture of
+secure digital assets managed by blockchain and physical Colombian emeralds stored
+in security vaults of safe deposit box companies.
+The Project offers an innovative and modern investment opportunity, more profitable,
+accessible, democratic and transparent, by connecting producers and investors through
+the advantages granted by the blockchain technology, producing in that manner win-win
+benefits for these two actors.
+The project  will  also  develop  a blockchain-based marketplace platform to store  the
+information of the emeralds that back the GEMERA tokens in a decentralized way.
+As GEMERA works hand in hand with emerald producers, it is also part of its politics to
+partner  only  with companies  with good  environmental practices in  the  extraction of
+gemstones and with corporate social responsibility standards that seek for the integrity
+of their workers and the communities nearby, helping them and other stakeholders to
+improve their quality of life and to open their path towards sustainable development. The
+project uses part of the project funds to achieve this purpose.
+4
+
+
+
+
+Problems
+There is a long process that an emerald goes through the value chain, from its discovery
+in Colombian mines to the final holder, which generates several problems for both the
+investors and the producers, as specified below:
+Problems on the Investor’s Side:
+•   High prices.
+•   Investing  in  emeralds  can  be  complicated  and  risky  without  adequate
+knowledge about them.
+•   Partial and small investments are not possible.
+•   Lack of trust in the emeralds origin.
+Problems on the Producer’s Side:
+•   Receive  less  than  35%  of  the  final  customer  retail  price  due  to  many
+intermediaries.
+•   Difficulty in expanding into new markets.
+Investor                                                                                   Jewelry
+Figure 2. Emerald Production Chain
+5
+
+
+
+
+GEMERA’s Solutions
+GEMERA’s purpose is to create an innovative and modern investment opportunity that
+at the same time solves problems in the Colombian emerald’s value chain, through the
+creation of crypto-tokens 100% backed by this asset, that can be redeemed for the very
+gemstones they represent, and even used as a store of value or as a trading token.
+Hence, by holding GEMERA tokens, investors hold at the same time the value of the
+emeralds that come directly from Colombian emerald producers and are stored in secure
+vaults. In that way, no intermediaries are needed, which translates into benefits for both,
+investor and producer: the first one gets incentives of around 20% of bonuses during the
+Token Generation Events (TGE), available also for small investments, and the producer
+receives up to 15% more, based on the retail price.
+GEMERA has focused its efforts on the early stage of the project to create a model, along
+with gemologists and experts in fine Colombian emeralds, with all the necessary criteria
+to assess and determine the quality of the emeralds, in a clear and transparent manner.
+That way an investor does not need to be a great connoisseur in the emeralds field or
+hire expensive specialists when wanting to make an investment decision. In other words,
+GEMERA has a reliable method to guarantee the quality of the gemstones, as well as
+the adequate price according to the established criteria.
+The  information  about  the  characteristics,  certification,  pictures,  and  video  of  the
+emeralds is exhibited in detail on GEMERA’s marketplace, including audit results and the
+safe deposit box company location where they are stored.                                           The emerald characteristics
+information  will be stored in the blockchain using Ethereum main network, and the
+certification  and  audit  records  will  be  stored  in  a  decentralized  manner,  using  the
+InterPlanetary File System (IPFS).
+In general, GEMERA is offering a set of modern solutions for the producer to expand to
+new markets and to final customers to invest in emeralds in a much easier way, besides
+the enormous advantage of counting on an online platform, based on blockchain, to do
+so,  an  alternative  that  was  not  available  in  the  emerald  industry  or  in  the  crypto
+community until now.
+6
+
+
+
+
+Store of value
+No middleman
+Marketplace with decentralized
+information
+Partial and small investments
+Tradeable and transfereable in real time
+Emerald Assessment Process
+Incentives for small investments
+Table 1. Advantages of the traditional
+investment model of emeralds vs. GEMERA model
+7
+
+
+
+
+Colombian Emeralds
+Emeralds are excellent as a store of value due to a set of different factors: physical
+attributes, scarcity, and even the historical background. The most famous come from
+Colombia, which has dominated the international trade for almost five centuries. Although
+there are other lead producers, such as Zambia and Brazil, the unique characteristics of
+the Colombian emeralds are an important differentiation, which makes them the most
+desired in the world.
+The secret resides in the millenary recipe of elements, including aluminum, silicate oxide,
+chromium, iron, and vanadium, which initiated the eons-long formation process of the
+emeralds  starting  30-38  million  years  ago,  during  the  development  of  the  Andean
+mountains.
+But the process also depends on how intensively the elements act during formation. In
+the case of Colombian emeralds, the shining chromium, combined with the leveled
+vanadium and iron in lower quantities give the unique tone to the beryl before it is turned
+into an emerald. If the gemstone had a higher level of iron, its green color would be
+opaque. If the vanadium were the distinct element, the stone would obtain a yellowish
+hue.  So,  it  is  the  balanced  combination  of  these  elements  what  gives  Colombian
+emeralds a rich, vivid and intense green color, unreachable even for Zambian or Brazilian
+emeralds.
+On the other hand, Colombia hosts inside its mountains the oldest and most important
+emerald mining areas in the world, Muzo, Coscuez, Maripí and Chivor, where the best,
+rarest and most expensive emeralds are produced. Although there are slight differences
+in the color of the emeralds these mines produce, the perfect saturation and vividness
+are a common characteristic among them, and this is precisely one of the main factors
+that make them more desired.
+Even before the Spaniard conquest, in the XV century, emeralds were mined in that
+region by indigenous tribes, and, of course, they became desired and started to be traded
+widely during the conquest, as part of the treasures collected in the so-called New World.
+That gives these precious gemstones another added value, attractive to buyers and
+investors worldwide: a historical, mythical and enigmatic background.
+8
+
+
+
+
+Colombian Emerald Market
+Colombia  has  been  the  main  provider  of  high-quality  emeralds  for  more  than  five
+centuries and has become a reference and standard of quality for traders, producers,
+and investors. Nowadays, more than 70% of the world’s market supplies of emeralds
+come from this country, and they are the most expensive per carat. The total amount of
+cut emeralds exported from Colombia in 2017 is close to USD 126 million, according to
+the National Federation of Colombian Emeralds -Fedesmeraldas’s Management Report
+(see Figure 3).
+USD 140.325.328
+USD 134.812.894
+USD 142.599.909
+USD 116.324.250
+USD 125.302.767
+USD 122.391.480
+Figure 3. Export of Cut Colombian Emeralds (USD)
+Source: Fedesmeraldas
+But also, the emeralds in general and the Colombian in particular are becoming the most
+appreciated and valuable of all precious gemstones. For instance, according to Gemval
+(an organization of value reference and appraisal of gems), with figures of 1 February
+2018, the price of rough emeralds has increased 135% since 2013.
+In the case of Colombian emeralds, they have fetched the range of USD 5.000 to USD
+15.000 per carat, depending of course on the size, color, clarity, and enhancement type.
+But even a Colombian emerald with the best quality could reach a price of around USD
+120.000 per carat, a high contrast when making the comparison with an emerald of
+similar quality from other parts of the world, where the price could reach USD 80.000 per
+carat.
+9
+
+
+
+
+With these numbers, it would not be inaccurate to say that a fine emerald’s price could
+be higher than that of a fine diamond. Even experts and traders agree on the fact that
+emeralds could become a more appreciated gemstone than diamonds; it is said that the
+first could exceed the latter in the market share by 20% in the next two decades, taking
+into account the growing tendency of emeralds in the latest years, according to the
+Diamonds  International  Manufacturers  Association.  This  is  also  due  to  their  rarity:
+emeralds are 20 times scarcer than diamonds, thanks to all the special elements and
+conditions required on their formation, mentioned above.
+This  growing  tendency  of  emeralds  in  the  gemstone  industry  is  of  course  led  by
+Colombia, and traders, producers, and experts coincide that it will continue to be in the
+forefront, in the following years, adding the fact that emeralds are projected to increase
+its use for investment in the upcoming years, even equaling the percentage of its current
+use for jewelry.
+Another advantage is the processes and methods applied to emeralds in Colombia after
+the extraction, such as cutting, enhancement, assessment and certification, which meet
+international standards, both in the scientific and technological areas. This industry is
+also known for its good environmental and working practices, and for being an important
+source of social progress for the communities around the mines where the emeralds are
+extracted. Therefore, besides profit, Colombian emeralds are a responsible, ethical and
+integral asset.
+In conclusion, Colombian emeralds are a promising and stable industry, full of history
+and enchantment, which is destined to reach more and more markets worldwide and an
+excellent investment decision.
+Highlights
+o  Emeralds produced in Colombia are well known internationally for their beauty and
+quality.
+o  Colombian emeralds stand out for their perfect saturation, unique shine, and vivid
+color.
+o  For more than five centuries, Colombia has been the world’s biggest producer of
+emeralds.
+o  Colombian emeralds have reached almost every part of the  world. The main
+purchasers in 2016 were the United States, Hong Kong, Thailand, India, Israel,
+Italy, Switzerland, Germany, and Japan, among others.
+10
+
+
+
+
+o  Colombian emeralds were formed from hydrothermal deposits; that is, seabeds
+that are now mountains. This gives them unique characteristics that define their
+value.
+o  The environmental footprint of emerald mining is lower in comparison to other
+types of mining because it is a manual process, and no mercury or cyanide is
+necessary for the extraction process.
+Emerald Producers Alliance
+GEMERA’s first alliance with emerald producers was with 4Cs Emeralds, a company that
+produces and exports Colombian emeralds from the biggest Colombian mines, such as
+Cunas, in Maripí region, and Nuevo Milenio and Las Pavas, in the Muzo region. It was
+incorporated in Colombia in 2008, with a major trajectory in the market since then. In
+2016 and 2017, the company exported USD 4.6 million and USD 11 million, respectively.
+4Cs has the full capacity of supplying the emeralds that support the tokens issuance after
+GEMERA’s Token Generation Events (TGE).
+11
+
+
+
+
+GEMERA Crypto-Token
+GEMERA  is  an  asset-backed  token,  which  means  tokens  will  be  backed  100%  by
+physical emeralds.
+NAME                                                                                          GEMERA
+TICKER                                                                                        GEMA
+PLATFORM                                                                                      ETHEREUM ERC20
+DECIMAL PLACES                                                                                18
+Table 2. Token Information
+Each emerald has a fixed value in GEMERAs, according to its weight and quality, which
+is  determined  through  the  Emerald  Assessment  Process,  a  model  developed  by
+GEMERA along with gemologists and fine Colombian emerald experts to determine the
+quality and price of these gemstones.
+GEMERA is a token based on Ethereum ERC20 standard and has the following features:
+•    GEMERAs can be traded in exchanges.
+•    GEMERAs can be used as a store of value.
+•    GEMERAs can be transferred to compatible wallets.
+•    GEMERAs can be redeemed for physical emeralds.
+Token Generation Event Process
+A  Token  Generation  Event  (TGE)  is  open  during  a  period,  where  an  amount  of
+GEMERAs is offered and ready to be acquired by investors. Once the TGE closes, the
+project starts a process of selection, certification, assessment, transport, and storage of
+emeralds  to  back  the  sold  tokens.  The  selected  emeralds  are  then  exposed  onto
+GEMERA´s marketplace  (market.gemera.io). The total value of the emeralds will be
+coincident with the value of the issued tokens.
+12
+
+
+
+
+A fixed number of GEMERAs                                                                        The investors acquire GEMERAs                       GEMERAs are transferred to the
+is available for investors during                                                                following the instructions in                       investor’s compatible wallet
+a specific period.                                                                               www.gemera.io                                       instantly.
+The selected emeralds                                                                            Emeralds are selected                               TGE closes when
+are certified by a specialized                                                                   by a group of gemologists                           the GEMERAs are sold out
+gem laboratory.                                                                                  and experts.                                        or the period expires.
+Intense                                                                                          Medium                                              Light
+Oval                                                                                             Round                                               Cushion
+Emeralds
+The quality and price in GEMERAs for                                                             The emeralds information                            Emeralds are stored in a
+each emerald is defined through                                                                  (pictures, video, characteristics, certification,   security vault of a safe
+the Emerald Assessment Process.                                                                  and GEMERA value) is uploaded                       deposit box company.
+onto the marketplace.
+Figure 4. TGE Process
+Total Token Issuances
+Gemera  is  a  proof-of-asset  token  and  does  not  have  a  fixed  supply,  it  is  created
+dynamically, and it is limited to Colombian emeralds production. This gemstone is scarcer
+than diamonds; therefore, the project does not expect to issue high amounts of tokens.
+This is an important factor for investors.
+The project´s vision is to tokenize Colombian emeralds and having 100 million tokens
+issued by 2029. (See the GEMERA Token Projection on page 20).
+13
+
+
+
+
+Marketplace
+An emerald marketplace on the GEMERA Project website is available for GEMERA
+holders who want to redeem their tokens for the emeralds (market.gemera.io). Each one
+of  them  is  accompanied  with  precise  information:  name,  characteristics,  price  in
+GEMERAs, certification, as well as photographs from different angles, and a 360° video.
+The Project will use the Ethereum main network to store all the emerald information and
+status and the InterPlanetary File System (IPFS) to store the audit and recertification
+files.
+The following is the information exhibited on the marketplace:
+PRICE IN GEMERAs                                                                             TONE           CARAT WEIGHT   DIMENSIONS   EMERALD ID   LOCATION
+SHAPE                                                                                        ENHANCEMENT    ORIGIN         COLOR        AUDIT DATE   REDEMPTION DATE
+STATUS                                                                                       TRANSPARENCY   ENTRY DATE
+Table 3. Emerald Information in Marketplace
+Figure 5. Marketplace
+14
+
+
+
+
+Figure 6. Emerald Certification
+Redemption
+The redemption is the process whereby the GEMERA holders can redeem their tokens
+for the emeralds that back them. This period takes place once a year and the date is
+announced to the token holders with enough notice.
+The redemption process is composed of the following steps:
+Medium                                                                                 Intense                          Light
+Oval                                                                                   Round
+Cushion                                                                                Emeralds
+The    GEMERA    holders
+Token holder must comply                                                                                                                                                          The GEMERA tokens used
+                                                                                                                        transfer    the    value    in
+KYC/AML   politics.                                                                    The   GEMERA   holders                                                                     for the redemption are
+                                                                                                                        GEMERAs  to  a  specified        The emeralds might
+                                                                                       select the emeralds in the                                                                 destroyed virtually.
+                                                                                       marketplace, according to        buying  address  and  the        be delivered by
+                                                                                                                        order is processed.              secured mail or can be
+the number of tokens they
+want to redeem.                                                                        collected directly in the safe
+deposit box company.
+Figure 7. Redemption Process Flow
+15
+
+
+
+
+•   Know Your Customer (KYC)/Anti-Money Laundering (AML): GEMERA verifies
+that the token holder fully complies with the KYC/AML procedure.
+•   Selection: The GEMERA holders select the emeralds they desire to purchase
+depending on the amount of GEMERAs they want to redeem.
+•   Transaction: The token holders send the required amount of GEMERAs to a
+buying address previously addressed by GEMERA.
+•   Delivery: The emeralds can be delivered by secured mail (the redeemer will cover
+this cost) to the country of residence of the token holder. In this case, the redeemer
+must consult the local tax office to see what import duties and/or VAT are required.
+Also, the redeemer can collect the emeralds directly in the safe deposit box
+company where they are stored. Some countries have restrictions to import loose
+gemstones.
+•   Disposal: The redeemed tokens are destroyed virtually, in order to keep the
+balance  between  the  tokens  in  circulation  and  the  total  value  of  the  stored
+emeralds.
+GEMERA  charges  a  fee  of  3%  over  the  tokens  to  be  redeemed  to  process  the
+redemption.
+16
+
+
+
+
+Business Model
+To be a sustainable and profitable project, GEMERA has two revenue sources. The first
+comes from the Token Generation Events (TGE) and the second from the redemption
+process.
+The early stage of the project, from the conception of the idea to the first TGE, is being
+sponsored  by  Colombian  emerald  producers,  the  founders  and  angel  investors.
+Currently, there is a batch of emeralds stored in Hong Kong, with a value of around USD
+1 million in the retail price. This stock was supplied by the producers to initiate the project.
+The founders and angel investors contributed with USD 500.000 to carry out the first
+stage of the project, such as software development, legal advice, company incorporation,
+team salary and marketing strategy to launch the first TGE.
+TGE Funds Allocation
+The funds collected during the TGEs will be distributed in the following manner:
+MARKETING
+BOUNTY
+ENVIRONMENTAL AND
+SOCIAL PROJECTS
+EMERALD
+PRODUCERS
+WORKING
+CAPITAL
+ADVISORS
+FOUNDERS AND
+ANGEL INVESTORS
+Figure 8. Funds Allocation
+17
+
+
+
+
+•   Emerald  Producers:  With  GEMERA  Project,  Colombian  emerald  producers
+expect to expand the global emerald market and open new ones, which translate
+into more investment opportunities. Currently, producers receive less than 35% of
+the final customer’s sales price. Through GEMERA, this income will increase up
+to 15%. Then, as the Project’s main partners, the first 50% of the funds will be
+intended for the emerald producers.
+•   GEMERA Founders and Angel Investors: It is intended for the founders and
+angel investors, who participated in the seed round, and whose funds were used
+to  finance  the  early  stage  of  the  project.  They  are  currently  GEMERA´s
+shareholders.
+•   Marketing: It is used to carry out the project’s marketing strategies, such as
+presence  in  roadshows,  press  releases,  and  sponsored  articles,  premium
+specialized listings, advertisement, and influencers. For this purpose, the funds
+are allocated in the following manner:
+ADVERTISEMENT
+PREMIUM LISTINGS
+ROADSHOWS
+PRESS RELEASES
+AND SPONSORED ARTICLES
+INFLUENCERS
+Figure 9. Marketing Distribution for First TGE
+•   Bounty: It is an incentive for the blockchain  community to achieve tasks like
+translations, moderations, and social media influence. For this strategy, the funds
+are allocated as shown in the following figure:
+18
+
+
+
+
+REDDIT                                                                                                            MEDIUM
+CAMPAIGN                                                                                                          CAMPAIGN
+TELEGRAM
+CAMPAIGN
+TRANSLATION
+CAMPAIGN
+TWITTER                                                                                                           SIGNATURE
+CAMPAIGN
+CAMPAIGN
+ARTICLES CAMPAIGN
+Figure 10. Bounty Distribution
+Note: In case that the company decides to pay to the bounty hunters with GEMA tokens, the company will purchase
+these tokens with the raised funds.
+•   Working Capital: it is used to carry out the company’s operation, like software
+development,  team  salaries,  legal,  travels,  insurance,  rents,  etc.  For  these
+activities the funds are allocated in the following way:
+OTHERS
+TEAM
+OPERATIONS
+REGULATION
+AND LEGAL
+DEVELOPMENT
+Figure 11. Working Capital Distribution
+19
+
+
+
+
+•   Environmental and Social Projects: The 3% of the funds collected are used to
+develop social responsibility and environmental projects, both in the mines and the
+communities around them.
+•   Advisors: These funds correspond to those experts who have offered advice to
+plan the necessary strategies to carry out the project successfully.
+GEMERA Token Projection
+The GEMERA´s ten-year projection is to issue 30.000.000 tokens the first year (2018),
+and 10.000.000 tokens each year to 2029.
+30.000.000                                                                              30.000.000   0
+38.500.000                                                                              10.000.000   1.500.000
+46.575.000                                                                              10.000.000   1.925.000
+54.246.250                                                                              10.000.000   2.328.750
+61.533.938                                                                              10.000.000   2.712.313
+68.457.241                                                                              10.000.000   3.076.697
+75.034.379                                                                              10.000.000   3.422.862
+81.282.660                                                                              10.000.000   3.751.719
+87.218.527                                                                              10.000.000   4.064.133
+92.857.600                                                                              10.000.000   4.360.926
+98.214.720                                                                              10.000.000   4.642.880
+103.303.984                                                                             10.000.000   4.910.736
+Table 4. Scenario with a yearly 5% redemption of total tokens.
+Redemption Revenue
+Additionally, GEMERA charges a fee of 3% over the tokens to be redeemed to carry out
+the redemption process.
+20
+
+
+
+
+Technology
+GEMERA tokens are based on the blockchain technology, which can be compared to a
+ledger or database. Each block in the chain contains data, just like a page in a traditional
+ledger. But the crucial advancement over a traditional ledger is that the blockchain exists
+in a  distributed  fashion.  Every  block  can only be  added to  the  previous one if  the
+information  contained  within is  agreed  upon  by the consensus of  a  majority of  the
+participants of the network. In the case of Ethereum, there are hundreds of thousands of
+participants called nodes confirming transactions as they appear. All participants agree
+to follow the rules laid out in the blockchain protocol. Once a block is agreed as correct
+according to the protocol (consensus algorithm), it is added to the chain and cannot be
+altered. This means that transactions cannot be reversed once confirmed.
+In this way, blockchain technology enables, for the first time, a secure transaction of value
+without the need for an intermediary. While credit and debit cards enable money to
+change hands digitally, they still rely on a central authority, like a bank. The disadvantage
+of requiring a central authority is that users are subject to high fees, especially when
+transacting across borders. Blockchain technology, however, eliminates the need for
+banks  by  enabling  direct  peer-to-peer  exchange,  and  because  transactions  are
+distributed across servers all over the world and data is cryptographically secured, it is
+nearly impossible to hack. Blockchain is then a disruptive technology, so it is important
+to understand the technology behind it and how it will shape the economy of the future.
+Thus, to store the emerald characteristics and status, the marketplace will use blockchain
+and the InterPlanetary File System (IPFS) will be used to store the certification and audit
+files, a decentralized file storage technology that works as a peer-to-peer protocol that
+guarantees more trust, security, and speed access.
+GEMERA Token
+The Ethereum blockchain supports GEMERA tokens and uses a standard ERC20 smart
+contract.
+21
+
+
+
+
+According to www.ethereum.org, "Ethereum is a decentralized platform that runs smart
+contracts:  applications  that  run  exactly  as  programmed  without  any  possibility  of
+downtime, censorship, fraud, or third-party interference. These apps run on a custom
+built blockchain, an enormously powerful shared global infrastructure that can move
+value around and represent the ownership of property."
+Ethereum is one of the most reputable, used, established, safe and proven platforms for
+smart contracts. For these reasons, the  GEMERA Project chose this technology to
+support the GEMERA tokens.
+ERC20 based token smart contract and sale smart contract will be developed using unit
+tests. Functional tests are based on:
+-   Ethereum Private Blockchain at the development stage.
+-   Ethereum  Rinkeby  Testnet                                                                (staging)  with  the  help  of  web  front-end
+developed.
+The following security best practices will be used:
+-   http://solidity.readthedocs.io/en/latest/security-considerations.html
+-   https://github.com/ConsenSys/smart-contract-best-practices
+-   https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-
+security-97a827e47702
+Smart Contract Features
+•   Number of Tokens: Dynamically mintable. Limited to emerald production.
+•   Freeze Tokens Feature: NO
+Tokens cannot be frozen at any given time.
+•   Burn Tokens Feature: YES
+The tokens used on the redemption periods are destroyed, thereby reducing the total
+amount of released tokens and keeping the balance between the tokens offered and
+the value of the emeralds in the marketplace. This feature can only be called by
+permitted 50 Ethereum addresses specified by GEMERA.
+•   Total Amount of Tokens to Be Sold: is specified by GEMERA for each TGE.
+22
+
+
+
+
+•   Token Price (Rate): is specified by GEMERA for each TGE.
+•   Bonuses:  GEMERA  specifies  the  amount  of  the  bonus  for  customers  (as  a
+percentage of the purchase) for each TGE.
+•   Withdrawal Terms: Tokens withdrawal will happen in the end of the TGE.
+•   End Terms: TGE automatically ends if any of the following terms is met:
+-   The specified duration of TGE is expired.
+-   The specified total amounts of tokens during this TGE are sold.
+Marketplace
+GEMERA’s marketplace uses a mixture of traditional technologies, blockchain, and IPFS.
+The current technology used for each layer is described below:
+InterPlanetary File System (IPFS)
+Ethereum Main Net
+ERC-20
+INFURA
+INFURA
+PHP, JAVA
+Cloudflare
+Cloudflare
+Cloudflare
+Cloudflare
+Cloudflare
+Apache, Nginx
+Tomcat , PHP
+MySQL
+Amazon Web Services
+HTML5, bootstrap, css3, javascript
+Table 5. Marketplace Technology
+23
+
+
+
+
+The INFURA API provides secure, reliable, and scalable access to Ethereum and IPFS.
+This solution eliminates the need to configure and maintain the infrastructure required to
+access  these  networks.  INFURA  is  used  for  important  projects  in  the  market  like
+Metamask, Digix, and Oraclize, among others.
+All the information in the details tab (see Figure 12), besides the price in GEMERAs of
+the emeralds, will be stored on the Ethereum network.
+Figure 12. Emerald Details Loaded from the Ethereum Network
+And the following report files, from the Certification tab will be stored on the InterPlanetary
+File System (IPFS):
+24
+
+
+
+
+Figure 13. Report Files Loaded from IPFS
+Emerald Assessment Process
+GEMERA created a model along with gemologists and experts to determine the quality
+of emeralds and set up a price for them in tokens.
+Emerald Quality Parameters
+Evaluating the quality of an emerald is not an easy task since there are different factors
+to take into consideration; for instance, it is possible to find emeralds of the same carat
+and cut with a significant difference in price.
+That is why an analysis, as well as a clear and transparent methodology, is necessary to
+determine the quality of the emeralds and therefore establish the price in GEMERA
+tokens. Thus, to accomplish this, the project designed a model along with a team of
+specialists in fine Colombian emeralds and followed the parameters of the Gemological
+Institute  of  America                                                                        (GIA)  for  assessing  some  of  the  characteristics  of  these
+gemstones.
+Furthermore, to analyze the quality of an emerald, the GEMERA Project takes into
+account the color, clarity, enhancement and cut parameters, which are used by gemstone
+traders  to  determine  the  value  of  emeralds.  Their  support  has  been  paramount  in
+designing the present model.
+The description of each one of these parameters and how the GEMERA Project links
+them in its model is given below:
+Color
+It is considered the most important feature in the price estimation of emeralds, and it is
+divided into three categories: hue, tone, and saturation, according to the GIA.
+The GEMERA Project considers only the tone of the emeralds, classified in intense,
+medium and light to make the first quality classification. This is a subjective process.
+25
+
+
+
+
+Clarity
+Emeralds usually have certain spots within that affect their clarity and transparency.
+These spots are known as inclusions. They are divided into three types: crystals, fluids
+(prints left during the formation of the stone) and fissures. These inclusions are very
+common and natural, and they are found even in high-quality emeralds, so they are
+accepted in the jewelry industry; 99% of emeralds have them. Actually, when an emerald
+is not included, it might mean the stone is not authentic. However, the fewer inclusions
+an emerald has, it is considered cleaner, so its price rises.
+The GEMERA Project considers the Clarity Type III of the GIA. The stones analyzed in
+this category are almost always included and show eye-visible inclusions. They are
+classified according to the following clarity grades:
+-                                                                                             Eye-Clean: the emerald appears clean to the unaided eye.
+-                                                                                             Slightly Included: noticeable inclusions apparent to the unaided eye.
+-                                                                                             Moderately Included: obvious inclusions very apparent to the unaided eye.
+-                                                                                             Heavily  Included:  prominent  inclusions  that  have  a  negative  effect  on
+                                                                                              appearance and durability on the emerald.
+-                                                                                             Severely  Included:  prominent  inclusions  that  have  a  severe  effect  on
+                                                                                              appearance, durability, or both.
+Enhancement
+Emeralds undergo an enhancement process with essential oils, resins or wax in fissures
+and cavities to improve the clarity of the stone. Fissures are defined as small fractures
+within the stone that do not compromise the beauty of emeralds significantly. However,
+when a stone has a large number of fissures, it is common for it to be treated to reduce
+their visibility and therefore enhance the beauty and durability of the gem. Cavities, on
+the other hand, are wide fractures present on the surface of some emeralds, which can
+affect the durability of the stone significantly. These cavities always have to be treated.
+In that order, the price of an emerald changes depending on the amount of enhancement
+and whether it is applied to fissures or cavities (in cases where the analyzed gemstones
+have them).
+26
+
+
+
+
+To assess the enhancement level, the GEMERA Project uses the basis of the category
+scale designed by the Laboratory Manual Harmonisation Committee (LMHC), which
+gathers the best laboratories in the world and whose purpose is to “create a general
+philosophy for proper nomenclature and disclosure for laboratories as well to initiate and
+suggest  ‘preferable’  language  to  be  used  in  the  trade,”  and  the  World  Jewelry
+Confederation (CIBJO), whose mission is “to represent the interest of all individuals,
+organisations and companies earning their livelihoods from jewelry, gemstones and
+precious metals, and to encourage harmonisation, promote international cooperation in
+the jewelry industry, and to consider issues which concern the trade worldwide”.
+The following is the proposed quantification:
+NO OR
+NO FISSURE
+                                                                                                INSIGNIFICANT                                                        QUANTIFICATION AND IDENTIFICATION
+STATUS                                                                                          PRESENT IN
+                                                                                                FILLER IN                                                            OF FILLER IN FISSURES
+STONE
+FISSURES
+REPORT
+ALPHANUMERIC
+INSIGNIFICANT
+                                                                                                                                                                                                         INDICATIONS OF MINOR   INDICATIONS OF MODERATE   INDICATIONS OF SIGNIFICANT
+REPORT   TEXT                                                                                   NONE                                                                 INDICATIONS OF                      CLARITY ENHANCEMENT.   CLARITY  ENHANCEMENT.     CLARITY ENHANCEMENT.
+CLARITY  ENHANCEMENT.
+Table 6. Quantification and Identification of Enhancement
+Any  emerald  that  shows  indications  of  having  been  modified  through  the  filling  of
+extensive fractures and/or cavities are classified in the following manner:
+CONDITION                                                                                       QUANTIFICATION AND IDENTIFICATION OF FILLER IN FRACTURES/ CAVITIES
+REPORT
+ALPHANUMERIC
+MINOR AMOUNT OF                                                                                 MODERATE AMOUNT OF                                                   SIGNIFICANT AMOUNT OF
+REPORT TEXT
+RESIN/WAX IN CAVITIES                                                                           RESIN/WAX IN CAVITIES                                                RESIN/WAX IN CAVITIES
+Table 7. Emerald Quantification and Identification of Filled Cavities
+27
+
+
+
+
+As cavities require a major enhancement process, the emeralds with these conditions
+will  receive  a  reduction  in  the  estimated  price,  as  can  be  seen  in  the  Emerald
+Assessment Process.
+Cut
+This  refers  to  the  various  forms  the  emerald  is  cut  into,  based  on  its  original
+characteristics and the desired piece of jewelry that is to be made. The cut gives the
+shape to the stone, such as round, princess, cushion, emerald, oval, radiant, asscher,
+marquise,  heart  or  pear,  among  others.  Emerald,  cushion,  and  pear  are  the  most
+appreciated shapes in the market, in the mentioned order.
+Cabochon is the name of the emeralds with a round and convex form. Taking into account
+that these stones are polished and not cut into facets, they are less appreciated. The
+project will reduce the price of the stones of this type.
+Carat Weight
+Although the weight of an emerald might be decisive to set up a price, it is not the main
+factor that determines the quality of the emerald. However, the larger an emerald is, the
+higher its price per carat is.
+Therefore, GEMERA Project uses the carat weight to establish the price of the emeralds,
+according to the Tone Range, along with the Clarity and Enhancement Classification,
+as specified in the Emerald Assessment Process.
+28
+
+
+
+
+Marketing
+Asia-Pacific  is  the  market  that  shows  more  interest  in  Colombian  emeralds  as  an
+attractive asset for investment, according to GEMERA’s research about the emerald
+industry. So, added to the fact that this region also plays an outstanding role in the crypto
+community, it becomes an important target audience for GEMERA’s marketing strategy.
+However, other regions will also be included in the planning, such as Europe, who has
+been an important actor in the crypto community, and Latin America, who has big growth
+potential in this matter.
+The marketing strategy will be divided in the following manner:
+-                                                                                               Press Releases and Sponsored  Articles: Press releases  and sponsored
+articles will be released in important media outlets about crypto economy and
+blockchain, social media and the GEMERA community.
+-                                                                                               Premium Listings: GEMERA Project will be present in the most prestigious
+listings, such as ICObench, Coinschedule or ICO Alert.
+-                                                                                               Roadshows:  Presence  of  GEMERA  in  the  major  events,  summits  and
+congresses of blockchain and crypto economy, as well as in emerald, and
+gemstones fairs.
+-                                                                                               Influencers: GEMERA will make alliances with active influencers of different
+channels and social media, such as YouTube or Twitter.
+-                                                                                               Advertisement: Presence of GEMERA with ads in different media outlets of
+the crypto and blockchain community.
+29
+
+
+
+
+Competitors
+GEMERA is a niche player, whose main advantage is its close connection with emerald
+producers. The Project has detected the following competitors, with the most notorious
+differentiations:
+Backed by a physical asset
+Tradeable in exchanges
+Redeemable
+Very limited supply
+Niche player
+Direct connection with producers
+Sponsors social and environmental
+projects
+Table 8. GEMERA´s Competitive Matrix
+30
+
+
+
+
+Operations
+Beside the daily operation of GEMERA, other processes take place in different periods,
+related with the management of the emeralds once the TGEs are close, when they are
+supplied by the producers, such as storage and insurance of the gemstones, or when
+they are already stored, such as the audit process.
+These stages make part of the transparency policy of GEMERA, reason why a rigorous
+analysis and processes are necessary and have to be informed adequately, including
+information through press releases to the token holders and the rest of the GEMERA’s
+community.
+Storage and Insurance
+Before the storage stage, trusted providers insure the emeralds. The GEMERA Project
+also has a rigorous protocol for introducing new emeralds to the secure vault of safe
+deposit box companies in countries with the security standards for gemstone storage or
+withdrawing the ones to be redeemed.
+To select a new deposit box company, the Project studies the city and country conditions
+where it is located, in issues as economic situation, security indices, political stability and
+strategic location according to GEMERA´s target markets, among other factors.
+Audit
+To reinforce the transparency of the process, a yearly audit to verify the authenticity and
+quality of the emeralds is developed by a trusted company, which carries out the following
+process:
+31
+
+
+
+
+DOES
+THE TOTAL
+COUNTING AND                                                                                 NUMBER AND          RANDOM SAMPLES
+WEIGHING OF ALL                                                                              WEIGHT CORRESPOND
+                                                                                                                 OF EMERALDS FOR
+THE EMERALD                                                                                  TO THE              RECERTIFICATION
+IN STOCK                                                                                     MARKETPLACE?
+THE
+RECERTIFICATION
+MATCHES WITH
+THE INITIAL
+CERTIFICATE
+DISCLOSURE OF
+THE RESULTS
+Figure 14. Audit Process Flow
+Reinstatement Process
+When any of the emeralds audited factors is not successful, a process to reinstate the
+emeralds initiates. In the case the inventory of the emeralds does not correspond to the
+emeralds exhibited in the marketplace, it must be established whose responsibility it is.
+If it is a GEMERA´s error, the company would make an internal analysis and respond
+with its own funds to reinstate the missed stone, which must have the same price. If it is
+a responsibility of the storage provider, the emerald insurance will be effective.
+In the case the recertification does not match with the initial certification, GEMERA must
+incorporate  an  emerald  with  the  same  price  and  characteristics  and  start  a  new
+certification and assessment process, as seen in Figure 15.
+DOES
+ESTABLISH                                                                                    INSURANCE
+RESPONSIBILITY                                                                               APPLY?
+MAKE THE                                                                                     REPLACE THE
+INSURANCE EFFECTIVE                                                                          AFFECTED STOCK
+Figure 15. Reinstatement Process Flow
+32
+
+
+
+
+Legal Aspects
+GEMERA operates through a separate and distinct issuer company and operating entity.
+The first, GEMERA Ltd., is incorporated in  the British Virgin Islands  (BVI), and the
+second, Emera Ltd., in Hong Kong.
+Therefore, the company is under the rules of law and legislation, including taxes, AML
+and KYC laws, from the BVI.
+4Cs  Emeralds  Colombia  Ltd.  exports  the  emeralds  and  delivers  them  to  GEMERA
+Project in Hong Kong with all the legal requirements.
+33
+
+
+
+
+Environmental and Social Responsibility
+Good  environmental  practices  in  the  emerald  production  and  social  responsibility
+standards are a transcendental issue in GEMERA’s politics. For that reason, as part of
+its fund’s allocation, 3% of the whole revenues will be destined to carry out social and
+environmental projects in the emerald production and the communities of the emerald
+mining areas.
+This type of initiatives will be executed by the Colombian Emerald Producers Association
+(Aprecol), that has a major role in the emerald industry influence zone and has been
+developing activities such as infrastructure enhancement of educational facilities, food
+subsidy,  capacitation  for  workforce  and  planning  of  the  waste  management  in  the
+emeralds productive chain, among many other strategies.
+The environmental footprint for emerald mining, in general, is by definition lower than
+other types of mining. This is because it is a manual process and no polluting substances
+such as mercury or cyanide are required.
+When it comes to the exploitation of emeralds in Colombia specifically, the industry has
+been progressive in its acceptance of social responsibility. In addition to adhering to
+international standards for the protection of the environment, Colombian emerald mines
+have been proactive in protecting workers rights. Excavation tunnels are constructed with
+specialized  machinery  to  the  highest  safety  standards                                     (for  example  with  steel
+reinforcement and oxygenation).
+Workplace safety training, transportation methods, and personal protection for workers
+meet or even exceed international standards. Additionally, Colombian emerald mines
+support local communities through endowments for scholarships and funding for cultural
+and sports activities. In other words, emerald mining in Colombia is not an isolated activity
+which consists only of extracting gemstones to satisfy the necessity of the market, but it
+is also a way to advance and improve the lifestyle of local communities.
+34
+
+
+
+
+Road Map
+2017 Q2
+o                                                  The conception of the idea
+o                                                  Research on the industry of Colombian emeralds
+o                                                  Project feasibility
+2017 Q3
+o                                                  Partnership establishment with emerald producers
+o                                                  Development of the financial structure and business model
+o                                                  Team setup
+2017 Q4
+o                                                  Construction of the Emerald Assessment Process
+o                                                  Smart contract, webpage, and marketplace development
+2018 Q1
+o                                                  White Paper publication
+o                                                  Certification, assessment, shipping and storage of the first batch of
+emeralds
+2018 Q2
+o  Marketing strategy planning
+o  Fundraising campaign
+2018 Q3
+o  Private Token Generation Event
+o  Execution of marketing strategy
+o  Pre-Token Generation Event
+2018 Q4
+o  Public Token Generation Event
+o  Incorporation of new members to GEMERA’s team
+o  Exchange integration
+35
+
+
+
+
+2019 Q1
+o  Certification, assessment, transport, and storage of emeralds to back all
+tokens issued at the first Token Generation Event.
+2019 Q2
+o  Integration with new exchanges
+o  Development of blockchain repository of emeralds information and IPFS
+certificates and audit reports
+2019 Q3
+o  Audit of the stored emeralds
+o  Redemption period
+o  Second Token Generation Event
+2019 Q4
+o  Corporate Social Responsibility Report
+o  Certification, assessment, transport, and storage of emeralds to back all
+tokens issued at the Second Token Generation Event.
+2020 +
+o  Yearly Public Token Generation Events until 2029
+36
+
+
+
+
+FAQ
+Why is GEMERA a revolutionary project?
+GEMERA is one step ahead of the new tendency of tokenization of assets, as it is
+a project that provides a token backed by a scarce and a desired asset, that can
+also be used for trading and that can be redeemed for the very emeralds they
+represent. Also, the whole project will transform the distribution chain of emeralds,
+connecting producers, and final customers, through a crypto-token that can be
+traded or used as a store of value.
+Why should an investor consider participating in GEMERA?
+Through the tokenization of Colombian emeralds, GEMERA wants to help the
+market expand significantly, and increase the demand worldwide, making it a more
+democratic, transparent and accessible investment. However, as the supply of
+emeralds is limited, their price is expected to rise.
+Also, as part of the philosophy and purpose of GEMERA is to carry out social and
+environmental initiatives with part of the project funds, investors will have the
+opportunity  to  indirectly  contribute  to  the  sustainable  development  of  the
+communities near the gemstone mines.
+How long does GEMERA take to store the emeralds that back the tokens?
+GEMERA project takes approximately three months after every Token Generation
+Event (TGE) ends to store the emeralds that back the tokens in a secure vault of
+a safe deposit box company.
+Where are the emeralds stored?
+Emeralds will be stored in secure vaults of safe deposit box companies that meet
+the security standards of storing this type of asset. The first batch of these stones
+is stored in secure vaults of a trusted safe deposit box company in Hong Kong.
+37
+
+
+
+
+What is the marketplace?
+It is a website (market.gemera.io) with the information of each one of the emeralds
+stored in a secure vault of safe deposit box companies worldwide and ready to be
+redeemed  with  GEMERAs.  The  information  of  the  emeralds  includes  name,
+characteristics, price in GEMERAs, and certification, as well as a  360° video,
+photographs from different angles and traceability decentralized records from the
+origin of the gemstones.
+How is the value of the emeralds in GEMERAs determined?
+GEMERA has along with gemologists and experts in fine Colombian emeralds
+developed an Emerald Assessment Process, a model that considers color, clarity,
+carat, enhancement, weight and cut to determine the quality of the emeralds and
+set up the price.
+Are my GEMERA tokens directly linked to a specific emerald?
+No. Whenever the GEMERA holders want to redeem their tokens for emeralds,
+they can visit the marketplace (market.gemera.io) to find the ones they want to
+acquire in accordance to the number of GEMERAs they would like to redeem.
+How can I be sure the emeralds are stored in a safe deposit box company?
+The GEMERA Project focuses on the transparency of the process throughout its
+value chain: the origin, the selection of the emeralds, the certification every stone
+must have, the storage, how the emeralds’ quality and its value in GEMERA tokens
+are determined, and how the holders can redeem them, among other aspects of
+equal importance.
+Therefore,  each  gemstone  is  exhibited  in  GEMERA  Project’s  marketplace
+(market.gemera.io), along with the name of the safe deposit box company it is
+stored at. An audit process will take place to guarantee the existence, origin, and
+characteristics of the emeralds.
+38
+
+
+
+
+Team
+Jorge Peláez
+CEO - Founder Team
+A serial entrepreneur. Founder of projects in the IT industry with broad experience in IT
+and project management. He is as well an angel investor, a crypto enthusiast, and an
+early Ethereum adopter. He is also committed to evangelizing about IT and blockchain
+technology.
+Nicolás Revollo
+CTO - Founder Team
+A  serial  entrepreneur,  with  15  years  of  experience  in  IT.  He  possesses  advanced
+knowledge  of  blockchain  technology,  IT  infrastructure  and  networking.  He  has  also
+worked on the position of IT Manager for important companies. He is the co-founder of
+Alko, an ERP services company which has operated since 2007.
+Nataly León
+COO - Founder Team
+CEO of Vetas Sierra Alta, a company owner of the emerald mine Las Pavas, one of the
+sources of the highest quality emeralds in the world. She is an Environmental Engineer,
+with ten years of experience in management of environmental projects in the emerald
+sector.  She  has  centered  her  professional efforts  on  working for  the  benefit  of the
+communities living near mines, in Colombia, leading corporate social initiatives in that
+region.
+Danny Arteaga
+CMO
+Senior  journalist,   an  expert  in  marketing,  social  responsibility,  and  corporate
+communications. He was Communications Director at the International Center of Social
+Responsibility & Sustainability, where he had led the marketing strategy, several editorial
+projects and organized important events, such as the three versions of the Responsible
+and Sustainable Investment Forum.
+39
+
+
+
+
+Dimitry Fedotov
+Business Development
+He is a Stanford University graduate and frequent speaker on blockchain technology,
+artificial intelligence, autonomous transportation, and digital distribution. Based in Hong
+Kong, he has over 15 years of experience in Asia-Pacific region. He is also an advisor to
+multiple  technology  companies  in  the  United  States  and  Asia.  Passionate  about
+innovation,  he  established  a  technology  startup  as  a  freshman  at  the  University of
+Kaiserslautern (Germany). While still a student he managed to convince Vodafone and
+Motorola to grant him equipment and resources to develop a GSM-based triangulation
+solution for logistics optimization. In 2011 Dimitry established Multichannel Group: first
+universal  digital  marketing  platform  with  integrated  dashboard  built  to  optimize  ad
+management,  provide  suggestions,  and  improve  spending  on  marketing  campaigns
+across multiple channels.
+Iaroslav Borshch
+Full-Stack Developer
+Developer with experience in both client and server-side programming, development of
+apps in JAVA and PHP.
+Alejandro Baracaldo
+Blockchain Developer
+Electronic and Telecommunications Engineer and Blockchain Developer. He considers
+this technology the language of a more transparent society.
+Laura Barrera
+Creative Director
+Graphic Designer focused on brand development, multimedia production, and interactive
+technology. She has experience in the design of advertising projects for private sector
+companies.
+40
+
+
+
+
+Advisors
+George Kimionis
+Founder and CEO at Coinomi
+Coinomi is the oldest and most complete, security-first, SegWit-enabled, never-hacked,
+multi-asset wallet with true ownership, custom, and dynamic fees, and millions of users.
+He is a Bachelor of Engineering (BEng) at the University of Manchester.
+Gabriel Zanko
+Blockchain Investor-Advisor
+Fintech entrepreneur, founder of MobileyourLife and involved in the AI-Fintech space
+providing  solutions  in  the  B2B  space.  He  currently  advises  several  projects  in  the
+blockchain and ICO sector, where he and his team contribute in several areas, such as
+crypto investment banking, crypto syndicate, crypto fund, crypto exchange relationship,
+and others. Among the several projects Gabriel has been involved to, stands out his work
+with the Naga Group, where he helped to raise capital and to plan the long-term strategy.
+He also manages to connect the largest request of Buy/Sell BTC/ETH (as an OTC deal)
+for institutional investors and wealthy individuals globally.
+Ian Scarffe
+Serial Entrepreneur, Investor and Leading Expert in Blockchain
+He  is  a  consultant  with  business  experience  from  around  the  world.  As  a  leading
+entrepreneur, Ian is on a personal mission to develop a culture of entrepreneurship,
+helping start-ups achieve their full potential and helping to expand existing companies.
+Ian’s overall mission is to foster a society of economically independent individuals who
+are engaged citizens, contributing to the improvement of their communities across the
+world. Ian now focuses on the blockchain industry and offers advice, consulting services,
+connections to Blockchain experts and investor relations strategies.
+Philippe Boland
+Co-Founder of Token Partner
+He is also the co-director of the Blockchain Research Group at UxTIC (university network
+to foster research in information and communications technology).  A Specialist and
+researcher with broad experience and knowledge about management and development
+41
+
+
+
+
+of ICT projects. He is a promoter of blockchain technology and the responsible use of
+internet in France and Colombia.
+Edwin Molina
+President at Colombian Emerald Producers Association (Aprecol)
+He is one of the chief representative leaders of the emerald industry in Colombia. His
+role as head of Aprecol, the organization which guilds the Colombian emerald producers,
+has been decisive in achieving competitiveness in the sector, as well as in encouraging
+companies to implement better industrial and labor practices, with environmental and
+corporate  social  responsibility  standards.  He  is  an  expert  in  participatory  strategic
+planning  in  programs  and  administrative  control  processes,  with  knowledge  and
+experience as a Business Administrator with emphasis on Foreign Trade and Marketing.
+Rodrigo Giraldo
+CEO at RG GemLab
+Professional in Gemology and Jewelry Design of the Gemological Institute of America
+(GIA), Santa Monica, California, USA. Lecturer, professor and consultant for more than
+35  years  of  the  leading  Colombian  organizations  of  the  emerald  guild,  as  well  as
+recognized private firms and sector officials.
+Victor Borrero
+Chief Information Security Officer
+Ethical Hacker with Certification CEH V9 and extensive knowledge of computer security,
+ethical hacking, platform hardening and safety architecture. He has experience in the
+implementation, start-up and management of strategies and technologies in computer
+security,  telecommunications  platforms  and  technological  infrastructure.  He  has
+Certification PMP, CEH V9, ISO 27001, Cobit 5 and ITIL V3 Foundation.
+Camilo Florez
+Researcher
+Academic  Researcher.  He  has  played  a  decisive  role  in  the  development  of  the
+GEMERA's Value Assessment Proces model.
+42
+
+
+
+
+Conclusion
+Blockchain technology is a revolutionary new way for people to make different sorts of
+transactions, in a democratic, secure, decentralized, and transparent way. This allows
+GEMERA to accomplish its purpose of connecting emerald producers and investors and
+to create an easily accessible channel for investing in this asset.
+Through this technology, the GEMERA Project wants to offer investors crypto-tokens that
+can be used as a store of value, along with a guarantee that the tokens are based on
+real emeralds which can also be purchased by investors with their GEMERA tokens,
+during the redemption periods.
+Therefore, investors will have the chance to invest in a profitable asset and at the same
+time will hold tokens that will likely increase its value.
+The  GEMERA  Project  focuses  on  the  transparency  of  the  process,  from  the  initial
+selection of the gemstones, through obtaining the certification every stone must have,
+the storage, how the stone’s quality and its price in GEMERA tokens are determined,
+and finally to how the holders can use them, among other features of equal importance.
+The partnership with gemstone producers also creates the circumstances for GEMERA
+to contribute to carrying out social and environmental activities in the communities where
+the gemstones are extracted and produced.
+Hence, a part of the project funds will be used to execute strategies that help these
+influence zones to achieve the so-called sustainable development. This means GEMERA
+holders are also contributing to this praiseworthy cause by supporting this project.
+43
+
+
+
+
+www.gemera.io
+                https                            ://www.facebook.com/GemeraProject   https://twitt               er.com/GemeraProject        https://t   me/GemeraProject
+https://w       ww.reddit.com/r/GemeraProject/                                                       https://m   edium.com/@gemeraproject/   https://    www.linkedin.com/company/gemera/
+
+
+
+
+

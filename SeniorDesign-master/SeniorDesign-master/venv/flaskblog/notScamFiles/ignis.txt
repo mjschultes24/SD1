@@ -1,0 +1,2046 @@
+﻿Contents
+I.             Executive Summary                                   .. .1
+II.            Brief History                                       .. .2
+               III.   Technological Overview                       .. .6
+               IV.    Business Talk                                .. .27
+               V.     Crowdsale Details                            .. .33
+               VI.    Our Accountability with Your Contributions   .. .41
+               VII.  Testimonials                                  . .43
+               VIII. Team and Supporters                           .. .47
+IX.    Legal                                                       .. .52
+
+
+
+
+1
+This document gives a detailed overview of the Ignis
+crowdsale* and the Ardor platform.
+• Executive Summary
+• Brief History
+This document gives a detailed overview of the IGNIS  crowdsale and the Ardor platform. The
+aim of the document is not only to present the technical innovation and use cases                                                  • Technological Overview
+of the upcoming platform, but also to outline the business strategy and development
+•  Business talk
+roadmap of Jelurida. The terms and conditions for the IGNIS crowdsale   are available
+• Crowdsale details
+in a separate document and, due to their legal significance, are integrated in the wallet itself.
+• Our accountability  with
+your contributions
+• Testimonials
+                                                                                                                                   Ardor  is  a  blockchain-as-a-service-platform  that        The Ignis child chain will be completely unrestricted
+• Team and Supporters                                                                                                              evolved from the time-tested Nxt blockchain. It is          and decentralised with all features and functionality
+                                                                                                                                   currently successfully running on a testnet and will        which currently exist on the Nxt blockchain. Multiple
+• Legal
+                                                                                                                                   be launched in Q4 2017. The unique parent-child             additional child chains can be created on the Ardor
+                                                                                                                                   chain architecture of Ardor, with a single security         platform for various organizations, such as public
+                                                                                                                                   chain and multiple transactional chains, enables            entities, enterprises, consortiums, research institu-
+                                                                                                                                   three  fundamental  advantages  -  reducing  block-         tions, and financial service providers. The platform
+                                                                                                                                   chain bloat, providing multiple transactional tokens,       technological innovations make it possible for large
+                                                                                                                                   and  hosting  ready-to-use  interconnected  block-          corporations and SMEs to have a child chain with
+                                                                                                                                   chains. To kickstart the Ardor project and allow it to      ready-to-use features, instead of creating their own
+                                                                                                                                   compete  with  the  rapidly-growing  blockchain             blockchain and developing features from scratch.
+                                                                                                                                   market, the development team behind Nxt and Ardor           Child chains can be implemented in a cost-effective
+                                                                                                                                   decided to conduct a crowdsale for 50 % of IGNIS -          way without compromising their security, which is
+                                                                                                                                   the token of Ignis, the first Ardor child chain. Jelurida   guaranteed by the parent Ardor chain.
+will be the corporate entity that will be responsible
+for the development of Ardor and Nxt platform.
+*Please note that the IGNIS crowdsale that is scheduled to commence on 5  August  2017 will distribute JLRDA tokens at
+‘I owe you’ basis. The IGNIS tokens will be distributed to JLRDA token holders at 1:1 ratio when the Ardor platform is launched.
+
+
+
+
+2
+II. Brief History
+• Executive Summary
+• Brief History
+                                                       Amidst the rush of multiple clones of Bitcoin        Implemented in Java, the leading industry stan-
+• Technological Overview
+                                                       being created in 2013, Nxt was introduced as a       dard language for corporate applications, the
+•  Business talk                                       second-generation  cryptocurrency,  expanding        Nxt platform allows for fast prototyping and the
+                                                       the use of blockchain beyond supporting a cur-       rapid development of new features. Existing fea-
+• Crowdsale details
+                                                       rency and a simple transfer of value. Nxt is the     tures include creating and trading assets, listing
+• Our accountability  with                             first  blockchain  protocol  to  use  an  entirely   and buying of digital goods, creating polls with
+                                                       Proof-of-Stake instead of Proof-of-Work consen-      very flexible vote counting options, setting up
+your contributions
+                                                       sus mechanism, so its power consumption and          conditional  transaction  execution,  assigning
+• Testimonials
+                                                       hardware requirements are very low. Ever since       properties to accounts, sending encrypted mes-
+                                                       the  launch,  the  platform  has  been  running      sages, registering aliases, and many others. The
+• Team and Supporters
+                                                       securely with 100% uptime and has experienced        relative ease with which such new functionality
+• Legal
+                                                       no systematic failure.   Actively used in produc-    has been added regularly by the development
+                                                       tion and in a state of constant development, the     team every few months during the last three
+                                                       Nxt platform has been able to stand the test of      years  proves  the  well-designed  and  flexible
+                                                       time due to its advanced architecture and solid      architecture of the platform. In addition, the rich
+                                                       design. Being open source, it has also been sub-     and comprehensive Nxt API which supports over
+                                                       jected to multiple code reviews by independent       200 request types has allowed various projects to
+                                                       experts from various backgrounds.                    be built on top of Nxt.
+Wait a second...
+You must be wondering why we are talking about
+Nxt and not about Ignis. Well, there is a connection
+between them so please continue to read further
+to learn about how we came to Ardor and Ignis.
+
+
+
+
+3
+II.1. Existing blockchain technologies have limitations
+• Executive Summary
+• Brief History
+Over the course of the development of Nxt, we identified a few problems
+• Technological Overview
+that we needed to address.
+•  Business talk
+• Crowdsale details                                                       a. Single Token
+• Our accountability  with                                                Single Token
+All platform features, as well as the block generation process,
+your contributions
+require the use of the native token known as NXT.
+• Testimonials
+Blockchain Bloat
+NXT is not only required for the payment of transaction fees to
+• Team and Supporters
+the network and for the transfer of value, but also for all trans-
+• Legal                                                                   actions involving the use of the blockchain e.g. pricing of asset
+Cloning Issues
+exchange ask/bid orders, prices of digital goods listed on the
+marketplace, exchange rates of monetary system currencies,
+and the transfer of assets over the blockchain. This makes it
+difficult to develop applications which use the blockchain
+transparently, as ideally, users should not be required to have
+NXT in order to transact and shouldn’t need to denominate the
+value of assets and currencies in NXT.
+
+
+
+
+4
+b. Blockchain Bloat
+Why do all nodes need to be burdened with
+• Executive Summary
+storing and reprocessing all transactions?
+• Brief History
+• Technological Overview                             Blockchain bloat is a common problem across all      rising number of transactions per second. At the
+                                                     blockchain platforms, including Nxt. It is due to    current transaction processing rate bloat is not
+•  Business talk
+                                                     the fact that every node needs to store all trans-   yet a problem for Nxt, and we have already come
+• Crowdsale details                                  actions ever processed since the blockchain was      up with several innovative solutions to reduce it
+                                                     started. New nodes are also required to re-pro-      even more. One such solution is the prunable
+• Our accountability  with
+                                                     cess all data when they download the blockchain      data function which allows for the removal of
+your contributions
+                                                     for the first time. This is a security requirement   some data like messages from the blockchain,
+                                                     stemming from the trustless design of block-         thus reducing its size, yet when needed automat-
+• Testimonials
+                                                     chain platforms. Being a proof-of-stake crypto-      ically restoring such data in a trustless manner
+• Team and Supporters
+                                                     currency, the balance of an account (its stake) at   from archival nodes. However, bloat is a serious
+• Legal                                              a given blockchain height determines, in a pseu-     issue that must be solved in a fundamental way
+                                                     do-random  manner,  whether  this  account  is       in  order  for  a  blockchain  platform  to  be
+                                                     eligible to generate (forge) the next block. For a   future-proof and truly scalable.
+node downloading the blockchain from scratch,
+the only way to verify that the next block it is
+downloading was indeed generated by a legiti-
+mate account (i.e. having sufficient stake), is to
+make sure that it calculates and verifies each
+account balance as it downloads the blockchain
+by processing all old transactions it encounters
+during the download. This represents a process-
+ing bottleneck that will only get worse as the
+blockchain size increases, especially with the
+
+
+
+
+5
+c. Customization Issues
+• Executive Summary
+Cloning is simple, but maintenance is not!
+• Brief History
+• Technological Overview
+Many organizations need a custom blockchain with
+•  Business talk                                          its own transactional token and customized func-
+tionality for their needs. To achieve this with the Nxt
+• Crowdsale details
+software, an organization needs to create a clone -
+• Our accountability  with                                i.e.,  a  completely  separate  blockchain,  running
+a modified version of the software, but not linked in
+your contributions
+any other way to the original Nxt blockchain. Doing
+• Testimonials
+so requires the setup of servers to process transac-
+tions and to secure the network, as well as complex
+• Team and Supporters
+development work for the customizations. In addi-
+• Legal
+tion to being a burden for most small-to-medium
+businesses, this lowers the system security, as com-
+pared to the main public Nxt blockchain. Such
+a clone is also bound to lag behind the latest public
+chain software in terms of feature development and
+security upgrades, since implementation of cus-
+tomized blockchains is a complex matter, especially
+if one is not very experienced with the Nxt software.
+
+
+
+
+                                                          III. Technological Overview                                                 6
+                                                          With Ardor, network security tokens and transactional tokens are separate
+• Executive Summary
+• Brief History                                           The above-mentioned problem led the Nxt                                     multiple child chains responsible for the operational
+                                                          developers to work on a new solution, start-                                transactions such as creating assets, voting on polls,
+• Technological Overview
+ing from Q2 of 2016, which gave birth to the              sending messages, etc.
+•  Business talk
+Ardor protocol. In the Nxt blockchain, it is the
+                                                          NXT  token  that  serves  this  dual  purpose,                              Child chains transactions are reported to the parent
+• Crowdsale details
+                                                          being used both to determine forging stake,                                 chain using a new process called “bundling”. The bun-
+• Our accountability  with
+                                                          i.e. the right of an account to generate blocks,                            dlers package multiple child chain transactions into a
+your contributions                                        and  to  execute  all  kinds  of  value-transfer                            single  ChildChainBlock  transaction  on  the  parent
+                                                          transactions, i.e. represent a unit of value. In                            chain. The bundlers pay the transaction fees in Ardor
+• Testimonials
+                                                          Ardor, a separation of these two functions is                               and receive the transaction fees in the child chain
+• Team and Supporters                                     used to achieve much greater flexibility by                                 coin.
+                                                          allowing multiple other transactional tokens
+• Legal
+                                                          to be used and exist independently; in effect                               The first child chain of the Ardor platform is called
+                                                          allowing child chains to exist and run on the                               “Ignis”. Ignis will inherit all features found on the Nxt
+                                                          same network while operating largely inde-                                  blockchain. These features will also be available on
+                                                          pendent of each other.                                                      other child chains, though restrictions can be placed
+by the child chain creators if a certain feature is not
+desired. Unlike “side chains” and other blockchain-re-
+III.1 Ardor: Briefly Explained
+lated technologies, the Ardor parent chain and child
+The Ardor platform is based on the stable and             chains like Ignis are based on the same source code
+reliable codebase of Nxt, which has been run-             and share the same security guaranties.
+ning successfully as a public blockchain since
+November 2013. Every existing function of the
+                                                          III.2 Solutions Through Ardor
+Nxt blockchain will be supported by Ardor. In
+addition, Ardor has a unique design com-
+                                                          Recall the three problems we explained in section
+posed of a single parent chain responsible
+                                                          II.1.  The  Ardor  platform  brings  the  following
+for  network  security  and  processing,  and
+                                                          solutions to  these problems:
+
+
+
+
+                                                                   Blockchain                                            Single Token                              BaaS solutions
+                                                                                                                                                                                                            7
+                                                                   Bloat Solutions                                       Dependency Solutions
+                                         Structural                The Ardor parent chain only stores                    Users of an Ardor child chain will        A business that needs its own block-
+• Executive Summary
+                                                                   transactions   which   affect   the                   only deal with the child chain token      chain does not have to maintain its
+                                                                   balances  of  the  forgers               (proof  of   both for transfer of value and trans-     own network of servers, run forging
+• Brief History
+                                                                   stake  block  validators).  All  other                action fee payment.                       and worry about system’s security.
+• Technological Overview                                           transactions  by  child  chains  are
+pruned, leaving only a cryptographic
+•  Business talk
+proof (hash) that proves their previ-
+ous existence.
+• Crowdsale details
+• Our accountability  with
+                                         Functional                A new node joining the blockchain                     When assets or currencies are issued      Organizations use proven technolo-
+                                                                   will only need to validate the parent                 on top of a child chain, users of these   gy  with  the  ability  to  request
+your contributions
+                                                                   chain transactions, which represent                   tokens pay transaction fees denomi-       customized features tailored to their
+• Testimonials                                                     only a small proportion of all, and                   nated in the child chain coin, just as    needs installed by the core develop-
+                                                                   the transactions of each child chain                  they would for any other transaction      ment team itself.
+• Team and Supporters
+                                                                   for the past 24 hours, not the full                   on the child chain.
+                                                                   transaction history. In addition, a                                                             For certain applications, a business
+• Legal
+                                                                   new node will load a snapshot of the                  Users of child chains may not even        entity managing a child chain may
+                                                                   current  blockchain  state               (account     be aware that they are using a block-     choose to cover transaction fees for
+                                                                   balances,  properties,  aliases  etc)                 chain  within  the  Ardor  network        their users by serving as the transac-
+                                                                   from one of the existing nodes.                       through the API.                          tion bundler to make sure that the
+child chain transactions are includ-
+Individuals or entities which need       ed in the parent chain.
+the full transaction history for their
+own book keeping can still store it by
+setting up an archival node which
+maintains the full transaction histo-
+ry  based  on  various  conditions.
+These entities will then still be able
+to prove that a given transaction,
+while no longer stored on the block-
+chain, was present there in the past.
+
+
+
+
+                                                   Blockchain                               Single Token                            BaaS solutions                          8
+                                                   Bloat Solutions                          Dependency Solutions
+• Executive Summary
+                                      Result       We estimate that this design can         A white label solution making inno-     Secure   and   convenient   private
+• Brief History                                    reduce the number of transactions        vative  blockchain  features  easily    blockchain  solutions  with  direct
+                                                   stored on the blockchain at a ratio of   available for organizations and their   support  available  from  the  core
+• Technological Overview
+up to 1:100 without compromising      user base.   development team.
+network security.
+•  Business talk
+• Crowdsale details
+• Our accountability  with
+your contributions                    Long term    In the future, Ardor child chains may    Tokens do not have to be a fixed        In the future, we will make the child
+                                                   even run on their own subnet where       amount and child chain owners can       chain  creation  process  automatic,
+• Testimonials                        R&D
+                                                   all nodes except one are disconnect-     opt to implement inflation or defla-    allowing every business or user to
+                                                   ed from the rest of the Ardor plat-      tion models, and even more compli-      launch a child chain on their own.
+• Team and Supporters
+                                                   form, thus providing the ability to      cated distribution mechanisms.
+• Legal                                            componentize the blockchain into
+domain   specific   sub-blockchains
+and  prevent  the  need  for  every
+blockchain  node  to  process  all
+blockchain transactions.
+
+
+
+
+9
+III.3 Ardor and NXT feature comparison
+Here is a technical comparison between the Nxt and the Ardor platforms:
+• Executive Summary
+                                                                          Functionality                          Nxt                                          Ardor
+• Brief History
+• Technological Overview                                                                                                                                      One parent chain with multiple child
+                                                                          Blockchains                            Single chain
+                                                                                                                                                              chains
+•  Business talk
+• Crowdsale details
+                                                                          Transaction                            The same token  (NXT) is used for            Only the parent chain token (ARDR)
+                                                                                                                 establishing  the  consensus  and            is used in the proof-of-stake consen-
+• Our accountability  with                                                tokens
+                                                                                                                 providing the security of the block-         sus, and thus provides security for
+your contributions                                                                                               chain, as well as for the basic unit of      all child chains. Child chain tokens
+                                                                                                                 value in all transactions                    are used as transactional units of
+• Testimonials
+                                                                                                                                                              value only.
+• Team and Supporters
+• Legal                                                                                                          Transaction  fees  are  paid  in  NXT        On each chain transaction fees are
+                                                                          Transaction fees
+                                                                                                                 only, requiring users to always have         paid in the native token (coin) of that
+                                                                                                                 NXT in their accounts.                       chain. End users do not need to own
+                                                                                                                                                              ARDR tokens.
+Features                                                                  Asset Exchange, Monetary System,       All these features are preserved in Ardor,
+                                                                          Aliases,  Messaging,  Digital  Goods   and are available on each child chain.
+Store, Voting System, Shuffling, Data
+A child chain can optionally be restrict-
+Cloud,  Phasing,  Account  Control,
+ed not to enable some features.
+Account Properties
+The  parent  chain  supports  a  limited
+subset of features, as it is intended to be
+used for consensus establishing only
+and not for everyday transactions.
+
+
+
+
+10
+Functionality                            Nxt                                      Ardor
+• Executive Summary
+                                                                                  The same mapping of passphrases to
+Accounts                                 Each passphrase maps to a single
+                                                                                  account numbers is used as in Nxt.
+                                         account.   Passphrases   can't   be
+• Brief History
+                                                                                  Accounts are global across all child
+                                         changed, and there is no wallet file
+• Technological Overview                                                          chains,  and  an  account  can  have
+to store.
+balances in each of the existing child
+•  Business talk
+chain coins, as well as in Ardor.
+• Crowdsale details
+There is a single coin  (NXT), and       Each chain has its own coin. Assets
+Holdings
+• Our accountability  with
+unlimited  user-issued  Assets  and      and MS currencies can be issued on
+Monetary System currencies.              any child chain, and are available for
+your contributions
+trading globally. Assets or MS curren-
+• Testimonials                           cies can optionally be restricted* to
+some child chains only.
+• Team and Supporters
+• Legal
+Assets and MS currencies can             Assets  and  MS  currencies  can  be
+Trading
+be traded for NXT only.                  traded on any child chain, with price
+denominated in the corresponding
+coin.
+
+
+
+
+11
+Functionality                                 Nxt                                      Ardor
+• Executive Summary
+A new feature, Coin Exchange, allows trad-
+• Brief History                               Coin Exchange                            N/A
+ing of child chain coins to each other, and
+• Technological Overview                      also to the parent chain coin (ARDR).
+•  Business talk
+• Crowdsale details
+• Our accountability  with                    Asset dividends can be paid in NXT       Asset dividends can be paid in any
+Dividends
+only.                                         of the child chain coins, by simply
+your contributions
+issuing the payment transaction on
+that child chain. Additionally, paying
+• Testimonials
+dividends in another Asset or in MS
+• Team and Supporters                         currency has been implemented.
+• Legal
+Assets  are  issued  with  a  fixed           A new transaction type has been
+Asset quantity
+number of shares. Shareholders can            added, allowing the asset issuer to
+delete shares, but no new shares can          create  new  shares,  in  order  to
+be issued.                                    perform   stock   split   or   capital
+increase corporate actions.
+
+
+
+
+12
+                                                    Functionality                                 Nxt                                                 Ardor
+• Executive Summary
+                                                                                                                                                      Crowdfunding feature is available on all
+                                                    Crowdfunding                                  Crowdfunding feature is available in
+• Brief History                                                                                   the Monetary System, but the funds                  child chains, and on each child chain the
+                                                                                                                                                      funds are collected in the corresponding
+                                                                                                  must be collected in NXT only.
+• Technological Overview
+coin. Reserve and claim transactions must
+happen on the child chain the currency
+•  Business talk
+was issued on.
+• Crowdsale details
+• Our accountability  with                          Shuffling  of  NXT,  Assets,  and  MS         On each child chain, shuffling of the corre-
+Shuffling
+currencies is available.                            sponding coin, or any Asset or MS Currency,
+your contributions
+is supported.
+• Testimonials
+• Team and Supporters
+Alias names are unique within each child
+Aliases                                             Alias names are globally unique.
+                                                    chain only.
+• Legal
+MS Currencies                                       Currency codes and names are                  Currency  codes  and  names  are  unique
+globally unique.                                                                                  within a child chain only.
+Pruning                                             Pruning is available for plain and            Pruning and retrieving of all prunable data is
+                                                    encrypted messages, and for tagged            available as in Nxt. In addition, the child chain
+transactions  themselves  are  designed  to  be
+data  (data cloud feature). Pruned
+prunable and will not need to be stored perma-
+data are retrieved automatically on
+nently or re-downloaded by every new node.
+demand  from  designated  archival
+The actual pruning of transactions will be imple-
+nodes.
+mented later.*
+
+
+
+
+13
+                                               Functionality                           Nxt                                           Ardor
+• Executive Summary
+                                                                                       Transaction IDs are 64-bit longs,             The 64-bit transaction IDs are no longer
+• Brief History                                Transaction identifiers
+                                                                                       and are globally unique.                      guaranteed to be globally unique for child
+• Technological Overview                                                                                                             chains. 256-bit transaction hashes (sha256
+digests) are used instead as transaction
+•  Business talk
+identifiers.
+• Crowdsale details
+                                               A "forging" process is used to create   The same forging algorithm is used as in
+                                               Block generation
+• Our accountability  with
+                                               new blocks, with the probability of     Nxt, dependent on ARDR account balances
+your contributions                             block  creation  dependent  on  the     only.
+account NXT balance (stake).
+• Testimonials
+• Team and Supporters
+Bundling                                       N/A                                     A new process, "bundling", is used to group
+• Legal
+child chain transactions into a parent chain
+transaction ("child chain block"), which is
+then included in the parent chain.
+Any account can play the role of a bundler.
+The bundling process also performs the
+exchange of fees paid by users in child
+chain tokens into ARDR fees accepted by
+the block forgers.
+
+
+
+
+14
+Functionality                                  Nxt                                         Ardor
+• Executive Summary
+• Brief History
+Same voting models as in Nxt, but phasing
+                                               Phasing                                     Transaction execution can be made
+                                                                                                                                 is possible on child chains only. Approval
+• Technological Overview                                                                   conditional,  subject  to  approval
+                                                                                                                                 transactions can be on a different child
+                                                                                           using various voting models.
+•  Business talk                                                                                                                 chain from the phased transaction, and the
+by-transaction voting model also supports
+• Crowdsale details
+linking to a transaction hash on a different
+child chain.
+• Our accountability  with
+your contributions
+• Testimonials
+                                               Composite Phasing                           Not available, conditional transac-   The new "Smart Phasing" feature allows
+• Team and Supporters
+                                                                                           tions can use only one voting model   the  conditions  for  the  execution  of  a
+                                                                                           at a time.                            phased transaction to be combined using
+• Legal
+AND, OR, and NOT Boolean operators, in a
+composite  voting  model.  In  this  way
+declarative smart contracts can be built on
+top of the already available voting model
+primitives.
+N/A                                            A  new  "by-property"  voting  model  has
+By-Property
+been added, making the execution of a
+Voting Model
+phased  transaction  conditional  on  its
+sender account having a specified property
+set. This can be combined with the new
+Asset Control feature, to allow only autho-
+rized or KYC-verified accounts to transact
+with some asset.
+
+
+
+
+15
+                                                Functionality                               Nxt                                  Ardor
+• Executive Summary
+                                                                                                                                 Same as in Nxt, but accounts under phas-
+                                                Account Control                             Accounts can be restricted to use
+• Brief History                                                                                                                  ing-only restriction cannot submit transac-
+                                                                                            phasing only (mandatory approval).
+                                                                                                                                 tions on the parent chain, as those cannot
+• Technological Overview
+be phased.
+•  Business talk
+• Crowdsale details
+• Our accountability  with
+The asset issuer can impose a phasing-only
+Asset Control                                   N/A
+restriction on all transactions affecting the
+your contributions
+asset. This allows enforcing shareholder
+• Testimonials                                  agreements   that   require   shareholder
+approval, or board of directors approval,
+• Team and Supporters
+on all transactions with company shares.*
+• Legal
+HTTP based, also with WebSocket                 Completely  re-written  and  optimized,
+Peer Networking
+support, transmitting JSON format-              using native Java sockets and binary mes-
+ted data between peers.                         sages between peers. Block and transac-
+tion  propagation  has  been  significantly
+improved,  by  exchanging  and  caching
+information  about  currently  available
+blocks  and  transactions  between  peers
+and  only  propagating  the  missing  data
+pieces.
+
+
+
+
+16
+Functionality                                                                                        Nxt                                            Ardor
+• Executive Summary
+                                                                                                                                                    Mostly unchanged, except:
+API                                                                                                  HTTP  query  APIs,  returning  JSON
+• Brief History                                                                                                                                     1. A "chain" parameter has been added
+formatted response.
+to each API that is child chain specific.
+• Technological Overview
+2. 64-bit long transaction IDs have been
+replaced with 256-bit hashes.
+•  Business talk
+3. All prices and rates that were previously
+• Crowdsale details                                                                                  defined relative to the smallest indivisible
+holding amount ("QNT") are now defined
+• Our accountability  with
+relative to a unit of the holding (share).
+your contributions
+• Testimonials
+                                                                                                     Scalability                                    Transactions are stored in the block-   All child chain transactions will be possible
+• Team and Supporters                                                                                                                               chain permanently, and need to be       to  prune  completely,  without  affecting
+                                                                                                                                                    re-downloaded and re-processed by       blockchain  security,  thus  allowing  the
+• Legal
+                                                                                                                                                    every new node, which after months      blockchain size to be kept much smaller. A
+                                                                                                                                                    and years of operation becomes a        new node joining the network only needs
+                                                                                                                                                    significant bottleneck.                 to download the parent chain transactions,
+followed  by  the  latest  snapshot  of  the
+current system state.*
+* Functionality marked with asterisk is planned to be implemented in a future Ardor release.
+All other functionality is already implemented and currently being tested on a testnet blockchain.
+
+
+
+
+17
+III.4 Forging and Child chains
+• Executive Summary
+• Brief History                                With the Ardor platform, the single block-      All transactions that change ARDR balances
+                                               chain architecture is replaced by a combina-    are recorded on the forging chain, and there-
+• Technological Overview
+                                               tion of one forging chain, on which transac-    fore  downloading  and  re-processing  the
+•  Business talk
+                                               tions are denominated in one token (ARDR),      transactions from the forging chain provides
+                                               and multiple child chains, each having its      exactly the same proof-of-stake security as
+• Crowdsale details
+                                               own transactional token.                        the Nxt platform. However, all transactions
+• Our accountability  with
+                                                                                               that only modify child chain token balances,
+your contributions                             The forging chain supports a very limited set   or any other account holdings (such as assets
+                                               of allowed transaction types, such as trans-    or currencies), are not recorded on the forging
+• Testimonials
+                                               fer of ARDR from one account to another,        chain, but only on their corresponding child
+• Team and Supporters                          trading of ARDR to each of the child chain      chains.  Thus,  the  removal                      ("pruning")  of
+                                               tokens and back, leasing ARDR balances to       those child chain transactions, after they are
+• Legal
+                                               other accounts for the purpose of forging,      no longer needed, does not affect the block-
+                                               and  a  special  type  of  "ChildChainBlock"    chain security, as validity of ARDR account
+                                               transactions.  The  forging  power  of  each    balances can always be verified in a trustless
+                                               account depends on its ARDR balance, in         manner by each node.
+exactly the same way it depends on the NXT
+balance on the Nxt platform, with the entire
+consensus model remaining unchanged.
+
+
+
+
+18
+Forging vs Bundling
+• Executive Summary
+                             Forgers                                  Bundlers
+• Brief History
+• Technological Overview
+                             • Create Ardor chain blocks consist-     • Create child chain blocks (a special type
+•  Business talk
+                             ing of Ardor transactions.               of Ardor transactions), consisting them-
+• Crowdsale details                                                   selves of child chain transactions.
+                             •  Collect  fees  from  bundlers  and
+• Our accountability  with
+                             from Ardor transaction senders, all      • Collect fees from child chain transaction
+                             in ARDR.                                 senders, in native child chain coins.
+your contributions
+• Testimonials               • The ability to forge depends on the    • Pay fees to the forgers, in order to have
+                             effective ARDR balance of the forg-      their child chain block included in an
+• Team and Supporters
+                             er's account.                            Ardor block.
+• Legal
+                             • Forgers can decide which transac-      • Anyone can run a bundler, provided they
+                             tions to include or exclude from their   have enough ARDR to pay fees to the
+                             block.                                   forgers.
+                             • Forgers can control in what order      • Bundlers can decide which transaction to
+                             transactions  in  their  block  are      include in the child chain block, and how
+                             processed, but the default is based      much in fees, if any, in the native token, to
+                             on transaction arrival timestamp.        charge for each.
+                             • ARDR fees are fixed, determined        • Bundlers cannot control in what order
+                             based  on  transaction  type  and        child transactions within a child block are
+                             parameters, and cannot be changed        processed.
+by the forgers.
+
+
+
+
+19
+III.5  Transaction Validation
+• Executive Summary
+                                                The validity of child chain transactions and      Each node running the Ardor blockchain validates the
+• Brief History
+                                                account balances (in native tokens) must also     transactions from all child chains before they are
+• Technological Overview                        be ensured by the platform, and this is done      pruned. A node downloading the blockchain from
+                                                by anchoring them to the forging chain by         scratch will no longer be required to fully validate
+•  Business talk
+                                                means of the above ChildChainBlock transac-       child  chain  transactions  that  have  already  been
+• Crowdsale details
+                                                tions. This special transaction type contains,    pruned as they will only verify their hashes and Child-
+                                                as an attachment, a list of one or more trans-    ChainBlock transaction signature. However, this does
+• Our accountability  with
+                                                actions belonging to a single child chain, i.e.   not lower the overall blockchain security as it can still
+your contributions
+                                                transactions denominated in that child chain      verify that the accounts that forged the blocks con-
+• Testimonials                                  native token, with their execution affecting      taining them were eligible to forge at that time, and
+                                                only account balances and holdings on that        therefore those transactions must have been validat-
+• Team and Supporters
+                                                chain.  In  effect,  such  an  attachment  rep-   ed by all up to date nodes while their data was still
+• Legal                                         resents a "block" on the child chain, although    available, in order to get included in the currently-win-
+                                                no actual forging (block generation) is done      ning (best difficulty) blockchain fork.
+                                                on child chains. Those attachments are linked
+                                                to the ChildChainBlock transaction by means       All transactions from all chains must be processed by
+                                                of a cryptographic hash only, thus allowing       all Ardor nodes and these nodes carry all child chain
+                                                the transaction signature verification to be      transactions for the last 1440 blocks, until their expira-
+                                                performed even after the actual content of        tion deadline, or phasing finish height, whichever is
+                                                the attachment has been pruned after some         longer. Child chain transactions will be pruned com-
+                                                time. This is building upon the design and        pletely  on  nodes  not  configured  to  archive  them
+                                                technology already implemented and in pro-        longer than this minimum retention period, but those
+                                                duction use on the Nxt platform. in the form      that do, known as archival nodes, can opt to store one
+                                                of  prunable  messages  and  prunable  data       or more child chains longer or indefinitely.
+(data cloud), together with a network of spe-
+cial-purpose archival nodes to store them.
+
+
+
+
+20
+                                                    In addition to forging chain transactions and      Periodically, each node will calculate a snapshot of
+• Executive Summary
+                                                    blocks, each node needs to store the current       the state of all derived objects, and a hash of this
+• Brief History
+                                                    state of all accounts, as represented by bal-      snapshot will be included in the current block by its
+• Technological Overview                            ances in native child chain tokens, asset and      forger. All nodes that are up to date and on the same
+                                                    monetary system balances, account proper-          fork already have exactly the same state, and thus will
+•  Business talk
+                                                    ties, aliases, and all other objects and account   be able to verify this hash (and reject the block if inval-
+• Crowdsale details                                 holdings that are created as a result of trans-    id). A protocol will be defined by which nodes that are
+                                                    actions. Any state that might be needed for        out of date, or downloading the blockchain from
+• Our accountability  with
+                                                    validation  of  future  transactions  must  be     scratch, are able to request the latest snapshot from
+your contributions
+                                                    kept. But once the rolling fork resolution limit   up to date nodes, validate it based on its hash being
+                                                    of 720 blocks has passed, older state (i.e. the    included in the blockchain, and download it in a
+• Testimonials
+                                                    values of such balances and holdings) no           decentralized manner. In this way such nodes will
+• Team and Supporters
+                                                    longer needs to be kept. Such state is being       catch up with the latest system state, bypassing the
+• Legal                                             removed ("trimmed") even now, however in           need  to  re-process  all  old  transactions,  that  are
+                                                    the current system a node that downloads the       already pruned.
+blockchain from scratch is reprocessing all
+past transactions, thus re-creating each past
+state and trimming it as it goes along. In the
+Ardor platform, those old transactions will
+also have been pruned, so re-creating past
+state in order to arrive at current state will no
+longer be possible. To solve this issue, snap-
+shots  and  snapshot  propagation  will  be
+implemented.
+
+
+
+
+21
+                                                 The snapshot data itself does not need to          If the fee in native token offered by a transaction
+• Executive Summary
+                                                 propagate  through  the  network  when  the        sender is too low by current market rate, when
+• Brief History
+                                                 snapshot hash is calculated. Each node that is     converted to ARDR, no one will be willing to
+• Technological Overview                         up to date already has the state of all child      bundle such transaction into a ChildChainBlock,
+                                                 chains, so it can generate such a snapshot for     and the sender must resubmit the transaction
+•  Business talk
+                                                 itself. It must only validate that the hash the    with a higher fee. If a child chain token loses
+• Crowdsale details                              forger  calculated  for  the  snapshot  indeed     value  completely  and  no-one  is  willing  to
+                                                 matches its own snapshot.                          exchange it to ARDR, transaction processing on
+• Our accountability  with
+                                                                                                    that child chain will naturally stop - unless some-
+your contributions
+                                                 Fees on child chains are denominated in the        one interested in keeping it alive is willing to sub-
+                                                 chains native tokens, but the forging chain        sidize it, creating ChildChainBlocks and paying
+• Testimonials
+                                                 block forgers still accept fees in the forging     the expected ARDR fees to the forgers, while get-
+• Team and Supporters
+                                                 token (ARDR) only. To convert fees collected       ting  worthless                                         (by  free  market  rate)  native
+• Legal                                          in child chain tokens to ARDR, the role of         tokens in return.
+                                                 "bundlers", or ChildChainBlock creators, has
+                                                 been introduced. Any account can serve as a        Child chains compete with each other for inclu-
+                                                 creator of a childchain block, provided it is      sion into a block, since at the end the forgers will
+                                                 willing to accept the fees (in native token)       still look at the fee/size ratio for each transaction
+                                                 collected from the transactions in the Child-      and will want to maximize their forging profits,
+                                                 ChainBlock, and in exchange pay the required       subject to main chain block size and transaction
+                                                 fee (in ARDR) to the forging chain block forger.   numbers limits.
+This establishes a market rate for child chain
+token to ARDR token.
+
+
+
+
+Ardor Sequence of Events
+22
+• Executive Summary
+• Brief History
+• Technological Overview
+(paid in BTC )
+•  Business talk
+• Crowdsale details
+• Our accountability  with
+your contributions
+• Testimonials
+• Team and Supporters
+• Legal
+Legend
+AT                           Ardor Chain Transaction
+BT                           Bitcoin Chain Transaction
+                             BCCB    Bitcoin ChildChainBlock
+IT                           Ignis Chain Transaction
+                                                               Prospective pegged
+                                                               *
+ICCB                         Ignis ChildChainBlock             child chain
+
+
+
+
+23
+III.6 Comparison between Side Chains and Child Chains
+We would like to emphasize that side chains and Ardor child chains are not the same.
+The differences are described below:
+• Executive Summary
+• Brief History
+                                                                                       Side Chains                              Ardor Child Chains
+• Technological Overview
+•  Business talk
+                                                                                       Side chains are independent block-       "Child Chains" of the Ardor platform
+• Crowdsale details                                                                    Structure
+                                                                                       chains that have a kind of "pegging      are tightly integrated into the main
+• Our accountability  with                                                             mechanism", where at least one of the    Ardor parent chain. All transactions
+                                                                                       chains (main chain and side chain) is    are processed and secured by the
+your contributions
+                                                                                       "aware" of the other chain and both      parent  chain  forgers.  This  makes
+                                                                                       tokens are pegged at a set ratio. Side   cross-chain  transactions  possible.
+• Testimonials
+                                                                                       chains need their own network secu-      Pruning will be enabled on child
+• Team and Supporters                                                                  rity and block processing.               chain  transactions  in  order  to
+significantly   reduce   blockchain
+• Legal
+bloat by pruning the transactions on
+regular basis from the blockchain.
+Transactions executed between the                                                      Child chains serve as the transac-
+Function
+locks and unlocks of the main chain                                                    tional  chains  of  the  parent-child
+tokens don't bloat the main chain.                                                     architecture,  as  the  parent  chain
+As the technology of a side chain is                                                   retains minimal features.
+connected to its main chain, it can
+be used to build on the develop-
+ments of the main chain and intro-
+duce new features to the market.
+
+
+
+
+24
+                                                                                                           Side Chains                             Ardor Child Chains
+• Executive Summary
+                                                     Risk                                                  Side chains are responsible for their   Child chains rely on the Ardor parent chain for
+                                                                                                           own security and could be attacked      their security, as long as the parent chain has
+• Brief History
+                                                                                                           if there is not enough mining power     enough forging power all child chains are secure.
+• Technological Overview                                                                                   to secure it.
+•  Business talk
+                                                                                                           If the main chain is compromised,       • Security is provided by the Ardor parent chain
+                                                     Advantage
+• Crowdsale details                                                                                        the side chain can still operate,       and therefore all child chain cooperate to secure
+                                                                                                           though  its  peg  will  likely  lose    the same network;
+• Our accountability  with
+significant value.                                   • Child chains can access the same global entities,
+such as assets and currencies;
+your contributions
+• Child chain tokens can be securely traded on the
+• Testimonials                                       blockchain;
+• Simple to setup (blockchain development skills
+• Team and Supporters
+not required);
+• Multiple features pre-installed (can be disabled
+• Legal
+on launch if desired).
+Use cases                                            • Staging for main chain                              • Pegged chains;
+                                                     developments;                                                                                 • Simple blockchain as a service solution;
+                                                     • Realistic Testnet (funds at risk);                  • Semi-private blockchain;
+                                                     • Semi-centralized chain;                             • Prototyping and research.
+• Pegged chains.
+The  initial  design  was  published  by             Ardor launch scheduled for Q4 2017.
+Implemented by
+Blockstream in 2014, but the implemen-
+tation is blocked by the lack of native
+support for SPV proofs in Bitcoin (which
+may not be added at all). Rootstock
+workaround this by sacrificing decen-
+tralization (still work in progress).
+
+
+
+
+III.7 Pegged Child Chains
+25
+The ability of child chain tokens to have their indepen-
+dent market value, without this affecting the security of
+• Executive Summary
+the whole platform, allows one important use case that
+• Brief History                                             deserves further mention - the creation of Pegged Child
+Chains.
+• Technological Overview
+•  Business talk
+Third party businesses can peg the value of their child
+chain token to a fiat currency, or to other cryptocurren-
+• Crowdsale details
+cy, thus allowing all transactions on this child chain to
+• Our accountability  with
+be effectively denominated in that external currency.
+your contributions                                          When such pegged child chains are added to the Ardor
+Platofrm, users will have the choice of pricing their
+• Testimonials
+asset ask/bid orders in fiat, selling their marketplace
+• Team and Supporters                                       goods with prices in fiat, asset issuers will be able to
+pay dividends calculated in fiat, etc. This opens the
+• Legal
+door to conducting seemless transactions with fiat
+over the blockchain. Furthermore, the existence of
+multiple child chains pegged to different external cur-
+rencies will allow users to trade them for each other
+using the Coin Exchange functionality, effectively using
+Ardor as a decentralized foreign exchange  ("forex")
+platform.
+
+
+
+
+III.8 Why Do We Need Ignis?
+26
+a. A fully decentralized child chain
+• Executive Summary
+                                                           While the Ardor platform can have multiple child chains      child chains and vice versa. IGNIS can also be traded
+• Brief History                                            with similar features, only the Ignis child chain will be    for any other child chain coin as well as ARDR using the
+                                                           created with no restrictions. Other child chain creators     Coin Exchange feature.
+• Technological Overview
+would have the ability to set certain restrictions, for
+•  Business talk
+example  disabling  the  decentralized  Marketplace
+• Crowdsale details                                        feature should they prefer to have a centralized market-     c. How to access the features of Ignis child chain?
+                                                           place for their business. They may also choose to set
+• Our accountability  with
+                                                           overall goals or other rules that not everyone may agree
+                                                                                                                        IGNIS is the native operational token of Ignis - the first
+your contributions                                         with, as well as possibly control the supply or future
+                                                                                                                        child chain of Ardor. In order to access the features of
+                                                           distribution of the coins used on their child chain. The     the Ignis child chain, users will require the IGNIS
+• Testimonials
+                                                           Ardor platform will be capable of supporting permis-         tokens. In short, IGNIS is the entry point to Ardor - an
+• Team and Supporters                                      sioned child chains that can impose further restrictions
+                                                                                                                        innovative platform built on the solid proven founda-
+                                                           on their users such as KYC, AML, personal data protec-
+                                                                                                                        tion of the Nxt blockchain. IGNIS gives access to the
+• Legal
+                                                           tion, time-limited data retention, local securities trad-
+                                                                                                                        rich functionality of the platform and the unrestricted
+                                                           ing laws for asset issuers, etc. But the Ignis child chain   features of the permissionless Ignis child chain, such
+                                                           will be permissionless, available to the general public,     as asset exchange, coin exchange, account properties,
+                                                           with no restrictions on who can transact on it.              messaging, aliases, marketplace, voting, conditional
+transactions, composite phasing, etc.
+b. Increased tradability of the token
+The interoperability of the Ardor platform and the
+organic connection between all child chains which will
+exist on the platform will allow the users of Ignis to
+have easy access to the other child chains and benefit
+from the services they may provide inside the plat-
+form. While every child chain uses its own coin, objects
+such as assets are global so that assets issued using
+the Ignis child chain can still be traded on all other
+
+
+
+
+27
+IV. Business Talk
+• Executive Summary
+IV.1 Revenue Sources                                b. Consulting
+• Brief History
+Jelurida has identified three primary revenue       Jelurida will provide consulting services such as
+• Technological Overview
+streams based on the Nxt and Ardor blockchain       modification of the existing features or building
+•  Business talk
+protocol. The revenue sources will help Jelurida    custom functionality to fit the needs of each
+to be a self-sustainable project in the medium to   client. With this service, the changes applied are
+• Crowdsale details
+long term.                                          done by the creators of the platform itself, so it is
+• Our accountability  with
+done in an efficient and secure manner. Other
+your contributions                                  a. Child Chain Creation and Customization               consulting services will also be available, such as
+                                                                                                            the verification of potential use case applications
+• Testimonials
+                                                    The unique structure of the Ardor platform will
+                                                                                                            with our technology at a high technical level.
+                                                    allow the creation of customized child chains
+• Team and Supporters                                                                                       Consulting not only for businesses but also for
+                                                    with their own native tokens. Though each child
+                                                                                                            large range of organisations and public authori-
+• Legal
+                                                    chain will come with all features that will be
+                                                                                                            ties about the potential benefits of integrating
+                                                    found on the Ignis child chain, some features can
+                                                                                                            the blockchain technology in their operations.
+                                                    be disabled and additional ones needed for a
+                                                    specific child chain can be developed. Even after
+                                                    the future implementation of user-created child
+                                                                                                            c. Private Chain Licensing
+                                                    chains, Jelurida will still be able to provide child
+                                                    chain creation services, if heavy customization is      Both Nxt and Ardor, after it launches in early Q4
+                                                    required, such as child chain coin inflation or the     2017, will be available for organizations to license
+                                                    ability for the child chain creator to generate         for private chain solutions. Though it is open
+                                                    more child chain tokens. Paid maintenance and           source, if changes are made and closed sourced,
+                                                    support of the child chains will be a part of this      a  license  from  Jelurida  would  be  required.
+                                                    service.  Revenue sharing with businesses which         Private chain licensing will help enterprises not
+                                                    extract revenue from their child chains (such as        only to have a secure private blockchain solution,
+                                                    pegged to real currencies or BTC child chains) is       but also to have one directly supported by the
+                                                    another possible income source.                         core developers of the technology, all while being
+
+
+
+
+28
+able to keep their changes closed source.   Part
+• Executive Summary                                of this service are the charged per blockchain
+instance runtime licenses, maintenance and sup-
+• Brief History
+port.
+• Technological Overview
+In addition to these sources of revenue, we will
+•  Business talk
+also explore other secondary sources:
+• Crowdsale details
+• Our accountability  with
+your contributions
+Secondary revenue sources
+• Testimonials
+• Team and Supporters
+• Legal
+Custom
+                                                                                                    Archival   Whitelabel
+                                                   Bundler
+Plugin
+                                                                                                    Node       Wallet
+                                                   services
+Development
+                                                                                                    Services   Creation
+
+
+
+
+29
+Wait a second…Why Bundler service?
+• Executive Summary
+• Brief History
+This is to make sure that the transactions of a child
+chain are included in the parent chain. Of course,
+• Technological Overview
+any user on any child chain can be a bundler, but
+•  Business talk                                        some businesses could prefer to outsource this
+task to a service provider. The same applies
+• Crowdsale details
+to tasks like running archival nodes
+• Our accountability  with
+your contributions
+• Testimonials
+We will also explore other potential monetiza-
+• Team and Supporters                                   tion areas:
+• Legal
+- Paid premium services on the Ardor platform
+like in-wallet ads or charging for promotion of
+certain child chain services in the wallet itself;
+- Integration of exchanges and payment provid-
+ers in the wallet to allow conversion of child
+chain coins to other crypto currencies, pegged to
+fiat or BTC child chains etc., and revenue sharing
+with them.
+
+
+
+
+IV.2 Targeted Industries
+30
+• Executive Summary
+• Brief History
+                                                                          Cryptocurrency                                                      AND MUCH
+                                                                                                Public Organizations    Supply Chain
+                                                                          and Finance                                                         MORE
+• Technological Overview
+•  Business talk
+                                                                          White Label           Secure Voting           Parts Tracking
+• Crowdsale details                                                       Token Creation
+                                                                                                Transparency            Design Verification
+• Our accountability  with                                                Pegged Child Chains
+                                                                                                Identity Verification   Logistics
+your contributions                                                        Asset and Currency
+                                                                                                Public Notary
+                                                                          Tokenization
+• Testimonials
+Dividend Payments
+• Team and Supporters
+• Legal
+The financial and banking sectors have undoubtedly been in the last
+years some of the most eager industries to embrace the advantages
+of the blockchain technology. Cross-border transactions, mirror
+accounts, trade finance, money transfer, digitalized payments and
+insurance tracking can all benefit from the distributed and trustless
+nature of the blockchain. Ardor, being written in Java, scalable and
+secure, is the perfect choice not only for the above-mentioned use
+cases but also, thanks to its rich functionality, for asset and securi-
+ties issuance, management, trading, and dividend payments.
+
+
+
+
+31
+                                                         Payment providers, exchanges, and money trans-         For  example,  if  KYC  or  AML  procedures  are
+                                                         mitters can create a pegged to a fiat currency         required or personal data retention or protection
+                                                         child chain, can provide asset and currency toke-      need to be in place, the platform has to be able to
+• Executive Summary
+                                                         nization, allowing their clients to transact easily    implement that too. The Ardor blockchain is using
+                                                         on the blockchain in their national currency.          various transaction types which can be easily built
+• Brief History
+                                                                                                                upon or modified to address such conditions and
+• Technological Overview
+                                                         In fact, not only big financial institutions can use   proof of that is the variety of features already
+•  Business talk                                         blockchain such as Ardor in their operations. Due      implemente, tested, and proven on the Nxt block-
+                                                         to its scalability and the parent-child architecture   chain.
+• Crowdsale details
+                                                         the energy and hardware requirements for using
+• Our accountability  with                               a child chain are so minimal that practically even     Other use cases of the Ardor platform can be logis-
+                                                         SMEs can digitalize their company’s internal pro-      tics, parts tracking, mobile roaming, recording of
+your contributions
+                                                         cesses for transparency, security and efficiency       system logs events, recording of donations to
+• Testimonials
+                                                         while the extremely flexible voting feature can be     non-profit organizations, traditional crowdfund-
+                                                         used to facilitate the shareholders meetings.          ing, financial return based crowdfunding etc.
+• Team and Supporters
+• Legal
+                                                         Public authorities, on both local and national         Speaking more generally, every time when people
+                                                         level, are also experimenting with integrating         or organizations need to do business together but
+                                                         blockchain  technology  in  various  sectors  like     they do not trust each other, every time when a
+                                                         tracking of government payments, digital identi-       system without single point of failure has to be
+                                                         ty  management,  real  estate  or  IP  recording,      used or immutable ledger is needed, there is a
+                                                         notarial services and not in the last place - for      room for blockchain technology and the Ardor
+                                                         optimizing the highly expensive old-fashioned          platform fits such needs perfectly.
+and not so secure way of voting. Legal profes-
+sionals can use it for time stamping of docu-
+ments, proof of existence, secure messaging, dig-
+ital signatures etc.  For all these use cases a highly
+adaptable, flexible and cost-efficient blockchain
+architecture is needed in order to satisfy the
+diversity and complexity of the tasks ahead.
+
+
+
+
+IV.3 Timeline
+32
+• Executive Summary          T e c h n i c a l   R o a d m a p
+From Nxt to Ardor
+• Brief History
+• Technological Overview
+•  Business talk
+                                                                                                                     Technical Enhancement                                                                                                                      Nxt Light/Roaming                                                           Ignis ICO Infrastructure
+• Crowdsale details                                                                                                  Digital Goods Store, Balance Leasing,                                                                                                      Client Modes,                                                               on NXT, Smart Phasing
+                                                                                                                     Encrypted Messages, Alias Transfer                                                                                                         Ardor Development                                                           on Ardor
+• Our accountability  with                                       Nxt Initial                                                                                                                                                                                    Starts
+                                                                 Release                                                                                                                                                                                                                 Ardor Public
+                                                                                                                                                                                                                                                                                                                                                                                 Resolve any issues discovered
+your contributions                                               Token distribution                                                                                                                       Offline transaction signing,                                                   Testnet Launch
+                                                                                                                                                                                                                                                                                                                                                                                 post-launch and ensure stability
+                                                                 and implementation                                                                                                     Account Ledger,                                                                                                   Cross-chain coin exchange,
+• Testimonials                                                   of Proof-of-Stake
+                                                                                                                                                                                        Peer Services                                                                                                     ChildChainBlock transactions,
+                                                                                                                                                                                                                                                                                                          bundling, peer networking layer
+                                                                                                                                                                                                                                                                                                                                                                                 Pruning Feature
+• Team and Supporters                                                                                                                                                                                                                    Dynamic Fees,
+                                                                 Alias System                                                                                     Graphical Installer
+                                                                                                                                                                                                                                                                                                                                                                                 implemented
+                                                                                                                                                                                                                                         Funding Monitor
+                                                                                                                                                                                                                                                                                                                                                                                 on mainnet
+• Legal
+                             Q4                                  Q1                   Q2     Q3                      Q1                                      Q2   Q3                    Q4                Q1                             Q2                Q3   Q4                  Q1   Q2               Q3                                Q4                         Q1   Q2   Q3
+Voting System,               Ardor Snapshot                      Extensive            Load   Pruning Feature
+Phasing,                     Logic                               Testing of           NXT    activation on testnet
+Prunable Messages
+Ardor in research
+phase
+Testnet Launched
+Arbitrary Message
+and Asset Exchange
+Nxt Mobile App,              Ardor Mainnet
+Coin Shuffling,
+Ardor Development            Launch
+Account Control,
+Technical Enhancement        Spawn of child chains
+Data Cloud
+                             and necessary
+Major refactoring,
+use database for storing     migration
+derived tables instead
+of in-memory data
+
+
+
+
+33
+V.  Crowdsale details
+• Executive Summary
+• Brief History                                                                                                                       IGNIS and ARDR will be allocated to user accounts
+                                                                                                                                                                                              From the remaining 500 M (five hundred million)
+                                                                                                                                      in the Ardor genesis block. Their distribution will
+                                                                                                                                                                                              IGNIS, 440 M (four hundred and forty million) will
+• Technological Overview
+                                                                                                                                      be based on a one-time snapshot conducted over
+                                                                                                                                                                                              be offered to the general public in the IGNIS
+•  Business talk                                                                                                                      the Nxt blockchain, the "Ardor Genesis Snapshot",
+                                                                                                                                                                                              crowdsale (conducted using JLRDA tokens at ‘I
+                                                                                                                                      to be performed at least two weeks after the end of
+                                                                                                                                                                                              Owe You’ basis ), and 60 M (sixty million) will be
+• Crowdsale details
+                                                                                                                                      the last round of the IGNIS crowdsale  and shortly
+                                                                                                                                                                                              kept by Jelurida. The funds raised during the
+• Our accountability  with
+                                                                                                                                      before the Ardor launch.
+                                                                                                                                                                                              IGNIS crowdsale will be used for the further
+your contributions                                                                                                                                                                            development, maintenance, advancement, and
+                                                                                                                                      V.1  IGNIS distribution                                 world-wide  promotion  of  the  Nxt  and  Ardor
+• Testimonials
+                                                                                                                                                                                              blockchain platforms, as well as protecting the
+                                                                                                                                      The total amount of IGNIS coins issued will be
+• Team and Supporters                                                                                                                                                                         intellectual property of the code base.
+equal to half of the amount of NXT coins existing
+• Legal
+on the Nxt blockchain at the time of the Ardor
+Genesis Snapshot, plus 500 M (five hundred mil-                                                                                       V.2  Crowdsale infrastructure
+lion). As already promised, approximately half of
+                                                                                                                                      The token sale itself will be conducted on the Nxt
+the IGNIS coins will be reserved and distributed
+                                                                                                                                      blockchain platform. A "controllable currency"
+automatically to the NXT holders based on their
+                                                                                                                                      called JLRDA will be issued and offered for sale in
+account balances at the time of the Ardor Genesis
+                                                                                                                                      several  consecutive  rounds.  The  price  of  the
+Snapshot, at a ratio of 1 NXT : 0.5 IGNIS.
+                                                                                                                                      JLRDA tokens will be denominated in NXT and
+                                                                                                                                      will increase at each round, with full details in the
+                                                                                                                                      table below. Each round will last for one week
+                                                                                                                                      and there will be at least a one-week break
+                                                                                                                                      between subsequent rounds.
+*JLRDA tokens give the right to receive IGNIS tokens at the time of the Ardor launch. JLRDA tokens are not transferable or tradable
+between accounts and for 1 JLRDA, the crowdsale participant will receive 1 IGNIS at the time of Ardor Genesis Snapshot.
+
+
+
+
+34
+                                                   Being a controllable currency, the JLRDA tokens     Purchasing JLRDA tokens will require NXT. Users
+• Executive Summary                                will not be tradeable or transferable between       will be able to exchange other cryptocurrencies
+                                                   user accounts. The purchased JLRDA currency         to NXT conveniently within the Nxt wallet using
+• Brief History
+                                                   units will only serve as a proof of ownership and   the integrated ShapeShift and Changelly third
+• Technological Overview                           initial IGNIS balance for the Ardor Genesis Snap-   party exchanges, subject to availability.
+shot. A controllable currency was chosen to pre-
+•  Business talk
+vent trades from happening while the token sale
+• Crowdsale details
+is ongoing so that purchases of JLRDA directly
+contribute to funding the development of the
+• Our accountability  with
+platform.
+your contributions
+• Testimonials
+• Team and Supporters
+                                                   Dates                                               JLRDA Tokens for Sale                             Price of 1 JLRDA in NXT
+• Legal
+                                                   Aug 05 - Aug 12                                     60,000,000                                        0.40
+                                                   Aug 26 - Sep 02                                     80,000,000                                        0.55
+                                                   Sep 09 - Sep 16                                     100,000,000                                       0.76
+                                                   Sep 23 - Sep 30                                     100,000,000                                       1.05
+                                                   Oct 07 - Oct 14                                     up to 100,000,000                                 1.45
+
+
+
+
+35
+For 1 JLRDA token the participants in the IGNIS crowd-
+sale will receive 1 IGNIS coin at the time of the Ardor
+• Executive Summary
+                                                            Genesis Snapshot.                                        44%
+• Brief History
+• Technological Overview                                    The last batch of 100 M JLRDA tokens will be reduced
+                                                            by up to 20 M tokens allocated by Jelurida for promo-
+•  Business talk
+                                                            tional and marketing use. Jelurida will keep as NXT      6%
+• Crowdsale details                                         20% (but not more than 40 M NXT) of the NXT coins
+collected in the crowdsale. Jelurida will convert the
+• Our accountability  with
+rest of the collected NXT to fiat or BTC, but reserves
+your contributions
+the right to do so in portions, or at a later time
+depending on market conditions.
+• Testimonials
+• Team and Supporters
+In case any batch is sold out before the end of the des-
+• Legal                                                     ignated time frame, the next round will still start as
+scheduled. If any batch is not sold completely at the
+end of the designated time frame, the remaining
+unsold JLRDA tokens will be added to the next batch.
+If not all of the JLRDA tokens are sold by the end of the
+last batch, Jelurida reserves the right to decide what
+to do with the unsold amount depending on the out-
+come of the crowdsale.
+Note:  Due  to  the  high  market  volatility,  Jelurida
+reserves the right to postpone or modify the schedule
+of the ICO if the market conditions change significantly.
+
+
+
+
+V.3.  Roadmap of the Utilization of the Money
+36
+The contributions raised by Jelurida will be used for    Level 2 - €2 million to €5 million
+the research and development of the Ardor block-
+• Executive Summary
+chain  platform  and  subsequent  child  chains,  the    Benefits:
+maintenance of the Nxt blockchain, and for business
+• Brief History
+                                                         development  and  marketing.  In  this  section,  we   •       Nxt blockchain maintenance for at least 3 years
+• Technological Overview
+                                                         underline the business setup that we will be able to   after the IGNIS crowdsale
+                                                                                                                •       Porting of features to Nxt where possible and not
+•  Business talk                                         construct based upon the contribution from the IGNIS
+                                                                                                                depending on the parent-child architecture.
+                                                         crowdsale.
+• Crowdsale details
+                                                                                                                •       Support for existing community tools and services
+                                                                                                                •       One representation office for meetings with
+• Our accountability  with                               We propose the following plan depending on the total
+                                                                                                                users/clients of the Ardor/Ignis Blockchain
+                                                         contribution which we receive:
+your contributions
+•       Attendance in some blockchain conventions and
+conferences
+• Testimonials
+•       Development of the ability for automated child
+• Team and Supporters                                                                                                                                                                                               Level 1 - up to  €2 million                                                                                                                                                                      chain creation, still primarily done by Jelurida
+• Legal
+                                                         Benefits:                                                                                                                                                                                                                                                     Team:
+                                                                                                                                                                                                                                                           •       Nxt blockchain maintenance for at least 1 year      •                         3 server-side developers
+                                                                                                                                                                            (security or critical bug fixes only)                                                                                                      •                         2 sales engineers/consultants
+                                                                                                                                                                                                                                                                                                                       •                                                                                             2 sysadmins/quality assurance /support
+                                                                                                                                                                                                                                                           •       Migration assistance for projects on Nxt to Ardor
+                                                                                                                                                                                                                                                                                                                       •       1 developer
+                                                                                                                                                                                                                                                                                                                       •                         1 UI and mobile expert
+                                                         Team:
+                                                                                                                                                                                                                                                                                                                       •       1 cryptographer
+                                                                                                                                                                                                                                                                                                                       •       1 legal advisor
+                                                         •                                                      3 senior developers
+                                                                                                                                                                                                                                                                                                                       •                                                         1 business development specialist
+                                                         •                                                                                                                                                          1 sysadmin/quality assurance/support
+                                                         •                                                                                                                  1 consultant/sales engineer
+                                                         •                                                      1 legal advisor
+
+
+
+
+Level 3 - €5 million to €10 milliion
+37
+Benefits:
+• Executive Summary
+•       All level 2 benefits
+• Brief History                                           •       Child chain subnet research and development, to
+allow child chain transactions to be processed by
+• Technological Overview
+dedicated subnet of nodes for even greater scalability
+•  Business talk                                          •       Additional support for user-created child chains
+•       Parent chain pruning research and development
+• Crowdsale details
+to reduce growth caused by the parent chain itself
+• Our accountability  with
+•       Provisioning of blockchain nodes on major cloud
+providers
+your contributions
+•     Further development and attention on the UI of
+• Testimonials
+the core wallets, including mobile versions
+• Team and Supporters                                                                                                                                •     Further support for existing community tools and
+                                                          services
+• Legal
+                                                          Team:
+                                                          •                                                          5 sales engineers/consultants
+                                                          •                                                          4 developers
+                                                          •                                                          3 server-side developers
+                                                          •                                                          2 quality assurance
+                                                          •                                                          2 support representatives
+                                                          •                                                          2 legal advisors
+                                                          •                                                                                          2 business development specialists
+                                                          •                                                          1 cryptographer
+                                                          •                                                          1 human resource manager
+                                                          •                                                          1 UI and mobile expert
+                                                          •                                                          1 managing director
+                                                          •                                                          1 sysadmin
+
+
+
+
+Level 4 - €10 million to €20 million
+38
+Benefits:
+• Executive Summary
+•     All level 3 benefits
+• Brief History
+•     Additional focus on R&D
+• Technological Overview
+•     Develop or acquire additional technologies such as:
+•  Business talk
+- Decentralized storage
+• Crowdsale details                                                                           - Zero-knowledge proofs
+- Ring signatures
+• Our accountability  with
+- Directed acyclic graph (DAG) implementations
+your contributions
+• Formal partnerships with educational and research institutions
+• Testimonials
+• Expansion of consulting services and partnerships with other consulting service providers
+• Team and Supporters
+• Expansion of significant business presence in the worldwide market
+• Legal
+Team:
+                                                                                                                           • 5 sales engineers/consultants                                                                                                                          • 1 director of research and development
+•                                                                                             4 developers                                                                                          •                       1 cryptographer
+                                                                                              • 3 server-side developers                                                                                                                               • 1 human resource manager
+• 2 legal advisors                                                                                                                                                                                                          • 1 UI and mobile expert
+                                                                                                                                                             • 2 business development specialists   • 1 managing director
+• 2 quality assurance                                                                                                                                                                               • 1 sysadmin
+• 2 support representatives
+
+
+
+
+Level 5 - Between €20 million and €50 million
+39
+Benefits:
+• Executive Summary
+• All level 4 benefits
+• Brief History
+• Further research and implementation, where possible, of new technologies
+• Technological Overview
+• Incubator and accelerator partnerships
+•  Business talk
+• Comprehensive support for  startups using Ardor
+• Crowdsale details                                                                 • Fully licensed in-house pegged child chains
+• Promotion of academic research and development in blockchain and cryptocurrency
+• Our accountability  with
+• Two physical offices (one in a financial hub)
+your contributions
+• Testimonials
+• Team and Supporters
+Team:
+• Legal
+• 5 sales engineers/consultants                                                     • 1 cryptographer
+• 4 developers                                                                      • 1 human resource manager
+• 3 server-side developers                                                          • 1 UI and mobile expert
+• 2 legal advisors                                                                  • 1 managing director
+• 2 business development specialists                                                • 1 sysadmin
+• 2 quality assurance
+• 2 support representatives
+• 1 director of research and development
+
+
+
+
+40
+Please note that we will not collect more than €50 M
+• Executive Summary                                         net, excluding all IGNIS crowdsale related commis-
+sions, marketing, legal and organizational expenses.
+• Brief History
+• Technological Overview
+If we reach €50 M: 50% of any remaining unsold IGNIS
+•  Business talk
+(excluding the 60 M IGNIS already reserved for Jeluri-
+• Crowdsale details
+da) will be distributed proportionally to all other IGNIS
+• Our accountability  with                                  holders at the time of the Ardor Genesis Snapshot
+including both IGNIS crowdsale participants and NXT
+your contributions
+holders, the other 50% of the unsold IGNIS being kept
+• Testimonials
+byJelurida.
+• Team and Supporters
+• Legal
+If the amount collected exceeds €50 M we will not
+conduct the remaining batches of the sales schedule,
+however any NXT already collected in excess of the 40
+M NXT reserved for Jelurida will still be sold.
+If we do not reach  €50 M, Jelurida will keep all
+remaining unsold IGNIS.
+
+
+
+
+41
+VI. Our Accountability with Your Contributions
+• Executive Summary
+• Brief History
+                                                        We believe that we have to be transparent with        3.   Percentage of contributed amount spent on
+• Technological Overview
+                                                        the contributors to the IGNIS crowdsale as well       marketing and PR expenses, in one fiscal year,
+•  Business talk
+                                                        as the wider community. So, we will make sure         commencing from the date of the conclusion of
+• Crowdsale details                                     that all parties are informed on how we have          the IGNIS crowdsale or the last report end date;
+                                                        spent the contributed resources which we will be
+• Our accountability  with
+                                                        collecting through the IGNIS crowdsale. There-        4. Percentage of contributed amount spent on
+your contributions                                      fore, we propose to prepare a Business Report         further research and development, in one fiscal
+                                                        that will include information regarding how we        year, commencing from the date of the conclusion
+• Testimonials
+have spent the contributed money towards the            of the IGNIS crowdsale or the last report end date.
+• Team and Supporters
+development of the company and its technolo-
+gies  at  the  end  of  each  fiscal  year.  We  will
+• Legal
+disclose the following information in the Busi-
+ness Report to the public on our website:
+1. Percentage of contributed amount spent in the
+preceding year, commencing from the date of the
+conclusion of the IGNIS crowdsale or the last
+report end date
+2. Percentage of contributed amount spent on
+product development, in one fiscal year, com-
+mencing from the date of the conclusion of the
+IGNIS crowdsale or the last report end date;
+
+
+
+
+42
+How we propose to divulge the information
+• Executive Summary
+The information will be delivered to the public through
+• Brief History
+the Jelurida official website (https://www.jelurida.com/).
+• Technological Overview
+•  Business talk
+When the information will be divulged
+• Crowdsale details
+• Our accountability  with
+The first Business Report will be communicated to the
+public within the first quarter of 2019. The first Busi-
+your contributions
+ness Report will pertain to the information on the
+• Testimonials                                               Cloning Issues
+fiscal year commencing from the fourth quarter of
+• Team and Supporters                                        2017 until the third quarter of 2018. The Business
+report will be communicated on a rolling basis,  annu-
+• Legal
+ally, until the contributed amount has been exhaust-
+ed by 80% by Jelurida SA.
+Who will prepare the Business Report
+The Business Report will be prepared by an indepen-
+dent third party appointed by the Jelurida SA. The
+appointment of the independent third party by Jelu-
+rida SA for the purpose of the preparation of the
+Business Report will be final. No dispute regarding
+the same will be entertained.
+
+
+
+
+43
+VII. Testimonials
+• Executive Summary
+• Brief History
+Bitswift wants to ensure the security and longevity of their tokens. By migrating them
+• Technological Overview
+to a secure blockchain infrastructure such as Ardor, the Bitswift team can focus on
+•  Business talk
+utility applications for the Bitswift tokens rather than on blockchain infrastructure
+dealings which is a beast of its own. Through migrating to the Ardor platform we
+• Crowdsale details
+inherit a wealth of options for our tokens, most notably a fully featured API from
+• Our accountability  with
+which we can build out applications to provide extended utility for our tokens.
+your contributions
+Paul Busch, Founder of Bitswift (Future Child Chain on Ardor)
+• Testimonials
+• Team and Supporters
+Janus tokens are moving to the Ardor platform as we consider it a natural evolution
+of the project. Increased focus on business with the Ardor Blockchain aligns with our
+• Legal
+company goals of building a multi-industry business empire.
+The Janus Project Team (Future Asset on Ardor)
+The nice part of Ardor is that it is creating something completely new again and fixes
+issues that most blockchains have, like blockchain-bloat.  A motherchain with multi-
+ple child chains. Forging with Ardor for many blockchains is brilliant and could gain
+much attention and brings mining to a new level.
+Peter Farla, Founder of FarlaWebMedia and Linkbuilding.io, Commu-
+nity Member since 2013
+
+
+
+
+44
+The unique design introduced by the core developers will make it easier for a lot of business and consumers to
+interact with the blockchain. Knowing that there is a development team working for more than two years on the
+• Executive Summary
+concept I am passionate about, I really want to see what the Ardor network can host.
+• Brief History
+Ruben Bueno Castro, Writer at Nxter Magazine, Community Member since May 2014
+• Technological Overview
+•  Business talk                                                                                                       Ardor's (child) chains improve scaling even further, by making most transactions prunable. It will allow for cheap
+transactions without compromising security, so that many new exciting applications will become economically
+• Crowdsale details
+viable.
+• Our accountability  with
+your contributions                                                                                                     Brangdon, Community Member since April 2014
+• Testimonials
+Ardor is ahead of the times. I think in the long term it will be important not only to prevent blockchain bloat, but
+• Team and Supporters
+also to offer a simple way creating new blockchains while its users should not worry with the technical difficul-
+ties. With the Ardor platform it now becomes possible for basically every business to set up its own blockchain
+• Legal
+without having to worry about security issues. This altogether is quite exciting I think.
+Neomadra, Community Member since March 2014
+Simply put, the Nxt developers know what there are doing and they always deliver on their promises. I've
+followed the team since the early beginning of Nxt’s existence and the project has advanced the abilities of
+secured decentralized applications tremendously. Nxt is also a green blockchain technology and I like this. I'm
+totally staggered. The Ardor platform is the natural expansion of Nxt where blockchain scalability is addressed.
+Contrary to the Bitcoin scaling solution currently on the table, Ardor's solution improves the global decentraliza-
+tion of the network instead of reducing it. The ideas of multiple fully featured child chains is also extremely wel-
+comed as this increases the synergy around the Ardor platform. Sincerely, you got to take a deep look at this seri-
+ous and impressive project!
+Sebastien256, Community Member since December 2013
+
+
+
+
+45
+Ardor is taking NXT to the next level. Based on more than three years of experience with NXT, the core team
+showed successfully all its genius by developing new concepts that overcome present shortcomings of classic
+• Executive Summary
+cryptocoins. Handling blockchain bloat, scaling, shorter transaction times, implementing smart transactions
+(without neglecting security issues), and separation of forging tokens from transactional tokens come to my
+• Brief History
+mind.
+• Technological Overview
+•  Business talk
+eu58 Community Member since Q1 2014
+• Crowdsale details
+The solved blockchain-bloat problem is a really big thing, not only for NXT/Ardor but also for crypto as a whole. I
+• Our accountability  with
+am sure that will lead Ardor to a top position in the BaaS branch.
+your contributions
+Logan, Community Member since Q1 2014
+• Testimonials
+• Team and Supporters
+I am excited because I believe it solves a simple, but hard problem: scaling and onboarding. Just this month, it
+turned out a lot of value was at risk due to a problem with one smart contract in Parity. Ardor should allow such
+• Legal
+initiatives to enter crypto with less risk.
+Bas Wisselink, Nxt Foundation Founder and Advisor, Community Member since December
+2013
+I love that the tech has been working without a hitch since the beginning. That track record is unusually good.
+But the great community of Nxt is really above all else what kept me around. The altcoin space in general is very
+toxic and full of spammers (see BitcoinTalk). I imagine that got especially developer-types attracted, that then
+spawned a lot of good projects off- and around Nxt. The use case for the child currencies is so perfect for busi-
+nesses and community projects: They can use the infrastructure of Ardor without users having to get the Ardor
+currency.
+Thomas Veil, Community Member since Q1 2014
+
+
+
+
+46
+After almost four years, I still don't know any active cryptocurrency platform that can beat Nxt in versatility and
+accessibility. It can do many things, in a simple way, using a great API, and it works. The Nxt community has been
+• Executive Summary
+also exceptional as think tank and nursery for many cool projects in crypto. A great place to be these years. Ardor
+is literally a new dimension in the ecosystem. And Nxt is a terrific blueprint for custom blockchains
+• Brief History
+• Technological Overview
+Joan Manel Vilaseca, Nxt Foundation Partner, Community Member since December 2013
+•  Business talk
+NXT was, is, and will remain, the ultimate blockchain. But as every blockchain, it is limited by blockchain size,
+• Crowdsale details
+which means, in term of long term business planing, despite all you can hear around the blockchains these days,
+• Our accountability  with
+due to transactions competition, only business dealing with very high value transactions (or very rare) are safe
+to organize activities around blockchains. The lower, the value of the transactions, the shorter, the duration
+your contributions
+where any activity can survive with the use of blockchains (unless it plans for a decrease of usage frequency).
+• Testimonials
+With childchain pruning, Ardor is the NXT answer to this limit, it widen the scope of usability, because it largely
+• Team and Supporters                                                                                                 increases the time any business can consider to be able to benefit from the blockchains. In short, Ardor is a cru-
+cial step toward mainstream blockchain adoption. It is the step of the dream team that already deployed the
+• Legal
+ultimate blockchain which is running without a single record of incident for nearly 4 years!
+Websioux, Community Member since December 2013
+
+
+
+
+47
+VIII. Team and Supporters
+• Executive Summary
+• Brief History
+• Technological Overview
+•  Business talk
+• Crowdsale details
+• Our accountability  with
+                                                             Kristina Kalcheva                                           Lior Yaffe
+your contributions
+                                                             Legal Expert                                                Software Engineer
+• Testimonials
+• Team and Supporters                                        Kristina Kalcheva is a legal specialist and a co-founder    Lior Yaffe, co-founder and managing director of Jelu-
+                                                             of Jelurida. She has a Master of Law and International      rida has B.A. in computer science from the Technion
+• Legal
+                                                             Relations Degree from Sofia University and has been         in Haifa. He has 20 years of experience in design,
+                                                             working as a legal advisor for seven years.                 development and deployment of enterprise applica-
+                                                                                                                         tions  for  large  corporations.  Before  establishing
+                                                             She has experience with private, national, European,        Jelurida, Lior lead the development and product
+                                                             and International Law. Her professional skills are in the   management of a leading mainframe integration
+                                                             area of Human Rights and Intellectual Property Rights       product at Software AG.
+                                                             protection on both national and international level.        Lior is a true believer in Blockchain technology and
+its potential to change the world.
+Part of her job in the company is to explore the different
+open source licensing models and their enforceability in
+practice. In the last two years her professional interests
+are also focused on researching the various possibilities
+and use cases of applying blockchain technology in real
+life areas and the arising legal challenges along the way.
+
+
+
+
+48
+• Executive Summary
+• Brief History
+• Technological Overview
+•  Business talk
+Petko Petkov                                            Tomislav Gountchev
+• Crowdsale details
+Software Engineer                                       Software Engineer
+• Our accountability  with
+Petko Petkov is a software developer with experi-       Tomislav Gountchev is a server-side Java developer
+your contributions
+ence in financial software, productivity tools and      with more than 15 years of professional experience.
+• Testimonials
+games. He has BSc in Informatics and MSc in             He has a scientific background, having obtained
+a B.A. in Natural Sciences from Cambridge Universi-
+• Team and Supporters                                   Electronic  Governance  from  Sofia  University.
+ty, and a Ph.D. in Chemistry from UC Berkeley. After
+Petko began his career in 2006 as a mobile Java
+• Legal
+academia,  Tomislav  made  a  career  switch  and
+developer. He later switched to server-side Java
+worked as a software engineer for e-commerce com-
+software, and for two and a half years worked on
+panies in the Silicon Valley, NexTag and eBay, with
+a system for e-invoicing. In 2011, he returned to
+particular interest in Java search engine technology.
+mobile development, and since then he is writ-
+Later he co-founded Nabble, a website for hosted
+ing mostly platform-independent C++ and Java
+public forums, where he spent several years as a
+for Android. Outside his day job he has been
+senior Java engineer, responsible for the design and
+dealing with various other technologies includ-
+implementation of multiple backend components.
+ing JavaScript, Java SE and Python. Being gener-        He briefly worked as an R&D software engineer for
+ally  interested  in  social  science,  he  started     an open source enterprise CMS company
+exploring the crypto world in 2013, and later           in the Netherlands, before becoming interested
+in blockchain technology.
+became contributor to the Nxt project.
+
+
+
+
+49
+IGNIS Crowdsale Supporters
+• Executive Summary
+Primary Translations
+• Brief History
+Chinese Translation - Ryan He
+• Technological Overview
+German Translation - Andreas
+•  Business talk
+French Translation - Gabriel Francesh
+• Crowdsale details
+Japanese Translation - Ryochi Watanabe and Taiichi Fox
+Spanish Translation - Ruben Bueno Castro and Jose
+• Our accountability  with
+your contributions
+• Testimonials                                                  The team is complemented by the constant support from
+the Nxt Foundation, Nxter Magazine, as well as Nxt and
+• Team and Supporters
+Ardor community members. Jelurida also gives special
+• Legal                                                         thanks to Jean-Luc, a long-time volunteer contributor and
+developer   of   Nxtand   Ardor.   We   would   also   like
+to thank Andrii for his support in designing this whitepaper.
+
+
+
+
+50
+Service Providers
+• Executive Summary
+KPMG has been one of our earliest partners who helped
+• Brief History
+Jelurida SA to navigate the Switzerland’s legal framework.
+• Technological Overview
+They helped Jelurida SA to make the legal structure for the
+launch of the IGNIS crowdsale, coordinated contact with the
+•  Business talk
+                                                                                                                                  SICOS  coordinated  with  various  partners  of  the
+                                                                  regulatory and tax authorities and supported Jelurida SA in
+                                                                                                                                  crowdsale, assisted with drafting of the whitepaper
+• Crowdsale details
+                                                                  the drafting the legal opinion (both legal and regulatory)
+                                                                                                                                  from a business and marketing perspective (non-le-
+• Our accountability  with                                        and in finalizing the legal aspect related to the whitepaper.
+gal and non-technical part) and has been the key
+your contributions                                                partner for all PR and other strategic activities.
+Wintertaling Corporate M&A: Our lawyers and notaries in
+• Testimonials                                                    the Netherlands advising Jelurida BV on Dutch corporate,
+organizational, Intellectual Property protection and licens-
+• Team and Supporters
+ing related matters. They also help us research the legal
+• Legal
+aspects of the blockchain and distributed ledger technology.
+AGAVON
+STP TaxLawyers: Our Dutch tax lawyers, advising us on all
+corporate and IP related tax matters, both national and
+                                                                  Agavon has provided consultation services primarily
+international. STP TaxLawyers ensures that we are compli-
+                                                                  focused on business strategy and related content of the
+ant and optimized from an international tax perspective.
+                                                                  whitepaper as well as advisory services on other related
+                                                                  areas of the operation of Jelurida. They have also assist-
+Andrii Savdeiev: A graphic/motion designer who served
+                                                                  ed with the overall execution of the Ignis crowdsale.
+businesses and individuals all over the world and in count-
+less industries. His specialties include designing all kinds of
+marketing visual assets as well as the animated videos.
+
+
+
+
+51
+Community Outreach Services
+• Executive Summary
+• Brief History
+• Technological Overview
+•  Business talk
+• Crowdsale details
+                                                         ChainsHome                                            L.D Studio
+• Our accountability  with
+                                                         ChainsHome provided outreach services to the Chi-     L.D Studio provided media creation, editing, and
+your contributions                                       nese community for the promotion of Nxt and Ardor     consultancy services primarily targeted to the exist-
+                                                         by aiding in the direct communication with the com-   ing and prospective Chinese community in order to
+• Testimonials
+                                                         munity such as through meetups and events.            improve communication and understanding.
+• Team and Supporters
+• Legal
+Inaction Technology                                      Kotoba Translation
+Inaction Technology provided community outreach          Kotoba Translation provided the Korean trans-
+services to the Chinese community as well as aided       lations for our documents and other content to
+with communication such as through their website         make our technology and offerings more acces-
+ardorfans.org for the promotion of the Ardor platform.   sible to the Korean community and market.
+
+
+
+
+52
+IX. Legal
+• Executive Summary
+• Brief History
+• Technological Overview
+                             General information                                    IGNIS   token is aware that national securities
+•  Business talk
+                                                                                    laws,  which  ensure  that  investors  are  sold
+• Crowdsale details
+                             The JLRDA token is a temporary technical coin,         investments that include all the proper disclo-
+                             which only gives you the right to receive the IGNIS    sures and are subject to regulatory scrutiny for
+• Our accountability  with
+                             token. The IGNIS token will allow access to the        investors' protection, are not applicable.
+your contributions
+                             services provided by the Ignis child chain on the
+• Testimonials               Ardor blockchain platform.   The sale of JLRDA         Any person purchasing any JLRDA token and
+                             token and the IGNIS token is final and non-re-         IGNIS token, expressly acknowledge and repre-
+• Team and Supporters
+                             fundable.                                              sent that  (s)he/it have carefully reviewed this
+• Legal                                                                             white paper and fully understand the risks, costs
+                             The JLRDA token and the IGNIS token do not have        and benefits associated with the purchase of
+                             the legal qualification of a security, since they do   JLRDA token and the IGNIS token as indicated in
+                             not give any rights on dividend or interest. The       the white paper and in the terms and conditions.
+                             JLRDA token and the IGNIS token are not shares
+                             and do not give any right to participate in the gen-   Knowledge required
+                             eral meeting of Jelurida SA. The JLRDA token and
+                             the IGNIS token cannot have a performance or a
+                                                                                    The purchaser of JLRDA token and the IGNIS
+                             particular value outside the Nxt and Ardor/Ignis
+                                                                                    token undertakes that (s)he/it understands and
+                             blockchain respectively. The purchase and use of
+                                                                                    has significant experience of cryptocurrencies,
+                             JLRDA token and the IGNIS token shall therefore
+                                                                                    blockchain systems and services, and that (s)he/it
+                             not be done for speculative usage or investment
+                                                                                    fully understands the risks associated with the
+                             purposes. The purchaser of the JLRDA token and
+                                                                                    Token Sale as well as the mechanism related to
+                                                                                    the use of cryptocurrencies (incl. Storage).
+
+
+
+
+53
+Jelurida   shall not be responsible for any loss of   Important disclaimer
+JLRDA token or IGNIS token or situations making it
+                                                      impossible to access JLRDA token or the IGNIS
+                                                                                                               This white paper shall not and cannot be consid-
+• Executive Summary
+                                                      token, which may result from any actions or omis-
+                                                                                                               ered as an invitation to enter into an investment.
+• Brief History                                       sions of the user or any person undertaking to
+                                                                                                               It does not constitute or relate in any way nor
+                                                      acquire JLRDA token and the IGNIS token, as well
+• Technological Overview                                                                                       should be considered as an offering of securities
+                                                      as in case of malicious third party (hacker) attacks.
+                                                                                                               in any jurisdiction. The white paper does not
+•  Business talk
+                                                                                                               include nor contain any information or indica-
+• Crowdsale details                                   Risks                                                    tion that might be considered as a recommenda-
+                                                                                                               tion or that might be used to base any invest-
+• Our accountability  with
+                                                      Acquiring JLRDA token and the IGNIS token and            ment decision on. The JLRDA token and the
+your contributions                                    storing it involves various risks, in particular that
+                                                                                                               IGNIS token are just a currency token and are not
+                                                      Jelurida SA may not be able to launch its opera-         intended to be used as an investment.
+• Testimonials
+                                                      tions and develop its blockchain and provide the
+• Team and Supporters
+                                                      services promised. Therefore, and prior to acquir-       The offering of JLRDA, IGNIS, NXT and ARDR
+• Legal                                               ing JLRDA token and the IGNIS token, any User            token on a trading platform is not changing the
+                                                      should carefully consider the risks, costs, and ben-     legal qualification of the token, which remain a
+                                                      efits of acquiring JLRDA token and the IGNIS token       simple means for the use of the Nxt, Ardor and
+                                                      within the crowdsale and usage of the Ignis wallet,      Ignis blockchain and is not a security.
+                                                      and, if necessary, obtain any independent advice
+                                                      in this regard. Any interested person being not in       Jelurida is not to be considered as advisor in any
+                                                      the position to accept nor to understand the risks       legal, tax or financial matters. Any information in
+                                                      associated to the activity (incl. the risks related to   the white paper is given for general information
+                                                      the non-development of Jelurida   network and            purpose only and Jelurida does not  provide with
+                                                      operations) or any other risks as indicated in the       any warranty as to the accuracy and complete-
+                                                      Terms & Conditions of the crowdsale, should not          ness of this information.
+acquire JLRDA token and the IGNIS token, at this
+stage or ever later.
+
+
+
+
+54
+                             Jelurida Swiss SA will be an operative entity          of its affiliate shall be held liable for any direct or
+                             managing the Ignis blockchain and Ardor block-         indirect loss or damages caused by such changes.
+                             chain. Therefore, Jelurida is not a financial inter-
+• Executive Summary
+                             mediary  according  to  Swiss  Law  and  is  not       Jelurida SA will do its best to launch its opera-
+• Brief History              required to obtain any authorization for Anti          tions and develop Ardor and Ignis blockchain.
+                             Money Laundering purpose.                              Any person undertaking to acquire JLRDA token
+• Technological Overview
+                                                                                    and the IGNIS token acknowledge and under-
+•  Business talk
+                             Acquiring JLRDA token and the IGNIS token shall        stand that Jelurida SA does not provide any guar-
+                             not grant any right or influence over Jeluirda         antee that it will manage to achieve it. They
+• Crowdsale details
+                             Swiss SA organization and governance to the            acknowledge  and  understand  therefore  that
+• Our accountability  with
+                             Purchasers.                                            Jelurida  SA                                              (incl.  its  bodies  and  employees)
+your contributions                                                                  assumes no liability or responsibility for any loss
+                             Regulatory authorities are carefully scrutinizing      or damage that would result from or relate to the
+• Testimonials
+                             businesses and operations associated to crypto-        incapacity to use the JLRDA token and the IGNIS
+• Team and Supporters        currencies in the world. In that respect, regulato-    token, excepted in case of intentional miscon-
+                             ry  measures,  investigations  or  actions  may        duct or gross negligence.
+• Legal
+                             impact Jelurida SA’s business and even limit or
+                             prevent it from developing its operations in the       Representation and warranties
+                             future. Any person undertaking to acquire JLRDA
+                             token and the IGNIS token must be aware that
+                                                                                    By participating in the Token Sale, the purchaser
+                             the Jelurida SA business model, the white paper
+                                                                                    agrees to the above and in particular, they repre-
+                             or terms and conditions may change or need to
+                                                                                    sent and warrant that they:
+                             be modified because of new regulatory and com-
+                                                                                    •                                                         have read carefully the terms and condi-
+                             pliance requirements from any applicable laws
+                                                                                    tions attached to the white paper; agree to their
+                             in any jurisdictions. In such case, purchasers and
+                                                                                    full contents and accept to be legally bound by
+                             any person undertaking to acquire JLRDA token
+                                                                                    them;
+                             and the IGNIS token acknowledge and under-
+                                                                                    •                                                         are above 18 years old or have reached the
+                             stand that neither Jelurida SA nor any
+                                                                                    age in which are qualified to enter into a contrac-
+                                                                                    tual relationship in the country of residence;
+
+
+
+
+55
+                                     •                                                      are not a US citizen or resident;                    •                                                     purchase JLRDA tokens because s(he)/it
+                                     •                                                      have full authorization to act on behalf of                                                                wish to have access to the IGNIS child chain and
+• Executive Summary                                                                         the legal entity which will purchase the JLRDA                                                             the whole Ardor blockchain platform and to use
+                                                                                            token and the IGNIS token, if acting on behalf of                                                          their  various  functionality  and/or  because
+• Brief History
+                                     an legal entity;                                                                                                                                                  s(he)/it wish to support the further development
+• Technological Overview
+                                     •                                                      live in a jurisdiction which allows the Jelu-                                                              and  marketing  of  the  Ardor  platform  and/or
+                                                                                            rida SA to sell the JLRDA token and the IGNIS                                                              because s(he)/it  wish to facilitate development,
+•  Business talk
+                                                                                            token through a crowdsale without requiring any                                                            testing,  deployment  and  operation  of  block-
+• Crowdsale details
+                                     local authorisation;                                                                                        chain-based or related applications;
+• Our accountability  with           •                                                      will not use the crowdsale for any illegal           •                                                     are not purchasing JLRDA token and the
+                                                                                            activity, including but not limited to money laun-                                                         IGNIS  token  for  the  purpose  of  speculative
+your contributions
+                                     dering and the financing of terrorism;                                                                      investment or usage;
+• Testimonials                       •                                                      have  sufficient  knowledge  about  the              •                                                     waive the right to participate in a class
+                                                                                            nature of the cryptographic tokens and have                                                                action lawsuit or a class-wide arbitration against
+• Team and Supporters
+                                     significant  experience  with,  and  functional                                                             the Jelurida Swiss SA and its Affiliate Parties.
+• Legal
+                                     understanding of, the usage and intricacies of
+                                     dealing with cryptographic tokens and curren-                                                               Governing law and arbitration
+                                     cies and blockchain-based systems and services;
+                                     •                                                      are familiar with all related regulations in
+                                                                                                                                                 All  the  disputes,  controversy  arising  from  or
+                                     the specific jurisdiction in which s(he)/it is based                                                        under the crowdsale shall be resolved by arbitra-
+                                     in and that purchasing cryptographic tokens in                                                              tion in accordance with the Swiss Rules of Inter-
+                                     that jurisdiction is not prohibited, restricted or                                                          national Arbitration of the Swiss Chambers of
+                                     subject to additional conditions of any kind;
+                                                                                                                                                 Commerce in force on the date when the Notice
+                                     (Participants cannot contribute to the Token Sale
+                                                                                                                                                 of Arbitration is submitted in accordance with
+                                     if there are applicable legal restrictions in their                                                         these Rules. The arbitration panel shall consist of
+                                     country of residence. It is the responsibility of                                                           one arbitrator only. The seat of the arbitration
+                                     each participant to know these laws and take                                                                shall be Lugano, Switzerland. The arbitral pro-
+                                     them into consideration before their participa-
+                                                                                                                                                 ceedings shall be conducted in English.
+                                     tion in the Token Sale)
+Copyright © 2017 Jelurida Swiss SA
+
+
+
+
+

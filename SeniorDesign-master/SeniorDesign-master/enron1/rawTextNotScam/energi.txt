@@ -1,0 +1,593 @@
+﻿Note: Energi Core reserves the right to update this White Paper at any time. Please visit the Energi website
+(www.energi.world/whitepaper/) for the most up-to-date version of this White Paper.
+
+
+
+
+THE MISSION
+Energi is the cryptocurrency for world adoption.
+Energi will achieve this by fostering a self-funding and governance system, absorbing and
+innovating the most advanced technology in the space — including full smart contract
+capabilities, and infinite scalability. Further, by removing the cryptocurrency space’s common
+barriers to entry, Energi will become the most user-friendly, secure and trusted platform for
+building and trading value.
+THE EXISTING LANDSCAPE
+"It is not money for the internet but the internet of money."
+— Andreas Antonopoulos
+In the beginning, there was the World Wide Web [W3]. The "hypermedia information retrieval
+initiative, aiming to give universal access to a large universe of documents." ¹  These are the
+words rendered on the world's first website; outlining the initial plans for the internet. That
+same year, HTML was born and shortly thereafter, the first batches of Internet browsers
+launched.
+Almost 3 decades later, we are now experiencing the second 'wave' of the Internet’s evolution.
+Exchange of information is evolving into exchange of value, and value is one of the oldest
+forms of communication between human beings. This marks a historic economic turning
+point that will have significant socio-economic impacts on humanity.
+In the forthcoming Internet of Value, billions of Internet users will exchange value — as
+efficiently and simply over decentralized blockchain networks as we currently exchange
+information today.
+Blockchain technology has definitively shown great promise of utility for multiple applications,
+across many fields. However, despite the potential, we have yet to see a new generation
+cryptocurrency gain mainstream mass adoption on a global scale.
+3
+
+
+
+
+THE PROBLEM
+There is an emerging need for cryptocurrencies, nonetheless, cryptocurrencies are only at
+0.5% adoption globally.²  A strategically designed cryptocurrency that can scale and
+maximize value for the world represents a welcomed alternative at this moment in time.
+Right now, top cryptocurrencies don’t have all that it takes to serve this need.
+REPUTATION
+In the mainstream community, outside of the crypto-ecosystem, cryptocurrencies don’t
+have the best reputation. Relevant media stories reaching the everyday person, most often
+by ‘local news’ programming, social media and newspaper opinion sections, position
+themselves at the far ends of the editorial spectrum.
+More often than not, these fall into a ‘insta-millionaire’, or ‘victim of volatility’ speculation
+story, narratives on global exchange ‘hacks’, or alternatively, headlines around sudden drops
+or price spikes, are far more effective than stories on a sideways market. When it comes to
+informative media reaching the potential mainstream adopter, there is little bandwidth left
+for useful, objective information about the reality of this emerging technology.
+COMPLEXITY
+Cryptocurrencies are far too complex for most and the barrier to entry is much higher than
+mainstream adopters can currently tolerate. Exchanges often involve significant user
+friction, and the trading of value between cryptocurrencies is often disjointed and
+time-consuming. In the cryptocurrency space, users are wholly responsible for their coins,
+wallets, accounts and general online safety. When funds become inaccessible, get hacked
+or are transferred to an incorrect wallet, there is no safety net of a help desk number to fall
+back on.
+There are a number of problems to overcome for cryptocurrencies to be adopted as a mass
+currency for exchanging value, and Energi is working towards solving these problems.
+STRUCTURAL & FINANCIAL STABILITY
+Many coins decide on significantly high rewards for their network’s miners, without first
+modeling the financial requirements for an organization to sustain development. As a
+result, many cryptocurrencies have little to no growth potential, and/or contributors are not
+4
+paid (e.g. Bitcoin).
+
+
+
+
+To meet this need for resources, many cryptocurrencies rely on donations and voluntary
+developers, since they don’t have self sustaining models. Some altcoins, such as Ethereum,
+have successfully navigated this resource problem, but still face issues of security and
+scaling — impacting their long-term funding and business sustainability. Other top
+cryptocurrencies lack the leadership, expertise and vision, to secure their project’s survival.
+In order to scale and cultivate innovation properly, the cryptocurrency ecosystem needs
+self-funding treasury models with effective governance.
+Trust
+THE SOLUTION
+Energi will focus around
+4 principles of mass adoption:
+Availability                                                                                      Awareness
+●    Trust
+●    Awareness
+●    Usability
+●    Availability                                                                                 ability
+HARNESS ENERGI
+Building a Solid Foundation:
+the large self-funding treasury system with on-chain governance.
+Building a Strong Support System: the Energi community.
+Building Mechanisms of Growth and Stability: Earndrop marketing campaigns and Energi
+Masternode network with strong rewards. (Please refer to  MARKETING SYSTEMS for more
+information about Earndrop)
+FOCUS ENERGI
+Building the Ecosystem. Extending capabilities to bring dApps and cryptocurrencies onto
+the Energi Platform with a focus on Trust, Awareness, Usability and Availability. Creating a
+Smart Contract Platform for the issuance of Digital Services between systems. Energi’s
+services for new and existing ICOs will include:
+●    Energi Incubator Program (Atomic Labs)
+●    Energi Defense Department (EDD)
+●    Energi Engineering Support and the Energi Development Portal (EDP)
+●    Energi Marketing Toolkit (EMT)
+5
+
+
+
+
+VALUE PROPOSITIONS
+Energi is a self-funding cryptocurrency with a vision of bringing about mass-adoption of
+cryptocurrency. It features a self-funding treasury system and will eventually develop into a
+smart contract platform.
+SELF-FUNDING
+Energi is self-funded by the treasury emissions, which allow for long-term development of
+the technology platform. The treasury has one of the largest percentage allocations in the
+space. This treasury funding allows for a viable long-term model that will grow the
+technology and the community.
+GOVERNANCE
+In combination with self-funding, a strong governance model allows Energi to avoid the
+pitfalls and amplify the successes of its predecessors — making community-driven
+decisions that will maximize scalability and drive global adoption.
+EQUITABILITY
+Out of the desire to promote a fair and stable cryptocurrency ecosystem, Energi chose not
+to organize an Initial Coin Offering (ICO) and to not pre-mine any NRG. This helped to reduce
+centralization of the Energi network.
+SMART CONTRACT PLATFORM
+On top of Energi’s working blockchain system, and with NRG currently traded on 3 different
+exchanges, Energi’s blockchain development team is in the process of developing a smart
+contract platform, to further drive network effects that will support global adoption.
+Marketing campaigns
+Reach out to                                                                                    ROI
+influencers                                                                                     Extra investors
+Development                                                                                     Added value for NRG
+Hire of thought
+leaders
+$                                                                                               Treasury              $$$
+6
+
+
+
+
+USE CASES
+MASTERNODE USE CASE
+Masternode holders are able to host Masternodes, which confer rewards for second tier
+staking on top of Energi’s Proof of Work consensus model. These rewards include
+governance mechanisms for the owners of the Masternodes.
+MINING USE CASE
+In a similar way, NRG miners are a vital part of Energi’s consensus network. Miners are
+also rewarded for employing their compute power to secure the network (Proof of Work).
+As such, the miners fee is remuneration for that compute power.
+PARTNER USE CASE
+DApps and other project partners will benefit from Energi’s smart contract platform.
+Rather than an exclusive focus on the transactions-per-second ‘arms race’ common in the
+smart contract market, Energi will provide value-adds, such as technical expertise and
+continual governance / decision-making that will drive value to partnerships and projects
+based on their merit and their benefit to the Energi ecosystem.
+END-CONSUMER USE CASE
+The end consumer is able to use NRG as a store of value and as a utility for use in
+transactions and the smart contract / DApp ecosystem.  Just as an interactive network of
+Apps on a smartphone OS have the network effect of increasing the phone’s usability,
+Energi’s network of DApp partners, onboarded into the ecosystem, will increase the
+usability of the platform.
+As Energi grows, the Energi Defence Department will work alongside law enforcement and
+cybersecurity experts to investigate and help safeguard Energi users from any potential
+hacking or scamming incidents occurring within the Energi community, making the Energi
+ecosystem more secure for the end-user.
+7
+
+
+
+
+ENERGI PLATFORM: BUSINESS DEVELOPMENT
+Energi will establish an Incubator Program to focus on supporting early stage blockchain
+startups looking to develop on the Energi platform.
+This program will encourage the high quality infrastructure projects required to build out
+Energi’s platform ecosystem. Energi will attract and support high quality projects, provide
+advice, ensure that the economic and business models are sound, and encourage the
+projects to collaborate.
+These platform partners will also have access to a database of metrics and
+assessments, which they can leverage to evaluate their project and ensure they meet
+industry standards.
+ENERGI PLATFORM: USER PROTECTIONS
+As with all emergent technologies, the blockchain ecosystem is afflicted with ‘bad actors’
+looking to gain unauthorized access to funds. Understandable concerns with these scams
+and hacking inside the cryptocurrency space, and the heightened security measures
+required to ‘become your own bank’, have created a natural delay in the mass adoption of
+cryptocurrencies generally.
+Energi Defense Department and its investigative arm; the Energi Bureau of Investigations
+(EBI), will serve to protect its user base from hackers, scammers, and other bad actors
+wherever feasible.
+Early stage projects will be able to access support for scam/hack incidents to provide a
+level of security for their communities. Energi will work with relevant law enforcement
+agencies and as cryptocurrency exchanges and other institutions to provide more
+protection, wherever possible, for Energi projects to protect their users.
+8
+
+
+
+
+ENERGI PLATFORM: ENGINEERING SUPPORT
+Early stage DApp teams are often small and frequently manage time-sensitive matters.
+Energi will offer these teams assistance with smart contract auditing, ensuring proper
+security measures are in place, and access to Energi’s growing developer team for
+technical guidance.
+Energi aims to establish an exceptional, developer-friendly platform for DApps to build on.
+Smart contracts will be written in solidity, much like Ethereum.
+Energi will also create an educational program to help existing developers learn about
+blockchain technology and gain necessary skills to create their blockchain projects.
+ENERGI PLATFORM: MARKETING SYSTEMS
+Energi has strong marketing systems in place, to effectively communicate their vision and
+attract not only cryptocurrency enthusiasts, but people new to the space. These systems
+involve taking full advantage of all social media platforms available, such as Facebook,
+Twitter, Telegram, Reddit, LinkedIn, Medium, and Steemit, in order to reach as many users
+as possible. Energi has also created a YouTube video series, that aims to educate
+newcomers about Energi specifically, and also cryptocurrencies and blockchain technology
+as a whole.
+Energi team members travel to global blockchain conferences, to share Energi’s long-term
+vision, and meet with early stage projects. Energi is able to offer these teams instant access
+to Energi Marketing Systems and Community Management Tools.
+9
+
+
+
+
+Instead of an Initial Coin Offering (ICO), Energi’s founder, Tommy World Power,
+[www.tommyworldpower.com] chose to do large airdrop campaigns (Earndrop). These
+airdrop campaigns distribute a large portion of NRG coins, and also encouraging
+engagement across Energi social media platforms. This has helped give Energi a
+significant web presence. As of February 2019, Energi has a following of approximately
+68,000 accounts in aggregate across Telegram, Discord, Twitter, Facebook, Reddit, and
+other social media. Additionally, Energi has approximately 17,000 opt-in email addresses
+registered with Energi’s airdrop. [refer Table below]
+NOTES
+* Alexa site ranking (https://www.alexa.com/siteinfo/) used for the following domains;
+https://www.energi.world/
+https://www.icon.foundation/
+https://aion.network/
+https://www.decred.org/
+http://www.pivx.org/
+** Accumulated totals of Telegram, Twitter, Reddit, YouTube, Facebook, Github, LinkedIn and Medium
+10
+followings. All data retrieved on 5th of February 2019.
+
+
+
+
+THE EMISSION SCHEDULE
+1 million Energi will be released every month and will be divided between the Energi
+Backbone, miners, Masternodes and the treasury. The breakdown of the allocations can
+be viewed below:
+●                                                                                            10% to the Energi Backbone
+●                                                                                                                         10% to Energi Miners (eventually transitioning to Proof of Stake)
+●                                                                                            40% to Energi Masternodes
+●                                                                                            40% to the Energi Treasury
+The Energi backbone will serve as a reward for the vision and creation of Energi, and will
+incentivize future leadership and guidance.
+As Energi does not have a supply limit, its treasury and Masternode allocations are
+highly essential to Energi’s ongoing performance, decentralization and longevity.
+THE MINERS
+A more in-depth look at Energi Mining:
+●    Hashing Algorithm: Energihash is based on, and very similar to Ethash with some
+modifications to ensure functionality with the Energi Blockchain.
+●    ASIC resistance: Much like Ethash, Energihash is I/O bound rather than CPU bound, so
+building an Energihash ASIC that is much more efficient than normal GPUs is relatively
+difficult.
+●    Recommended hardware includes AMD and NVidia GPUs with 4GB or higher VRAM.
+●    Energi’s official mining pool is in development and scheduled for release Q4 2018.
+11
+
+
+
+
+THE BACKBONE
+For any business to grow and succeed, it needs a strong backbone, to provide guidance,
+stability and support to the entire infrastructure.
+Energi’s backbone consists of Tommy and anyone he chooses to share with privately.
+The 10% allocation, which is significantly lower than the typical 20-50% for Initial Coin
+Offering founders, gives Tommy the ability to successfully guide the Energi network with
+meaningful direction. Instead of launching with an allocated percentage of a Initial Coin
+Offering, this monthly incentive is instead remunerated over Energi’s lifetime. This will
+also ensure prosperity for Energi, not only in the short or medium term, but throughout
+its entirety. The Backbone is an integral part of Energi’s ‘Fair Launch’ strategy.
+THE TREASURY
+Many organizations have a treasury department to make financial decisions and reduce
+potential financial risks. With a treasury model in place, Energi can scale the core team
+for ongoing development [refer Figure A], budget for marketing activities and create
+educational content. The Treasury will also fund approved community proposals with
+governance over these decisions being applied by the Decentralized Autonomous
+Organisation (DAO) of Energi Masternode owners.
+Energi Developer Activity - past 12 months ⁴                                                [Figure A]
+12
+
+
+
+
+THE MASTERNODES
+A Masternode is a point of intersection / connection on a decentralized network. It can
+provide such features as private transactions and instant or direct transactions to the
+blockchain network.
+The advantage of setting up, hosting and maintaining an Energi Masternode is the NRG
+rewards that provide remuneration for these services.
+Masternode Rewards vs Setup Cost Comparison                                               [Figure B]
+13
+
+
+
+
+MASTERNODE REWARDS
+Energi’s block time is currently 63 seconds, with 40% of emission rewards being released to
+the Masternodes. On a monthly basis, Masternode operators will be collectively rewarded
+with 400,000 NRG.
+For example, if there are 400 Masternodes enabled on the network, each Masternode
+would be rewarded with 1000 NRG per month, or 12,000 NRG per year. If there are instead
+200 Masternodes on the network, each Masternode would be rewarded with 2,000 NRG per
+month, or 24,000 NRG per year. Reward calculations change as the number of enabled
+Masternodes online fluctuates. The chart on the previous page, illustrates Masternode
+rewards for a network of 423 Masternodes. [refer Figure B]
+Energi structured its Masternodes with significant NRG payments in order to reward
+Energi’s Masternode owners to continue maintenance and upkeep of the network nodes,
+which in turn facilitates network reliability. The requirements to run an Energi Masternode
+are listed below:
+●    Energi Core Wallet
+●                                                                                             10,000 Energi (NRG)
+●    A Virtual Private Server (VPS) running 24/7
+●    A dedicated IP Address for the VPS
+14
+
+
+
+
+THE ECONOMICS
+NRG AS A REWARD SYSTEM
+Energi is one of the few cryptocurrencies in the market that has a Masternode structure that
+provides Masternode owners with rewards. Why? To ‘outsource’ the setup, hosting and
+maintenance of the network, to the community, thus creating a more stable and
+decentralised blockchain network. Every month, all Masternode holders will receive their
+portion of the 40% of the NRG generated. This model differs from Bitcoin or Ethereum and
+other non-Masternode coins, or other general POS-coins, where only miners benefit.
+NRG AS A MEANS OF EXCHANGE
+An important feature of Energi is the rate of emissions.
+As the release of NRG is capped at 1 million NRG per month, the emission rate, as a
+percentage of total market cap, reduces over time [refer Figure C]. This emission rate
+reduction will ensure stability of NRG in the long run, whilst providing a strong use-case for
+NRG to be utilized as a currency in locations experiencing hyperinflation.
+Two major criticisms of Bitcoin, are slow confirmation speeds and high transaction fees
+during high traffic periods. With 2nd generation engineering, Energi is able to maintain low
+fees and fast speeds, regardless of transaction volume. This creates a user experience for
+NRG transactions, as frictionless as debit or credit cards.
+NRG IS BETTER FOR THE ENVIRONMENT
+Bitcoin consumed as much power as the population of Ireland in 2015.5    It is most definitely
+not a green choice for scaling to mass adoption. NRG, on the other hand, is engineered
+efficiently to reduce the carbon footprint. Energi has Masternode staking and GPU mining,
+both of which are less computationally intensive than BTC ASIC mining. Also worth noting is
+that NRG is at the beginning of its lifecycle and thus requires less computational power than
+BTC per block.
+15
+
+
+
+
+NRG WITH CONTROLS
+As Energi is a naturally evolving organisation without demands applied by Initial Coin
+Offering token holders. Instead, the use of Energi’s Treasury funds is voted on by
+members of the DAO (Decentralised Autonomous Organisation). This avoids the Bitcoin
+and Ethereum decentralization conundrum - where major policy changes require rounds
+of discussions before decisions are made.
+The DAO allocates how NRG is spent, whether it is on product development, operations
+improvement or even social events.
+Expected Monthly Emission Rate                                                           [Figure C]
+16
+
+
+
+
+NRG FOR THE FUTURE
+Energi’s roadmap includes a user friendly wallet for actual exchange. As a mode of
+exchange, NRG can function as a local currency to replace regions of hyperinflation.
+Strong adoption within the local ecosystem will also allow for trade with external
+suppliers. Floating NRG against an external fiat currency gives users a concept of value
+of NRG, whilst avoiding the currency controls that restrictive governments sometimes
+install. The roadblocks for mass adoption are few:
+1.                                                                                         There is no need for expensive infrastructure to pay or accept NRG
+2.                                                                                         Speed of transaction is fast, keeping it on par with cash or card
+3.                                                                                         Reward system via Masternode ownership and hosting services
+NRG does not have a maximum cap on issuance making it suitable for use, well into the
+future. Having no maximum supply means there is no future date when the Energi
+Treasury will cease to exist. In contrast to most coins, the issuance of NRG is constant
+and linear, not logarithmic, making it a simpler issuance model.
+‘Easy to understand’ is extremely important, as many coins ‘game’ the system by
+complicating their issuance models, pre-mining and centralizing the supply with multiple
+Masternodes receiving the majority of the rewards. By delaying Masternode payments
+and not having any NRG pre-mined, Energi intentionally designed Masternode rewards to
+support decentralization of the NRG supply, whilst also ensuring sustainable
+development.
+Within the cryptocurrency ecosystem, there is the opportunity to bring innovation in two
+distinct realms; technology and economics. Energi strives to do both.
+17
+
+
+
+
+THE PARTNERSHIPS
+EXCHANGES
+In Q2-Q3 2018, Energi secured relationships with 3 different exchanges: Cryptopia and
+CoinExchange (centralized) and CryptoBridge (decentralized). Energi are currently pursuing
+integration with more exchanges — particularly ones with higher overall exchange volume.
+LISTINGS
+On August 28th 2018, Energi got listed on the world’s most well-known and complete
+cryptocurrency listing website.
+WALLETS
+Energi can be stored/sent/received on the Coinomi wallet (in addition to the full
+functionalities that the Energi Core desktop wallet provides on Windows and Mac OS X).
+Coinomi is a mobile wallet, available for both iOS and Android. On the Coinomi website we
+find that Coinomi for iOS, v1.3.1 (released on 27 september 2018), is supported for iOS 9.2
+or later and compatible with iPhone, iPad, and iPod touch (Source), and Coinomi for Android,
+v1.11.1 (released on 11 september 2018) is supported for Android 4.1 and above (Source).
+OTHER RETAIL PARTNERSHIPS
+Energi are also pursuing partnerships with other wallets and systems that support spending
+of cryptocurrency in “real life” (e.g. ATM cards and gift cards).
+18
+
+
+
+
+THE ROADMAP
+Q3 2017
+2017
+●    Pre-development: Engineered coin emission and allocations to Miners,
+Masternodes, and Treasury along with other fundamental designs.
+●    Development began July 2017.
+Q4 2017
+●    Implementing EnergiHash (ASIC-resistant hashing algorithm).
+●    Implementing Treasury and Backbone systems.
+Q1 2018
+2018
+●    Testnet and Block Explorer went live.
+●    Optimized and improved technical and economic aspects of Energi.
+Q2 2018
+●    Implementing Masternodes and Governance systems..
+●    Energi 1.0 Mainnet launched on April 14, 2018!
+Q3 2018
+●    Masternodes live! Masternode rewards began Sept 18th, approximately 5
+months after launch to ensure fair distribution and give community
+members plenty of time to accumulate.
+●    Earndrop round 1 completed. Over 1 million NRG distributed, achieved net
+social media following of over 70,000!
+19
+
+
+
+
+Q4 2018
+2018
+●    Optimizing GPU miner and mining pool software.
+●    Earndrop rounds 2 and 3 kicked off.
+Q1 2019
+2019
+●    Energi 2.0 - Upgrade to Proof of Stake.
+●    Large scale marketing campaigns to bring awareness about
+Energi and build the community.
+Q2 2019
+●    Core wallet upgrade and re-design with new aesthetic UI.
+●    Integrating with major exchanges and multi-coin wallets.
+●    Earndrop round 4 begins (after rounds 2 and 3 completed and distributed).
+Q3 2019
+●    Energi 3.0 with Ethereum-compatible smart contracts, incorporating our
+Treasury, Masternodes, and Governance systems.
+Q4 2019
+●    Energi Mobile Wallet - As easy to use as Venmo and able to sync with phone
+contacts. One-click conversion between Energi and Energi Dollar
+(a stablecoin built in Energi like Maker’s DAI, pegged to the USD).
+Seamless experience.
+●    Begin on-boarding blockchain projects and dApps onto the Energi platform
+incentivized by our Incubator Program, Business Development Support, and
+User Protections (all services funded by the Energi Treasury)
+Q1 2020
+2020
+●    Acceptance as a payment method for high-demand merchants, and
+campaigns to build merchant acceptance worldwide.
+AND BEYOND
+In the coming years, Energi seeks to retain thousands of full-time contributors and
+functioning as a powerful global organization unlike anything seen in the
+20
+cryptocurrency space. Energi will continue expanding marketing efforts,
+development, and ease of use, to rapidly increase demand and adoption.
+
+
+
+
+THE LEADERSHIP TEAM
+TOMMY WORLD POWER                 RYAN LUCCHESE                   DAVID DOSS
+CEO & CHAIRMAN                    PRESIDENT                       VP OF MARKETING
+Respected thought leader and      Oversees all day-to-day         Previously VP Marketing Citi
+educator in blockchain &          operations and heads the        Fintech. Full-stack growth &
+cryptocurrency community.         development team.               digital marketing professional
+Founder of the Energi vision.     People-first approach to        with paid, earned, and owned
+Builds teams of high quality      technology whilst leading  by   media.
+developers.                       example.
+GREG BEUCHLER                     CAROLYN SEET
+Energi has over 20 team
+VP OF RECRUITMENT                 VP OF OPERATIONS
+members and seeks to expand
+Over 30 years of experience       Over 17 years of global
+aggressively as Energi’s
+scaling recognized tech           investment banking
+Treasury funding allows. Past
+companies.                        experience.
+team experience includes
+Builds out teams for              Highly competent, versatile,
+Credit Suisse, Citibank, Intel,
+companies utilising emerging      finance professional [ACCA
+Deutsche Bank, Accenture,
+technology.                       qualified].
+Saks Fifth Avenue, and RBS.
+21
+
+
+
+
+THE ADVISORS
+BEN COLEMAN                       CLIFF DE BEAR                    TIM MAK
+TOKENOMICS +                      SALES + FINANCE                  PARTNERSHIPS +
+                                  Cliff has a background in
+FINANCE                                                            BUSINESS
+                                  strategy development,
+Ben has 6 years experience in
+                                                                   DEVELOPMENT
+                                  technical sales and is highly
+Corporate Banking and has
+                                                                   Tim’s background is in Finance
+                                  experienced in formulating
+built a successful tokenomic
+                                                                   & IT within the banking sector.
+                                  business development plans to
+system from the ground up.
+                                                                   He now provides advice and
+                                  ensure delivery on long-term
+Ben also runs operations for a
+                                                                   strategic guidance to a
+                                  vision.
+media startup out of L.A.
+number of Equity & Security
+token offerings.
+MIKE CARPER
+Energi is always looking for
+MASTERNODES                       exceptionally talented
+Mike is actively involved with    individuals to add to our team
+multiple Masternode coin          or advisor panel. To learn
+communities. He identifies        more, please view our hiring
+usability issues and help audit   policies.
+and improve setup guides.         energi.world/join-our-team/
+22
+
+
+
+
+APPENDIX
+A Treasury System for Cryptocurrencies: Enabling Better Collaborative Intelligence
+A technically complicated article about voting systems and algorithms within treasury
+systems, may be good as a reference and/or further reading.
+https://eprint.iacr.org/2018/435.pdf
+Bitcoin Whitepaper: https://bitcoin.org/bitcoin.pdf
+Dash Whitepaper: https://github.com/dashpay/dash/wiki/Whitepaper
+REFERENCES
+¹https://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html
+²https://coinsavage.com/content/2018/03/state-cryptocurrency-market/
+³https://www.accaglobal.com/uk/en/student/exam-support-resources/fundamentals-exams-study-resou
+rces/f7/technical-articles/iasb-conceptual-framework-financial-reporting.html
+⁴https://www.livecoinwatch.com/price/Energi-NRG
+5https://www.economist.com/the-economist-explains/2018/07/09/why-bitcoin-uses-so-much-energy
+DISCLAIMER
+To the maximum extent permitted by applicable laws, regulations and rules, Energi entrepreneurs, team
+members, etc. are not liable for any indirect, incidental or consequential damages whatsoever related to
+Energi. This document contains information from public market research reports, information on publicly
+available technical publications, research within the Energi project, etc. While this information is generally
+considered reliable, it is not intended to be a complete assurance of the accuracy or reliability of the
+information. No information contained in this document should be considered business, legal or financial
+advice on Energi. All information contained in Energi's homepage, White Paper, and other documents is
+provided as a best practice and is not binding. This document contains information in regards to R&D and
+business planning for Energi. Energi does not assume any liability for the following released information,
+for any doubts you should get legal, financial, and tax related experts' advice. Statements made in this
+White Paper are, except where otherwise stated, subject to changes.
+23
+
+
+
+
+F
+
+
+
+
+

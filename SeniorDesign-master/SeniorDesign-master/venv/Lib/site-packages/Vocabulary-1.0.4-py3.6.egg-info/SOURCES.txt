@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+Vocabulary.egg-info/PKG-INFO
+Vocabulary.egg-info/SOURCES.txt
+Vocabulary.egg-info/dependency_links.txt
+Vocabulary.egg-info/requires.txt
+Vocabulary.egg-info/top_level.txt
+tests/__init__.py
+tests/tests.py
+vocabulary/__init__.py
+vocabulary/responselib.py
+vocabulary/version.py
+vocabulary/vocabulary.py

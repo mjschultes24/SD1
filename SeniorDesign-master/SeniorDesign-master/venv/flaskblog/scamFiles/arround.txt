@@ -1,0 +1,1692 @@
+﻿WHITEPAPER
+Universal Decentralized
+Augmented Reality Platform
+2018
+v. 2018.08.10
+
+
+
+
+Abstract                                                                                             .3
+Augmented reality — the opportunity . . .                                                            .5
+Augmented Reality & the Blockchain . . .                                                             .9
+Existing Problems & Proposed Solutions . . .                                                         11
+The public is hungry to create and share AR experiences, but has few opportunities to find quality
+content  . . .                                                                                       12
+Offline retailers have been left behind in the data boom . . .                                       13
+The mobile advertising channel is saturated . . .                                                    14
+Developers are searching for a ready-made market for their AR creations . . .                        15
+Developing the next generation AR Backbone . . .                                                     15
+The ARROUND Platform — Integrated Augmented Reality Infrastructure Based
+on Blockchain . . .                                                                                  .17
+Overall System Architecture  . . .                                                                   19
+AR AdNet . . .                                                                                       21
+AR Map  . . .                                                                                        23
+Advertising Use cases . . .                                                                          24
+AR Store  . . .                                                                                      26
+Established Partner Base  . . .                                                                      27
+ARROUND Blockchain Features . . .                                                                    32
+The AR landscape  . . .                                                                              34
+Competitive Landscape . . .                                                                          36
+Pre-sale & Token Sale terms & conditions . . .                                                       38
+The Team  . . .                                                                                      42
+Project Roadmap . . .                                                                                46
+Legal Information  . . .                                                                             49
+Disclaimer .  .  .                                                                                   56
+
+
+
+
+ABSTRACT
+Page 5
+Augmented Reality — The Opportunity
+3
+
+
+
+
+ARROUND is a decentralized augmented reality
+(AR) platform with a mission to give anyone
+the ability to experience the world in AR,
+and provide a place for developers to realize
+the potential of their applications .
+ARROUND uses blockchain and augmented reality
+to build an ecosystem consisting of four integrated
+elements: a disruptive universal advertising network,
+an augmented reality marketplace, a social platform,
+and the next generation AR map that will create a backbone
+for AR projects around the world .
+The platform will release its own token, the ARR, to support
+all transactions within the platform, with blockchain
+warranting the intellectual property and privacy rights
+as well as the commercial interests of all the
+involved parties.
+4
+
+
+
+
+Abstract
+Page 3
+AUGMENTED
+REALITY —
+THE OPPORTUNITY
+Page 9
+Augmented Reality & The Blockchain
+5
+
+
+
+
+Augmented reality (AR) is the integration of digital information with the user’s environment in real
+time. Unlike virtual reality (VR), which creates a totally artificial environment, augmented reality uses
+the existing environment and overlays new information on top of it.
+While the technology to create an AR experience has been around for a long time, with the term first
+being coined by Boeing researcher Thomas Caudellin in 1990, there have been many false starts
+on the path to commercializing the technology. It is not until now, with the release of ARKit for iOS
+and ARCore for Android, that the technology to reproduce an AR experience for consumers, initially via
+smartphones, has been made possible.
+“So far, we can see only the tip of the iceberg . In the future, augmented
+reality will forever change the way we use technology”
+— Tim Cook, CEO of Apple
+Unlike AR, virtual reality (VR) completely replaces the vision of the real world. In order to enter virtual
+reality, the user needs to wear a helmet and stay in a special room, while augmented reality is created
+in the real world and complements it. In this sense, augmented reality is a mobile technology that can
+be freely used to enhance existing real world activities, wherever they are.
+Augmented Reality Versus Virtual Reality Market Size
+160
+140
+120
+100
+80
+60
+40
+20
+0
+2016F                                                                                                         2017F   2018F   2019F             2020F
+                                                                                                                              Augment Reality   Virtual Reality
+Forecasts put the burgeoning AR market at $120 billion by 2020, growing to $198 billion by 2025,
+showing a Combined Annual growth Rate of 65.1%. And while hardware sales are expected to make
+up a large proportion of this revenue, AR data, AR commerce and AR advertising represent significant
+chunks of this overall spend. The unprecedented growth and burgeoning popularity of augmented
+reality make it one of the most exciting technologies in the world.
+According to the analysts at Juniper Research and Goldman Sachs, the augmented reality market will
+grow by 20-100 times in the next 5 years.
+6
+
+
+
+
+The market capitalization of some newly established companies in the field of AR/VR are already
+in the hundreds of millions of dollars. Take Magic Leap, for example, the current market leader with
+a capitalization of $6 billion.
+Whilst Virtual Reality has garnered most of the headlines in recent years, the mobile nature
+of AR means that it stands head and shoulders above VR in terms of forecasted mainstream adoption.
+Augmented/Virtual reality Revenue Share 2020 Forecast
+AR games   AR theme park
+AR consumer
+AR adspend
+Enterprise AR
+AR hardware
+AR film/TV
+Augmented
+Reality
+$120B
+AR voice
+VR niche markets
+VR theme park
+AR data
+VR games
+VR film
+aCommerce
+VR hardware
+ARROUND fully recognizes the opportunities that this market offers and intends to utilize
+the powerful combination of blockchain and augmented reality to:
+•  Offer smartphone users (and later on users of smart glasses) a way to quickly create, share
+and enjoy augmented reality experiences via a privacy focused social network.
+•  Provide offline retailers, brands and organizations with a powerful new way to engage consumers
+utilizing a variety of immersive and engaging advertising solutions based on augmented reality
+technology .
+•  Create a marketplace for AR developers globally and other entities to engage with the public
+and monetize their applications, and provide them with a test environment via a robust SDK
+and API in order to enable this.
+•  Develop a crowd-sourced 3D spatial map of the world to provide an information backbone
+to power the next generation of AR applications and services that require pinpoint accuracy
+in a real world environment.
+7
+
+
+
+
+Generation Z — The New Breed of AR Users
+Augmented reality will impact the majority of the world’s population and become an integral part
+of our lives. Scientists at the University of Liverpool claim the whole generation born after 1995 -
+Generation Z - will become the first augmented reality generation, for whom AR technology will be
+as commonplace as smartphones and the Internet are for us today.
+“Our fascination with augmented reality is just beginning . What we see
+now is just a tiny part of what it will bring and what it can do”
+— Dany Lopez, СOO of Blippar
+Introducing Generation Z
+This new generation of technology adopters will be the first to grow up with augmented reality
+as their standard means of interfacing with the real world.
+8
+
+
+
+
+Augmented Reality — The Opportunity
+Page 5
+AUGMENTED
+REALITY &
+THE BLOCKCHAIN
+Page 11
+Existing Problems & Proposed Solutions
+9
+
+
+
+
+ARROUND is a unique decentralized economic and technological infrastructure supporting
+the augmented reality ecosystem . Throughout each aspect of the platform, blockchain technology
+is used in order to facilitate the development and sales of goods, services, information and advertising
+using the principles of a decentralized economy. ARROUND will have the ability to address multiple
+markets through the application of a single technological platform.
+Each element of the ARROUND economy relies on blockchain to ensure frictionless interaction
+between each party, allowing the system as a whole to maximize its potential to become
+a transparent and trusted resource within the global AR ecosystem.
+Blockchain is a digital ledger in which transactions are stored and validated by the participants
+on the network, resulting in a unique transparent and verifiable record without the need for a central
+authority. Through the use of EC20 smart contracts, ARROUND can solve a number of specific issues
+associated with social networks, advertising networks, marketplaces and crowd-sourced data.
+Social Responsibility                                                                                      Generating a 3D Map
+By enshrining our users’ rights in blockchain, we                                                          of the World
+ensure that their privacy and personal data remains
+                                                                                                           Blockchain is an essential and indivisible part
+firmly in their hands. While display and contextual
+                                                                                                           of the overall system, allowing us to reward users,
+advertising will be served to all participants
+                                                                                                           and record their contribution to the creation of a 3D
+on the platform, users will be protected from 3rd
+                                                                                                           spatial map that will power the coming generation
+party trackers and targeted advertising will be
+                                                                                                           of AR services in addition to countless other
+permission-based, secured by a smart contract,
+                                                                                                           services that require accurate spatial positioning
+not only protecting the individual user but also
+                                                                                                           to operate .
+allowing them to be rewarded by the advertiser
+in tokens in exchange for any data they choose                                                             Through the use of blockchain ARROUND is able
+to provide.                                                                                                to implement a number of key features that would
+be unreasonably complex and costly in a traditional
+environment. The implementation of our own token,
+the ARR is a fundamental feature that massively
+Marketing & Advertising
+accelerates our ability to attract users, external
+Advertisers, retailers and organizations will also                                                         partners and build a global platform.
+benefit from the transparency that blockchain
+provides. Objects and AR experiences can be
+uploaded directly to the AR Social universe
+Developer Ecosystem
+or to the AR Store, where each view, interaction
+or purchase will be tracked by blockchain, providing                                                       AR developers, both hardware and software, will
+a guarantee of efficiency and transparency. All                                                            benefit from the transparency that blockchain
+advertising and promotional content served                                                                 provides and the flexibility that the ARR token
+on the platform will be tracked and stored via                                                             offers . All intellectual property will be written into
+blockchain, with no middleman there is less room                                                           the blockchain, and all purchases and short-term
+for error and fewer overheads in the provisioning                                                          leases of intellectual property on the platform
+process .                                                                                                  will be guaranteed via smart contracts,
+ensuring transparency in pricing, sales volumes
+and effectiveness.
+10
+
+
+
+
+Augmented Reality & The Blockchain
+Page 9
+EXISTING
+PROBLEMS
+& PROPOSED
+SOLUTIONS
+Page 17
+The ARROUND Platform — Integrated Augmented Reality
+Infrastructure Based on Blockchain
+11
+
+
+
+
+The public is hungry to create and share
+AR experiences, but has few opportunities
+to find quality content
+The runaway success of projects such as Pokémon Go underscores the public’s desire to engage with
+quality AR content as well as the willingness of business to adopt AR as a new kind of marketing
+platform. However, this demand remains pent up, as the public has little opportunity to access quality
+AR-focused content, let alone create their own AR experiences for their friends and peers.
+To address this, we will launch AR Social, an augmented reality focused social network that puts users
+in control of their AR experience. Users will have the ability to access AR applications, view, share
+and even create their own AR content using their smartphone. The platform uses GPS and spatial
+recognition technologies to provide a first class augmented reality experience, providing a unique way
+to view the world around us.
+A BRAND NEW SOCIAL EXPERIENCE
+IN AUGMENTED REALITY .
+Phase I of the platform (an MVP that will be available on both Android and iOS devices) will
+provide users with the ability to view, interact with and share objects created by ARROUND and our
+commercial partners. Later, we will develop the platform to provide additional functionality that will
+give users the opportunity to play games, create and share content (videos, photos and messages) all
+anchored to geo-spatial coordinates, allowing our users to fill the world with their own AR content
+and content provided by commercial partners and 3rd party developers. The flexible structure
+of the network means that it can be used to keep in touch with existing friends as well as build
+a new circle of like-minded people. Users can create reviews, advertise their events, check in to places
+and send messages, share their thoughts and feelings, sell items, go on virtual tours…in fact
+the applications are only limited by the imagination of the users.
+ARROUND will provide the infrastructure and offer motivation in the form of bounty programs
+to rapidly grow the user base of the network, as well as implement cutting edge viral marketing
+techniques to develop the reach of our network, in order to make it attractive, functional and the first
+port of call for the public to join the augmented reality revolution.
+Privacy on the network is guaranteed by a social contract written to blockchain, which secures
+the users control of their identity and warrants that no 3rd party trackers are employed without their
+consent. Any socio-demographic targeting is specifically undertaken with the consent of the user,
+and even so, they retain the right to their anonymity on the platform. We believe that the use
+of blockchain to protect the data of each and every user of our platform is an undeniable right,
+and a departure from the free and easy approach to data security displayed by the current generation
+of social networks.
+12
+
+
+
+
+Offline retailers have been left behind
+in the data boom
+Since the advent of the Internet, digital and mobile marketing have been the driving force
+of e-commerce, and there is now an abundance of technology available for even the smallest online
+retailer to take advantage of. However, in the race to provide ever more effective online advertising
+and marketing methods, offline retailers have been largely ignored, forced either into a hybrid
+model of offline/online sales or to offer untargeted discounts and offers via 3rd party sites online
+in the hope that the customer will remember to visit their shops the next time they are on the high
+street or in a shopping mall.
+ARROUND’S DISRUPTIVE MOBILE
+MARKETING SOLUTION IS THE WORLD’S
+FIRST DECENTRALIZED ADVERTISING
+NETWORK BASED IN AUGMENTED REALITY .
+ARROUND is fully adopting the emerging technology of augmented reality to provide a decentralized
+advertising solution for offline retailers that allows them to engage potential customers
+in the process of shopping, through geo- and socio-targeted push notifications and in-store
+augmented reality shopping assistance which can even generate discounts for clients while they are
+selecting products to buy .
+Through the activation of the AR Camera within the ARROUND application, consumers will be able
+to point at specific products or objects in order to activate an AR experience. The AR Camera can be
+trained to learn visual data in the form of packaging and logos so that when the camera recognizes
+an item, it can provide additional information about it.
+ARROUND can also recognize markers in the form of AR Codes (an analogue of QR codes)
+to trigger an AR experience for the user. While QR codes provide a uniform experience for all users,
+AR codes on ARROUND can offer a targeted experience for each individual user, based on their
+socio-demographic data and the amount of personal information that they have chosen to share
+on the platform. In this way, ARROUND gives offline retailers access to the same powerful tools that
+online retailers have enjoyed for years. ARROUND will be an aggregator of AR experiences, so that
+retailers no longer have to invest in their own application in order to provide an enhanced experience
+for their customers and supporters.
+In addition to tapping this vast reserve of unrealized advertising, ARROUND also provides a unique
+platform for its users to communicate with each, create content and experience the world around
+them through the lens of augmented reality. Both the advertisers and users are supported by 3rd
+party developers who can leverage the powerful SDK and API to create new features, designs
+and experiences for everyone on the platform via a marketplace.
+13
+
+
+
+
+The mobile advertising channel is saturated
+Mobile advertising has rapidly become the most popular channel for digital advertising budgets.
+Digital mobile spending has now surpassed TV ad spending, making it the single largest destination
+for adverting dollars in the world, and the trend is expected to continue.
+But with the high level of competition and huge supply of commercial offerings, users have become
+weary of traditional advertising leading to the general consensus that new ideas are needed
+to engage the public effectively.
+AR provides a new and authentic way of engaging with people and spreading campaign messages,
+be they commercial or social. Campaign images, animations and information are now free to leave
+the confined surroundings of an Internet page, and literally take form in the real world. Through
+the freely available technology now embedded in the vast majority of the world’s smartphones,
+augmented reality represents the next huge opportunity for marketing and campaign managers.
+Key figures:
+71%                                                                                                     $215 bln
+The majority of overall internet                                                                        The size of the global mobile advertising
+consumption that will be mobile in 2017.                                                                market by 2021.
+(source: Zenith Media)                                                                                  (source: Magna Global)
+ARROUND offers a combination of spatial recognition, AR codes and object recognition through
+the AR Camera, coupled with the plug-and-play functionality that will be offered in the AR Store,
+which will allow brands to quickly and easily bring packaging and marketing material to life, as well
+as publish their campaigns (both static and animated) anywhere in the world. Because of ARROUND’s
+social networking features, interesting and engaging messages will quickly travel throughout
+the network, and across other large social media platforms as users begin to share them.
+Integrating our AR AdNet onto the ARROUND platform means that all spending can be tracked,
+overcoming a major hurdle for large advertisers.
+US Total Media Ad Spending Share, by Media 2018 & 2022 (% of total)
+47,9
+2018                                                                                                    2022
+33,9
+31,6
+                                                                                                                                                    24,8
+14,6                                                                                                                                                14,25
+9,1
+6,5
+                                                                                                                                                    4,5     5,3
+                                                                                                        3,6
+                                                                                                                                                            3,0
+                                                                                                        0,7                                                 0,3
+14
+
+
+
+
+Developers are searching for a ready-made
+market for their AR creations
+The advent of PC and platform gaming has created an industry dedicated to producing 3D animated
+objects, and a legion of talented developers who are ready to produce and adapt existing content
+for AR. Apart from market fragmentation, one of the leading reasons preventing this industry from
+accelerating is the lack of a secure marketplace for these developers to securely sell or lease their
+content .
+Through the introduction of AR Store, ARROUND will provide a trusted market place, governed
+by blockchain, where developers can register and publish their content, and where the platform’s
+users can find an array of interesting and engaging content to enhance their AR experience.
+AR STORE IS THE KEY LINK
+BETWEEN THE USERS OF AR SOCIAL
+AND THE CLIENTS OF AR ADNET .
+Through the store, users will be able to access unique content to place in the real world, purchase
+rights for advertising real estate on the ARROUND platform that they can use (and even sub-let
+to other users or commercial parties), purchase or access additional AR applications such as virtual
+guides and games.
+Developers will be able to use the ARROUND test environment to ensure functionality
+and compatibility, therefore minimizing costs and maximizing their profitability.
+As well as creating experiences for users of the social network, the developers will be in demand from
+the clients of AR AdNet, helping to bring the great ideas of our clients to life through building best
+in class AR experiences for them.
+Developing the next generation
+AR Backbone
+Since the introduction of motion tracking technology, AR devices are already able to understand
+a user’s location and orientation when moving in a 3D plane. Area Learning algorithms use visual cues,
+allowing the device to recognize the location and correct its movement. Depth perception sensors
+can inform the user about the forms of the surrounding world and build virtual interaction processes
+based on a cloud of points .
+However, the creation of an immersive and captivating augmented reality experience depends
+upon the quality of data available for its exposition. Most consumer grade augmented reality
+apps rely on Simultaneous Localization and Mapping (SLAM) Technology, which generates
+a map of the environment in real time, allowing augmented reality objects to be placed around
+the environment. However, crucial to providing a uniform experience for other users within the same
+15
+
+
+
+
+environment is the ability to have an accurate map of the location with all the data points already
+stored in a database. Sometimes called the AR Cloud, this dataset is at the core of the augmented
+reality experience .
+Objects can be placed in augmented reality via a number of methods, typically GPS data is used
+initially to determine a geographic location, with SLAM providing an additional dater layer to more
+accurately place the augmented reality object. Development tools such as Google’s ARCore and Apple’s
+ARKit provide a level of sophistication that works well for single user AR experiences, but falls short
+for multi-user experiences.
+Using crowd-sourcing, motivated by bounties for mapping popular locations, ARROUND will develop
+the next generation spatial map through integrating SLAM data into a 3D spatial map that allows
+for the accurate placement of AR objects and data not only outdoors, but, importantly, indoors too.
+This will allow for a beacon-free augmented reality experience in any location, be it a restaurant, club,
+shopping mall, retail outlet, cinema, museum, university lecture hall, hotel or even around the home -
+in fact anywhere where we have a set of points in order to anchor the augmented reality experience.
+16
+
+
+
+
+Existing Problems & Proposed Solutions
+Page 11
+THE ARROUND
+PLATFORM —
+INTEGRATED
+AUGMENTED
+REALITY
+INFRASTRUCTURE
+BASED ON
+BLOCKCHAIN
+Page 27
+Established Partner Base
+17
+
+
+
+
+3D spatial maps represent an important new type of digital asset that have an array
+of uses within the realm of augmented reality, as well as applications in industries such
+as robotics, drone delivery and autonomous vehicles .
+The ability to overlay any existing SLAM data, or equivalent, provided by the current set of SDKs
+provided by Apple and Google, will result in our ability to provide pinpoint accuracy in presenting
+an augmented reality experience exactly where our users require. This will support our AR Advertising
+network, through being able to offer in-store navigation to a specific product within a shop. Once
+the product is located via AR Camera recognition, then a new series of augmented reality functions
+can be triggered, such as a display of additional information about the product depending upon
+the nature of the object and the person viewing it. For example, if the product is a health food,
+advertisers can present information about its origin (where it was produced, the ecology and so on),
+the production process, the health benefits, and, of course, offer a discount to users in the form of ARR
+tokens or a straight percentage from the listed price upon checkout.
+In addition to enabling the advanced AR experience on ARROUND, the AR Map data that we collect
+will also be analyzed to determine prime advertising locations, in order to develop optimum
+marketing and advertising strategies by time and location correlated to user activity. An important
+feature of this concept is that it integrates into our AR AdNet, therefore allowing ARROUND
+to integrate our advertising network onto any digital platform able to offer an AR experience, adding
+even more value to the platform and increasing demand for the ARR token.
+Process for Building and Using the AR Map
+1
+USER 1                                                                                                      USER 2                 USER 3
+Maps                                                                                                        Verifies data and      Verifies data from User 2
+location X                                                                                                  adds additional data   and adds additional data
+3                                                                                                           2
+                                                                                                            SERVER                 MAP
+OWNERSHIP                                                                                                   Processes              Data points
+Written to Blockchain                                                                                       co-ordinates           captured
+4
+USERS
+LOCATION
+Can now enjoy shared
+ANCHORS                                                                                                     AR-experience across
+Created from map data                                                                                       iOS and Android
+18
+
+
+
+
+A further feature of AR Map will be its portability. ARROUND will have the option to lease map
+data to 3rd parties, for example other AR applications that require the same high level of accuracy
+and access to spatial marketing data in order to monetize their property. In this way, ARROUND
+can provide not only the map data itself, but also provide a commercial backbone for the booming
+augmented reality market.
+Through the development and commercial exploitation of AR Map, we believe that this data can
+become a significant source of demand for the ARR token.
+COMPANIES SUCH AS FOURSQUARE
+DERIVE APPROXIMATELY 40% OF THEIR
+REVENUE FROM LEASING DATA .
+Source: https://www.investopedia.com/articles/markets/021516/inside-look-foursquares-business-model.asp
+Users who opt-in to take part in mapping the world will receive a bounty in the form of tokens
+for participation, and also own a part of the map to which they helped contribute, warranted
+by blockchain. In return, a portion of the ARR received from usage of the map will be paid
+to the owner in accordance with their rights, as secured by blockchain. Since ARROUND is primarily
+concerned with interior maps in highly frequented locations, we will continually sample data in order
+to keep the AR Map fresh and accurate.
+Overall System Architecture
+The ARROUND platform comprises four key elements that are all connected via blockchain, which
+combine to create a complete AR ecosystem that will allow the project to thrive.
+AR MAPS                                                                                                   AR STORE
+Data Analytics                                                                                            Development suite
+Slam Spatial Mapping                                                                                      3rd Party Software
+Anchor Point Navigation                                                                                   3rd Party Hardware
+                                                                                                          ARROUND ARR
+                                                                                                          Blockchain Core
+AR ADNET                                                                                                  AR SOCIAL
+AD Portal                                                                                                 3D Animated Objects
+Object Recognition                                                                                        Viral Sharing
+In-store Navigation                                                                                       ARR Wallet
+19
+
+
+
+
+AR Social
+This is ARROUND’s social network, which will be available for both Android and iOS and available
+for free in Google Play and Apple’s App Store. The core concept of the network is to bring augmented
+reality into a social setting, allowing every user to create and share AR content with their friends,
+while making new friends in the process.
+Users will be able to create Rounds, AR objects that can contain a variety of media types, and place
+them in physical locations. Other users can interact with these Rounds using typical social actions,
+such a liking, sharing and responding to them. AR Social integrates into the rest of the social
+networking space via open APIs, meaning that content on ARROUND can be shared to YouTube,
+Facebook, Instagram, WhatsApp as well as by email.
+A selection of AR objects will be offered to users on the ARROUND platform by default. Customization
+and additional AR objects will be provided by developers and by commercial partners. These
+additional AR experiences will be accessible through the AR Store, which will be a key feature
+of the AR Social application.
+20
+
+
+
+
+Users will be provided with an instant messenger in order to contact each other, and importantly, all
+users will have a crypto wallet built into their profile to store their ARR and convert fiat and other
+crypto currency into ARR. It is envisaged at this stage that ARROUND will adopt an existing solution
+provided by a wallet provider rather than develop our own solution.
+User Rounds will follow the example set by Snap Chat, in that they vanish after a certain time
+in order to keep the content on the network fresh and relevant. Algorithms built into the system will
+determine the time that each round stays alive based on the volume of activity in a specific location.
+The more activity in a specific location, the faster the rounds will vanish. Users will have the ability
+to promote their Rounds to others in order to gain views, and to extend the time their Rounds are
+displayed. These basic features will be paid for in ARR tokens.
+As the network grows, we will introduce further features such as a dating along with quests, treasure
+hunts and games. Moderation of the network will be undertaken in the first instance via automated
+computer processing, with post-moderation undertaken reactively to user requests.
+As augmented reality is inherently a geo-location based technology, our focus will be on connecting
+communities of interest by location, beginning in the world’s capitals.
+AR AdNet
+AR AdNet is another of the four key elements of the universal augmented reality ecosystem being
+created by ARROUND. The idea behind the service is to provide an outlet for brands, organizations
+and offline retail stores to engage in advertising, marketing and information campaigns in augmented
+reality .
+Each time we click a link on our mobile browser, our data is sent half way round the world, virtually
+at the speed of light so that by the time the page loads, there is a relevant, contextual, targeted
+advertisement waiting to greet us. Whether we like this or not, it is one of the most efficient
+and profitable business models in history.
+But ironically, the closer we actually are to the physical point of sale in the real world, the less mobile
+advertising is employed, with retail outlets forced to rely on ideas and methods that they have used
+for centuries-shop window displays and static billboards. Even more concerning, offline retail still
+makes up the majority of all our purchases by a considerable margin, with almost 80% of all sales still
+made via traditional offline shopping channels.
+ARROUND fixes this broken and asymmetric model of user engagement, by offering a disruptive
+advertising solution that unleashes the power of contextual advertising to high street retailers using
+augmented reality (AR) accessible through smartphones or AR glasses, based on a platform powered
+by blockchain.
+Through the application of augmented reality and blockchain, ARROUND’s powerful advertising
+solution brings offline retailers firmly into the 21st century, enabling them to actively target
+new clients based on their geo-location, offer unique discounts and offers based on the client’s
+socio-demographic characteristics and offer in store shopping assistance - all in a single app.
+21
+
+
+
+
+ARROUND’s augmented reality Ad Net provides a new avenue for offline retailers to define their
+customer’s in-store experience, and allows them to make data-driven decisions during the shopping
+process .
+All commercial parties can access the ARROUND ecosystem via a dedicated Ad Portal. This
+portal serves an important function in terms of allowing anyone to build and rollout advertising
+or marketing campaigns from a single location.
+The portal will provide the following functionality:
+•  Registration as an advertiser. Advertiser can be either an individual or a legal entity
+•  Advertiser’s account
+•  Advertising round creation
+•  Advertising campaign management
+•  Reports and analytics
+• Tariff plan selection and purchase
+•  Advertising round creator toolkit
+•  Client account
+• Tools to top-up the user’s balance
+•  Advertising campaign analytics
+ARROUND can offer in-store navigation and targeted discounts for consumers
+2
+
+
+
+
+Reports from the web portal will be generated based on user events written to the blockchain,
+to provide a unique and transparent record of all advertising spend and subsequent ROI.
+The portal will be available for clients and agencies to manage individual as well as complex
+multi-site advertising campaigns.
+AR Ad Net also links directly to the AR Map, as complex product navigation campaigns will rely
+on a detailed map of the environment in which they will take place. The map data will be provided
+users from the social network, incentivized by crypto-rewards.
+Advertising inventory is stored on the blockchain, to avoid double booking, to ensure transparency
+in results and therefore provide actionable recommendations that can be trusted.
+Third party developers are able to offer advertisers and users a host of services, enhanced features
+and designs on the ARROUND platform. All purchases or leases of intellectual property created
+by developers are governed by smart contracts, thus extending the level of trust that all parties have
+in the platform.
+PRINCIPLES OF INTERACTION
+•  Pointing mobile device camera at a round for 1 second is equal to 1 view
+•  When the user opens a round it will be equal to one click
+•  Following a link contained in a round is equal to an Action (CPA)
+The ARROUND platform will also hold promotions to encourage users to make purchases.
+AR Map
+The AR Map links directly to the social network and to the advertising solution. Users of AR Social
+can take part in a project to map their location simply by scanning the area around them with their
+smartphone camera. The requirement is only that they have a front facing camera in order to capture
+a set of data points that will be generated. The technology is similar in nature to 3D scanning, a field
+which already has a well-developed and widespread set of algorithms that can provide the accuracy
+required to delivery an immersive AR experience. The resulting data set is a 3D point cloud, tagged
+to a physical location determined by the GPS, and by additional information such as check-in status
+and locations known to us.
+2
+
+
+
+
+Advertising Use cases
+SOLUTION #1: PHARMACIES
+Problem description
+Typically retail stores try to arrange their window displays in order to attract customers and sell
+more products. This is a method that dates back to the 18th Century. However, there is an inherent
+disconnect in the fact that the user may be unable to easily locate the product once they are actually
+in the store and additionally the product being promoted may be of no interest to the individual
+consumer passing by the shop window. A further problem is that the user has to actually be physically
+looking into the shop window to view the promotion. Subsequently, the conversion rate of such
+merchandizing is usually quite low.
+Proposed solution
+ARROUND will allow retail business owners to integrate interactive advertising by means of AR codes
+and via actual product recognition an in-store location.
+AR codes
+An AR code is equivalent to a QR code. The retailer places a special branded AR code in their window
+display. The appearance of the AR code is a clue for the user to read it via the AR Camera on their
+ARROUND app. When the AR Camera recognizes the AR Code.
+The application will display unique content for each user depending on their socio-demographic data
+or search queries.
+For example, a young mother may see an ad for children’s vitamins or diapers (depending on the age
+of her kids), while a middle-aged man who recently searched online for how to get rid of a cold will
+see information about medicine to treat his cold products.
+The concept of permission-based targeting means the consumer will often be presented with more
+relevant options, helping to reduce the amount of time they spend shopping and therefore increase
+their available leisure time.
+Retailers will be able to use a virtual AR promoter and interact with customers inside the store
+by offering them products that match their user profile, as well as communicate with customers
+through AR to help them make a choice or ask them to leave feedback on social media.
+Through further integration of ARROUND, AR technologies such as the AR Map and object recognition
+features, with the combination of socio-demographic targeting and geo-location, the platform can
+even provide push notifications to users who are near a pharmacy, notifying them about special
+promotions that they may be interested in.
+If the user is interested in the promotion, they will be able to receive step-by-step navigation
+to the store and even navigation to the aisle and shelf where their desired product is located.
+The AR Camera within the ARROUND application can recognize the item on promotion and provide
+additional information in order to enhance the sales process, this includes the option of offering
+personalized discounts on related products in order to increase the overall transaction amount.
+24
+
+
+
+
+SOLUTION # 2: NAVIGATION INSIDE SHOPPING MALLS
+Problem description
+Most shopping malls set high prices for navigation, advertising and promotional work. To solve
+the problem of the lack of advertising space while maintaining the design of a shopping mall,
+navigation and advertising can be organized in augmented reality.
+Proposed solution
+To activate the ARROUND space of a shopping mall in the form of navigation and information signs
+or in the form of advertising and promo offers of tenants and brands according to each user profile
+and utilizing Big Data.
+A shopping mall interested in attracting potential customers can place ads in ARROUND over the mall
+and send push-notifications to everyone in the shopping mall or in the accessibility radius. It is also
+possible to organize/simulate advertising placement from tenants and major brands (for example,
+Coca-Cola, P&G, Unilever, L’Oreal). When approaching a shopping mall, the user will see ads
+and special offers which matches his or her own wants and needs.
+Inside a shopping mall, through the use of ARROUND’s 3D crowd-sourced map, it’s possible
+to organize navigation layers for product categories and for individual stores. Relevant offers
+and virtual promoters and assistants offering coupons and bonuses can be placed on the customer’s
+way around a shopping mall.
+A shopping mall can also organize quests for shopaholics on the ARROUND platform. For example,
+“chasing final discounts”, or “assign your own discount”, or “make 20 posts - get 20% off”.
+The 3D point data generated by an individual user is processed, where it is compared to data that
+ARROUND already has about the location. Area learning algorithms are applied to extract surface
+details, so that anchor points can be generated within the location without the need for special
+markers, and that these anchor points will be identical for all users, regardless of their position within
+the location and without having to set up a unique shared session with other users at the location.
+In order to motivate users to scan a location, ARROUND will set standard bounties at locations where
+map data is required. Users can collect these bounties by scanning the location. Bounties will be
+in the form of ARR tokens that will be paid into the system wallets of the ARROUND users. The size
+of the bounty will be determined algorithmically depending upon the importance of the location
+to the ARROUND platform. It is currently proposed to write the ownership of the AR Map into
+blockchain in order to further incentivize our userbase to build out the map at an accelerated pace.
+Such ownership would entail the ARROUND userbase owning a maximum of 40% of the overall map,
+with ARROUND owning the remaining 60%. Revenue from easing and commercial activities associated
+with the map would therefore be split with all owners of the map. IN this way, users who provide work
+more to create the map receive a larger share of any future profits from their efforts.
+While the standard tools provided by the Android and iOS AR development kits (ARCore and ARKit
+respectively) provide for real time area localization, the accuracy that they can deliver in terms
+of offering a shared AR experience can be improve upon. Through the creation of our own AR Map,
+ARROUND can add an additional layer of accuracy onto our AR experience to provide the accuracy
+to develop advanced social and commercial solutions that allow multiple users to be able to engage
+with AR objects that appear in the same fixed spatial position relative to each user.
+25
+
+
+
+
+In the first stage, we propose applying this technology to our AR AdNet system in shopping malls
+in order to enable step-by-step navigation to individual products located in retail stores that match
+our users’ preferences. We consider this a breakthrough advertising technology of considerable
+commercial interest to our existing partners, and also in high demand for future partners.
+We will also apply this technology to AR Social, so that users in public spaces, be it bars, clubs, schools
+or universities, can create AR objects (Rounds - messages, videos, images) tied to a fixed physical
+location that appear the same to all users who view them through ARROUND’s AR Camera. This will
+greatly improve the functionality of the existing AR experience, and will allow users to interact in new
+and exciting ways, creating the first truly interactive multi-user consumer AR environment.
+Through the development of our AR Map service, ARROUND will be well positioned to offer AR AdNet
+as a monetization source to other mobile applications, with a goal of becoming the leading
+augmented reality advertising network.
+AR Store
+The AR Store will allow users to conduct the sale and lease transactions of content and services
+offered on the platform. Content authors will set the prices for their products themselves. It can
+be free distribution, a freemium model or a one-time/regular payment. Also, there are options
+for auctions, crowdfunding campaigns and donations.
+Third party developers access the store via a development suite, allowing them to test not only
+software but also test how their hardware interfaces onto the network. Through a powerful SDK
+and API, ARROUND will be open to all parties who wish to develop the network.
+All transactions within the AR Store are priced in fiat, but are undertaken in ARR. When a developer
+creates an account in the AR Store, they will also be provided with a wallet in which to receive their
+tokens. Tokens can be freely transferable at an exchange after the Main Token Sale.
+The AR Store provides developers access to:
+•  SDK - a ready-made software solution that will accelerate the development of AR content.
+•  API - a set of ready-made parameters provided by the application to be implemented in external
+software products, which will allow third-party developers to integrate their applications into our
+system and monetize them.
+• The distributed storage where the platform’s content will be stored.
+•  Emulator - a section where developers can test their content for compatibility with various types
+of devices.
+26
+
+
+
+
+The ARROUND Platform — Integrated Augmented Reality
+Infrastructure Based on Blockchain
+Page 17
+ESTABLISHED
+PARTNER BASE
+Page 32
+ARROUND Blockchain Features
+27
+
+
+
+
+ARROUND’s unique augmented reality ecosystem has already attracted the attention of a diverse
+range of commercial partners, including a number of global brands. In the first case, these partners
+will allow ARROUND to commercialize its offering, allowing the company to fine tune its strategy
+while at the same time generating revenue.
+Prominent among our initial partner base is the pharmaceutical chain 36.6 (partly owned
+by Walgreens Boots Alliance), which operates over 2,000 physical locations and offers ARROUND
+the opportunity to implement its unique in-store location marketing solution.
+In addition to an established partner base, ARROUND has been engaged by companies including
+Coca-Cola, Scania and Unilever to deliver augmented reality campaigns.
+28
+
+
+
+
+Developing the ARROUND Ecosystem
+It is a priority for the project to grow as quickly as feasibly possible, engaging new users
+and commercial partners in the major capitals around the world in order to drive demand for our
+products and the ARR token.
+Using our unique competitive advantages, we aim to get a substantial share of the consumer
+and commercial augmented reality market within 2-3 years of the project launch.
+Our initial launch will take place in Russia, where our technology base is located. By 2021, we plan
+to expand the network and attract partners from Europe, Southeast Asia, and the countries of North
+America, as well as to increase the user base to 30-50 million people.
+To achieve this goal, we plan to fill the AR layer with quality content for users. We also have contacts
+with hardware manufacturers (AR glasses) and creative contractors.
+Token Model
+The fundamental principle of ARROUND is to provide anyone, whether a platform user
+or a commercial entity, with the ability to create, publish and distribute an AR experience, safe
+in the knowledge that all property and privacy rights as well as commercial interests of all parties are
+secured by smart contracts, and that friction free payments and the transparency of each exchange
+is also governed by these same contracts.
+To this end, ARROUND uses the ARR token as a unit of exchange within the platform.
+ARR tokens are used by the platform’s users to purchase or lease digital items or services from
+connected developers and by commercial parties in order to run advertising and marketing campaigns.
+Additionally, tokens can be used to motivate users to view advertising and marketing campaigns,
+plus provide an incentive for users to map their environment, therefore contributing to the creation
+of an augmented reality backbone network. Usage of the backbone can be provided to third parties
+through payment in ARR tokens. The ARR is the fundamental unit of exchange within the ARROUND
+platform, and all commercial activities, although they may be priced in fiat currency, will be conducted
+in ARR tokens.
+There will be a fixed amount of tokens released during the ICO phase of the project, dependent upon
+the amount of tokens purchased by contributors during the Pre-Sale, Private Sale and Main Token Sale.
+All unsold tokens will be burned, and no further tokens will be created.
+All transactions on the platform, whether concerning users, developers, advertisers or 3rd parties
+in any format are executed based on smart contracts and securely stored within the blockchain
+immutably. Each action is securely captured and transacted via a smart contract, stored anonymously
+in the decentralized blockchain, retrievable via a permissions based architecture that fully supports
+privacy management.
+29
+
+
+
+
+ARROUND Business Model
+The platform and ecosystem created by ARROUND will be based on the following business model:
+• The ARROUND platform will earn money by showing advertisements as well as through the lease
+of map data.
+•  All prices inside the system will be set in fiat currencies.
+•  Payments for ads and purchases inside the system will be made using ARR tokens. Tokens can be
+bought using both cryptocurrencies and fiat money.
+•  Benefits for users: discounts, bonuses and rewards for performing tasks from advertisers; token
+transfers between users .
+•  Income sources for service providers: payment for premium content by advertisers and users.
+•  Income of blockchain node holders and the owners of servers with content: a share of transaction
+fees paid automatically and automatic payments from the Network Development Fund (NDF). All
+these payments are expected to be made using smart contracts.
+ARR token circulation
+on the ARROUND platform
+Fiat money and cryptocurrency circulation on the ARROUND platform:
+•  Users and advertisers can buy ARR tokens for fiat money or cryptocurrency on exchanges and use
+them in the ARROUND platform
+•  All payments within the system will be made using ARR tokens which can be exchanged
+automatically
+The first users of the ARR platform will be token buyers at the ICO, after which any interested person
+can buy ARR tokens on an exchange to use the platform.
+The ARR token will be released on the basis of ERC20 smart contract on Ethereum blockchain and will
+also be traded on cryptocurrency exchanges. After a private ARROUND blockchain network is created,
+ARR tokens will be exchanged for tokens at 1/1 rate through payment channels on the private
+blockchain where the rights of authors and owners of digital assets will be registered and where
+an automatic system for making payments for the use of intellectual property will be implemented.
+30
+
+
+
+
+ARR token circulation on ARROUND platform
+START
+ARROUND user tops up their purse with fiat money, cryptocurrency or ARR tokens
+ARROUND Platform
+ARR tokens are transferred
+to the user’s wallet
+in the system
+User wallet (Account in ARR)
+When ordering an ARR                                                             Unused tokens are returned
+service, tokens are transferred                                                  to the user
+to the smart contract
+Smart contract
+1% of transaction                                                                Transfers ARR to pay
+amount                                                                           for actual services
+Non-commercial community                                                         Participants can
+                                                                                 Node holders get
+                                                                                 exchange ARR
+development fund (CDF)                                                           4% of transaction
+                                                                                 for fiat money
+                                                                                 volume, as well as to-
+                                                                                 or cryptocurrency
+1% of transaction volume is allocated                                            kens from NDF fund
+at the exchange
+to a special fund aimed at supporting
+community development.
+Tokens from CDF are to be used for support
+and development of ARROUND ecosystem.
+To reward advisers, new partners, etc.
+Wallet of service provider                                                       The owners of servers
+who is a platform participant                                                    of ARROUND system
+31
+
+
+
+
+Established Partner Base
+Page 27
+ARROUND
+BLOCKCHAIN
+FEATURES
+Page 34
+The AR Landscape
+32
+
+
+
+
+We simplify the processes of supporting and developing of our solution by decompressing
+the architecture of the final solution into two subsystems: the first one - for clearing token balances
+of system beneficiaries (public) and the second one - to store and process the system’s internal
+information (private). We are also able to apply several platforms to perform our tasks instead
+of having to use a single platform and trying to make such a platform universal for the entire solution.
+The first task can be solved by the implementation of side chain or virtual payment channels
+(Ethereum), the second - by using a private platform that corresponds to the network’s future needs. It
+can be either peer-to-peer development of a single platform regulated by the market (Ethereum fork)
+or development controlled by a dedicated group of internal regulators (Corda, Exonum).
+Blockchain and smart contracts:
+•  Will be the foundation of the payment system used on the platform and will protect the funds
+in users’ token wallets.
+•  Will ensure the intellectual rights of authors to content purchased and distributed on the platform.
+• The rights to the long-term lease of AR space will give tenants an opportunity to make money
+on advertising displays on their AR space.
+Crowd-sourced 3D Map data                                                                                  Positioning data/analytics
+AR Map
+Bounty/ownership
+                                                                                                                                        Ad inventory/
+Privacy                                                                                                    ERC20 Blockchain             analytics
+AR Social                                                                                                  Core                                         AR AdNet
+Intellectual rights
+AR Store
+Campaigns via AR store
+33
+
+
+
+
+ARROUND Blockchain Features
+Page 32
+THE AR
+LANDSCAPE
+Page 36
+Competitive Landscape
+34
+
+
+
+
+The AR landscape is growing rapidly. Although ARROUND is focused on the consumer end
+of the market, augmented reality has already been heavily adopted within the military, industrial
+and medical sectors, where heads up displays are already a reality.
+Within the US, the growth in AR usage is incredibly strong, which in turn is driving investment
+and development of the technology.
+US Augmented Reality Users, 2016-2019 (millions and % change)
+54, 4
+48, 1
+40, 0
+30, 7
+2016                                                                                                    2017   2018   2019
+Within the consumer sector, the main players are the hardware and software developers, existing
+applications that incorporate augmented reality and companies currently raising money to enter
+the augmented reality space.
+The most significant events in the AR industry over the last year are related to the introduction
+of ARKit and ARCore (by Apple and Google respectively), which promises to finally bring AR technology
+to the masses.
+There have been some notable deals recently, which provide an insight into the value of AR companies.
+35
+
+
+
+
+The AR Landscape
+Page 34
+COMPETITIVE
+LANDSCAPE
+Page 38
+Pre-sale & Token Sale Terms & Conditions
+36
+
+
+
+
+Our main competitors in the ICO space are projects planning to sell virtual land such as Arcona,
+Spheroid and Mark.Space. One common denominator across all projects is the desire to commercialize
+augmented reality through the introduction of advertising space and the subsequent lease and sale
+of AR inventory. However, rather than creating geographically fixed AR zones, or encourage an AR land
+grab, ARROUND is first and foremost building a platform for people, where it will be able to use
+the dynamics of viral marketing in order to attract a worldwide userbase and keep them engaged via
+the ability to create their own AR experiences, make new friends and keep in touch with their existing
+network. ARROUND will integrate with the world’s most popular social networks in order to drive user
+acquisition as well as through special promotions, features and urban quests.
+ARRROUND is focused on providing an augmented reality application that provides real world
+functionality, and rewards the user not only in tokens but also through enhancing their lives
+in measurable ways.
+Comparative analysis of ARROUND project and its main competitors
+Feature                                                                                                       ARROUND                                                      Arcona                   Spheroid Universe         TaDa Time
+Use of blockchain                                                                                        10   10                                                           10                       5                         0
+                                                                                                              ietary blockchain                                            Proprietary blockchain   A third-party block-
+                                                                                                                                                                                                    chain is used .Own
+                                                                                                                                                                                                    blockchain may be
+                                                                                                                                                                                                    developed
+Advertising part-                                                                                        10   10                                                           0                        0                         0
+ners                                                                                                          y chains, shopping
+                                                                                                              alls, fast-food)
+Business                                                                                                 10   10                                                           5                        0                         0
+                                                                                                              WWle-ll-thoughot-ouetceconoy            my                   8 AR parks created
+                                                                                                              anandubunsinesmsmdod                    el
+Monetization                                                                                             10   10                                                           7                        0                         0
+for users                                                                                                                                             stem to reward       Monetization of pur-
+                                                                                                              stakeholder implemented                                      chased sites promised,
+                                                                                                                                                                           but not guaranteed
+A wide range                                                                                             10   10                                                           2                        2                         2
+of goods and ser-                                                                                             e platform satisfies the de-                                 The project only sells   The object of sales       Messenger in AR
+vices                                                                                                         and in advertising market                                    sites of AR space .      is citizenship in Sphe-
+                                                                                                              ffering users a great variety                                These sites might be     roid state
+                                                                                                              of services                                                  in demand in adver-
+                                                                                                                                                                           tising and investment
+                                                                                                                                                                           market
+Different features                                                                                       10   10                                                           3                        3                         9
+for the user                                                                                                                                          cial media),         Demonstration            Currently, a game         Communication
+                                                                                                              e and block-                                                 of art objects and ads   with AR elements;         in AR using avatars-
+                                                                                                              n-based economy                                              in AR spaces, invest-    in the future, it will    cartoons
+                                                                                                                                                                           ments                    also be used as a job
+                                                                                                                                                                                                    search platform; ad-
+                                                                                                                                                                                                    vertising
+Value for users*                                                                                         10   10                                                           3                        3                         9
+                                                                                                              CoCommnunaicaotion s,bloggin g, navi-                        Entertainment objects    Entertaining content,     A set of templates
+                                                                                                              navigation, training                                         of augmented reality     gaming                    for avatars and their
+                                                                                                                                                                                                                              animation
+Value for partners                                                                                       10   10                                                           8                        5                         0
+                                                                                                                                                      e with advertising   Property in AR space     SMM capability;           N / A
+                                                                                                              ools and customizable access                                                          in the future, a mar-
+                                                                                                              o target audience                                                                     ketplace
+Total rating                                                                                             80                                                                36                       18                        20
+80
+*on a 10-point scale according to AROUND’s advisers
+37
+
+
+
+
+Competitive Landscape
+Page 36
+PRE-SALE &
+TOKEN SALE
+TERMS &
+CONDITIONS
+Page 42
+The Team
+38
+
+
+
+
+The ARROUND platform will use the ARR token released after the ICO.
+ARR token features:
+• The number of tokens is limited to 3,000,000,000 units;
+•  1,450,000,000 tokens will be sold at the Pre-sale and Token Sale and 245,000,000 tokens will
+be offered as a bonus for buyers. Unsold tokens will be burned. For each token sold at ICO,
+another 0.77 tokens will automatically be created immediately after the Token Sale and allocated
+to special token funds. For details, please see below;
+• The price of 1 ARR at the Token Sale will be US $0.035;
+• The ARR token will be used for participating in auctions for the long-term lease of advertising
+space, as well as to perform all transactions in the system. ARR token will also be required
+as a deposit for the maintenance of the ARROUND blockchain node.
+PRE-SALE                                                                                                  PRIVATE SALE                          MAIN TOKEN SALE
+Pre-sale target is USD 1,000,000                                                                          Minimum purchase of 1 ETH             Token Sale dates: 15.09.2018 -
+                                                                                                                                                15 .11 .2018
+45,000,000 tokens will be offered                                                                         Bonus provided in line with regular
+at Pre-sale                                                                                               discount structure                    Softcap is USD 5 million
+During Pre-sale, there will be a 50%                                                                                                            Hardcap is USD 30 million
+bonus in addition to the number
+                                                                                                                                                Additional 5% discount will be offered
+of purchased tokens
+                                                                                                                                                for purchases over USD 10,000
+Pre-sale dates: 27.02.2018 - 01.05.2018
+For each token sold at the Pre-sale and Token Sale, another token will be automatically created
+which is then distributed to the funds listed. As a result, the maximum number of tokens will be
+3,000,000,000 units .
+The Community Development Fund (CDF) tokens will be used to encourage partners, develop
+the community and attract new users. These tokens will be used as a reward for content creators
+and developers involved in developing the ecosystem, as well as for users involved in the pilot testing
+of the system.
+From the first days after the ICO the token buyers will be able to use tokens in the MVP
+of the ARROUND platform to extend the lifetime of their Rounds (posts).
+In a short time, a host of new features and content will appear on which to spend tokens.
+Token Sale Bonuses
+Bonus, %                                                                                                  Tokens offered for sale,              Bonus tokens, units                      Total number tokens,     Accumulated number
+                                                                                                          units                                                                          including bonus tokens   of tokens sold, units
+at Token Sale, units
+From the start of the Token Sale and until 100,000,000 tokens with the 40% bonus are sold off
+40%                                                                                                       100 000 000                           40 000 000                               140 000 000              140 000 000
+Until 300,000,000 tokens with the 30% bonus are sold off
+30%                                                                                                       300 000 000                           90 000 000                               390 000 000              530 000 000
+Until 500,000,000 tokens with the 20% bonus are sold off
+20%                                                                                                       500 000 000                           100 000 000                              600 000 000              1 130 000 000
+Until the end of the Token Sale
+0%                                                                                                        520 000 000                           0                                        520 000 000              1 650 000 000
+Source: ARROUND Platform
+39
+
+
+
+
+TOKEN DISTRIBUTION
+AFTER TOKEN SALE
+10%
+• 48.3% — Sales (Pre-sale and Token Sale)
+10%
+• 8.2% — Bonus tokens for Pre-sale and Token Sale
+• 22% — Community Development Fund —                                                                      CD4                                                                                                           8 .3%
+(including advisers, partners, etc.)
+22%
+Fund —
+• 10% — The Network Development
+a fund to support master node holders (NDF)
+• 10% — Team                                                                                              8 .2%
+• 1.5% — Bounty
+#                                                                                                         ARR token distribution after ICO                                                                              %       Number of tokens, ARR
+1                                                                                                         The sale of tokens to the project’s users (at Pre-sale and Token Sale)                                        48.3%   1 450 000 000
+2                                                                                                         Bonus tokens for Pre-sale and Token Sale                                                                      8.2%    245 000 000
+3                                                                                                         Community Development Fund (CDF) provides remuneration to advisors and new part-                              22%     660 000 000
+ners, as well as contains token reserve to maintain liquidity within the platform.
+The fund’s tokens will be distributed automatically through smart contracts as a reward
+for activities to promote the system; for example, as a reward for making posts about
+ARROUND on popular social media.
+4                                                                                                         Network Development Fund (NDF) — contains tokens to support the owners of block-                              10%     300 000 000
+chain servers and data storage and processing servers
+The fund’s tokens will be distributed automatically within three years through smart
+contracts. In the first year, it is planned to distribute 50% of the tokens. In the second
+year — 35% and in the third year — the remaining 15% of the tokens of this fund.
+5                                                                                                         Team                                                                                                          10%     300 000 000
+                                                                                                          The fund’s tokens will be frozen for one year following the completion of the ICO
+6                                                                                                         Bounty                                                                                                        1.5%    45 000 000
+                                                                                                          Total tokens:                                                                                                 100%    3 000 000 000
+For each token sold at the Pre-sale and Token Sale, another 0.77 tokens will be automatically created
+and distributed in the above-mentioned token funds. As a result, the maximum number of tokens will
+equal 3,000,000,000 units.
+The Community Development Fund (CDF) tokens will be used to encourage partners, develop
+the community and attract new users. These tokens will be used as a reward for content creators
+and developers involved in developing the ecosystem, as well as for users involved in the pilot testing
+of the system.
+From the first days after the ICO the token buyers will be able to use tokens in the MVP1
+of the ARROUND platform to extend the lifetime of their “rounds” (posts). With time, new features will
+appear to on which to spend tokens.
+40                                                                                                        1  Minimum Viable Product (MVP) - a working version of software product with basic (minimal) functionality.
+
+
+
+
+HOW THE FUNDS WILL BE USED
+COST STRUCTURE WITH INVESTMENTS
+8%
+IN THE AMOUNT OF USD 5 MLN
+• 34% — Development                             10%
+34%
+• 9% — Staff
+• 31% — Marketing and sales                     8%
+• 8% — Legal and patent costs
+• 10% — Administrative and technical expenses
+• 8% — Other expenses
+31%                                             9%
+9%
+COST STRUCTURE WITH INVESTMENTS
+IN THE AMOUNT OF USD 15 MLN
+33%
+• 33% — Development
+• 11% — Staff
+• 39% — Marketing and sales
+• 4% — Legal and patent costs
+39%
+• 9% — Administrative and technical expenses
+11%
+• 4%— Other expenses
+8%
+COST STRUCTURE WITH INVESTMENTS
+IN THE AMOUNT OF USD 30 MLN
+32%
+• 32% — Development
+• 12% — Staff
+• 42% — Marketing and sales
+• 3% — Legal and patent costs
+42%
+• 8% — Administrative and technical expenses
+12%
+• 3% — Other expenses
+41
+
+
+
+
+Pre-sale & Token Sale Terms & Conditions
+Page 38
+THE TEAM
+Page 46
+Project Map
+42
+
+
+
+
+Advisors
+TEMUR SHAKAYA
+Founder & Strategic Partnerships Advisor
+Serial-entrepreneur and pioneer in the field of the development and commercialization
+of the pharmacy business in Russia, co-owner and member of the Board of Directors of 36.6,
+Russia’s largest pharmacy chain. Temur is responsible for the creation of some of Russia’s leading
+cosmetics brands and most memorable advertising campaigns. As well as being a dedicated
+crypto-enthusiast, angel investor and blockchain adherent, Temur also services as President
+of the Russia-South Korea Business Council.
+NATHAN CHRISTIAN
+ICO Advisor
+Nathan is a technical expert in Blockchain-based accounting and financial applications.
+He is a Serial entrepreneur with over 35 start-ups in his portfolio. He is deeply entrenched
+in the blockchain space and has made it both his career and life passion. He is an accomplished
+blockchain and Fintech international speaker and is a top 10 ranked member of the ‘People
+of Blockchain’. He is also diversely skilled in ICO strategy, development, venture capital
+investment, consulting and advising. He has his MBA from the Ohio State University
+and is always seeking to help mentor those in blockchain industry. A few of his current top
+ICO advisory projects include; TraDove, Friendz, Omnitude, Moonlite, VeriMe, BitRewards,
+and LedgerScore.
+IGOR KARAVAEV
+Advisor, Investor Relations
+Successful adviser on blockchain projects, a leading expert on ICObench, and former Managing
+Director of Skolkovo Foundation, the preeminent Russian business incubator for startups. He has
+also served as director of development for a variety of major international corporations.
+VLADIMIR NIKITIN
+Strategic ICO Advisor
+Co-founder of Top ICO Advisor, an accomplished legal consultant, ICO advisor, Blockchain
+cryptocurrency specialist and a member of several Boards of Directors. With Masters degree
+in both Law and Economics (Finance and Credit), Vladimir has over 10 years of civil law, finance
+and Internet technologies experience in various industries such as retail consulting, hospitality
+and information technology. A Top-10 blockchain expert on ICObench, Vladimir is an active
+advisor on more than 25 ICO-projects.
+ALEXANDER SHULGIN
+PR and Community Advisor
+Alexander is unique multi award winning Russian Siberian composer with more than fifty hits
+songs to his credit, who successfully combines creative work with business. He manages GRUPPA
+KOMPANIY FAMILIA www.familia.ru, which specializes in investments in Blockchain, new media,
+publishing, and entertainment sectors. He is one of the world’s leading experts in topics such
+as the transformation of the global economy, blockchain technology and the MES sector (Media,
+Entertainment and Sport). Alexander is Member of the Expert Council under the Prime Minister
+of the Russian Federation (responsible for IT and Digital Economy). He was has received a state
+honor For Professionalism and Business Reputation.
+43
+
+
+
+
+Team
+NEIL BRYANT RUSSELL
+CEO (Chief Executive Officer)
+Experienced Internet startup manger, previously led Badoo.com as CEO, building the project
+to over 50 million registered users worldwide. A graduate of UEA, and originally from a high-tech
+telecommunications background, Neil possess a unique and successful track record of launching
+global multi-million user social networking and media projects.
+EVGENY DOBROVOLSKY
+Founder & CBDO (Chief Business Development Officer)
+A serial entrepreneur and investor in technology start-ups with unparalleled management
+experience, having led some of Russia’s largest corporations successfully through the last
+financial crisis. Evgeny is the co-founder of Intalev, one of Russia’s leading automation
+outsourcing companies and Founder and CEO of Vladimir Textiles Holding, which has more than
+2,000 employees. Evgeny also serves as Chairman of the Board of Soglasie, a leading private
+pension fund, and is a prominent member of the Russia-South Korea Business Council.
+ARKADY YASASHNIY
+СFО (Chief Financial Officer)
+Leading financial expert in Russia, having held a number of high profile positions within
+the country’s banking industry, including serving as Managing Director of the Oil Industry at VTB,
+Head of Corporate Banking at National Standard Bank as well as top management positions
+at Soyuz and MDM. Arkady is a successful blockchain entrepreneur and a well respected advisor
+to high-tech start-ups with a well developed network within the crypto community.
+ARTEM HARITONOV
+CTO (Chief Technology Officer)
+A technical leader for over 10 years, Artem is a graduate of SPb SUT and one of Russia’s leading
+app developers and blockchain specialists. He has an exceptional background developing
+high-load, complex sites and mobile applications across multiple platforms and languages.
+Artem is uniquely qualified to develop the technical side of the project’s social and commercial
+elements.
+ANDREY MOLCHANOV
+CSPO (Chief Strategic Planning Officer)
+Established marketing and public relations director with a stellar background, both client
+and agency side, in managing advertising and marketing campaigns for new product launches.
+Andrey has a wealth of experience within the FMCG, media and HoReCa sectors, is a respected
+strategist who provides exceptional analytical skills coupled with an abundance of creativity.
+44
+
+
+
+
+ALEXANDER SOKOLOV
+CSA (Chief Software Architect)
+Alexandr is a successful entrepreneur, promoter and high-tech start-up investor. Founder
+of Geometria.ru, a popular lifestyle and events website, app and community. A blockchain
+enthusiast and augmented reality advocate, Alexandr is focused on developing the features that
+can help AR to bridge the real and digital worlds .
+KATE BUBLIK
+Marketing Expert
+A digital marketing professional with a solid and successful experience in implementation
+and development digital strategies and IT solutions worldwide for big enterprises and hi-tech
+startups. Former Head of digital marketing at SKYFchain, Product manager at FuturTech
+and Digital Marketing specialist at Experian & Enter Capital. Master of International Marketing,
+Hult International Business School, San Francisco, US.
+45
+
+
+
+
+The Team
+Page 42
+PROJECT
+ROADMAP
+Page 49
+Legal Information
+46
+
+
+
+
+2016
+The idea of a communication platform powered
+by augmented reality technology was born after
+the founders realized that AR was finally
+on the cusp of mainstream adoption.
+Founders take the idea to the business community
+to discuss its viability and review the key concepts
+and technologies involved and get overwhelmingly
+positive feedback.
+The idea begins to take shape, and after presentations
+to potential partners and early-adopters the idea
+is proposed to build the project around blockchain
+2017
+The project is given its first technical
+treatment and a product specification
+document is completed and the business
+plan is created.
+The first potential partner is engaged,
+the 36.6 pharmacy chain in Russia.
+The team is assembled, the ICO process
+is planned,  the token model and White Paper
+are created.
+The team begins to isolate the key features
+of the product in order to develop and launch
+the MVP.
+47
+
+
+
+
+2018
+ICO is launched in order to provide long-term funding
+for the project. ARROUND global roadshow begins.
+A number of additional partnersjoin the platform.
+Release of MVP and the launch of advertising campaigns
+for 36.6 pharmacy chain and Atrium shopping mall
+and additional partners.
+Release of the alpha version of the ARROUND App,
+the process of filling the platform with content
+and attracting users gets underway in earnest.
+2019
+Focus is on attracting advertising agencies
+to the platform.
+Launch of advertising campaigns for large
+pharmacy chains in Europe.
+Creation of proprietary constructor
+for interactive advertising in augmented reality.
+Porting of ARROUND to ODG Augmented
+Reality Glasses and Microsoft Hololens.
+2020
+The first auction to sell advertising space
+inside the platform on the secondary market.
+The process of creating proprietary
+SDK to attract third-party developers
+to the platform begins.
+The launch of a pilot project in the USA.
+Expansion into new markets: China,
+North America, Japan, Korea, Britain,
+Germany, France, and the United Arab Emirates.
+48
+
+
+
+
+Project Map
+Page 46
+LEGAL
+INFORMATION
+Page 56
+Disclaimer
+49
+
+
+
+
+Risks Associated with the ARR Token
+and Pre-Sale
+Last updated February 18, 2018
+The ARR Token is a new and innovative product. This memorandum is intended to apprise you of some
+of the risks involved with purchasing, buying, owning, and using the ARR Token. It does not purport
+to advise you of all of the risks and other significant aspects of the sale (the “ARR Sale”) by ARROUND
+INC. (“ARROUND” or the “Company”) of ARR Network Tokens (the “Tokens”or “ARR Tokens”). You should
+also consider any additional risks and considerations relating to the Token Sale and consult your own
+legal, tax, financial, and other advisers before entering into any transaction.
+There are a number of risks involved in this Token Sale, as well as the future development,
+maintenance, and running of the ARROUND Network and Tokens. Some of these risks are beyond
+the control of the Company. Each person participating in the Token Sale (“Purchaser”) should
+comprehend, consider, and evaluate carefully the risks described below in addition to any
+other available information before participating in the Token Sale. Each purchaser should pay
+particular attention to the fact that, although the Company is established in Belize, neither
+the Company nor the ARROUND Network has any specific physical presence. In addition, the legal
+and regulatory position of the Company and the ARROUND Network may vary depending on the facts
+and circumstances. They, therefore, fall within the purview of one or more jurisdictions, at least
+to some extent, and the legal and regulatory implications may, therefore, be unexpected. Participation
+in the Token Sale shall be taken as an action based upon careful and prudent analysis and evaluation,
+and will be deemed as the relevant Purchaser having been fully informed, advised, and willing to bear
+all of the risks associated with it, including as set out in this memorandum.
+A purchase of the ARR Token is not an investment. Rather, the ARR is a utility token that serves
+a specific function within the ARROUND Network, which is the only means to access the ARROUND
+Network and utilize its functions. Without ARR Token, the general public may not access the ARROUND
+Network. There is no guarantee — indeed there is no reason to believe — that the ARR tokens you
+purchase will increase in value. They may — and probably will, at some point — decrease in value.
+For these and other reasons, we believe the sale of ARR Tokens does not constitute a public offering
+of securities subject to prospectus registration requirements. However, public policy towards token
+sales is changing, and it is conceivable that regulators may in the future seek to broaden the scope
+of regulation of token sales. This could make token sales subject to registration requirements
+in the United States and similar jurisdictions. If the ARR Token Sale becomes subject to registration
+requirements, this would delay or potentially postpone the proposed ARR Token Sale indefinitely.
+1 .   Risks Associated with Purchaser Credentials
+Any third party that gains access to the Purchaser’s login credentials or private keys may be able
+to dispose of the Purchaser’s Tokens. To minimize this risk, the Purchaser should guard against
+unauthorized access to their electronic devices.
+2 .   Risk of Unfavorable Regulatory Action in One or More Jurisdictions
+Crypto-currencies as a form of settlement in trade have been the subject of scrutiny by various
+regulatory authorities and may be overseen by the legal and regulatory authorities of a number
+of jurisdictions globally. Governments that are adverse to the proliferation of the use
+50
+
+
+
+
+of crypto -currencies in local commerce could issue laws and regulations deeming the use
+of crypto-currencies a regulated activity. In recent months, some countries, such as China
+and Korea, have issued regulations or statements prohibiting token sales, while other countries,
+such as Gibraltar, have sought to bring the sale of tokens within the regulator control of securities
+offerings .
+The functioning of the ARROUND Network and the Tokens could be impacted by one or more
+regulatory inquiries or actions, including, but not limited to, restrictions on the use or possession
+of digital tokens like the Tokens, which could impede or limit the development of the ARROUND
+Network. The Company may receive notices, queries, warnings, requests, or rulings from one
+or more authorities upon short notice, or may even be ordered to suspend or terminate any action
+in connection with the Token Sale or the ARROUND Network as a whole without prior notice.
+Furthermore, many aspects of ARR also involve untested areas of law and regulation, and could
+be subject to new laws or regulation, so their legal and regulatory outcome in all relevant
+jurisdictions is not possible to predict. The planning, development, marketing, promotion,
+execution or otherwise of the Company or the Token Sale may be seriously affected, hindered,
+postponed, or terminated as a result. Since regulatory policies can change with or without prior
+notice, any existing regulatory permissions for or tolerance of the Company, the ARROUND
+Network, and the Token Sale in any jurisdiction may be withdrawn without warning. The Tokens
+could be deemed from time to time as a virtual commodity, a digital asset, or even as money,
+securities, or currency in various jurisdictions and therefore could be prohibited from being
+sold, purchased, traded, distributed, or held in certain jurisdictions pursuant to local regulations .
+In turn, the ARROUND Network could be deemed to be a regulated or restricted product. There
+is no guarantee that the Company can maintain any particular legal or regulatory status in any
+particular jurisdiction at any time.
+3 .                                                                                                      CTF and Anti-Money Laundering Regulations
+The United States has issued a series of regulations to combat terrorist financing (Counter Terrorist
+Financing) and money-laundering activities. Many other countries have enacted similar legislation
+to control the flow of capital for such illicit activities. The use of cryptocurrencies by bad actors
+would breach such regulations. Any illicit use of the ARR Tokens could seriously impact the global
+reputation of the ARROUND Network. In such event, it is not inconceivable that this could trigger
+scrutiny by CTF and anti-money laundering regulators and potentially cause significant disruption
+to the distribution and circulation of ARR Tokens in the ARROUND ecosystem.
+4 .                                                                                                      Blockchain Risks
+On the Ethereum blockchain, timing of block production is determined by proof of work so
+block production can occur at random times. For example, ETH contributed to the ARR Token
+Distribution Contract in the final seconds of a distribution period may not get included for that
+period. Purchaser acknowledges and understands that the Ethereum blockchain may not include
+the Purchaser’s transaction at the time Purchaser expects and Purchaser may not receive
+ARR Tokens the same day Purchaser sends ETH. The Ethereum blockchain is prone to periodic
+congestion during which transactions can be delayed or lost. Individuals may also intentionally
+spam the Ethereum network in an attempt to gain an advantage in purchasing cryptographic
+tokens. Purchaser acknowledges and understands that Ethereum block producers may not include
+Purchaser’s transaction when Purchaser wants or Purchaser’s transaction may not be included
+at all .
+51
+
+
+
+
+5 .                                                                                                   Risk of Insufficient Interest in the ARROUND Network
+It is possible that the ARROUND Network will not be used by a large number of businesses,
+individuals, and other organizations and that there will be limited public interest in ARROUND
+services.
+Such a lack of interest could impact the development of the ARROUND Network and, therefore,
+the potential uses or value of the Tokens.
+6 .                                                                                                   Risk that the ARROUND Network, As Developed, Will Not Meet the Expectations of Purchaser
+The ARROUND Network is presently under development and its governance structure, fees,
+purpose, consensus mechanism, algorithm, code, infrastructure design, and other technical
+specifications and parameters may undergo significant changes without notice. Any expectations
+regarding the form and functionality of Tokens or the ARROUND Network held by the Purchaser
+may not be met, for any number of reasons, including a change in the design and implementation
+plans and execution of the ARROUND Network.
+7 .                                                                                                   Risk of Theft and Hacking
+Hackers or other groups or organizations may attempt to interfere with the ARROUND Network
+or the availability of the Tokens in any number of ways, including, without limitation, denial
+of service attacks, Sybil attacks, spoofing, smurfing, malware attacks, or consensus-based attacks.
+Additionally, there may be attempts to steal the Token Sale proceeds. Such theft or attempted theft
+may impact the ability of the Company to fund the development or maintenance of the ARROUND
+Network. While the Company will endeavor to adopt industry best practices to keep the ARROUND
+Network and Token Sale proceeds safe (including, but not limited to, the use of cold storage
+and multi-signature authentications), successful cyber thefts may still occur.
+8 .                                                                                                   Risk of Unpermissioned, Decentralized, and Autonomous Ledger
+The ARROUND Network is being developed in connection with various distributed ledger
+systems including, but not limited to, Ethereum, which are unpermissioned protocols that could
+be accessed and used by anyone. The utility and integrity of the ARROUND Network relies
+on the stability, security and popularity of these decentralized ledgers. The ARROUND Network
+is envisaged to be an open, decentralized community and its composition can include users,
+supporters, developers, Token holders and other participants worldwide who may or may not be
+connected with the Company in any manner. Given the diversity of the underlying technologies,
+the ARROUND Network is intended to be decentralized and autonomous in nature as far as its
+maintenance, governance and evolution are concerned.
+9 .                                                                                                   Risk of Weaknesses or Exploitable Breakthroughs in the Field of Cryptography
+Cryptography is evolving and there can be no guarantee of security at all times. Advancement
+in cryptography technologies and techniques, including, but not limited to, code cracking,
+the development of artificial intelligence and/or quantum computers, could be identified as risks
+to all cryptography-based systems, including ARROUND Network. When such technologies
+and/or techniques are applied to ARROUND Network, adverse outcomes such as theft, loss,
+disappearance, destruction, devaluation, or other compromises result. The security of the Company
+and the ARROUND Network cannot be guaranteed as the future of cryptography or security
+innovations is unpredictable.
+52
+
+
+
+
+10 . Risk of Abandonment or Failure
+Due to the technically complex nature of the ARROUND Network, the Company or those
+contributing to the ARROUND software development effort could face difficulties from
+time to time that may be unforeseeable and/or unresolvable. Accordingly, the development
+of the ARROUND Network could fail, terminate or be delayed at any time for any reason, including
+due to lack of funds. Development failure or termination may render the Tokens untransferable,
+of reduced or no utility, and/or obsolete.
+11 . Risk of Lack of Adoption or Use of the ARROUND Network
+The utility of the ARR Tokens is dependent on the popularity of the ARROUND Network. While
+the ARR Tokens should not be viewed as an investment, they may have value over time.
+An absence of active users or low level of utilization may negatively affect the long-term
+development and future of the ARROUND Network, and reduce or obviate the utility of the ARR
+Tokens.
+12 . Risk of an Illiquid Market
+After the ARR Token Launch, the Company is not responsible for and has limited control over
+the subsequent circulation and trading of the ARR Tokens. The ARR Token is not money, legal
+tender or currency, fiat or otherwise, issued by any individual, entity, central bank or national,
+supra-national or quasi-national organization, nor is it backed by any type or quantity of assets,
+property, or credits, nor does it represent any entitlement to any distributions of profits, dividends,
+or any other returns or payments of any kind. There is no obligation of the Company, nor anyone
+else, to redeem, repurchase, or acquire any ARR Tokens from any ARR Token holder. There is no
+guarantee or assurance that there will be a market or marketplace where holders may readily
+trade Tokens.
+13 . Risk of Price Volatility
+Many cryptographic tokens have volatile prices. Large fluctuations in price over short timeframes
+occur frequently. Such fluctuations could result from market dynamics (including, but not limited
+to, speculation), regulatory changes, technical advancements, exchange availabilities, and other
+factors that impact the equilibrium between token supply and demand.
+14 . Risk of Potential Concentrated Ownership of Tokens
+Immediately after the completion of the ARR Token Sale, a number of individuals may directly
+or indirectly hold significant portions of the total available ARR Tokens. These ARR Token holders
+may have significant influence over the Company, including its operational decisions. These
+significant ARR Token holders may, acting alone or in concert, not necessarily make decisions that
+are in the best interests of the other Token holders or of the ARROUND community as a whole.
+15 . Risk of Uninsured Losses
+Unlike bank accounts or accounts at some other financial institutions, funds held using
+a blockchain network are generally uninsured. In the event of loss or loss of value, there is no
+public insurer, such as the FDIC or private insurer, to offer recourse to the Purchaser.
+16 . Risk of Privacy and Data Retention Issues
+As part of the ARR Token Sale and the subsequent verification processes, the Company may collect
+personal information from Purchasers. The collection of such information is subject to applicable
+laws and regulations. All information collected will be used for purposes of ARR Token Sale
+53
+
+
+
+
+and ARROUND community management for the ARROUND Network and may be transferred
+to contractors, service providers and consultants worldwide as appointed by the Company.
+Apart from external compromises, the Company and its appointed entities may also suffer from
+internal security breach whereby their employees may misappropriate, misplace, or lose personal
+information of Purchasers. The Company may be required to expend significant financial resources
+to alleviate problems caused by any breaches or losses, settle fines, and resolve inquiries from
+regulatory or government authorities. Any information breaches or losses will also damage
+the Company reputation and thereby may harm its long term prospects.
+17 . Risk of Malfunction in the ARROUND Network
+It is possible that the ARROUND Network malfunctions in an unfavorable way, including, but not
+limited to, one that results in the loss of ARR Tokens.
+18 . Risk Relating to Use of the Internet or Other Electronic Medium
+Without limiting the foregoing risks, any communication or transaction via or information
+(including document) transmitted via the internet or other electronic medium involves risks and,
+by participating in the ARR Token Sale or utilizing the ARROUND Network, you acknowledge that
+you understand and accept the following risks:
+•                                                                                                  We and/or third parties may use such authentication technologies as we deem appropriate.
+No authentication, verification, or computer security technology is completely secure or safe.
+You agree to bear all risks of unauthorized access/use, hacking, or identity theft.
+•                                                                                                  The internet or other electronic media (including, without limitation, electronic devices,
+services of third party telecom service providers, such as mobile phones or other handheld
+trading devices or interactive voice response systems) are an inherently unreliable form
+of communication.
+•                                                                                                  Any information (including any document) transmitted, or communication, or transactions
+made, over the internet or through other electronic media (including electronic devices,
+services of third party telecom service providers, such as mobile phones or other handheld
+trading devices or interactive voice response systems) may be subject to interruption,
+transmission blackout, delayed transmission due to data volume, internet traffic, market
+volatility, or incorrect data transmission (including incorrect price quotation) or stoppage
+of price data feed due to the public nature of the internet or other electronic media.
+•                                                                                                  As a result of such unreliability:
+a . there may be time-lags, delays, failures, or loss of data, or loss of confidentiality
+in the transmission of data and receipt of communications; and
+b . while the Company may believe certain data to be reliable, there may be no independent
+basis for it to verify or contradict the accuracy or completeness of data.
+This is not an exhaustive list of all of the consequences arising from such unreliability.
+•                                                                                                  Purchasers are solely responsible for preventing anything which may be harmful to any
+equipment that they use in connection with the Tokens or the ARROUND Network
+(including any computer virus, malicious program, or harmful component) from affecting
+any such equipment, regardless of whether it originated in connection with the ARR Tokens
+or the ARROUND Network.
+54
+
+
+
+
+19 . Tax Risk Relating to Participation in the Token Sale
+The use of ARR Tokens as a form of settlement currency may or may not be subject to local
+income tax, capital gain taxes, VAT, or other forms of taxes. The taxability of cryptographic
+tokens is an evolving area of law, is subject to change, and may vary amongst jurisdictions. This
+uncertainty in tax legislation may expose merchants and customers alike to unforeseen future
+tax consequences associated with the use of ARR Tokens. In some instances, there may be little
+or no formal regulatory guidance. Participation in the ARR Token Sale may have tax reporting
+implications and liabilities for Purchasers and such liabilities and obligations shall be borne
+by the Purchasers alone. Purchasers are advised to consult their tax advisors prior to participating
+in the ARR Token Sale.
+20 . Unanticipated Risks
+Applied cryptography and blockchain technology are new and untested. In addition to the risks set
+forth here, there are risks that the ARROUND team cannot anticipate. Risks may further materialize
+as unanticipated combinations or variations of the risks set forth here.
+55
+
+
+
+
+Legal Information
+Page 49
+DISCLAIMER
+56
+
+
+
+
+The purpose of this White Paper written by ARROUND project (the “Company”) is to present
+the ARR token (the “Token” or “ ARR”) to potential holders in connection with the proposed
+token launch. The information set forth below may not be exhaustive and does not imply any
+elements of a contractual relationship. The sole purpose of this White Paper is to provide relevant
+and reasonable information to potential token holders. Holders of ARR are invited to undertake
+a thorough analysis of the company and to understand the current or potential future values of any
+acquired ARR tokens.
+Nothing in this White Paper shall be deemed to constitute a prospectus of any sort or a solicitation
+for investment, nor does it in any way pertain to an offering or a solicitation of an offer to buy any
+securities in any jurisdiction. This document is not composed in accordance with, and is not subject to,
+laws or regulations of any jurisdiction which are designed to protect investors.
+Certain statements, estimates, and financial information contained in this White Paper constitute
+forw ARR-looking statements or information. Such forw ARR-looking statements or information
+involve known and unknown risks and uncertainties which may cause actual events or results
+to differ materially from the estimates or the results implied or expressed in such forw ARR-looking
+statements.
+Future events portrayed in this White Paper cannot be considered as a promise of profit
+and or as guaranteed forecast of ARR growth. This English language White Paper is the primary
+official source of information about the ARR Token Launch. The information contained herein may
+from time to time be translated into other languages or used in the course of written or verbal
+communications with existing and prospective customers, partners, etc. In the course of such
+translation or communication, some of the information contained herein may be lost, corrupted,
+or misrepresented. The accuracy of such alternative communications cannot be guaranteed.
+In the event of any conflicts or inconsistencies between such translations and communications
+and this official English language White Paper, the provisions of this English language original
+document shall prevail.
+57
+
+
+
+
+

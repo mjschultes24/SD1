@@ -1,0 +1,407 @@
+﻿A Decentralized Private Marketplace: DRAFT 0.1
+Ido Kaiser1
+Abstract— The  online  services  we  use  are  increasingly  de-          structure provided by the Bitcoin blockchain but is equally
+manding more of our personal data, a disturbing trend that                applicable to any of it derivatives, meaning the marketplace
+threatens the privacy of users on a global scale. Entities such as
+is indifferent about the underlying cryptocurrency used for
+Google, Facebook and Yahoo have grown into colossal, seem-
+payments.
+ingly  unaccountable  corporations  by  monetizing  their  users’
+personal  data.  These  entities  are  charged  with  keeping  said
+II.  HIGH LEVEL OVERVIEW
+data secure and, in the case of social and economic interactions,
+safeguarding  the  privacy  of  their  users.  Centralized  security      The  overview  consists  of  two  main  components:  a
+models are not applicable to the new generation of technologies
+blockchain and a data storage network. Technically speaking
+such as Bitcoin. This paper discusses a system which combines
+these networks can operate over the same set of nodes. But
+a Bitmessage-style network with anonymous payment schemes
+for clarity we separate them to highlight that it does not have
+to create a privacy-centric marketplace. Furthermore we apply
+a multi-signature escrow technique involving insurance deposits           to be the same set.
+should  which  deter  fraudulent  actors  from  participating  in
+trades, given that their incentive is to make a profit.                   A.  Blockchain
+                                                                          The blockchain is typically tasked with processing pay-
+I.  INTRODUCTION
+                                                                          ments but for our purpose it will also be storing the market-
+Satoshi Nakamoto, the visionary and creator of Bitcoin[1],
+                                                                          place index and the identities.
+originally  intended  that  Bitcoin  be  paired  with  a  market-
+                                                                          New  privacy  enhancing  techniques  have  spurred  in  the
+place, as evidenced by beginnings of a market framework
+                                                                          wake of recent revelations surrounding corporate blockchain
+included in early snapshots of the Bitcoin codebase.[2] The
+                                                                          analysis firms and government surveillance. The most no-
+market  related  code  was  eventually  stripped  out  however,
+                                                                          table inventions obscure the origins, destiny and the amount
+presumably as he decided to focus first on creating his world-            of  a  transaction.  Signature  schemes  like  SNARKs  1                        and
+changing currency. The concept of a decentralized market-                 RingCT  prove  ownership  of  an  output  without  conveying
+place in itself is not novel, there have been a small set of              which  specific  output  was  spend  yet  without  infringing
+academic constructions and even serious attempts at creating              double spend prevention.
+them.[3], [4], [5], [6] They either propose solutions that scale
+extremely well and neglect the privacy implications, or they              B.  Data Storage Network
+propose very privacy conscious solutions that do not scale                The Data Storage Network (DSN) is tasked with storing
+well. Privacy and efficiency are often at odds with each other,           market  listings  as  well  as  messages  between  sender  and
+”to hide the signal there must be noise”. [7] Tor exemplifies             receiver  and  all  other  accompanied  data  (such  as  but  not
+this well, the traffic is pushed through various nodes with               limited  to  images  and  videos).  Sensu  stricto  the  market
+several layers of encryption before arriving at its destination,          listing references, stored in the blockchain, are also protocol-
+it is deliberately inefficient but the privacy provided by the            agnostic, simply meaning it can handle different DSN pro-
+trade-off is well worth it.                                               tocols such as BitMessage, IPFS, HTTPS... It is however
+                                                                          advisable to use one main protocol to prevent segmentation
+A.  Bitcoin
+                                                                          from occurring, which can potentially create interoperability
+Understanding  the  high  level  architecture  of  Bitcoin’s
+                                                                          issues between clients and may negatively impact privacy
+blockchain is a prerequisite, more specifically the structure
+                                                                          due to a smaller sized network.
+of (multi-signature) transactions and in some degree the ac-
+                                                                          BitMessage protocol[8] is used as an example because the
+companied script signature language. Bitcoin is a marvelous
+                                                                          message  mixnet  is  simple  to  understand  yet  theoretically
+invention but nonetheless the link-ability of transactions is
+                                                                          offers  resilience  against  powerful  attackers  who  aim  to
+worrisome for maintaining privacy in a completely public
+                                                                          undermine privacy by analyzing traffic. A message traveling
+ledger. To re-iterate, the transactions and data they carry is
+                                                                          across a BitMessage network does not explicitly reveal any
+public  and  one  has  to  be  more  careful  in  comparison  to
+                                                                          metadata  as  to  whom  might  be  the  sender  or  receiver.
+the traditional model where only one or more entities are
+                                                                          Other  protocols  such  as  BitTorrent,  IPFS,  Kademlia  and
+in control.                                                               other  DHTs  always  leak  some  information  about  which
+A more generalized approach is used in this document by                   node  is  requesting  which  data.  The  BitMessage  approach
+utilizing the word blockchain, what follows is built on the
+                                                                          1 SNARKs are technically not just a signature scheme, but for the sake
+1 I. Kaiser is with The Particl Project, Department Research and Devel-   of simplicity and in the light of transaction signing it is reduced to merely
+opment code  at  particl.org                                              that.
+
+
+
+
+TABLE II
+of  ”everyone stores a copy of everything” is not a viable
+FORMAT OF THE DELETION OF A LISTING
+method for markets with storage requirements that exceed
+the performance of an average computer.
+OP RETURN    OP DELLIST    item pk    listing id    protocol id
+III.  BLOCKCHAIN
+A.  Market Index
+                                                                        a  protocol  id  is  specified  then  only  the  protocol  for  that
+The blockchain stores references to market listings, the
+                                                                        respective listing id will be removed.
+actual  data  is  delegated  to  the  DSN.  The                         ’protocol  id’
+                                                                        Note that OP REGLIST and OP DELLIST are  ’virtual’
+specifies which DSN protocol has to be used to gather the
+                                                                        opcodes, they are always after OP RETURN, meaning there
+data. The  ’listing id’ is a unique identifier used to retrieve
+                                                                        is no requirement to implement new opcodes into the script-
+the content from the DSN. More specifically it is the hash
+                                                                        ing language of the blockchain it is operating on.
+of  the  data  to  be  retrieved,  serving  as  an  authentication
+                                                                        This draft does not yet include information pertaining the
+mechanism against the DSN, ensuring the integrity. The hash
+                                                                        details to how categories should work. Ideally this is also
+must abide the MultiHash format, such that a multitude of
+                                                                        stored in the registration transaction, allowing to categorize
+hash functions can be used.[9] A public key  ’item pk’ is
+                                                                        listings without putting an unnecessary stress of the DSN
+attached and used to sign the listing registration transactions,
+                                                                        network. Performing searches, especially full text ones, over
+this allows for multiple listings to be grouped to one item and
+                                                                        decentralized networks remains a hard problem.
+creates a window of opportunity for future integrations such
+as reputation or reviews[5]. It is worth noting that the term
+                                                                        B.  Private payment scheme
+’data’ in this paragraph refers to encrypted(content), where
+                                                                        The transparent nature of the Bitcoin blockchain can po-
+encryption is handled by the software interacting with the
+                                                                        tentially give away a trophy of information about the finances
+DSN.  Technically  encryption  is  not  required  for  a  public
+                                                                        of the transaction creator. Therefore a payment scheme such
+marketplace,  since  anyone  can  decrypt  the  message  it  is
+                                                                        as RingCT is required to shield the privacy of all users. It is
+rendered obsolete. Note that the registration transaction must
+                                                                        worth noting that the payment scheme must provide hidden
+be  signed  for  ’item  pk’,  this  provides  authentication  and
+                                                                        amounts to prevent a blockchain analysis technique that is
+prevents adversaries from adding listings to ’item pk’ without
+                                                                        described in the appendix of this document.
+having the corresponding private key. See ’Index or constant
+reference’ in the appendix.
+                                                                        C.  Identities
+TABLE I                                                                 The  current  system  does  not  support  linking  items  to
+FORMAT OF THE REGISTRATION OF A LISTING                                 an  identity.  In  other  words,  buyers  have  no  way  to  see
+what items one specific merchant has for sale. The primary
+reason  is  to  disable  a  wide  category  of  passive  analysis
+OP RETURN    OP REGLIST    item pk    listing id    protocol id
+techniques that this could enable. The time at which listings
+are registered on the blockchain for example can reveal the
+A transaction using the above mentioned script signature                timezone of the merchant given they have posted enough
+is unspendable therefore the output is also not added to the            items to the network. Identities also aggregate data about
+UTXO database due to OP RETURN. The fee however is                      the possible funds of the merchant when registering listings.
+available to the actors that ensure consensus, miners in the            A more nuanced vision is required to balance this issue.
+case of Bitcoin. The fee determines the duration for which a            Insinuating  that  the  listings  can  not  be  linked  to  each
+listing is active, serving as a mechanism to expire and auto-           other breeds false sense of security to the merchants. Time,
+matically garbage collect references. The inputs of the listing         image and linguistic analysis can provide a crucial trophy
+registration transactions would reveal the financial history of         of  information  to  a  passive  adversary,  generating  a  fairly
+whoever initiated the market listing thus a payment scheme              unique fingerprint that is hard to reduce through software
+which obfuscates the origin is required to maintain privacy.            design.  These  are  issues  related  to  the  input  of  humans
+Another optional approach could be to require a short PoW               and only can only be dealt with in a certain degree. The
+phase  instead  of  a  fee,  including  an  adjustable  difficulty      defacto removal of image metadata for example can greatly
+arguably like mining blocks, this prevents network spam yet             reduce  the  fingerprint,  auto  correcting  words  can  provide
+has the additional benefit that it eliminates any potential trace       improvements in linguistic analysis.
+to the financial history of whoever created the listing. To             Branding and name awareness are a common practice in
+maintain interoperability with Bitcoin derivatives, we did not          todays world and are vital to a good working of the market.
+make this the primary option. See ’input correlation attack’            It improves the overall level of trust as quality merchants can
+in the appendix.                                                        build long term relationships with their customers. Therefore
+If  only  the  item  public  key  is  present  in  the  deletion        having an identity system is a trade-off worth having, the
+transaction  then  all  of  the  listing  id’s  for  that  respective   economic  benefits  outweigh  the  seemingly  small  negative
+item public key will be deleted. If additionally a listing id is        consequences to privacy, given that you take the analysis
+specified only that instance will be removed. If additionally           techniques into account.
+
+
+
+
+                                                                  When a listing is registered to the blockchain is should                                                                                                                                                       gains. The net result is that we’ve lost that value, whether it
+                                                                  actually  follow  the  format  as  described  in  Table  III.  The                                                                                                                                             was previously in our wallet or expected to be given to us.
+                                                                  reason for it being excluded from the table in the previous
+section was due to bad formatting.
+                                                                                                                                                                                                                         C.  Insurance deposits
+                                                                                                                                                                                            TABLE III                                                                            Both merchant and buyer deposit an insurance amount into
+                                                                  FORMAT OF THE REGISTRATION OF A LISTING WITH IDENTITY                                                                                                                                                          the multi signature escrow address. The insurance deposit
+                                                                                                                                                                                                                                                                                 is a percentage of the sale price, throughout this paper we
+                                                                                                                                                                                                                         will  assume  that  this  ratio  is                                                                                       1 (100%).  This  concept  is
+                                                                  OP RETURN    OP REGLIST    identity flag    identity pk    item pk                                                                                                                                             more easily explained by an example: a painting is listed for
+                                                                                                                                                                                                                                                                                 $100, the insurance ratio is 80%. The merchant would make
+                                                                                                                                                                                                                                                                                 an insurance deposit of $80, the buyer would deposit $100
+                                                                  Identities are required to be unique values, therefore an
+                                                                                                                                                                                                                                                                                 (payment) and $80 (insurance). If both actors are honest and
+                                                                  implementation  can  follow  a  format  similar  to  how  DNS
+                                                                                                                                                                                                                                                                                 the sale went through, then both will agree to each return the
+                                                                  systems  operate.  The  first  alternative  cryptocurrency  was
+                                                                                                                                                                                                                                                                                 insurance deposit ($80) and the merchant receives $100 as
+                                                                  Namecoin, a decentralized open source information registra-
+                                                                                                                                                                                                                                                                                 payment. The insurance put up by the merchant introduces
+                                                                  tion and transfer system based on the Bitcoin cryptocurrency.
+                                                                                                                                                                                                                         a risk to being dishonest.
+                                                                  [13] The blockchain is used to store all DNS records, this
+                                                                                                                                                                                                                                                                                 This  concept  was  first  used  by  BitMarkets,  this  paper
+                                                                  feature can be leveraged to store the identities of our users
+                                                                                                                                                                                                                                                                                 however proposes a small modification. Splitting the payment
+                                                                  in a decentralized manner, but only if they wish to use the
+                                                                                                                                                                                                                                                                                 and the insurance deposit into two outputs, only time locking
+                                                                  identity system. Implementing a DNS system also offers use
+                                                                                                                                                                                                                                                                                 the output for insurances. A fraudulent merchant who has
+                                                                  a  wide  range  of  capabilities  that  is  not  available  through
+                                                                                                                                                                                                                                                                                 not shipped an item has leverage over the buyer, since the
+simpler nickname system.
+                                                                                                                                                                                                                                                                                 merchant has less money in the escrow and thus has more
+                                                                                                                                                                          IV.  MAD ESCROW                                                                                        to lose. The segregation of payment and insurance allows
+                                                                                                                                                                                                                                                                                 the buyer to punish the merchant, both losing the insurance
+                                                                  The                                                                   ’Mutually  Assured  Destruction                                 (MAD)  Escrow’
+                                                                                                                                                                                                                                                                                 deposit. Any of the actors can punish the other party without
+                                                                  consists  of  a  multi-signature  transaction  combined  with
+                                                                                                                                                                                                                                                                                 making any decision about the payment output just yet. This
+                                                                  OP CHECKLOCKTIMEVERIFY in such a way that it will
+                                                                                                                                                                                                                                                                                 has the potential benefit that an actor has more incentive to
+                                                                  destroy  access  to  all  funds  within  the  transaction  after  a
+                                                                                                                                                                                                                                                                                 punish the other if they act fraudulent since the stakes seem
+                                                                  certain interval. The script signature of the outputs from the
+                                                                                                                                                                                                                                                                                 smaller. More specifically the amount the buyer loses at that
+                                                                  MAD escrow transaction will drop all the public keys beyond
+                                                                                                                                                                                                                                                                                 moment is smaller (in comparison to also losing the payment
+                                                                  a certain blockheight. Both merchant and buyer lose access
+                                                                                                                                                                                                                         output) and thus may promote faster punishment.
+                                                                  to their funds, motivating both to find equilibrium before
+doomsday.
+                                                                                                                                                                                                                                                                                 V.  DATA STORAGE NETWORK: BITMESSAGE
+A.  Ultimatum Game
+                                                                                                                                                                                                                         A.  Introduction
+                                                                  In the Ultimatum Game, first studied by Werner Gth, Rolf
+                                                                  Schmittberger,  and  Bernd  Schwarze  (1982),  the  proposer                                                                                                                                                   BitMessage is a decentralized messaging network which
+                                                                  proposes how to split a pie between herself and a responder.                                                                                                                                                   we can leverage to host listings and to perform the communi-
+                                                                  Then  the  responder  decides  whether  to  accept  or  reject                                                                                                                                                 cation between merchant and buyer. All nodes participating
+                                                                  this proposal. If the responder accepts, then the proposal is                                                                                          in  the  network  store  all  messages  of  the  past                                                                                                    48  hours,
+                                                                  implemented; otherwise, both players receive nothing. [10]                                                                                                                                                     this  means  anyone  in  the  network  could  have  been  the
+                                                                                                                                                                                                                                                                                 sender or receiver. The benefit of the decentralized topology
+B.  Ultimatum Game Differences
+                                                                                                                                                                                                                                                                                 is that there are no direct ties between the messages and
+                                                                  Unlike  traditional  Ultimatum  Games,  there  is  room  for
+                                                                                                                                                                                                                                                                                 any IP addresses. Nodes must try to decrypt all incoming
+                                                                  repetition of offers creating a more complex interaction and
+                                                                                                                                                                                                                                                                                 messages to check if it was destined for them. A feature
+                                                                  negotiation  procedure.  Another  difference  is  that  in  this
+                                                                                                                                                                                                                                                                                 called  ’streams’ was proposed in the BitMessage protocol,
+                                                                  model the money is sourced by the players, this adds extra
+                                                                                                                                                                                                                                                                                 aimed at increasing scalability but we will conveniently leave
+                                                                  psychological  factors  to  the  decision  making.  People  are
+                                                                                                                                                                                                                         this out of our scope.
+likely more emotionally attached to money that they have
+worked for, and will value it more than money they get by
+B.  Metadata
+being lucky and for free. They will thus react differently than
+in the traditional game. You’d react different about losing       A message traveling on the BitMessage network does not
+$100  from your wallet than someone coming to you and             include metadata that can reveal who the receiver or sender
+saying ”I was going to give you $100, but I did not”. Under       is. Only the encrypted payload, IV, HMAC and temporary
+the assumption that the players approach the problem in a         public key are public, the receiver of a message is the only
+purely rational sense then they do not make a distinction         able to decrypt the message and only for them the HMAC
+between a loss of their own money and a loss of potential         will properly verify.
+
+
+
+
+C.  Weaknesses                                                      versary would have to perform eclipse attacks or a consensus
+                                                                    attacks (51% mining power for example) to have a chance at
+The cryptography behind BitMessage is simplistic, there
+                                                                    spoofing a public key for a given identity. The blockchain is
+is only one key for decryption meaning an adversary can
+                                                                    traditionally stored locally, preventing information leakage
+read all future and past messages once in possession of said
+                                                                    of key look ups. The act of requesting a key from a key
+key. The protocol in itself does not provide perfect forward
+                                                                    distribution server in itself reveals that you’re interested in
+secrecy, nor perfect future secrecy. These two features should
+                                                                    communicating with an individual.
+not lack from an end-to-end encrypted messaging solution
+with a completely decentralized topology, mainly because
+adversaries can collect all messages and store them indef-
+H.  Improving efficiency with RMIDs
+initely. We can’t erase the encrypted messages from third
+parties therefore at least it should use a proper key ratchet and   Increasing  the  efficiency  of  the  BitMessage  protocol  is
+delete the private keys to decrypt the messages when they’re        possible by including a ’ratchet message id’ (RMID) in the
+being deleted. Another issue is that the curve secp256k1 is         encrypted message. Alice includes RMID 1 (hidden) in the
+hard to properly do in constant time. BitMessage solely relies      message she sends to Bob, when Bob wants to reply then he
+on  OpenSSL  to  do  the  cryptographic  lifting  for  them.  In    will publicly include RMID 1 in the header of the message.
+recent years Bitcoin Core has developed their own faster and        This allows nodes to scan all messages for known RMID’s
+potentially more secure library libsecp256k1, removing the          (without  performing  any  decryption)  and  those  matching
+dependency on OpenSSL for the most part. Another concern            known  RMID’s  will  be  the  only  ones  they  will  attempt
+is the fact that BitMessage (at the time of writing) still uses     decrypting. This improvement can potentially be integrated
+SHA1 as checksums with their ECDSA signature. SHA1 is a             onto the existing BitMessage infrastructure by prefixing the
+hash function for which the first collision has been found.[11]     HMAC  hash,  therefore  allowing  backwards  compatibility.
+The author of this paper has disclosed this but the maintainer      RMID’s can also be used, instead of scan keys to provide
+of the PyBitMessage implementation was already aware and            SMV functionality.
+quickly replied with an upgrade plan, a move to SHA256
+seems to be planned in the near future.[12]
+VI.  MARKET PROTOCOL
+D.  Improvements
+                                                                    The actual protocol falls outside the scope of this whitepa-
+E.  Dual-key stealth address
+                                                                    per. The protocol specifications however are available on Git-
+The BitMessage protocol can be extended to work with                Books. https://public.etherpad-mozilla.org/p/WlHuAPoWxO
+dual-key  stealth  addresses,  the  scan  key  can  be  used  to
+authenticate  the  HMAC  while  the  spend  key  is  used  to
+                                                                    VII.  CONCLUSIONS
+generate  the  shared  secret  for  encryption  and  decryption.
+This would allow for Simple Message Verification  (SMV)
+                                                                    The marketplace as proposed in this paper provides an
+clients, where a scan private key is shared to a trusted party,
+                                                                    extensible framework that will operate on any Bitcoin-based
+which is then able to scan for messages belonging to the user,
+                                                                    blockchain and allows for a multitude of data storage net-
+but the untrusted party will not be able read the contents. This
+                                                                    work solutions to be utilized. The field of decentralized data
+approach does partially reveal the dual key stealth address,
+                                                                    storage is constantly expanding, it seems wise to not commit
+a full address can be pieced together given that it is public.
+                                                                    to one protocol when there are so many new innovations
+The chance that two stealth addresses share the same private
+                                                                    spurring everywhere, hence a generic approach was adopted.
+key is negligent. Uniqueness of scan keys is not a property
+that is enforced, thus decoy addresses can be created, sharing
+the same scan key.                                                  A.  Future research: Data Storage Networks
+F.  Future and forward secrecy                                      One DSN was discussed, namely  ’BitMessage’ because
+                                                                    it does not leak details about lookups (what listings you’re
+A necessary improvement would be to provide perfect for-
+                                                                    viewing) to other nodes. A extended research will be the
+ward secrecy (PFS) and future secrecy for private messaging.
+This would be possible by treating BitMessage’s encryption          comparison of different solutions for data storage such as
+solely as a transport layer and instead relying on encryption       BitMessage,  Kademlia,  IPFS,  MaidSafe  etc.  We  chose  to
+libraries  such  as  libsignal  and  noise  to  encrypt  private    discuss BitMessage in this paper because the system design
+messages. Another option is to implement the Signal key             intuitively seems like the most privacy protective. A formal
+ratchet into the core of the BitMessage protocol, essentially       academic backing to this claim is planned as future research.
+creating a more optimal solution.                                   Scaleability however does remain a concern hence the reason
+                                                                    why DHTs are a necessity. Private messaging on any DHT
+G.  Blockchain key distribution
+                                                                    does  remain  a  challenge,  the  receiver  needs  to  be  made
+The  blockchain  can  store  and  link  public  keys  to  an        aware of the hash of the message to be able to retrieve it.
+identity (such as a nickname), providing a tremendous im-           BitMessage and RMIDs can help solve this issue by linking
+provement over traditional key distribution servers. An ad-         RMIDs to hashes that can be retrieved on a DHT.
+
+
+
+
+B.  Future research: Private Payment Schemes                                       way to mitigate spam, a PoW proof for example, eliminating
+any traces to the finances of a merchant.
+A wide range of academic research into payment schemes
+that provide privacy guarantees have been released in 2015
+D.  Amount correlation attack
+and 2016. None of them have yet achieved the holy trinity
+                                                                                                                                                               If  the  amounts  of  transactions                                         (type  b,  see  previous
+of  providing  (a)  an  anonymity  set  that  is  every  previous
+                                                                                                                                                               section)  were  to  be  public  then  it  would  be  easy  for  a
+transaction on the blockchain, (b) a trustless setup and (c) a
+                                                                                                                                                               passive  adversary  performing  blockchain  analysis  to  link
+highly scaleable network.
+                                                                                                                                                               these transactions to their corresponding listing simply by
+                                                                                   APPENDIX                                                                    matching the amount to the active listings on the network.
+C.  Input correlation attack
+                                                                                                                                                               E.  Index or constant reference
+Due to obvious structure of a MAD escrow transaction
+                                                                                                                                                               This  paper  proposes  using  the  index  of  the  inputs  to
+it  is  possible  to  divide  all  transactions  in  two  categories:
+                                                                                                                                                               determine which of the transaction signers is the item key
+(a) normal  transactions and  (b) transactions  that purchase
+                                                                                                                                                               in favor of the more simple and static approach of  ’input
+an item on the marketplace. The second category possesses
+                                                                                                                                                               number 1 is always the item key’ or the even more inefficient
+an  interesting  characteristic  for  blockchain  analysis,  more
+                                                                                                                                                               approach of duplicating all 32 bytes of the public key in the
+specifically merchants are more likely to use these outputs
+                                                                                                                                                               op return. This allows more room for future developments
+for creating new listings. This is not an odd perspective if we
+                                                                                                                                                               surrounding  the  idea  of  reputation  and  review.  A  further
+operate on the assumption that the venture is profitable and
+                                                                                                                                                               improvement for example could be to have multi signature
+the they minimize the cashflow going in and out from the
+                                                                                                                                                               inputs for a registration transaction where a third party is
+cryptocurrency. For example a ring signature with multiple
+                                                                                                                                                               involved acting as an extra insurance for reputation. This
+potential spenders is used to fund a new listing, it is more
+                                                                                                                                                               would essentially allow for a ’network of trust’.
+likely  that  merchants  will  be  using  outputs  coming  from
+transactions  of  type  b.  In  simple  terms,  the  funds  from                                                                                                                                                                          REFERENCES
+previous  sales  are  more  likely  to  be  used  to  create  new
+                                                                                                                                                               [1]  S.  Nakamoto,  Bitcoin:  A  Peer-to-Peer  Electronic  Cash  System,
+listings. A naive coin input selection could aid blockchain                                                                                                    https://bitcoin.org/bitcoin.pdf
+                                                                                                                                                               [2]  S. Nakamoto, Strip out unfinished product, review and market stuff,
+analysis tools to link financial transactions to identities, given
+https://github.com/bitcoin/bitcoin/commit/cc4b78d59f566ff43881f57797a16ce45eb1b8
+that we have an aggregation of listings that we know belong
+[3]  OpenBazaar, https://openbazaar.org/
+to one identity. This is can be avoided by using a different                       [4]  S. Dekorte, BitMarkets, https://voluntary.net/bitmarkets/whitepaper/
+
+
+
+
+[5]  K.  Soska,  A.  Kwon,  N.  Christin  and  S.  Devadas,  Beaver:  A  De-
+centralized Anonymous Marketplace with Secure Reputation, IACR,
+https://eprint.iacr.org/2016/464.pdf
+[6]  M. Max, DropZone, https://github.com/17Q4MX2hmktmpuUKHFuoRmS5MfB5XPbhod/dropzone-
+lib/blob/master/Drop%20Zone%20-%20Whitepaper.pdf
+[7]  A quote I made up, inspired by G. Maxwell
+[8]  J. Warren, BitMessage, https://bitmessage.org/Bitmessage%20Technical
+[9]  MultiHash, https://github.com/multiformats/multihash, 2017.
+[10]  S.    Andersen,    S.    Erta,    U.    Gneezy,    M.    Hoffman,    and
+J.                                                                                       A.     List,   Stakes   Matter   in           Ultimatum     Games,
+http://rady.ucsd.edu/faculty/directory/gneezy/pub/docs/ultimatum aer published.pdf
+[11]  Google,                                                                            Announcing     first    SHA1     collision,
+https://security.googleblog.com/2017/02/announcing-first-sha1-
+collision.html
+[12]  Peter   Surda,   BitMessage:   Move   from   SHA1                                  to   SHA256,
+https://github.com/Bitmessage/PyBitmessage/issues/953
+[13]  Namecoin, https://namecoin.org/docs/faq/
+
+
+
+
+

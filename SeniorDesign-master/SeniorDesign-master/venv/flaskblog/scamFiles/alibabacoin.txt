@@ -1,0 +1,2156 @@
+﻿1.                                  VISION……………………………………………………………………………………. 3
+1.1 Document Convention
+1.2 Intended Users
+1.3 Scope
+2.                                  INTRODUCTION………………………………………………………………………… 6
+2.1      X13 Algorithm
+2.2    Related Work
+3.                                  ABBC COIN DISTRICTS………………………………………………………………….12
+3.1 The X13 Algorithm Ecosystem
+3.1.1 Education
+3.1.2 Community
+3.1.3 Agencies
+3.1.4 Payments
+3.1.5 Exchange
+3.1.6 Trading and Investment
+3.1.7 Payment App Solution
+3.1.8 Social Contribution
+3.1.9 Global Payment
+3.1.10 Economic Growth
+3.1.11 Charity
+3.1.12 Security
+3.2 Content Creation
+3.3 AlibabaCoin Shopping District
+3.3.1 Why We Are Doing This
+3.3.2 Benefits of the Wallet
+3.3.3 Cost
+3.3.4 Security
+3.3.5 Mobility
+3.3.6 User Friendliness
+3.3.7 Convenience
+3.3 AlibabaCoin Business District
+1
+Alibabacoin Foundation
+
+
+
+
+3.4 Unit Description of AlibabaCoin
+3.5 Current State of the Prototype
+4.                                                           TECHNOLOGY…………………………….……………………………………………..24
+                                                             4.1 Current Prototype Architecture and Capabilities
+4.2 Current User Profile Features
+4.3 Future Architecture
+4.4 Improved Proof-of-Stake Algorithm
+4.4.1 Coin Age and linear Proof-of-Stake
+4.4.2 Proof of Work
+4.4.3 Proof of Stake
+4.4.4 Related Work
+4.5 Basic Specification of AlibabaCoin
+5       MARKET ADAPTATIONS…………………………………….…………………….…….45
+6       TECHNOLOGY OVERVIEW.. ……………………………….…….……………………..46
+6.1 Multi Crypto Wallet
+6.1.1 Web Wallet
+6.1.2 Mobile Wallet
+6.1.3 AlibabaCoin Use Cryptocurrency
+6.2 Wallet Solution (Manual)
+6.3 Facial Recognition Technology
+6.4 Paying With Your Face
+6.5 Breakthrough
+6.6 Payment Solution Technology
+6.6.1 How Our Technology Works
+6.6.2 Product Specifications
+6.7 Mobile App Payment
+6.8 Mobile Crypto Wallet
+7       ECONOMY………………………………………….……………………………………...68
+7.1 Shopping
+8       DEVELOPMENT ROADMAP……………………………………………………………..73
+2
+Alibabacoin Foundation
+
+
+
+
+9                                                       TOKEN
+SALES……………………………………………………………………………...74
+9.1 ICO Conditions (Token Sales)
+9.1.1 Marketing Crowd Sales Progress
+* Ethereum
+* Bitcoin
+* Bitcoin Cash
+* Ripple
+* Litecoin
+* Dash
+* Qtum
+9.1.2 Target
+9.2 What Are We Going To Do With The ICO Funds?
+9.2.1 System Maintenance
+9.2.2 New Technology Development
+9.2.3 Exchange Site Development
+9.2.4 Online Shopping Mall Maintenance
+9.2.5 Charity Events
+10       CONCLUSION………………………………………………………………………….…94
+11       REFERENCE…..………………………………………………………………………..…95
+3
+Alibabacoin Foundation
+
+
+
+
+Vision
+The  Crypto-Currency  market  is  growing  at  an  enormous  rate,  and  many  governmental
+organizations are fearing that they might overtake the fiat currencies in no time. Of course, that
+would seem impossible if you are already an expert in this market. However, it is quite an
+interesting theory that we might have to be prepared for, because nobody knows how far and
+how big this market will end up.
+AliBabaCoin is an open-source platform to develop the digital crypto currency market spaces
+and objects of any purpose, as well as their quick launch and integration into a unique ecosystem.
+The platform is maintained by a business crypto economy and is powered by Blockchain.
+AlibabaCoin is a new development of crypto-based currency that will be using new features and
+techniques  of  security  and  encryptions  so  that  worldwide  payment  solutions  can  provide
+customers with liable modules for payment and transactions. Personal information needs a new
+format of being kept safe and solid. AlibabaCoin Foundation will provide the world a new
+solution where nobody will have to be afraid of keeping their crypto on their portable devices.
+Although we cannot avoid using fiat currency, it is quite obvious that we are carrying less paper
+money in our leather wallets, and they have all been converted into digital assets kept in banks or
+credit cards. Eventually, they are featured in a similar format as crypto’s and are used in our
+daily lives these days. The world is gradually initiating that crypto is a better format for keeping
+your assets safely and decentralized. However, there have been several cases of malicious attacks
+and disturbances in the market where robbery and hacking events have occurred. Of course, this
+event of thievery did not occur in matters of the block chain, but rather that of the personal
+information and database resources.
+Basically, our mission is providing flexibility to the users, as well as all around the world to
+reducing their time consumptions with secure and efficient system with advance features.
+The requirements for the project are to development of a system that has a secure access to all
+users  to  avail  the  all  functionality  provided  by  AlibabaCoin  foundation.  User  requires
+implementing different features related to how to use ABBC wallet. The Alibabacoin System is
+4
+Alibabacoin Foundation
+
+
+
+
+intended to replace the manual model of user’s registration for wallet record keeping by means
+paper records. The registration and paper records are replaced with a single interaction between
+the users and the Alibabacoin Foundation. Users will be able to view their all ABBC coins
+including buying selling and online shopping by a secure Alibabacoin wallet. The features
+expressed in this white paper document are intended to be fully implemented.
+Although technology is rapidly changing almost at the speed of light, most of the Crypto
+currencies are still using manual management system, these Crypto currencies management,
+share ideas and passing of information, are done manually hence providing:
+•   Providing untimely assessment information.
+•   Consume a lot of time.
+•   Waste and use lots of resource forms.
+•   Difficulty of searching and retrieving records.
+•   Security issues.
+•   Frudentlants.
+•   Sacmes.
+The manual handling of the cryptocurrency system has always been a difficult task and less
+secure, so the sub-objective is to identify the requirement and design the Digital currency system
+that will resolve the above problem of manual system, by designing and implementing the
+proposed system successfully and securely.
+5
+Alibabacoin Foundation
+
+
+
+
+Document Convention:
+This Document is unique its scope is to describe the requirement of Alibabacoin
+system and the interface for it. Following convention are used in this documents.
+•   ABBC: Alibabacoin (cryptocurrency).
+•   POS: Proof-of-stake.
+•   POW: Proof of work.
+•   AML: Anti money laundering.
+•   HTML: Hyper Text Markup Language.
+•   CSS: Cascading styling sheet.
+•   PHP: Personal Home Page (server side scripting).
+•   SMX: Server Macro Expansion
+Intended Users:
+This document may be used by the users of Alibabacoin Foundation. All
+the organization members can easily understand the feature and possibilities that the program
+provides. User can get general image of the program. This document could be studied by the
+professionals so they easily understand what is the main basis of the foundation.
+Scope:
+The Alibabacoin Foundation will allow users to shop online by using their
+ABBC wallet. Also, the system will permit the users to check and avail all the details and
+facilities related to this crypto currency ABBC wallet e.g. user can able to send receive, shop
+online,  exchanging  of  Alibabacoin  with  best  crypto  exchange  platforms  in  the  world.
+Furthermore, the goal is to provide users with an easy, secure and advance technology approach
+for all aspects related crypto currency.
+6
+Alibabacoin Foundation
+
+
+
+
+Introduction:
+Since the birth of Bitcoin, crypto 1.0 has been the most influential and most dominant format of
+cryptocurrency in the market for a very long time. However, new algorithm formats of encoding
+have become the new kids on the block and has started to dominate the market, threatening the
+position of the world’s first and biggest coin. We have searched for the best format to use for our
+new payment solution, and have chosen the X13 Format:
+7
+Alibabacoin Foundation
+
+
+
+
+1. X 13 Algorithm:
+X13 is one of the most modern hashing algorithm models in the market. It uses 13 rounds of
+hashing with 13 different hash functions such as “bmw, blake, groestl, jh, keccak, skein, luffa,
+cubhash” etc. This unique function allows the algorithm to be one of the most reliable and safe
+crypto-currencies in the world.
+Bitcoin’s inception in 2009 many
+newcomers have emerged, and we
+call them altcoins today. They all
+share the same basic principles of
+Bitcoin,  but  have  different  PoW
+algorithms,   different   difficulty
+adjustment  mechanisms,  different
+amount  of  coins  generated  per
+block  and  different  number  of
+supply. Bitcoin along with altcoins
+form  the  cryptocurrency  market
+where they can be exchanged into the usual fiat currencies. However, a bulk of altcoins where
+conceived with the aim to improve the limitations and weaknesses of Bitcoin. A major weakness
+of Bitcoin is the fact that its PoW algorithm is based on SHA-256 and makes it therefore
+vulnerable to ASIC miners. Litecoin was the first altcoin to be ASIC  (Application Specific
+Integrated Circuits) resistant by making use of Scrypt as PoW algorithm. It ought to be resistant,
+but in 2014 the first Scrypt ASIC miners were released. After that people tried to further improve
+the Scrypt algorithm in order to make it again resistant. Algorithms such as NeoScrypt, Scrypt-
+Adaptive-N-factor (Scrypt-N) and Scrypt-Jane (Scrypt-Chachacha) emerged. These algorithms
+claim to be more memory intensive than Scrypt. With the release of Dash, a new ASIC resistant
+PoW algorithm was released as well. This algorithm was called X11. X11 uses a combination of
+eleven hashing algorithms in series in order to be resistant. However, X11 has also been
+superseded by ASICs and successors combining thirteen hashing algorithms in series (X13) and
+recently even fifteen hashing algorithms in series (X15) had emerged.
+8
+Alibabacoin Foundation
+
+
+
+
+Obviously combining more and more different hashing algorithms in series will not make it
+more resistant but will solely make it more inefficient to mine.
+There is a large number of cryptocurrencies using the Scrypt PoW algorithm as well as,
+probably due to legacy reasons, another large number of cryptocurrencies is still using the SHA-
+256 PoW algorithm. In the beginning, 1st generation cryptocurrencies could only be mined using
+CPUs and the power consumption was very high. Afterwards 2nd generation cryptos started
+using GPUs for mining purposes as they achieved faster speeds with lower power consumption
+but  still  comparably  high.  Then,                                                                3rd  generation  newcomers  started  using  FPGAs   (Field
+Programmable  Gate  Arrays)  in  order  to  mine  cryptocurrencies  at  higher  speeds.  FPGAs
+decreased the power consumption quite substantially making the mining of cryptocurrencies
+truly profitable. However, as more people joined, the profitability went down and the  4th
+generation of miners followed, namely ASICs. ASICs are dedicated miners with the purpose of
+decreasing the costs of mining and in particular power consumption many times. Thus, the
+process of mining coins started out with the use of software solutions and evolved further to the
+use of hardware solutions due to the steadily rising demand for higher speeds. The increase of
+hardware solutions has initiated the development of memory hard PoW algorithms, such as
+CryptoNight and Ethash. Nowadays all PoW algorithms are supported by CPU and GPU miners,
+whereas the support for ASIC miners is currently solely available to PoW algorithms with a large
+number of cryptocurrencies i.e. SHA-256, Scrypt and X13. This however does not mean that
+other PoW algorithms are resistant to ASIC miners but are simply currently not available for sale
+as the demand is just too low. Support is theoretically possible as some of the PoW algorithms
+are not memory bound whereas this is currently the only limitation of ASIC miners.
+9
+Alibabacoin Foundation
+
+
+
+
+X13 uses both POS and POW methods of mining, and is quite easy to utilize the algorithm for
+mining. Mining is often thought of as the way to create new coins. But that is just a secondary
+purpose. The primary importance of mining is to ensure that all participants have a consistent
+view of the data. As cryptocurrencies, such as Bitcoin, consist of a distributed peer-to-peer
+system, there is no central database that keeps track of who owns how many coins. Instead, the
+log of all transactions is distributed across the network. The main problem with a distributed
+transaction log is to avoid inconsistencies that could allow someone to spend the same coins
+twice. The solution is to mine the outstanding transactions into a block, which makes the
+transactions official. Conflicting or invalid transactions are not allowed into a block, so the
+double-spending problem is avoided. Although mining transactions into blocks avoids double-
+spending, it raises new problems: What stops people from randomly mining blocks? How do you
+decide who gets to mine a block? How does the network agree on which blocks are valid?
+Solving those problems is the key innovation. Background of cryptocurrencies, such as Bitcoin.
+Cryptocurrencies usually solve these problems by making mining of new coins very difficult
+through a technique called proof-of-work (PoW). PoW used to be an economic measure to deter
+denial of service attacks and other service abuses such as spam on a network by requiring some
+work from the service requester, usually meaning processing time by a computer. A key feature
+of PoW is the asymmetry: the work must be moderately hard (but feasible) on the requester side
+but easy to check for the service provider. Bitcoin and other cryptocurrencies borrow their PoW
+system from “Hashcash”. Hashcash is a PoW system that was used to limit email spam and
+denial-of-service attacks and that was proposed in May 1997 by Adam Back. It uses partial hash
+inversions to prove that work was done, as a good-will token to send an e-mail. The sender is
+required to find a message whose hash value begins with a certain number of zero bits. The
+average work that a sender needs to perform in order to find a valid message is exponential in the
+number of zero bits required in the hash value, while the recipient can verify the validity of the
+message by executing a single hash function. Bitcoin for instance, uses a cryptography hash
+function called double SHA-256. This hash function takes a chunk of data as input and shrinks it
+down into a smaller 256 bits hash value. With cryptographic hash functions, there is no other
+way to get a desired hash value, without trying a whole lot of different inputs. In more detail, to
+mine a block in Bitcoin, the miner first has to build the block header. The block header contains
+a handful of fields that describe the block. The first field being the protocol version and the
+10
+Alibabacoin Foundation
+
+
+
+
+second field being the hash of the previous block in the blockchain, which ensures that all the
+blocks form an unbroken sequence in the blockchain. The next field is the Merkle root, a special
+hash of all the transactions that should go into the block. The first transaction is the special
+“coinbase” transaction, which grants the mining reward to the miner. The remaining transactions
+are standard Bitcoin transactions moving Bitcoins around. The Merkle root is also a key part of
+Bitcoin’s security, since it ensures that transactions cannot be changed once they are part of a
+block. The next fields consist of a moderately accurate timestamp of the block, followed by the
+mining difficulty value. This value changes according to the hash rate of the whole network, in
+order to keep a consistent generation of Bitcoins. The last field is called the nonce. The nonce is
+an arbitrary value that is incremented on each hash attempt in order to provide a new hash value.
+The tricky part of mining is to find a nonce that works. After the block header is built, the miner
+hashes the block to form a 256-bit block hash value. If the hash starts with enough zeros, the
+block has been successfully mined, whereas it is sent to the Bitcoin network and the hash
+becomes the identifier of the block. However, most of the time the hash is not successful, so the
+miner keeps incrementing the nonce value contained in the block header and tries again, over and
+over, billions of times. Eventually the miner will successfully mine a block and the process starts
+over. It takes a tremendously huge amount of computational effort to mine a block, but it is very
+easy for peers on the network to verify that a block has been successfully mined. The difficulty
+and competitiveness of mining is a key part of Bitcoin’s security, since it ensures that nobody
+can flood the system with bad blocks. Each mined block references the previous block, forming
+an unbroken chain back to the first block called the “genesis” block. This chain of blocks, also
+called the “blockchain”, ensures that everyone agrees on the transaction record. It also ensures
+that nobody can tamper with blocks in the chain since re-mining all the following blocks would
+be computationally infeasible. As long as nobody has more than half of the computational
+resources, mining remains competitive and nobody can control the blockchain.
+11
+Alibabacoin Foundation
+
+
+
+
+Related Work:
+Bitcoin.  Bitcoin  is  a  digital  currency that  relies  on  cryptography,  also  denoted  as
+cryptocurrency, that finally provides an elegant solution to the problem of requiring a trusted
+third party. It broadcasts and agrees on transactions through a peer-to-peer network in order to
+prevent doublespending. The design paper was published under a pseudonym called “Satoshi
+Nakamoto” in 2008. In more detail, Bitcoin relies on digital signatures to prove ownership and
+on a public history of transactions to prevent double-spending. The history of transactions is
+shared using a peer-to-peer network and is agreed upon using a proof-of-work system. The legal
+status of Bitcoin varies from country to country. It is banned in some parts of the world, but the
+reception is in general positive. Bitcoin is nowadays accepted by major companies, such as
+Microsoft, as a currency for online purchases. Currently more than 16.000.000 Bitcoins were
+generated and the exchange rate is 10,450.60 USD for one Bitcoin. Bitcoin is comprised of about
+5.252 servers and the estimated number of clients is 200.0002 . Bitcoin’s pseudonymity comes
+from the fact that users of the system are identified by Bitcoin addresses which are essentially
+hashes of public keys. Each user can create locally as many public keys as he or she wants.
+Bitcoin is an electronic analog of cash in the online world. It is decentralized: there is no central
+authority responsible for the issuance of Bitcoins and there is no need to involve a trusted third
+party when making online transfers. However, this flexibility comes at a price: the entire history
+of Bitcoin transactions is publicly available which makes it vulnerable to de-anonymization
+attacks.
+12
+Alibabacoin Foundation
+
+
+
+
+THE ALIBABACOIN ECOSYSTEM
+EDUCATION:
+The Alibabacoin Ecosystem
+is an innovative e-learning platform
+covering a broad range of financial
+topics including trading, the stock
+exchange, cryptocurrency, financial
+analysis,  asset  management  and
+more. Our mission is to provide our
+students  with  the  guidance  and
+educational materials they need to
+achieve financial literacy. Learn at your own pace and be part of the future of global finance
+COMMUNITY:
+Alibabacoin Ecosystem is a cryptocurrency profit-sharing system with a strong mission
+to deliver engaging and life-changing values. We inspire our team members through strong
+leadership and education on a full spectrum of technology developing initiatives. Our investors
+and coin holders will be the most beneficial in this market as the development will continue. Our
+system will allow the crypto population to share, mine, scale, and also develop in a wide range
+available.
+AGENCIES:
+Alibabacoin currently has been able to recruit a great number of dealers and agencies
+throughout the world. Mostly in east Asia, the Alibabacoin will be distributed in the IT market as
+well as the crypto-market for financial development. The ICO sales and the agency sales will be
+proceeding together. Agency registry and distribution will take place via official webpage.
+PAYMENTS:
+Our payment platform is a unique payment solution for easily accessing and transferring
+funds  electronically.  Accessible  from  any  location  in  the  world,  the  world-wide  payment
+13
+Alibabacoin Foundation
+
+
+
+
+network, proprietary payment platform and global payment solution ensures payees that they
+receive their funds in a timely and cost-effective manner. Payees enjoy the benefits of quickly
+receiving their funds and the ability to choose payment methods that are most convenient for
+them, including local bank direct deposit, branded prepaid cards and more.
+EXCHANGE:
+The Alibabacoin Ecosystem was initially launched as an internal platform to develop the
+facial recognition technology and payment solution implemented with the cryptocurrency market
+and trading. We have come up with the schedule of creating a sharing platform where anyone
+can join and trade cryptos. Our benchmark is that of a Hong-Kong exchange platform, and we
+will be using our own crypto to distribute better service and lower fees in many functions in the
+platform.
+TRADING AND INVESTMENT:
+Alibabacoin has its own blockchain based wallet, and will provide infrastructure for full
+trading and investment. The current era is the fiat-crypto switching era where those who favor
+crypto currency as the safe investment for securing financial assets. Trading and investment must
+be in a secured format in order to be abundant and civilized, and our solutions will provide the
+best methods to secure one’s funds and also to distribute them proportionally or individually.
+PAYMENT APP SOLUTION:
+Alibabacoin HD Wallet Solution will offer uses to use their personal information and
+uniquely distinguishable features in order to create secured transactions, but at the same time
+unmarked signatures are created to stabilize anonymous transactions through blockchain. The
+encryption  guarantees that the provider has zero-knowledge of  your files. The recognition
+process is only available to the user, who creates it. Ensuring that even if your computer or
+mobile device is lost, no one will ever be able to see your encrypted content!
+14
+Alibabacoin Foundation
+
+
+
+
+SOCIAL CONTRIBUTION:
+ABBC is fundamentally operated by the Foundation with the aim of social contribution
+and donation. It supports the Foundation’s capabilities in war, hunger, and medical care. Block-
+chain technology also applies to the structure of donations, allowing diverse people, society, and
+organizations to support them through ABBC.
+GLOBAL PAYMENT:
+Nationwide and global companies, all the way down to small-shop operators, tend to use
+private and centralized software systems and solutions. Banks and the modern financial system is
+a perfect example. If I want to send you money, I have to go through a bank in order to verify the
+transaction the bank being the “centralized” hub for verification. But through the blockchain, the
+very building blocks that power cryptocurrencies like Bitcoin and Ethereum, that centralized
+entity no longer has a purpose. It doesn’t have a job. There is no need for its services because the
+blockchain does the verification automatically. Alibabacoin Foundation is currently preparing an
+15
+Alibabacoin Foundation
+
+
+
+
+online shopping and a crypto exchange business that will combine all platforms and enable them
+to use a more facilitated payment structure and a more safe method to keep and distribute
+cryptos.
+ECONOMIC GROWTH:
+Cryptocurrencies   is not going to replace any major currency or central bank anytime
+soon. It will definitely serve as alternate currency/asset for a long time. It encompasses all
+activity related to production, consumption and trade of goods and services in a country. So to
+trade you need a convenient medium of exchange that is currency and to issue a currency you
+need a trusted party like government and central bank. That’s where Bitcoin is challenging the
+traditional methods. Alibabacoin wants to serve as one of the best asset in real time economic
+growth in a long progress in all aspects.
+CHARITY:
+ABBC  is  a non-profit  foundation  created  for  a purpose to  enhance the blockchain
+technology and to share the financial benefits to all parts of the world. We start with our local
+societies.  ABBC  Foundation  is  located  in  Dubai,  and  we  are  willing  to  find  places  and
+organizations that need our help and caring hands and extend it for the whole world in the
+nearest future using the newest technology.
+SECURITY:
+ABBC wallet must be secured. Alibabacoin Foundation is developing and creating the
+application that can make it possible to allows you to be in control of your money. Also to
+transfer any cryptocurrency value anywhere in a fastest and easiest possible way. and in such
+great features also come with great security concerns. The AlibabaCoin blockchain technology
+offers a secure and extremely convenient method of payment without raising privacy concerns.
+16
+Alibabacoin Foundation
+
+
+
+
+Content Creation:
+The    ALIBABACOIN    platform    is
+designed to give users all the necessary tools for
+Currency content creation. The current prototype
+allows for the creation of residential, shared and
+business investment or trading (Bitcoin, Litecoin
+etc), filled with pre-selected or custom elements
+of Blockchain, ICO, Smart Contract and Token
+content. In the future, there will be an option to
+add  any  user  created  digital  Crypto  currency
+content.
+At present, we are developing our own scripting language that is going to make it possible for
+users to create their own transaction record view objects and applications.
+ALIBABACOIN Shopping District:
+Four  digital  crypto  currency  have  already  been  virtualized  by  our  expert  team  to
+demonstrate the capabilities of our platform. Special attention has been placed on enhancing the
+technology required to sell Alibabacoin. At present, you could select a particular item of a coin
+and put it on any crypto currency in our crypto coin fitting room and see how it would look on a
+trading or investment time. The accuracy is so precise that most people don’t even realize they’re
+looking at a real money in virtual form. The Crypto currency platform occupy at least 50% of
+any major exchanging or ICO offering platform and we have already perfected this technology.
+17
+Alibabacoin Foundation
+
+
+
+
+WHY WE ARE DOING THIS?
+Alibabacoin Foundation is making every possible way to reach even the smallest type of
+businesses, merchants to be able to transact in the easiest and fastest way. Through blockchain
+technology and the concepts of ABBC, every user can maximize the technology to meet every
+user’s expectations. With additional passion, ABBC Foundation will be able to multiply and
+improve all of the existing technology in our world today by providing more innovations,
+uniqueness, deeper security, faster process for all the users of the system.
+BENEFITS OF THE WALLET:
+No wallet has this kind of technology
+More secure
+Prior to road map. all cryptocurrencies can use the wallet for free
+A wallet that no one has:
+•   Cost. Is it free? What are the drawbacks of using this wallet?
+•   Security. Does the company have a track record of security excellence?
+•   Mobility.  Is  it  easy to  keep  and  difficult  to  lose?  Is  it  accessible  anytime,
+anywhere?
+•   User-friendliness. Is the wallet UI intuitively designed? Can I store a range of
+altcoins?
+•   Convenience. Am I able to make a fast purchase when the time calls for it?
+COST :
+Downloading the wallet is for free. The update is free. It only needs internet connection.
+SECURITY :
+Alibabacoin wallet will be secured using specific algorithm programmatically that is
+explained on the first topic above. The system cannot be hacked for the reason that it has deep
+and complex security platform used, even you lost your device, face recognition feature will
+never allow the any other person to transact within the wallet. Session for the application is also
+18
+Alibabacoin Foundation
+
+
+
+
+being implemented, when the user is Idle and not in used of the app, It will automatically log out
+depending on the time set within its back-end
+MOBILITY:
+By resolving how we can set requirements and how to govern the application to link to
+one another.   Programmatically, webservices, complex database and algorithm is implemented
+for desktop computer and mobile connection. User accounts, users transactions, users details will
+be saved in one database connected to one webservice. The purpose of this method is to
+implement mobility, Interoperability, usability, reusability, deployability of the application
+USER FRIENDLINESS:
+For aaltcoin preferences   and broadness, ABBC will allow to be used and trade in BTC
+exchange up until it grows and can be exchange in the market with different cryptocurrencies
+like Litium, Etherium, etc.
+In terms of users interface, the Alibabacoin wallet is designed simple by showing straightforward
+action buttons, providing quick access to common features and also commands. The developers
+keep it clean by   making the user interface   well-organized, making it easy to locate different
+tools and options. The goal of the wallet in terms of user friendliness is to provide a good user
+experience as well as stress testing the application before putting it on market.
+CONVENIENCE :
+Alibabacoin wallet adopt and implement blockchain platform to give more supply chain
+management, quality assurance, smart contract transactions, open stock exchange platform, peer
+to peer global transaction.
+19
+Alibabacoin Foundation
+
+
+
+
+ALIBABACOIN Business District
+Today, many companies and organization in the digital crypto
+currency  market  give  business  profits  on  their  services  online.
+Sometimes  these  companies  do  not  even  have  physical  offices.
+Cryptocurrency technology allows any reputable company to virtualize
+their office and allow it to be visited by potential customers.  Whether you are looking for a third
+party  or  trying  to  choose  an  exchange  crypto  currency,  thinking  about  start  trading
+ALIBABACOIN, transfer ALIBABACOIN, purchasing ALIBABACOIN so we will help you to
+provide these type of service with smart secure feature.   Imagine a company that has recently
+managed a successful Token sale having its own virtual office that any investor could visit and
+get it these type of service on online ALIBABACOIN platform and Token sale promotion
+agencies could purchase an office right next to the Ethereum found.
+20
+Alibabacoin Foundation
+
+
+
+
+21
+Alibabacoin Foundation
+
+
+
+
+22
+Alibabacoin Foundation
+
+
+
+
+23
+Alibabacoin Foundation
+
+
+
+
+24
+Alibabacoin Foundation
+
+
+
+
+25
+Alibabacoin Foundation
+
+
+
+
+PROTOTYPE                                                                                      ARCHITECTURE                                                                         AND
+CAPABILITIES
+The current platform is based on a decentralized architecture of crypto currency; however, a
+roadmap has been prepared to fully decentralize it. Our existing platform can automatically
+detect price ratio day by day. Alternatively,
+the   ALIBABACOIN    has   provide   a
+notification update of every time for trading
+price of coin. Using built-in accelerometers,
+the  system  can  process  information  from
+digital crypto currency market, to improve
+navigation  of  the  user  in  the  trading  or
+exchanging   space.   Sharing   recognition
+technology  allows  the  user  to  share  the
+cryptocurrency one wallet to another wallet
+with help of private key generation by the
+platform.
+The existing platform front-end is implemented using:
+•   HTML5/CSS3/JavaScript/JSON + SMX.
+•   Back-end is written in: Perl, Python, Java, Node.js, PHP
+•   The algorithm is use X 13 which is provide s fully secure and aware to hacking facility
+Standards to use:
+•                                                                                              ISO 21500: for any type of project, irrespective of complexity, size and duration.
+•                                                                                              GAPPS: Global Alliance for project performance standards.
+•                                                                                              ISO standard 9000: Quality management system.
+26
+Alibabacoin Foundation
+
+
+
+
+HTML5:
+This version of markup hypertext language has latest feature for user including easy
+video streaming everything is latest maximum browser are supported by this version.
+HTML code ensures the proper formatting of text and images so that your Internet browser may
+display them as they are intended to look. Without HTML, a browser would not know how to
+display text as elements or load images or other elements. HTML also provides a basic structure
+of the page, upon which Cascading Style Sheets are overlaid to change its appearance. One could
+think of HTML as the bones (structure) of a web page, and CSS as its skin (appearance).
+What does HTML look like?
+<!DOCType                                                                                                                                                                     HTML      PUBLIC      "-//W3C//DTD                                         HTML                 4.01        Transitional//EN"
+                                                                                                  "https://www.w3.org/TR/html4/loose.dtd">
+<html                                                                                                                                                                                                                                                                                     lang="en"><head>
+<title>Example                                                                                                                                                                                                                                                                            page</title>
+<meta                                                                                                                                             http-equiv="Content-Type"                                                        content="text/html;                                    charset=windows-1252">
+</head>
+<body>
+<h1>This                                                                                                                                                                                                           is                                    a                                heading</h1>
+<p>This                                                                                           is                                              an                          example                                              of                    a           basic    HTML                                 page.</p>
+</body></html>
+What is HTML5?
+HTML5 is the update made to HTML from HTML4  (XHTML follows a different version
+numbering scheme). It uses the same basic rules as HTML4, but adds some new tags and
+attributes which allow for better semantics and for dynamic elements that are activated using
+                                                                                                  JavaScript.  New  elements  include  section,                                                                    <article>,      <aside>,              <audio>,    <bdi>,   <canvas>,
+<datalist>,                                                                                       <details>,                                      <embed>,                    <figure>,                            <figcaption>,   <footer>,             <header>,            <keygen>,
+<mark>, <meter>, <nav>, <output>, <progress>, <rp>, <rt>, <ruby>, <time>, <track>, <video>,
+and <wbr>. There are also new input types for forms, which include tel, search, url, email,
+datetime, date, month, week, time, datetime-local, number, range, and color.
+27
+Alibabacoin Foundation
+
+
+
+
+With the increasing movement to keep structure and style separate, a number of styling elements
+have been removed along with those that had accessibility issues or saw very little use. These
+following elements should no longer be used in HTML code: <acronym>, <applet>, <basefont>,
+<big>, <center>, <dir>, <font>, <frame>, <frameset>, <noframes>, <strike>, and <tt>. HTML5
+also simplifies the doctype declaration to the tag in the following box.
+<!doctype html>
+CSS3:
+CSS is the language for describing the presentation of Web pages, including colors, layout, and
+fonts. It allows one to adapt the presentation to different types of devices, such as large screens,
+small screens, or printers. CSS is independent of HTML and can be used with any XML-based
+markup language. The separation of HTML from CSS makes it easier to maintain sites, share
+style sheets across pages, and tailor pages to different environments.
+How Css looks Like?
+The following very simple example of a portion of an HTML document illustrates how to create
+a link within a paragraph. When rendered on the screen (or by a speech synthesizer), the link text
+will be “final report”; when somebody activates the link, the browser will retrieve the resource
+identified by “http://www.example.com/report”:
+<p class="moreinfo">For more information see the
+<a href="http://www.example.com/report">final report</a>.</p>
+The class attribute on the paragraph's start tag (“<p>”) can be used, among other thing, to add
+style. For instance, to italicize the text of all paragraphs with a class of “moreinfo,” one could
+write, in CSS:
+p.moreinfo { font-style: italic }
+By placing that rule in a separate file, the style may be shared by any number of HTML
+documents.
+28
+Alibabacoin Foundation
+
+
+
+
+PHP:
+PHP stands for Hypertext Preprocessor. PHP is a powerful and widely-used open source server-
+side scripting language to write dynamically generated web pages. PHP scripts are executed on
+the server and the result is sent to the browser as plain HTML.
+PHP can be integrated with the number of popular databases, including MySQL, PostgreSQL,
+Oracle, Sybase, Informix, and Microsoft SQL Server.
+What You Can Do with PHP?
+•   There are lot more things you can do with PHP.
+•   You can generate dynamic pages and files.
+•   You can create, open, read, write and close files on the server.
+                                                                                                •   You can collect data from a web form such as user information,   email,   credit   card
+information and much more.
+•   You can send emails to the users of your website.
+•   You can send and receive cookies to track the visitor of your website.
+•   You can store, delete, and modify information in your database.
+•   You can restrict unauthorized access to your website.
+•   You can encrypt data for safe transmission over internet.
+What its look like?
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PHP Application</title>
+</head>
+<body>
+<?php
+// Display greeting message
+echo 'Welcom to ABBC Foundation!';
+?>
+</body>
+29
+Alibabacoin Foundation
+
+
+
+
+</html>
+Perl:
+Perl is a family of script programming languages that are similar in syntax to the C language,
+including Perl 5 and Perl 6. Perl is an open source, general-use, interpreted language.
+In general, Perl is easier to learn and faster to code in than the more structured C and C++
+languages. Perl programs can, however, be quite sophisticated. It is often used for developing
+common gateway interface  (CGI) programs because it has good text manipulation facilities,
+although it also handles binary files.
+Perl includes a number of popular UNIX facilities such as sed, awk, and tr. It can be compiled
+just before execution into either C code or cross-platform bytecode. When compiled, a Perl
+program is almost as fast as a fully precompiled C language program. A plug-in can be installed
+for some servers, such as Apache, so that Perl is loaded permanently in memory, thus reducing
+compile time and resulting in faster execution of CGI Perl scripts.
+The first version of Perl was created in  1987 by programmer Larry Wall. The name was
+originally said to stand for "Practical Extraction and Reporting Language," but that name is no
+longer used. Wall prefers the usage of an upper-case "Perl" for the language itself and lower-case
+"perl" for any interpreter or compiler of Perl.
+As of May 2017, Perl is in its fifth release, Perl 5, which was first made available in 1994. The
+current version is 5.24, released in May 2016
+What perl look like?
+# Prints the message using two different delimeters.
+print "Hello, world!\n";
+print qq=Did you say "Hello?"\n=;
+30
+Alibabacoin Foundation
+
+
+
+
+Project characteristics:
+Following are the characteristics of our project that distinguish it from other projects in
+other word s this project are highly:-
+Maintainable:
+changes can be made to satisfy new requirements or to correct deficiencies.
+This applies especially to the architecture, the "big picture". And our project will be more flexible
+and more familiar
+Correct:
+This project adheres to its specified requirements
+Reusable:
+This project can be reused in developing other software.we adding module that will be used in
+the code again and again because if we want to write one type of module more then one time we
+should reuse the code as we write it before we don’t need to write code again and again .
+Reliable:
+The frequency and criticality of software failure, where failure is an unacceptable effect or
+behavior  occurring  under  permissible  operating  conditions.                                         Repeatable  processes  reduce
+variability  through  measurement  and  constant  process  correction.  The  term  originated  in
+manufacturing, where results were well defined and repeatability meant that if a process had
+consistent inputs, then defined outputs would be produced. Repeatable means that the conversion
+of inputs to outputs can be replicated with little variation. It implies that no new information can
+be generated during the process because we have to know all the information in advance to
+predict  the  output  results  accurately.  Repeatable  processes  are  not  effective  for  product
+development projects because precise results are rarely predictable, inputs vary considerably
+from project to project, and the input-to-output conversions themselves are highly variable
+Reliable processes focus on outputs, not inputs. Using a reliable process, team members figure
+out ways to consistently achieve a given goal even though the inputs vary dramatically. Because
+31
+Alibabacoin Foundation
+
+
+
+
+of the input variations, the team may not use the same processes or practices from one project, or
+even one iteration, to the next. Reliability is results driven. Repeatability is input driven. The
+irony is that if every project process was somehow made repeatable, the project would be
+extremely unstable because of input and transformation variations. Even those organizations that
+purport to have repeatable processes are often successful not because of those processes, but
+because of the adaptability of the people who are using those processes
+Portable:
+This can be easily using on computer configurations other than its current one.                      Onepoint is a java
+app, which raises some portability issues for the purists. However, it appears to be a great
+candidate for the PortableApps treatment. I am using Onepoint regularly from my USB stick
+with no issues. It appears to be very portable natively. The visual look and feel of this app is
+streets ahead of the other open source project managers - and the software is robust and very
+functional. This app is highly recommended as a "must try" for anyone interested in project
+management software. It can import MS Project files
+Efficient:
+The degree of our ABBC project fulfills its purpose without waste of resources.
+7 Habits of Highly Effective Project
+•                                                                                                    Be A Proactive Project Manager:
+The “accidental” project manager is someone who has come up through the ranks and may have
+been picked to lead a project due to their vast technical experience, but not their people
+management expertise. For example, a strong network technician may be asked to head up the
+network upgrade because he understands the system better than anyone else. These people may
+fall into the role with a lot of specific project knowledge, but they may struggle with branching
+into the team-building, management category of the work.
+The “good” project manager is someone who handles both the knowledge and management
+portions of the business well, but they tend to be more reactive than proactive in their approach.
+32
+Alibabacoin Foundation
+
+
+
+
+They do what is expected, but no more. They follow the rules, but don’t create new innovative
+venues to do things better
+•                                                                                                     Begin with the End in Mind
+In project management, as with anything, it is easy to go into analysis paralysis. When multiple
+people take a project, and break it down into pieces of their own real estate, it sometimes can get
+difficult to stay focused on the final picture. Everyone’s work must come together in the end.
+Egos must be set aside for the greater congruency of the overall picture. It is much easier to work
+together when everyone is focused on the final team outcome, not on stealing the spotlight and
+looking like a rock star.
+•                                                                                                     Put First Things First
+Covey says to always do your big rocks - your most impactful, important things - first. This
+means, you don’t allow little distractions and rabbit trails to take away your focus from the
+main areas in your project.
+Products and activities:
+Acquisition life cycle of our project:
+Contracting                                                                                           Project
+Acquisition
+                                                                                                      Acceptance
+planning
+33
+Alibabacoin Foundation
+
+
+
+
+System Development:
+Requirement
+Designing                                                                 Testing                        Implementation   Documentation
+Analysis
+CURRENT USER PROFILE FEATURES:
+At present, each user has access to the following personal information:
+➢  Profile
+➢  Settings
+➢  Friends list (to sharing)
+➢  Notification log
+➢  Wallet service
+➢  Trade chart
+➢  2 factor authentication etc.
+FUTURE ARCHITECTURE:
+Overview  Following  the  Token
+Sale,  the  current  system  will  be
+fully decentralized and will assume
+the following architecture.
+As opposed to other  projects,  the
+future ALIBABACOIN architecture
+is  not  just  a  solution  relying  on
+Ethereum  for  smart  contracts  and
+implementing   core   functionality;
+it’s                                                                      a    powerful    development
+34
+Alibabacoin Foundation
+
+
+
+
+platform with its own trading or wallet service platform and its own internal Blockchain service
+which is also known as a Peer to Peer network that is allowing development of complex
+applications in its own scripting language (which is similar to Java).
+The use of Ethereum Blockchain smart contracts is limited only to critical functionality and
+utilizes the ERC 20 Blockchain.
+Smart Feature of this platform:
+The best identifiable system is implemented using 3 keys:
+User open key -users to get open information about the user;
+User private key -We can say that the private key is sharable key to each user, stored in
+browser local storage and used for sharing money apart to use private key on runtime user
+identification by the front-end;
+User fingertip -That is smart secure feature which you can use during transaction when it
+was ask pin or fingerprint. That is used by the back-end and internode communication.
+Users may choose to provide full identification or remain anonymous. In addition to the existing
+ID system, we are planning to use Key base and other identity systems later, once they become
+available.
+35
+Alibabacoin Foundation
+
+
+
+
+Improved Proof-of-Stake Algorithm:
+Proof of Stake (PoS) is a method of securing a Cryptocurrency network that relies upon users
+showing ownership of coins in order to sign blocks. In the long run, the probability of signing
+blocks is proportional to the amount of coins owned, someone owning 1% of total coin supply
+will be able to sign 1% of all proof of stake blocks. Compared to proof of work approach, proof
+of stake requires significantly less computational power, and thus less energy usage.
+Coin Age and Linear Proof-of-Stake:
+Linear Proof-of-Stake designs have attracted criticism in relation to Coin Age. Many argue that
+linear Proof-of-Stake encourages hoarding of coins (which can have a detrimental effect on trade
+and transfer volume) Fundamental to most implementations of Proof of Stake, including that of
+ALIBABACOIN, is the concept of Coin Age. Essentially, this is a measure of how long a coin
+36
+Alibabacoin Foundation
+
+
+
+
+holder has held onto coins without spending or moving them. Another valid complaint against
+linear Proof-of-Stake relates to the effect it can have on network security. Linear Proof-of-Stake
+implementations often suffer due to users periodically connecting to the Cloak network to stake
+their coins and then disconnecting once all Coin Age has been destroyed.
+From the time a transaction is completed, coins that were part of that transaction begin to
+accumulate Coin Age (which starts at zero). The user then waits until Coin Age has replenished
+before repeating the connect-stake-disconnect process. This does not provide the best security for
+the network, and a Proof-of-Stake algorithm that rewards frequent or constant staking would be
+most beneficial to ALIBABACOIN and related Proof-of-Stake currencies. To ensure Enigma
+ABBC are rewarded as amply as possible, Coin Age should be removed from ABBC Proof-of-
+Stake algorithm. This would ensure that ABBC receive both the full staking reward and any
+Enigma ALIBABACOIN rewards. The additional incorporation of a velocity component in
+calculating staking rewards would further reward active Enigma coin nodes. In addition to
+providing greater rewards to actively participating users, an improved Proof-of-Stake algorithm
+also provides the aforementioned improvements to network security.
+37
+Alibabacoin Foundation
+
+
+
+
+CURRENT USER PROFILE FEATURES:
+At present, each user has access to the following personal information:
+➢  Profile
+➢  Settings
+➢  Friends list (to sharing)
+➢  Notification log
+➢  Wallet service
+➢  Trade chart
+➢  2 factor authentication etc.
+38
+Alibabacoin Foundation
+
+
+
+
+Improved Proof-of-Stake Algorithm
+Proof of Stake (PoS) is a method of securing a Cryptocurrency network that relies upon users
+showing ownership of coins in order to sign blocks. In the long run, the probability of signing
+blocks is proportional to the amount of coins owned, someone owning 1% of total coin supply
+will be able to sign 1% of all proof of stake blocks. Compared to proof of work approach, proof
+of stake requires significantly less computational power, and thus less energy usage.
+39
+Alibabacoin Foundation
+
+
+
+
+Coin Age and Linear Proof-of-Stake:
+Linear Proof-of-Stake designs have attracted criticism in relation to Coin Age. Many argue that
+linear Proof-of-Stake encourages hoarding of coins (which can have a detrimental effect on trade
+and transfer volume) Fundamental to most implementations of Proof of Stake, including that of
+ALIBABACOIN, is the concept of Coin Age. Essentially, this is a measure of how long a coin
+holder has held onto coins without spending or moving them. Another valid complaint against
+linear Proof-of-Stake relates to the effect it can have on network security. Linear Proof-of-Stake
+implementations often suffer due to users periodically connecting to the Cloak network to stake
+their coins and then disconnecting once all Coin Age has been destroyed.
+From the time a transaction is completed, coins that were part of that transaction begin to
+accumulate Coin Age (which starts at zero). The user then waits until Coin Age has replenished
+before repeating the connect-stake-disconnect process. This does not provide the best security for
+the network, and a Proof-of-Stake algorithm that rewards frequent or constant staking would be
+most beneficial to ALIBABACOIN and related Proof-of-Stake currencies. To ensure Enigma
+ABBC are rewarded as amply as possible, Coin Age should be removed from ABBC Proof-of-
+40
+Alibabacoin Foundation
+
+
+
+
+Stake algorithm. This would ensure that ABBC receive both the full staking reward and any
+Enigma ALIBABACOIN rewards. The additional incorporation of a velocity component in
+calculating staking rewards would further reward active Enigma coin nodes. In addition to
+providing greater rewards to actively participating users, an improved Proof-of-Stake algorithm
+also provides the aforementioned improvements to network security.
+Proof of Work:
+Consider ALIBABACOIN as an example of a cryptocurrency system secured with a proof of
+work algorithm. Each block in ALIBABACOIN consists of two parts:
+➢  Block header of key parameters, including block creation time, reference to the previous
+block and the Markel tree root of the block of transactions
+➢  Block list of transactions. To reference a specific block, its header is hashed twice with
+the SHA-256 function; the resulting integer value belongs to the interval [0, 2 256 − 1].
+41
+Alibabacoin Foundation
+
+
+
+
+To account for different possible implementations, we will use a generic hashing function
+hash (•) with a variable number of arguments and range [0, M].
+For example, arguments of the function can be treated as binary strings and merged together to
+form a single argument that can be passed to the SHA-256 hashing function. The block reference
+is used in the proof of work protocol; in order for a block to be considered valid, its reference
+must not exceed a certain threshold:
+Hash(B) ⩽ M/D, (1) where D ∈ [1, M] is the target difficulty.
+There is no known way to find B satisfying other than iterating through all possible variables in
+the block header repeatedly. The higher the value of D, the more iterations are needed to find a
+valid block; the expected number of operations is exactly D. The time period T(r) for a miner
+with hardware capable of performing r operations per second to find a valid block is distributed
+exponentially with the rate r/D (see Appendix A):
+P{T(r) ⩽ t} = 1 − exp(−rt/D). Consider n ALIBABACOIN miners with hash rates r1, r2, …,rn.
+The period of time to find a block T is equal to the minimum value of random variables T(ri)
+assuming that the miner publishes a found block and - 5 - it reaches other miners immediately.
+According to the properties of the exponential distribution, T is also distributed exponentially:
+P{T def = min(T1, . . . , Tn) ⩽ t} = 1 -exp( − t D ∑n i=1 ri ) ; P{T = Ti} = ∑ ri n j=1 rj .
+The last equation shows that the mining is fair: a miner with a share of mining power p has the
+same probability p to solve a block before other miners. It can be shown that proof of work as
+used in ALIBABACOIN satisfies Conditions.
+42
+Alibabacoin Foundation
+
+
+
+
+Proof of Stake:
+In proof of stake algorithms, inequality is modified to depend on the user’s ownership of the
+particular Proof-of-Stack protocol cryptocurrency and not on block properties. Consider a user
+with address A and balance bal(A). A commonly used proof of stake algorithm uses a condition
+as hash(hash(Bprev), A, t) ⩽bal(A)M/D, where • Bprev denotes the block the user is building on,
+•t is the current UTC timestamp. For various reasons, some cryptocurrencies use modified
+versions of which we discuss in the corresponding sections
+Unlike the only variable that the user can change is the timestamp t in the left part of the
+equation the address balance is locked by the protocol; e.g., the protocol may calculate the
+balance based on funds that did not move for a day.
+43
+Alibabacoin Foundation
+
+
+
+
+Alternatively,  a  Proof-of-stake  crypto  currency  may  use  unspent  transaction  outputs  as
+ALIBABACOIN does; in this case, the balance is naturally locked. A proof of stake protocol
+puts restrictions on possible values of t.
+For example, if it must not differ from the UTC time on network nodes by more than an hour,
+then  a  user  can  attempt  no  more  than                                                           7200  values  of  t.  Thus,  there  are  no  expensive
+computations involved in the proof of stake. Together with an address A and a timestamp t
+satisfying, a user must provide a proof of ownership of the address. To achieve this, the user can
+sign the newly minted block with his signature; in order to produce a valid signature, one must
+have a private key corresponding to the address A. The time to find a block for address A is
+exponentially  distributed  with  rate  ball                                                          (A)/D                                                    (see  Appendix  A).  Consequently,  the
+implementation of proof of stake is fair: the probability to generate a valid block is equal to the
+ratio of user’s balance of funds to the total amount of currency in circulation. The time to find a
+block for the entire network is distributed exponentially with rate ∑ a ball (a)/D.
+There is selfish mining attack that is based on hiding mined blocks. We don’t consider it here
+and assume that all miners are honest. Thus, if the monetary supply of the currency ∑ a bal(a) is
+fixed or grows at a predictable rate, the difficulty D should be known in advance: D = 1 Tex ∑ a
+bal (a), with Tex denoting the expected time between blocks. In practice, D needs to be adjusted
+based on recent blocks because not all currency owners participate in block minting.
+Consensus in a decentralized digital currency like ALIBABACOIN is achieved by requiring
+generated  blocks  to  contain  a  proof  that  the  node  which  generated  the  block  solved  a
+computational hard task. Unfortunately, the concept of the Proof-of-Work (Proof-of-work) the
+based system tends to lean towards eventual self-destruction. Proof-of-stake  (Proof-of-stack)
+aims to replace the way of achieving the consensus in a distributed system; instead of solving the
+Proof-of-Work, the node which generates a block has to provide a proof that it has access to a
+certain amount of coins before being accepted by the network. Generating a block involves
+sending coins to oneself, which proves the ownership. The required amount of coins (also called
+target) is specified by the network through a difficult adjustment process similar to Proof-of-
+work  that  ensures  an  approximate,  constant  block  time.  As  in  Proof-of-work,  the  block
+44
+Alibabacoin Foundation
+
+
+
+
+generation process will be rewarded through transaction fees and a supply model specified by the
+underlying protocol; which can also be seen as interest rate by common definition. The initial
+distribution of the currency is usually obtained through a period of Proof-of-work mining.
+A. Related work:
+The first Proof-of-Stack based currency was ALIBABACOIN. Which is still in a period of
+Proof-of-work mining. Further development of the ALIBABACOIN Proof-of-System protocol
+lead to Bitcoin which uses a hybrid Proof-of-Stack / Proof-of-System that uses a pure Proof-of-
+stack a based protocol which is based on the development of the above described projects.
+45
+Alibabacoin Foundation
+
+
+
+
+Basic Specification of AliBabaCoin:
+Name:                                                                                                                                   AlibabaCoin
+AKA                                                                                                                                     Alibaba Coin
+Abbreviation:                                                                                                                           ABBC
+Biometric                                                                                         Identifications                       (face                     Payment-sharing shopping system using block-
+recognition)                                                                                                                            chain technology
+Features:                                                                                                                                                         Pay Technology, Shopping payment solution,
+                                                                                                                                        Social sharing
+Special Feature                                                                                                                                                   Anti-Criminal Features (ASIC prevention)
+Segregated Witness (SegWit):                                                                                                            Yes
+Coin type:                                                                                                                                                        PoW/PoS  hybrid  protocol,  resistant  to      51%
+                                                                                                                                        attack
+Miner PoW Block Reward:                                                                                                                 2  AML,  multiplied  by   0.6months                                      259,200
+                                                                                                                                        blocks
+Miner PoS Annual Stake Reward                                                                                                           0.3%
+Encryption Algorithm:                                                                                                                   X13
+Average Block Time:                                                                                                                     1 minute
+Total Coins:                                                                                                                            1500000000
+Pre-mined Coins:                                                                                                                        1000000000
+Transaction Fees:                                                                                                                                                 0.002 ABBC (2 mABBC) Per Thousand Bytes
+                                                                                                  Total Available for PoW/PoS Mining:   500000000
+In order to mining this amount following logic is working behind it:
+POW mining method:
+1st Six months = 20ABBC/min
+After Six months = 10ABBC/min
+POS mining method:
+Every year once Abbc will be verified it will give you  0.3% of the total coin you have in your
+Alibabacoin wallet.
+46
+Alibabacoin Foundation
+
+
+
+
+Market Adaptations:
+Since the beginning of 2016, the total market capitalization of crypto currencies has increased
+almost 14 times reaching 165 billion in early September 2017.
+Alibabacoin Foundation is planning to create a shopping platform, as well as a new payment
+solution and combine these two items to create a synergy in this new crypto market. Our solution
+will provide a new paradigm for shopping culture as the payment solution itself will also raise in
+price in such market conditions.
+After  a  successful  creation  of  a  shopping  platform,  ALIBABACOIN  Foundation  will  be
+developing and launching a self-oriented crypto exchange targeted for big hand users and crypto
+specialists.  Our  services  will  be  combined  into  one  platform,  and  our  PC/Mobile  version
+solutions will be able to be connected to the shopping and exchange service that will be provided
+in the near future.
+47
+Alibabacoin Foundation
+
+
+
+
+TECHNOLOGY OVERVIEW
+PC Web-Wallet:
+POS and POW integrated wallet will be released in PC version. Mining in both CPU and GPU
+will be available due to its hybrid algorithm format. In one sense online web wallet providers are
+creating their own ecosystem - they are vertically integrated sometimes and offer both trading
+and storage options - such as Coinbase. This raises the issue of anonymity as wallet holders and
+exchanges generally are being pushed to hold documentation about users to combat AML and
+KYC financial regulations - especially in America. This can mean that at the simple request of
+the US Government a full list of personal information can be obtained - cryptocurrencies are not
+so anonymous.
+Mobile wallet:
+Alibabacoin Foundation introducing the native Mobile wallet for the android and also for the ios
+by this user can sell the coin, buy the coin and online shopping with the secure facial recognition
+Algorithm X-13 to make it non-hackable. User can access the wallet by their face which is
+uniquely identify by this algorithm as well as this Alibaba coin wallet which is user friendly.
+48
+Alibabacoin Foundation
+
+
+
+
+AlibabaCoin Use Cryptocurrency:
+•   Cryptocurrency is a general name referring to all encrypted decentralized digital
+currencies like Bitcoin.
+•   Cryptocurrency uses cryptography to create coins and secure transactions. Typically,
+cryptocurrencies are open source with pubic, but encrypted ledgers of all transactions.
+•   There are a number of cryptocurrencies traded in markets, and the growing popularity
+means that despite volatile prices, market caps and values are growing every year.
+•   Popular cryptocurrencies include the original Bitcoin, Ethereum’s Ether, and Litecoin.
+49
+Alibabacoin Foundation
+
+
+
+
+Multi-Crypto Hard Wallet Solution (Manual)
+One of our first to come milestone is the development of the multi-cryptocurrency HD
+wallet.
+Our HD wallet will allow facial recognition, multi-crypto storage function, pin code transaction
+confirmation, crypto trading, online shopping mall connection, and also crypto payment.
+AlibabaCoin will be accepting 7 types of crypto currencies in this exchange wallet platform. It
+will work just like a crypto currency changer, a switching platform. Users will be able to switch
+from one crypto to another in instant rates. Our wallets will allow users to control their own
+private keys, and use proper APIs for each crypto according to global price in
+www.coinmarketcap.com. It is most important that hard wallets allow each crypto holder to take
+responsibility of their own assets in the proper way that the blockchain industry demands each
+user to comply to. Our criteria will let the wallet users to learn faster, adapt quicker to the market
+standards and to learn how to manage crypto assets wisely and safely in the most effective way
+provided in the market.
+50
+Alibabacoin Foundation
+
+
+
+
+If you first open the wallet app, the first page you will arrive at will be the main page. It is the
+log in page for each one’s account. If you are a new user, you must create a new account in order
+to create a proper wallet address and credit for usage. Click on “Register” and proceed with the
+new account creation process as you fill in the required blanks for personal information. It
+requires ID, Email Address, Password, Confirmation Code, and the Access Key.
+Use any ID you wish, and unless it is used by another person, you can register as your unique
+identity name. An email address is required in order to confirm the real user and for recovery
+issues when you forget certain information for login. You will definitely need a password to
+access into your account to use the wallet functions. Please create a password using a variety of
+combinations of types of letters. A good model for a safe password is that which is hard to hack
+or make duplicates. Recently, many platforms require types of passwords such as those with
+capital letters, small letters, numbers, and symbols included all together in one password. Of
+course, it is not easy to remember this; you must record it and keep it somewhere safe where you
+can find it but also not get caught by someone else easily. When you click on the authentication
+button next to the Confirm blank, you will receive an email including a 6-digit number. You
+insert that number on the Access Key, and your registry will be complete.
+If you forget your password and wish to recover it, insert your ID, email, and confirm access
+key to retrieve lost password.
+51
+Alibabacoin Foundation
+
+
+
+
+Once you log in properly, you will reach the Home Page with 6 circles around the center
+Alibabacoin Logo. The top circle menu has the function of sending the coins to others through
+blockchain. Once you click it, you can check your balance, and available amount of ABBC coins
+you can transfer. On the Amount blank space, you can insert as much ABBC within available
+amount according to balance. If you wish to send the entire amount, you can simply click on the
+MAX button to insert automatically the full amount available. 0.02 ABBC will be deducted for
+every transaction for system maintenance on the blockchain through mining system. The amount
+shown on the Total will be the amount inserted + 0.002 ABBC.
+52
+Alibabacoin Foundation
+
+
+
+
+There are some more options on the transaction page.
+The Address button shows you your wallet address options. You can check the wallet address
+and send your crypto assets via wallet address format. The QR Code button leads you to check
+your own QR code format of the crypto wallet. This is a way to input complicated information in
+an easy code form that can be recognized by the mobile device camera. The camera recognizes
+the QR code and de-phrases the picture into the original information it intends to hold: the wallet
+address. The Face Recognition button will allow the transaction to be confirmed using personal
+face recognition, and this function will allow everyone to keep their assets safe by prohibiting
+other people from stealing the funds. The facial recognition technology will still recognize your
+face whether you change hairstyle, hair color, facial hair, different clothes, or other types of
+changes in the appearance. The facial recognition function will recognize accurately the owner of
+the crypto wallet by comparing the registered information embedded in the blockchain and allow
+safe connection to the crypto wallet for further actions such as transactions or payment.
+53
+Alibabacoin Foundation
+
+
+
+
+In case your facial information does not match the original registered information of the owner
+of the wallet, the recognition confirmation will not proceed, and the person attempting to connect
+to the wallet will not succeed. In order to change the facial recognition information from old to
+new, you must enter the pre-inputted password that was set to reset the personal information
+settings. After typing in the proper password for reset, the solution will ask for 5 different shots
+of the facial pictures. The photos taken will be saved in the blockchain format to be compared in
+order to verify the similarities of the instant physical appearance taken by the mobile device
+camera. After taking a few photos for registry of main blockchain data, the Proceed button will
+save the data and encrypt the data into the blockchain instead of saving it into the server, which
+is the conventional way.
+54
+Alibabacoin Foundation
+
+
+
+
+If you click on the Receive button, you can check your own crypto wallet in hash format as well
+as in QR Code mode. You can check your balance on the top section just under My Amount. It
+below that is the QR Code where you can show other people or take a screenshot to send to
+others in order to receive crypto into your wallet. Under the QR code is your wallet address
+where you can copy by dragging and sweeping the address itself, or pressing the Copy Address
+button on the very bottom middle side of the page.
+55
+Alibabacoin Foundation
+
+
+
+
+Let’s take a look at the Deposit button. If you click on this section, you can check your deposit,
+or income into your crypto wallet. The deposit feature provides you 4 types of information;
+address, TXid, quantity, and date. The Address shows the wallet address information of the
+sender of a certain transaction so that you can check exactly you sent the crypto to your wallet.
+TXid shows the transaction hash within the system, and you can always check the transaction
+information via our ABBC explorer (abbcexplorer.com). Quantity will show how much ABBC
+coins have been transferred up to the decimal point of 1/10million. Date will show the exact date
+of the particular transaction according to the server time. The function will show 3 boxes with all
+4 information included in each of them. To view more transactions, you must click on the bottom
+page turner where you can choose which page to divert directly.
+56
+Alibabacoin Foundation
+
+
+
+
+The Withdraw button function will allow you to check the output of coins in the same fashion as
+the Deposit function. It will show Address, TXid, Quantity, and Date. 3 boxes will show, and the
+page viewers will be presented as well on the bottom part of the page to jump directly to a
+certain page number.
+57
+Alibabacoin Foundation
+
+
+
+
+On the first login page, if you click on Forgot Password, you will reach this page where you can
+change both your authentication email as well as your password. If you are willing to change
+your email. Click on Change Email, and you will reach the page where you must insert Old
+Password, New Password, and Re-type Password. Old Password is where you type in your
+currently used password that you would like to erase. New Password is where you type in the
+new password which you would like to change to, and must type in once again a second time on
+the Re-type Password in order to check for sure that the new password is the correct form to
+replace.
+58
+Alibabacoin Foundation
+
+
+
+
+On the main homepage, the Contact button is on the 5’clock position among the 6 circles for the
+menu. By clicking it, you can connect to the Contact Us page where you can see all sorts of
+information concerning the Alibabacoin Foundation as well as the coin management team. The
+page shows the ABBC Foundation’s Corporate Address which is located in Dubai Free Trade
+Zone near the Jumeira Beach and the canal. There are 3 email addresses supplied; support, sales,
+and info. If you have any questions or inquiries to send to the foundation, you can chose the type
+of inquiry and send the proper topic to the specific email. Below the address and email info, you
+can fill in on the Email blank, you can send an inquiry to the company easily. Fill in your Email,
+and your Subject. There will be a blank box below with the title Content where you can write
+your inquiry and in text. There is no type-in limit. There is a note on the very bottom, “Please let
+us know what your concern or reason for contact is below and we will contact you within 24
+hours. Thank you.”   As the note is written, explain in detail what your matter is, and the people
+who are in concern will reply you as soon as possible.
+59
+Alibabacoin Foundation
+
+
+
+
+This is the function of the HD wallet that our foundation is developing. We will be dealing with
+8 currencies: ABBC, Bitcoin, Ethereum, Dash, Litecoin, Qtum, Bitcoin Cash, and Ripple. Your
+account holder name will be shown on the top of the screen as well as your email and balance of
+ABBC. Right below the balance, there is a searching function where you can type in and search
+for a specific cryptocurrency within our list. We currently have 8, but this list will expand, and
+you will have to search for the coin you are looking for when there will be more available coins
+in the list. AlibabaCoin amount will be on the very top, and the rest of the coins will follow that
+list. This page is just an overview so that you can check the balance of each coin you hold. If you
+wish to convert any of the coin to another, you can click on the button with the calculator picture
+that is written Convert.
+60
+Alibabacoin Foundation
+
+
+
+
+Once you have reached the Covert page, you can see the changer option. The default setting of
+the page is BTC on the first column and ABBC on the second column. If you click on the
+columns, you can chose the specific type of crypto you would like to convert. The first column
+shows the coins that you are holding, and that you wish to sell in order to switch to a new type of
+coin. The second column is where you chose the new type of coin that you wish to purchase after
+selling the coin on the first column. After you have chose each crypto, the calculation of
+converting each coin will appear automatically. If you click on the circulation resembling button,
+you can switch column 1 and 2, make the convert direction to the opposite. Below that, the
+minimum deposit and maximum available deposit amount will be shown in order to show you
+how much funds you will be capable of converting, the Instant Rate will show you the current
+price for converting specific types of coins to another.
+61
+Alibabacoin Foundation
+
+
+
+
+While you are thinking of converting a certain coin to another, you will want to search for some
+information concerning technology, or even price, or any possible news or accouncement of the
+coin that you would like to chose. If you click on Bitcoin for instance, you will be sent to a page
+showing the Logo picture of the cryptocurrency, the coin symbol, and the current price according
+to www.coinmarketcap.com. It will also show Marketcap in USD, trade volume, circulating
+supply amount, and also the maximum available supply of the coin. If you click on the Go to
+Website button, you can directly connect to Bitcoin webpage and check on crucial information or
+notices on the website. This will be available on all cryptos registered on our wallet list.
+62
+Alibabacoin Foundation
+
+
+
+
+Our Online Shoppingmall feature is still in prototype format. It will be designed and developed
+properly within 2018. We are currently planning to implement the solution on many global
+online platforms and enable crypto payment through our solution. You will be able to connect to
+all  of  those  shopping  platforms,  chose  within  the  app,  and  pay  in  crypto,  using  facial
+recognition.
+63
+Alibabacoin Foundation
+
+
+
+
+Face Recognition Technology
+Facial recognition is a category of biometric software that maps an individual's facial
+features mathematically and stores the data as a faceprint. The software uses deep learning
+algorithms to compare a live capture or digital image to the stored faceprint in order to verify an
+individual's identity.
+The phone's software, which is designed with 3-D modeling to resist being spoofed by
+photos or masks, captures and compares over 30,000 variables. As of this writing, Face ID can
+be used to authenticate purchases with Apple Pay and in the iTunes Store, App Store and iBooks
+Store. Apple encrypts and stores faceprint data in the cloud, but authentication takes place
+directly on the device.
+An image analysis service that's part of the Amazon AI suite, to add facial recognition
+and analysis features to an application. Alibaba-Coin-Wallet provides a similar capability with
+its Google Cloud Vision API. The technology, which uses machine learning to detect, match and
+identify faces, is being used in a wide variety of ways, including entertainment and marketing.
+64
+Alibabacoin Foundation
+
+
+
+
+Paying With Your Face
+Facial recognition technology has been speculated all over the world for decades, but
+only has  it  been  in  recent  years  that  this  technology has  become  accurate  enough  to  be
+implemented in financial business or criminal investigations. There have some firms in China
+that have published business presentations introducing new facial recognition technology, and
+we will soon find more advanced models all around the world sooner or later.
+The new AlibabaCoin’s blockchain technology will use artificial-intelligence techniques
+effective for image recognition most reliably to identify a person most accurately as possible,
+and use this technique effectively for the structure of payment of electronic wallets and financial
+transactions.
+65
+Alibabacoin Foundation
+
+
+
+
+Breakthrough:
+Face recognition technology that is finally accurate enough to be widely used in financial
+transactions and other everyday applications. Like
+•   Online shopping
+•   Deposit money
+•   Withdraw money
+•   Make more secure transaction
+•   Send money
+•   Exchange ABBC crypto coin with other crypto coins (Bitcoin, Ethereum, etc.)
+•   Supporting various online shopping platforms (Amazon, Alibaba.com, eBay, etc.)
+The AlibabaCoin blockchain technology offers a secure and extremely convenient method of
+payment without raising privacy concerns.
+66
+Alibabacoin Foundation
+
+
+
+
+Payment Solution Technology
+How Our Technology Works
+The facial recognition system works by finding the 2 differences from each picture, and match
+the files to find similarities.
+Product Specifications
+❖  99.99% recognition.
+❖  Non-hack able.
+❖  Relates with several patents.
+❖  Currently being used in many places around the world.
+❖  Being tested by several governmental firms.
+67
+Alibabacoin Foundation
+
+
+
+
+Mobile App Payment
+68
+Alibabacoin Foundation
+
+
+
+
+Our technology can be implemented on PC and mobile versions. The mobile versions can be
+adapted into all sorts of devices and software’s. The facial recognition is the basic option, and
+also pin insert options can be added. The module is connected to a payment solution and anyone
+can use their face image to verify personal information and to proceed payment for any sort of
+currency including fiat and crypto.
+Process Speed                                                                                       92ms (11 fps)              (Fast speed)
+Resolution                                                                                          Facial width +120px        (Requires low resolution)
+Iris width +30px
+Angle                                                                                               left to right 30 degrees   (Posture sustainability )
+up to down 15 degrees
+Multi-Crypto Wallet
+We are currently developing a multi-crypto wallet that will be combined with the payment
+solution shown above. Our platform users will be able to store more than 5 types of crypto-
+currencies, and will also be able to be switched with each other.
+Our Wallets will support X13 as well as SHA256 algorithms which all fall to the simple
+function using the BIP 32 Tree. (Picture)
+69
+Alibabacoin Foundation
+
+
+
+
+HD wallets generate a hierarchical tree-like structure of keys which start from the seed master
+key based on BIP 32. The wallet goes ahead and drives all the private keys of the tree using BIP
+32. This way, our HD-type wallet using a one-way SHA-256 hash algorithm will produce this
+tree of keys without any error if the input (or seed key) is the same.
+Shopping
+We have a big database and
+infrastructure   prepared   for
+the  present  online  market.
+We know what people want
+and how to deliver it to them.
+The only problem we had was that we were not able to unify the payment solution because of fiat
+currency differences and regulations problems in each country. With AlibabaCoin, we can
+integrate all fiat currencies and allow the world to pay in one unified crypto and make global
+payment easier than ever.
+With our own shopping platform, and our own shopping payment solution, we can create
+synergy and make a new paradigm in online shopping. Our target is to combine country to
+countries, such as China, France, Korea, Germany, Japan, and many more international countries
+that are participating in crypto markets as well as online shopping industries.
+Using a decentralized coin in order to purchase certain items, not going through a bank to
+achieve something you wish, this value will create a big trend and allow crypto to develop more
+fast and big than ever. Shopping Platforms expected to be implemented in the near future:
+70
+Alibabacoin Foundation
+
+
+
+
+Amazon.com, Inc., doing business as Amazon.com is an American electronic commerce and
+cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July
+5, 1994. The tech giant is the largest Internet retailer in the world as measured by revenue and
+market capitalization, and second largest after Alibaba Group in terms of total sales. The
+amazon.com  website  started  as  an  online  bookstore  and  later  diversified  to  sell  video
+downloads/streaming,  MP3  downloads/streaming,  audiobook  downloads/streaming,  software,
+video games, electronics, apparel, furniture, food, toys, and jewelry. The company also produces
+consumer electronics—Kindle e-readers, Fire tablets, Fire TV, and Echo—and is the world's
+largest provider of cloud infrastructure services (IaaS and PaaS). Amazon also sells certain low-
+end products under its in-house brand AmazonBasics.
+Amazon has separate retail websites for the United States, the United Kingdom and Ireland,
+France, Canada, Germany, Italy, Spain, Netherlands, Australia, Brazil, Japan, China, India, and
+Mexico. In 2016, Dutch, Polish, and Turkish language versions of the German Amazon website
+were also launched. Amazon also offers international shipping to certain other countries for some
+of its products.
+eBay Inc. is a multinational e-commerce corporation based in San Jose, California that facilitates
+consumer-to-consumer and business-to-consumer sales through its website. eBay was founded
+by Pierre Omidyar in 1995, and became a notable success story of the dot-com bubble. Today,
+eBay is a multi-billion-dollar business with operations in about  30 countries. The company
+manages eBay.com, an online auction and shopping website in which people and businesses buy
+and sell a wide variety of goods and services worldwide. The website is free to use for buyers,
+but sellers are charged fees for listing items after a limited number of free listings, and again
+when those items are sold.
+71
+Alibabacoin Foundation
+
+
+
+
+In addition to its original auction-style sales, the website has since evolved and expanded to
+include "Buy It Now" shopping; shopping by UPC, ISBN, or other kind of SKU number (via
+Half.com); online classified advertisements (via Kijiji or eBay Classifieds); online event ticket
+trading  (via StubHub); and other services. It previously offered online money transfers  (via
+PayPal,which was a wholly owned subsidiary of eBay from 2002 until 2015).
+Agoda (Nasdaq:BKNG) is one of the world’s fastest-growing online travel booking platforms.
+Established in 2005, the start-up quickly expanded in Asia and was acquired in 2007 by Booking
+Holdings Inc. - the world’s largest seller of rooms online.
+Agoda is headquartered in Singapore, with 53 offices in major cities across over 30 countries and
+over 3,700 staff worldwide. It provides a network of over 2 million accommodation properties,
+including apartments, villas, homes, and hotels backed by over 15 million real traveler reviews.
+Agoda was a pioneer in non-hotel accommodation, offering villas and homes throughout the
+region from the very start.
+Myntra is an Indian fashion e-commerce company headquartered in Bengaluru, Karnataka, India.
+The company was founded in 2007 to sell personalized gift items. By 2010, Myntra shifted to
+selling clothing.In May 2014, Myntra.com was acquired by Flipkart.
+72
+Alibabacoin Foundation
+
+
+
+
+LoftyBuy.com is Lofty Online Shopping In Bangladesh. We have different product item in our
+online shopping site LoftyBuy.com
+LoftyBuy.com offers anywhere in Bangladesh purchase different products online and get free
+home delivery.To purchase online, anyone can use Debit/Credit card, Mobile payments or even
+pay Cash when receiving the delivery. LoftyBuy.com provides the facility to deliver products to
+the customers address at the least possible time.
+Indiatimes Shopping was the ecommerce division of The Times of India Group, India's largest
+media conglomerate. It is one of the pioneers in electronic commerce in India and services its
+customers through various channels including online and selling over phone. It also provides
+platform services for brands to go online and sell their products in partnership through White-
+label. Some of the major categories sold through Indiatimes Shopping include men & women
+footwear, apparel & accessories, lifestyle, home décor, mobile phones, consumer electronics,
+health  &  personal  beauty products,  books,  jewellery,  baby products  and  flowers  &  gifts.
+Indiatimes Shopping currently operates through a hybrid model which is a mix of warehousing
+and marketplace.
+73
+Alibabacoin Foundation
+
+
+
+
+Airtel India is the second largest provider of mobile telephony and second largest provider of
+fixed telephony in India, and is also a provider of broadband and subscription television services.
+The brand is operated by several subsidiaries of Bharti Airtel, with Bharti Hexacom and Bharti
+Telemedia providing broadband fixed line services and Bharti Infratel providing telecom passive
+infrastructure service such as telecom equipment and telecom towers. Bharti Airtel Limited is
+part of Bharti Enterprises and is headed by Sunil Bharti Mittal.
+Airtel is the first Indian telecom service provider to achieve Cisco Gold Certification. It also acts
+as a carrier for national and international long distance communication services. The company
+has a submarine cable landing station at Chennai, with a connection to Singapore. As of
+December 2017, Airtel has 290.11million subscribers with a market share of 24.7% in the Indian
+telephony market. Airtel was named India's second most valuable brand in the first ever Brandz
+ranking by Millward Brown and WPP pl
+74
+Alibabacoin Foundation
+
+
+
+
+RoadMap:
+75
+Alibabacoin Foundation
+
+
+
+
+ICO Conditions (Token Sales)
+AlibabaCoin will be holding an official ICO, and it will start and finish in Q2 of 2018.
+Marketing Crowd Sale Progress
+ETHEREUM
+Stage 1
+Official Pre-sale Members will be distributed at 1 ETH = 348 ABBC for Stage 1.
+Member qualification conditions will be minimum investment of 118ETH (1ETH = 845 USD)
+(Un-official Pre-sale investors have been sorted to be large scale firms and groups mostly in China and Europe)
+Stage 2
+0%                                                                                                                10%      20%      30%      40%      50%
+Price per 1 ETH
+348                                                                                                               316.36   290      267.69   248.57   232
+ABBC                                                                                                              ABBC     ABBC     ABBC     ABBC     ABBC
+60%                                                                                                               70%      80%      90%      100%
+Price per 1 ETH
+217.5                                                                                                             204.71   193.33   183.16   174
+ABBC                                                                                                              ABBC     ABBC     ABBC     ABBC
+76
+Alibabacoin Foundation
+
+
+
+
+BITCOIN
+Stage 1
+Official Pre-sale Members will be distributed at 1BTC = 4248.8ABBC for Stage 1.
+Member qualification conditions will be minimum investment of 9.4 BTC(1BTC = 10622USD)
+(Un-official Pre-sale investors have been sorted to be large scale firms and groups mostly in China and Europe)
+Stage 2
+0%                                                                                                                10%       20%       30%       40%       50%
+Price per 1 BTC
+4400                                                                                                              4000      3666.67   3384.62   3142.86   2933.33
+ABBC                                                                                                              ABBC      ABBC      ABBC      ABBC      ABBC
+60%                                                                                                               70%       80%       90%       100%
+Price per 1 BTC
+2750                                                                                                              2588.24   2444.44   2315.79   2200
+ABBC                                                                                                              ABBC      ABBC      ABBC      ABBC
+77
+Alibabacoin Foundation
+
+
+
+
+BITCOIN CASH
+Stage 1
+Official Pre-sale Members will be distributed at 1 BCH = 489.2 ABBC for Stage 1.
+Member qualification conditions will be minimum investment of 82 BCH (1BCH = 1223USD)
+(Un-official Pre-sale investors have been sorted to be large scale firms and groups mostly in China and Europe)
+Stage 2
+0%                                                                                                                10%      20%      30%      40%      50%
+Price per 1 BCH
+508                                                                                                               461.82   423.33   390.77   362.86   338.67
+ABBCe                                                                                                             ABBC     ABBC     ABBC     ABBC     ABBC
+60%                                                                                                               70%      80%      90%      100%
+Price per 1 BCH
+317.5                                                                                                             298.82   282.22   267.37   254
+ABBC                                                                                                              ABBC     ABBC     ABBC     ABBC
+78
+Alibabacoin Foundation
+
+
+
+
+RIPPLE
+Stage 1
+Official Pre-sale Members will be distributed at 1 XRP = 0.368 ABBC for Stage 1.
+Member qualification conditions will be minimum investment of 108695 XRP
+(1 XRP =0.92 USD)
+(Un-official Pre-sale investors have been sorted to be large scale firms and groups mostly in China and Europe)
+Stage 2
+0%                                                                                                                10%     20%     30%     40%     50%
+Price per 1 XRP
+0.368                                                                                                             0.334   0.306   0.283   0.262   0.245
+ABBC                                                                                                              ABBC    ABBC    ABBC    ABBC    ABBC
+60%                                                                                                               70%     80%     90%     100%
+Price per 1 XRP
+0.23                                                                                                              0.216   0.204   0.194   0.184
+ABBC                                                                                                              ABBC    ABBC    ABBC    ABBC
+79
+Alibabacoin Foundation
+
+
+
+
+LITECOIN
+Stage 1
+Official Pre-sale Members will be distributed at 1 LTC = 84.4 ABBC for Stage 1.
+Member qualification conditions will be minimum investment of 474LTC (1LTC = 211 USD)
+(Un-official Pre-sale investors have been sorted to be large scale firms and groups mostly in China and Europe)
+Stage 2
+0%                                                                                                                10%     20%     30%     40%     50%
+Price per 1 LTC
+83.2                                                                                                              75.64   69.33   64      59.43   55.47
+ABBC                                                                                                              ABBC    ABBC    ABBC    ABBC    ABBC
+60%                                                                                                               70%     80%     90%     100%
+Price per 1 LTC
+52                                                                                                                48.94   46.22   43.79   41.6
+ABBC                                                                                                              ABBC    ABBC    ABBC    ABBC
+80
+Alibabacoin Foundation
+
+
+
+
+DASH
+Stage 1
+Official Pre-sale Members will be distributed at 1 DASH = 240 ABBC for Stage 1.
+Member qualification conditions will be minimum investment of 167 DASH
+(1DASH = 600 USD)
+(Un-official Pre-sale investors have been sorted to be large scale firms and groups mostly in China and Europe)
+Stage 2
+0%                                                                                                                10%      20%      30%      40%      50%
+Price per 1 DASH
+246                                                                                                               223.64   205      189.23   175.71   164
+ABBC                                                                                                              ABBC     ABBC     ABBC     ABBC     ABBC
+60%                                                                                                               70%      80%      90%      100%
+Price per 1 DASH
+153.75                                                                                                            144.71   136.67   129.47   123
+ABBC                                                                                                              ABBC     ABBC     ABBC     ABBC
+81
+Alibabacoin Foundation
+
+
+
+
+QTUM
+Stage 1
+Official Pre-sale Members will be distributed at 1QTUM = 10.8ABBC for Stage 1.
+Member qualification conditions will be minimum investment of 3703 QTUM
+(1 QTUM = 27 USD)
+(Un-official Pre-sale investors have been sorted to be large scale firms and groups mostly in China and Europe)
+Stage 2
+0%                                                                                                                10%    20%    30%    40%    50%
+Price per 1 QTUM
+10.4                                                                                                              9.45   8.67   8      7.43   6.93
+ABBC                                                                                                              ABBC   ABBC   ABBC   ABBC   ABBC
+60%                                                                                                               70%    80%    90%    100%
+Price per 1 QTUM
+6.5                                                                                                               6.12   5.78   5.47   5.2
+ABBC                                                                                                              ABBC   ABBC   ABBC   ABBC
+Total amount of coins sold during presale: 500,000,000 ABBC
+Release of coins for exchange platforms: 500,000,000 ABBC
+82
+Alibabacoin Foundation
+
+
+
+
+Target:
+Alibaba Coin is expected to be listed in at least 15 exchanges before the end of Q2 of 2018.
+BINANCE:
+Binance is a new exchange platform focusing only on Coin to Coin exchange. Binance
+exchange platform will be the world's first to target on multi-language exchange platform.
+Currently with English & Chinese as a start, Korean/Jap will be added soon. Binance CEO Zhao
+ChangPeng had recruited some of the best available dev team in his history of years in exchange
+platform to Binance. Initially, Binance platform stated in their Whitepaper they were supposed to
+start their ICO token named (BNC) on 1st july 2017, as i stay tuned to their web, they had bring
+forward a few days early with Phase 1 starting on 27th June 2017 3.00pm GMT+8. Binance
+exchange will start LIVE trading on the 15th of July 2017.Binance ICO will only be available in
+the following pairing ( ETH/BNC + NEO/BNC ) BTC/BNC pairing will be on other website
+supporting Binance ICO like renren web. Binance exchange platform would be the 2nd platform
+currently in the world to provide pairing like BTC/NEO which open up accessibility instead of
+usual CNY/NEO in china exchange. Binance exchange platform would be the worlds fastest
+exchange platform with matching order speed up to 1.4 million/second which is far beyond any
+platform currently.Last but not least and i want to highlight something to all NEO owners,
+83
+Alibabacoin Foundation
+
+
+
+
+Binance will somehow assist in the value of NEO in the coming 10days or so due to the opening
+up of accessibility for NEO. ( Another bumpy ride to come very soon ) Hold on NEOer's !
+Info that are updated LIVE on the button ( Detailed ICO ) are all in Chinese. I hope that i can
+translate the info and provide everyone with better understanding.
+POLONIEX:
+Poloniex are a US-based digital asset exchange offering maximum security and advanced
+trading features. Trade securely on the world's most active digital asset exchange. The vast
+majority of customer deposits are stored offline in air-gapped cold storage. They   only keep
+enough online to facilitate active trading, which greatly minimizes risk and exposure. Their
+auditing programs monitor exchange activity 24/7/365. Their job is to report and block any
+suspicious activity before it becomes a problem. Any funds you put into the exchange are only
+used to facilitate trading through your account. Unlike banks, they do not operate on fractional
+reserves.
+BITTREX:
+Bittrex provide individuals and businesses a world class experience to buy and sell
+cutting-edge cryptocurrencies and digital tokens. Based and fully regulated in the USA, Bittrex is
+the go-to spot for traders who demand lightning fast trade execution, stable wallets, and industry-
+best security practices. Whether you are new to trading and cryptocurrencies, or a veteran to
+both, Bittrex.com was created for you.
+BITSMAP:
+Bitstamp is a bitcoin exchange based in Luxembourg. It allows trading between USD
+currency and bitcoin cryptocurrency. It allows USD, EUR, bitcoin, litecoin, ethereum, ripple or
+bitcoin  cash  deposits  and  withdrawals.  The  company was  founded  as a European-focused
+alternative to then-dominant bitcoin exchange Mt. Gox While the company trades in US dollars,
+it accepts fiat money deposits for free only via the European Union's Single Euro Payments
+Area, a mechanism for transferring money between European bank accounts. Deposits via credit
+cards or wires incur a fee.Bitstamp offers an API to allow clients to use custom software to
+access and control their accounts.
+84
+Alibabacoin Foundation
+
+
+
+
+GEMINI:
+Gemini is a digital currency exchanger started by the Winklevoss twins in 2015.In June
+2016, according to CNBC report, Gemini became the world's first licensed ether exchange. It has
+begun operations in Canada and U.K.Primary competitors include Coinbase, Bitstamp and
+Kraken. All enable users to trade cryptocurrency and fiat currency on an open market, at a
+moderate cost; transfers to banks are also possible. The operation began in order to facilitate
+buying Bitcoin and storing it safely in a password-protected site with a complex system of
+private keys for protection. As an added measure, only a small percentage of the Bitcoin is held
+online, with the majority offline to minimize the risk of loss from hacking. Nonetheless, experts
+recommend holding cryptocurrencies offline in a Wallet and not on an exchange. The site Profit
+Confidential addressed this issue as follows:To be perfectly honest, there is no yes or no answer
+to the “Are Ethereum exchanges safe” question. Going purely on past records, they are safe
+though exchanges like Poloniex have been hacked. This does not make Poloniex any less safe
+than  the  others.  People  who  hack  exchanges  are  constantly upgrading their  methods,  and
+likewise, the exchanges are trying to stay a step ahead. The best bet is to use offline storage of
+ETHs once the transaction is complete. Gemini is one of the few trusted by Ari Paul of the hedge
+fund BlockTower Capital which deals in virtual currency. In mid December 2017, Gemini was
+one of the exchanges used by Cboe Global Markets "as the basis for the daily settlement for the
+bitcoin futures that began trading this week", according to a report by Bloomberg News for
+Fortune (magazine).
+LIQUI:
+Liqui, found online at Liqui.io, is a cryptocurrency exchange with particularly strong
+liquidity in Ethereum and other altcoins - including MGO, BAT, VSL, and ROUND.At the time
+of writing, Liqui was sitting at the 28th spot in terms of 24 hour trading volume, with about
+$10,000,000 of trading volume over a 24 hour period. That puts in between exchanges like
+CEX.io, Gatehub, OkCoin, and Gatecoin in terms of trading volume.The exchange was launched
+in 2016. You can read the official launch announcement at the BitcoinTalk forums here.What
+makes Liqui different from the dozens of other exchanges? One of the advantages is that Liqui
+85
+Alibabacoin Foundation
+
+
+
+
+has a savings account where you can earn a 24% annual percent rate (APR). Interest is paid
+every 24 hours, and you can withdraw your funds at any time. Obviously, there’s a catch to this
+24% APR: you can only deposit a certain amount of money into the Liqui savings account. Your
+allowable amount is based on your Liqui trading volume. At the time of writing, Liqui had a
+limit of 300 BTC. Liqui is clearly a unique concept compared to other cryptocurrency exchanges.
+ITBIT:
+ITBIT is the Bitcoin branch of NY based blockchain company Paxos. itBit re-branded as
+Paxos in September 2016.
+On May 6th 2015, Paxos became the first bitcoin exchange to become a trust company, receiving
+a charter from the NYDFS.
+KARAKEN:
+Kraken is the largest Bitcoin exchange in euro volume and liquidity. After trying to help
+MtGox recover from the hacking attack, Jesse Powell decided to offer the world the first
+professional BTC exchange - that’s how Kraken was born. The company was founded in San
+Francisco on 28th of July, 2011 and remains based in California.The platform is an excellent
+choice for European users, but after a number of acquisitions in the last couple of years, their
+focus seems to be shifting from Europe to Worldwide market. kraken-cover.
+The verification process is straightforward, but Kraken can be a bit strict when it comes
+to the higher tier verifications. There are four tiers. Tier 1 and 2 take only a few minutes, but it
+can take longer if the application requires manual review. Tier 3 verification usually takes a
+couple of days to complete.Kraken doesn’t allow deposits, withdrawals or trading without
+verification. Here’s how the user’s limits increase with tiers:
+Tier 1 - Deposits and withdrawals are available in digital currency only. Trading, on the other
+hand, can be performed with digital as well as fiat currencies. Tier 1 verification requires:
+Full name
+Date of birth
+86
+Alibabacoin Foundation
+
+
+
+
+Country of residence
+Phone number verification
+Tier 2 - Deposits, withdrawals, and trading in digital currency are available. Depending on the
+country of residence, some users can get access to fiat currency deposits and withdrawals. Tier 2
+verification requires only the user’s address.
+Tier 3 - fiat currency deposits and withdrawals are available, and the funding limits are way
+higher than Tier 2. Tier 3 verification also allows margin trading. The verification requires:
+Valid government ID
+Recent proof of residence
+In order to deposit fiat currency in the US, Canada, Japan, Germany and other countries
+depending on the type of currency, Tier 3 verification is necessary.
+Tier 4 - Tier 3 with higher funding limits. Tier 4 offers both individual and corporate accounts.
+Verification for an individual account requires the KYC documents and a signed application
+form. Corporate account verification requires contacting support.
+Deposit and withdrawal limits are sorted per tiers:
+Tier 1 - Fiat deposits and withdrawals are not possible. Deposits in digital currencies don’t have
+a limit, while withdrawals are limited to $2,500 per day and $20,000 per month. Verification for
+Tier 1 requires some basic personal information.
+Tier 2 -Deposits and withdrawals in FIAT currency are limited to $2,000 per day and $10,000
+per month. Cryptocurrency withdrawals are limited to $5,000 per day and $50,000 per month.
+Verification requirement for Tier 2 is address verification, which can be confirmed with a utility
+bill on the user’s name.
+Tier  3 - Fiat deposits and withdrawals are limited to $25,000 daily and $200,000 monthly.
+Withdrawals in digital currencies are limited to $50,000 per day and $200,000 per month. Tier 3
+87
+Alibabacoin Foundation
+
+
+
+
+verification requires address verification from Tier 2, National ID card photo, Social Security
+number for US residents, and ID confirmation photo for German residents.
+Kraken accepts the following fiat currencies:
+•   US dollar
+•   Canadian dollar
+•   GB Pound
+•   Euro
+•   Yen
+And users can trade these cryptocurrencies:
+•   BTC
+•   The DAO
+•   ETC
+•   ETH
+•   DOGE
+•   DASH
+•   ICN
+•   LTC
+•   REP
+•   XLM
+•   XRP
+•   ZEC
+C-CEX:
+C-CEX exchange is designed for security and protected by state of the art security
+services while giving you the option to secure your account through the use of two-factor
+authentication.                                                                                   Their system is built from the ground up with performance in mind and delivers ultra-fast
+response and order matching times, ensuring that you never have to wait when submitting orders.
+88
+Alibabacoin Foundation
+
+
+
+
+UPBIT:
+Upbit is a new Korean cryptocurrency exchange. The exchange was launched by Korea’s biggest
+messaging app developer, Kakao. At launch, the platform will offer trading of 111 altcoins.
+The exchange was announced on September 27, soon after Korea passed China in terms of total
+bitcoin trading volume.
+There’s a reason Upbit’s upcoming launch is a big deal. Kakao Corp is more than just an internet
+giant. The company’s Kakao Talk app is Korea’s most popular messaging app by far. Kakao also
+offers Korea’s second most popular search engine, Daum, which sits just behind Naver in terms
+of overall volume.
+Other services offered by Kakao include a taxi app similar to Uber, a music streaming service, a
+YouTube-like video sharing platform, and a popular mobile gaming network.
+The company also offers Kakao Pay, which is the second largest mobile payment system in
+South Korea behind only Samsung Pay.
+To launch Upbit, Kakao Corp teamed up with American exchange Bittrex, which is one of the
+world’s largest cryptocurrency exchanges.
+Another unique feature of Upbit is the ability to trade currencies via the Kakao Stock platform,
+which is built on the Kakao Talk messenger. That means Korean cryptocurrency users will be
+able to trade cryptocurrencies as easily as they use the Kakao Talk messenger app.
+How Does Upbit Work?
+Upbit is expected to offer functionality similar to Kakao Stock. Users will be able to interact
+with the platform over their mobile device, similar to how they already interact with Kakao
+Stock.
+During the initial Upbit launch, the platform will mostly handle bitcoin and major altcoins - like
+Ethereum, Ripple, and Litecoin.
+However, the ultimate goal of Upbit is to allow trading of 111 different cryptocurrencies from
+167 different markets. They also plan to be South Korea’s largest digital currency exchange,
+surpassing existing exchanges like Bithumb, which typically sits in the top  5 in terms of
+worldwide trading volume.
+Upbit will be available for iOS and Android. Users will also be able to access it on desktop
+computers through any standard web browserIn addition to offering cryptocurrency trading
+89
+Alibabacoin Foundation
+
+
+
+
+services through an exchange, Upbit will give users coin investment guides, altcoin analysis
+information, and other information.
+There will also be an internal Bitgo wallet available to users. Plus, users can use Kakao Pay - the
+mobile payment solution created by Kakao - for added security.
+What Does South Korea’s Government Think Of Bitcoin?
+China’s cryptocurrency market was exploding with growth until the government essentially shut
+it down. Could South Korea’s government take a similar approach?
+So far, the government has seemed happy to allow bitcoin pioneers to operate. However, the
+Korea Fair Trade Commission has recently decided to introduce legislation to the marketplace.
+They’ve adjusted digital and financial laws, for example, to accommodate bitcoin. They’ve also
+introduced bitcoin-specific anti-money laundering amendments to existing acts of parliament.
+Both of these decisions came as a shock to bitcoin users in the country.
+Regulars have also indicated they will “punish” certain types of initial coin offerings, or ICOs,
+although it’s not clear if they plan to ban ICOs outright.
+Another thing investors need to know about the future of South Korean bitcoin is that there are
+some reports that the Korean Communications Commission and the Ministry of Science and ICT
+will begin on-site inspections at bitcoin exchanges in South Korea. However, these reports have
+not yet been confirmed.
+Despite  these  regulations,  bitcoin  continues  to  boom  in  South  Korea.  South  Korea’s
+cryptocurrency market is now the third largest in the world, trailing only the United States and
+Japan. Blockchain technology companies have also sprung up across the country, and bitcoin
+continues to skyrocket towards mainstream acceptance across the peninsular nation.
+COINBASE:
+Founded in 2012, Coinbase is a virtual exchange that allows you to buy and sell the
+world’s most popular cryptocurrencies, including bitcoin, Ethereum and Litecoin. Combined, the
+exchange provides access to three of the world’s ten biggest cryptocurrencies.
+Coinbase not only allows you to buy and sell cryptocurrency, but also provides wallet services
+and merchant services. It’s pretty much a one-stop shop for all cryptocurrency market players.
+90
+Alibabacoin Foundation
+
+
+
+
+Which payment methods are accepted?
+US  customers  have  access  to  a  wide  variety  of  payment  methods  to  buy  or  deposit
+cryptocurrency.
+These include:
+•   Bank transfers
+•   Credit cards
+•   Debit cards
+•   Bank wires
+How quickly will my funds be available?
+In general, your funds will become available in your account as soon as Coinbase receives
+payment. However, Coinbase warns that the timing of certain payment providers can very.
+Purchases made using your USD wallet or credit card are available instantly.
+When using a bank transfer, payments are normally cleared within 3-5 days. After the banks
+have processed your transfer, the funds enter the Coinbase system and make their way into your
+account before the end of the estimated delivery day.
+Are there any transfer limits?
+Coinbase implements weekly buy and sell limits on all accounts. The company says it calculates
+your  limits  based  on  your  account  information.  This  includes  verification  and  successful
+purchases made on the account.
+91
+Alibabacoin Foundation
+
+
+
+
+What Are We Going To Do With the ICO Funds?
+System Maintenance:
+We will be operating several platforms to provide services such as the facial recognition,
+shopping, pc and mobile apps, and crypto exchange. Personnel funding, building contracts,
+server fees, and related taxation will be issues to be dealt with the assets gathered by the
+upcoming ICO.
+New Technology Development:
+Our HD multi-crypto wallet will be provided and distributed in various platforms around the
+world. For stable service providence, it will need a stronger server and a larger base for safe and
+secure transactions. The funds will be used to provide these massive maintenance expenditures.
+92
+Alibabacoin Foundation
+
+
+
+
+The facial recognition technology will be developed and enhanced even more and more. Our
+development team members are very skilled and enthusiastic technicians and scientists who will
+not stop to integrate and improve our technology for the future of blockchain.
+Exchange Site Development:
+Our new type of crypto exchange platform will be operated according to BTC values, and
+transaction/trading fees will be billed with ABBC coins. It will not have an affiliate program but
+93
+Alibabacoin Foundation
+
+
+
+
+will allow trading fee reduction promotion when holding ABBC coins in each one’s crypto
+balance prior to trading or sending transactions.
+Online Shopping Maintenance:
+ABBC online shopping platform will contain various platforms in one, and this business will
+require many crew members, and sales activities which need long-term funding. Our Shopping
+Mall platform will combine many global platforms, create a price comparison competition, allow
+94
+Alibabacoin Foundation
+
+
+
+
+crypto  payments  across  the  world,  and  also  provide  lower  price  advantages  through
+exclusiveness.
+Charity Events
+ABBC is a non-profit foundation created for a purpose to enhance the blockchain technology and
+to share the financial benefits to all parts of the world. We start with our local societies. ABBC
+Foundation is located in Dubai, and we are willing to find places and organizations that need our
+help and caring hands.
+95
+Alibabacoin Foundation
+
+
+
+
+Conclusion
+Every feature in the Alibaba Coin platform which gives the financial value to users will charge a
+fee to pay. This payment will allow a flow of financial value in the network and allow more
+people to be lured into the system for financial profit. Having our own crypto, own platform for
+any sort of consumption, and also a payment solution, we will provide the biggest, fastest, and
+most satisfying platform every existed that combines a perfect solution for a safe way to keep,
+consume, and trade crypto’s and utilize it to create a new paradigm in both the shopping industry
+and the crypto industry.
+This is more than just a technology. It is the source of securing your assets, and the best platform
+to  exchange  values  to  create  a  high-level  lifestyle.  The  X13  algorithm  will  allow  instant
+transactions,  low  transactions  fees,  hack-free  asset  possessions,  and  mining  profits  to  be
+distributed to everyone holding this crypto thanks to both POW and POS methods.   This new
+model of P2P nodes implementing facial recognition will make your crypto safer than ever. You
+will be using your own facial image for both transactions and payments for purchasing any
+goods you desire. No more passwords or private keys. Your facial appearances will lock, and
+unlock your crypto assets and keep your values safer than ever.
+96
+Alibabacoin Foundation
+
+
+
+
+References
+https://www.forexcoin.org/x13-hash-algorithm.html -
+X13 Technology explanation.
+www.ethereum.org
+Smart contract explanation
+https://www.coindash.io/coindash-whitepaper.pdf                                        -
+Payment Solution expression.
+https://www.cryptolux.org/images/8/8a/Ferreira_torres_thesis.pdf
+X13 algorithm, mining, blind signature.
+https://eroscoin.org/whitepaper.pdf                                                    -
+X13 technology explanation.
+https://blockchain.info/charts
+Bitcoin Charts
+https://bitnodes.21.co/
+Global Bitcoin Nodes Distribution
+https://www.forbes.com/sites/ywang/2017/07/11/how-china-is-quickly-embracing-facial-
+recognition-tech-for-better-and-worse/#581ba1468560
+Facial Recognition technology embracement news reference.
+www.coinmarketcap.com
+Exchange Site Listings, Capitalization
+97
+Alibabacoin Foundation
+
+
+
+
+

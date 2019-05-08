@@ -1,0 +1,1091 @@
+﻿The ZILLIQA Technical Whitepaper
+[Version 0.1]
+August 10, 2017
+The ZILLIQA Team
+m www.zilliqa.com B enquiry@zilliqa.com 7 @zilliqa
+Abstract—Existing cryptocurrencies and smart contract plat-             consensus and network protocols. Therefore, even though re-
+forms are known to have scalability issues, i.e., the number of         engineering the parameters of the existing protocols in say
+transactions they are capable of processing per second is limited,
+Bitcoin or Ethereum  (e.g., the block size or the block rate)
+usually  less  than                                                     10.  As  the  number  of  applications  utilizing
+                                                                        may show some speedup, to support applications that need
+public cryptocurrencies and smart contract platforms grow, the
+demand  for  processing  high  transaction  rates  in  the  order  of   processing of thousands of Tx/s however requires rethinking
+hundreds and thousands of Tx/s is increasing.                           the underlying protocols from scratch.
+In this work, we present ZILLIQA— a new blockchain platform             We present ZILLIQA— a new blockchain platform that is
+that is designed to scale in transaction rates. As the number of
+                                                                        designed to scale in transaction rates. As the number of miners
+miners in ZILLIQA increases, its transaction rates are expected to
+                                                                        in  ZILLIQA  increases,  its  transaction  rates  are  expected  to
+increase. At Ethereum’s present network size of  30,000  miners,
+                                                                        increase  as  well.  Specifically,  ZILLIQA’s  design  allows  its
+ZILLIQA  would  expect  to  process  about  a  thousand  times  the
+transaction  rates  of  Ethereum.  The  cornerstone  in  ZILLIQA’s      transaction rates to roughly double with every few hundred
+design is the idea of sharding  — dividing the mining network           nodes added to its network. As of this writing, the Ethereum
+into smaller shards each capable of processing transactions in
+                                                                        mining network is over 30,000 nodes. At Ethereum’s present
+parallel.
+                                                                        capacity, ZILLIQA  would expect to process about a thousand
+ZILLIQA further proposes an innovative special-purpose smart
+                                                                        times the transaction rates of Ethereum.
+contract language and execution environment that leverages the
+underlying  architecture  to  provide  a  large  scale  and  highly     ZILLIQA  is a redesign from scratch and has been under
+efficient computation platform. The smart contract language in          research and development for over  2  years. The cornerstone
+ZILLIQA  follows  a  dataflow  programming  style  which  makes  it
+                                                                        in ZILLIQA’s design is the idea of sharding  — dividing the
+ideal  for  running  large-scale  computations  that  can  be  easily
+mining network into smaller consensus groups called shards
+parallelized.  Examples  include  simple  computations  such  as
+each  capable  of  processing  transactions  in  parallel.  If  the
+search, sort and linear algebra computations, to more complex
+                                                                        computations such as training neural nets, data mining, financial                                                                                                    mining  network  of  ZILLIQA  is  say  8000  miners,  ZILLIQA
+                                                                        modeling, scientific computing and in general any MapReduce                                                                                                          automatically creates 10 sub-networks each of size 800 miners,
+task.
+                                                                                                                                                                                                                                             in a decentralized manner without a trusted co-ordinator. Now,
+                                                                                                                                                                                                                                             if one sub-network can agree on a set of (say) 100 transactions
+                                                                                                                                              I.  INTRODUCTION
+                                                                                                                                                                                                                                             in one time epoch, then 10 sub-networks can agree on a total
+                                                                        Cryptocurrencies and smart contract platforms are becom-                                                      of                                                     1000  transactions  in  aggregate.  The  key  to  aggregating
+                                                                        ing a shared computational resource. One could view these                                                                                                            securely is to ensure that sub-networks process different trans-
+                                                                        platforms as a new generation of computers that synchronize                                                   actions (with no overlaps) without double-spending.
+                                                                        over  thousands  of  individual  computers.  However,  existing                                                                                                      The assumptions are similar to existing blockchain-based
+                                                                        cryptocurrencies  and  smart  contract  platforms  have  widely                                                                                                      solutions. We assume that the mining network will have a frac-
+                                                                        recognized limitations in scaling. Average transaction rates in                                                                                                      tion of malicious nodes/identities with a total computational
+                                                                        Bitcoin  [1], Ethereum  [2], and related cryptocurrencies have                                                                                                       power that is a fraction  (<  1/4) of the complete network.
+been  limited  to  below  10  (usually  about                                                                                                                    3-7)  transactions                                                          It is based on a standard proof-of-work scheme, however, it
+                                                                        per  second  (Tx/s).  As  the  number  of  applications  utilizing                                                                                                   has a new two-layer blockchain structure. It features a highly
+                                                                        public cryptocurrencies and smart contract platforms grow, the                                                optimized consensus algorithm for processing shards.
+                                                                        demand for processing high transaction rates in the order of                                                                                                         ZILLIQA  further comes with an innovative special-purpose
+                                                                        hundreds  of  Tx/s  is  increasing.  A  global  payment  network                                                                                                     smart contract language and execution environment that lever-
+                                                                        would likely require tens of thousands of Tx/s in capacity.                                                                                                          age the underlying architecture to provide a large scale and
+                                                                        Can we build a decentralized and open blockchain platform                                                                                                            highly  efficient  computation  platform.  The  smart  contract
+capable of processing at that scale?                                                                                                                                                                                                         language in ZILLIQA  follows a dataflow programming style,
+                                                                        The limitations in scaling up existing protocols are some-                                                                                                           where  the  smart  contract  can  be  represented  as  a  directed
+                                                                        what  fundamental  —  they  are  rooted  in  the  design  of  the                                                                                                    graph. Nodes in the graph are operations or functions, while
+1
+
+
+
+
+                                                          an arc between two nodes represent the output of the first and                                                                                                                       Further, all byzantine nodes can collude together. We assume
+                                                          the input to the second. A node gets activated (or operational)                                                                                                                      that the total computation power of the byzantine adversaries
+                                                          as soon as all of its inputs become valid and thus a dataflow                                                                                                                        is  still  confined  to  standard  cryptographic  assumptions  of
+                                                          contract is inherently parallel and suitable for decentralized                                                                 probabilistic polynomial-time adversaries.
+systems such as ZILLIQA.                                                                                                                                                                                                                       We however assume that messages from honest nodes  (in
+                                                          The  sharded  architecture  is  ideal  for  running  large-scale                                                                                                                     the absence of network partition) can be delivered to honest
+                                                          computations that can be easily parallelized. Examples include                                                                                                                       destinations after a certain bound δ, but δ may be time-varying.
+                                                          simple computations such as search, sort and linear algebra                                                                                                                          The bound δ is used to ensure liveness but not safety [3]. In
+                                                          computations, to more complex computations such as train-                                                                                                                            case such timing and connectivity assumptions are not met, it
+                                                          ing a neural net, data mining, financial modeling, scientific                                                                                                                        becomes possible for byzantine nodes to delay the messages
+                                                          computing and in general any MapReduce task among others.                                                                      significantly                                                                                                              (simulating  a  gain  in  computation  power)  or
+                                                          This document  outlines the  technical design  of  ZILLIQA                                                                                                                           worse  “eclipse”  the  network  [4].  In  the  event  of  network
+                                                          blockchain protocol. ZILLIQA  has a new, conceptually clean                                                                                                                          partition, as dictated by the CAP theorem, one can only choose
+                                                          and modular design. It has six layers: the cryptographic layer                                                                 between  consistency  and  availability                                                                                                                                        [5].  In  ZILLIQA,  we
+                                                          (Section III), data layer (Section IV), the network layer (Sec-                                                                choose to be consistent and sacrifice availability.
+                                                          tion V), the consensus layer (Section VI), the smart contract
+                                                                                                                                                                                                                                                                                                                    III.  CRYPTOGRAPHIC LAYER
+layer                                                     (Section  VII)  and  the  incentive  layer                                                                  (Section  VIII).
+                                                          Before we present the different layers, we first discuss the                                                                                                                         The cryptographic layer  defines the cryptographic primi-
+                                                          system  settings,  underlying  assumptions  and  threat  model                                                                                                                       tives  used  in  ZILLIQA.  Similar  to  several  other  blockchain
+in Section II.                                                                                                                                                                                                                                 platforms, ZILLIQA  relies on elliptic curve cryptography for
+                                                                                                                                                                                                                                               digital signatures and a memory-hard hash function for proof-
+                                                                                                                                II.  SYSTEM SETTING AND ASSUMPTIONS
+                                                                                                                                                                                         of-work (PoW).
+                                                          Entities  in  ZILLIQA.  There  are  two  main  entities  in                                                                                                                          Throughout this whitepaper, we extensively use SHA3 [6]
+                                                          ZILLIQA:  users  and  miners.  A  user  is  an  external  entity                                                                                                                     hash function to present our design. SHA3 is originally based
+                                                          who uses  ZILLIQA’s infrastructure to transfer funds or run                                                                                                                          on Keccak [7] which is widely used in different blockchain
+                                                          smart  contracts.  Miners  are  the  nodes  in  the  network  who                                                                                                                    platforms in particular Ethereum. In the near future, we may
+                                                          run ZILLIQA’s consensus protocol and get rewarded for their                                                                                                                          switch to Keccak to enable better interoperability with other
+                                                          service. In the rest of this whitepaper, we interchangeably use                                                                platforms.
+the terms miner and node.
+                                                                                                                                                                                         A.  Schnorr Signature
+                                                          ZILLIQA’s mining network is further divided into several
+                                                          smaller networks referred to as a shard. A miner is assigned                                                                                                                         ZILLIQA  employs Elliptic Curve Based Schnorr Signature
+                                                          to a shard by a set of miners called DS nodes. This set of DS                                                                                                                        Algorithm  (EC-Schnorr)  [8]  as  the  base  signing  algorithm.
+                                                          nodes is also referred to as the DS committee. Each shard and                                                                                                                        We instantiate the scheme with secp256k1 curve [9]. The
+                                                          the DS committee has a leader. The leaders play an important                                                                                                                         same curve is currently used in Bitcoin and Ethereum but for
+                                                          role in the ZILLIQA’s consensus protocol and for the overall                                                                                                                         a different signing algorithm called ECDSA. Choosing EC-
+functioning of the network.                                                                                                                                                                                                                    Schnorr  over  ECDSA  has  several  benefits  that  we  discuss
+                                                          Each user has a public, private key pair for a digital signa-                                                                  below:
+                                                          ture scheme and each miner in the network has an associated                                                                                                                          1)  Non-malleability:  Informally  put,  the non-malleability
+IP address and a public key that serves as an identity.                                                                                                                                                                                        property means that given a set of signatures generated on
+                                                          Intrinsic  token.  ZILLIQA  has  an  intrinsic  token  called                                                                                                                        a  message  using  a  private  key,  it  should  be  hard  for  an
+                                                          Zillings or ZILs for short. Zillings give platform usage rights                                                                                                                      adversary to produce a new signature for the same message
+                                                          to  the  users  in  terms  of  using  it  to  pay  for  transaction                                                                                                                  that is valid for the corresponding public key. Unlike ECDSA
+                                                          processing or run smart contracts. Throughout this whitepaper,                                                                                                                       which is malleable, EC-Schnorr has been proven to be non-
+                                                          any reference to amount, value, balance or payment, should                                                                     malleable [10].
+be assumed to be counted in ZIL.                                                                                                                                                                                                               2)  Multisignature:  A multisignature scheme allows multi-
+                                                          Adversarial model. We assume that the mining network at                                                                                                                              ple signers to “aggregate” their signatures on a given message
+                                                          any point of time has a fraction of byzantine nodes/identities                                                                                                                       into a single signature which can be authenticated against a
+                                                          with a total computational power that is at most f < 4  of the                                                                                                                       single public key that “aggregates” the keys of all the autho-
+                                                          complete network, where 0 ≤ f  < 1 and n is the total size                                                                                                                           rized parties. While, EC-Schnorr is natively a multisignature
+                                                          of the network. The factor  4  is an arbitrary constant bounded                                                                                                                      scheme (see [11]), ECDSA allows creating multisignatures but
+                                                          away from  3   selected as such to yield reasonable constant                                                                   in a less flexible way.
+                                                          parameters. We further assume that honest nodes are reliable                                                                                                                         ZILLIQA  uses EC-Schnorr based multisignatures to reduce
+                                                          during  protocol  runs,  and  failed  or  disconnected  nodes  are                                                                                                                   the signature size when multiple signatures are required on a
+counted in the byzantine fraction.                                                                                                                                                                                                             message. Smaller signatures are particularly important in our
+                                                          Byzantine  nodes  can  deviate  from  the  protocol,  drop  or                                                                                                                       consensus protocol where multiple parties need to agree on a
+                                                          modify messages and send different messages to honest nodes.                                                                   data by signing it.
+2
+
+
+
+
+                                       3)  Speed: EC-Schnorr is faster than ECDSA since the latter                                                account. A normal account is created by generating an EC-
+                                       requires  computing  an  inverse  modulo  a  large  number.  No                                            Schnorr private key. A contract account is created by another
+inversion is required in EC-Schnorr.                                                                                                              account.
+                                       The exact EC-Schnorr key generation, signing and verifica-                                                 Each account is identified by an address derived differently
+                                       tion procedures are given in Appendix A. In the Appendix, we                                               depending on its type. The address for a normal account is
+                                       also present how EC-Schnorr can be used as a multisignature                                                derived from the account’s private key. For a given private
+scheme.                                                                                                                                           key sk, the address Anormal  is a 160-bit value computed as:
+B.  Proof of Work                                                                                                                                 Anormal  = LSB160 (SHA3-256(PubKey(sk))),
+                                       ZILLIQA  uses  PoW  only  to  prevent  Sybil  attacks  and                                                 where, LSB160 (·) returns the rightmost 160 bits of the input
+                                       generate  node  identities.  This  is  in  contrast  to  many  ex-                                         and PubKey(·) returns the public key corresponding to the in-
+isting  blockchain  platforms                                                                               (in  particular  Bitcoin   [1]  and   put secret key. The address for a contract account is computed
+Ethereum                               [12]),  where  PoW  is  used  to  reach  distributed                                                       from the address of its creator and how many transactions the
+                                       consensus. ZILLIQA employs Ethash [13], the PoW algorithm                                                  creator account has sent, aka account nonce (described below).
+used in Ethereum 1.0.
+                                                                                                                                                  Acontract  = LSB160 (SHA3-256(address||nonce)),
+                                       Ethash is a memory hard hash function designed to make it
+                                       easy to mine with GPUs but hard with specialized computing                                                 where, address is the address of the creator account, and
+                                       hardware such as ASICs. To achieve this, Ethash computation                                                nonce is the creator’s nonce value.
+                                       requires a considerable amount of memory (in GBs) and I/O                                                  Each  account  (whether  normal  or  contract)  is  associated
+                                       bandwidth such that the function cannot be invoked in parallel                                             with an account state. The account state is a key, value store
+on specialized computing hardware.                                                                                                                and comprises of the following keys:
+                                       Roughly speaking, Ethash takes a data (for instance a block
+                                                                                                                                                  1)  account  nonce:  (64  bits) A counter  (initialized to
+                                       header) and a nonce of 64-bits as inputs and generates a 256-
+                                                                                                                                                  0)  that counts the number of transactions sent from a
+                                       bits digest. The algorithm consists of four subroutines which
+                                                                                                                                                  normal account. In case of a contract account, it counts
+are run in the given order:
+                                                                                                                                                  the number of contract creations made by the account.
+                                       1)  Seed generation: Seed is a SHA3-256 digest which is                                                    2)  balance:  (128  bits) A non-negative value. Whenever
+                                       updated after every  30000  blocks called an epoch. For                                                    an  account  receives  tokens  from  another  account,  the
+                                       the first epoch it is the SHA3-256  hash of a series of                                                    received  amount  is  added  to  the  account’s  balance.
+                                       32 bytes of zeros. For every other epoch it is always the                                                  When an account sends tokens to another account, the
+                                       SHA3-256 hash of the previous seed.                                                                        balance is reduced by the appropriate amount.
+                                       2)  Cache generation: The seed is used to generate a pseu-                                                 3)  code  hash: (256 bits) This stores SHA3-256 digest
+                                       dorandom cache using SHA3-512. The size of the cache                                                       of  the  contract  code.  For  a  normal  account  it  is  the
+                                       linearly increases with epoch. The initial size of the cache                                               SHA3-256 digest of the empty string.
+                                       is 16 MB.                                                                                                  4)  storage  root: (256 bits) Each account has a storage
+                                       3)  Dataset generation: The cache is then used to generate                                                 which is again a key, value store with 256-bit keys and
+                                       a dataset, where each  “item” in the dataset depends on                                                    256-bit values. storage  root is a SHA3-256 digest
+                                       only a small number of items in the cache. The dataset                                                     that represents this storage. For instance, if the storage is
+                                       is updated once every epoch so that the miners do not                                                      a trie, then storage  root is the digest of the root of
+                                       have to make changes to it very frequently. The size of                                                    the trie.
+                                       the dataset also increases linearly with epoch. The initial
+                                                                                                                                                  The global state (state) of ZILLIQA is a mapping between
+                                       size of the dataset is 1 GB.
+                                                                                                                                                  account addresses and account states. It is implemented using
+                                       4)  Mining and Verification: Mining involves grabbing ran-
+                                                                                                                                                  a trie like data structure.
+                                       dom  slices  of  the  dataset  and  hashing  them  together.
+                                       Verification  uses  the  cache  to  regenerate  the  specific                                              B.  Transactions
+                                       pieces of the dataset needed to compute the hash.
+                                                                                                                                                  A  transaction  is  always  sent  from  a  normal  account
+                                                                                                                                                  address  and  it  updates  the  global  state  of  ZILLIQA.  A
+                                                                                                            IV.  DATA LAYER
+                                                                                                                                                  transaction has the following fields:
+                                       Broadly  speaking,  the  data  layer  defines  the  data  that                                             1)  version (32 bits): Current version.
+                                       constitutes the global state of ZILLIQA. By extension, it also                                             2)  nonce  (64  bits):  A  counter  equal  to  the  number  of
+                                       defines the data needed by the different entities in ZILLIQA                                               transactions sent by the sender of this transaction.
+to update its global state.                                                                                                                       3)  to  (160  bits): Destination account address. In case the
+                                                                                                                                                  transaction creates a new contract account, this field is the
+A.  Accounts, Addresses and State
+                                                                                                                                                  rightmost 160 bits of SHA3-256 of the empty string.
+                                       ZILLIQA is an account-based system (as Ethereum). There                                                    4)  amount (128 bits): The transaction amount to be trans-
+                                       are  two  types  of  accounts:  normal  account  and  contract                                             ferred to the destination address.
+3
+
+
+
+
+5)  gas  price  (128  bits): Gas is defined as the smallest                                                                       2)  Transaction Blocks:  As discussed earlier, a DS-Block
+unit of computation. gas  price is the amount that the                                                                            contains information on the nodes who reach consensus on
+sender is willing to pay per unit of gas for computations                                                                         transactions. TX-Block stores information on which transac-
+incurred in the transaction processing.                                                                                           tions were agreed upon by the nodes in a DS-Block. Every
+6)  gas  limit  (128  bits): The maximum amount of gas                                                                            DS-Block is linked to multiple TX-Blocks. A TX-Block has
+that should be used while processing the transaction.                                                                             three parts: header, data and signature. The header
+7)  code  (unlimited): An expandable byte array that spec-       consists of the following fields:
+ifies  the  contract  code.  It  is  present  only  when  the
+                                                                 1)                                                               type  (8  bits):  A  TX-Block  is  of  two  types,  micro
+transaction creates a new contract account.                                                                                       block  (0x00)  and  final  block  (0x01).  More  on  these
+8)  data (unlimited): An expandable byte array that speci-       in Section V-D.
+fies the data that should be used to process the transaction.    2)                                                               version (32 bits): Current version.
+It is present only when the transaction invokes a call to        3)                                                               previous  hash (256 bits): The SHA3-256 digest of
+a contract at the destination address.                           its parent block header.
+9)  pubkey  (264  bits):  An  EC-Schnorr  public  key  that      4)                                                               gas  limit (128 bits): Current limit for gas expenditure
+should be used to verify the signature. The pubkey field         per block.
+also determines the sending address of the transaction.          5)                                                               gas  used (128 bits): Total gas used by transactions in
+10)  signature (512 bits): An EC-Schnorr signature on the        this block.
+entire data.                                                     6)                                                               number (256 bits): The number of ancestor blocks. The
+Each    transaction    is    uniquely    identified    by    a                                                                    genesis block has a block number of 0.
+transaction  ID — a SHA3-256 digest of the transaction           7)                                                               timestamp  (64  bits):  Unix’s  time()  at  the  time  of
+data that excludes the signature field.                          creation of this block.
+                                                                 8)                                                               state  root  (256  bits):  It  is  a  SHA3-256  digest
+C.  Blocks
+                                                                                                                                  that represents the global state after all transactions are
+The ZILLIQA protocol introduces two types of blocks (and
+                                                                                                                                  executed and finalized. If the global state is stored as a
+thereby two blockchains): transaction blocks (TX-Block) and
+                                                                                                                                  trie, then state  root is the digest of the root of the
+directory service blocks  (DS-Block). TX-Block contains the
+                                                                 trie.
+transactions sent by users, while DS-Block contains metadata
+                                                                 9)                                                               transaction  root  (256  bits):  It  is  a  SHA3-256
+about the miners who participate in the consensus protocol.
+                                                                                                                                  digest  that  represents  the  root  of  the  Merkle  tree  that
+1)  DS Blocks:  A DS-Block has two parts: the header
+                                                                                                                                  stores all transactions that are present in this block.
+and the signature. The header part of DS-Block has the
+                                                                 10)                                                              tx  hashes  (each  256  bits): A list of SHA3-256  di-
+following fields:
+                                                                                                                                  gests of the transactions. The signature part of the
+1)  version (32 bits): Current version.
+                                                                 transaction is also hashed.
+2)  previous  hash (256 bits): The SHA3-256 digest of
+                                                                 11)                                                              pubkey  (264  bits): It is the EC-Schnorr public key of
+its parent block header.
+                                                                                                                                  the leader who proposed the block.
+3)  pubkey (264 bits): The public key of the miner who did
+                                                                 12)                                                              pubkey  micro  blocks (unlimited): It is a list of EC-
+PoW on this block header.
+                                                                                                                                  Schnorr public keys  (each  264  bits in length). The list
+4)  difficulty (64 bits): This can be calculated from the
+                                                                                                                                  contains  the  public  keys  of  the  leaders  who  proposed
+previous block’s difficulty and the block number. It stores
+                                                                                                                                  transactions. The field is present only if it is a final block.
+the difficulty of the PoW puzzle.
+                                                                 13)                                                              parent  block  hash (256 bits): It is the SHA3-256
+5)  number (256 bits): The number of ancestor blocks. The
+                                                                                                                                  digest of the previous final block header.
+genesis block has a block number of 0.
+                                                                 14)                                                              parent  ds  hash  (256  bits):  It  is  the  SHA3-256
+6)  timestamp  (64  bits):  Unix’s  time()  at  the  time  of
+                                                                                                                                  digest of its parent DS-Block header.
+creation of this block.
+                                                                 15)                                                              parent  ds  block  number (256 bits): It is the par-
+7)  mixHash  (256  bits): A digest calculated from nonce
+                                                                 ent DS-Block number.
+which allows detecting DoS attacks.
+                                                                                                                                  The data part of a TX-Block contains the set of transac-
+8)  nonce (64 bits): A solution to the PoW.
+                                                                 tions. It has the following fields:
+The signature part of DS-Block contains the following
+two fields:                                                      1)  tx  count (32 bits): The number of transactions in this
+                                                                 block.
+1)  signature (512 bits): The signature is an EC-Schnorr
+                                                                 2)  tx  list (unlimited): A list of transactions.
+based multisignature on the DS-Block header signed by
+DS nodes.                                                        The  signature  part  of  a  TX-Block  contains  an  EC-
+2)  bitmap (1024 bits): It records which DS nodes partic-        Schnorr based multisignature. It has the following two fields:
+ipated in the multisignature. We denote the bitmap by a          1)  signature (512 bits): The signature is an EC-Schnorr
+bit vector B, where, B[i] = 1 if the i-th node signed the        based multisignature on the TX-Block header signed by
+header else B[i] = 0.                                            a set of nodes. The signature is produced by a different
+DS-Blocks form a DS blockchain.                                  set of nodes depending on whether it is a micro block or
+4
+
+
+
+
+                                                                                                                                       a final block. Further details on the signatories is given                                                                                                                       After  a  successful  bootstrapping  phase,  at  any  time,  the
+                                                                    in Section V-D.                                                                                                                                                                                                                                     composition of the DS nodes is stipulated by a predefined
+                                                                    2)  bitmap (1024 bits): It records which nodes participated                                                                                                                                         window  of  size  n0 .  The  most  recent  n0                                                                                                      nodes  who  have
+                                                                                                                                       in  the  multisignature.  We  denote  the  bitmap  by  a  bit                                                                                                                    successfully mined a DS-Block form the DS committee.
+                                                                                                                                       vector B, where, B[i]  =  1  if the i-th node signed the                                                                                                                         The  average  time  between  mining  two  consecutive  DS-
+                                                                    header else B[i] = 0.                                                                                                                                                                                                                               Blocks  is  referred  to  as  the  DS-epoch.  The  value  of
+                                                                    The  final  blocks  form  the  transaction  blockchain.  The                                                                                                                                                                                        DS-epoch is set in a way to minimize the chances of two
+transaction blockchain does not include micro blocks.                                                                                                                                                                                                                                                                   competing blocks. At the start of a DS-epoch, a new DS
+                                                                                                                                                                                                                                                                                                                        node joins the DS committee and the oldest member of the
+                                                                                                                                                                                                       V.  NETWORK LAYER                                                                                                DS committee is churned out. This fixes the size of the DS
+                                                                    ZILLIQA has been designed to scale in transaction rates. The                                                                                                                                                                                        committee to n0  during any DS-epoch. The newest member
+                                                                    main idea is that of sharding, i.e., dividing the mining network                                                                                                                                                                                    of the DS committee then becomes the leader and leads the
+                                                                    into small shards, each capable of processing transactions in                                                                                                                                       consensus  protocol  for  the  epoch                                                                                 (see  Section  VI  for  the
+                                                                    parallel. In this section, we present the idea of network and                                                                                                                                                                                       consensus protocol). This further induces a strict ordering on
+transaction sharding.                                                                                                                                                                                                                                                   the members of the DS committee.
+                                                                                                                                                                                                                                                                                                                        One can show that if the DS committee size is sufficiently
+A.  Network Sharding
+                                                                                                                                                                                                                                                                                                                        large  (say above  800), then among the n0   members of the
+                                                                    Network sharding, i.e., dividing the mining network into                                                                                                                                                                                            committee at most  3  are byzantine with high probability.
+                                                                    smaller shards is a two-step process. First, a dedicated set of                                                                                                                                                                                     2)  Resolving  Conflicts:  Our  consensus  protocol                                                                   (to  be
+                                                                    nodes called the directory service committee (or DS commit-                                                                                                                                                                                         presented  in  Section  VI)  does  not  permit  forks  in  the  DS
+                                                                    tee) are elected which then shard the network and assign nodes                                                                                                                                                                                      blockchain. The forks may occur when multiple nodes solve
+                                                                    to their shard. We present these processes below in further                                                                                                                                                                                         the puzzle at roughly the same time. In order to resolve the
+detail.                                                                                                                                                                                                                                                                                                                 conflict, each DS node retrieves the nonce field from the
+                                                                    1)  Directory Service Committee:  To facilitate sharding of                                                                                                                                                                                         received headers and sorts them in the increasing order. Let
+                                                                    the network, we first elect a group of nodes, called directory                                                                                                                                                                                      us suppose that the largest nonce for the i-th DS node is
+service                                                                                                                                (DS)  nodes.  The  DS  nodes  form  a  DS  committee.                                                                            ni
+                                                                                                                                                                                                                                                                        max .
+                                                                    The election of DS nodes is based on a proof-of-work puzzle                                                                                                                                                                                         The  leader  of  the  DS  committee  then  proposes  his  own
+                                                                    that we refer to as PoW1 . The algorithm for PoW1  is given                                                                                                                                                                                         header (that corresponds to the largest nonce he has seen)
+in Algorithm 1.                                                                                                                                                                                                                                                                                                         and  runs  a  consensus  protocol  to  agree  on  the  DS-Block
+                                                                                                                                                                                                                                                                                                                        header. The i-th DS node then agrees to accept the proposed
+Algorithm 1: PoW1  for DS committee election.                                                                                                                                                                                                                                                                           header only if the corresponding nonce is larger than or equal
+                                                                                                                                                                                                                                                                        to ni
+                                                                    Input:  i: Current DS-epoch, DSi−1 : Prev. DS committee                                                                                                                                                                                             max . Once the consensus is reached, the signature part
+                                                                                                                                       composition.                                                                                                                                                                     of the DS-Block is built and the agreed upon winner then
+Output: header: DS-Block header.                                                                                                                                                                                                                                        becomes the leader.
+1 On each competing node:
+3)  Generating Shards:  Once the DS committee is elected,
+// get epoch randomness from the DS blockchain
+the actual sharding of the network can start. In order for a node
+// DBi−1 : Most recent DS-Block before start of i-th epoch
+2                                                                   r1  ← GetEpochRand(DBi−1 )                                                                                                         to participate in the underlying consensus protocol, it has to
+                                                                    // get epoch randomness from the transaction blockchain                                                                            perform a proof-of-work  (PoW2 ). The sharding protocol is
+                                                                    // TBj : Most recent TX-Block before start of i-th epoch                                                                           repeated at the start of every DS-epoch. The algorithm for
+3                                                                   r2  ← GetEpochRand(TBj )
+                                                                                                                                                                                                       PoW2  is given in Algorithm 2.
+                                                                    // pk: node’s public key, IP = node’s IP address
+4                                                                   nonce, mixHash ← Ethash-PoW(pk, IP, r1 , r2 )
+5                                                                   header ← BuildHeader(nonce, mixHash, pk)                                                                                           Algorithm 2: PoW2  for shard membership.
+                                                                    // header includes pk and nonce among other fields
+                                                                                                                                                                                                       Input:  i: Current DS-epoch, DSi : Current DS committee
+                                                                    // IP, header is multicast to members in the DS committee
+                                                                                                                                                                                                       composition.
+6                                                                   MulticastToDSi−1 (IP, header)
+                                                                                                                                                                                                       Output: nonce, mixHash: outputs of Ethash-PoW
+7                                                                   return header
+                                                                                                                                       1                                                               On each competing node:
+                                                                                                                                                                                                       // get epoch randomness from the DS blockchain
+                                                                                                                                                                                                       // DBi−1 : Most recent DS-Block before start of i-th epoch
+                                                                    Each node that has successfully produced a valid nonce
+                                                                                                                                       2                                                               r ← GetEpochRand(DBi )
+                                                                    for PoW1  earlier than other nodes proposes a header for
+                                                                                                                                                                                                       // pk: node’s public key, IP = node’s IP address
+                                                                    a  new  DS-Block.  Recall  that  a  DS-Block  has  a  header       3                                                               nonce, mixHash ← Ethash-PoW(pk, IP, r)
+                                                                    and  a  signature  part.  When  a  node  does  a  PoW1 ,  it                                                                       // IP, header is multicast to members in the DS committee
+                                                                                                                                       4                                                               MulticastToDSi (nonce, mixHash, pk, IP)
+only generates a DS-Block header. The header is then
+5                                                                   return nonce, mixHash
+multicast to the nodes in the DS committee. The DS committee
+then runs a consensus on the proposed DS-Block header and
+then builds a signature part. Once, 2f DS nodes have signed         The  computed  valid  nonce  (and  mixhash)  for  PoW2
+the DS-Block header, it is committed to the DS blockchain.          is then multicast to the DS committee. The DS nodes will
+5
+
+
+
+
+collectively accept just enough PoW solutions to be sharded            the  sender’s  address,  i.e.,  the  address  of  the  account  A  in
+into l consensus committees or shards, each with n0  nodes to          the example. As the account address is a  160-bit integer, ℓ
+run consensus. Once enough number of PoW2  solutions have              is bounded above as:
+been received by the leader of the DS committee, he initiates a
+                                                                       ⌊log2 ℓ⌋ + 1 ≤ 160.
+consensus protocol to agree on the set of valid PoW2  solutions.
+At the end of the consensus protocol, the leader generates an          In practice though, ℓ will be smaller than 100.
+EC-Schnorr multisignature signed by the DS nodes. In order             Once the assigned shard is identified, the transaction is then
+to proceed further, more than 2/3 of the DS nodes must have            multicast to some nodes within the shard who then broadcast it
+agreed on the set of acceptable PoW2  solutions.                       further. Once the transaction reaches the leader of the assigned
+Sharding leverages a deterministic function to assign a node           shard, it includes it in a TX-Block and runs the consensus
+to a shard. Let us assume that we need ℓ shards each having            protocol.
+n0  nodes. The nonce values are then sorted in the increasing          Double  spend  (or  replay  attacks)  can  be  easily  detected
+order and the first n0  nodes are assigned to the first shard, the     using  the  nonce  present  in  every  transaction.  Recall  that
+next n0  to the next shard and so on. The identity of the miner        each  transaction  has  a  nonce  that  counts  the  number  of
+who proposed the largest nonce within a shard is declared its          transactions sent from the sender’s account. Once a transaction
+leader. This further induces a strict ordering on the members          gets into the transaction blockchain, the nonce is updated
+of the shard.                                                          in the account’s state and thereby in the global state. A
+One can also show that if n0  is sufficiently large (say above         transaction with a nonce value smaller than or equal to the
+800), then within each shard at most 3  are byzantine with high        current value in the global state gets rejected by the miners.
+probability.                                                           Sharding transactions based on the sender’s account address
+                                                                       natively allows shard members to detect double spend as every
+B.  Public Channel
+                                                                       transaction from a sender will be processed within the same
+The  DS  nodes  publish  certain  information  on  the  public         shard.
+channel, including the identities and connection information           2)  Transaction Processing: All the nodes within a commit-
+of the DS nodes, the list of nodes in each shard, as well as           tee can propose transactions. These transactions are sent to the
+the sharding logic for transactions (explained in Section V-D).        leader to run a consensus protocol on which set of transactions
+The public channel is untrusted and is assumed to be accessible        forms the next TX-Block. Blocks proposed by each shard is
+by all nodes. In our implementation, our broadcast primitive           called a micro block (identified by the type marker 0x00). A
+implements such a public channel.                                      micro block contains an EC-Schnorr multisignature by more
+A  user  of  our  blockchain  who  would  like  to  submit  a          than  3  nodes from the shard. The leader also builds a bitmap
+transaction  for  acceptance  can  then  check  the  information       B that identifies the public keys of the signers. B[i] = 1  if
+on sharding to get the shard responsible for processing her            the i-th member of the shard has signed the TX-Block header.
+transaction. The information published on the public channel           When a shard reaches a consensus on a TX-Block, its leader
+is expected to be signed by more than 2/3 of the DS nodes              multicasts the block header and the signature to some
+that can be verified by any node or user.                              of the DS nodes. The DS nodes then broadcast it within the
+                                                                       DS committee so that the block reaches its leader. The data
+C.  New Nodes Joining ZILLIQA
+                                                                       part of the block can be asynchronously sent to the nodes.
+For a new node to join the network, it can attempt to solve            The  DS  committee  then  aggregates  all  blocks  sent  from
+PoW1  to become a DS node or a PoW2  to become a member                the shards, and runs another round of the consensus protocol
+of a shard. To this end, it would need to obtain information           among themselves to agree on the final block. A final block
+on the randomness required for a PoW1  or a PoW2  from the             is a TX-Block identified by the type marker  0x01. A final
+blockchains. Once it obtains the randomness information, the           block contains an EC-Schnorr multisignature by more than
+2
+new node can submit its solution to the DS committee.                  0                                                                       nodes  from  the  DS  committee.  The  leader  in  the  DS
+                                                                       3 n
+                                                                       committee also builds a bitmap B  that identifies the public
+D.  Transaction Sharding and Processing                                keys of the signers. B[i] = 1  if the i-th member of the DS
+As  presented  in  Section  V-A,  network  sharding  creates           committee has signed the TX-Block header. The final block
+shards  each  capable  of  processing  transactions  in  parallel.     header  and  the  signature,  is  then  multicast  to  some
+In this section, we present how a particular transaction gets          nodes within each shard. The actual TX-Block data is not
+assigned to a shard and how the transactions get processed.            sent by the DS nodes.
+                                                                       →  B to                                                                 Within each shard the following steps are taken to process
+indicate a transaction of n ZIL from the sender’s account A            the final block:
+to the receiver’s account B.                                                                                                                   1)  Each node in the shard verifies the EC-Schnorr multisig-
+                                                                       →  B                                                                    nature  using  the  public  keys  of  the  DS  nodes.  If  the
+2
+gets processed by a single shard. Assuming that there are ℓ            signatures are valid against more than                                  0  public keys
+                                                                                                                                               3 n
+shards numbered from  0  to ℓ − 1, a transaction is assigned           represented by the bitmap, then the nodes perform the
+to  a  shard  identified  by  the  ⌊log2 ℓ⌋ + 1  rightmost  bits  of   next checks.
+6
+
+
+
+
+2)  For  each  transaction  hash  included  in  the  final  block   PBFT relies upon a correct leader to begin each phase and
+header,  the  node  checks  whether  its  corresponding             proceed when the sufficient majority exists. In case the leader
+transaction  content  is  available.  If  the  corresponding        is  byzantine  it  can  stall  the  entire  consensus  protocol.  To
+transaction was proposed by the shard to which the node             address this challenge, PBFT offers a view change protocol
+belongs, then the hash of the transaction data is compared          to  replace  the  byzantine  leader  with  another  one.  If  the
+with  the  hash  contained  in  the  final  block  header.          nodes do not see any progress for a bounded time, they can
+If  the  transaction  was  proposed  by  another  shard,  the       independently announce the desire to change the leader. If a
+transaction data is shared asynchronously across shards.            quorum of more than 3 n nodes decides that the leader is faulty,
+3)  Once  the  transaction  data  is  available,  the  data  part   then the next leader in a well-known schedule takes over.
+of the final block is reconstructed and the TX-Block is             Owing to the multicast of every node in the prepare/commit
+appended to the local transaction blockchain. The account           phase, the communication complexity for PBFT in the normal
+state and the global state are accordingly updated.                 case is O(n2 ).
+4)  If  the  transaction  content  is  not  available,  the  node
+                                                                    B.  Improving Efficiency
+temporarily invalidates the sending account of that trans-
+                                                                    Classical PBFT uses message authentication code  (MAC)
+action  in  its  local  view  of  accounts  so  that  any  other
+                                                                    for  authenticated  communication  between  nodes.  As  MAC
+pending transactions for this account are rejected until
+                                                                    requires a secret key shared between every two nodes, the
+the local transaction content can be brought in sync with
+                                                                    nodes in one consensus group can agree on the same record
+the global state. Such rejected transactions will have
+                                                                    with a communication complexity of O(n2 ) per node. Due
+to be retried by the sending node.
+                                                                    to the quadratic complexity, PBFT becomes impractical when
+VI.  CONSENSUS LAYER                                                the committee has over 20 nodes.
+                                                                    To improve the efficiency, we use the ideas inspired from
+As mentioned earlier, each shard and the DS committee have
+                                                                    ByzCoin [15]:
+to run a consensus protocol on the micro blocks and the final
+                                                                    1)  We replace MAC with digital signatures to effectively
+blocks respectively. In this section, we present the consensus
+                                                                    reduce the communication overhead to O(n).
+layer which defines the consensus protocol to run within each
+                                                                    2)  In the meantime, to allow the other nodes to verify the
+shard and the DS committee. In the rest of the discussion,
+                                                                    agreement, one typical way is to collect the signatures
+we refer to shards and the DS committees collectively as a
+                                                                    from the honest majority and append them to the agree-
+consensus group.
+                                                                    ment, thereby resulting in the agreement size linear in
+                                                                    the size of the consensus group. To improve on this, we
+A.  Practical Byzantine Fault Tolerance
+                                                                    employ EC-Schnorr multisignatures to aggregate several
+The core of ZILLIQA’s consensus protocol relies on prac-            signatures into an O(1)-size multisignature.
+tical byzantine fault tolerance  (PBFT) protocol proposed by
+                                                                    We however cannot directly use the classical EC-Schnorr
+Castro and Liskov [3]. We however improve its efficiency by
+                                                                    multisignature scheme in the PBFT setting. This is because in
+using the idea of employing EC-Schnorr multisignature in the
+                                                                    the classical setting all the signers agree on signing a given
+PBFT protocol as developed in [14], [15]. Use of EC-Schnorr
+                                                                    message and the signature is valid only when all the signers
+multisignature lowers the normal case communication latency
+                                                                    have signed the message. In the PBFT setting, we only require
+from O(n2 ) to O(n) and reduces the signature size from O(n)
+                                                                    that the message be signed by over  3 n nodes in the consensus
+to O(1), where n is the size of the consensus group. In this
+                                                                    group. One of the main modification required is to maintain
+section, we present an overview of PBFT.
+                                                                    a  bitmap  B  for  the  signers  who  participate  in  the  signing
+In PBFT, all the nodes within a consensus group are ordered
+                                                                    process. If the i-th node participated in the process, B[i] = 1,
+in a sequence, and it has one primary node (or leader) and the
+                                                                    else it is                                                             0. The bitmap is build by the leader. The bitmap
+others are referred to as backup nodes. Every round of PBFT
+                                                                    can then be used by any verifier to validate the signature. The
+has three phases as discussed below:
+                                                                    resulting protocol is left in Appendix B.
+1)  Pre-prepare phase: In this phase, the leader announces
+                                                                    C.  ZILLIQA Consensus
+the next record (a TX-Block in our case) that the group
+should agree on.                                                    In ZILLIQA, we use PBFT as the basis consensus protocol
+2)  Prepare phase: Upon receiving the pre-prepare message,          and employ two rounds EC-Schnorr multisignatures to replace
+every  node  validates  its  correctness  and  multicasts  a        the prepare and commit phases in PBFT. The different modi-
+prepare message to all the other nodes.                             fications to the PBFT phases are explained below.
+3)  Commit phase: Upon receiving more than  3 n prepare             1)  Pre-prepare  phase:  As  in  standard  PBFT,  the  leader
+messages,  a  node  multicasts  a  commit  message  to  the         distributes  a  TX-Block  or  a  statement                             (signed  by  the
+2
+group  Finally,  a  node  waits  for  more  than                    commit                                                                 leader) to all the nodes in the consensus group.
+3
+messages  to  ensure  that  a  sufficient  number  of  nodes        2)  Prepare phase: All honest nodes check the validity of
+have made the same decision. Therefore, all honest nodes            the  TX-Block  and  the  leader  collects  responses  from
+accept the same valid record.                                       nodes. This guarantees that the statement
+3
+7
+
+
+
+
+proposed by the leader is safe and consistent with all               computations  such  as  training  a  neural  net,  data  mining,
+previous histories. The signature is generated using EC-             financial modeling, etc.
+Schnorr multisignature. The leader also builds the bitmap            ZILLIQA’s  computational  sharding  approach  relies  on  a
+of nodes who signed the TX-Block.                                    new smart contract language that is not Turing-complete but
+2n
+3)  Commit  phase:  To  ensure  that  more  than                     nodes                                                              scales much better for a multitude of applications. The smart
+3
+nodes have verified the                                              contract language in ZILLIQA follows a dataflow programming
+3
+TX-Block, we perform a second round of EC-Schnorr                    style  [16],  [17]. In the dataflow execution model, a contract
+multisignature. The statement being signed is the mul-               is represented by a directed graph. Nodes in the graph are
+tisignature generated from the last round.                           primitive instructions or operations. Directed arcs between two
+At the end of the three phases, the consensus is reached on          nodes represent the data dependencies between the operations,
+the TX-Block proposed by the leader.                                 i.e., output of the first and the input to the second. A node
+                                                                     gets activated (or operational) as soon as all of its inputs are
+D.  Leader Change                                                    available. This stands in contrast to the classical von Neumann
+In our consensus protocol, if the leader is honest, it can           execution  model  (as  employed  in  Ethereum),  in  which  an
+drive the nodes in the consensus group to reach agreements on        instruction is only executed when the program counter reaches
+new sets of transactions continuously. However, if the leader        it, regardless of whether or not it can be executed earlier.
+is byzantine, it can intentionally delay or drop messages from       The  key advantage  of  employing a  dataflow approach  is
+honest nodes, and slow down the protocol. To penalize such           that more than one instruction can be executed at once. Thus,
+malicious  leaders,  our  protocol  changes  the  leader  of  each   if several nodes in the graph become activated at the same
+shard and the DS committee periodically. This prevents the           time, they can be executed in parallel. This simple principle
+byzantine leader to stall the consensus protocol for an infinite     provides the potential for massive parallel execution. To see
+time. Since all the nodes are ordered, the next leader will been     this, we present a simple sequential program in Figure 1a with
+chosen in a round robin manner.                                      three instructions and in Figure  1b, we present its dataflow
+In fact, the leader of a shard is changed after every micro          variant. Under the von Neumann execution model, the program
+block and the leader of the DS committee is changed after            would run in three time units: first computing A, then B and
+every final block. Let us assume that the size of the consensus      finally C . The model does not capture the fact that A and B
+group is n, then within a DS-epoch, we allow a maximum               can be independently computed. The dataflow program on the
+of n final blocks, each final block aggregating a maximum of         other hand can compute these two values in parallel. The node
+1 micro block per shard.                                             that performs addition gets activated as soon as A and B are
+available.
+VII.  SMART CONTRACT LAYER
+ZILLIQA  comes with an innovative special-purpose smart
+x                                                                    y
+contract language and execution environment that leverages           20
+the underlying architecture to provide a large scale and highly
+efficient computation platform. In this section, we present the
+                                                                                                                                        ∗                                                               /
+smart contract layer  that employs a dataflow programming
+                                                                                                                                        A                                                               B
+architecture.
+                                                                     A = x ∗ y                                                          +
+A.  Computational Sharding using Dataflow Paradigm                   B = y/20
+                                                                     C = A + B
+ZILLIQA’s smart contract language and its execution plat-                                                                               C
+form  is  designed  to  leverage  the  underlying  network  and      (a) A simple program.                                              (b) Dataflow program.
+transaction sharding architecture. The sharded architecture is
+                                                                     Fig. 1: (a): A simple sequential program with three instructions
+ideal for running computation-intensive tasks in an efficient
+                                                                     (b): Its dataflow variant.
+manner. The key idea is the following: only a subset of the
+network (such as a shard) would perform the computation. We
+                                                                     When run on the ZILLIQA’s sharded network, each node in
+refer to this approach as computational sharding.
+                                                                     the dataflow program can be eventually attributed to a single
+In contrast with existing smart contract architectures (such
+                                                                     shard or even a small subset of nodes within a shard. Hence the
+as  Ethereum),  computational  sharding  in  ZILLIQA  takes  a
+                                                                     architecture is ideal for any MapReduce style computational
+very  different  approach  towards  how  to  process  contracts.
+                                                                     tasks,  where  some  node  perform  the  mapping  task  while
+In  Ethereum,  every  full  node  is  required  to  perform  the
+                                                                     another node can work as a reducer to aggregate the work
+same computation to validate the outcome of the computation
+                                                                     done by each mapper.
+and update the global state. Albeit being secure, such a
+                                                                     In order to facilitate the execution of a dataflow program,,
+fully redundant programming model is prohibitively expen-
+                                                                     ZILLIQA’s smart contract language has the following features:
+sive for running large-scale computations that can be easily
+parallelized. Examples include simple computations such as           1)  Operating over a virtual memory space shared globally
+search, sort and linear algebra computations, to more complex        across the entire blockchain.
+8
+
+
+
+
+2)  Locking of intermediate cells in the virtual shared mem-                                                                                       learning), it is imperative to have an infrastructure that
+ory space during execution.                                                                                                                        allows deep learning models to train on large datasets. It
+3)  Checkpointing intermediate results during execution com-                                                                                       is well known that training on large datasets is crucial to a
+mitted to blockchain.                                                                                                                              model’s accuracy. To this end, ZILLIQA’s computational
+                                                                                                                                                   sharding and dataflow language will be particularly useful
+B.  Smart Security Budgeting
+                                                                                                                                                   to build machine learning applications. It will serve as
+Apart  form  the  benefits  of  parallelization  offered  from                                                                                     an infrastructure that may run tools like TensorFlow1  by
+the  dataflow  computation  model,  ZILLIQA  further  provides                                                                                     tasking groups of ZILLIQA  nodes to independently per-
+a  flexible  security  budgeting  mechanism  for  computational                                                                                    form different computations such as computing gradients,
+sharding. This feature is enabled by sharding the computa-                                                                                         apply activation function, compute training loss, etc.
+tional  resources  in  the  blockchain  network  via  an  overlay                            3)                                                    Application with high complexity and high precision
+above the consensus process. Computational sharding allows                                                                                         algorithms: Different from the applications mentioned
+users of  ZILLIQA  and applications  running  on  ZILLIQA  to                                                                                      above,  some  applications,  such  as  computations  over
+specify the sizes of consensus groups to compute for each                                                                                          financial models, may require high precision. Any minor
+of the subtasks. Each consensus group will then be tasked to                                                                                       deviation  in  one  part  of  the  computation  may  incur
+compute the same subtask, and produce the results. The user                                                                                        heavy losses in investments. Such applications can task
+specifies the condition on acceptance of the results, e.g., all in                                                                                 consensus groups of larger number of nodes in ZILLIQA
+the consensus group must produce the same results, or 3/4 of                                                                                       to allow them to cross-check the computational results
+them must produce the same results, etc.                                                                                                           of each other. The key challenge in offloading the com-
+A user of the application running on ZILLIQA  can budget                                                                                           putational tasks of such financial modeling algorithms to
+how  much  she  wants  to  spend  on  computing  and  security,                                                                                    a public platform, such as ZILLIQA, is the concern for
+respectively.  In  particular,  a  user  running  a  particular  deep                                                                              data privacy and intellectual property of the algorithms.
+learning application may spend more gas fee on running more                                                                                        To begin with, we envision certain well known portion of
+of different neural network tasks than letting too many nodes                                                                                      such computation can be placed to ZILLIQA for efficient
+repeating the same computation. In this case, she can specify                                                                                      and secure computation first, while the future research
+a smaller consensus group for running each neural network                                                                                          and development of ZILLIQA  will further strengthen the
+computation.  On  the  other  hand,  a  sophisticated  financial                                                                                   protection of data privacy and intellectual property for
+modeling algorithm that requires greater precision may task                                                                                        such applications.
+consensus groups of larger number of nodes to compute the
+                                                                                                                                                                                                                        VIII.  INCENTIVE LAYER
+critical portions of the algorithm to be more resilient against
+potential tampering and manipulation of the results.                                         A.  Token Supply
+C.  Scalable Applications: Examples                                                                                                                ZILLIQA has a finite supply of 21 billion ZILs. The smallest
+                                                                                                                                                   unit being 10−12  part of a ZIL. Each final TX-Block comes
+ZILLIQA aims to provide a platform to run highly scalable
+                                                                                                                                                   with  a  block  reward  that  generates  new  tokens.  The  block
+computations in a multitude of fields such as data mining,
+                                                                                                                                                   reward will be spread over a period of  10  years decreasing
+machine learning and financial modeling to name a few. Since
+                                                                                                                                                   over time. We aim to mine roughly 80% of the tokens in the
+supporting  efficient  sharding  of  Turing-complete  programs
+                                                                                                                                                   first 4 years and the remaining 20% in the next 6 years. The
+is very challenging, and there exist public blockchains that
+                                                                                                                                                   token emission will be “smooth” in the sense that the block
+support  Turing-complete  smart  contracts                              (e.g.,  Ethereum),
+                                                                                                                                                   reward does not reduce drastically after a certain number of
+ZILLIQA  focuses on specific applications with requirements
+                                                                                                                                                   blocks. The smooth reduction in the block reward means that
+not met today.
+                                                                                                                                                   the network hashrate can be expected to be stable as the reward
+1)  Computation  with  parallelizable  computation  load:
+                                                                                             reduces over gradually over time.
+Scientific computing over large data is a typical exam-
+                                                                                                                                                   After 10 years, we expect to have reached significant scale
+ple  where  one  requires  a  large  amount  of  distributed
+                                                                                                                                                   both in terms of the number of nodes in the network and users
+computing power. Moreover, most of these computations
+                                                                                                                                                   executing transactions. By then, we expect the market to have
+are highly parallelizable, examples include linear algebra
+                                                                                                                                                   stabilized upon certain rates of transaction fees to fully sustain
+operations on large matrices, search in the sea of huge
+                                                                                                                                                   the running of the network without a need for new tokens
+amount of data and simulation on a large dataset among
+                                                                                             entering the system as rewards.
+others. ZILLIQA provides such computing tasks an inex-
+pensive and short turnaround alternative. Moreover, with                                     B.  Incentivizing Miners
+the right incentive in place with computational sharding,
+                                                                                                                                                   Miners reach consensus on transactions, process them, per-
+and security budgeting ZILLIQA  can be leveraged as a
+                                                                                                                                                   form computations as per the smart contract and update the
+readily  available  and  highly  reliable  resource  for  such
+                                                                                                                                                   global state. Miners are hence incentivized by requiring the
+heavy computation load.
+                                                                                             sender of each transaction to pay some gas upfront.
+2)  Train  neural  nets:   With the ever growing popularity
+and  use  cases  of  machine  learning  (in  particular  deep                                1 https://www.tensorflow.org/
+9
+
+
+
+
+Recall  that  each  final  TX-Block  aggregates  at  most  one        ZILLIQA also proposes a smart contract platform not available
+micro block from each shard. Each micro TX-Block contains a           in ByzCoin/OmniLedger.
+gas  used field that stores the total gas used by transactions        ZILLIQA’s  smart  contract  platform  takes  a  different  ap-
+in the block. Each final TX-Block also has a gas  used field          proach  when  compared  with  Ethereum.  ZILLIQA’s  smart
+that is a sum of all the gas  used field of each micro TX-            contract platform leverages the underlying sharding architec-
+Block. Once a TX-Block is proposed, the corresponding gas             ture and is based on dataflow programming. The advantages
+used and the block reward is almost equitably distributed             of  dataflow  programs  are  many:  inherent  concurrency  and
+among 1) the leaders of the shards who proposed one micro             parallelism,  easy  to  reason  about  their  correctness,  natural
+block and  2) the leader of the DS committee who proposed             composability of functions and programs, etc.
+the final. In case the equitable distribution is not possible, the
+                                                                                                                                            X.  FUTURE RESEARCH DIRECTIONS
+distribution is slightly biased towards the leader of the DS
+                                                                      Below, we discuss some ongoing and future directions of
+committee. Hence, if the reward is m and the total number
+                                                                      research to improve ZILLIQA.
+of stake holders for a reward is n, then the leader of each
+                                                                      State sharding. With increase in ZILLIQA’s user base and
+n ⌋, while, the leader of the DS committee gets
+                                                                      its  high  transaction  throughput  would  come  the  following
+n ⌋.
+                                                                      challenge: How to efficiently handle the continuous influx of
+As the leader of each shard is changed once a new micro
+                                                                      blocks that modify the global state. This is also referred to
+block is proposed, every member of the shard gets rewarded.
+                                                                      as state sharding in the literature. In essence, state sharding
+Similarly, as the leader of the DS committee is changed after
+                                                                      will alleviate full nodes from storing and receiving all blocks
+every final block, every member of the DS committee is also
+                                                                      and transactions. This way it can further reduce the storage
+rewarded.
+                                                                      and communication load for nodes, and thus constitute another
+                                                                      scaling-up factor to the throughput. However, it is non-trivial
+                                                                      IX.  RELATED WORK
+                                                                      to  design  a  secure  and  efficient  state  sharding  scheme,  as
+ZILLIQA  is developed upon the ideas of Bitcoin-NG [18],              cross-shard communications arising from state sharding may
+collective signing (CoSi) [14], ByzCoin [15], Elastico [19] and       outweigh the performance gains. More research needs to be
+OmniLedger [20].                                                      done to address such additional complexities.
+                                                                      Secure Proof-of-Stake  (SPoS). To the best of our knowl-
+Bitcoin-NG first proposed the idea to decouple leader elec-
+                                                                      edge,  there  has  been  no  literature  that  proposes  a  secure
+tion and his block proposals within Bitcoin. First, a leader
+                                                                      PoS scheme, and thus we base ZILLIQA’s building blocks on
+is  elected  by  mining  a  keyblock  who  can  then  mint  many
+                                                                      a PoW scheme. However, given the significant performance
+microblocks within the 10 minute block interval. The idea was
+                                                                      gain  from  PoS  for  consensus  algorithms,  it  is  worthwhile
+further used in ByzCoin [15].
+                                                                      investigating further into the PoS paradigm, in search for a
+The  idea  of  network  and  transaction  sharding  for  a  Bit-
+                                                                      secure and efficient PoS scheme for ZILLIQA.
+coin like system was  first  proposed in  [19]. However, net-
+                                                                      Storage  pruning.  We  are  currently  exploring  ways  to
+work/transaction sharding alone cannot solve the scalability
+                                                                      securely prune the dated blocks stored on the blockchain to
+issues as each shard needs to sign a TX-Block which makes
+                                                                      reduce the storage requirements and ease the joining process
+the total number of signatures linear in the number of signers.
+                                                                      for new nodes. We may consider multi-grade storage, com-
+This eventually results in a large block size and becomes a
+                                                                      pression of blocks and transactions as possible solutions.
+bottleneck during the broadcast/multi-cast.
+                                                                      Cross-Chain  support.  ZILLIQA  has  every  intention  to
+Multisignatures [11] provides a solution to the above prob-
+                                                                      complement  other  public  blockchains  and  build  a  healthy
+lem. CoSi [14] uses an EC-Schnorr multisignature scheme to
+                                                                      ecosystem to provide end users a broad spectrum of platforms
+design a protocol for collective signing. CoSi was proposed to
+                                                                      of choice for their applications. To this end, ZILLIQA will seek
+work in a much less hostile environment than that of a public
+                                                                      technical solutions to support gradual cross-chain communi-
+blockchain  with  byzantine  nodes.  With  several  significant
+                                                                      cation and potentially enable cross-chain applications.
+enhancements we develop for the CoSi scheme, we derive a
+                                                                      Privacy-preserving computation. It is desirable for several
+secure scheme and apply it to ZILLIQA.
+                                                                      applications  in  particular                                          (financial  modeling  applications)
+Several other proposals have surfaced to sidestep the in-
+                                                                      to  have  strong  privacy  and  intellectual  property  protection
+herent scalability limitation of existing blockchain protocols,
+                                                                      when  running  on  ZILLIQA.  Solutions  based  on  Oblivious
+for instance, re-parameterizing the original Bitcoin protocol
+                                                                      RAM to hide access pattern on an encrypted data [21], ZK-
+(e.g. increasing block sizes), moving as much computation off-
+                                                                      SNARK  [22]  to  hide  the  input  to  a  program,  and  private
+chain (e.g. micropayment channels and lightening networks),
+                                                                      function evaluation [23] to hide the contract’s business logic
+creating hierarchy of blockchains  (e.g. sidechains). None of
+                                                                      are also being investigated.
+these protocols directly make the blockchain protocol itself
+more  scalable.  ZILLIQA  targets  the  heart  of  the  scalability                                                                         XI.  CONCLUSION
+problem - its blockchain.                                             In this whitepaper, we have presented ZILLIQA’s sharding
+ZILLIQA can be seen as an extension of ByzCoin and Om-                architecture that allows the mining network to process trans-
+niLedger with several security and performance optimizations.         actions in parallel and reach high throughput. ZILLIQA  also
+10
+
+
+
+
+comes with a unique smart contract platform that leverages                 [21]  E.  Stefanov,  M.  van  Dijk,  E.  Shi,  C.  W.  Fletcher,  L.  Ren,  X.  Yu,
+                                                                           and S. Devadas, “Path ORAM: An Extremely Simple Oblivious RAM
+the  underlying  sharing  architecture  and  follows  a  dataflow
+Protocol,” in  2013  ACM SIGSAC Conference on Computer and Com-
+programming paradigm. The new smart contract language is
+munications Security, CCS’13, Berlin, Germany, November  4-8,  2013,
+ideal  for  running  computation-intensive  task  in  an  efficient        2013, pp. 299-310.
+                                                                           [22]  E. Ben-Sasson, A. Chiesa, E. Tromer, and M. Virza,  “Succinct Non-
+manner.
+Interactive  Zero  Knowledge  for  a  von  Neumann  Architecture,”  in
+Proceedings of the 23rd USENIX Security Symposium, San Diego, CA,
+USA, August 20-22, 2014., 2014, pp. 781-796.
+                                                                                                                                                                 REFERENCES                                                                                                                                                            [23]  P.  Mohassel,  S.  S.  Sadeghian,  and  N.  P.  Smart,                        “Actively  Secure
+                                                                                                                                                                                                                                                                                                                                       Private Function Evaluation,” in Advances in Cryptology - ASIACRYPT
+                                                                                                                                                                                                                                                                                                                                       2014  -  20th International Conference on the Theory and Application
+[1]                                                                        S.   Nakamoto,                                                                                                                                                      “Bitcoin:   A   peer-to-peer   electronic   cash   system,
+                                                                                                                                                                                                                                                                                                                                       of  Cryptology  and  Information  Security,  Kaoshiung,  Taiwan,  R.O.C.,
+                                                                           http://bitcoin.org/bitcoin.pdf,” 2008.
+                                                                                                                                                                                                                                                                                                                                       December 7-11, 2014, Proceedings, Part II, 2014, pp. 486-505.
+[2]                                                                                                                                                              E. Foundation, “Ethereum’s white paper,” https://github.com/ethereum/
+                                                                                                                                                                                                                                                                                                            [24]  BSI,                 “Technical  Guideline  TR-03111                                                     Elliptic  Curve  Cryptography,”
+                                                                           wiki/wiki/White-Paper, 2014.
+                                                                                                                                                                                                                                                                                                                                       Federal Office for Information Security, Tech. Rep., 01 2012.
+[3]                                                                                                                                                              M.  Castro  and  B.  Liskov,  “Practical  Byzantine  Fault  Tolerance,”  in
+                                                                                                                                                                                                                                                                                                            [25]  D.  J.  Bernstein,   “Multi-user  Schnorr  Security,  Revisited,”  IACR
+                                                                                                                                                                 Proceedings  of  the  Third  Symposium  on  Operating  Systems  Design
+                                                                                                                                                                                                                                                                                                                                       Cryptology ePrint Archive, vol. 2015, p. 996, 2015. [Online]. Available:
+                                                                                                                                                                 and Implementation, ser. OSDI  ’99.    Berkeley, CA, USA: USENIX
+                                                                                                                                                                                                                                                                                                                                       http://eprint.iacr.org/2015/996
+                                                                           Association, 1999, pp. 173-186.
+                                                                                                                                                                                                                                                                                                                                       [26]  M.  Michels  and  P.  Horster,  “On  the  Risk  of  Disruption  in  Several
+[4]                                                                                                                                                              E. Heilman, A. Kendler, A. Zohar, and S. Goldberg, “Eclipse Attacks on                                                                                                Multiparty Signature Schemes,” in Proceedings of the International Con-
+                                                                                                                                                                 Bitcoin’s Peer-to-Peer Network,” in 24th USENIX Security Symposium                                                                                                    ference on the Theory and Applications of Cryptology and Information
+                                                                                                                                                                 (USENIX Security 15).  Washington, D.C.: USENIX Association, 2015,                                                                                                    Security: Advances in Cryptology, ser. ASIACRYPT ’96.  London, UK,
+                                                                           pp. 129-144.                                                                                                                                                                                                                                                UK: Springer-Verlag, 1996, pp. 334-345.
+[5]                                                                        S.  Gilbert  and  N.  Lynch,                                                                                                                                        “Brewer’s  Conjecture  and  the  Feasibility
+                                                                                                                                                                 of Consistent Available Partition-Tolerant Web Services,” in In ACM                                                                                                   APPENDIX A
+                                                                           SIGACT News, 2002, p. 2002.
+                                                                                                                                                                                                                                                                                                                                       SCHNORR DIGITAL SIGNATURE ALGORITHM
+[6]                                                                                                                                                              NIST,  “Sha-3  standard: Permutation-based hash and extendable-output
+                                                                           functions,” 2015.                                                                                                                                                                                                                                           A.  EC-Schnorr (Single Signer) Scheme
+[7]                                                                                                                                                              B. Guido, D. Joan, P. Michaël, and V. A. Gilles, “The Keccak Reference
+                                                                                                                                                                                                                                                                                                                                       EC-Schnorr works on a group where the discrete logarithm
+,” 2011.
+[8]                                                                                                                                                              C. Schnorr, “Efficient signature generation by smart cards,” J. Cryptol-                                                                                              is hard [8], [24], [25]. ZILLIQA  uses the elliptic curve group
+                                                                           ogy, vol. 4, no. 3, pp. 161-174, 1991.                                                                                                                                                                                                                      defined over the popular secp256k1  curve. We denote by
+[9]                                                                        C.   Research,                                                                        “SEC                                                                          2:   Recommended   Elliptic   Curve   Domain
+C  :=  (p, G, n) the set of parameters that define the group,
+Parameters,”  2000.  [Online]. Available: http://www.secg.org/download/
+where p is a prime number that specifies the underlying field
+aid-386/sec2-final.pdf
+[10]                                                                       A.  Poelstra,                                                                                                                                                       “Schnorr  Signatures  are  Non-Malleable  in  the  Random                               Fp , G is the base point on the curve and n (a prime) is the
+                                                                           Oracle Model,” 2014.                                                                                                                                                                                                                                        order of G. EC-Schnorr also requires a cryptographic hash
+[11]                                                                                                                                                             S. Micali, K. Ohta, and L. Reyzin, “Accountable-subgroup Multisigna-
+                                                                                                                                                                                                                                                                                                                                       function H that we instantiate with SHA3-256 [6].
+                                                                                                                                                                 tures: Extended Abstract,” in Proceedings of the 8th ACM Conference
+                                                                                                                                                                 on Computer and Communications Security, ser. CCS ’01.   New York,                                                                                                    EC-Schnorr  is  a  set  of  three  algorithms  KeyGen,  Sign
+                                                                           NY, USA: ACM, 2001, pp. 245-254.                                                                                                                                                                                                                            and Verify that we present in this section. In the algorithms
+[12]                                                                                                                                                             G.  Wood,  “Ethereum:  A  secure  decentralised  generalised  transaction
+                                                                                                                                                                                                                                                                                                                                       below, for any scalar x and a point Q, we denote the scalar
+                                                                           ledger,” http://gavwood.com/paper.pdf, 2014.
+                                                                                                                                                                                                                                                                                                            multiplication by [x]Q.
+[13]                                                                                                                                                             “Ethash,”  https://github.com/ethereum/wiki/wiki/Ethash,  Accessed  on
+                                                                           June 27, 2017., version 23.                                                                                                                                                                                                                                 1)  KeyGen(C ): The algorithm takes the curve parameters
+[14]                                                                                                                                                             E. Syta, I. Tamas, D. Visher, D. I. Wolinsky, P. Jovanovic, L. Gasser,
+C and returns a pair of public (pk) and private (sk) keys.
+N. Gailly, I. Khoffi, and B. Ford, “Keeping authorities ”honest or bust”
+with decentralized witness cosigning,” in IEEE Symposium on Security       KeyGen(C = (p, G, n))
+and Privacy, SP 2016, San Jose, CA, USA, May 22-26, 2016, 2016, pp.
+$
+                                                                           526-545.                                                                                                                                                            1.   Choose sk                                               ←                          [1, n − 1],
+[15]                                                                                                                                                             E. Kokoris-Kogias, P. Jovanovic, N. Gailly, I. Khoffi, L. Gasser, and
+2.   Set pk ← [sk]G,
+B. Ford, “Enhancing Bitcoin Security and Performance with Strong Con-
+3.   return (pk, sk).
+sistency via Collective Signing,” in 25th USENIX Security Symposium,
+USENIX Security 16, Austin, TX, USA, August 10-12, 2016., 2016, pp.
+                                                                           279-296.                                                                              2)  Sign(C, pk, sk, m): This algorithm is run by the signer. It
+[16]                                                                       Arvind and D. E. Culler,  “Annual review of computer science vol.  1,                 takes the curve parameters C , a public key and a private
+                                                                           1986,” J. F. Traub, B. J. Grosz, B. W. Lampson, and N. J. Nilsson,
+                                                                                                                                                                 key pair (pk, sk) and a message to sign m ∈ {0, 1}∗ . It
+                                                                           Eds.   Palo Alto, CA, USA: Annual Reviews Inc., 1986, ch. Dataflow
+                                                                           Architectures, pp. 225-253.                                                           returns a signature σ.
+[17]                                                                       A. L. Davis and R. M. Keller, “Data flow program graphs,” Computer,
+Sign(C, pk, sk, m)
+vol. 15, no. 2, pp. 26-41, Feb. 1982.
+$
+[18]                                                                       I.  Eyal,  A.  E.  Gencer,  E.  G.  Sirer,  and  R.  van  Renesse,                    “Bitcoin-                                                                     1.   Choose k                                                ←                          [1, n − 1],
+ng: A scalable blockchain protocol,” in  13th USENIX Symposium on
+2.   Set Q ← [k]G,
+Networked  Systems  Design  and  Implementation,  NSDI                     2016,  Santa
+3.   Set r ← H (Q||pk||m) mod n,
+Clara, CA, USA, March 16-18, 2016, 2016, pp. 45-59.
+[19]                                                                       L. Luu, V. Narayanan, C. Zheng, K. Baweja, S. Gilbert, and P. Saxena,                 4.   If r = 0 Goto 1.
+“A secure sharding protocol for open blockchains,” in Proceedings of
+5.   Set s ← k − r · sk mod n,
+the 2016 ACM SIGSAC Conference on Computer and Communications
+6.   If s = 0 Goto 1.
+Security, Vienna, Austria, October 24-28, 2016, 2016, pp. 17-30.
+[20]                                                                       E.  Kokoris-Kogias,  P.  Jovanovic,  L.  Gasser,  N.  Gailly,  and  B.  Ford,         7.   Set σ ← (r, s),
+                                                                           “Omniledger: A secure, scale-out, decentralized ledger,” IACR Cryptol-                8.   return σ.
+ogy ePrint Archive, vol. 2017, p. 406, 2017.
+11
+
+
+
+
+3)  Verify(C, σ, pk, m): This algorithm is run by a verifier   2)  Commitment Generation: Each signer Pi  then choses a
+$
+                                                                                                                             who wishes to check the validity of a signature. It takes                                                                                                                        random ki                                                                                                               ←                         [1, n − 1] and computes Qi  = [ki ]G. Recall
+                                                                                                                             the curve parameters C , a signature σ, a public key pk                                                                                                                                                                              that G is the base point on the elliptic curve and n is the
+                                                                                                                             and a message m. It returns 1 if the signature is valid for                                                                                                                      order of G. Pi  then sends Qi  to the aggregator.
+                                                               m under pk, or else returns 0.                                                                                                                                                                                                                                                                     3)  Challenge Generation: ∑he aggregator first computes the
+                                                                                                                             Verify(C, σ, pk, m)                                                                                                                                                              aggregated keys: pk∑ =
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   pki ∈P pki  for keys in P . She
+                                                                                                                                                                                                                                                                                                              also computes Q =
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            i Qi  for Qi ’s received in the pre-
+                                                                                                                                                                                                    1.   Parse (r, s) ← σ,
+                                                                                                                                                                                                                                                                                                                                                                  vious step. She then computes r ← H (Q||pk||m) mod n
+                                                                                                                                                                                                    2.   If r, s ∈ [1, n − 1] return 0.
+                                                                                                                                                                                                                                                                                                              and sends (r, Q, pk) to each Pi .
+                                                                                                                                                                                                    3.   Set Q ← [s]G + [r]pk,
+                                                                                                                                                                                                                                                                                                                                                                  4)  Response  Generation: Each signer Pi  first checks the
+                                                                                                                                                                                                    4.   If Q = O(neutral point) return 0.
+                                                                                                                                                                                                                                                                                                                                                                  integrity of r  received previously. This is done by re-
+                                                                                                                                                                                                    5.   Set v ← H (Q||pk||m) mod n,
+                                                                                                                                                                                                                                                                                                                                                                  computing H (Q||pk||m) and checking if it is equal to the
+                                                                                                                                                                                                    6.   If v = r return 1,  else  return 0.
+                                                                                                                                                                                                                                                                                                                                                                  received r. If the check fails then Pi  aborts the protocol
+                                                                                                                                                                                                                                                                                                                                                                  or else generates si  ← (ki − r · ski ) mod n and sends si
+                                                                                                                                                                                                                                                                                                              to the aggregator.
+B.  EC-Schnorr Multisignature Scheme
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ∑
+                                                                                                                             1)  Setting & Assumptions:  EC-Schnorr can also be used                                                                                                                          gregated  response  s                                                                                                                                                                                         =
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   i si  mod n  and  builds  an
+                                                                                                                             as a multisignature scheme [11]. In a multisignature scheme,                                                                                                                                                                         aggregated signature σ  = (r, s). She then sends  (m, σ)
+                                                                                                                             we have T  signers: P1 , . . . , PT , an aggregator and a verifier.                                                                                                              to the verifier.
+                                                                                                                             The signers wish to jointly sign a message m. The aggregator                                                                                                                                                                         6)  Signature Verification: Verifier now checks whether the
+                                                                                                                             plays the role of a facilitator and aggregates the signatures sent                                                                                                                                                                   signature is valid. She performs the following steps:
+                                                                                                                             by each individual signer. The verifier verifies the aggregated                                                                                                                  a)  Aggregate the public keys in P  as pk′ .
+                                                                                                                             signature. The role of aggregator and the verifier can be played                                                                                                                                                                     b)  Check if σ is a valid EC-Schnorr signature on m for
+by the same entity.                                                                                                                                                                                                                                                                                                                                               the  public  key  pk′  by  invoking  Verify(C, σ, pk′ , m).
+                                                                                                                             Each signer Pi has her own public private key pair (pki , ski )                                                                                                                                                                      Returns the output of Verify.
+                                                               for  EC-Schnorr  single  signer  scheme.  We  denote  by  P                                                                                                                                           =
+                                                                                                                             {pk1 , . . . , pkT } the set of all public keys. We also assume                                                                                                                                                                                                                                                                                                                   APPENDIX B
+                                                                                                                             a public message mp  known to every entity. The message mp                                                                                                                                                                                                                                               MULTISIGNATURE FOR PBFT
+                                                                                                                             may  be  specific  to  the  application  scenario  and  make  take
+                                                                                                                                                                                                                                                                                                                                                                  Classical EC-Schnorr multisignature protocol as described
+                                                                                                                             the  following  form:  I  know  the  private  key  for
+                                                                                                                                                                                                                                                                                                                                                                  in Appendix A requires the participation of all the participants.
+                                                                                                                             my  public  key  for  the  session  id:  XXXX.  The
+                                                                                                                                                                                                                                                                                                                                                                  Hence, we cannot directly use it in the PBFT setting, where,
+                                                                                                                             purpose of this message is to defeat certain known attacks
+                                                                                                                                                                                                                                                                                                                                                                  we only require that the message be signed by at least  3 n + 1
+on the scheme [26].
+                                                                                                                                                                                                                                                                                                                                                                  nodes in the committee. In this section, we present a tweak
+                                                                                                                             2)  Multisignature Protocol: Multisignature is an interactive
+                                                                                                                                                                                                                                                                         to  this  protocol  inspired  from                                                                                                                                                                                                                                                        [14].  The  tweak  consists  in
+                                                                                                                             protocol  between  signers,  the  aggregator  and  the  verifier
+                                                                                                                                                                                                                                                                                                                                                                  maintaining two bitmaps that record the participation in the
+                                                                                                                             (see Figure  2  for a schematic representation). The protocol
+                                                                                                                                                                                                                                                                                                                                                                  protocol. The modified protocol is given in Figure 3. Below,
+has six steps as described below.
+                                                                                                                                                                                                                                                                         we briefly present the protocol.
+1)                                                                                                                           (One-Time)  Identity  Setup: This step is run between                                                                                       1)                                                                                       (One-Time) Identity Setup: This step is exactly the same
+                                                                                                                             each participant and the verifier. At the start of the pro-                                                                                                                                                                          as in the classical EC-Schnorr multisignature protocol as
+                                                                                                                             tocol, each signer Pi  if not currently involved in another                                                                                                                                                                          presented in Appendix A. Only if the set up successfully
+                                                                                                                             signing protocol generates an EC-Schnorr signature σi on                                                                                                                                                                             terminates, the next steps of the protocol can start.
+                                                                                                                             the message mp . Pi  then sends (σi , pki ) to the verifier.                                                                                                                                                                         2)  Commitment  Generation:  This  step  is  similar  to  the
+                                                                                                                             The verifier then performs the following checks:                                                                                                                                                                                     classical EC-Schnorr multisignature protocol. The only
+                                                                                                                             a)  Check if pki  ∈ P . If the check fails, the verifier aborts.                                                                                                                                                                     difference being that each participant Pi  also sends its
+                                                                                                                             b)  Check if each σi  is a valid EC-Schnorr signature on                                                                                                                                                                             public key pki  along with a Qi  to the aggregator.
+                                                                                                                                                                                                    mp for pki , by invoking Verify(C, σi , pki , mp ). Verifier                                                                                                  3)  Challenge Generation: At this step the aggregator main-
+                                                                                                                                                                                                    aborts  if  any  of  these  signature  verifications  returns                                                                                                 tains a bitmap BQ [1, . . . , |P |] initialized to 0. For every
+                                                                                                                                                                                                    0.  If  all  the  signatures  are  valid,  then  the  protocol                                                                                                (Qi , pki ) received in the previous step, the aggregator sets
+                                                                                                                             proceeds to the next step.                                                                                                                                                                                                           BQ [i] to 1. The aggregator waits for a stipulated time to
+                                                                                                                             If the verifier does not receive σi  for every pki  in P ,                                                                                                                                                                           handle network propagation delay and then computes the
+                                                                                                                             she also aborts. To record whether/or not she received                                                                                                                           following:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ∑
+                                                                                                                             a  signature  from  Pi ,  she  uses  a  bitmap  Z [1, . . . , |P |].                                                                                                             a)  The aggregated keys: pk  ←
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     pki ∈P pki  · BQ [i], i.e.,
+                                                                                                                             Identity  Setup  is  a  one-time  process  followed  by  any
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ∑
+                                                                                                                             number of the next steps. Only if the set up successfully                                                                                                                        b)  She  also  computes  Q                                                                                                                                                                                                                           ←
+i:BQ [i]=1 Qi   for  Qi ’s
+terminates, the next steps of the protocol can start.          received in the previous step.
+12
+
+
+
+
+Pi (C, mp , m, pki , ski )                                                                                                      Aggregator (C, m, P )        Verifier (C, mp , P, Z )
+σi  ← Sign(C, pki , ski , mp )
+(σi , pki )
+if pki  ∈ P  abort
+$
+ki                                                                                                                              ←                            [1, n − 1]                                                                                                                                                                         if ¬Verify(C, σi , pki , mp ) abort
+Qi  ← [ki ]G                                                                                                                                                                                                                                                                                                                  Z [i] = 1
+                                                                                                                                                                                                                                                        Qi                                                                                      At the end of the setup phase:
+                                                                                                                                                                                                                                                                                                                              if ¬Z [i] abort
+                                                                                                                                                                                                                                                                                              ∑
+                                                                                                                                                                                                                                                                                       pk ←
+                                                                                                                                                                                                                                                                                              ∑                  pki ∈P pki
+                                                                                                                                                                                                                                                                                       Q ←
+                                                                                                                                                                                                                                                                                                                 i Qi
+                                                                                                                                                                                                                                                                                              r ← H (Q||pk||m)
+                                                                                                                                                                                        (r, Q, pk)
+′
+r                                                                                                                               ← H (Q||pk||m)
+if r′  = r abort
+si  ← (ki  − r · ski ) mod n
+si
+∑
+s ←
+i si  mod n
+σ ← (r, s)
+(m, σ)
+pk′  ← ∑
+pki ∈P pki
+return Verify(C, σ, pk′ , m)
+Fig. 2: Multisignature using EC-Schnorr. Verifier stores a bit map Z [1, . . . , |P |], where each entry is initialized to 0.
+c)  She  then  computes  r                                                                                                      ←  H (Q||pk||m) mod n  and                              an  aggregated  signature  σ                                    =  (r, s).  She  then  sends
+sends (r, Q, pk) to each Pi .                                                                                                                                                           (σ, m, BQ ) to the verifier.
+4)  Response Generation: This step is similar to the classical                                                                                                                          b)  If  the  two  bitmaps  are  not  equal,  which  means  a
+EC-Schnorr multisignature protocol. The only difference                                                                                                                                 participant sent a Qi  but not the corresponding si , then
+being that each participant Pi  also sends its public key                                                                                                                               the  aggregator  computes  the  set-theoretic  difference
+pki  along with a si  to the aggregator.                                                                                                                                                of BQ  and Bs , i.e., the set of public keys pki  ∈ P
+5)  Response Aggregation: At this step the aggregator main-                                                                                                                             for  which  the  aggregator  received  a  Qi  but  not  the
+tains a bitmap Bs [1, . . . , |P |] initialized to 0. For every                                                                                                                         corresponding si . The corresponding set of public keys
+(si , pki )  received  in  the  previous  step,  the  aggregator                                                                                                                        can then be blacklisted. The aggregator re-initializes
+checks if the received si  is valid by computing Qi                                                                                                          ←                          Bs to 0 and computes the intersection between BQ and
+[si ]G + [r]pki  and then verifying if Qi  is equal to the                                                                                                                              Bs  and stores it in BQ . Finally, it repeats the protocol
+received Qi . If the two values are equal then she sets                                                                                                                                 starting from the challenge generation step.
+Bs [i] to  1. This step allows to detect participants who                                                                                                                               6)  Signature  Verification: The verifier first checks if the
+send an arbitrary value of si  and attempt to mount a DoS                                                                                                                               signature was generated by at least  3 |P | + 1 participants
+attack. The aggregator then waits for a stipulated time to                                                                                                                              and then checks whether the multisignature is valid. The
+handle network propagation delay and then computes the                                                                                                                                  rest of the steps are same as in the classical EC-Schnorr
+following:                                                                                                                                                                              multisignature protocol.
+a)  If  the  two  bitmaps  BQ   and  Bs   are  equal,  which
+means the same set of participants sent messages to the
+aggregator in the commitment generation and response
+generation  steps,  then  the  ∑ggregator  computes  the
+aggregated  response  s                                                                                                         =
+i si  mod n  and  builds
+13
+
+
+
+
+Pi (C, mp , pki , ski )                                                                                                                        Aggregator (C, m, BQ , Bs , P )   Verifier (C, mp , P, Z )
+σi  ← Sign(C, pki , ski , mp )
+                                                                                                                                               (σi , pki )
+$
+ki                                                                                                                                             ←                                 [1, n − 1]
+                                                                                                                                                                                                                                                                                      if pki  ∈ P  abort
+Qi  ← [ki ]G
+                                                                                                                                                                                                            (Qi , pki )                                                                                    if ¬Verify(C, σi , pki , mp ) abort
+                                                                                                                                                                                                                                                                          Z [i] = 1
+                                                                                                                                                                                                                                                                                                           At the end of the setup phase:
+                                                                                                                                                                                                                                     if pki  ∈ P  then BQ [i] ← 1
+                                                                                                                                                                                                                                                                          if          ¬Z [i] abort
+                                                                                                                                                                                                                                     ○ Aft∑r a certain stipulated time:
+                                                                                                                                                                                                                          pk ←
+                                                                                                                                                                                                                                 ∑   pki ∈P pki  · BQ [i]
+                                                                                                                                                                                                                          Q  ←
+i:BQ [i]=1 Qi
+r                                                                                                                                              ← H (Q||pk||m) mod n
+(r, Q, pk)
+r′  ← H (Q||pk||m)
+if r′  = r abort
+si                                                                                                                                             ← (ki  − r · ski ) mod n
+                                                                                                                                                                                 (si , pki )
+Qi  ← [si ]G + [r]pki
+if Qi  = Qi  then:
+Bs [i] ← 1
+After a certain stipulated time:
+if Bs  = ∑Q  then:
+s  ← (
+i:Bs [i]=1 si ) mod n
+σ ← (r, s)
+else:
+May blacklist BQ  ⊖ Bs
+BQ  ← BQ  ∧ Bs
+Bs   ← 0|P |
+goto                                                                                                                                           ○
+(σ, m, BQ )
+∑
+if                                                                                                                                             BQ [i] < 2|P |/3                  + 1                        then:
+i
+retu∑n 0
+′
+pk                                                                                                                                             ←
+pki ∈P pki  · BQ [i]
+return Verify(C, σ, pk′ , m)
+Fig. 3: EC-Schnorr multisignature variant used in PBFT. The leader of each committee plays the role of the aggregator. The
+aggregator maintains two bitmaps BQ [1, . . . , |P |] and Bs [1, . . . , |P |], while the verifier stores a bit map Z [1, . . . , |P |]. The
+entries of the bitmaps are initialized to 0. BQ ⊖ Bs  returns a bitmap that represents the set-theoretic difference of BQ  and Bs ,
+i.e., it represents the set of public keys pki  ∈ P  for which the aggregator received a Qi  but not the corresponding si .
+14
+
+
+
+
+

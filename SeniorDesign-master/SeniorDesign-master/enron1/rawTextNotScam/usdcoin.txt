@@ -1,0 +1,1108 @@
+﻿Whitepaper
+Document Version 2.0
+May 2018
+
+
+
+
+CONTENTS
+1. Executive Summary                                       3             3. The CENTRE Team and Organization                      19
+1.1 The CENTRE Vision                                      4             3.1 The CENTRE Organization                              20
+1.2 Global Payment Use Cases                               5             3.2 Circle Corporate Background                          20
+1.3 Crypto Exchange Use Cases                              6             3.2.1 Leadership, Investors, and Directors               20
+1.4 Addressing the Challenges of                                         3.2.2 Circle Products as Catalysts for CENTRE Adoption   21
+Crypto Assets and Public Blockchains                       7
+                                                                         3.2.3 Regulatory and Licensing Portfolio                 22
+1.5 Service Providers: Compliance, Identity, Fraud, Risk   8
+                                                                         3.2.4 Technology and IP Contributions                    22
+1.6 Governance and the CENTRE Organization                 8
+                                                                         3.3 Organizational Structure and Advisors                22
+2. Technology and Network                                  9
+                                                                         4. Additional Information and Updates                    22
+2.1 Stablecoin Minting and Redemption Sequences            10
+2.2. Wallet-to-Wallet Transaction Sequence                 11
+                                                           5. Glossary                                                            23
+2.3 Merchant Payment Sequence                              12
+2.4 Crypto Asset Cross-Blockchain Sequence                 13
+2.5 Existing Technology                                    13
+2.6 CENTRE Nodes                                           14
+2.7 Technology Implementation Notes                        15
+2.7.1 Stablecoin Design                                    15
+2.7.2 State Channel Transaction Management                 15
+2.7.3 Chaining State Channels                              17
+2.7.4 Node Modules                                         17
+
+
+
+
+Executive
+Summary
+1
+
+
+
+
+CENTRE WHITEPAPER                                          |                                                    DOCUMENT VERSION  2 .0
+1.1 The CENTRE Vision
+We live in a world
+The open internet -- a global, distributed network
+of open, connected,
+of computers that share common open software
+protocols -- has enabled billions of humans to connect
+global, free
+and share information instantly, securely and with
+communication and                                          zero consumer cost. The implications for the world
+have been profound, and are still unfolding.
+information sharing.
+The invention of cryptographic assets and blockchain-
+based computing and data sharing have ushered
+in the next major era of the open internet.
+Just as HTTPS, SMTP and SIP allowed for free
+information sharing and communications, crypto
+assets and blockchain technology will allow humans to
+exchange value and transact with one another in the
+same way: instantly, globally, securely and at low cost.
+An open internet of value exchange can transform
+and integrate the world more deeply, eventually
+eliminating artificial economic borders and enabling
+a more efficient and inclusive global marketplace
+that connects every person on the planet. The future
+of the global economy is open, shared, inclusive, far
+more evenly distributed, and powerful not only for a
+few chosen gatekeepers, but for all who will connect.
+CENTRE was born out of a desire to realize this vision.
+CENTRE                                                     |                                                    4
+
+
+
+
+CENTRE WHITEPAPER                                         |                                                       DOCUMENT VERSION  2 .0
+CENTRE consists of price-stable crypto assets, network    where they are provided by a mixture of banks, mobile
+protocols, and business rules which were implemented      carriers, and technology companies. Each purports
+in early form over the past several years by Circle,      to make consumer payments more seamless. Yet
+where the existing technology supports significant        nearly all of these exist as thin shims of software
+active daily transaction volume. CENTRE plans to          built on top of the legacy banking and card network
+create a network scheme to manage the creation,           payment system. Each one is siloed and proprietary.
+redemption, and flow of these assets under a new          They live in walled gardens, to borrow from the
+organization independent and separate from Circle.        internet 1.0 era of online services. While we can
+                                                          freely exchange information and content, and freely
+In addition to governing and auditing network
+                                                          communicate in open and global ways, money and
+membership, CENTRE plans to provide technology
+                                                          payments remain locked in the old closed world silos.
+to address price volatility and transaction scalability
+challenges on top of existing public blockchain
+infrastructure. Specifically, CENTRE plans to provide:
+•  A mechanism for issuing members to mint
+and burn/redeem asset-backed fiat tokens,
+or “stablecoins,” to address price volatility;
+•  Protocols to enable global stablecoin transaction
+interoperability on public blockchains using state
+channels for increased throughput and scalability;
+•  Network membership rules and smart
+contracts to govern, audit, and manage
+the licensed network participants that mint,
+transact, and redeem stablecoins.
+                                                          CENTRE is designed to provide a solution and new
+While Circle will become a licensed member of the         incentives for connecting the world’s disparate
+CENTRE network, the network scheme and crypto             digital wallets: a network scheme for fiat token
+asset technology will evolve under a new independent      stablecoins that will allow money to flow between
+entity, an organization which will govern and further     wallets the same way information moves between
+develop the CENTRE protocols separately from Circle.      web browsers and servers, email between mail
+                                                          services, text messages between SMS providers.
+This document describes CENTRE, the problems it
+                                                          CENTRE answers the question “I can instantly text
+is designed to solve, how it is designed to operate,
+                                                          someone who uses a different mobile carrier than
+and how it should be managed. To clarify vocabulary,
+                                                          I do, and I don’t pay money to email someone
+a glossary of key terms is provided as an appendix.
+                                                          who uses a different email service than I do, so
+                                                          why can’t I use Alipay to pay someone who uses
+1.2 Global Payment Use Cases
+                                                          Square, to pay someone who uses Paytm in India,
+Over the past half-decade, mobile-based digital wallets   to pay someone who uses Facebook Messenger
+have emerged all around the world. These applications     -- instantly, for free, anywhere in the world?”
+allow people to make person-to-person and person-to-      Sharing content is free for consumers globally and is
+merchant payments using their mobile phones. These        interoperable and not locked into specific software
+mobile wallets have proliferated in every country,
+CENTRE                                                    |                                                       5
+
+
+
+
+CENTRE WHITEPAPER                                                                                                            |                                                         DOCUMENT VERSION  2 .0
+programs or devices; so it will be with value, as                                                                            1.3 Crypto Exchange Use Cases
+money becomes another form of internet content.
+                                                                                                                             In addition to transactional use cases involving
+Businesses and organizations, either directly by
+                                                                                                                             global payments, stablecoins issued by CENTRE
+supporting CENTRE-endorsed stablecoins or
+                                                                                                                             network members also aim to address key use
+indirectly by working with merchant acquirers, will
+                                                                                                                             cases involving crypto asset exchange risk.
+be able to support direct payments from compatible
+                                                                                                                             Crypto asset exchanges are online marketplaces
+digital wallets. Just as an individual can use her
+                                                                                                                             in which buyers and sellers come together to
+web browser to browse the content of a business
+                                                                                                                             trade crypto assets such as bitcoin, ethereum,
+website, she will similarly be able to use any
+                                                                                                                             and others. These crypto assets fluctuate in price
+wallet she chooses to make payments to people
+                                                                                                                             according to the market. Tokenized fiat money,
+and businesses who use other compliant wallets
+                                                                                                                             such as tokenized US dollars, does not fluctuate in
+anywhere in any currency instantly and safely.
+                                                                                                                             value, but rather remains price-pegged to the value
+CENTRE provides solutions for wallets to exchange
+                                                                                                                             of its underlying backing asset (in this example,
+value using the same or different currencies. A
+                                                                                                                             the value of one tokenized US dollar is always
+payment from one wallet holding tokenized US
+                                                                                                                             intended to be priced at one US fiat dollar).
+Dollars can be sent to another holding Korean Won,
+                                                                                                                             This makes price-stable tokens useful for providing
+with seamless and instant currency exchange. Of
+                                                                                                                             fiat connectivity and for hedging risk on crypto
+course, payments can also be made between wallets
+                                                                                                                             exchanges, particularly on those exchanges that
+in the same currency -- for example, a person using
+                                                                                                                             do not provide traditional fiat on- and off-ramps
+Venmo could pay another person using Square
+                                                                                                                             -- so long as the price truly is stable, and so long as
+Cash or Circle.1 CENTRE protocols aim to manage
+                                                                                                                             there are compliant protections around the minting
+exchange rate rules and contracts across different
+                                                                                                                             and redemption of such tokens. A hypothetical
+stablecoin tokens both within and across currencies.
+                                                                                                                             investor may choose to protect himself from bitcoin’s
+                                                                                                                             fluctuating value by trading his bitcoin for US dollar
+                                                                                                                             tokens on a supporting exchange, and be certain that
+                                                                                                                             the value of those US dollar tokens will not fluctuate.
+                                                                                                                             Stablecoins also allow investment products
+                                                                                                                             (such as security and equity tokens) on crypto
+                                                                                                                             exchanges to be priced in fiat value rather than
+                                                                                                                             in cryptocurrency value. Tokens such as those
+                                                                                                                             designed to represent equity ownership, interest in
+                                                                                                                             funds, structured debt, loans, dividend rights, and
+                                                                                                                             other investment offerings benefit from stable price-
+                                                                                                                             pegging for both price and investment return.
+                                                                                                                             Finally and most simply, many exchanges do not
+                                                                                                                             offer any direct on- and off-ramp connectivity
+                                                                                                                             for fiat bank accounts. On these exchanges,
+1 To the extent that real companies are used in examples contained in this document, it is for illustrative purposes only,
+and in no way indicates that such companies are participating or will participate in the CENTRE Network.
+CENTRE                                                                                                                       |                                                         6
+
+
+
+
+CENTRE WHITEPAPER                                          |                                                           DOCUMENT VERSION  2 .0
+stablecoins pegged to fiat reserves can provide                                                                                                 when compared to transacting in “tokenized
+the needed integration for basic trading activity                                                                                               fiat money” or fiat-pegged crypto assets.
+across multiple token types. Stablecoin gateways,
+                                                                                                                                                CENTRE meets this challenge by providing a
+created and maintained by licensed and compliant
+                                                                                                                                                stablecoin framework involving “real world” asset
+network members, become third-party fiat service
+                                                                                                                                                                                                     reserves. Each stablecoin token corresponds to a real
+providers for fiat connectivity to these exchanges.
+                                                                                                                                                                                                     world asset that is reserved by an issuing CENTRE
+CENTRE provides the smart contracts and the                                                                                                                                                          network member and verified and audited by CENTRE.
+                                                           governance that enables issuing network members
+                                                                                                                                                For example, a network member such as Circle
+to mint such stablecoins for customers who
+                                                                                                                                                might choose to provide a tokenized dollar and
+may then use them to manage risk exposure on
+                                                                                                                                                tokenized euro, and back such tokens with a
+supporting crypto asset exchanges and to invest
+                                                                                                                                                reserved dollar and euro, with CENTRE auditing
+in tokens that represent investment products.
+                                                                                                                                                Circle to ensure compliance and solvency. In
+                                                                                                                                                theory, another network member might tokenize
+1.4 Addressing the Challenges of Crypto                                                                                                         another asset, such as gold, and similarly back
+                                                                                                                                                that token with physical gold in reserve. Rules
+Assets and Public Blockchains
+                                                                                                                                                concerning limits, proofs, etc, would be enforced
+As underlying enablers of solutions to the                                                                                                      by CENTRE on each issuing network member.
+aforementioned use cases, blockchain technology
+                                                                                                                                                A second challenge with current technology is
+and crypto assets promise many benefits: a
+                                                                                                                                                blockchain transaction throughput. Current public
+transparent distributed mechanism for managing
+                                                                                                                                                blockchain implementations do not support high-
+trusted updates to shared data among parties
+                                                                                                                                                                                                     volume performance, as every transaction is written
+who have varying degrees of trust between one
+                                                                                                                                                                                                     to an underlying ledger and printing new blocks to
+another; and a transferable store of value that
+                                                                                                                                                                                                     such ledgers currently involves relatively high latency.
+is not tied to the policy of an issuing sovereign,
+                                                                                                                                                CENTRE addresses this challenge by providing a
+but rather value based on the processing power,
+                                                                                                                                                                                                     protocol for wallets to transact at higher velocity using
+work, stake, and markets that support it.
+                                                                                                                                                                                                     state channels. The initial and final settlement states,
+                                                           At the current time, however, existing public blockchain
+                                                                                                                                                                                                     such as account balances, of an interaction between
+                                                           implementations and crypto assets struggle to fulfill
+                                                                                                                                                                                                     two participating members is written to the relevant
+                                                           the vision in part due to three significant challenges:
+                                                                                                                                                                                                     underlying blockchain, but intervening transactions
+                                                           price stability, transaction throughput, and risks due to
+                                                                                                                                                are not written to the underlying chain and thus
+                                                           the lack of independent governance over standards
+                                                                                                                                                executed at the speed of the internet. This allows
+                                                           and network participants (particularly those members
+                                                                                                                                                for payments in tokenized fiat currencies but with
+                                                           offering trade capability and fiat on- and off-ramps).
+                                                                                                                                                                                                     the speed, security, and auditability of blockchains.
+Firstly, price volatility: In order for global financial
+                                                                                                                                                A third challenge with existing implementations is
+                                                           interoperability to function reliably and consistently,
+                                                                                                                                                                                                     the lack of independent governance over stablecoin
+a price-stable medium of exchange and store of
+                                                                                                                                                                                                     providers. An issuing institution must be independently
+value is desired. Transacting in currencies which
+                                                                                                                                                audited for solvency and security, otherwise
+fluctuate with extreme volatility creates complexity
+                                                                                                                                                the underlying asset cannot be independently
+and fragile settlement contracts, especially
+                                                                                                                                                verified, and the price stability becomes tenuous.
+                                                                                                                       CENTRE                   |                                                    7
+
+
+
+
+CENTRE WHITEPAPER                                      |                                                         DOCUMENT VERSION  2 .0
+This issue has arisen with previous attempts at        to secure PII and reduce the risk of PII leakage
+fiat-asset-backed stablecoins in production.           common to existing legacy payment networks.
+CENTRE addresses this issue through separation
+of the CENTRE organization from its issuing            1.6 Governance and the
+network members. CENTRE itself is not an issuing
+                                                       CENTRE Organization
+member or financial institution, but a network
+scheme manager and technology provider. CENTRE         CENTRE software implementation is expected to be
+enforces compliance with network rules around          managed by a new independent organization and
+membership and behavior in order to ensure             entity created for this purpose. This organization aims
+stability, accountability, and consumer protection.    to provide the support, governance, and ongoing
+                                                       R&D for the CENTRE open source software project.
+1.5 Service Providers: Compliance,                     The organization also expects to offer optional
+                                                       certification to improve trust in stablecoin-issuing
+Identity, Fraud, Risk
+                                                       members and wallet implementations, certify
+CENTRE plans to offer a service provider               regulatory compliance of members, audit asset
+mechanism to support trust and identity decisions,     backing, and provide support and network operations
+rules for payment settlement and reversals,            to ensure continuous operation of network nodes.
+and the secure exchange of KYC/AML-related
+                                                       The organization also aims to pursue business
+information to meet compliance obligations.
+                                                       development and support programs to usher new
+Providers of services for fraud detection,             members into the network and commit engineering
+risk assessment, identity management, AML              and support resources to work on the underlying
+monitoring, and other services on the network          crypto infrastructure on which CENTRE is built.
+will be able to implement the CENTRE Service
+                                                       Network governance is expected to include
+Provider interface in order to participate in the
+                                                       distributed consensus and voting mechanisms
+network and earn fees for the services they
+                                                       that leverage a forthcoming CENTRE-specific
+provide to transacting network members.
+                                                       token, separate from fiat tokens, that is designed
+For example, when different wallet providers           to facilitate such network decision-making.
+connect to one another using CENTRE, it is important
+that these participating wallets meet applicable
+compliance and regulatory requirements, which
+include relevant KYC and AML obligations. CENTRE’s
+service provider interface will allow providers
+to supply features that support KYC and AML
+information exchange while leveraging cryptography
+CENTRE                                                 |                                                         8
+
+
+
+
+Technology
+and Network
+
+
+
+
+CENTRE WHITEPAPER                                        |                                                       DOCUMENT VERSION  2 .0
+2.1 Stablecoin Minting and
+CENTRE enables
+Redemption Sequences
+crypto exchanges and
+CENTRE contracts manage the minting
+and the redemption/burning of stablecoins,
+wallets around the
+which can be used for both the exchange
+world to interoperate.                                   and wallet interoperability use cases.
+                                                         Customers who on-board through a stablecoin
+                                                         on-ramp, such as a web application created and
+By exchanging price-stable tokenized value using a
+                                                         maintained by a licensed CENTRE token-issuing
+standard protocol across blockchains and fiat rails,
+                                                         member, can transfer fiat funds into that CENTRE
+and it enables those wallets to leverage services for
+                                                         issuer’s account. The issuer then executes a series
+compliance, identity, and risk management via well-
+                                                         of commands with the CENTRE network to verify,
+defined interfaces for service providers which plug
+                                                         mint, and validate fiat tokens pegged to the value
+into the network. The technology provided by CENTRE
+                                                         of those deposited funds. The customer can then
+supports tokenized fiat money through asset-backed
+                                                         transfer those tokens elsewhere in order to use them.
+stablecoins, and enables high transaction throughput
+                                                         Redemption follows the reverse sequence: fiat tokens
+by employing optional state channel implementations.
+                                                         are burned when a customer visits an off-ramp such as
+This section describes this technology in more detail.
+                                                         a web application maintained by a licensed CENTRE
+                                                         issuing member. Upon successful verification and
+                                                         validation, funds from underlying fiat reserves would
+                                                         be transferred to the customer’s external bank.
+                                                         Consider this example:
+                                                         David is a trader on crypto exchanges, and he would
+                                                         like to purchase crypto assets on exchanges that do
+                                                         not provide direct fiat connectivity to his US bank
+CENTRE                                                   |                                                       10
+
+
+
+
+CENTRE WHITEPAPER                                       |                                                          DOCUMENT VERSION  2 .0
+account, and he would also like to hedge his risk                                                                                           and Circle executes a transfer of underlying dollar
+exposure to the volatility of crypto assets on those                                                                                        reserves into David’s registered bank account.
+                                                        exchanges by maintaining some of his holdings in the
+                                                                                                                                            The tokens are withdrawn from circulation, and
+                                                        form of US dollar tokens that do not fluctuate in value.
+                                                                                                                                                                                                   either placed in reserve to service future requests, or
+                                                        David visits a web application created and maintained                                                                                      else burned/destroyed if the value of those tokens
+by Circle (David could also visit a web application                                                                                         surpasses the prefunded fiat buffer maintained by
+of any other token-issuing member of CENTRE, but                                                                                            Circle. This process is subject to authentication
+in this example he chooses Circle). David signs up                                                                                          and authorization, verification, validation, and
+for a customer account, which requires satisfaction                                                                                         compliance similarly to the deposit sequence.
+of KYC requirements, and then begins the deposit
+                                                                                                                                            Note that access to stablecoins need not be in a
+                                                        process in order to turn his fiat dollars into tokenized                            dedicated web application as in this example, but
+US dollars. The deposit process requires David to                                                                                                                                                  could also occur in a wallet, exchange, banking portal,
+transfer US dollars from his bank account into the                                                                                          or other product created by a licensed, compliant,
+Circle account. David has a limit on the amount of                                                                                          token-issuing member of the CENTRE network.
+funds he may transfer (and thus the number of US
+                                                                                                                                                                                                   2.2 Wallet-to-Wallet Transaction Sequence
+                                                        dollar tokens he may acquire) in a given time period.
+                                                                                                                                            CENTRE can facilitate compliant, reliable, safe,
+                                                        Once David’s transfer settles, Circle interacts with the
+                                                                                                                                                                                                   high-speed transfers between individuals who use
+CENTRE network to execute the process required
+                                                                                                                                            different wallet apps in shared as well as different
+                                                        to transmit US dollar tokens to David. These tokens
+                                                                                                                                            currencies without requiring private business
+may be taken from existing reserves from Circle’s
+                                                                                                                                                                                                   development negotiations or using private networks.
+                                                        buffer of pre-funded fiat assets to increase the speed
+of the process; if no such reserves are available,
+                                                        then Circle uses the CENTRE protocols to mint new
+tokens. David then receives the tokens, and the
+value of those tokens directly corresponds to the
+value of the funds he deposited into the system.
+                                                        David may transfer the US dollar tokens to an address
+                                                        in a wallet or on an exchange so that he may use them
+to support his trading activity. CENTRE maintains a
+blacklist of forbidden addresses in order to protect
+David and other network participants from known                                                                                             Consider this hypothetical example which
+bad actors and to support regulatory compliance.                                                                                            crosses apps as well as currencies:
+When David -- or one of David’s counterparties                                                                                              Mobile wallets Paytm in India and Vipps in the
+who may have acquired some of the US dollar                                                                                                 Nordics could participate in the CENTRE network
+tokens -- wishes to redeem the tokens and                                                                                                   and allow their customers to transfer rupees and
+withdraw the underlying fiat dollars, then the                                                                                              kronor even though the wallets themselves do
+process is executed in reverse: David returns to                                                                                            not integrate with one another directly and even
+the issuing web application (Circle in this example),                                                                                       though they do not share common fiat currencies.
+deposits the tokens into a wallet address made
+available to his account on that web application,
+                                                                                                                   CENTRE                   |                                                      11
+
+
+
+
+CENTRE WHITEPAPER                                           |                                                           DOCUMENT VERSION  2 .0
+Behind the scenes, the Paytm wallet in this                 If the checks all pass, then the value can be transferred
+example could use CENTRE to issue price-stable              atomically through the use of chained state channels.
+INR tokens and publish exchange rates between
+                                                            To complete this example: Vipps would then update
+that tokenized rupee and other tokenized fiat
+                                                            Alice’s app balance to deduct the appropriate
+currencies. Similarly, Vipps could issue price stable
+                                                            kronor, and Bob would see his Paytm rupee
+kronor NOK tokens and publish an exchange rate
+                                                            balance increased correspondingly. Vipps and
+between that stablecoin and other fiat tokens,
+                                                            Paytm settle asynchronously for a batch of their
+such as a kronor-to-rupee exchange rate.
+                                                            customers when the state channel is closed.
+Alice is a customer of Vipps in Norway, and wishes
+                                                            2.3 Merchant Payment Sequence
+to send money from her Vipps wallet to Bob in India,
+who uses Paytm as his wallet. When Alice begins             CENTRE also facilitates compliant, reliable, safe,
+her transaction, Vipps refers to its exchange rate          high-speed transfers between an individual who uses
+between the kronor and rupee stablecoin tokens;             a consumer wallet app and a merchant who uses
+if Alice accepts this rate, then the transaction will       a point of sale app. The consumer wallet and the
+proceed. If Vipps had not had an exchange rate              merchant point of sale software interact using the
+between these coins but Paytm did, then Vipps               CENTRE standard. This is analogous to a web browser
+could also have surfaced that exchange rate instead,        accessing a remote website using the HTTP protocol
+and sent kronor to Paytm, which in turn would have          without resorting to use of a closed private network.
+converted it to rupees using that exchange rate.
+                                                            Consider the following cross-currency example:
+Next, Vipps and Paytm may perform any required
+                                                            Carol has a WeChat wallet holding a Chinese RMB
+identity checks, compliance requests, or risk
+                                                            stablecoin balance. She is traveling in the United
+assessments as part of the transaction approval
+                                                            States and wishes to buy a sandwich from Dave,
+process. These operations may optionally call on
+                                                            who is a merchant who uses a Square mobile point
+service providers who provide such offerings to the
+                                                            of sale app that accepts US dollar payments.
+CENTRE network in exchange for fees paid in tokens.
+                                                            In this example, Dave’s Square point of sale app
+For example, to continue the sequence in the Vipps-
+                                                            does not accept RMB or WeChat payments, and
+Paytm narrative: Vipps may have configured its
+                                                            WeChat has no direct integration with Square.
+CENTRE node to execute its own internal identity
+                                                            However, the payment could work seamlessly
+checks, while Paytm may have configured its
+                                                            between WeChat and Square, without a custom
+node to use a third party service which provides
+                                                            private integration between them, if Square and
+an identity verification service. Paytm and the
+                                                            WeChat supported the CENTRE standard protocols.
+company agreed to a price for this service, and
+                                                            In this example, WeChat and Square could facilitate
+Paytm can pay that price on a per API call basis
+                                                            a payment between their apps for Carol and Dave by
+by utilizing state channels and stablecoin token
+                                                            agreeing upon an exchange rate between the RMB
+balances. Other service providers such as those
+                                                            and USD tokens that each accepts for settlement.
+involving fraud detection or other risk assessment
+                                                            WeChat’s CENTRE node could surface an exchange
+may similarly be plugged into the sequence.
+                                                            rate from RMB tokens to USD tokens, and execute
+If any of the checks fail in this example, Paytm or Vipps
+                                                            a purchase of USD tokens using RMB tokens for
+can abort the transaction before transferring any value.
+                                                            Carol. The transfer would then involve sending the
+                                                            USD tokens to Square. As in the person-to-person
+CENTRE                                                      |                                                           12
+
+
+
+
+CENTRE WHITEPAPER                                      |                                                         DOCUMENT VERSION  2 .0
+sequence above, the same service providers (for        exchange supported CENTRE, then Frank could
+compliance, risk, identity, etc.) may also be called   maintain a state channel with Poloniex.
+upon as part of the transaction approval logic.
+                                                       If Frank wishes to use his bitcoin wallet to send money
+Naturally, no exchange between stablecoin              to Charlie, who as in the example above maintains
+tokens would be required if the node owners            a US dollar balance in his mobile wallet, then Frank
+(WeChat and Square in this hypothetical example)       can use his bitcoin wallet to do so since both Frank’s
+agreed upon another token for settlement. For          and Charlie’s wallets interoperate via CENTRE, even
+example, if Square accepted RMB stablecoin             though Frank does not hold any US dollar tokens.
+tokens directly, then that token could be used
+                                                       Frank’s connection is to Poloniex, which in this
+for the same transaction, and the amount of RMB
+                                                       example maintains a CENTRE node that supports US
+transferred would be dictated by Square’s RMB-
+                                                       dollar stablecoin tokens and BTC. Charlie’s mobile
+USD exchange rate rather than WeChat’s.
+                                                       wallet supports US dollar stablecoin tokens, but not
+More simply, consider this same-currency               BTC. The Poloniex node publishes its exchange rate
+wallet interoperability example:                       between BTC and US dollar tokens (i.e., the current
+                                                       US dollar value of bitcoin). That rate is displayed to
+Charlie has a mobile wallet app which holds
+                                                       Frank, and if he accepts, the transaction can proceed.
+a balance in US dollars. He is in line behind
+Carol at Dave’s sandwich shop and when it              Then, as in earlier examples, token-consuming service
+is his turn, Charlie uses his mobile wallet to         providers may enter the sequence to offer compliance,
+pay into Dave’s Square point of sale app.              fraud, identity, risk, or other services to Frank or
+                                                       Charlie as required by the products they are using.
+Even though Charlie and Dave have apps by
+competing companies, these apps can interoperate       The transaction in this example executes through state
+because both support transfers of US dollar tokens.    channels so Frank can be sure that Charlie received
+Using CENTRE, the apps achieve interoperability        the transfer even though it crosses blockchains from
+and can seamlessly facilitate a payment based          bitcoin to US dollar tokens (on the ethereum chain).
+on supporting a common open protocol.
+2.5 Existing Technology
+2.4 Crypto Asset Cross-
+CENTRE plans to bootstrap development of its
+Blockchain Sequence
+                                                       implementation by utilizing intellectual property
+                                                       contributions as well as perpetual licensing, as
+CENTRE also plans to enable transactions across
+                                                       appropriate, from Circle, where an early form of
+blockchains and crypto assets, and can connect such
+                                                       these kinds of protocols is in production today.
+crypto assets to fiat-based accounts and wallets.
+                                                       The protocols, APIs, and business rules defining
+For example:
+                                                       interactions between network participants
+Frank holds a bitcoin balance in Ledger, a hardware-
+                                                       represent a level of abstraction above any particular
+based wallet. If his wallet supports CENTRE, he can
+                                                       implementation of those rules. Existing web content
+open a state channel with other CENTRE nodes for
+                                                       protocols illustrate this relationship: HTTP defines a
+the purpose of routing bitcoin-based transactions
+                                                       vocabulary for requesting an HTML page, but does
+and transfers. For example, if the Poloniex crypto
+                                                       not require any specific technical implementation,
+                                                       operating system, or programming language for that
+CENTRE                                                 |                                                         13
+
+
+
+
+CENTRE WHITEPAPER                                      |                                                            DOCUMENT VERSION  2 .0
+vocabulary. Similarly, the CENTRE protocols define                                                                                                                                           tokens), and state channel contracts as an option
+a vocabulary and business rules but do not require                                                                                           for quickly transfering value on the network.
+a specific distributed ledger, language, runtime, or
+                                                                                                                                                                                                                                                   Wallet account providers, financial institutions, software
+operating system for implementing those rules.
+                                                                                                                                                                                             companies and other participants will begin to join
+The initial implementation of the CENTRE protocol                                                                                                                                                                                                  the network by hosting one or more CENTRE nodes.
+                                                       exists at Circle, where it was built over the past several
+                                                                                                                                             A node is intended to provide a
+years and has supported significant transaction
+                                                                                                                                             network participant the ability to:
+                                                       volume in production across multiple fiat and crypto
+                                                                                                                                             •  Issue new fiat tokens, such as tokens to
+                                                       currencies. CENTRE plans to implement the protocols
+                                                                                                                                                                                             represent US dollars, Euros, RMB, or other
+on top of Ethereum as a series of smart contracts
+                                                                                                                                                                                             currency that a node owner can settle;
+and ERC20 tokens. CENTRE plans to leverage the
+                                                       existing implementation to accelerate development                                     •  Configure which fiat tokens to accept, or
+of a new implementation of the protocol.                                                                                                                                                     delegate the decision to a third party;
+                                                                                                                                             •  Publish rates for exchanging fiat tokens;
+2.6 CENTRE Nodes
+                                                                                                                                                                                             •  Configure trust levels as rules dictating which
+                                                                                                                                                                                             other node owners and network participants
+CENTRE intends to evolve the existing protocol
+                                                                                                                                                                                             to trust, or to delegate the decision to a
+implementation from Circle into a new software
+                                                                                                                                                                                             third party such as a payment network;
+package that defines a CENTRE “node.” Initially,
+a node is expected to consist of (1) a collection of                                                                                                                                         •  Exchange metadata about a transaction before
+smart contracts deployed on Ethereum, and (2)                                                                                                                                                any value is transferred and deny/approve
+code that knows how to interact with Ethereum                                                                                                                                                transactions based on the metadata;
+and those smart contracts. The smart contracts
+                                                                                                                                                                                             •  Ensure that value transfers execute atomically
+                                                       include fiat token contracts (implemented as ERC20
+                                                                                                                                                                                             and quickly through the use of state channels.
+                                                                                                                    CENTRE                   |                                               14
+
+
+
+
+CENTRE WHITEPAPER                                         |                                                           DOCUMENT VERSION  2 .0
+While the initial CENTRE node implementation (unlike      liquidity sources for network users rather than
+the original Circle implementation of the protocols)      presenting a single collateralization gateway point of
+is intended to operate on Ethereum, the use of state      failure. This approach is distributed, though it does not
+channels allows the network to be implemented on          purport to be -- or aim to be -- entirely decentralized.
+multiple blockchains and perform atomic transfers
+                                                          Further, CENTRE itself enforces membership
+across blockchains. Thus in the future, participants
+                                                          requirements related to audits/solvency, licensing and
+would not necessarily be limited to Ethereum and
+                                                          compliance, and capitalization thresholds and limits.
+new blockchains could be added to the network.
+                                                          This eliminates reliance on any one issuing member
+                                                          to provide these controls. CENTRE, as a technology
+2.7 Technology Implementation Notes                       provider and network scheme, provides such
+                                                          governance and is incentivized to maintain compliance
+2.7.1 STABLECOIN DESIGN                                   and solvency from all its licensed issuing members.
+Four general approaches exist for a                       The interaction between a token-issuing member
+price-stable token strategy:                              and the CENTRE network is codified in a series
+                                                          of smart contracts created and maintained by
+•  Fiat-collateralized: Fiat assets in reserves
+                                                          CENTRE, along with a protocol and network policies
+collateralize tokens and thus provide price stability
+                                                          to facilitate such interactions. CENTRE does not
+by pegging token value to reserved fiat value;
+                                                          maintain fiat asset reserves itself, and CENTRE is a
+•  Crypto-collateralized: Crypto assets in reserves
+                                                          not a financial institution; likewise, issuing network
+collateralize tokens and provide price stability
+                                                          members do not control the fiat token contracts,
+pegged to the value of those reserved crypto assets;
+                                                          but rather leverage them as they interact with the
+•  Algorithmic non-collateralized: Software economic      CENTRE network. New issuing members must
+models aim to provide price stability without             on-board into the CENTRE network, and new fiat
+relying on underlying collateralized assets;              tokens join the scheme through that process.
+•  Hybrid: A blend of the three                           The contracts created and maintained by CENTRE
+basic approaches above.                                   are intended to be open source software,
+                                                          subject to ongoing global peer review as well
+CENTRE aims to provide the first: a fiat-collateralized
+                                                          as formal security review, and evolved through
+approach. One unit of tokenized fiat currency is
+                                                          internal CENTRE engineering development
+backed by one unit of reserved fiat. More so than
+                                                          as well as through collaboration with open
+the other approaches to stablecoin development,
+the fiat-collateralized approach requires meeting         source developers around the world.
+firm traditional regulatory requirements, requires
+issuing members to have strong auditable reserve          2.7.2 STATE CHANNEL TRANSACTION
+                                                          MANAGEMENT
+capability for traditional backing assets (such
+as fiat banking relationships), and provides less         To transfer tokens at higher throughput rates, as
+decentralization -- and it is also currently the most     an option in addition to direct usage of Ethereum,
+robust approach in terms of price stability.              CENTRE transactions can utilize the state channel
+                                                          pattern. Using this option, nodes exchange balance
+CENTRE addresses the centralization tradeoff by
+                                                          information in the form of tokens transferred
+envisioning a network of multiple token-issuing
+members, thus providing multiple reserves and
+CENTRE                                                    |                                                           15
+
+
+
+
+CENTRE WHITEPAPER                                         |                                                        DOCUMENT VERSION  2 .0
+in state channels. This section describes how             Thereafter, Alice and Bob can perform updates by
+state channels operate at a conceptual level.             communicating between themselves: When Alice
+                                                          sends 50 euro tokens to Bob, she does so by
+State channels are a way for two or more participants
+                                                          generating a new state, cryptographically signing it,
+to update shared state between them securely
+                                                          and sending it to Bob. If Bob agrees to the new state,
+without executing transactions on a distributed ledger,
+                                                          he signs it and sends it back to Alice. The new state
+except for creating and finalizing the state channel
+                                                          between them looks as follows:
+on the ledger. State channels are similar to payment
+channels, but state channels can manage multiple
+types of shared state in addition to payment data.
+To create a state channel, the participants agree
+to an initial state and execute transactions on
+an underlying distributed ledger in order to
+lock in that state. Subsequent updates can be
+executed without executing any transactions on
+                                                          If Bob then sends 25 tokens back to Alice, he
+the ledger. Each update is simply a new state,
+                                                          generates a new state, signs it, sends it back to
+and each participant cryptographically signs the
+                                                          Alice, who signs it, producing another new state of:
+new state if it is valid. When the participants wish
+to close the channel, they can each execute a
+transaction saying they agree to the final state.
+For example, imagine Alice and Bob wish to create
+a state channel for payments. They each lock 100
+US dollar tokens into a state channel contract
+on the ledger, for an initial state as follows:
+CENTRE                                                    |                                                        16
+
+
+
+
+CENTRE WHITEPAPER                                    |                                                          DOCUMENT VERSION  2 .0
+                                                     When Alice and Bob wish to settle these payments,                                   Further, the reputational impact of any party
+                                                     they do so by closing the channel. Alice executes                                   attempting to cheat the network is recorded and
+                                                     a transaction reporting that she agrees to the final                                subsequently visible to other participants.
+                                                     state; Bob agrees, so he also executes a transaction
+                                                                                                                                         2.7.3 CHAINING STATE CHANNELS
+                                                     agreeing to the final state. Since they agreed, the
+                                                     state channel contract then sends the funds to each                                                                                        State channels can be chained to enable payments
+                                                     participant based on the final state it was given. In                               to additional parties. If Alice wishes to pay Carol,
+                                                     this example, Alice receives 75 euro tokens and Bob                                                                                        and both Alice and Carol have a channel with Bob
+                                                     receives 125. The net change of 25 tokens from Alice                                but not with each other directly, then the transfer
+                                                     to Bob is committed to the ledger. Any intermediate                                                                                        from Alice to Carol can flow through Bob and then
+                                                     state changes will never be committed to the ledger.                                on to Carol without requiring Alice and Carol to
+                                                                                                                                         open a direct channel. To chain state channels in
+When one party wishes to close a channel,
+                                                                                                                                         this manner, the system must enforce assurance
+the state channel contract does not close
+                                                                                                                                                                                                that when Alice pays Bob, that Bob will in turn pay
+immediately on demand. Instead, a challenge
+                                                                                                                                                                                                Carol and that Bob cannot retain the funds himself.
+period commences in which the other
+participants have a period of time to either:                                                                                                                                                   This is accomplished through the use of a hashed
+                                                                                                                                                                                                time locked contract (HTLC), which makes executing
+                                                     •  Agree, in which case the channel is closed and
+                                                                                                                                         the chained payment as secure as executing it
+                                                     the changes are committed immediately;
+                                                                                                                                         through a normal direct state channel. A chain
+                                                     •  Dispute the final state by submitting a state signed
+                                                                                                                                         of states is established in which the funds will be
+                                                     by all parties with a higher sequence number; or
+                                                                                                                                         released if and when the recipient can produce a
+•  Do nothing, which will constitute agreement                                                                                                                                                  secret. The final recipient is then given the secret,
+                                                     once the challenge period expires.                                                  which they pass up the chain, and everybody in
+                                                                                                                                         the chain can use the secret to claim the funds.
+Imagine the scenario in which Bob wished
+to “cheat” by broadcasting the earlier state                                                                                             In this example, Alice gives Bob a new state that
+which assigned him 150 tokens instead of 125                                                                                                                                                    essentially states: “if you can produce the preimage
+tokens. That state was also signed by both                                                                                                                                                      that will produce this hash, then you can receive the
+Bob and Alice, so it is in some sense valid.                                                                                                                                                    funds.” Bob then produces a similar state with Carol.
+                                                                                                                                         Alice then gives Carol the preimage. Carol uses
+                                                     In this example, if Alice disagrees with the final state
+                                                                                                                                                                                                that preimage to retrieve the funds from Bob, and
+that Bob submits, then she would have a chance
+                                                                                                                                                                                                then Bob uses that to retrieve the funds from Alice.
+                                                     to submit the later state (sequence 2), which was
+                                                                                                                                                                                                Since the HTLC is enforced by the state channel, if
+also signed by both parties; in this example, that
+                                                                                                                                                                                                one party attempts to steal the funds then the other
+                                                     would supersede Bob’s final state. Bob could then
+                                                                                                                                                                                                party can broadcast a transaction with the HTLC and
+                                                     either agree or do nothing. He would be unable to
+                                                                                                                                         the preimage, which will direct the funds to them.
+                                                     dispute since he does not have a later state signed
+by both parties. This means that no participant
+                                                                                                                                         2.7.4 NODE MODULES
+can prevent another participant from closing the
+                                                                                                                                                                                                Interaction between internal node subsystems occurs
+channel, and no one should be able to close the
+                                                                                                                                                                                                through well-defined modules and API interfaces to
+channel except with the legitimate final state.
+                                                                                                                CENTRE                   | 17
+
+
+
+
+CENTRE WHITEPAPER                                             |                                                        DOCUMENT VERSION  2 .0
+make replacing or extending parts of a CENTRE node            CENTRE Management Module
+as easy as possible. Different network participants           A module implementing APIs that node owners
+may wish to employ different internal technologies            employ to control and administer a CENTRE node.
+(such as a relational database, key management,               This includes support for initiating a value transfer,
+PII storage, etc.), so it is critical that CENTRE has a       deploying a new token, and updating trust parameters
+pluggable means of supporting those requirements.             for nodes and tokens, among other features.
+A preliminary, non-inclusive list of                          Exchange Rate Module
+planned modules is as follows:                                A module to manage what rates a node
+                                                              offers when trading between assets.
+Distributed Ledger and Smart Contract Modules
+A module and interface to manage and employ a                 Key Management Module
+distributed ledger and the necessary associated smart         Modules to handle securely storing and
+contracts. Initially CENTRE provides a module that            retrieving cryptographic keys for signing
+implements a module and interface for Ethereum.               transactions and executing state updates.
+This smart contract module includes: Code that
+Identity, Risk, PII, Compliance, Authorization, and Service
+understands how to talk to an Ethereum node,
+Modules
+smart contracts for tokens and state channels to be
+                                                              Extensible modules employed for identity and
+deployed as needed, and code to interact with the
+                                                              account management, KYC/AML compliance,
+included smart contracts to enable value transfers.
+                                                              secure storage, authentication and authorization,
+Routing Modules                                               risk scoring, and other services.
+A module to determine routing
+for negotiating transfers.
+CENTRE Protocol Module
+A module to implement APIs that CENTRE
+nodes use to communicate with one another.
+CENTRE                                                        |                                                        18
+
+
+
+
+CENTRE WHITEPAPER   |   DOCUMENT VERSION  2 .0
+The CENTRE
+Team and
+Organization
+CENTRE              |   19
+
+
+
+
+CENTRE WHITEPAPER                                            |                                                          DOCUMENT VERSION  2 .0
+While initially a wholly owned subsidiary of Circle,         and a significant R&D function that continues to
+it is proposed that CENTRE operations and team               build and improve the CENTRE software protocols.
+members are to be transferred to the CENTRE                  Software contributors are expected to include
+organization, a new entity which is to be created            a growing community of third party developers
+in the coming months. The CENTRE organization                from CENTRE network members as well as
+expects to operate independently, with entirely              independent developers around the world.
+separate dedicated working capital, employees
+and technology development. Circle expects to
+3.2 Circle Corporate Background
+act merely as a founding member and source of
+the original technology and IP, and as a production          As the creators of the core CENTRE technology and
+user of CENTRE, as further detailed below.                   IP, and as the network’s founding member, Circle’s
+broader background and leadership is critical
+to CENTRE’s launch and initial development.
+3.1 The CENTRE Organization
+3.2.1 LEADERSHIP, INVESTORS, AND DIRECTORS
+The CENTRE organization aims to
+satisfy four key objectives:                                 Circle’s senior management team brings highly
+                                                             seasoned leaders with decades of success in leading
+•  Provide R&D capability, support and maintenance
+                                                             companies in the Internet technology, online services
+of the CENTRE open source software project. This
+                                                             and banking industries. Cofounders Jeremy Allaire
+includes managing the open source code repository
+                                                             and Sean Neville have built multiple global public
+and facilitating and supporting third party developer
+                                                             companies with products and platforms that have
+engagement, evangelism and code contributions.
+                                                             helped to transform software development, web
+•  Provide the business development, governance
+                                                             content, online media, and core Internet infrastructure.
+and compliance functions for the CENTRE Network,
+                                                             Sean and Jeremy are joined by seasoned executives
+including business development required to usher
+                                                             and a broad leadership team coming from companies
+new nodes into the network for consumer wallets,
+                                                             including Goldman Sachs, Amazon, Square, Google,
+merchants, payment acquirers, and others.
+                                                             AirBnB, Expedia, eBay and Adobe, among others.
+•  Provide optional certification testing, trust authority
+                                                             A unique combination of top Internet technologists
+services, compliance reviews, and due diligence
+                                                             and operators familiar with the complexities and
+programs to allow node owners to opt into proving,
+                                                             risks of global finance, the management team
+maintaining, and broadcasting high degrees of trust
+                                                             represents one of the most experienced and talented
+to satisfy legal obligations and to increase reputation
+                                                             firms in the global Internet Finance industry.
+and presence among other network participants.
+                                                             Circle is backed by by leading venture and
+•  Contribute engineering and support services to the
+                                                             strategic investors including IDG Capital, one of
+underlying distributed ledger infrastructure (such
+                                                             the largest venture capital firms in China and early
+as Ethereum) on top of which CENTRE operates.
+                                                             investor in Tencent, Baidu and CreditEase; Breyer
+This vision sees CENTRE growing to become a                  Capital, founded by Jim Breyer, one of the leading
+significant global organization with business and            VCs in the world and first investor in Facebook;
+operational professionals in all major markets around        General Catalyst Partners, major investors in Snap,
+the world, a global compliance function that is              Airbnb, Stripe, and Kayak. Strategic investors
+working closely with digital wallets in every region,
+CENTRE                                                       |                                                          20
+
+
+
+
+CENTRE WHITEPAPER                                            |                                                        DOCUMENT VERSION  2 .0
+include Goldman Sachs, CICC Alpha, Baidu,                    Circle Pay is a global social payment app that enables
+WanXiang, CreditEase and EverBright Bank.                    customers to make payments instantly and without
+                                                             fees, including instant payments that cross currencies
+Circle’s board of directors includes, in addition to
+                                                             and borders. Circle Pay combines open, cross-
+Jeremy and Sean, veteran venture investors Jim
+                                                             currency transactions with delightful social messaging
+Breyer, Quan Zhou and David Orfao, who have helped
+                                                             behaviors -- conversations, media and payments.
+to build some of the most significant consumer,
+                                                             Circle Pay was built from the ground up on
+Internet, and technology companies in the United
+                                                             blockchain technology and specifically on the
+States and China. Independent Director Raj Date
+                                                             technology behind CENTRE. The company
+brings decades of experience in consumer finance
+                                                             envisions money and value transcending walled
+as a senior executive at Capital One and Deutsche
+                                                             gardens to become more inclusive and globe-
+Bank, and he was recruited by US Secretary of the
+                                                             spanning, nearly instant, secure, and enabling new
+Treasury Timothy Geithner and Senator Elizabeth
+                                                             forms of growth and innovation for businesses
+Warren to spearhead a new regulatory agency for
+                                                             and individuals. Charging a toll for payments will
+consumer financial protection. Independent Director
+                                                             disappear, opening up enormous opportunities for
+M. Michele Burns is a leading global financial
+                                                             global value exchange, including bringing several
+executive who was CFO of Delta Airlines, Mercer              billion people into the global digital economy.
+and Marsh McClennan, and has served on the board
+                                                             Circle Trade operates the company’s crypto asset
+of directors of Walmart, Cisco, Goldman Sachs
+                                                             trading business, which today is one of the largest
+(where she chairs the risk committee) and Inbev.
+                                                             market makers and OTC liquidity providers in
+Independent director Alex Norstrom is a Spotify
+                                                             the world. Circle Trade directly trades over $2B
+executive who oversees the Spotify subscription
+                                                             per month in the marketplace, provides daily
+business unit and brings a strong background in              liquidity to large natural buyers and sellers of
+growth and marketing in the consumer internet space.         crypto, trades at high values (minimum of $500k
+USD), and acts as a liquidity provider and market
+maker on all mature crypto asset exchanges.
+Circle Invest, first released in the US in spring of
+2018, is a mobile app that surfaces Circle Trade’s
+capabilities to retail consumers. Circle Invest simplifies
+crypto asset investment particularly for those new
+to the space. Circle Invest has zero commission
+3.2.2 CIRCLE PRODUCTS AS CATALYSTS FOR
+fees, instant funds access, and a minimum of $1
+CENTRE ADOPTION
+                                                             USD. Circle Invest will grow its features and expand
+With billions of dollars in transaction volume,
+                                                             global market availability over the course of 2018.
+millions of customers, and a growing global
+                                                             Poloniex is one of the world’s largest crypto asset
+footprint, Circle’s products can be major catalysts
+                                                             exchanges. Circle envisions Poloniex evolving into
+for broader CENTRE Network adoption.
+                                                             a robust multi-sided distributed marketplace that
+Circle currently operates four major product lines:          can host tokens which represent everything of
+Circle Pay, Circle Trade, Circle Invest, and Poloniex.       value: physical goods, fundraising and equity, real
+                                                             estate, creative productions such as works of art,
+CENTRE                                                       |                                                        21
+
+
+
+
+CENTRE WHITEPAPER                                        |                                                           DOCUMENT VERSION  2 .0
+music and literature, service leases and time-based      building seamless consumer payment experiences
+rentals, credit, futures, and more. Circle believes      and using fiat currency on top of underlying
+that the contractual rules around exchange for           blockchain settlement and integration layers are
+anything and everything will become increasingly         core to CENTRE. Other technology innovations
+represented in distributed global software, rely on      include systems and services for layering KYC and
+inconvertible distributed shared memory in the           AML risk decisions into payment networks and
+form of distributed ledgers, and benefit from the        transactions, and systems for providing instant liquidity
+services of global multidimensional marketplaces.        and conversion between fiat and crypto assets.
+3.2.3 REGULATORY AND LICENSING PORTFOLIO
+                                                         3.3 Organizational Structure and Advisors
+The advent of cryptocurrency and blockchain
+                                                         The CENTRE organization will be seeded with
+technology represents the most significant
+                                                         several key Circle employees who anticipate
+technology breakthrough since the emergence of
+                                                         moving from Circle into CENTRE. This talent
+the commercial internet, and Circle has believed
+                                                         includes individuals in engineering, operations,
+it is crucial to build strong relationships with
+                                                         business development, finance, and compliance.
+governments who are seeking to understand the
+technology and ensure that markets can adopt             The CENTRE organization will be supported by
+it while also addressing key risks to society, the       a strong board of advisors with deep experience
+economy, and consumers. Because of this, Circle has      in internet platforms, protocols and consumer
+focused on deep and high-quality engagement with         products, enterprise development, open
+regulators since its inception, and holds the broadest   source software, and also deep expertise in
+licensing of any crypto company in the world.            cryptocurrency and blockchain technology.
+Circle is a registered Money Services Business (MSB)
+with the Financial Crimes Enforcement Network
+(FinCEN) of the US Treasury Department and holds
+4.0 The CENTRE
+money transmission (or equivalent) licenses in
+48 US states and territories. Circle is the first and
+currently one of only four companies to have been        Organization
+granted a BitLicense from New York. Circle also
+holds an E-Money Issuer license from the Financial
+                                                         The CENTRE working group expects to update this
+Conduct Authority in the UK. These licenses
+                                                         paper periodically during the course of technical
+enable the company to offer fiat and crypto asset        peer review, legal and compliance review, finance
+storage, currency exchange, and payment services         and tax counsel, and during ongoing engineering
+in the United States, UK, and European Union.            progress.
+3.2.4 TECHNOLOGY AND IP CONTRIBUTIONS
+                                                         Major updates are expected to be reported
+Circle is contributing core technology and IP to
+                                                         on the CENTRE web site: http://centre.io.
+the CENTRE organization. This IP is the result of
+several years of technology development at Circle
+to support the consumer social payments and crypto
+asset trading businesses. Circle’s pioneering work in
+CENTRE                                                   |                                                           22
+
+
+
+
+                                                                                                                   CENTRE WHITEPAPER   |   DOCUMENT VERSION  2 .0
+                                                                                                                                           Ethereum: An open source, public, blockchain-
+5.0 Glossary                                                                                                                               based distributed computing platform featuring
+                                                                                                                                           smart contract scripting functionality.
+Anti-Money Laundering rules (AML): A set of                                                                                                Hashed TimeLock Contract (HTLC): A class of
+                                                       procedures, laws or regulations designed to stop the                                smart contracts that require that the receiver
+                                                       practice of generating income through illegal actions.                              of a payment either acknowledge receiving
+                                                                                                                                           the payment prior to a deadline by generating
+Application Programming Interface (API): A set of
+                                                                                                                                                                                                 cryptographic proof of payment or forfeit the ability
+routines, protocols, and tools for building software
+                                                                                                                                           to claim the payment, returning it to the payer.
+applications. An API specifies how software
+components should interact. In general terms, it is                                                                                        IOU: A cryptographically-signed piece
+a set of clearly defined methods of communication                                                                                          of data acknowledging a debt.
+between various software components.
+                                                                                                                                                                                                 Implementation: A specific realization of a protocol
+Bitcoin: A network in which encryption techniques                                                                                          or other software abstraction in the form of one
+are used to regulate the generation of units                                                                                               particular incarnation in particular software code.
+of currency and verify the transfer of funds                                                                                               Loosely speaking, a blueprint is to a house as a
+(when lowercase, the term also refers to the                                                                                               protocol specification is to an implementation.
+units of currency rather than the network).
+                                                                                                                                                                                                 Know Your Customer (KYC): Rules and processes
+                                                       CENTRE: A protocol for digital wallet interoperability                              in which a business identifies and verifies the
+across currencies and borders, across diverse                                                                                              identity of its clients. The term is also used to
+software implementations, and across multiple                                                                                              refer to the bank and anti-money laundering
+blockchains, ledgers, and settlement rails.                                                                                                regulations which govern these activities.
+                                                       CENTRE Network: The connected network of CENTRE                                     Node: A software package which operates
+nodes operated by participants such as wallet                                                                                              and manages network participation, including
+                                                       providers, service providers, and financial institutions.                           providing protocol and API implementations,
+                                                                                                                                           on behalf of a network participant.
+                                                       Chained State Channels: A mechanism for allowing
+two state channels that are not connected directly                                                                                                                                               Payment Channel: Specific to Bitcoin, a Micropayment
+to one another to connect securely indirectly using                                                                                        Channel or Payment Channel is a class of
+intermediary connections to other state channels.                                                                                                                                                techniques designed to allow multiple transactions
+                                                                                                                                           without committing all of those transactions to
+Circle: Circle Internet Financial is the company
+                                                                                                                                           the blockchain. In a typical payment channel, only
+which created the initial implementation of the
+                                                                                                                                           two transactions are added to the blockchain
+protocol, and which will help bootstrap CENTRE
+                                                                                                                                           but an unlimited or nearly unlimited number of
+development with IP contributions and licensing.
+                                                                                                                                           payments can be made between the participants.
+Crypto Asset: A cryptographic unit of data and
+                                                                                                                                           Payment Channels are a class of State Channels.
+                                                       software code which has value as a tradeable asset.
+CENTRE                                                 |                                                           23
+
+
+
+
+CENTRE WHITEPAPER                                   |                                                        DOCUMENT VERSION  2 .0
+Protocol: A set of rules and guidelines for                                                                                           Stablecoin: A term used to describe a crypto
+                                                    communication. Rules are defined for each step                                    asset that is pegged to underlying reserved
+                                                    and process during communication between two                                                                                        assets and/or managed by software algorithms
+                                                    or more nodes, and nodes must follow these rules                                  in order to enforce price stability.
+                                                    to transmit data successfully. A single protocol may
+                                                                                                                                                                                        State Channel: A discussion channel between
+                                                    be realized in diverse implementations in varying
+                                                                                                                                      network participants capable of updating
+programming languages and runtimes across
+                                                                                                                                                                                        internal data (state) without requiring that every
+diverse blockchains or other infrastructure.
+                                                                                                                                                                                        such data change be printed to an underlying
+                                                    Service Provider: A CENTRE network participant                                                                                      blockchain. A superclass of Payment Channels.
+                                                    that provides services to the network to support
+                                                                                                                                                                                        Token: A smart contract that is employed to gain
+                                                    financial transactions. In exchange for fees paid in
+                                                                                                                                      access to and use of the network, and which
+                                                    tokens, service providers may offer compliance,
+                                                                                                                                      identifies the holder as a network participant,
+                                                    KYC, identity, data storage, fraud detection, or other
+                                                                                                                                                                                        and which implicitly accrues value in proportion
+                                                    services of interest to other network participants.
+                                                                                                                                      to the usefulness of the network it unlocks.
+Settlement: Delivery of an obligation in
+                                                                                                                                                                                                                                             Transaction: In CENTRE, a transaction is a transfer
+satisfaction of an IOU which may have been
+                                                                                                                                                                                                                                             of an IOU from one network participant to another.
+transacted between network members.
+                                                                                                                                      Trust Level: A numeric indicator of a network
+Smart Contract: Computer protocols intended
+                                                                                                                                                                                        participant’s trust and certification level which
+to facilitate, verify, or enforce the negotiation
+                                                                                                                                      is determined by that participant’s licensing
+or performance of an agreement.
+                                                                                                                                      profile as well as its behavior over time.
+                                                                                                             CENTRE                   | 24
+
+
+
+
+

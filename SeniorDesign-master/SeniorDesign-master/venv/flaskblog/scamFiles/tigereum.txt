@@ -1,0 +1,795 @@
+﻿Send crypto to
+friends and family
+in an instant message
+TOKEN SWAP
+8 - 18 DECEMBER 2017
+Whitepaper
+igereum
+
+
+
+
+                                          Welcome to Tigereum                   4
+                                          Overview                              4
+                                          The Problem                           4
+                                          The Solution                          4
+                                          Messaging with Crypto                 5
+Fact
+                                          Tigereum’s AI Chatbot                 6
+                                          How the AI Chatbot Will Work          7
+                                          Tigereum Prototype                    8
+Everyone will be
+sending money by                          Industry Background                   9
+                                          Cryptocurrencies                      9
+instant message
+                                          Online Landscape                      10
+within 2 years                            International Remitters               12
+                                          Digital Wallet vs Instant Message     14
+                                          Competitor Analysis                   15
+                                          Disruption                            17
+                                          Tigereum Tokens                       18
+                                          Cryptocurrency for Instant Messages   18
+                                          Initial Tokens                        18
+                                          Listing of Tigereum Tokens            18
+                    Problem
+                                          Revenue Model                         18
+                                          Value Proposition                     19
+                                          Messaging Tigereum Tokens             19
+                    No-one can
+                                          Intellectual Property                 20
+                    send crypto by        Regulation                            20
+                                          Insurance                             21
+                    instant message
+                                          Token Swap                            22
+                                          Key Dates                             22
+                                          Token Swap Price                      22
+                                          First Day Bonus                       22
+                                          Pre-Swap                              23
+Solution                                  Benefits of Token Swap                23
+                                          Allocation                            24
+                                          ERC-20 Standard                       24
+We will develop                           Use of Token Swap Funds               25
+                                          BuyBack & Burn                        25
+an AI chatbot
+to send crypto by                         Tigereum’s Team                       27
+                                          Core Team                             27
+instant message
+                                          Advisory Board                        30
+                                          Manager                               33
+                                          Token Swap Summary                    34
+                                          References                            35
+                    igereum           2                                         igereum   3
+
+
+
+
+Welcome to Tigereum
+Overview
+                                                                           Tigereum will adopt the key principles of the crypto world:
+                                                                           security, anonymity, decentralization and encryption.
+Over the next two years, everyone will be sending money
+by instant message. Social media companies are working
+                                                                           Building our solution around AI chatbots makes Tigereum
+around the clock on this paradigm shift. Crypto is being left
+                                                                           flexible, globally scalable, independent of any particular
+behind on these smaller social payments. Sending crypto
+                                                                           instant messaging platform, and quick to market.
+from digital wallets is difficult for small amounts. Enter the
+Tiger. Tigereum will enable everyone to securely and easily
+                                                                           Messaging with Crypto
+send small amounts of crypto to friends and family by
+instant message.
+                                                                           Crypto developers should be able to provide a better solution
+                                                                           for messaging money than social media companies, big banks
+The Problem
+                                                                           and international remitters.
+A revolution is occurring in the way we send money.
+                                                                           Crypto already has the answers to a decentralized, borderless,
+Social media giants like Facebook, WhatsApp and Skype
+                                                                           secure, digital, global currency which can be messaged to
+are investing in solutions to send money by instant
+                                                                           anyone, anywhere.  Crypto’s competitive advantages should
+message. Crypto should be at the forefront of this new
+                                                                           make messaging money cheaper and easier for everyone.  The
+wave but instead it is lagging behind. Digital wallets will
+                                                                           crypto community should be at the forefront of this paradigm
+not be able to compete with instant messaging for smaller
+                                                                           shift, and not leave it to the instant messaging platforms.
+money transfers.
+                                                                           Tigereum’s initial aim is more humble: to enable the crypto
+The Solution
+                                                                           community to message crypto on instant messaging
+                                                                           platforms, in the same way that fiat currencies are messaged.
+Tigereum will develop an AI chatbot to enable the crypto
+community to securely and easily send small amounts of                     We can take on bigger challenges once we achieve this.
+crypto to friends and family by instant message.
+                                                                 igereum   4                                                                igereum   5
+
+
+
+
+Tigereum’s AI Chatbot
+                                                                                                                        Tigereum will not only enable crypto to be messaged, it will                                                                         How the AI Chatbot Will Work
+                                                                                                                        also provide the crypto community with the best customer
+                                                                experience for sending crypto.  Tigereum will deliver                                                                                                                                                                                                                                                                           Tigereum’s AI chatbot solution will be simple to use, and users
+                                                                                                                        conversation-style messaging of crypto using the newest AI                                                                           will complete the following steps:
+tools available for chatbots.
+                                                                                                                                                                                                                                                             •                                    Add Tigereum to your friends list on any
+                                                                                                                        Tigereum won’t ask you to clunk through your digital wallet to                                                                                                            instant messaging platform you like to use.
+                                                                                                                        send crypto or fill out web forms, or take QR scans or paste long
+crypto addresses.                                                                                                                                                                                                                                            •                                                                                                                                  Open a chat with Tigereum to message crypto to a friend.
+                                                                                                                        Tigereum’s AI chatbot solution will enable crypto holders to                                                                         •                                                                                                                                  Tigereum will ask three simple questions in chat style:
+securely message crypto:                                                                                                                                                                                                                                                                                                                        (1) which cryptocurrency do you want to send?
+                                                                                                                                                                                                                                                             (2) how much?
+•                                                               anonymously, or with disclosed identities
+                                                                                                                                                                                                                                                                                                                                                                                                (3) do you want to write a short message to your friend?
+•                                                                                                                                                                                           on any device - mobile, tablet, laptop or desktop - on the go,
+                                                                                                                        in the office, at home, in an airport lounge, or on the beach                                                                        •                                                                                                                                  Choose a friend (the recipient of your crypto) from your
+                                                                                                                                                                                                                                                                                                  friends or contacts list on your device.
+•                                                               within the instant message platforms you use to
+                                communicate with your friends
+                                                                                                                                                                                                                                                             •                                                                                                                                                                                                    Details of your transfer will be displayed on screen and can be
+•                                                                                                                       without passwords, usernames, QR scans, new software or
+                                                                                                                                                                                                                                                             messaged to your friend.
+                                new apps
+                                                                                                                                                                                                                                                             •                                                                                                                                                                                                    Pay for the crypto you have messaged using your digital wallet.
+•                                                               fully secured by encrypted identity tokens
+•                               using any cryptocurrency
+                                                                                                                                                                                                                                                             •                                                                                                                                  Your friend can use the crypto in whatever way they like:
+•                               across borders
+                                                                                                                                                                                                                                                                                                  • depositing it in their digital wallet
+•                               in your preferred language.
+                                                                                                                                                                                                                                                                                                                                                • exchanging it for fiat and depositing it
+                                                                                                                                                                                                                                                                                                  in their bank account
+                                                                                                                                                                                                                                                                                                  • forwarding it to another friend.
+igereum                         6                               igereum                                                 7
+
+
+
+
+Tigereum Prototype                                                    Industry Background
+Tigereum has built a prototype AI chatbot for securely sending        Cryptocurrencies
+money on the Facebook Messenger instant messaging
+platform, and has performed a series of early tests. These            Readers of this Whitepaper are familiar with the background of
+have helped identify the chatbot’s scalability and garnered           cryptocurrencies. A summary is provided here:
+important customer feedback. Tigereum is ready to commence
+a full live pilot and to integrate crypto into the chatbot.           •                                                                Cryptocurrencies are decentralized digital currencies which
+operate outside normal central banking.
+•                                                                     Bitcoin was the first major cryptocurrency, commencing in
+2009 after a paper was released under the name Satoshi
+Nakamoto. There are close to 17 million Bitcoins mined, trading
+around US$4000 each with a capitalization of US$68 billion.
+Bitcoin value has doubled over the last 12 months alone.
+•                                                                     Other major cryptocurrencies are Ethereum, Ripple, Litecoin
+and DASH which make up part of over 700 cryptocurrencies
+worldwide with a total value of roughly US$150 billion.
+•                                                                     To trade between cryptocurrencies, and in/out of fiat, crypto
+exchanges have become important service providers to the
+crypto community. There are about 200 crypto exchanges.
+Approximately US$300,000,000 is traded on crypto exchanges
+each day.
+Crypto holders keep their cryptocurrency assets in digital wallets.
+Digital wallets are like online bank portals. You can see which
+cryptocurrencies you own, and their current value.  You can buy
+more crypto into your wallet, or sell it (through an exchange).
+igereum                                                               8                                                                igereum                                                       9
+
+
+
+
+Digital wallets enable customers to send and receive crypto          WeChat introduced instant messaging of money to customers
+directly to and from other crypto holders. In your digital wallet,   in China in 2016. The owners of WeChat recently bought
+you have an anonymous, encrypted, randomly-generated                 MoneyGram, so expect to see this feature expand rapidly for its
+address for your cryptocurrency. This is like a bank account         Chinese customers.
+number (but it’s so long you have no hope of remembering it).
+You can send crypto to a friend at their address from within         Snapchat introduced instant messaging of money to its platform
+your digital wallet.                                                 in 2014, by partnering with Square.
+You can only send and receive crypto to and from your digital        WhatsApp announced in 2016 that it plans to enable instant
+wallet if you and your friend have crypto. If you want to send       messaging of international currencies. WhatsApp is preferred by
+funds to a friend who does not have crypto, you have to              international users, therefore the opportunities for WhatsApp
+first convert your crypto to fiat, then transfer it to your bank     are as big as the regulatory obstacles and currency exchange
+account, and finally send fiat to your friend from your bank         challenges. It could unwittingly be running an international
+account through an international remitter, or indeed by instant      remittance operation within an instant messaging platform, and
+message.                                                             earning significant revenue from currency exchange. It seems this
+strategy is still under consideration.
+Generally, there is a 2% charge to send and receive crypto
+between digital wallets.                                             Hike (in India) announced in August 2017 that it would introduce
+payments to its instant messaging platform.
+Online Landscape
+Paypal has been successfully messaging money to emails and
+mobile phone numbers for over ten years.
+Facebook, Google, Alibaba, Tencent, Apple and Microsoft know
+that many customers would prefer to use instant messaging to
+                                                                                                                                              Venmo (a Paypal brand) messages money in the US and Singapore
+message money to friends and family, especially for smaller
+                                                                                                                                              through an instant messaging app.
+social-type payments, so this is what customers will get.
+                                                                                                                                              Sending money using instant messaging is changing the way we
+Facebook introduced messaging small amounts of money for
+                                                                                                                                              use the internet, and how we communicate. Online experiences
+US customers in 2015 on Messenger. This is a brilliant customer
+                                                                                                                                              which require us to download desktop software, go to a browser,
+interface, as it is very easy to use. However, Facebook has
+                                                                                                                                              send an SMS,  install a mobile app, or even make a phone call, are
+struggled to overcome the international regulatory obstacles
+                                                                                                                                              in decline.  Instant messaging money is the next big thing.
+to roll this out globally. It has also apparently been working on
+a patent to protect its unique IP solution for messaging money.
+In the meantime, Facebook’s dual strategy is to work with
+remittance partners outside the US and support
+payment chatbots on its Messenger platform.
+                                                                     igereum                                                             10                                                                        igereum   11
+
+
+
+
+Instant messaging is even outstripping the new social media           Western Union is not particularly inventive or challenging,
+tools which put Facebook, Google and Amazon on the map ten            and we all know it well. It is the dinosaur in the park.
+years ago. Instant messaging is becoming more popular than
+the generation of social media apps we all first came to use, and     MoneyGram was recently acquired by Chinese financial
+this change is occurring right now. The social media companies        conglomerate Tencent (which also owns WeChat). Expect changes.
+are having to re-invent themselves already.
+                                                                      Transferwise is being a successful disrupter. In only ten years,
+Because of these trends, and the possibility of skimming a            Transferwise has grown to remitting $1 billion per month.
+large number of small fees across global banking transactions         It recently released a remittance chatbot.
+(a market worth over US$400 trillion per year in international
+remittances alone) it is easy to see why social media companies       Paypal is doing great work. It has a strong customer interface and
+are working on how to make payments work on their instant             is breaking all the rules (in a good way) to better serve customers’
+messaging platforms.                                                  financial requirements smoothly and efficiently.
+Start-up fintechs like Revolut in the UK are also doing interesting
+International Remitters
+work in this market.
+International remitters (of fiat currencies) are very relevant to
+this market analysis, and Tigereum.                                                                                                          Ripple is a cryptocurrency which is developing some great tools
+                                                                                                                                             for international remittances.  Its focus seems to be at the top of
+                                                                                                                                             the B2B end of the market - to facilitate efficient movement of
+The key international remitters are Western Union, MoneyGram,
+                                                                                                                                             large amounts of international currencies between banks and
+and Transferwise.  Paypal is not regarded as a traditional
+international remitter, but it rates a mention here too.                                                                                     global corporations.  This is very important work for the crypto
+                                                                                                                                             community, however, it is unlikely that Ripple will deliver B2C
+Primary customer-facing tools for international remitters are                                                                                solutions for sending and receiving crypto to friends and family.
+local branches and agents dispensing cash. Western Union
+                                                                                                                                             None of these fiat international remitters show any signs of
+has over 500,000 branches and agents around the world.
+Where they do employ technology they are, in the main, still                                                                                 using digital currencies to revolutionize themselves and create
+using only web browsers, SMS and mobile apps, which are                                                                                      efficiencies. None of them seem to be adopting crypto as the way
+clunky to use. International remitters are expensive, and part                                                                               forward in a decentralized, anonymous, encrypted world which
+                                                                                                                                             treats currencies as jurisdictionally-bound anachronisms. They are
+of the centralized financial ecosystem which represents fiat
+                                                                                                                                             all very much creatures of their highly-regulated environments
+currencies, central banking and burdensome regulations.
+                                                                                                                                             and legacy customer interfaces.  Even Paypal is starting to look
+                                                                                                                                             legacy now.
+                                                                      igereum                                                                12                                                                    igereum   13
+
+
+
+
+Competitor Analysis
+In fact, rather than develop their own solutions for messaging
+international remittances, it looks like their preferred strategy
+                                                                              Tigereum is not proposing to be any of these things:
+is to partner up with the social media companies to deliver the
+systems, compliance and back-end banking for messaging
+                                                                    •         Crypto wallet
+money on instant messaging platforms.
+                                                                    •         Crypto exchange
+                                                                    •         Remittance
+Digital Wallet vs Instant Messaging                                 •         Bank
+                                                                    •         Social media
+The crypto community has built an impressive ecosystem over         •         Billing platform
+the last ten years, and it is indeed possible to send crypto from   •         Foreign exchange
+a digital wallet. However, typical digital wallets are hard work    •         Payment card
+for most people and are expensive to use. They are not the
+preferred way to send and receive money between friends and                   Tigereum will be a blockchain, anonymous, encrypted and secure
+family. It is difficult to use your digital wallet to simply send             instant messaging AI chatbot to send crypto to friends and family.
+small amounts of crypto. It’s usually easier to send money from
+an online bank portal.                                                                                                                             Who is competing with Tigereum in the crypto community?  We
+                                                                                                                                                   have not identified any direct competitors. Nobody seems to be
+The problem is that digital wallets have customer interfaces                                                                                       doing what Tigereum is proposing.
+based on old forms. Crypto has leapt ahead as a new form of
+digital currency, but digital wallets have not kept up with new                                                                                    We have identified a number of indirect competitors to Tigereum
+forms of customer communication and they have not linked up                                                                                        in the crypto community whose mission is to provide good
+with the social media tools we use everyday. Digital wallets may                                                                                   customer interface to crypto holders, and help them use their
+be good for holding and trading cryptocurrencies, but not for                                                                                      crypto in a predominantly fiat world.
+sending funds to friends and family.
+                                                                                                                                                   They are not digital wallets (exclusively) but are building website
+Customers will continue to message fiat as their default choice                                                                                    and app solutions which are friendlier and easier to use than
+on their preferred instant messaging platform before they send                                                                                     the average digital wallet, and which generally also enable their
+crypto from a digital wallet everyday.                                                                                                             customers to send crypto to friends and family in a fiat world.
+                                                                    igereum   14                                                                                                                                         igereum   15
+
+
+
+
+Disruption
+                                                          Wirex (www.wirex.com) is a Bitcoin wallet website and app with
+                                                          a plastic and digital prepaid MasterCard attached. Customers
+                                                                                                                                                                                                                                                                   Messaging money on instant messaging platforms is going to be a
+                                                          can move funds within the Wirex wallet between Bitcoin and
+                                                                                                                                              game changer. It will disrupt many markets:
+                                                          fiat, and spend their fiat online and instore with the MasterCard.
+                                                          It also enables send/receive between other Wirex account
+                                                                                                                                              •                                                   Banks (domestic and international transfers)
+holders, and easier links to your fiat bank account(s).
+                                                                                                                                              •                                                   Remitters (Western Union, MoneyGram, Transferwise)
+                                                                                                                                              •                                                   Payment apps (Venmo, Paypal, PayTM, Revolut)
+                                                          Cryptopay (www.cryptopay.me) also offers a plastic and digital
+                                                          prepaid MasterCard so that customers can spend their Bitcoin
+                                                                                                                                                                                                                                                                   Crypto should not be left behind as this change sweeps through
+                                                          in fiat currencies online and in-store, and to send crypto to
+                                                                                                                                                                                                                                                                   our financial institutions or the customer experience gap between
+other Cryptopay account holders.
+                                                                                                                                              crypto and fiat will widen further.
+                                                          Izibits (www.izibits.io) is interesting to Tigereum because its
+                                                                                                                                                                                                  In fact, crypto should be leading this disruption. Crypto’s
+                                                          whole architecture is built as an AI chatbot. It is not a website
+                                                                                                                                                                                                                                                                   decentralized blockchain architecture should be taking this battle
+                                                          or app. It is a website/app chatbot.  All interactions with their
+                                                                                                                                              on, not leaving it to the social media companies.
+                                                          customers occur within a chat.  It is developing a new suite of
+                                                          services, including: P2P transfers, international remittances,
+                                                          a prepaid MasterCard, a shopping platform, and a crypto
+                                                                                                                                              First Mover Advantage
+exchange.
+                                                                                                                                                                                                  Tigereum has a significant first mover advantage. We are well
+                                                          Bitpay (www.bitpay.com) is a US-based payment gateway for
+                                                                                                                                                                                                  positioned to ride the instant messaging wave for the crypto
+                                                          crypto/fiat. It seems to be pitched mainly to merchants who
+                                                                                                                                                                                                  community if we can start our development work and go-to-
+                                                          want to accept crypto payments. Bitpay enables merchants
+                                                                                                                                              market strategies now.
+                                                          and retails customers to send crypto and fiat in their shopping
+ecosystems.
+                                                                                                                                                                                                                                                                   Our primary aim is to provide a viable alternative in the market
+                                                                                                                                                                                                                                                                   for crypto holders to message crypto to their friends and family,
+                                                          Byteball (www.byteball.org) is one of the few new blockchain
+                                                                                                                                                                                                  so that they do not have to convert to fiat simply to message
+                                                          offerings we could find which allows you to chat and pay in an
+                                                                                                                                              funds easily and efficiently.
+instant message, as one of the many things it does.
+                                                                                                                                                                                                  Our secondary aim is to build on all the benefits of crypto to
+                                                          However, none of these crypto companies are doing what
+                                                                                                                                                                                                  make messaging crypto a better and more secure solution for
+Tigereum is proposing.
+                                                                                                                                                                                                  messaging funds, especially across international borders.
+                                                                                                                               igereum   16                                                                                                                                                                                             igereum   17
+
+
+
+
+Tigereum Tokens
+Cryptocurrency for Instant Messages                                  It is common for crypto exchanges to charge 1% to 2% for
+                                                                     transfers, and for international remitters to charge fees (including
+                                                                     exchange margins) up to 5% for fiat remittances. Based on these
+Tigereum Tokens will be the cryptocurrency used to send
+                                                                     competitor price points, Tigereum expects revenues through its
+crypto to friends and family in an instant message. Senders
+                                                                     AI chatbot to attract gross margins in the range of 2% to 5%.
+will buy Tigereum Tokens to message money. Recipients will
+redeem Tigereum Tokens into their preferred crypto or fiat
+Value Proposition
+currency to receive their money.  The mechanisms for this to
+occur securely and efficiently will be developed further through
+the course of this project.                                          Tigereum’s high-margin revenues will create an environment in
+                                                                     which upward price pressure can benefit Token Swap participants,
+                                                                     and ensure a strong secondary market into the long term.
+Initial Tokens
+                                                                     As Tigereum gains traction in the market, more Tigereum Tokens
+There will be fifty million (50,000,000) Tigereum Tokens created.
+                                                                     will be required by our customers to message crypto. This will give
+Up to forty million (40,000,000) of these will be swapped for
+                                                                     rise to greater  liquidity and upward price pressure on the value of
+ETH under the Token Swap program described further in this
+Tigereum Tokens.
+Whitepaper.
+The availability (and pricing) of  Tigereum Tokens will be
+Listing of Tigereum Tokens
+controlled by the secondary market, so Token Swap participants
+can be assured that there will be a viable secondary market for
+Tigereum Tokens will be listed on public cryptocurrency              Tigereum Tokens when we go to market.
+exchanges, starting with EtherDelta. This listing is scheduled for
+Monday 18 December 2017 (the close date for the Token Swap).         Messaging Tigereum Tokens
+Tigereum Tokens will be listed on other exchanges promptly                                                                                  Tigereum will develop the mechanisms to securely message
+after Monday 18 December 2017 to maximise trading
+                                                                                                                                            crypto seamlessly and cost-effectively without compromising
+opportunities for Tigereum Token holders.                                                                                                   anonymity and the blockchain’s integrity.
+                                                                                                                                            We anticipate that these mechanisms may require Tigereum to
+Revenue Model
+                                                                                                                                            hold a treasury float to manage the exchange between crypto and
+                                                                                                                                            fiat currencies.  This treasury float, if required, will not be created
+Tigereum will earn revenue from payments flowing through
+                                                                                                                                            until Tigereum is ready to go to market as it is not required
+our platform. This revenue stream will underpin the
+                                                                                                                                            during the development phase, and we need to get the
+value of Tigereum Tokens.
+                                                                                                                                            model right first.
+igereum                                                              18                                                                     igereum                                                                   19
+
+
+
+
+Intellectual Property
+                                                                      •                                                               It is not clear whether messaging Tigereum Tokens would
+Tigereum may apply for patents for methods we develop within
+                                                                                                                                      constitute a remittance, and whether Tigereum would have
+our AI chatbots for messaging crypto.  Patents will further
+                                                                                                                                      to comply with the regulatory requirements which various
+underpin the value of Tigereum Tokens and reduce the risk of
+                                                                      countries impose on international remitters.
+unfair competition.
+This will be considered after our key development work has            Insurance
+finished, but before we go to market.
+All Tigereum Tokens will be fully insured and kept in cold storage.
+This means that if Tigereum were to suffer a breach of its online
+Regulation
+storage, the insurance policy would pay to cover any funds lost as
+a result.
+Until Tigereum has completed its development, it is not
+possible to have clarity about what regulations may apply
+The insurance policy covers any losses resulting from a breach of
+to Tigereum Tokens.  Tigereum will obtain legal advice on
+Tigereum’s physical security, cyber security, or by employee theft.
+regulatory compliance before launching any AI chatbots using
+The policy is planned to be provided by a syndicate of insurers
+Tigereum Tokens in the market.
+through Lloyd’s of London (which also insures, for example, Airbnb
+& Tokenbase).
+Notwithstanding this uncertainty, at this stage we recognize
+there are four key areas of regulation to consider regardless
+This will also apply to other digital currency that Tigereum will
+of which laws may apply: consumer protection, prevention of
+hold, such as ETH which it will receive under the Token Swap.
+money laundering, taxation and remittances.
+•                                                                     In all countries, regulators with responsibility for ensuring
+that financial services are provided in a way that protects
+consumers and maintains the integrity of the market will be
+interested in Tigereum Tokens.
+•                                                                     Local tax laws are complex, and will apply on a case by case
+basis, depending on where Tigereum Tokens are issued.
+•                                                                     The prevention of money laundering is taken very seriously
+                                                                      in many countries around the world. Tigereum will at
+                                                                      all times act to prevent money laundering.
+                                                                      igereum                                                         20                                                         igereum   21
+
+
+
+
+Token Swap
+Pre-Swaps
+Introduction
+Pre-Swaps are available until Monday 20 November 2017.
+Tigereum will make forty million (40,000,000) Tigereum Tokens
+We will offer special bonuses to Pre-Swap Participants.
+available to swap for ETH.
+Contact us for your Pre-Swap special bonus.
+Key Dates
+The objective of Pre-Swaps is to fund this Token Swap campaign
+and further develop the Tigereum prototype.
+The Token Swap opens at 09:00 GMT on Friday 8 December
+2017 and closes at 23:00 GMT on Monday 18 December 2017.
+                                                                                               Pre-Swap Participants will be rewarded with the following
+                                                                      additional benefits:
+Token Swap Price
+                                                                      •                        Personal invitation to participate in testing
+The Token Swap Price is 1 ETH for 1000 Tigereum Tokens.
+                                                                      •                        VIP invitation to product launch
+                                                                      •                        Bonuses for early participation
+First Day Bonus                                                       •                        Priority access to the first buyback
+When the Token Swap opens on Friday 8 December 2017 there
+                                                                      Benefits of Token Swap
+will be a 33% bonus.  Your 1 ETH can be swapped for 1,333
+Tigereum Tokens (giving you 333 bonus Tigereum Tokens).
+                                                                                               We have structured the Token Swap to minimise risks and
+                                                                                               maximise returns for participants:
+This 33% bonus applies only from 09:00 GMT to 23:00 GMT on
+the first day - Friday 8 December.
+                                                                      •                        Prototype already in testing
+                                                                      •                        Experienced team of entrepreneurs
+Public Exchanges                                                      •                        Low, hard cap on the number of tokens
+                                                                      •                        Optional buyback & burn program
+On Monday 18 December 2017, Tigereum Tokens will be listed            •                        Tokens an integral part of the business model
+on EtherDelta. We will list promptly on other public exchanges
+such as Coss.io after this initial listing.
+igereum                                                          22                            igereum                                                     23
+
+
+
+
+Allocation
+More detailed information about the ERC-20 standard:
+Tigereum Tokens will be allocated as follows:
+https://github.com/ethereum/EIPs/issues/20
+•                                                                                                                              80% to Token Swap participants, including Pre-Swap and
+                                                                                                                                                                                                    Use of Token Swap Funds
+bonuses
+•                                                                                                                              20% to be split between bounty (1%), team members and
+                                                                                                                                                                                                                                                                         Overseen by the Advisory Board and financial auditors,
+advisors (2%) and founders (17%).
+                                                                                                                                                                                                                                                                         ETH swapped for Tigereum Tokens will be used to fund:
+                                                                                                                               In the unlikely event that not all of the Tokens allocated for the
+                                                                                                                                                                                                    •                                                                    the development of Tigereum’s AI chatbot solution,
+                                                                   Token Swap are swapped, they will be burned.
+                                                                                                                                                                                                    • legal and regulatory costs,
+                                                                                                                                                                                                    •                                                                    a go-to-market team around the Tigereum solution,
+ERC-20 Standard
+                                                                                                                                                                                                    •                                                                    marketing to grow the Tigereum business, and
+                                                                                                                                                                                                    •                                                                    working capital for operations as the Tigereum business
+                                                                                                                               Ethereum smart contracts enable a very transparent and secure
+                                                                                                                                                                                                    establishes itself, and
+                                                                                                                               way of profit sharing among Tigereum Token holders. Tigereum
+                                                                                                                                                                                                    •                                                                    the treasury float of crypto and fiat currencies needed by
+                                                                   Tokens will be an Ethereum-based token of value.
+                                                                                                                                                                                                                                                                         Tigereum to enable settlements to occur (subject to the
+                                                                                                                                                                                                    mechanism to be finally adopted).
+Ethereum-based tokens are a digital asset, bearing value by
+themselves based on their underlying assets and associated
+BuyBack & Burn
+rights. They rely on a well-established Ethereum infrastructure,
+benefiting from several advantages:
+Tigereum will allocate corporate profits to buying back Tigereum
+Tokens.
+•                                                                  Security and predictability (as opposed to, for example,
+                                                                   having to run an independent blockchain network).
+                                                                                                                                                                                                    Participation in the buyback program is optional. Tigereum Token
+•                                                                  Use of robust and well-supported clients (Ethereum-based
+                                                                                                                                                                                                    holders who participate will receive their buyback in the form of
+                                                                   Tokens can be managed with official Ethereum clients).
+                                                                                                                                                                                                    ETH swap.  Priority will be given to Pre-Swap participants in the
+•                                                                  High liquidity (interchangeable with other Ethereum-
+                                                                                                                                                                                                    first buyback program.  Tigereum expects to burn buyback tokens.
+                                                                   based tokens or ETH); easier listing on exchanges with
+                                                                   infrastructure already in place.
+                                                                                                                                                                                                    Our buyback & burn program will allow the net asset value of a
+                                                                                                                                                                                                    Tigereum Token to increase, giving all token holders a fair way to
+                                                                   Our Ethereum-based Tigereum Token smart contract will
+                                                                                                                                                                                                    gain value in their Tigereum Tokens over the long-term.
+                                                                   comply with the ERC-20 standard, and it will be extremely
+                                                                   easy for exchange trading to happen.
+                                                                   igereum                                                     24                                                                   igereum                                                              25
+
+
+
+
+Tigereum’s Team
+IMPORTANT
+Tigereum’s founders have put together a capable and experienced
+team to undertake this Token Swap and implement the
+Read this Whitepaper and the
+development work for Tigereum’s AI chatbot solution.
+Terms & Conditions before
+We have:
+participating in the Token Swap.
+                                                                  •                                                  a core team of dedicated, day-to-day executives to get the
+                                                                  work done
+                                                                  •                                                  an independent Advisory Board to oversee and guide the core
+                                                                  team
+Be sure that you understand the
+                                                                  •                                                  an advisor, The ICO Rocket, to advise on this Token Swap, and
+contents of these documents,                                      •                                                  a project manager, Aero Cards Limited, to manage the
+Tigereum Project and be custodian of project assets.
+especially what they say about the
+risks of participating and restrictions
+Core Team
+on eligibility. Only participate if you
+Tigereum’s core team are an experienced and committed group
+of people who are keenly interested in new opportunities like
+are eligible.
+Tigereum.  Members of the core team are:
+The Whitepaper and Terms &
+Darren is an experienced company director and
+Darren Olney-Fraser
+Conditions can be downloaded from                                 investor.  He practised law for 20 years and was
+Chief Executive Officer
+a Partner in a global law firm. Darren has been
+Tigereum’s website                                                CEO of a listed funds management company for
+10 years. He has raised and profitably deployed
+over $200 million during the last 15 years. Darren
+founded Aero Cards Limited in 2015.
+www.tigereum.io
+https://www.linkedin.com/in/darren-ol-
+ney-fraser-8803746a/
+igereum                                                           26                                                 igereum                                                         27
+
+
+
+
+Senior Executive with leadership experience in          Rohan Goffin is an experienced user experience
+Tim Carmichael                                          Rohan Goffin
+multiple global technology deployments.  Deep           specialist. He is a Fine Arts graduate with skills in
+Head of Shared Services                                 User Experience
+knowledge of order-to-cash processes and the            digital artwork and website layouts.  Rohan makes
+establishing, scaling and improving of onshore          sure that Tigereum’s digital products deliver the
+and offshore service centres. Six sigma black belt      best user experience to our customers.
+with recent RPA (robotics process automation)
+project delivery.
+https://www.linkedin.com/in/carmichaeltim/
+Shyaire is a true digital native with a keen interest   Moses Adeniji is a project manager with over four
+Shyaire Ganglani                                        Moses Adeniji
+in all things technology. Fascinated with the power     years industrial experience on UX/UI design. He
+Chief Marketing Officer                                 AI Chatbot Development
+of digital and social marketing, she has advised        has project managed the design of AI chatbot
+large global corporates on social media strategies      products.
+to build customer loyalty and brand awareness.
+Until recently, Shyaire was a Social Media Strategist
+at Ogilvy Public Relations in Dubai, UAE.  Shyaire
+brings to Tigereum an exacting awareness of what
+we need to do to take Tigereum to market in a
+digital world.
+https://www.linkedin.com/in/shyairegang-
+lani/                                                   https://www.linkedin.com/in/moses-adeni-
+                                                        ji-a17935b6/
+                                                        Gabriel Adeniji is a full-stack web developer.
+Mark Edmondson is an experienced office
+Mark Edmondson                                          Gabriel Adeniji
+                                                        He has been passionately programming for 8
+administration professional.  He manages
+Chief Operating Officer                                 Bot Development
+                                                        years. He was commended by the senior special
+the day-to-day operations of Aero.
+assistant to the Governor of Lagos State, Nigeria,
+for giving her business a web presence. When he
+isn’t glued to his laptop programming, he spends
+time learning about new developments in IT, and
+also playing video games. He studied Business
+Administration from Lagos State Polytechnic.
+https://www.linkedin.com/in/gabriel-adeni-
+ji-7a398b110
+igereum                                                 28                                                      igereum   29
+
+
+
+
+Pauline Sargant is a lawyer who provides in-                 Dan Owen is a London-based executive,
+Pauline Sargant                                              Dan Owen
+house compliance support.                                    who is currently providing consulting services
+Compliance
+to a UK investment fund. He has been a
+start-up business owner and company
+director in the health, manufacturing and
+investments sectors.
+https://www.linkedin.com/in/dan-
+o-a8396842/
+                                                             Shahar Namer                                          Shahar is founder of The ICO Rocket and co-
+Advisory Board                                                                                                     founder of London-based venture capital fund
+sushivp.com and start-up CryptoChip.io.
+Shahar has also built international start-up
+Tigereum has established an independent Advisory Board
+accelerators in London and Israel (Start-up Nation,
+to oversee the Token Swap for participants, to ensure that
+Start-up Bootcamp and Marathon Labs). He has
+Tigereum has appropriate corporate governance and the
+recently  worked on several successful ICO’s.
+necessary skills to guide the Tigereum project to success.
+Independent members of the Advisory Board are:
+https://www.linkedin.com/in/
+shaharnamerventure/
+Garry is an experienced director with a strong track         Jacob has extensive experience in the venture
+Garry Lemair                                                 Jacob Ner David
+record in leadership and executive management,               landscape. For over eighteen years he has created,
+Chairman
+having successfully worked with major global                 led, invested in and mentored tech-driven
+entities over 50 years. He has held senior executive
+                                                             start-ups.  He embraces innovation and enjoys
+roles at Citibank, Diners Club, Kentucky Fried               challenging the status quo, especially through
+Chicken, Fluor Daniels and Taubmans. Over the                digital products and services that can make the
+last 20 years, Garry has been Chairman and Non-              world a better place.  He founded and led start-ups
+Executive Director on many listed and private                DeltaThree (now NASDAQ:DDDC) and NomadIQ
+international company boards.
+                                                             (sold to Omnisky).
+https://www.linkedin.com/in/lemair/
+                                                                                                                   https://www.linkedin.com/in/jacobnerdavid/
+igereum                                                      30                                                    igereum                                        31
+
+
+
+
+Tom is a trusted advisor for large-scale
+Tom Sargant
+international projects. He focuses on how best to
+Manager
+achieve contestability and value for money in the
+delivery, operation and maintenance of a project’s
+Aero Cards Limited has been appointed to provide management
+lifecycle. Tom has been a non-executive director
+services. Aero is a fintech based in London which has developed
+on the boards of listed, government and not-for-
+profit entities.                                                  and manages the Aero Prepaid MasterCard - a digital and plastic
+payment card in Europe - and a suite of remittance chatbots for
+fiat currencies, which are currently being brought to market.
+Supporting Tigereum for a decentralized crypto-messaging
+chatbot is a natural extension of Aero’s fintech business.
+https://www.linkedin.com/in/tom-sargant-
+b5b9281/                                                          Aero will manage the development activity of Tigereum, the
+custodial ownership of Tigereum’s code, IP and domain names,
+Gautam is an accomplished business leader with                    and this Token Swap.  Aero will be custodian of the Token Swap
+Gautam Kulkarni
+significant experience in IT. He has consulted                    funds, and will audit the use of those funds for Tigereum under
+across the globe on digital transformation
+the guidance of the Advisory Board.
+initiatives, IT strategy and business consulting, pre-
+sales and solutions, business analysis & process
+Aero was incorporated as a UK company on 25 March 2015
+consulting. He has a deep understanding of core
+and has been actively developing fintech solutions since its
+business processes and systems mapping. Gautam
+is always keen to help his clients experiment with                establishment.
+cutting-edge digital technologies to solve complex
+business problems.
+https://www.linkedin.com/in/
+gautamkulkarni/
+Darren Olney-Fraser is an ex-officio member of the Advisory
+Board, as Chief Executive Officer of Tigereum.
+The ICO Rocket
+Tigereum has engaged The ICO Rocket to advise on this
+Token Swap. The ICO Rocket unites investors, experts and
+entrepreneurs to make successful ICOs and Token Swaps
+for all stakeholders.
+igereum                                                           32                                                                igereum   33
+
+
+
+
+Token Swap Summary                                                                                            References
+Name:                                                             Tigereum
+AI and Chatbots by the Numbers: Is Your Bank Ready?
+https://personetics.com/ai-chatbots-numbers-bank-ready/
+Symbol:                                                           TIG
+The State of Chatbots 2017
+Standard:                                                         Ethereum ERC-20
+https://chatbotsmagazine.com/the-state-of-chatbots-2017-
+d85febc3bb75
+Supply:                                                           Fifty million (50,000,000)
+                                                                                                              Trends Driving the Chatbot Growth
+Swap Price:                                                       1 ETH = 1000 Tigereum
+                                                                                                              https://chatbotsmagazine.com/trends-driving-the-chatbot-
+Approximate Value:                                                US$15,000,000                               growth-77b78145bac
+Allocation:                                                       80% for Token Swap                          Facebook reveals how WhatsApp will make money
+                                                                  20% for Bounty (1%), Team (2%)              http://www.telegraph.co.uk/technology/2017/09/05/facebook-
+                                                                  and Founders (17%)                          reveals-whatsapp-will-make-money/
+Pre-Swap Bonuses:                                                 Open until midnight 20 November 2017
+How to send money on Facebook Messenger
+https://www.youtube.com/watch?v=ePEft9U72Is
+Open Date:                                                        Friday 8 December 2017 (GMT 09:00)
+Use Facebook Messenger to send and receive money
+First Day Bonus:                                                  33% bonus available on Friday
+https://www.cnet.com/how-to/use-facebook-messenger-to-send-
+8 December 2017 (09:00 to 21:00 GMT)
+and-receive-money/
+Close Date:                                                       Monday 18 December  2017 (GMT 23:00)
+Short messaging services versus instant messaging: value versus
+Public Exchange:                                                  EtherDelta                                  volume
+https://www2.deloitte.com/content/dam/Deloitte/au/
+Lock-up Period:                                                   90 days for Founders                        Documents/technology-media-telecommunications/deloitte-au-
+tmt-short-messaging-services-versus-instant-messaging-011014.
+Burn:                                                             Unallocated tokens will be burned
+pdf
+at end of Close Date
+Trends in Remittances, 2016
+Enquiries:                                                        Darren Olney-Fraser       dof@tigereum.io
+http://blogs.worldbank.org/peoplemove/trends-remittances-
+                                                                  Shahar Namer                                namer@sushivp.com
+                                                                                                                                                                           2016-new-normal-slow-growth
+Website:                                                          www.tigereum.io
+29 October 2017
+igereum                                                           34                                          igereum                                                      35
+
+
+
+
+For further information regarding the Tigereum Token
+Swap, please contact:
+Darren Olney-Fraser on dof@tigereum.io
+Moving money around is a big, global market. Servicing
+a share of that market for the crypto community could
+become a significant business.  That’s what the founders
+of Paypal discovered for fiat currencies over the last ten
+years, and what you are about to discover for crypto
+currencies over the next ten years.
+igereum                                                      36   igereum   37
+
+
+
+
+

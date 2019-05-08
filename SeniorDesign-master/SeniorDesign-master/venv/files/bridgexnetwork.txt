@@ -1,0 +1,1096 @@
+﻿DRAFT WHITEPAPER 2018
+Version 1.0                                                                      •   June 2018   •   BridgeX Technologies Pte Ltd   •   https://bridgex.network/
+Strictly private and confidential. Terms and details are preliminary and shall
+not be constructed or construed as terms of sale
+
+
+
+
+Important Notice
+CONTENTS
+01     ABSTRACT              PAGE 3
+                             02     CENTRALISED FINANCE | THE RISE OF P 2 P LENDING     PAGE 4
+03     THE BRIDGEX NETWORK   PAGE 7
+04     BRIDGEX CORE          PAGE 1 3
+05     BRIDGEX PLATFORM      PAGE 1 8
+06     THE BXN TOKEN         PAGE 2 4
+07     TOKEN DISTRIBUTION    PAGE 2 6
+08     TEAM & ADVISORS       PAGE 2 7
+09     PARTNERS              PAGE 3 0
+10     ROADMAP               PAGE 3 1
+2
+
+
+
+
+ABSTRACT
+01
+ABSTRACT
+Centralised finance has reached a tipping point. The last fifteen years have seen the rise of new technologies aimed at disrupting
+the old and ushering in the new. Now, more than ever, P2P lending and the applications of blockchain technology have created a
+unique opportunity for financial inclusion, enabling people marginalised by the traditional financial system. The BridgeX Network
+aims to be the first total solution that effectively bridges the old and the new, one that provides decentralised financial services
+whilst maintaining seamless interoperability with the current system.
+BridgeX Network: A Decentralised Financial Ecosystem
+The BridgeX Network is the framework for a financial ecosystem of decentralised credit, conversion and payment solutions,
+enabling crypto-to-crypto collateralised lending and borrowing, crypto-to-fiat currency conversions and cross border payments.
+The network will unite the full spectrum of financial services players in the blockchain industry and open new opportunities
+for traditional financial institutions/ services to enter and participate in this new world economy. Any third party integrator or
+distributed app (DApp) developer can leverage the power of the BridgeX Network to offer new services on their existing platform
+or create DApps/ Apps on the network that solve real-world financial needs.
+Our goal is to have the BridgeX Network power a vast ecosystem of decentralised and off-chain crypto financial services that
+will effectively democratise access to credit and bridge the divided worlds of crypto and fiat. We envision a future where the
+underbanked get access to affordable credit, where cryptocurrencies are recognised as a legitimate asset to be accepted as
+collateral and where there is seamless interoperability between the divided worlds of crypto and fiat.
+BridgeX Core: Infrastructure for Credit, Conversion and Payment Solutions
+At the heart of the BridgeX Network lies BridgeX Core. It comprises a suite of cutting-edge smart contracts hosted on the Ethereum
+blockchain - an on-chain loan matching service, an on-chain loan tracking service and an oracle that collects off-chain data for the
+loan contracts - and an integrated cash management module, BRIDGEPay, which provides off-chain solutions for crypto-to-fiat
+conversions and cross-border payments.
+BridgeX Platform: BRIDGELoan, BRIDGEConvert and BRIDGESend
+As the first proof-of-concepts for this new financial ecosystem, our DApp and Apps will demonstrate the power of the BridgeX
+Network at its integrated best, delivering three compelling and synergistic cash management solutions within a single platform
+while providing third party integrators and DApp developers with an understanding of the multitude of possibilities going forward.
+BRIDGELoan is a decentralised crypto lending marketplace offering crypto-to-crypto loans, where new opportunities are created
+for lenders seeking access to an untapped and burgeoning digitally savvy market segment and where borrowers are able to
+leverage their crypto assets by pledging them as collateral to secure liquidity. All loans are over-collateralised. Built on the
+Ethereum blockchain and powered by BridgeX Core, BRIDGELoan allows lenders and borrowers across the globe to connect and
+deal in a fully automated, cryptographically secure and transparent manner.
+BRIDGEConvert and BRIDGESend work seamlessly together within the BRIDGEPay module to provide crypto-to-fiat conversions
+and cross-border payment solutions. Over 30 major fiat currencies are supported with access to more than 180 countries, allowing
+for a) loans originating in the blockchain space to be localised in fiat, or b) its independent deployment as a comprehensive end-
+to-end cash management solution for users’ blockchain asset portfolios.
+Strictly private and confidential. Terms and details are preliminary and shall
+3
+not be constructed or construed as terms of sale
+
+
+
+
+CENTRALISED FINANCE | THE RISE OF P2P LENDING
+02
+CENTRALISED FINANCE |
+THE RISE OF P2P LENDING
+Centralised finance has reached a tipping point. Over the last fifteen years, disruptors have focused their innovation on alternative
+forms of finance and finding novel ways to reach those marginalised by the traditional financial system. This, along with the
+Internet’s mainstream adoption globally, has sparked the rise of p2p lending and blockchain - the technologies and concepts
+shaping the future of inclusive finance.
+Centralised Finance
+Control of the traditional financial system has been in the hands of a relatively small number of people since its inception. Decisions
+on who can participate in the system are made within a structure heavily biased towards the financial institutions that control it
+and are based solely on the ability to turn a profit from participants. The area of traditional finance where this is most clear is
+credit - the re-distribution of money from those who have it to those who need it in exchange for a fee.
+Banks have traditionally acted as intermediaries for these credit transactions, taking customer savings and distributing them as
+loans. The borrower pays an interest rate which the bank splits between itself and the lender. Without banks, this process would
+be difficult and expensive for two people to manage on their own. Additionally, the issues of trust along with the mechanics of risk,
+time limits, and other terms have to be figured out.
+The fact that banks have made this process easy is part of the problem. They have the ability to dictate terms and ultimately decide
+who should get access to credit and who should not. Put a different way: they have become gatekeepers to the financial system,
+deciding who gets to participate and what assets are deemed to be acceptable collateral. Customers that are deemed too risky for
+a bank’s appetite will be ignored, so will those who have little to save and, therefore, lend. In a rising digital economy, an increasing
+number of people have alternative digital assets with little banking access. This has necessarily resulted in millions of unbanked
+and underbanked people across the world. A vast majority of these people desperately need access to credit in order to increase
+their standard of living. But even if they were to approach a bank about a loan, they would soon realize that the crippling interest
+rates on offer were beyond their ability to pay.
+Looking more locally, there is also the problem of getting money from areas that have it to areas that need it. Banks focus their
+attention on their own immediate area and are restricted by how much they can lend. Their risk appetite allows them to only offer
+such access to credit to the lowest risk customers.
+Innovations, like blockchain technology and cryptocurrencies, have been slow to reach centralised finance. Western Union,
+for example, has already stated that it will not be adding a cryptocurrency transfer solution in the near future.   Ripple’s chief
+cryptographer has also said that banks are unwilling to create international payment solutions on the blockchain because of
+scalability and privacy concerns.
+Exactly because centralised finance has been slow to adapt, new financial solutions have sprung up with the promise of making
+the financial system more accessible, affordable, and transparent.
+P2P Lending
+As early as the late 1990s, a company called Napster gave us a glimpse of what the internet could make possible. Peer-to-peer
+(P2P) filesharing—the idea that anyone with a connection to the internet could share files with each other—was a revolution.
+Someone sitting in Chile could share a file with someone in Estonia without the need for an intermediary.
+Naturally, this concept has evolved and influenced the lending space. The elimination of banks as intermediaries meant that
+interest rates and costs associated with bureaucracy decreased, money was available at any time regardless of geography, and
+more people had conceivable access to credit. The democratisation of credit was suddenly a legitimate possibility.
+Strictly private and confidential. Terms and details are preliminary and shall
+4
+not be constructed or construed as terms of sale
+
+
+
+
+CENTRALISED FINANCE | THE RISE OF P2P LENDING
+P2P lending is not without its problems, though. Distribution of money still required access to the centralised financial system.
+Currency exchange services were often required, same with bank accounts. This had to be done manually because no platform
+provided complete integration. In addition, the risk was transferred away from the intermediary and put squarely on the lender.
+This made things difficult because lenders were not always equipped to handle credit risk evaluation or did not have the means of
+recourse to defaults. Lenders were, therefore, put in an awkward situation in which they needed to trust a borrower who they had
+never met to re-pay the loans. To-date, this remains too great a risk for many to embrace and participate in P2P lending.
+Still, Morgan Stanley has projected the global p2p lending marketplace to reach US$290 billion by 2020, with an annual growth
+rate of 51%.
+Exhibit 4
+300
+51 % expected C AGR
+2014 - 2 0 2 0
+250
+200
+150
+100
+123 % C AGR
+2010 - 2 0 1 4
+50
+0
+2010                                                                                                                                    2011                     2012  2013  2014  2015  2 0 1 6  2 0 1 7  2 0 1 8  2 0 1 9  2 0 1 9
+                                                                                                                                        Australia   China   UK   US
+Of this marketplace, the cryptocurrency p2p lending market is still at its infancy; This represents an enormous business opportunity.
+Opportunity
+The rise of blockchain technology and cryptocurrencies have created a unique opportunity: Over-collateralised P2P lending with
+a bridge to the services provided by centralised FinTech. It is a way for anyone to participate in a decentralised financial system,
+whether it be loans, cross-border payments, or currency conversion, without the need for direct interaction with the traditional
+banking system.
+Challenges
+Despite the significant growth in value of and confidence in the cryptocurrency markets, fiat currencies remain the prevailing
+instruments for the bulk of all transactions and loan collaterals that occur globally today.
+Similar to traditional investors in the fiat world, cryptocurrency investors often have the need for:
+• Real world cash flow
+• International payments
+With the number of cryptocurrency investors increasing exponentially, the need for conversions of crypto into fiat currencies also
+increases in tandem.
+Today, cryptocurrencies are still a very illiquid instrument and converting crypto assets into fiat for real-world personal and
+business needs is proving to be an increasingly cumbersome process. Fiat liquidity covers short-term obligations and a business’
+working capital needs and is essential especially when cryptocurrency investors require short-term financing. Individuals and
+businesses with growing blockchain asset portfolios would increasingly run into difficulty should their most significant asset be
+tied to a specific cryptocurrency - with no or very little liquidity.
+Strictly private and confidential. Terms and details are preliminary and shall
+5
+not be constructed or construed as terms of sale
+
+
+
+
+CENTRALISED FINANCE | THE RISE OF P2P LENDING
+The BridgeX Network aims to solve two of the biggest challenges facing the blockchain and cryptocurrency space:
+1. Access to Credit
+Today, most banks and financial institutions hold traditional assets like property, land and gold as collateral for their loan and
+financing services. Even with a total market capitalisation of USD 300 billion and rising, cryptocurrencies remain an unrecognised
+asset class by the traditional financial system. Accordingly, banks and financial institutions remain a closed door for holders
+of cryptocurrency assets. Yet, the acceptance of cryptocurrencies as a valid asset class continues to grow. The problem that
+cryptocurrency holders face - having little/no means to unlock their crypto portfolio - will only get worse.
+2. Access to the Traditional World of Fiat
+Cryptocurrencies are currently being traded in a world of their own. For holders to unlock their cryptocurrencies for fiat currencies
+to make necessary international payments is not only troublesome, but also costly.
+This is especially true for companies that have just held a token sale. With the funds raised in their ICO campaign, they need
+to make payouts for their marketing and PR cost, legal fees, development work, and so on. On top of that, they also require fiat
+currencies to sustain their day-to-day operations. The current process requires holders to transfer their cryptocurrencies from
+their wallet to an exchange, the conversion of their crypto assets into fiat, the withdrawal to a company’s own bank account, and
+then any required transfers are made from there. These steps take days and often require a litany of fees along the way.
+This lengthy process is made even more cumbersome due to:
+• Different crypto exchanges having different limitations and different technical difficulty levels
+• Crypto exchanges are unlikely to support smaller markets: Crypto holders in these smaller markets are unable to make
+withdrawals in their home currencies
+Strictly private and confidential. Terms and details are preliminary and shall
+6
+not be constructed or construed as terms of sale
+
+
+
+
+THE BRIDGEX NETWORK
+03
+THE BRIDGEX NETWORK
+The BridgeX Network is the framework for a financial ecosystem of decentralised credit, conversion and payment solutions,
+enabling crypto-to-crypto collateralised lending and borrowing, crypto-to-fiat currency conversions and cross border payments.
+The network will unite the full spectrum of financial services players in the blockchain industry and open new opportunities
+for traditional financial institutions/ services to enter and participate in this new world economy. Any third party integrator or
+distributed app (DApp) developer can leverage the power of the BridgeX Network to offer new services on their existing platform
+or create DApps on the network that will contribute to solving real-world financial inclusion problems.
+The BridgeX Network will comprise of three main components:
+• BridgeX Core
+• BridgeX Platform: BRIDGELoan, BRIDGEConvert & BRIDGESend
+• Third Party Integrators: DApps/ Apps/ Service Providers
+Our goal is to have the BridgeX Network power a vast ecosystem of decentralised and off-chain crypto financial services that will
+effectively democratise access to credit and bridge the divided worlds of crypto and fiat.
+We envision a future where the underbanked get access to affordable credit, where cryptocurrencies are recognised as a legitimate
+asset to be accepted as collateral and where there is seamless interoperability between the divided worlds of crypto and fiat. The
+new world economy we imagine has democratised financial services for all.
+On-chain                                                                                                                             Off-chain
+3P Apps                                                                                                                              3P Service
+Provider
+BridgeX
+Core
+3P Service
+3P DApps                                                                                                                             Provider
+SMARTBridge                                                                                                                          BRIDGEPay
+BRIDGELoan                                                                                                                           BRIDGEConvert
+                                                                                                                                                     BRIDGESend
+Loan Asset                                                                                                                           Loan
+Pledging                                                                                                                             Disbursement
+Loan Offers                                                                                                                          Loan Requests
+Lenders                                                                                                                              Borrowers
+PLATFORM
+Strictly private and confidential. Terms and details are preliminary and shall
+7
+not be constructed or construed as terms of sale
+
+
+
+
+THE BRIDGEX NETWORK
+Network Participants
+The BridgeX Network will play host to the crypto community-at-large, the full spectrum of financial services players in the
+blockchain industry and traditional financial institutions/ services looking to enter and participate in this new world economy. The
+world we imagine has democratised financial services for all.
+Individual Lenders                                                                                                                     Individual                Long Term “HODL-er”          Individual Day Traders
+                                                                                                                                       Borrowers                 Investors
+Miners                                                                                                                                 Crypto Exchanges/         Successfully ICO-ed Crypto   Crypto Wallets
+                                                                                                                                       Decentralized Exchanges   Companies
+(DEXs)
+Crypto Funds                                                                                                                           Businesses/ Merchants     Payment Processors           Remittance Services
+accepting crypto payments
+OTCs                                                                                                                                   Gaming Platforms          Banks                        P2P Lending Platforms
+Strictly private and confidential. Terms and details are preliminary and shall
+8
+not be constructed or construed as terms of sale
+
+
+
+
+THE BRIDGEX NETWORK
+Selected Use Cases | Key Benefits
+Individual Lenders
+The BridgeX Network democratises lending for all, customarily the preserve of financial institutions or accredited lenders.
+Individuals can now participate as lenders in a 2-sided loans marketplace, BRIDGELoan, on the BridgeX Network. Lending allows
+individuals to diversify their crypto portfolio exposure, lower risks and earn a steady income, with our suite of smart contracts
+making this process quick, easy and fuss-free.
+Individual Borrowers
+• Gain access to affordable credit via a collateral-based assessment with no credit scoring/ checks
+• Avoid Tax Events by obtaining short/mid-term liquidity without a sale of crypto assets
+• Avoid inflated exchange fees
+• Maintain unlimited upside potential of crypto assets
+Long Term "HODL-er" Investors
+The market for cryptocurrencies has grown to a whopping USD 300 billion and is still expected to grow, with the number of
+wallet users having also grown exponentially to over 22 million users globally in January 2018. There is an increasing number of
+cryptocurrency investors who have a significant portion of their wealth locked up in crypto assets but need immediate liquidity for
+real-world needs. Collateralised loans on the BridgeX Network allow them to unlock liquidity without sacrificing the unlimited
+upside potential of their crypto assets.
+The BridgeX Network will allow individuals to then deal seamlessly with their newly unlocked liquidity on a single platform user
+interface, powered by the network’s integrated crypto-to-fiat conversions and cross-border payments Apps.
+Miners
+Miners power the decentralised blockchain world and are rewarded in turn with the cryptocurrencies they power. With the overall
+appreciation in value of cryptocurrencies, miners have benefited greatly from holding their crypto assets. Collateralised loans on
+the BridgeX Network allows miners to access working capital to address immediate cash flow needs to stay competitive and run
+their costly hardware-intensive operations without needing to sell their crypto assets. With such a loan, miners are also able to
+hedge against downside risks without sacrificing the unlimited upside potential of their crypto assets.
+Via the network’s integrated crypto-to-fiat conversions and cross-border payments Apps, miners can subsequently encash their
+newly unlocked crypto liquidity into fiat and make payments globally for hardware, salaries and service providers etc. on a single
+platform user interface.
+Successfully ICO-ed Crypto Companies
+Initial Coin Offerings (ICOs) have proven to be an effective way for companies in the blockchain industry to raise funds. Often
+raising in ETH terms, companies need to protect the value of their funds raised against market volatility. Companies also have
+immediate cash flow needs for product development and operational costs. Collateralised loans on the BridgeX Network allow
+companies to achieve both these objectives without sacrificing the unlimited upside potential of their crypto assets.
+Further, an ICO’s developmental and operational costs often require payments to be made in various currencies to multiple
+beneficiaries/ service providers around the world. The BridgeX Network will allow participant companies to enjoy this seamless
+process of crypto-to-fiat conversions and cross-border payments, becoming a one-stop end-to-end cash management solution.
+Strictly private and confidential. Terms and details are preliminary and shall
+9
+not be constructed or construed as terms of sale
+
+
+
+
+THE BRIDGEX NETWORK
+Crypto Exchanges/ Decentralized Exchanges (DEXs)
+Exchanges are the marketplaces of the decentralised blockchain world, helping to match buyers and sellers of various
+cryptocurrencies. In this extremely competitive space, exchanges struggle to differentiate themselves from the competition. The
+BridgeX Network will allow partnering crypto exchanges and DEXs to leverage on and interact with our core infrastructure via an
+application program interface (API), enabling them to offer new services on their existing platform.
+Users of these partnering exchanges will gain access to leverage (margin lending) and short-selling, as well as crypto-to-fiat
+conversions and the ability to make cross-border fiat payments to multiple beneficiaries (including themselves).
+Crypto Funds | Individual Day Traders
+• Hedge against downside risk without sacrificing unlimited upside potential of their crypto assets
+• Margin trading/ Leveraged long positions
+• Gaining access to additional capital
+• Blockchain asset portfolio diversification and flexibility to structure
+• Integrated one-stop end-to-end cash management for their blockchain asset portfolios
+Payment Processors
+Payment Processors can integrate into the BridgeX Network as third-party cross-border payment Apps, injecting vibrancy into the
+ecosystem by enabling niche payment solutions in untapped and exotic markets.
+Remittance Services
+Remittance Services can integrate into the BridgeX Network as third-party conversion and remittance Apps, adding value to the
+ecosystem through low-fee remittances services and the provision of FX liquidity for exotic currency pairs.
+Strictly private and confidential. Terms and details are preliminary and shall
+10
+not be constructed or construed as terms of sale
+
+
+
+
+THE BRIDGEX NETWORK
+Competitive Advantages
+Against Existing Lending Platforms
+The BridgeX Network stands distinguished when stacked up against the most promising existing lending platforms/ ecosystems:
+BridgeX
+ETHLend                                                                                                                       SALT   Nexo               Libra Credit
+Network
+Decentralised Financial                                                                                                              Decentralized      Decentralized    Centralised       Decentralized
+                                                                                                                              Yes    Lending Platform   Lending          Blockchain        Lending
+Ecosystem (Loans, Conversions,
+                                                                                                                                                        Platform         Lending           Ecosystem
+Payments)                                                                                                                                                                Platform
+2-Sided P2P Loans Marketplace                                                                                                                           1-sided:         1-sided:          1-sided: Financial
+                                                                                                                                                        Financial        Nexo is lending   Institutions/
+- Allow Participation of Ordinary                                                                                                                       Institutions/    entity            Private Investors/
+                                                                                                                              Yes    Yes                Accredited                         Stablecoin
+Lenders (Cf. Lending by Own
+                                                                                                                                                        Investors                          Partners
+Company/ Accredited Investors)
+Collateral-based Assessment
+                                                                                                                                     Decentralized      No Credit        No Credit         Individual Credit
+(Over-Collateralised Loans)                                                                                                          Credit Rating +    Checks           Checks            Score + Collateral
+                                                                                                                              Yes    Reputation-based                                      Grade
+Lending
+- No Credit Checks. Judged Purely
+by Credit-Worthiness of Pledged
+Collateral
+Integrated Multi-Asset Cash
+Management Platform
+Yes                                                                                                                           -      -                  -                -
+- Single Platform User Interface
+for Seamless Use of BridgeX
+DApps
+Integrated Crypto-to-Fiat
+Conversions
+                                                                                                                                     Crypto-to-Crypto   Crypto-to-Fiat   Crypto-to-Fiat    Crypto-to-Crypto/
+                                                                                                                              Yes    Loans (Exploring   Loans            Loans             Fiat/ Stablecoin
+- 30 Major Fiat Currencies                                                                                                           Crypto-to-Fiat     (USD only)       (USD/             Loans
+- Enabling Localised Fiat Loans                                                                                                      Loans)                              EUR only)
+Integrated Multi-Currency
+Cross-Border Payments
+- Sending Funds to Multiple
+Yes                                                                                                                           -      -                  -                -
+Beneficiaries Worldwide from a
+Single Platform (Cf. Present
+Situation of 1 Crypto Account - 1
+Beneficiary Bank Account)
+Strictly private and confidential. Terms and details are preliminary and shall
+11
+not be constructed or construed as terms of sale
+
+
+
+
+THE BRIDGEX NETWORK
+Against Cryptocurrency Exchanges
+The BridgeX Network has two distinct advantages over cryptocurrency exchanges
+BridgeX Network                                                                  Cryptocurrency Exchange
+Advantage 1:                                                                     Our   integrated   cash   management          Cryptocurrency exchanges obtain their
+                                                                                 module,     BRIDGEPay,     aggregates         liquidity by matching orders between
+Aggregation of Liquidity
+                                                                                 liquidity  from  multiple  liquidity  pools   buyers  and  sellers.  This  creates  an
+→ Deeper Liquidity
+                                                                                 globally  and  offers  it  out  to  users,    order  book  that  has  ready  orders.
+                                                                                 whose orders would be automatically           Often, market-makers are  invited to
+                                                                                 routed   to   the   deepest   pocket   of     provide ready bids and offers on the
+                                                                                 liquidity.                                    order book, giving the impression that
+                                                                                                                               there  is  healthy  liquidity  available
+                                                                                                                               when there may not be.
+Advantage 2:                                                                     BRIDGEPay makes it possible for users                                                    This    is    not    possible    with    a
+                                                                                 to do crypto-to-fiat conversions + send                                                  cryptocurrency                               exchange   as
+Sending Funds to Multiple
+                                                                                 fiat  funds  to  multiple  beneficiaries                                                 withdrawals can only be made to the
+Beneficiaries Worldwide
+                                                                                 worldwide                                     (including  themselves)  at                bank  account  of  the  user/  account
+from a Single Platform                                                           once.                                                                                    holder. The account holder would then
+have   to   separately   convert   and
+send/remit the fiat funds via his bank.
+Strictly private and confidential. Terms and details are preliminary and shall
+12
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX CORE
+04
+BRIDGEX CORE
+At the heart of the BridgeX Network lies BridgeX Core. It comprises a suite of cutting-edge smart contracts hosted on the Ethere-
+um blockchain - an on-chain loan matching service, an on-chain loan tracking service and an oracle that collects off-chain data for
+the loan contracts - and an integrated cash management module, BRIDGEPay, which provides off-chain solutions for crypto-to-fi-
+at conversions and cross-border payments.
+Our BridgeX Platform will be built atop and powered by this core infrastructure. Any third party integrator or distributed app
+(DApp) developer can seamlessly integrate with BridgeX Core via an application program interface (API) to offer new services on
+their existing platform to their clients or create any number of multi-faceted financial services within the BridgeX Network.
+On-chain                                                                                                                                Off-chain
+SMARTMatch                                                                                                                              Cross-border
+Payments
+BridgeX
+Core
+SMARTTrack
+SMARTBridge                                                                                                                             BRIDGEPay
+Crypto-to-fiat
+Conversion
+SMARTOracle                                                                                                                             Off-Chain
+Data Feed
+Key Features
+Smart Contracts
+The suite of smart contracts will standardize everything from loan offers, loan requests, matching, tracking, disbursement, and
+collateral. No human intervention is required throughout the entire loan process.
+Loan Matching
+Our on-chain loan matching service compares offers and requests in real time and then executes the respective smart contract
+when a match is made.
+Loan Tracking
+The on-chain loan tracking service keeps tabs on loans and collateral using oracle data.
+Oracle
+Off-chain data feeds—like currency exchange rates—are connected to the oracle and used for loan tracking.
+Two-sided Lending
+Lending opportunities are available to everyone who is able to put up collateral. It is no longer just a game played by institutional
+investors and banks.
+Strictly private and confidential. Terms and details are preliminary and shall
+13
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX CORE
+Crypto-to-Fiat Currency Conversion
+All crypto-to-fiat conversions are provided at the most competitive market rates.
+Cross-border Payments
+Cross-border payments can be made to multiple beneficiaries in over 30 major fiat currencies and across more than 180 countries.
+Optimised User Interface
+On-chain Components
+BridgeX Core is made up of the following components:
+SMARTBridge
+SMARTBridge, our proprietary on-chain smart-contract mechanism powered by SMARTMatch and SMARTTrack, will provide an
+open and transparent loan matching mechanism.
+SMARTBridge is trustless: Lenders can opt to transfer their lending asset through the BridgeX Core or directly from their ERC-
+20 wallets.Borrowers can opt to have the loan disbursed to their own ERC-20 wallets or into their BridgeX accounts for easy fiat
+conversion and transfer to multiple beneficiaries or their bank accounts.
+SMARTMatch
+SMARTMatch is the BridgeX Core’s proprietary on-chain loan matcher.
+It aggregates from the public blockchain all Loan Offers and Loan Requests, automatically matches them and executes every Loan
+matched on an on-chain SMARTMatch smart contract.
+SMARTTrack
+SMARTTrack is BridgeX Core’s proprietary on-chain loan tracking and management system
+Fees
+Collateral Wallet                                                                                                                  Wallet
+SMARTTrack
+Loan Asset                                                                                                                         Repayments
+Repayments                                                                                                                         Disbursement
+Lender Wallet                                                                                                                      Borrower Wallet
+Once a loan is matched and executed by the on-chain SMARTMatch smart-contract, it will be tracked by the SMARTTrack smart-
+contract.
+SMARTTrack uses external data feed from the SMARTOracle to mark-to-market the loan valuation and Loan-To-Value (LTV) ratio.
+Strictly private and confidential. Terms and details are preliminary and shall
+14
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX CORE
+Thereafter, the SMARTTrack smart-contract will manage and automatically take all appropriate actions for:
+• Collateral & Asset Locking;
+• Disbursement of Funds;
+• Repayment Tracking;
+• LTV Ratio Tracking; and
+• Distribution of Interest & Fees.
+Lender Wallet
+Initiation
+Once a loan is matched by the SMARTMatch smart-contract, the collateral from the borrowers will be officially locked up, and
+the loan asset from the lender will be disbursed to the borrower. The borrower has the option of keeping his loan in crypto, using
+BRIDGEConvert to convert his loan into fiat and/ or sending the fiat out to himself or to his beneficiaries.
+Liquidation
+Base on price feed from the SMARTOracle, SMARTrack will take the appropriate liquidation action should the LTV reach 95%. This
+will terminate the loan transaction and return the loan asset to the Lender, and the remaining collateral assets to the borrower.
+Repayment
+All repayments sent by the borrower will have:
+a.                                                                                                                                     The fees sent to BridgeX Core;
+b.                                                                                                                                     The principal and interest elements to the Lender; and
+c.                                                                                                                                     The remaining to the collateral wallet.
+Termination
+At the end of the loan, all the remaining collateral will be returned to the borrower, and the lending asset returned to the lender.
+The loan transaction is now completed.
+Risk Management
+The BridgeX Core will deploy a rigorous three-level risk management system in a top-down approach that will manage risks in a
+secure and watertight manner.
+Macro indicators to monitor total health and
+state of the crypto currency market
+Proprietary algorithms to monitor
+volatility levels and correlations of
+cryptocurrencies
+Individual
+cryptocurrencies are
+analysed to
+determine their
+fundamenta
+l health
+Strictly private and confidential. Terms and details are preliminary and shall
+15
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX CORE
+LTV ratios are derived from volatility and dynamically fluctuates according to market conditions.
+Margin Call
+Margin levels are set according to levels derived from volatility calculations and this proprietary formula is pre-programmed into
+the smart contracts. If the value of the borrower’s collateral depreciates below a dynamically-determined threshold, a margin
+call notice is issued to the borrower. The borrower can choose to repay in fiat the requisite portion of his loan to maintain the
+required LTV level, top up his crypto-collateral to maintain the required LTV level or ignore the margin call where the smart
+contract will automatically initiate the liquidation of his collateral for rebalancing of the loan once the value of his collateral hits
+the predetermined liquidation level.
+Liquidation Level
+Liquidation levels are also derived from volatility calculations and this proprietary formula is pre-programmed into the smart
+contracts. When the value of the borrower’s collateral reaches this level, BridgeX Core will be granted ownership over the collateral
+and the fiat loan to the borrower is forfeited.
+Liquidation occurs through an automated trading engine, which utilizes proprietary investment logic to optimize trade execution
+based on real time available liquidity, order book depth and price through the cryptocurrency exchange aggregator.
+SMARTOracle
+SMARTOracle is an open source aggregator that aggregates off-chain data feed from multiple sources and supplies this information
+to SMARTTrack to inform and allow SMARTTrack to mark-to-market the loan valuation and Loan-To-Value (LTV) ratio.
+BRIDGEPay
+Matching Engine
+The proprietary Matching Engine within BridgeX Core enables the pairing up of different orders of transactions between users.  It
+aggregates the best bid/ offer prices (as shown in diagram below) from the LPs and matches it with the orders of the clients. This
+technology allows BridgeX Core to offer the best rates in the market to the clients. The infrastructure is robust and BridgeX Core
+systems are connected via API with the liquidity providers. This allows transactions to be done via STP where a dealing desk will
+not be required. Rates are updated in real-time and are transparent.
+BRIDGEX MATCHING ENGINE
+LP                                                                                                                                         Bid   Ask       Spread
+Best Available
+Rates from LP A                                                                                                                            A     1.32123   1.32129   0.6 pip
+Rates
+Rates from LP B                                                                                                                            B     1.32121   1.32127   0.6 pip
+Bid: 1.32125
+Ask: 1.32127
+Rates from LP C                                                                                                                            C     1.32125   1.32135   1.0 pip
+Spread: 0.2 pip
+Rates from LP D                                                                                                                            D     1.32120   1.32129   0.9 pip
+Strictly private and confidential. Terms and details are preliminary and shall
+16
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX CORE
+Dealing Desk
+The Dealing Desk boasts capabilities that allows for automated currency conversions. All currency conversion trades are routed
+through the Dealing Desk and matched off whenever necessary upon trade execution. Built internally by a team of well-honed
+traders and developers, the dealing desk engine empowers BridgeX Core to better serve clients more efficiently at real time rates,
+with the lowest cost possible.
+Aggregators
+BRIDGEPay uses two aggregators - a cryptocurrency exchange aggregator and an FX exchange aggregator to compare prices from
+different liquidity providers and to have a consolidated view of the market. These aggregators allow for transactions to be carried
+out in the most efficient way possible.
+                                                                                                                                      User sells BTC for IDR   User instructs BRIDGESend
+User                                                                                                                                                           to pay beneficiary          Beneficiary
+BRIDGEPay
+Crypto Aggregator                                                                                                                     FX Aggregator
+BRIDGEPay aggregates the
+best prices and executes
+the trades instantaneously
+Cryptocurrency
+FX Liquidity Providers
+Liquidity Providers
+Smart Order Routing
+Using the information provided by the aggregators, the dealing desk and the matching engines, BridgeX has in place technologies
+that enables Smart Order Routing. When a transaction is entered onto the platform and there is no match available internally, the
+Smart Order Routing Technology checks to see if there is a match available on another exchange. If so, it automatically routes the
+order in the currency of the order on the other exchange.
+Strictly private and confidential. Terms and details are preliminary and shall
+17
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX PLATFORM
+05
+BRIDGEX
+PLATFORM
+Our DApp and Apps will demonstrate the power of the BridgeX Network at its integrated best, delivering three compelling and
+synergistic cash management solutions within a single platform, while providing third party integrators and DApp developers with
+an understanding of the multitude of possibilities going forward.
+The three DApps/ Apps that will be the first proof-of-concepts for this new financial ecosystem are:
+1.                                                                                                                                    BRIDGELoan;
+2.                                                                                                                                    BRIDGEConvert; and
+3.                                                                                                                                    BRIDGESend
+BRIDGELoan: Decentralised Crypto Lending Marketplace
+BRIDGELoan is a decentralised crypto lending marketplace offering crypto-to-crypto loans, where new opportunities are created
+for lenders seeking access to an untapped and burgeoning digitally savvy market segment and where borrowers are able to
+leverage their crypto assets by pledging them as collateral to secure liquidity. All loans are over-collateralised. Built on the
+Ethereum blockchain and powered by BridgeX Core, BRIDGELoan allows lenders and borrowers across the globe to connect and
+deal in a fully automated, cryptographically secure and transparent manner.
+BRIDGELoan has been built to take full advantage of the features offered by BridgeX Core. Lenders will be able to place loan offers
+or fulfil loan requests, while borrowers will be able to place loan requests or take up loan offers.
+Loan Asset
+Pledging
+Loan O  ers
+Loan R equests
+Loan Disbursement
+Our optimised user interface will make the entire loan process simple, convenient and enjoyable.
+Strictly private and confidential. Terms and details are preliminary and shall
+18
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX PLATFORM
+Benefits to Lenders and Borrows
+BRIDGELoan will make it easy for anyone with crypto collateral to participate.
+Lenders can monetise their cryptocurrency assets by earning a steady income from them, earn interest without sacrificing the
+upside of their crypto-collateral, and feel secure knowing that all loans are over-collateralised.
+Borrows can obtain liquidity without sacrificing the upside of their crypto-collateral, leverage their positions in bullish markets,
+borrow to short the market and hedge their cryptocurrency portfolios.
+Lending Process
+As an open and decentralised loan marketplace, BRIDGELoan allows lenders to place loan offers based on their requirements and
+browse borrowers’ loan requests via the loan order book and take up a request that meets their requirements
+Loan Offer Placement
+Offer placement is equivalent to a Limit trade order in trading. A loan can be taken-up in its entirety or in parts (split by multiple
+borrowers). The BRIDGELoan keeps tract of each split, with each borrowing having its own full transaction ledger.
+Loan offers can be set with the following characteristics:
+a. Loan tenure (1 week, 1 month, 3 months, 6 months and 12 months)
+b. Lending asset (initially ETH or BXN)
+c. Interest Rate (365/360 calculation model)
+d. Selectable minimum LTV ratio (Need to guide lender for selecting P+I, same/cross asset)
+e. Offer Quantity
+f. Offer expiry date (how long will the loan be offered before being automatically retracted)
+g. Early repayment penalty
+h. Allow partial take-up (Yes/No)
+As each characteristic is specified, BRIDGELoan will show a list of existing loan requests in the marketplace that fit the lender’s
+specified criteria.
+To place an offer, the lender will send the full quantity of cryptocurrency into the BRIDGELoan smart-contract to ensure that the
+lender has the offered asset.
+A platform (administrative) fee of 0.1% to be paid in BXN will be charged from the lender’s wallet account when the offer is placed.
+This is to encourage only genuine offers and to pay for gas fees for publishing the Loan Offer to the blockchain.
+The BRIDGELoan smart-contract will hold the offered asset until the expiry date or until the lender retracts the offer, at which
+point the smart-contract will return all unmatched assets to the lender.
+Once placed, the BRIDGELoan smart-contract will automatically match it against registered Loan Requests and spawn a new Loan
+transaction/ Loan transactions if the Loan Offer can match multiple Loan Requests. This process will be elaborated in detail in
+the Matching section.
+Loan Request Take-Up
+As an alternative to the Offer Placement process, a lender can view the Loan Requests list, and instantly take-up (offer to lend)
+any Loan Request(s) on the spot.
+This is equivalent to Market trade order.
+Strictly private and confidential. Terms and details are preliminary and shall
+19
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX PLATFORM
+Upon taking up the Loan Request, BRIDGELoan will automatically generate a Loan Offer and inject it into the smart-contract for
+immediate matching.
+The platform (administrative) fee to be paid in BXN will be charged to the lender’s wallet account.
+Borrowing Process
+Borrowers can choose to:
+• Place their own Loan Request specifying the borrower’s chosen terms; or
+• Take up Loan Offers from the loan order book.
+Loan Request Placement
+Request placement is similar to the Offer placement process.
+Loan Requests can be set with the following characteristics:
+a. Loan tenure (1 week, 1 month, 3 months, 6 months and 12 months)
+b. Collateral asset
+c. Interest Rate (365/360 calculation model)
+d. Request Amount
+e. Request expiry date (how long will the request be placed before being automatically retracted)
+f. Early repayment penalty
+g. System will automatically calculate the monthly repayment schedule.
+When the Loan Request is placed, a platform (administrative) fee of 0.1% to be paid in BXN will be charged from the borrower’s
+wallet account. This is to encourage only genuine requests and to pay for gas fees for publishing the Loan Request to the blockchain.
+Loan Offer Take-Up
+Borrowers can also view the Loan Offer list, and instantly take-up any Loan Offer(s) on the spot.
+Upon taking up the Loan Offer, BRIDGELoan will automatically generate a Loan Request and inject it into the smart-contract for
+immediate matching.
+The platform (administrative) fee to be paid in BXN will be charged to the borrower’s wallet account.
+Strictly private and confidential. Terms and details are preliminary and shall
+20
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX PLATFORM
+How BRIDGELoan Works
+Funding                                                                                                                                   Selection of   Invitation to   Instant    Disbursement   Use of Funds   Loan Period   Loan Repayment
+                                                                                                                                          Loan Terms     Bid / Offer     Matching   of Funds       (Borrower)
+Step 1: Funding
+Borrowers and Lenders fund their BridgeX wallets by depositing accepted cryptocurrencies. No fiat currencies are accepted as
+deposits.
+Step 2: Selection of Loan Terms
+Borrowers and Lenders indicate their preferences such as type of crypto-collateral (e.g. ETH), loan amount, loan tenure, interest
+rate and repayment frequency. Loan-to-value (LTV) ratio, margin call and liquidation levels will be automatically calculated based
+on the above user inputs.
+All terms of the loan will be governed by rules pre-programmed into the smart contract based on the above user selection.
+Step 3: Invitation to Bid / Offer
+To initiate a bid (borrower) or offer (lender), users would then have to fund a smart contract, where the borrower pledges his
+decided amount of cryptocurrency to be used as collateral and where the Lender sends in the amount of cryptocurrency he wishes
+to lend. A small placement fee is charged for placing a Loan Offer/ Loan Request
+Step 4: Instant Matching
+BridgeX Core’s proprietary AI-based matching engine will instantly match borrower and lender preferences and lock-in the loan
+contract.
+Step 5: Disbursement of Funds
+After the parties have been matched, the blockchain assets placed as collateral by the borrower will be held securely in the smart
+contract, while the lender’s funds are immediately unlocked and released to the borrower via his BridgeX wallet.
+Step 6: Use of Funds (Borrower)
+After receiving his loan funds in the denominated cryptocurrency, the borrower may choose to:
+a.    Use these crypto funds in the blockchain space; or
+b.    Convert these crypto funds into the fiat currency of his choice for his real-world needs.
+Step 7: Loan Period
+During the period of the loan, the LTV ratio dynamically fluctuates in sync with market movements and margin calls may be issued
+to the borrower. The borrower can choose to:
+a.    Repay in fiat the requisite portion of his loan to maintain the required LTV level;
+b.    Top up his crypto-collateral to maintain the required LTC level; or
+c.    Ignore the margin call and have his crypto-collateral partially liquidated for rebalancing of the loan to the required LTV level.
+Step 8: Loan Repayment
+The borrower may choose to:
+a.    Repay the loan in full with fiat at any point in time to fully redeem the loan and retrieve his crypto-collateral; or
+b.    Repay the loan with his crypto-collateral, whereby any balances will be refunded to his BridgeX wallet.
+Strictly private and confidential. Terms and details are preliminary and shall
+21
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX PLATFORM
+BRIDGEConvert and BRIDGESend
+BRIDGEConvert and BRIDGESend work seamlessly together within the BRIDGEPay module to provide crypto-to-fiat conversions
+and cross-border payment solutions. Over 30 major fiat currencies are supported with access to more than 180 countries, allowing
+for a) loans originating in the blockchain space to be localised in fiat, or b) its independent deployment as a comprehensive end-
+to-end cash management solution for users’ blockchain asset portfolios.
+The BRIDGEConvert App is a user-friendly conversion app designed to facilitate conversion between crypto and fiat currencies.
+It leverages the matching engine, dealing desk, and aggregator built into BridgeX Core to provide the most competitive rates
+possible.
+The BRIDGESend App integrates directly with BridgeX Core to provide cross-border payments on our platform. Anyone can now
+make international fiat payments to multiple beneficiaries directly on our platform in a secure manner with low and transparent
+rates.
+How They Work Together
+SGD
+BridgeX                                                                                                                                                                              Beneficiary
+Core                                                                                                                                 Web & Mobile
+                                                                                                                                     User               BRIDGEConvert                in Singapore
+Off-chain                                                                                                                            interface                          BRIDGESend
+                                                                                                                                     (UI)
+                                                                                                                                                                                     IDR
+User
+Beneficiary
+Application
+Program                                                                                                                              Partnering Banks   in Indonesia
+Interface
+BRIDGEPay                                                                                                                            (API)              3P DApp         3P DApp
+EUR
+Beneficiary
+in Germany
+In the above illustration, the user wishes to sell his ETH in exchange for fiat currencies to make 3 payments to beneficiaries in
+Singapore, Indonesia and Germany.”
+Step 1: Initiating Payment with Cryptocurrency-of-choice
+The user locks in his payment instruction and funds the transaction in ETH
+Step 2: Getting the Best Rates
+Rates are set electronically from our Dealing Desk, which pulls rates from the respective exchanges, market makers and liquidity
+providers. This is done via APIs and prices are fed into our matching engine which displays the best bid/offer to our users.
+Step 3: Payments in SGD, IDR & EUR
+a.   BRIDGEConvert sells the ETH for USD at the best rate via our cryptocurrency exchange aggregator;
+b.   BRIDGEConvert converts the USD into SGD, IDR and EUR through its fiat conversion engine; and
+c.   BRIDGESend makes the respective cross-border payments in SGD, IDR and EUR to the user’s three beneficiaries
+Strictly private and confidential. Terms and details are preliminary and shall
+22
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX PLATFORM
+No Middlemen
+BRIDGESend completely cuts out the middlemen normally associated with traditional payment routing.
+Using Traditional Routes
+To exchange crypto into fiat, a user has to go through a cryptocurrency exchange. From there, users can only withdraw fiat
+currency to their own bank account before sending it abroad using SWIFT.
+For fiat conversion, client                                                                                                    Conversion into
+Converted fiat can only
+has to first send crypto                                                                                                       fiat currentcy
+                                                                                                                                                          be tranferred to client’s
+to a cryto exchange                                                                                                                                       own bank account
+                                                                                                                                                          Client then makes
+Currently holds                                                                                                                                           payment via the
+cryptocurrencies                                                                                                                                          bank’s telegraphic
+in crypto wallet                                                                                                                                          transfer facilities
+Client                                                                                                                                                    Beneficiary
+Using BRIDGESend and BRIDGEConvert
+With BRIDGESend, crypto can be converted to fiat and then sent to beneficiaries in almost any country. Two middlemen—
+cryptocurrency exchange and bank—are eliminated from the process. This lowers fees and the time it takes to send convert and
+send currency. Currently, BRIDGESend supports more than 30 currencies.
+USD
+Beneficiary
+in USA
+User sends cryptocurrency                                                                                                      IDR
+to BRIDGEPay and converts                                                                                                      Beneficiary
+BRIDGEPay
+into any of the 3 fiat currencies
+Through BRIDGEPay, user can                                                                                                    in Indonesia
+send payments to beneficiaries
+Currently holds                                                                                                                located in 180 countries
+cryptocurrencies
+in crypto wallet
+EUR
+Beneficiary
+in Germany
+Client
+Strictly private and confidential. Terms and details are preliminary and shall
+23
+not be constructed or construed as terms of sale
+
+
+
+
+TOKEN DISTRIBUTION
+06
+THE BXN TOKEN
+The BridgeX Network will utilise the BXN token - an ERC20 token.
+BXN UTILITY
+Discounts                                                                                                                            Discounts
+Loan Collateral
+Access /
+Fees Collected                                                                                                                       Membership   3P Service           Access /Membership
+                                                                                                                                                  Provider
+Interest Payments
+Access /Membership                                                                                                                                                     Access /Membership
+BRIDGELoan
+                                                                                                                                                  Discounts
+Discounts                                                                                                                                         BRIDGESend
+Discounts /Full Interest                                                                                                                                               Access /Membership
+                                                                                                                                                  BRIDGEConvert
+Loan Assets                                                                                                                                       Discounts
+Access /Membership                                                                                                                                Access /Membership
+                                                                                                                                                                       Access /Membership                Access /Membership
+Discounts                                                                                                                            3P DApps     Discounts                                 3P Service
+                                                                                                                                                                       Discounts            Provider     Discounts
+Retail Partnership
+Utility
+6.1 Access
+The BXN token provides a way for the ecosystem of a) users of our BridgeX Platform and its DApp/ Apps, b) third-party integrators/
+DApps/ service providers and c) their users to access the services on our network.
+6.2 Membership
+The BridgeX Network will operate a tiered membership system with a finite number of memberships and built-in incentives to
+encourage greater BXN ownership and demand for higher-tier memberships among network participants.
+6.3 Incentivising BXN Usage
+Network Fees
+Network participants who pay for services on the BridgeX Network in BXN tokens will enjoy discounted network fees. That
+said, network fees can also be paid in ETH or such other accepted cryptocurrencies going forward, which will be immediately
+converted to BXN. Fee amounts will be determined by the prevailing market price of BXN and the value difference of the accepted
+Strictly private and confidential. Terms and details are preliminary and shall
+24
+not be constructed or construed as terms of sale
+
+
+
+
+TOKEN DISTRIBUTION
+cryptocurrency compared to BXN. The fee and discount structures will be tiered in line with memberships, with higher tiers
+gaining preferential access to bigger discounts on network fees.
+When BXN is added to a collateral portfolio and activated, the small placement fee charged for placing a Loan Offer or Loan
+Request will be discounted. Activating a sufficient amount of BXN will allow users to enjoy a full waiver of this fee, allowing them
+to place multiple Loan Offers or Requests for free.
+Lending Asset
+Lenders on the network will enjoy zero-fee lending if BXN is used as the loan asset.
+Loan Collateral
+Borrowers on the network will enjoy zero-fee borrowing if BXN is used as the loan collateral. As an added incentive to use BXN as
+the loan collateral, the permitted loan-to-value (LTV) ratio for borrowers will be increased by up to 5%, giving borrowers access to
+more liquidity for the same loan collateral pledged.
+Accessing lower interest rates
+When BXN is added to a collateral portfolio and activated, borrowers unlock access to preferential interest rates.
+Loan Repayment
+Loan Repayment can be made using BXN. Alternatively, borrowers can choose to repay the loan in fiat or with their crypto collateral
+(which may be BXN), with any balances refunded to their BridgeX wallet.
+Burning of BXN
+All fees collected by the BridgeX Network will be held and burnt periodically.
+Earning Rewards
+To encourage user adoption, reward points will be given to users for:
+• Network Usage - Every time a service on the network is used;
+• Community Participation - In community surveys on our feedback portal; and
+• Referrals - Successful introductions of new active users to the network.
+These reward points can be accumulated and used to redeem items from our gift shop, ranging from cryptocurrencies to discount
+coupons that can be used in the future for the network’s services.
+Retail Partnerships
+To create a vibrant financial ecosystem where users can utilise their BXN tokens, we intend to establish partnerships with the full
+spectrum of financial services players in the cryptocurrency space to accept BXN tokens as payment.
+Creating Value
+In addition to enjoying the abovementioned incentives upon their purchase and activation of BXN tokens, users of the BXN token
+will drive further growth of the BridgeX Network and ensure sustained demand for the BXN token, creating value for every network
+participant.
+---
+The BXN token may be distributed by the BridgeX Network and/ or designated distributors. Its entire value is derived from the adoption and use of the decentralised
+financial framework of credit, conversion and payment solutions provided by the BridgeX Network. They are not intended for speculation, hold no claim to intellectual
+or other property or cash flows, and do not represent any equity stake in the BridgeX Network. Holders are not entitled to any voting rights, dividends or profit-sharing
+of the BridgeX Network and its subsidiaries or affiliated entities.
+Strictly private and confidential. Terms and details are preliminary and shall
+25
+not be constructed or construed as terms of sale
+
+
+
+
+TOKEN DISTRIBUTION
+07
+TOKEN DISTRIBUTION
+Token Sale                                                                                                                                                                                    Team & Advisors
+30 %                                                                                                                            35%                                 15 %                      20%
+                                                                                                                                Liquidity Pool & Company Reserves   Partnerships/Community
+BridgeX Network Tokens (BXN)
+Total No. of Tokens: 1 Billion                                                                                                  Hard Cap:18,000 ETH                 Token Sale: 300,000,000   Token Price: 0.00006 ETH
+Use of Funds
+To accomplish the development milestones in our roadmap, proceeds from the token sale are expected to be allocated for use as
+follows:
+Business Development
+Legal/Compliance/Tax/Admin
+Marketing
+                                                                                                                                                                                                                              15   %
+                                                                                                                                                                                              15                         %             10   %
+Operations
+                                                                                                                                10                                  %
+                                                                                                                                                                                                                                            20   %
+                                                                                                                                                                                                                         30   %
+Liquidity Pool
+Network & Platform Development
+Strictly private and confidential. Terms and details are preliminary and shall
+26
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX NETWORK TEAM & ADVISORS
+08
+BRIDGEX NETWORK
+TEAM & ADVISORS
+Management Team
+Jody Ong                                                                         Hiroyuki Kiga
+Chief Executive Officer                                                          Chief Operations  Officer
+Jody brings to BridgeX more than 10                                              Hiroyuki is currently the Co-Founder/
+years of industry experience in the                                              COO of Wallex.  Previous to this role,
+payments, derivatives and FX trading                                             Hiroyuki spearheaded acquisitions
+space. Jody is presently CEO at Wallex,                                          for Yello Mobile, and was involved
+an international payments company.                                               in Series A investments across
+                                                                                 the region with GREE Ventures.
+Joseph Lee                                                                       Nicholas Chiu
+Chief Technology Officer                                                         Chief Marketing Officer
+Joseph has a background in banking,                                              Nicholas brings to BridgeX Network
+having previously worked at Bank                                                 a unique blend of experience in law,
+of America and ABN Amro. Joseph                                                  finance and marketing. A trained
+continues to be the Tech Lead at Kyber                                           lawyer, he was also the Marketing
+Network for its Trading Platform.                                                Lead at Concept Communications and
+                                                                                 a HFT Trader at Ascensus Capital.
+Mark Valath                                                                      Nicholas Foo
+Chief Risk Officer                                                               Head of Strategy & Partnerships
+Mark is the Vice President of Global                                             Nicholas was the former Head of
+Markets at UOB Ltd. Apart from                                                   Business Development & Partnerships
+providing his clients with brokerage                                             at Grab, and an innovation champion
+and clearing services, Mark also                                                 with the Singapore Government. He
+develops and manages bank and                                                    brings an extensive network and
+margin trading accounts.                                                         acute sense of strategy to the team.
+Asher Looi
+Regional Partnerships Lead
+Asher is currently the co-founder of
+CoinDeology.com - one of Malaysia’s
+first cryptocurrency mining companies.
+He brings to BridgeX his wealth
+of experience in conducting ICOs,
+and from his multiple industry
+background in Event Management,
+Film Production and Real Estate.
+Strictly private and confidential. Terms and details are preliminary and shall
+27
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX NETWORK TEAM & ADVISORS
+Marketing Team
+Huiying Han                                                                      Chia Xin Ni
+Senior Marketing Manager                                                         Senior Marketing Manager
+Development Team
+Rukshan Christy                                                                  Septiyan Andika            Ken Lee               Bangkit Ilham
+Solution Architect                                                               Blockchain Developer       Front-end Developer   Front-end Developer
+Heru Joko                                                                        Rafael Cacique             Nitya                 Arif Setyawan
+Front-end Developer                                                              Back-end Developer         Back-end Developer    Programmer
+Strictly private and confidential. Terms and details are preliminary and shall
+28
+not be constructed or construed as terms of sale
+
+
+
+
+BRIDGEX NETWORK TEAM & ADVISORS
+Advisors
+Leng Hoe Lon                                                                     KC Chng
+Executive Advisor, Kyber                                                         CEO and Co-Founder, DIGIX
+Network and ex-Managing                                                          Kai worked as a Wall Street
+Director, Goldman Sachs                                                          EMFX trader in a global
+Hoe Lon authored ‘Decrypted’, a no-                                              investment bank for the past
+nonsense approach to de-mystifying                                               4 years. He is a co-founder of
+cryptocurrency. He also co-founded                                               DIGIX, an asset tokenization
+Shentilium with National University                                              company built on Ethereum.
+of Singapore, with the aim of using
+the latest data-driven technology
+to drive business decisions
+and gain competitive edge.
+Shaun Djie                                                                       Darius Sit
+COO and Co-Founder, DIGIX                                                        Co-Founder and CIO, QCP Capital
+and Organizer of Ethereum                                                        Darius started his career as a
+Meetup Singapore                                                                 Macro Trader at Dymon Asia
+Aside from DIGIX, Shaun is an                                                    Capital, trading cross-asset
+advisor to multiple projects                                                     derivatives with a focus on Asian
+built on Ethereum and is also a                                                  FX/NDFs and model-based
+Technical Committee Member                                                       strategies. He was most recently
+at the IT Standards Committee                                                    at BNP Paribas managing the
+for Blockchain and Distributed                                                   Asia FX & Bonds book out of New
+Ledger Technologies.                                                             York, Sao Paolo and Singapore.
+Jonathan Lee                                                                     Li Ming Han
+CCO, Yello Digital Marketing                                                     VP of FX eSolutions, Citibank
+Jonathan is the Chief Corporate                                                  Ming is an accomplished
+Officer of Yello Digital Marketing                                               payment professional, having
+Group (YDM), who leads the                                                       been in the industry for 20
+company’s corporate development                                                  years. Previous stints at
+and M&A (mergers and                                                             MoneyGram International,
+acqusitions) investment.  Prior                                                  UnionPay, WorldPay, AMEX, and
+to joining YDM, Jonathan served                                                  RBS Markets and International
+as the Business Development                                                      Banking have exposed him to
+Director for the WPP Korea.                                                      markets in APAC and EMEA.
+Pei-fu Hsieh
+Venture Partner, 01VC
+Pei-fu is a Venture Partner of
+01VC focusing on investment
+opportunities in Southeast Asia.
+He has spent 15 years in Thailand
+and began his career with
+Lombard Investments providing
+expansion and acquisition
+capital to companies in SEA.
+Strictly private and confidential. Terms and details are preliminary and shall
+29
+not be constructed or construed as terms of sale
+
+
+
+
+09
+PARTNERS
+Strictly private and confidential. Terms and details are preliminary and shall
+30
+not be constructed or construed as terms of sale
+
+
+
+
+10
+ROADMAP
+BXN
+3
+
+
+
+
+

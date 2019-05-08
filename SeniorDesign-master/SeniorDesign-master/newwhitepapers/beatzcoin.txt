@@ -1,0 +1,678 @@
+BEATZCOIN WHITEPAPER v0.2
+BEATZCOIN.IO
+
+Updated August 10, 2018
+–
+DISCLAIMER While every effort has been made to ensure
+that this whitepaper and any material contained within is accurate and
+up to date, it may not be exhaustive. It contains forward-looking
+statements and ideas that are subject to change. This document
+should not be considered investment advice and does not imply
+a contractual relationship with BeatzCoin buyers or holders.
+Buying cryptocurrency presents many risks. The
+cryptocurrency market is very volatile. Do NOT buy BeatzCoin as
+an investment. BeatzCoin tokens are not intended to be securities
+tokens in any jurisdiction. Owning any amount of BeatzCoin does
+not entitle the owner to anything, other than owning said
+amount of BeatzCoin. Please consult our full disclaimer ("TERMS
+AND LEGAL") at the end of this document.
+CONTENTS
+DEFINITIONS
+INTRODUCTION
+WHAT ARE VIBRAVID AN BEATZCOIN?
+THE PROBLEM
+THE SOLUTION
+THE OPPORTUNITY
+HOW IT WORKS
+USERS
+ CREATORS
+ROADMAP
+TECHNOLOGY AND SECURITY
+CROWDSALE OVERVIEW
+ KNOW YOUR CUSTOMER/ANTI-MONEY
+LAUNDERING REGULATIONS
+TOKEN STRUCTURE
+TOKEN TRADING EVENT FUNDS ALLOCATION
+PRELIMINARY TOKEN TRADING EVENT
+MAIN TOKEN TRADING EVENT
+ENSURING DECENTRALIZATION
+FREQUENTLY ASKED QUESTIONS
+TERMS AND LEGAL
+IMPORTANT NOTICES
+DISCLAIMER OF LIABILITY
+NO REPRESENTATIONS AND WARRANTIES BY VIBRAVID
+REPRESENTATIONS AND WARRANTIES BY YOU
+CAUTIONARY NOTE ON FORWARD LOOKING STATEMENTS
+NO ADVICE
+RESTRICTIONS OF DISTRIBUTION
+NO OFFER OF SECURITIES OR REGISTRATION
+RISKS AND UNCERTAINTIES
+CONTENTS
+BEATZCOIN.IO WHITEPAPER
+DEFINITIONS
+THE BELOW DEFINITIONS ARE USED
+IN THE CONTEXT OF THIS WHITE PAPER.
+VIBRAVID A multi-chain, decentralized-model platform designed to efficiently stream audio
+and video, where users and creators engage toward earning cryptocurrency. Tokens
+are not intended to be securities tokens in any jurisdiction. Please consult our full
+disclaimer at the end of this document.
+BEATZCOIN A digital token utilizing blockchain technology.
+CRYPTOCURRENCY A digital currency that uses blockchain technology to
+provide an audit-able, open, and distributed ledger.
+FIAT Traditional government issued money.
+CONTENT CREATOR A person or group who provides content for others to read, listen
+to, or view.
+USERS Consumers of the products that content creators produce.
+TOKEN TRADING EVENT A preliminary and main event where participants can trade Tron
+(TRX) for BeatzCoin (BTZC)
+5
+BEATZCOIN.IO WHITEPAPER
+INTRODUCTION
+WHAT ARE VIBRAVID AND BEATZCOIN?
+VibraVid is here to change the way consumers interact with digital content, while
+increasing the revenue potential of content creators. VibraVid is a free P2P/peer-topeer desktop and mobile streaming application that enables users to view and listen to
+content created by video and audio creators.
+VibraVid is a platform for creators to upload, store, market, lease and sell their content to
+users with the added benefits of being able to crowdfund and sell merchandise and event
+tickets directly to their subscribers and fans.
+BeatzCoin is a cryptocurrency which is the exchange of value on the VibraVid platform.
+Together, VibraVid and BeatzCoin provide an ecosystem that allows creators and users a
+means of exchange, peer-to-peer, for goods, services, through bounties, and as prizes.
+Both, users and creators, are rewarded for their participation by receiving BeatzCoin,
+which they can use to purchase content, fan merchandise and event tickets, as well as to
+promote their own content.
+THE PROBLEM:
+Over 600,000 hours of video content and 18,000 hours of music is uploaded to the major
+free streaming services on the web daily for consumers to view and listen to 1. This
+makes it incredibly difficult for an emerging creator to be noticed. Creating high quality
+content requires time and resources, as does content marketing.
+6
+BEATZCOIN.IO WHITEPAPER
+A paradoxical situation arises wherein the creator is forced to forsake production in favor
+of marketing and advertising. Instead of using time and talent to produce creative
+works, the creator becomes a marketer, resulting in a massive amount of low quality
+content made available to users, who, in turn, lose interest.
+Even with a successful team and marketing campaign, statistics show that the majority of
+any targeted audience does not interact with a content creator’s advertisement or provide
+feedback. The VibraVid platform aims to solve the issue of discover-ability with the added
+benefits of an improved method for increasing user interaction, critiquing and feedback.
+Existing platforms are focused primarily on increasing advertising revenues and provide
+insufficient participation incentives for users and content creators alike. They offer
+marketing solutions to creators at a premium and do not incentivize users to view or listen
+to new content.
+The most successful creators earn a minority share of revenue from the platforms they
+upload their content to. VibraVid feels that this is an unfair business model and our platform
+seeks to change the status quo in favor of content creators and users by incentivizing
+them to create and enjoy quality content.We believe that this not only will allow more
+creators to start making new and independent content, but will also allow them to
+generate a fair income that is truly based on the popularity of their content.
+7
+BEATZCOIN.IO WHITEPAPER
+1. Signing up to the VibraVid platform
+2. Locking their tokens
+3. Participating in bounties
+4. Opting to watch paid to view (PTV) advertisements
+5. Competing in daily and weekly challenges
+Some of the ways creators on theVibraVid platform will
+earn BeatzCoin are:
+1. Having their content watched or listened to
+2. Having the most views in a selected period
+3. Allowing paid to view (PTV) advertisements on their content
+4. Receiving tips from viewers
+5. Crowdfunding on our platform
+THE SOLUTION:
+With BeatzCoin at the center of VibraVid, we are able to offer both users and creators a
+new way of earning money for creating, watching, or listening to what they love.
+While advertising is not a thing of the past, we believe that users should be able to
+decide if they want to view adverts, and creators should be able to decide whether, and how
+frequently, advertisements are displayed during the duration of their content.
+Some of the ways VibraVid
+users will earn BeatzCoin are:
+8
+BEATZCOIN.IO WHITEPAPER
+THE OPPORTUNITY
+In 2016, the music industry generated 15.7 billion dollars, globally. This was after a 15
+year decline in revenue from 1999 to 2014 where it declined by 40%. This up-tick in
+revenue is attributed to the accessibility of digital music. From 2004, where digital
+music held a share of 0.4% of the total market revenue, it has now grown to exceed
+50% of the market.
+This is mainly due to technological advancements, better mobile data connectivity, and
+streaming services, the latter of which turned the music industry around after many
+years of piracy-related decline.
+The industry is now growing steadily at approximately 5.9% per annum, with 60.4%
+growth in streaming services and 17.7% digital revenue growth. Physical revenue is
+down 7.6% and download revenue is down 20.5%.
+Video streaming has had an equally meaningful impact on us, with over 100,000 hours
+of video being streamed every minute on subscription based services, and more than
+600,000 hours of video being uploaded to free video streaming services - all indicators
+that the industry is experiencing exponential growth. The 2017 revenues created by the
+top 10 streaming video providers stood at $781M. The most interesting statistic being
+that Q1 2017 realized $145M in revenue, and Q4’s revenue was $242M.
+VibraVid’s timely market entry is a strategy certain to genuinely benefit and justly reward a
+large variety of creatives including, but not limited to, popular video creators, instrumental
+producers, musicians and movie producers and their many fans and followers.
+9
+BEATZCOIN.IO WHITEPAPER
+– USERS
+Users will be able to decide whether they would like to view adverts on the platform, which
+will earn them BeatzCoin, or they may opt to turn it off. The selection will not be fixed and
+can be changed by the user at any time.
+They will be able to stake their tokens and earn interest by using Proof of Locked Stake
+(POLS). The tokens will be locked for predetermined periods which will lower the circulating
+supply.
+Users may choose to enter various bounties on the platform in order to earn
+additional BeatzCoin. There will be two types of platform-based bounties; free and
+paid. Paid bounties will require all participants to pool a small amount of BeatzCoin in order
+to stand a chance of winning a larger amount of tokens.
+The platform will also offer daily and weekly challenges which the user can participate in
+to win tokens.
+Users will be able to search for content by audio or video and play it on either their
+mobile or desktops. Some content will have a cost which is allocated by the creator, and
+some will be free or paid to the user to play or download.
+HOW IT WORKS
+Joining VibraVid will be a simple process. Anyone wanting to participate will
+register a Tron wallet address.
+10
+BEATZCOIN.IO WHITEPAPER
+– CREATORS
+Once a creator has completed their registration, they will be able to upload their content
+to our blockchain-based P2P network.
+Creators will then be able to set the fee for playing/viewing the individual track,
+album, video or season.
+They will be able to decide whether they will make their content available for lease or
+sale (download-able) or to rent for a specific period of time.
+VibraVid will also provide creators with the means to create crowd-funded projects as
+well as sell merchandise and tickets to events.
+The marketing section on the creators dashboard will allow for the set up of bounties
+for platform users to earn BeatzCoin, focused recommendations to users, spotlight
+promotion, as well as rotation spots on our streaming platforms VibraVid TV and VibraVid
+Radio.
+Creators will also be able to participate in VibraVid sponsored creator competitions.
+11
+BEATZCOIN CONCEPT
+DEVELOPED BY
+STEVEN ZAMBRON
+PROJECT DEVELOPMENT,
+TEAM BUILDING &
+STRATEGIC PLANNING
+DEC
+17
+JAN
+18
+ROADMAP CREATED &
+WEB DEVELOPMENT
+STARTED
+FEB
+18
+MAR
+18
+SMART CONTRACT
+DEVELOPMENT
+3 STAGE TOKEN TRADING EVENT
+FEB
+19
+MAR
+19
+APR
+19
+T.T.E COMPLETE
+TEAM EXPANSIONN
+& RESTRUCTURE
+VIBRAVID INC &
+VIBRAVID.IO LAUNCH WHITE PAPER &
+ROADMAP RELEASE
+BEATZCOIN.IO LAUNCH
+JUN
+18 JUN
+18
+AIRDROP CAMPAIGN
+MARKETING &
+PREP FOR
+TOKEN TRADING EVENT
+BEATZCOIN.IO REDESIGNED & UPDATED
+PTV ADVERTISING INTEGRATION
+BEATZCOIN WALLET DEVELOPMENT
+VIBRAVID
+RADIO AND TV
+DEVELOPMENT
+POLS WALLET SYSTEM INTEGRATION
+SELF-SUSTAINABLE AI PLATFORM DEVELOPMENT
+TOKEN SUPPLY UNLOCK
+MAY
+JUL
+19
+OCT
+19
+JAN
+20
+SEP
+19
+AUG
+SEP
+18
+JAN
+19
+NOV
+18
+AIRDROP DEVELOPMENT &
+BOUNTY CAMPAIGN...
+PRELIMINARY TOKEN
+TRADING EVENT
+AUG
+18
+BEATZCOIN ROADMAP
+BEATZCOIN.IO WHITEPAPER
+1. Due to nodes on the network, space is plentiful
+2. Fast Bandwidth Speeds
+3. Larger files can be automatically split into chunks
+4. There is an existing network structure with many dApps
+We do however foresee a few issues:
+1. Videos that are stored on the network would not be restricted to VibraVid, the
+reward structure could be circumvented using a regular IPFS node and streaming
+tools.
+2. Data is stored in an open environment
+TECHNOLOGY AND SECURITY
+The three primary aspects of BeatzCoin are the Video/Audio Streaming, Payment
+Incentivization, and License and Distribution Control.
+VibraVid aims to build a reward structure for accessing, watching and listening to
+content while allowing for the licensing control of the content to be held directly by the
+creator.
+We will make use of the IPFS protocol, A peer-to-peer hypermedia protocol to
+distribute the content on the platform.
+IPFS allows for files to be shared and accessed by a large number of distributed devices
+with the goal of creating a distributed internet. Files are hashed and accessible using the
+IPFS:// structuring.
+VibraVid chose to use IPFS for a number of reasons:
+14
+BEATZCOIN.IO WHITEPAPER
+We plan on minimizing the risk of these issues by encoding the videos with an overlay
+layer, so that either a BeatzCoin wallet or node is required to decode it (consensus
+Recognition). We will also push hash addresses onto the blockchain in an alternate format
+(encrypt it), and then decrypt it with an unreleased mathematical calculation.
+Finally, we will also keep all videos protected by utilizing a key structure, which will
+allow VibraVid sites to be the only provider of the content.
+This will ultimately protect content providers and their content to ensure that they
+are able to own and distribute their material whichever way they choose.
+There is also the concern of illicit materials such as pirated content or pornography
+making its way onto the network. The team will monitor content to ensure that these
+materials do not get uploaded to the platform, however should they be uploaded, we will
+blacklist the hash for any of these videos, making it unwatchable. We do, however, plan for
+further decentralization by implementing consensus-based rewards for nodes that blacklist
+the hash of unlawful content.
+15
+BEATZCOIN.IO WHITEPAPER
+TOKEN TRADING EVENT OVERVIEW
+KNOW YOUR CUSTOMER/ANTI-MONEY
+LAUNDERING REGULATIONS
+For our private sale, VibraVid will follow all mandatory legal requirements in line with the
+KYC (Know Your Customer) and AML (Anti-Money Laundering) regulation and with
+solutions in place to detect and prevent suspicious activityfor our private sale.
+As part of the private sale, background and compliance checks are executed on all
+token buyers. The KYC process is a fundamentally important part of VibraVid’s
+promise to identify users who require further investigation, and for ultimately providing
+evidence to enable VibraVid to approve/deny new users.
+The KYC process includes validating the identity of users involving personal ID verification
+checks. A successful KYC process must also comply with local regulations, and VibraVid will
+do so without altering the customer experience.
+VibraVid will include KYC processes and procedures across our future locations to
+build a global set of KYC rules, as well as establish specific rules to comply with local
+regulatory requirements.
+TOKEN STRUCTURE
+VibraVid will hold a preliminary Token Trading Event, and a Main Token Trading Event. The
+preliminary will be announced in August, 2018 and will run until October 15, 2018. The Main
+Event will be divided into three stages. Each stage will offer 400 million BeatzCoin and will
+last for 30 days. Should the tokens deplete before the 30 day period is complete, the round
+will end and the next round will begin. The first stage of the Main Event is scheduled for 1
+November 2018, with stage two and three commencing on 1 December 2018 and 1 January
+2019 respectively.
+16
+BEATZCOIN.IO WHITEPAPER
+MAIN TOKEN
+TRADING EVENT
+40%
+MARKETING &
+DEVELOPMENT
+15%
+RESERVED
+&
+LOCKED
+UNTIL 2020
+15%
+AIRDROPS
+6%
+PRELIMINARY
+6%
+17
+The hard cap target for our Token Trading Event will be: 733,333,369 TRX
+VibraVid will create 3,000,000,000 (3 billion) BeatzCoin. From these tokens, 6%
+is allocated to the Preliminary Token Trading Event, and 40% will be allocated to
+the Main Token Trading Event. The VibraVid Team will be allocated 18% of the total
+supply, which will be locked for a period of 18 months. 6% will be allocated to Bounties
+and Airdrops, and 15% will be used for marketing and further development. VibraVid
+will hold onto the remaining 15%, which will be locked until January 1, 2020, and
+used for future funding and our POLS system.
+Tokens may be exchanged using Tron (TRX). Tronscan.org and beatzcoin.io will be the
+only 2 platforms to participate in our Token Trading Event. Be sure to verify any offers
+through our website and social-media. Our official TRON WALLET address is:
+TGcvY5rcopeyooHcNbxa3XEKVuJws3y9Td
+TEAM
+18%
+BEATZCOIN.IO WHITEPAPER
+Preliminary
+During the Preliminary, we will offer 180,000,000 tokens, which accounts for 6% of the
+total supply. These tokens will be exchanged at the price equivalent of 5 BTZC = 1 TRX.
+Main Token Trading Event
+The Main Event will see us offer an additional 1,200,000,000 tokens in three stages. 1 TRX =
+3 BTZC, 1 TRX = 2 BTZC, 1 TRX = 1 BTZC.
+TOKEN TRADING EVENT OVERVIEW
+ALLOCATION
+INFRASTRUCTURE
+& DEVELOPMENT MARKET, BRANDING
+& PARTNERSHIPS
+15%
+VIBRAVID TEAM
+18%
+MARKET MAKERS &
+EXCHANGES
+10%
+LEGAL & FINANCIAL
+5%
+MISC
+2%
+50%
+18
+BEATZCOIN.IO WHITEPAPER
+ENSURING DECENTRALIZATION
+In an effort to protect the integrity of the VibraVid platform and prevent Beatzcoin
+price manipulation, we’ll take the following steps:
+1. All unsold tokens offered during the sale will be burned
+2. The reserved supply of 15% will be locked until 2020
+3. 67% of the tokens will be distributed to the community through airdrops, sales or as
+payments for services.
+19
+BEATZCOIN.IO WHITEPAPER
+FAQs
+Q
+A
+Q
+A
+Q
+A
+Q
+A
+Will the POLS system be permanent?
+The POLS system will be something that Beatzcoin holders can utilize.
+We are currently developing a means to allow for permanent vesting
+of Beatzcoin, without damaging the decentralized leaning of the
+platform.
+Where do you see the value of Beatzcoin in the future?
+Ultimately, the market will determine the value of Beatzcoin at
+any given time.
+Who funds the bounties for average users?
+Content creators have the option to offer bounties to the community.
+For example, an instrumental producer can offer 1000 BTZ as a bounty,
+at a rate of 1 BTZ per play/review. This will cost the content creator very
+little to receive 1000 legitimate views, listens, and reviews. Also, the
+VibraVid platform will be providing daily (and other timely) bounties.
+What if someone uploads a 24 hour recording, where everyone can
+simply ‘listen’ to and earn bounties?
+We will have rules and guidelines (protocols) in place to prevent these
+kinds of scams from operating.
+20
+BEATZCOIN.IO WHITEPAPER
+Q
+A
+Will the VibraVid platform be a Dapp (decentralized app)?
+The VibraVid platform will initially be released as a typical website
+(video and audio platform), with the exception that its ecosystem
+and economy will be driven by Beatzcoin, which is governed by its
+own protocols. Our second phase of platform development will be
+incorporating the platform to function on the blockchain. In essence,
+Beatzcoin is not centralized or decentralized but rather distributed
+amongst it’s creators, buyers, and users. VibraVid is a company that
+will utilize blockchain and P2P technology. Unlike similar projects
+or platforms, VibraVid is actually using emerging decentralized
+technologies, rather than centralized cloud platforms, etc.
+Q
+A
+Will the Beatzcoin platform take a percentage of transactions?
+Yes. There will be a very small fee in some cases, similar to what you
+see on most popular cryptocurrency exchanges. This small fee will be
+used to fund the platform. Our long term goal, however, is to gradually
+decrease expenses as we move into the second phase of development.
+Q
+A
+Will I have to see those annoying advertisements before or during
+content play, like I am used to seeing on centralized platforms?
+Users and content creators will have the freedom to choose whether
+or not to view or display ads. The major difference between VibraVid
+and other popular audio and video platforms is the advertising
+revenue share reserved for the users who choose to view ads.We will
+also encourage advertisers to reward content creators. The option to
+view or show ads will be left to the user and content creator. In short,
+a user can opt out of viewing advertisements, or opt in and be paid
+for viewing them.
+21
+BEATZCOIN.IO WHITEPAPER
+Q
+A
+Q
+A
+Why does Beatzcoin have a total supply of 3 billion? Isn’t that a lot?
+Our initial total supply and circulating supply has undergone many
+revisions, and has been vetted by two separate accountants. YouTube®
+alone has an average of 1 billion plays per day. When we take that into
+consideration, our supply-to-use ratio actually falls short.
+Where do you see VibraVid in 10 years?
+As an answer to a hypothetical question, we see VibraVid as the go-to
+platform for all of your entertainment needs. It is fairly decentralized,
+and you can interact with the platform via its own AI (artificial
+intelligence). You can purchase songs, albums, the latest movies, and
+earn Beatzcoin in exchange for your participation’ or ‘while listening
+and viewing promoted content The world’s most popular music artists
+utilize the platform profitably and without middlemen. Cinema movies
+are released straight to the VibraVid platform. The VibraVid user base
+is global at over 5 billion users. Most people are subscribed to VibraVid
+TV, which is the standard for all viewing pleasure. VibraVid Radio is
+broadcasted with 5G, replacing what we know as FM radio...and you
+get paid while listening. You go to the store and take a scan, and pay
+in the popular currency. When you get home, you relax and entertain
+yourself, while earning Beatzcoin, which is equally traded with that
+popular currency that you just spent at your local market.
+22
+TERMS & LEGAL
+BEATZCOIN.IO WHITEPAPER
+– IMPORTANT NOTICES
+PLEASE CAREFULLY READ THIS SECTION AND THE FOLLOWING SECTIONS
+ENTITLED “DISCLAIMER OF LIABILITY”, “NO REPRESENTATIONS AND
+WARRANTIES BY VIBRAVID, INC.”, “REPRESENTATIONS AND
+WARRANTIES BY YOU”, “CAUTIONARY NOTE ON FORWARD-LOOKING
+STATEMENTS”, “NO ADVICE”, “RESTRICTIONS ON DISTRIBUTION AND
+DISSEMINATION”, “NO OFFER OF SECURITIES OR REGISTRATION” AND
+“RISKS AND UNCERTAINTIES”. IF YOU ARE IN ANY DOUBT AS TO THE
+ACTION YOU SHOULD TAKE, YOU SHOULD CONSULT YOUR LEGAL,
+FINANCIAL, TAX OR OTHER PROFESSIONAL ADVISOR(S).
+The BeatzCoin Tokens (collectively the “Tokens”), as defined in the White Paper,
+are not intended to constitute securities in any jurisdiction. This White Paper
+does not constitute a prospectus or offer document of any sort and is not
+intended to constitute an offer of securities or a solicitation for investment in
+securities in any jurisdiction.
+This White Paper does not constitute or form part of any opinion on any advice
+to sell, or any solicitation of any offer by VibraVid, Inc. to purchase any Token
+nor shall it or any part of it nor the fact of its presentation form the basis of, or
+be relied upon in connection with, any contract or token purchase decision.
+No person is bound to enter into any contract or binding legal commitment in
+relation to the sale and purchase of the Tokens and no cryptocurrency or
+other form of payment is to be accepted on the basis of this White Paper.
+Any agreement as between the distributor and you as a purchaser, and in
+relation to any sale and purchase, of the Tokens (as referred to in this White
+Paper) is to be governed by only a separate document setting out the terms
+and conditions (the “T&Cs”) of such agreement. In the event of any
+inconsistencies between the T&Cs and this White Paper, the former shall
+prevail.
+No regulatory authority has examined or approved of any of the information
+set out in this White Paper. No such action has been or will be taken under the
+laws, regulatory requirements or rules of any jurisdiction. The publication,
+distribution or dissemination of this White Paper does not imply that the
+applicable laws, regulatory requirements or rules have been complied with.
+24
+BEATZCOIN.IO WHITEPAPER
+This White Paper, any part thereof or any copy thereof must not be taken or
+transmitted to any country where distribution or dissemination of this White
+Paper is prohibited or restricted.
+No part of this White Paper is to be reproduced, distributed or disseminated
+without including this section and the following sections entitled “Disclaimer of
+Liability”, “No Representations and Warranties by VibraVid, Inc.”, “Representations
+and Warranties by You”, “Cautionary Note On Forward-Looking Statements”,
+“No Advice”, “Restrictions On Distribution and Dissemination”, “No Offer of
+Securities Or Registration” and “Risks and Uncertainties”.
+– DISCLAIMER OF LIABILITY
+To the maximum extent permitted by the applicable laws, regulations and rules,
+VibraVid, Inc. and/or its affiliates shall not be liable for any indirect, special,
+incidental, consequential or other losses of any kind, in tort, contract or otherwise
+(including but not limited to loss of revenue, income or profits, and loss of use
+or data), arising out of or in connection with any acceptance of or reliance on
+this White Paper or any part thereof by you.
+– NO REPRESENTATIONS AND WARRANTIES BY VIBRAVID
+VibraVid Inc. does not make or purport to make, and hereby disclaims, any
+representation, warranty or undertaking in any form whatsoever to any entity
+or person, including any representation, warranty or undertaking in relation to
+the truth, accuracy and completeness of any of the information set out in this
+White Paper.
+25
+BEATZCOIN.IO WHITEPAPER
+– REPRESENTATIONS AND WARRANTIES BY YOU
+By accessing and/or accepting possession of any information in this White
+Paper or such part thereof (as the case may be), you represent and warrant to
+VibraVid Inc. and/or its affiliates follows:
+A. you agree and acknowledge that the Tokens do not constitute securities
+in any form in any jurisdiction;
+B. you agree and acknowledge that this White Paper does not constitute a
+prospectus or offer document of any sort and is not intended to constitute an
+offer of securities in any jurisdiction or a solicitation for investment in securities
+and you are not bound to enter into any contract or binding legal commitment
+and no cryptocurrency or other form of payment is to be accepted on the basis
+of this White Paper;
+C. you agree and acknowledge that no regulatory authority has examined or
+approved of the information set out in this White Paper, no action has been or
+will be taken under the laws, regulatory requirements or rules of any jurisdiction
+and the publication, distribution or dissemination of this White Paper to you
+does not imply that the applicable laws, regulatory requirements or rules have
+been complied with;
+D. you agree and acknowledge that this White Paper, the undertaking and/
+or the completion of the Token Sale, or future trading of the Tokens on any
+cryptocurrency exchange, shall not be construed, interpreted or deemed by
+you as an indication of the merits of VibraVid, Inc., its affiliates, the Tokens,
+and the Token Sale;
+E. the distribution or dissemination of this White Paper, or any copy
+thereof, or acceptance of the same by you, is not prohibited or restricted by
+the applicable laws, regulations or rules in your jurisdiction, and where
+any restrictions in relation to possession are applicable, you have observed
+and complied with all such restrictions at your own expense and without
+liability to VibraVid, Inc., and/or its affiliates.
+26
+BEATZCOIN.IO WHITEPAPER
+F. you agree and acknowledge that in the case where you wish to purchase
+the Tokens are NOT to be construed, interpreted, classified or treated as:
+(I.) any kind of currency other than cryptocurrency
+(II.) debentures, stocks or shares issued by any person or entity
+(whether VibraVid, Inc. and/or its affiliates), rights, options or derivatives
+in respect of such debentures, stocks or shares;
+(III.) units in a collective investment scheme;
+(IV.) units in a business trust;
+(V.) derivatives of units in a business trust; or
+(VI.) any other security or class of securities.
+G. you have a basic degree of understanding of cryptocurrencies, blockchainbased software systems, cryptocurrency wallets or other related token
+storage mechanisms, blockchain technology and smart contract technology;
+H. you are fully aware and understand that in the case where you wish to
+purchase the Tokens, there are risks associated with BeatzCoin, VibraVid, Inc.,
+and itsaffiliates, their respective business and operations, the Tokens, and the
+Token Sale;
+I. you agree and acknowledge that neither VibraVid Inc, nor its affiliates is
+liable for any indirect, special, incidental, consequential or other losses of any
+kind, in tort, contract or otherwise (including but not limited to loss of
+revenue, income or profits, and loss of use or data), arising out of or in
+connection with any acceptance of or reliance on this White Paper or any part
+thereof by you; and all of the above representations and warranties are true,
+complete, accurate and non- misleading from the time of your access to and/
+or acceptance ofpossession this White Paper or any part thereof (as the case
+may be).
+27
+BEATZCOIN.IO WHITEPAPER
+CAUTIONARY NOTE ON FORWARD LOOKING STATEMENTS
+This White Paper may contain certain forward-looking statements including,
+but not limited to, statements as to future operating results and plans that
+involve risks and uncertainties. We use words such as “expects”, “anticipates”,
+“believes”, “estimates”, the negative of these terms and similar expressions to
+identify forward looking statements. Such forward-looking statements involve
+known and unknown risks, uncertainties and other factors which may cause
+the actual results, performance or achievements of the VibraVid Inc., its
+affiliates and/or the VibraVid Foundation to differ materially from any future
+results, performance or achievements expressed or implied by those projected
+in the forward-looking statements for any reason.
+NO ADVICE
+No information in this White Paper should be considered to be business, legal,
+financial or tax advice regarding VibraVid Inc., its affiliates, the VibraVid
+Foundation, the Tokens, and the Token Sale. You should consult your own
+legal, financial, tax or other professional adviser regarding VibraVid Inc., its
+affiliates and/or the VibraVid Foundation and their respective businesses
+and operations, the Tokens, and the Token Sale. You should be aware that you
+may be required to bear the financial risk of any purchase of the Tokens for an
+indefinite period of time.
+RESTRICTIONS OF DISTRIBUTION
+The distribution or dissemination of this White Paper or any part thereof may
+be prohibited or restricted by the laws, regulatory requirements and rules of
+any jurisdiction. In the case where any restriction applies, you are to inform
+yourself about, and to observe, any restrictions which are applicable to your
+possession of this White Paper or such part thereof (as the case may be) at
+your own expense and without liability toVibraVid Inc., its affiliates and/or
+the VibraVid Foundation. Persons to whom a copy of this White Paper has
+28
+BEATZCOIN.IO WHITEPAPER
+been distributed or disseminated, provided access to or who otherwise have
+the White Paper in their possession shall not circulate it to any other persons,
+reproduce or otherwise distribute this White Paper or any information contained
+herein for any purpose whatsoever nor permit or cause the same to occur.
+NO OFFER OF SECURITIES OR REGISTRATION
+This White Paper does not constitute a prospectus or offer document of any
+sort and is not intended to constitute an offer of securities or a solicitation for
+investment in securities in any jurisdiction. No person is bound to enter into any
+contract or binding legal commitment and no cryptocurrency or other form of
+payment is to be accepted on the basis of this White Paper. Any agreement in
+relation to any sale and purchaseof the Tokens is tobe governedbyonly the T&Cs
+of such agreement and no other document. In the event of any inconsistencies
+between the T&Cs and this White Paper, the former shall prevail.
+No regulatory authority has examined or approved of any of the information set
+out in this White Paper. No such action has been or will be taken under the laws,
+regulatory requirements or rules of any jurisdiction. The publication, distribution
+or dissemination of this White Paper does not imply that the applicable laws,
+regulatory requirements or rules have been complied with.
+RISKS AND UNCERTAINTIES
+Prospective purchasers of the Tokens should carefully consider and
+evaluate all risks and uncertainties associated with BeatzCoin, VibraVid Inc., its
+affiliates, the VibraVid Foundation and their respective businesses and
+operations, the Tokens, and the Token Sale, all information set out in this White
+Paper and the T&Cs prior to any purchase of the Tokens. If any of such risks
+and uncertainties develops into actual events, the business, financial condition,
+results of operations and prospects of VibraVid, its affiliates and/or the
+VibraVid Foundation could be materially and adversely affected. In such cases,
+you may lose all or part of the value of the the Tokens.
+29
+CREDITS
+VIBRAVID TEAM
+STEVEN ZAMBRON FOUNDER & CEO
+DALLAS TATLOW COO
+MIKE PATRAW CMO
+GEORGE TOBIAS BLOCKCHAIN DEVELOPER
+FELIX MENDOZA DESIGN & WEB DEVELOPMENT LEAD
+TYLER ENGELHARDT WEB DEVELOPER
+VONTELL FIKES FULL-STACK DEVELOPER
+TASOS OUREILIDIS SENIOR MARKETING ASSOCIATE
+STEPHEN BROWN MARKETING ASSOCIATE
+KIRAN BHARDWAJ MARKETING ASSOCIATE
+STEVE LOURENCO PROJECT MANAGER
+DŽIUGAS IVAŠKEVIÐIUS GRAPHICS DESIGN & COMMUNITY MANAGEMENT
+ANDI IRAWAN GRAHPIC DESIGN
+KATARINA NOLTE SENIOR EDITOR
+JACK SCHRODER LEGAL ADVISOR
+DEBBIE HRNCIRIK BUSINESS ADVISOR

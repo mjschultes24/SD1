@@ -1,0 +1,586 @@
+﻿Peer to peer electronic cash system
+for instant transaction
+
+
+
+
+Executive summary
+To  cope  up  with  this  fast  progress  of  the   in this sector where we can shape the world
+economy we developed an extraordinary idea          by making it smarter and secure. FuturoCoin
+of  “FuturoCoin”.  The  market  is  demanding       have a   clear vision of the future plans and
+faster and more secure coins which can be           will  emphasize  on  building  a    strong  team
+utilized for  all  market  transactions  and are    from your  support  to  create  a   world  more
+time and security sensitive. Since FuturoCoin       opportunistic and organized.
+aims  to remove the current  barriers  in the
+cryptocurrency,  it  will  open  new  doors  in     “Crowd is Powerful“
+the economy  which makes  this  a   perfectly
+timed coin and technology for  the market.          During dictatorship people were not happy
+We  developed  a    user-friendly  and  secure      because of their king’s dominating and selfish
+digital  currency to create a   world which is      attitude.  In  that  scenario  people  had  least
+faster and smarter which uses cryptography          control over their finances and lives.
+to secure the transactions, do not need any         So,    people    replaced   dictatorship   with
+institution which settles the transactions and      democracy  where  they  will  have  power  to
+is borderless.                                      choose governing authority which can give
+                                                    control  on  their  lives  and  they  can  choose
+We  have  used  Dash  as  a     codebase  for       main  operational  authority  as  government.
+FuturoCoin. Dash is a   cryptocurrency which        So  that,  across  the  world  government  can
+aims   to   become   an   on-chain   scalable       manage finances of people across the globe
+currency and is the first  currency which is        responsibly. In this era, people are not happy
+a  decentralised & have autonomous system.          even with the government because it is
+                                                    corrupted  and  again  taking  the  shape
+FuturoCoins    exceptional    idea    for    the    of dictatorship. So, people have decided
+impending  future  of  cryptocurrency  is  to       to take direct control of their finances
+combine  proven  solutions  with  innovative        and operational activities by the use of
+technology. We are proud of ourselves to be         blockchain and its currency.
+
+
+
+
+Abstract
+Bitcoin and other cryptocurrencies use          Confirmation time varies across hundreds of
+a  distributed network and database system      cryptocurrencies in existence. In Bitcoin it
+called the blockchain to acquire consensus      takes at least 10 minutes on average, but the
+across all system participants. This approach   number of confirmations needed depends
+requires time needed to confirm all pending     on merchant security. It is assumed that to
+transactions in the queue to protect against    be fully certain one needs to wait for an hour
+double spend attack. A  double spend is the     which is about 6 confirmations.
+situation where an attacker tries to send
+a  transaction to a  merchant and at the same   Today e-commerce undoubtedly cannot
+time sends the other one with the same          wait for such a  long time with delivering the
+coins to himself.                               goods. FuturoCoin is created for resolving
+this problem and guarantees instant
+transactions with the constant fees at the
+competing level.
+3
+
+
+
+
+Mission
+At FuturoCoin our aim is to make digital cash easy to use and accessible to all users around the
+world. Every human on earth should have the right to use the full potential of the blockchain,
+store the value, join our payment network and  get access to fast and cheap transactions in eve-
+ryday payments.
+Vision
+Our vision is to make a  change in the fundamental structure of world’s economy and banking
+systems by transacting, investing & spending FuturoCoins in same way as any other traditional
+currency but in a  much faster, transparent and secure way.
+4
+
+
+
+
+Background and introduction
+Cryptocurrency VS FuturoCoin                                                                              to the call was Nick Szabo, Hal Finney, Adam
+                                                                                                          Back, Tim May and a   few more others. They
+Before                                                                knowing     and     understanding   started some projects like Hashash, Bmoney,
+FuturoCoin,   we   first   need   to   focus   on                                                         and  BitGold  but  didn’t  gain  much  success.
+cryptocurrency and how FuturoCoin fits well                                                               In 2007, right in the middle of the economic
+with all the features of cryptocurrency.                                                                  crisis, Satoshi Nakamoto appeared out of thin
+                                                                                                          air and introduced the blockchain idea which
+“Cryptocurrency is totally P2P version of digital                                                         connected all previous concepts in a   brilliant
+cash which encourages online payments from                                                                way.  SHA-256  was  used  as  a    cryptographic
+anywhere  in  the  world  within  two  parties                                                            hash function, as its proof-of-work scheme. On
+without the intervention of third party.”                                                                 January 3, 2009 the revolution began with the
+                                                                                                          mining of first Bitcoin block or genesis block.
+This  is  how  Santoshi  Nakamoto  described                                                              Bitcoin source was published so that it can
+cryptocurrency  in  his  first  Whitepaper  of                                                            maintain transparency. This move changed the
+a     cryptocurrency  named  Bitcoin.  It  sums                                                           cultural  and  technological  paradigm,  which
+up  the  features  and  the  basic  principle                                                             ultimately modified the way people used to
+on   which   cryptocurrency   was   invented.                                                             transfer currencies and after that many other
+In  1995, Tim May announced the call to the                                                               blockchain projects came into existence. The
+Cypherpunks group and asked them to invent                                                                current scenario is that blockchain is not only
+a    decentralised  digital  currency.     Amongst                                                        used for transferring currencies but also helps
+other members of the group who responded                                                                  to resolve many real time problems.
+To sum up, every public cryptocurrency to be called by such name
+must meet the following conditions:
+•  its source code must be published and publicly available
+•  the ledger containing historical transaction must be unalterable
+•  is decentralised
+•  cryptography should be used for security purpose
+•  is digital
+•  no authority should be given the power to interrupt the process
+•  there is no institution which settles the transactions
+•  no one has control over issuing its electronic tokens
+•  transactions are borderless
+•  every person in the world should be able to access it
+5
+
+
+
+
+Now, we will discuss how FuturoCoin fits well    altered and reduced the power of medieval
+with the features of cryptocurrency.             guilds and the social power structure, so too
+                                                 will cryptologic methods fundamentally alter
+Let’s end this with Crypto Anarchist Manifesto   the nature of corporations and of government
+quotation: “Just as the technology of printing   interference in economic transactions”
+Ecliptic Curve                                   SHA-256
+Digital Signature                                RIPDEMD-160
+Algorithm                                        BASE 58
+                                                 FuturoCoin public adress
+private key                                      public ECDSA key
+RKjWRSskmYGRTtZy                                 03bd4c60aeB115e1b2abbf                          FetbMCQZZXN4
+fxweDCgwjEdL8                                    caa243175aaea717587a646                         4MwhtrGxrVTbsG
+cAJ95Vu4jthSs                                    a65b72aa382d39e8ccf                             RipBajpBc
+6
+
+
+
+
+Competition analysis
+Features                     Bitcoin                      Dash                       FuturoCoin
+FuturoCoin also works on
+                                                          Dash  works on the         the principle of two-tier
+                             Bitcoin works on the
+                                                          principle of two-tier      network in which master
+                             principle of one-tier
+                                                          network where the          node acts as the second
+Network                      network where there is
+                                                          second layer of node       layer of node. It will be
+Layer                        only one layer of nodes.
+                                                          is master node.            more efficient than other
+                                                                                     2 coins.
+                                                          FuturoCoin hardly
+                                                          takes few seconds (and
+                             Since it uses two-tier
+Rate of                      Bitcoin takes around         sometimes even less than
+network it takes sum
+Transaction                  10 minutes to verify the     a second) to verify the
+of seconds to verify the
+Verification                 transaction.                 transaction and is much
+transaction.
+faster as compared to
+Dash and Bitcoin.
+Dash mining
+is extremely difficult
+Bitcoin requires a  lot of   FuturoCoin mining
+                             and complex because
+resources for doing          procedure is same like
+Mining                       it requires solving a  lot
+the mining process.          mining of  Dash.
+                             of complicated math
+                             problems.
+                                                                                     In FuturoCoin, the
+Transaction                  The transaction fees are     Dash tries to minimize     transaction fee is fixed and
+Fees                         quite high in Bitcoin.       the transaction cost.      negligible as compared
+to other two coins.
+7
+
+
+
+
+Problems of current market
+Problems of current traditional centralised banking system and its fiat currencies:
+Government intervention - Banks have a  disturbing amount
+of command over people’s personal data and fiat currencies
+which ultimately troubles people
+Centralised Banking - When bank confiscates the account
+of a  person for any reason, the procedures and process takes
+a  lot of time.
+Under-resourced economy  - The inefficient and ineffecti-
+ve distribution of resources between people and economy
+is a  current problem
+Financial  Exclusion                                                                  -  According  to  a    report  published
+in 2018, it shows that there are more than 2 billion people
+of the adult community in the world who are either not
+accessing any the facilities by traditional banking system
+or are able to access only partial facilities.
+Unsatisfactory systems and unfair practices - The current
+banking systems are not created to support local or global
+micro-economy, nor do they encourage financial inclusion
+Restricted  numbers  of  clients  -  The  number  of  clients
+is limited by country and system barriers.
+Speed of Transaction - It takes several days and depends on
+the bank to bank relations
+Scalability - It is expensive and slow
+Transfer Values - The transfer values are limited and restric-
+ted by law and order
+International Transfers - It is restricted, slow and expensive.
+8
+
+
+
+
+FuturoCoin sollution to all market problems
+The solution to above problems is FuturoCoin.                   in a   single hand. It will promote digitalisation
+FuturoCoin will make the digital cash easy and                  and  decentralisation  where  people’s  privacy
+accessible to all users in a  much faster and se-               will be respected and every human on earth
+cured way where no   authority  will  be  given                 can freely connect to its network.
+Here are some solutions provided by FuturoCoin
+Fraud-proof: When FuturoCoin is created, all confirmed
+transactions are stored in a   public ledger. Identifications
+of  coin  owners  are  encrypted  to  secure  the  legitimacy
+of record keeping. Because the FuturoCoin is a  cryptocu-
+rrency it is decentralized, you own it. Neither government
+nor bank have any control over it.
+Instant Settlement: Ease of use is the reason why Futuro-
+Coin will be in high demand. A  smart device and internet
+connection is all you need for instant payments and mo-
+ney transfers.
+Accessible: There are more than two billion people who
+have access to the Internet but don’t have the rights to
+use traditional exchange systems. These individuals will be
+able to use FuturoCoin without any restrictions.
+Identity Theft: Blockchain technology used by FuturoCo-
+in ensures secure digital transactions through encryption
+and “smart contracts” that make the entity virtually unhac-
+kable and void of fraud.
+You are the owner: Your privacy is respected while using
+FuturoCoin and you don’t need to rely on any third party.
+9
+
+
+
+
+Market analysis
+According to the chief executive of a  top digi-                                                    und 4500 cryptocurrencies in market. Whereas
+tal currency exchange, the entire cryptocurren-                                                     world is moving towards e-commerce and its
+cy market will reach upto $ 1 trillion this year.                                                   growth is commendable.
+There are more than 250   exchanges and aro-
+In 2017, retail e-commerce sales worldwide amounted to 2.3 trillion US dollars and e-retail reve-
+nues are projected to grow to 4.88 trillion US dollars in 2021. 1
+Currently world is looking for a  solution which                                                    by Coinbase, cryptocurrency will hit the main-
+combines   cryptocurrency   and   ecommerce                                                         stream as a  way of paying for services and go-
+market. Looking at the growth rate and poten-                                                       ods within the next decade as many of those
+tial of both the markets, we came up with the                                                       students surveyed by Coinbase became part
+solution as FuturoCoin which will satisfy all the                                                   of the working world.
+market  requirements.  According  to  a   survey
+1 https://www.statista.com/statistics/379046/worldwide-retail-e-commerce-sales/
+10
+
+
+
+
+This is the right time for FuturoCoin to expand   a  cryptocurrency coin which is fast, secure and
+in the market where people are eager to use       easily accessible so that it can fill the gap be-
+cryptocurrency and adopt digital banking sys-     tween traditional fiat and advanced crypto.
+tem because at this time what market needs is
+11
+
+
+
+
+Product description
+                                              FuturoCoin is a   cryptocurrency which mainly                                                   The above features of FuturoCoin shows that
+                                              aims on quick transactions, to protect against                                                  it is entirely decentralised, relying on a  ledger
+                                              double spend attack and to minimize the tran-                                                   of transactions distributed across a  worldwide
+                                              saction fees so that every human on earth can                                                   network of computers and is based on a  tech-
+easily access it.                                                                                                 nology called blockchain.
+                                              Cryptocurrencies like Dash, FuturoCoin and Bit-                                                 How does FuturoCoin work under the hood?
+                                              coin uses asymmetric cryptography to sign the
+                                              transactions. Eg. Dash use x-11 algorithm which                     Asymmetric cryptography
+                                              consists 11 different hashes for hashing blocks.
+                                              It was invented to keep the network more de-                                                    Till 1976, if two parties wanted to convey a  mes-
+centralised.                                                                                                                                  sage in an encrypted manner, they required to
+                                                                                                                                              exchange a  key, which was used to encrypt and
+                                              FuturoCoin  source  code  is  sub-derived  from                                                 decrypt a   message. There was only one way
+                                              Dash due to the number of benefits it provides.                                                 and that was to meet face-to-face or use a  tru-
+                                                                                                                                              sted courier to deliver a  cryptographic key.
+•                                             Two-tier network - FuturoCoin works on
+                                                                                                                                              In  1976, Whitfield Diffie and Martin Hellman
+                                              the principle of two-tier network where
+                                                                                                                                              issued  the  document  which  gave  the  de-
+                                              master nodes behave as a  second layer
+                                                                                                                                              scription  of  the  algorithm  where  no  secret
+                                              of nodes.
+                                                                                                                                              key is exchanged and the message can still be
+•                                             Instant  Payments  -  Master  nodes  are                                                        properly encrypted and decrypted or signed.
+                                              responsible  for  the  correct  execution                                                       This  technique  is  called  asymmetric  (public
+                                              of  instant  payments.  Instant  payment                            key) cryptography.
+                                              allows  to  improve  the  speed  of  the                                                        Cryptocurrencies like FuturoCoin and Bitcoin
+                                              transaction process.                                                                            uses this technique to sign the transactions.
+                                                                                                                                              The important details about asymmetric cryp-
+•                                             Low  and  constant  transaction  fees  -
+                                                                                                                                              tography used in FuturoCoin (and other cryp-
+                                              We have introduced the flat rate of all
+                                                                                                                  tocurrencies)
+                                              transactions so that every person can
+                                              easily access it.                                                                               •  every public key is originated from its
+                                                                                                                                              corresponding private key
+•                                             The fee is not dependent on the amount
+                                              of coins being sent.                                                                            •  A    random  32  bytes  number  can  be
+                                                                                                                                              assigned as a  private key
+•                                             Governance model - In FuturoCoin the
+                                              block reward is divided equally.                                                                •  FuturoCoins are allocated to public key
+•                                             Advanced    Securities                             -   FuturoCoin                               •  The holder of a  public key is the person
+                                              securities  system  is  inspired  by  Dash                                                      who controls the corresponding private
+                                              so it prevents from all the latest attacks                                                      key
+known.
+•  The  owner  of  FuturoCoin  needs  to
+use  his/her  private  key  to  verify  the
+ownership of FuturoCoins assigned to
+a  corresponding public key
+12
+
+
+
+
+No one should be allowed to control the private          This process is neither time nor power consu-
+key besides the owner.                                   ming and assures the receiver that the sender
+The simplified process of public key creation in         is the true possesor of coins and can make the
+FuturoCoin network is described in the schema            transactions. But this process does not provide
+below.                                                   the solution for the double spend attack. The
+possesor of the coin can send the same coins
+Transaction                                              twice or more times. In current scenario, this
+                                                         problem is resolved in a   centralised manner
+Cryptocurrency is a  digital currency which can          where trusted parties (banks or other financial
+not be copied nor double spent. It is defined            institutions)  keep  the  accounting  books  and
+as a  chain of digital signatures. If there is a  pro-   provides the surity that the coin is not spent
+cess of transferring a  coin, the owner   need to        twice. So now the only way to confirm the ab-
+digitally sign a  hash of the former transaction         sence of double spend: make all transactions in
+and the public key of the receiver and affix it to       the whole system visible to everyone and make
+the transaction message. The signature is veri-          all system members agree on a  single version
+fied by the receiver to authenticate the chain of        of history of transactions. This historical ledger
+ownership. It was described by Santoshi in the           is named blockchain.
+following schema:
+TRANSACTION                                              TRANSACTION                                          TRANSACTION
+Owner 1st public key                                                                                                        Owner 2nd public key                    Owner 3rd public key
+#                                                        hash                                                               #                       hash            #                       hash
+                                                                                                              VERIFY                                       VERIFY
+                                                                                                              SIGN                                         SIGN
+Owner 0th signature                                                                                                         Owner 1st signature                     Owner 2nd signature
+Owner 1st private key                                                                                                       Owner 2nd private key                   Owner 3rd private key
+13
+
+
+
+
+Mining is created to get rid of double spend at-               redoing all the blocks after it. A  merkle tree is
+tack and it’s the process by which transactions                constructed by all the transactions in a  single
+are authenticated and affixed to the public led-               block. It is done by joining each transaction ID
+ger. The proof-of-work also gives the solution                 with other transactionid and hashing them to-
+for establishing representation in majority deci-              gether. In next steps the results are hashed in
+sion making. In FuturoCoin network every user                  pairs. When only one hash remains, the process
+has the power to run his node and maintain the                 is finished. This is called merkle root.
+network by providing hashing power to gene-
+rate a  new block of verified transactions.                    This decision was made due to the number
+                                                               of benefits provided by Dash cryptocurrency.
+Similar to other cryptocurrencies, all blocks in               Some of them are listed below and are incorpo-
+FuturoCoin are linked in a  way that any chan-                 rated in FuturoCoin system.
+ge in the already existing block would require
+The picture below shows the mining process with merkle root.
+BLOCK HEADER                                                   BLOCK HEADER                                         BLOCK HEADER
+Prev hash                                                      Prev hash                                            Prev hash
+Nonce                                                          Nonce                                                Nonce
+Merkle root                                                    Merkle root                                          Merkle root
+Hash01                                                         Hash23
+Hash2                                                          Hash3
+Tx2
+14
+
+
+
+
+Two-tier Network                                    disperse  around  the  network.  Regular  peers
+                                                    and  masternodes  are  common  in  their  con-
+Bitcoin’s  uses  single-tier  network  where  all   nection  behaviour  and  form  a    classical  P2P
+the process are executed through nodes while        network. FuturoCoin ecosystems are responsi-
+Dash  in the other hand introduced two tier ne-     ble for fast transaction, management or admi-
+twork where masternodes act as a  second layer      nistration with low and consistent transaction
+which is responsible for maintaining numerous       fees. In future, we will describe this calculation.
+network services which are not there in crypto-
+currency. The servers are connected to mining       Instant Payments
+and all other passing nodes and are always on.
+Masternodes are not allowed to participate in       Dash  introduced  the  distinct  feature  of  in-
+the mining process because of the rules enfor-      stant payment. Because of this feature instant
+ced in the code.                                    transaction is possible around the world. This
+                                                    kind of payment is taken care by only master-
+Master-nodes uses a  series of protocol expan-      nodes. When it happens, inputs to particular
+sions such as Masternode ping message and           transaction are locked and authenticated by
+Masternode announce message to be able to           agreement of the masternode network.
+MASTERNODE
+ORDINARY PEER
+15
+
+
+
+
+After a   successful agreement of masternodes         Low and constant transaction fees
+a message is transmitted over the network after
+which all clients will respect lock of tokens and     Dash gave a  new solution to retain the transac-
+this is how the problem of double spending            tion fees at the lowest point possible. With Fu-
+solved without waiting too much for a  confir-        turoCoin we have introduced the flat rate for all
+mation time, which is required in other crypto-       transactions. Fee model totally depends on the
+currencies such as Bitcoin.                           number of inputs applied in a  transaction. Most
+                                                      commonly this number is less than 10. For the
+Instant payments provides the solution for the        purpose to prevent flood attack, we need to in-
+issue related to waiting for confirmations when       troduce security measures. When the number
+sending the transaction and merchants can de-         of inputs exceeds 10, base fee is multiplied by 2
+liver their goods right after the transaction oc-     and so on. It can be presented by the formula:
+curs. FuturoCoin presents an additional feature
+where an instant transaction may include more         fee = max (base_fee, CEIL(n/10) * base_fee)
+inputs and outputs in one transaction. This qu-       where fee: final transaction fee
+antity is set to 10 for outputs (plus address chan-
+ge) and any number of inputs. Additionally, all       base_fee: constant fee value
+transactions are instant. This special quality of
+FuturoCoin requires additional level of security      n: number of inputs
+besides masternodes locking mechanism. Eve-
+                                                      ry input needs atleast 6 confirmations (6 mined                                                                                       The fee depends on the amount of coins being
+blocks) to become usable.                                                                                                                                                                   sent. Base fee can be modified or altered by the
+                                                                                                                                                                     spork functionality.
+An illustration of transaction:
+                                                                                                                                                                     Governance Model
+1.                                                    Bob  sends  a    transaction  of                                                                               -
+                                                      Coins  for  a    software  from  merchant  X                                                                                          Dash is the first digital currency which is a  de-
+                                                      using   a                                           “locked   transaction”   message.                                                 centralised  &  have  autonomous  system.  It  is
+                                                                                                                                                                                            influenced  by  Sybil  proof  decentralised  and
+                                                      2.   The transaction is distributed throughout                                                                                        funding model. This system, known as Decen-
+                                                      the network and achieves a   set of elected                                                                                           tralised Governance by Blockchain (DGBB) is an
+                                                      authority nodes from the masternodes list.                                                                                            approach of coming to a  consensus on inten-
+                                                                                                                                                                                            ded alterations to core functionality and is used
+                                                                                                                                                                     -                      to fund development of Dash. 10% of each block
+                                                      sus  about  the  validation  of  the  transac-                                                                                        reward is sent to the treasury. It is also used hire
+                                                      tion  and  each  sign                                                                   “consensus  transac-                          other employees, fund conferences and every-
+                                                      tion” message which sent to the network.                                                                                              thing what is related to marketing and integra-
+                                                                                                                                                                                            tion with other systems like exchanges. Each
+                                                      4.  When a  node finds the agreement messa-                                                                                           masternode  operator  receives  one  vote  and
+                                                      ges, it considers the transaction confirmed.                                                                                          when the project is presented they vote inde-
+                                                                                                                                                                                            pendently on how to spend e money from the
+In Dash masternodes accepts an additional fee         treasury.
+for processing instant transactions. In Futuro-
+Coin no additional fee is needed for this kind of
+operation as all transactions are instant.
+16
+
+
+
+
+As we can observe, masternodes grants essen-         Instant Transactions
+tial functions, which are not present in other
+cryptocurrencies. In Dash the block reward is di-    FuturoCoin is digital currency which has made
+vided between miners and masternodes. Each           every transaction instant. Through this system
+group earns 45% of block reward. 10% goes into       the consensus is achieved by means of master-
+the treasury system.                                 nodes, which lock the inputs and valid ate tran-
+                                                     saction correctness.
+In FuturoCoin 50% of block reward is given to
+miners and 50% is given to masternodes. Ma-          Big and growing community of supporters
+sternodes are naturally distributed and secured
+by specialized companies. The creator of ma-         FutureNet  is  a   rapid  developing  community
+sternodes is FutureNet company (BCU Trading          with millions of associates. FuturoCoin begins
+LLC) which is responsible for arranging events,      with a   considerable number of users. This fe-
+developing code, hiring employees, developing        ature of FuturoCoin is unique which other star-
+and introducing marketing strategies and re-         ting cryptocurrencies does not possess. Apart
+ward systems. FuturoCoin uses the similar kind       from the fact of having such a  strong team, it
+of  enhanced  strategies  that  are  available  in   is very important to emphasize the vision and
+Dash. Amongst them are Multi-Phased Forks            the future plans that go along with FuturoCoin.
+(“sporks”) which are similar to global variables     This feature of the FuturoCoin makes it so diffe-
+that can be altered by the team of developers.       rent from other cryptocurrency and increases
+The example of such a  variable is a  transaction    its scope.
+fee. It can be modified by the FutureNet deve-
+lopers and depends on many economical and            Private send functionality
+technical parameters. The purpose is to have
+the most competitive transaction fee on the          PrivateSend functionality is not available in Fu-
+digital currency market. Masternodes also have       turoCoin  system  due  to  law  and  regulations
+the ability to force other nodes to upgrade its      which results in having the same anonymity le-
+software.                                            vel as in Bitcoin like currencies, which use pseu-
+                                                     donymous anonymity level.
+Advanced Security
+                                                     CoinOFF Mine - A  Game to Incentivise Our Cu-
+Dash introduces very refined solutions to nu-        stomers
+merous types of attacks that takes place in the
+cryptocurrency world and, particularly, in the       We are also providing an entertainment game
+Dash ecosystem. Amongst them you can find            called “CoinOFF mine” in which users                 will
+                                                     attract individuals to our network and they will
+•  Sybil attacks
+                                                     be rewarded with the mined FTOs for it. This
+•  Finney attacks                                    will create high user base, strategic demand &
+                                                     supply of FTOs in our network.
+•  Multiple agreement messages
+•  Transaction lock race attacks.
+Their explanation is out of scope of this docu-
+ment. It’s worth specifying that FuturoCoin, as
+a  digital currency based on Dash, has all miti-
+gations safeguarding the network from these
+kinds of attacks.
+17
+
+
+
+
+Economics
+Total coin emission                                                                          If we consider all the remaining amount of co-
+                                                                                             ins to be mined, 70,000,000 and the time para-
+In present, there will be 100,000,000 FuturoCo-                                              meters then every block will be rewarded with
+ins. In consideration with the active progress       13.31811263 FuturoCoins.
+of the company and the potential carried by
+over a   2.5 million community engaged in this                                               The emission rate is consistent - no halving re-
+project, the developers took a  decision to mine                                             ward blocks or any other events that could alter
+around 30 million FuturoCoins in the first block                                             coins issuance. All blocks are mined by regular
+after the Genesis Block, which then will be used     nodes only, not by masternodes.
+for advertising and other marketing purposes.
+                                                     Block reward allocation
+The major aim is to bring FuturoCoin to the top
+of its category, and this is the reason because of                                           In Dash 45% goes to miner, 45% goes to master-
+which they have considered important to sup-                                                 nodes and 10% to the treasury while in Futuro-
+port and reward active users.                                                                Coin every block reward is divided into a  half:
+It would be impossible to build a  successful and    •                                       50% goes to winning miner,
+sound brand without people involved. The wide        •                                       50% goes to masternodes network. Future-
+space for everyone that has been developed                                                   Net company takes care of the governance
+and the people who will use FuturoCoin will be                                               operations as described in Governance mo-
+the best demonstration of this cryptocurrency.                                               del.
+Emission Rate                                        Flat fee for all kind of transactions
+The time required to mine all the coins is fixed                                             Masternodes play numerous essential roles in
+to 10 years. Dark Gravity Wave algorithm is used                                             FuturoCoin ecosystem. One of them is to ma-
+in the case of difficulties retargeted. On an ave-                                           intain transaction fee constant irrespective of
+rage, every minute the new blocks will be mi-                                                the size in bytes or in value sent. The fee can be
+ned.                                                                                         altered by spork functionality which is the part
+of the governance model.
+18
+
+
+
+
+Team details
+Stephan has an over 25 years of experience as an entrepreneur and
+is also a  leader of widely known MLM projects. He is a  well-known
+face of net marketing. He also has many companies which are lo-
+cated in Germany, Austria and other European countries. Stephan
+Morgenstern has applied all his knowledge of cryptocurrency and
+experience in making this project so successful.
+Stephan Morgenstern
+FTO Creator
+Roman has a  considerable amount of experience in management
+and communication which helped a  lot in making this project so
+successful. He is also a  well-experienced entrepreneur who looks at
+business with global perspective. He has many companies running
+in Sweden, England, Brazil, Colombia, Austria and Cyprus and also
+a  business project located in Ukraine. His hard work and strong vi-
+sion has made him so successful.
+Roman Ziemian
+FTO Creator
+Paulina Wozniak is a  successful businesswoman and the C.E.O  at
+Coders House Sp. z  o.o. which is a  fast growing IT company in Wroc-
+law, Lower Silesian District, Poland.   She is a  visionary and powerful
+woman with an impressive knowledge of Blockchain Technology
+and Cryptocurrency. She is a  qualified MBA and has done PhD in
+Cathedral finance and management, outsourcing and contracting.
+She is also a  doctorate in economy. She started her career over 20
+years ago, she held various positions including a  position of  the HR
+Director of Alma Engineering S.A  and now she has a  considerable
+amount of experience in Marketing, Sales and Management. She’s
+ambitious and strong. Just like FuturoCoin.
+Paulina Wozniak
+CEO FuturoCoin OU
+19
+
+
+
+
+Conclusion
+FuturoCoins  exceptional  vision  for  the  futu-   ugh the FutureNet platform. The world is ready
+re of cryptocurrency is both revolutionary and      for a  cryptocurrency like FuturoCoin, and now
+achievable.                                         we need to ensure that the FuturoCoin is ready
+                                                    for the world.
+Cryptocoin will accredit each person and busi-
+ness within the microeconomy, through a  de-        With the big and growing community of sup-
+centralized  and  all-encompassing  financial       porters all we are emphasizing upon is the vi-
+structure that we have created with passion.        sion and future plans that go along with the
+                                                    FuturoCoins so that we can play a  crucial role in
+The FuturoCoin has an amazing potential for         the world economy.
+development and growth that is possible thro-
+20
+
+
+
+
+

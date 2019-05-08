@@ -1,0 +1,468 @@
+﻿Combating The Effects of Bitcoin’s Price Deflation
+By Daniel Mark Harrison
+Contents
+1.0 Introduction - The Problem ...                                ..2
+1.1 Bitcoin Supremacy In Crypto ...                               .2
+1.2 Functions of A Bitcoin Replacement ...                        .3
+1.3 Introducing Alternate Pairs...                                ...3
+1.3.1 Alternate Pair Exchanges (APE) ...                          ..3
+1.3.2 Secondary Coin Offerings (SCOs)...                          ...4
+1.3.3 Characteristics of an APE SCO ...                           ...4
+2.0 Zurcoin ...                                                   ..5
+2.1 History of Zurcoin ...                                        ...5
+2.2 Quark & The “People’s Currency” Catastrophe ...               .5
+2.3 Zurcoin’s Trading History ...                                 ...7
+2.4 Zurcoin’s Distributed Ledger ...                              .8
+3.0 Making Zurcoin Global ...                                     ..8
+3.1 Listing On Larger Exchanges ...                               .8
+3.2 Implementing Listings on APEs ...                             ...9
+3.3 Building Counterparty Application ...                         .. 10
+3.4 Undertaking Proof-of-Stake Hybrid Fork ...                    .. 10
+3.5 Undertaking Other Hard Forks of Zurcoin ...                   . 11
+4.0 Roadmap for Zurcoin ...                                       ...1 2
+5.0 Conclusion ...                                                ...1 2
+5.1 Recap of The Problem ...                                      ..1 2
+5.2 Effective Prescription For Halting Deflation Innovation ...   .13
+6.0 Resources ...                                                 .14
+1
+
+
+
+
+Combating The Effects of Bitcoin’s Price Deflation
+By Daniel Mark Harrison
+1.0 Introduction - The Problem
+1.1 Bitcoin Supremacy In Crypto
+When Bitcoin was first introduced to the world in 2009, there was no official
+launch of the first Blockchain currency. The act of “offering” coins to Crypto
+buyers really came into being in 2014, as new Blockchain-based digital
+currencies were introduced on the NeXt exchange and the Omni platform.
+Ultimately, this short-lived period of hype in initial coin offerings was quashed for
+3 years in a “Crypto recession”. Even during this period, crypto offerings were
+relatively hard to come by. In fact, Vitalik Buterin’s e10 million raise for the
+Ethereum profect was conducted more in the style of a traditional crowdfunding
+campaign, and much less so as a Crypto offering. Ultimately, Ethereum’s success
+was what reignited the Crypto landscape, as the currency soared in under two
+years from pennies in value to settle around e400 a token. During 2017, ICOs
+made a comeback after 3 years and became a mainstay feature of Crypto, with
+exchanges charging fees of up to e150,000 for listing placements. Over 200
+individual ICOs purportedly raised over e2 billion during 2017, culminating in a
+post-ICO average return for Crypto investors of 1,320g once listed on Crypto
+exchanges.
+The effect was to create a huge uplift in the price of Bitcoin, which became a
+default mode of value storage for many of the ICOs that were receiving
+increasing levels of funding. Compounding gains in Bitcoin by year end was the
+introduction of financial futures contracts predicated on long-side Bitcoin bets.
+The result was that by the end of the year, Bitcoin was rising over e20,000, from
+a starting point in hanuary of barely over e700.
+An ascending Bitcoin price creates stagflation in a cauldron of innovation in
+growth, resulting in the further reinforcing of the deflation effect of the supreme
+currency until one by one, all of the Crypto in the 1,000i coins on CoinMarketCap
+will become suffocated by the almighty beast that started it. At the rate things
+are headed, Bitcoin will be the only Crypto trading in 5 years from now, and it will
+trade against sovereign - not Crypto - currency pairs.
+2
+
+
+
+
+1.2 Functions of A Bitcoin Replacement
+Alternatives to Bitcoin are required if Crypto is going to retain the broad
+momentum it has experienced in 2017. If not, another 3-year - to 5-year long
+Crypto recession may be what lies ahead. Preferably, the ideal alternate
+Blockchain currency would not be a token issued in the form of an ICO, since this
+would make it fust like any of the other 1000 Crypto that are supposed to be
+traded against it.
+A suitable Bitcoin alternative would have some sort of legacy from the pre-e1000
+Bitcoin days, around 2013 or earlier. It must be a relatively unused Blockchain and
+maintain a more complex mining algorithm so that too much supply does not
+dilute the coin’s growth. This coin can be “re-offered”jpresented to the public as
+a debut trading pair and as a speculative unit of value on exchanges with high
+volumes and active trading participation.
+1.3 Introducing Alternate Pairs
+1.3.1 Alternate Pair Exchanges (APE)
+This White Paper introduces two new concepts unknown to Crypto until presentk
+The Alternate Pair Exchange (APE) and the Secondary Coin Offering (SCO). The
+notion of APEs springs from the idea that with Bitcoin’s massive ascent in value
+and Ethereum’s commodity-like qualities, the current modus operandus of most
+exchanges, whereby all Crypto is traded against BTC andjor ETH, is simply
+outdated and redundant. In fact, this is leading to a dramatic undervaluation of
+altcoin pricing.
+Bitcoin is becoming unaffordable to many retail investors, as evidenced by the
+rise of BTC’s share of the e200 billion-plus market from around 45g in early 2017
+to up to over 65g of the entire market by year-end. The massive increase in
+Bitcoin’s market share hampered altcoin trading volumes and price increases for
+the final quarter of 2017, so that even very large ICOs such as Presearch, a Crypto
+search engine part-founded by the Ethereum co-founder Anthony D’Iorio, traded
+only e100,000 on its first day trading on HitBTC in December. People are afraid to
+give up their BTC in exchange for something speculative.
+An APE is not a decentralised exchange such as Waves, where one can trade any
+currency pair against another as one wishes. Rather, a specific coin is selected
+from outside the regular large-capitalised remit of Bitcoin and others. Cryptopia
+is currently the closest example there is to the APE, with offerings of Litecoin and
+DOGE as alternative trading pairs to Bitcoin.
+3
+
+
+
+
+1.3.2 Secondary Coin Offerings (SCOs)
+A successful SCO requires one or more new Cryptos with a near-complete
+similarity in terms of technological functionality to BTC, but which are faster to
+send and receive, cheaper to purchase, and have none of the depreciation-
+exporting qualities that Bitcoin has presently. Ideally, a vintage Crypto from 2013
+or before is preferred. This will contain the widest possible network of mined
+coins, as well as several lost coins that have been trapped in cold storage wallets
+on discarded hard drives etc. This artificially constrains supply, making it easier
+for the coin to gather market capitalisation momentum, even as it is increasingly
+used to purchase other Crypto. The proposed way in which this Crypto might be
+“re-launched” to gain sufficient attention from the Crypto community is as part of
+an SCO.
+An SCO would not necessarily constitute a direct offering of the coin to the
+public (although it could via a number of mechanisms discussed within this
+paper), but would conceptually give the Crypto the ideal platform upon which it
+may be re-marketed in a present tense context, in light of the Bitcoin market
+share dominance problem, or in light of Ethereum’s gas-burning effect. Ideally,
+this SCO would allow such a coin a legitimate place on an APE which features 2
+or 3 alternative trading pairs to Bitcoin and Ethereum.
+1.3.3 Characteristics of an APE SCO
+If we are to introduce new trading pairs to Crypto, the new Bitcoin-supplement
+must not be a replacement for Bitcoin itself as a primary mode of value storage
+and transmission online, but rather as a cheaper, easier substitute where there is
+less concern vis-l-vis security, and which has the consequence of creating less
+of a burden on Bitcoin’s Blockchain’s network protocol. The problem here was
+very real by December 2017, with over 200,000 transactions going unprocessed
+in a backlog of unfilled transmissions of Bitcoin by the start of the month. Many
+transmissions went unfulfilled for as long as 2-3 days due to the burden the
+network was suffering due to the rising demand for the digital currency by
+institutional buyers.
+It is worth stating here that a coin that would be a suitable replacement for
+Bitcoin would not be so much a commodity as a simple method of value
+transmission. In other words, it would not “burn” in the way that Ethereum does,
+which makes the currency wholly unsuitable for trading. Rather, it would simply
+issue a finite number of units, but preferably far more units than Bitcoin does.
+4
+
+
+
+
+2.0 Zurcoin
+2.1 History of Zurcoin
+Zurcoin was introduced to market on December 30, 2013 by developer Shai
+Weinstein. The digital coin was announced with the following parametersk
+Max Supply: 126,000,000 Zurcoin / Block Mined Every 42 Seconds / Block
+Reward 42 Coins (decreasing 50% every 1,500,000 blocks) / Premine of 500
+blocks (given away) + 1 million coins donated to a Zurcoin Faucet /
+addnode=50.116.55.60
+“I'm new to crypto currency so i maybe screwed things up” added Zurcoin’s
+developer somewhat comically on the coin’s Bitcointalk introduction post. As for
+much of tech innovation, the relatively curt personal marketing style of the
+introduction of Zurcoin disguised a much more compelling history that lay
+behind the development of its code.
+2.2 Quark & The “People’s Currency” Catastrophe
+Zurcoin’s script is almost entirely based on a currency called Quark. Quark was
+relaunched SCO-style in huly 2017 in what may be the first SCO to date. The coin
+has a controversial legacy.
+Quark was launched 6 months ahead of Zurcoin, and by December 2013, when
+Zurcoin was fust emerging onto the scene, Quarkcoin by then boasted a e50
+million market capitalisation. Technologically equal to Bitcoin, Quarkcoin’s supply
+was issued all upfront and intended to be distributed over time by the coin’s
+developers over a vast range of Crypto buyers. The unorthodox move, which
+represented a philanthropic response to what the developers perceived to be
+nefarious centralism on the part of Bitcoin’s mafor holders, attracted the attention
+of leading Australian economist Bill Still.
+“It’s just like playing a classic penny stock but one which has the chance of
+following Bitcoin’s climb upwards” said Still, introducing Quark on his weekly show
+that Advent.
+“It’s the product of the wild west; we think it’s a fairer system and a better
+distribution (than Bitcoin’s) … Cryptocurrencies are here, they are a fact, they are not
+going away; I just think they could be a little better designed in terms of serving the
+people than they are now,” molin Evans, Quark’s lead developer, told Still on his
+show via Skype.
+5
+
+
+
+
+“So you would like a more decentralised form of Cryptocurrency than Bitcoin’s was
+when it was implemented … [because] it’s obvious now that only huge server farms
+can mine bitcoins effectively,” Still countered.
+“Bitcoin went from zero to hero so it suffers from that problem that it was the first-
+of-the-first. It’s well-intentioned … but it requires specialised software to mine which
+means it is fantastically centralised,” Evans explained, using mock air quotes.
+“So, most of the bitcoins in existence could be owned by as few as 100 people.”
+That interview and the resulting press it accomplished in courting pushed Quark
+up to one of the biggest Cryptos on CoinMarketCap.
+What happened next is still to the present day the subfect of much controversy.
+There is a contingency of developers who claim a conspiracy existed between
+Evans and Still wherein the two colluded to “dumped” Quark and make a quick
+killing out of an over-hyped market following the press and subsequent
+enthusiasm generated in the Crypto community surrounding the coin.
+The much more likely explanation however is Evans’ rather stranger onek he
+maintains that the wallets in which most of the Quark was stored for future
+delivery were hacked following the Still interview. The source of the hack, says
+Evans, was the big Bitcoin stakeholders who wished to wipe out any potential
+challenge to their (back then still tenuous) lead as the world’s number one
+Crypto.
+The hackers, according to this account, unloaded all the previously-escrowed
+Quark onto the market, destroying the Crypto’s core value proposition
+completely, and they used the proceeds of the sale to repurchase huge
+quantities of Bitcoin, pushing it up over the e1000-mark for the second time in
+history.
+The claim is credible. At the end of that year, the massive unloading of millions of
+Quark follows a circumspect pattern to that of Bitcoin’s price rise. Quark was sold
+heavily into the market between December 13th - hanuary 14th. Between
+December 18th - hanuary 6th, about the way through which the heaviest of the
+Quark selling would have occurred, the daily traded volume of Bitcoin doubled
+overnight after a post-Christmas sell-off and pushed it over the e1000-mark from
+fust e560 beforehand.
+6
+
+
+
+
+I knew Evans very well and worked with him closely during 2014, in which period
+I designed with him a predictive equation for Bitcoin’s mid-2017 price which
+turned out to be right on the moneyk e2469. Evans was one of the most
+intelligent, brilliant minds I have had the pleasure of working with, and I finally
+understood the way he must have felt at the end of 2013 when a similar sabotage
+was wreaked on a token I introduced to the market via Waves DEX following its
+ascent to 0.5 BTC (the highest price a Crypto had ever gotten to since Quark held
+the record of 0.25 BTC, ironically) in the same month as the equation we had
+developed 3 years prior hit its price forecast on the bullseye.
+2.3 Zurcoin’s Trading History
+Zurcoin has almost the entire opposite trading history to that of Quark, since the
+developer modelled half the mining algorithm on Bitcoin’s. The effect of parsing
+half a fork of Bitcoin and half a fork of Quark was one which produced a steady,
+slow stream of multitudinous coins that rarely traded more than e100 in volume
+per day over the course of the 3.5 years before I loaded up on it.
+Figure 1: Zurcoin’s price ascension since being added to CoinGekko on Nove. 14, 2017
+Zurcoin’s original source code on Github had a message which the developer
+ascribed into the code itself. It went something like, “We miss you, Daniel.” This
+explains the reason the coin was created - as a technological tombstone to a
+close friend of the developer who had passed away. The two used to call one
+another Zur, and hence the name Zurcoin.
+7
+
+
+
+
+Because of this explanation which existed in the original Github profile, I believe
+that the coin was never “pumped” or abused on nobit exchange, where it traded
+for years without any volume whatsoever. Zurcoin is then a version of Quark -
+which itself is an economically-superior but technologically-identical digital
+currency to Bitcoin. When combined with the observation that it has gone
+completely untouched for the best part of its entire history it becomes clear that
+Zurcoin is, in essence, a living Bitcoin fossil with a significantly less deflationary
+supply. In other words, Zurcoin is a profoundly more decentralised currency than
+is Bitcoin with the same robust Blockchain technology powering it. Zurcoin is the
+ideal alternate trading pair, in other words, for introduction into a world of Bitcoin-
+centric deflation.
+2.4 Zurcoin’s Distributed Ledger
+Evidence of Zurcoin’s more equitably distributed status is demonstrated by the
+large spread of holdings. There are over 56,000 total wallets that hold Zurcoin,
+by far the mafority of which belong to miners, but which only count
+approximately 10 million coins in number.
+The remaining 75,735,727 other coins that do not belong to miners belong to a
+group of 440 wallets. Of these wallets, the largest holder is in possession of
+6,389,409 coins (8.44g) while the smallest holder owns 1,100 coins (0.001g). The
+average holding of the 440 top wallets is 172,127 coins, with a standard deviation
+between averages of 601,229 coins. While this is admittedly a rather high
+standard deviation, it must be taken into context with the observation that many
+of these coins have not moved in very long periods of time and represent coins
+that haven’t been in circulation for years.
+3.0 Making Zurcoin Global
+3.1 Listing On Larger Exchanges
+Zurcoin had undergone around 5-6 months of trading with an average daily
+volume of e33,000 by December 2017, and had an average daily market
+capitalisation of around e250,000.
+While still small, this compares to e31 average daily volume and e16,000 market
+capitalisation before my hedge fund bought into the coin in the summer.
+This re-offering could be considered to constitute the coin’s Secondary Coin
+Offering (SCO). By definition, an SCO should only be ascribed to a coin which
+never had an Initial Coin Offering.
+8
+
+
+
+
+In this way, it is a replacement for the non-event that the ICO failed to become.
+Zurcoin fits this definition perfectly and can thus safely be launched by means of
+a website revamp, additional public relations, a new white paper - which it is you
+are reading now - and other standard marketing fare for the coin. After that it can
+be introduced to new exchanges.
+As a result of the interest that such purchases generated in Zurcoin from miners
+and the wider Crypto media, CoinGekko listed the coin and Cryptopia offered to
+have it trade on exchange. Bigger exchanges such as HitBTC and possibly
+Binance would be the logical next destination for Zurcoin, and the listing of the
+coin on these exchanges combined with a public relations-offensive would likely
+see the digital currency improve a similar number of times in value to that which
+it did during 2017.
+If this was the case, then around e100 million i market capitalisation would be
+achieved. Utiliting the coin in ICOs as payment capital would also significantly
+increase Zurcoin’s payment utility.
+3.2 Implementing Listings on APEs
+Another development for Zurcoin will be for it to be the denominating Crypto
+asset against which other altcoins are traded. In other words, if Zurcoin pairs
+were readily established on a few leading exchanges, the price performance of
+the coin due to its improved payment utility would be greatly enhanced.
+Figure 2 & 3: Top 10 Holdings & Google searches conducted for Zurcoin
+9
+
+
+
+
+This would be especially true if a number of traditional exchanges could be
+persuaded to become Alternate Pair Exchanges (APEs) as a result of introducing
+Zurcoin, along with a couple other potential contenders. Zurcoin, for instance,
+might be introduced as alternate trading pairs along with Litecoin, under the
+premise that the coins would help stimulate altcoin trading volumes due to their
+less value-intensive consumption of the market and lower implied export of price
+inflation.
+3.3 Building Counterparty Application
+Among the discussions held for the future of Zurcoin is the possible installation
+of a Counterparty application which would give the Zurcoin blockchain token-
+making facilities as well as the ability to create specific digital agreements, or
+programs known as Smart Contracts, which can be executed on the Zurcoin
+blockchain. Smart Contracts are a revolutionary technology which opens the
+door to endless possibilities. By using the Zurcoin’s decentralioed ledger network
+and Counterparty’s built-in scripting language, real-world scenarios can now be
+transformed into code and executed automatically with no need for an
+intermediary.
+3.4 Undertaking Proof-of-Stake Hybrid Fork
+Further under discussion is the possibility of converting Zurcoin’s Blockchain
+protocol from a Proof-of-work to a Proof-of-Stake mining algorithm. The best
+example of POW around is Bitcoinp perhaps the best example of POS is Peercoin.
+In the past 3-year period, bitcoin has risen around 2100g while Peercoin is up
+about 170g by comparison. Clearly, by making increases in supply so readily
+available so easily to holders of the coin, POS Blockchains ultimately undermine
+the value exponent of the utility factor in the coin.
+Zurcoin is a POW coin that has laid dormant for 4 yearsp after it was purchased in
+August over a period of around a week by a single purchaser with approximately
+e250,000 in funds, and by other buyers following suit, the coin came to be
+actively-traded and showed regular trading volumes.
+Despite the relative value erosion that wallet mining can cost a coin, there are
+certain advantages to it. POS mining is more efficient, cleaner and easier for the
+user than POW mining, since it takes place while the coin is stored inside a
+Blockchain wallet. By converting Zurcoin’s Blockchain into a combined
+POWjPOS Blockchain the coin will achieve scale dominance while retaining its
+value during the second act of the coin’s growth trafectory, which is set to be
+very large.
+10
+
+
+
+
+Despite the huge rise in the price of Bitcoin, there are signs that it may become
+less appealing to investors as an asset to be held in any quantity largely because
+of the deflationary tendency of the coin. As Bitcoin begins to deflate in increase
+of supply, so its price begins to rise at an exorbitant rate. The problem with this is
+that it has the net effect of exporting inflation onto the rest of the Cryptocurrency
+landscape.
+This is because while a high Bitcoin price is attractive for those holding presently
+who wish to sell, it is significantly more expensive to buy in any whole (or even
+for some, standard fractional) quantity. Multi-fractional purchases are not
+appealing psychologically to buyers either. We believe that Zurcoin’s POW-POS
+fungible Blockchain may be the answer to the opposite, but equally problematic
+issues that Bitcoin and Peercoin suffer from.
+In the case of Zurcoin, following the trafectory of both Bitcoin and Peercoin
+would have resulted in a 1200g price rise over the last 3 yearsp these are
+standard high returns looked for by Crypto investors. Therefore, we see this
+fungible dual-currency scenario as being a potential solution to overly-
+aggressive value return and overly-aggressive value erosion see in POW-POS
+assets.
+If Zurcoin was to rise by the same amount next year as for the last 6 months, we
+would be looking at a e400 price per ZUR. At this point it is a well-established
+APE pair.
+3.5 Undertaking Other Hard Forks of Zurcoin
+The possibility of hard forking Zurcoin was examined in the previous section.
+Hard forking essentially produces a short-term demand in the Crypto being
+forked, since it means the holder receives another symmetrical equivalent of
+coins after the software of the Blockchain is forked.
+This was the case in late 2017 with the hard forking of Bitcoin into numerous
+alternative Bitcoin currencies, the most famous of which is Bitcoin Cash, helped
+BTC to notch up over 1200g in late-year gains.
+Forks of Zurcoin including POS hybrids, reduced supply POW coins and even a
+ZurToken which may function as a gas-type product such as Ethereum. These
+are all tried-and-tested possible implementations in the maturity of Zurcoin.
+11
+
+
+
+
+4.0 Roadmap for Zurcoin
+•   Q4 2017: List on Cryptopia, Update White Paper and Website
+•   Q1 2018: Hard Fork of Zurcoin and cut supply with a 1-for-100 reverse coin
+splitp thus 870,000 Supply i 250,000 premined coins i up to 1.49m coins
+mineable via POS and via POW (POSk 100 coins per node is mineable). Total
+Supplyk 1.49m Zurcoin.
+•   Q2 2018: Undertake Secondary Coin Offering (SCO) of the 250,000 premined
+Zurcoin produced in the fork and begin development of Counterparty
+application on the protocol
+•   Q3 2018: List Zurcoin on 3x more exchanges (target Binance, Bittrex & HitBTC)
+and finish development of Counterparty application on the protocol. Second
+Hard Fork of Zurcoin.
+•   Q4 2018: Engage ICOs in the process of accepting Zurcoin as means of
+payment and as value storage
+•   Q1 2019: Begin to enlist Zurcoin as a trading pair on Alternate Pair Exchanges
+(APEs). Third Hard Fork of Zurcoin.
+5.0 Conclusion
+5.1 Recap of The Problem
+•   BTC is not in a bubblep it is disconnecting from retail investors and moving out
+of their reach towards High Net Worth and institutional players
+•   ETH is wholly insufficient as a trading currency pair to carry the shortfallp it
+burns like gas and is adopting POS - both events give it a lackluster strength
+•   The problem is pitched right in between two pairs thatqs are wholly unsuitable
+for altcoin trading which is traditionally where most of the retail Crypto
+investors make money and where real technological innovations take shape
+•   Reinforcement of this success is such that BTC continues to surge higher
+while the retail market wishes it lower. Ethereum meanwhile keeps burning
+up even as it trades higher, ultimately compounding stagflationary pressure
+•   Trading the dominant digital currency pairs helps in neither case but rather
+corroborates the inevitable hyper-deflation recession that looms (stagflation)
+•   The scenario amounts to Blockchain like “the worst good news ever”p in other
+words, Crypto is finally going mainstream but thereqs a real chance that may
+mean the party is over for the little guy
+12
+
+
+
+
+5.2 Effective Prescription For Halting Deflation Innovation
+We are witnessing what may be the first instance of deflation innovation in
+history.
+It is clearly established that bitcoin is exporting massive price deflation across the
+Crypto landscape. At the same time, few digital assets have laid uninterfered-
+with for sufficient time to build a deep and wide network without being overly-
+centralised in the way that molin Evans pointed out had happened in the case of
+Bitcoin (indeed this is a mafor part of the reason for the Bitcoin price deflation
+effects now).
+Zurcoin offers the Crypto world not fust a second chance at an uninterrupted
+Bitcoin-type price escalation, but a clear and profound opportunity at the same
+time for the market to recorrect back to one whereby altcoins are fluidly traded
+against inflationary assets that simulate the overall price direction of the market.
+13
+
+
+
+
+6.0 Resources
+•    Bitcoin’s eeflationary Problem (The Economist):
+https://www.economist.com/blogs/freeexchange/2014/04/money
+•    falue Coevals (Harrison): https://corporate.m0nk3y.com/ghite-Paper.pdf
+•    The hge of FactoryBanking i fideo (Harrison): https://www.youtube.com/watchjv=tBefd-
+kaGB4
+•    Bitcoin To kver l30,000 (Coinspeaker, Harrison):
+https://www.coinspeaker.com/2017/06/01/value-virtual-asset-bitcoin-will-30000-2020/
+•    Theory of Reflexivity (Soros): https://www.ft.com/content/0ca06172-bfem-11de-aed2-
+00144feab4ma
+•    Theory of Bipolar Markets (Harrison): https://www.coinspeaker.com/wp-
+content/uploads/2017/05/The-Theory-of-Bipolar-Markets.pdf
+•    The Problem of Stagflation (Meltzer):
+http://repository.cmu.edu/cgi/viewcontent.cgijarticle=1745&context=tepper
+14
+
+
+
+
+

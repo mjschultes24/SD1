@@ -1,0 +1,995 @@
+﻿CriptoReal
+WHITEPAPER
+Decentralized Platform for Asset
+Transfer
+criptoreal.org
+February 2018
+Translated from Portuguese by Roberto Souza
+TWITTER:
+EXPLORER:
+twitter.com/criptoreal
+CriptoReal.info
+FACEBOOK:
+facebook.com/CriptoReal
+CRIPAG:
+DISCORD:                                      CriPag.com
+discord.gg/SUHcbyv
+
+
+
+
+Money is an agreement, usually unconscious, made
+by a community, to be used as a way of exchange.
+Dollar as the global currency was something that
+came at the end of 1945, after World War II. However,
+when a contract does not work, it is necessary to
+make the distract.
+If society begins to question the efficiency of the
+current financial model, we must consider creating
+other means of exchange among the community
+that avoid collapses.
+Complementary   currencies   are   a   possibility,
+functioning  in  parallel  with  those  already  in
+circulation, such as the dollar, which could never be
+totally eliminated
+— Bernard Lietaer
+on The Future of Money
+
+
+
+
+ABSTRACT
+Throughout the history of humanity, the need to make payments guided
+the great economic revolutions. If in the early days the problems that
+turned salt into exchange money were the little notion of value
+equivalence and the difficulty of transportation, nowadays, in the
+information age, the centralization of the financial system, abusive
+contracts with acquirers, lack of transparency in the banking system, an
+exclusionary economy and high corruption rates in government are the
+precursors of the greatest economic revolution in history, the
+cryptocurrencies.
+INTRODUCTION
+The current Brazilian financial system is centralized, bureaucratic, slow
+and expensive. Such characteristics are extremely damaging to the growth
+of an economy.
+A recent IBGE survey found that out of every ten companies, six do not
+survive after five years of activity, especially small businesses.
+According to another survey conducted by SEBRAE, 60% of e-commerces
+in Brazil ends its activities before completing one year of operation.
+What is the influence of the current financial system on the short survival
+time of these companies?
+
+
+
+
+CriptoReal
+WHITEPAPER
+Glossary
+Influence of the Financial System on Brazilian Companies
+1.1  Bureaucracy to Open a Bank account for a Company       p. 8
+1.2  The Need for Credit Card Sales Acquiring Companies       p. 8
+1.3  Abusive fees charged by Acquirers to Intermediate Transactions       p. 9
+1.4  Even More Abusive Fees to Anticipate Receivables       p. 9
+1.5  Lack of Security Regarding Receiving The Transactions Intermediated by Acquirers       p. 10
+1.6  Lack of Respect by the Acquirers       p. 11
+1.7  Registered Banking Tickets       p. 12
+1.8  Conclusion       p. 12
+Influence of the Financial System on Consumer Behavior
+2.1  The Bureaucracy in Opening a Bank Account for Individuals       p. 15
+2.2  Lack of Credit       p. 15
+2.3  Bank Withdrawal Limits       p. 16
+2.4  Financial Transactions Limits (TEDs, DOCs, Payments)       p. 16
+2.5  Bank Fees       p. 16
+Centralized and Political Dependent System
+3.1  Lack of Transparency       p. 20
+3.2  System Subject to Provisory Measures and Political Interest       p. 20
+3.3  Lack of Political Credibility       p. 21
+3.4  Lack of Security       p. 21
+3.5  Media Influence       p. 22
+3.6  Conclusion       p. 23
+4
+
+
+
+
+CriptoReal
+WHITEPAPER
+Glossary
+Introducing Criptoreal
+4.1  Technology       p. 26
+4.2  Blockchain       p. 26
+4.3  Masternodes       p. 28
+4.4  Future       p. 30
+Our Goal
+5.1  How We Intend To Solve Bureaucracy For Both, Companies and Individuals       p. 34
+5.2  Elimination of Intermediaries       p. 34
+5.3  Agility on Receiving Funds       p. 34
+5.4  Fraud       p. 35
+5.5  Cost       p. 35
+5.6  People Without Bank Accounts and Financially Excluded       p. 35
+5.7  Limits       p. 36
+5.8  Transparency and Security       p. 36
+Datasheet
+6.1  Technical Aspects       p. 38
+RoadMap 2018
+7.1  Release       p. 41
+7.2  Marketing       p. 41
+7.3  Growth       p. 41
+7.4  Consolidation       p. 41
+7.5  Implementation       p. 41
+7.6  Governance       p. 41
+5
+
+
+
+
+CriptoReal
+WHITEPAPER
+Glossary
+Useful Links
+8.1  Website       p. 42
+8.2  Wallets       p. 42
+8.3  Statistics       p. 42
+8.4  Official Explorer       p. 42
+Social Networks
+9.1  Facebook       p. 43
+9.2  Twitter       p. 43
+9.3  Facebook Group       p. 43
+9.4  Telegram Group       p. 43
+9.5  Discord       p. 43
+9.6  Github       p. 43
+9.7  Youtube       p. 43
+Contacts
+10.1  General Information       p. 44
+10.2  Development       p. 44
+10.3  Technical questions       p. 44
+10.4  Press Relations       p. 44
+References
+11.1  References       p. 45
+6
+
+
+
+
+Influence of the Financial System on Brazilian
+Companies
+7
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Brazilian
+Companies
+Bureaucracy to Open a Bank account for a Company.
+To open a bank account, a company needs the following documents:
+• Document of the incorporation of the company and its subsequent amendments. .
+• Checking receipt for the CNPJ (Company Number).
+• Checking receipt of company address.
+• Checking receipt of the last 12 months revenue.
+• Identification documents of the partners or legal representatives.
+• Checking receipt of the partners or legal representatives addresses.
+Opening this account is also conditioned on a risk analysis and the confirmation of the REGULAR situation of
+the CPF (a Brazilian document with a unique number, like a Social Security Number) of the holders and legal
+representatives, if applicable.
+Another determining factor to open this bank account is the commercial interest of the banking institution
+in that company.
+Interestingly, waiting 15 days for this analysis and receiving a negative response because of commercial
+disinterest is more common than you might think.
+The Need for Credit Card Sales Acquiring Companies.
+Acquirers are the credit card companies’ licensed members who review and accept merchants (online and
+offline) in their financial transaction program.
+Some examples of acquirers in Brazil are: Cielo, Rede, GetNet and Stone.
+The credit card companies make contact with the banks that issue the cards.
+When a transaction is approved by the bank, the card company returns this information to the acquirer, who
+authorizes the purchase process with the merchant.
+Usually, the transfer of the transaction’s value is made in 31 days (D + 30), counting from the moment of
+purchase.
+This accreditation process is time consuming, bureaucratic and financially abusive.
+8
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Brazilian
+Companies
+Interesting Facts:
+• 90% of the Brazilian marketshare belongs to Cielo and Rede.
+• Cielo and Rede belong to the four largest Brazilian banks (Cielo: Banco do Brasil, Caixa e Bradesco. Rede:
+Itaú).
+• Brazil is the largest market for cards acquirement in Latin America, adding in 2012, R$690 billion in card
+sales.
+• Considering the standard acquiring price, it is estimated that Brazil is the second largest acquiring market
+in revenue, in the world.
+• Almost 80% of all online purchases in Brazil are made with credit cards.
+• The two largest cards, Visa holds 43% and MasterCard 32% of payments made today in Brazil.
+Abusive fees charged by Acquirers to Intermediate Transactions.
+They charge very high administration fees, do not offer the necessary support and still keep the most of the
+money when the shopkeeper anticipates the receivables.
+In addition to transaction fees, one of the main sources of profit for acquirers is the rental of credit and debit
+card POS hardware used in physical stores. The use of those machines is charged monthly.
+Even More Abusive Fees to Anticipate Receivables.
+When a purchase is made via credit card, the merchant or service provider will receive the value of the
+purchase in 31 days, but their tax and supplier obligations are usually before that, which is why most of the
+businesses need to "anticipate" their sales, paying fees of up to 20%.
+9
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Brazilian
+Companies
+Lack of Security Regarding Receiving The Transactions Intermediated by
+Acquirers.
+Brazilian acquirers charge very high fees, but if a customer fraudulently cancels the transaction
+(chargeback), the money loss will always be of the store/business, that is, acquiring companies own the
+bonus and the store the burden.
+It is worth mentioning that the rate of chargebacks due to online fraud across the planet is 0.6%, however,
+Brazil is well above this number.
+It is estimated that in our country this index is 3.50% - almost 6 times higher than the world average.
+Chargebacks, with numbers well below our own, boosted, in a way, the birth of Bitcoin. Satoshi Nakamoto
+would be perplexed by all the problems that guide the Brazilian financial system.
+10
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Brazilian
+Companies
+Lack of Respect by the Acquirers.
+In addition to all bureaucracy at the time of accreditation, abusive administration fees and the practical
+stealing in anticipations, business owners still get a poor service.
+Absurd cases like having "retained" sales funds without prior communication for 30, 60 and up to 180 days
+are extremely common and often only get resolved in court (which could take up to 5 years in Brazil).
+11
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Brazilian
+Companies
+Registered Banking Tickets.
+Febraban (Brazilian Federation of Banks), recently determined that all tickets generated by services or
+commerce must be registered.
+When a person makes a purchase through a banking ticket on the internet, for example, the shopkeeper
+pays on average 2.00 Reais (about 0.75 USD ) only for this ticket issuing.
+According to data from the E-Commerce News, the conversion of banking tickets in Brazil, regarding online
+sales, does not exceed 50%.
+“"The registration mode is more expensive for the company because it can be charged up to five different rates.
+Shopkeepers who work with a large volume of tickets can negotiate good rates with banks, but the small ones
+do not have that bargaining power.”  Carlos Moura, director of the Superlogical Growth sector.
+Conclusion:
+We believe that all the points explained above serve as complicating factors for Brazilian business economic
+growth and the main foundation of these ties is the current financial system: centralized, slow, expensive,
+corrupt and bureaucratic.
+It is impossible to deny that the use of electronic payments brought great economic growth for the whole
+country, but it is also undeniable that it faces major limitations.
+The major one is the centralization of the credit card acquirers industry and its concentration in the
+Brazilian banking sector.
+Acquiring companies charge for three types of service:
+1. Fees for card transactions.
+2. Rental of equipment (POS).
+3. Prepayment of transactions (anticipation of receivables).
+12
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Brazilian
+Companies
+However, the liquidation of card payment transactions and prepayment (anticipation) depend on the banks
+to be fulfilled.
+It is not a coincidence that the largest banks in the country are shareholders or have agreements with
+acquiring companies that make difficult for new businesses to grow, making impossible to exist the
+necessary competition that permits to shopkeepers to negotiate better rates and even have some kind of
+improvement in attendance.
+It is also very important to notice that Brazilian debit cards can not be used online.
+Now let’s see how the same financial system interferes in the relation of consumption by the point of view of
+the consumer, the physical person.
+13
+
+
+
+
+Influence of the Financial System on Consumer
+Behavior
+14
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Consumer
+Behavior
+The Bureaucracy in Opening a Bank Account for Individuals.
+While the number of people employed in the private sector with a formal contract declined by 194,000 at the
+end of 2017, the total number of informal workers was increased by 411,000 in the same period.
+The biggest problem with this type of situation is the lack of proof of income, one of the many documents
+required to open a bank account.
+According to the latest PNAD data, the number of employees with a formal contract in Brazil is 33.3 million,
+while the category of employees in the private sector without a formal contract, estimated at 10.7 million
+people, and informal workers were estimated in 22.6 million.
+According to a survey conducted by the Data Popular Institute, a reference in research on popular
+consumption and in the knowledge of Brazil, about 55 million Brazilians don’t have a bank account, which
+represents about 39.5% of the country's population over 18 years old and they are approximately a R$ 655
+billion market.
+Lack of Credit.
+As mentioned above, the only way to be an online consumer in Brazil is to own a credit card, debit cards are
+not accepted and banking tickets are ineffective.
+To get a credit card, a prior analysis of the applicant's credit profile is required.
+People who are starting their financial life, people who have had troubles with credit before, people who do
+not have a formal contract and people with a low credit score will hardly succeed in this analysis.
+All of these people are excluded from online retailers who only accept credit cards as a form of payment or
+are obligated to pay abusive prepaid card fees.
+15
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Consumer
+Behavior
+Bank Withdrawal Limits.
+Normally, depending on the bank, from R$1.500,00 to R$2,500.00 can be withdrawn daily at ATMs and from
+R$1,500,00 to R$5,000.00 directly at the cashier.
+Now, if you need to withdraw more than $ 5,000.00 you need to make a previous communication to the
+bank, schedule the day and explain the reason for the withdrawal.
+The only conclusion we can have to these limits is that we have no control over our own money.
+Financial Transactions Limits (TEDs, DOCs, Payments).
+These are the maximum amounts, daily and monthly, defined for the payment transactions and transfers
+carried out in the service channels of Brazilian banks.
+Let's suppose that a great business opportunity shows up in your life and to take advantage of it, you need
+an amount of money higher than the limit of daily financial movement imposed by your bank.
+Unless you have an excellent relationship with your bank’s manager, you are more likely to miss this
+opportunity.
+Bank Fees.
+Many people have no idea how much they spend per month and mainly per year just to be able to use their
+own money.
+Bank fees, which for bankers are a real gold mine, for customers are more to a large drain, where money
+disappears without a trace.
+16
+
+
+
+
+CriptoReal
+WHITEPAPER
+Influence of the Financial System on Consumer
+Behavior
+For example, a customer who has an account with Banco do Brasil, Itaú, Santander, Bradesco or Caixa pays
+between R$36,80 and R$39,00 per month to have a tariff package that includes items such as 3 DOCs / TEDs
+(online transfers), 8 withdrawals and three extracts.
+In the hypothetical case of someone who makes 10 TEDs per month in Bradesco, for example, the monthly
+cost of this customer would be R$106,80.
+This is because the customer would pay R$38,90 per month for the tariff package that includes three TEDs
+and would have to pay for the other seven transfers, totaling another R$67,90 in one month.
+In a year, that person would pay the bank no less than R$1.281,00 (about 125% the Brazilian minimum
+wage) with these transactions alone.
+All this without including other operations that could have additional costs, like withdrawals, extracts, etc.
+Another interesting fact is the readjustment in the value of these services, which according to IDEC's latest
+survey on banking services prices, increased by up to 78.9% between November 2016 and October 2017,
+showing that most of the adjustments applied by banks in their rates were well above the inflation
+measured in the same period.
+This finding led the researchers to the following observation:
+"An abusive price increase, without evidence of a significant improvement in the services rendered, points the
+need to improve regulatory norms regarding price adjustment criteria” ( (IDEC - Brazilian Institute of
+Consumer Protection, 2017).
+17
+
+
+
+
+Centralized and Political Dependent System
+18
+
+
+
+
+CriptoReal
+WHITEPAPER
+Centralized and Political Dependent System
+Crises in the banking sector are recurrent and almost inexorable throughout the history of Brazilian banks.
+The sector has a significant weakness, since it participates in the monetary domination of the state, creates
+credit money, administers means of payment and performs compensation services.
+In addition, banking institutions are extremely indebted, through a "chain of links," so that a crisis in only
+one institution can easily become a general crisis of the whole banking system.
+The relevance of the sector can also be explained by the strategic role it plays in the economy, through
+financial intermediation and the financing of economic activities.
+Bank crises affect the economy much more deeply than crises in companies of other sectors, as they affect
+credit, interests, investments and the level of economic activity, causing capital escape and worsening the
+problems in payments balance.
+In addition, the solution of bank crises requires a large volume of public resources (Corazza, 2001).
+In general, crises are caused by the combination of macroeconomic factors, such as an environment of
+instability, and microeconomic factors.
+Microeconomic weakness may be a consequence of poor asset quality resulting from bad management or
+fraudulent practices, which in turn is mainly caused by system deficiencies.
+19
+
+
+
+
+CriptoReal
+WHITEPAPER
+Centralized and Political Dependent System
+Lack of Transparency.
+The banks' lack of transparency facilitates corruption and tax evasion across the globe. This is the
+conclusion of the research conducted by the Brazilian Institute of Consumer Protection (IDEC), which
+analyzed 47 banks from seven countries.
+According to IDEC consultant Lucas Salgado, in an interview with TVT reporter Vanessa Nakasato, problems
+resulting from bank management practices directly affect investors, clients and their employees.
+"Are harmed, the shareholder who is putting money in the bank and does not know if there are good practices
+or financial sustainability, consumers who, from the deposits, lend their resources to the banks work, and even
+the workers who may be in a company which has a vulnerable financial sustainability.”
+System Subject to Provisory Measures and Political Interest.
+Provisory Measure (MP) is an instrument with force of law, adopted by the President of the Republic, in cases
+of relevance and urgency.
+It produces immediate effects, but, fortunately, depends on the approval of the National Congress for final
+transformation into law.
+Unfortunately, most of the time, this support is exchanged for positions and political relevance among the
+parties.
+A great example of the impact of MPs on our lives was the Provisory Measure signed by Fernando Collor de
+Mello the day after his inauguration, in which he announced the confiscation of all money deposited in
+savings accounts.
+At the time, the Economy Minister Zélia Cardoso de Mello, explained that who had more than fifty thousand
+cruzeiros in savings would be with the amount deposited in the bank with the Central Bank under the
+ownership of the individual or legal entity in the form of cruzados novos and the value would be converted
+into cruzeiros after 18 months.
+It was a moment of deep national perturbation that left in the memory of many the bitter taste of
+impotence.
+20
+
+
+
+
+CriptoReal
+WHITEPAPER
+Centralized and Political Dependent System
+Mr. Collor de Mello is a 2018 elections presidential candidate.
+Many believe that with Constitutional Amendment no. 32/2001, which changed the article 62 of the Federal
+Constitution to prohibit the issuance of a provisory measure "aimed at the detention or seizure of assets, of
+people’s savings or any other financial asset", a new confiscation may not occur but it is worth noting that
+the amendment concerning confiscation prohibiting the issuance of a provisory measure does not eliminate
+the hypothesis of confiscation by proposing a new law.
+Lack of Political Credibility.
+The influence of corruption on Brazilian economic development is proportional to all the obstacles created
+by the centralized financial system in which we live.
+The presence and influence of the government in the banking and financial system is very strong in Brazil,
+which causes a low economic freedom and makes Brazilian growth impossible.
+According to a study by Economic Freedom that analyzed 180 countries in 2017, Brazil occupies the 140th
+place in the ranking of economic freedom, the country obtained 52.9 points and was classified in the "little
+freedom" category.
+Economic freedom brings greater prosperity.
+The Economic Freedom Index documents the positive relationship between economic freedom and a
+variety of positive social and economic goals.
+The ideals of economic freedom are strongly associated with healthier societies, cleaner environments,
+greater per capita wealth, human development, democracy and the elimination of poverty.
+Lack of Security.
+Throughout its history Brazil has had around 600 banking institutions, according to Coradi, today, there are
+around one hundred.
+Many have failed or merged with others to avoid bankruptcy.
+"We are an incredible bank cemetery" says the author.
+21
+
+
+
+
+CriptoReal
+WHITEPAPER
+Centralized and Political Dependent System
+Between 1946 and 2016, 233 banks were liquidated or suffered juridical intervention from the Central Bank.
+The biggest losers when these banks "die" are the small savers, investors and account holders, who almost
+always do not get their money back or have to spend years struggling judicially to get at least something
+back, almost never enough to cover court expenses.
+Cases such as Bancesa, for example, will never be forgotten by those who suddenly saw their money
+disappear.
+Media Influence.
+A news report published in the British newspaper "The Independent" accuses the Brazilian press of being
+too partisan and causing damage to the country's political process.
+The text published in '' The Independent '' is the latest and the longest to talk about a topic that already has
+appeared on other occasions in the international media.
+Journalists and foreign academics have evaluated the coverage of the Brazilian press, and criticism of
+"partisanship" is usual.
+The great truth of these statements is that, unfortunately, a large part of the Brazilian media releases news
+according to their own interests.
+The news below is a good demonstration of a practice widely used by the media in our country, the
+half-truths.
+The unemployment rate dropped to 12.6% as a result of the increase in the number of unemployed people who
+began to work informally. The omission of such an important detail has the sole purpose of making up the true
+economic situation of the country.
+It is not a coincidence that many researches show that a large number of Brazilians have no idea of the
+economic chaos we are living.
+22
+
+
+
+
+CriptoReal
+WHITEPAPER
+Centralized and Political Dependent System
+Conclusion:
+We believe that the facts exposed above, point to two very important issues in the bonds imposed by the
+current financial system on the economic growth of our country, the lack of interest to include in the system
+the people who don’t have bank accounts and the little control that the Brazilian population has over its
+own money.
+Many studies have already shown that financial inclusion is the only effective tool to achieve sustainable
+development and it can be said that these studies were more than corroborated by the use of local
+currencies, also known as social currencies.
+The existence of parallel monetary instruments is not a recent phenomenon. Throughout history, there have
+been different forms and occasions in which parallel currencies have circulated, currently the most
+widespread are social currencies.
+In Brazil, social currencies have existed for more than 10 years; they were created by community banks in
+order to make money from the residents circulate within the communities themselves, that is, to stimulate
+the local consumption and thus generate employment and income in these regions.
+The most famous of them is the one from Palmas, internationally recognized for its success.
+The former director of the Central Bank of Belgium, one of the architects of the creation of the Euro,
+consultant to multinationals and developing governments, Professor of Sustainable Development at the
+University of Sorbonne, Bernard Lietaer, explains that complementary currencies are part of the era of
+information.
+“At the beginning of the industrial age, people said that everything would change, except the horses. Because
+it was they who pulled the first machines and the first trains. Now, in the information age, people say that
+everything will change, except money. But money is information. It's amazing how people believe that the
+financial system will not change.”
+23
+
+
+
+
+CriptoReal
+WHITEPAPER
+Centralized and Political Dependent System
+“Money is an agreement, usually unconscious, made by a community, to be used as a way of exchange. Dollar
+as the global currency was something that came at the end of 1945, after World War II. However, when a
+contract does not work, it is necessary to make the distract. If society begins to question the efficiency of the
+current financial model, we must consider creating other ways of exchange among the community that avoid
+collapses. Complementary currencies are a possibility, functioning in parallel with those already in circulation,
+such as the dollar, which could never be totally eliminated ”
+Cryptocurrencies can now be considered parallel currencies and to some extent an evolution of social
+currencies, as they not only have a high power of economic democratization but also have a huge potential
+for disruption.
+It is also worth noting that the potential for disruption of a cryptocurrency in the current financial sector is
+much greater in Brazil than in other countries, not only for economic inclusion, ease of transactions and low
+cost of use, but also as an ideal form of peaceful manifestation from the society to the political-economic
+and especially moral crisis that plagues our country.
+24
+
+
+
+
+Introducing Criptoreal
+25
+
+
+
+
+CriptoReal
+WHITEPAPER
+Introducing Criptoreal
+Before we understand how our proposal is intended to minimize the problems mentioned before, we need
+to explain how the platform works.
+Technology
+Criptoreal is a decentralized asset transfer platform that uses Distributed Ledger (Blockchain) technology
+developed in 2009 by Satoshi Nakamoto. Such technology has become increasingly known due to the
+adoption of Bitcoin and other similar platforms.
+Our platform, specifically, is derived from another great technological advance in the same area, Dash,
+which, since 2014, has been adding great improvements to the technology invented by Nakamoto.
+As other decentralized platforms based on the invention of Nakamoto, Criptoreal, also has its own active,
+this active, popularly known as "cryptocurrency", has the same name of the platform, Criptoreal and its
+symbol is CRS.
+Blockchain
+The blockchain containing transactions performed in the Criptoreal platform is verified through the system
+known as Proof of Work, where a computer solves mathematical equations based on the hash of the last
+block accepted by its peers.
+26
+
+
+
+
+CriptoReal
+WHITEPAPER
+Introducing Criptoreal
+When a computer finds the solution to the mathematical equation and it is validated by its peers, it receives
+a predetermined amount of new Criptoreal.
+Due to its similarity to the process of searching for precious metals, this activity is popularly known as
+mining.
+The algorithm used in the Criptoreal’s proof of work is Lyra2z, derived from Lyra2 invented in Brazil by
+students of EPUSP, this algorithm is known worldwide for its cost x benefit ratio, being extremely safe and
+economical at the same time.
+Due to its characteristics, Lyra2z encourages the mining of Criptoreal by small miners and keeps the chain of
+blocks totally decentralized, this is specially good for Brazilians because of the high cost of electricity.
+27
+
+
+
+
+CriptoReal
+WHITEPAPER
+Introducing Criptoreal
+Masternodes
+One of the major problems of proof of work only based peer to peer platforms is the lack of incentive for a
+peer to maintain an entire copy of the blockchain, with time and adoption, the size of the chain and the
+amount of data sent between peers begin to grow, making it impracticable for most peers to maintain the
+full chain, they choose to use what is known as thin wallets, which makes unnecessary to maintain the full
+blockchain locally installed.
+This interferes negatively in the speed of communication between the pairs of the network, as shown by the
+graph below of the Bitcoin Network.
+T
+fi
+By stimulating peers, the Proof of Service allows, in the medium and long term, regardless of the size of the
+blockchain, that the speed of communication between the network is not affected.
+28
+
+
+
+
+CriptoReal
+WHITEPAPER
+Introducing Criptoreal
+Any network peer can participate in the Proof of Service program, the only requirements are, a fixed IP
+address, a fast and constant connection to the internet, enough disk space to accommodate the complete
+blockchain and a collateral of CRS 50000.
+As an incentive, the platform automatically distributes 50% of the new Criptoreal found by miners (Proof of
+Work) with the holders of these nodes (Proof of Service) and these nodes are popularly known as
+MasterNodes.
+There is only one soft limit, imposed by the collateral, for the creation of masternodes and it is the amount
+generated of Criptoreal per day, approximately 86,400, that is, if you put together all Criptoreal generated by
+the network in one day, the maximum amount of masternodes created will be approximately 1.7 per day or
+620 masternodes per year.
+This is very important to avoid attacks where 51% of the masternodes belong to the same peer, being able
+to abuse of the network.
+The return on investment of a masternode depends on the number of active masternodes in the network
+and can be calculated as follows:
+(n/t)*r*b*a
+Onde:
+n  is the number of Masternodes that an operator controls
+t    is the total number of Masternodes
+r    is the Reward per block (currently 120 CRS)
+b  is the average number of blocks per day. In the Criptoreal network is 720.
+a  is the Masternode payment average (50% of the average Reward of each block)
+As we explained above, masternodes are important for maintaining communication agility among all
+network peers, but that’s not all, masternodes also allow the transfer of resources instantly, a feature known
+as InstaSend.
+29
+
+
+
+
+CriptoReal
+WHITEPAPER
+Introducing Criptoreal
+InstaSend is fundamental to the adoption of CriptoReal in retail for not relying on confirmations of the
+whole network, only a minimum number of masternodes that validate a transfer in under 2 seconds.
+Another benefit of masternodes is the ability to merge resources to later use the PrivateSend feature, which
+is critical to maintain the anonymity of network peers that so desire.
+Compared to a traditional currency, all Criptoreal units are the same, regardless of their origin, the merge
+service serves to obfuscate, in a decentralized way, the origin of the assets in their wallet.
+Unlike platforms that are exclusively anonymous, Criptoreal users have the option of being anonymous or
+not.
+Here are two practical examples for the different cases:
+1-) The "Criptoreal" foundation is a transparent entity and has a unique Criptoreal address for donations.
+This address can be audited by anyone, you just need to access a blockchain explorer, such as
+www.criptoreal.info
+2-) Pedro is an individual and likes his right to privacy, he receives Criptoreal and chooses to use
+PrivateSend so that no one can know the origin or destination of his funds.
+Future
+A small sample of what's to come on our platform.
+Going beyond what is already possible to do with Criptoreal, the platform was launched with an
+implemented system of decentralized governance that will be activated in January 2019, approximately one
+year after the creation of the genesis (first block) of the chain.
+30
+
+
+
+
+CriptoReal
+WHITEPAPER
+Introducing Criptoreal
+From the activation of the decentralized governance system, the network will begin to create superblocks
+that will collect ten percent of all mined blocks.
+At this time, all network peers can submit project proposals through their wallets and an official website, the
+only requirement to submit a proposal is the payment of 5 CRS.
+From the moment a proposal is sent, masternode owners have 30 days to vote, they can either support
+(yes), reject (no) or even abstain.
+If the proposal is accepted by a majority of the votes, the address that sent the proposal receives the
+necessary funds to execute it, automatically, without human intervention.
+Practical example:
+Marcel sends a proposal to create a video teaching how to accept Criptoreal in e-commerce stores. To
+create the video, John asks for 300 CRS, he pays the submitting fee which is 5 CRS and the
+masternodes have 30 days to vote.
+When the deadline expires, if most of the masternodes supported John's initiative, the system
+automatically distributes 300 CRS to John's wallet.
+If most of the masternodes rejected John's proposal, he receives nothing and the funds are
+accumulated to finance other proposals.
+31
+
+
+
+
+Our Goal
+32
+
+
+
+
+CriptoReal
+WHITEPAPER
+Our Goal
+There are hundreds of new blockchain technology-based projects being rolled out across the globe and this
+number tends to grow as technology matures and gains new adepts.
+Sometimes, we see that participants of different projects believe that there is no room for more than one
+project, we disagree with this point of view and believe that any transparent, suitable and viable project
+only improves the quality of life of its users.
+We want make it clear that Criptoreal does not pretend to be "the new Bitcoin".
+Our goal in developing and making this project freely available is simply an attempt to minimize the afore
+mentioned problems that haunt our country, through a robust and transparent platform.
+So far, we do not know of any similar project that has such an objective as its main priority, but we hope that
+over time, more Brazilian professionals in the area can develop solutions that aim to help our country.
+Having said that and considering that now you know the basic functioning of our platform, see in the next
+section how Criptoreal will help the Brazilian population.
+33
+
+
+
+
+CriptoReal
+WHITEPAPER
+Our Goal
+How We Intend To Solve Bureaucracy For Both, Companies and
+Individuals
+Criptoreal can be used by anyone, regardless of gender, race, religion and financial condition, just by having
+access to the internet.
+Imagine that the Criptoreal wallet is your wallet, the one in your pocket, for you to take money from that
+wallet, you do not need to talk to anyone; to open that wallet, you do not need to show any documentation
+and, more importantly, to put money in that wallet, you do not need anyone's authorization.
+What you do with your Criptoreal wallet is also entirely your responsibility, this is how the financial freedom
+that Criptoreal offers works.
+Elimination of Intermediaries
+Transactions on the Criptoreal platform are always peer-to-peer, there is no need for any intermediary, such
+as acquiring companies, which is the case of credit cards and banking tickets.
+Just like when you take money out of your wallet to pay for bread at the bakery, you send and receive with
+the Criptoreal wallet, peer to peer and without intermediaries.
+Agility on Receiving Funds
+Generally, a normal Criptoreal transaction is confirmed by the network in up to two minutes and a transfer
+using InstaSend technology is confirmed in under two seconds.
+As on the examples mentioned above, Criptoreal works just like when you pay or receive a service in cash,
+instantly.
+In the case of small merchants and service providers, instantly means without waiting a month for a
+company that does not care about your business, give you your own money and charges you for doing it.
+34
+
+
+
+
+CriptoReal
+WHITEPAPER
+Our Goal
+Fraud
+Criptoreal transactions are irreversible and auditable, eliminating the possibility of fraud by people who act
+with bad intentions and who usually buy products or hire services to just after doing it request a chargeback
+on their credit card.
+On the other hand, the possibility of generating Criptoreal addresses with multiple signatures (MultiSig),
+allows the creation of smart contracts guaranteeing the protection of the consumer.
+Continuing the comparison with cash transfers, when you pay or receive for a service or product, that
+transfer is final and uncontested.
+Cost
+Without intermediaries, with no risk of fraud and no centralized structure, Criptoreal transactions cost up to
+2,000 times less than transactions carried out by centralized institutions.
+If Brazilian entrepreneurs can, with the current situation, offer discounts for in cash or banking tickets sales,
+imagine what it will be like when they start accepting Criptoreal on their business.
+People Without Bank Accounts and Financially Excluded
+Financial status, place of residence or credit history of those using Criptoreal is irrelevant to the platform.
+No cost to use, no documentation to file and no human intervention, you can start receiving and sending
+payments to and from anywhere in the world once you've installed the wallet.
+Brazil is a continent-sized country, it is physically and financially impossible for banks to serve 100% of the
+population, but with advances in satellite internet and projects like Google's Loon, the possibility of a 100%
+connected Brazil is a near and viable reality.
+The big problem is that, as we showed before, until today, it took much more than just a simple internet
+connection for a Brazilian citizen to be financially included.
+35
+
+
+
+
+CriptoReal
+WHITEPAPER
+Our Goal
+How many people are not consumers or suppliers because of the bureaucracy involved in the transfer of
+money?
+It is exactly for these people that Criptoreal will be revolutionary!
+Limits
+There are no limits to Criptoreal transfers.
+Going back to the examples of the traditional wallet we are used to carry in our pocket, the one who used to
+have money inside, the contents of that wallet, whatever it is, is yours, no one should have the right to
+control how much and on which way you spend your money.
+Transparency and Security
+The platform is independent of political and financial interests, is self-sustaining and decentralized, there is
+no single point of failure.
+36
+
+
+
+
+Datasheet
+37
+
+
+
+
+CriptoReal
+WHITEPAPER
+Datasheet
+Name: Criptoreal
+Symbol: CRS Bloco
+Genesis block: "Estadão 31/01/18 - MPF pede condenação de ex-presidente da Petrobras”
+Address Prefix: C
+Prefix of Script Addresses and Smart Contract: S
+Total Issuance: ~ 202.550.000 CRS
+Total in circulation: https://criptoreal.info/ext/getmoneysupply
+Premine: 1,3%
+Halving: 825,000 blocks (~ 38 months)
+Time Between Blocks: 120 seconds
+PoW Algorithm: Lyra2z
+Difficulty readjustment: 1 block (DGW v3)
+P2P Port: 5511
+RPC Port: 5512
+Masternodes: Active
+Masternode Collateral: 50,000 CRS
+Instant transfers (InstaSend): Active
+38
+
+
+
+
+CriptoReal
+WHITEPAPER
+Datasheet
+PrivateSend: Active
+Decentralized Governance: January 2019
+Source Code: https://github.com/CriptoReal/criptoreal
+39
+
+
+
+
+RoadMap 2018
+40
+
+
+
+
+CriptoReal
+WHITEPAPER
+RoadMap 2018
+1) Release                               4) Consolidation
+February - March                         August - September
+• Legal basis                            • National Exchange BRL / CRS
+• Creation of Genesis                    • Local Strategic Partnerships
+• Compiled Wallets                       • Representatives from Latin America
+• Online Wallet                          • Representatives from Rest of the World
+• Paper Wallets
+• Activation of Masternodes
+5) Implementation
+• First International Exchange
+October - November
+2) Marketing
+• Retailers and Service Providers
+April - May                              • PDV Hardware
+• Self-service totes
+• Sponsorship of Bitconf 2018            • Online Games Platform
+• Sponsorship of eSports Tournaments
+• Social Network Campaigns
+6) Governance
+• Adwords campaigns, CoinTraffic, etc.
+• National and International Press
+December - January (19)
+3) Growth
+• Fund Implementation
+• Proposal Platform
+June - July                              • Acceptance of Proposals
+• Voting for Proposals
+• Mobile Wallets                         • Execution of Proposals
+• Second International Exchange
+• E-commerce Integration
+• Members Platform
+• First CRS services
+41
+
+
+
+
+Useful links
+Website:                       Wallets:
+https://criptoreal.org/        https://criptoreal.org/#download
+Statistics:                    Official Explorer:
+https://stats.criptoreal.org   https://criptoreal.info
+42
+
+
+
+
+Social networks
+Facebook:                              Twitter:                         Facebook Group:
+https://www.facebook.com/CriptoReal    https://twitter.com/criptoreal   https://fb.com/groups/Criptoreal
+Telegram Group:                        Discord:                         Github:
+https://t.me/criptorealtalk            https://discord.gg/SUHcbyv       https://github.com/CriptoReal
+Youtube:
+https://www.youtube.com/channel/UC7M
+T2DQsEgpQ0Nw4RweZCOw
+43
+
+
+
+
+Contacts
+General Information:   Development:         Technical Questions:
+info@criptoreal.org    dev@criptoreal.org   suporte@criptoreal.org
+Press Relations:
+rp@criptoreal.org
+44
+
+
+
+
+REFERENCES:
+•https://medium.com/@seudantas/fintech-onde-est%C3%A1-o-ouro-no-brasil-8043a5cc2ed2
+•https://impostometro.com.br/
+•https://ibpt.com.br/
+•http://www.portaltributario.com.br/
+•http://portugues.doingbusiness.org/
+•https://veja.abril.com.br
+•https://www.nexojornal.com.br
+•http://www.brasil-economia-governo.org.br/
+•https://jus.com.br/artigos/60743/a-transparencia-fiscal-e-a-carga-tributaria-brasileira
+•http://www.brasil.gov.br/economia-e-emprego/2012/02/informe-se-sobre-os-principais-impostos-para-empresas
+•http://www.fenacon.org.br/
+•http://www.redebrasilatual.com.br/economia/2015/06/idec-falta-de-transparencia-aos-bancos-facilita-corrupcao-esonegacao-de-im
+postos-2618.html
+•https://idec.org.br/publicacao/os-bancos-e-voce-2011
+•https://ecommercenews.com.br/artigos/dicas-artigos/populacao-desbancarizada-conheca-as-formas-de-pagamentoutilizadas-e-o-
+perfil-de-compra-desse-publico/
+•http://www.redebrasilatual.com.br/politica/2017/05/parlamentares-legislam-em-causa-propria-para-escapar-de-dividascom-a-unia
+o
+•https://economia.uol.com.br/noticias/redacao/2017/04/20/fraudes-em-bancos-como-no-caso-do-panamericanoexistem-desde-fami
+lia-real.htm
+•http://blog.pagar.me/o-passo-a-passo-para-montar-uma-loja-virtual-de-sucesso
+•https://www.accenture.com
+•http://www.agenciasebrae.com.br/sites/asn/uf/NA/papo-de-negocio-vai-orientar-sobre-meios-de-pagamentoseletronicos,02d015f04
+6a35510VgnVCM1000004c00210aRCRD
+•http://www.infomoney.com.br/cielo/noticia/3764183/por-que-cielo-rede-continuam-reinar-setor-cartoes-consultorresponde
+•http://www.infomoney.com.br/minhas-financas/consumo/noticia/7284715/brasileiros-pagaram-bilhoes-tarifasbancarias-2017-veja-c
+omo-zerar-gastos
+•https://idec.org.br/pesquisa-do-idec/reajustes-de-tarifas-bancarias-ficam-bem-acima-da-inflacao
+•https://idec.org.br/sites/default/files/arquivos/relatorio_tarifas.pdf
+•http://www.infomoney.com.br/mercados/bitcoin/noticia/6933618/brasil-torna-maior-mercado-bitcoin-mundo-volumenegociado
+•http://www.bcb.gov.br/pre/microFinancas/arquivos/horario_arquivos/apres_116.pdf
+•http://economia.estadao.com.br/noticias/geral,moeda-social-palmas-ganha-versao-eletronica,1701248
+•https://run.unl.pt/bitstream/10362/6912/1/WPSeries_05_2011ACC%25C3%25A2ndido-1.pdf
+•https://riuni.unisul.br/bitstream/handle/12345/3035/O%20BITCOIN%20E%20SEU%20IMPACTO%20PARA%20A%20SOCIEDADE%20E
+%20PARA%20O%20SETOR%20FINANCIERO.pdf?sequence=1&isAllowed=y
+•http://direitosp.fgv.br/sites/direitosp.fgv.br/files/moedas_sociais_-_narrativa.pdf
+•https://bitcoinmagazine.com/articles/bitcoin-money-1397610852/
+•http://nakamotoinstitute.org/
+•https://bitcoin.org/bitcoin.pdf
+•https://bravenewcoin.com/assets/Whitepapers/DarkcoinWhitepaper.pdf
+•https://github.com/dashpay/dash/wiki/Whitepaper
+•https://steemit.com/cryptocurrency/@rrrenaldooo/what-is-hybrid-blockchain-proof-of-work-and-proof-of-stake-explained
+•https://en.wikipedia.org/wiki/Lyra2
+•http://lyra-2.net/
+•https://www.finextra.com/finextra-downloads/newsdocs/mercado_bitcoin-_relat%C3%B3rio_santander.pdf
+
+
+
+
+

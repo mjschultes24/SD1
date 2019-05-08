@@ -1,0 +1,1233 @@
+﻿Lawrence Rajendran, Thomas Bocek, Lucas Pelloni, Amani Said, Soenke Bartling,
+Jon Tennant, Tamara Zaytouni, Jonny Burger, Isabelle Siegrist and Thomas C. Südhof
+
+
+
+
+DISCLAIMER
+EUREKA Blockchain Solutions GmbH ("EUREKA" or "we") (incorporation and registration in
+process) provides this white paper for informational purposes only. Nothing in this white
+paper shall be construed as an offer to sell or buy securities in any jurisdiction, or a
+solicitation for investment, or an investment advice. The white paper does not regulate
+any sale and purchase of EUREKA tokens (as referred to in the white paper). The purchase
+of EUREKA tokens ("EKA" or "EUREKA tokens") is subject to the Token Sale Terms and
+Conditions and the use of EKA is subject to the Platform Terms and Policies.
+This white paper describes the current vision of EUREKA Blockchain Solutions GmbH for the
+EUREKA Platform. While we intend to attempt to realise this vision, please recognise that it
+is dependent on a number of factors and subject to risks. It is entirely possible that the
+EUREKA Platform will never be implemented or adopted, or that only a portion of our vision
+will be realised. We do not guarantee or warrant any of the statements in this white paper,
+because they are based on our current beliefs, expectations and assumptions, about which
+there can be no assurance due to various anticipated and unanticipated events that may
+occur.  Blockchain,  cryptocurrencies  and  other  aspects  of  the  technology  used  for  the
+EUREKA Platform are in their infancy and will be subject to many challenges, competition
+and a changing environment. We will try to update our community as things grow and
+change, but undertake no obligation to do so.
+Due  to  the  retrospective  nature  of  regulatory  action  or  guidance,  we  can  make  no
+guarantees regarding the legality of the EUREKA Platform or the EUREKA token launch in
+any given jurisdiction. We must operate the EUREKA Platform in accordance with the laws
+of relevant jurisdictions. As such, the EUREKA Platform or EUREKA tokens may not be
+immediately available in certain countries.
+EUREKA tokens are functional cryptographic tokens interacting with the EUREKA Platform
+and the public Ethereum Blockchain. EUREKA tokens are non-refundable and are not for
+speculative investment. No promises of future performance or value are or will be made
+with respect to EUREKA tokens, including no promise of inherent value, no promise of
+continuing payments, and no guarantee that EUREKA tokens will hold any particular value.
+EUREKA tokens are not securities and are not a participation in EUREKA Blockchain Solutions
+GmbH. EUREKA tokens hold no rights in EUREKA Blockchain Solutions GmbH.
+This white paper may be updated or altered, with the latest version of the white paper
+prevailing over previous versions and we are not obliged to give you any notice of the fact
+or content of any changes. The latest version of the white paper in English is available at
+the website https://eurekatoken.io. While we make every effort to ensure that all data
+submitted in the white paper is accurate and up to date at the point in time that the relevant
+version has been disseminated, the proposed white paper is no alternative to consulting an
+independent 3rd party opinion. The white paper does not constitute an agreement that
+binds EUREKA Blockchain Solutions GmbH. EUREKA Blockchain Solutions GmbH, its directors,
+officers, employees and associates do not warrant or assume any legal liability arising out
+1
+
+
+
+
+of or related to the accuracy, reliability, or completeness of any material contained in the
+white paper.
+To the fullest extent permitted by any applicable law in any jurisdiction, EUREKA Blockchain
+Solutions GmbH disclaims all liability to you and everyone else in respect to the content of
+this white paper, whether under any theory of tort, contract or otherwise and whether in
+respect of direct, indirect, consequential, special, punitive or similar damages. Persons who
+intend to purchase EUREKA tokens, should seek the advice of independent experts before
+committing to any action, set out in the white paper.
+Nothing in this Agreement shall be construed as creating the impression that Sciencematters
+AG  is  either  developing  or  launching  the  EUREKA  Platform,  issuing  EUREKA  tokens  or
+guarantees or warrants for anything set out in this white paper, including but not limited to
+the EUREKA Platform or the EUREKA tokens. All personnel referred in this white paper will
+be engaged by EUREKA Blockchain Solutions GmbH for the purpose of developing the EUREKA
+Platform and/or issuing the EUREKA tokens. In such case, the personnel acts solely for
+EUREKA Blockchain Solutions GmbH.
+EUREKA Blockchain Solutions GmbH is and will remain at all times an independent and solely
+responsible for the EUREKA Platform, the EUREKA tokens and all information and content
+set out in this white paper. EUREKA Blockchain Solutions GmbH shall not be considered as
+acting on behalf of Sciencematters AG. EUREKA Blockchain Solutions GmbH will not have
+any right, power or authority to create any obligation, express or implied, on behalf of
+Sciencematters AG nor does EUREKA Blockchain Solutions GmbH act or represent or hold
+itself out as having authority to act on behalf of Sciencematters AG, or in any way bind or
+commit Sciencematters AG to any obligations.
+2
+
+
+
+
+TABLE OF CONTENTS
+Background ...                                                                                                   .. 5
+Blockchain (R)evolution for Scientific Research ...                                                              ... 5
+Introduction to ScienceMatters ...                                                                               .. 5
+EUREKA brings the Blockchain ...                                                                                 ... 6
+ScienceMatters on blockchain - Introduction to the EUREKA Platform ...                                           .. 6
+Problems and Solutions ...                                                                                       .. 6
+Problem 1 - Long Delays in Publishing Research ...                                                               ... 6
+Solution 1: Rapid publication of single observations and preprints on the blockchain ...                         .. 8
+Problem 2 - Overreliance of trust in researchers, peer reviewers and publishers that creates irreproducibility
+and unreliability in science ...                                                                                 ... 8
+Solution 2: Blockchain-based timestamping and peer reviewing ...                                                 . 10
+Problem 3 - Absence of fair credit for contribution ...                                                          .. 11
+Solution 3 - Smart Contract-based Payment of Peer Reviewers and Editors ...                                      ... 11
+Stakeholders ...                                                                                                 .. 12
+EUREKA Blockchain Solutions GmbH Products ...                                                                    .. 12
+REWARD System Powered by EUREKA Tokens ...                                                                       . 12
+White Labelling of the Platform and Licensing of the Blockchain-Based Publishing Technology ...                  ... 17
+Research Data Management Platform ...                                                                            ... 17
+Data Analytics ...                                                                                               .. 17
+Funding Platform ...                                                                                             .. 17
+Research Related Marketplace ...                                                                                 . 17
+Use Cases ...                                                                                                    ... 18
+Use Case 1: A researcher in a remote part of the world discovers a potential new drug or extract but cannot
+publish this observation ...                                                                                     .. 18
+Use Case 2: A researcher from an established research institute delays publication of their findings for
+several years ...                                                                                                . 18
+Use Case 3: Scientists have neither the time to conduct peer reviews, nor are they incentivised to do so
+financially ...                                                                                                  ... 18
+Use Case 4: An author contributes an idea, however, this author doesn’t receive any form of financial
+reward in the event that the idea is used by a third party ...                                                   . 18
+Use Case 5: A marketplace for matching research ideas with funding ...                                           . 19
+Technology ...                                                                                                   . 19
+The EUREKA Token (EKA) ...                                                                                       .. 20
+Uses ...                                                                                                         .. 20
+Token Flow ...                                                                                                   .. 21
+Token Sale ...                                                                                                   ... 22
+Token Allocation ...                                                                                             ... 22
+Business model and Revenue Streams of EUREKA Services ...                                                        .. 23
+Why invest in the EUREKA ICO? ...                                                                                .. Error! Bookmark not defined.
+Use of Funds ...                                                                                                 .. 23
+3
+
+
+
+
+Presale ...                                                   ... 24
+Crowd sale ...                                                . 24
+If Soft Cap Is Not Met ...                                    . 24
+If Hard Cap Is Not Met ...                                    ... 24
+Token Type ...                                                ... 24
+Token Buying Process ...                                      . 24
+Compliance and Regulatory ...                                 .. 25
+Sciencematters EUREKA Foundation ...                          . 25
+Roadmap ...                                                   ... 25
+Phase 0: Q1 2018: Current operations ...                      ... 25
+Phase 1: The Pre-ICO - ...                                    ... 26
+Phase 2: ...                                                  .. 26
+Phase 3: ...                                                  .. 26
+Phase 4: Q1 2019 - Launch and deployment of the mainnet ...   .. 27
+Phase 5: 2019 and further ...                                 ... 27
+Sciencematters AG ...                                         . 28
+EUREKA Blockchain Solutions GmbH ...                          . 28
+Team, board and advisors ...                                  .. 28
+Team Achievements and Endorsements ...                        ... 34
+Milestones ...                                                ... 34
+References ...                                                . 35
+4
+
+
+
+
+Background
+At present, scientific and medical research is typically submitted to be peer reviewed and
+then published in academic journals. According to the International Association of Scholarly
+Publishing’s market report from 2015, the total market is estimated to be worth over $25
+billion USD a year, and of that over $10 billion USD is in the English language. The publishing
+industry employs a highly exploitative practice, in particular some of the largest publishers,
+with profit margins around 40% after tax. The research publishing industry is dominated by
+a small number of publishers that charge high fees to authors to publish. The current system
+is exploiting publicly funded research by setting up paywalls to access knowledge that has
+been reviewed for free by researchers and frequently paid for with public funds. The vast
+majority of research still remains inaccessible to most people on the planet (Piwowar et al.
+2018). This has deep and negative consequences for the progress of research, and its wider
+use  in  society  to  help  resolve  major  issues  which  affect  the  world’s  economies,  the
+environment, and health (Bartling and Fecher 2016).
+Blockchain (R)evolution for Scientific Research
+The way computer services are organised today has become so second nature to us that we
+don’t question it anymore. We know that we have to trust our banks, online social media
+platforms,  etc.  Blockchain  technology  approaches  this  issue  differently.  As  the  trust
+machine,  a  computer  service  becomes  independent  of  the  control  of  the  underlying
+hardware.  Computer  data  becomes  as  trustworthy  as  a  signed  piece  of  paper,  i.e.  a
+contract. Computer services become provable and distributed among many systems, which
+are two of the major advantages of peer-to-peer networks.
+Blockchain has the capacity to make research findings in the digital format immutable,
+transparent,  decentralised,  and  distributed.  Besides  initial  experiments  and  data
+acquisition, many parts of the research cycle could take place within a blockchain system.
+Hypothesis  generation,  discovery,  attribution,  incentivisation  via  smart  contracts,  and
+publication and dissemination can all be done on the EUREKA Platform hosted on the
+blockchain.  This  bears  the  potential  to  be  a  new  approach  to  resolving  the  current
+reproducibility  crisis  in  science,  reducing  waste,  and  making  more  research  results
+available. Beyond that, the EUREKA blockchain-based platform could be used to reduce
+overhead  costs  and  accelerate  the  scientific  process  and  incentivise  true  innovation
+(Bartling and Fecher 2016).
+Introduction to ScienceMatters
+In late 2015 Sciencematters AG was founded as the next-generation digital platform for
+scientists  to  publish  single,  validated  research  observations.  The  current  platform  is
+centralised, operational, and revenue-generating. It is an open access digital publishing
+platform  that  covers  the  entire  scholarly  publishing  process:  authoring,  submitting,
+reviewing, editing and publishing  - all in one unified workflow. ScienceMatters enables
+scientists to rapidly publish their results by accepting single observations and leveraging the
+powers of modern web-based technologies to help democratise science publishing.
+5
+
+
+
+
+EUREKA brings the Blockchain
+EUREKA Blockchain Solutions GmbH (incorporation and registration in process), will become
+a provider of technology to publishers both indirectly and directly, and will develop all the
+blockchain-based technology to enable a more efficient and trustworthy publishing process
+by introducing the EUREKA Platform for timestamping discoveries, rewarding reviewers and
+decentralising publishing. Furthermore, the EUREKA token powers the REWARD system,
+which supports to solve fundamental issues inherent to the current scientific research
+systems. This allows publishing houses, such as ScienceMatters, to be a single observation
+publishing house while running their operations over the technology platform provided by
+EUREKA  Blockchain  Solutions  GmbH.  Publishing  houses  will  paylicense  fees  to  EUREKA
+Blockchain Solutions GmbH for the use and integration of the EUREKA Platform.
+ScienceMatters on blockchain - Introduction to the EUREKA Platform
+The  EUREKA  Platform,  operated  by  EUREKA  Blockchain  Solutions  GmbH  (incorporation
+pending), is a token-operated science publishing ecosystem on a blockchain. Using smart
+contracts on the EUREKA Platform, the whole publishing process  - including submission,
+reviewing,  rating,  decentralised  publishing  and  funding  decisions  can  be  made  more
+efficient.
+Problems and Solutions
+Academia is facing well-documented serious challenges from current models for scholarly
+publishing including:
+a) Long delays in publishing research
+b) Overreliance of trust in researchers, peer reviewers and publishers that
+creates irreproducibility and unreliability in science
+c) Absence of fair credit for contribution
+Problem 1 - Long Delays in Publishing Research
+When researchers make a discovery or observation of scientific or medical value, it can take
+many years before it is published. Delays affect the pace of research and slow down the
+spread of ideas. Valuable public and private resources, and time are wasted.
+●   Inefficient publication process: After assembling research data to form a narrative,
+researchers submit it to a scientific journal, where most of the time the paper is
+rejected, or revisions are requested, and the authors start the process of submitting
+to another journal all over again, making this process extremely inefficient. Each
+journal can take between  3 and  24 months  (or sometimes longer) to review a
+submitted paper. The publication rate varies amongst journals, but most renowned
+6
+
+
+
+
+journals typically have very low publication acceptance rates (often less than 10%).
+This affects the dissemination of discoveries.
+●                                                                                           Fear of getting scooped: The fact that their work needs be deemed novel at the time
+of publication means scientists often do not share their work before publication.
+They fear that someone might take their unpublished work and use it without giving
+due credit or use it to make new discoveries
+before they have been able to extract all of the
+potential  value  from it.  The current system
+typically  only  publishes  complete  or  full,
+positive stories and, consequently, it takes a
+long time to finalise a study for publication.
+●                                                                                           Many observations that do not fit a narrative
+remain  unpublished:  Traditional  publishers
+demand  that  only  story-based  studies  be
+accepted  for  publication.  Therefore,  researchers  often  omit  findings  in  their
+research papers that are not relevant to them or that contradict the narrative.
+Authors  wishing  to  publish  are  unable  to  be  fully  objective  towards  their  own
+research, and they may overestimate the validity of their data in order to create a
+story. Authors are also trusted to remain objective in the face of hypothesis-defying
+results and to interpret the data carefully and objectively. One large market segment
+that remains untapped at present is the huge volume of unpublished scientific
+research.
+Typically Unseen Data
+-                                                                                           Negative / Not
+Journals publish
+conclusive
+-                                                                                           Replicative / No                                                                      only “story
+novelty
+worthy results”
+-                                                                                           Experimental / no
+resources to make it
+publishing worthy
+90 % of scientific data is never published
+•   Closed Science: There are long delays in publishing, combined with the long times
+needed to make narratives from simple observations and the reluctance to share
+unpublished  work.  While  there  are  initiatives  in  open  science  emerging,  the
+widespread adoption of such technologies has been slow. One notable limitation is
+the current science publishing system, which arose at a time when ‘closed science’
+7
+
+
+
+
+policies of private data, confidentiality, and restricted access were the norm. Today,
+multi-billion-dollar publishing companies actively perpetuate these ‘closed science’
+policies, which lie at the heart of their business models.
+Solution 1: Rapid publication of single observations and preprints on
+the blockchain
+The  EUREKA  Platform  will  ensure  rapid  publication  of  quality  research.  Authors  and
+academic institutions will be able to publish research meta data immediately in the open
+access  EUREKA  Platform.  The  research  meta  data  is  timestamped  and  added  to  the
+blockchain. The reviewing is performed later and submitted to the smart contract. The cost
+to  publish  a  single  observation  on  the  open  access  EUREKA  Platform  will  remain
+competitively priced and lower than other open access journals. By using a blockchain-based
+system the EUREKA Platform will be highly efficient, rapid, and scalable, thus reducing
+overhead. The potential market for the EUREKA Platform is substantial and global. The
+platform will cover multiple fields including life science, medicine, engineering and social
+sciences, thus further increasing the potential market for the platform.
+Problem 2 - Overreliance of trust in researchers, peer reviewers and
+publishers that creates irreproducibility and unreliability in science
+The  present  system  is  insufficiently  objective  as  it  relies,  at  each  stage,  on  certain
+assumptions, trust and good faith.
+8
+
+
+
+
+Overreliance of trust in the authors: In the current system, authors wishing to publish are
+unable to be fully objective with their own research, and may overestimate the validity of
+their data in order to create a story that is deemed suitable or novel enough for publication.
+Since most of the data that is obtained by researchers and authors is in a centralised system
+such as on their local server or computer, data can be manipulated or changed to sell the
+best narrative. Authors are also trusted to remain objective in the face of hypothesis-defying
+results and to interpret the data carefully and objectively. However, some scientists do take
+advantage of the present situation to manipulate data to varying degrees and thus corrupt
+the system. Scientists feel the pressure to omit ‘inconvenient truths’ that interfere with
+their developing storyline as the system demands narratives, rather than science in order to
+publish.  This  also  leads  to  irreproducibility.  Estimates  are  that  around  two  thirds  of
+published work is not reproducible. (Economist 2013) (“Opinion | Scientists Who Cheat”
+2015) (“Fraud in the Scientific Literature” 2012)
+According to a survey of 1500 scientists
+conducted by the science journal
+Nature, more than 70% have been
+unable to reproduce another scientist’s
+experiments. Even more worrying, over
+50% of those surveyed were unable to
+reproduce their own experiments. As a
+result, much time and billions of dollars
+are wasted pursuing drug candidates
+that have already been found in
+unpublished research not to be
+effective. This is what is known as the
+‘reproducibility’ crisis. It is estimated
+that in the US alone, pharmaceutical
+Figure:   https://www.nature.com/news/1-500-scientists-lift-
+companies waste $28 billion annually
+the-lid-on-reproducibility-1.19970
+on irreproducible life sciences
+research. The top ten biopharma companies spent $63 billion on Research and
+Development in 2016. Being able to reproduce results is one of the cornerstones of high
+quality science. However, most journals are not interested in publishing reproduced
+results, as they are deemed to have low commercial value.
+●   Scientists are unable to easily verify whether a finding is true or not.
+●   A substantial amount of research, which could contribute massively to the scientific
+world and society at large whole is wasted and never published.
+●   Money, resources, and time are wasted trying to perform analyses and gather data
+that have been done before, but simply never published.
+Overreliance of trust in the peer review system: Peer review is fundamental to scientific
+research and publishing. It forms the basis for quality control of academic research, by
+having scientists in the same field review each other's work and provide feedback to help
+decide if the research should be published or not. However, it is unclear whether it meets
+these simple requirements, and there is large potential for disruptive innovation in this area
+(Tennant et al. 2017).
+9
+
+
+
+
+●   Bias: Editors and reviewers know the identity of the authors, and as editors and
+reviewers are typically in the same field, they frequently know each other
+personally. This opens the peer review system to potential personal, professional
+and social bias, both intentional and unintentional.
+●   Wasteful: Often, manuscripts must go through repeated rounds of the ‘reject and
+resubmit’ cycle at different journals as researchers search for a publication venue.
+This delays the communication of research while exposing redundancy in the process,
+as these reviews will often never be shared or used.
+Over-reliance of trust in the publishers: control of the middlemen: Publishers profit from
+publicly funded research, which they have not directly paid for. The cost and risk of publicly
+funded research is therefore often on the taxpayer.
+●   Publishers demand that only story-based studies be published. Therefore, many
+observations that do not fit a narrative remain unpublished. During a research study,
+researchers make observations and discoveries which for various reasons are not
+published. Observations may be unrelated to the researcher’s area of study, resulting
+in the researcher not including it in the research paper as it is not relevant to them
+and it would  cost more  money to undertake  additional  research  to  investigate
+further. The researcher may not understand the importance of their finding, or the
+finding may be interesting  but run  counter  to the narrative  of  the  article  the
+researcher is writing  (McCook  2016)  (“Why Publish Single Observations? Because
+Science Matters” 2016).
+●   Because of the  “publish or perish” culture in academia, there are a number of
+predatory  publishers  who put profit before quality of  the manuscripts  and this
+corrupts scientific literature (“Website” n.d.) (Beall 2012).
+Solution 2: Blockchain-based timestamping and peer reviewing
+EUREKA Blockchain Solution GmbH’s first client, Sciencematters AG, currently institutes a
+triple-blind peer review system that aims to eliminate personal, professional, and social
+bias, in which the identity of authors, of editors and of reviewers are unknown to all. As a
+result, they evaluate each observation solely on its merits, without regard to the authors’
+reputations, identities, institutions, gender, race, or nationality. Sciencematters AG also
+improves the peer review process by scoring observations on a 0-10 scale rather than the
+non-quantitative and somewhat meaningless ‘thumbs-up, thumbs-down’ approach of other
+journals.
+The EUREKA Platform will provide researchers with additional benefits such as enhanced
+preprint service, which will include decentralised, crowdsourced open peer reviews as well
+as expert opinion and feedback paid in EUREKA tokens and timestamped on the EUREKA
+Platform. Preprints will be citable and will ensure that researchers who make discoveries
+get  the  credit  they  deserve.  In  this  way,  we  necessitate  the  placing  of  trust  in  a
+decentralised manner on authors, reviewers or publishers.
+10
+
+
+
+
+Problem 3 - Absence of fair credit for contribution
+Typically, both authors and reviewers currently get almost no direct compensation for the
+scholarly work that they perform in publishing and reviewing. The high cost to publish peer
+reviewed research means researchers have a barrier to publish and share knowledge with
+society and the scientific community. To publish in the largest traditional journals, authors
+often have to pay APCs (article processing charges) of over $5000 USD.
+Reviewers conduct peer reviews without receiving a fee or any other form of compensation
+for their time and effort. Despite of the fact that valuable time is needed to conduct peer
+reviews, reviewers frequently don't allocate sufficient hours to properly assess the quality
+of the research.
+Solution 3 - Smart Contract-based Payment of Peer Reviewers and
+Editors
+Currently, only few publishing houses such as Sciencematters AG pay editors and reviewers
+part of the article processing charges. Interestingly, while there are tens of thousands of
+journals, only four of these pay reviewers, and Sciencematters AG is one of them.
+The EUREKA Platform will bring, compared to current structures, much required speed,
+reproducibility, democracy and honesty to science publishing; accelerating the pace of
+research, and thereby improving the entire scientific enterprise. Through smart contracts,
+the editors and reviewers who carry out the quality control of each study, can now be
+autonomously and automatically paid.
+11
+
+
+
+
+Stakeholders
+Authors: The scientists and researchers who conduct research and wish to publish and share
+their research in peer reviewed journals.
+Researchers: Scientists who need access to research to study other researcher’s findings.
+Open access publishers: The first of which will be Sciencematters AG.
+Academic institutions: Often the cost for an author to publish in academic journals is paid
+for by academic institutions. Institutions are also charged subscription fees to access the
+same journals.
+Governments: Research is funded with public grants and contracts.
+NGOs: Charitable foundations, trusts, funders of research.
+Private enterprises: The private sector develops applications, drugs, and technologies based
+on prior research. Firms fund research, conduct studies in house and collaborate with
+academic institutions.
+General Public: Individuals and corporations fund research through their taxes, and in turn
+benefit from scientific and medical discoveries.
+Funding agencies and institutions: Entities which fund research, and which are indispensable
+for a viable proposal of a research project.
+EUREKA Blockchain Solutions GmbH Products
+REWARD System Powered by EUREKA Tokens
+1.      Revelation
+2.      Evaluation
+3.      Worth assignment
+4.      Award
+5.      Replication
+6.      Data analytics
+Revelation - Timestamping of Discoveries in the Early Stages to Avoid Getting Scooped and
+Prevent Tampering
+Scientific observations and the author’s research topic will be timestamped, hashed and
+recorded on the public Ethereum blockchain. This gives the author or inventor immediate
+ownership rights. This ensures that scientists’ and researchers’ discoveries are tamper-
+proof. This has important ramifications for protecting intellectual property, preventing
+‘scooping’ and helps to avoid delays in discovery and communication, as well as data
+manipulation and delays.
+12
+
+
+
+
+Evaluation: Peer-to-Peer Evaluation of Observations and Preprints
+Once  registered  on  the  EUREKA  Platform,  single  observations  and  narrative  preprints
+undergo crowdsourced, peer-to-peer reviews which are transmitted and recorded on the
+EUREKA Platform. Single observations are subject to triple-blind peer evaluation where
+authors, reviewers and editors are unaware of the identity of each another. Preprints of
+manuscripts, on the other hand, will follow a two-step open peer review process, first by
+researchers in training who will evaluate the work and add their annotations, focusing
+mostly on technical details. This is followed by a formal review of the annotated work by
+select experts in the field in question, who take the annotated comments into account when
+giving expert rating and review. The EUREKA Platform will make use of crowdsourced
+wisdom. It will also allow reviewers to get fast, accurate evaluations of the work, instead
+of being restricted to one or two reviewers, as is common practice. Reviewers will be
+compensated in EUREKA tokens for their work.
+Having research available in the public domain offers the following advantages:
+a) it allows real-time, scientific self-correction and peer review of the research
+b) it eliminates the hindering of scientific progress caused by delays in scientific publishing.
+13
+
+
+
+
+Worth Assignment: Rating and Review
+Following review, each manuscript will be rated based on:
+1) Technical quality
+2) Scientific impact
+3) Societal impact
+4) Creativity and novelty
+5) Robustness
+The EUREKA Platform’s crowdsourced scoring of preprints will provide researchers as well
+as publishers with a new metric that can be used to evaluate submissions more swiftly thus
+speeding up the publication process. With both crowdsourced annotation and expert-guided
+peer-review, our scores are, and will be, more reliable and representative. Our review
+process will also allow authors to appropriately revise and improve the paper. Once the
+paper is revised, final review and ratings will be openly appended to the preprints. These
+preprints or observations with ratings and reviews will be archived through the EUREKA
+decentralised and distributed system. In cases where the author wants to publish in a
+traditional journal, the scores can be transferred to the journals. These scores are also
+available to funders, universities and prize or awards committees.
+Decentralised archiving: Publishing on EUREKA’s blockchain-based platform ensures that
+research  meta  data                                                                           (no  personal  information)  is  immutable,  timestamped,  version
+controlled, and securely distributed. This will provide an ideal system for research data
+management that lessens the need to rely on trust alone in publishers and authors. All the
+processes and outputs (e.g. data, protocols, code) are all open and transparent, therefore
+ensuring maximum visibility and verification.
+We  can  maximise  access  to  research  without  putting  up  barriers.  Using  blockchain
+technology, we can reduce instances of single points of failure. Researchers themselves are
+fully in control of the entire process of dissemination. There is no risk of the information
+ever disappearing, due to the distributed nature of blockchain.
+14
+
+
+
+
+Award: Funding, Career Advancements and Awards
+Decisions on career advancement, tenure, funding, and awards are all mainly based on
+where the research is published, resulting in pressure on researchers to publish in traditional
+“high impact” journals. EUREKA will have the first blockchain-based scientific rating system,
+preprint server, and single observation platform that provide reliable, immutable scores on
+research data that can be transferred on the blockchain to funders, institutions and directly
+to journals.
+Decisions on funding: Since the EUREKA Platform will use crowdsourced annotation and
+expert peer review ratings, the scores are more reliable and representative. Thus, sources
+of funding could make decisions based on ratings and reviews on the EUREKA Platform.
+Decisions on career advancements: Scores and ratings of a specific study for which the
+research meta data has been recorded on the EUREKA Platform can be transferred to
+institutions and universities to be used when a researcher is considered for promotion,
+tenure, or awards. The current evaluation for career advancement based on traditional
+publishing and its journal-based metrics could be replaced by preprints with EUREKA ratings.
+Decisions on awards and prizes: Several academic prizes, including the famous Nobel Prize,
+the Breakthrough Prize, and the Lasker Prize are awarded to outstanding researchers. The
+evaluation  process  for  these  prizes  takes  into  account  where  the  authors  have  been
+published and thus our rating and review system on research data could eventually form
+part of the criteria for selection. The award committee could also take into account both
+the crowdsourced annotation as well expert-guided reviews and ratings as opposed to the
+current way of simply judging where a work has been published.
+Note: No personal information of any person involved in the process of the EUREKA Platform will be stored on the public
+Ethereum blockchain. Only scientific observations and the author’s research topic will be timestamped, hashed and recorded
+on the public Ethereum blockchain
+15
+
+
+
+
+Replication
+A decentralised peer-to-peer review system based on smart contracts fosters a collaborative
+environment and incentivises replication research to either confirm or contradict existing
+studies. This ensures the reproducibility of findings. And it minimises wasteful time and
+financial spending. We envisage a scenario where EUREKA tokens are allocated to pay for
+replication studies. Researchers confirm the study, and both the original author and the
+replicating  author  are  automatically  compensated  with  EUREKA  tokens  by  the  smart
+contract interacting with the EUREKA Platform.
+Data Analytics
+An artificial intelligence-based prediction tool will make use of proprietary algorithms which
+will identify related studies and observations by cross referencing annotations and link them
+to  form  a  narrative.  This  technology  could  be  leveraged  to  predict  targets  for  drug
+development.
+The EUREKA Platform ensures that its content is archived through a distributed server
+network. Raw data is accessible on the platform and sharing is encouraged from all authors.
+Due to the importance of data in research, the sharing of raw data will soon be a mandatory
+part  of  each  submission.  Automated  data  analysis  tools  using  data  templates  will  be
+developed to encourage community-based evaluation of raw and formatted data.
+16
+
+
+
+
+White Labelling of the Platform and Licensing of the Blockchain-Based
+Publishing Technology
+The EUREKA publishing platform will be licensed for use by societies and universities as a
+“white  label”  product,  branded  with  names  of  institutions  and  logos  and  marked  as
+“powered by EUREKA Platform”.
+Research Data Management Platform
+A platform where researchers can record their data, and then easily submit them for peer
+review or combine them into manuscripts to be published as preprints.
+Data Analytics
+An AI-based system that will provide analysis of datasets, suggest publications for citations
+or similarities by scanning annotations and keywords. A statistical analysis tool that will help
+detect plagiarism and mathematical errors in data.
+Funding Platform
+A platform to both award and request funding on a peer-to-peer and decentralised basis for
+scientific research, prizes for solving scientific problems, using EUREKA tokens.
+Research Related Marketplace
+An online marketplace where scientists and firms can buy and sell research related products
+and services in a decentralized and direct manner with EUREKA token.
+17
+
+
+
+
+Use Cases
+Use Case 1: A researcher in a remote part of the world discovers a
+potential new drug or extract but cannot publish this observation
+Under  the current publishing system,  Alexander  Fleming  could  not have  published  his
+discovery of penicillin. Often in science, the implications of a discovery are not immediately
+apparent. It is doubtful that Benjamin Franklin could have perceived the multiple uses of
+electricity when he first discovered it. By providing a platform for single observations to be
+published, scientists can take credit for the initial discovery, enabling other scientists and
+researchers to then build on their findings. Due to the low percentage of scientific research
+that is ultimately published, there may well be important scientific discoveries that have
+already been made but are as of yet unpublished.
+Use Case 2: A researcher from an established research institute delays
+publication of their findings for several years
+The existing system in academia incentivises researchers to delay publishing research until
+they have a sufficiently large ‘story’ in order to further their careers. As a result, several
+years can pass until important findings are published. A researcher can instead publish
+multiple single observations on the EUREKA Platform, giving other scientists the chance to
+incorporate these observations into their own research. As the single observations are
+recorded and timestamped on the blockchain, the researcher can take credit for their work
+immediately. This will be especially useful for junior researchers looking to make an early
+mark on their careers.
+Use Case 3: Scientists have neither the time to conduct peer reviews,
+nor are they incentivised to do so financially
+Peer review is a time consuming and unrewarded task expected from scientists. On the
+EUREKA Platform, by enabling smart-contract based payments, reviewers will be rewarded
+for conducting peer reviews in tokens. ScienceMatters is the first client to implement this
+technology. Today, ScienceMatters is one of the few publishing houses which rewards peer
+reviewing  financially,  however,  using  fiat payments  results  in high fees  and delays  in
+payments. On the EUREKA Platform, tokens will be used to incentivise review with fast and
+fair payment.
+Use Case  4: An author contributes an idea, however, this author
+doesn’t receive any form of financial reward in the event that the idea
+is used by a third party
+Discoveries from publicly funded research are currently published in journals that then
+profit from the publication of the findings, while authors are not rewarded. The EUREKA
+18
+
+
+
+
+Platform will directly reward authors with EUREKA tokens, whose work is later used by
+others.
+Use Case 5: A marketplace for matching research ideas with funding
+Problem 1: In the USA in 2009, $200 million was set aside for 200 “challenge grants” for
+high risk research projects. The agency involved (National Institutes of Health) was
+overwhelmed by over 21,000 applications which it was not equipped to process. Using the
+EUREKA Platform, the above bottleneck could have been solved.
+Problem 2: Funding agencies currently rely heavily on peer reviews in journals when making
+funding decisions. In order to apply for funding, researchers must cite published work to
+support their applications. Due to the publication bias already described, researchers are
+unwittingly applying for grants for research which has already been disproved by other
+researchers. These new researchers then encounter the same issues and are unable to
+publish their negative results. And so, the cycle of wasting time and money continues.
+Solution: The EUREKA Platform will bring researchers who have great ideas and micro-
+proposals directly in contact with funding agencies, individual funders, investors who are
+interested in funding new ideas. The process of vetting proposals will be done through a
+voting process, which will allow qualified researchers to upvote and downvote proposals and
+leave comments.
+Technology
+Although, the blockchain-based system aims for decentralisation, a centralised backend
+provides  a  convenience  layer  to  access  the  blockchain.  Besides  this  backend,  the
+infrastructure consists of a frontend part and a blockchain part. The frontend is a web-
+browser that gets its content from the backend. The frontend needs to have MetaMask
+installed  which  provides  a  web3  interface  to  Ethereum.  Further  technical  details  are
+presented in the technical white paper.
+19
+
+
+
+
+The EUREKA Token (EKA)
+Uses
+EUREKA tokens and platform are used for:
+-   Submitting articles for review
+-   Proving ownership of observations and research output with timestamping
+-   Upvoting and downvoting articles with EKA micropayments
+-   Voting for awards and prizes
+-   Paying the submission fee, which includes a fee for operating costs and a variable
+fee to reward two or more peer reviewers
+-   Automatically connecting peer reviewers with manuscript submissions
+-   REWARD ratings from peer reviewers can be used anywhere
+-   Rewarding peer reviewers, authors for citations and for having exceptional REWARD
+ratings
+-   Research funding using smart contracts: Releasing funds for studies, peer review
+once conditions have been met
+-   Token pledges, awards and prizes contributed by organisations for scientists and
+researchers to reach set milestones and help solve society’s problems
+-   Decentralised, peer-to-peer crowdfunding from the general public to directly pay
+scientists around the world to conduct research studies on the EUREKA Platform into
+under-researched diseases and ailments
+-   In the EUREKA Marketplace as a quality measure for research proposals
+20
+
+
+
+
+Token Flow
+The Importance of Fibonacci to Science and its Relation to the EUREKA ICO Hard Cap
+What is now known as the Fibonacci sequence was first mentioned by the Indian scholar
+Pingala around 200 B.C.E.
+In 1202 C.E. the Italian mathematician Fibonacci described exponential growth in a rabbit
+population in his book Liber Abaci. The sequence of numbers he described and now named
+after Fibonacci is calculated by adding the two preceding numbers. This sequence is seen
+throughout nature; governing the spirals of galaxies, the distribution of flower petals, and
+21
+
+
+
+
+even the human X chromosome inheritance tree. In computer science, Fibonacci numbers
+have been used in algorithms such as polyphase merge sort and lossy compression.
+Due to the omnipresence of the Fibonacci sequence in nature and its importance to science,
+as  a  tribute,  the  hard  cap  chosen  for  the  EUREKA                                             ICO  is  the  36th   Fibonacci     number:
+$14,930,352.
+Token Sale
+Metric                                                                                                Parameter
+Accepted currencies                                                                                   BTC, ETH
+Token Ticker Symbol                                                                                   EKA
+Public Sale Price per Token ($)                                                                       0.10
+Total supply (#)                                                                                      298,607,040
+Tokens for ICO Sale (#)                                                                               149,303,520
+Hard Cap ($)                                                                                          14,930,3521
+Soft Cap ($)                                                                                          2,000,000
+Token Allocation
+Metric                                                                                                Allocation           Tokens
+Token Sale ICO                                                                                        50%                  149,303,520
+Bounty/Bonus                                                                                          5%                   14,930,352
+Retained for Growth                                                                                   18%                  53,749,267
+Foundation                                                                                            3%                   8,958,211
+Team and founder                                                                                      15%                  44,791,056
+Advisors and Legal                                                                                    9%                   26,874,634
+Total                                                                                                 100%                 298,607,040
+1 Please note that this figure is based on a total number of EUREKA tokens only at an exchange rate
+of 1 USD to 10 EKA
+22
+
+
+
+
+Business model and Revenue Streams of EUREKA Services
+EUREKA has a SaaS (software as a service) business model in which the technology remains
+under EUREKA’s ownership while customers pay for software usage. The software services
+are bundled (freemium) into packages differentiating by value adding functionalities and
+services (see bullet points below). Customers pay either on a monthly, yearly, or multi-
+yearly subscription to use the software and additional services whilst receiving either
+EUREKA’s publishing services and/or data analytics services. The following revenue
+streams are envisioned:
+•   White labelling platform to set up single observation journals. Pay per number of
+articles submitted, amount of access, or editing services.
+•   Offering one-click journal/conference rating platform via the EUREKA convenience
+layer including data analytics. Revenues are generated from fees.
+•   Integrating EUREKA to existing scientific conference management systems enabling
+additional services for those systems. Revenues are generated from fees.
+•   Further revenue streams envisioned e.g., by providing a funding platform or
+sponsoring best paper awards with EUREKA tokens in exchange of small fee for
+each reference.
+Advantages of investing in EUREKA
+●                                                                                                                          EKA tokens will be used by universities globally, including existing clients of
+ScienceMatters
+●                                                                                                                          Secure, stable, and well-regulated crypto business environment in Zurich,
+Switzerland
+●                                                                                                                          Established team with high profile scientific advisory board members
+●                                                                                                                          Loyalty bonus of 1%2. 1% of all payment transactions on the EUREKA Platform with
+EUREKA tokens will automatically go to the active token holders in proportion to
+the stake or share of total EKA in circulation that is owned by the holder. This will
+be on a continual basis and the loyalty bonus is allocated to the holder whenever
+the token holder makes a transaction in EKA. To qualify as an active token holder,
+the token holder needs to have made one transfer or transaction in EKA in the
+preceding 12 months, which means transferring EKA from one wallet to another.
+The entitlement to the loyalty bonus accrued since the last EKA transaction and
+will be paid out automatically and simultaneously to the active token holder each
+time a holder makes a transaction in EKA. After 12 months of inactivity, defined as
+a EKA token holder making no transactions in EKA, the token holder forfeits any
+loyalty bonus accrued during the inactive period, and it will be redistributed to the
+loyalty bonus pool until they are deemed to be active again.
+●                                                                                                                          Profits from EUREKA Blockchain Solutions GmbH may be used by EUREKA Blockchain
+Solutions GmbH to purchase EKA tokens, and these tokens may be distributed to
+active holders as a loyalty bonus at the discretion of EUREKA Blockchain Solutions
+GmbH.
+2Example: A scientific conference management   system that manages 100 conferences per year, each conference with 50
+publications, and 50% of the conferences are EUREKA-enabled. If an author pays 500 EKA submission fees (assuming 1 EKA =
+1 USD), the volume is 1.25 million EKA, 1% is 12’500 EKA, which will be distributed among the active token holders.
+23
+
+
+
+
+Use of Funds
+Percentage breakdown of the anticipated cost categories related to the development and
+marketability of the EUREKA Platform estimated over the next 5 years.
+●   Tech development  (50%)  - Team of software engineers with experience in web
+application and blockchain application development. This financing allows for the
+rollout of the EUREKA token platform.
+●   Marketing, sales, promotion, PR (22%) - Marketing and sales costs (marketing team,
+sales team, offline marketing initiatives, online marketing spending, ongoing PR and
+media relations, promotional activities for EUREKA, including events.
+●   General  and  administrative  expenses  (28%)  -  Consists  of  management,  business
+development, legal and further general and administrative costs.
+The envisioned use of proceeds described above are provided for illustrative purposes only,
+and EUREKA Blockchain Solutions GmbH and the Sciencematters EUREKA Foundation (once
+established) reserve the right to allocate the resources, in a different way at their sole
+discretion.
+Presale
+As part of a presale EUREKA tokens will be offered to prospective buyers at a 25% discount.
+Tokens sold during the presale will be deducted from the total EUREKA tokens available for
+sale.
+Crowd sale
+For a period of 8 weeks tokens will be available for sale.
+If Soft Cap Is Not Met
+All funds will be returned to investors.
+If Hard Cap Is Not Met
+All unsold tokens allocated to the token sale will be burnt.
+Token Type
+EUREKA tokens will follow all token interfaces specified by the ERC20 token protocol.
+Token Buying Process
+Whitelisted investors will be able to buy EUREKA tokens on the www.eurekatoken.io site
+using ETH or BTC. The aim is to also accept fiat currency, discussions with banking partners
+are underway. Due to Swiss law, all investors will need to pass KYC and AML requirements
+and these will be implemented by a third party. EKA tokens can only be transferred to ERC20
+compatible wallets.
+24
+
+
+
+
+Compliance and Regulatory
+EUREKA Blockchain Solutions GmbH and its ICO are governed by the laws of Switzerland and
+international financial regulations. To comply with Swiss banking law, all participants in the
+ICO will need to pass checks for ID, address and in some cases provide proof of funds.
+Sciencematters EUREKA Foundation
+The Sciencematters EUREKA Foundation’s (not yet established) purpose will be to promote
+open and reproducible science. The Foundation will conduct an annual conference, inviting
+researchers from both academia and industry to discuss cutting edge research and to present
+the Annual Awards.
+Roadmap
+EUREKA Blockchain Solutions GmbH will use a portion of the funds raised through the token
+sale to further develop the platform in 5 phases (Phases 1-5), beyond the current operations
+(Phase 0).
+Phase 0: Current Operations
+The platform so far and the team behind EUREKA Blockchain Solutions GmbH have published
+over  100 triple-blind peer reviewed articles in the journal Matters and Matters Select,
+submitted and paid for by scientific researchers (and their institutes) on the ScienceMatters
+platform.
+Authors  can  write  directly  on                                                                Each                    manuscript                           has   a                       All  articles  on  ScienceMatters
+our    website,    reducing    the                                                                                       dashboard  where  progress  can                                    are  open-access,  include  PDF
+amount  of  copyediting  needed                                                                                          be  tracked  by  all  parties  and                                 and  XML,  have  a  DOI  and  are
+and    therefore    making    the                                                                actions can be taken.                                              indexed and archived.
+process faster and cheaper
+In addition to Matters and Matters Select, which are journals dedicated to single observation
+publishing, ScienceMatters will launch two new open access journals based on existing
+technology in Q4 of 2018:
+25
+
+
+
+
+●   Hypothesis Matters, which will allow scientists to publish their hypotheses, which
+are the first steps in scientific research.
+●   Reproducibility Matters, which will publish confirmatory and contradictory data.
+EUREKA Blockchain Solutions GmbH will conduct a limited private token sale to a select few
+investors and cryptocurrency enthusiasts who are already familiar with Sciencematters AG’s
+solution, its founder and team. The proceeds of which will be used to fund the promotion
+and community building necessary for the pre-ICO.
+Phase 1: Pre-ICO
+EUREKA Blockchain Solutions GmbH will move to the pre-ICO phase, which will include the
+following:
+Code, Testing and Quality Assurance: A bug bounty programme for our ICO code will be
+announced. Code will be available on GitHub. Security audits will be carried out.
+PR, Marketing and Bounty Programme: An extensive marketing campaign and bounty
+programme will be launched to reach out to potential ICO investors. The bounty programme
+will reward promoters of the EUREKA ICO. The foundations for a global community of
+supporters  of  EUREKA  Blockchain  Solutions  GmbH’s  mission  of  democratising  scientific
+research will be built.
+ICO Website: The site for the ICO will be launched. As well as featuring detailed information
+on the blockchain applications, cryptonomics and security of the ICO, this website will
+feature video testimonials from existing users. These researchers will talk about their
+reasons for publishing on the Sciencematters AG's platform, and their experience of using
+the platform, which will be the first client to integrate the EUREKA Platform.
+Phase 2: ICO
+Public ICO: EUREKA Blockchain Solutions GmbH will sell the EUREKA tokens to the public.
+The minting and distribution of the EUREKA tokens will finish in the same quarter.
+Blockchain prototype programming: Kick-off for building a smart contract that allows peer
+review on the blockchain.
+Blockchain  timestamping:  For  submission  of  observations  and  major  changes  to  the
+database will be implemented.
+Sign up editors and reviewers: Recruitment of editors from existing reviewer pool and
+outside as volunteers to participate in beta phase of the blockchain prototype.
+Phase 3: Testnet Launch and Expansion
+Testnet Launch: On completion of Phase 2 EUREKA Blockchain Solutions GmbH will launch
+a peer review smart contract in a testnet.
+26
+
+
+
+
+Expansion into new fields: Preparation for expansion will commence by recruiting editors
+from social sciences, humanities, and engineering.
+Launch of Hypothesis Matters which will allow scientists to publish their hypotheses, which
+are the first steps in scientific research. Authors will be able to publish hypotheses, claims
+and proposals that will be peer-reviewed by two groups: the expert group comprising of
+researchers and the impact group comprising of people potentially impacted by the field
+and the whole process is tokenised through our EUREKA Platform.
+Launch of Reproducibility Matters which will publish confirmatory and contradictory data.
+In the case of Reproducibility Matters, when an observation is faithfully replicated, then the
+authors of the original observation and the authors who replicated get some tokens as
+incentives and in the case the observation cannot be replicated, we the authors who
+replicated the study get tokens. The replicating observations are all linked and are visualised
+through the MattericTM, the metric IP from Sciencematters AG.
+Phase 4: Launch and deployment of the mainnet
+Mainnet launch: At the start of  2019, once beta testing has been completed, the final
+blockchain publishing product will be released on the Ethereum mainnet.
+Marketing Campaign: A marketing and advertising campaign will be launched to increase
+awareness and usage of the platform. Versions of the platform will be released tailored to
+the needs of other fields, such as social sciences, humanities and engineering.
+Localisation: Translation of the platform into Chinese and other languages in order to
+increase the potential market and audience.
+Partnerships with scientific societies and associations will be further developed.
+Launch of Blockchain Matters which is the first journal publication on the blockchain which
+focuses on study of blockchain. This publication is a significant step towards realising the
+EUREKA  mission  of  democratising  science  through  decentralisation  and  transparency.
+Blockchain Matters not only adds to much needed academic discourse about blockchain but
+it is actually on the blockchain.
+Phase 5: Deployment of the EUREKA Platform
+White label the publishing platform
+Managing funding proposals
+Research data management on the blockchain
+Marketplace matching funders with peer reviewed funding proposals
+27
+
+
+
+
+Sciencematters AG
+Sciencematters AG is a Swiss corporation (“Aktiengesellschaft”) registered on 5 May 2015
+in the canton of Zurich3. Although the two entities will be independent, a service level
+agreement will exist between them, and the core management team will be shared
+according to future requirements.
+EUREKA Blockchain Solutions GmbH
+EUREKA Blockchain Services GmbH is in the process of being incorporated in Switzerland.
+Team, board and advisors
+Core Team                                                                                  Advisors and Board Members
+Prof. Thomas Südhof
+Chair of the Scientific Advisory Board
+Nobel Laureate, 2013
+World renowned neuroscientist, Professor in the
+School   of   Medicine,   Stanford   University.
+Advocate for open access/open science.
+Winner of the 2013 Nobel Prize in Physiology or
+Medicine, Lasker Award and several others.
+Mr Daniel Gasteiger
+Prof. Lawrence Rajendran                                                                   CEO Procivis AG
+Founder and CEO                                                                                                         Co-Founder  nexussquared,  Switzerland's  first
+Renowned  Alzheimer  scientist  and  is  a                                                                              dedicated  blockchain  business  and  start-up
+Professor of Neuroscience at the University of                                                                          platform. Founder and CEO of Procivis AG and
+Zurich/ King’s College London. He finished his                                                                          creator of VALID. Co-Founder of Trust Square AG,
+MBA  essentials  from  the  London  School  of                                             Switzerland’s                pre-eminent                                        blockchain
+Economics and Political Science. Winner of                                                                              technology start-up and research hub.
+several prestigious awards including the Top                                                                            PD Dr Soenke Bartling
+100 scientists of 2009, Boehringer Ingelheim                                                                            Founder, Blockchain for Science Thinktank and
+award, German Neuroscience Prize, etc. He is                                               Hub
+also the founder of Raise. Rural, a non-profit                                                                          Dr Guilherme Sperb Machado
+organisation  for  rural  students  to  pursue                                                                          ICO Advisor and Senior Software Engineer
+research. Currently, he is doing Blockchain                                                                             Blockchain researcher with experience in various
+Technology course at the MIT Sloan Institute                                                                            engineering  projects,  including  the  ICOs  of
+of Management.                                                                                                          modum.io and VALID.
+Mr Johannes Gees
+Founder wemakeit.com and oomnium.com
+Entrepreneur   and   artist   currently   building
+oomnium.com,  a  crowdfunding  platform  for
+tokenising tangible and non-tangible assets. Host
+3 https://www.uid.admin.ch/Detail.aspx?uid_id=CHE158651178
+28
+
+
+
+
+of  #blockchainculture.  Interested  in  all  things
+blockchain, decentralisation and the internet of
+value.
+Mr Ozan Polat
+Co-Founder Dezentrum and Co-Founder Trust
+Square
+Advisor of successful ICOs (modum.io and VALID).
+Co-Founder  of  Dezentrum,  the  think  tank  for
+decentralisation. Ozan has a global network in
+Prof. Thomas Bocek                                     the blockchain space and has founded several
+Chief Technology Officer                               ventures in the past.
+Creator  of  TomP2P,  blockchain  researcher           Mr Matthias Weissl
+and Guest lecturer at the University of Zurich         CEO Verum Capital AG
+and Professor at the HSR Rapperswil. As a              Co-founder and CEO of Verum Capital AG, the
+member   of   the   modum.io   team.   He              Swiss   ICO   Advisory   boutique.   Advisor   of
+contributed to Modum having a professional             successful VALID ICO
+and successful ICO in 2017.                            Dr Jon Tennant
+Founder, Open Science MOOC
+Founder, paleorXiv
+Prof. Walter Dettling
+Professor for Business Information Technology
+and Mathematics at FHNW
+Walter is lecturer at the Institute for Information
+Systems at the University of Applied Sciences and
+Arts  Northwestern  Switzerland.  He  teaches
+                                                       courses                                             such                      as                                                     'Blockchain   and
+Mr Lucas Pelloni                                                                                                                     Cryptocurrencies',  'Role  of  IT  in  Supply  Chain
+Deputy CTO                                                                                                                           Management'   and   'Innovative   Topics   with
+Full Stack developer and creator of few Ðapp                                                               Blockchain'.
+built on the top of the Ethereum blockchain.                                                               Mr Alex Shkor
+Holds  a  bachelor’s  degree  in  Computer                                                                 CEO and founder of DEIP
+Science from the University of Zurich and is                                                                                         Alex   Shkor   is   an   expert   in   blockchain
+now completing his master’s degree in the                                                                                            architectures, crypto economies  modeling and
+field  of  Blockchain  Technology  and  P2P                                                                                          has more than 9 years of experience in designing
+systems.                                                                                                                             distributed systems. He held executive positions
+in  multiple  successful  startups  and  IT  service
+companies.
+Mr Lambert Heller
+Head of Open Science Lab at TIB
+Acting in the capacity of the German National
+Library of Science and Technology, as well as
+architecture,   chemistry,   computer   science,
+mathematics  and  physics,  the  TIB                   -  Leibniz
+Information Centre for Science and Technology
+Ms. Isabelle Siegrist, M.A. HSG                        and   University   Library   provides   academia,
+Business Development
+29
+
+
+
+
+Business  Graduate  who  started  her  career       research   and  business   with   literature   and
+building  businesses  and  advanced  to  being      information.
+startups.ch CIO  (2 years), now in charge of        Dr Anna Erat
+financials and business development.                Deputy Director of Hirslanden  - International
+                                                    Medical Center
+                                                    Some  of  her  expertise include  health  systems
+                                                    policy,  management  and  innovation.  She  also
+                                                    lectures                                             Management,    Corporate    Social
+                                                    Responsibility                                       (CSR)    and    Public    Private
+Partnerships (PPPs) in health systems, innovation
+and healthcare delivery as part of University of
+Zurich, Department of Business Administration
+and Swiss TPH MBA Programme.
+Mr Andrew James Cook                                Prof. Lisandro Zambenedetti Granville
+VP strategy and Operations                          Lisandro Zambenedetti Granville is director of
+Over   ten   years   experience   in   digital      the  Center  for  Research  and  Development  in
+marketing   and   business   development   in       Digital   Technologies   for   Information   and
+technology,   real   estate   and   financial       Communications  (CTIC/RNP),  president  of  the
+services.                                           Brazilian Computer Society  (SBC), professor of
+Computer Science at the Institute of Informatics
+of the Federal University of Rio Grande do Sul
+(UFRGS),  previous  chair  of  the  Committee  on
+Network Operations and Management (CNOM) of
+the IEEE Communications Society, and previous
+co-chair of the Network Management Research
+Group  (NMRG)  of  the  Internet  Research  Task
+Force (IRTF). He has served as a TPC member for
+many important events in the area of computer
+Dr Amani Said                                       networks  (e.g.,IM, NOMS,  and CNSM)  and was
+Editorial Director, Zurich                          TPC co-chair of DSOM 2007, NOMS 2010, NetSoft
+Director  of  all  editorial  processes  for  our   2018, and ICC 2018.
+journals. Doctorate in Developmental Biology
+from the Max Planck Institute.
+24 members on the scientific
+advisory board, including professors
+from Stanford University, Harvard
+University, the University of Zurich,
+and Cambridge University.
+Prof. Michael Hengartner,
+President, University of Zurich
+Prof. Rudy Tanzi
+Prof. Jan Lötvall
+Editor-in-Chief                                     Professor,  Harvard  Medical  School,  Founder,
+Professor  at  the  Institute  of  Medicine  at     Cure Alzheimer Fund, Time 100 person, 2016
+Göteborg  University  since  2002,  a  medical
+30
+
+
+
+
+specialist in both Clinical Allergy and Clinical    Author,  The Healing Self,  Super Genes, Super
+During  the  period  of  May  2016  to  January     Brain (with Deepak Chopra)
+2018. Prof. Lötvall served as Chief Scientist at    Prof. John Ioannidis
+Codiak   BioSciences,   a   startup   biotech
+                                                    Director, Stanford Prevention Center,
+company located in Cambridge, MA focusing
+                                                    Co-Director, Metrics,   Stanford University
+on  developing  extracellular  vesicles  as  a
+Prof. Brian Nosek
+therapeutic platform.
+President  and  founder,  Center  for  Open
+Science
+Prof. Stephen Curry
+Assistant Provost, Imperial College London
+Prof. Kai Simons
+Emeritus Prof. of Cell Biology, EMBL/Max-Planck
+Institute
+Prof. Michel Goedert
+Prof. of Neuroscience, University of Cambridge
+Dr Tamara Zaytouni
+Dr Paul Ayris
+Editorial Coordinator
+UCL   Library   services,   University   College
+Over 15 years of research experience in the
+London
+areas of developmental biology, oncology and
+Prof. Daniel Wyler
+metabolism. Did her postdoctoral training at
+Ex-Vice President, University of Zurich
+Harvard Medical School on Cancer metabolism
+Prof. Satyajit Mayor
+and  a  PhD  in  Genetics  from  Dartmouth
+Director,   National   Center   for   Biological
+Medical School.
+Sciences, India
+Prof. Victoria Stodden
+Professor,  University  of  Illinois  at  Urbana-
+Champaign
++  600 members of the Editorial Board, from
+multiple fields of study, some of whom are also
+peer reviewers for ScienceMatters
+Mr Tejansh Chandole
+Regional Editorial Director
+Graduated with a bachelor’s in chemistry and
+subsequently   pursued   post-graduation   in
+Inorganic  Chemistry  from  the  renowned
+Department of Chemistry, University of Pune.
+Worked for ScienceMatters since the founding
+of the firm on data management, platform
+testing, and making the editorial workflow
+more efficient.
+31
+
+
+
+
+Mr Werner Van Rooyen
+Community Manager
+Werner  joined  the  ScienceMatters  team  in
+May  2018.  He  is  the  Community  Manager
+where  he  is  responsible  for  growing  the
+EUREKA  community.  Werner  graduated  in
+2018  with  a  Master  of  Arts  in  English
+Literature and Linguistics.
+Mr Severin Wullschleger
+Smart Contract Developer
+Full    Stack    developer    and    blockchain
+researcher. Is completing his master's degree
+in Data Science and Blockchain Technologies
+at  the  University  of  Zurich.  Implemented
+some  Ðapps  and  smart  contracts  on  the
+Ethereum blockchain.
+Mr Andreas Schaufelbühl
+Software Engineer
+32
+
+
+
+
+Full    Stack    developer    and    blockchain
+researcher.  Holds  a  bachelor’s  degree  in
+Computer  Science  from  the  University  of
+Zurich and is now completing his Master in the
+field of Blockchain Technology.
+Mr Vasileios Koukoutsas
+Backend Engineer
+DevOps engineer and a graduate student at
+the University of Zurich pursuing a master’s
+degree  in  Computer  Science.  Is  a  crypto-
+economics    enthusiast    and    blockchain
+technology advocate.
+Mr Simon Müller
+Backend Engineer
+Backend Engineer and Blockchain researcher.
+Completed a bachelor's degree in Computer
+Science  at  the  University  of  Zurich  and  is
+pursuing his master’s degree in Information
+Systems, focusing on Blockchain Technology
+33
+
+
+
+
+Mr Claude Miller
+Backend Engineer
+Backend developer for ICOnator and Software
+Engineer by trade. Holds a bachelor’s degree
+in Computer Science and is now completing
+his  master’s  degree  at  the  University  of
+Zurich  in  the  field  of  Data  Science  and
+Cybersecurity
+Team Achievements and Endorsements
+ScienceMatters has been endorsed by the European Commission, and has received coverage
+on many prominent news outlets, most notably TechCrunch and CNN Switzerland.
+Milestones
+●                                                                                        2015: First scientific publisher to accept single observation and replication studies
+for peer review and publication
+●                                                                                        2016-2017:  Support  from                                                                    several  academic  institutions  have  either  supported,
+endorsed or acted as hosts: including the University of Zurich, University of Toronto,
+University of Bern, University of Cambridge, EPFL, and King’s College London.
+●                                                                                        2018: Public ICO and first prototype for blockchain-based ratings and review platform
+●                                                                                        2019: Launch of blockchain-based product, EUREKA. Localisation of platform into
+different languages. Start of development of apps for iOS and Android.
+●                                                                                        2020:  White  labelling  of  platform  and  licensing  of  technology  to  third  parties.
+Research  Data  Management  Platform  development.  Funding  proposals  platform
+development.
+34
+
+
+
+
+References
+Bartling,  Sönke,  and  Benedikt  Fecher.                                                     2016.  “Blockchain  for  Science  and  Knowledge
+Creation.” Zenodo, August. https://doi.org/10.5281/zenodo.60223.
+Beall, Jeffrey. 2012. “Predatory Publishers Are Corrupting Open Access.” Nature News 489
+(7415): 179.
+Economist, The. 2013. “How Science Goes Wrong.” The Economist. The Economist. 2013.
+https://www.economist.com/news/leaders/21588069-scientific-research-has-
+changed-world-now-it-needs-change-itself-how-science-goes-wrong.
+“Fraud   in   the   Scientific   Literature.”                                                 2012.   The   New   York   Times,   October.
+https://www.nytimes.com/2012/10/06/opinion/fraud-in-the-scientific-
+literature.html.
+McCook, Alison. 2016. “Publishing Needs More Science, Fewer Stories: Q&A with Founders
+of                                                                                            ScienceMatters.”                                   Retraction   Watch.   June   27,   2016.
+https://retractionwatch.com/2016/06/27/publishing-needs-more-science-fewer-
+stories-qa-with-founders-of-ScienceMatters/.
+“Opinion | Scientists Who Cheat.” 2015. June 1, 2015.
+https://www.nytimes.com/2015/06/01/opinion/scientists-who-cheat.html.
+Piwowar, Heather, Jason Priem, Vincent Larivière, Juan Pablo Alperin, Lisa Matthias, Bree
+Norlander, Ashley Farley, Jevin West, and Stefanie Haustein. 2018. “The State of OA:
+A Large-Scale Analysis of the Prevalence and Impact of Open Access Articles.” PeerJ 6
+(February): e4375.
+Tennant, Jonathan P., Jonathan M. Dugan, Daniel Graziotin, Damien C. Jacques, François
+Waldner, Daniel Mietchen, Yehia Elkhatib, et al. 2017. “A Multi-Disciplinary Perspective
+on Emergent and Future Innovations in Peer Review.” F1000Research 6 (November).
+https://doi.org/10.12688/f1000research.12037.3.
+“Website.” n.d. Accessed April 12, 2018.
+https://www.the-scientist.com/?articles.view/articleNo/32426/title/Predatory-
+Publishing/.
+“Why Publish Single Observations? Because Science Matters.” 2016. Editorial 2 (2). Matters.
+e140385074186.
+35
+
+
+
+
+

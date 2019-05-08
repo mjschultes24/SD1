@@ -1,0 +1,705 @@
+﻿A decentralized P2P marketplace for online short-term jobs
+for students, freelancers, and employers.
+Powered by Ethereum.
+Written by Bogdan Fiedur | Edited by Dror Medalion
+Abstract
+bitJob will deploy blockchain technology in the global student community. Blockchain technology has the
+potential to disrupt & overcome all boundaries, but we all understand that smart education of consumers
+is necessary, in order for this to happen. Promoting the education needed to implement decentralization
+and freedom of choice begins today, through the next generation of the labor market.
+www.bitJob.io | Info@bitjob.io
+White Paper V 1.2
+April 2017
+1
+
+
+
+
+Contents
+1          Introduction                                           3
+1.1        Hybrid platform of two Architectural paradigms         3
+1.2        Investment in the project                              3
+1.3        bitJob HYBRID MarketPlace Flowchart                    4
+1.4        bitJob Mission & Flow                                  5
+1.6        Students & Employers recruitment                       5
+1.7        Product Marketing                                      5
+2          Why BlockChain?                                        6
+3          bitJob Primary Equity Token   (STU) & ICO              7
+3.1        Why should bitJob have a unique Token?                 7
+3.2        The bitJob network primary equity token                7
+3.3        Creation of the STU and initial account                8
+3.4        bitJob Token (STU) emission                            8
+4          bitJob Platform - Token usage flow                     10
+5          Contribution to the   Platform                         11
+5.1        Capital Contributions                                  11
+5.2        Distributing Currency                                  11
+5.3        Buying Debt - Bond Token (JOB)                         11
+5.4        Earning Tokens through Affiliate Activity   (Mining)   12
+5.5        Initial Directions of Expansion and  Justification     13
+5.6        Future Steps of Expansion                              13
+6          Identity                                               14
+7          Deposits & Withdrawals                                 14
+8          User Interface                                         13
+9          Credit Reputation                                      14
+10         Fee Structure                                          15
+11         Mining                                                 15
+12         Technical Description                                  16
+12.1       Decentralization                                       16
+12.2       Handling of Bad Actors                                 16
+12.3       Security                                               17
+12.4       Sybil Attack Prevention                                17
+13         Release Time & Roadmap                                 17
+14         Risks, Challenges &   Opportunities                    17
+14.1       Fiat-to-Crypto Fees.                                   17
+14.2       Low Levels of Cryptocurrency Ownership                 18
+14.3       Regulatory Compliance                                  18
+14.4       Malicious Users Might Undermine the  System            18
+14.5       Future Opportunities                                   19
+15         The Team                                               19
+16         Appendix                                               19
+2
+
+
+
+
+1. Introduction
+1.1.                                                                                                         bitJob  is  the first freelancing platform that will be a hybrid of two
+architectural paradigms.
+●   Centralized client server architecture, which is used in the majority of online applications.
+●   Decentralized version of client server architecture that uses blockchain technology.
+The purpose of this is to speed up and improve the adoption of both the idea in the crowdfunding
+phase and the platform by users. Although a decentralized paradigm is the ultimate goal, slow
+adoption  of  blockchain  technologies  should  be temporarily substituted by solutions that are
+familiar and acceptable to average internet user. Internet users today expect for online services to
+be  fast,  with  intuitive  interfaces  that  are  accessible  with  mobile  devices.  This  dictates  our
+approach that provides two technologies at the same time. With the adoption of the platform and
+new  developments  in  blockchain  technologies,  users  are  seamlessly being switched to more
+decentralized  solutions.  Once  users  are  familiar with the platform and the adoption of it is
+satisfactory, users will be encouraged to interact through the blockchain section, which allows
+them to pay for services with cryptocurrency and earn income through mining of cryptocurrency.
+1.2.                                                                                                         Investment in the project in the initial phase will be enabled through
+two vehicles.
+●   Regular crowdfunding, accepting fiat currencies.
+●   ICO, where tokens will be purchased with cryptocurrencies.
+This will require that business will exists as two entities from the legal point of view. BitJob will
+facilitate the providing of freelancing services through an online platform. Participants offering a
+service (most often one which can be delivered online) will register with the system (as ‘service
+providers’) and offer their availability to do the work in domain which is categorized by the
+platform. Participants seeking certain services will register as ‘service consumers’ and will either
+contact ‘service providers’ through the search function, or will enter a request for service which
+can be then found by ‘service providers’. Bidding on services and setting request for services will
+give participants the ability to interact and find mutual agreements regardless what demand and
+supply is available.
+Platform will provide mechanism to ensure that, upon agreement, sufficient money is kept in
+escrow so the service provider is always paid unless there are issues with their providing of the
+service, in which case the platform will offer conflict resolution methods.Users will be able to rate
+each other, so frivolous or unreasonable ratings can’t continue for any significant length of time.
+Users who collect negative ratings might be subjected to higher fees.
+Platform  will  generate  revenue  through  fees  applied  to  both  service  provider  and  service
+consumer.
+3
+
+
+
+
+1.3.  bitJob HYBRID MarketPlace Flowchart
+The Following Flowchart represents our vision for bitJob HYBRID architectural Marketplace,
+which will be handled both by Centralized servers (using fiat PP currency payment method) and
+Decentralized infrastructure (Registration & Identity, Fees, Revenues distribution for Affiliates,
+etc’).
+The Chart shows both of bitJob future Tokens (STU & JOB) and their allocations methods for
+the holders. More explanation about the differences between the tokens and their usages can be
+found on Section 3 (STU - Equity) , and Section 5.3 (JOB - Bond).
+4
+
+
+
+
+1.4.  bitJob Mission
+We fell in love with blockchain in 2011, upon first acquaintance with and investment in Bitcoin.
+When Ethereum came into the world, we realized that this was what we were waiting for. The idea
+of  bitJob  emerged  in  our  time  as  students, while we were enjoying the lawns of the faculty
+meetings—and needing some quick money. After we graduated and dove into the labor market, we
+were faced with a most painful problem, one that does not receive appropriate response: students
+finish their degrees and begin their careers with zero experience, after spending their time in jobs
+that do not contribute to their professional résumés.
+As executives, we have encountered with another obvious need: employers find it difficult to hire
+quality temporary workers that fit the budget —and most of them (80%) fail in recruiting students.
+Our solution is to connect students with employers for small jobs online, so they can then to
+continue to specialize in their relevant profession.
+For  us,  as  entrepreneurs  who  want  to  influence  the  world,  helping  students  and promoting
+blockchain technology—this is the realization of our dream.
+1.5.    bitJob flow
+It is very simple: a student looking to provide services online connects to the marketplace, chooses
+from  the  list  of  professional  jobs  for  relevant  work,  provides  quality  delivery,  and  receives
+immediate payment of his choice, in cryptocurrency or fiat money.
+The student will build a reputation and be able to present his work in a Dynamic Portfolio Resume
+(DPR) connected to his/her own  ‘name’ site! The DPR website will revolutionize the way HR
+recruit students and graduates by relying on evidence of their demonstrated abilities, rather on
+their LinkedIn profile or the ancient (and current) version of résumé, from previous decades.
+1.6.   Students & Employers recruitment
+We built a fantastic affiliate program that will strengthen the relationship between bitJob and the
+students: students’ unions will receive a commission from each transaction their students engage
+in. We have launched pilot agreements with the leading student associations in Israel, in addition
+to a number of employers who were more than happy to participate. We are also negotiating with
+several leading job search engines to ensure a continuous flow of quality jobs.
+1.7.                                                                                                         Product Marketing
+Student unions around the world constantly engage in programs for professional internships with
+leading employers. In order to get as many students as possible to our marketplace, we created the
+ultimate incentive with our affiliate program. It’s a win-win setup that will play a critical part in
+bitJob’s success. Our focus on small online student jobs will attract the players in the field of
+employee recruitment who are in pursuit of the next generation.
+5
+
+
+
+
+2.                                                                                                   Why blockchain?
+In initial phase of this project, we were asked why we want to use blockchain technology for
+something which doesn’t have obvious benefits of using it. Although the benefits are not instantly
+visible, they are quite convincing when they are spelled out.
+●                                                                                                    When money is moved between accounts, it can cost anywhere between 2% to 10% of the
+transaction amount. The cost of moving money on the blockchain can be in vicinity of
+0.01%.   If someone could capture the difference between the current cost of settling
+transactions and the blockchain cost, the transfer of $1 million in revenue would produce
+between  $20,000  and $100,000 in savings just by switching to blockchain. In certain
+countries, those transaction fees might be even higher, and it can take several days to
+process  them  due  to  restrictions  and  local  limitations—e.g.,  PayPal  is  not  offered
+everywhere, and in some areas, transactions are held for many days before they appear in
+the recipient account.
+●                                                                                                    In  very  near  future,  blockchain  technologies  will  be  replacing  existing  client  server
+architectures, and having one leg already there will make the platform ready to take
+advantage of new ideas and trends, while other providers will be just starting to look into
+solutions in that space.
+●                                                                                                    ICO is possible when building a decentralized system. Additional funding can be obtained
+through communities associated with cryptocurrencies.
+●                                                                                                    The concept of mining is strictly related to the blockchain. Through the mining process,
+with either proof of stake or proof of work, new coins can be created and distributed to
+contributing community.
+●                                                                                                    There is no need to create a legal entity if someone wants to reach markets in other
+countries. E.g., China has the largest participation in Bitcoin/Ethereum mining and has
+the largest crypto exchange market. India has relatively good awareness of Bitcoin due to
+limited banking. The platform can function in those countries without a legal presence in
+those countries because cryptocurrencies have no such regulations or requirements.
+●                                                                                                    There is no need for bitJob to spend money on hardware, infrastructure, or tech staff.
+Platforms like Ethereum offer such infrastructure, which has minimal cost only when
+used. Any new technological advances within the Ethereum community will be available
+to the platform as soon as they are created. It would be impossible for a business that
+facilitates freelance jobs to simultaneously invent systems that can be competitive in the
+global market. Due to the competitive nature of technology in global markets, it is very
+likely  that  a  new  platform  similar  to  Ethereum  will  someday  appear—offering  new
+abilities,  gaining  market  share,  and  offering  competitive  pricing—thus  creating  an
+environment conducive to experimentation and to inexpensive operation.
+●                                                                                                    Considering that this platform can operate in countries with much lower living standards
+than Western countries, transactions can have very low values. Most payment processing
+services charge minimum fees per transaction (e.g., $0.20). In places where the provided
+service might be worth  $1, the charges would cost a disproportionate amount of the
+service value. Blockchain transactions are fraction of this cost.
+6
+
+
+
+
+3.                                                                                                  bitJob Primary Equity Token (STU) & ICO emission
+3.1                                                                                                 Why should bitJob have a unique Token?
+Theoretically, BitJob can manage all the transactions on the platform in Ethers, bitcoin or other
+cryptocurrencies. So why did we decide to create our own, brand new application-coin (appcoin)?
+An important question indeed! today there are already a wide variety of cryptocurrencies traded
+on exchanges and we expect a significant flow of ventures issuing app coins themselves, a real
+haystack.
+Our main reasons for issuing bitJob coin:
+●   It is important to maintain unified standards and to inspire confidence in our users,
+including affiliates like the respectable National Students’ Unions.
+●   Creating an incentive for the new users to sign in, a win-win scenario, and we cannot do it
+using Ether. Great giants like PayPal used the same strategy in their first years and we
+look up for the best. With our business model backed up by market studies, we expect
+massive  demand  by the students’ community and need to reserve our compensation
+options for well-designed global expansion.
+●   Subscriptions payments and bitJob Entity Management (BJE.M) facilitation. A successful
+funding will speed up bitJob full product development.
+●   Ventures need funding in order to get the chance to make an impact, maybe even to
+change the world. Using the Ethereum blockchain, the unique ICO structure opens up
+new opportunities for startups like bitJob, to create an exciting new revenue streams
+woven in the hybrid marketplace, for the students’ unions and blockchain community
+benefit.
+We dearly value our contributors and understand that funding bitJob, means believing in bitJob
+concept and bitJob product delivery by its team.
+3.2. The bitJob primary equity token is a core element of bitJob network,
+and it is designed with consideration of future network growth.
+STU is initially created during the crowdfunding phase of the project and later through mining
+activities, and it will be attributed various functions within project.
+●   Payments from service consumers to service providers will be implemented through these
+tokens in addition to through standard fiat payments via platforms like PayPal.
+●   Developers, founders, and crypto-growth investors will be also receiving their rewards
+and remuneration in these tokens.
+●   Certain external services can be paid through these tokens.
+●   Affiliates sending referrals will be offered commission in these tokens.
+●   Users:  Ownership  and  subsequent  locking  of certain number  (e.g.  5000  coins when
+purchased  during  ICO)  of  tokens  exempts  users  from  all  future  bitJob  economy
+7
+
+
+
+
+fees.   Tokens are used as proof of stake, to determine how much voting power each user
+has regarding the future of the platform. Members can be offered interests like rewards in
+form of newly minted tokens.
+●                                                                                                  Evangelist: Receive rewards for introducing bitJob to new educational organizations.
+Fixed bonus after certain number of members register from the educational organization
+and actively use the system.
+●                                                                                                  Developers:  Ownership  and  subsequent  locking  of  tokens  (e.g.,  50,000  coins  when
+purchased during ICO) exempts developers from any future bitJob economy fees. Tokens
+are used as proof of stake, to determine how much voting power each developer has
+regarding the future of the platform. Members can be offered interest-like rewards in
+form of newly minted tokens.
+●                                                                                                  Evangelists  and  Developers:  Committing  tokens  for  a  locked  period  opens  the
+opportunity to receive benefits from fees generated by the platform. Locking tokens for
+fixed period of time helps protect the stability and reputation of the platform, and it
+represents  a  person’s  effort  to  spread  the  awareness  of the platform.  (There is also
+duration-weighted bonus.)
+●                                                                                                  Example:
+Here is an example of how it works: Assume an Evangelist owns E% of the total supply.
+The average fee for each bitJob transaction is R and the number of bitJob transactions
+per day is V. The evangelist total reward per period will have an expected value of:
+●   Reward = E* R * V
+●   Let E = 1%, R=$10, V=1,000
+●   Reward = 1 * 10 * 1000 = $100/day = $36,600/year
+●   The  supply  of  STU  will  be  not limited to the pool of tokens created during
+crowdfunding period. Mining activities will be responsible for creation of new
+units. (See “Mining” section of this document.)
+3.3.                                                                                               Creation of the STU and initial account functionalities
+The bitJob (STU) Token is a token on the Ethereum platform. Its design follows widely adopted
+token implementation standards. This makes it easy to manage using existing solutions, including
+Ethereum Wallet.
+●   Maximum number of tokens created during ICO : 100,000,000 (100%)
+●   Sending 1 Ether to the bitJob account will create 1000 STU.
+●   Tokens will be transferable once the crowdfunding is successfully completed.
+●   The amount of STU coins per 1 Ether might vary due to movement in Ether price. The
+final values will be determined at the beginning of Emission day.
+8
+
+
+
+
+3.4. bitJob Token  (STU) ICO emission will be distributed in the following
+way:
+Distribution                                                                 %
+Investors & ICO                                                              62.5
+Supervisory Board & Escrow                                                   2
+Marketing                                                                    5
+Founding Team                                                                10
+Pre-sale Investors                                                           4
+Development team members, bonuses                                            4
+Consultants team members                                                     4
+Technical tokens for stabilization                                           8
+of distributed network at early stage
+Testing and bug bounty                                                       0.5
+Total                                                                        100
+9
+
+
+
+
+●   The reserved marketing tokens will be used for bounties paid for the following marketing
+campaigns: Translation and forum moderators, Newsletter subscriptions, Bitcoins talk
+signatures, Twitter campaigns, Facebook likes, Blog posts.
+○   The reserved Consultants tokens of bitJob will be  distributed the following way:
+Max Consultants members                                                                         20
+% STU Token for total consultants                                                               4%
+Max STU tokens for all consultants (from 100M STU)                                              4,000,000
+Max consultants emission (from 5M$ raise)                                                       200,000$
+Value per Token (USD)                                                                           0.05$
+Value per Token (Ether)                                                                         0.001 ETH
+STU Token amount per Consultant                                                                 200,000
+Value of STU Tokens per consultant (USD $)                                                      10,000$
+Value of STU Tokens per consultant (Ether)                                                      200 ETH
+4.                                                                                              bitJob Platform -   Token Usage flow
+●                                                                                               When a user downloads the bitJob application, first they will be prompted to confirm
+their   details   and   ensure   that   they   provided   a   valid/current  student  number
+associated/registered with the platform Educational Organization, College or University.
+A unique deposit address will be generated for them within the Ethereum network. This
+address will be used to transfer funds to and from the platform’s token. A new member
+who would like to use services of other students will need to acquire/earn some tokens.
+●                                                                                               This can be accomplished through direct depositing of Ether into this new generated
+address or through mining activities as mentioned below. Student will not be able to hire
+any of the available service providers and/or communicate with other members until they
+have a sufficient amount of  tokens in their account to be able to purchase a minimum
+quantity of service set by service provider. Service provider will be able to review feedback
+provided by other service providers in regards to the member seeking service, and vice
+versa.
+●                                                                                               Once the agreement between service provider and service seeker has been reached, a
+minimum value of tokens needed to pay for the service will be locked (kept in escrow).
+The minimum amount will be set by service provider.
+●                                                                                               Members  can  engage  service  providers  through  a  direct  hiring  or  bidding  process.
+Platform will handle bidding and determine the bidding party through the rules set by
+both the platform and the participating parties.
+●                                                                                               Service providers will be offered a system of reverse auction to bid to offer the lowest
+price for service seekers and will automatically lock the money of service seekers when
+auction is finished.
+10
+
+
+
+
+●                                                                                                     In addition to the PayPal payment solution, the platform will use tokens to measure the
+value of services rendered, and the platform will run on the public Ethereum network.
+Fees for token transaction will be minimal, as no currency exchange will take place and
+no fiat money or banking will be involved. In regards to PayPal or other fiat solutions,
+regular fees rendered by those networks will be in force. Users can choose to keep their
+earnings within the platform and exchange their earnings other services provided by
+other members.
+●                                                                                                     System will offer interest-like rewards to members who choose to keep their earnings in
+the platform. A number of tokens will be mined in exchange for the long-term locking of
+their earnings within the system.   In short, a regular user will have opportunity to invest
+in the platform.
+●                                                                                                     User would still be able to spend/transfer their locked tokens with other members in the
+platform. In the case of the spending of locked tokens, a portion of the future reward
+would be subtracted.
+●                                                                                                     As additional features, members would have ability to loan their tokens to other members
+for interest, effectively enabling this platform to be a p2p lending facility. This would
+increase the liquidity of the platform, for tokens would stay in the system, and it would
+also increase the attractiveness of the platform for members who had higher ability of
+earning new tokens as they would have incentive to keep their earned tokens in the
+system for longer periods.   The loyalty and the growth of the platform would also benefit
+from this.
+●                                                                                                     Stakeholders will be also rewarded by allowing them to use their stake in the organization
+as their voting power in liquid democracy module which will be used to vote on issues
+pertaining to the future of the platform.
+5. Contribution to the Platform
+This section outlines the ideas behind bitJob and its rewards for people who provide meaningful
+and measurable contributions to the community.
+5.1.   Capital Contributions
+There are two ways bitJob can offer participation to early investors.
+●   Buying into the ownership of the community.
+●   Buying debt of the community.
+In  first  case,  investor benefits when community grows, and investor loses when community
+shrinks.
+In the second case, investor will have a guaranteed return based on agreed interest rate, but they
+will have no opportunity to benefit from community growth and will not lose when community
+falls apart or is not growing.   Both ideas are beneficial for the organization as long as they are
+11
+
+
+
+
+proportionately  allocated.   It  would  seem  that  having                                           40-60  (debt-investment)  allocation
+relation would be ideal.
+The first group will bring a needed influx of money, which can be locked for longer term and
+rewards only paid if such investments are actually occurring. This group will be deeply interested
+in the startup’s growth and its success, due to the motivational element that is built into the
+arrangement.
+The second group, on the other hand, will help with accumulation of initial resources needed to
+start the development and creation of the infrastructure of the startup. The amount of return is
+agreed at the initial step, so only that much will be paid back to the investor. If the company is
+growing and creating profits, there should be enough left after the return of the investment to
+keep momentum going and increase the startup’s activity.
+5.2.                                                                                                  Distributing Currency
+There are two ways people can get involved with a cryptocurrency community: they can buy in, or
+they can work in. In both cases, users are adding value to the currency; however, the vast majority
+of people have more free time than they do spare cash.
+5.3.                                                                                                  Buying Debt of the Community - Bond Token (JOB)
+One of the ideas to give additional incentive to early investors is a way to peg the token value to
+one of the stable cryptocurrencies. This way, investors can have the peace of mind when entering
+the organization in its early stages, when it is not certain if investment will be profitable or
+without risks.
+To accomplish this model, bitJob would first implement two cryptotokens. The first one is called
+STU (It’s described in section 3) and another called JOB, where JOB is pegged to Bitcoin.
+To accomplish effective binding of two currencies, JOB and Bitcoin, the startup would implement
+an interest rate that would be automatically changed when the token value inside the organization
+was trading out of parity with Bitcoin. The interest rate would be either positive or negative.
+Increasing the interest rate would create conditions to buy and keep JOB, and decreasing the
+interest rate would cause that holders of such tokens were motivated to sell them. The selling and
+buying of JOB would not affect the bottom line of the startup, because the JOB circulation would
+be static and the cryptocurrency purchased would initially be in the startup’s hands. In addition,
+the goal of moving the interest rate down or up is to keep the value of the token aligned with
+Bitcoin price.
+On the other hand, the value of JOB could fluctuate and is a determining factor of the startup’s
+growth.
+●   See this example:
+John wants to invest in the bitJob but is not entirely convinced that organization will take
+off.   To give John some assurance, bitjob would guarantee that money invested in the
+startup would be kept pegged to Bitcoin. In addition to this, investor would be offered an
+incentive, e.g., 5% yearly compounded earnings through the internal second coin SmBit.
+So investor is guaranteed to get his initial investment equivalent in Bitcoins back, and
+additionally a value equivalent to 5% of the initial investment, paid out in STU.
+12
+
+
+
+
+STU will be mined and minted according to methods that will be decided later. In any
+case, the promised 5% would be created through new tokens mined/minted during the
+period of investment.
+5.4. Earning Tokens through Affiliate Activity (Mining)
+Any activity within the startup that would create new value in the market could be rewarded with
+mining rewards. (See “Mining” later in this document.)
+One of the ideas involving mining activity is to reward actions of larger contributors to the growth
+of the network. It is possible that student unions at each university or educational organization
+would be interested in receiving mining rewards for promoting bitJob within their community.
+The student union could receive payments in the form of STUf for each new member who joins
+the platform and engages in some activity considered creative effort for the platform. As the
+system grows and the student community becomes aware of this platform, role of the student
+union would be less influential, so it is reasonable to assume that rewards to the student union
+would be smaller, but growth of the organization would be impacted by referring of new members
+by other students, and those students would need to be rewarded increasingly now for their
+efforts.
+So student unions could be initially offered a larger incentive to promote the platform but with
+reduced levels of earnings as time progresses—e.g., during the first year, mining bounty could be
+5% of the token activity, then the next year could be 4%, then 3%, until the point that the student
+unions would receive mining rewards equal to those received by individual miners.
+5.5.                                                                                                   Initial Directions of Expansion and Justification
+For the system to be successful and get momentum going, efforts need to be started where the
+chances of success are the greatest.
+Most mining activity happens in China, mostly due to the price of electricity, which many miners
+obtain free of charge from Chinese government.  (This is because there is lesser demand for
+energy by the large commercial entities at night, but the energy supply can’t be easily regulated to
+protect circuits from overloading. It is easier to offer free energy to other organizations than to
+maintain and/or replace overloaded equipment.)   Also, the largest crypto trading platforms are
+found in China. The number of available educational centers is largest in India, followed by China
+and then Western countries.
+The above details could indicate that initial market penetration should target those regions.
+The bitJob platform will initially contact student unions of universities in North America for
+affiliate engagement. The main reasons for this decision are the following facts:
+●   Students in North America are already well connected through social media channels.
+●   They have easy access to Internet .
+●   The  majority  of  development  in  the  crypto-world  sphere  already  happens  in  North
+America, thus awareness of crypto-concepts should be the largest in intellectual circles
+there.
+13
+
+
+
+
+●   Most related publications are already in English language, which makes accessibility to
+this knowledge more likely to be available to someone living in North America than it is
+elsewhere.
+●   Entry into the crypto markets is also easier for residents of North America than residents
+of India and China, where there are large university centers but average income of those
+residents is ten or multiples of tens less than in North America.
+●   In order to enter the cryptocurrency market, a person needs to have access to banking.
+Today, these services are available at a more favorable level to residents of the Western
+world than they are in Eastern countries like China or India.
+●   Investment concepts and crowdfunding are also very well understood in North America,
+and tactics to gain significant investors in the initial stages will be much more effective
+there
+●   Cultural  understanding  and  language  from the perspective of someone living in and
+understanding  Western  culture will also be of importance to get this platform going
+initially.
+5.6.                                                                                                   Future Steps of Expansion
+Once the bitJob system is up and running and it has received a certain level of adoption in North
+America, efforts should be made to start application of the same affiliate concepts to university
+communities in India and China. This could be done one year from the initial start.    A new
+crowdfunding round could be started and new tokens released for each country.   New tokens
+could increase involvement of investors in those countries by giving them an early advantage of
+investing in a new entity when the price of tokens could still be low. Also, success of the platform
+in North America could give an indication of potential profits or earnings for the investors for the
+Indian and Chinese markets.    Having country-specific tokens would allow an easy correlation
+between the country’s pay levels and job values.    Specific tokens for each country would also
+make country-specific smart contracts and currencies independent of each other and would allow
+on implementation of smart contracts more specific for customary and cultural relations there.
+The token for India could trade differently than token for China. This would also allow interesting
+developments in exchanges of those tokens.
+6.                                                                                                     Identity
+Generally users, upon establishing connection through the bitJob platform, will be able to connect
+in  physical  world  or  through  some  communication  application  like  Skype,  Hangouts,  or
+Whatsapp. To ensure that services are provided in accordance with bitJob standards and users
+receiving those services are satisfied and safe, the system will rely on a reputation mechanism.
+Each service provider and service seeker will have the opportunity to    provide feedback about
+the other party. Results of this feedback will be displayed on the member profile of each service
+provider and service seeker, and it will be publicly visible to members.
+This setup also provides an opportunity to add insurance options to the platform, where members
+can give an option to purchase insurance that would guarantee them the recovery of tokens on
+spent services which prove to be poorly rendered or not provided according to an agreement.
+14
+
+
+
+
+7.                                                                                                     Deposits and Withdrawals
+JOB will not be responsible for engaging in receiving or disbursement of fiat currency. Instead,
+local  partners  will  be  recommended  where  users  can acquire cryptocurrencies like Ether or
+Bitcoin, and tokens can be exchanged once this cryptocurrency has been sent to a special address
+on an Ethereum blockchain.
+The address will be the address of a smart contract that will understand how to allocate certain
+amount of tokens in exchange for cryptocurrency sent to it. (See below in “Risks and Challenges”
+for an explanation of why we need to stay away from fiat money.)
+8.                                                                                                     User Interface
+The bitJob product will have two interface points: the web portal and the iOS/Android-native
+application.   The website will have similar features to the mobile apps and will be accessible over
+any web browser. Upon accessing the website or mobile app, the user will be presented with the
+following options:
+●   Join bitJob as service provider
+●   Join bitJob as service seeker
+●   Manage my account.
+Within  the  account,  the  user will be able to extend their options—able to become a service
+provider if they joined originally    as a service seeker, or vice versa.
+●   Create service offer (if service provider)
+●   Create service request (if service seeker)
+●   Search for Service Requests. (if service provider)
+●   Search for Service Providers (if service seeker, based on categories and keywords)
+●   Bid on service request (if service provider)
+●   Bid on Service (if service seeker)
+●   Provide feedback and rate service seeker (if service provider)
+●   Provide feedback and rate service provider (if service seeker)
+●   Create conversation with other party
+●   View wallet and mining rewards
+15
+
+
+
+
+9.    Credit Reputation
+Individual                                                                                             “Credit  Scoring”  mechanism  will  be  created  to  incorporate  elements  of  service
+providers, service seekers, and service applicability to the platform (e.g., how service relates to
+addressing student problems and needs).
+10.  Fee Structure
+bitJob  fees  will  be inversely proportional to the amount of users on the platform. Fees can
+increase to dedicate funds and reward members contributing to the growth of the platform. A
+tiered bonus system will be designed and employed to reward early adopters and evangelists.
+11.                                                                                                    Mining
+Participants of the platform will be able to mine tokens through activities benefiting the platform.
+●                                                                                                      Helping  to  register  new  members who provide service or use the service of another
+member,  which  will  result  in the creation of new tokens that will be deposited into
+account of contributing member.
+●                                                                                                      Providing a reputation score of another member, which will result the in creation of new
+tokens that will be deposited into account of the participant giving feedback.
+●                                                                                                      Engaging in an activity on the network that results in the exchange of payment, ,which
+will create new tokens in the system that will be deposited into the accounts of service
+providers.
+●                                                                                                      Offering support to other members by guiding them through the system and helping
+them establish their presence on the platform.
+●                                                                                                      Offering  help  to  the  community  by  supporting  the  creation  of  new  options  and  by
+                                                                                                       participating in the future enhancements of the platform.
+●                                                                                                      Running community forums and giving answers to general questions.
+●                                                                                                      Reviewing the activity of a member’s platform and analyzing the validity/legality of their
+services.
+●                                                                                                      Participating  in  conflict  resolution,  through  the  gathering  of  facts  and  helping with
+establishing if there has been violation of rules or omission in the process.
+16
+
+
+
+
+12. Technical Description
+bitJob is characterized by two key operational pillars: autonomy and decentralization.
+Autonomy: The Ethereum platform allows for the creation of smart contracts that run business
+logic autonomously, and we will utilize these features for fast, secure, and reliable processing of
+the bitJob process that has been detailed.   This will reduce operational costs compared to those
+currently found on existing online freelancing platforms.
+Unlike existing centralized platforms and services, bitJob transactions will be publicly verifiable,
+viewable, self-operated, and not the subject to the risk of institutional processing. Our system is a
+finite state machine, and manual transactions are essentially unneeded.
+12.1. Decentralization
+Traditional online businesses with centralized structures are subject to hacking, strict financial
+regulations,  and  high  overhead  costs.  The  decentralization  of  bitJob—particularly  for  its
+transaction  processing,  auctions, contribution tracking, and distribution of funds—allows the
+elimination of payment processors, reduces the operational burden of regulation compliance, and
+reduces costs associated with inefficient accounting and duplication of functionality. In addition,
+it protects against organizational corruption such as fraud and embezzlement.
+12.2. Handling of Bad Actors
+Building on top of the Ethereum platform, bitJob is inherently decentralized. Smart contracts
+guarantee that no external parties can influence the transparent process for an extended period of
+time, for all transactions are verifiable. Any fault in the system will quickly become evident, and
+measures can be taken to eliminate bad actors from such influence, such as by building measures
+into the system that can disable accounts that abuse bitJob and freeze all associated funds.
+The system will be equipped with authentication and authorization logic as well as permission
+management.
+12.3. Security
+Security is given the highest priority. Smart contracts are responsible for handling the transfer of
+money, and the reputation system will be subjected to a comprehensive security audit prior to
+launching the platform on the testnet. We will hire experienced a security expert to validate our
+system’s fraud-prevention measures and to evaluate system defenses from malicious attackers. In
+addition,  we  are  planning  to  build  protection  mechanisms  in  the  system  to  monitor  all
+transactions and freeze suspicious activity and user accounts, to determine the weight of the
+exploit or attack or suspicious activity.
+12.4. Sybil Attack Prevention
+Because bitJob is community-based application and trust in it depends on a user reputation
+system, it is important that users who register are sufficiently verified before they are able to
+conduct  activity within the network. So-called Sybil attacks, characterized by the creation of
+multiple anonymous accounts, should be largely mitigated by verification of student credentials.
+In addition, the system should be able to verify accounts by making checks against popular social
+networking  sites  or  systems  known  for  providing  user  verification  or  cell  phone  numbers,
+17
+
+
+
+
+requiring two-way verification. In addition, all accounts should be funded with Ether before any
+activity is allowed on the network.
+13. Release Time & Roadmap
+●   Nov 2016 - Concept
+●   Dec 2016 - Research
+●   Feb 2017 - Whitepaper & Site
+●   May 2017 - Pre-sale announcement made.
+●   Jul 2017 - ICO Crowdsale
+●   Aug 2017 - Disbursement & Exchange listings
+●   Oct 2017 - Private Beta
+●   Q1 2018 - Beta Public release
+●   Q1 2018 - Open Platform for developers
+●   Q2 2018 - Launch & Further Dev.
+14. Risks, Challenges and Opportunities
+14.1. Fiat-to-Crypto Fees
+In order to use our platform, users must have cryptocurrencies prior to its use. Fees associated
+with buying and selling cryptocurrencies, as well as the limited options to exchange fiat money
+into cryptocurrency and back, can limit success of our business model. Only users who have an
+understanding of crypto world can be early adopters of our system.
+The cost savings of using our network might be in question if you take into account the exchange
+fees one has to incur to enter and exit our platform.
+14.2. Low Levels of Cryptocurrency Ownership
+Due to the fact that few people today own cryptocurrencies on a regular basis, initial growth of the
+network might be slow. Despite this, those who already have access to cryptocurrencies will create
+a loyal group of customers and will help with establishing a small but active community.
+14.3. Regulatory Compliance
+In  order  to  avoid  regulatory  risk,  our  platform  initially  will  not  offer  fiat-to-crypto  and
+crypto-to-fiat conversion. This would require establishing itself as a legal currency exchange,
+which might be very costly, time consuming, and subject to various regulatory changes. At the
+same time, this will limit members’ entry into the system, requiring them to go through several
+hoops to be able to enter our system.
+14.4. Malicious Users Might Undermine the System
+There would be no legal recourse if malicious users had an intention to undermine the system by
+flooding it with illegitimate service offers or service use methods. The system needs to have such
+checkpoints in place that will deactivate malicious members at the earliest possibility and prevent
+significant damages.
+18
+
+
+
+
+14.5. Future Opportunities
+Awareness of cryptocurrencies is growing in the world in general, and our target audience is
+young people who are the earliest adopters of technologies and particularly Internet. We can
+therefore be optimistic and trust that, in time, we will have the best access to a prime group that is
+both advanced and sophisticated, fluent with the usage of cryptocurrencies in the world. Also our
+target audience is people who are already organized in communities, and due to the lack of funds,
+we are looking for ways of saving money. The student world and its word of mouth will become
+the main forces driving our network, as low-cost marketing. These students will gain a familiarity
+with our system that means they could continue to be the main users of bitJob even after our
+platform evolves to suit more types of work, not just what suits students.
+15. The Team
+15.1. Founders
+●   Dror Medalion
+Co-founder & CEO
+A blockchain entrepreneur, An industrial Engineer and Enterprise Strategic Consultant.
+specializing in implementation of ERP & BI systems and product design.
+●   Bogdan Fiedur
+Co-founder & CTO
+A blockchain technology enthusiast from Canada. A ÐApp, full-stack, smart contracts
+developer  with  over                                                                                    20  years’  experience  as  entrepreneur  specializing  in  affiliate
+programs.
+●   Aviad Gindi
+Co-founder & CFO
+A   Mutual   Funds   Manager   at   Halman-Aldobi   Investment   House   in   Israel.
+Entrepreneurship instructor & mentor. Aviad ignites the flame of our initiatives
+●   Elad Kofman
+Co-founder & CMO
+A crypto investor and a Director of Marketing & Sales at AG Properties from Israel.
+Expert in marketing, media & consumer relationships. No one can spread the words like
+Elad!
+15.2. Advisers   - Will be completed in the next version of the Whitepaper (1.3)
+16. Appendix - Will be completed in the next version of the Whitepaper (1.3)
+19
+
+
+
+
+

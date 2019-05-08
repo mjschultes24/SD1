@@ -1,0 +1,626 @@
+﻿Syscoin 3.0: A Peer-to-Peer Electronic Cash System Built For Business Applications
+Jagdeep Sidhu, Msc.
+Syscoin Core Developer
+Blockchain Foundry Inc.
+Email: jsidhu@blockchainfoundry.co
+Abstract—Syscoin  3.0  introduces  a  novel  implementation  of
+a decentralized marketplace, an asset infrastructure, master-
+nodes providing bonded validators for a PoW/PoS hybrid con-
+sensus model and instant pseudo-interactive zero-confirmation
+cryptocurrency transactions with double-spend protection.
+1. Introduction
+Syscoin  3.0  builds upon Syscoin  2.0[Sid] with addi-
+tional  implementation  of  an  asset  infrastructure,  a  zero-
+confirmation  double-spend  protected  instant  settlement
+scheme, a hardened decentralized marketplace, and master-
+nodes  providing  bonded  validators  for  a  Proof  of  Work
+(PoW)  /  Proof  of  Stake  (PoS)  hybrid  consensus  model,
+leveraging the blockchain’s immutability and audibility.
+1.0.1. Z-DAG.    Z-DAG                                                               (Zero-Confirmation   Directed
+Acyclic Graph) is an instant settlement protocol functioning
+across  all  Syscoin  services.  Syscoin  services  consist  of
+Alias  Identities,  Certificates,  Escrow,  Offers  and  Assets.
+Each service is controlled via an Alias, in which ownership
+                                                                                     is  proven  through  a  private  key  that  matches  each                                                                                                                       Figure 1: Current Blockchain design vs Z-DAG
+                                                                                     unique  address.  Z-DAG  organizes  transactions  based  on
+                                                                                     dependencies to build the state in a deterministic fashion.
+                                                                                     This helps protect against double spends where an Asset is                                                                                                                      Z-DAG  can  be  applied  to  state  changes  (similar  to
+                                                                                     transferred falsely by creating multiple transactions through                                                                                                                   UTXO updates to Bitcoin). If any discrepancy occurs, Proof-
+multiple nodes within a short time.                                                                                                                                                                                                                                  of-Work (PoW) will override and replay the correct order
+                                                                                     Figure                                                             1   shows  the  difference  between  a  regular                                                              of events according to the miner; this is ensured by saving
+                                                                                     blockchain and Syscoin’s Z-DAG implementation. Syscoin                                                                                                                          the previous state on every block and rolling back to the
+                                                                                     now  has  two  consensus  layers:  In  the  first  layer,  a  Z-                                                     previous state prior to every block.
+                                                                                     DAG graph of transactions are represented in the mempool                                                                                                                        A User Interface layer will notify the user of conflicts
+                                                                                     without a block, providing settlement in real-time. The sec-                                                         in  real-time,  making  the  transaction  occur  between                                                                   3-5
+                                                                                     ondary layer provides confirmation and conflict resolution                                                                                                                      seconds (statistically the amount of time needed to ensure
+                                                                                     preventing double-spend events through existing Proof of                                                                                                                        that network takes to notice that 2 double spend transactions
+Work consensus.                                                                                                                                                                                                                                                      are conflicting with each other). This is possible through
+                                                                                     Verifying client nodes creates a graph of transactions                                                                                                                          Syscoin’s Masternode layer. Every Masternode is connected
+                                                                                     by looking at the sender/receiver list of Asset transfers. A                                                                                                                    to 25 or more peers providing high-throughput relay across
+                                                                                     circuit detection algorithm is applied (read below Hawick                                                                                                                       the network, averaging one or more network hops to transmit
+                                                                                     cycle detection) and used to remove cycles from within the                                                           from the sender to the receiver nodes.
+                                                                                     graph to create a DAG (Directed Acyclic Graph). Once the                                                                                                                        The partition tolerance of the protocol is the PoW block
+                                                                                     DAG is created it is topologically sorted with an Asset                                                                                                                         timing which is set to 60 seconds on Syscoin 3. Every block,
+                                                                                     transfer consensus code being processed in sequence, to                                                                                                                         a new DAG is constructed from the transactions within that
+                                                                                     form  a  deterministic  state  among  the  entire  network  in                                                                                                                  block. Unlike other implementations that have no PoW to
+consensus.                                                                                                                                                                                                                                                           fall back on, there is no case where the DAG tends toward an
+
+
+
+
+incorrect state over time.To accurately detect double-spends,
+other implementations such as Phantom[SZ] or Spectre[Zoh]
+must use an algorithm to replace the longest chain rule to
+derive the order of events and attacker sequences in a graph.
+These implementations end up in a more complex game-
+theoretical situation that has not mathematically been proven
+to be accurate in all cases. Syscoin relies on the thoroughly
+tested Nakamoto consensus model to arrive at a consensus
+over time rather than simply relying on a DAG.
+1.0.2. Hawick  cycle  detection.                                  [HJ] Hawick and James
+were able to detect a circuit in a graph containing edges
+that start and end at the same vertex, as well as multiple
+edges connecting the same two vertices. A similar method
+                                                                                                                                    Figure 3: Conflict Resolution within Z-DAG
+is implemented in the Z-DAG functionality as clients verify,
+extract cycles and create DAGs in order to process Asset
+transfers sequentially.
+                                                                  Figure 3 illustrates three parties, (A, B and C). A sends
+                                                                  the same coins at the exact same time to both B and C.
+1.0.3. Order of events preservation and conflict resolu-
+                                                                  A part of the network would interpret the transaction as B
+tion. A topological sort is applied upon the DAG. This gets
+                                                                  receiving the funds, the rest of the network would see C as
+created as a result of the Hawick detection and removal
+                                                                  receiving the funds. With standard blockchain implemen-
+of cycles from the graph of transactions representing Asset
+                                                                  tations, the discrepancy would be flagged as a conflicting
+transfers. Upon receiving a transfer, a timestamp is added
+                                                                  transaction in real-time. Both parties would wait until the
+to the Asset structure.
+next block, resolving the conflict. In this case, the miner
+first sees the payment from A to C and the transaction from
+A to B is classified as a double-spend and discarded.
+1.1. CAP Theorem
+                                                                  The CAP theorem[Bre] states that it is impossible for
+                                                                  a  distributed  data  store  to  simultaneously  provide  more
+                                                                  than two out of the following three guarantees: consistency,
+                                                                  availability or partition tolerance. Bitcoin tries to provide a
+                                                                  guarantee that transactions are settled, but mathematically
+Figure 2: DAG with topological sorting
+                                                                  it is not able to do so. Z-DAG trades some consistency for
+                                                                  some availability. Since it is unlikely that a double-spend or
+When creating a block, the miner is tasked with ordering
+                                                                  re-organization will change the state of someone’s balance,
+Asset  transfers  from  oldest  to  newest.  There  is  a  non-
+                                                                  we do not wait for settlement finality by waiting for blocks
+enforced  10-second delay applied to transfers, preventing
+                                                                  to confirm. This drastically increases the usability in point-
+Aliases from sending an Asset within the minimum latency
+                                                                  of-sale applications.
+period; this allows the transactions to arrive in order at the
+                                                                  The allowance of instant settlements and increased avail-
+miner. If an Asset transfer is detected within the minimum
+                                                                  ability requires paying additional attention to users simply
+latency period, a conflict state is set within the consensus
+                                                                  trying  to  double-spend  or  send  transactions  too  quickly,
+code and users will have to wait for the next block to confirm
+                                                                  which may cause the miner view to change from the general
+their transfer. Asset transfers are ordered on a first come,
+                                                                  network view. The DAG will order the dependency graph
+first served basis; thus, clients choosing transaction fees on
+                                                                  of transactions and process in sequence, allowing for better
+their dependent Asset transfers that are higher than transfers
+                                                                  availability when it comes to instant state changes. The
+they depend on will not alter the order that they are put in
+                                                                  same CAP constraints as Proof-of-Work will provide a more
+the block.
+                                                                  responsive money transfer mechanism that may be used as
+Figure 2 shows us the typical cyclical graph that can rep-
+                                                                  a transaction processor instead of simply a settlement layer.
+resent the payment structure of assets between individuals.
+However to create a DAG we need to remove cycles and
+topologically sort the graph in order of dependence. In this      1.1.1. Point-of-sale applications. The combination of using
+example, 2 circuits exist and removing the edge’s 3 to 2 and      Assets with Z-DAG will allow for point-of-sale applications,
+7 to 6 allows us to create a DAG with a valid topological         providing service in real-time exchange for cryptocurrency
+sort of 6 4 5 7 2 0 1 3.                                          Asset tokens.
+
+
+
+
+1.2. Assets                                                       In addition, we apply to SA :
+                                                                  SA  = SC  ∪ SB
+Syscoin Assets provide a layer of tokenization on top of
+the Syscoin network. Use cases include loyalty points, coins
+                                                                  and it follows that if SB   is the same as SB  then:
+backed  by  physical  assets,  and  service  backed  currency.
+Syscoin assets can also track individual minted tokens as
+inputs during transfer of ownership. The creator/owner of         SA  == S1A
+the asset can mint and allocate tokens to other alias iden-
+                                                                  We may apply this generally to any range sending/re-
+tities, which can then subsequently transfer ownership of
+                                                                  ceiving of assets with input ranges. Please refer to Appendix
+tokens to other alias identities. The tokens can be divided
+                                                                  D for a simple example.
+up to a definable amount of decimal places, allowing for a
+flexible unit-of-account model depending on the use case.
+For example, in a gold-backed asset token, one may                1.3. Offers and decentralized marketplace
+want to track ownership of entire gold bars which are stored
+and audited in a vault with serial numbers. Syscoin assets        We have developed a marketplace where users can se-
+can track inputs when sending tokens, so you can place
+                                                                  curely and reliably buy and sell a variety of items. Syscoin
+ownership of the gold bars and link them to the external
+                                                                  users will be able to directly create and manage their online
+serial numbers through Syscoin’s off-chain data-anchoring
+                                                                  stores through the web-portal or offline on their desktop or
+mechanism.  An  off-chain  data  file  associating  the  token    mobile wallets.
+inputs to serial numbers will anchor them cryptographically
+                                                                  Users will be able to view listing descriptions, price,
+to the asset object from the asset owner. A central issuer
+                                                                  geo-location based listings and services (if enabled by the
+would allow redemption of the bars based on ownership of
+                                                                  merchant), seller’s profiles, and reputation.
+token inputs.
+                                                                  Availability of merchants will be filterable in the context
+Generally the assets are defined with a quantity and a
+                                                                  of searching for offers. It will also allow for buyers to
+minimum dividable quantity (a precision field). The tracking
+                                                                  quickly get in contact with merchants and acquire support
+of individual inputs and anchoring of the subsequent data
+                                                                  for a product in real-time prior to purchase.
+model to the asset through off-chain anchoring allows for
+external services/assets/business practices to be distinguish-
+able when linked to cryptographically secure and verifiable
+ownership of tokens.
+Sending  allocations  of  an  asset  involves  the  Z-DAG
+protocol to allow for real-time point-of-sale applications in a
+token to service model. The sender would send the receiver
+some tokens and receiver would in real-time detect double-
+spends within roughly 10 seconds. This provides a way for
+the receiver of a micro/low value transaction to be ensured
+that it is statistically likely that their funds will confirm
+on the network, and that the contract between sender and
+receiver can complete.
+For efficient operation of non-fungible tokens  (tokens
+that  track  ownership  individually  like  the  UTXO  coin
+model) we developed a way to store the ownership of these
+tokens as input ranges. Input ranges represent a range of
+ownership tokens that an asset or an alias identity owns such
+that when transferred or received it will split and merge the
+ranges respectively.
+SA  ⊇ SB
+Let SA  be the superset range of inputs of the sender and
+SB  the strict subset inputs range being sent to the receiver.
+                                                                  Figure 4: Syscoin Service Indexer
+Then it follows that we can derive SC  as follows:
+                                                                  Sorting and filtering will be provided by supplementary
+SC  = SA  \ SB
+                                                                  off-chain databases indexed by the Syscoin core through
+                                                                  ZeroMQ  messages  as  it  sees  offer  transactions  in  real-
+For receiver to send a set back to sender we need to
+prove that SB   is a strict subset of SB :                        time. This will allow for greater interactivity with data than
+                                                                  previous implementations which relied on the blockchain
+SB  ⊇ SB                                                          reference software for storage and querying/filtering.
+
+
+
+
+1.3.1. Digital sales. Certificates may be sold in conjunction         1.3.6. Shipping notification system. A payment acknowl-
+with offers to create sales of digital ownership. A certificate       edgement button on escrow and offer payments allows a
+may hold private information such as codes or registration            multi-use notification system to the buyer that either the
+keys that are redeemed for some service by the buyer of               merchant acknowledges payment and/or they are about to
+the offer. Certificates can be automatically transferred to the       ship the product. Tracking and other shipment information
+buyer upon completion of sale.                                        can then be sent via the encrypted messaging system.
+1.3.2. Auctions.  Offers on the Syscoin platform may be
+                                                                      1.3.7. Marketplace moderation and Private Offers. Mar-
+created as an auction with a fixed countdown time, minimum
+                                                                      ketplace moderation is done through the safe search feature,
+bid and reserve price. Offers can now be Regular Offers,
+                                                                      allowing blacklisting of offers that are in obvious violation
+Timed Auctions or Timed Auctions with a Buy it Now
+                                                                      of an ethical and moral code of conduct. Merchants may
+option.
+                                                                      allow one-on-one deals by setting the offer to private.
+In our auction system, we allow merchants to configure
+multiple options. They may require a deposit (this imitates
+                                                                      1.3.8. Cryptographic   security   through   blockchain
+how current Real-Estate transactions work, a deposit is often
+                                                                      unique  user  identities.  Any  Syscoin  user  that  updates
+required to show earnestness), a witness or notary, and a
+                                                                      his  offer  listings  or  digital  certificates  must  sign  an
+reserve price. The escrow system works in conjunction with
+                                                                      input  of  their  blockchain  anchored  identity.  This  is  a
+the offer and identity modules to ensure the correct offer
+                                                                      cryptographically  secure  means  to  ensure  the  provable
+is sold to the winning bidder under authorization of the
+                                                                      ownership and modifications of those services. Consensus
+seller. Because these are smart contracts running through
+                                                                      code at the blockchain layer ensures the proper identity
+consensus on the blockchain, auctions are just as secure as
+                                                                      signature matches that of the public address associated with
+regular transactions.
+                                                                      the authorizing identity.
+1.3.3. Reselling with whitelists. Merchants may leverage              We have applied domain-name like rules to user identi-
+a  whitelist  feature  to  offer  re-sellers  the  chance  to  sell   ties, allowing only unique case-insensitive names. Users are
+their offers for a commission. This allows drop-shipping              now able to send coins and encrypted messages to an alias
+of goods and services while offering provable sales through           using any case formatting desired; the recipient will always
+the decentralized marketplace. The merchant who created               be the user who owns the lowercase version of the alias.
+the offer controls the whitelist and can add a discount level         Within the identity context, users may post public and
+on a per entry basis for each re-seller. If the merchant sets         private details including social profiles, profile pictures and
+their offer to private, then end users must purchase the item         other information that users may want others to see.
+through one of the participating re-seller offers.
+                                                                      1.4. Data anchoring
+1.3.4. Feedback and rating system. Escrows and offers
+sold through the marketplace offer a convenient way to
+                                                                      The  diagram  below  depicts  an  innovative  way  to
+rate and leave feedback on a per sale basis. For an escrow,
+                                                                      have  a  blockchain  based  anchoring  mechanism  that
+one rating is accepted (a number from 1 to 5) to represent
+                                                                      authenticates to your blockchain identity. Anchoring is a
+a users satisfaction level with a transaction, with 1 being
+                                                                      way to reduce the footprint of data on the blockchain yet
+the least satisfactory and 5 being completely satisfied and
+                                                                      at the same time allow for the cryptographic verification
+recommending the user to others. Ratings and feedback can
+                                                                      of that information linked to your blockchain based identity.
+be given to and from arbiters, merchants and buyers.
+1.3.5. Multiple payment options. Syscoin offers the di-
+rect  conversion,  transfer  and  ownership  of  hundreds  of
+cryptocurrencies today. The Syscoin marketplace will allow
+offer payment via the complete set of coins by adding an
+abstraction layer converting coins to Syscoin upon purchase
+and locking the Syscoin in escrow as part of the normal
+offer purchase flow. Native support can be for any coin
+that supports the same private key and signature scheme
+format as Syscoin does; this allows client-side conversion
+from the native Syscoin address to the desired address such
+that the same private key can unlock payments in the other
+supporting blockchains where the private key can be used to
+sign off on spending those coins. Direct support for Syscoin
+and other Assets will work differently. Instead of sending
+money to an address, an Asset transfer would happen be-
+tween identities since Asset transfers use the identity as
+input instead of coins.                                               Figure 5: Data anchoring infographic
+
+
+
+
+The client attempting to write the first data signs the                            encrypted and can only be decrypted with the owners alias
+payload using their private key; this establishes that they                        and password.
+control the piece of data which they are trying to modify.
+                                                                                   e x p o r t   i n t e r f a c e   S y s c o i n P r i v a t e I d e n t i t y   {
+Next, the raw payload, signature and public address are sent
+                                                                                   s h i p p i n g A d d r e s s ? :   s t r i n g ;
+to the server. The server uses a local independent connection
+                                                                                   pgpPrivKey ? :   s t r i n g ;
+to a full node to validate the signature based on the address
+}
+submitted. If the signature is valid then the write operation
+is executed, if not then the write is prevented and an error
+is returned to the client.
+1.5. Instant Encrypted Messages
+1.4.1. Identity specification. By storing identity data off-
+chain with a blockchain-anchor, we can increase the amount
+of data users are able to store within their Syscoin Identity
+without bloating the blockchain. By storing these entities
+off-chain we are also able to evolve the specification for
+Identities without having to fork the network, another costly
+piece of overhead if we were to store the actual data on
+chain.
+e x p o r t   i n t e r f a c e   S y s c o i n I d e n t i t y                    {
+p u b l i c I d e n t i t y :  S y s c o i n P u b l i c I d e n t i t y ;
+p r i v a t e I d e n t i t y ? :  S y s c o i n P r i v a t e I d e n t i t y ;
+e n c r y p t e d P r i v a t e I d e n t i t y ? :   s t r i n g ;
+}
+                                                                                                                                                                                                                    Figure 6: Authenticated encrypted messaging service
+1.4.2. Public  Identity  specification.  We’re starting with
+what most modern-day platforms attach to an identity simply
+                                                                                                                                                                                                                    Since  users  of  the  marketplace  operate  through  a
+for  the  purposes  of  enhancing  the  current  Blockmarket
+                                                                                                                                                                                                                    blockchain unique identity, an encrypted messaging service
+(Syscoin desktop and web wallet) experience and making
+                                                                                                                                                                                                                    is easily plausible such that both sender and receiver are
+marketplace interaction even easier. Some of the items you
+                                                                                                                                                                                                                    authenticated providing cryptographic certainty that User
+can store in your Syscoin Identity include an avatar image
+                                                                                                                                                                                                                    A received a message from User B and only User A can
+URL, first name, last name, Facebook URL, Twitter URL,
+                                                                                                                                                                                                                    decrypt and read that message using his unique Syscoin
+PGP public key, bio, and more.
+                                                                                                                                                                                                                    identity. Encrypted messages are secured with the Elliptic
+e x p o r t   i n t e r f a c e  S y s c o i n O n C h a i n I d e n t i t y                                                                                       {                                                Curve Integrated Encryption Scheme  (ECIES) symmetric
+a v a t a r U r l s :   s t r i n g [ ] ;                                                                                                                                                                           key negotiation from public keys to encrypt arbitrarily long
+first Name :   s t r i n g ;                                                                                                                                                                                        messages. Multiparty encryption is also possible through the
+lastName :   s t r i n g ;                                                                                                                                                                                          use of multi-signature identities. Messages are not stored
+}                                                                                                                                                                                                                   on the blockchain. However, blockchain based identities are
+                                                                                                                                                                                                                    used to decrypt and read these off-chain messages as well
+e x p o r t   i n t e r f a c e   S y s c o i n P u b l i c I d e n t i t y                                                                                        as cryptographically verify who the sender is.
+e x t e n d s  S y s c o i n O n C h a i n I d e n t i t y                         {
+l o c a t i o n ? :   s t r i n g ;
+1.6. Blockchain pruning
+pgpKey ? :   s t r i n g ;
+bio ? :   s t r i n g ;
+                                                                                   To combat blockchain bloat, the underlying infrastruc-
+facebookUrl ? :   s t r i n g ;
+                                                                                   ture  implements  a  novel  pruning  mechanism  to  remove
+t w i t t e r U r l ? :   s t r i n g ;
+                                                                                   marketplace listings and other unused data based on the
+i n s t a g r a m U r l ? :   s t r i n g ;
+                                                                                   expiration of Syscoin user identities. If a user is inactive,
+b i t c o i n t a l k U s e r ? :   s t r i n g ;
+                                                                                   their data will be removed. The data on the blockchain thus
+t r u s t e d A r b i t e r N a m e s ? :   s t r i n g [ ] ;
+                                                                                   represents active users using the Syscoin marketplace. The
+r e q u i r e T r u s t e d A r b i t e r ? :  boolean ;
+                                                                                   data for the service is stored in the OPRETURN output and
+}
+not hashed to the transaction and thus can be safely removed
+upon expiry of the connected Syscoin Identity. To better
+1.4.3. Private Identity specification. Identities also feature                     understand the technical nature of pruning, please refer to
+a private data field which is secured against public access                        the Syscoin 2 whitepaper.
+using ECIES encryption. Properties like shipping address                           Syscoin assets are not prunable as they are considered
+and PGP private key can be stored in this section of the                           money and are placed under the same policy as normal
+identity with confidence of data safety because it is stored                       coins.
+
+
+
+
+1.7.2. Transfer  of  ownership.  Certificates can be trans-
+ferred to other identities. New owners will receive reading
+rights for any private encrypted data and the transfer can be
+configured to allow editing of certificates upon completion.
+1.8. Escrow
+Syscoin’s integrated escrow service allows safer pay-
+ments of offers by securely holding a buyer’s tokens in
+escrow until the terms of the sale are met and the buyer
+releases payment to the seller.
+The system uses an arbiter-based system, whereby ar-
+biters act as trusted third-parties between buyers and mer-
+chant for a sale in the decentralized marketplace. An arbiter
+is paid based on a dynamic fee set in the rates peg for the
+offer that is sold. Once the escrow process is complete all
+Figure 7: Blockchain pruning                                       parties can be rated and given feedback related to the sale.
+                                                                   Arbiters are chosen by buyers when accepting an offer.
+                                                                   Typically the buyer and seller would agree on an arbiter
+1.6.1. Zero-knowledge alias authentication. Alias private          before an offer is accepted. In most cases no dispute is filed
+keys  can  be  generated  deterministically  by  supplying  a      and no arbitration is needed.
+password hashed with a generated random 256bit number              If a merchant does not ship goods, the arbiter refunds the
+known as ”password salt”. Password salt is stored in local         buyer. If the buyer receives goods as described but does not
+storage on the browser and offline. When the user logs in,
+                                                                   release payment, the arbiter releases funds to the merchant.
+their private key can be derived using their password and          The  feedback  and  rating  system  helps  prevent  irrational
+locally stored salt, then checked against the public address of    behavior by aligning incentives allowing actors to benefit
+the alias through an identity information lookup from within       from honest actions.
+any full node. This enables wallet-less on-chain controls and      The  fees  paid  to  arbiters  are  only  applicable  if  the
+authenticated spending of coins/services without requiring a       arbiter acts to sign off on a refund or release payment to
+transfer of credentials over any network.                          merchant. The fees are set by the buyer upon purchase.
+                                                                   These fees are adjustable, but the fee rates requested by
+1.6.2. Expiration. Identities expiry happens based on time.        the escrow agent should be taken into consideration when
+The blockchain protocol acts as a decentralized time server        buyer adjusts the default fee rates when purchasing. Escrow
+which stamps blocks based on height and time. Services             agents with better reputation scores and more transactions
+expire when the identity related to it expire and escrow will      arbitrated can charge higher fees as a result. However, a
+expire if, and only if the arbiter, buyer and, seller identities   market equilibrium will present itself between the supply
+involved are all expired.                                          and demand of escrow agents and their fees.
+Once an escrow is created, the users involved are pro-
+1.7. Certificates                                                  vided specific controls based on their role. These controls
+                                                                   allow the user to initiate specific functions on the escrow
+Digital certificates within Syscoin infrastructure are use-        through the user-interface.
+ful for many kinds of applications  - from storing bits of
+data to creating data that may be sold and transferred upon        2. Open-API Specification
+purchase - all with provable ownership via the blockchain.
+                                                                   We will develop syscoin-api  3.0, an Open-API com-
+1.7.1. Public and private data. Certificates, like aliases,        patible specification for software developers. Syscoin-api
+have public and private data. Private data can be accessed         provides a clear and concise solution and is provided in
+by foreign aliases either through creating a multi-signature       the language of their choice. With syscoin-api, developers
+alias and including other aliases or by transferring ownership     can easily build custom blockchain applications.
+of the certificate to the new owner.
+Using a multi-signature approach allows certificate own-           3. Masternodes
+ers to maintain control of their certificates while still allow-
+ing decryption of private data by other users. For example,        Masternodes are a P2P extension of the Syscoin proto-
+an owner could change the alias of the certificate to a multi-     col; allowing decentralized governance, decentralized mix-
+signature alias, then assign two aliases owned by the owner        ing, instant transactions and Z-DAG. The Syscoin mastern-
+and one alias owned by another party. By requiring two of          ode  protocol  is  similar  to  the  Dash  crytocurrency’s  im-
+three signatures, the owner would be able to edit the data,        plementation, the first to introduce the masternode tech-
+the third party would not.                                         nology[Duf]. We have further innovated this protocol by
+
+
+
+
+providing a  50/50  split of transaction fees to miners and        are  the  most  dependant  to  date,  as  they,  unlike  miners,
+masternodes. A seniority model has been created to provide         cannot reuse their asset for any other coin or purpose.
+larger incentives to masternode hosts. The seniority model         Syscoins decentralized governance system powered by
+was created after in-depth analysis of masternode up-time          masternodes, ensures that the promotion and betterment of
+behavior; supplying the network with a more efficient mech-        Syscoin is their number one focus. Masternodes must vote
+anism.                                                             through a transparent public portal, on the development and
+For additional information about the specific Dash fea-            expansion of the Syscoin network, and budgeted funds are
+tures  that  Syscoin  inherits,  you  may  refer  to  the  Dash    allocated accordingly. Each project that gets voted on and
+whitepaper. We will be focusing on the innovations done on         is passed, is taken from the total budget and paid directly to
+Syscoin pertaining to masternodes and how else we provide          the person who won the proposal to carry out the proposed
+utility using the masternode layer.                                project. The payment is paid out in a decentralized fashion,
+using a superblock, once a month. A superblock receives 10
+percent of each block reward saved into a monthly budget
+for proposals. Governance promotes a fast turnaround and
+essentially indicates an approval to proceed on that specific
+task.
+To ensure long-term stability, allocating funds through
+Syscoin ensures masternode operators become contractors
+who work for, and are compensated through the network.
+Figure 8: Masternode P2P Protocol Basics                           A portion of the block reward is held in escrow, in the
+                                                                   names of the operators, and not released until voting is
+Refer to Appendix A for flow diagrams of how the P2P               complete. This maintains the promotion of the coin and the
+layer functions and what messages are being passed for the         network, as operators who sell their coins can be picked
+correct functioning of masternodes.                                up by more interested individuals who will then acquire
+                                                                   the right to vote. This system allows for the network to
+3.0.1. Mechanism design through masternode seniority.              be  capable  of  sustaining  itself,  maintaining  growth  and
+Bitcoin provides two incentives for miners: block subsidies        allowing for appropriate adjustments and changes which are
+(through rewards) and transaction fees. As Bitcoin rewards         not dependent on specific operators.
+wind down the network could become unstable due to de-
+grading miner incentive to act in the best interest of network
+                                                                   4. Specs
+security. Issues such as selfish mining and undercutting are
+discussed in greater length in a paper presented at the ACM
+                                                                   General specifications for Syscoin 3.0:
+CCS [Nar16]. To prevent mining incentive from degrading,
+usage  of  services  and  length  of  bonding  are  tied  to  an
+                                                                   •     Max Coins: 888 million
+inflation metric for block rewards. Transaction fees remain
+                                                                   •     Deflation: 5 percent per year until Max Coins
+to provide incentive to mine and relay transactions but re-
+                                                                   •     Consensus:  PoW/PoS  Hybrid.  PoW  is  SHA256
+wards depend on the demand for using the Syscoin network.
+                                                                   Merge-mined with Bitcoin
+Bonded validators serve network utility in exchange for a
+                                                                   •     Block time: 60 seconds target
+mining reward adjusted based on seniority. The longer the
+                                                                   •     Rewards: 38.5 Syscoin deflated 5 percent per year
+term of the bond contract the more deflation-adjusted return
+                                                                   of which 10 percent is allocated to governance pro-
+on investment, the user would make up to a maximum rate.
+                                                                   posals (3.85 Syscoin). 75 percent of the result goes
+As utility increases and bond holders remain, a seniority
+                                                                   to masternode and 25 percent to miner.
+metric slightly adjusts the supply base for the increased
+                                                                   •     Difficulty algorithm: Dark Gravity Wave
+incentives. For every  4  months of blocks that one bonds
+                                                                   •     Masternode collateral requirement: 100000 Syscoin
+coins and provides masternode services, a 3 percent increase
+                                                                   •     Masternode seniority: 3 percent every 4 months until
+in ROI - on average - is accounted for in the mining reward.
+                                                                   27 percent over 3 years
+This can carry forward for up to 3 years in blocks or 27
+                                                                   •     Governance proposals payout schedule: every month
+percent maximum deflation-adjusted ROI.
+                                                                   •     Governance funding per round (168630 Syscoin per
+                                                                   month)
+3.1. Syscoin Governance
+5. Future work
+Syscoins governance ensures that there is a decentral-
+ized, unbiased system to manage and fund the platform.
+Unlike previous not-for-profit foundations that were tasked        We will work with the Blockchain Foundry team to
+to maintain core protocol and promotion of the coin, Syscoin       innovate and bring value to the token holders of Syscoin in
+governance is administered by masternode operators that are        a variety of ways, including scaling and better third-party
+heavily invested in the future of Syscoin. These masternodes       escrow solutions for trustless e-commerce.
+
+
+
+
+5.1. Encrypted Messaging enhancements                            an EVM. Non-turing complete DApps can be done through
+                                                                 a merkle-tree timestamping service, where many pseudo-
+With the new messaging system, it is now possible to             transactions are aggregated into large merkle-trees and root-
+implement optional email notifications for specific events       hash stored onto the Syscoin blockchain at set time intervals.
+on Blockmarket such as notification of a sale or an escrow       Storage of the trees and the individual DApp state contracts
+request. We may also add image support, enhanced (HTML)          can be stored on any content addressable storage system like
+messages, attachments or even support direct phone calls         IPFS. This would allow for an unbounded scalable system
+and text messages. You may also export messages to a file        that benefits from the immutable source of truth that the
+for safekeeping.                                                 blockchain provides. The idea is to separate the blockchain
+                                                                 courts from the merkle computers. Computation and storage
+                                                                 of the contracts can and should be done off-chain in content
+5.2. Lightning networks
+                                                                 addressable means. The consensus critical hash of the data
+                                                                 can be stored in the court for provable auditing purposes.
+We  are  looking  to  develop  an  off-chain  transaction
+mechanism whereby we are able to provably move Syscoin
+Assets in high volume without fees and without affecting         6. Conclusion
+blockchain bloat.[Fyo]
+                                                                 Acknowledgments
+5.3. Offers/Escrow
+                                                                 We would like to thank Satoshi Nakamoto, the Bitcoin
+Proof-of-shipment is something we have innovated and             Core developers, and the Dash core developers for their
+are expanding upon the shipping notification system from         continued excellence in software engineering, which has
+within the escrow and offer service layers. A video can be       made it possible for others to develop innovative products
+taken by the merchant, hashed and included in a data-field       on top of their accomplishments.
+from within the shipping notification transaction, assuring
+arbiters  and  buyers  that  any  disputes  would  be  quickly
+and efficiently resolved. Arbitration and insurance would
+become cost-effective means to insure true buyer protection
+as markets form as a result of the technology. There is
+currently  a  proof-of-concept  under  development  for  this
+proof-of-shipment mechanism.
+We are working on the ability for autonomous agents to
+act as escrow agents and deliver goods to buyers within
+5km  of  distribution  centers.  The  food  industry  employs
+such services. We would simply adapt these to allow for
+a decentralized marketplace with tokens held in escrow that
+would be released upon acceptance of delivery.
+5.4. Syscoin 4.0 - Next Generation
+The next generation of Syscoin will focus on scalability.
+Work has begun on creating a platform for enterprise grade
+applications done in a permissionless blockchain environ-
+ment. A public blockchain that serves as the backbone for
+a merkle computer[Rou] is the ideal case for subsequent
+economic development to rely upon without central actors
+to dissuade others from performing for the most efficient
+common goals for an economy. The ideal system would
+allow for an EVM implementation to run such that the
+Patricia  Trie  states[Fou].  The  accounts  would  be  stored
+in a scalable, permissionless blockchain running on mas-
+ternode technology. They would also be performing side-
+chain Syscoin transactions to get in and out of the EVM
+environment  through  the  help  of  Intel  SGX  or  merge-
+mined sidechains. The computation would be run either as
+a quorum or with the help of hardware protected execution
+environments, so that single random or dual random nodes
+are all that would be needed to perform calculations for
+
+
+
+
+References                                                 7.                                                        Appendix A: Syscoin Indexer Dataflow
+[Nar16]                                                    Arvind  Narayanan.  “On  the  Instability  of  Bit-
+                                                           coin Without the Block Reward”. In: ACM CCS
+                                                           (2016).  DOI:  https : / / www . cs . princeton . edu /
+∼smattw/CKWN-CCS16.pdf.
+[Bre]                                                      Eric Brewer. Brewer’s theorem. URL: https://en.
+wikipedia.org/wiki/CAP theorem.
+[Duf]                                                      Evan Duffield. Dash: A Privacy-Centric Crypto-
+                                                           Currency. URL: https://github.com/dashpay/dash/
+wiki/Whitepaper.
+[Fou]                                                      Ethereum Foundation. Modified Merkle Patricia
+Trie  Specification                                        (also  Merkle  Patricia  Tree).
+URL: https : / / github . com / ethereum / wiki / wiki /
+Patricia-Tree.
+[Fyo]                                                      Jonald Fyookball. Mathematical Proof That the
+Lightning  Network  Cannot  Be  a  Decentralized
+Bitcoin Scaling Solution. URL: https : / /medium .
+com / @jonaldfyookball / mathematical - proof -
+that - the - lightning - network - cannot - be -
+a - decentralized - bitcoin - scaling - solution -
+1b8147650800.
+[HJ]                                                       K.  A.  Hawick  and  H.  A.  James.  Enumerating
+Circuits and Loops in Graphs with Self-Arcs and
+Multiple-Arcs. URL: https://blog.mister-muffin.de/
+2012/07/04/enumerating-elementary-circuits-of-
+a-directed graph/.
+[Rou]                                                      Simon  de  la  Rouviere.  Interplanetary  Linked
+Computing: Separating Merkle Computing from
+Blockchain  Computational  Courts.  URL:  https :
+/ / media . consensys . net / interplanetary - linked -
+computing - separating - merkle - computing - from -
+blockchain-computational-courts-1ade201ecf8a.
+[Sid]                                                      Jagdeep Sidhu. Syscoin: A Peer-to-Peer Electronic
+Cash System with Blockchain-Based Services for
+E-Business. URL: http : / /syscoin .org /whitepaper.
+pdf.
+[SZ]                                                       Yonatan Sompolinsky and Aviv Zohar. SA Scal-
+able BlockDAG protocol. URL: https://eprint.iacr.
+org/2018/104.pdf.
+[Zoh]                                                      Aviv   Zohar.   Serialization   of   Proof-of-work
+Events:  Confirming  Transactions  via  Recursive
+Elections. URL: https://eprint.iacr.org/2016/1159.
+pdf.
+
+
+
+
+8. Appendix B: Masternode P2P Dataflow   9. Appendix  C:  Encrypted  Messaging  Se-
+quence
+
+
+
+
+10. Appendix D: Asset Input Range Sending
+
+
+
+
+

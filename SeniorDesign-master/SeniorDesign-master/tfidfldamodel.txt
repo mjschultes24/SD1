@@ -1,0 +1,20 @@
+Topic: 0 
+Words: 0.007*"game" + 0.004*"dapp" + 0.004*"cloud" + 0.004*"vote" + 0.004*"trader" + 0.004*"liquid" + 0.004*"gold" + 0.003*"miner" + 0.003*"player" + 0.003*"portfolio"
+Topic: 1 
+Words: 0.001*"game" + 0.001*"advertis" + 0.001*"referr" + 0.001*"instal" + 0.001*"confidenti" + 0.001*"distributor" + 0.001*"light" + 0.001*"michael" + 0.001*"brief" + 0.001*"indirect"
+Topic: 2 
+Words: 0.001*"reproduc" + 0.001*"augment" + 0.001*"score" + 0.001*"medic" + 0.001*"deliveri" + 0.001*"realiti" + 0.001*"merchant" + 0.001*"ecommerc" + 0.001*"recipi" + 0.001*"strictli"
+Topic: 3 
+Words: 0.001*"distributor" + 0.001*"east" + 0.001*"music" + 0.001*"artist" + 0.001*"prime" + 0.001*"dissemin" + 0.001*"signal" + 0.001*"transport" + 0.001*"michael" + 0.001*"ipf"
+Topic: 4 
+Words: 0.001*"travel" + 0.001*"vertic" + 0.001*"tokenâ" + 0.001*"meet" + 0.001*"output" + 0.001*"tier" + 0.001*"food" + 0.001*"game" + 0.001*"premium" + 0.001*"room"
+Topic: 5 
+Words: 0.001*"movement" + 0.001*"student" + 0.001*"club" + 0.001*"gold" + 0.001*"acceler" + 0.001*"wave" + 0.001*"award" + 0.001*"zone" + 0.001*"academ" + 0.001*"chines"
+Topic: 6 
+Words: 0.001*"planet" + 0.001*"dapp" + 0.001*"gold" + 0.001*"task" + 0.001*"creativ" + 0.001*"augment" + 0.001*"mainnet" + 0.001*"consent" + 0.001*"proprietari" + 0.001*"realiti"
+Topic: 7 
+Words: 0.001*"game" + 0.001*"draft" + 0.001*"donat" + 0.001*"app" + 0.001*"theyâ" + 0.001*"loan" + 0.001*"dapp" + 0.001*"thatâ" + 0.001*"africa" + 0.001*"energi"
+Topic: 8 
+Words: 0.001*"explor" + 0.001*"creator" + 0.001*"music" + 0.001*"monetari" + 0.001*"pace" + 0.001*"massiv" + 0.001*"commenc" + 0.001*"sharehold" + 0.001*"tamper" + 0.001*"peer"
+Topic: 9 
+Words: 0.006*"page" + 0.005*"node" + 0.005*"stake" + 0.005*"nod" + 0.005*"card" + 0.005*"loan" + 0.005*"hash" + 0.005*"advertis" + 0.004*"messag" + 0.004*"encrypt"

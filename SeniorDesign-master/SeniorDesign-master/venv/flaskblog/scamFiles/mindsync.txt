@@ -1,0 +1,604 @@
+﻿Machine learning competitions
+to help solve business tasks
+and a marketplace for AI services
+December 28, 2018
+
+
+
+
+Disclaimer: THIS DOCUMENT DOES NOT GIVE PERSONAL, LEGAL
+OR  FINANCIAL  ADVICE.  YOU  ARE  STRONGLY  ENCOURAGED  TO
+SEEK YOUR OWN PROFESSIONAL LEGAL AND FINANCIAL ADVICE.
+This  white  paper                                                           (the   “whitepaper”)  is  for  discussion  and  pre-
+information  purposes  only,  provided  as  a  courtesy.  The  information
+contained herein is subject to change, no part of this draft document is
+legally binding or enforceable, nor is it meant to be, until it has been
+discussed, reviewed and revised by the board of directors, the board
+of advisors and company lawyers. Please do not copy or disseminate
+any  part  of  this  document  without  written  approval  by  MindSync
+including this disclaimer.
+2
+
+
+
+
+Abstract
+The age of AI technologies is well and truly upon us. While movies like
+The  Matrix  have  shown  us  the  cataclysmic  effects  of  intelligent
+machines,  we  cannot  ignore  the  vast  benefits  that  AI  technologies
+bring to businesses today. The use of AI technologies can help reduce
+operational   costs,  increase  efficiency,   grow   revenue   and   vastly
+improve  the  customer  experience.  And  unbeknownst  to  us,  we  are
+surrounded by intelligent devices that are making our lives easy.
+Businesses around the world are realizing the awesome powers and
+capabilities AI technologies can bring to their processes. And it has
+been estimated that global spending on cognitive and AI systems will
+surpass  $19 billion in  2018, an increase of more than  50% over the
+amount spent last year. This shows the tremendous interest of global
+businesses   to   secure   a   competitive   advantage   by   using   AI
+technologies. However, like any growing market, the AI market also
+suffers from certain pain points, which, if not addressed, may prove to
+hinder the effective utilization of this truly transformative technology.
+MindSync is a platform and a global community of AI/ML experts so
+that businesses  of all kinds and  sizes may  benefit from  world  class
+talent  on  a  single  platform.  Customers  can  order  customized  AI
+solutions through ML/DS challenges or choose from a wide collection
+of ready solutions.
+Apart from these, the MindSync platform will also look to strategically
+partner with decentralized supercomputer projects and crypto mining
+farms  and  make  this  computing  power  available  to  community
+members  and  customers.  This  will  help  reduce  the  high  costs  for
+availing    computing    capabilities    and    allow    everyone,    from
+schoolchildren   to   scientists,   to   use   the   previously   inaccessible
+computational  power  in  their  projects  and  open  new  horizons  for
+researchers in AI domain.
+3
+
+
+
+
+Contents
+1          Vision
+1.1        Problem                  5
+1.2        Proposed solution        6
+1.3        Our vision and mission   7
+2          Market potential         8
+3          How it works
+3.1        The product              10
+3.2        Platform interactions    10
+3.3        Competitions             13
+3.4        Reputation system        15
+3.5        Platform use cases       17
+4          System architecture      18
+4.1        Solution                 19
+4.2        Data storage             19
+4.3        Distributed computing    20
+4.4        Blockchain               20
+4.5        Validation               21
+4.6        Privacy protection       21
+4.7        Private services         22
+5          Token model
+5.1        Token                    23
+5.2        Token flow & usage       23
+5.3        Token issuance           24
+5.4        Rewards                  25
+6          Conclusion               25
+4
+
+
+
+
+Vision
+1.1 Problem
+The major pain points in the path to utilization of AI tech include:
+Lack of enough experts
+The demand for applied AI experts, data scientists, machine learning
+and  deep  learning  developers  is  growing  every  day.  Today  these
+specialists  are  rare  and  expensive.  But  in  spite  of  it  all,  highly
+competitive  nature  of  business  requires  highly  skilled  personnel  to
+find efficient solutions in the shortest time. The scarcity and costs of
+these resources are a big problem for organizations using, or wanting
+to use, AI technologies.
+Complexity in integration and adaptation
+Despite  the  AI  industry  development,  in  pursuit  of  ready-made  AI
+solutions applicable for solving real business problems, and in other
+areas, their integration and adaptation are still a complex question.
+High demand of computing power, and eventually, costs
+Data  science  and  machine  learning  tasks  are  usually  resource
+intensive ones and can be efficiently solved using a large number of
+CPU and/or GPUs. Using cloud services such as Google Cloud, Amazon
+AWS,  Microsoft  Azure  can  solve  that  problem,  though  with  an
+unreasonably high price.
+Security issues
+AI  tech  is  increasingly  being  integrated  into  high-tech  consumer
+products.  This  can potentially  affect our life  and  safety  in ways  we
+cannot even begin to imagine. Without independent automated data
+integrity  check  and  version  control,  it  is  not  possible  to  guarantee
+replicability  that  is  crucial  in  applied  machine  learning  algorithms
+with high security requirements.
+5
+
+
+
+
+1.2 Proposed solution
+To address these issues, MindSync is creating a unified platform to:
+Establish  an  active  community  of  experts  in  the  field  of  AI
+technologies like machine learning  (ML), computer vision  (CV), deep
+learning  (DL),  natural  language  processing  (NLP)  and  data  science
+(DS). This community will be a source of contact for customers of all
+sizes to access state-of-the-art AI-based solutions for their businesses
+and   will   develop   AI   solutions,   share   experience,   and   improve
+competence on the MindSync platform.
+Creating  the  marketplace  for  ready  AI  solutions  (ML-models  and
+datasets).  Placing  production-ready  solutions  on  the  marketplace  in
+enterprise-ready containers. Solutions may be paid or free. This will
+allow  developers  of  high-quality  and  popular  solutions  to  use  the
+MindSync platform as a source of steady income or to contribute to
+the community and help other participants build new solutions based
+on them as well as improve their own skills.
+Exploitation  of  crypto  mining  farms  and  exchange of computing
+power among some participants of the community. This significantly
+reduces  computation  cost  by  threefold  in  comparison  with  cloud
+computing.   MindSync   will   use   its   own   computing   resources,
+supercomputer projects such as SONM, and cloud services to diversify
+denial-of-service risks and provide maximum quality of their services.
+Deployment  of  a  blockchain  assures  security  and  data  integrity.
+Persistence of ML-models hashes, data, solution quality assessments,
+solution ratings, and the platform participant metadata are all saved in
+the  embedded  blockchain.  It  allows  to  verify  objects  and  their
+dependencies that is crucially important in development of replicable
+and safe solutions.
+6
+
+
+
+
+1.3 Our vision and mission
+MindSync  is  an  AIaaS                                                         (AI-as-a-Service)  and  ExaaS   (Expert-as-a-
+Service)  platform.  We  seek  to  help  solve  business  problems  of
+customers  through  AI-based  solutions  that  are  created  through
+rewarding  competitions  within  the  community  or  through  choosing
+from a wide range of production-ready solutions in our repository.
+We are on a mission to provide better and cheaper AI solutions for a
+wide  range  of  businesses  through  a  readily  available  community  of
+experts.  While  customers  will  be  spoilt  for  choice  at  the  available
+talent on the platform, the community members also get a platform to
+earn  rewards,  exchange  experience  and  interact  with  like-minded
+individuals for personal and professional growth.
+7
+
+
+
+
+Market potential
+Worldwide spending on cognitive and AI systems will reach $24 billion
+in 2018. According to IDC, AI expenses will grow up to $77.6 billion in
+2022 and the compound annual growth rate (CAGR) will be 37.3% in
+the 2017-2022 forecast period.
+Revenues from the artificial intelligence (AI) market worldwide
+2016-2025
+8
+
+
+
+
+Global artificial intelligence market by technology
+Machine  Learning  is  projected  as  one  of  the  most  lucrative
+segments.
+9
+
+
+
+
+How it works
+3.1 The product
+On the MindSync platform, customers can ask for the creation of a
+customized AI-based solution to their business problems, by creating a
+challenge.  This  challenge  will  be  visible  to  all  the  community
+members.  Interested  experts  on  the  platform  will  register  their
+participation in the challenge after accepting the terms and conditions
+governing   it.   The   expert                                                  (individual   or   team)   participates   in
+competition by send code and/or predictions. Winner that successfully
+creates  the  solution  will  submit  their  entry  for  the  review  of  the
+customer as well as other experts in the community. Once the review
+is successful, the customer buys the solution that can be integrated
+into their business processes. MindSync will also be a repository for
+readymade AI-based solutions and training datasets that a customer
+can look for.
+MindSync  will  allow  to  host  solutions  on  the  platform  and  make  it
+accessible via API without any deploying. This is dramatically simplify
+integration of the solution.
+3.2 Platform interactions
+MindSync entities:
+Member - MindSync provides free registration for any person via web
+or mobile app by creating MindSync account. The benefits that the
+platform  provides  are  only  accessible  via  MindSync  account.  The
+member can be either Expert/Developer or Customer or both. Experts
+define problems supplied by customers. They help to formulate and
+adapt   the   problem.   They   accumulate   ratings   and   values   by
+10
+
+
+
+
+participating  in  competitions  and  projects.  Every  member  of  the
+platform has track-record and verified rating that allows to evaluate
+the contribution to the platform. There is also available an option to
+pass KYC verification. The provided personal information is hashed.
+Hashes  are  stored  by  platform's  blockchain.  The  private  data  also
+helps in making the interaction between experts and customers more
+trusted  and  transparent,  e.g. signing  NDA  before  starting  a project
+make greater sense.
+The platform allows customers to place tasks mostly in the form of a
+competition, since competition format provides the most efficient way
+of problem solving. Other forms of interactions are possible too and
+are subject to research.
+Organization/Group  - Members can create an organization. It unites
+members  into  a  group  and  provides  more  comfortable  way  for
+collaboration. Organization can also be a customer which initiates a
+competition. Organization provides privacy and restricts access to the
+datasets.
+Community  -  Basically,  all  the  members  and  organizations  are  the
+platform's community. The accumulated knowledge is shared among
+the community. Community is the pool of experts that can participate
+in solving and defining tasks. One of MindSync project's main goals is
+the creation of a global community of DS/ML experts and using this
+huge talent pool to help solve business problems by creating cutting-
+edge AI-based solutions.
+Platform  - The platform's role is to provide technical support for the
+project's ecosystem. It attracts members and expands the community.
+The platform is engaged in maintaining the project's economy, models
+market and in developing resources for the community.    The role of
+the  platform  will  be  assumed  by  the  MindSync  team  prior  to  the
+development of the DAO.
+11
+
+
+
+
+Dataset - A set of datasets in the MindSync system will be available.
+Datasets can be private and public, accessible to the whole community
+or   within   individual(s)   organization(s)/group(s).   In   the   case   of
+publication, it's necessary to specify the conditions (license) on which
+the  other  participants  of  the  platform  can  use  the  information
+contained  in dataset. Datasets can be provided by participants  in a
+packaged (archived) form and can contain any kind of information, but
+basically  it  can  be  imaged  as  CSV  file  or  set  of  images.  The
+information contained in datasets is hashed. Hashes are stored in the
+platform's   blockchain.   This   functionality   provides   guarantees   of
+integrity and immutability of the information contained in datasets.
+Solution                                                                         -  Basically,  this  is  the  final  executable  and  source  code
+representing  learning  procedure  and  final  inference.  The  MindSync
+platform   also   provides   tools   for   versioning   and   hashing   code
+developed  by  the  participants.  The  release  mechanism  creates  a
+snapshot, computes the hash and stores it in the blockchain.
+Project/Competition  - A set of terms and conditions in the context of
+which the task and the goal are defined. Requirements pertaining to
+the   development   of   solutions   is   iterated   in   the   process   of
+communication between customers and experts through the MindSync
+platform.
+The mechanism of interaction of participants depends on their role. In
+the  process  of  interaction,  knowledge  is  generated  in  form  of
+experience, models or source code. These artifacts are made available
+to  other  participants,  serve  to  accelerate  the  dissemination  of
+information and strengthen the Community.
+12
+
+
+
+
+Incentives  for  Members  includes  knowledge,  contribution  to  the
+community,  personal  rating  as  verified  skill  score  and  money  as  a
+reward for their work.
+For  Customers,  the  benefit  are  in  the  form  of  solving  a  specific
+problem by attracting a lot of specialists and providing a quick test of
+a large number of hypotheses, or consulting in the case of absence of
+its in-house experts.
+It  is  also  important  to  notice  that  interaction  with  the  Community
+includes   healthy   communication   and   consultations   with   several
+experts, which negates the likelihood of making a wrong decision.
+3.3 Competitions
+Competitions  are  a  way  to  get  a  strong  solution  to  a  problem  in  a
+relatively short time. The advantage of the competition is that a large
+number of competent people work on the task, who manage to test a
+large  number  of  hypotheses.  As  a  result,  the  customer  receives  a
+working algorithm and, what is often more important, the knowledge
+that the result obtained cannot be improved at low cost.
+In other words, the decisions obtained as a result of contests are an
+approximation  to  the  upper  possible  limit  of  the  quality  of  the  ML
+model.
+This   circumstance   makes   competitions   extremely   effective   in
+applications where even a relatively small improvement in the quality
+of the forecast is in demand by the business.
+As example, to get a result similar to the competition, and to check a
+comparable   number   of   hypotheses,   you   need   several                    (tens)
+personyears of work.
+13
+
+
+
+
+Task  requirements  come  from  the  customer,  but  at  this  stage  it's
+possible to involve community experts for consultation and assistance.
+The competition mechanics are tailored to a specific task, but the
+general mechanism is as follows:
+1.  The terms and metric are determined and the data for training is
+given to the participants.
+2.  Participants optimize the metric in the framework of the contest
+rules.
+3.  The final assessment of the ML-models takes place on the test
+dataset.
+4.  Winners and top participants are awarded in proportion to their
+contribution.
+5.  Solutions,  approaches  and  experiences  are  documented  and
+become knowledge of the community.
+6.  All participants receive ratings.
+7.  The ML-model is published on the platform market.
+The mechanics of the competition, additional restrictions, the method
+of  choosing  the  winner  and  other  nuances  may,  if  necessary,  be
+redefined by the Customer to match the original task.
+The benefits of using the MindSync platform:
+•   For  participants                                                        -  experience,  knowledge,  contribution  to  the
+community, reward, rating.
+                                                                             •   For  customers  -  the  solution  of  their  problem,  insights  about
+their specific data.
+•   For   the   platform                                                     -                                                                            community   development,   increasing
+engagement, developing market models.
+14
+
+
+
+
+3.4 Reputation system
+The  rating  system  (also  reputational)  is  an  important  part  of  the
+MindSync  platform.  This  is  one  of  the  key  components  of  the
+gamification  process.  In  addition,  the  rating  system  is  a  tool  for
+measuring the progress and achievements of a particular participant,
+and can be used to confirm his competence.
+The rating consists of three main components:
+I.  The  first  component  is  competitive;  it  reflects  success  in  solving
+problems by the Participant. Its value is determined by:
+•   a range of tasks in which the Participant participated
+•   position (s)he occupied in the standings
+•   level of competition in these tasks
+II. The second component reflects the contribution to the Community
+and includes:
+•   disclosure of Participant’s solutions and their description
+•   participation in discussions
+•   preparation of training materials
+•   interaction with customers and preparation of competitions
+III. The third component is self-regulatory, which allows participants to
+redistribute  some  share  of  their  own  reputation  points  at  their
+discretion. It is intended to give the Community a tool for expressing
+the recognition of individual participants where the rating formula is
+not flexible enough.
+All three components are of interest both separately and in aggregate.
+On their basis, it will be possible to build a system of certification and
+15
+
+
+
+
+grading  of  specialists  for  targeted  attraction  of  people  with  the
+required level to projects.
+The reputation system claims the right to be called an instrument for
+objective  measurement  of  a  person’s  success  on  the  platform;
+therefore, it is important that it is transparent and reliable. This will
+be ensured by the use of blockchain technology that will eliminate the
+possibility of a fake or overstatement.
+16
+
+
+
+
+3.5 Platform use cases
+Competitions can be viewed as an instrument for obtaining a solution,
+for  accelerating  research,  and  as  a  way  to  strengthen  a  brand.  In
+addition to competitions, it’s possible to organize any other format of
+interaction with the community on the Platform.
+Market solutions is a convenient tool for typical tasks. An example is
+the model for determining adult content in a photo.
+Such a task is not tied to the specifics of a particular application and
+may be framed as a reusable component.
+Examples of such tasks are include:
+• gender prediction by text
+• comment toxicity determination
+• sentiment analysis of the text
+• objects recognition
+• face recognition
+Using a turnkey solution allows to get a high enough quality in a short
+time.  And  if  there  is  a  need  to  improve  the  quality  of  a  specific
+application - it's possible to attract members of the Community.
+Large  companies  have  long  been  holding  competitions  to  solve
+machine  learning  problems.  One  of  the  most  famous  examples  is
+Netflix which, in 2006, held a competition to develop an algorithm of
+the recommender system with a prize of $ 1M.
+17
+
+
+
+
+System architecture
+MindSync at its core is a decentralized software/data marketplace and
+contest host for data science companies, data scientist and software
+engineers.
+We  will  implement  MindSync  using  Ethereum*  on  smart  contracts.
+Ethereum  smart  contracts  will  be  able  to  provide  security,  fault
+tolerance, real decentralization and host a community of developers
+which will develop tasks, contests and features on the platform. There
+will be off-chain services: IPFS and computation power providers for
+storing data/solutions/models and testing it. Providers and IPFS nodes
+will  communicate  with  users  on  the  platform  and  will  also  have
+reputations and MAI tokens at stake.
+So basically our system will use two-layer consensus (also third layer
+for results of each competition) with miners on first blockchain layer
+and  proof  of  reputation  on  smart  contracts.  It  will  suffice  platform
+goals of integrity, security, fairness, transparency and availability.
+* We understand current Ethereum scalability issues and in the future either
+Ethereum will be able to solve its scalability problems or we will develop our
+own  x100  faster  blockchain  with  Proof-of-Stake-like  consensus  with  smart
+contracts,  sidechains  and  sharding  to  scale  our  platform  for               >1000
+transactions per second
+18
+
+
+
+
+4.1 Solution
+A solution consists of four basic parts:
+1. Source code  (in any programming language or its combination, if
+not specified by requirements)
+2. ML model
+3. Docker container
+4. Documentation
+The code must be readable and reproducible; in other words if you
+have source data and code then you can get the same ML model.
+The solution is placed in a docker container. This makes it possible to
+reuse the solution without having to repeat the data preparation and
+model training procedures.
+4.2 Data storage
+Data storage will be organized as a distributed data warehouse using
+MindSync  base  network  data  servers  and  data  storage  suppliers’
+resources.
+All data on the platform is divided into two parts:
+1.  Tiny  data,  such  as  links  to  datasets  and  ML  models,  ratings,
+transactions, members info, etc. are stored in the blockchain.
+2. Datasets and ML-models are stored in IPFS.
+MindSync intellectual data storage coordinator will be developed to
+ensure high data availability and security.
+19
+
+
+
+
+4.3 Distributed computing
+MindSync  will  use  its  own  computing  network  along  with  cloud
+services and computing power of supercomputer projects like SONM,
+Iagon supercomputer and Golem as computing resources for platform
+members and services. This will allow to build high scalable services.
+4.4 Blockchain
+MindSync  will  implement  the  platform  using  Ethereum  on  smart
+contracts. There will be several smart contracts types to implement all
+features of MindSync:
+1. For machine learning contests. Each platform user will be able
+to create smart contract using our templates with problem description
+and  links  for  training  data/other  resources  (here  the  user  accepts
+public risks that the data which he provides is secure). He also creates
+competition rules and duration of contest. He pays fees depending on
+how long this contest will take and pledges prizes. Prizes will be given
+to the top score experts/developers after contest is concluded. User
+can   provide   his   list   of   experts/IPFS   nodes/computation   power
+providers or create a pool so that platform users can choose them for
+best fairness and services. Client then pays providers a small fee in
+MAI   tokens   after   competition   starts.   During   the   competition,
+participants   send   their   solutions   to   IPFS   nodes,   experts   and
+computation power providers using MindSync API services. Providers
+then commit results as links for each user solution, calculate score
+and hash of solution data so that it meets platform security needs and
+protects  participants  from  fraud.  API  services  will  provide  current
+leaderboard  with  access  of  smart  contracts  based  on  current  user
+scores. At the end of the competition, experts will test participants’
+solutions with full competition data and publish final results.
+20
+
+
+
+
+2. MindSync platform contract. It will have users’ reputation data,
+which can be upvoted or downvoted using upvote, downvote methods.
+It  is  needed  for  integrity,  preventing  and  punishing  fraud,  and  to
+create  a  fair  system  that  will  choose  best  experts  that  will  test
+solutions, reach a consensus and arrive at fair results. Everyone’s vote
+is scaled by their reputation. There will be list of experts, computation
+power providers, IPFS nodes that can be used during contests. Each
+user can become expert, provider, node, if his reputation rating is high
+enough (e.g. one of ~100 first best ratings).
+3. MAI token contract which will store platform users balances and
+where   MAI   tokens   will   go   as   competition   prizes   or   fees   for
+experts/providers services.
+4.5 Validation
+MindSync provides a system for guaranteeing the reliability of data,
+decisions, rating information and other platform data by calculating
+and storing their hash sums in the blockchain. At any time, anyone can
+check  this  data  and  prove  the  integrity  and  timestamp  of  platform
+entity without depending on a trusted third-party. Hence, there is no
+need to trust any authority or middlemen.
+4.6 Privacy protection
+Paid  datasets  and  ML-models  in  the  market  are  protected  by
+encryption with an asymmetric key. The public key and hash value is
+stored in the blockchain for verification.
+A unique private key for each object in the market is transferred to the
+buyer after the payment is made.
+21
+
+
+
+
+4.7 Private services
+MindSync AI solutions can run on either the MindSync platform or be
+deployed  on  the  customer’s  servers  or  private  cloud.  MindSync
+platform will contain components for rapid deployment of ready-made
+solutions on the customer side.
+22
+
+
+
+
+Token model
+5.1 Token
+Name:                                                                          MindSync
+Blockchain:                                                                    Ethereum
+Type:                                                                          ERC-20
+Symbol:                                                                        MAI
+5.2 Token flow & usage
+MindSync  token  is  designed  to  access  AI  solutions  and  to  reward
+participants such as machine learning developers, experts, volunteers
+and researchers, computing power and big data providers. MindSync
+token  is  a  ERC-20  utility  token.  The  number  of  tokens  is  limited.
+MindSync token is set to run on decentralized blockchain technology,
+ensuring transparency and security of all financial transactions.
+23
+
+
+
+
+5.4 Token issuance
+Total possible tokens:                                                     1,000,000,000 MAI
+Total tokens distributed to public:                                        500,000,000 MAI
+Team tokens are locked in order to ensure our contributors that we
+have the best intention and maintain a long-term vision for the project.
+These tokens are secured via smart contract and will be paid out to
+MindSync  team  quarterly  (July  2019,  October  2019,  January  2020,
+April 2020).
+MindSync  Foundation  tokens  are  also  locked  and  will  be  used  to
+develop the platform in the future by the community.
+24
+
+
+
+
+5.5 Rewards
+Reward pool will be used to form prize funds for competitions held by
+the MindSync community, to develop the platform community and to
+maintain interest in it at an early stage. The decision to allocate funds
+to the prize fund is made by the selected DAO management by voting.
+This fund is protected by a smart contract.
+25
+
+
+
+
+Conclusion
+With the world poised to embrace AI technologies fully, the time is ripe
+for disruption in the market. MindSync is at the forefront of creating
+this disruption in the status quo with its intuitive and robust platform
+that brings the best talent in the field within a single ecosystem. By
+assuring  low  costs  and  enhanced  security,  it  seeks  to  be  the  go-to
+platform for all things AI.
+26
+
+
+
+
+

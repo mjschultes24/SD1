@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+        <h1>Welcome to Crypto!</h1>
+    </div>
+    <div class="content-section">
+        <form action="{{ url_for('index') }}" method="POST" enctype="multipart/form-data">
+            <fieldset class="form-group">
+                <legend class="corder-bottom mb-4">Upload Test Files</legend>
+                <p class="text-muted">Upload one text file at a time</p>
+                <input type="file" name="testingFile">
+                <input type="submit" value="Upload">
+            </fieldset>
+        </form>
+    </div>
+{% endblock content %}

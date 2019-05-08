@@ -1,0 +1,888 @@
+﻿WHITEPAPER
+V1.2  04 September 2018
+Smart contract powered social betting platform
+www.betform.io
+www.betformcoin.io
+
+
+
+
+Betform 2018
+IMPORTANT NOTICE
+PLEASE READ THIS SECTION AND THE FOLLOWING SECTIONS ENTITLED “DISCLAIMER OF LIABILITY”, “NO
+REPRESENTATIONS AND WARRANTIES”, “REPRESENTATIONS AND WARRANTIES BY YOU”, “CAUTIONARY
+NOTE ON FORWARD-LOOKING STATEMENTS”, “MARKET AND INDUSTRY INFORMATION AND NO CONSENT
+OF OTHER PERSONS”, “NO ADVICE”, “NO FURTHER INFORMATION OR UPDATE”, “RESTRICTIONS ON DISTRIBUTION
+AND DISSEMINATION”, “NO OFFER OF SECURITIES OR REGISTRATION” AND “RISKS AND UNCERTAINTIES”
+CAREFULLY.
+IF YOU ARE IN ANY DOUBT AS TO THE ACTION YOU SHOULD TAKE, YOU SHOULD CONSULT YOUR LEGAL,
+FINANCIAL, TAX OR ANOTHER PROFESSIONAL ADVISOR(S).
+The Betform Coins are not intended to constitute securities in any jurisdiction. This Whitepaper does not constitute
+a prospectus or offer document of any sort and is not intended to constitute an offer of securities or a solicitation
+for investment in securities in any jurisdiction.
+This Whitepaper does not constitute or form part of any opinion on any advice to sell, or any solicitation of any
+offer by the distributor/vendor of the Betform Coins (the “Distributor”) to purchase any Betform Coins nor shall it
+or any part of it nor the fact of its presentation form the basis of, or be relied upon in connection with, any
+contract or investment decision.
+The issuer of the Betform Coins being digital tokens on a blockchain procured and/or controlled by Men @
+Workz Pte. Ltd. (“M@W”), a company incorporated and registered in Singapore with UEN 201610590K and
+registered office address at 1 Jalan Mata Ayer #02-03, Euphony Gardens, 759075 Singapore. The Distributor is
+M@W or affiliate or any other person designated by M@W from time to time and will deploy all proceeds of sale
+of the Betform Coins to fund Betform’s cryptocurrency project, businesses and operations.
+No person is bound to enter into any contract or binding legal commitment in relation to the sale and purchase
+of the Betform Coins and no cryptocurrency or other form of payment is to be accepted on the basis of this
+Whitepaper.
+Any agreement as between the Distributor and you as a purchaser, and in relation to any sale and purchase, of
+Betform Coins (as referred to in this Whitepaper) is to be governed by only a separate document setting out the
+terms and conditions (the “T&Cs”) of such agreement. In the event of any inconsistencies between the T&Cs and
+this Whitepaper, the former shall prevail.
+You are not eligible and you are not to purchase any Betform Coins in the Betform Initial Token Sale (as referred
+to in this Whitepaper) if you are a citizen, resident (tax or otherwise) or green card holder of the United States of
+America or a citizen or resident of the Republic of Singapore.
+No regulatory authority has examined or approved of any of the information set out in this Whitepaper. No such
+action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The publication,
+distribution or dissemination of this Whitepaper does not imply that the applicable laws, regulatory requirements
+or rules have been complied with.
+There are risks and uncertainties associated with Betform and/or the Distributor and their respective businesses
+and operations, the Betform Coins, the Betform Initial Token Sale and the Betform Wallet (each as referred to in
+this Whitepaper).
+This Whitepaper, any part thereof and any copy thereof must not be taken or transmitted to any country where
+distribution or dissemination of this Whitepaper is prohibited or restricted.
+www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+No part of this Whitepaper is to be reproduced, distributed or disseminated without including this section and
+the following sections entitled “Disclaimer of Liability”, “No Representations and Warranties”, “Representations
+and Warranties By You”, “Cautionary Note On Forward-Looking Statements”, “Market and Industry Information
+and No Consent of Other Persons”, “Terms Used”, “No Advice”, “No Further Information or Update”, “Restrictions
+On Distribution and Dissemination”, “No Offer of Securities Or Registration” and “Risks and Uncertainties”.
+DISCLAIMER OF LIABILITY
+To the maximum extent permitted by the applicable laws, regulations and rules, Betform and/or the Distributor
+shall not be liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract
+or otherwise (including but not limited to loss of revenue, income or profits, and loss of use or data), arising out
+of or in connection with any acceptance of or reliance on this Whitepaper or any part thereof by you.
+NO REPRESENTATIONS AND WARRANTIES
+Betform and/or the Distributor does not make or purport to make, and hereby disclaims, any representation,
+warranty or undertaking in any form whatsoever to any entity or person, including any representation, warranty
+or undertaking in relation to the truth, accuracy and completeness of any of the information set out in this
+Whitepaper.
+REPRESENTATIONS AND WARRANTIES BY YOU
+By accessing and/or accepting possession of any information in this Whitepaper or such part thereof (as the
+case may be), you represent and warrant to Betform and/or the Distributor as follows:
+(a) you agree and acknowledge that the Betform Coins do not constitute securities in any form in any jurisdiction;
+(b) you agree and acknowledge that this Whitepaper does not constitute a prospectus or offer document of any
+sort and is not intended to constitute an offer of securities in any jurisdiction or a solicitation for investment in
+securities and you are not bound to enter into any contract or binding legal commitment and no cryptocurrency
+or other form of payment is to be accepted on the basis of this Whitepaper;
+(c) you agree and acknowledge that no regulatory authority has examined or approved of the information set
+out in this Whitepaper, no action has been or will be taken under the laws, regulatory requirements or rules of
+any jurisdiction and the publication, distribution or dissemination of this Whitepaper to you does not imply that
+the applicable laws, regulatory requirements or rules have been complied with;
+(d) you agree and acknowledge that this Whitepaper, the undertaking and/or the completion of the Betform
+Initial Token Sale, or future trading of the Betform Coins on any cryptocurrency exchange, shall not be
+construed, interpreted or deemed by you as an indication of the merits of the Betform and/or the Distributor, the
+Betform Coins, the Betform Initial Token Sale and the Betform Wallet (each as referred to in this Whitepaper);
+(e) the distribution or dissemination of this Whitepaper, any part thereof or any copy thereof, or acceptance of
+the same by you, is not prohibited or restricted by the applicable laws, regulations or rules in your jurisdiction,
+and where any restrictions in relation to possession are applicable, you have observed and complied with all
+such restrictions at your own expense and without liability to Betform and/or the Distributor;
+(f) you agree and acknowledge that in the case where you wish to purchase any Betform Coins, the Betform
+Coins are not to be construed, interpreted, classified or treated as:
+(i) any kind of currency other than cryptocurrency;
+(ii) debentures, stocks or shares issued by any person or entity (whether Betform and/or the Distributor)
+www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+(iii) rights, options or derivatives in respect of such debentures, stocks or shares;
+(iv) rights under a contract for differences or under any other contract the purpose or pretended purpose of
+which is to secure a profit or avoid a loss;
+(v) units in a collective investment scheme;
+(vi) units in a business trust;
+(vii) derivatives of units in a business trust; or
+(viii) any other security or class of securities.
+(g) you are fully aware of and understand that you are not eligible to purchase any Betform Coins if you are a
+citizen, resident (tax or otherwise) or green card holder of the United States of America or a citizen or resident of
+the Republic of Singapore;
+(h) you have a basic degree of understanding of the operation, functionality, usage, storage, transmission
+mechanisms and other material characteristics of cryptocurrencies, blockchain-based software systems, cryp-
+tocurrency wallets or other related token storage mechanisms, blockchain technology and smart contract
+technology;
+(i) you are fully aware and understand that in the case where you wish to purchase any Betform Coins, there are
+risks associated with Betform and the Distributor and their respective business and operations, the Betform
+Coins, the Betform Initial Token Sale and the Betform Wallet (each as referred to in the Whitepaper);
+(j) you agree and acknowledge that neither Betform nor the Distributor is liable for any indirect, special, incidental,
+consequential or other losses of any kind, in tort, contract or otherwise (including but not limited to loss of revenue,
+income or profits, and loss of use or data), arising out of or in connection with any acceptance of or reliance on
+this Whitepaper or any part thereof by you; and
+(k) all of the above representations and warranties are true, complete, accurate and non-misleading from the
+time of your access to and/or acceptance of possession this Whitepaper or such part thereof (as the case may
+be).
+CAUTIONARY NOTE ON FORWARD-LOOKING STATEMENTS
+All statements contained in this Whitepaper, statements made in press releases or in any place accessible by
+the public and oral statements that may be made by Betform and/or the Distributor or their respective directors,
+executive officers or employees acting on behalf of Betform or the Distributor (as the case may be), that are not
+statements of historical fact, constitute “forward-looking statements”. Some of these statements can be identified
+by forward-looking terms such as “aim”, “target”, “anticipate”, “believe”, “could”, “estimate”, “expect”, “if”, “intend”,
+“may”, “plan”, “possible”, “probable”, “project”, “should”, “would”, “will” or other similar terms.
+However, these terms are not the exclusive means of identifying forward-looking statements. All statements
+regarding Betform’s and/or the Distributor’s financial position, business strategies, plans and prospects and the
+future prospects of the industry which Betform and/or the Distributor is in are forward-looking statements.
+These forward-looking statements, including but not limited to statements as to Betform’s and/or the Distributor’s
+revenue and profitability, prospects, future plans, other expected industry trends and other matters discussed
+in this Whitepaper regarding Betform and/or the Distributor are matters that are not historic facts, but only
+predictions.
+These forward-looking statements involve known and unknown risks, uncertainties and other factors that may
+cause the actual future results, performance or achievements of Betform and/or the Distributor to be materially
+www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+different from any future results, performance or achievements expected, expressed or implied by such
+forward-looking statements. These factors include, amongst others:
+(a) changes in political, social, economic and stock or cryptocurrency market conditions, and the regulatory
+environment in the countries in which Betform and/or the Distributor conducts its respective businesses and
+operations;
+(b) the risk that Betform and/or the Distributor may be unable or execute or implement their respective business
+strategies and future plans;
+(c) changes in interest rates and exchange rates of fiat currencies and cryptocurrencies;
+(d) changes in the anticipated growth strategies and expected internal growth of Betform and/or the Distributor;
+(e) changes in the availability and fees payable to Betform and/or the Distributor in connection with their
+respective businesses and operations;
+(f) changes in the availability and salaries of employees who are required by Betform and/or the Distributor to
+operate their respective businesses and operations;
+(g) changes in preferences of customers of Betform and/or the Distributor;
+(h) changes in competitive conditions under which Betform and/or the Distributor operate, and the ability of
+Betform and/or the Distributor to compete under such conditions;
+(i) changes in the future capital needs of Betform and/or the Distributor and the availability of financing and
+capital to fund such needs;
+(j) war or acts of international or domestic terrorism;
+(k) occurrences of catastrophic events, natural disasters and acts of God that affect the businesses and/or
+operations of Betform and/or the Distributor;
+(l) other factors beyond the control of Betform and/or the Distributor; and
+(m) any risk and uncertainties associated with Betform and/or the Distributor and their businesses and operations,
+the Betform Coins, the Betform Initial Token Sale and the Betform Wallet (each as referred to in the Whitepaper).
+All forward-looking statements made by or attributable to Betform and/or the Distributor or persons acting on
+behalf of Betform and/or the Distributor are expressly qualified in their entirety by such factors. Given that risks
+and uncertainties that may cause the actual future results, performance or achievements of Betform and/or
+the Distributor to be materially different from that expected, expressed or implied by the forward-looking statements
+in this Whitepaper, undue reliance must not be placed on these statements. These forward-looking statements
+are applicable only as of the date of this Whitepaper.
+Neither Betform, the Distributor nor any other person represents, warrants and/or undertakes that the actual
+future results, performance or achievements of Betform and/or the Distributor will be as discussed in those
+forward-looking statements. The actual results, performance or achievements of Betform and/or the Distributor
+may differ materially from those anticipated in these forward-looking statements.
+Nothing contained in this Whitepaper is or may be relied upon as a promise, representation or undertaking as
+to the future performance or policies of Betform and/or the Distributor.
+Further, Betform and/or the Distributor disclaim any responsibility to update any of those forward-looking statements
+www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+or publicly announce any revisions to those forward-looking statements to reflect future developments, events
+or circumstances, even if new information becomes available or other events occur in the future.
+MARKET AND INDUSTRY INFORMATION AND NO CONSENT OF OTHER PERSONS
+This Whitepaper includes market and industry information and forecasts that have been obtained from internal
+surveys, reports and studies, where appropriate, as well as market research, publicly available information and
+industry publications. Such surveys, reports, studies, market research, publicly available information and publi-
+cations generally state that the information that they contain has been obtained from sources believed to be
+reliable, but there can be no assurance as to the accuracy or completeness of such included information.
+Save for Betform, the Distributor and their respective directors, executive officers and employees, no person
+has provided his or her consent to the inclusion of his or her name and/or other information attributed or
+perceived to be attributed to such person in connection therewith in this Whitepaper and no representation,
+warranty or undertaking is or purported to be provided as to the accuracy or completeness of such information
+by such person and such persons shall not be obliged to provide any updates on the same.
+While Betform and/or the Distributor have taken reasonable actions to ensure that the information is extracted
+accurately and in its proper context, Betform and/or the Distributor have not conducted any independent
+review of the information extracted from third party sources, verified the accuracy or completeness of such
+information or ascertained the underlying economic assumptions relied upon therein. Consequently, neither
+Betform, the Distributor, nor their respective directors, executive officers and employees acting on their behalf
+makes any representation or warranty as to the accuracy or completeness of such information and shall not be
+obliged to provide any updates on the same.
+TERMS USED
+To facilitate a better understanding of the Betform Coins being offered for purchase by the Distributor, and the
+businesses and operations of Betform and/or the Distributor, certain technical terms and abbreviations, as well
+as, in certain instances, their descriptions, have been used in this Whitepaper. These descriptions and assigned
+meanings should not be treated as being definitive of their meanings and may not correspond to standard
+industry meanings or usage.
+Words importing the singular shall, where applicable, include the plural and vice versa and words importing the
+masculine gender shall, where applicable, include the feminine and neuter genders and vice versa. References
+to persons shall include corporations.
+NO ADVICE
+No information in this Whitepaper should be considered to be business, legal, financial or tax advice regarding
+Betform, the Distributor, the Betform Coins, the Betform Initial Token Sale and the Betform Wallet (each as
+referred to in the Whitepaper). You should consult your own legal, financial, tax or other professional adviser
+regarding Betform and/or the Distributor and their respective businesses and operations, the Betform Coins,
+the Betform Initial Token Sale and the Betform Wallet (each as referred to in the Whitepaper). You should be
+aware that you may be required to bear the financial risk of any purchase of Betform Coins for an indefinite
+period of time.
+NO FURTHER INFORMATION OR UPDATE
+No person has been or is authorised to give any information or representation not contained in this Whitepaper
+in connection with Betform and/or the Distributor and their respective businesses and operations, the Betform
+Coins, the Betform Initial Token Sale and the Betform Wallet (each as referred to in the Whitepaper) and, if given,
+such information or representation must not be relied upon as having been authorised by or on behalf of
+Betform and/or the Distributor. The Betform Initial Token Sale (as referred to in the Whitepaper) shall not, under
+www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+any circumstances, constitute a continuing representation or create any suggestion or implication that there
+has been no change, or development reasonably likely to involve a material change in the affairs, conditions
+and prospects of Betform and/or the Distributor or in any statement of fact or information contained in this
+Whitepaper since the date hereof.
+RESTRICTIONS ON DISTRIBUTION AND DISSEMINATION
+The distribution or dissemination of this Whitepaper or any part thereof may be prohibited or restricted by the
+laws, regulatory requirements and rules of any jurisdiction. In the case where any restriction applies, you are to
+inform yourself about, and to observe, any restrictions which are applicable to your possession of this Whitepaper
+or such part thereof (as the case may be) at your own expense and without liability to Betform and/or the Distributor.
+Persons to whom a copy of this Whitepaper has been distributed or disseminated, provided access to or who
+otherwise have the Whitepaper in their possession shall not circulate it to any other persons, reproduce or
+otherwise distribute this Whitepaper or any information contained herein for any purpose whatsoever nor
+permit or cause the same to occur.
+NO OFFER OF SECURITIES OR REGISTRATION
+This Whitepaper does not constitute a prospectus or offer document of any sort and is not intended to constitute
+an offer of securities or a solicitation for investment in securities in any jurisdiction. No person is bound to enter
+into any contract or binding legal commitment and no cryptocurrency or other form of payment is to be accepted
+on the basis of this Whitepaper. Any agreement in relation to any sale and purchase of Betform Coins (as
+referred to in this Whitepaper) is to be governed by only the T&Cs of such agreement and no other document. In
+the event of any inconsistencies between the T&Cs and this Whitepaper, the former shall prevail.
+You are not eligible to purchase any Betform Coins in the Betform Initial Token Sale (as referred to in this White-
+paper) if you are a citizen, resident (tax or otherwise) or green card holder of the United States of America or a
+citizen or resident of the Republic of Singapore.
+No regulatory authority has examined or approved of any of the information set out in this Whitepaper. No such
+action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The publica-
+tion, distribution or dissemination of this Whitepaper does not imply that the applicable laws, regulatory require-
+ments or rules have been complied with.
+RISKS AND UNCERTAINTIES
+Prospective purchasers of Betform Coins (as referred to in this Whitepaper) should carefully consider and evalu-
+ate all risks and uncertainties associated with Betform, the Distributor and their respective businesses and
+operations, the Betform Coins, the Betform Initial Token Sale and the Betform Wallet (each as referred to in the
+Whitepaper), all information set out in this Whitepaper and the T&Cs prior to any purchase of Betform Coins. If
+any of such risks and uncertainties develops into actual events, the business, financial condition, results of oper-
+ations and prospects of Betform and/or the Distributor could be materially and adversely affected. In such
+cases, you may lose all or part of the value of the Betform Coins.
+www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+01                                         DETAILS OF OUR ITS        01 - 05
+1.1 Indicative timetable
+1.2 Token usage
+1.3 Particulars of our ITS
+1.4 Special bonus schedule
+1.5 Funds escrow
+1.6 Initial token sale procedure
+1.7 Objectives of our ITS
+1.8 Use of Proceeds
+BUSINESS ANALYSIS                          06 - 12
+02
+2.1 Market overview
+2.2 Business overview
+2.3 Shortcoming of current online crypto
+currency gambling market
+2.4 Our products and services
+2.5 How Betform can be sustainable?
+2.6 Marketing plan
+                                           INFORMATION ON OUR TEAM   12 - 13
+03
+04                                         ROAD MAP                  14
+05                                         MOVING FORWARD            14
+www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+‘Smart contract powered social betting platform’
+What is Betform
+When we as the co-founders of Betform got together to start this company, it was our vision to have
+assets on the blockchain gaming be not only available to professional players, but rather something
+that can be used by any individual players in the social way and for fun.
+At Betform, we strive to offer the user access to as large as possible a range of blockchain games at a
+maximum degree of convenience, while adhering to the highest security standards in the ecosystem.
+We are able to do this by connecting blockchains, leveraging on the smart contracts, and Payment
+Channels, which works in a completely secure, instantaneous and low-cost manner. For further information,
+please refer to the whitepaper in respect thereof, accessible at www.betformcoin.io.
+Betform Initial Token Sale
+What is an Initial Token Sale?
+An Initial Token Sale (ITS) is an event in which a new cryptocurrency project sells part of its cryptocurrency
+tokens to early adopters and enthusiasts in exchange for funding. For the party offering the tokens for
+sale, this has become a well-documented and well-respected way to raise funds to upscale an existing
+product or service.
+The sale by the Distributor of Betform Coins in connection with an Initial Token Sale (the “Betform Initial
+Token Sale”) to you as a purchaser thereof, will be subject to and governed by the T&Cs - which is a
+separate document setting out the terms and conditions of the agreement as between the Distributor
+and you in relation to the Betform Initial Token Sale. This Whitepaper is not incorporated into and does
+not form part of the T&Cs. In the event of any inconsistencies between the T&Cs and this Whitepaper,
+the former shall prevail.
+The Distributor is M@W or affiliate or any other person designated by M@W from time to time and will
+deploy all proceeds of sale of the Betform Coins to fund Betform’s cryptocurrency project, businesses
+and operations.
+01                                                                                                               www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+Unless the context requires otherwise, references to “we” or “us” in connection with the Betform Initial
+Token Sale shall be construed as references to the Distributor.
+The Betform Initial Token Sale is hereby announced on:
+January 8th 2019
+9PM Singapore Time (UTC+8)/
+3PM Munich Time/
+9AM New York Time/
+2PM London Time
+Why an Initial Token Sale?
+The purpose of the ITS is to bringing developers, marketing personnel, a legal team, designers and
+many other talented people on board will require additional funds. Offering an Initial Token Sale
+instead of a traditional venture capital rounds enables the community to participate in Betform’s success
+story, rather than limiting it to a small, selected number of traditional venture capital funds.
+General Token Sale Overview
+On January 8th 2019   starting at 9PM Singapore Time (see the applicable commencement times in
+more time zones above), we will offer 40% of all Betform Coins to be created for purchase by the public
+in the Betform Initial Token Sale under the ticker symbol BFC. A further 43.9% of all Betform Coins to be
+created will be distributed to identified investors. The remaining 13.5% of Betform Coins to be created
+will be distributed to Betform’s founders, employees and early investors as an incentive to ensure long
+term alignment of interests and commitment to the tokens and their future value and also for future
+business development and development. Further details of the distribution of tokens are set out below.
+Each Betform Coin will be sold for USD 0.10.   There is a minimum purchase amount of 500 Betform
+Coins per purchase.
+We will accept a maximum USD 9,600,000 of ETH, for purchase of Betform Coins in the Betform Initial
+Token Sale. The Betform Coins created for such maximum amount contributed will in turn represent 40%
+of all Betform Coins. Should this amount be reached before the end of the sale on 4 January 2019,
+8.59pm Singapore Time (UTC+8), which is 4 weeks after the token sale commencement date, we will
+cut off the sale.
+Please note that we will not create any new Betform Coins after the Betform Initial Token Sale.
+02                                                                                                          www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+1. DETAILS OF OUR ITS
+1.1                                                                                                                     INDICATIVE TIMETABLE
+Application for our ITS token under the Public Issue will open at 10:00 a.m. on 10 December 2018 and will
+remain open until 5:00 p.m. on 4 January 2019, 8.59pm Singapore Time (UTC+8).
+Save for the opening date of the application for the ITS Token, the dates above are tentative and are subject to
+changes which may be necessary to facilitate implementation procedures.
+1.2                                                                                                                     Token usage
+The native token of Betform is Betform Coin. All gaming activities on the Betform will utilize Betform Coin. The
+Betform Coin will be implemented as ERC20-compatible token over the public Ethereum blockchain, which has
+now become the common practice for projects issuing their custom digital assets. It will work as any other Ethereum
+token within the Ethereum ecosystem.
+Players can acquire the Betform Coin during the token sale and afterwards on various crypto exchanges or
+directly via the Betform Wallet.
+The token will primarily serve as means as utility token with the following functions:
+(i) In-App token - All platform transactions will be carried out using the Betform Coin.
+(ii) Value holders - The Betform Coin value is likely to rise as we acquire more players and partners, and reduce
+the total token supply as we will continue burning part of the circulating tokens.
+(iii) Global betting tokens -  Our ultimate goal is to establish the Betform Coin as the market standard for betting.
+In order to achieve this, we will pursue a number of strategic initiatives aimed at developing a broad ecosystem
+and drive widespread Betform Coin adoption.
+(iv) Game and app developers - Betform will integrate selected games and apps by third-party developers.
+Players will enjoy more content, while developers benefit from reaching a global audience and earning commissions
+through our platform.
+(v) White-label customers - Companies and gaming operators will be able to add their multiplayers games to
+our platform. Our modular technology architecture allows us to offer near-turnkey solutions and complementary
+services at a low customisation cost.
+1.3                                                                                                                     PARTICULARS OF OUR ITS
+1.3.1  Public Issue
+(i) Public
+96,000,000 ITS Token, representing approximately 40.0% of the token of our Company, will be made available
+for application by the public.
+(ii) Private sale to Identified Investors
+105,250,000 Tokens, representing approximately 43.9% of the overall token of the Company, are reserved by
+way of private sale to identified investors.
+03                                                                                                                      www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+1.3.2  Token distribution
+Upon the completion of our ITS, our token distribution would be as follows:
+                                                                                                                       No. of Token                                                                                                        %
+Open sale                                                                                                              96,000,000                                                                                                          40.0%
+Bounty and AirDrops                                                                                                    6,350,000                                                                                                           2.6%
+Pre-sale                                                                                                               105,250,000                                                                                                         43.9%
+Founders                                                                                                               26,400,000                                                                                                          11.0%
+Team                                                                                                                   6,000,000                                                                                                           2.5%
+Total                                                                                                                  240,000,000                                                                                                         100.0%
+The Distributor will offer 40% of all Betform Coins to be created for purchase by the public in the Initial Token
+Sale while a further 43.9% of the tokens to be created will be distributed to identified investors.
+The Distributor considers it is a strong signal of trust in Betform if the community and private sale investors owns
+more half of the Betform Coins from the very beginning. At the same time, we feels that it is essential that the
+interests of Betform be aligned with those of the ecosystem in the long-term. In order to be able to support long
+term growth in a sustainable way, founders, early backers and the development team of Betform will be holding
+13.5% of tokens in exchange for their efforts and resources contributed to the development of Betform.
+1.4                                                                                                                    SPECIAL BONUS SCHEDULE
+                                                                                                                       There will be extra tokens offered as a bonus for users who commit earlier (early-bird bonus). See the time table
+                                                                                                                       below for the exact bonus schedule.
+Time                                                                                                                   Available token bonus
+First 24 hours                                                                                                         +20%
+Day 2 and day 3                                                                                                        +10%
+Day 4 to day 7                                                                                                         + 5%
+Day 8 to day 14                                                                                                        + 2.5%
+1.5                                                                                                                    FUNDS ESCROW
+All payments received for Betform Coins with the Initial Token Sale will be held in escrow in a multi-signature
+address, with a multi key structure. Keys of this multisignature account will stay with the management team and
+founders.
+1.6                                                                                                                    INITIAL TOKEN SALE PROCEDURE
+Each Betform Coin will be sold for USD 0.10.  We only accept ETH for the token sale. We will send out Betform
+coins to the ERC20 wallet where the buyers send their ETH. There is a minimum purchase amount of 500
+Betform Coins per purchase.
+1.7                                                                                                                    OBJECTIVES OF OUR ITS
+The objectives of our ITS are as follows:
+(i) enabling us to explore the opportunity to implement our business strategies and expand our operations;
+(ii) to enhance the stature and heighten the public profile of our Group as well as increasing market awareness
+of our products and services;
+04                                                                                                                     www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+1.8                                                                                                                    USE OF PROCEEDS
+                                                                                                                                                             We expect to use the gross proceeds from the Betform token sale in the following manner:
+Description                                                                                                                                                  Percentage of                                                                              Estimated Timeframe for
+                                                                                                                                                             total gross proceeds (%)                                                                   utilisation upon ITS
+                                                                                                                       Development and operations            55%                                                                                        Within 36 months
+Marketing                                                                                                                                                    10%                                                                                        Within 36 months
+Legal                                                                                                                                                        15%                                                                                        Immediate
+Advisors                                                                                                                                                     10%                                                                                        Immediate
+                                                                                                                       Reserve and working capital           10%                                                                                        Within 36 months
+                                                                                                                       Total gross proceeds                  100%
+1.8.1  Development and operations
+As part of our Group’s business expansion plan, we intend to use 55% raised from the fund raised to develop
+other multiplayers casino games, investment in security and servers, and development of Betform wallet.
+The breakdown is summarised in the table below.
+Details of estimated total costs                                                                                       Note                                  %
+Development of Multiplayer Casino Games                                                                                (i)                                   30.0
+Investment in security and servers                                                                                     (ii)                                  15.0
+Development of Betform wallet                                                                                          (iii)                                 10.0
+Total                                                                                                                                                        55.0
+(i) Please refer to moving forward section for the development details. This also include R&D of new games &
+technology, recruitment, team building, etc.
+(ii) The investment is aim to improve user experience for our platform and also ensure security of the users’ fund.
+(iii) We will release an open-source Wallet app for iOS, Android, PC and Mac. In addition to strong fund protection
+and other exclusive features, the Wallet will allow players to easily obtain the Betform Coins, as the app will also
+be interlinked with third-party exchanges via their APIs.
+1.8.2  Marketing
+We have earmarked 10% on fund raised from the ITS to implement mass-scale marketing strategies to attract
+players and ensure effective customer retention. Since the main premise of Betform is the increase in the value
+of Betform Coin with demand, user acquisition and retention are a vital part of our business model, therefore
+requires sufficient funds for sustainability.
+1.8.3  Legal
+Gambling is a highly - regulated segment which requires legal compliance in different countries. As a result, part
+of ITS proceeds will be used to cover costs of legal services and licenses.
+1.8.4  Reserve and working capital
+The ITS proceed earmarked for reserve and working capital would be stored in a separate wallet. The wallet
+would be utilised for our day to day operation.
+05                                                                                                                     www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+2. BUSINESS ANALYSIS
+2.1                                                                                                                   MARKET OVERVIEW
+The revenues of game market exceeding the $100 billion mark to total $109 billion in 2017. Five years ago,
+global revenues on game market was amounted to approximately $70 billion. A growth of 56% in five years
+illustrates how game companies have not only pioneered new ways of engaging and entertaining consumers,
+but have also led the way in innovating business models to suit the digital age. The future outlook for games has
+never been better but requires a new way of looking at the market. Most games now provide consumers with
+entertainment on three different levels: playing, viewing, and creating. Game companies are quickly evolving
+into all-round entertainment companies, pushing engagement time up dramatically and securing gaming’s
+position as the world’s favourite pastime.
+Traditional boundaries between games, media, telecom, and sports industries are disappearing and sparking
+new partnerships and M&A activity across the globe.
+1. WITH MORE TIME SPENT ON GAMES, MONEY FOLLOWS.
+2. A COMMUNITY-CENTRIC APPROACH IS KEY TO SUSTAINABLE SUCCESS.
+3. GAMES ARE RAPIDLY BECOMING THE WORLD’S FAVORITE PASTIME.
+Consumers are spending more time than ever on games, and this is especially true for the millennial generation.
+The reason for this is that games now cater to a much wider variety of interests. This includes lean-forward
+(gaming intensely or casually), lean-back (viewing content created by peers or provided by the professional
+gaming scene), creating unique content and sharing (on-demand and live streaming). Viewing professional or
+amateur game video content is bringing back millions of lapsed gamers who no longer have the time to play but
+whose passion is reignited by viewing other players and worldwide championships. The term “gamers” is
+becoming increasingly obsolete, as it fails to capture the variety of ways that games entertain consumers.
+“Game enthusiasts” would be a more encapsulating term.
+The global games
+The Asia-Pacific region accounted for $51.2 billion this year, or 47% of total global game revenues. This growth
+represents a 9.2% year on-year increase. Overall, the share of total revenues claimed by each region has
+remained almost unchanged since 2016. North America is the second-largest region, taking a 25% share of the
+market.
+Total revenues in North America will increase year on year by 4.0% to reach $27.0 billion. Most of this growth will
+come from smartphone gaming, a mature market but certainly not saturated. The fastest-growing region in the
+coming years will be Rest of Asia (without China, Japan, and Korea), with game revenues growing to $10.5 billion
+in 2020, up from $4.5 billion in 2016. The Latin American market will also continue its healthy growth and reach
+$6.3 billion by 2020.
+Global gaming market by segment
+Mobile gaming (smartphone and tablet) is the largest segment in 2017, accounting for 42% of the total global
+market. The segment also has the most gamers with 2.1 billion, the majority of whom are gaming on smart-
+phones. Console is the second-largest segment with revenues of $33.5 billion 2017. PC browser game revenues
+will decrease by 9.3% to $4.5 billion as gamers continue their transition to mobile. Revenues for boxed/downloaded
+PC games will also drop by 1.3% to $24.6 billion. PC revenues of public companies decreased in both Western
+and Asian markets last year, while emerging markets had single-digit growth rates. Mobile will remain the largest
+segment, growing with a CAGR (2016-2020) of 13.9% to claim 50% of the market by 2020.
+06                                                                                                                    www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+2.2                                                                                                                    BUSINESS OVERVIEW
+Online gambling market size
+The global online gambling market is expected to grow at a CAGR of more than 9% by 2020. Gambling is the
+primary source of revenue for governments of several countries. However, most countries have outlawed online
+gambling or imposed stringent laws on them. Recently, there has been a major shift in online gambling regulations,
+which allows gamers from all over the world to participate in such games. Due to the ease in the rules on online
+gambling, the governments receive a significant amount of revenue in the form of taxes, which is used for the
+welfare of the society. This form of gambling also creates employment opportunities across the globe.
+In terms of geography, Europe, Middle East and Africa are dominating approximately 60% of the online gambling
+market. However, the market in Asia Pacific is anticipated to expand at a CAGR of around 14% during the forecast
+period. Relaxation of laws, growth in the number of Internet users, and availability of gambling & betting sites
+with attractive offers are key drivers of the online gambling & betting market in Asia Pacific. Additionally,
+increase in penetration rate of internet-based devices and trust on online gambling & betting sites are propelling
+the market.
+Revenue from Online poker and casino gambling increase from $3.4 billion in 2016 to $4.4 billion in 2017,
+according to a Research report. The gambling industry is expected to reach up to $91 billion and it has no intention
+of slowing down. Especially since the online gambling market boom on smartphones has gained worldwide
+traction.
+Online gambling has become a very lucrative industry indeed. There are dozens of online poker sites with different
+games and bonuses to punters worldwide. All a punter needs are an internet connection. At that point, they can
+play various casino games, place bets on sporting events, play online poker, and check out sports betting.
+The online poker market grew very quickly. Online gambling sites offer competitive offering large bonuses for
+new punters and a loyalty club for their most loyal punters. In 2016, 57 million monthly active users played social
+poker, and many of them played via Facebook.
+Cryptocurrency trends in global online gambling
+Cryptocurrencies and online gaming seem like a match made in digital heaven. The burgeoning popularity of
+online gaming and e-sports has led to the creation of in-game digital currencies which could be a valuable
+addition to the virtual economies of popular online games such as World of Warcraft.
+According to a study by digital asset exchange, which surveyed 1,000 gamers in the US, 75 percent of gamers
+wish that they could exchange their virtual goods for a digital currency that can be bought and sold on other
+platforms.
+Furthermore, while five percent of millennials have an interest in cryptocurrencies, 55 percent of online gamers
+have already used them in the past. This suggests that there is a large crossover between the cryptocurrency
+community and the online gaming community.
+Interestingly, out of the surveyed gamers, around 50 percent of all age groups also own cryptocurrency. However,
+87 percent of them have not used digital currencies in gaming before but 80 percent stated that they would be
+interested in using cryptocurrencies to make in-game transactions.
+The study also found that from the potential benefits that cryptocurrency use in online games could bring, 75
+percent of the surveyed gamers cited their ease of use, 66 percent stated heightened security, 49 percent said
+lower transaction fees.
+The results of the study could not be clearer: gamers want to be able to use cryptocurrency to make low-cost
+gaming-related transactions.
+07                                                                                                                     www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+Competitor analysis
+Betform’s competitive advantages over competitors are illustrated as follow:
+                                                                                                                                                             Competitor 1 -                                                  Competitor 2 -     Competitor 3 -
+Description                                                                                                            Betform                               Casino ‘F’                                                      Casino ‘E’         Casino ‘B’
+Download from iOS                                                                                                      Yes                                   No. Only support                                                No. Only support   Yes
+and Google Play download                                                                                                                                     mobile browser                                                  mobile browser
+Continuous token burning                                                                                               Yes                                   Yes                                                             No                 Yes
+Multiplayers games                                                                                                     Yes                                   No                                                              No                 No. Only sports betting
+Gambling license                                                                                                       Will apply after ITS                  Under application                                               Yes                No
+Top winners’ rewards                                                                                                   Yes, by way of                        No                                                              Reward by way      No. The platform only
+                                                                                                                       quarterly bonus                                                                                       of lottery         award players for
+                                                                                                                                                                                                                                                completing achievements
+White label solutions                                                                                                  Yes                                   Yes                                                             No                 Yes
+2.3                                                                                                                                                          SHORTCOMINGS OF CURRENT ONLINE CRYPTOCURRENCY GAMBLING MARKET
+1. High Commission charges - Online casinos charge high transaction fees from 1% to 15% for enabling the
+gameplay. The high fee charged is to cover the cost of payment processors and managing the cost of the
+casino. This has been curbed to some extent due to the advent of Bitcoin based casinos. Bitcoin being a crypto-
+currency which is not regulated by governments enables a much lower transaction fee.
+However, the surge in Bitcoin’s price has seen its transaction fees increase significantly. In the near future,
+bitcoin transaction fees will become too costly for some gamblers and there will be a need for an alternative
+payment method.
+2. Online casinos create a random number using a combination of casino and client numbers. The casino
+assigns their own number automatically and the visitor can do it manually or let the casino decide for them. The
+two numbers are blended to provide a random outcome.
+The idea behind it is that the casino can rig their own number, but they would not be able to rig the client’s
+number and therefore the outcome will be random. Therefore a casino would not able to cheat.
+However, there are still some loops in Fairness Check
+(i) The casino can easily influence the client’s seed by assigning it themselves (that’s the case in most casinos,
+because an average player is not going to type and give a random number before every gamble round - even if
+they have this option).
+(ii) The client entered the seed once and is not changing it. The casino can identify it and use that information to
+adjust their own seed.
+(iv) The casino can delay creating their own seed and provide it to the ‘blender’ once the visitor has sent theirs.
+Then the casino can adjust their own seed to the client’s.
+3. The revenue from PC browser game has been in decreasing trend from year to year. Players have found new
+forms of entertainment that offer instant gratification and can be accessed via their smartphone devices without
+compromising on quality. In this regard, online poker has been very much behind the curve.
+2.4                                                                                                                    OUR PRODUCTS AND SERVICES
+In Betform, players will not use Fiat money (such as EUR or USD) to enter bets. They will use the Betform Coins
+instead.
+As Smart Contracts do not support Fiat currencies, creating our own token is necessary to ensure a truly secure
+and transparent social betting platform.
+08                                                                                                                     www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+This is why we developing Betform - a decentralised social betting platform that be built on the Ethereum block-
+chain. All of the key operations will be regulated by smart contracts, giving users a fully transparent experience.
+2.4.1  Smart devices based gambling experience, and In-App Betform Coin.
+Betform will be providing app-based gambling experience for Android and Apple users. As illustrated in the
+market overview, the mobile gaming is the largest segment contributor for gaming industry and majority of the
+gamers are gaming on smartphones and tablets.
+New players are important, but also making current players stay at the casino and deposit more money is
+crucial. Players that return are players that enjoy the games and will definitely help expand the popularity of the
+casino.
+Everybody likes to be rewarded for being loyal. In Betform, we offer daily rewards to loyal players on daily and
+weekly basis. The daily rewards can be used for customisation in the App such as background customisation,
+background music etc.
+2.4.2  Transparency and Security
+Betform employs the state of the art technology to provide its users highly secure and efficient environment to
+play their favourite games. Our Betform Coin will be sold via Ethereum-based smart contracts during the initial
+token sale. This means that all investors will be 100% sure that they will get ETH equivalent of Betform Coin
+during our open sale.
+In the same trustworthy way that our operation will be operated, if a user bets on a particular game, they can be
+100% sure that their result will be truly random and that they will get their win transferred directly into their
+wallet. We will not be able to suspend the transaction or redirect it to another wallet.
+Provably Fair Games
+Betform uses a transparent way of generating the outcomes of its games.
+Provably Fair gaming is a technology that prevents both a player and bankers to cheat. The system works
+based on cryptographic hash functions. Data is converted into a hash string, which can be verified with an algorithm.
+If there was any interference in the game or any error in the pay-out, the hash will not be verified. Unusual game
+outcomes can be checked using a cryptographic hash function, proving the results are indeed calculated properly
+and fairly.
+As a player, one can check the result of any bet by themselves and have complete transparency and confidence
+in our games.
+Our PRNG is tested and certified by a reputable test lab, which is also the longest established and most experienced
+private independent gaming testing laboratory in the world.
+Players can access and verify all the history of card games they participated through their user dashboard.
+2.4.3  Regulation and compliance
+Our platform operation is regulated by licensing jurisdiction. We will apply for gambling license after the token
+sale.
+As part of the licensing requirement, player registration is hosted in the highly advanced data centres which
+greatly experienced in hosting e-Gaming companies.
+09                                                                                                                      www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+Safer Play and Responsible gambling
+We also have self-exclusion policy in place where if an individual player who is aware that they suffer from a
+gambling problem can voluntarily request that their account be added to the self-exclusion list. Once this option
+is chosen, we will proceed to close the account for the player and return all the funds in the account back to the
+player.
+2.4.4  ERC 20 token compliant wallet app
+These are the following games which Betform will offer. All these games are powered by smart contracts and
+our token holders can choose different game modes. For example, users can compete with friends through
+leader boards, or send invitation to friends and create a room to play together, and we have quarterly bonus for
+top leaders in our leadership board.
+Texas hold 'em (also known as Texas holdem, hold 'em, and holdem) is a variation of the card game of poker. Two
+cards, known as the hole cards, are dealt face down to each player, and then five community cards are dealt
+face up in three stages. The stages consist of a series of three cards ("the flop"), later an additional single card
+("the turn" or "fourth street"), and a final card ("the river" or "fifth street"). Each player seeks the best five card
+poker hand from any combination of the seven cards of the five community cards and their own two hole cards.
+If a player's best five-card poker hand consists only of the five community cards and none of the player's hole
+cards, it is called "playing the board". If you play the board on the river, then you can do no better than tie the
+other player(s) in the game if no player can make a better hand than the board represents, using either or both
+hole cards. Players have betting options to check, call, raise, or fold. Rounds of betting take place before the flop
+is dealt and after each subsequent deal.
+Big two (also known as deuces and various other names), is a card game of Chinese origin. It is similar to the
+games of president, crazy eights, cheat, winner, and other shedding games. The game is very popular in East
+Asia and South East Asia, especially throughout China, Indonesia, Macau, Hong Kong, Malaysia, Taiwan and
+Singapore. It is played both casually and as a gambling game. It is usually played with two to four players, the
+entire deck being dealt out in either case (or sometimes with only 13 cards per player, if there are less than four
+players). The objective of the game is to be the first to play of all of his cards.
+In Between. Everybody antes into the pot. Each player takes a turn, starting with the left of the dealer until there
+is no money left in the pot. A turn consists of two cards being dealt face up and the player betting an amount of
+money whether or not the third card will fall in between the first two (thus, the name "In-Between").
+Mah-jong is a tile-based game which was developed in China since the Qing dynasty and has further developed
+throughout the world since the early 20th century. It is commonly played by four players (with some three-player
+variations found in South Korea, Japan and Southeast Asia). The game and its regional variants are widely
+played throughout Asia (especially in the Eastern and South Eastern Asia) and have materialized into an Asian
+culture in relation to its high degree of influence, in addition, they have also been increasingly regarded as a
+popular pastime and entertainment among Western countries and other parts of the world. Due to its influence
+and popularity, the game has been adapted into a widespread online entertainment. Similar to the Western
+card game rummy, Mah-jong is a game of skill, strategy, and calculation and involves a degree of chance.
+This multiplayer Mah-jong game will be developed after ITS.
+2.4.5  UNLIMITED WINNINGS AND WINNERS WELCOME POLICY
+Successful bettors are often limited or banned by traditional casinos. Our business model is built on volumes
+rather than margins, which means we will always welcome winners!
+10                                                                                                                        www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+2.5                                                                                                                    HOW BETFORM CAN BE SUSTAINABLE?
+3% charges on winning
+The income generated by Betform would be the 3% charges on winnings. The fee collected is for payment of
+server charges, smart contract gas charges, casino licensing fee and other routine operation expenses. At the
+end of every quarter, the smart contract will allocate 35% of the month’s earnings as bonus for top leaders in our
+leadership board. This is our strategy to attract more players to play in our platform and therefore resulted in the
+increase in revenue generated.
+Smart Contracts will also automatically burn 5% of this commission. This will result in a decrease of the token
+supply, driving up the value of the Betform Coin.
+Token burning will end once 50% of all tokens distributed during the token sale has been burned.
+More is less
+We believe more is less. Therefore, we only providing three well-crafted and highly visual games after the ITS.
+The three games are Texas Poker, Big 2 and In-Between. We will not be introducing poorly designed rushed
+games simply to bolster contents.
+Texas Hold'em Poker is one of the most famous variation of Poker at present and as well as the most popular
+Poker game played online over the Internet with its easier mechanics to understand. All others are a bit more
+complicated: in Omaha there are too many cards, in Stud games there are those weird rules about who acts
+first on each street and the draw games are just way too weird and have the most complicated strategies (the
+draw games were actually the most popular at the beginning of the 20th century). The learning basic strategy
+of Texas Hold'em is probably much easier compared to other poker variations
+Big 2 is very popular in East Asia and South East Asia, especially throughout China, Indonesia, Macau, Hong
+Kong, Malaysia, Taiwan and Singapore. As illustrated in the market overview, Asia market accounted for
+approximately 47% of the overall global games market.
+In-Between is not very popular at casinos, but is often played in home Poker games as a break from Poker itself.
+We offer this game to cater to the needs of average players as this is more as a game of chance. This could help
+us to attract new players to the game and increase the demand of our Betform Coin.
+With more players spending more times on a game, money follows
+In Betform, we offer games cater for the needs from skilful players to average players. Our token holders have
+the right to open a new room and invite their friends to participate in a new game with no cost. Thus, there would
+be more new players joining our game and the Betform revenue will grow accordingly.
+Business model built on volumes
+Our business model is built on volumes rather than margins. We would be able to earn more commission when
+more players are participating in our games.
+2.6                                                                                                                    MARKETING PLAN
+Best product/best offer is the key to success. In Betform, we provide an interactive and interesting multiplayers
+game with ultimate transparency (Ethereum based smart contracts).
+Our main marketing messages:
+- Perfect gambling experience with smart phones or devices
+11                                                                                                                     www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+- Fully transparent casino based on Ethereum smart contract
+- No casino edge as we are not participating in the game
+We shall target gamblers who are already familiar with cryptocurrencies. Subsequently, we expect to attract a
+large proportion of gamblers from traditional casinos. Most people are already furious from all of the drawbacks
+that regular casinos have.
+After the successful initial token sale, we will put a lot of focus into more product development, legal procedures
+and capturing market share from other cryptocurrency casinos. After all of the preparation procedures of
+Betform development and licensing, we will implement mass-scale marketing strategies. All marketing efforts
+will be put in to attract people from cryptocurrency and traditional online casinos, in turn boosting the overall
+popularity of cryptocurrencies and fair gambling.
+3. INFORMATION ON OUR TEAM AND DEVELOPER
+Co-Founder - Edward Yeoh
+Mr. Edward Yeoh drives the overall Betform’s vision, strategy and growth and facilitating engagements between
+Betform and other professionals. He is passionate about disrupting traditional business models using the block-
+chain technologies. Edward draws upon fourteen years of professional experience in creating enterprise value
+through IPO and corporate exercises such as reverse takeover and etc.; innovating new business models and
+actively involving in fund raisings; brand positioning; and now using technology to translate traditional and
+online casino into social betting platform where brings fun, privacy and transparency back to players. Before
+Betfrom, Edward hold few top positions such as CFO or Group Financial Contoller in few listed companies. He
+possesses strong financial control skills and rigorously ensuring that all statutory, corporate obligations as well
+as compliances are met. Edward has a first class Bachelor Degree in Applied Accountancy from Oxford
+Brookes University and he was also admitted as a fellow of the Association of Chartered Certified Accountants
+of UK in 2013.
+Co-Founder - JW Lai
+Mr. JW Lai, has keen strategic acumen, a stickler for strong metrics, and an innovative spirit. Passionate about
+the importance and nuance of delivering great customer experience. A waterborne creature where he must
+submerge into the depths of the ocean on a regular basis - but only to recreational dive limits.
+CTO
+Mr. Omega Yuen is the CTO in our team and is responsible for overseeing all technical aspects of the project. He
+is an experienced technologist in software strategy, gaming design and development. Strong background with
+emerging technologies and he is the one who gets it right in the mix. Omega possess the ability to combine
+deep-dive know-how with vision, mentoring ability, and leadership to push teams forward. His career mainly
+deliver these valuable things to every company’s he’s led: developing intuitive, scalable, network-centric
+software; assembling high-calibre engineering and programming teams; and building a robust engineering
+culture.
+Smart contract and Dapp developer
+Mr. Ravi Teja is an Innovative software engineer offering vast experience in the full software development life
+cycle from concept through delivery of next-generation applications and customizable solutions. He's a professional
+mean blockchain developer and early blockchain enthusiast. Currently, he is consulting for companies regarding
+decentralized applications. For him, blockchain technology is a powerful tool to bring equal chances to developing
+countries.
+Community Manager - Nikolay Belyavsky
+Nikolay Belyavsky is an experienced marketer with a history of success in both the B2C and B2B sectors. Skilled
+in digital strategy, e-commerce, social media, and generally connecting people, he is now venturing into the
+12                                                                                                                    www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+crypto and gaming community. Nikolay is a perfect addition to the team.
+Community Manager - Nikita Voronichev
+Nikita Voronichev started career at marketing agency as a Bounty & communication manager, and supported
+startups and developers communities . He is passionate about democratizing innovative technology and help-
+ing ideas grow into real solutions through ICOs.
+An award-winning game development team
+Our game is developed by a highly skilled game development team. The team is committed to creating
+game-changing software, management platforms and mobile apps. They have illustrators, creative conceptu-
+al artists, 3D artists, graphic designers, writers, programmers and editors.
+Their huge range of expertise enable them to prepare for any new development thrown to their way.
+ICO advisor -
+Giovanni Cassangrade
+Giovanni is notable blockchain industry figurehead, growth hacker and he is a co-Founder of Black Marketing
+Guru, a digital marketing and advertising startup based in Rimini, Italy. He is also an Icobench Top20 Expert and
+advisors for multiple projects.
+Graham Doggart
+IT & Digital Technology Solutions Advisor, co-founder of DynamicAbundance.
+Graham is the co-founder of Dynamic Abundance, a Blockchain & Fintech Advisory company with specialities
+in helping businesses strategize, structure, package and manage their Blockchain related projects and ICOs.
+In his career, he has worked as a strategic partner and marketing executive for several global businesses and
+for more than 10 blockchain projects.
+Graham is knowledgeable of and experienced in technical analysis solutions, digital strategies and a has built
+up a strong network of industry specialists.
+His rich list of investors, great advisors, partners, influencers and and experience in the development of Block-
+chain projectsis poised to serve him in his role as ICO, Blockchain & Cryptocurrency Senior Advisor on the
+Betform Advisory Board.
+Giacomo Arcaro
+Giacomo is one of the most important European Growth Hackers featured on the Financial Times, IlSole24Ore
+and Los Angeles Times. Two Million+ exits with the startup CercaClienti.it and SocialAutomation.online. 2,000
+satisfied customers, founder of Black Marketing Guru, ICOvision.io and Co-Founder of the biggest ICO market-
+ing company with over 2.2M users: ICObooster.io
+Giacomo has now been involved in the world of cryptocurrencies and ICOs for quite some time, establishing
+himself as a veteran of the industry and a pioneer of its processes. Currently also working as an advisor for ICO
+Vision and LCCX as well as a Black Marketing Guru, Giacomo has extensive experience in understanding the
+specific requirements of a business regarding the models through which it can generate capital that allows it to
+thrive in competitive environments.
+13                                                                                                                  www.betform.io / www.betformcoin.io
+
+
+
+
+Betform 2018
+3.0                                                                                                                   Road Map
+4.0                                                                                                                   Road Map (Cont’d)
+5.0                                                                                                                   MOVING FORWARD
+Betform aim to establish ourselves as decentralised social betting platform that offers players an equal chance
+of winning against the other players and eliminating the banker in traditional online casinos.
+After the initial token sales and obtaining gambling license, users will be able to play fully transparent games as
+mentioned above. As our user base grows we will gradually add new games to our peer to peer social gaming
+platform.
+The development & business expansion strategy includes implementing new games on the platform to attract
+wider range of users of mobile app; utilization of emerging technologies e.g. IOTA, Raiden Network to increase
+efficiency and stay up-to date with market trends; and developing of new technologies to lower down the play-
+ers’ transaction costs.
+The ITS proceeds would allow us to hire more staff to accelerate the new game developments and also the
+possibility of collaboration with other gaming companies.
+14                                                                                                                    www.betform.io / www.betformcoin.io
+
+
+
+
+

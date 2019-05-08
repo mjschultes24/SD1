@@ -1,0 +1,1449 @@
+﻿ROCKZ
+THE WORLD’S
+MOST BULLETPROOF
+CRYPTOCURRENCY
+WHITE PAPER - V.2.0
+1
+
+
+
+
+2
+
+
+
+
+1. FOREWORD                           4
+2. VISION AND OVERVIEW                6
+2.1 PROBLEM STATEMENT                 6
+2.2 THE SOLUTION                      7
+3. THE MARKET AND THE COMPETITION     10
+3.1 MARKET REVIEW                     10
+3.2 COMPETITIVE ANALYSIS              13
+3.3 ROCKZ POTENTIAL NICHES            14
+3.4 ROCKZ POTENTIAL USERS             16
+3.5 ROCKZ USE CASES                   17
+4. SOLUTION ANALYSIS                  19
+4.1 OBJECTIVES AND STRATEGY           19
+4.2 SOLUTION IN LAW                   19
+4.3 TRANSPARENCY AND COMPLIANCE       20
+4.4 THE OPERATIONAL PROCESS           22
+4.5 USER BUYING ROCKZ ROUTE           23
+4.6 USER SELLING ROCKZ ROUTE          24
+5. REVENUE MODEL                      25
+6. TECHNOLOGY                         25
+6.1 VISION                            25
+6.2 ECOSYSTEM ARCHITECTURE            27
+6.3 SECURITY AND PRIVACY              28
+6.4 SOFTWARE USED                     30
+6.5 PLATFORM COVERAGE                 30
+7. MVP                                31
+8. TOKEN AND TOKEN GENERATING EVENT   33
+8.1 TOKENS                            33
+8.2 ALPROCKZ TOKEN UTILITY            34
+8.3. TOKEN ECONOMICS                  35
+8.4 TOKEN GENERATION EVENT            36
+8.5 TOKEN ALLOCATION                  37
+8.6 FUNDS USAGE                       37
+8.7 TOKEN LISTING                     37
+9. ROADMAP                            38
+10. TEAM                              40
+10.1 CORE TEAM                        40
+10.2 ADVISORS                         43
+11. CONTACT INFORMATION               45
+12. APPENDIX AND REFERENCES           47
+13. DISCLAIMER                        49
+3
+
+
+
+
+ROCKZ WHITE PAPER
+1  FOREWORD
+Cryptocurrencies have exploded to become the crossover economic story of our time.
+To understand how this has happened, it’s necessary to understand both Global Finance
+and Blockchain Technology.
+In an evolutionary sense, these new currencies have been created from the need of global
+finance to liberate capital from the grip of regulation and the increasing control of a small
+class of private investors.
+The seeds of today’s cryptocurrencies were sown during the last decade when many
+companies chose to leave public exchanges and go private. The number of Initial Public
+Offerings (IPOs) decreased dramatically, due mainly to the enormous burden of government
+regulation placed on public companies and the associated costs of compliance1 .
+As a result, Private Equity and Venture Capital investments have grown disproportionately,
+but they are still inherently reserved for the class of elite investors: Ultra High Net Worth
+Individuals, Family Offices, or professional investors. The richest receive preferential
+access to the most interesting investments, while leaving smaller investors to pick over the
+investment opportunities that are left: based on latest reports from OXFAM, the richest 1%
+bagged 82% of the wealth created last year2.
+The rise of cryptocurrencies is the counterswing to this phenomenon and is a direct response
+to the mistrust of the “Old Economy”. In 2017 we reached the tipping point.
+1 https://www.strategyand.pwc.com/media/file/Strategyand_Considering-an-IPO.pdf
+2 https://www.oxfam.org/en/pressroom/pressreleases/2018-01-22/richest-1-percent-bagged-82-percent-
+wealthcreated-last-year
+4
+
+
+
+
+FOREWORD
+2017 was the year that the cryptosphere went stratospheric. Initial Coin Offerings (ICOs)
+erupted everywhere - propelled by a turbulent sea of both fevered hype and genuine
+innovation. Today, cryptocurrencies and ICOs have become a new asset class, praised
+by active investors around the globe.
+Despite  some  critics  within  the  established  economy,  cryptocurrencies  have  proven
+themselves to be a new way to exchange, transact and invest. ICOs have created a new way
+to fund projects, and are supporting innovative and disruptive ideas all around the world.
+In 2017 alone, around 900 ICOs raised more than $6 billion3.
+ICOs are here to stay. The market will continue to evolve and, as it integrates regulation and
+accommodates new developments, will consolidate itself into a legitimate new asset class.
+But in order to attract more institutional investors and maintain growth, several important
+gaps and shortcomings need to be addressed.
+The major challenge encountered in this new cryptosphere is the absence of a trustworthy
+anchor to the traditional economy; a bridge between the two worlds. At a time when some
+ICOs and coins are getting some justifiably negative press, it is time to offer a stable and
+legally enforceable cryptocurrency bringing together the best of two worlds. This is ROCKZ.
+Alexey Borichev, Yassine Ben Hamida
+3 https://www.icodata.io/stats/2017
+5
+
+
+
+
+ROCKZ WHITE PAPER
+2                                                                                                                      VISION AND OVERVIEW
+2.1                                                                                                                    PROBLEM STATEMENT
+Traders and investors engaging in the cryptosphere today must learn to live with certain
+risks. There is currently no reference or reserve currency that satisfactorily mitigates these
+risks. This means that, for the time being, the only safe way for crypto investors to secure
+their profits is to return to fiat currency and thereby exit the cryptosphere.
+This identifies an inherent tension that, if left unsolved, will inhibit the future growth of the
+cryptosphere as an asset class.
+Let’s examine the nature of the risks at play.
+Investors can leave fiat currency in certain exchanges, but will bear a counterparty risk since
+most of the exchanges are unregulated. Unregulated exchanges are effectively the owners
+of the assets deposited by their clients, be they fiat or coins. In case of bankruptcy, fraud or,
+(self-declared) hacking, those assets are completely at the risk of being lost. There are a few
+regulated exchanges that do protect deposits, but only to a certain limit, based on country
+protection schemes. At best, there are only limited protections for anyone depositing assets
+into exchanges.
+On top of that, there is a huge security risk, with many exchanges having been hacked during
+the last few years. Hundreds of millions of dollars were stolen in 2017, and in cases so far
+in 2018, we have seen the total number of stolen assets reach alarming levels4 . When coins
+and tokens are held at centralized exchanges, investors’ assets can disappear within seconds,
+and typically are never recovered. It has happened and will happen again.
+Of course investors can, with some know-how and at additional cost, transfer their crypto
+investments to cold wallets in order to mitigate some security risks. Nevertheless, cold
+wallets do not erase the market risk of holding main coins used as a pivot or reserve, such
+as Bitcoin or Ethereum. These main coins still bear extreme volatility and therefore do not
+eradicate all risks for investors6.
+4 2018 started the year with the biggest hacking of around 700m USD equivalent on a Japanese exchange. http://money.
+cnn.com/2018/01/29/technology/coincheck-cryptocurrency-exchange-hack-japan/index.html. Less massive, but still
+painful attacks happened with Bithumb, Bitfinex, Poloniex
+5 https://www.bloomberg.com/view/articles/2018-02-08/crypto-cynics-stand-to-profit-the-most
+6
+
+
+
+
+VISION AND OVERVIEW
+Finally,  crypto  investors  who  are  willing  to  take  profits  out  of  the  system,  be  it
+on a temporary basis before entering a new position, or on a permanent basis, incur high
+fees and time delays6. While a fiat payment takes only a few seconds to be made in most
+countries, transferring cash out of the cryptosphere can take days or weeks before being
+completed. During this time, crypto investors bear market, counterparty, and security risks.
+There are some options to partially minimize these industry risks, especially market risk,
+such as by the use of stablecoins, which, being backed by «classic» assets (like cash or gold),
+are relatively stable.   However these solutions may also have their own shortcomings.
+For example, the most popular stablecoin, Tether, which now has more than $2.9 billion
+in daily trading volume, is still not the best choice in terms of transparency. It was suspected
+to have a shortfall problem in a reserves audit, and moreover, of taking part in possible
+cryptocurrency market manipulations7.
+Compared to the ease of entering the cryptosphere as an investor, making a pause between
+investments or going out of the cryptosphere can be costly, risky and complicated.
+2.2                                                                                                                 THE SOLUTION
+ROCKZ addresses a major shortcoming of the cryptosphere: the lack of a trustworthy
+anchor in the traditional economy - a way to book profits while still staying in crypto; a way
+to address counterparty, security, and market risks.
+Institutional investors, such as funds, insurance companies or pension funds, are willing
+to  enter  this  new  asset  class,  which  is  decorrelated  from  traditional  investments.
+But to penetrate this new asset class they need a point of reference, a safe harbour,
+a reserve coin. This is ROCKZ.
+The ROCKZ issuing company enables investors and traders to exchange their main crypto
+currencies against a ROCKZ. For each ROCKZ issued, 1 Swiss Franc (CHF) is held by the
+ROCKZ issuing company for the account of the coin holders. By definition, ROCKZ is stable.
+The ROCKZ issuing company holds up to 90% of its reserves in Swiss Francs (the Reserves) in
+physical paper form (i.e., banknotes) which are deposited in high-security Swiss Alp Bunkers
+and Vaults. The remaining 10% is held with various Swiss Banks to ensure short-term
+availability of the Swiss Francs. ROCKZ is solid and agile.
+6 https://www.cnbc.com/2017/12/19/big-transactions-fees-are-a-problem-for-bitcoin.html
+7 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3195066; https://cointelegraph.com/news/canceled-audit-and-
+issuance-of-300-mln-new-tokens-whats-going-on-with-tether
+7
+
+
+
+
+ROCKZ WHITE PAPER
+The  Reserves  are  held  by  the  ROCKZ  issuing  company  under  a  fiduciary  mandate
+and are segregated from the company’s operating accounts. Even in the case of bankruptcy
+of the ROCKZ issuing company, ROCKZ coin holders still have full access to their Swiss Franc
+fiat reserves. ROCKZ holders are protected.
+The ROCKZ issuing company is building a rigorous and robust legal framework which ensures
+that ROCKZ is effectively backed by the reserves of Swiss Francs and that claims are legally
+enforceable. ROCKZ is reliable.
+ROCKZ is pioneering and fostering a new level of adoption for crypto enthusiasts and investors.
+ROCKZ erases the main crypto market risk by backing the coin to one of the most stable
+currencies, thereby reducing counterparty risk to a minimum.
+No other coin offers this level of protection.
+WHY SWISS FRANCS?
+ROCKZ focuses on the CHF not only because of the key role Switzerland is playing
+in the development of crypto currencies, but foremost because the CHF offers real protection
+against inflation and devaluation. Over the last 50 years, the United States Dollar (USD)
+has lost 78% of its value to the CHF. Even when the CHF pays negative interest rates,
+the currency has been appreciating. In other words, CHF has been, until now, the Bitcoin
+of the traditional markets: the currency of a small country with a limited supply.
+Switzerland is a politically neutral country with a long-held respect for the private sector;
+a very important value to all parties involved in the project. Switzerland, with more than $6.5
+trillion in assets under management and 25% of the market share of worldwide offshore
+assets is one of the key financial centres worldwide8. In comparison, with only 8 million
+inhabitants, the Swiss Financial Centre is about the same size as the British Financial Centre
+(65 million inhabitants), or roughly half that of Japan (127 million inhabitants)9.
+8 http://www.swissbanking.org/fr/place-financiere/la-place-financiere-en-chiffres
+9 https://www.theinvestmentassociation.org/assets/files/research/2017/20170914-ams2017.pdf
+8
+
+
+
+
+VISION AND OVERVIEW
+USD/CHF development since 1971
+Since 1971, the USD has lost 78% of its value against the CHF.
+CHFUSD (inverted) Compared to the XBTUSD10
+While we can’t compare the increase in value of the CHF over almost 50 years, and the increase in value
+of Bitcoin over one year, it is interesting to see that the two currencies have been showing a very similar
+growth against the USD.
+10 Source: Based on Bloomberg Finance L.P. data, 14.02.2018
+9
+
+
+
+
+ROCKZ WHITE PAPER
+3                                                                                                THE MARKET AND THE COMPETITION
+3.1                                                                                              MARKET REVIEW
+Cryptocurrencies and tokens have boomed in recent years. As of January 2018, total
+market capitalization reached an all time-high of $800 billion, with the dominance of Bitcoin
+decreasing progressively with the development of alternative coins and tokens. Fortunes
+have been made by early investors and traditional active investors are starting to discover
+this new asset class. But those fortunes may diminish as fast as they are earned. According
+to the latest statistics available to date, cryptocurrency market capitalization has decreased
+almost fourfold to $200 billion11.
+Over                                                                                             1,500  coins  and  tokens  now  exist,  and  the  market  is  set  to  grow  further,
+with the development of new projects supported by another wave of ICOs, despite the recent
+market downturn trend. Increasingly, coins are now evolving towards an asset-backed
+approach,  and  many  projects  are  trying  to  provide  the  market  with  stable  coins,
+backed - or not - with underlying assets.
+Tether  has  the  closest  existing  answer  to  solving  the  problem  we  have  identified
+with the market. Rapid growth and over $2.9 billion in daily trading volume shows how much
+demand there is for a secure coin in the cryptocurrency space12.
+11 According to statistics of coinmarketcap.com
+12 According to statistics of coinmarketcap.com
+10
+
+
+
+
+THE MARKET AND THE COMPETITION
+Tether daily trading volume, 01.08.2017-01.08.2018
+Millions
+$ 7 000
+$ 6 000
+$ 5 000
+$ 4 000
+$ 3 000
+$ 2 000
+$ 1 000
+$
+Other solutions are starting to appear, such as TrueUSD, which claims to improve upon all of Tether’s
+shortcomings; BitShares derivatives like SmartCoins, which are programmatically stable; or Digix, which uses
+gold instead of fiat as an underlying asset.
+BitCNY daily trading volumes, 01.08.2017-01.08.2018
+Millions
+$ 120
+$ 100
+$ 80
+$ 60
+$ 40
+$ 20
+$
+11
+
+
+
+
+ROCKZ WHITE PAPER
+Digix Gold Token daily trading volume, 29.06.2018-12.08.2018
+$ 70 000
+$ 60 000
+$ 50 000
+$ 40 000
+$ 30 000
+$ 20 000
+$ 10 000
+$
+12
+
+
+
+
+                                                                                                                         THE MARKET AND THE COMPETITION
+3.2                                                                                               COMPETITIVE ANALYSIS
+However, Tether and other asset-backed coins have inherent flaws that ROCKZ does not.
+ROCKZ coins are fully backed by CHF Reserves, the strongest currency in the world,
+with 90% in physical form deposited in vaults and banks. By choosing a physical form at a level
+of 90%, coin holders don’t need to fear about the safety of the banks. ROCKZ is completely
+transparent as regards to Reserves held for coin holders and they are audited on a monthly
+basis.
+ROCKZ coin holders have a legal right to CHF fiat currency in an equivalent amount of their
+investments. Even if the ROCKZ  issuing company goes bankrupt, coin holders will get their
+legal claims against the ROCKZ  issuing company transferred by vault operators and banks.
+ROCKZ coin holders can transfer equivalent CHF fiat amounts to their designated bank
+or credit card account, or get notes physically delivered in Switzerland.
+Rockz                                                                                             Tether                 TrueUSD                          Digix     BitUSD
+Backed by fiat/
+physical asset
+CHF                                                                                               USD                    USD                              Gold      BTS
+Direct ownership of fiat/asset
+equivalent amount
+Transparency                                                                                      Full                   Partial                          Partial   Full
+Segregation of assets
+Protection of coin holders in case
+N/A                                                                                               N/A
+of bankruptcy
+Holdings in physical banknotes/
+assets
+Unrestricted asset redemption
+Audit track record
+ssue of coins only when covered
+by reserves
+Strong, stable and politically
+neutral base asset
+No loss of token value
+n time
+13
+
+
+
+
+ROCKZ WHITE PAPER
+3.3                                                                                              ROCKZ POTENTIAL NICHES
+As more cryptocurrency projects come on the board every month, the critical nature of their
+connection with the real world becomes ever more obvious. We have mentioned the very real
+risks of high volatility in base value, the partial or absolute lack of transparency, the lack
+of security, and the volatile costs of funds transfer.
+ROCKZ is created to solve these problems and to deliver blockchain advantages in several
+industries, such as:
+E-COMMERCE
+Nowadays, e-commerce organizations avoid using cryptocurrencies because of their high
+volatility: they are not sure if their funds will become valueless during the next market
+downturn. Despite this high volatility of cryptocurrencies, there are several alternative
+processing solutions, such as Bitpay, Coinpayment, and of course, CoinBase. The e-commerce
+market represents a prime opportunity for crypto-services: its size is forecast to exceed
+$2.9 trillion worldwide in 201813.
+The main players include Alipay, Tenpay, PayPal, Webmoney, Visa, Mastercard and American
+Express. But e-commerce merchants still use more traditional services, such as Paypal,
+WebMoney and bankcard processing, in spite of the several advantages that blockchain
+technology   itself   brings:   transparent   transaction   records   and   lower   fees
+(which are dependent on network type). Of course, the ROCKZ platform is not intended
+to replace Visa or Mastercard any time soon, but its pricing policy allows it to favorably
+compete with PayPal and similar services.
+Here we bring together Paypal, Webmoney and ROCKZ possible processing fees:
+Platform
+PayPal                                                                                           Webmoney                        ROCKZ
+                                                                                                 2.7-4.4% depending on
+                                                                                                                                                             Ethereum network, semi-
+                                                                                                 location + fixed fee based on
+                                                                                                                                 From $0.01 to $50 or more   fixed fee (about $0.3)
+Processing Fees                                                                                  the currency per transaction
+                                                                                                                                 per transaction             + conversion fee
+                                                                                                 (for example, CHF 0.55 for                                  if conversion is required
+standard transactions)
+It is obvious that ROCKZ has a sizeable competitive advantage. The main goal of the platform
+is to provide the most advantageous conversion fees while maintaining the same liquidity
+as their main competitors.
+13 https://www.statista.com/statistics/379046/worldwide-retail-e-commerce-sales/
+14
+
+
+
+
+THE MARKET AND THE COMPETITION
+INVESTMENT
+Here we consider the ways where ROCKZ can be useful. The first is by trading in a protected
+asset base. Nowadays, there are two basic trading strategies: trade against a fiat currency,
+or  trade  against  bitcoin.  The  first  reflects  traders’  beliefs  that  cryptocurrencies
+are secondary to traditional markets and that profits have to be converted into a fiat currency
+to achieve financial goals. In this case, traders need assets that offer a stable comparison
+against the USD or other national currencies in order to fix profits while simultaneously
+holding market value.
+The core value of the second strategy is due to the strong confidence in bitcoin’s value
+continuing to grow in future. This strategy allowed higher profit gains in the past,
+but as we can see, this confidence may prove costly if market trends change direction.
+Both cases reveal a need for a strong financial shield to fix profits - and ROCKZ fills
+that requirement perfectly.
+Yet another way where ROCKZ is useful is through the use of ICOs. This part of the industry
+continues to grow, and despite the current shortcomings of many projects, ICOs as a method
+of funds collection can already be considered as a viable alternative to traditional venture
+financing. The dramatic decrease in market capitalization that has recently occurred
+has forced many projects to reconsider their financial roadmaps due to changes in the value
+of collected funds. Projects that completed ICOs in conditions of overheated markets
+are in a difficult situation now, because their financial resources have fallen dramatically,
+in some cases by threefold or fourfold. Now ROCKZ introduce a stable and reliable instrument
+for ICO investments. Its stablecoin nature makes collected funds stable.
+Stablecoin trading volumes confirm the global need for market protected assets. Tether
+daily trading volumes can exceed $2.9 billion, according to coinmarketcap.com. For other
+known stablecoins, TrueUSD, BitCNY and BitUSD, these values are USD 15 million, USD 15.7
+million and USD 1.6 million respectively. These volumes also reflect one important potential
+problem for most investors: in the case of Tether, they are vested in less reliable assets.
+MONEY TRANSFERS
+According to Statista, the P2P money transfer market size will reach  $65.7 billion
+at the end of 2018 (excluding corporate transfers)14. The main players here are Western
+Union, UAE, Exchange, MoneyGram and Ria. Western Union dominate the market, processing
+nearly  30% of all transfers. Their transfer fees vary from  0.5-1% of the sum being
+transferred, depending upon the transfer time. Although current blockchain solutions
+(such as Ripple) allow clients to implement transfers faster and cheaper, there are countries
+where the exchange of cryptocurrencies is not allowed. The ROCKZ solution is able to avoid
+these limitations, because it includes “native” options to convert tokens into a fiat currency
+and to deliver transfers directly into a client’s bank account.
+14 https://www.statista.com/outlook/332/100/p2p-money-transfers/worldwide
+15
+
+
+
+
+ROCKZ WHITE PAPER
+3.4                                                                                                ROCKZ POTENTIAL USERS
+The ROCKZ platform is designed for several types of users:
+EARLY CRYPTO ADOPTERS
+Private crypto investors who have successfully completed investments in the cryptosphere
+and want to protect their wealth by sheltering it from market, security and counterparty
+risks. ROCKZ offers a ‘safe harbour’ for their wealth when the seas gets rough.
+INSTITUTIONAL CRYPTO INVESTORS AND FUND MANAGERS
+Institutional  investors  are  increasing  their  participation  in  this  new  asset  class.
+For both short and long term trading, they require a mechanism to pause between periods
+of investment activity.
+CORPORATES, SERVICE PROVIDERS AND PRIVATE INVESTORS
+ROCKZ is designed for corporations investing directly for their own account, and service
+providers acting on behalf of their clients, as well as private individuals who wish to receive
+payments in cryptocurrencies, but are unwilling to take the market risk related to main
+coins. All are looking for ease and convenient availability in the collection of their payments,
+while still maintaining the security and stable values of their assets. Again, ROCKZ suits all
+of their needs perfectly.
+CRYPTO-TRADERS
+Crypto traders systematically make several deals a day, or week , depending on their trading
+style. As was mentioned above, these users need an instrument that allows them to fix
+positions fast and switch to new target searches. Currently traders use Tether, being under
+counterparty risks, or Bitcoin, being under market risks. ROCKZ is constructed to avoid both
+of these risks. Long term investors share the same problems - and the same solution.
+16
+
+
+
+
+THE MARKET AND THE COMPETITION
+USERS OF P2P MONEY TRANSFERS
+These users are searching for a reliable and cheap means for the transfer of funds to other
+regions or countries, which can be easily converted to readily available funds. ROCKZ solves
+this problem, and even allow users to avoid the conversion step, since the stablecoin nature
+of ROCKZ allows merchants to accept these tokens as a means of payment.
+MERCHANTS
+They are looking for a fast, easy and cheap instrument of payment collection. Moreover,
+this instrument must keep the value of funds stable over time.   As was mentioned above,
+ROCKZ suits this perfectly.
+COMMON USERS
+They are not world-wise users of cryptocurrencies and only want to safely store their
+earnings. In countries where currencies can devalue quickly or are even subject to country
+default and commercial bank failure, ROCKZ offers a solution to keep their capital safe.
+3.5                                                                                                 ROCKZ USE CASES
+ROCKZ AS A RESERVE CURRENCY
+The initial and primary purpose of ROCKZ is to be used by any crypto investors willing
+to place and hold a cryptocurrency: offering stable and accessible value backed by fiat currency
+and eliminating any unnecessary counterparty, market or security risks. Typical users
+are early-stage investors in the cryptosphere who have profited from the market growth
+and are now looking to preserve part of their wealth.
+ROCKZ AS A PIVOT CURRENCY
+Professional investors, such as crypto funds, who are looking for a pivot currency
+they can use to diversify their risk or to temporarily exit the crypto market during times
+of high volatility can feel safe in ROCKZ. Due to its direct link to CHF, ROCKZ doesn’t fluctuate
+and thus offers a safe haven to such investors.
+17
+
+
+
+
+ROCKZ WHITE PAPER
+ROCKZ AS A TRADITIONAL STORE OF CURRENCY VALUE
+By not incurring value changes, ROCKZ is stable and offers anyone willing to receive or pay
+for services or goods the possibility to pay with a cryptocurrency with an defined base value.
+It is an easy, safe and fast way to receive or pay for services or goods.
+ROCKZ AS AN EXIT FROM  THE CRYPTOSPHERE TO THE FINANCIAL SYSTEM
+Because the ROCKZ platform doesn’t issue coins without being completely backed, coin
+holders can be certain that an equivalent fiat currency amount is always ready to be
+transferred or distributed to ROCKZ holders. It therefore allows coin holders to exit
+the cryptosphere at any point in time and without experiencing any liquidity or counterparty
+risks. Every day, ROCKZ holders can order a transfer of their holdings to their bank account
+or have them delivered as physical banknotes in Switzerland.
+ROCKZ AS A BRIDGE TO THE FINANCIAL SYSTEM
+Because ROCKZ holders are not necessarily willing to transfer their wealth outside
+the cryptosphere but still want to have ready access to their wealth, they can request
+ROCKZ to issue, against a pledge of their holdings, guarantees to financial institutions
+worldwide. This allows a ROCKZ holder to be recognized as a fiat currency-backed creditor
+for their crypto assets in the banking world.
+ROCKZ AS COLLATERAL
+Because of the cash-like equivalent of ROCKZ, coin holders can use it as collateral to invest
+in the crypto world. ROCKZ will always be accepted as a cash equivalent by exchanges.
+18
+
+
+
+
+SOLUTION ANALYSIS
+4                                                                                              SOLUTION ANALYSIS
+4.1                                                                                            OBJECTIVES AND STRATEGY
+The ROCKZ mission is to make the cryptocurrency market transparent, safe and trusted
+for its users, so that we can secure the reputation and full potential of blockchain
+developments and the cryptosphere for future generations.
+ROCKZ is a service, not a commodity. Its success will be measured, not in the extreme
+valuations of the coin, but in the number of people who trust it as their ‘port in a storm’.
+The objective for ROCKZ is to be widely recognized, trusted and used by both professional
+investors and private participants of the new crypto reality. We have a stated aim
+of achieving a minimum 3% market share, making ROCKZ an essential part of the cryptosphere
+architecture.
+4.2                                                                                            SOLUTION IN LAW
+The ROCKZ founding team understands that a public adoption of crypto will only happen when
+cryptocurrencies adhere fully to the highest standards of regulation. Using light regulatory
+environments (offshore) in the hope of circumventing financial regulations is not a viable
+and sustainable solution. In order to provide full transparency on our project, the ROCKZ
+founding team has decided to fully disclose each and every detail of our setup.
+ROCKZ has been set up within Switzerland’s uniquely trusted and enforceable legal
+environment. Instead of taking a financial, proprietary risk, the ROCKZ company, ROCKZ AG,
+acts purely as a service provider company.
+In order to deliver its project, ROCKZ AG has entered into a partnership with a FINMA
+regulated Swiss Securities Dealer. The Dealer creates uncertificated securities for ROCKZ
+which are registered with SIX Group, the financial infrastructure provider in Switzerland15.
+These uncertified securities have an underlying value of 1 CHF.
+15 https://www.six-group.com
+19
+
+
+
+
+ROCKZ WHITE PAPER
+The Dealer creates and sets values for uncertificated securities on a daily basis according
+to ROCKZ AG’s requests. Based on inflows and outflows in ROCKZ, the number of uncertificated
+securities will increase or reduce on a daily basis. Uncertificated securities are held with
+the Dealer by ROCKZ AG, which acts in a fiduciary role for ROCKZ holders.
+ROCKZ AG allocates, via a smart contract and the Terms and Conditions of the ROCKZ
+platform, one uncertificated security for each ROCKZ coin issued.
+Reserves are held on a fiduciary basis, in the name of ROCKZ AG, but for the account
+of the ROCKZ holders, with financial intermediaries (banks) and vault operators. ROCKZ AG
+segregates reserve holdings from its operational accounts and obtains, where applicable,
+an express waiver of the right to offset assets, from financial intermediaries (banks).
+In the case of bankruptcy of ROCKZ AG, the Reserves will not be affected by insolvency
+proceedings. Coin holders will benefit from the transfer of their rights against ROCKZ AG
+to financial intermediaries (banks) and vault operators, as provided under Swiss law16(8).
+In such a case, ROCKZ coin holders will be able to get their Swiss Francs directly from
+the relevant financial intermediaries (banks) and vault operators.
+4.3                                                                                                                      TRANSPARENCY AND COMPLIANCE
+Alprockz AG is a Swiss company incorporated in Zug and owned by Swiss-based investors.
+Alprockz is launching a Token Generation Event to fund the development of ROCKZ. Alprockz
+is audited by VQF Audit AG17.
+ROCKZ AG is a Swiss company incorporated in Zug and owned 100% by Alprockz  AG. ROCKZ AG
+is issuing ROCKZ tokens. ROCKZ is audited by VQF Audit AG18(10). In accordance with Swiss
+AML regulations, ROCKZ AG will be affiliated to a recognised self-regulatory organisation.
+On a monthly basis, Reserves are controlled and confirmed by an internationally recognized
+company whose reputation is not reliant in any way on the interests of ROCKZ AG.
+A confirmation is published to coin holders. In order to ensure a permanent confirmation
+process, we consider building a prototype, based on the same mechanics as an ATM, whereby
+any ROCKZ client can confirm at any time the amount held in vaults.
+16 Article 401 Al. 2 of the “Code des Obligations”, https://www.admin.ch/opc/fr/classified-compilation/19110009/index.
+html#a401
+17 https://www.vqf.ch/en/vqf-services
+18 https://www.vqf.ch/en/vqf-services
+20
+
+
+
+
+SOLUTION ANALYSIS
+ROCKZ AG maintains an analysis of select banks and operating vaults and pledges to maintain
+a continually updated list of the banks where cash deposits are held. At any time, coin holders
+can request the current list of chosen financial intermediaries and vault operators as well
+as the guidelines used to select such intermediaries. For security reasons, the vault
+operators’ locations are not disclosed.
+Cryptocurrency holders and ROCKZ holders go through a standard “know your client”
+process (KYC) and payments out of ROCKZ in fiat currencies can only be made to the same
+beneficiary as the ROCKZ holder, in order to prevent theft, abuse or fraud.
+ROCKZ AG CHF holdings are not invested in any manner and do not bear any interest.
+ROCKZ AG will work with regulated trading counterparties primarily based in Switzerland,
+in order to work with institutions applying the same level of professionalism, protection
+and safety.
+21
+
+
+
+
+ROCKZ WHITE PAPER
+4.4                                                                                            THE OPERATIONAL PROCESS
+The operation process relies on a daily minting / burning of ROCKZ, based on the demand
+received via our platform. This is the primary issuance of ROCKZ and a price back of 1 ROCKZ
+to 1 CHF is guaranteed at this point.
+ROCKZ will eventually also be listed on exchanges as a secondary market. Prices on secondary
+markets might deviate from the back to 1 CHF, due to bid and offer.
+ORDER TO BUY/SELL                                                                              DELIVERY OF COINS         FIXING WITH          MARKET MAKERS
+ROCKZ OR DELIVER                                                                               (BTC, ETH, etc)           MARKET MAKERS
+FIAT                                                                                                                                          (Exchanges, Brokers,
+                                                                                               Cut-off: 12:00 CET                             Fund Managers,
+                                                                                                                                              Investors, Banks,
+                                                                                                                                              Corporates)
+CUSTOMER WALLET                                                                                DELIVERY OF ROCKZ         ROCKZ ISSUED AT      10% BANK ACCOUNT
+                                                                                               OR ACCEPTED COINS         DAILY FIXING PRICE   CHF
+(BTC, ETH, etc)
++
+90% PHYSICAL CHF
+EXCHANGE WALLET                                                                                BANK ACCOUNT OR
+PHYSICAL
+ROCKZ AG
+segregated accounts
+Coin holders
+& vaults
+22
+
+
+
+
+SOLUTION ANALYSIS
+4.5                                                                                        USER BUYING ROCKZ ROUTE
+                                                                                           THE SWISS FRANC RESERVES
+5. PAYMENT CONFIRMATION
+                                                                                           5. CHF RESERVED            4. PAYMENT
+3. ORDER RESENT
+                                                                                           BANK (PARTNERS)
+                                                                                           2. BUY ORDER               USER
+ROCKZ                                                                                      1. KYC                     KYC          1. KYC
+PLATFORM                                                                                                                                    ERC 20 WALLET
+SMART CONTRACT
+ETHEREUM BLOCKCHAIN
+5. TOKEN MINT ORDER                                                                        6. ROCKZ SENT TO USER
+When a user wants to buy ROCKZ, they must go through the following steps (the KYC
+procedure is included whereby a user buys or sells ROCKZ for the first time):
+1. The user passes the KYC/AML registration procedure.
+2. The user creates an order to buy ROCKZ via the platform interface. The platform
+proposes a list of preferred payment types and asks the user to input their Ethereum
+address.
+3. The user chooses their preferred payment type and makes a payment in ETH, BTC
+or CHF.
+4. The platform receives payment in ETH or BTC and transforms these into CHF through
+brokers or receives CHF directly into its bank account.
+5. The bank receives payment and sends this information to the ROCKZ platform
+and stores CHF received into the Swiss Francs Reserves. The platform creates an order
+for the smart contract to mint new ROCKZ and send them to the user’s registered address.
+The ROCKZ platform has a daily cut-off time (12:00 CET) before which it is necessary
+to issue/withdraw uncertificated securities, mint/burn ROCKZ and fix price with market
+makers. If the user’s order/payment is completed and received before the cut-off time,
+the order will be executed. Otherwise, it will be postponed until the next cut-off time.
+6. The smart contract mints ROCKZ and sends them to the user’s address; the platform
+receives Ethereum transactions data; the user receives their ROCKZ tokens.
+23
+
+
+
+
+ROCKZ WHITE PAPER
+4.6                                                                                             USER SELLING ROCKZ ROUTE
+THE SWISS FRANC RESERVES
+5. «PAY TO USER» ORDER
+5. CHF RESERVED
+6. PAYMENT
+4. ORDER RESENT
+BANK (PARTNERS)
+                                                                                                                           3. SMART CONTRACT ADDRESS SEND            USER
+                                                                                                                           2. SELL ORDER
+ROCKZ
+                                                                                                1. KYC                     KYC                              1. KYC
+PLATFORM                                                                                                                                                             ERC 20 WALLET
+SMART CONTRACT
+ETHEREUM BLOCKCHAIN
+5. TRANSACTION CHECK                                                                            6. ROCKZ SENT TO SMART
+CONTRACT ADDRESS
+Similar steps are followed when a user wants to sell ROCKZ:
+1. The user passes the KYC/AML procedure.
+2. The user creates an order to sell ROCKZ via the platform interface. The platform proposes
+a list of preferred fiat currencies to be paid in and asks the user to input their registered
+address.
+3. The user chooses their preferred payment type and writes their requisites. The platform
+sends them the smart contract address where tokens will be sent.
+4. The user sends ROCKZ to the smart contract address.
+5. The platform checks that the tokens were sent to the smart contract address
+and makes an order for the nominated bank to pay the user. The bank collects the Swiss
+Francs from the Reserve. The ROCKZ platform has a daily cut-off time (12:00 CET) before
+which it is necessary to issue/withdraw uncertificated securities, mint/burn ROCKZ
+and fix a price with market makers. If the user’s order/payment is received before
+the cut-off time, the order will be executed. Otherwise, it will be postponed until the next
+cut-off time.
+6. The smart contract burns ROCKZ; the bank pays the user, drawing funds from the Swiss
+Franc  Reserves; the user receives their fiat currency into their designated account.
+24
+
+
+
+
+REVENUE MODEL / TECHNOLOGY
+5                                                                                               REVENUE MODEL
+ROCKZ AG receives commissions for the services it provides to ROCKZ holders:
+- delivery of ROCKZ to coin holders
+- delivery of ROCKZ equivalent fiat currency to ROCKZ holders
+- delivery of ROCKZ equivalent in banknotes in Switzerland
+- coordination with market makers
+- partner licenses
+6                                                                                               TECHNOLOGY
+ROCKZ is not a technology project per se, but we pride ourselves on having a rock-solid
+IT core.
+6.1                                                                                             VISION
+ROCKZ symbolizes security and safety for the assets of our clients, thus the ROCKZ technical
+infrastructure has been developed to ensure a stable and secure base.
+In order to develop ROCKZ the founding team and our IT advisors have set up some guiding
+principles:
+CODE REVIEWS
+We will always check and double check: this is in our DNA. Security reviews are included
+in our SDLC to protect ROCKZ at the code level. To further ensure code integrity, independent
+third party companies conduct regular thorough reviews. Regular penetration tests
+will ensure a very high security standard resulting in a hygienic ecosystem. The ROCKZ
+infrastructure must be 100% solid, 100% clean.
+25
+
+
+
+
+ROCKZ WHITE PAPER
+CLOUD NATIVE
+We use only the best and do not duplicate what others can reliably and safely do better.
+We use top of the art cluster technology and infrastructure providers to serve you 24/7.
+This gives us access to the best people in the field and provides peace of mind.
+AUDIT-TRAIL
+All access attempts (authorized and non-authorized) are audited and logged in real time,
+enabling efficient incident responses and forensic investigations.
+AUTO-SCALING
+We distribute our services so as to not have any single point of failure, and to balance heavy
+/peak loads.
+MONITORING
+24/7 monitoring  (resource, access, system status, traffic between components, etc.)
+and regular health checks ensure a healthy and well-maintained system allowing our teams
+to detect and fix issues before they affect users.
+PUBLIC BLOCKCHAIN
+To fulfill our vision we have decided to use public instead of private blockchain technologies.
+This gives us a stable and thoroughly tested architectural base that we believe in,
+with millions of highly committed users. As stated by Linus’s Law (Eric S. Raymond):
+“Given enough eyeballs, all bugs are shallow.”
+Our commitment to stability and security is also the reason why ROCKZ are ERC20 compatible
+tokens. The Ethereum Foundation and its active arm  (Ethereum Switzerland GmbH)
+are both based in Switzerland’s “Crypto-Valley”, but Ethereum is not just another blockchain.
+It is a Smart Contract platform which allows it to be used to answer real-world needs.
+It is no surprise that the Ethereum blockchain hosts more than                                    81%  of all ICOs.
+Moreover, Ethereum is the best way to bring our customers the whole range of our services
+as rapidly and as safely possible.
+When our ICO Event is successful, we will consider an option to develop our own private
+blockchain in the near future to further improve the economics of the ROCKZ system,
+and thereby bring ICO members additional privileges and benefits.
+26
+
+
+
+
+TECHNOLOGY
+6.2                                                                                              ECOSYSTEM ARCHITECTURE
+PAYMENT GATEWAYS
+CHF RESERVES
+INFORMATION API
+BANKS INTERACTION SUBSYSTEM
+WEB APPLICATION
+ROCKZ PLATFORM CORE
+BLOCKCHAIN INTERACTION SUBSYSTEM
+ETHEREUM BLOCKCHAIN                                                                              OTHER BLOCKCHAIN
+SMART CONTRACTS                                                                                  BITCOIN, LITECOIN …
+The ROCKZ platform has been designed to be as flexible as possible in order to satisfy all
+of the needs of its users.
+The core of the ROCKZ platform contains all of the functions related to compliance, order
+management, the fiat currency rate engine, and client services. The core is backed by reliable
+data storage and a distributed backup system, which is necessary in emergency situations
+involving hacking attacks, critical code bug errors, or power failure.
+27
+
+
+
+
+ROCKZ WHITE PAPER
+The platform is connected with the outer world via several elements:
+1. API, used for interconnection with KYC providers and third-party services
+(a wide range of merchants and service providers);
+2. Web Application, providing direct access to the ROCKZ platform for ROCKZ users;
+3. Blockchain Interaction Subsystem, allowing the ROCKZ platform to interact with the Ethereum
+blockchain and its smart contracts (to mint new ROCKZ, for example) or other blockchains
+in the event that we implement cross-chain functionality;
+4. Bank Interaction Subsystem, allowing the ROCKZ platform to coordinate with banks
+whenever ROCKZ are converted into a fiat currency and vice versa.This element is designed
+to be compatible with commercial bank systems and APIs. Users can interact with banks
+via established payment gateways. Access to these gateways will depend on a particular
+bank’s preferences. We also discuss with banks the possibility to broadcast the platform’s
+Swiss Franc reserves in real-time, along with monthly audit reports, but banks’ security
+preferences make that optional.
+6.3                                                                                                 SECURITY AND PRIVACY
+Our clients’ security and privacy is one of our main concerns. For this reason we are integrating
+the best practices and security layers to keep you safe from hackers and prying eyes.
+These measures include:
+DATA CENTERS
+Multiple ultra secure data centers will be used. This includes using data centers built
+in bunkers under Swiss mountains to store users’ personal data. Our data centers are ISO
+27001:2013, FINMA circular 2008/7, and ISO 9001:2015 compliant. Periodic penetration
+tests will be executed by professional hackers.
+CLIENT SECURITY AND PRIVACY
+Users are the first target for hackers. Our users are secured using MFA (Multi Factor
+Authentication) from the beginning. With these technologies, you can add layers to prove
+who you are: “Something you are, something you have, something you know”. All clients use
+2FA (Two Factor Authentication) by default, which ensures a layer of protection and privacy
+for everyone. In subsequent releases, for more sensitive clients, we will propose additional
+layers using personal hardware security tokens and/or biometrics, which can be used
+to “sign” operations such as changing personal info, selling ROCKZ, etc. Multiple signatures
+can be required for corporate accounts and family accounts (multi-signature wallets)
+for example. The use of MFA will also be possible in future versions.
+28
+
+
+
+
+TECHNOLOGY
+COIN SAFETY
+We do not store your private keys or act as a wallet. This mitigates risks by allowing you
+to be in control and to use the best hardware wallets; hackers cannot steal your coins from
+us since we don’t have them.
+ENCRYPT EVERYTHING
+Data at rest and data in transit. We will use the strongest available encryption algorithms
+from point-to-point (no weak link in the chain) and the best key management practices
+including specialized hardware security modules (HSMs).
+LEAST PRIVILEGE
+Only specific roles (AML Officer, Compliance Officer, etc) have access to sensitive or personal
+data, for reasons linked to their duty only. All other roles, even administrators, do not have access.
+USE SWISS SERVICES
+We give priority to Swiss-based companies for all services the platform needs. This ensures
+that you are protected under Switzerland’s tight privacy laws. We strive to keep anyone from
+snooping on you and your data.
+EXTENDED VALIDATION CERTIFICATES (EV SSL/TLS CERTIFICATES)
+We protect our site using the strongest TLS certificates available, so that you know
+you are safe. EV certificates require extended verification of the requesting entity’s identity
+by a certificate authority (CA). This verification adds an extra layer of security. Web browsers
+show the verified legal identity (our company’s legal name) so that you know that you are
+really on our platform and not that of an imposter.
+PLATFORM COMPARTMENTALIZATION
+Our platform is designed in a way that gaining access to one part does not allow an attacker to gain
+access to all parts. This is the same concept used by the Swiss military when defending the country.
+SERVICE AND COMPONENT MUTUAL AUTHENTICATION
+Our components and services mutually authenticate each other to ensure that they
+communicate only with authorized software.
+29
+
+
+
+
+ROCKZ WHITE PAPER
+6.4                                                                                  SOFTWARE USED
+We are utilizing several technologies to make ROCKZ work effectively; our platform
+is based on:
+- Red Hat OpenShift container application platform (based on Docker)
+- Linux Server OS
+- Microservice Backend Architecture (Node.js)
+- React.js Front End
+6.5                                                                                  PLATFORM COVERAGE
+We plan to support the following platforms:
+Initial release
+- HTML 5 Web-based (mobile and desktop)
+Subsequent releases
+- Android and IOS native/hybrid apps
+- REST Partner APIs
+30
+
+
+
+
+MVP
+7                                                                                    MVP
+At the time of the ICO event we will already have the ROCKZ platform MVP available
+on our website.
+The Current MVP Version includes following functions:
+1.Client Side:
+a. Registration including KYC check and 2FA
+b. User dashboard: allows the user to view their positions at a glance and access
+all functions
+c. BUY/SELL order creation for RKZ using: BTC, ETH, FIAT (CHF via bank transfer).
+There is no physical delivery option in the MVP, but for now it can be specially
+requested using secure messaging
+d. BUY order creation for APZ using: BTC, ETH, FIAT (CHF via bank transfer)
+e. Order history (with keyword search)
+f. User Profile view/edit
+g. Security settings view/edit
+h. Secure messaging (encrypted)
+i. Help and Support
+j. Wallet Management  (Wallet addresses only, used during the order process,
+no private keys)
+k. Bank Account Management (bank information only, used during the order process,
+no access)
+2. Platform Side:
+a. User Account Management: user account/profile settings (clients and employees
+b. Client Identification Data Management (segregated, limited access)
+c. Audit Component (limited access)
+d. Order Management System
+e. Treasury Management System
+f. Authorization Request Component (for actions that require double validation)
+g. Broker Management
+h. Secure Messaging
+i. Wallet Management  (wallet addresses only, used during the order process,
+no private keys)
+j. Bank Account Management (bank information only, used during the order process,
+no access)
+k. RKZ Component (Burn / Mint)
+31
+
+
+
+
+ROCKZ WHITE PAPER
+Future versions will include these additional functions:
+1. Technical:
+a. Native Apps (Android/IOS)
+b. Automatic business day upload service using SIX data
+c. Broker API integration
+d. Bank API integration
+e. Partner API (so partners can use the platform via an API)
+f. Exchange API Integration
+g. Enhanced Identity Management
+2. Client side:
+a. Support multiple user bank accounts
+b. Support multiple user RKZ/APZ wallets
+c. Export Order details to PDF
+d. Partial execution orders
+e. More MFA factors including sensitive action confirmation/transaction signing
+32
+
+
+
+
+TOKEN AND TOKEN GENERATING EVENT
+8                                                                                                TOKEN AND TOKEN GENERATING
+                                                                                                 EVENT
+8.1                                                                                              TOKENS
+Within the framework of the platform, two tokens will function: Alprockz (APZ) and ROCKZ
+(RKZ).
+Alprockz tokens are ERC-20 tokens issued by Alprockz AG during the ICO. We create Alprockz
+as utility tokens that allow users to access the ROCKZ platform and its services: conversion
+of ROCKZ into cash, the issuance of Bank cards, and the possibility to use collateralized debt
+instruments. We understand that it is unusual to design the platform this way, and that other
+stablecoin projects do not use additional tokens to collect funds.
+There are reasons why we do this:
+1. To comply with modern, more stringent legislation;
+2. To raise funds for development of the platform. After two capital increases which have
+already taken place, we have decided not to accept the support of specific Private Equity
+/ Venture Capital funds and similar organizations, but to reach out to the public directly.
+As ROCKZ is designed for investors and users, it is important for us to organize an ICO
+and so create a community of, and for, our contributors and users!
+APZ tokens, bought during the ICO, will give ICO participants lifelong benefits and bonuses,
+including somethat will appear as the platform develops. The existence of the platform
+is impossible without Alprockz support.
+ROCKZ tokens are ERC-223 tokens that will be issued through the platform after the end
+of the ICO according to users’ orders to exchange CHF for tokens. ROCKZ is the base token
+of the platform, backed by CHF in the ratio of 1: 1. Accordingly, the token will have a low
+volatility due to its being backed by CHF.
+33
+
+
+
+
+ROCKZ WHITE PAPER
+8.2                                                                                           ALPROCKZ TOKEN UTILITY
+To benefit from the ROCKZ platform, users need to hold a certain amount of Swiss Francs
+in equivalent Alprockz tokens (APZ) in their private wallets.
+Alprockz bring their holders additional privileges, depending upon the amount held,
+in the following ways:
+AMOUNT OF ALPROCKZ HELD                                                                       PRIVILEGE
+CHF 300
+                                                                                              + Basic access to ROCKZ platform
+(equivalent of 500 APZ)
+CHF 900                                                                                       + Basic access to ROCKZ platform
+(equivalent of 1500 APZ)                                                                      + Credit card issuance facility
+                                                                                              + Basic access to ROCKZ platform
+CHF 1800
+                                                                                              + Credit card issuance facility
+(equivalent of 3000 APZ)
+                                                                                              + Collateralized loan facility
+BASIC ACCESS TO ROCKZ PLATFORM
+APZ holders holding at least 500 APZ will have access to all ROCKZ platform services:
+including the purchase and sale of ROCKZ, and deliveries of ROCKZ equivalent in banknotes
+in Switzerland.
+CREDIT CARD ISSUANCES
+APZ holders holding at least 1,500 APZ will be able to apply for a credit card with our
+partner banks in Switzerland. The CHF limit of the card will have to be pledged by the coin
+holders in ROCKZ with ROCKZ AG.
+COLLATERALIZED LOAN FACILITY
+APZ holders holding at least 3,000 APZ will be able to apply for guarantees issuance.
+The CHF amount of the guarantee will have to be pledged by the coin holders in ROCKZ
+with ROCKZ AG.
+34
+
+
+
+
+TOKEN AND TOKEN GENERATING EVENT
+Alprockz liquidity and benefits stability
+Contributors who support the platform during the ICO Event and who are holding
+Alprockz  tokens  will  receive  additional  benefits  as  the  platform  grows  stronger
+and the cryptosphere legal framework becomes more stable and progressive. The ROCKZ
+platform team considers this goal to be a matter of honor.
+To improve Alprockz liquidity and to make a more profitable offer for our contributors,
+just after the ICO Event we will establish the following principles in defining the number
+of tokens which should be held by a user in order to obtain holder’s privileges:
+1. If the market APZ price is higher than the ICO price, a user has to hold only the APZ
+equivalent of the CHF amount needed to access the required option during the ICO.
+For example, if the price of the APZ is set at 1.00 CHF, and you have purchased 500 APZ
+during the ICO at a price of 0.60 CHF each to get basic access, your total balance
+is 500 CHF (500 APZ * 1.00 CHF). You may sell your extra 200 CHF (200 APZ) without
+loss of access, because you need only 300 CHF to get basic access.
+2. If the current APZ price is lower then the ICO price, a user has to hold the amount
+of APZ required for basic access during the ICO. In the example above, if you bought
+500 APZ at the price of 0.60 CHF each, and later the market price falls, you would
+not need to buy any additional APZ, because you still have 500 APZ in your wallet.
+8.3                                                                                          TOKEN ECONOMICS
+APZ                                                                                          RKZ
+EXCHANGE                                                                                     EXCHANGE
+APZ                                                                                          RKZ
+ALPROCKZ USERS
+RKZ/CHF + FEES
+CHF/RKZ
+ROCKZ PLATFORM
+35
+
+
+
+
+ROCKZ WHITE PAPER
+The principles of token circulation inside the ecosystem are pretty simple. As was mentioned
+before, only ROCKZ platform users have access to the platform services. In this case, the ROCKZ
+platform becomes a kind of private club, where only members have access to the conversion
+of tokens into CHF, and to the transparency and reliability of the service. Meanwhile,
+any cryptocurrency user not holding APZ tokens may hold ROCKZ in their portfolio, but without
+possibility of conversion into a fiat currency, as this would make the instrument less safe.
+The platform is financed by its users, who book cash deliveries to buy or sell ROCKZ tokens,
+paying fees for the services. These fees are deducted from the amount transacted.
+Fee revenues are used to cover the platform’s costs (audit, bank fees, vaults rent and
+construction, development, etc.)
+ROCKZ and Alprockz will be available on exchanges, so every user has the possibility to use
+the platform’s services.
+8.4                                                                                               TOKEN GENERATION EVENT
+                                                                                                  Alprockz is a utility token released on the Ethereum platform according to ERC20 standards.
+                                                                                                  Total distribution of the tokens is limited to 175,000,000 APZ. This amount will never
+be increased. Tokens not distributed will be burnt.
+Token Name                                                                                        Alprockz (APZ)
+Token Type                                                                                        ERC20
+Basis Blockchain                                                                                  Ethereum
+Total Token Emission                                                                              175,000,000 APZ
+Tokens Available during Private
+                                                                                                  105,000,000 APZ
+Sale and ICO
+Private Sale Dates                                                                                01.07.2018 - 30.01.2019
+ICO Dates                                                                                         Q1 2019
+ICO Token Price                                                                                   CHF 0.60 per APZ
+There are three buckets (17,500,000
+tokens each) available on a “first come -
+first serve” basis.
+Private Sale Discounts
+01.07.2018 - 15.11.2018 - 40% discount.
+16.11.2018 - 15.12.2018 - 30% discount.
+16.12.2018 - 30.01.2019 - 20% discount.
+Private Sale Minimum Buy-In Amount                                                                CHF 10,000
+ICO Minimum Buy-in Amount                                                                         CHF 300 (equivalent to 500 APZ)
+Private Sale Hardcap                                                                              CHF 22,050,000
+ICO Hardcap                                                                                       CHF 31,500,000
+Total  Hardcap                                                                                    CHF 53,550,000
+36
+
+
+
+
+                                                                                                                                              TOKEN AND TOKEN GENERATING EVENT
+8.5                                                                                              TOKEN ALLOCATION
+ALLOCATION
+10%                                                                                              Early-stage / seed investors
+30%                                                                                              Accredited Private Sale
+30%                                                                                              Public sale
+15%                                                                                              Founders, Core Team & Advisors
+                                                                                                 (vesting plan over 18 months)
+15%                                                                                              Platform & Treasury Alprockz AG
+8.6                                                                                              FUNDS USAGE
+55%                                                                                              Development & operations of R                OCKZ platform
+10%                                                                                              Legal and Compliance
+20%                                                                                              Promotion of Rockz adoption and other
+                                                                                                 blockchain innovations.
+15%                                                                                              Treasury reserve for any unplanned events.
+8.7                                                                                              TOKEN LISTING
+APZ will be available for trading on selected trading exchanges. As the APZ value is related
+to the usage of the ROCKZ platform, it is expected that contributors will be long-term holders
+of APZ. New ROCKZ users will be able to buy APZ tokens on exchanges.
+37
+
+
+
+
+ROCKZ WHITE PAPER
+9                       ROADMAP
+Aug 2018
+Project is officially
+publicly announced
+Feb 2018
+Request to the Swiss
+Regulator to review
+ROCKZ legal framework
+Jul 2018
+Agreements with main
+                        May 2018                      crypto brokers for the
+                        Final documentation           platform liquidity
+Dec 2017                sent to Swiss Regulator
+First investors         and Swiss National Bank
+back the project
+                                                      Jun 2018
+                                                      Start of the token
+                        Apr 2018                      Private Sale
+                        •  Second round of            to accredited
+AUG 2017                investors back the project    investors
+Launch of the           •  Start of the development
+ROCKZ project by        of the MVP
+the core team
+38
+
+
+
+
+ROADMAP
+Jun 2019
+Offering of loans and
+bank guarantees
+Mar 2019
+Offering of credit
+cards to spend ROCKZ
+Oct 2018
+anywhere anytime
+•  ICO of Alprockz
+                         Sep 2019
+(APZ), the mother of
+                         Launch of ROCKZKRW
+all ROCKZ
+•  MVP live for ICO
+participants
+Jan 2019
+•  ROCKZ are available
+Launch of public
+to purchase
+ROCKZ platform
+Jul 2019
+Launch of ROCKZEUR
+Sep 2018
+Communication
+campaign starts
+39
+
+
+
+
+ROCKZ WHITE PAPER
+10 TEAM
+10.1                                       CORE TEAM
+ALEXEY BORICHEV                            YASSINE BEN HAMIDA
+FOUNDER                                    FOUNDER
+After  graduating  from  the  Moscow       Yassine  graduated  in  International
+Aviation  University  as  an  engineer,    Relations from the University of Geneva
+Alexey  has  worked  for  couple  years    (The Graduate Institute) and worked
+in   engineering   at   Sukhoi,   before   for the United Nations before joining
+joining prestigious banks such as ING      banks such as UBS, Credit Suisse and
+and  Promsvyazbank.  He  held  various     Julius Baer. He specialized in servicing
+senior  management  roles  in  trading,    banks  and  other  non-bank  Financial
+specializing in FX and Interest Rates,     Institutions and has held various roles,
+before joining Novatek in Switzerland      including    Head  of  Global  Cash  and
+as CFO.                                    Treasury Services, and Head of Financial
+Institutions - Emerging Markets.
+40
+
+
+
+
+TEAM
+GABRIEL ROSSETTI                                                                  Gabriel graduated with honors from the University of Business & Engineering
+CTO                                                                               Vaud (HEIG-VD, Switzerland) with a  Computer Science degree specialized
+in  AI and Distributed Networks. He  received the Swiss Engineering Award
+for his research project/thesis on  trait emergence in  artificial populations.
+When  he   was  not  programming  autonomous  robots  he   was  reverse-
+engineering things. After graduating he   joined a   startup where he   built
+a  distributed platform for connected objects (IoT) &  developed hardware
+drivers  for  Linux  and  MacOSX.  Since  then  he   has  worked  for  some
+of    the  biggest  names  in    commodity  trading  and  private  banking
+where he  specializes in  designing greenfield trading, STP and regulatory
+platforms.
+MANUEL BANZ                                                                                                                                                      After studying at ETH Zurich, Manuel worked for UBS in various functions
+GOVERNANCE                                                                        for  six  years.  In                                                           2012,  he  decided  to  embrace  entrepreneurship
+SPECIALIST                                                                                                                                                       and co-founded or supported the creation of multiple Swiss companies,
+                                                                                                                                                                 combining his experience from banking, IT and bio-sciences.
+MARC WALPOTH                                                                      After studying law at Geneva and Zurich Universities, Marc has headed
+LEGAL AND                                                                         the Legal and Compliance Team for a Swiss bank with offices in Geneva
+COMPLIANCE                                                                        and Zurich, before joining the Swiss regulator, FINMA, in the Intensive
+Supervision of Banks team.
+PATRIK GRIFFITH                                                                   Paddy started his career as a journalist before joining and developing
+BRANDING  AND                                                                     communication agencies. In 2007, Paddy created his own agency, Work Club,
+COMMUNICATION                                                                     serving clients such as Pernod Ricard, Heineken, RB, Sharp and McLaren
+                                                                                  F1. After selling his agency in 2016 to Havas, Paddy has concentrated
+on investing in and building disruptive companies.
+EDUARDO DE FELIPE                                                                 Eduardo is   a   formally-trained product designer and a   seasoned design
+BRANDING AND                                                                      and creative consultant having worked for prestigious clients such as  SEGA,
+COMMUNICATION                                                                     PlayStation, BBC, Sky, Vodafone, Google, BMW, Rolex, etc. In   2008  he set
+                                                                                  up  Pirata  — his own London-based and multi-awarded design studio  — which
+he   sold to   Havas in                                                           2016 before setting himself up   as   an   independent
+consultant.
+HOSAM MAZAWI                                                                      Hosam is a cryptocurrency consultant, active in the launch and development
+MARKETING                                                                         of projects related to blockchain technology. Hosam has supported various
+AND BUSINESS                                                                      ICOs in their marketing and business development efforts. Hosam joined
+DEVELOPMENT                                                                       ROCKZ in 2017 and is in charge of coordinating online marketing efforts.
+41
+
+
+
+
+ROCKZ WHITE PAPER
+GUSTAVO COLLIARD                                                                     Gustavo graduated from the AKAD University of   Applied Sciences, Zurich,
+PROJECT                                                                              with a   major in   Banking. After working for six years for UBS in   different
+MANAGEMENT                                                                           functions  and  leadership  positions,  he    decided  to    continue  his  career
+as  a  consultant, and since 2015,has managed his own consultancy company.
+Gustavo has more than 20 years experience in the banking sector, as well as over
+10 years managing business and  IT projects.
+Dmytro has lead projects with various specifics and complexity, from start-          DMYTRO GREBENNIKOV
+ups to  enterprise software development and implementation. He  has worked           BLOCKCHAIN PROJECT
+with  international  customers  such  as    IBM,  the  European  Commission          MANAGER
+and the Raiffeisen Banking Group. Dmytro is  the author and implementater
+of software release processes in Raiffeisen Bank Aval for its core banking system,
+Bankmaster, and its satellites. He   holds many certifications from different
+software vendors, such as Microsoft, VMware, Symantec, as well as in the Project
+Management area  — including PMP and Scrum Master.
+VLADIMIR LIULKA                                                                                                                                                           Vladimir got his Master Degree in   Computer Science (Cybernetics) at   Kyiv
+IT AND BUSINESS                                                                                                                                                           National University. He   used to   work in   different C-Level roles at   software
+CONSULTING, SOFTWARE                                                                                                                                                      development enterprises since 2005. Vladimir is  a  serial IT-entrepreneur with
+DEVELOPMENT,                                                                                                                                                              a  strong background in  Blockchain, Data Analytics, and Artificial Intelligence
+INVESTMENTS                                                                                                                                                               domains. He  has 10+  years experience in  Software Engineering and Software
+                                                                                                                                                                          Consulting areas. Vladimir was awarded as  «BEST CIO» in  2012 by  «Computer
+                                                                                     Review» magazine.
+ILYA DYDYKIN                                                                         Ilya has                                                                             20 years of experience in software development for a variety
+SOFTWARE                                                                                                                                                                  of applications, from Air Traffic Control to Telecommunications.
+DEVELOPMENT
+CLAUDIA SIGG                                                                         Claudia  graduated  in    contemporary  history,  media  and  communication
+MEDIA AND                                                                            and anthropology. After her studies she joined the world of   advertising
+COMMUNICATION                                                                        and marketing, and has now over 12  years experience in  the field. Her talent
+and passion for consulting has brought her to work with high-end clients including
+Credit Suisse, Julius Bär, Land Rover, Jaguar and Deloitte.
+TETIANA                                                                              Tetiana holds a Master Degree in Language and Literature. She has extensive
+SANTOS PEREIRA                                                                       experience and expertise in   customer services, business management
+OFFICE                                                                               and vault management. Tetiana joined Alprockz in  2018 and is  the Personal
+ADMINISTRATION                                                                       Assistant to   the Directors and Administrative Officer. Prior to   joining
+our team, she has acquired broad international experience by   working
+and studying in  Ukraine, Poland and England. She speaks Ukrainian, Russian,
+Polish and English.
+42
+
+
+
+
+TEAM
+SEBASTIEN HESS                                                                         After graduating in 2013 from the London School of Economics and Political
+HEAD OF BUSINESS                                                                       Science, Sebastien continued his studies at the Universita Bocconi in Italy.
+DEVELOPMENT                                                                            Before joining Bain as a Senior Associate Consultant in 2016, Sebastien has been
+                                                                                       working for various ventures such as Flynt, Rocket and Global Founders Capital.
+                                                                                       Sebastien has a deep understanding of Venture Capital and Private Equity.
+                                                                                       He joined Alprockz in 2018 and specializes on Business Development.
+FREDERIC MAYUNGA                                                                       After obtaining his Bachelor in Management at HEC Lausanne, Frédéric chose
+CRYPTOCURRENCY                                                                         to join the University of Zurich where he obtained his Master in Banking
+ANALYST                                                                                and Finance.
+10.2                                                                                   ADVISORS
+REZA HEDAYAT                                                                           Reza  has  immense  experience  and  in-depth  knowledge  in    designing,
+ADVISOR                                                                                implementing and assessing security architectures of  complex ecosystems.
+His passion lies in   cryptography as   well as   malware and its underground
+economy. As the Head of Security Innovation at the Swiss cyber security expert
+InfoGuard AG, he designs and implements novel security services and solutions
+concerning emerging technologies such as  IoT (Internet of  Things) and DLT
+(Distributed Ledger Technology). In  addition, he  holds a  degree (dipl. Ing. Inf.)
+in  Computer Science from Zurich University of  Applied Sciences in  Winterthur
+and a  M.Sc.  in  Information Security (with Distinction) from Royal Holloway,
+University of  London.
+NIALL CARTON
+Niall has worked in  Banking for over 21  years. He  spent 10  years in  London        ADVISOR
+in  various roles within Market Risk Management Department and 8  years
+in   Moscow heading up   the Financial Markets Department of   a   European
+Bank. Now back in  head office as  global head of  FIFM Risk Management.
+Niall has a broad knowledge of all aspects of Commercial and Investment banking.
+VADIM KUCHINSKIY                                                                       After graduating from the Moscow Institute of   Physics and Technology
+ADVISOR                                                                                and New Economic School, Vadim embraced a successful career as a currency
+trader at various international banks. Currently he is an independent advisor
+for a  number of  startups.
+43
+
+
+
+
+ROCKZ WHITE PAPER
+TAL COHEN                                                                         Tal is   a   successful tech-entrepreneur and advisor. Until 2017   he worked
+ADVISOR                                                                           with such companies as   Vivendi-Universal Games, McKinsey &   Co, Google,
+Markets.com, CFD &  FX, Flex, Qualcomm, Solarin. In  late 2017  he co-founded
+Compass Blockchain Technologies together with the Eastmore Group. Tal has
+been involved in  multiple blockchain ventures and ICOs, including Sirin Labs,
+Fusion.org where he  led the advisory work on  behalf of  Compass Blockchain,
+and other projects. Having worked with many blockchain companies Tal gained
+significant expertise and contacts globally across the blockchain ecosystem.
+This experience allows him to  confidently guide companies in  their activities
+in   this space, from ideation stage, through strategy and planning and all
+the way to  implementation.
+44
+
+
+
+
+CONTACT INFORMATION
+11 CONTACT INFORMATION
+Alprockz AG              ROCKZ AG
+Neuhofstrasse 5A,        Neuhofstrasse 5A,
+Baar 6340                Baar 6340
+Switzerland              Switzerland
+45
+
+
+
+
+ROCKZ WHITE PAPER
+General request:    Media request:
+info@alprockz.ch    pr@alprockz.ch
+46
+
+
+
+
+APPENDIX AND REFERENCES
+12 APPENDIX AND REFERENCES
+Number of IPOS in the US market between 1999 and 201719
+19 Bloomberg Data, March 2018
+47
+
+
+
+
+ROCKZ WHITE PAPER
+BLOCKCHAIN
+https://en.wikipedia.org/wiki/Blockchain
+FIAT MONEY
+https://en.wikipedia.org/wiki/Fiat_money
+MARKET RISK
+https://www.investopedia.com/terms/m/marketrisk.asp
+COUNTERPARTY RISK
+https://www.investopedia.com/terms/c/counterpartyrisk.asp
+SETTLEMENT RISK
+https://www.investopedia.com/terms/s/settlementrisk.asp
+SWITZERLAND
+https://en.wikipedia.org/wiki/Switzerland
+48
+
+
+
+
+DISCLAIMER
+13 DISCLAIMER
+All information and materials contained in this document are provided for informational
+purposes only and are subject to change at any time without notice. Alprockz AG and ROCKZ
+AG, Zug/Switzerland (“the Companies”) may add information to, remove or amend any
+information and/or material contained in this document at any time and in its sole discretion.
+This document and all information contained herein is not directed at or intended for use
+by any person resident or located in any jurisdiction where (1) the distribution of such
+information is contrary to the laws of such jurisdiction; or (2) such distribution is prohibited
+without obtaining the necessary licenses or authorizations by the Companies and such
+licenses or authorizations have not been obtained.
+Products and services described herein may not be eligible for sale or available to residents
+of certain countries or certain categories of investors. Please consult the applicable terms
+and conditions such as sales restrictions or key specific notes for further information
+once the final documents may be available. No information or materials contained herein
+should be construed as a solicitation, offer or recommendation, to buy or sell any securities,
+investment or other financial instruments, to effect any transactions or to conclude any
+legal act of any kind whatsoever. No representation or warranty, either express or implied, is
+provided in relation to the accuracy, completeness or reliability of the information and/ or the
+materials, nor are they a complete statement of the products, services, securities, markets
+or developments referred to herein. The materials should not be regarded by recipients
+as a substitute for the exercise of their own judgment. Any opinions are subject to change
+without notice and may differ or be contrary to opinions expressed in another context as a
+result of using different assumptions and criteria.
+The Companies provide no investment, legal or tax advice and nothing herein should be
+construed as being financial, legal, tax or other advice. The Companies do not represent
+that any investment, products or services discussed herein are suitable for any investor. No
+investment or other decisions should be made solely based on the contents or information
+found in this document. When making a decision about your investments, you should seek the
+advice of a professional financial advisor or qualified expert. Potential investors are urged to
+consult their own tax advisors as to the tax consequences of acquiring, owning and disposing
+of APZ and or ROCKZ coins.
+This document may contain statements that constitute “forward looking statements”. While
+these forward looking statements may represent the Companies’ judgment and future
+expectations, a number of risks, uncertainties and other important factors could cause
+actual developments and results to differ materially from the Companies’ expectations.
+The Companies are under no obligation to (and expressly disclaims any such obligation to)
+update or alter its forward looking statements whether as a result of new information, future
+events, or otherwise. In case of delays in the realization of ROCKZ platform, participants
+to the ICO do not have any claims against Alprockz AG or ROCKZ AG. Specifically, contributors
+to the ICO have no reimbursement claims. US persons cannot participate to Alprockz ICO
+neither can be client of ROCKZ Platform.
+49
+
+
+
+
+ROCKZ WHITE PAPER
+Your use of the information and materials contained in this document is at your own risk.
+The Companies expressly disclaim all representations or warranties of any kind, whether express
+or implied, with respect to all information, materials, content contained and functionalities
+described herein, including but not limited to warranties of title, non-infringement,
+merchantability  or  fitness for  a  particular purpose.  Without limiting  the  foregoing,
+the Companies do not warrant the accuracy, timeliness, completeness, security, reliability
+or availability of the information. To the fullest extent permitted by law, in no event shall
+the Companies, or any of its directors, employees, contractors, service providers or agents
+have any liability whatsoever to any person for any direct or indirect loss, liability, cost,
+claim, expense or damage of any kind, whether in contract or in tort, including negligence,
+or otherwise, arising out of or related to the use of all or part of this document. This document
+may contain third party content or links or reference to third party websites. These content
+and links are provided solely for your convenience and information. The Companies have
+no control over, do not assume any responsibility for and do not make any warranties
+or representations as to, any third party content or websites, including but not limited to,
+the accuracy, subject matter, quality or timeliness.
+The Companies, or the applicable third party owner, retain all right, title and interest
+(including copyrights, trademarks, patents, as well as any other intellectual property
+or other right) in all information and content (including all text, data, graphics and logos)
+in this document. Individual pages and/or sections of this document may be printed
+for personal or internal use only, and provided that such print outs retain all applicable
+copyright or other proprietary notices, including this disclaimer.
+Version as of August 28th 2018.
+50
+
+
+
+
+ROCKZ
+© 2018 Alprockz AG. All rights reserved.
+5
+
+
+
+
+

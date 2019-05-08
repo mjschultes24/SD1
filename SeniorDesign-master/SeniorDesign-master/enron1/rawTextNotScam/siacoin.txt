@@ -1,0 +1,424 @@
+﻿Sia: Simple Decentralized Storage
+David Vorick                                                 Luke Champine
+Nebulous Inc.                                                Nebulous Inc.
+david@nebulouslabs.com                                       luke@nebulouslabs.com
+November 29, 2014
+Abstract                                                     network consensus can be used to automatically en-
+                                                             force storage contracts. Importantly, this means that
+The authors introduce Sia, a platform for decentral-
+                                                             clients do not need to personally verify storage proofs;
+ized storage. Sia enables the formation of storage con-
+                                                             they can simply upload their file and let the network
+tracts between peers. Contracts are agreements be-
+                                                             do the rest.
+tween  a  storage  provider  and  their  client,  defining
+                                                             We acknowledge that storing data on a single un-
+what data will be stored and at what price. They
+                                                             trusted host guarantees little in the way of availabil-
+require the storage provider to prove, at regular in-
+                                                             ity, bandwidth, or general quality of service. Instead,
+tervals, that they are still storing their client’s data.
+                                                             we recommend storing data redundantly across mul-
+Contracts are stored in a blockchain, making them
+                                                             tiple  hosts.  In  particular,  the  use  of  erasure  codes
+publicly auditable. In this respect, Sia can be viewed
+                                                             can enable high availability without excessive redun-
+as a Bitcoin derivative that includes support for such
+                                                             dancy.
+contracts. Sia will initially be implemented as an alt-
+                                                             Sia will initially be implemented as a blockchain-
+coin, and later financially connected to Bitcoin via a
+                                                             based  altcoin.  Future  support  for  a  two-way  peg
+two-way peg.
+with Bitcoin is planned, as discussed in  “Enabling
+Blockchain Innovations with Pegged Sidechains” [5].
+The Sia protocol largely resembles Bitcoin except for
+1                                                            Introduction
+the changes noted below.
+Sia is a decentralized cloud storage platform that in-
+tends to compete with existing storage solutions, at         2                                                              General Structure
+both the P2P and enterprise level. Instead of renting
+storage from a centralized provider, peers on Sia rent       Sia’s primary departure from Bitcoin lies in its trans-
+storage from each other. Sia itself stores only the stor-    actions. Bitcoin uses a scripting system to enable a
+age contracts formed between parties, defining the           range of transaction types, such as pay-to-public-key-
+terms of their arrangement. A blockchain, similar to         hash and pay-to-script-hash. Sia opts instead to use
+Bitcoin [1, 12], is used for this purpose.                   an M -of-N  multi-signature scheme for all transac-
+By  forming  a  contract,  a  storage  provider  (also       tions, eschewing the scripting system entirely. This
+known as a host ) agrees to store a client’s data, and       reduces complexity and attack surface.
+to periodically submit proof of their continued stor-        Sia also extends transactions to enable the creation
+age until the contract expires. The host is compen-          and enforcement of storage contracts. Three exten-
+sated for every proof they submit, and penalized for         sions are used to accomplish this: contracts, proofs,
+missing a proof. Since these proofs are publicly veri-       and contract updates. Contracts declare the inten-
+fiable (and are publicly available in the blockchain),       tion of a host to store a file with a certain size and
+1
+
+
+
+
+                                                         hash. They define the regularity with which a host          spend conditions include a time lock and a set of pub-
+                                                         must submit storage proofs. Once established, con-          lic keys, and the number of signatures required. An
+                                                         tracts  can  be  modified  later  via  contract  updates.   output cannot be spent until the time lock has ex-
+                                                         The specifics of these transaction types are defined        pired and enough of the specified keys have added
+in sections 4 and 5.                                                                                                 their signature.
+                                                                                                                     The  spend  conditions  are  hashed  into  a  Merkle
+                                                                                                                     tree, using the time lock, the number of signatures
+3                                                        Transactions                                                required, and the public keys as leaves. The root hash
+                                                                                                                     of this tree is used as the address to which the coins
+                                                         A transaction contains the following fields:
+                                                                                                                     are sent. In order to spend the coins, the spend con-
+                                                                                                                     ditions corresponding to the address hash must be
+Field                                                    Description
+                                                                                                                     provided. The use of a Merkle tree allows parties to
+Version                                                  Protocol version number
+                                                                                                                     selectively reveal information in the spend conditions.
+Arbitrary Data                                           Used for metadata or otherwise
+                                                                                                                     For example, the time lock can be revealed without
+Miner Fee                                                Reward given to miner
+revealing the number of public keys or the number of
+Inputs                                                   Incoming funds
+signatures required.
+Outputs                                                  Outgoing funds (optional)
+                                                                                                                                                                               It should be noted that the time lock and number
+File Contract                                            See: File Contracts (optional)
+                                                                                                                                                                               of signatures have low entropy, making their hashes
+Storage Proof                                            See: Proof of Storage (optional)
+                                                                                                                                                                               vulnerable to brute-forcing. This could be resolved
+Signatures                                               Signatures from each input
+                                                                                                                                                                               by adding a random nonce to these fields, increasing
+                                                                                                                                                                               their entropy at the cost of space efficiency.
+3.1                                                      Inputs and Outputs
+                                                         An output comprises a volume of coins. Each output          3.3                                                       Signatures
+                                                         has an associated identifier, which is derived from the
+                                                                                                                                                                               Each input in a transaction must be signed. The cryp-
+                                                         transaction that the output appeared in. The ID of
+                                                                                                                                                                               tographic signature itself is paired with an input ID,
+                                                         output i in transaction t is defined as:
+a time lock, and a set of flags indicating which parts
+                                                                                                                     H (t||“output”||i)                                                                                                 of the transaction have been signed. The input ID in-
+                                                                                                                                                                                                                                        dicates which input the signature is being applied to.
+                                                         where  H  is  a  cryptographic  hashing  function,  and                                                                                                                        The time lock specifies when the signature becomes
+                                                         “output” is a string literal. The block reward and                                                                                                                             valid. Any subset of fields in the transaction can be
+miner fees have special output IDs, given by:                                                                                                                                                                                           signed, with the exception of the signature itself (as
+                                                                                                                                                                                                                                        this would be impossible). There is also a flag to in-
+                                                         H (H (Block Header)||“blockreward”)                                                                                                                                            dicate that the whole transaction should be signed,
+                                                                                                                                                                                                                                        except for the signatures. This allows for more nu-
+                                                         Every input must come from a prior output, so an
+                                                                                                                                                                               anced transaction schemes.
+input is simply an output ID.
+                                                                                                                                                                                                                                        The actual data being signed, then, is a concate-
+                                                         Inputs and outputs are also paired with a set of                                                                                                                               nation of the time lock, input ID, flags, and every
+                                                         spend conditions. Inputs contain the spend conditions                                                                                                                          flagged field. Every such signature in the transaction
+                                                         themselves, while outputs contain their Merkle root
+                                                                                                                                                                                                                                        must be valid for the transaction to be accepted.
+hash [2].
+                                                                                                                                                                               4                                                        File Contracts
+3.2                                                      Spend Conditions
+                                                         Spend  conditions  are  properties  that  must  be  met                                                                                                                        A  file  contract  is  an  agreement  between  a  storage
+                                                         before coins are  “unlocked” and can be spent. The                                                                                                                             provider and their client. At the core of a file contract
+2
+
+
+
+
+is the file’s Merkle root hash. To construct this hash,         formed. The outcome is a string literal: either “valid-
+the  file  is  split  into  segments  of  constant  size  and   proof ” and “missedproof ”, corresponding to the va-
+hashed into a Merkle tree. The root hash, along with            lidity of the proof.
+the total size of the file, can be used to verify storage       The output ID of a contract termination is defined
+proofs.                                                         as:
+File contracts also specify a duration, challenge fre-          H (contract ID||outcome)
+quency, and payout parameters, including the reward
+                                                                Where  outcome  has  the  potential  values  “success-
+for a valid proof, the reward for an invalid or missing
+                                                                fultermination” and “unsucessfultermination”, corre-
+proof, and the maximum number of proofs that can
+                                                                sponding to the termination status of the contract.
+be missed. The challenge frequency specifies how of-
+                                                                File contracts are also created with a list of “edit
+ten a storage proof must be submitted, and creates
+                                                                conditions,” analogous to the spend conditions of a
+discrete challenge windows during which a host must
+                                                                transaction. If the edit conditions are fulfilled, the
+submit storage proofs (one proof per window). Sub-
+                                                                contract may be modified. Any of the values can be
+mitting a valid proof during the challenge window
+                                                                modified, including the contract funds, file hash, and
+triggers an automatic payment to the “valid proof ”
+                                                                output addresses. As these modifications can affect
+address (presumably the host). If, at the end of the
+                                                                the validity of subsequent storage proofs, contract ed-
+challenge window, no valid proof has been submitted,
+                                                                its must specify a future challenge window at which
+coins are instead sent to the “missed proof ” address
+                                                                they will become effective.
+(likely an unspendable address in order to disincen-
+                                                                Theoretically, peers could create “micro-edit chan-
+tivize DoS attacks; see section 7.1). Contracts define
+                                                                nels”  to  facilitate  frequent  edits;  see  discussion  of
+a maximum number of proofs that can be missed;
+                                                                micropayment channels, section 7.3.
+if this number is exceeded, the contract becomes in-
+valid.
+If the contract is still valid at the end of the con-
+5                                                               Proof of Storage
+tract duration, it successfully terminates and any re-
+maining  coins  are  sent  to  the  valid  proof  address.      Storage proof transactions are periodically submitted
+Conversely, if the contract funds are exhausted be-             in order to fulfill file contracts. Each storage proof
+fore the duration elapses, or if the maximum number             targets a specific file contract. A storage proof does
+of missed proofs is exceeded, the contract unsuccess-           not need to have any inputs or outputs; only a con-
+fully terminates and any remaining coins are sent to            tract ID and the proof data are required.
+the missed proof address.
+Completing  or  missing  a  proof  results  in  a  new
+5.1                                                             Algorithm
+transaction output belonging to the recipient speci-
+fied in the contract. The output ID of a proof depends          Hosts prove their storage by providing a segment of
+on the contract ID, defined as:                                 the original file and a list of hashes from the file’s
+                                                                Merkle tree. This information is sufficient to prove
+H (transaction||“contract”||i)                                  that the segment came from the original file. Because
+                                                                proofs are submitted to the blockchain, anyone can
+where i is the index of the contract within the trans-          verify their validity or invalidity. Each storage proof
+action. The output ID of the proof can then be de-              uses a randomly selected segment. The random seed
+termined from:                                                  for challenge window Wi  is given by:
+H (contract ID||outcome||Wi )                                   H (contract ID||H (Bi−1 ))
+Where Wi  is the window index, i.e. the number of               where Bi−1  is the block immediately prior to the be-
+windows  that  have  elapsed  since  the  contract  was         ginning of Wi .
+3
+
+
+
+
+                                                        If the host is consistently able to demonstrate pos-                                                                                         miners will include their proofs in return for a trans-
+                                                        session of a random segment, then they are very likely                                                                                       action fee. Because hosts consent to all file contracts,
+                                                        storing the whole file. A host storing only 50% of the                                                                                       they  are  free  to  reject  any  contract  that  they  feel
+                                                        file will be unable to complete approximately 50% of                                                                                         leaves them vulnerable to closed window attacks.
+the proofs.
+                                                                                                                                                  6                                                  Arbitrary Transaction Data
+5.2                                                                                                                   Block Withholding Attacks
+                                                                                                                                                                                                     Each transaction has an arbitrary data field which
+                                                        The random number generator is subject to manip-                                                                                             can be used for any type of information. Nodes will be
+                                                        ulation via block withholding attacks, in which the                                                                                          required to store the arbitrary data if it is signed by
+                                                        attacker  withholds  blocks  until  they  find  one  that                                                                                    any signature in the transaction. Nodes will initially
+                                                        will produce a favorable random number. However,                                          accept up to 64 KB of arbitrary data per block.
+                                                        the attacker has only one chance to manipulate the                                                                                           This arbitrary data provides hosts and clients with
+                                                        random number for a particular challenge. Further-
+                                                                                                                                                                                                     a decentralized way to organize themselves. It can
+                                                        more, withholding a block to manipulate the random
+                                                                                                                                                                                                     be used to advertise available space or files seeking a
+number will cost the attacker the block reward.
+                                                                                                                                                  host, or to create a decentralized file tracker.
+                                                        If an attacker is able to mine  50% of the blocks,                                                                                           Arbitrary data could also be used to implement
+                                                        then 50% of the challenges can be manipulated. Nev-                                                                                          other types of soft forks. This would be done by cre-
+                                                        ertheless, the remaining 50% are still random, so the                                                                                        ating an “anyone-can-spend” output but with restric-
+                                                        attacker will still fail some storage proofs. Specifically,                                                                                  tions specified in the arbitrary data. Miners that un-
+                                                        they will fail half as many as they would without the                                                                                        derstand the restrictions can block any transaction
+withholding attack.                                                                                                                                                                                  that spends the output without satisfying the neces-
+                                                        To protect against such attacks, clients can spec-                                                                                           sary stipulations. Naive nodes will stay synchronized
+                                                        ify a high challenge frequency and large penalties for                                                                                       without  needing  to  be  able  to  parse  the  arbitrary
+                                                        missing proofs. These precautions should be sufficient                                    data.
+                                                        to deter any financially-motivated attacker that con-
+                                                        trols less than 50% of the network’s hashing power.
+                                                                                                                                                  7                                                  Storage Ecosystem
+                                                        Regardless, clients are advised to plan around poten-
+                                                        tial Byzantine attacks, which may not be financially
+                                                                                                                                                                                                     Sia relies on an ecosystem that facilitates decentral-
+motivated.
+                                                                                                                                                                                                     ized storage. Storage providers can use the arbitrary
+                                                                                                                                                                                                     data  field  to  announce  themselves  to  the  network.
+5.3                                                                                                                   Closed Window Attacks                                                          This can be done using standardized template that
+                                                                                                                                                                                                     clients will be able to read. Clients can use these an-
+                                                        Hosts can only complete a storage proof if their proof
+                                                                                                                                                                                                     nouncements to create a database of potential hosts,
+                                                        transaction  makes  it  into  the  blockchain.  Miners                                    and form contracts with only those they trust.
+                                                        could maliciously exclude storage proofs from blocks,
+depriving themselves of transaction fees but forcing
+7.1                                                     Host Protections
+a penalty on hosts. Alternatively, miners could ex-
+tort hosts by requiring large fees to include storage   A contract requires consent from both the storage
+proofs, knowing that they are more important than       provider and their client, allowing the provider to re-
+the average transaction. This is termed a closed win-   ject unfavorable terms or unwanted (e.g. illegal) files.
+dow attack, because the malicious miner has artifi-     The provider may also refuse to sign a contract until
+cially “closed the window.”                             the entire file has been uploaded to them.
+The defense for this is to use a large window size.     Contract terms give storage providers some flex-
+Hosts can reasonably assume that some percentage of     ibility. They can advertise themselves as minimally
+4
+
+
+
+
+reliable, offering a low price and a agreeing to min-                              the host to the client, and the  “download fee” be-
+imal penalties for losing files; or they can advertise                             comes an “upload incentive.”
+themselves as highly reliable, offering a higher price                             In this scenario, clients offer a reward for being sent
+and agreeing to harsher penalties for losing files. An                             a file, and hosts must compete to provide the best
+efficient market will optimize storage strategies.                                 quality of service. Clients may request a file at any
+Hosts are vulnerable to denial of service attacks,                                 time, which incentivizes hosts to maximize uptime in
+which could prevent them from submitting storage                                   order to collect as many rewards as possible. Clients
+proofs or transferring files. It is the responsibility of                          can also incentivize greater throughput and lower la-
+the host to protect themselves from such attacks.                                  tency via proportionally larger rewards. Clients could
+                                                                                   even perform random “checkups” that reward hosts
+                                                                                   simply for being online, even if they do not wish to
+7.2                                                           Client Protections   download anything. However, we reiterate that up-
+                                                                                   time incentives are not part of the Sia protocol; they
+Clients can use erasure codes, such as regenerating
+                                                                                   are entirely dependent on client behavior.
+codes  [4],  to  safeguard  against  hosts  going  offline.
+                                                                                   Payment for downloads is expected to be offered
+These codes typically operate by splitting a file into
+                                                                                   through preexisting micropayment channels [11]. Mi-
+n  pieces,  such  that  the  file  can  be  recovered  from
+                                                                                   cropayment channels allow clients to make many con-
+any subset of m unique pieces. (The values of n and
+                                                                                   secutive small payments with minimal latency and
+m vary based on the specific erasure code and re-
+                                                                                   blockchain bloat. Hosts could transfer a small seg-
+dundancy factor.) Each piece is then encrypted and
+                                                                                   ment of the file and wait to receive a micropayment
+stored across many hosts. This allows a client to at-
+                                                                                   before proceeding. The use of many consecutive pay-
+tain high file availability even if the average network
+                                                                                   ments allows each party to minimize the risk of being
+reliability is low. As an extreme example, if only 10
+                                                                                   cheated. Micropayments are small enough and fast
+out of 100 pieces are needed to recover the file, then
+                                                                                   enough that payments could be made every few sec-
+the client is actually relying on the 10 most reliable
+                                                                                   onds without having any major effect on throughput.
+hosts, rather than the average reliability. Availabil-
+ity can be further improved by rehosting file pieces
+whose hosts have gone offline. Other metrics benefit                               7.4                                                         Basic Reputation System
+from this strategy as well; the client can reduce la-
+                                                                                   Clients  need  a  reliable  method  for  picking  quality
+tency by downloading from the closest  10  hosts, or
+                                                                                   hosts. Analyzing their history is insufficient, because
+increase download speed by downloading from the 10
+                                                                                   the history could be spoofed. A host could repeat-
+fastest hosts. These downloads can be run in parallel
+                                                                                   edly form contracts with itself, agreeing to store large
+to maximize available bandwidth.
+“fake” files, such as a file containing only zeros. It
+would be trivial to perform storage proofs on such
+data without actually storing anything.
+7.3                                                           Uptime Incentives
+                                                                                   To mitigate this Sybil attack, clients can require
+The storage proofs contain no mechanism to enforce                                 that hosts that announce themselves in the arbitrary
+constant uptime. There are also no provisions that                                 data section also include a large volume of time locked
+require hosts to transfer files to clients upon request.                           coins. If  10  coins are time locked  14  days into the
+One might expect, then, to see hosts holding their                                 future, then the host can be said to have created a
+clients’ files hostage and demanding exorbitant fees                               lock valued at 140 coin-days. By favoring hosts that
+to download them. However, this attack is mitigated                                have created high-value locks, clients can mitigate the
+through the use of erasure codes, as described in sec-                             risk of Sybil attacks, as valuable locks are not trivial
+tion  7.2. The strategy gives clients the freedom to                               to create.
+ignore uncooperative hosts and work only with those                                Each client can choose their own equation for pick-
+that are cooperative. As a result, power shifts from                               ing hosts, and can use a large number of factors, in-
+5
+
+
+
+
+                                                           cluding price, lock value, volume of storage being of-                                                                                     minted.  This  number  will  decrease  by  1  coin  per
+                                                           fered, and the penalties hosts are willing to pay for                                                                                      block, until a minimum of 30,000 coins per block is
+                                                           losing files. More complex systems, such as those that                                                                                     reached. Following a target of  10  minutes between
+                                                           use human review or other metrics, could be imple-                                 blocks, the annual growth in supply is:
+                                                           mented out-of-band in a more centralized setting.
+                                                                                                                        Year          1       2                                                       3                                                             4                                        5   8   20
+                                                                                                                        Growth                                                                                                                                      90%  39%  21%  11.5%  4.4%  3.2%  2.3%
+8                                                          Siafunds
+                                                                                                                                                                                                      There  are  inefficiencies  within  the  Sia  incentive
+                                                                                                                                                                                                      scheme.  The  primary  goal  of  Sia  is  to  provide  a
+                                                           Sia is a product of Nebulous Incorporated. Nebulous
+                                                                                                                                                                                                      blockchain that enforces storage contracts. The min-
+                                                           is a for-profit company, and Sia is intended to be-
+                                                                                                                                                                                                      ing reward, however, is only indirectly linked to the
+                                                           come a primary source of income for the company.
+                                                                                                                                              total value of contracts being created.
+                                                           Currency premining is not a stable source of income,
+                                                                                                                                                                                                      The  siacoin,  especially  initially,  is  likely  to  have
+                                                           as it requires creating a new currency and tethering
+                                                                                                                                                                                                      high volatility. Hosts can be adversely affected if the
+                                                           the company’s revenue to the currency’s increasing
+                                                                                                                                                                                                      value of the currency shifts mid-contract. As a re-
+                                                           value. When the company needs to spend money, it
+                                                                                                                                                                                                      sult, we expect to see hosts increasing the price of
+                                                           must trade away portions of its source of income. Ad-
+                                                                                                                                                                                                      long-term contracts as a hedge against volatility. Ad-
+                                                           ditionally, premining means that one entity has con-
+                                                                                                                                                                                                      ditionally, hosts can advertise their prices in a more
+                                                           trol over a large volume of the currency, and therefore
+                                                                                                                                                                                                      stable currency (like USD) and convert to siacoin im-
+                                                           potentially large and disruptive control over the mar-
+                                                                                                                                                                                                      mediately before finalizing a contract. Eventually, the
+ket.
+                                                                                                                                                                                                      use of two-way pegs with other crypto-assets will give
+                                                           Instead, Nebulous intends to generate revenue from
+                                                                                                                                                                                                      hosts additional means to insulate themselves from
+                                                           Sia in a manner proportional to the value added by
+                                                                                                                        volatility.
+Sia, as determined by the value of the contracts set
+up between clients and hosts. This is accomplished
+by imposing a fee on all contracts. When a contract        10                                                           Conclusion
+is created, 3.9% of the contract fund is removed and
+distributed to the holders of siafunds. Nebulous Inc.      Sia is a variant on the Bitcoin protocol that enables
+will initially hold approx. 88% of the siafunds, and the   decentralized file storage via cryptographic contracts.
+early crowd-fund backers of Sia will hold the rest.        These contracts can be used to enforce storage agree-
+Siafunds can be sent to other addresses, in the same       ments between clients and hosts. After agreeing to
+way that siacoins can be sent to other addresses. They     store  a  file,  a  host  must  regularly  submit  storage
+cannot, however, be used to fund contracts or miner        proofs to the network. The host will automatically
+fees. When siafunds are transferred to a new address,      be compensated for storing the file regardless of the
+an additional unspent output is created, containing        behavior of the client.
+all of the siacoins that have been earned by the sia-      Importantly,  contracts  do  not  require  hosts  to
+funds since their previous transfer. These siacoins are    transfer files back to their client when requested. In-
+sent to the same address as the siafunds.                  stead, an out-of-band ecosystem must be created to
+reward hosts for uploading. Clients and hosts must
+also find a way to coordinate; one mechanism would
+9                                                          Economics of Sia                                                                   be the arbitrary data field in the blockchain. Vari-
+                                                                                                                                              ous precautions have been enumerated which miti-
+                                                           The  primary  currency  of  Sia  is  the  siacoin.  The                            gate Sybil attacks and the unreliability of hosts.
+                                                           supply  of  siacoins  will  increase  permanently,  and                            Siafunds are used as a mechanism of generating
+                                                           all fresh supply will be given to miners as a block                                revenue for Nebulous Inc., the company responsible
+                                                           subisdy.  The  first  block  will  have                      300,000       coins   for the release and maintenance of Sia. By using Sia-
+6
+
+
+
+
+funds instead of premining, Nebulous more directly
+correlates revenue to actual use of the network, and
+is largely unaffected by market games that malicious
+entities may play with the network currency. Miners
+may also derive a part of their block subsidy from
+siafunds, with similar benefits. Long term, we hope
+to add support for two-way-pegs with various curren-
+cies, which would enable consumers to insulate them-
+selves from the instability of a single currency.
+We believe Sia will provide a fertile platform for
+decentralized cloud storage in trustless environments.
+7
+
+
+
+
+References
+[1]  Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System.
+[2]  R.C. Merkle, Protocols for public key cryptosystems, In Proc. 1980 Symposium on Security and Privacy,
+IEEE Computer Society, pages 122-133, April 1980.
+[3]  Hovav Shacham, Brent Waters, Compact Proofs of Retrievability, Proc. of Asiacrypt 2008, vol. 5350, Dec
+2008, pp. 90-107.
+[4]  K. V. Rashmi, Nihar B. Shah, and P. Vijay Kumar, Optimal Exact-Regenerating Codes for Distributed
+Storage at the MSR and MBR Points via a Product-Matrix Construction.
+[5]  Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew
+Peolstra, Jorge Timon, Pieter Wuille, Enabling Blockchain Innovations with Pegged Sidechains.
+[6]  Andrew Poelstra, A Treatise on Altcoins.
+[7]  Gavin Andresen, O(1) Block Propagation, https://gist.github.com/gavinandresen/e20c3b5a1d4b97f79ac2
+[8]  Gregory Maxwell, Deterministic Wallets, https://bitcointalk.org/index.php?topic=19137.0
+[9]  etotheipi, Ultimate blockchain compression w/ trust-free lite nodes,
+https://bitcointalk.org/index.php?topic=88208.0
+[10]  Gregory Maxwell, Proof of Storage to make distributed resource consumption costly.
+https://bitcointalk.org/index.php?topic=310323.0
+[11]  Mike Hearn, Rapidly-adjusted (micro)payments to a pre-determined party,
+https://en.bitcoin.it/wiki/Contracts#Example 7: Rapidly-adjusted .28micro.29payments to a pre-
+determined party
+[12]  Bitcoin Developer Guide, https://bitcoin.org/en/developer-guide
+8
+
+
+
+
+

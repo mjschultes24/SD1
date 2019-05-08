@@ -1,0 +1,553 @@
+﻿TWIST: Revolutionising
+3. Encoding Auxiliary Data into Transactions
+Blockchain Accessibility                                          Blockchain based Twist services will rely on data being
+written to and retrieved from the TWIST core blockchain. A
+protocol has been defined to facilitate this.
+TWIST Developers
+April 18, 2018
+3.1. Protocol Specification
+Every TWIST transaction contains a non-zero number of
+output addresses. A TWIST output address is an identifier of
+33-34 alphanumeric characters, beginning with the number 1
+Note:  TWIST  is  a  work  in  progress  and  this  project  is
+that represents a potential destination for a TWIST payment.
+development driven in nature. This paper will be continually
+Normally  these  addresses  are  displayed  in  their  Base58
+updated    and    new    versions    will                         appear    at
+format; however each address is in essence just a 20 byte
+https://twist.network.   For   comments   and   suggestions,
+binary string. Since 20 bytes of arbitrary information can be
+contact us at contact@twist.network
+stored in a single address we can use output addresses as
+simple  and  transparent  ways  of  encoding  data  onto  the
+1. Introduction
+                                                                                                                                                             blockchain. Simply convert the data to be included into valid
+TWIST is a blockchain based decentralised platform and
+                                                                                                                                                             Base58 addresses and use them as outputs in a transaction.
+ecosystem which aims to increase the accessibility of the
+                                                                                                                                                             Then after the transaction has been broadcast to the network,
+blockchain through innovative services and features targeted
+                                                                                                                                                             all  clients  have  the  ability  to  decode  the  addresses  and
+at casual cryptocurrency users and programmers interested
+                                                                                                                                                             retrieve the raw data in UTF-8 encoding.
+in utilising blockchain technology. Features such as TWIST
+ID strive to simplify the payment process and make it more
+                                                                                                                                                             The encoding to Base58 process is well documented online,
+familiar and friendly to create and send transactions. TWIST
+                                                                                                                                                             so for brevity the steps are not outlined in this paper.
+DATA aims to provide a simple and clear interface to allow
+users and programmers to read and write encrypted data to
+                                                                                                                                                             3.2. Advantages and Drawbacks
+the  blockchain.  TWIST  API  will  provide  a  modern,
+                                                                                                                                                             Encoding data into output addresses has the advantage of not
+language  agnostic  programming  interface  which  can  be
+                                                                                                                                                             needed a lot of complex code to extract the payload - simply
+utilised by developers to integrate their applications with the
+                                                                                                                                                             iterate though each of the output addresses in a transaction
+TWIST  blockchain.  Further  features  and  services  are
+                                                                                                                                                             and pass them through a Base58 decode function. This also
+planned and will be developed as the project progresses.
+                                                                                                                                                             means that existing tools such as block-explorers can be
+                                                                                                                                                             easily adapted to process and display the auxiliary data.
+The  ultimate  goal  for  TWIST  is  to  achieve  widespread
+adoption and to create a thriving self-sustaining ecosystem
+                                                                                                                                                             However, the extra addresses may clutter transactions and
+where TWIST coins are used to pay for both blockchain
+                                                                                                                                                             confuse  casual  users.  Fortunately,  block  explorers  and
+based, and off-chain features, the fees of which are allocated
+                                                                                                                                                             wallets  can  be  easily  programmed  to  hide  the  excess
+as rewards to node owners for providing services and for
+                                                                                                                                                             addresses to maintain a simplified user experience  when
+stabilising and securing the network.
+                                                                                                                                                             necessary.
+2. TWIST Coin
+                                                                                                                                                             4. TWIST ID
+2.1. Specification
+                                                                                                                                                             A TWIST ID is a public identifier which can be assigned to
+The TWIST coin is a Proof-of-Stake (PoS) crypto-currency
+                                                                                                                                                             any valid TWIST address. An ID is a 3 to 18 character string
+based on the STRAT coin by Stratis. The initial supply of
+                                                                                                                                                             consisting  only  of  alphanumeric,  dash,  and  underscore
+TWIST was 200,000,000 coins which were premined and
+                                                                                                                                                             characters (a-zA-Z0-9-_). An address can only have one ID
+predominantly distributed via airdrop. TWIST has a fixed
+                                                                                                                                                             assigned to it  at a  time,  and  IDs  must  be  unique             (case
+target block-time of 30 seconds and a uniform block-reward
+                                                                                                                                                             insensitive). The purposes of TWIST IDs are to simplify and
+of 20 TWIST per mined block. Given 2 blocks are mined
+                                                                                                                                                             familiarise the payment process for users, allowing them to
+every minute, with 1440 minutes in a day, and 365 days in a
+                                                                                                                                                             send and receive transactions from recognisable recipient
+year, approximately (2 * 1440 * 365) * 20 = 21,024,000 new
+                                                                                                                                                             identifiers rather  than  the standard  Base58  cryptographic
+TWIST are mined every year, which represents an annual
+                                                                                                                                                             addresses.
+inflation rate of about 10.5%.
+                                                                                                                                                             4.1. Encryption Keys
+2.2. Distribution
+                                                                                                                                                             When a user registers a TWIST ID to an address, an Elliptic
+Of  the                                                           200,000,000  TWIST  coins  that  were  premined,
+                                                                                                                                                             curve Diffie-Hellman (ECDH) key pair is generated and the
+20,000,000  (10%) were reserved as a development fund,
+                                                                                                                                                             private  key  is  encrypted  with  the  registering  address‟s
+10,000,000 (5%) were reserved as a bounty fund, and the
+                                                                                                                                                             private key. The registration information, public key, and
+remaining                                                         170,000,000                                               (85%)   were   airdropped   to
+                                                                                                                                                             encrypted private key are all written to the blockchain in a
+BitcoinTalk forum members. To be eligible to sign up to the
+                                                                                                                                                             single  transaction  and  are  publicly  visible.  Utilising
+airdrop, forum member accounts had to have an account that
+                                                                                                                                                             asymmetric  key  cryptography  facilitates  utilities  such  as
+had existed for more than 2 weeks, with a post count of at
+                                                                                                                                                             encrypted communication between two TWIST ID users.
+least 15. 1938 accounts signed up to the airdrop and each
+account received an even share of the coins (170,000,000 /
+1938) = 87719 coins per participant.
+
+
+
+
+4.1.1. Key Generation                                                                                                               3.  Exactly 17 data-encoded addresses in a determined
+When a user wishes to register a TWIST ID, an ECDH                                                                                  order.  The  first  address  is  fixed  and  acts  as  an
+asymmetric  key  pair  is  securely  computed  using  the                                                                           indicator to let the network know to examine this
+secp256k1 curve. Both key components are then formatted                                                                             transaction  for  a  possible  ID  registration.  The
+as  hex  strings.  For  obvious  reasons  the  private  key                                                                         second   address,   when   decoded   from   Base58
+component  must  first  be  encrypted  before  it  is  written                                                                      contains the ID to be registered. The following  4
+publicly to the blockchain.                                                                                                         addresses contain the public ECDH key which was
+                                                                                                                                    generated  by  the  user  before  registering.  The
+4.1.2. Key Encryption                                                                                                               remaining                                                    11  addresses  contain  the  encrypted
+Private keys for every TWIST ID need to be stored on the                                                                            private EDCH key.
+blockchain so they can be retrieved automatically by the
+owner of the ID. However, since the blockchain is a public          4.3. Detecting ID Registrations
+ledger accessible to anyone with the tools to read it, the                                                                          Valid TWIST ID registrations are discovered on the network
+private key must first be encrypted in such a way that only         by the following algorithm:
+the owner of its associated ID can decrypt it.
+                                                                    1.                                                              procedure detect_id_registrations()
+                                                                    2.                                                              for block in blocks do
+Ownership of a TWIST ID is defined as having possession
+3.                                                                  for tx in block.txs do
+of the private key of the address the ID was registered to.
+                                                                                                                                                                                                 4.                                       for vout in tx.vouts do
+                                                                    Therefore,  by  encrypting  the  ID  private  key  with  the
+                                                                                                                                                                                                 5.                                       if vout.address is ID_REG_ADDRESS then
+                                                                    registering address private key, only the owner of the ID is
+                                                                                                                                                                                                 6.                                       startIndex = tx.vouts.index_of(vout);
+able to decrypt it.                                                                                                                                                                              7.                                       confirm_id_registration(tx.vins, tx.vouts, startIndex);
+                                                                                                                                                                                                 8.                                       break;
+4.1.3. Encryption Procedure                                                                                                                                                                      9.                                       end
+                                                                    A 32 byte encryption key is derived using a password-based                                                                   10.                                      end
+                                                                                                                                                                                                 11.                                      end
+                                                                    key derivation function with the address private key as the
+                                                                                                                                                                                                 12.                                      end
+                                                                    password,  address  as  the  salt,  and  a  SHA512  digest
+                                                                                                                                                                                                 13.                                      end
+algorithm with                                                      10000  iterations.  A                                           16  byte  initialisation
+                                                                                                                                                                                                 14.
+                                                                    vector is also derived using the same approach, except 5000                                                                  15.                                      procedure confirm_id_registration(vins, vouts, startIndex)
+                                                                    iterations of the digest algorithm is used. These derivations                                                                16.                                      paid = 0;
+                                                                    are deterministic in nature - the same result will always be                                                                 17.                                      id, pubkey, privkey, registrants;
+derived for a given password and salt.                                                                                                                                                           18.                                      for i = startIndex; i < vouts.length; i++ do
+                                                                                                                                                                                                 19.                                      paid += vouts[i].value;
+                                                                                                                                                                                                 20.                                      if i is startIndex then
+Industry standard 256-bit symmetric encryption (AES-256 in
+                                                                    21.                                                             continue;
+Cipher Block Chaining mode) is then used, utilising the
+                                                                    22.                                                             else if i is startIndex + 1 then
+above key and initialisation vector, to securely encrypt the
+                                                                    23.                                                             id = base_58_decode(vouts[i].address);
+ID private key. Finally, the encrypted key is converted to a        24.                                                             else if i <= startIndex + 5 then
+Base64 string, ready to be written on to the blockchain.            25.                                                             pubkey += base_58_decode(vouts[i].address);
+                                                                    26.                                                             else
+                                                                    27.                                                             privkey += base_58_decode(vouts[i].address);
+Deriving an encryption key rather than using the address
+28.                                                                 end
+private  key  directly  to  encrypt  data  has  a  rather  arcane
+                                                                    29.                                                             for vin in vins do
+advantage of allowing for ID data to be encrypted/decrypted,
+                                                                    30.                                                             for a in vin.addresses do
+with  the  knowledge  that  if  the  encryption  key  is
+                                                                    31.                                                             registrants.add(a);
+compromised, funds stored in the associated address are still       32.                                                             end
+secure, since the derivation function is one-way.                   33.                                                             end
+                                                                    34.                                                             if isValid(id) & isValid(pubkey) & isValid(privkey) &
+                                                                    35.                                                             id ∉ idSet & pubkey ∉ pubkeySet & privkey ∉ privkeySet &
+4.2. Registration Procedure
+                                                                    36.                                                             |registrants| is 1 &
+A TWIST ID can be registered by broadcasting a transaction
+                                                                    37.                                                             registrants ⊄ registrantSet &
+to the TWIST blockchain with the following properties:
+                                                                    38.                                                             paid >= ID_REG_FEE then
+                                                                    39.                                                             idSet.add(id);
+1.  All  inputs  are  Unsigned  Transaction  Outputs
+                                                                    40.                                                             pubkeySet.add(pubkey);
+(UXTO) spendable to the registering address - this                  41.                                                             privkeySet.add(privkey);
+ensures  that  ID  registration  transactions  have                 42.                                                             registrantSet.add(registrants);
+provable ownership to the registering address, since                43.                                                             end
+                                                                    44.                                                             end
+the registering address‟s private key is required to
+sign the transaction.
+2.  A registration fee (50 TWIST at the time of writing)
+Figure 1: TWIST ID registration discovery algorithm
+is divided and sent to a series of 17 data-encoded
+addresses. The fee acts as a deflationary measure for               Remarks on Figure 1:
+the TWIST currency since the coins are in effect                    1-13: Every transaction in every block on the TWIST core
+being burned. The fee also acts to deter individuals                blockchain is scanned to determine whether it includes an
+from registering a selfish amount of IDs and thus                   output to the TWIST ID registration flag address. If such a
+restricting the IDs availability to other users.
+
+
+
+
+                                                               transaction is found, then it is inspected to ascertain whether                                                                         4.4.1. Transaction Structure
+it contains a valid ID registration.                                                                                                                                                                   A TWIST ID transaction has the following output structure:
+                                                                                                                                                                                                       1.                                                                  A  recipient  address:  This  is  the  address  the
+                                                               18-28: Each output in the transaction from the flag address                                                                                                                                                 recipient‟s ID is registered to. The value out for this
+                                                               onwards is parsed in an attempt to retrieve the ID, public                                                                                                                                                  address is the amount of coins being sent from the
+                                                               key, and encrypted private key of the registration. The value                                                                                                                                               sender to the recipient.
+                                                               of each output is cumulatively totalled to confirm whether                                                                              2.                                                                  [Optional] A change address: For returning excess
+the fee has been paid.                                                                                                                                                                                                                                                     coins (sum of all input values - sum of all output
+                                                                                                                                                                                                                                                                           values in the transaction) back to the sender.
+                                                               29-33: Each input address to the transaction is added to a set                                                                          3.                                                                  A  flag  address.  This  is  a  fixed  predetermined
+of registrant addresses.                                                                                                                                                                                                                                                   address which acts as an indicator to the TWIST
+                                                                                                                                                                                                                                                                           network to make it aware that this transaction may
+                                                               34: For a registration to be valid the parsed ID, public key,                                                                                                                                               be a TWIST ID transaction, and to inspect it further.
+                                                               and encrypted private key data must be in the correct format.                                                                                                                                               Different  flag  addresses  are  used  depending  on
+                                                               The isValid() functions check the length of the fields are in                                                                                                                                               whether the transaction contains a message. This
+                                                               the expected range and that the fields do not contain any                                                                                                                                                   provides an easy way for the client to distinguish
+illegal characters.                                                                                                                                                                                                                                                        whether the transaction contains a message without
+                                                                                                                                                                                                                                                                           needing to perform any decryption.
+                                                               35: idSet, pubkeySet, privkeySet are global sets populated                                                                              4.                                                                  Sender ID address: This address contains a Base58
+                                                               by running the algorithm in a chronological order starting                                                                                                                                                  encoding  of  the  sender‟s  TWIST  ID,  and  is
+                                                               from the first block. After every successful registration, the                                                                                                                                              necessary for the recipient to know the ID of the
+                                                               ID, pubkey, and privkey for that registration is added to its                                                                                                                                               sender.
+                                                               respective set. For a registration to be valid, the ID, pubkey,                                                                         5.                                                                  Validation/Message  addresses:  Each  TWIST  ID
+and  privkey  must  not  already  be  in  use                                                                                                                                       (not  already  a                                                                       transaction contains a validation string for security
+member of their respective set).                                                                                                                                                                                                                                           purposes.  If  the  transaction  does  not  contain  a
+                                                                                                                                                                                                                                                                           message, then the validation string is encrypted and
+                                                               36: The registrants set must be a singleton set since an ID                                                                                                                                                 encoded into a series of addresses. If the transaction
+                                                               can only be registered to a single address and there must be                                                                                                                                                contains  a  message,  then  the  validation  string  is
+                                                               no ambiguity in the address being registered. Registrations                                                                                                                                                 prepended to the message before being encrypted
+                                                               of an ID to an address require all inputs to the transaction to                                                                                                                                             and encoded into the addresses.
+                                                               originate from the registering address, which ensures that the
+                                                               owner  owns  the  private  key  to  the  address,  since  it  is                                                                        4.4.2. Fees
+necessary to sign the UXTO.                                                                                                                                                                            As  with  TWIST  ID  registrations,  a  fee  is  required  for
+                                                                                                                                                                                                       TWIST ID transactions to be considered valid. At the time
+                                                               37: The registrants set must not be a subset of the global                                                                              of writing, the fees are 1 TWIST for a standard TWIST ID
+registrantSet                                                                                                                     (the  address  must  not  already  have  an  ID                      transaction (recipient can see sender ID), and 20 TWIST for
+registered to it).                                                                                                                                                                                     transactions including a message. These fees are completely
+                                                                                                                                                                                                       arbitrary but provide a deflationary mechanism to the coin.
+                                                               38: The total value sent to the data-encoded (burn) addresses                                                                           A small fee is a necessity when data is being encoded into
+                                                               must be greater than or equal to the ID registration fee. This                                                                          output addresses, since a non-zero amount needs to be sent
+                                                               requires that a determined amount of coins are burned for a                                                                             to an encoded address for it to be contained in a transaction.
+registration to be successful.
+                                                                                                                                                                                                       4.4.3. Encryption Procedure
+                                                               39-42: Since the registration is successful, add its elements                                                                           Messages contained in TWIST ID transactions are encrypted
+to their respective sets.                                                                                                                                                                              in such a way that they only decipherable to the owners of
+                                                                                                                                                                                                       the  sender  and  recipient  IDs  in  the  transaction.  This  is
+4.4. TWIST ID Transactions                                                                                                                                                                             facilitated by utilising the ECDH key exchange protocol as
+                                                                                                                                                                                                       described earlier.
+                                                               An owner of a TWIST ID may send a transaction to another
+                                                               TWIST ID owner such that the recipient is able to see the ID                                                                            Messages are encrypted by first computing a shared secret
+                                                               of  the  sender,  even  if  none  of  the  coins  spent  in  the                                                                        key from the sender‟s ID private key, and the recipient‟s ID
+                                                               transaction  originated  from  the  sender  ID‟s  registrant                                                                            public key. The message is then encrypted with symmetric
+                                                               address.  These  transactions  may  also  contain  encrypted                                                                            AES-256 CBC encryption using the shared secret key as the
+                                                               messages, decipherable only by the owners of the involved                                                                               encryption key.
+                                                               IDs. These transactions are syntactically identical to regular
+                                                               TWIST transactions and they are also publicly broadcast on                                                                              Decrypting the message follows the same procedure, except
+the core blockchain.                                                                                                                                                                                   the shared secret is computed using the recipient‟s ID private
+                                                                                                                                                                                                       key, and the sender‟s ID public key.
+                                                               The auxiliary data to facilitate these transactions is encoded
+                                                               using the same protocol as previously specified in the paper                                                                            4.5. TWIST ID Transaction Spoofing
+(i.e. the data is encoded into Base58 output addresses).                                                                                                                                               In  each  TWIST  ID  transaction,  the  sender  ID  is  sent
+essentially in plaintext (encoded in the sender ID address).
+
+
+
+
+                                             Theoretically, a transaction could be spoofed to appear to be                                                                                                    TWIST  DATA  defines  a  simple  yet  robust  protocol  for
+                                             sent from any ID - simply replace the sender ID address                                                                                                          writing  small  pieces  of  information  onto  the  TWIST
+with an address containing any encoded ID.                                                                                                                                                                    blockchain. The data is safe and secure, being maintained by
+                                                                                                                                                                                                              a network of hundreds of computers around the world, with
+4.5.1. A Solution                                                                                                                                                                                             no single points of failure and no possibility of data losses.
+                                             To prevent transaction spoofing, each TWIST ID transaction                                                                                                       TWIST DATA isn‟t intended as a means to store large files,
+                                             is required to contain an encrypted validation string. The                                                                                                       but rather as a tool to give users an easy way of securing and
+                                             string is simply an arbitrary non-Base64 character (i.e. $)                                                                                                      storing small pieces of information (e.g. passwords, contact
+                                             followed  by  a  randomly  generated,  Base64  string  of                                                   18                                                   information, etc.) on a completely decentralised distributed
+                                             characters, followed by the same non-Base64 character. If                                                        ledger with no central point of failure.
+                                             the transaction contains a message, then the validation string
+                                             is prepended to the raw message content before encryption.                                                       5.1. Protocol
+                                             Else the validation string is simply encrypted using the same                                                                                                    As  with  TWIST  ID,  the  auxiliary  data  is  encoded  into
+procedure as for messages.                                                                                                                                                                                    TWIST addresses and written to the blockchain in the form
+                                                                                                                                                                                                              of outputs in a transaction. Two types of data transactions
+                                             When a client receives a transaction, an attempt to decrypt                                                                                                      are defined: private and shareable. In private transactions,
+                                             the validation string is made using the sender‟s ID public                                                                                                       the data payload is intended to only be decrypted by the
+                                             key and the recipient‟s ID private key. If the decryption                                                                                                        owner. Shareable transactions provide the creator with a
+                                             fails, or the decrypted text does not contain a validation                                                                                                       unique key that can be shared with others to allow them to
+                                             string in the expected format, or the validation string has                                                      decrypt and access the data.
+                                             been seen before in a previous transaction, then we consider
+the transaction invalid and it is ignored.                                                                                                                    5.2. Private Data Transactions
+                                                                                                                                                              5.2.1. Encryption Protocol
+                                             This validation mechanism ensures that the sender of the                                                                                                         The  user  is  given  the  option  to  decide  which  of  their
+                                             transaction is the owner of the sender ID, since knowledge                                                                                                       addresses they would like to encrypt the data with. A 32-
+                                             of the sender‟s ID private key is required to compute the                                                                                                        byte encryption key is then derived using a password-based
+                                             same shared secret that will be computed on the recipient‟s                                                                                                      key derivation function with the encryption address private
+side.                                                                                                                                                                                                         key as the password, encryption address as the salt, and a
+                                                                                                                                                                                                              SHA512 digest algorithm with  15000 iterations  (iteration
+4.6. Proof of Burn                                                                                                                                                                                            numbers  are  arbitrary  but  are  chosen  to  vary  between
+                                             At  present,  coins  sent  to  data-encoded  addresses  are                                                                                                      different TWIST services to enhance security). A  16-byte
+                                             considered to be satisfactorily burned since an infeasible                                                                                                       initialisation vector is also derived using the same approach.
+                                             amount of computing power would be required to generate                                                                                                          Industry standard 256-bit symmetric encryption (AES-256 in
+                                             the  corresponding  keys  for  the  addresses,  which  are                                                                                                       Cipher Block Chaining mode) is then used, utilising the
+generated from input data.                                                                                                                                                                                    above key and initialisation vector, to securely encrypt the
+                                                                                                                                                              data.
+                                             The flag addresses are the only predetermined addresses
+                                             present in TWIST ID transactions, so there may be concerns                                                       5.2.2. Transaction Structure for Private Data
+                                             that the development team own the corresponding keys to                                                                                                          A  TWIST  DATA  private  transaction  has  the  following
+                                             these addresses and so can spend the coins being sent to                                                         output structure:
+                                             them. To assure the community this is not the case, the                                                                                                          1.                                                                [Optional] A change address. For returning excess
+                                             addresses, when decoded from Base58, contain descriptors                                                                                                                                                                           coins (sum of all input values - sum of all output
+of their use                                                                                                  (e.g.   “TWIST ID REG”). As we could not                                                                                                                          values in the transaction) back to the sender.
+                                             possibly have access to the computing power necessary to                                                                                                                                                                           2.  A  flag  address.  This  is  a  fixed  predetermined
+                                             cryptographically generate the keys for these addresses, the                                                                                                                                                                       address which acts as an indicator to the TWIST
+                                             community can be satisfied that coins sent there are being                                                                                                                                                                         network to make it aware that this transaction may
+burnt.                                                                                                                                                                                                                                                                          be  a  TWIST  DATA  private  transaction,  and  to
+                                                                                                                                                                                                                                                                                inspect it further. Different flag addresses are used
+                                             Ideally, in future, coins will be provably burned possibly via                                                                                                                                                                     depending on whether the transaction type is private
+utilising the OP_RETURN script opcode.                                                                                                                                                                                                                                          or   shareable,   allowing   clients   to   parse   the
+                                                                                                                                                                                                                                                                                transaction correctly.
+5. TWIST DATA                                                                                                                                                                                                                                                                   3.  Encryption address private key hash. This is the first
+                                             The internet is undergoing a fundamental shift away from                                                                                                                                                                           20 characters of a hash of the private key used to
+                                             centralised services and towards decentralised open ones.                                                                                                                                                                          encrypt  the  data.  This  allows  clients  to  check
+                                             The popularity and hype surrounding blockchain technology                                                                                                                                                                          whether  the  encryption  address  is  present  in  the
+                                             is well deserved, with the success of Bitcoin, Ethereum, and                                                                                                                                                                       user‟s wallet (and so they own and can decrypt the
+                                             other blockchain networks proving the utility and value of                                                                                                                                                                         data).
+                                             decentralised,  distributed  ledgers.  People  are  becoming                                                                                                                                                                       4.  Validation/Data addresses. These addresses contain
+                                             aware of the benefits to using decentralised systems with no                                                                                                                                                                       the encrypted data and a validation string to protect
+single point of failure.                                                                                                                                                                                                                                                        against transaction spoofing.
+
+
+
+
+5.3. Shared Data Transactions                                      data. A new shared key is then generated and encrypted and
+5.3.1. Encryption Key Specification                                bundled along with the encrypted data into a TWIST DATA
+For each shared data transaction, a secret key needs to be         transaction, shown in Block z in Figure  2, which is then
+created which is shareable to others to allow them access to       pushed to the network.
+the  data.  As  such,  the  key  should  have  the  following
+properties:                                                        By using this method, data owners are able to retrieve the
+   Unique - The key must only decrypt the data in the             keys for all of their shared data by following the chain of all
+transaction it was created for.                                    their  shared  data  transactions,  starting  from  the  initial
+   Secure - It should not be feasible to guess or brute-          transaction  containing  just  the  key.  This  technique  does
+force attack the key.                                              however  enforce  a  one  per  block  limit  on  shared  data
+   Independent  - Knowledge of the key should not                 transactions for a given encryption address.
+expose any sensitive information about the owner.
+e.g. the key should not be a sub-section or direct                 5.3.4. Transaction Structure for Shareable Data
+derivative of the owner‟s private key                              A TWIST DATA shareable transaction has the following
+                                                                   output structure:
+   Retrievable  - The data owner should not need to
+1.                                                                 [Optional] A change address.
+remember the encryption key for their data. The key
+                                                                   2.  A flag address, specific to TWIST DATA shareable
+for a shared data transaction should be easily re-
+                                                                   transactions.
+creatable or retrievable for the owner of the data.
+                                                                   3.  Encryption address private key hash.
+                                                                   4.  Key/Validation addresses. These addresses contain
+5.3.2. Encryption Key Generation
+                                                                   an  encrypted  unique  key  for  which  a  following
+To create a sharable data encryption key, a Base64 string
+                                                                   shareable data transaction, with the same encryption
+with a length of 18 characters is randomly generated. This
+                                                                   address, will use to encrypt its data. The key also
+fulfils the criteria of being unique, secure, and independent.
+                                                                   doubles  as  a  validation  string  to  determine  the
+It  is  also  not  impractically  lengthy,  which  is  something
+                                                                   transaction has not been spoofed or duplicated.
+worth considering if the intention is for it to be shared. To
+                                                                   5.  Data   addresses.   These   addresses   contain   the
+make the key retrievable, it is encrypted with the user‟s
+                                                                   encrypted data.
+private key and written to the blockchain in a transaction,
+allowing for automated retrieval in future.
+5.4. TWIST DATA Transaction Spoofing
+Similar to as with TWIST ID transactions, by manipulating
+the encryption private key hash address in a TWIST data
+transaction, a transaction can be made to appear to be owned
+by another address. While this does not present any security
+concerns, it could be used to spam a user and make their
+client display transactions they did not create. To ensure a
+transaction is legitimate, validation strings are included in
+each transaction. In shared data transactions, the validation
+string is simply the shared key. In private data transactions,
+Figure 2: The chaining of encryption keys used in TWIST DATA
+                                                                   shared data transactions                                           the  validation  string  is  prepended  to  the  data  before
+                                                                                                                                      encryption occurs.
+5.3.3. Encryption Protocol                                                                                                            5.5. Fees
+The user designates which of their addresses they wish to set                                                                         All  TWIST  DATA  transactions  require  a  fee  to  be
+as  the  owner  of  the  data                                      (the  encryption  address).  The                                   considered valid by the network. Fees are subject to change
+private key of this address is used to deterministically derive                                                                       but at the time of writing, we propose a fee of 20 TWIST
+a key which is then used to encrypt the shared key.                                                                                   should be required per 500 characters of data.
+If the encryption address is not the owner of any existing                                                                            6. TWIST API
+shared data transactions then the encrypted shared key is                                                                             As demand for blockchain based services increases, it is
+bundled into a transaction containing a special flag address                                                                          anticipated that an increasing number of applications both on
+and an address containing the encryption address private key                                                                          a  hobbyist  and  industrial  scale  will  strive  to  utilise
+hash. The transaction, shown in Block x in Figure  2, is                                                                              blockchain technology. TWIST API will provide developers
+pushed  to  the  network  and  after  receiving  at  least  one                                                                       with  a  simple  yet  powerful  interface  to  access  TWIST
+confirmation, the shared key is used to encrypt the data and                                                                          services and write and read information to and from the
+another shared key is generated and encrypted. The new                                                                                TWIST blockchain. The goal is to facilitate a simple way for
+encrypted  shared  key  and  the  data  encrypted  with  the                                                                          developers  to  utilise  the  TWIST  blockchain  in  their
+previous  shared  key  are then  bundled  into  a  transaction                                                                        applications,  thus  incentivising  usage  and  adoption  of
+which is pushed to the network. This is the TWIST DATA                                                                                TWIST currency and platform.
+transaction, as shown in Block y in Figure 2.
+                                                                                                                                      6.1. API Functions
+If the encryption address is the owner of any existing shared                                                                         The API will abstract the underlying implementation for all
+data transactions, then the shared key is retrieved from the                                                                          TWIST services (e.g. ID, DATA, etc.), and only expose the
+most recent valid transaction and used to the encrypt the new
+
+
+
+
+actions the developer needs. Some (but by no means all) of         requests from external IP‟s, allowing them to run an API
+the methods intended to be offered by the first edition of the     server which can be used to serve their applications.
+API:
+                                                                   7. TWIST Nodes
+   Authenticate a TWIST ID - i.e. confirm that the user           Services such as TWIST ID, rely on writing and reading data
+owns the private key of the address for which the ID               to and from the blockchain. However, for certain purposes
+is registered                                                      blockchain based data access becomes impractical as block-
+   Register a TWIST ID                                            size limits and block-times hinder streamlined functionality.
+                                                                   A peer-to-peer messaging application for example would not
+   Send a TWIST ID Transaction
+                                                                   be well suited to operating solely on a blockchain, as there
+   Write data to the TWIST blockchain
+                                                                   would be a considerable delay between sending a message
+   Read data from the TWIST blockchain
+                                                                   and  the  recipient  receiving  it,  as  well  as  limits  to  the
+                                                                   maximum size of the message that can be sent in a single
+The  scope  of  the  functions  provided  by  the  API  will
+                                                                   transaction. TWIST Nodes are introduced as a facilitator to
+continue to grow as the TWIST platform evolves and more
+                                                                   provide support for off-chain functionality such as peer-to-
+features and services are developed.
+peer  messaging  and  data  storage,  allowing  the  TWIST
+platform be as comprehensive and feature rich as possible.
+6.2. Use Cases
+By exposing the ability to authenticate and register TWIST
+7.1. Requirements
+IDs,  developers  can  integrate  TWIST  ID  with  their
+                                                                                                                                                                                                              Anyone will be able to run a TWIST Node provided they
+applications                                                       (for   example,                                                                                               „Login   via   TWIST   ID‟
+                                                                                                                                                                                                              possess a minimum amount of TWIST (exact amount yet to
+functionality).   However,   we   expect   TWIST   DATA
+                                                                                                                                                                                                              be confirmed) to be used as the deposit for the node. Users
+functionality                                                      (i.e.                                                                writing/reading   data   to/from   the
+                                                                                                                                                                                                              wishing to run a node will need to consolidate the deposit
+blockchain) to be the most utilised.
+                                                                                                                                                                                                              amount into a single address and then make a registration
+                                                                                                                                                                                                              request on the blockchain. Their node will be registered and
+6.2.1. Example Use Case 1
+                                                                                                                                                                                                              will remain active so long as the balance of the address does
+A video game developer may choose to utilise the TWIST
+                                                                                                                                                                                                              not drop below the deposit amount. Nodes will be free to
+blockchain to keep a record of each player‟s score in the
+                                                                                                                                                                                                              register  and  registrant‟s  coins  are  never  locked  and  are
+game. Each player first authenticates with their TWIST ID,
+                                                                                                                                                                                                              always available to them should they wish to break their
+and then upon completing the game they may wish to submit
+                                                                                                                                                                                                              node. Requiring a minimum deposit amount ensures that
+their score to the TWIST blockchain. The data is written to
+                                                                                                                                                                                                              each  node  owner  has  a  significant  stake  in  the  TWIST
+the blockchain and a leader board is constructed by reading
+                                                                                                                                                                                                              ecosystem, and an incentive to keep the network stable and
+all scores from the blockchain.
+                                                                                                                                                                                                              secure.
+Using a  blockchain  to  store  information,  such  as player
+                                                                                                                                                                                                              7.2. Functionality
+scores, may be preferable over a database since the data is
+                                                                                                                                                                                                              Nodes will facilitate a network parallel to the TWIST core
+secured with no need for backups, there is zero network
+                                                                                                                                                                                                              blockchain  which  will  enable  services  such  as  TWIST
+downtime,  the  data  has  complete  immutability,  and  the
+                                                                                                                                                                                                              CHAT to operate by acting as intermediary servers between
+storage is fully decentralised with no central point of failure.
+                                                                                                                                                                                                              the communicating parties. TWIST ID users will be able to
+                                                                                                                                                                                                              send instant encrypted messages to each other relying on
+6.2.2. Example Use Case 2
+                                                                                                                                                                                                              AES    symmetric    encryption    and    Elliptic    Curve
+A university assignment submission system may wish to
+                                                                                                                                                                                                              Cryptography, without the need for these messages to be
+utilise the TWIST blockchain to verify that a student has
+                                                                                                                                                                                                              stored on the blockchain. The encrypted messages will first
+submitted their assignment on time. When a student uploads
+                                                                                                                                                                                                              be sent to and stored on nodes, and then delivered to the
+their  assignment  files,  each  file  is  passed  through  a
+                                                                                                                                                                                                              recipient when they are online and able to receive them.
+cryptographic  hashing function  and the resulting hash  is
+                                                                                                                                                                                                              Blockchain based validation (e.g. upon sending a message
+written to the TWIST blockchain along with the student‟s
+                                                                                                                                                                                                              the sender writes the hash of a message payload to the
+ID. This provides a decentralised and permanent record that
+                                                                                                                                                                                                              blockchain, which the recipient then uses to validate the
+the  file  existed  at  the  time  of  the  transaction  network
+                                                                                                                                                                                                              integrity of the message they receive) could also potentially
+confirmation,   taking   advantage   of   the   distributed
+                                                                                                                                                                                                              be utilised to assure the communicating parties that there
+irreversibility of blockchain technology. Students can feel
+                                                                                                                                                                                                              were no errors or tampering involved in the transmission of
+safe in the knowledge that a decentralised, distributed ledger
+                                                                                                                                                                                                              their messages.
+can provide irrefutable proof that their assignment existed
+and was submitted to the school‟s servers at a given time.
+                                                                                                                                                                                                              In conjunction with end-to-end encrypted messaging, nodes
+                                                                                                                                                                                                              will also provide extensions to the TWIST DATA service.
+6.3. Specification
+                                                                                                                                                                                                              We envision a network where large data payloads and files
+The  API  is  designed  to  be  language  agnostic,  allowing
+                                                                                                                                                                                                              can   be   encrypted   and   stored   off-chain   on   nodes,
+programmers working in any language to make requests and
+                                                                                                                                                                                                              consequently  reducing  the  load  on  the  core  blockchain,
+receive responses through standard protocols and in common
+                                                                                                                                                                                                              while still maintaining a distributed and decentralised data
+formats (e.g. HTTP/JSON). Initially, the API is intended to
+                                                                                                                                                                                                              storage network.
+be built as an interface to run on top of the TWIST Toolbox
+desktop application. Developers running the Toolbox could
+consequently  enable  and  configure  the  API  to  receive
+
+
+
+
+Nodes  may  also  operate  as  API  servers,  exposing  an
+interface to the core blockchain for application developers to
+connect to and utilise. As a result, developing applications
+upon the TWIST blockchain may seem more appealing and
+accessible as developers will not need  to spend time or
+money  setting  up  their  own  API  servers  to  serve  their
+applications.
+7.3. Incentives
+As a reward for running a TWIST Node, owners will earn
+fees in TWIST depending on usage statistics (i.e. messages
+served, disk space utilised, etc.) along with activity statistics
+such as node uptime and average connection speed. Nodes
+which  are  utilised  more  heavily  or  have  longer,  more
+consistent uptimes will earn a greater distribution of fees,
+incentivising  a  fast,  stable,  and  secure  network.  It  is
+currently envisioned  that fees  will  be  collected  from all
+TWIST services and distributed on a weekly basis amongst
+all node owners. A large proportion of the coins presently
+being burned in services such as TWIST ID, will instead be
+collected  and  used  to  pay  node  operators.  In  future,  a
+reduction in the staking reward may possibly be introduced
+or the reward potentially eliminated altogether. This would
+limit  inflation,  making  the  coin  scarcer  and  helping  the
+TWIST ecosystem to transition into a sustainable fee based
+model, where node owners have a strong incentive to secure
+the network and provide services to TWIST users.
+8. Future Developments
+As  the  TWIST  project  evolves,  documentation  for  more
+features and services will be added to this document, and
+additional detail will be provided for existing features as
+development progresses.
+
+
+
+
+

@@ -1,0 +1,1486 @@
+﻿CryptoGuru PoC SIG, 2017-12-27
+Public Domain v1.00
+The Burst Dymaxion
+An Arbitrary Scalable, Energy Efficient and Anonymous Transaction Network Based on Colored Tangles
+Seán Gauld1*, Franz von Ancoina, Robert Stadler2
+Abstract
+We describe the concept and implementation of a proposed layer to the Burstcoin cryptocurrency called “The Burst
+Dymaxion”. This layer implements an arbitrary scalable, energy efficient and anonymous transaction network based
+on colored tangles. Tangles are DAGs that can be seen as generalization of the blockchain. Coloring is a simple
+tagging technique used in cryptocurrencies to allow for coexistence of various instances of a class in a common data
+context. The Burstcoin network has several unique properties that make it our premier choice for implementation:
+its Proof-of-Capacity (PoC) consensus algorithm is energy efficient, fair and anti-centralistic, the blockchain is very
+compact and implements data scrubbing to reduce blockchain bloat and it has smart contracts. The coin has over 3
+years of heritage and a community to bootstrap with, yet it is small enough to allow for significant improvements
+without a long and paralyzing scaling debate. The original Burstcoin blockchain is used as underlying layer to open
+and close an arbitrary number of general purpose transaction channels, similar to the Lightning Network proposal
+of Bitcoin, but using IOTA-like tangles for propagation and verification. Each of these channels is not limited in
+terms of capacity and number of transactions. This concept takes the best traits of the original Burstcoin, IOTA,
+Monero, ZCash and the newest Bitcoin proposals to create a currency suitable for truly global use. It allows e.g.
+banks, clearing houses, remittance processors and virtually all other market participants to use quasi-private, yet
+decentral and trustless transaction channels with desired properties.
+Keywords
+Burstcoin - DAG - Dymaxion - Lightning-Network - PoC - Ring-Signature - Scaling - Tangle - zk-SNARK
+1 PoC Consortium - a CryptoGuru SIG
+2 Stronzo Bestiale Institute of Technology
+*Corresponding author: dymaxion@cryptoguru.org
+                                                                                                                          Contents                                                                                                    3.4  Blockchain Enforcing                . . 12
+                                                                                                                                                                       4                                                              Security Considerations                  12
+                                                                                                                          Introduction                                 1
+                                                                                                                                                                                                                                      4.1  Collusive Nodes Attack . . .        . 12
+1                                                                                                                         Building Blocks                              3
+                                                                                                                                                                                                                                      4.2  Spamming and DoS Scenarios  . . .   . 13
+                                                                                                                          1.1  Burstcoin Blockchain                    3
+                                                                                                                                                                       5                                                              Results and Discussion                   13
+                                                                                                                          1.2  Smart Contracts                         3
+                                                                                                                          1.3  DAGs and The Tangle                     . . 4                                                          5.1  Prototype Performance . . .         . 13
+                                                                                                                          1.4  zk-SNARK vs. Ring Signature             . . 4                                                          5.2  Adoption Process . . .              . . 15
+                                                                                                                          1.5  Blockchain Binding with ACCTs           5                                                              Acknowledgments                          15
+                                                                                                                          1.6  Lightning Network                       6
+                                                                                                                                                                                                                                      A   SpaceMint Paper Errata  . . .        . . . 16
+                                                                                                                          1.7  Coloring                                6
+                                                                                                                                                                                                                                      B   The Burst/Qora ACCT Process  . . .   . 17
+2                                                                                                                         Putting it All Together                      7                                                              C   Burstcoin CIPs . . .                 . 17
+                                                                                                                          2.1  Dymaxion Tangle vs. IOTA Tangle . . .   . . . 7
+                                                                                                                                                                                                                                      References                               23
+                                                                                                                          2.2  Blockchain-Dymaxion Interaction         . . . 7
+                                                                                                                          2.3  Using Nodes P2P for ad-hoc DLs  . . .   8
+Introduction
+2.4  Dymaxion Anonymity  . . .                                                                                            9
+Cryptographic currencies, or cryptocurrencies for short, have
+3                                                                                                                         Implementation Details                       10
+been around for about 8 years now. After an existence on the
+3.1  Opening a DL                                                                                                         . 10
+                                                                                                                                                                       fringes, they are being perceived increasingly as disruptive
+3.2  A Transaction within a DL  . . .                                                                                     . . 11
+                                                                                                                                                                       technology that may change the way how we will see and use
+3.3  Closing a DL  . . .                                                                                                  . . 12                                       money in the future.
+
+
+
+
+The Burst Dymaxion — 2/23
+Figure 1. Cap Gemini/BNP Paribas: Number of Worldwide Non-Cash Transactions 2010-2020 (est.)
+Despite their technical elegance and possibilities, cryptocur-                                 1.5% of the global non-cash transaction volume - see also figure
+rencies lack mass adoption because of two critical factors: us-                                1). You would need a 400MiB blocksize to meet that demand.
+ability and scalability. While usability can be addressed with                                 This would imply a blockchain growth of over 56GiB per day.
+sufficient engineering and development effort, scalability is
+                                                                                               Aside from the feasibility considerations, it is questionable
+often a theoretical problem of its own.
+                                                                                               if a transaction for the acquisition of a sack of rice made in
+The inherent features of a good cryptocurrency - decentral-                                    China 2017 should be kept for all eternity on the blockchain and
+ization and trustless design - often go contrary to traditional                                thus in memory or on mass storage of all participating nodes
+methods of upscaling centralistic processes. While Bitcoin’s                                   world-wide.
+pioneer achievement, the blockchain, solved the problem of a
+A concept to overcome many of the restrictions a typical
+decentralized trust, its inventor certainly left much headroom
+blockchain imposes on scalability was presented in the IOTA
+for scaling that concept for a truly global use.
+white paper[1]. In this novel system, transactions are not broad-
+In fact, speaking of “truly global use”, let’s fathom the scale                                cast over a network of participating nodes, some of which
+of this concept. Assume you would like to support one hundred                                  (miners) try to put them into a block. Instead, network nodes
+million people world-wide to be able to use a cryptocurrency                                   can validate transactions and by this validation work actually
+like Bitcoin with an average of just 1 transactions per day (about                             earn the right to perform transactions themselves. The nodes
+
+
+
+
+The Burst Dymaxion — 3/23
+have unified roles and form a kind of systolic array[2] for data      Proof-of-Work (PoW) systems and is responsible for making
+processing. The data being a transaction propagated along a           Burstcoin energy efficient. Efficiency - while similar to Proof-
+directed acyclic graph.                                               of-Stake (PoS) systems, is still achieved by a low barrier to
+Due to it’s success and thus increasing usage, Bitcoin started        entry, where you do not need to acquire a significant stake of
+to experience scalability issues, now commonly hitting its the-       the currency in order to be able to participate in the mining
+oretical tx/s limit. A long scaling debate about pushing this         consensus[4].
+limit and removing other protocol constraints continues to the
+present day. One of the suggested extensions to the Bitcoin
+protocol is called the Lightning Network (LN).1 It is basically
+a network of two-party ledger entries for participants who have
+subscribed to a bidirectional payment channel. While a LN
+solves many of the problems associated with high transaction
+volume, micropayments and their cost, it is not a silver bullet.
+E.g. it does quite little to increase the limits on the number of
+concurrent users.[3]
+Dymaxion is a term that Richard Buckminster Fuller as-
+sociated with much of his work.  It is a portmanteau of the
+words dynamic, maximum, and tension and sums up the goal
+of his study, "maximum gain of advantage from minimal energy
+input."
+We use this term for the Burst Dymaxion to honor the
+achievements and influence of this true generalist and also be-
+cause the geodesic dome - a structure Fuller helped to popular-
+ize - has very similar properties to what is proposed in this paper
+for transaction propagation: Elements of the dome - while each
+limited in resilience - distribute mechanical stress throughout
+the whole structure, making geodesic domes able to withstand
+very heavy loads for their size. In our proposal, the Dymaxion
+is a set of tangle-based lightning networks, each single one used
+for propagating transactions. Each single of these networks
+distributes “transactional stress” among its whole network of
+participating nodes, allowing for arbitrary scalability. The more
+nodes participate, the higher the transactional capacity of each
+of the currently active networks becomes. As any number of
+these tangle-based LNs can co-exist at the same time, we speak
+of Dymaxion layers (DL).
+We therefore present nothing short of an energy-efficient
+cryptocurrency that is able to sustain the total global load of
+non-cash transactions.
+Below all of this is a small and very moderately growing
+                                                                      Figure 2. The main chain (black) consists of the longest series
+energy-efficient blockchain with Proof-of-Capacity consensus
+                                                                      of blocks from the genesis block (green) to the current block
+used for bookkeeping the opening and closing of the Dymaxion
+                                                                      (orange). Orphan blocks (purple) exist outside of the main
+layers above it. See also central figure 7.
+                                                                      chain on so called forks†.
+1. Building Blocks
+                                                                      1.2  Smart Contracts
+1.1  Burstcoin Blockchain
+                                                                      A blockchain can be seen as a distributed database that is en-
+Burstcoin is a digital cryptocurrency and payment system de-
+                                                                      suring consistency and validity by verification work done by
+rived from the Nxt cryptocurrency. As such it is based on the
+a majority of participating nodes in this blockchains network.
+blockchain technology (Figure 2 shows the general concept of
+While cryptocurrencies such as Bitcoin speak of the blockchain
+a blockchain with the most essential terms explained), but is
+as a public ledger, others such as Ethereum put an emphasis on
+using a special class of consensus algorithm called proof-of-
+smart contracts - and not only monetary transactions - to store
+capacity (PoC). This algorithm allows for the usage of storage
+in their blockchain.
+space instead of raw computational power as is being used in
+A smart contract is a procedural way, usually done by a com-
+1 Ethereum has a very similar concept under the name Raiden Network   puter program, to facilitate, verify, or enforce the negotiation
+
+
+
+
+The Burst Dymaxion — 4/23
+or performance of a contract. Compared to their “inanimate”         main proposition of this concept, is its feasibility to provide a
+paper-based ancestors, smart contracts also fulfill the role of     good infrastructure for microtransactions, mainly targeted at
+otherwise needed lawyers (verification), notaries (validation)      the IoT industry.
+and executors (enforcing). For this very reason, smart contracts    Any microtransaction-capable infrastructure seeks to over-
+are seen as a disruptive technology to future digital economies.    come the problem of paying a fee that is larger than the amount
+Burstcoin has been given a smart contract system in 2014.           of value being transferred. The smaller the value of a micro-
+The formalism used is called AT (Automated Transaction) and         transaction becomes, the more applications open up to it (tip-
+has been proposed and implemented by CIYAM[5].                      ping, machine-to-machine transactions, microservices, spam
+As turing-complete formalism, ATs are both powerful (ex-            protection etc.) but the harder it gets to lower the transaction
+pressiveness) and dangerous (verifiability) and have been used      cost below the value being transferred. Ideally the transaction
+only sparsely as templates to facilitate simpler smart contracts    cost would be zero, but then again - what would the incentive
+(SCs), such as lotteries, crowdfunding and an asset exchange.       for a transaction processor be?
+Because of the expressiveness of the formalism, other possible      IOTA answers this dilemma by unifying the roles of net-
+applications are basically limitless, yet have to be designed       work participants. There is no more discrimination between a
+with great care to avoid situations such as the DAO debacle         transaction (tx) issuer and a tx verifier - a node has both these
+that led to the hard fork and community split of Ethereum and       roles. The cost for issuing a tx is to provide the verification to
+Ethereum Classic.2                                                  at least two other txs. Doing this, the network security is kept
+                                                                    up by issuing transactions. It is assumed that the nodes check
+1.3  DAGs and The Tangle                                            if the approved transactions are not conflicting. If a node finds
+A directed acyclic graph (DAG) is a restricted form of a finite     that a transaction is in conflict with the tangle history, the node
+directed graph that has no directed cycles.  In short, it is a      will not approve the conflicting transaction. If a node issues
+data structure with interesting computational properties and        a new transaction that approves conflicting transactions, then
+widespread use in computer science. We assume the reader has        it risks that other nodes will not approve its new transaction,
+basic understanding of graph theory and encourage to acquire        which will fall into oblivion.
+it otherwise. Figure 3 shows an example of a simple DAG.            While not discussing the implementation, the IOTA white
+paper suggests there being a hidden PoW in the validation
+process:
+For a node to issue a valid transaction, the node
+must solve a cryptographic puzzle similar to those
+in the Bitcoin blockchain.  This is achieved by
+finding a nonce such that the hash of that nonce
+concatenated with some data from the approved
+transaction has a particular form.
+The “incentive to participate” for a node (assume a node
+has no need to perform transactions, so why should it validate
+other transactions) is achieved by nodes keeping statistics on
+their peers, e.g. how many new transactions are received from
+a neighbor.  If one particular node is “too lazy”, it will be
+dropped by its neighbors. Therefore, even if a node does not
+issue transactions, and hence has no direct incentive to share
+new transactions that approve its own transaction, it still has
+incentive to participate.
+1.4  zk-SNARK vs. Ring Signature
+The acronym zk-SNARK stands for “Zero-Knowledge Suc-
+Figure 3. A simple directed acyclic graph consisting of 5
+cinct Non-Interactive Argument of Knowledge,” and refers to a
+vertices (a-e) and 8 edges connecting them. The arrows stand
+proof construction where one can prove possession of certain in-
+for a direction and there are no loops - therefore acyclic.
+formation, e.g. a secret key, without revealing that information,
+                                                                    and without any interaction between the prover and verifier.
+The IOTA white paper [1] describes a blockchain-less ap-
+                                                                    A ring signature is a type of digital signature that can be
+proach of ensuring transactions in a cryptocurrency with the
+                                                                    performed by any member of a group of users that each have
+use of a so called “Tangle”, which is in essence a DAG. The
+                                                                    keys (to sign messages). Therefore, a message signed with a
+2 https://www.coindesk.com/                                         ring signature is endorsed by someone in a particular group of
+ethereum-classic-explained-blockchain/                              people. One of the security properties of a ring signature is that
+
+
+
+
+The Burst Dymaxion — 5/23
+it should be computationally infeasible to determine which of       Both ring signatures as well as zk-SNARKs do have their
+the group members’ keys was used to produce the signature.          advantages and drawbacks in anonymizing transactions, which
+Both concepts are central elements of cryptocurrencies with         leaves either of these functionalies as optional feature in the
+a high focus on anonymity, namely ZCash[6] (zk-SNARKs)              setup parameter space for created tangles.
+and Monero[7] (ring signatures).
+1.5  Blockchain Binding with ACCTs
+Atomic Cross-Chain Trading (ACCT) is a mechanism, where
+two (or more) parties own coins in separate cryptocurrencies,
+and want to exchange them without having to trust a third party.
+The term “atomic” here means indivisible, and refers to the fact
+that sending coins on one chain and sending other coins on the
+other chain cannot be performed independent of each other.
+If these transactions could be performed independent of
+each other, then while one party could fulfil their side of the
+bargain and send some coins on one chain, the other party
+would have the option of going back on his end of the bargain
+and simply not following through with the protocol, ending up
+with both coins.
+A decentral exchange where two parties, A and B, want to
+exchange tokens can be based on the following process:5
+1.                                                                  A generates some random data (called the secret) x.
+2.                                                                  A generates T x1 (the payment) containing an output with
+the chain-trade smart contract in it. It allows coin release
+either by signing with the two keys (Ak and Bk ) or with
+Figure 4. Rivest, Shamir, Tauman ring signature scheme              (secret x, Bk ).  This transaction is not broadcast.  The
+                                                                    chain release script contains hashes, not the actual secrets
+Ring signatures as referenced by figure 4 are a pretty plain        themselves.
+and straightforward way of a multi-sig application: Given n
+3.                                                                  A generates T x2  (the contract), which spends T x1  and
+entities each with pub/priv keys, (P1,S1), (P2,S2), ..., (Pn,Sn).
+                                                                    has an output going back to Ak . It has a lock time in the
+Party i can compute a ring signature σ on a message m, on
+                                                                    future and the input has a sequence number of zero, so it
+input (m,Si,P1...Pn). Anyone can check the validity of a ring
+                                                                    can be replaced. A signs T x2 and sends it to B, who also
+signature given σ, m, and the public keys involved, P1...Pn. If a
+                                                                    signs it and sends it back.
+ring signature is properly computed, it should pass the check.
+Compared to this, zk-SNARKs seem outright “magical” at
+4.                                                                  A broadcasts T x1 and T x2. B can now see the coins but
+first glance. You can verify the correctness of computations
+                                                                    cannot spend them because it does not have an output
+without having to execute them and you will not even learn
+                                                                    going to him, and the tx is not finalized anyway.
+what was executed - just that it was done correctly. In real-
+ity, zk-SNARKs can be dissected into four relatively simple
+5.                                                                  B performs the same scheme in reverse on the alternative
+ingredients:
+                                                                    chain. The lock time for B should be much larger than the
+                                                                    lock time for A. Both sides of the trade are now pending
+1.  represent as a polynomial problem
+                                                                    but incomplete.
+2.  random sample for succinct check
+3.  homomorphic encoding / encryption
+6.                                                                  Since A knows the secret, A can claim his coins imme-
+4.  zero knowledge by checking structure
+                                                                    diately. However, A, in the process of claiming his coin,
+                                                                    reveals the secret x to B, who then uses it to finish the
+We will not explain these in full here, but encourage the
+                                                                    other side of the trade with (x, Bk ).
+reader to visit good introductions and explaining blogs for zk-
+SNARKs[8], [9].
+                                                                    ACCTs have the disadvantage that both chains need to
+We will not discuss the concrete implementation of both
+                                                                    implement the ACCT (of course in addition to being capable to
+concepts here, as there are already off-the-shelf implementa-
+                                                                    provide smart contracts) in order for this to work.
+tions on github3 4
+                                                                    If Burst was to provide some ACCT with - say - Bitcoin,
+3 https://github.com/apuljain/                                      the ACCT handling would have to be implemented not only on
+Linkable-Ring-Signature
+4 https://github.com/scipr-lab/libsnark                             5 see Appendix B for a visualization
+
+
+
+
+The Burst Dymaxion — 6/23
+Figure 5. Burst/Qora ACCT prototype
+the Burstcoin side, but also in Bitcoin client(s). While not en-      In a way, the formation of a lightning network relies on transi-
+tirely impossible, it is unlikely to get arbitrary cryptocurrencies   tive properties of separate P2P communications.
+development teams to provide that kind of interoperability. If,       The problem with this approach is similar to the problem
+on the other hand, the implementation of ACCTs happened in            of premonetary trade. Achieving transitive pathways for m out
+a situation where the same development team exercises control         of n network participants becomes increasingly difficult if n
+over both “chains” in question, then this approach certainly          is not much larger than m. The old explanation why money
+seems viable.                                                         was invented in the first place holds true for a LN itself: If A
+Burst already does have a prototype ACCT implementation6              had twenty hens and wanted to exchange them for one pig, he
+with the cryptocurrency Qora - see figure 5.                          either had to find someone willing to do exactly that trade, or
+                                                                      two other people - say B and C - where C might have had a
+1.6  Lightning Network                                                pig wanting two goats and finally B wanting twenty hens and
+The term “Lightning Network” became widely known in 2016              having two goats. The categories in that example translate to
+from a publication by Poon and Dryja[10] in the context of the        incompatible monetary volume and time in a LN.
+Bitcoin scaling debate. In essence, it is an off-chain protocol       It is possible that operation of a LN is well feasible with
+running on a P2P network of nodes for making micropayments            the help of powerful intermediaries/facilitators who command
+of digital currencies.  Said nodes form a scale-free network          large financial resources. In this case, however, we can expect
+of bidirectional payment channels without delegating custody          the LN to exhibit a decentral and not a distributed topology -
+of funds or trust to third parties. Yet, these payment channels       compare figures 6 and 8.
+are bound by smart contracts to the underlying blockchain to
+ensure enforcability in case of uncooperative participants.
+                                                                      1.7  Coloring
+At the basis of this mechanism are so called Hash Time-
+                                                                      In an abstract sense, coloring is a simple tagging technique
+Locked Contracts (HTLC) implemented as smart contracts on
+used to allow distinction, thus coexistence, of various instances
+the blockchain. When opening a payment channel, participants
+of a class in a common data context.
+must commit an amount in a transaction which is registered on
+In cryptocurrencies, colored coins is a concept that allows
+the blockchain. This can be seen a collateral and guarantees
+                                                                      attaching metadata to transactions and by this leveraging the
+enforcability of transactions (so-called commitments) done off-
+                                                                      coins infrastructure for issuing and trading immutable digital
+chain in the payment channel. Given their similarity, ACCTs
+                                                                      assets that can represent real world value.
+are probably the origin of the technique now called HTLCs.
+                                                                      Colored coins[11] are a method to track the origin of Burst
+As introduced for Bitcoin, this system is conceptually not
+                                                                      coins, so that a certain set of coins can be set aside and con-
+an independent overlay network; it is more a deferral of state on
+                                                                      served, allowing a party to acknowledge them in various ways.
+the standard blockchain, as the enforcement is still occurring
+                                                                      Such coins can be used to represent arbitrary digital tokens,
+on the blockchain itself (albeit deferred to future dates and
+                                                                      such as stocks, bonds, smart property and can even represent
+transactions).
+                                                                      real-world objects.
+Because the payment channels are bi-directional between
+                                                                      When a coin is "colored", it can be traded on the Burst
+two parties only, forming a network where n parties can par-
+                                                                      network just like any other coin in the system.  This allows
+ticipate in transactions between each other depends on finding
+BURST to be exchanged for whatever object the colored coin
+“paths” between two parties that can go through intermediaries.
+represents. This concept forms the basis for the Burst Asset
+6 based on http://ciyam.org/at/at_atomic.html                         Exchange.
+
+
+
+
+The Burst Dymaxion — 7/23
+2.1  Dymaxion Tangle vs. IOTA Tangle
+While DAGs have been used as part of graph theory for several
+decades now and are mathematically well understood today,
+their use in cryptocurrencies as generalization of the blockchain
+is a novelty.
+We are convinced of the advantages tangles bring to ques-
+tions of scalability and decentral design, but not every aspect
+of the current iri (IOTA reference implementation) seems to be
+the best possible design choice.[12]
+Our biggest concern is the cryptographic hash function used
+in IOTA: Curl. The IOTA vulnerability report[13] has shown
+already practical signature forgery attacks and while IOTA no
+longer uses the Curl hash function to hash transactions as part of
+the IOTA signing process, Curl is still used for other purposes
+in IOTA.
+Similarly disturbing seems the claim of one of the IOTA
+founders to have placed that vulnerability into Curl on purpose,
+to be able to shut down copycats.  Even leaving the ethical
+aspect aside - publishing IOTA source under GPL3 license
+and allegedly placing a cryptographic vulnerability in its core
+hash function - experience shows, that control over backdoors
+                                                                     and vulnerabilities seldom remains in the “right hands”. By
+Figure 6. Decentral (left) vs. distributed topology.
+                                                                     extension, this puts IOTA itself at risk.
+                                                                     It seems more apropriate, to use the iri only as design guid-
+                                                                     ance in some aspects, using standard libraries and standard
+Since 2014 it has been suggested, that various coloured
+                                                                     hashing algorithms complemented by own peer-reviewed im-
+coin protocols could be of interest to banks and major finan-
+                                                                     plementation.
+cial institutions,7 because of its inherent applicability to their
+                                                                     Moreover, the biggest difference being the underlying Burst
+requirements to use self-issued, quasi-private, yet decentral and
+                                                                     blockchain allowing Dymaxion tangles to be opened and closed
+trustless transaction channels with desired properties.
+                                                                     against a point of reference, as well as the existence of an
+Since then various implementations like CoinSpark8  and
+                                                                     arbitray number of logically separated (colored) Dymaxion
+MultiChain9 have evolved from the original concept by Rosen-
+                                                                     tangles compared to just one IOTA tangle. A future IOTA could
+feld.
+                                                                     very well live within the Dymaxion, maybe even in its native
+While our proposed combination of Colored Coins and
+form.
+tangle-based Lightning Network (which we call colored tan-
+gles) is a brand new concept, prototype implementations for
+2.2  Blockchain-Dymaxion Interaction
+the Bitcoin LN do already exist.10
+Figure 7 is the top-level view on the presented concept. The
+Burst blockchain acts as a fundamental bookkeeping chain
+where opening and closing of the Dymaxion layer is recorded.
+2. Putting it All Together
+Payment processors, banks, exchanges etc. may use ACCTs
+As we have seen, all building blocks for our proposal are already    (ACTTs really) to open and close payment channels with de-
+in place, not only as theoretical concepts, but well developed       sired properties (network size, validation reqirements, etc.) and
+and even tested in real-world application use. These are solved      keep them open for a certain period (TTL) - e.g. one day for
+problems.                                                            daytrading on Wallstreet.
+The realization of the Burst Dymaxion therefore seems                The tangles work asynchronously with no inherent clock
+more like an engineering rather than a research task, but the        signal contrary to the 4-minute target time for block generation
+major contribution of this paper is the seamless integration         in the Burst blockchain. Transaction latency in a Dymaxion
+of said components into a new framework with significant             layer is effectively network latency plus validation latency
+synergistic gains.
+                                                                     ttx = tnl +tvl                                                      (1)
+with network latency effectively being the packet time between
+7 https://is.gd/vz3oiN
+two peers as sum of network-hop latencies, often measured
+8 http://coinspark.org/developers/
+9 https:/www.multichain.com/                                         in milliseconds, and validation time being PoW, PoC or PoS
+10 https://is.gd/7RcPqf                                              runtime on the node - measured in seconds.
+
+
+
+
+The Burst Dymaxion — 8/23
+Figure 7. Dymaxion Top-Level view: set of colored tangles over the Burst blockchain. Each tangle representing an independent
+Lightning Network for P2P transaction channels. Block 92 is magnified to show inner structure containing transactions some of
+which are opening and closing tangle LNs.
+With the average block time on the Burst blockchain being                                                                       tive are called peers.  This infrastructure is already in place
+said 240 seconds, this can lead to a situation of potentially                                                                   for Burst and there is a communication protocol between these
+short-lived tangles that can be opened and closed intra-block                                                                   nodes to ensure transactions are propagated, blocks are down-
+i.e. within one and the same block on the Burst blockchain (see                                                                 loaded for new or outdated nodes (blockchain syncing) etc. - see
+green tangle). The application for this could be a voting where                                                                 https://burstwiki.org/wiki/The_Burst_API
+some hundred or a thousand globally distributed voters would                                                                    Similar to the Lightning Network Daemon (lnd11), we im-
+have to give their vote within a short period.                                                                                  plement a Burst Dymaxion Daemon (bdd) that can - but doesn’t
+Some tangles might live for a day or longer and bear the                                                                        need to be - an integral part of the Burst wallet12.
+transactional load of a financial institute or an exchange and                                                                  In any case, the bdd would be active on nodes that do
+only at the end of the day or the respective period close and                                                                   participate in specific colored tangle networks. The decision
+record that state in the blockchain.                                                                                            whether to participate or not, would be defined on dynamic node
+As mentioned in section 1.5, ACCT stands for Atomic Cross                                                                       capabilities as defined in the respective CIP - see appendix C.
+Chain Transaction. We will use a slightly modified ACTT -
+                                                                                                                                One particular detail of the DL network infrastructure ac-
+for Atomic Chain-Tangle Transaction from now on. Of course,
+quisition - node discovery - is presented in the next section (see
+figure 7 is a very simplified view if you consider that basi-
+3.1). A tangle-based network is made for a high degree of de-
+cally every block pictured potentially could - without any Burst
+centralization and transaction performance, but has a problem
+blockchain scaling CIP - have up to 255 incoming or outgoing
+upon startup if there is not a network of sufficient size in place.
+ACTTs. We see only three ACTTs for block 92, one incoming
+                                                                                                                                The Burst Dymaxion solves this problem by effectively
+ACTT for blocks 90 and 95 and one outgoing for block 91
+                                                                                                                                providing the equivalent of a cloud service for nodes. Figure 8
+and even this simplification already suggests a multiple of the
+                                                                                                                                shows the Burstcoin core network - running the PoC blockchain
+traditional blockchain-only transaction capacity.
+                                                                                                                                protocol. This base network has been running for over 3 years
+We will discuss the implementation details (opening, clos-
+now and will always form a source of nodes potentially avail-
+ing, enforcing) in section 3.
+able upon DL initiation.
+2.3  Using Nodes P2P for ad-hoc DLs
+11 https://github.com/lightningnetwork/lnd
+Each cryptocurrency network consists of nodes and each of                                                                       12 BRS                                                             -  Burst  Reference  Software:   https://github.com/
+these nodes has contact to other nodes which from its perspec-                                                                  PoC-Consortium/burstcoin
+
+
+
+
+The Burst Dymaxion — 9/23
+Figure 8. Burst cryptocurrency core network of nodes as of December 22nd. Node discovery by recursive descent.
+2.4  Dymaxion Anonymity                                                                                          tell. If it were a severe bug, potentially somebody
+Both ring signatures as well as zk-SNARKs are part of the                                                        could inflate the money supply by hundreds of mil-
+DL implementation and upon opening a DL can be chosen                                                            lions of dollars, making a profit while lowering the
+- optionally - to conceal transactions that do happen within                                                     price of Zcash for speculators. There are several
+that specific DL. This has consequences for the respective DL                                                    examples of major cryptocurrency bugs that have
+record (see section 3.3 as well as for monetary supply on the                                                    led to a massive misallocation of the quantity of
+DL.                                                                                                              cryptocurrency that should have been in circula-
+For various reasons, there are no plans to bring RS or zk-                                                       tion.13
+SNARK anonymity on-chain. Due to the cutting edge nature of
+ZK-Snarks, in our opinion there is not enough peer-review of                                                     Contrary to this, even in the worst case of a bug in the
+the underlying cryptography to make it mandatory or part of the                                                  anonymity functions, due to the TTL of a DL any possible
+base chain. Participants of a DL who desire anonymity can limit                                                  damage is contained and limited to the collaterals used when
+the value-at-stake by providing zero collateral. An application                                                  forming the DL. Even if a “DL goes wrong”, this has no effect
+scenario would be dissidents that had to carry only clearing                                                     on other past, present or future DLs and certainly not on the
+cost for on-chain operations and use the DL for encrypted                                                        base chain.
+communication, voting or similar.                                                                                While zk-SNARKs and the Pinocchio protocol[14] do allow
+We believe a global payment system should be agnostic of                                                         for concealment of even the value being transferred, said prob-
+any moral, legal, monetary or social requirements as these are                                                   lem with an uncontrolled supply of tokens may not be worth
+most often not global in nature. That’s why groups wanting to                                                    the risk.
+use the DL for anonymous value-transfer activities can do so.                                                    Ring Signatures provide a very nice alternative for com-
+Enabling the anonymity features of a DL is supposed to be the                                                    plementary scenarios with anonymity requirements. There is
+result of a cost-benefit consideration.                                                                          no risk of uncontrolled supply and in case the DL has a larger
+One such potential cost to anonymous DL mode of opera-                                                           number of members RS can guarantee a sufficient level of
+tion comes from the fact that:                                                                                   anonymity with good transaction performance levels.
+While anonymity on-tangle can be covered for a large pa-
+In Zcash, where there is no “certain scarcity” and
+rameter space of requirements, on-chain anonymity is some-
+if god forbid, Zcash had a bug that allowed for peo-
+what weak by itself.  Many addresses are re-used and even
+ple to generate more Zcash coins than the intended
+money supply, then it is possible that nobody could                                                              13 http://zcoin.io/zcoin-and-zcash/
+
+
+
+
+The Burst Dymaxion — 10/23
+named. Their connection to on-tangle transactions (via collater-   3.1  Opening a DL
+als) can prevent any anonymization effort on-tangle.               Opening a Dymaxion Layer (DL), is the main operation for
+Fortunately there are two mechanisms to improve on-chain           a tangle to spring into existence.  While more complex, the
+anonymity.  The somewhat crude approach is a mixing ser-           operation is conceptually very similar to an ACCT, creating an
+vice, that theoretically can provide sufficient concealment of     asset or the BTC Lightning Network initiation process.
+source and target payment streams, but from a cryptographic
+DL Initiation
+point of view it is more an obfuscation functionality than real
+A Tangle Initiator creates an on-chain ACTT (which is effec-
+anonymization.
+tively a HTLC) with several tangle parameters including, but
+The other mechanism for on-chain anonymity is a little-
+not limited to:
+known feature of CIYAM AT: anonymous ACCTs.
+One might think, that anonymous ACCTs are not possible,
+Consensus Type  PoC, PoW and PoS will be supported. PoC
+because the AT itself has no secrets, but with slight changes to
+is the preferred way for full nodes with attached storage
+the process it can be altered to allow just that.
+(“Plots”), PoW and PoS available for various applica-
+Normally an ACCT would involve putting the same "hash"
+tion scenarios, where small tangle nodes (IoT) possibly
+into two ATs (each residing on a different blockchain, or in our
+cannot perform PoC or some even PoW.
+case chain and tangle) and then sending the secret to unlock
+both in order to make the transaction take place - see appendix    Time-To-Live (TTL)  Global Time-Lock for the tangle.  A
+B.                                                                 point in the future where the tangle will fold.  Maxi-
+It turns out, there is no need for the secret to be “identical”    mum TTL could be decades, but we propose in a first
+- so the on-chain AT would store the hash                          release a max. TTL of 217 blocks on the Burst blockchain
+                                                                   (ca. 1 year). Must be bigger than the Subscribe-Time.
+e47823401ae24e6885de22e1c427c9df\
+e477ce5e1095f3c2bf4dcbc35f2c7ee0
+                                                                   Subscribe-Time  Deadline for subscribers to sign their collat-
+while the AT on-tangle could store                                 erals on-tangle. Maximum 360 blocks (ca. 24h).
+0d5a2b016e90b3db4d42d5a4c420f75b\
+                                                                   Collateral  Collateral in BURST by the tangle initiator. This
+b131bb4465bdfebb8037daadf0174a54
+                                                                   collateral is used as backing for whatever Units (see be-
+Both hashes seem completely unrelated, and to some ob-             low) the initiator issues. The collateral can be as low as
+server they are, yet the ATs do have the knowledge that one        0, but then any currency, asset, bonds, futures, shares
+is a SHA256 of “Burst123”, while the other is the SHA256           or whatever the issued Units represent must be backed
+of “Tangle123”. (this is of course a trivial example of how to     by other means (promises - similar to current Burst As-
+do this - the in-production version does use a more elaborated     set exchange) and might not have as much trust as a
+callenge-response process than just using fixed strings with       collateral-backed issuance. The collateral is blocked and
+some concatenated id).                                             unspendable for the issuer until the tangle folds. Techni-
+Assuming we will have numerous ATs operating across nu-            cally, the collateral is defined by the BURST address and
+merous blockchain-tangle DLs all doing transfers at around the     it’s UTXo which the initiator names and signs.
+same time it is pretty clear that any observer aiming for “total
+                                                                   Features  A DL can be created with more parameters defin-
+awareness” would have to record the total global sum of trans-
+ing its behavior.  The most significant probably being
+actions the Dymaxion is performing. It seems highly unlikely
+anonymous transactions and their type, where the partici-
+for this to succeed when observing a “globally decentralized
+pants (initiator and subscribers) can perform transactions
+transaction machine”.
+using ring signatures or zk-SNARKs (see 1.4). In this
+case, records of the tangle transactions (see 3.3) can be
+3. Implementation Details
+kept, but do not contain any information to make the
+The life cycle of a Dymaxion Layer consists of the following       participants of the tangle identifiable.
+steps
+                                                                   Units  Number and types of units issued, can be applied e.g.
+1.  Initiation
+                                                                   for different types of stocks like common, preferred for
+(a)  Initiator set up                                              an IPO issuance. Other than that each type of Unit can
+(b)  Creating the DL (Node Discovery, AT)                          be a 64bit number of Quants.
+(c)  Subscribe Phase
+                                                                   Subscribers  Optional list of addresses who are subscribers to
+2.  Operation                                                      the tangle - the participants. This is a pull operation, that
+                                                                   can happen without interaction of the subscriber himself.
+3.  Closing
+                                                                   It has no effect on the availability of the funds on these
+(a)  Node DL shutdown broadcast                                    particular addresses. All are spendable or can receive
+(b)  Clearing                                                      more BURST. Until the subscriber himself does not sign
+
+
+
+
+The Burst Dymaxion — 11/23
+his participation on-tangle, the particular address is still
+detached from the tangle. If this parameter is given, we
+speak of a private DL else it is a public DL - open to
+everybody, in which case tx fees for clearing of balances
+upon folding are paid by the subscribers themself.
+Cost  Creating a tangle implies a minimum transaction fee,
+which is independent of the collateral. It consists of a
+fixed and a variable part. The fixed part being a constant
+fee going to the miners in the block where the tangle
+opening was recorded .The variable part depends on the
+number of subscribers - see equation 2 - and is locked to
+a time until the tangle folds. This fee is intended to cover
+the tx cost for clearing operations for the participants.
+Fvar = Nsubscribers ∗ Fordinary−payment                                (2)
+Although the on-chain accounts are protected from any
+form of hijacking - simply being referenced by the tangle initia-
+tor has no effect - an initiator has also no motivation to reference
+an arbitrary number of on-chain accounts, as this will raise the       Figure 9. Parallel node discovery for 3 colored tangles (DL
+tangle opening fee. Unspent tx fee (reserved for a subscriber          network infrastructure acquisition): Peer lookup, check against
+who never signed on-tangle) is forfeited for the tangle initiator      node capabilities.
+and goes to the miners of the Burst blockchain block where the
+folding of the tangle is recorded.
+While there are defined maximum values for TTL and sub-
+The tangle initiator is technically just the first subscriber to
+scribe time, there is no minimum time given, except the con-
+the tangle, therefore his collateral is defined the same way as
+straint
+for all subsequent subscribers: by providing a signature for the
+respective Burst address with X funds at the time of signing.
+tttl                                                                   > tst                                                               (3)
+By successfully recording the tangle to the Burst blockchain,
+it will get a unique ID - its “color” - and by definition all units
+must be met. This allows for short lived dymaxion layers that
+on this colored tangle are limited to this context. As of now,
+can be opened and closed within one block and its approx. 240
+there is no inter-tangle transaction possible, all value transfer
+seconds life time. Naturally these kind of short-lived DLs are
+desired to happen between two different colored tangles has to
+probably more suited for machine2machine IoT transactions
+go over the Burst blockchain as intermediary.
+instead.
+Node discovery
+3.2  A Transaction within a DL
+Figure 9 shows the step immediately following the DL initia-
+                                                                       For consistency reasons, to describe a transaction process on the
+tion: node discovery. In this step, a DL initiation requirement is
+                                                                       DL, we would like to use parts of the IOTA terminology: sites
+broadcast to the peers of the node that got the tangle initiation
+                                                                       are transactions represented on the tangle graph. The network
+requirement (not necessarily the node of the tangle initiator).
+                                                                       is composed of nodes which issue and validate transactions.
+The peers record this requirement, broadcast it to their
+As in IOTA, the main idea of the tangle is the following: to
+peers and check the DL parameters against their own capability
+issue a transaction, nodes must work to approve other transac-
+configuration (see C) and in case the node’s configuration does
+tions. Therefore, nodes that issue a transaction are contributing
+allow for handling the requested DL, the node becomes part of
+to the network’s security.
+the DL network.
+So the price for a transaction on-tangle is not named in fees,
+In section 5.1 we discuss the latency and throughput bench-
+but in validation work done for other transactions. IOTA uses
+marks for tangle initiation under various connectivity scenarios
+some kind of “low-effort PoW” to validate a transaction. This
+and geographic situation.
+design choice makes sense, if you target IoT devices and lots
+DL Subscription                                                        of them. The problem is, it works only with sufficient security
+Within the Subscribe Time as defined by the tangle initiator,          if such a large scale tangle network is already in place.
+each subscriber must sign his address on-tangle to become              The Burst Dymaxion implementation will support all three
+participant of the newly formed DL. If a list of subscribers has       types of consensus algorithms, but we will start off with just
+been given, the subscriber must be part of that list (private DL)      PoC until the network has reached sufficient size and more
+and the respective tangle can be seen as an invite-only. If no         experience from network operation is gained.
+such list has been given, the DL is open to everyone with an           The on-tangle PoC validation will be quite similar to BURST
+address on the Burst blockchain.                                       mining and also using regular PoC2 plot files, although the re-
+
+
+
+
+The Burst Dymaxion — 12/23
+quirements for the plot size of a node will be much lower - in       recorded with its hash value so forging the records, although
+the order of 1-5 GB plot size. The node will validate transac-       they may have been archived by a single entity only, is consid-
+tions also by finding deadlines to the tx hash of the transaction    ered impossible. This attribute of immutability is an important
+to validate.                                                         legal requirement in archiving financial documentation.
+In case it can’t find a deadline below a certain threshold, the      Even if all tangle participants choose or are required to keep
+validation has failed and the node can’t validate that particular    the tangle records (similar to bank statements), the storage is
+transaction.                                                         in their responsibility and thus only of their local interest. The
+If a node manages to validate two transactions this way, it          blockchain is free to just record openings and closings of the
+can use its solution to send a transaction itself and the cycle      tangles working above it and sustaining the high-volume trans-
+repeats (with another set of on-tangle nodes).                       actional load. Tangle storage is left completely to the private
+Because this type of validation is verifiable (nodes can             domain only to those who have interest keeping the records, yet
+verify the PoC validation solution found by other nodes), there      these records’ immutability is ensured by the decentral Burst
+is no need for a central entity to issue any specific transactions   blockchain.
+as this is currently the case with the IOTA coordinator.
+Moreover, there is no gain for nodes to amass more PoC               3.4  Blockchain Enforcing
+space for validation, as it will not give them more “validation      Security of off-chain transactions is enforced by blockchain
+power”. The PoC validation is a minimum-threshold satisfi-           smart-contracts without creating an on-blockchain transaction
+ability problem, which is either met or not. Should a miner          for individual payments.
+with several hundred TB of PoC2 plots decide to use these for        The blockchain serves the function of an arbiter, so it is
+on-tangle tx validation (which we assume will be more the rule       possible to conduct transactions off-blockchain without limita-
+than the exception), it will not give him any more power than a      tions. Transactions can be made off-chain with confidence of
+regular 1-5 GB node has, as the tx validation PoC2 search is a       on-blockchain enforceability and deterministic results.
+1st fit.                                                             Enforcing the transfer of collaterals after folding of the tan-
+                                                                     gle does not require cooperation from any counterparty. Clear-
+3.3  Closing a DL                                                    ing operations are solely on the ACTT running both on-chain
+When a Dymaxion layer is closed, we speak of the tangle              as well as on-tangle.
+folding. This is because upon initiation of closing the layer,       While subscribed parties can choose to not participate in
+clearing of all participants’ (initiator and subscribers) balances   any on-tangle transactions, their on-chain collaterals remain
+happens and after the final balances are in the Burst blockchain     frozen until the tangle is folded.
+- as ordinary payment transactions with the respective fee from
+the tangle setup cost - the whole structure of the tangle is
+4. Security Considerations
+scrapped. As of now, there are two possible conditions when a
+tangle will fold:                                                    4.1  Collusive Nodes Attack
+                                                                     In a tangle network a possible attack scenario is a set of collu-
+•  the tangle TTL has expired
+                                                                     sive nodes causing either double spends ot modifying transac-
+                                                                     tions along the graph while validating them for each other and
+•  there are no subscribers (except initiator) to the tangle
+                                                                     causing a so called parasite chain - see [1], pg. 20.
+after the subscribe-time
+                                                                     The IOTA paper introduces a family of Markov Chain
+The first condition is defined by the tangle intiator when           Monte Carlo (MCMC) algorithms to counter the problems of
+creating the dymaxion layer, whereas the second condition is de-     bad tip selection from collusive attackers.
+fined by the subscribers who either do not show up (subscribe)       The Dymaxion implementation uses instead a Byzantine
+on the tangle at all, or who unsubscribe.                            Consensus Algorithm. From a mathematical model point of
+Unsubscribing from a tangle does not free up the sub-                view, attackers in the network can be considered “faults” in
+scribers funds on-chain or on-tangle. These still remain locked      a distributed computing protocol.  Byzantine fault tolerance
+until the tangle folds.                                              (BFT) is achieved if the non-malicious nodes have a majority
+                                                                     agreement on their strategy like handling or default values for
+Tangle records
+                                                                     missing or corrupted messages.
+If a tangle participant chooses to keep the records, he is free to
+                                                                     We use the BFT-SMaRt14 - a Byzantine fault-tolerant state
+do so, but these are of no relevance to the funds that are now
+                                                                     machine replication library to build dependable protocols. Given
+on the Burst blockchain.
+                                                                     f as the number of faulty nodes, the total number of nodes
+Some participants, most often the initiator if it’s a financial
+                                                                     needs to be 3 f − 1 for a correct operation of the transaction
+institution, are required by law to keep these records and they
+propagation on the tangle (2 f − 1 honest nodes).
+can do so, but these records have no impact on blockchain size.
+This puts an upper boundary for the maximum tolerable
+On the other hand, the Burst blockchain can serve as war-
+portion of malevolent nodes at almost 33%. If there are more
+rant of validity of these privately kept records, as the tangle
+entry and exit points are stored. The final tangle state is being    14 https://bft-smart.github.io/library/
+
+
+
+
+The Burst Dymaxion — 13/23
+than 1/3rd malevolent nodes, trustable transaction validation        battle-tested in the wake of the spamming attacks that occured
+on-tangle is not possible without further security precautions.      in July 2017.
+While we believe that an attack with such a high number
+of colluding nodes is infeasible for large global networks, this
+5. Results and Discussion
+theoretical limit also exists for the IOTA network as a whole,
+no matter the tip selection algorithm used.                          5.1  Prototype Performance
+Contrary to this, a Dymaxion layer has additional security           We performed various benchmarks with prototypes for DL
+measures in place. As described in section 3.1, the node discov-     initiation consisting of node discovery latency timings, inter-
+ery run picks potentially from the total set of nodes in the Burst   node communication throughput and various cost metrics.
+network a subset suitable and available for the initiated colored
+                                                                     The benchmarks are done with a scripted prototype and are
+tangle. Given N as the total number of nodes in the Burstcoin
+                                                                     preliminary. As such they can be expected to improve, but as
+network, and T as the number of available and suitable nodes
+                                                                     you can clearly see from the numbers, perfomance is good even
+for the Dymaxion layer tangle, where T ⊂ N (T is proper sub-
+                                                                     in the worst case scenario with many adverse effects coming
+set of N), collusive nodes would have to take up to 33% of the
+                                                                     into play.
+whole Burst network N and not only a subset T .
+We also would like to point out, that all members of set             Latency
+N are constantly vetted as part of the Burst network and once
+misbehaving are blacklisted by other nodes in the network,
+which effectively bars them from being chosen into set T .
+Even if a tangle initiator would work in collusion with such
+a network, the tangle initiation parameters cannot be set in a
+way that would favor the preferred choice of malicious nodes
+and by this lure the tangle subscribers into a trap to steal their
+collaterals.
+4.2  Spamming and DoS Scenarios
+Transactions on-tangle are free from fees. If they were truly
+zero-cost transactions, there would be nothing at stake for some
+attacker who would like to issue a huge amount of transactions
+for some own benefit (spamming) or to simply congest the
+network and hinder other transactions to be validated (DoS). In
+the worst case, the attacker could amass a processing power that
+would allow him to execute a whole class of majority attacks
+with dire consequences to the network as such.                       Figure 10. Node discovery at reference point
+IOTA currently counters this problem by the use of a so-             (wallet.burst.cryptoguru.org)
+called Coordinator - a specific node run by the IOTA foundation
+to make specific transactions called Milestones - to stabilize the   Figure 10 shows node discovery latency from our point
+network until it has reached a size that would make majority         of reference, the PoCC online wallet, hosted as some german
+attacks infeasible.                                                  ISP and representing currently the best case scenario for the
+The Burst Dymaxion design starts at a much better initial            prototype. As you can see, the maximum response time from
+situation. Instead of a centralized entity to rely on, the under-    a peer answering (a potential tangle node) is below 0.8s with
+lying Burst network and the blockchain form already points           the majority of peers having answered within 0.1s. This can be
+of reference upon entry and exit of a tangle. Moreover, nodes        considered the best case scenario, where a broadcasting node
+propagating on-tangle transactions are required to perform a         with a good connectivity is also in a region of dense Burst nodes
+PoC for tx validation.                                               presence.
+PoS and PoW consensus algorithms for on-tangle transac-              For comparison, figure 10 shows discovery latencies from
+tions will be added as DLs will run on devices not capable to        a node with regular internet connectivity (cable) for a home
+perform a PoC consensus (or are defined for a low resource           network, situated near a region with good Burst nodes coverage,
+requirement operation see C), but the initial mode of operation      but no nodes in the own country yet. This can be considered
+will allow for the network to grow in a decentralized manner         the standard situation in areas where the Burst network starts to
+without any entity to exercise central control over any aspect of    proliferate. The PoCC network observer gives a good overview
+it.                                                                  of areas with dense Burst nodes presence and their neighboring
+As mentioned in section 4.1, nodes in the Burst network              regions.
+are vetted and blacklisted when misbehaving (e.g. spamming)          Even in this case, almost half of the answering peers remain
+already. This is actually a functionality that has been added and    under 0.1s with the slowest peer answering with a latency of
+
+
+
+
+The Burst Dymaxion — 14/23
+Figure 12. Node discovery from a Burst node situated in
+Tokyo - ISP network
+Figure 11. Node discovery from a Burst node situated in
+Prague - home network
+around 800ms. Even for the very specific case of a flash tan-
+gle to be formed and folded within one Burst block (ca. 240
+seconds) this would leave over
+nv = (240 −ti −tf )/tavg                                                       (4)
+validation steps within the tangle for transactions. ti being the
+tangle initation time, tf  the tangle folding time, tavg being the
+median response time per node, 0.085228s in the “Prague” case.
+Depending on the width of the tangle w = nn/2, this allows for
+at least
+nv ∗ w                                                                         (5)
+                                                                               Figure 13. Node discovery from a Burst node situated in
+on-tangle transactions until folding the tangle potentially in the
+Sydney - ISP network
+same block. (238/0.085228) ∗ 10 = 27925 transactions in this
+case.
+So even some pathologically small tangle consisting of only
+with a tangle formed in Europe are shown in figure 13. The
+20 nodes, could perform intra-block almost 28k transactions in
+maximum latency is 1147ms, the median is 631ms which re-
+a 240s time window (over 10 million tx per day). This is the
+sults to (237/0.631) ∗ 10 = 3756 transactions during a single
+green tangle depicted in figure 7.
+Burst block time (1.35 million tx per day).
+While this number isn’t even the best possible case, let’s
+look at some worst case scenarios. Tangle initiation, folding
+Throughput
+and operation from a region far away from dense Burst nodes
+Besides latency, we measured throughput for the peer initiated
+presence. Once Burst nodes proliferate to form a truly global
+to form a DL. Table 1 shows the results for the prototype im-
+and omnipresent network, such a situation may not even exist,
+                                                                               plementation.  The results are representative, but measuring
+but it is always good to have a limn→∞xn estimate.
+                                                                               throughput for long-distance node-node communication is nat-
+Figure 12 shows the situation for a node far away from
+                                                                               urally highly volatile, as time of day, global network load or
+other Burst nodes. We can see a maximum of 1094ms latency
+                                                                               regional ISP activity can have an influence.
+with the median being at 582ms. In this case our formulas 4
+                                                                               “One-off” measurements handle one tx validation (connect,
+and 5 resolve to roughly (237/0.582) ∗ 10 = 4072 transactions
+                                                                               validate) then exit, so we can rule out any network caching
+during a regular Burst block time (1.46 million tx per day).15
+                                                                               effects, although we can assume for a long-running tangle
+The most exiled node the PoCC could benchmark is situ-
+                                                                               better network throughput performance as peer connections
+ated in Sydney, Australia. Measured latencies from this node
+                                                                               will be in router caches.
+15 theoretically 237.812 seconds, but we are rounding to account for further   The high performance between “Sydney” and “Tokyo” nodes
+processing delays                                                              is probably due to the fact that these - while geographically
+
+
+
+
+The Burst Dymaxion — 15/23
+                                                                                                                                         min \ max   Germany   Prague    Tokyo   Sydney                                      is always considered the premier option (e.g. PoC2 CIP in sec-
+                                                                                                                                                                                                                             tion C)
+Germany                                                              -                                                                   22.30                                                             98.70    68.60
+If more rigorous changes are required with significant conse-
+Prague                                                               11.70                                                               -                                                                 3.82     3.24
+quences (hard-forking, re-plotting), the cost-benefit evaluation
+Tokyo                                                                81.80                                                               3.26                                                              -        152.00
+must weigh significantly in favor to the benefit aspect.
+Sydney                                                               52.40                                                               2.63                                                              150.00   -
+                                                                                                                                                                                                                             It is evident, the Dymaxion as whole represents the most
+                                                                                                                                         Table 1. one-off node-node connection throughput in Mbit/s                          significant update to the Burst cryptocurrency. The claim is to
+                                                                                                                                                                                                                             provide a cryptocurrency capable of sustaining the total global
+                                                                                                                                                                                                                             load of non-cash transactions. To the best of our knowledge
+                                                                                                                                         distributed - are operated by the same ISP and evidently have a
+                                                                                                                                                                                                                             any Burst stakeholder section should root for this to happen.
+dedicated connectivity.
+In general, each change should undergo the CIP workflow
+The poor connectivity between the “Prague” node and the
+(see also C). Each feature would have two thresholds that need
+two “Sydney” and “Tokyo” nodes suggests that it is probably
+to be met in order for it to become active: 1) an activation block
+not a good idea to initiate a tangle from your home network. In
+                                                                     height, which should be set far enough in the future, so every
+fact, we assume tangle initiation will be done by large corpo-
+                                                                     node operator has enough time to prepare for it, and 2) a defined
+rations or institutions with dedicated hardware and excellent
+                                                                     percentage of signalling nodes to support this feature, which
+connectivity.
+                                                                     would by definition be Burst nodes capable of the feature in
+Still, let’s examine what throughput-limited performance
+question.
+we could expect if a tangle was to be formed between geograph-
+ically distributed nodes such as in this case. The payload for an
+Acknowledgments
+ordinary non-anonymous transaction is roughly 200byte. An
+anonymous ring signature takes up to 3 kB, while zk-SNARK            The authors would like to thank many members of the crypto-
+tx is roughly 2kB.                                                   graphic community for their support and valuable input. Anton
+Even in our worst-case scenario (Prague-Sydney), we can              Yip provided great insight into Burst CIYAM ATs and their
+see that throughput is not a limiting factor. Theoretically, even    applicability to ACCTs. Burstcoin community member Quibus
+a 2.63 Mbit/s throughput (336.64 kB/s) could allow for               took the time for a forensic dilligence of the Burst plotting and
+mining process. Also, his proposal of a backward-compatible
+•  1683 tx/s ordinary payments
+and un-gameable PoC2 can be considered a milestone for Burst.
+•  168 tx/s RS-anonymous transactions                                Tom Créance (@Gadrah) helped with the visual representation
+                                                                     of some figures. Sergey Blagodarenko for providing insight
+•  112 tx/s zk-SNARK-anonymous transactions
+                                                                     and code on the PoC1 gameability problem. We also would
+However, compared to the latency-limited 3756 tx per Burst           like to express our gratitude to the numerous authors of Bitcoin,
+block time - giving us “only” 15 tx/s for a pathologically small     IOTA, Monero and ZCash. Without the giants who kindly let
+and excessively relocated tangle, throughput limits are not the      us stand on their shoulders, we would not have had the building
+issue.                                                               blocks necessary for the Burst Dymaxion.
+5.2  Adoption Process
+Burst has been around since 2014, yet it is still small enough to
+allow for significant improvements without a long and paralyz-
+ing scaling debate. It is natural if cryptocurrencies with large
+market capitalization have to be very conservative with their
+changes to the code base given the amounts at stake.
+While Burst is more flexible in this aspect, as a cryptocur-
+rency there are certain principles development must adhere to.
+Changes to the code base must have the approval of the major-
+ity of users, which in this case are wallet/node operators (not
+miners). Blindly forking the coin can result in community split
+and is undesireable in general.
+Establishing The Burst Dymaxion will be an incremental
+process consisting of the implementation of several Burst CIPs
+(see section C - partially C). Each of these steps will carefully
+adhere to a well defined and transparent process with evident
+benefits resulting from its adoption.
+Because the Burst Dymaxion is a layer on top of the Burst
+blockchain, virtually all essential components of Burst will re-
+main unchanged and if there is a change, backward-compatibility
+
+
+
+
+The Burst Dymaxion — 16/23
+Appendices                                                           SHABAL256 operations have to be performed, as each SHA-
+                                                                     BAL256 delivers a 32byte (256bit) hash value only.
+A  SpaceMint Paper Errata
+                                                                     Because the amount of input data that is being given to the
+SpaceMint: A Cryptocurrency Based on Proofs of Space[15]
+                                                                     SHABAL256 is capped at 4096 bytes, it’s also not "  8 million
+is a paper about a proposed cryptocurrency named SpaceMint
+256bit blocks" that are being hashed in total to get all scoops in
+which is based on a ”proof of space” concept - some of the
+a nonce, but exactly 33292288 bytes, therefore a total 1040384
+authors presented in another paper.[16]
+                                                                     of 256bit blocks. So roughly 8 th of the claimed value in the
+In section 2 "Related Work", the authors make some claims
+                                                                     SpaceMint paper.
+about Burstcoin as it is the only coin implementing a Proof-of-
+Capacity consensus - somewhat related to the Proof-of-Space          Ad “time-memory tradeoffs”   As mentioned in the previous
+described in the paper. In particular they make 3 claims about       paragraph, many estimates of the authors are based on the
+Burst weaknesses:                                                    insufficient information about how Burstcoin works at the time
+                                                                     available to them. This results in certain follow-up errors that
+•  By requiring the examination of a constant fraction (0.24%)       skew the computations. E.g. there are 8192 hashes computed
+of reserved disk space, Burst is - according to the authors          and not 4097. So for the attack as described by the authors,
+- inefficient compared to SpaceMint which requires only              there is actually only 1/8192th of the total plot space needed
+a logarithmically proportional amount of examination.                (the final 32 bytes to perform the XOR)[4].
+                                                                     Now with the current PoC used with Burstcoin, there indeed
+•  Verification is problematic in Burstcoin, because “a miner
+                                                                     are time-memory tradeoffs possible, roughly as the authors
+has to verify 8 million blocks to verify another miners
+                                                                     describe. The Burstcoin developers have been aware of this
+claim”.
+                                                                     possibility to use less Capacity and invest more Work for a
+                                                                     specific range of Scoops (at this moment the highest 64 Scoops
+•  Burstcoin being susceptible to time-memory tradeoffs,
+                                                                     4096 - 4032 are prone to this attack in a somewhat viable way).
+thus allowing miners to mine using PoW and using just a
+This attack on PoC mining fairness was possible in theory,
+small fraction of space to be at the same rate as “honest
+but not feasible economically, because the PoW required for
+miners”.
+this mode of operation consumed far more energy than a PoC
+mining style. However recent advancements in hardware and
+We would like to clarify and refute some of these claims,
+GPU performance do show, that economical feasibility is just a
+because they seem to have originated in the SpaceMint authors’
+matter of time.
+incomplete understanding of the Burstcoin PoC and even some
+simple arithmetic mistakes.                                          Therefore this situation must be addressed. A PoC2 CIP
+                                                                     (see C) is underway to ensure the Burstcoin blockchain is not
+Ad  “inefficient examination”   It is correct, that Burstcoin
+                                                                     gameable in any way - not even with the advent of any theoreti-
+requires per round - each block every  240 seconds - 1/4096th of
+                                                                     cal SHABAL256 ASIC devices postulated by the SpaceMint
+the space reserved on disk to examine16. The authors also point
+                                                                     authors.
+out correctly this being 0.024%. Unfortunately in their model
+comparison with SpaceMint, using a 1TB mining space, they            Summary   Burst is neither inefficient in plot examination dur-
+transform this 0.024% into 24 gigabyte of data to be examined        ing the mining process, nor is the load put on a verifier “too
+for Burst, while SpaceMint allegedly requires only 24 megabyte       high”.  We agree that there is a small theoretical possibility
+to be examined.                                                      for “time-memory tradeoffs”, but as of this moment its security
+Due to lack of availability we were not able to verify the           impact is low. Burst will undergo a series of upgrades and this
+claimed requirements for SpaceMint, but 0.024% of 1TB cor-           issue will be addressed by a PoC2 CIP (see section C).
+rectly translates into 240 megabyte, thus a factor of 100 lower      We would also like to add that reducing mining and verifica-
+than the authors’ wrong comparison value. We therefore be-           tion effort is not necessarily the ultimate goal. The SpaceMint
+lieve, that the claim of Burst inefficiency merely exists due to     authors are aware of so called Nothing-at-stake problems:
+this error in the SpaceMint paper.
+                                                                     When replacing PoW with a different type of proof
+Ad “problematic verification”   The authors avow that their
+                                                                     that is computationally easy to generate (such as
+assessment of the Burst plotting and mining process is only
+                                                                     PoSpace), a series of problems arise which are
+their best guess, based on the - admittedly - sparse and informal
+                                                                     collectively known as nothing-at-stake problems.
+specification at the time of writing the paper. They base their
+                                                                     Intuitively, because mining is cheap, miners can
+claims mainly on the old, and even at the time of its publication
+                                                                     (1) mine on multiple chains, and (2) try multiple
+not exact Mining/Plotting diagram.17
+blocks per chain, at very little additional cost. (3)
+The biggest deviation from the actual situation results from
+These two problems potentially allow for double-
+the fact, that in order to compute one scoop (64 bytes), two
+spending attacks and slow down consensus.
+16 a so called Scoop
+17 See also https://is.gd/bwPjCb                                     We believe the Burst mining process is a premier example
+
+
+
+
+The Burst Dymaxion — 17/23
+Figure 14. Proof-of-Capacity 2.0: backward-compatible plots with scoops consisting of interleaved SHABAL256 hashes.
+Preventing time-memory tradeoff for high-range scoops.
+of an equilibrium between energy-efficiency and nothing-at-
+stake problem prevention.
+Figure 17. Burst/Qora ACCT step 3: Alice sends after
+examining the AT from Bob, the key to the Qora AT.
+•  Alice (the Initiator) wants to trade Burst for Qora.
+Figure 15. Burst/Qora ACCT step 1: Alice deploys an ACCT
+•  Bob (the Responder) wants to trade Qora for Burst.
+AT on Burst that will contain the responder’s address, quantity,
+password and expiration time. Two hashes are made of the
+Now there are only 4 steps necessary to be provided by the
+password: key and lock
+AT mechanism running on both the Burst and the Qora chains -
+see figure 15 to 18. The communication between Initiator and
+Responder, like sending the details of the generated ATs and
+INitiator to Resipient key in case everything went well is of
+course done off-chain and the mode of operation depends on
+what communication channels are established (website, phone,
+face to face,...).
+C  Burstcoin CIPs
+Burstcoin Capability Improvement Proposals18 establish a pro-
+Figure 16. Burst/Qora ACCT step 2: Upon examining Alices                                                              cess, defined by the Burst community, similar to BIPs19 (Bit-
+AT, Bob deploys an ACCT AT on Qora with the initiator’s                                                               coin Improvement Proposals) and EIPs20 (Ethereum).
+address, quantity, lock sent from Alice and expiration time                                                           CIPs (short for "Capability Improvement Proposal" or even
+(less than than what Alice set).                                                                                      "Coin Improvement Proposal") are meant to advance further
+development of Burstcoin and describe proposed standards for
+the Burstcoin platform, including core protocol specifications,
+B  The Burst/Qora ACCT Process                                                                                        client APIs, nomenclature and contract standards.
+The general process of an ACCT is described in section 1.5.
+18 https://burstwiki.org/wiki/CIP
+For the concrete Burst/Qora realization, which to the best of
+19 https://en.bitcoin.it/wiki/Bitcoin_Improvement_
+our knowledge was the 1st ACCT ever realized, please see the                                                          Proposals
+depicted reference below.                                                                                             20 https://github.com/ethereum/EIPs
+
+
+
+
+The Burst Dymaxion — 18/23
+Figure 18. Burst/Qora ACCT step 4: The Qora AT sends the
+Amount to Alice’s address and reveals the key to Bob for the
+Burst AT. Bob sends the key to the Burst AT and receives the
+payment.
+What’s not covered by CIPs are changes or improvements
+to the coin that can be done without any change to the protocol
+or API, such as UI or usability improvements. Improved wallet-      Figure 19. PoC1 time-memory tradeoff PoW miner speed.
+UI or initializing a Burst address with a public key without an     Y-axis shows nonces/minute on 1 CPU core, X-axis the nonce
+outgoing transaction fall into that category.                       number. source: Sergey Blagodarenko
+PoC2
+The “time-memory tradeoffs” mentioned in the SpaceMint pa-          As can be seen in figure 20, PoC1 optimized plots provide
+per are real and show a weakness of the PoC (henceforth PoC1)       significant advantages compared to unoptimized plots.  The
+consensus used in Burst. A proof-of-concept implementation          number of seeks of a unoptimized PoC1 plot is basically n-
+exists (see figure 19) - improving its speed is only an engineer-   times the number of nonces in that plot, which can be in the
+ing task. While they currently do not represent a fatal threat to   millions.
+Burstcoin (one can assume around 2% of all mining capacity          Compared to this, the difference between seek times of
+going to dishonest miners), it is good practice for a cryptocur-    a PoC1 plot interpreted as a PoC2 (unoptimized PoC2) and
+rency, as well as a sign of responsible development, to address     “native” PoC2 is merely a factor of 2, as for each PoC2 scoop,
+such issues in a timely manner. Moreover a Burst blockchain         two PoC1 scoops have to be read (consisting of the two 32-byte
+being the backbone of many high-volume payment channels             SHABAL256 hashes).
+must address security issues even if they haven’t yet crossed       This factor 2 applies to both unoptimized as well as opti-
+the threshold to practical applicability.                           mized PoC1 plots.
+Therefore several Burst core developers discussed ways to
+Burst Units Nomenclature
+address this problem in a way that would not only fix the issue,
+Burst is divisible, similar to many other cryptocurrencies, into
+but also do so with minimum impact to the current stakeholders,
+100 million parts. Up to now, BURST had an equivalent value
+in this specific case miners who are vested with a large capacity
+in the low cent range, so nomenclature of fractions of BURST
+of plots.
+seemed not important.
+The PoC2 proposal is a minimally invasive way to achieve
+Similar to the nomenclature of Bitcoin units21 we propose
+time-memory tradeoff resistance, while keeping the currently
+a simple naming scheme for the fractions of BURST - see table
+used plots functional.  Figure 14 shows the concept of hash
+2.
+interleaving to re-shuffle SHABAL256 hashes in scoops in a
+While the canonical SI-names milliBURST (mBURST) and
+way so that each scoop represents an equal amount of hashing
+                                                                    microBURST (µBURST, or uBURST) are probably best used
+effort.
+                                                                    in technical documentation and protocol specifications, the
+Software used for the mining process can operate on both
+                                                                    more intuitive names like Burst-cent (BC → “Bessie”) instead
+PoC1 as well as PoC2 format, where PoC1 requires twice the
+1
+of centi-BURST or                                                   h of this (MilliBessie → “Maybel”)
+reads compared to PoC2 and works on both optimized as well          1000 t
+                                                                    can be used for human2human communication.
+as unoptimized PoC1 plots.
+                                                                    We denote the smallest unit of BURST as “Planck”.
+For better PoC2 performance a PoC1 → PoC2 converter
+will be offered.                                                    21 https://en.bitcoin.it/wiki/Units
+
+
+
+
+The Burst Dymaxion — 19/23
+Figure 20. PoC1 unoptimized and optimized plots. Optimized
+plots reduce HDD seek time significantly, by an order of
+magnitude equal to the number of nonces present.
+                                                                                                                                                 Figure 21. Comparison constant and linear-progressive fee
+                                                                    Decimal (BURST)   Canonical Name   Alternate Name
+                                                                                                                                                 structure inclusion guideline. A linear-progressive fee structure
+1.00000000                                                          BURST                                                               Burst    does allow for microtransactions, while preventing spamming
+0.01000000                                                          cBURST                                                              Bessie   and ensuring miner rewards in same height as in the
+0.00100000                                                          mBURST                                                              -        constant-fee system under high-load conditions.
+0.00001000                                                          -                                                                   Maybel
+0.00000100                                                          uBURST                                                              -
+0.00000001                                                          -                                                                   Planck   way tx fees could be above this upper limit and there is no way
+- even if users would like to spend more than the minimum of 1
+0.12345678                                                          digit reference                                                     -
+BURST per transaction - to get more than 255 transactions into
+Table 2. Units of BURST and its fractions                           a block.
+We propose to make transaction cost and block size dy-
+namic values to be better able to cope with varying transactional
+Dynamic Block Size and Tx Cost
+load on the Burst blockchain.
+Currently, the minimum tx fee is 1 Burst and the maximum
+Given the Burst blockchain is stored in a relational database,
+number of transactions that can go in a block is 255. Both these
+varying block size is not much of an issue. Yet, space on the
+hard-coded values do work well only for a narrow parameter
+blockchain is to be considered a scarce, thus precious resource.
+space of Burst value and transactional load on the network.
+Cost of a transaction should therefore depend on how much
+If we imagine a scenario where Burst rises to a value of 1,
+space it will occupy within a block and thus on the blockchain.
+10,100 USD - or even BTC levels, an immutable transaction
+Furthermore, the cost of a transaction should depend on
+fee of 1 Burst would certainly be inhibitory to network usage.
+network load, which by extension means fill state of forged
+While that might not be a big problem in a future scenario where
+blocks. Currently values for the number of transactions and
+Burst is used as (valuable) collateral in opening and closing
+the maximum block payload are hard coded in the burst wallet
+Dymaxion layers, there are other arguments against keeping
+source:
+these values as-is.
+Hard-capping the lower bound of tx cost to 1 Burst effec-
+MAX_NUMBER_OF_TRANSACTIONS  =  255;
+tively dismisses possible Burst microtransactions, because a
+MAX_PAYLOAD_LENGTH  =
+transaction of 0.0012 Burst with transaction cost of 1 Burst is
+MAX_NUMBER_OF_TRANSACTIONS  *  176;
+illogical.
+On the other hand, simply lowering transactional cost could
+If we assume a regular block filled with the current max.
+lead to spam attacks on the network. The low value of Burst
+capacity of 255 ordinary payments, the total tx fee would be
+together with fixed cost per transaction, independent of transac-
+255 Burst and the payload would be 255 ∗ 176 = 44800 bytes.
+tion size in bytes, already did enable a spamming attack in July
+This means, the current protocol expects - roughly, without
+2017 disturbing network operation significantly.
+headers - to be paid 1 BURST per 176 byte of tx payload.
+At this moment, the transaction fee possible for one block
+                                                                    Compared to this, the bitcoin network22 offers a fee structure of
+are in the range from 0 Burst (for empty blocks) to 255 000
+Burst (for a block filled with 255 generated assets). There is no   22 https://bitcoinfees.earn.com/
+
+
+
+
+The Burst Dymaxion — 20/23
+                                                                    1 to 430 Satoshi per byte, with best-case 0-block delay starting                Together, these two modifications (linear-progressive fee
+at 270 Satoshi/byte.                                                                                                                                and max 1020 tx/block), would ensure that nominally, miner
+                                                                    As of December 2017, the transaction cost structure com-                        earnings will remain the same.  “Nominally” meaning same
+                                                                    parison between Burstcoin and Bitcoin (1 BURST = ca. 150                        network load, same price.
+                                                                    Sat), shows 0.85 Satoshi/Byte in the Burstcoin network and                      Moreover micro-transactions should be possible and under
+                                                                    therefore a roughly 317x higher cost for Bitcoin block space                    high-load conditions miner profit would be a multiple of what
+                                                                    and ca. 900x higher cost for network transactions, as a Bitcoin                 it is now. By enabling limited micro-transaction capability on-
+transaction is roughly 500 bytes in size23.                                                                                                         chain now, Burst would open to new applications and markets.
+                                                                    In Fiat, this means that at a price of around 3 US-cent per                     Still, with the progressive fee structure spamming would be out
+                                                                    BURST, one byte of payload costs 0.017 cent in the Burstcoin                    of the question and financially strong market participants could
+                                                                    network and around 5.4 cent in the Bitcoin network.                             basically “throw money at the problem”, when e.g. a financial
+                                                                    If the hardcoded tx cost for the Burst network was to remain                    institute would need to open a Dymaxion layer in the current
+                                                                    at 1 BURST minimum, Burst would reach the same level of                         block, it most probably could do so at a premium.
+                                                                    tx cost that Bitcoin has today at a price of 176 ∗ 5.4 = 950.4
+                                                                                                                                                    Dynamic Node Capabilities
+US-cent, therefore around $9.50.
+                                                                                                                                                    The network consisting of P2P nodes will never be homogenous
+                                                                                                                                                    as hardware capabilities of the nodes will always differ. In our
+Tx no.                                                              Tx fee                                                             Total fees
+                                                                                                                                                    opinion it is not desireable to make artificial (1-dimensional)
+1                                                                   0.00735                                                            0.00735      distinction between so-called “super-nodes” and “regular-nodes”
+100                                                                 0.73500                                                            37.11750     as some cryptocurrencies do. Neither does it seem to be the
+255                                                                 1.87425                                                            239.90400    right design decision if some minimum capability requirements
+510                                                                 3.74850                                                            957.74175    on nodes are imposed to all nodes (such as available memory)
+765                                                                 5.62275                                                            2153.51325   thus leaving potential capacities unused.
+1020                                                                7.49700                                                            3827.21850   We believe a fine-grained configurability of nodes, extend-
+                                                                                                                                                    ing on current principles, has to be implemented. While today
+                                                                    Table 3. Progressive Tx fee reference: per-tx fee and total
+                                                                                                                                                    the BRS configuration options allow to allocate number of
+block tx-fee for various number of transactions in a maximum
+CPUs - or enabling GPU support to the processing capacity and
+1020 tx/block model.
+also define how much network traffic and peers a node is willing
+to cope with, more fundamental settings are not possible.
+If we look at todays price levels, Burstcoin miners were
+In the wke of the spam attacks, limits on mempool have
+ensuring the network for a maximum payment of 91800 Burst
+been hard-coded in the wallet. While this proved to be a very
+daily. On average, the network has been doing around 5000
+effective measure against memory DoS attacks - what the spam
+tx/day. So in addition to the block reward, the transaction fee
+attack effectively was - it prevents nodes with higher resources
+reward per day, for the whole Burstcoin network is around $150
+to make use of their full potential to support the network. We
+in December 2017.
+propose the mempool size being configurable to better adjust
+In order to cope with future development of BURST price
+to the node capabilities.
+and transaction volume, we propose a progressive tx fee struc-
+Other parameters, similar to packet introspection of routing
+ture guideline, where wallets can decide and priorize what
+protocols but in this case applying to parameters of transaction
+transaction to include in the current block depending on the
+                                                                    datagrams, could define policies for nodes, e.g. which trans-
+fill-state of the current block and memory pool backlog - see
+                                                                    actions to relay and which not. This is common practice e.g.
+figure 21. The area of the blue rectangle and triangle is roughly
+                                                                    in the Bitcoin network, where a node can decide to support
+the same (255 vs.  240). In order to be included in the next
+                                                                    low-fee transactions (by forwarding them) or not.
+block a transaction currently in mempool must provide a higher
+                                                                    We believe a structure in the network will evolve from these
+tx fee than the currently free slot in the block requires. If the
+                                                                    parameters, better adapted to the underlying node capabilities -
+transaction can fulfill this requirement, it is included in the
+                                                                    or what node operators are willing to provide - forming natu-
+block, if it can’t it will wait in mempool for the next block,
+rally a hierarchy of nodes with backbones and super-backbones
+where this process repeats.
+emerging from that.
+The progressive approach opens the door for more on-chain
+                                                                    On the other end of the scale it will also allow nodes to
+scalability.  Instead of limiting the max.  number of transac-
+                                                                    participate which are not capable of doing so today. Very small
+tions to 255, we could now theoretically have an open limit
+                                                                    embedded devices from the ubiquitous IoT, that can support
+and solve much of the scalability issues blockchains have per
+                                                                    the network serving even merely as repeaters with very little
+se. Instead, we propose a conservative extension of the max.
+                                                                    resource requirements.
+number of tx.transactions to 1020 (4-fold). With the same linear
+                                                                    In section C we talked about transactions that have to re-
+progressive rule, the reference values for a 1020-tx “triangle”
+                                                                    main in mempool in case they could not be included in the
+are shown in table 3.
+                                                                    current block. Because nodes have limits for mempool size,
+23 https://en.bitcoin.it/wiki/Transaction_fees                      transactions with the lowest fees are being discarded from mem-
+
+
+
+
+The Burst Dymaxion — 21/23
+pool first if maximum mempool size is reached. Acting as a
+spam prevention, this also ensures a priorization of high-fee
+priority transactions.
+Nodes with more resources and higher mempool storage
+parameters will still have these low-fee transactions in mempool
+while others may have already discarded them. So while it will
+not be impossible for a low-fee transaction to “survive” until
+it gets included in a block (dip in traffic volume), tx-fee is
+certainly proportional to chance of being included in a timely
+manner or at all.
+Dymaxion
+The Burst Dymaxion is not only the most significant update to
+the Burst cryptocurrency, it is the biggest technological update
+any cryptocurrency has ever received.  Each of the compo-
+nents features a full outstanding protocol feature by itself, so
+establishing the Dymaxion as a whole needs to be done as an
+incremental process, split up into several separate CIPs:
+•  adding ring signatures library
+•  adding zk-SNARKs library
+•  adding parts of the IOTA iri
+•  adding ACCT (ACTT) templates
+As mentioned earlier, all of these components are already                       Figure 22. Symmetric Feistel cipher transformation for
+in place, and some may be at the time of the publication part of                individualization of a PoC3 plot file.‡
+the BRS repository. The integration and enabling of these fea-
+tures will be subject to a community-approved roadmap defined
+by block-height and adoption rate (percentage of supporting                     The protocol would allow these files to be announced to the
+wallets in use) for the features as described in section 5.2.                   network (SHA256, size) and voted on by nodes for validation
+Also the features themself will be establishen in an incre-                     inclusion. If a very high percentage (say 95% threshold) of the
+mental process. While there is support for all major consensus                  nodes would vote in favor of adding these files to the pool of
+algorithm types, only PoC - as already present - will be enabled                “dual-use plots” which also implies storing these files themself,
+in the first instance of the Dymaxion.                                          each node would find deadlines in these files based on a suc-
+                                                                                cinct test of values of a virtual hard-to-pebble[17] trees laid
+Post-Dymaxion: PoC3
+                                                                                over individualised versions of these files. Once in the pool
+The advantages of PoC in comparison to PoW or PoS have
+of accepted plots, PoC3 plots would need to remain there, be-
+been mentioned and examined under multiple perspectives
+cause while for mining their presence is optional, for ab-initio
+already.  While PoC and its designated successor PoC2 are
+validation of the blockchain when resyncing their presence is
+energy-efficient, which in our opinion is the only sustainable
+mandatory.24
+way for a cryptocurrency with global impact, the space used
+First, each PoC3-accepted file would undergo a Feistel ci-
+for the PoC consensus is of no other use than to perfom mining
+pher transformation (fig. 22) with the numeric Id of an account
+and tx validation for the Burst blockchain.
+to individualize it as plot and counter grinding attacks. The
+Critics have pointed out that the disk space used for Burst
+mining process would assume the file being mapped on a RB-
+is “lost” or “wasted” otherwise as plots are not really usable
+Tree(figure 23) layout as seen in figure 24.
+for anything else. This is formally true and because of this we
+Let the basic operation of the Feistel encryption with the
+propose establishing a Proof-of-Capacity 3.0 consensus some
+                                                                                round function F and sub-keys K0,K1, . . . ,Kn for the rounds
+time after the Dymaxion comes to full effect.
+                                                                                0,1, . . . ,n be as follows:
+This PoC3 will exist in parallel to PoC2. It will be based
+                                                                                Split the plaintext block into two equal pieces, (L0,R0), in
+on dual-use data instead of the Burst mining-only plots of PoC
+our case two 32-byte chunks.
+and PoC2. Dual-use means real-world data, like movies, audio,
+Wikipedia archive files, OpenStreetMap GIS data and more. In
+24 For the future, we can picture a situation with a distinction of “full PoC
+general, large immutable files of permanent interest to all - not               nodes” containing all PoC3 and being able to make such a resync and “restricted
+the private word document, holiday picture or browser cache.                    PoC nodes” being able to sync blockchain from the full nodes
+
+
+
+
+The Burst Dymaxion — 22/23
+in a logarithmic way, also the position of a submitted deadline
+on this path modifies this deadline logarithmically (in the case
+of this binary tree structure this resolves to simply halving the
+1
+value for each level n : v =                                         so 2  for level 2, 4  for level 3
+2n−1 ,
+etc.
+Using Feistel ciphers allows for individualization, yet loss-
+less retrieval of arbitrary data. The symmetry guarantees the
+cipher being of same length as the original data, paving the way
+for a dual-use Proof-of-Capacity consensus.
+The Burst blockchain will thus not only form the funda-
+mental layer for a truly global transaction network, it can also
+take over a custodian role in globally distributed redundant
+                                                                     storage. This means it can be used for the safe preservation of
+Figure 23. Red-Black binary tree structure for traversing PoC3
+                                                                     all information that has been acquired by our civilization and
+plots. Each node being a 64-byte data chunk, each depth
+                                                                     that is of permanent interest.
+represents next level as depicted in the data layout of the next
+figure.
+Figure 24. Data layout of a PoC3 “plot”. Each level twice the
+size, maximum 64 levels allow for a plot size of up to 2 YiB
+(yobibyte).
+For each round i = 0, 1, . . . ,n, compute
+Li+1 = Ri
+Ri+1 = Li ⊕ F (Ri,Ki).
+Then the ciphertext is Rn+1,Ln+1).  Decryption of a ci-
+phertext (Rn+1,Ln+1) is accomplished by computing for i =
+n,n − 1, . . . , 0
+Ri = Li+1
+Li = Ri+1 ⊕ F (Li+1,Ki).
+Then (L0,R0) is the plaintext again. Of course by “plaintext”
+in cryptography nomenclature we mean the more generic term
+original data.
+Similar to the current Burst mining process, a scoop would
+define the starting point in the data layout (index in the lowest
+level). The algorithm would traverse the RB tree of 64-byte
+scoops, where the path decision (start, then red or black for
+each level) would simply be defined by the bit sequence of the
+previous block-id 1=B, 0=R.
+A maximum of 64 steps allows for a maximum PoC3 plot
+file size of 2 YiB (yobibyte). The values along the traversed path
+would be concatenated and hashed. All values along the path as
+well as their hash value are then broadcast to the network, where
+any nodes can take over the validation of the submitted data.
+As the length of the path defines the size of the underlying plot
+
+
+
+
+The Burst Dymaxion — 23/23
+References
+[1]
+Serguei Popov. The Tangle. https://iota.org/IOTA_Whitepaper.pdf, 2017.  [Online; accessed 21-October-
+2017].
+[2]
+N. Petkov. Systolic Parallel Processing. Elsevier Science Inc., New York, NY, USA, 1992.
+[3]
+John Ratcliff. The Lightning Network Glass is Half Full Post. http://codesuppository.blogspot.com/2016/
+03/the-lightning-network-glass-is-half.html, 2016. [Online; accessed 22-October-2017].
+[4]
+Quibus.  Technical information about mining and block forging.  https://burstwiki.org/wiki/Technical_
+information_about_mining_and_block_forging, 2017. [Online, accessed 27-November-2017].
+[5]
+CIYAM Developers.  Automated transactions documentation index.  http://ciyam.org/at/.                                     [Online, accessed
+16-November-2017].
+[6]
+Eli Ben-Sasson, Alessandro Chiesa, Christina Garman, Matthew Green, Ian Miers, Eran Tromer, and Madars Virza. Zerocash:
+Decentralized Anonymous Payments from Bitcoin (extended version).
+[7]
+Nicolas van Saberhagen. Cryptonote v 2. 0. HYPERLINK https://cryptonote.org/whitepaper.pdf, 2013.
+[8]
+https://z.cash/technology/zksnarks.html, 2017. [Online, accessed 27-November-2017].
+[9]
+Christian Reitwiessner.  https://blog.ethereum.org/2016/12/05/zksnarks-in-a-nutshell/, 2016.
+[Online, accessed 27-November-2017].
+[10]
+Joseph Poon and Thaddeus Dryja.   The bitcoin lightning network:scalable off-chain instant payments.   https://
+lightning.network/lightning-network-paper.pdf.
+[11]
+Meni Rosenfeld. Overview of colored coins. https://bitcoil.co.il/BitcoinX.pdf, 2012.
+[12]
+Nick    Johnson.                                                                                                          Why    i    find    iota    deeply    alarming.                             https://hackernoon.com/
+why-i-find-iota-deeply-alarming-934f1908194b.
+[13]
+Ethan Heilman, Neha Narula, Thaddeus Dryja, and Madars Virza. Iota vulnerability report: Cryptanalysis of the curl hash
+function enabling practical signature forgery attacks on the iota cryptocurrency. https://github.com/mit-dci/
+tangled-curl/blob/master/vuln-iota.md.
+[14]
+Bryan Parno, Jon Howell, Craig Gentry, and Mariana Raykova. Pinocchio: Nearly practical verifiable computation. In IEEE
+Symposium on Security and Privacy, pages 238-252. IEEE Computer Society, 2013.
+[15]
+Sunoo Park, Krzysztof Pietrzak, Albert Kwon, Joël Alwen, Georg Fuchsbauer, and Peter Gazi. Spacemint: A cryptocurrency
+based on proofs of space. IACR Cryptology ePrint Archive, 2015:528, 2015.
+[16]
+Stefan Dziembowski, Sebastian Faust, Vladimir Kolmogorov, and Krzysztof Pietrzak. Proofs of space. IACR Cryptology
+ePrint Archive, 2013:796, 2013.
+[17]
+Vivek  Bhupatiraju,   John  Kuszmaul,   and  Vinjai  Vale.                                                                Exploring  proof  of  space  with  hard-to-pebble
+graphs.                                                                                                                   https://math.mit.edu/research/highschool/primes/materials/2016/conf/10-2%
+20Bhupatiraju-Kuszmaul-Vale.pdf, 2016.
+Licenses
+† original file: Theymos from Bitcoin wiki vectorization: Own work (https://commons.wikimedia.org/wiki/File:
+Blockchain.svg), „Blockchain“, modified, https://creativecommons.org/licenses/by/3.0/legalcode
+‡ Feistel_cipher_diagram.svg: Amirki derivative work: (https://commons.wikimedia.org/wiki/File:Feistel_
+cipher_diagram_en.svg), „Feistel cipher diagram en“, modified, https://creativecommons.org/licenses/
+by-sa/3.0/legalcode
+Changelog/Errata
+•  initial version
+
+
+
+
+

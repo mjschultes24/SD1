@@ -1,0 +1,594 @@
+﻿Across Platforms’ ClickableTV™
+WHITE PAPER
+PRIVATE & CONFIDENTIAL           1
+
+
+
+
+BLOCKCHAIN BASED CLICKABLETV™ INTEGRATED
+TO ENABLE INTERACTIVE TV
+FOR AD-SUPPORTED PREMIUM TV
+Overview, Jan 24, 2018
+PRIVATE & CONFIDENTIAL                     2
+
+
+
+
+CONTENTS
+INTRODUCTION ...                                                                                                                             ... 3
+PROJECT HIGHLIGHTS ...                                                                                                                       ... 5
+ACHIEVED SO FAR ...                                                                                                                          . 6
+THE PROBLEM: ...                                                                                                                             . 9
+CLICKABLETV™ SOLUTION BY ACROSS PLATFORMS, INC: ...                                                                                          .. 10
+CLICKABLETV™ SYSTEM OVERVIEW: ...                                                                                                            .. 12
+AN EXAMPLE: ...                                                                                                                              . 15
+HOW IT WORKS: ...                                                                                                                            ... 16
+ACROSS PLATFORMS’ CLICKABLETV ETHEREUM TOKEN LIFE CYCLE: ...                                                                                 ... 19
+CLICKABLETV™ SOLUTION (FUTURE POINT OF VIEW): ...                                                                                            ... 20
+COMPETATIVE ANALYSIS: ...                                                                                                                    . 22
+ACROSS PLATFORMS’S DIGITAL PRODUCTS: ...                                                                                                     . 22
+COMPANY REVENUE ESTIMATES: ...                                                                                                               ... 23
+CLICKABLETV™ SYSTEMS’ PLATFORM FOR TV ADVERTISERS: ...                                                                                       . 25
+CLICKABLETV™ SYSTEMS’ OVERVIEW OF INSTALLATION: ...                                                                                          .. 26
+INSTALLATION COSTS PER TV EVERYWHERE AND VIRTUAL MVPD COMPANY: .... 27
+DATA SECURITY IN CLICKABLE TV™ SYSTEM: ...                                                                                                   .. 27
+ABOUT FOUNDER AND PRIMARY INVENTOR: ...                                                                                                      .. 29
+ABOUT THE COMPANY: ...                                                                                                                       ... 29
+DISCLAIMER: This White Paper is for information purposes only. Our company/ Inventor(s) do not guarantee the accuracy
+of or the conclusions reached in this white paper, and this white paper is provided “as is.” Our company/ Inventor(s) do not make
+and expressly disclaims all representations and warranties, express, implied, statutory or otherwise, including, but not limited to:
+(i) warranties of merchantability, fitness for a particular purpose, suitability, usage, title or non-infringement; (ii) that the contents
+of this white paper are free from error; and (iii) that such contents will not infringe third-party rights. Inventors and affiliates shall
+have no liability for damages of any kind whatsoever arising out of the use, reference to, or reliance on this white paper or any of
+the content contained herein, even if advised of the possibility of such damages. In no event will Inventors or affiliates be liable to
+any person or entity for any damages, losses, liabilities, costs or expenses of any kind, whether direct or indirect, consequential,
+compensatory, incidental, actual, exemplary, punitive or special for the use of, reference to, or reliance on this white paper or any
+of the content contained herein, including, without limitation, any loss of business, revenues, profits, data, use, goodwill or other
+intangible losses.
+PRIVATE & CONFIDENTIAL                                                                                                                       3
+
+
+
+
+INTRODUCTION
+ClickableTV-  Much  like  today’s  Internet  marketing,  ClickableTV™  technology  allows
+viewers to click a commercial from a mobile phone, tablet or Internet browser and either buy the
+advertised product or request more information from the advertiser. Clickable TV offers cable
+operators new revenue potentials from TV content and advertising sources, including local ad
+sales, cable networks and local broadcasters. When a viewer sees a Clickable Moment (i.e. an
+icon)  appearing  on  their  television  screen  or  other  video  device,  indicating  the  content  is
+“clickable,” they can “click” that moment (either by a mouse click or touchscreen). The viewer is
+connected directly to the advertiser’s website. Clickable TV is free of charge to viewers. It requires
+no installation, and can use a mobile phone, tablet or Internet browser.
+Bitcoin, the World’s first cryptocurrency, appeared in 2008. Currently, approximately $60
+billion worth of trade is done with cryptocurrencies every day. In 2015, Ethereum added smart
+contracts to its cryptocurrency. A smart contract is a computer protocol designed to facilitate
+negotiations, verify, and enforce the performance of contracts. Smart contracts provide enhanced
+security and reduce transaction costs associated with agreements using cryptocurrencies.
+Across Platforms Inc., d/b/a LifehacksDRTV™ (incorporated in Massachusetts in 2010
+with approximately $3.7 million in sales to date) will be selling Ethereum tokens for its ClickableTV
+system.  These  tokens  can  be  redeemed  by  consumers  for  goods  and  services  from  the
+ClickableTV platform. Currently, Across Platforms’ LifehacksDRTV is installed in  4.7 million
+Verizon FiOS cable subscriber homes, reaching a total of 15 million viewers in North America.
+LifehacksDRTV is a 100% cloud-based application, allowing media owners to create new revenue
+streams selling today’s most popular direct response products.
+PRIVATE & CONFIDENTIAL                                                                                     4
+
+
+
+
+PROJECT HIGHLIGHTS
+   ClickableTV technology allows viewers to either buy an advertised product or request
+more information from the advertiser. It expands cable operators’ revenue potentials from
+TV content and other sources.
+   Ethereum is an open-source, public, blockchain-based distributed computing platform
+featuring  smart  contracts                                                                      (scripting)  functionality.  It  provides  a  decentralized  virtual
+machine  (the Ethereum Virtual Machine), that executes scripts using an international
+network of public nodes. Ethereum also provides a cryptocurrency token ("ether"). The
+token is used to compensate participant nodes for computations performed.
+   Blockchain based ClickableTV™ creates interactive advertising. It is designed to make full
+use of evolving technologies. Across Platforms Inc. d/b/a LifehacksDRTV™ will be selling
+Ethereum tokens for its ClickableTV system, offering discounts and rebates on products
+offered by its affiliated advertisers.
+PRIVATE & CONFIDENTIAL                                                                           5
+
+
+
+
+ACHIEVED SO FAR
+LifehacksDRTV™ launched on Verizon FiOS.
+Phase 1 Completed
+LifehacksDRTV™ Launched on Broadcast and Cable.
+These logos are trademarks Registered in U.S. Patent and Trademark Office.
+PRIVATE & CONFIDENTIAL                                                       6
+
+
+
+
+Planned Phase 2 -
+Clickable TV™ Estimated to Launch on Over 40 Broadcast and Cable Networks on
+One MVPD Provider in 2019.
+These logos are trademarks Registered in U.S. Patent and Trademark Office.
+PRIVATE & CONFIDENTIAL                                                         7
+
+
+
+
+Phase 3 -
+ClickableTV Expands Internationally with Its Advertisers.
+These logos are trademarks Registered in U.S. Patent and Trademark Office.
+                                                                                          Embedding Ethereum tokens (Across Platforms’ Ethereum tokens) in the digital television
+media.
+                                                                                          Across Platforms installs a ClickableTV™ server with a Multichannel video programming
+distributor (MPVD) provider  (like Comcast), a Virtual MVPD provider  (like Hulu), or a
+subscription video on demand (SVOD) provider (like YouTube).
+                                                                                          The ClickableTV server converts Across Platforms’ Ethereum tokens (already embedded
+in the digital media) into ClickableTV moments that viewers can activate by clicking the
+commercial on their mobile device, tablet, or browser.
+                                                                                          LifehacksDRTV installations - Across Platforms will install its private-labelled, twenty-
+four hour a day video feed of popular direct response TV products (LifehacksDRTV™)
+throughout the Across Platforms’ ClickableTV™ network of enabled MVPD, SVOD, and
+Virtual MVPD providers.
+                                                                                          ClickableTV installations - Across Platforms will install its ClickableTV™ solution with
+each MVPD, Virtual MVPD, or SVOD wishing to take advantage of this revolutionary
+accountable digital media response detection system.
+PRIVATE & CONFIDENTIAL                                                                     8
+
+
+
+
+BLOCKCHAIN BASED CLICKABLETV™ INTEGRATED TO ENABLE INTERACTIVE TV
+FOR AD-SUPPORTED PREMIUM TV
+THE PROBLEM:
+With the advent of the Internet, usage of conventional TVs is decreasing day by day.
+Accordingly, advertisers’ investments in television advertising are also decreasing as well. For
+example, according to Nielsen Holdings®, in the United States, as video channels proliferate,
+viewers are watching video more than 4.5 hours a day. But nearly 83 percent (83%) of these
+viewers are skipping commercials as much as possible and are becoming less accessible to the
+world's largest advertisers.
+Leading actions taken in relation to advertising when using a DVR in the United States as
+of August 2016
+MediaPost; Hub Entertainment Research
+Clearly, there advertisers need an interactive advertising solution that works within the TV
+industry’s current technology.
+Also, online advertising may well become an important source of revenue for enterprises
+engaged  in  electronic  commerce.  Several  different  types  of  web  page  based  online
+PRIVATE & CONFIDENTIAL                                                                             9
+
+
+
+
+advertisements  are  currently  in  use,  along  with  various  associated  distribution  systems,
+advertising metrics, and pricing mechanisms.
+Traditional  online  advertising  includes  static  displays  of  text  or  images  on  a  page.
+However, the content available on the Internet and in web pages has become increasingly
+dynamic. For example, the viewing  of video content online is becoming more common as
+consumers have access to higher bandwidth and spend more time online. Traditional online
+advertising has targeted users of static web pages. However, the viewing habits for online videos
+are different from usual text reading of web pages online. The attention of the user is focused on
+the screen where the video plays as compared to the viewing of scrolling text, so intermittent
+advertising that breaks up a video may be disruptive. Accordingly, there is a need for advertisers
+to provide non-intrusive advertisements to users who are viewing videos and other multimedia
+online.
+CLICKABLETV™ SOLUTION BY ACROSS PLATFORMS, INC:
+Across  Platforms’  solution  for  these  problems  is  ClickableTV.  Across  Platforms’
+ClickableTV is the first solution that incorporates the power of the blockchain with click-through
+metrics to add accountability to digital media platforms. Incorporating Ethereum in its foundation,
+ClickableTV capitalizes on viewer migration from the cable set-top box to mobile and browser
+viewing.
+ClickableTV solves the problem of how to convert $72 Billion in annual US TV commercials
+that are not currently clickable, into interactive advertising. The viewer need not be alerted in any
+way that a ClickableTV server has been installed at his MVPD, Virtual MVPD, or SVOD provider
+datacenter. In addition, the ClickableTV solution is perfect for both live and DVR programming
+environments that VOD ad serving solutions cannot address.
+Across Platforms’ potential audience, from TV Everywhere or Virtual MVPD homes may
+grow to 220 million people in the United States by 2021. The worldwide potential audience for
+ClickableTV is likely over three billion people.
+PRIVATE & CONFIDENTIAL                                                                                  10
+
+
+
+
+Availability of TV Everywhere in United States
+Adobe Insights and Company estimate
+Virtual MVPDs and SVODs Become Sizable Platform
+vMVPD composite - Evercore ISI and Bronzeagle estimates
+OTT Viewing - The Diffusion Group
+PRIVATE & CONFIDENTIAL                                    11
+
+
+
+
+Across Platforms has been distributing its branded advertising to 4.7 million Verizon FiOS
+subscribers  since  December  2017.  The  company  has  identified  Verizon  FiOS  as  the  first
+candidate for ClickableTV.
+ClickableTV Revenue Projections for Direct Response In US
+Advertisers with a worldwide presence will be attracted to the ClickableTV platform in near future.
+CLICKABLETV™ SYSTEM OVERVIEW:
+Across Platforms’ system requires the installation of a ClickableTV server with an MPVD
+provider (like Comcast), a Virtual MVPD provider (like Hulu), or an SVOD (like YouTube) that
+converts the Across Platforms’ Ethereum token (already embedded in the digital television media)
+into a ClickableTV moment that viewers can activate by clicking the commercial on their mobile
+device, tablet or browser.
+An Across Platforms’ ClickableTV™ system’s revenue stream mirrors how a  typical
+Internet pay per click system would operate. Advertisers will still pay their advertising agencies or
+ad-supported premium TV networks to place their ads on various digital media devices. However,
+they  will  now have  the  option  of  installing  Clickable  TV moments  in  their  advertisements.
+Advertisers will only pay for clicks or revenue-sharing according to agreements pre-arranged by
+all parties (including MVPD providers, ad-supported TV networks, and other advertisers) through
+the Across Platforms’ web portal. Most likely, advertisers will set a standard per click rate or
+revenue-sharing rate for product sales throughout the Across Platforms’ ClickableTV™ network
+of enabled MVPD, SVOD, and Virtual MVPD providers.
+PRIVATE & CONFIDENTIAL                                                                                  12
+
+
+
+
+Across Platforms envisions a two-pronged approach to deploying its technology:
+1.                                                                                                   LifehacksDRTV installations - Across Platforms will install its private-labelled twenty-
+four hour a day video feed of popular direct response TV products (LifehacksDRTV™)
+throughout the Across Platforms’ ClickableTV network of enabled MVPD, SVOD, and
+Virtual MVPD providers. Its programming consists of infomercials and direct response ads
+from some of the top DRTV advertisers in the United States  (and around the world)
+including Guthy-Renker, Beachbody, Great HealthWorks, Ideal Living, Veggie Bullet, and
+nearly 50 other companies. Today, LifehacksDRTV airs to 15 million people in Verizon
+FiOS® subscriber homes (through four channels). Based upon current contracts, Across
+Platforms estimates that the LifehacksDRTV platform will generate more than $1 Million
+US during  2018 (equating to $250 million in gross profit to Across Platforms). These
+LifehacksDRTV homes will likely be the first homes using our ClickableTV technology.
+Across Platforms will earn twenty percent (20%) for originating and tracking the 24 hour a
+day  DRTV  feed  from  LifehacksDRTV  ad-supported  programmers  and  advertisers
+currently under contract. In some cases, MVPD providers are guaranteed a flat fee per
+subscriber, or twenty percent (20%) of revenue, whichever is greater.
+2.                                                                                                   ClickableTV installations - Across Platforms will install its clickable TV solution with
+each MVPD, Virtual MVPD, or SVOD wishing to take advantage of its revolutionary
+accountable digital media response detection system.
+Once installed, the ClickableTV server will monitor the Ethereum token embedded in
+digital media commercial and, as the viewer watches the ad-supported content  (using their
+browser, tablet, or mobile phone) they can click on the ad to open a new tab or page (in the
+browser, tablet, or mobile phone) in order to buy or research the advertiser’s offer. As Google
+AdWords® functions, Across Platforms’ ClickableTV will capture the clickstream data and present
+it in the advertiser’s portal. However, Across Platforms’ ClickableTV will also capture e-commerce
+sales data, and share it with advertisers, providers, and programmers per their revenue-sharing
+agreements with Across Platforms.
+Today, LifehacksDRTV advertisers and providers are signing up for ClickableTV. Upon
+closing of the ClickableTV ICO, the Company expects to announce a flurry of new arrangements.
+Some LifehacksDRTV advertisers have agreed to revenue-share and will pay up to a $200 per
+product commission  on sales achieved  through  the ClickableTV solution.  Across Platforms
+PRIVATE & CONFIDENTIAL                                                                               13
+
+
+
+
+intends to include ClickableTV provisions in all its future agreements with advertisers, providers,
+and TV ad-support programmers.
+Ethereum tokens: Advertisers are concerned about new technologies that do not provide
+the most secure methods available to protect their customer data. Since ClickableTV enables e-
+commerce purchases from mobile phones, tablets, or browsers clicks, the potential exists for
+security breaches that will leave customers vulnerable.
+Ethereum is an important part of Across Platforms’ ClickableTV technology. Since Across
+Platforms is a worldwide company, with worldwide aspirations, data security is paramount. Across
+Platforms’  technology  takes  a  two-pronged  approach  to  safeguarding  advertisers  from  e-
+commerce breaches. First by implementing smart contracts, the tokens embedded into digital
+media  presentations  will not  be  linked  back  to the  advertiser’s  agreement  thus marketers’
+campaigns remain confidential. Secondly, Across Platforms will act much like an Internet affiliated
+marketing program, (like Fat Wallet® or Commission Junction®) since each ClickableTV token
+will be deposited with an advertiser’s e-commerce website. Finally, within the Across Platforms
+portal, the path of the token (through the provider and TV ad-supported programmer) will be
+matched to e-commerce sales to determine return on investment (ROI), all enabled by Ethereum.
+Across Platforms will also enable advertisers to sell their products, or pay for their click
+data, with cryptocurrency. Our Company’s tokens, or other cryptocurrencies, can be redeemed at
+the e-commerce level by viewers who access a ClickableTV server. This will provide two methods
+for ClickableTV token holders to liquidate their tokens. They can either sell them on open
+exchanges or use them to purchase goods and services through ClickableTV. As ClickableTV
+tokens grow in value, token holders will increasingly have more purchasing power through
+ClickableTV. As tokens are liquidated the supply will shrink. To aid this effort, Across Platforms
+will sell ClickableTV tokens to consumers, as well as interested advertisers, during the ICO. The
+company expects that within twelve months after the close of the ICO token holders will be able
+to buy products using ClickableTV either regionally or nationally. Across Platforms anticipates
+(but does not guarantee) that ClickableTV token holders will eventually be able to redeem their
+tokens with both domestic and international advertisers. Participants in the token sale will be able
+to follow press announcements regarding the progress of ClickableTV deployments in anticipation
+of redeeming their ClickableTV tokens.
+PRIVATE & CONFIDENTIAL                                                                                 14
+
+
+
+
+AN EXAMPLE:
+A karate school may log onto Across Platforms’ website and locate a network running a
+Karate Kid movie marathon, then buy a TV commercial from the network and upload the website
+link to ClickableTV.
+When a consumer clicks the karate school’s ClickableTV commercial, it will open the
+school’s website in a new tab. If the commercial has a ClickableTV token providing discounts and
+rebates, consumers can load those discounts and rebates into the school’s shopping cart and at
+any time use the extra savings or use their token’s stored value toward the purchase of the karate
+school’s products or services.
+The clicks will be collected, the karate school will get new students, and fees will be
+distributed through ClickableTV’s distributed ledger.
+ClickableTV is the only technology that works in live and DVR ad-supported premium
+content.
+Across Platforms will sell tokens with stored value directly to consumers, or they can buy
+them on an exchange. Across Platforms will use stored value from the community to create even
+better deals. If a consumer holds a token, he or she will be entitled to its savings, discounts, and
+rebates. Unlike other rewards programs, thanks to the power of the blockchain, there will be no
+membership fees, no cancellation fees, and no restrictions on the transfer of tokens. If a token
+retains any stored value, when a consumer no longer needs it, he or she will be free to sell the
+token to whoever they wish or to send it back to Across Platforms for cash or cryptocurrency.
+Across  Platforms  allows  advertisers  to  find  shows,  markets,  actors,  networks,  and
+locations (worldwide) that have ClickableTV. Potential customers will be able to prepare media
+buys (worldwide) using ClickableTV. Advertisers and media companies set their rates, not Across
+Platforms. Advertisers will be able to calculate the ROI of ClickableTV and compare viewer
+impressions/ratings.
+PRIVATE & CONFIDENTIAL                                                                                 15
+
+
+
+
+ClickableTV Delivers on The Promises of Digital Integration
+These logos are trademarks Registered in U.S. Patent and Trademark Office.
+Based on responses, using Across Platforms’ technology, advertisers can update their
+linked web pages during their television campaigns.
+HOW IT WORKS:
+ClickableTV™ links TV and direct response marketing across platforms:
+1.  Advertisers need a tool to coordinate, update, and track their web pages that are linked to
+TV commercials across all platforms.
+2.  Advertisers can buy their television schedules through existing channels and partners. At
+the same time, they will pay Across Platforms to link those same TV commercials to the
+marketer’s own website.
+3.  ClickableTV™ will help grow overall TV advertising billings.
+ClickableTV™ Is the Next Generation of TV Advertising:
+1.  ClickableTV can be integrated with premium video content and works in LIVE and DVR
+environments.
+PRIVATE & CONFIDENTIAL                                                                            16
+
+
+
+
+2.  Viewers can bookmark ads to their Favorites list after activation.
+3.  Advertisers can use cross site tracking data to retarget viewers from activations.
+Ethereum® allows Company to scale with security:
+1.  Across Platforms’ private blockchain contains ClickableTV™ response data and media
+plans.
+2.  Across Platforms’ blockchain protects against unknown actors stealing advertisers’ media
+buy plans and results.
+3.  Across Platforms’ blockchain makes it easy for advertisers to buy ClickableTV anywhere
+in the world.
+HOW CLICKABLETV WORKS
+Advertisers pay extra for viewer responses
+By linking the token to the clickable moment, Ethereum ensures that advertisers are only
+paying for their own advertising, and that they are in control of who sees their campaigns’ results.
+Security will be policed by the token holder that acts as an encryption key for campaigns.
+With  Ethereum,  advertisers  can  instantly  calculate  clickable  ad  rates.  Also,  through
+encrypted tokens, worldwide advertisers can share results with their satellite offices, knowing their
+data is safe and secure.
+PRIVATE & CONFIDENTIAL                                                                                  17
+
+
+
+
+Advertisers can create complex advertising campaigns from one office or many offices
+around the world. Through the blockchain, they can be assured that their data is secure no matter
+how many employees review it.
+The possibilities of an Ethereum ClickableTV campaign are endless. Television, what was
+once an unaccountable media, suddenly becomes the most accountable medium of them all.
+The ClickableTV token community performs an important security function, as the random
+calculations of the blockchain guarantee an advertiser that they are only paying for what was
+clicked.
+The number of Across Platforms token sales will determine how many ClickableTV servers
+will be available to cable companies for installation. The more tokens sold, the faster the Company
+can install more systems, and the greater benefit to the community. In addition, as ClickableTV
+server installations occur across the globe, a stable of worldwide advertisers will immediately
+provide an economic payback to the token community.
+PRIVATE & CONFIDENTIAL                                                                                18
+
+
+
+
+CLICKABLETV ETHEREUM TOKEN LIFE CYCLE
+ClickableTV  Ethereum  tokens  will  first  be  used  to  promote  our  ICO  website.  ICO
+directories pull data from Clickable TV tokens. Buyers can buy tokens directly from Across
+Platforms. Buyers can sell their tokens on exchanges. All token sales are automatically recorded
+on the Across Platforms Blockchain. Eventually consumers will be able to use tokens for rebates
+and discounts From Across Platforms’ advertisers.
+PRIVATE & CONFIDENTIAL                                                                             19
+
+
+
+
+CLICKABLETV™ SOLUTION (FUTURE POINT OF VIEW):
+Across Platforms adds new revenue to an already large market:
+1.  Advertisers will still pay their current media partners for viewer impressions
+2.  Advertisers will pay a premium (using ClickableTV™) to gather viewer responses
+3.  ClickableTV opens new ad units in live streaming ad-supported premium content
+4.  Response data adds ROI to the advertiser’s viewer impressions dashboard
+5.  Across Platforms creates a new revenue stream for programmers and content owners
+ClickableTV™ is ready for a global audience
+Across Platforms' target list reaches over one billion people
+Pay Per Click TV's
+potential by 2022 is
+approximately one billion
+subscribers worldwide
+PRIVATE & CONFIDENTIAL                                                                 20
+
+
+
+
+ClickableTV’s Potential Is Over Three Billion People Worldwide
+Pay TV Subscribers Worldwide
+Source: Digital TV Research July 2017
+Across Platforms Will Target Global Advertisers
+PwC June 2016 forecasts global television advertising will reach $210 billion by 2020.
+PRIVATE & CONFIDENTIAL                                                                   21
+
+
+
+
+COMPETATIVE ANALYSIS:
+ClickableTV Is the Only Platform That Links Web Pages
+and Measures Viewers Responses
+These logos are trademarks Registered in U.S. Patent and Trademark Office.
+ACROSS PLATFORMS’S DIGITAL PRODUCTS:
+PRIVATE & CONFIDENTIAL                                                       22
+
+
+
+
+COMPANY REVENUE ESTIMATES:
+Across  Platforms  generates  revenue  by  charging  advertisers  a  ten  percent                        (10%)
+processing fee for handling the ClickableTV per click, or revenue-sharing arrangements in its
+advertising campaigns. Across Platforms only earns ClickableTV revenue after ClickableTV
+servers have been installed and activated at the digital media provider level.
+Across Platforms estimates that it will take approximately nine months from the completion
+of fundraising before the first ClickableTV server will be operational at the provider and TV ad-
+supported level. After the first ClickableTV server is installed, the Company expects (but does not
+guarantee) that it will take approximately four months for each additional server installation.
+Across Platforms estimates thirty (30) ClickableTV servers (at a cost of $250,000 per server)
+would have to be installed to reach 85 million United States TV households. The US MVPD TV
+households reach approximately 250 million people with between 14 percent (14%) to 31 percent
+(31%) watching some TV programming on mobile phones, tablets, or browsers. Once Clickable
+TV  is  installed  and  operational,  the  main  expense  will  be  bandwidth  costs  incurred  when
+presenting the website associated with the click. Across Platforms is also working with its longtime
+partner in India, Bronzeagle, to offer ClickableTV to over 176 million TV homes in India.
+After the initial ICO token sale Across Platforms will prepare a stock sale available only to
+accredited  investors.  The  Company,  and  its  employees  and  advisors,  will  derive  their
+compensation primarily through the stock performance of Across Platforms.
+Across Platforms will also reserve up to 70 percent (70%) of tokens for future token sales
+to modulate the value of the tokens. As consumers purchase the Clickable tokens on open
+exchanges, the tokens may or may not have stored value that can be redeemed for goods and
+services from ClickableTV advertisers. The value of the tokens will most likely be established by
+the perceived savings that may be earned by using the ClickableTV tokens to purchase goods
+and services when compared to the list price of these goods and services when purchased using
+currency.  Essentially  ClickableTV  tokens  will  be  a  way  to  reward  token  holders  for  either
+participating in the ICO or for purchasing the token on the secondary market. As the demand for
+the tokens increases, the perceived value of the ClickableTV consumer savings may outpace the
+cost of the tokens.
+PRIVATE & CONFIDENTIAL                                                                                   23
+
+
+
+
+Across Platforms will keep future tokens in reserve so that it may sell them on open
+exchanges if the Company needs to increase its liquidity to meet financial obligation to advertisers
+when the Company completes ClickableTV token redemptions.
+In cases where the token book value outpaces the value of the savings, Across Platforms
+may wish to reduce the supply of tokens. Also, Across Platforms may issue more tokens from its
+reserve at the token price set through open exchanges and keep the cryptocurrency proceeds in
+its treasury for future token redemptions.
+In cases where the perceived consumer savings is low, compared to the token price,
+Across Platforms may redeem tokens, without creating new ones. Essentially, Across Platforms
+will create a marketplace where token holders establish the value of the tokens based on
+cryptocurrency fluctuations, and then use this buying power to buy goods or services on the
+ClickableTV platform.
+More deployments of ClickableTV, and the addition of new advertisers, will alter the cost-
+benefit relationship between the savings perceived and token prices. The Company expects that
+its success will be tied to a perceived high savings metric, token liquidity, and the expectation that
+consumers will want to be able to purchase the stored value of the ClickableTV savings and then
+redeem, hold, or dispose of their tokens as they choose. Advertisers may wish to access the
+stored value of the token holders by providing additional savings to active consumers. Essentially,
+Across  Platforms  will  create  a  discounted  buyers’  club  that  benefits  both  consumers  and
+advertisers. Consumers will join or leave the buyers’ club through the Ethereum blockchain. In
+addition, discounts will grow the larger as the buyers’ club grows. The Company will not use its
+token repository for employee or contractor rewards.
+Currently, Across Platforms operates as a Massachusetts S-corporation. It will very likely
+convert to C-corporation when and if it creates and registers a stock offering with the SEC under
+Rule 506(c) for accredited investors. While Across Platforms may include the trailing token value
+and  liquidity in  its financial statements, beyond  being  an indicator of the  popularity of the
+ClickableTV “buyers’ club,” it will have no impact on the financials of the Company.
+The  Company  believes  that  it  will  deploy  LifehacksDRTV  branded  DRTV  channels
+followed  by  ClickableTV  installations.  Once  ClickableTV  installations  are  completed,  the
+Company will expand ClickableTV™ beyond LifehacksDRTV™ and its channels to potentially
+well over 100 broadcast and cable networks that do not carry LifehacksDRTV, on each of the
+provider’s channel lineups. As more people watch TV on their mobile phones, tablets, and
+browsers then ClickableTV revenue will grow.
+PRIVATE & CONFIDENTIAL                                                                                   24
+
+
+
+
+CLICKABLETV™ SYSTEMS’ PLATFORM FOR TV ADVERTISERS:
+These logos are trademarks Registered in U.S. Patent and Trademark Office
+PRIVATE & CONFIDENTIAL                                                      25
+
+
+
+
+CLICKABLETV™ SYSTEMS’ OVERVIEW OF INSTALLATION:
+Across Platforms will have to install a server with each cable company to him initiate the
+token exchange that creates ClickableTV. The ClickableTV blockchain technology dictates that
+advertiser  results  are unlocked through the  combination  of  tokens  and  the  encrypted key,
+ensuring privacy and security for both the consumer's data and advertiser's results.
+PRIVATE & CONFIDENTIAL                                                                             26
+
+
+
+
+INSTALLATION COSTS PER TV EVERYWHERE AND VIRTUAL MVPD COMPANY:
+No additional development costs, except for each MSO's proprietary video player app.
+About the same for Comcast Xfinity, Charter Spectrum, etc. as for FiOS which is:
+1.  FiOS TV over PC DMRD (Direct Media Response Detection) Integration w/ Browser (App
+plug-in). For example, 3 Months / $60K
+2.    FiOS TV over Mobile  Device DMRD (Direct Media Response Detection) Integration
+w/Mobile App (App Enhancement). For example, 4 Months / $80K or about $140K per
+MSO.
+Comcast may be a bit higher because of the complexity of their apps, approximately would
+budget                                                                                                $200K  per  MSO.  The  monthly  operational  costs  would  be  higher,  of  course.  A
+conservative estimate is that each MSO would be the same as FiOS:
+1.  Additional $60K per MSO per month (in year 1 of launch) as a budget and use year 1
+actuals and take rate projections to adjust for years 2, 3, and on.
+DATA SECURITY IN CLICKABLE TV™ SYSTEM:
+Across Platforms gathers data across many platforms and does not require any set top
+box  or  location  data  from  cable  partners.  Across  Platforms  does  not  disclose  personally
+identifiable information (PII) Data. Location data is only captured when the advertiser sends back
+zip codes, referrer codes (linking media outlet), and sale amounts. Across Platforms does not
+gather any household data.
+PRIVATE & CONFIDENTIAL                                                                                27
+
+
+
+
+Across Platforms Does Not Disclose PII Data
+If MVPD providers provide set top box data, Across Platforms can determine precisely
+where clicks come from. Without viewer location information, sales performance reports will not
+include click locations.
+PRIVATE & CONFIDENTIAL                                                                            28
+
+
+
+
+ABOUT THE FOUNDER AND PRIMARY INVENTOR:
+Michael Kokernak, founder of Across Platforms, Inc. Awarded four United States patents
+with more expected, (as well as a UK patent), for inventions related to across platform,
+broadcast TV advertising, and clickable television. Ten additional patent applications are still
+pending in TV space. Two patent applications filed for the ClickableTV technology.
+Publisher of "Subchannel Report" which is the television industry's only newsletter that
+tracks the growth in networks deployed by broadcast television. Reaches approx. 29,000
+different people in the TV, investment, advertising, and trade press each week.
+Published commentator in trade magazines (200+ articles) concerning the digital
+transition and new revenue opportunities for broadcast and cable.
+Kokernak’s previous company, Backchannelmedia, billed $38 Million over the life of the
+business and raised $18 Million in outside investments.
+At Backchannelmedia, he launched over-the-air broadcast interactive TV trial to 100
+homes on May 1, 2008 in Boston, Manchester NH, Providence, and Hartford. Deployment
+agreements secured with approx. 100 U.S. television stations. Technology launched on Knology
+cable systems in the South with major broadcast group partners.
+Profiled in feature articles in BusinessWeek, New York Times, Boston Globe, Advertising
+Age, Boston Herald and about 150 to 300 additional publications. TV news media coverage in
+Boston, Montgomery, and Providence.
+ABOUT THE COMPANY:
+Across Platforms, Inc. was founded in 2010. Across Platforms, Inc.
+(www.acrossplatforms.com), located in Boston, is a television services firm that provides
+consulting, distribution, content licensing, and application development services to marketers
+and programmers. Across Platforms’ key highlights are that it helps content owners and
+advertisers increase their video presence across all platforms and countries. The company built
+LifehacksDRTV™ and soon will deploy its ClickableTV™ system. The Company strives to
+maintain a television industry database, allowing it to provide proprietary insights to our
+customers. The company shares its knowledge with over 20,000 subscribers to the Subchannel
+Report and MVPD Metrics Report newsletters. The Company has generated over $3.7 million in
+billings and fees since inception.
+PRIVATE & CONFIDENTIAL                                                                             29
+
+
+
+
+

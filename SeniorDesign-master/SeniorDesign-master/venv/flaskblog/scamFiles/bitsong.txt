@@ -1,0 +1,640 @@
+﻿THE FIRST
+DECENTRALIZED
+MUSIC STREAMING PLATFORM
+A NEW ERA IN MUSIC STREAMING
+Whitepaper 1.0
+CONTRIBUTORS
+Angelo Recca, Founder & CEO
+Rosario Ticli, Co-Founder & DJ/Producer
+Iulian Anghelin, EMEA Manager
+Salvatore Farruggio, VP Product
+© 2017-2018 BitSong
+
+
+
+
+03             04             05             05
+ABSTRACT       PROJECT        DISCLAIMER     LONG
+               VISION                        TERM
+                                             VISION
+06             07             08             09
+PROBLEM        SOLUTION       MARKET         STREAMING
+10             11             11             11
+TECHNOLOGIES   ETHEREUM       TOKEN          COMMUNITY
+                              INFORMATION    CONTRIBUTOR
+                                             REWARDS
+12             13             14             14
+TOKEN          USE OF FUNDS   ICO TIMELINE   TOKEN
+DISTRIBUTION                                 DETAILS
+15             16             18
+ROADMAP        TEAM           ADVISOR
+
+
+
+
+BitSong is a new platform, which will be built using the blockchain
+ABSTRACT
+technologies and the IPFS distributed file system.
+The focus of the developers is one near to their heart. It is a project dedicated
+to musicians and attempts to solve a major problem for emerging artists.
+Through Bitsong, musicians will have the opportunity of producing their own
+songs and listeners will enjoy and hear new content from any device they own.
+BitSong will provide the user with the possibility of using the platform in a
+number of ways from, free streaming, to requests for donations, payments
+and the insertion of advertising sponsors.
+75%
+75% of the incomes will be dedicated to rewarding the artists and their
+OF PROFITS
+listeners in real time.
+The project aims to overcome the bureaucratic and economic obstacles within
+this industry and reward artists and users for simply using the platform.
+OBSTACLES AND                                                                           The Bitsong platform is unique in the details and additional services it offers.
+BUREAUCRACY
+It differentiates itself from other music streaming platforms by assisting to finance
+music and video artists and gifting tokens to its users, from music/video enthu-
+COMPETITORS                                                                             siasts to those for commercial activities).
+3
+
+
+
+
+PROJECT                                                                       Our vision is to create a new revolutionary brand linked to music streaming
+VISION                                                                        that is unlike any other platform.
+SMART TV                                                                      BitSong will generate profits for artists and the users who listen to their songs,
+CHROMECAST                                                                    while creating a money saving opportunity for advertisers. Our goal is to be
+                                                                              present on any Smart TV equipped with Chromecast, through Smartphone
+                                                                              app stores, on any personal computer through a web interface or software
+and finally any car equipped with a Smart Radio.
+USE OF                                                                        BitSong will be the new point of reference for the music market and will be
+BLOCKCHAIN                                                                    fully developed using the technologies that the blockchain has available.
+Using the blockchain affords Bitsong with the mean to be decentralized and
+be more community - based compared to its competitors. Currently viewing
+a music video is via YouTube, listening and streaming is via Spotify, mar-
+keting is on iTunes or Beatport and advertising is on social media. BitSong
+aims to solve this problem once and for all.
+AUTONOMY                                                                      Bitsong will provide artists with full autonomy to upload their song (without a
+                                                                              distributor or a label), and their own music video, advertise it through their
+own fanpage (on the BitSong platform) and interact with their fans.
+BITSONG                                                                       A holistic one - stop shop approach, choice is given to the user, to watch
+PLATFORM                                                                      videos, stream music and have the ability to use whichever device they own
+                                                                              to partake in Bitsong. This also permits the artist to manage their social me-
+                                                                              dia fanbase from one source, their Bitsong channel, thereby retaining their
+fans on one single decentralized music platform.
+WEB RADIO                                                                     We have already planned to create an official Web Radio / TV that will
+/TV                                                                           stream the best tracks on the platform, there will also be musical contests
+in which the artist will promote his music (only users holding BTSG tokens
+can express their preference) . In addition to the official Web Radio / TV,
+there will also be the possibility to open a streaming channel where you
+can broadcast your events, or perform live via our platform.
+BLOCKCHAIN                                                                    Today musical rankings are easily influenced or modified by external spon-
+CHARTS                                                                        sorships. BitSong will proposes to store all user reactions (such as streams,
+like, comments and anything else) on its own blockchain, thus generating
+the first verifiable and above all, real music classification for rankings.
+Our aim is to evolve as the world of blockchain evolves and create new op-
+portunities for the artists and for our community to support our platform.
+4
+
+
+
+
+This White Paper is intended for distribution solely on information purposes.
+DISCLAIMER                                                                              BitSong (also referred to as ‘BTSG’) does not guarantee the accuracy of con-
+clusions and statements reached in this white paper.
+GUARANTEES                                                                              Moreover, this white paper is provided "as is" with no representations and
+warranties, express or implied, whatsoever, including, but not limited to:
+(i) warranties of merchantability, fitness for a particular purpose, title or
+non-infringement; (ii) that the contents of this white paper is free from error
+or suitable for any purpose; and  (iii) that such contents will not infringe
+third-party rights. All warranties are expressly disclaimed.
+BitSong and its affiliates expressly disclaim all liability for and damages of
+any kind (direct or indirect, including loss of profit) arising out of the use,
+reference to, or reliance on any information contained in this white paper,
+even if advised of the possibility of such damages.
+RESPONSIBILITY                                                                          Under no circumstances will BitSong or its affiliates be liable to any person,
+entity, partners, partner’s customer or end-users for any consequential, inciden-
+tal, direct, indirect, special or punitive damages, including without limitation
+damages for lost profits, r evenues, l ost b usiness o r l oss o f u se o f p roducts
+whether or not BitSong has advised it in this white paper or any of the content
+contained herein, that such damages will or may occur, and whether such
+damages are claimed based on breach of contract, negligence, strict liability
+in tort or any other legal or equitable theory. No action regardless of form,
+arising out of this white paper may be brought against BitSong.
+LONG
+TERM                                                                                    Take part in revolution!
+VISION
+180.000                                                                                 Together  with  our  community                                                   (currently  more  than                                                            180,000  users)  we
+USERS                                                                                                                                                                    want  to  create  a  special environment, a    new way to listen, watch and
+                                                                                                                                                                         enjoy music,where every artist  can  be  his  own  distributor,  sponsoring  it
+                                                                                                                                                                         on world music channels, with clarity and transparency rules and users can
+                                                                                                                                                                         be rewarded for listening to music or watching videos.
+DISTRIBUTOR                                                                                                                                                              Together we can succeed in creating a new musical era, where every artist
+ARTISTS                                                                                                                                                                  can be his own distributor, with no intermediary, everything clear and
+transparent.
+5
+
+
+
+
+When an artist creates a new single or musical album, he must invest his time
+PROBLEM
+to create that piece from an original idea through to the product.
+They finance it with their own money, contact a record label in the hope that
+they are interested in the song, investing and publishing it to get the most
+sales. This all takes many months before the first incomes can be achieved .
+FUNDS                                                                                Often however, this does not happen, as the artist does not have the ne-
+cessary funds to create a music video, because he does not have the right
+contacts, and because the record labels (given the huge amount of songs
+they receive) rarely invest time and effort into a song. An artist can often
+find they have spent substancial time and funds without gains or revenue.
+BitSong, due to the blockchain technologies, finally can solve these pro-
+blems that hinder emerging artists within the world of music.
+ADVERTISER                                                                           Bitsong will provide opportunities for the advertiser to easily reach their
+audience, thus avoiding intermediaries who only increase the advertising
+cost. We will give them the choice to choose the amount to invest in each
+individual advertising.
+In addition, advertisers will get data to measure the results of their marketing
+campaign.
+EARNINGS                                                                             Think about the last time you used a streamining platform, listening or watching
+music videos containing advertisments. You negotiated the use of the platform
+by giving away your time while adverts played. You gave away your time wi-
+thout getting anything out of it. Bitsong aims to change that by giving the user
+who listens to the music, the chance to be paid for listening to the advertisement
+within the piece of music, or simply by listening to music. Ten percent of the
+amount  will  be  retained  by  BitSong  for  ongoing  costs  of  developing the
+platform and the remaining 75% will be divided between the user who listens
+and the artist who creates the song, while 15% is dedicated to our Blockchain
+Validators.
+MIGRATION
+Moreover, thanks to our innovative listening platform paying for user attention,
+we strongly believe users will abandon the traditional ecosystems of listening
+to music, by using BitSong on any device (TV, Smartphone, PC, Car Radio).
+6
+
+
+
+
+BitSong has resolved problems for the artist by permitting them to upload their
+SOLUTION
+songs without any need for a record label.
+The artist can receive donations in BTSG tokens which can be converted to
+cash or it can help sponsor the development of their own piece of music.
+Artists can also get revenues from advertising generated by their piece of
+music and by reselling their own songs.   This will be enhanced by the social
+network created on the Bitsong platform and the loyalty of fans.
+Funds via the Bitsong token $ BTSG will be credited to the artist wallet imme-
+CRYPTO WALLET
+diately and they will be able to withdraw or convert as they see fit.
+Artists need no longer wait several months before a record label sends va-
+REAL TIME PRO-
+rious reports, they can check the progress in real time directly within the
+GRESS
+Wallet.
+NO INTERMEDIARIES                                                                    Through BitSong, the advertiser will also have greater clarity on costs and
+will not have to pay additional intermediaries. They can create their own
+advertising campaign through a special advertising tool within the Bitsong
+platform, choosing the appropriate target.
+Once a target is selected, the advertiser can choose the amount (in $ BTSG)
+he wants to invest for each advertising session. The higher the bid, the more
+visibility the advertising will have. Finally the advertiser will not have to pay
+astronomical figures, as BitSong completely eliminates the intermediaries
+and allows the advertiser to decide the budget they wish to spend for indivi-
+dual advertising.
+BitSong accepts within their platform, all songs, that are not plagiarism, but
+NO PLAGIARISM
+the result of the originality and work of an artist, without thereby harming the
+work of other artists.
+In the event that our technology detects that a song has already been re-
+gistered previously by other users, the BitSong platform will require further
+verification through the official social profiles and certificates, to protect the
+work of the individual artist.
+7
+
+
+
+
+In recent years, the music industry has experienced a huge increase in sales
+MARKET
+thanks to the streaming and sale of digital albums.
+IFPI (International Federation of the Phonographic Industry) has indicated     17.4 BILLION USD
+how the music industry has achieved a 5.9% increase in sales of digital
+albums, on a market capitalization of 17.4 billion USD.
+The music industry is projected to grow exponentially over the next few        52 BILLION USD
+years and is expected to reach a $ 52 billion USD capitalization by 2020.
+The revenues arising from music streaming show a sharp increase and the
+trend remains bullish. At BitSong, we are revolutionizing the music industry
+by making the user and artist the main actors.
+8
+
+
+
+
+Our goal has always been to write not only all transactions in Blockchain, but also all
+the streamings and we do not want to deviate from this path.
+BITSONG'S PROTOCOL
+To do this, we need a fast and scalable Blockchain, but above all without fees or
+microscopic fees. During our journey, we tried and tried hundreds of solutions,
+starting from Ethereum (on which it is impossible to develop a platform like ours) up to
+the most recent and we found that none could fit perfectly to our needs, which led us
+to seriously consider building our own Blockchain.
+After months of study, we discovered Cosmos Network, which opened up a new
+world with a wider vision. Cosmos allows you to build your own Blockchain, adapt it        100,000 TRANSACTION
+to all your needs and also allows you to connect more Blockchain to each other, with
+PER SECOND
+staggering speeds, such as: 100,000 transactions per second and without fees.
+We decided to build our Blockchain by leaning on the Cosmos Network, using the
+"Tendermint" consent algorithm and thus automatically implementing the Proof of
+Stake.
+Thanks to these innovations, we not only emigrate from Ethereum, but we are no
+longer dependent on advertising on the platform, we have our own Blockchain, totally       PROOF OF STAKE
+distributed (open source) and we make our Token in this way, minable. With the
+introduction of the Pos (Proof of Stake), anyone can become a validator of our
+Blockchain, depending on the amount of token held, the more you hold, the greater
+the chances that you become a validator of the Blockchain of BitSong.
+What are the advantages of being a Validator of our Blockchain?
+VALIDATORS                                                                                 - You will undermine the BTSG
+- You will take 15% fee of all transactions that are carried out on our platform.
+The revenue in this way will come from the Miners and all that is produced will go in
+the reward pool, in which they will be blocked, until a claim (stream, like, comment,
+etc) is made, thus making the advertising, a alternative instrument, which will offer
+greater volumes to our currency.
+The pool will be divided as follows:
+REWARDING POOL                                                                             -                               75% will be dedicated to artists and their listeners (division performed through
+                                                                                           mathematical algorithm)
+                                                                                           -                               15% will be dedicated to our Validators
+                                                                                           -                               10% will be retained by the platform for various developments and services
+Obviously we are taking care to avoid abuse or any kind of spam on the platform,
+introducing a "bandwith", which will allow you to listen to music for a certain time a
+day, which will increase according to your activity on the platform and seniority .
+BANDWITH
+Practically more seniority and social activity you will have on the platform, the more
+benefits you will get from it, not only in terms of "bandwith", but also in rewarding
+(eg John joining BitSong today, he will not get the same amount of tokens that takes
+David, who has signed up and has been active for a year).
+
+
+
+
+IPFS is a peer-to-peer distributed file system that tries to connects all devices
+TECHNOLOGIES
+within the same file system.
+In some ways, IPFS is similar to the World Wide Web, but however IPFS
+IPFS                                                                                can be seen as a single BitTorrent swarm, which exchanges objects within
+INTERPLANETARY
+a Git repository. In other words, IPFS provides a high-throughput block
+FILE SYSTEM
+storage model and with content addressing, with via hyperlinks to content.
+The keyword of the Interplanetary File System is therefore decentralized.
+This technique makes it possible to distribute information on a rather large
+network of nodes and makemaking it them easily traceable. The search for
+the contents wis ill then be based on the a hash identifier, so as to be.
+This ensures that one can sure to find exactly what was one is looking
+for sought while remaining in the shelter of possibleprotected of possible
+network malfunctions.   precisely because of the fact that the Iinformation
+on it is based on the project are is disseminated and made redundant on
+numerous independent nodes.
+Cosmos is a network of independent parallel blockchains that are each
+powered by classical BFT consensus algorithms like Tendermint.
+COSMOS EXPLAINED
+Cosmos is a launch pad for new cryptocurrencies, upgrades to existing
+cryptocurrencies, innovation decentralized applications and a platform for
+smart contracts.
+These contracts can be used safely to perform a large number of
+operations: electoral systems, registration of domain names, financial
+COSMOS-BASED
+markets, crow-dfunding platforms, intellectual property, etc.
+TRANSACTIONS
+Cosmos goes beyond a single distributed ledger, paving the way for a free
+market “Internet of Blockchains”. Developers can use this technology to
+create their own blockchain to compete or complement the Cosmos Hub.
+Tendermint is a low-level protocol comprised of two main pieces: a
+blockchain consensus engine and a generic application interface.
+TENDERMINT EXPLAINED
+Tendermint Core, the blockchain consensus engine, facilitates the peer-to-
+peer network and provides a proof-of-stake (PoS) consensus. The
+Application BlockChain Interface (ABCI), on the other hand, acts as a tool
+for blockchains to link onto the Tendermint Core protocol.
+The purpose of Tendermint is to be a blockchain engine. It’s meant to be a
+BLOCKCHAIN ENGINE
+tool that developers can use to skip the nasty and technical cryptography
+and jump into the higher level blockchain and application development.
+10
+
+
+
+
+Proof of stake (PoS) is a type of algorithm by which a cryptocurrency
+PoS
+blockchain network aims to achieve distributed consensus.
+PROOF OF STAKE
+In PoS-based cryptocurrencies the creator of the next block is chosen via
+various combinations of random selection and wealth or age (i.e., the
+stake).
+In contrast, the algorithm of proof-of-work-based cryptocurrencies such as
+bitcoin uses mining; that is, the solving of computationally intensive puzzles
+to validate transactions and create new blocks.
+TOKEN                                                                            The BitSong Token (symbol: BTSG) will be used as currency within our platform,
+and will therefore be used for sponsorships, donations, purchases and votes.
+INFORMATIONS
+Using  the  BitSong's  Blockchain  our  community  will  be  able  to  receive
+pay-ments safely and quickly, thus eliminating the annoying problems and
+slow-ness of the fiat currencies.
+LONG TERM                                                                        BitSong is a long term project, all our calculations have been made in order
+PROJECT                                                                          to guarantee an  “uninterrupted” production flow,                                   (all this regardless of
+the various market fluctuations).
+Our token will be essential for:
+•  Sponsorship
+•  Making a donation
+•  Purchasing a song
+•  Voting
+•  Buying tickets
+•  Purchasing merchandising
+COMMUNITY                                                                        We encourage and reward our community and who will support us,  this activity is
+CONTRIBUTOR                                                                      necessary in the launching phase of our service and also subsequently throughout
+                                                                                 for a continuous growth and fast expansion.
+REWARDS
+SMART                                                                            In order to guarantee the adoption of our platform, we have implemented a
+CONTRACT                                                                         Smart Contract that will reward the new subscribers, those who invite other users
+and who will create various contents of various types.
+11
+
+
+
+
+TOKEN                                                                             The token distribution will be designed to increase community benefits and
+provide long-term incentives.
+DISTRIBUTION
+1%
+2%
+5%
+50%
+7%
+15%
+20%
+Presale & Public Sale - 50% of the BTSG tokens will go on sale. This sale will
+PRESALE &
+permit the development of the application and the expansion of our project.
+PUBLIC SALE
+All the Tokens not sold in the Public Sale will be BURNED to guarantee the
+stability and maintenance of the value of our currency.
+In order to create an “active” community within BitSong, we have decided to
+AIRDROP
+give away 1% of our tokens in Airdrop. At present our Airdrop, has created
+more than 180,000 users for Bitsong.
+The Bounty Program is born from the need to create a strong and sustainable
+BOUNTY
+community. In this case, all users who bring added value to BitSong will be
+rewarded with BTSG tokens.
+We strongly believe in the creation of a partner network linked to the music
+PARTNERSHIP
+world. This fund will allow us to increase this network, to develop our project
+and to enlarge our community.
+In order to guarantee the success of our crowdfunding, we have reserved a
+ADVISOR
+7% fund for our advisors and related costs.
+The reserve fund is necessary to guarantee “long-term” survival of the project
+RESERVE
+and will be blocked for a period of 18 months. Later it will be unlocked (if
+FUND
+necessary) in 10% monthly batches to refinance new features.
+We have allocated 20% of the BTSG Tokens to the Owner Founder and the
+TEAM
+Team. This fund will be blocked for a period of 6 months, at the end of the
+6 months the BTSG tokens will be unlocked in batches of about 2-3% per
+month.
+12
+
+
+
+
+In order to be able to manage and exploit the funds available in the best way,
+USE OF FUNDS
+BitSong intends to use them according to a strategy and a well-studied plan.
+15%
+50%                                                                              15%
+20%
+We aim to expand globally our business in other countries, all over the wor-
+EXPANSIONS
+ld, starting from with the European Union followed by, the U.S.A, Canada,
+AND BUSINESS
+Asia markets and eventually extending to all countries that are and want to
+DEVELOPMENT
+invest in the digital music world through the blockchain.
+The blockchain is a sector that is still developing, investing heavily in new
+TECHNOLOGIES
+blockchain technologies will allow us to keep our project in a decentralized
+AND LOGISTICS
+way. The Three locations have been identified establishment of 3 locations
+in Europe for the establishment of our business. All is already planned, a 3
+three locations are in geographically strategic positions for the partnerships
+network that are already active and linked to the musical world.
+To do this we need to improve and develop our platform through technical
+RESEARCH AND
+and strategic improvements, acquire and develop new activities that the pla-
+DEVELOPMENT
+tform can offer to our Community and , licenses, mergers and collaborations
+collaborate with other partner companies.
+The fund related to Marketing & PR fund is the most important of the whole
+MARKETING
+project. An unknown application is an unused application. Therefore, these
+AND PR
+fund will be used to enhance the costs of our marketing strategy. Precisely
+for this reason we intend to push our marketing as much as possible, in this
+way we will be able to aim at connecting to our customers, with the largest
+number of users and consequently the achievement of our goal. This fund
+will also be used to invest heavily in events, sponsorships, contests related
+to artists, public relations, advertising campaigns, social media campaigns
+and newsletters. Any means necessary to expand the brand and achieve our
+goal will also be considered.
+13
+
+
+
+
+ICO TIMELINE
+PHASE                            DATES                                                                  BONUS %                                                                                                            DURATION   HARD CAP BTSG
+PRE-ICO                          05/14/2018                                                             40%                                                                                                                7 DAYS     20,000,000
+PRE-ICO                          05/21/2018                                                             30%                                                                                                                7 DAYS     15,000,000
+PRE- ICO                         05/28/2018                                                             20%                                                                                                                14 DAYS    10,000,000
+PRE- ICO                         06/11/2018                                                             10%                                                                                                                14 DAYS    5,000,000
+PUBLIC SALE                      08/10/2018                                                             0%                                                                                                                 120 DAYS   90,000,000
+                                                                                                        * All unsold BTSG tokens in the various phases (eg PRE-ICO) will be entered in the last phase of the Public Sale
+TOKEN
+DETAILS
+Symbol                           BTSG
+Role                             Token utility used to get access to services within BitSong
+Accepted Payments                ETH / Crowdsale through Smart Contract
+Total Supply                     All unsold tokens during the public sale will be burned
+Presale                          Estimated start April, 2018 (whitelisting)
+Public Token Sale                Q3/2018 - August 10th,2018
+Tokens                           Presale: 47,500,000
+Available                        Public Token Sale: 90,000,000
+ICO Price                        1 ETH = 11,290 BTSG
+Minimum Contribution             Pre-sale 40% bonus: min. 3 ETH
+Pre-sale 30% bonus: min. 2 ETH
+ICO 20% bonus: min. 1 ETH
+ICO 10% bonus: min. 0.50 ETH
+ICO 0% bonus: min. 0.05 ETH
+Bonus Discount                   Pre-sale 40% for first 20,000,000 sold, 30% for next 15,000,000 sold
+                                 ICO: 20% for first 10,000,000 sold, 10% for next 5,000,000 sold,
+                                 0% for remaining Tokens
+Soft Cap                         4000 ETH
+Hard Cap                         7000 ETH
+14
+
+
+
+
+ROADMAP
+15
+
+
+
+
+TEAM
+Angelo Recca - BitSong Founder
+Begins his first steps in the world of computing at
+the tender age of 8 years. To date he is the
+administrator of his company (SpazioRC web
+hosting company). Angelo is also a Full-Stack
+Developer, Blockchain Expert and Entrepreneur.
+Rino Ticli - BitSong Co-Founder
+He began his career as a DJ at the age of 14.
+He immediately started playing in the clubs of his
+province until he became renown and expan-
+ded all over the internationally territory collabora-
+ting with record labels such as Blanco Y Negro,
+Dance  and  Love,  Saifam  Music  and  Executiva
+Music. Also known in Malta for Electronic Dance
+evenings.
+Iulian Anghelin - BitSong EMEA Manager
+Entrepreneur, Angel&Blockchain Investor,
+passionate about cryptocurrencies and
+blockchain, excellent communication skills, Public
+speaker and Investor Relations, 5 languages
+speaker. Coming from a multi-cultural
+background and having lived in different
+countries, I have become a passionate
+intercultural expert. Fluent in English, Italian,
+French, Romanian and Spanish, I am highly
+proficient at working across multiple cultures.
+Gas Incatasciato - Music Producer
+in art “GAS”. Record producer, talent scout, com-
+poser. Graduated from the V.Bellini Conservatory
+of Catania, percussion branch, boasts numerous
+musical collaborations with various national and
+international artists. A discographic producer wi-
+thin the musical project of Ticli & Gas.
+16
+
+
+
+
+Tiziana Mazza - Social Media Manager
+Passionate about public relations, but also a gre-
+at lover of music in all its forms. She knows Bit-
+Song from its foundations, succeeding in this way
+in transmitting to the public what it represents, in
+the smallest details. She had the opportunity to be
+part of this project also thanks to his past expe-
+riences as a promoter, which allowed her to learn
+how to deal with the general public.
+Serena Di Pasquale - Social Media Manager
+She had the opportunity to work in the past as
+a model, allowing her to successfully get into the
+fashion and social media’s world. The influence
+towards the general public gave her the oppor-
+tunity to interact with the public, also for the bit-
+song project, where she managed to combine her
+passion for music, with the passion for beauty in
+general, in fact is collaborating with BitSong as a
+social media manager and image/model girl.
+Alessandra Recca - UI/UX Designer
+Committed Designer with a passion to build enga-
+ging experiences for the Digital products. Strong
+conceptual skills and ability to translate ideas into
+creative UI design. Responsible, reliable and passio-
+nate about UI and UX design and methodologies. I
+love when I can use design and design thinking to
+make a meaningful impact on my community.
+17
+
+
+
+
+ADVISORS
+Paul Scott
+Paul is a seasoned professional in financial markets and emerging-market
+technologies. He has deep-level FinTech, InsurTech and Big Data eco-system
+knowledge, including utilisation of leading-edge technologies that underpin
+the eco-system’s development. His focus for the last 2-years has become the
+inherent benefits in Blockchain technology and the nascent opportunities this
+presents for a decentralised global economy. In particular, his experience has
+extended into cryptocurrency launches, acting as an advisor both formally
+and informally, and in the construction of Whitepapers and token economics,
+mechanisms and distribution.
+Giacomo Arcaro
+Giacomo Arcaro is one of the most experienced European Growth Hacker.
+He’s Professor at Collège Des Ingénieurs, TAG Innovation School, founder of
+Black Marketing Guru and Confindustria Speaker. He exited for 1M€ with
+CercaClienti.it in 2015 and now he became one of the most Influent
+European ICO Advisor with over 140,000 crypto-followers. He works in a XII
+° century Italian Church managing a team of 30 Growth Hackers from all
+over Europe.
+Giovanni Casagrande
+Giovanni is notable blockchain industry figurehead, growth hacker and he is
+a co-Founder of Black Marketing Guru, a digital marketing and advertising
+startup based in Rimini, Italy. He is also an Icobench Top10 Expert, blog
+editor and advisor in a lot of projects.
+J.D. Salbego
+A recognized International Blockchain & Crypto Executive Consultant,
+advisor, entrepreneur and speaker working with leading startups, enterprises
+and governments around the world to navigate complex issues related to
+growth strategies, innovation, regulation, deal execution, ICO launch,
+international expansion, investor relations, fundraising, operations and capital
+markets.
+18
+
+
+
+
+Reuben Godfrey
+Reuben has worked in sales, business development, finance a nd o perations
+roles for major multinationals and start-ups in the tech, telecoms and pharma-
+ceutical industries globally. He has worked as a journalist and is frequently
+interviewed and asked for comment by tech and mainstream media as well
+as speaking at and hosting seminars and conferences and as an advisor to
+numerous successful ICOs
+He is co-founder the Blockchain Association of Ireland and the Irish Chamber
+of Commerce in Slovakia with an ambassador role on the GDPR Awareness
+Coalition and on the NSAI National Mirror Committee to ISO TC 307.
+Vladimir Nikitin
+Professional legal consultant, financial advisor with over ten years’ experien-
+ce in the legal, finance, r etail, a nd I T i ndustries. Well-known c ryptocurrency
+expert and ICO advisor. As an active supporter and advocate of blockchain
+technology, I provide consultancy and advice to selected ICOs in the CIS re-
+gion. My network in the crypto community counts over 31 000 followers.
+Nikolay Shkilev
+Crypto enthusiast and mentor. Rated Top 3 in People of Blockchain.
+Has 20 years of experience in large-scale transaction projects. He has many
+awards and titles in the IT business. Self-Made Russia award. Tech guru. Super
+TOP award etc. Founder and CEO of Private Business Club. His Holding recei-
+ved “Enterprise of the Year” award in the Kremlin. Has a business in various
+directions. Co-Founder “Top ICO advisors”.
+19
+
+
+
+
+Changelog
+Version 0.9
+Initial Public Whitepaper
+
+
+
+
+© 2017-2018 BitSong
+
+
+
+
+

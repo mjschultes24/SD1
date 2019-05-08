@@ -1,0 +1,1108 @@
+﻿Loopring:
+A Decentralized Token Exchange Protocol
+Daniel Wang                                                                                                                 Jay Zhou                                                           Alex Wang
+daniel@loopring.org                                                                                                         jay@loopring.org                                                   alex@loopring.org
+Matthew Finestone
+matt.finestone@gmail.com
+https://loopring.org
+September 8, 2018
+Abstract
+Loopring is an open protocol for building decentralized exchanges.   Loopring operates as a public set of smart
+contracts responsible for trade and settlement, with an off-chain group of actors aggregating and communicating orders.
+The protocol is free, extensible, and serves as a standardized building block for decentralized applications (dApps) that
+incorporate exchange functionality.  Its interoperable standards facilitate trustless, anonymous trading.  An important
+improvement over current decentralized exchange protocols is the ability for orders to be mix-and-matched with other,
+dissimilar orders, obviating the constraints of two-token trading pairs and drastically improving liquidity.  Loopring
+also employs a unique and robust solution to prevent front-running:  the unfair attempt to submit transactions into a
+block quicker than the original solution provider.  Loopring is blockchain agnostic, and deployable on any blockchain
+with smart contract functionality. At the time of writing, it’s operable on Ethereum [1] [2] and Qtum [3] with NEO [4]
+under construction.
+1                                                                                                                           Introduction                                                                                 it fails to uphold the virtues these decentralized projects
+                                                                                                                                                                                                                         espouse.  There are also numerous practical risks and lim-
+                                                                                                                            With the proliferation of blockchain-based assets, the need                                  itations in using centralized exchanges which are described
+                                                                                                                            to exchange these assets amongst counterparties has signifi-                                 below.   Decentralized  exchanges  (DEXs)  [7]  [8]  [9]  have
+                                                                                                                            cantly increased. As thousands of new tokens are introduced                                  sought  to  address  these  issues,  and  in  many  cases  have
+                                                                                                                            - including the tokenization of traditional assets - this need                               succeeded in alleviating security risks by using blockchains
+                                                                                                                            is  magnified.   Whether  exchanging  tokens  for  speculative                               for disintermediation. However, as DEX capability becomes
+                                                                                                                            trading motivations,  or converting to access networks via                                   crucial infrastructure for the new economy, there is substan-
+                                                                                                                            their native utility tokens, the ability to exchange one cryp-                               tial room for performance improvement.  Loopring aims to
+                                                                                                                            toasset for another is foundational for the larger ecosystem.                                provide modular tools for said infrastructure with its dApp
+                                                                                                                            Indeed, there is a potential energy in assets [5], and realizing   agnostic open protocol.
+this energy - unlocking capital - requires not only asserting
+ownership, which blockchains have immutably allowed for,
+                                                                                                                            but the ability to freely transfer and transform these assets.                               2                                                                 Current Exchange Landscape
+                                                                                                                            As such,  the trustless exchange of tokens  (value) is a
+                                                                                                                            compelling use case for blockchain technology.  Until now,
+                                                                                                                                                                                                                         2.1                                                                                                                                 Inadequacies of Centralized Exchanges
+                                                                                                                            however, crypto enthusiasts have largely settled for trading
+                                                                                                                            tokens on traditional centralized exchanges.  The Loopring                                                                                                     The three primary risks of centralized exchanges are; 1) Lack
+protocol  is  needed  because,  just  as  Bitcoin                                                                                                                                              [6]  dutifully                                                                              of security, 2) Lack of transparency, and 3) Lack of liquidity.
+                                                                                                                            emphasized that, in regards to peer-to-peer electronic cash,                                                                                                   Lack of Security arises from users typically surrender-
+                                                                                                                            “the main benefits are lost if a trusted third party is still                                                                                                  ing control of their private-keys  (funds) to one centralized
+                                                                                                                            required to prevent double-spending”, so too are the main                                                                                                      entity. This exposes users to the possibility that centralized
+                                                                                                                            benefits of decentralized assets lost if they must pass through                                                                                                exchanges fall prey to malicious hackers.  The security and
+trusted, gated, centralized exchanges.                                                                                                                                                                                                                                                     hacking risks facing all centralized exchanges are well known
+                                                                                                                            Trading  decentralized  tokens  on  centralized  exchanges                                                                                                     [10] [11], yet are often accepted as “table stakes” for token
+                                                                                                                            doesn’t  make  sense  from  a  philosophical  perspective,  as                                                                                                 trading. Centralized exchanges continue to be honeypots for
+1
+
+
+
+
+hackers to attack as their servers have custody over millions        2.2                                                                  Inadequacies   of   Decentralized   Ex-
+of dollars of user funds. Exchange developers can also make                                                                               changes
+honest,  accidental  errors  with  user  funds.   Simply,  users
+                                                                     Decentralized exchanges differ from centralized exchanges
+are not in control of their own tokens when deposited at
+                                                                     in part because users maintain control of their private-keys
+a centralized exchange.
+                                                                     (assets)  by  performing  trades  directly  on  the  underlying
+Lack  of  Transparency  exposes  users  to  the  risk  of            blockchain.  By leveraging the trustless technology of cryp-
+dishonest exchanges acting unfairly. The distinction here is         tocurrencies themselves, they successfully mitigate many of
+by the exchange operator’s malicious intentions, as users are        the abovementioned risks surrounding security.   However,
+not truly trading their own assets on centralized exchanges,         problems persist in regards to performance and structural
+but rather, an IOU. When tokens are sent to the exchange’s           limitations.
+wallet, the exchange takes custody, and offers an IOU in its                                                                              Liquidity often remains an issue as users must search
+place.  All trades are then effectively between users’ IOUs.         for counterparties across disparate liquidity pools and stan-
+To withdraw, users redeem their IOU with the exchange,               dards.   Fragmented  liquidity  effects  are  present  if  DEXs
+and  receive  their  tokens  to  their  external  wallet  address.   or  dApps  at  large  don’t  employ  consistent  standards  to
+Throughout  this  process  there  is  a  lack  of  transparency,     interoperate, and if orders are not shared/propagated across
+and  the  exchange  can  shutdown,  freeze  your  account,  go       a wide network.  The liquidity of limit order books,  and,
+bankrupt, etc.  It is also possible that they use user assets        specifically,  their  resiliency                                                                                               -  how  fast  filled  limit  orders
+for other purposes while in custody, such as lending them            are  regenerated  -  can  significantly  affect  optimal  trading
+out to third parties.  Lack of transparency can cost users           strategies [13].  The absence of such standards has resulted
+without a total loss of funds, such as in higher trading fees,       not only in reduced liquidity, but also exposure to an array
+delays at peak demand, regulatory risk, and orders being             of potentially insecure proprietary smart contracts.
+front ran.                                                                                                                                Furthermore, since trades are performed on chain, DEXs
+                                                                     inherit the limitations of the underlying blockchain, namely:
+Lack of Liquidity. From the point of view of exchange
+                                                                     scalability, delays in execution (mining), and costly modifi-
+operators,  fragmented liquidity inhibits entry by new ex-
+                                                                     cations to orders. Thus, blockchain order books do not scale
+changes because of two winner-takes-all scenarios. First, the
+                                                                     particularly well, as executing code on the blockchain incurs
+exchange with the greatest number of trading pairs wins,
+                                                                     a cost  (gas),  making multiple order-cancellation cadences
+because users find it desirable to conduct all their trades on
+                                                                     prohibitively expensive.
+one exchange.  Second, the exchange with the largest order
+                                                                                                                                          Finally, because blockchain order books are public, the
+book  wins,  because  of  favorable  bid-ask  spreads  for  each
+                                                                     transaction to place an order is visible by miners as it awaits
+trading pair. This discourages competition from newcomers
+                                                                     being mined into the next block and placed into an order
+because it is difficult for them to build up initial liquidity.
+                                                                     book. This delay exposes the user to the risk of being front
+As a result, many exchanges command a high market share
+                                                                     run and having the price or execution move against him.
+despite user complaints and even major hacking incidents.
+It’s worth noting that as centralized exchanges win market
+share, they become an ever-larger hacking target.                    2.3                                                                  Hybrid Solutions
+From the point of view of users,  fragmented liquidity               For the above reasons, purely blockchain-based exchanges
+significantly reduces user experience.  In a centralized ex-         have limitations that make them uncompetitive with cen-
+change, users are only able to trade within the exchange’s           tralized exchanges.   There is a tradeoff between on-chain
+own liquidity pools,  against its own order book,  and be-           inherent trustlessness, and centralized exchange speed and
+tween  its  supported  token  pairs.   To  trade  token  A  for      order  flexibility.   Protocols  such  as  Loopring  and  0x  [14]
+token B, users must go to an exchange that supports both             extend a solution of on-chain settlement with off-chain order
+tokens or register at different exchanges, disclosing personal       management.  These solutions revolve around open smart
+information.   Users  often  need  to  execute  preliminary  or      contracts, but navigate scalability limitations by performing
+intermediate trades, typically against BTC or ETH, paying            several  functions  off-chain  and  giving  nodes  flexibility  in
+bid-ask spreads in the process. Finally, the order books may         fulfilling critical roles for the network. However, drawbacks
+not be deep enough to complete the trade without material            remain  for  the  hybrid  model  as  well  [15].   The  Loopring
+slippage.   Even if the exchange purports to process large           protocol proposes meaningful differences in our approach to
+volumes, there is no guarantee that this volume and liquidity        a hybrid solution throughout this paper.
+is not fake [12].
+The result is disconnected silos of liquidity and a frag-            3                                                                    Loopring Protocol
+mented ecosystem that resembles the legacy financial sys-
+tem,  with  significant  trading  volume  centralized  on  few       Loopring is not a DEX, but a modular protocol for building
+exchanges. The global liquidity promises of blockchains hold         DEXs on multiple blockchains. We disassemble the compo-
+no merit within centralized exchanges.                               nent parts of a traditional exchange and offer a set of public
+2
+
+
+
+
+30
+smart contracts and decentralized actors in its place.  The            of                                                                     =  3.00A. In the case of fixing token B as reference,
+10
+roles in the network include wallets, relays, liquidity-sharing        we  say  that  Alice  is  selling  15  token  A  for  the  price  of
+4
+consortium blockchains, order book browsers, Ring-Miners,              =  0.26666667B and Bob is buying  10  token A for the
+15
+and asset tokenization services.   Before defining each,  we           price of  30  = 0.33333334B. Hence, who’s the buyer or seller
+should first understand Loopring orders.                               is arbitrary.
+In  the  first  situation  Alice  is  willing  to  pay  a  higher
+price  (3.75A)  than  the  price  Bob  is  selling  his  tokens  for
+3.1                                                                    Order Ring
+                                                                                                                                                                                                      (3.00A), while in the second situation Bob is willing to pay a
+                                                                       Loopring orders are expressed in what we call a Unidirec-                                                                      higher price (0.33333334B) than the price Alice is selling her
+                                                                       tional Order Model (UDOM)[16].  UDOM expresses orders                                                                          tokens for (0.26666667B). It is clear that a trade is possible
+                                                                       as token exchange requests, amountS/amountB, (amount to                                                                        whenever the buyer is willing to pay an equal or higher price
+                                                                       sell/buy) instead of bids and asks. Since every order is just          than the seller’s price.
+                                                                       an exchange rate between two tokens, a powerful feature of
+                                                                                                                                              15                                                      10
+                                                                       the protocol is the mixing and matching of multiple orders in
+                                                                                                                                              4                                                       30
+                                                                                                                                              =                                                       = 15                                                             (1)
+                                                                                                                                              30                                                      4
+                                                                       circular trade.  By using up to 16 orders instead of a single                                                                  4  · 30 = 1.25 > 1
+                                                                                                                                              10                                                      15
+                                                                       trading pair, there is a dramatic increase in liquidity and
+                                                                                                                                                                                                      Thus, for a set of n orders to be able to be filled, fully or
+                                                                       potential for price improvement.
+partially, we need to know if the product of each one of the
+exchange rates as buy orders results in a number greater or
+ORDER#2
+8B                                                                     owner:  Y                                                                                                                      98C                                                                                           equal to 1. If so, all the n orders can be either partially, or
+                                                                       amountS: 9B
+                                                                       amountB: 12C                                                                                                                                                                                    totally filled [17].
+                                                                                                                                                                                                                                                                                                    If we introduce a third counterparty, Charlie, such that
+ORDER#1                                                                                                                                       ORDER#3
+owner:  X                                                              7898A                                                                  owner:  Z                                                                                                                Alice  wants  to  give  x1   token  A  and  receive  y1                                        token  B,
+amountS: 10000A                                                                                                                               amountS: 100C
+Bob wants to give x2  token B and receive y2  token C, and
+amountB: 2B                                                            amountB: 160A
+Charlie wants to give x3  token C and receive y3  token A. The
+Figure 1: An order-ring of 3 orders                                    necessary tokens are present, and the trade is possible if:
+x1  · x2  · x3
+                                                                       The above figure shows an order-ring of 3 orders.  Each                                                                                                                                                                                                                                                                                                                                                                                    ≥ 1   (2)
+                                                                                                                                                                                                                                                                                                                                                                                                                                       y1  · y2  · y3
+                                                                       order’s token to sell  (tokenS) is another order’s token to
+                                                                                                                                                                                                                                                                                                                                                                      See section 7.1 for more details about Loopring’s orders.
+                                                                       buy  (tokenB). It creates a loop that allows each order to
+                                                                       exchange their desired tokens without requiring an opposing
+                                                                       order  for  its  pair.   Traditional  order  pair  trades  can,  of
+                                                                                                                                                                                                                                                                                                    4                                                                 Ecosystem Participants
+                                                                       course, still be executed, in what is essentially a special case
+of an order-ring.                                                                                                                                                                                                                                                                                                                                                     The  following  ecosystem  participants  jointly  provide  all
+                                                                                                                                                                                                                                                                                                    functionalities a centralized exchange has to offer.
+                                                                       Definition 3.1 (order-ring)  Let C0 , C1 ,  · · · , Cn−1  be n
+different  tokens,  O0→1 ,                                                                                                                    · · · ,  Oi→i⊕1 ,                                       · · · ,  On−1→0                                                  be  n                                                                                          •  Wallets:  A common wallet service or interface that
+                                                                       orders. Those orders can form a order-ring for trading:                                                                                                                                                                                                                                        gives users access to their tokens and a way to send
+                                                                                                                                                                                                                                                                                                                                                                      orders  to  the  Loopring  network.    Wallets  will  be
+                                                                       O0→1  → · · · → Oi→i⊕1  → · · · → On−1→0 ,                                                                                                                                                                                                                                                     incentivized  to  produce  orders  by  sharing  fees  with
+                                                                                                                                                                                                                                                                                                                                                                      ring-miners (see section 8).  With the belief that the
+                                                                       where n is the length of the order-ring, and i ⊕ 1  ≡ i + 1
+                                                                                                                                                                                                                                                                                                                                                                      future of trading will take place within the safety of
+mod n.
+                                                                                                                                                                                                                                                                                                                                                                      individual  user’s  wallets,  connecting  these  liquidity
+                                                                                                                                                                                                                                                                                                                                                                      pools through our protocol is paramount.
+                                                                       An order-ring is valid when all component transactions
+                                                                       can be executed at an exchange rate equal to or better than                                                                                                                                                                                                                                    •  Consortium Liquidity Sharing Blockchain/Relay-
+                                                                       the original rate specified implicitly by the user.  To verify                                                                                                                                                                                                                                 Mesh:  A relay-mesh  network for order & liquidity
+                                                                       order-ring validity, Loopring protocol smart contracts must                                                                                                                                                                                                                                    sharing.   When  nodes  run  Loopring  relay  software,
+                                                                       receive order-rings from ring-miners where the product of                                                                                                                                                                                                                                      they  are  able  to  join  an  existing  network  and
+                                                                       the original exchange rates of all orders is equal to or greater                                                                                                                                                                                                                               share  liquidity  with  other  relays  over  a  consortium
+than 1.                                                                                                                                                                                                                                                                                                                                                               blockchain.                                                      The  consortium  blockchain  we  are
+                                                                       Let’s assume Alice and Bob want to trade their token                                                                                                                                                                                                                                           building as a first implementation has near real time
+                                                                       A and B. Alice has 15 token A and she wants 4 token B for                                                                                                                                                                                                                                      order  sharing                                                   (1-2                                   second  blocks),  and  trims  old
+                                                                       them; Bob has 10 token B and he wants 30 token A for them.                                                                                                                                                                                                                                     history  to  allow  for  faster  download  by  new  nodes.
+                                                                       Who is buying and who is selling?  This depends only                                                                                                                                                                                                                                           Notably,  relays need not join this consortium;  they
+                                                                       on the asset we fix to give price quotations.  If token A is                                                                                                                                                                                                                                   can act alone and not share liquidity with others, or,
+                                                                       the reference, then Alice is buying token B for the price of                                                                                                                                                                                                                                   they can start and manage their own liquidity sharing
+15
+=  3.75A, while Bob is selling  10  token B for the price              network.
+4
+3
+
+
+
+
+•  Relays/Ring-Miners:   Relays  are  nodes  that  re-        order books to be built in a certain way, such as first-
+ceive orders from wallets or the relay-mesh, maintain         come-first-serve.   Instead,  relays  have  the  power  to
+public order books and trade history, and optionally          make their own design decisions in building their order
+broadcast  orders  to  other  relays  (via  any  arbitrary    books.
+off-chain  medium)  and/or  relay-mesh  nodes.   Ring-
+4.                                                            Liquidity  Sharing:  Relays broadcast the order to
+mining is a feature  - not a requirement  - of relays.
+                                                              other  relays  through  any  arbitrary  communication
+It is computationally heavy and is done completely
+                                                              medium. Once again, there is flexibility how/whether
+off-chain.  We call relays with the ring-mining feature
+                                                              nodes interact. To facilitate a certain level of network
+turned on “Ring-Miners”, who produce order-rings by
+                                                              connectivity, there is a built-in liquidity sharing relay-
+stitching together disparate orders. Relays are free in
+                                                              mesh using a consortium blockchain.  As mentioned
+(1) how they choose to communicate with one another,
+                                                              in the prior section, this relay-mesh is optimized for
+(2) how they build their order books, and (3) how they
+                                                              speed and inclusivity.
+mine order-rings (mining algorithms).
+•  Loopring  Protocol  Smart  Contracts  (LPSC):
+A set of public and free smart contracts that checks          ORDER 1
+owner:  X
+user X                                                        accountX
+order-rings received from ring-miners, trustlessly set-       amountS: 10000 A
+amountB: 2 B
+tles and transfers tokens on behalf of users, incentivizes
+8 B
+ring-miners and wallets with fees, and emits events.          ORDER 2
+owner:  Y
+Relays/order browsers listen to these events to keep          2                                                             user Y                                1                                                             accountY   7898 A
+amountS: 9 B
+their order books and trade history up to date.  See          amountB: 12 C
+98 C
+appendix ?? for details.
+ORDER 3
+owner:  Z
+user Z                                                        accountZ                                                      6
+amountS: 100 C
+•  Asset  Tokenization  Services                              (ATS):  A  bridge
+amountB: 160 A
+between  assets  that  cannot  be  directly  traded  on
+Loopring.  They are centralized services run by trust-
+                                                              relay M                                                       accountM                              Fee
+worthy  companies  or  organizations.   Users  deposit
+assets (real, fiat or tokens from other chains) and get
+                                                              3                                                             share liquidity
+tokens issued, which can be redeemed for the deposit
+                                                                                                                            4                                     settlement
+in the future.  Loopring is not a cross-chain exchange        relay N                                                       accountN
+protocol  (until  a  suitable  solution  exists),  but  ATS
+ring-mining
+enable  trading  of  ERC20  tokens  [18]  with  physical
+assets as well as assets on other blockchains.                ORDER 1                                                       5
+owner:  X
+amountS: 10000 A
+amountB: 2 B
+ORDER 2
+                                                                                                                            owner:  Y                             submitRing
+5                                                             Exchange Process                                                                                    LPSC
+                                                                                                                            amountS: 9 B
+                                                                                                                            amountB: 12 C
+                                                                                                                            ORDER 3
+1.                                                            Protocol  Authorization:  In figure  2,  user Y who           owner:  Z
+                                                                                                                            amountS: 100 C
+                                                              wants  to  exchange  tokens  authorizes  the  LPSC  to        amountB: 160 A
+                                                              handle amountS of token B the user wants to sell. This                                              blockchain
+                                                              does not lock the user’s tokens, who remains free to
+                                                              move them while the order is processed.                       Figure 2: Loopring Exchange Process
+2.                                                            Order Creation:  The current rate and order book              5.                                    Ring-Mining (Order Matching): Ring-miners try
+                                                              for  token  B  vs  token  C,  are  provided  by  relays  or                                         to fill the order fully or partially at the given exchange
+                                                              other agents hooked up to the network, such as order                                                rate or better by matching it with multiple other or-
+                                                              book browsers.  User Y places an order  (limit order)                                               ders. Ring-mining is the main reason why the protocol
+                                                              specifying amountS and amountB and other parameters
+                                                                                                                                                                  is able to provide high liquidity over any pair.  If the
+                                                              through any integrated wallet interface. An amount of
+                                                                                                                                                                  executed  rate  is  better  than  what  user  Y  specified,
+                                                              LRx can be added to the order as a fee for ring-miners;
+                                                                                                                                                                  margin is shared amongst all orders in the order-ring.
+                                                              higher LRx fee means a better chance to be processed                                                As a reward, the ring-miner chooses between claiming
+                                                              earlier by ring-miners. The order’s hash is signed with                                             part of the margin (Margin-Split, and giving back the
+user Y’s private-key.                                                                                                                                             LRx to the user), or simply keeping the LRx fee.
+3.                                                            Order  Broadcast:  The wallet sends the order and             6.                                    Verification  &  Settlement:  The order-ring is re-
+                                                              its signature to one or more relays.   Relays update                                                ceived by LPSC. It makes multiple checks to verify
+                                                              their public order book. The protocol doesn’t require                                               the  ring-miner  supplied  data  and  determines  if  the
+4
+
+
+
+
+                                                                                                                                       order-ring can be settled fully or partially (depending             7                                                                  Protocol Specification
+                                                                                                                                       on the fill rate of orders in-ring and tokens in users’
+                                                                                                                                       wallets).   If  all  checks  are  successful,  the  contract        7.1                                                                Anatomy of an Order
+                                                                                                                                       atomically transfers the tokens to users and pays the
+                                                                                                                                                                                                                                                                                                                              An order is a pack of data that describes the intent of the
+                                                                                                                                       ring-miner and wallet fees at the same time.  If user
+                                                                                                                                                                                                                                                                                                                              user’s trade.   A Loopring order is defined using the Uni-
+                                                                                                                                       Y’s balance as determined by the LPSC is insufficient,
+                                                                                                                                                                                                                                                                              Directional Order Model, or UDOM, as follows:
+                                                                                                                                       it  will  be  considered  scaled-down:   a  scaled-down
+                                                                                                                                       order will automatically scale up to its original size
+                                                                                                                                                                                                                                                                              message  Order  {
+                                                                                                                                       if sufficient funds are deposited to its address, unlike
+                                                                                                                                                                                                                                                                              address  protocol;
+                                                                                                                                       a cancellation, which is a one way manual operation
+                                                                                                                                                                                                                                                                              address  owner;
+                                                                  and cannot be reversed.
+                                                                                                                                                                                                                                                                              address  tokenS;
+                                                                                                                                                                                                                                                                              address  tokenB;
+                                                                                                                                                                                                                                                                              uint256  amountS;
+6                                                                 Operational Flexibility
+                                                                                                                                                                                                                                                                              uint256  amountB;
+                                                                                                                                                                                                                                                                              unit256  lrcFee
+                                                                                                                                       It’s important to note that Loopring’s open standard allows
+                                                                                                                                                                                                                                                                                                                              unit256  validSince;  //  Seconds  since  epoch
+                                                                                                                                       participants significant flexibility in how they operate.  Ac-
+                                                                                                                                                                                                                                                                                                                              unit256  validUntil;  //  Seconds  since  epoch
+                                                                                                                                       tors are free to implement novel business models and provide
+                                                                                                                                                                                                                                                                              uint8                                           marginSplitPercentage;                                        //  [1-100]
+                                                                                                                                       value for users, earning LRx fees on volume or other metrics
+                                                                                                                                                                                                                                                                              bool                                            buyNoMoreThanAmountB;
+                                                                                                                                       in the process (if they so choose). The ecosystem is modular
+                                                                                                                                                                                                                                                                              uint256  walletId;
+                                                                                                                                       and  meant  to  support  participation  from  a  multitude  of
+                                                                                                                                                                                                                                                                              //  Dual-Authoring  address
+applications.
+address  authAddr;
+//  v,  r,  s  are  parts  of  the  signature
+6.1                                                               Order Book                                                           uint8                                                               v;
+                                                                                                                                       bytes32  r;
+                                                                  Relays can design their order books in any number of ways
+                                                                                                                                       bytes32  s;
+                                                                  to display and match users’ orders.  A first implementation
+                                                                                                                                       //  Dual-Authoring  private-key,
+                                                                  of our own order book follows an OTC model, where limit
+                                                                                                                                       //  not  used  for  calculating  order’s  hash,
+                                                                  orders are positioned based on price alone.  Timestamps of
+                                                                                                                                       //  thus  it  is  NOT  signed.
+                                                                  orders, in other words, have no bearing on the order book.
+                                                                                                                                       string   authKey;
+                                                                  However, a relay is free to design their order book in such a
+                                                                                                                                       uint256  nonce;
+                                                                  way as to emulate a typical centralized exchange’s matching
+                                                                                                                                       }
+                                                                  engine, where orders are ranked by price, while respecting
+                                                                  timestamps as well. If a relay was inclined to offer this type
+                                                                                                                                       To ensure the origin of the order,  it is signed against
+                                                                  of order book, they can own/integrate with a wallet, and
+                                                                                                                                       the hash of its parameters, excluding authAddr, with the
+                                                                  have those wallet orders sent solely to the single relay, who
+                                                                                                                                       user’s  private-key.   The  authAddr  parameter  is  used  for
+                                                                  would then be able to match orders based on time.  Any
+                                                                                                                                       signing order-rings that this order is part of, which prevents
+such configuration is possible.
+                                                                                                                                       front-running. Please reference section 9.1 for more details.
+                                                                  Whereas other DEX protocols at times require Relays
+                                                                                                                                       The signature is represented by the v, r, and s fields, and
+                                                                  to  have  resources  -  initial  token  balances  to  place  taker
+                                                                                                                                       is  sent  alongside  the  order  parameters  over  the  network.
+                                                                  orders - Loopring Relays need only find matchable orders to
+                                                                                                                                       This guarantees the order stays immutable during its whole
+                                                                  consummate a trade, and can do so without initial tokens.
+                                                                                                                                       lifetime. Even though the order never changes, the protocol
+                                                                                                                                       can still compute its current state based on the balance of
+                                                                                                                                       its address along with other variables.
+6.2                                                               Liquidity Sharing
+                                                                                                                                       UDOM doesn’t include a price (which must be a floating-
+                                                                  Relays are free to design how they share liquidity (orders)          point number by nature), but, instead uses the term rate or
+                                                                  with each other. Our consortium blockchain is but one solu-          r, which is expressed as amountS/amountB. The rate is not
+                                                                  tion to accomplish this, and the ecosystem is free to network        a floating-point number but an expression that will only be
+                                                                  and communicate as they wish. Besides joining a consortium           evaluated with other unsigned integers on demand, to keep
+                                                                  blockchain, they can build and manage their own, creating            all  intermediate  results  as  unsigned  integers  and  increase
+                                                                  rules/incentives as they see fit. Relays can also work alone,        calculation accuracy.
+as  seen  in  the  time-sensitive  wallet  implementation.   Of
+course, there are clear advantages in communicating with
+                                                                                                                                       7.1.1                                                               Buy Amounts
+                                                                  other Relays in pursuit of network effects, however, different
+                                                                  business models could merit peculiar sharing designs and                                                                                 When a ring-miner ring-matches orders, it’s possible that
+split fees in any number of ways.                                                                                                                                                                          a  better  rate  will  be  executable,  allowing  users  to  get
+5
+
+
+
+
+more  tokenB  than  the  amountB  they  specified.    How-        7.2.1                                                              Sub-Ring Checking
+ever,  if  buyNoMoreThanAmountB  is  set  to  True,  the  pro-
+                                                                  This step prevents arbitrageurs from unfairly realizing all
+tocol  ensures  users  receive  no  more  than  amountB  of
+                                                                  the  margin  in  an  order-ring  by  implementing  new  orders
+tokenB. Thus, UDOM’s buyNoMoreThantokenB parameter
+                                                                  within it.  Essentially, once a valid order-ring is found by a
+determines when an order is considered completely filled.
+                                                                  ring-miner, it could be tempting to add other orders to the
+buyNoMoreThantokenB applies a cap on either amountS or
+                                                                  order-ring to fully absorb the users’ margin (rate discounts).
+amountB, and allows users to express more granular trade
+                                                                  As illustrated by figure 3 below, carefully calculated x1, y1,
+intentions than traditional buy/sell orders.
+                                                                  x2 and y2 will make the product of all orders’ rate be exactly
+For example: with amountS = 10 and amountB = 2, the
+                                                                  1 so there will be no rate discount.
+rate r = 10/2 = 5. Thus the user is willing to sell 5 tokenS
+                                                                  for each tokenB. The ring-miner matches and finds the user         ORDER 2
+                                                                                                                                     owner:  Y
+                                                                  a rate of 4, allowing the user to receive 2.5 tokenB instead       amountS: 9B
+                                                                                                                                     amountB: 12C
+                                                                  of 2.  However, if the user only wants 2 tokenB and set the
+                                                                  buyNoMoreThanAmountB flag to True,  the LPSC performs
+                                                                                                                                     ORDER 1                                                         ORDER 3
+                                                                                                                                     owner:  X                                                       owner:  Z
+                                                                  the transaction at a rate of 4 and the user sells 4 tokenS for
+                                                                                                                                     amountS: 10000 A                                                amountS: 100 C
+                                                                  each tokenB, effectively saving 2 tokenS. Keep in mind this        amountB: 2 B                                                    amountB: 160 A
+                                                                  does not take into account mining fees (See section 8.1).
+                                                                                                                                     ORDER 5                                                         ORDER 4
+                                                                  Indeed, if we use                                                  owner:  addressM                                                owner:  M
+                                                                                                                                     amountS: x2 C                                                   amountS: x1 A
+                                                                                                                                     amountB: y2 A                                                   amountB: y1 B
+                                                                  Order(amountS,tokenS,
+                                                                                                                                     Figure 3: An order-ring with sub-ring
+                                                                  amountB,tokenB,
+                                                                  buyNoMoreThantokenB)
+                                                                                                                                     This is zero-risk, zero-value add to the network, and is
+                                                                                                                                     considered unfair conduct by the ring-miner.   To prevent
+                                                                  to  represent  an  order  in  a  simplified  form,  then  for      this, Loopring requires that a valid loop cannot contain any
+                                                                  ETH/USD markets on a traditional exchange,  traditional            sub-rings.  To check this, the LPSC ensures a token cannot
+                                                                  buy-sell  modeling  can  express  the  1st  and  the  3rd  order   be in a buy or sell position twice. In the above diagram, we
+below, but not the other two:                                                                                                        can see that token A is a sell token twice and a buy token
+twice, which would be disallowed.
+1.  Sell 10 ETH at price of 300 USD/ETH. This order can
+                                                                  expressed as: Order(10,  ETH,  3000,  USD,  False).                                                                                                 7.2.2     Fill Rate Checking
+                                                                                                                                                                                                                                                     The exchange rate calculations in the order-ring are made
+                                                                  2.  Sell    ETH    at    price    of                               300                                                             USD/ETH    to
+                                                                                                                                                                                                                                                     by ring-miners for reasons stated above.   It is the LPSC
+get                                                               3000                                                               USD.   This   order   can   expressed   as:
+                                                                                                                                                                                                                                                     that must verify they’re correct.  First, it verifies that the
+                                                                  Order(10,  ETH,  3000,  USD,  True).
+                                                                                                                                                                                                                                                     buy rate the ring-miner can execute for each order is equal
+                                                                                                                                                                                                                                                     to or less than the original buy rate set by the user.  This
+                                                                  3.  Buy 10 ETH at price of 300 USD/ETH, This order can                                                                                                                             ensures the user gets at least the exchange rate they asked
+                                                                  expressed as: Order(3000,  USD,  10,  ETH,  True).                                                                                                                                 for or better on the transaction.  Once the exchange rates
+                                                                                                                                                                                                                                                     are  confirmed,  the  LPSC  ensures  that  each  order  in  the
+                                                                  4.  Spend 3000 USD to buy as many ETH as possible at                                                                                                                               order-ring shares the same rate discount.  For instance, if
+                                                                  price of 300 USD/ETH, This order can expressed as:                                                                                                                                 the discounted rate is γ, then the price for each order will
+                                                                  Order(3000,  USD,  10,  ETH,  False).                                                                                                               be:
+                                                                                                                                                                                                                                                                                                                       r0→1 · (1 − γ), r1→2 · (1 − γ), r2→0 · (1 − γ), and satisfy:
+                                                                                                                                                                                                                                                     r0→1  · (1 − γ) · r1→2  · (1 − γ) · r2→0  · (1 − γ) = 1           (3)
+7.2                                                               Ring Verification
+                                                                                                                                                                                                                      hence:
+                                                                  The  Loopring  Smart  Contracts  do  not  perform  exchange
+                                                                                                                                                                                                                                                     1
+                                                                  rate  or  amount  calculations,  but  must  receive  and  verify                                                                                              γ = 1 −              √                                                                 (4)
+                                                                                                                                                                                                                                                     3                                                                 r0→1  · r1→2  · r2→0 .
+what the ring-miners supply for these values.  These cal-
+culations  are  done  by  ring-miners  for  two  main  reasons:   If the transaction crosses n orders, the discount is:
+(1) the programming language for smart contracts, such as
+1
+                                                                  solidity[19] on Ethereum, does not have support for floating       γ = 1 −                                                         √                          ,                    (5)
+                                                                                                                                                                                                     n                ∏n−1
+                                                                  point  math,  especially  pow(x, 1/n)  (calculating  the  n-th
+                                                                                                                                                                                                                      i=0  ri
+                                                                  root of a floating point number), and (2) it is desirable for
+                                                                  the computation to be made off-chain to reduce blockchain          where ri  is the order turnover rate of i-th order.  Obvi-
+computation and cost.                                                                                                                ously, only when the discount rate is γ ≥ 0, can these orders
+6
+
+
+
+
+be filled; and the i-th order (Oi )’s actual exchange rate is      During implementation we can safely assume any order
+ri  ≤ ri .                                                         in  the  order-ring  to  have  the  lowest  value,  then  iterate
+                                                                   through  the  order-ring  at  most  twice  to  calculate  each
+Recall our prior example where Alice has 15 token A and
+                                                                   order’s fill volume.
+wants 4 token B for them, Bob has 10 token B and wants 30
+token A for them.  If token A is the reference, then Alice is      Example: If the smallest amount to be filled compared to
+= 3.75A, while Bob is selling token B                              the original order is 5%, all the transactions in the order-ring
+4
+for  10  = 3.00A. To calculate the discount:                       150                                                                  1.25 thus                                                      are scaled down to 5%. Once the transactions are completed,
+                                                                   120  =
+1
+= 0.8 = (1 − γ)2 . Thus the exchange rate that renders             the order that was considered to have the smallest amount
+1.25                                                               √
+                                                                   remaining to be filled should be completely filled.
+the trade equitable for both parties is                            0.8 · 3.75 ≈ 3.3541
+token A per token B.
+Bob gives 4 token B and receives 13.4164 token A, more
+                                                                                                                                        7.3                                                            Ring Settlement
+                                                                   than  the  12  he  was  expecting  for  those  4  tokens.   Alice
+                                                                   receives 4 token B as intended but gives only 13.4164 token A                                                                       If the order-ring fulfills all the previous checks, the order-ring
+                                                                   in exchange, less than the 15 she was willing to give for those                                                                     can be closed, and transactions can be made.  This means
+                                                                   4  tokens.  Note, a portion of this margin will go towards                                                                          that all n orders form a closed order-ring, connected as in
+                                                                   paying fees to incentivize miners (and wallets).  (See section       figure 4:
+8.1).
+                                                                                                                                                                                                                                                                            O3                          O2
+7.2.3                                                              Fill Tracking & Cancellation
+                                                                   A  user  can  partially  or  fully  cancel  an  order  by  sending                                                                                                                                       O4                          O1
+                                                                   a special transaction to the LPSC, containing the details
+                                                                   about the order and the amounts to cancel. The LPSC takes
+                                                                   that into account, stores the amounts to cancel, and emits                                                                                                                                               O5                          On
+                                                                   an OrderCancelled event to the network. The LPSC keeps
+                                                                                                                                                                                                                                                                            Figure 4: Ring Settlement
+                                                                   track of filled and cancelled amounts by storing their values
+                                                                   using the order’s hash as an identifier. This data is publicly
+                                                                   accessible and OrderCancelled  / OrderFilled events are                                                                             To   make   the   transactions,   the   LPSC   uses   the
+                                                                   emitted when it changes.  Tracking these values is critical                                                                         TokenTransferDelegate smart contract. The introduction
+for the LPSC during the order-ring settlement step.                                                                                                                                                    of  such  a  delegate  makes  upgrading  the  protocol  smart
+                                                                                                                                                                                                       contract  easier  as  all  orders  only  need  to  authorize  this
+                                                                   LPSC also supports cancelling all orders for any trading
+                                                                                                                                                                                                       delegate instead of different versions of the protocol.
+                                                                   pair  with  the  OrdersCancelled  event  and  cancelling  all
+                                                                   orders for an address with the AllOrdersCancelled event.                                                                            For each order in the order-ring, a payment of tokenS
+                                                                                                                                                                                                       is made to the next or the previous order depending on the
+implementation. Then the ring-miner’s fee is paid depending
+7.2.4                                                              Order Scaling
+                                                                                                                                        on the fee model chosen by the ring-miner. Finally, once all
+                                                                   Orders  are  scaled  according  to  the  history  of  filled  and    the transactions are made, a RingMined event is emitted.
+                                                                   cancelled amounts and the current balance of the senders’
+accounts.   The  process  finds  the  order  with  the  smallest
+                                                                                                                                        7.3.1                                                          Emitted Events
+                                                                   amount to be filled according to the above characteristics
+                                                                   and uses it as a reference for scaling all transactions in the                                                                      The protocol emits events that allow relays, order browsers,
+order-ring.                                                                                                                                                                                            and other actors to receive order book updates as efficiently
+                                                                   Finding the lowest value order can help to figure out the            as possible. The emitted events are:
+                                                                   fill volume for each order.  For instance, if the i-th order is
+                                                                   the lowest value order, then the number of tokens sold from                                                                         •  OrderCancelled:   A  specific  order  has  been  can-
+                                                                   each order  ŝ and number of tokens purchased b from each                                                                            celled.
+order can be calculated as:
+•  OrdersCancelled:  All orders of a trading pair from
+an owning address have been cancelled.
+ŝi  = si , bi  = ŝi /ri , ;
+•  AllOrdersCancelled: All orders of all trading pairs
+ŝi⊕1  = bi , bi⊕1  = ŝi⊕1 /ri⊕1 ;
+from an owning address have been cancelled.
+ŝi⊕2  = bi⊕1 , bi⊕2  = ŝi⊕2 /ri⊕2 ;
+•  RingMined: An order-ring has been settled success-
+fully.  This event contains data related to each inner-
+where si  is the balance left after orders are partially filled.   ring token transfer.
+7
+
+
+
+
+8                                                                    LRx Token                                                                                                                            Figure 6: Loopring’s Fee Model
+                                                                     LRx is our generalized token notation. LRC is the Loopring          where f  is the LRx fee, x is the margin split, y is the
+                                                                     token on Ethereum, LRQ on Qtum, and LRN on NEO, etc.                mining  income.   y  =  max(f, x − f )  as  indicated  by  the
+                                                                     Other LRx types will be introduced in the future as Loopring        solid line;  if the LRx fee for the order is  0,  the equation
+is deployed on other public blockchains.                                                                                                 is y = max(0, x − 0) that simplifies to y = x as indicated by
+                                                                                                                                         the gray line.
+                                                                                                                                         The consequences are:
+8.1                                                                  Fee Model
+                                                                                                                                         1.  If the margin split is 0, ring-miners will choose the flat
+                                                                     When a user creates an order, they specify an amount of
+                                                                                                                                         LRx fee and are still incentivized.
+                                                                     LRx to be paid to the ring-miner as a fee, in conjunction
+                                                                     with a percentage of the margin (marginSplitPercentage)
+                                                                                                                                         2.  If the LRx fee is 0, the gray line results and the income
+                                                                     made on the order that the ring-miner can claim.  This is
+                                                                                                                                         is based on a general linear model.
+                                                                     called the margin split. The decision of which one to choose
+(fee or margin split) is left to the ring-miner.                                                                                         3.  When the margin split income is greater than 2x(LRx
+A representation of the margin split:                                                                                                                                                                     fee), ring-miners choose the margin split and pay LRx
+to the user.
+AdditionalBuyAmount
+It  should  be  noted  that  if  the  LRx  fee  is  non-zero,
+MarginSplit
+no matter which option the ring-miner chooses, there will
+OrderOriginalBuyAmount
+always be a transfer of LRx between the ring-miner and the
+order’s sender.  Either the ring-miner earns the LRx fee, or
+pays the LRx fee back to the sender to take the margin split.
+Ring-miners will share a certain percentage of fees with
+wallets.  When a user places an order through a wallet and
+T otalBuyAmount                                                      gets filled, the wallet is rewarded with a portion of the fees or
+margin split. Although this is modular, and unique business
+                                                                     OrderActualBuyAmount                                                                                                                 Margin
+                                                                                                                                                                                                                                                                            models or implementations are possible, our inclination is for
+                                                                                                                                                                                                                                                                            wallets to receive approximately  20%-25% of earned fees.
+                                                                                                                                         Figure 5: A 60% Margin Split
+                                                                                                                                                                                                                                                                            Wallets  represent  a  primary  target  for  Loopring  protocol
+If  the  margin  on  the  order-ring  is  too  small,  a  ring-                                                                                                                                                                                                             integration as they have the user base, but little or no source
+miner  will  choose  the  LRx  fee.   If,  on  the  contrary,  the                                                                                                                                                                                                          of income.
+margin is substantial enough for the resulting margin split
+to be worth much more than the LRx fee, a ring-miner will                                                                                                                                                                                                                   8.2                                                               Decentralized Governance
+choose the margin split. There is another proviso, however:
+                                                                                                                                                                                                                                                                            At its root,  the Loopring protocol is a social protocol in
+when the ring-miner chooses the margin split,  they must
+                                                                                                                                                                                                                                                                            the sense that it relies on coordination amongst members to
+pay the user (order creator) a fee, which is equal to the LRx
+                                                                                                                                                                                                                                                                            operate effectively towards a goal.  This is not dissimilar to
+the user would have paid to the ring-miner as a fee.  This
+                                                                                                                                                                                                                                                                            cryptoeconomic protocols at large, and indeed, its usefulness
+increases the threshold of where the ring-miner will choose
+                                                                                                                                                                                                                                                                            is largely protected by the same mechanisms of coordina-
+the margin split to twice the LRx fee of the order, increasing
+                                                                                                                                                                                                                                                                            tion problems  [20], grim trigger equilibrium, and bounded
+the propensity of the LRx fee choice. This allows ring-miners
+                                                                                                                                                                                                                                                                            rationality.  To this end, LRx tokens are not only used to
+to receive a constant income on low margin order-rings for
+                                                                                                                                                                                                                                                                            pay fees,  but also to align the financial incentives of the
+the tradeoff of receiving less income on higher margin order-
+                                                                                                                                                                                                                                                                            various network participants.  Such alignment is necessary
+rings. Our fee model is based on the expectation that as the
+                                                                                                                                                                                                                                                                            for broad adoption of any protocol, but is particularly acute
+market grows and matures, there will be fewer high margin
+                                                                                                                                                                                                                                                                            for exchange protocols, given that success rests largely on
+order-rings, thus necessitating fixed LRx fees as incentive.
+                                                                                                                                                                                                                                                                            improving liquidity in a robust decentralized ecosystem.
+We end up with the following graph:
+LRx tokens will be used to effectuate protocol updates
+y                                                                    through decentralized governance.  Smart contract updates
+will,  in  part,  be  governed  by  token  holders  to  ensure
+continuity and safety, and to attenuate the risks of siphoned
+liquidity through incompatibility.   Given that smart con-
+tracts cannot be altered once deployed, there is a risk that
+f                                                                    ExpectedMiningIncome
+                                                                                                                                                                                                          dApps  or  end  users  continue  to  interact  with  deprecated
+                                                                                                                                                                                                          versions and preclude themselves from updated contracts.
+                                                                                                                                         x                                                                Upgradeability is crucial to the protocol’s success as it must
+f                                                                    2f
+                                                                                                                                                                                                          adapt to market demands and the underlying blockchains.
+                                                                                                                                         8
+
+
+
+
+Decentralized governance by LRx stakeholders will allow for         Dual Authoring process:
+protocol smart contract updates without disrupting dApps
+or  end  users,  or  relying  too  heavily  on  smart  contract     1.                                                                  For  each  order,  the  wallet  software  will  generate  a
+abstraction. LRx tokens have a fixed supply, and in the case                                                                            random public-key/private-key pair, and put the key
+of LRC, certain percentages are frozen from the Loopring                                                                                pair into the order’s JSON snippet.  (An alternative is
+Foundation,  and  allocated  to  community-purposed  funds                                                                              to use the address derived from the public-key instead
+[21].                                                                                                                                   of the public-key itself to reduce byte size.  We use
+However, LRx token owners are not the only stakeholders                                                                                 authAddr to represent such an address, and authKey
+to consider in steering the protocol’s direction: relays/ring-                                                                          to represent authAddr’s matching private-key).
+miners, wallets, developers, and others are an integral part
+                                                                    2.                                                                  Compute the order’s hash with all fields in the order
+of the ecosystem and their voice must be heard.  In fact,
+                                                                                                                                        except r, v, s, and authKey), and sign the hash using
+given that these agents need not hold any LRx to perform
+                                                                                                                                        the owner’s private-key (not authKey).
+their respective roles  (since traditional makers/takers and
+market-makers  are  nonexistent,  initial  token  reserves  are
+                                                                    3.                                                                  The  wallet  will  send  the  order  together  with  the
+not mandatory) we must allow alternative methods for their
+                                                                                                                                        authKey to relays for ring-mining.  Ring-miners will
+interests  to  be  respected.   Furthermore,                        ”simple”  token-
+                                                                                                                                        verify that authKey and authAddr are correctly paired
+based voting, both on-chain and off, is an imperfect salve
+                                                                                                                                        and the order’s signature is valid with respect to owner
+for disagreement, as low voter turnout and token ownership
+                                                                    address.
+concentration pose risks.  Thus,  the goal is to implement
+a governance model that is built in layers, and rests on a          4.                                                                  When an order-ring is identified, the ring-miner will
+shared knowledge that some set of decision-making processes                                                                             use  each  order’s  authKey  to  sign  the  ring’s  hash,
+is the norm. This can be facilitated by coordination institu-                                                                           minerAddress, and all the mining parameters.  If an
+tions that offer signals from a diverse set of participants, and,                                                                       order-ring contains n orders, there will be n signatures
+perhaps, from pre-established protocol focal points. As this                                                                            by  the  n  authKeys.   We  call  these  signatures  the
+comes to fruition, the Loopring Foundation will inevitably                                                                              authSignatures.   The ring-miner may also need to
+evolve from protocol developers into protocol stewards.                                                                                 sign the ring’s hash together with all mining parame-
+ters using minerAddress’s private-key.
+9                                                                   Fraud and Attack Protections                                        5.                                                            The  ring-miner  calls  the  submitRing  function  with
+                                                                                                                                                                                                      all   the   parameters,   as   well   as   all   the   extra
+9.1                                                                 Front-running Prevention                                                                                                          authSignatures. Notice that authKeys are NOT part
+                                                                                                                                                                                                      of the on-chain transaction and thus remain unknown
+                                                                    In decentralized exchanges, front-running is when someone
+                                                                                                                                                                                                      to parties other than the ring-miner itself.
+                                                                    tries  to  copy  another  node’s  trade  solution,  and  have  it
+                                                                    mined before the original transaction that is in the pending        6.                                                            The   Loopring   Protocol   will   now   verify   each
+transaction  pool                                                   (mempool).    This  can  be  achieved  by                                                                                         authSignature against the corresponding authAddr
+                                                                    specifying a higher transaction fee (gas price).  The major                                                                       of  each  order,   and  reject  the  order-ring  if  any
+                                                                    scheme of front-running in Loopring (and any protocol for                                                                         authSignature is missing or invalid.
+                                                                    order-matching) are order-filch:  when a front-runner steals
+                                                                    one or more orders from a pending order-ring settlement                                                                           The result is that now:
+                                                                    transaction; and, specific to Loopring: when a front-runner
+                                                                                                                                                                                                      •  The order’s signature (by the private-key of the owner
+                                                                    steals the entire order-ring from a pending transaction.
+                                                                                                                                                                                                      address)  guarantees  the  order  cannot  be  modified,
+                                                                    When a submitRing transaction is not confirmed and
+                                                                                                                                                                                                      including the authAddr.
+                                                                    is still in the pending transaction pool, anyone can easily
+                                                                    spot  such  a  transaction  and  replace  minerAddress  with
+                                                                                                                                                                                                      •  The ring-miner’s signature (by the private-key of the
+                                                                    their own address (the filcherAddress), then they can re-
+                                                                                                                                                                                                      minerAddress),  if  supplied,  guarantees  nobody  can
+                                                                    sign the payload with filcherAddress to replace the order-
+                                                                                                                                                                                                      use his identity to mine an order-ring.
+                                                                    ring’s signature.  The filcher can set a higher gas price and
+                                                                    submit a new transaction hoping block-miners will pick his                                                                        •  The authSignatures guarantees the entire order-ring
+                                                                    new transaction into the next block instead of the original                                                                       cannot be modified, including minerAddress, and no
+submitRing transaction.                                                                                                                                                                               orders can be stolen.
+                                                                    Previous solutions to this problem had important down-
+                                                                    sides:  requiring more transactions and thus costing ring-                                                                        Dual Authoring prevents ring-filch and order-filch while
+                                                                    miners more gas;  and taking at least twice the blocks to                                                                         still  ensuring  the  settlement  of  order-rings  can  be  done
+                                                                    settle an order-ring. Our new solution, Dual Authoring[22],                                                                       in  one  single  transaction.   In  addition,  Dual  Authoring
+                                                                    involves the mechanism of setting up two levels of authoriza-                                                                     opens doors for relays to share orders in two ways:  non-
+                                                                    tion for orders - one for settlement, and one for ring-mining.                                                                    matchable  sharing  and  matchable  sharing.    By  default,
+9
+
+
+
+
+Loopring operates an OTC model and only supports limit-         •  Free, public smart contracts enable any dApp to build
+price orders, meaning that orders’ timestamps are ignored.      or interact with the protocol.
+This implies that front-running a trade has no impact on
+the actual price of that trade, but does impact whether it      •  Standardization among operators allows for network
+gets executed or not.                                           effects and an improved end user experience.
+•  Network maintained with flexibility in running order
+books and communicating.
+10                                                              Other Attacks
+•  Reduced barriers to entry means lower costs for nodes
+10.1                                                            Sybil or DOS Attack
+joining the network and end users.
+Malicious users - acting as themselves or forged identities -
+•  Anonymous trading directly from user wallets.
+could send a large amount of small orders to attack Loopring
+nodes. However, since we allow nodes to reject orders based
+on their own criteria - which they may hide or reveal - most
+                                                                                                                                   12                                                     Acknowledgements
+                                                                of these orders will be rejected for not yielding satisfying
+                                                                profit when matched. By empowering relays to dictate how
+                                                                                                                                                                                          We  would  like  to  express  our  gratitude  to  our  mentors,
+                                                                they  manage  orders,  we  do  not  see  a  massive  tiny  order
+                                                                                                                                                                                          advisers  and  to  the  many  people  in  the  community  that
+attack as a threat.
+                                                                                                                                                                                          have been so welcoming and generous with their knowledge.
+                                                                                                                                                                                          In  particular,  we  would  like  to  thank  Shuo  Bai            (from
+10.2                                                            Insufficient Balance                                                                                                      ChinaLedger); Professor Haibin Kan; Alex Cheng, Hongfei
+                                                                                                                                                                                          Da;  Yin Cao;  Xiaochuan Wu;  Zhen Wang, Wei Yu, Nian
+                                                                Malicious users could sign and spread orders whose order
+                                                                                                                                                                                          Duan, Jun Xiao, Jiang Qian, Jiangxu Xiang, Yipeng Guo,
+                                                                value  is  non-zero  but  whose  address  actually  has  zero
+                                                                                                                                                                                          Dahai Li, Kelvin Long, Huaxia Xia, Jun Ma, and Encephalo
+                                                                balance.  Nodes could monitor and notice that some orders
+                                                                                                                                                                                          Path for reviewing and providing feedback on this project.
+                                                                actual balance is zero, update these order states accordingly
+                                                                and then discard them.  Nodes must spend time to update
+                                                                the status of an order, but can also choose to minimize the
+                                                                effort by, for example, blacklisting addresses and dropping                                                               Appendices
+related orders.
+Appendix A   New   Fee   Model   in
+11                                                              Summary
+                                                                                                                                                                                                                                                            Loopring 2.0
+                                                                The Loopring protocol sets out to be a foundational layer
+                                                                                                                                                                                          One  of  the  most  exciting  developments  of  2.0  has  been
+                                                                for decentralized exchange.   In so doing,  it has profound
+                                                                                                                                                                                          reimagining the protocol fee model, the role of our native
+                                                                repurcussions  in  how  people  exchange  assets  and  value.
+                                                                                                                                                                                          token, LRC, within it, and how we can ensure token holders
+                                                                Money, as an intermediate commodity, facilitates or replaces
+                                                                                                                                   capture the value of the Loopring network.
+                                                                barter exchange and solves the double coincidence of wants
+                                                                problem [23], whereby two counterparties must desire each
+                                                                                                                                   A.1                                                    Why Were Open to Change
+                                                                other’s distinct good or service. Similarly, Loopring protocol
+                                                                aims to dispense of our dependencies on coincidence of wants
+                                                                                                                                                                                          Utility tokens that act as a medium of exchange within a
+                                                                in  trading  pairs,  by  using  ring  matching  to  more  easily
+                                                                                                                                                                                          particular ecosystem have been popular in terms of projects
+                                                                consummate trades. This is meaningful for how society and
+                                                                                                                                                                                          issuing them, but, more recently, less popular in terms of
+                                                                markets  exchange  tokens,  traditional  assets,  and  beyond.
+                                                                                                                                   expected value capture and actual usefulness.
+                                                                Indeed, just as decentralized cryptocurrencies pose threat
+                                                                                                                                                                                          Beyond the questionable value accretion for these types
+                                                                to a nation’s control over money, a combinatorial protocol
+                                                                                                                                                                                          of utility tokens, the imposition of a specific token as the
+                                                                that can match traders (consumers/producers) at scale, is a
+                                                                                                                                                                                          means of payment creates significant friction.  dApps, in-
+theoretical threat to the concept of money itself.
+                                                                                                                                                                                          cluding DEXs, are currently UX un-friendly enough without
+                                                                Protocol benefits include:
+                                                                                                                                                                                          requiring  users  pay  with  an  esoteric  and  otherwise  non-
+                                                                                                                                                                                          demanded token.  Abstracting away token transfer behind
+                                                                •  Off-chain order management and on-chain settlement
+                                                                                                                                   the scenes helps, but is still only a half-solution.
+                                                                means no sacrifice in performance for security.
+                                                                                                                                                                                          Open financial infrastructure is in its infancy, and what
+                                                                                                                                                                                          was considered best practice last year will certainly change.
+                                                                •  Greater liquidity due to ring-mining and order sharing.
+                                                                                                                                                                                          Projects, protocols, and builders must remain adaptive and
+                                                                •  Dual Authoring solves the pernicious problem of front                                                                  open to tweak their token dynamics, lest they stubbornly
+                                                                running faced by all DEXs and their users today.                   cling to suboptimal models.
+10
+
+
+
+
+A.2                                                                Objectives                                                         tokens will be configurable by LRC token holders governing
+                                                                                                                                      the protocol. For now, we propose the following:
+We knew we wanted to:
+•  Make fee payment more flexible:  remove the friction
+of requiring a specific fee-payment token.
+•  Ensure the LRC token is coveted and provides real
+utility to the network.
+•  Remain  rent-free,  with  all  benefits  remaining  in-
+protocol, accruing to every participant.
+                                                                                                                                                                                                   Figure 8: Default settings, but will be configurable.
+                                                                   We realize that while incentives are the most powerful
+                                                                   force to allow rational actors to organize themselves, mech-                                                                    Now, a user can pay fees in any token, but there will
+                                                                   anisms which optimize for the desired network behavours                                                                         be preferable treatment, and thus lower cost, to pay fees in
+are valuable.                                                                                                                         LRC.
+                                                                                                                                                                                                   The preferable treatment is for the fee-earning partici-
+A.3                                                                Introducing the LRC Burn Rate                                                                                                   pants: wallets and relays; the fee to the trader is the same.
+                                                                                                                                                                                                   However,  our  reasonable  assumption  is  that  wallets  and
+                                                                   With this in mind, we have introduced a fee element, LRC
+                                                                                                                                                                                                   relays will pass-upwards the fee (dis)savings, and calculate
+                                                                   burn rate (or burn rate ). Wallets and ring-miners who
+                                                                                                                                      different fees for payment in different tokens.
+                                                                   earn fees by fulfilling roles on the Loopring protocol
+                                                                   will have a portion of their fees converted into LRC
+(if not LRC already) and burned.
+                                                                                                                                      A.5                                                          Other Projects Burning LRC
+                                                                   In the example below,  the user pays for their trading
+                                                                   fees using BNB. It does not matter if the trade actually
+                                                                                                                                                                                                   We want other protocols and projects to be able to take
+                                                                   involves  BNB  or  not.   Lets  assume  the  protocol-defined
+                                                                                                                                                                                                   advantage of the fee model.  As such, it is possible for a
+                                                                   LRC burn rate for the BNB token is 20%, and the fee for
+                                                                                                                                                                                                   third-party project to burn a certain amount of LRC
+                                                                   the transaction is 100BNB. At settlement, the trader pays
+                                                                                                                                                                                                   to knock down the burn rates applied to their token
+                                                                   100BNB and the wallet and relay earn 100*(120%)=80BNB,
+                                                                                                                                                                                                   when users pay fees in it. The exact burn rate schedule
+                                                                   with  the  20BNB  being  sent  to  a  smart  contract
+                                                                                                                                      is TBD, and again, will ultimately be configurable.
+which buys and burns LRC.
+If you want to lower the rate of a certain token, such
+as GTO, to the same third tier burn rate as WETH for 24
+months, you may need to burn 1% of the total LRC supply
+(currently equivalent to $550,000 USD); if you want to lower
+the burn rate to the first tierLRCs burn rate for 24 months,
+it  may  be  necessary  to  burn  1.5%  of  the  total  LRC.  As
+more  LRC  are  burned,  the  total  LRC  supply  will
+decrease, and the number of LRC that need to be
+burned to switch tiers will decrease accordingly.
+Lowering  the  burn  rate  is  particularly  appealing  for
+other decentralized exchanges that use their own platform
+payment tokens:
+1.  The cost of burning LRC to obtain a lower rate is much
+less than the cost of developing a new DEX/protocol,
+or bootstrapping liquidity.
+                                                                   Figure 7: Fee model in Loopring protocol 2.0
+                                                                                                                                      2.  This  mechanism  actually  gives  the  respective  DEX
+                                                                                                                                      token increased utility and value.
+A.4                                                                Burn Rate Settings
+                                                                   If the above fee were to be paid in LRC instead of BNB,            3.  After the third-party DEX platform token is enabled
+                                                                   for  example,  the  burn  rate  would  be  lower,  such  as  5%,   for a lower burn rate, using that token to pay fees is
+                                                                   allowing the wallet and ring-miner to keep more of their           no different to the user than using LRC, which should
+                                                                   earned fees. The burn rate associated with different ERC20         enhance the competitiveness of the platform.
+11
+
+
+
+
+A.6                                                                 P2P vs Normal Orders
+                                                                    In 2.0, we distinguish between normal ordersas seen in all
+                                                                    the examples aboveand P2P orders.
+                                                                    Definition A.1 (P2P Order)  If the orders
+                                                                    tokenSFeePercentageor   or   tokenBFeePercentage   is
+                                                                    greater  than  zero,  the  order  is  a  P2P  order.   Other  fee
+                                                                    parameters in the P2P order will be ignored by the protocol.
+                                                                                                                                        Figure 9: Two orders of zero-fee P2P orders
+                                                                    Normal Order Parameters:
+                                                                                                                                        However,  if the wallets corresponding to the two P2P
+                                                                                                                                        orders  are  set  to  charge  different  tokenSFeePercentage
+                                                                    •  address  feeToken:   optional  and  defaults  to  LRC
+                                                                                                                                        or  tokenBFeePercentage,  the  actual  fee  and  transaction
+                                                                    token  address  if  not  specified.   This  is  the  type  of
+                                                                                                                                        calculation is more complicated:
+ERC20  token  to  be  paid  to  the  miner  as  matching
+fees.
+•  unit  feeAmount:  optional  and  defaults  to  0.   This
+is the amount of feeToken to be paid.  This number
+should be calculated by the wallet software off-chain.
+•  uint16  feePercentage:  optional and defaults to  0.
+This is the percentage of tokenB  (token that user is
+buying) to be paid as matching fees if the order does
+not  have  enough  feeToken  to  pay.   This  parameter
+should also be supplied by the wallet.
+•  uint16  waiveFeePercentage:  optional and defaults
+to 0.  If this number is positive, the miner will waive
+a waiveFeePercentage% percentage of the fees before
+the burn;  if this number is negative,  the miner will
+reward-waiveFeePercentage%of its total fee after the
+burn to the orderthe reward is also subject to burn.
+P2P Order Parameters:
+•  uint16  tokenSFeePercentage: optional and defaults
+to 0. The percentage of tokenS to charge by the wallet.
+•  uint16  tokenBFeePercentage: optional and defaults               Figure                                                              10:   Two  orders  consisting  of  P2P  orders  with
+to 0. The percentage of tokenB to charge by the wallet.             commissions
+A normal order is what most of us are used to: we submit                                                                                There are many instances in the real world that will make
+an order to a DEX and leave it to them to match and settle it                                                                           use of P2P orders and do not require third-party matching:
+on the Ethereum blockchain. On the backend, a ring-miner
+                                                                                                                                        1.  You create an order for 100 AnyTokens for 1 WETH on
+is the one finding the match and submitting it, and that is
+                                                                                                                                        your Loopring-enabled wallet, and show the QR code
+why you pay them a fee in the first place.
+                                                                                                                                        to your friend.  She scans it from her wallet, signs it,
+P2P orders do not pay matching fees, because they
+                                                                                                                                        and submits it directly to the Ethereum blockchain
+do not want to be matched by a third party  (ring-miner),
+                                                                                                                                        in one tap, resulting in a trustless token swap.  Your
+but want to match it themselves with a counter-party. Thus,
+                                                                                                                                        friend was the ring-miner here, because she submitted
+the fees for P2P orders are paid only to the wallet.
+                                                                                                                                        the transaction.
+However, the wallet here is a broader concept, including
+any  tools  that  can  help  you  generate  orders.   As  a  fee,                                                                       2.  Youre launching your ICO and plan to distribute it
+the wallet can obtain a percentage of the purchase token                                                                                by  submitting  sell  orders  for  your  NewToken  on  a
+(tokenB) and the sell token  (tokenS) from a P2P order.                                                                                 Loopring-built DEX. You send this order out in emails
+This percentage is set by the wallet, approved by the user,                                                                             to your subscribers, or put the QR code printed on the
+and is not provided by the protocol itself.                                                                                             back of your teams t-shirts. Any interested buyer can
+Lets assume that both fees set by a wallet are  0%.  In                                                                                 fill these orders with a Loopring-enabled wallet, and
+the example below, two P2P orders are swapped between                                                                                   act as ring-miner by submitting it as a transaction to
+100DAI and 400GTO:                                                                                                                      the Ethereum blockchain.
+12
+
+
+
+
+In the ICO example, the wallet/ICO platform can charge               You may have a few questions:
+the project fees for this service in a few different ways:           (Q1) Who burns the LRC tokens?
+                                                                     Given  that  the  Loopring  Foundation  is  a  non-profit
+1.  Use NewTokens as income.   For example,  for every
+                                                                     and  ultimately  wants  to  take  a  backseat  as  the  protocol
+100 NewTokens sold,  5 NewTokens are charged from
+                                                                     flourishes, the burning smart contract  (aka holding smart
+the project side as a handling fee  (the project party
+                                                                     contract) will be coded to allow any user (willing to pay the
+distributes a total of 105 tokens, the buyer buys 100
+                                                                     small gas cost to trigger the function) to burn the tokens.
+tokens); or every 100 NewTokens sold, 5 are charged
+                                                                     (Q2)  What  happens  to  the  non-LRC  (WETH,
+from the buyer (the project party distributes a total
+                                                                     BNB, etc) that are sent to the burning smart con-
+of 100 tokens and the buyer receives 95 tokens).
+                                                                     tract?
+                                                                     Like the burn rates, this will ultimately be configurable.
+2.  Use ETH as income.  For example,  if there are  100
+                                                                     LRC holders may be inclined to send the tokens to some
+ETH received from ICO buyers, 7 ETH will be charged
+                                                                     external address to fund a community project, but for now,
+from the project side  (the project party will get  93
+                                                                     they will be used to buy and burn more LRC.
+ETH); or the  7  ETH will be charged from the user
+                                                                     The means by which non-LRC tokens will be sold for
+(the user actually needs to pay 107 ETH).
+                                                                     LRC is quite an interesting topic, and highlights the spirit of
+3.  Any combination of the above four different methods.             open financial infrastructure. We will allow anyone (willing
+                                                                     to pay the gas cost) to trigger functionality in the smart
+Without  the  new  P2P  model  in  2.0,  these  scenarios
+                                                                     contract that queries other DEXsspecifically Dutch auction
+cannot be achieved.
+modelsfor any tokens price vs LRC, and submits the tokens
+to be sold on the open market.   This allows the burning
+A.7                                                                  P2P Fee Burn Rate                                                  contract to trustlessly sell our non-LRC tokens at discrete
+                                                                                                                                        times, all at once.
+                                                                     For P2P orders, the protocol specifies different burn
+                                                                                                                                        The purchased LRC will then be burned.  This has the
+                                                                     rates. Assuming that the burn rates for DAI and GTO are
+                                                                                                                                        effect of:
+10% and 20%, respectively, the transaction calculations need
+to be adjusted as follows:
+•  Increasing LRC demand.
+•  Reducing LRC supply.
+A.8                                                                  LRC Lockup for Fee Rebates
+Loopring 2.0 also allows LRC token holders to lock up LRC
+in  a  smart  contract  in  exchange  for  a  percentage  of  fees
+that would have otherwise been burnedeffectively, a rebate.
+This would apply for each and every order during the lockup
+period.
+For example, an order has a total fee of 10 AnyToken,
+and 4 AnyToken (40%) is to be burned.  Assuming the fee
+payer locked up 1 million LRC and has a 50% rebate rate,
+he/she will ended up paying only 8 AnyToken, 2 of which will
+be burned. The rebate comes from the fee component
+that is to be burned, not the wallet or relay income.
+Please also note that a wallet/relay can also lockup LRC for
+Figure 11:  P2P fee burn rates.  See the table in the ’Burn                                                                             rebates, but that doesnt apply here.
+Rate Setting’ section above for default P2P burn rates.                                                                                 A  rebate  rate  of  100%  ensures  all  orders  are  burn-
+                                                                                                                                        free.  The Fee-Rebate feature will be very helpful for high
+Burn Contract Specifications With the new fee model,                 frequency traders.
+a small piece of every transaction will be directed to this
+smart contract and ultimately reduce LRC supply. As such,
+                                                                     A.9                                                                Incentivize Market Makers
+more Loopring network activity results in more burn, and
+in LRC holders owning a larger share of the token supply.
+                                                                                                                                        Market making is not a protocol level consideration,  but
+So now, we have an economy where LRC holders:
+                                                                                                                                        a  business  decision  made  by  a  ring-miner  on  their  own.
+                                                                                                                                        It  is  up  to  them  to  incentivize  market  makers  by
+1.  Pay the lowest fees for their transactions.
+                                                                                                                                        waiving  fees  for  orders,  so  we  introduce  the  parameter
+2.  Benefit from all network-wide activity.                          waiveFeePercentage.
+13
+
+
+
+
+If this parameter is positive, say, 50%, then if the original       A.10              Decentralized Governance
+fee paid to the ring-miner is 80BNB, it now becomes 40BNB,
+                                                                                      Please  note  that  in  addition  to  its  utility,  weve  always
+before the burn. The waived fee is applied to the ring-miners
+                                                                                      planned on giving LRC holders governance rights.  While
+part of the fee, but not the wallets.
+this is easy to say, and just about every project can throw
+that in as a catchall, well-defined rights are truly important
+to us as the Loopring Foundation will cede control. However,
+in isolation, we find a pure-governance token to be lacking,
+and  are  excited  to  reveal  our  2.0  model  which  supports
+further utility and value capture.
+With that said, there is now more to govern within the
+protocol  itself.   Important  future  governance  issues
+of  the  Loopring  protocol  will  mainly  relate  to  the
+various  burn  rate  parameters,  and  which  ERC20s
+should be placed in certain tiers.
+Decentralized governance is incredibly difficult and nu-
+anced,  and faces risks like plutocracies and voter apathy.
+We are currently exploring this aspect and hope to provide
+an  upgraded  version  in  the  first  half  of                     2019,  allowing
+community parameter proposal and voting.
+Figure 12: Waiving 50% of fee for Market Maker Alice                References
+                                                                    [1]                                                                                   Vitalik Buterin.  Ethereum:  a next generation smart
+This waiveFeePercentage parameter can also be nega-
+                                                                                                                                                          contract and decentralized application platform (2013).
+tive. If it were -50%, the order does not pay any fees to the
+                                                                                                                                                          URL {http://ethereum. org/ethereum. html}, 2017.
+relayer, but can also get 50% of the fee other orders pay in
+the ring. For example, in the below diagram, the ring-miner         [2]                                                                                   Gavin Wood.  Ethereum:  A secure decentralised gen-
+will pay Alice half of the 40 LRC fee paid by Bob.  Alices                                                                                                eralised transaction ledger.  Ethereum Project Yellow
+rebates are also subject to the corresponding burn.                                   Paper, 151, 2014.
+                                                                    [3]                                                                                   Patrick   Dai,    Neil   Mahi,    Jordan   Earls,    and
+                                                                                      Alex    Norta.                                                                                                                 Smart-contract    value-transfer
+                                                                                                                                                          protocols   on   a   distributed   mobile   application
+                                                                                      platform.                                                                                                                      URL:   https://qtum.   org/uploads/files/
+                                                                                                                                                          cf6d69348ca50dd985b60425ccf282f3. pdf, 2017.
+                                                                    [4]                                                                                   Viktor Atterlönn. A distributed ledger for gamification
+                                                                                      of pro-bono time, 2018.
+                                                                    [5]                                                                                   Hernando  de  Soto.   The  Mystery  Of  Capital.   Basic
+                                                                                      Books, 2000.
+                                                                    [6]                                                                                   Satoshi Nakamoto.  Bitcoin:  A peer-to-peer electronic
+                                                                                      cash system.  2008.
+                                                                    [7]                                                                                   Fabian  Schuh  and  Daniel  Larimer.    Bitshares                                                      2.0:
+                                                                                                                                                          Financial smart contract platform, 2015.
+                                                                    [8]                                                                                   Bancor protocol. URL https://bancor.network/, 2017.
+                                                                    [9]               Yaron   Velner   Loi   Luu.                                                                                                    Kybernetwork:                               A
+Figure 13: Giving a -50% fee rebate to Market Maker Alice
+                                                                                                                                                          trustless    decentralized    exchange    and    payment
+                                                                    service.                                                                                                                                         https://kr.kyber.network/assets/
+With this functionality, the relay can choose to exempt
+                                                                                                                                                          KyberNetworkWhitepaper.pdf, Accessed:  2018-03-05.
+some or all of the fees of a market makers order, and even
+pay part of the fees earned on other orders. Market makers          [10]              Fortune.                                                            How    to    steal                                         $500                                        million    in
+will  be  incentivized  to  provide  liquidity  to  generous  and                     cryptocurrency.                                                                                                                http://fortune.com/2018/01/
+prosperous ring-miners.                                                                                                                                   31/coincheck-hack-how, Accessed:  2018-03-30.
+14
+
+
+
+
+[11]  Robert McMillan. The inside story of mt. gox, bitcoins    supersimmetry-loopring-remark.pdf,                              Accessed:
+460 dollar million disaster.  2014.                             2018-03-05.
+[12]  Sylvain Ribes.  Chasing fake volume:  a crypto-plague.    [18]  Fabian  Vogelsteller.    Erc:   Token  standard.    URL
+https://medium.com/@sylvainartplayribes/                                                                                        https://github.com /ethereum /EIPs /issues /20, 2015.
+chasing-fake-volume-a-crypto-plague-ea1a3c1e0b5e,
+Accessed:  2018-03-10.                                          [19]  Chris  Dannen.    Introducing  Ethereum  and  Solidity.
+                                                                Springer, 2017.
+[13]  Rossella  Agliardi  and  Ramazan  Genay.                  Hedging
+through a limit order book with varying liquidity. 2014.        [20]  Vitalik   Buterin.                                        Notes   on   blockchain   gover-
+                                                                                                                                nance.   https://vitalik.ca/general/2017/12/17/
+[14]  Will Warren and Amir Bandeali. 0x: An open protocol
+                                                                voting.html, Accessed:  2018-03-05.
+for decentralized exchange on the ethereum blockchain,
+2017.
+                                                                [21]  Loopring   Foundation.                                    Lrc   token   documents.
+                                                                https://docs.loopring.org/English/token/,
+[15]  Iddo  Bentov  and  Lorenz  Breidenbach.   The  cost  of
+                                                                Accessed:  2018-03-05.
+decentralization.   http://hackingdistributed.com/
+2017/08/13/cost-of-decent/, Accessed:  2018-03-05.
+                                                                [22]  Daniel Wang.  Dual authoring   looprings solution to
+[16]  Daniel  Wang.    Coinport’s  implemenation  of  udom.     front-running.                                                  URL  https://medium.com/loopring-
+https://github.com/dong77/backcore/blob/                        protocol/dual-authoring-looprings-solution-to-front-
+master/coinex/coinex-backend/src/main/scala/                    running-d0fc9c348ef1, 2018.
+com/coinport/coinex/markets/MarketManager.
+                                                                [23]  Nick  Szabo.   Menger  on  money:   right  and  wrong.
+scala, Accessed:  2018-03-05.
+                                                                http://unenumerated.blogspot.ca/2006/06/
+[17]  Supersymmetry.                                            Remarks     on     loopring.                                    menger-on-money-right-and-wrong.html, Accessed:
+https://docs.loopring.org/pdf/                                  2018-03-05.
+15
+
+
+
+
+

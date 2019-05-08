@@ -1,0 +1,660 @@
+﻿RIGOBLOCK:  A  PROTOCOL  FOR  DECENTRALIZED  FUND  INFRASTRUCTURE
+THE  NEW  PARADIGM  FOR  ASSET  MANAGERS
+MR. GABRIELE RIGO
+FOUNDER, RIGOBLOCK
+GAB@RIGOBLOCK.COM
+Abstract.  The asset management industry is dominated by fund distribution networks and big players.  It is difficult
+and cumbersome for emerging managers to startup their own fund unless they have many years of experience, assets
+from investors and proprietary money.  Yet big hedge funds scout for talent and delegate risk to very young professionals,
+targeting exceptional returns by exploiting the most recent research and data analysis techniques.  Light operational
+structures exist (managed accounts) but they are burdensome to manage, require wasting a lot of time managing and
+rebalancing the portfolios.
+Blockchain provides the ideal technology for setting up funds in a short period of time, with low setup costs and with
+innovations of processes which could only be imagined before.  We provide the technological framework for emerging
+managers to set up their own investment vehicle.  We discuss its design, vision of implementation and Proof-of-Concepts,
+the opportunities it provides in giving more transparency, efficiency to operations and innovating processes.  We also
+propose an alternative paradigm for rewarding talent and hard work.
+1.  Introduction                                                                                                             we provide a framework which self-regulates by providing
+                                                                                                                             such  level  of  transparency  and  efficiency  not  to  require
+The asset management industry has been following a
+                                                                                                                             any regulation (or at least reach ultra-high self-regulation
+path of consolidation towards bigger corporate structures
+                                                                                                                             standards).  The level of our structure’s efficiency offers
+during  the  last  10  years.   The  hedge  fund  industry,  in
+                                                                                                                             levels of compliance never seen before.
+particular,  has developed into a more standardized and
+                                                                                                                             One of our main goals is to provide every single individ-
+regulated sector.  High setup costs and requirements of a
+                                                                                                                             ual with the possibility of seamlessly creating/deploying
+minimum 50 Million US Dollars or even much bigger ini-
+                                                                                                                             their own investment vehicle. Our vision is to provide the
+tial Assets Under Management (AUM), automatically ex-
+                                                                                                                             technology for people to be able and express their talent,
+clude the smaller players from the market. Reason behind
+                                                                                                                             share their passion and compete globally without having
+such high minimum AUM requirements are high costs of
+                                                                                                                             any access to investors’ funds other than for trading. This
+providing Prime Broker services to funds:  costs like Net
+                                                                                                                             reduces the amount of work on the operational side of the
+Assets Value  (NAV) estimate,  collateral accounts,  man-
+                                                                                                                             business, leaving the manager with no other focus than
+agement company costs,  legal and advisory costs.   Fur-
+                                                                                                                             producing good risk-adjusted return for their investors.
+thermore, investment funds and management companies
+                                                                                                                             Conflicts of interests are often one of the reasons for
+are in most cases no more than P.O. Boxes;  by this we
+                                                                                                                             funds’  poor  performances,  and  in  many  ways  and  with
+mean that they do not actually employ anyone, they are
+                                                                                                                             many  mental  biases  (myopic  loss  aversion,  inability  to
+just offshore corporate structures.
+                                                                                                                             replicate exceptional returns when AUM increase dramat-
+The Ethereum protocol provides the perfect technol-
+                                                                                                                             ically) may lead to poor performances.  In some cases it
+ogy for creating investment vehicles on the spot, allowing
+                                                                                                                             even leads good managers to quit funds they are work-
+subscriptions  and  redemptions  in  real  time,  trading  on
+                                                                                                                             ing for and retire, once they are tired of the continuous
+decentralized exchanges in a trust-less manner, so that no
+                                                                                                                             conflicts of interests within such structures.  We believe
+administrator or custodian is needed, allowing for a level
+                                                                                                                             that completely erasing conflicts of interests is in the best
+of efficiency and transparency in the industry never seen
+                                                                                                                             interest of both the investors and managers.
+before. One positive externality of our proposed model is
+                                                                                                                             Overall,  we  wish  to  provide  a  completely  decentral-
+that, by being agnostic of the AUM size, it is also possi-
+                                                                                                                             ized framework that puts the manager first and offers in-
+ble it will be used as a tool to building one’s track record
+                                                                                                                             vestors the best-in-class technology, aligning their mutual
+in order to get a job at major investment funds,  hence
+                                                                                                                             interests. Furthermore, we aim at creating a competitive,
+improving visibility for traders.  Either way we are to lay
+                                                                                                                             transparent and meritocratic market for talent.
+down the path for changing how things are done in asset
+                                                                                                                             Most of the blockchain models for asset management
+management.
+                                                                                                                             proposed by others so far have a highly centralized ap-
+1.1.  Driving  Factors.  Regulation  is  one  of  the  main                                                                  proach,  therefore  requiring  a  level  of  trust  to  relatively
+factors  that  often  prevents  fund  managers  to  startup                                                                  unregulated entities.
+their own fund or forces them to consolidate with others
+through acquisition of smaller players, mergers, or subop-                                                                   1.2.  Market Overview.  Although currently we haven’t
+timal advisory structures which augment conflict of inter-                                                                   seen   any   asset   management   platform   built   on   the
+ests which are inherently present in the asset management                                                                    blockchain, we have to recognize previous attempts in the
+industry.  Scope of regulation is to monitor and manage                                                                      field of trading and asset management.
+these conflicts of interests, prevent money laundering and                                                                   The Stellar network provides a platform for issuing to-
+fraud (a manager running away with the money or input-                                                                       kens which have been used for trading, streamlining the
+ing unjustified costs to the fund). By explaining our model                                                                  share issuance, subscription and redemption phases, but
+1
+
+
+
+
+RIGOBLOCK:  A  PROTOCOL  FOR  DECENTRALIZED  FUND  INFRASTRUCTURE     THE  NEW PARADIGM FOR ASSET MANAGERS 2
+still requesting trust of the users since its approach is cen-                                                                          2.  Blockchain and Funds
+tralized and the subject issuing tokens is in total control
+                                                                                                                                        In order to explain the process of creating a fund on
+of the assets.
+                                                                                                                                        the blockchain, we recall the concept of Smart Contracts.
+The  Iconomi  project  aims  at  being  a  platform  for
+                                                                                                                                        Smart Contracts allow for coding the dynamics that man-
+crypto-related-assets trading, digitizing processes of share
+                                                                                                                                        age a particular process directly into the blockchain, seg-
+issuance,  subscriptions  and  redemptions  with  a  central-
+                                                                                                                                        regating the creation process and its management from
+ized server-based approach.  They provide a user-friendly
+                                                                                                                                        anything  else,  isolating  it  by  creating  a  unique  code,  a
+front-end platform which does not require interaction from
+                                                                                                                                        unique hash of the transaction and a unique hash of the
+blockchain browsers. They are the funds’ custodian (now
+                                                                                                                                        transaction each time a function is called from the code
+partner with a regulated UK asset manager in order to
+                                                                                                                                        deployed on the blockchain.  This means that potentially
+provide the technology and liquidity stack only) as they
+                                                                                                                                        anyone can use the same Solidity source code 1   to create
+manage a user’s private key, thus requiring some level of
+                                                                                                                                        vehicles that are identical by nature but have their own
+trust  in  their  infrastructure.   The  platform  is  aimed  at
+                                                                                                                                        unique  identifier  code,  and  that  can  be  personalized  to
+professional managers.  The RigoBlock technology, in the
+                                                                                                                                        different predefined extents, each one corresponding to a
+context of companies like Iconomi, can be seen as a decen-
+                                                                                                                                        different level of trust required by the platform, starting
+tralized engine which could be easily plugged-in in order
+                                                                                                                                        from a completely trustless environment, to more trust-
+to create the funds on-chain.
+                                                                                                                                        reliant ones.
+The first attempt to formalize a decentralized approach
+to private banking has been proposed by a project named                                                                                 2.1.  The  Trust  Factor.  Exchanges  of  value  occur  on
+EtherPlan.   Still the idea required a high level of trust                                                                              the blockchain without requiring the counterparts to trust
+and substituted many of the existing frictions with new,                                                                                each other.  This is the beauty of blockchain technology,
+more technologically advanced ones, thus not being able                                                                                 and the good thing is that it can be ported to smart con-
+to pose the fundamentals for a radical change, at least in                                                                              tracts as well.  The strict use of escrow accounts, in fact,
+these early stages of the development  of  the  technology.                                                                             allows for the transfer of money within the fund to hap-
+The project is currently on stand-by.  A similar approach                                                                               pen in a trustless way. More in detail, we state that once
+has been recently adopted by the Swissborg project, which                                                                               some amount of value is in the fund, that amount can only
+itself can be seen as a potential customer.                                                                                             be used for trading purposes by the manager, who never
+The  first  attempt  of  using  blockchain  technology  in                                                                              has access to it. The manager can only instruct a deposit
+a  completely  decentralized  form  is  Melonport,  a  project                                                                          to an escrow account of a decentralized exchange: money
+which was chronologically born at the same time as our                                                                                  never leaves the blockchain and is always under control
+first  concept  Drago  the  decentralized  hedge  fund,  now                                                                            of the fund; neither the manager nor the platform at any
+RigoBlock Drago.  Both our protocols aim at solving the                                                                                 time may access those funds.  Immutability  is the great
+same problem, but with different methodologies; they can                                                                                property of the blockchain that makes it possible to trust
+be seen as our closest competitor,  even though at such                                                                                 that the code will forever do only what it is programmed
+early stage of technology the two projects might also be                                                                                to do, and nothing more.
+seen as complimentary to each other. Melonport also pro-
+                                                                                                                                        2.2.  The Drago Creation.  Dragos are the way we call
+vided the first formal specification for the technological
+                                                                                                                                        our funds, aka decentralized pools of tokens.  The RigoB-
+framework and the concept of an open protocol for de-
+                                                                                                                                        lock platform is currently in alpha, accessible in the Par-
+centralized asset management, leveraging and relying on
+                                                                                                                                        ity DApp store and visible globally by users locally run-
+external  developers  to  deliver  some  of  their  ”modules”.
+                                                                                                                                        ning the Parity UI; this consists of running a software (the
+RigoBlock applies the same concept in a more abstracted
+                                                                                                                                        Parity client) in the background and accessing the store
+and liberal way, so that developers can ”bring their own
+                                                                                                                                        through  a  normal  web-browser  interface.   You  can  find
+asset management version” and leverage our protocol.
+                                                                                                                                        RigoBlock on the ”Applications” tab, and you will be able
+Prism, by Shapeshift, is a dual product, being at the
+                                                                                                                                        to use it if you are running Parity on the Kovan testnet.
+same time a decentralized exchange and a hybrid asset
+                                                                                                                                        We also offer a view-only alpha web version accessible at
+management  platform.   Prisms  are  the  equivalent  of  fi-
+                                                                                                                                        pool.rigoblock.com and an IPFS DApp at rigo.network.
+nancial structured products built on the blockchain  (for
+                                                                                                                                        The  decentralized  pools  of  tokens  are  created  by  click-
+who is familiar with structured products).  Prism is still
+                                                                                                                                        ing one button on the application, and the platform takes
+in  closed-alpha  testing.   For  RigoBlock,  Prisms  can  be
+                                                                                                                                        care of deploying the code on the blockchain through one
+treated as assets tradeable by our decentralized pools of
+                                                                                                                                        transaction.  By inputing a name and a symbol for the
+tokens (the Dragos).
+                                                                                                                                        fund, a pop-up requires the user to execute the transac-
+At  the  current  state  of  the  art,  however,  no  asset
+                                                                                                                                        tion.   As  soon  as  the  transaction  is  mined,  the  user  is
+management  platform  has  been  brought  to  life  on  the
+                                                                                                                                        able to see the new fund created and anyone can immedi-
+Ethereum main network.  Much of the reason being that
+                                                                                                                                        ately subscribe shares of the fund through an automatic
+decentralized exchanges themselves now exist only in form
+                                                                                                                                        token minting process.  When a user has a positive bal-
+of alpha and on the test networks. A few questions are still
+                                                                                                                                        ance of shares,  she can redeem her shares for Ether by
+unanswered and we will try to address them in the follow-
+                                                                                                                                        executing the opposite transaction, thus burning tokens
+ing paragraphs, although very humbly we state that the
+                                                                                                                                        and receiving Ether in exchange.  Our approach has been
+answers are yet to be found and the directional path of the
+                                                                                                                                        to implement the software completely on-chain, therefore
+different projects will be decided by their management and
+                                                                                                                                        creating a trustless environment and a serverless backend
+by the advance in technology as well.
+infrastructure.  Functions like NAV calculation, however,
+1Solidity is a native Javascript-based language of the Ethereum blockchain, it is used to completely segregate the code of everything
+related to the back-end (blockchain) from everything else).
+
+
+
+
+RIGOBLOCK:  A  PROTOCOL  FOR  DECENTRALIZED  FUND  INFRASTRUCTURE     THE  NEW PARADIGM FOR ASSET MANAGERS 3
+will be performed off-chain, thus using the blockchain in                                                      interface with other front-end platforms.  Thanks to our
+its most efficient and effective way.  We care to stress out                                                   modular architecture, external service providers can build
+that everything concerning transfers of titles and money                                                       their own Dashboard on top of our protocol, or even create
+happens on-chain and in a decentralized manner, therefore                                                      their own forked version of a decentralized asset manage-
+all the functions related to the existence and behavior of                                                     ment platform using just some of our modules, leveraging
+the decentralized funds are audible in real time and by                                                        our protocol and the Rigo token (alternatively called GRG
+anyone just by knowing the code of the fund, not having                                                        token) incentives mechanism.
+to trust information provided by us.
+                                                                                                               5.  NAV estimate
+3.  Social Trading
+                                                                                                               Assets  never  leave  the  blockchain,  hence  it  is  pretty
+Often do we hear that fund managers must have their
+                                                                                                               straightforward to track them.  Further to that, accounts
+investments  undisclosed  because  otherwise  competitors
+                                                                                                               and positions are available in real time and balances are
+would be able to copy their positions and they would not
+                                                                                                               updated in real time automatically.  This means that no
+be able to exploit market inefficiencies.  We propose two
+                                                                                                               more a person from the fund’s operations will have to man-
+different objections to the open question.  The first one
+                                                                                                               ually reconcile the position with a fund’s front-office and
+is  the  observation  that  Social  Trading  Platforms  which
+                                                                                                               the prime broker’s back-office.  No more mistakes or ty-
+force managers to have their portfolios public have expe-
+                                                                                                               pos:  when a trade is executed from the front-office, it is
+rienced enthusiastic participation of managers.  The sec-
+                                                                                                               also automatically reconciled in real time on-chain, so that
+ond objection is based on a regression of financial markets
+                                                                                                               anyone can audit it.  This allows, potentially, to estimate
+in general and their efficiency:  through a radical shift in
+                                                                                                               NAV in real time.  Since NAV estimate and registration
+the concept of secrecy, therefore mirroring in finance the
+                                                                                                               on-chain require the use of computation of the Ethereum
+(relatively) novel approach of open source software devel-
+                                                                                                               Virtual  Machine  (EVM),  we  decided  to  provide  an  off-
+opment, we envision the possibility of information getting
+                                                                                                               chain NAV estimate in real time to the users.  The user
+reflected in market prices more efficiently.  The manager
+                                                                                                               will then update the official NAV price on the Blockchain
+will be rewarded for performing her research job based on
+                                                                                                               only when needed, hence not wasting unnecessary compu-
+the concept of meritocracy.  We feel the urge to testify
+                                                                                                               tational and storage resources.  We create a mechanism
+that inefficiencies/anomalies are in the market for a long
+                                                                                                               of incentives to provide the conditions for honest behav-
+period of  time normally.   Furthermore,  the very reason
+                                                                                                               ior:  instead of relying on an external Oracle  to provide
+of the existence of financial markets is that people dis-
+                                                                                                               a NAV estimate, it is the manager herself that published
+agree on the same subjects.  In most cases it is equally
+                                                                                                               the price.
+skilled money managers that have different models for an-
+alyzing data, which give opposite output by analyzing the                                                      5.1.  Fair User Behavior And NAV Publishing.  Ac-
+same input factors.  In other cases it is professional man-                                                    cording to our approach, the user will publish a bid and
+agers against the amateurs  (uninformed players).  To the                                                      an ask price for the shares of her fund. At those prices the
+most extreme cases, it is a group of professional managers                                                     fund is forced to buy and sell any amount of the shares.
+against politicians  (a central bank or a government).  In                                                     Therefore two conditions have to be met all the time: the
+any case people disagree and individuals live constantly in                                                    fund has to always keep a minimum amount of Ether avail-
+a prisoner’s dilemma, where a rational expected behavior                                                       able for redemptions, in order to be able to fulfill requests
+is often not empirically observed.  We hope our work can                                                       in real time; the manager will have to publish the actual
+serve to drive financial markets towards the path of effi-                                                     NAV value, otherwise becoming potential target of arbi-
+ciency, even though we realize the beauty and complexity
+                                                                                                               trageurs.  The educated reader might think that manip-
+of the human mind, especially when it comes to managing
+                                                                                                               ulation and dishonest behavior are factors which should
+money, leads us to make mistakes that are objectively ir-
+                                                                                                               not be taken out of the equation, since at the end we are
+rational when analyzed in hindsight. If our work can help
+                                                                                                               all humans.  One possibility is to have the code sorting
+the average investor in getting good returns on her finan-
+                                                                                                               out everything for us, which is a viable approach and we
+cial portfolio by delegating management to those profes-
+                                                                                                               will consider further developing towards this path.  Our
+sional managers, we believe we will have made a difference.
+                                                                                                               current alternative is to create a mechanism of incentives,
+                                                                                                               where good behavior is rewarded and bad behavior is pun-
+4.  A Dashboard For Trading
+                                                                                                               ished, so that NAV estimate does not rely on a centralized
+One of our goals is to provide an integrated set of tools                                                      party.  First of all, the whole infrastructure is built in a
+for trading, which goes from front-office execution to back-                                                   transparent manner, so that all information is public; even
+office reconciliation.  Therefore, we also want to integrate                                                   if NAV estimate is not performed on-chain, each individ-
+the platform with a section dedicated to an off-chain dash-                                                    ual has the possibility of performing a due diligence of the
+board for the portfolio, with statistics about performance                                                     portfolio in real time. Second, by allowing good managers
+on different time frames, display of positions in the portfo-                                                  to access a market of ”Fund of Funds”, we lay down the
+lio and possibility of visualizing all trades relative to every                                                basis for honest behavior and exponential growth for the
+single position; monitoring of risk, evolution of portfolio                                                    best managers.  Lastly, we would like to remind that one
+risk over time.  These are all very powerful tools that are                                                    of the most important references in a trader’s career is her
+normally available for professional manager, not so much                                                       own track record:  either NDAs with previous employers
+for small or emerging managers.  This is the path going                                                        or the use of single managed accounts make it difficult to
+forward in the evolution of the platform.  We are work-                                                        provide an actual track record. Auditing by a third party
+ing to deliver Javascript libraries which allow automated                                                      is also quite expensive.  With our proposed paradigm, an
+quantitative trading strategies through our APIs and easy                                                      audited real time track record obtained by trading real
+
+
+
+
+RIGOBLOCK:  A  PROTOCOL  FOR  DECENTRALIZED  FUND  INFRASTRUCTURE     THE  NEW PARADIGM FOR ASSET MANAGERS 4
+money is not only available through the NAV published                                                          fees are so high that are often not justifiable based on the
+by the trader, but also computable by anyone requesting                                                        cost structure of the hedge fund.
+the data directly from the blockchain, therefore without
+requiring any friction or intermediary.  The world-famous
+American financial journalist and trader Jack D. Schwa-
+ger has recently launched a startup for performing these
+calculations and audits on traders’ traditional managed
+accounts, as a proof of need of such product.                                                                  6.1.  A  New  Way  Of  Aligning  Interests.  What  we
+propose  is  a  radical  change  in  the  way  performance  is
+rewarded,  whose reason behind is twofold:  on one side,
+we aim at improving the quality of management; on the
+other side, while the calculation of management and per-
+formance  fees  on-chain  can  result  expensive,  our  model
+exploits  one  key  characteristic  of  blockchain  technology
+which makes it ultra-easy to calculate a fee per each trans-
+action  and  automatically  allocate  it  to  the  correct  ac-
+count without need of manual reconciliation or settlement.
+Rather  than  a  management  and  performance  fee  being
+charged to the fund directly, our protocol has no fees, and
+managers get rewarded in Rigo tokens thanks to an algo-
+rithm called Proof-of-Performance, which is built on top
+of the protocol.  The Proof-of-Performance module com-
+putes the assets and the performance of a fund for each
+sub-period and rewards the traders, on a quarterly basis,
+based on those two factors.  At the end of each period, a
+trader can claim her reward.  The Proof-of-Performance
+algorithm’s parameters are set by the Rigo token holders,
+so that they can decide on the fair reward ratio.
+6.2.  Distribution.  A further way to create an ecosystem
+for funds is the concept of distribution:  third-party plat-
+forms can leverage our module Distribution, or create their
+own one on top of our protocol, and set a per-transaction
+fee, which is to be set and modified arbitrarily by the dis-
+tributor, but publicly available. The distributor therefore
+transparently sets her own fees in a competitive market.
+While  normally  the  use  of  this  type  of  fee  is  prone  to
+manual errors (either calculation or settlement), through
+the use of blockchain, this is performed automatically and
+seamlessly. The amount of work for a traditional manage-
+ment company for such operations makes this procedure
+today very expensive to execute.
+                                                                                                               6.3.  Excessive  Risk  Taking.  Excessive  risk  taking  is
+6.  Rewarding Performance
+                                                                                                               the  practice  of  exploiting  a  20  percent  performance  fee
+Many  investors,  amongst  which  legendary  investor                                                          by taking as much risk as possible in order to generate
+Warren  Buffett,  have  publicly  criticized  the  risk-taking                                                 the  biggest  returns,  therefore  allowing  the  manager  to
+culture in asset management and hedge funds in partic-                                                         focus  on  short  term  gains.   We  believe  that  our  Proof-
+ular, which is enhanced by the current fee structure.  In                                                      of-Performance model has the potential to shift manage-
+fact the typical 20 percent performance fee is criticized for                                                  ment focus more on the long term, while at the same time
+pushing managers to take too much risk focusing on short                                                       leaving uncapped the total amount a good manager can
+term performance. The presence of hefty management fees                                                        receive, as the Rigo token holders can together set the cor-
+in most cases leads to big funds’ lackluster performance.                                                      rect parameters for rewarding performance.  We believe,
+An empirical phenomenon observed with the growth of a                                                          in the long run, this methodology will not lead to lower
+fund is the inability to replicate exceptional returns ob-                                                     pay for the manager, but since her focus is on long term
+tained in the early days. At that point their management                                                       returns, it will improve the quality of the returns.
+
+
+
+
+RIGOBLOCK:  A  PROTOCOL  FOR  DECENTRALIZED  FUND  INFRASTRUCTURE     THE  NEW PARADIGM FOR ASSET MANAGERS 5
+smart contract.  With our approach, no matter what, the
+client is always in control of her assets. Furthermore, since
+the code is deployed on-chain, no matter what happens to
+the company running the platform, the code will always
+allow the owner of some tokens to redeem them for Ether,
+thus resulting fraud and censorship proof. By design, our
+product becomes the technology layer which can be po-
+tentially used by services like Xapo  (i.e.  cryptocurrency
+wallets) for offering safe Ether hot-storage and at the same
+time allowing for key cold-storage:  keys can be off-chain,
+but at the same time a user can query the blockchain to
+visualize in real time the total deposits and for each user.
+First hypothesis we relax is the possibility for the manager
+to transfer to escrow accounts: they are no more possible;
+we prevent any transfer of Ether from within the fund. In
+this case the manager cannot even transfer Ether to an
+escrow account.  Second hypothesis we relax is NAV esti-
+mate. In this case NAV is fixed at 1 Ether per share. Since
+the fund only holds Ether, does not have any management
+or performance fees, the value of one share will always be
+the same.  Now we have a product which one can use to
+create her own decentralized pool of tokens, buy tokens in
+real time at a known price, sell tokens in real time at a
+known price. She can create as many funds as she wants,
+thus having an efficient tool for managing her family and
+friends or even institutional investments.   She can even
+set  a  transaction  fee  each  time  tokens  are  bought,  and
+receive it automatically without need to reconcile with a
+third party or spend time on calculating fees.  Vault is a
+product aimed for anyone looking to securely store Ether
+in one place, who have more or less experienced the same
+problem:  holding Ether on behalf of others and bearing
+all the responsibility for it, plus being able at any time
+to access those funds,  as the Ether is bought and held
+for  the  long  run.   Vault  is  our  first  product  to  go  live
+to the Ethereum mainnet, as it leverages the RigoBlock
+protocol and the Proof-of-Performance incentives mech-
+anism,  but does not rely on external services being op-
+erational  (decentralized  exchanges  or  oracles).   Current
+work on our Vaults has been on pre-setting it to interact
+with Casper, the next frontier in Ethereum-based mining,
+in order to allow for pooled Proof of Stake mining.  Our
+7.                                                                                                             Vault   Vaults are expected to go live on the Ethereum mainnet
+                                                                                                                       during Q3  2018  and pooled Proof-of-Stake mining could
+By  removing  most  of  the  hypotheses  set  before,                                                                  the
+                                                                                                                       coincide with Ethereum Constantinople (the migration of
+resulting product is a completely trustless and simple ve-
+                                                                                                                       Ethereum to Proof-of-Stake, Q4 2018).
+hicle:  the Vault.   It can be seen as trustless  version  of
+Xapo  for  the  Ethereum  community.   Xapo  is  a  service
+that allows safe Bitcoin storage for individuals and insti-
+tutional clients. It allows the creation of as many accounts
+as needed with each account having an ultra-secure Bit-
+                                                                                                                       8.  RigoBlock Registry
+coin storage vault. They provide a centralized service and
+have access to clients’ keys, ultimately to clients’ assets.                                                           The RigoBlock Registry is similar in nature to the ENS
+We think different:  we want our service to be totally de-                                                             (Ethereum Name Service) and allows approved asset man-
+centralized, and never have access or knowledge of clients’                                                            agement companies register their funds on-chain and be
+keys. It is ultimately the client who is responsible for her                                                           able to interact with their funds by the use of the name of
+own keys.  In order for the service to be totally decen-                                                               the funds, rather than the HEX address currently needed
+tralized and trustless, a Smart Contract is coded in order                                                             to make transfers on-chain.  We have split the RigoBlock
+to only allow the exchange of Ether for tokens, minting                                                                Registry as a separate component to facilitate use from
+tokens to the sender of Ether and burning tokens sent in                                                               external parties.  We are really looking forward for exter-
+exchange for Ether. It is a distinctively different approach                                                           nal service providers to leverage on our modular infras-
+from Xapo’s ultra-secure cold-storage, and it is made sim-                                                             tructure, as rather than creating and managing their own
+ple by the possibility to code the functions that rule the                                                             registry, they can just plug into our Registry application
+transfers directly on-chain and secured by the design of the                                                           and interact with.
+
+
+
+
+RIGOBLOCK:  A  PROTOCOL  FOR  DECENTRALIZED  FUND  INFRASTRUCTURE     THE  NEW PARADIGM FOR ASSET MANAGERS 6
+9.  RigoBlock Exchange
+The RigoBlock Exchange has been built with the pur-
+pose of providing a decentralized exchange for the Dragos
+to  trade.   It  is  a  completely  decentralized  exchange  for
+leveraged cryptoswaps trading.  It allows users to place a
+leveraged  (or not) trade on ETHUSD  (just one asset on
+the exchange at the moment) both on the long and on the
+short side, so that traders can profit if the price goes up
+by buying, but also on selling the position short.  A de-
+rivative is a contract that represents an asset which does
+not exist on the blockchain.  The RigoBlock Exchange is
+limited by the challenges all decentralized exchanges face
+today (mostly slow execution, aka latency, and gas fees for
+unexecuted orders) but it is one of a kind, and we are look-
+ing forward to improve it, as we believe that decentralized
+exchanges are the new frontier of financial trading.  The
+RigoBlock exchange is a long-term project and we are not
+looking to put it in production soon, as current work is on
+integrating decentralized exchanges with our Dragos.
+10.  Proof-of-Performance
+Proof-of-Performance is our new paradigm for reward-
+ing managers’ performances. As we said before, we disrupt
+the traditional concepts of management and performance
+fees. Proof-of-Performance allows traders to mine (techni-
+cally mint) GRG tokens based on their risk-adjusted per-
+formance. The bigger their pool of tokens, the more GRG
+tokens they will be entitled to mint.   Managers are re-
+quired to hold a minimum amount of GRG tokens in order
+to run their own decentralized pool of tokens.  The GRG
+token does not hold intrinsic value, is not represented by
+any real activity or security, does not bear or entitle to
+any dividends or interest is not backed by assets. Its sole
+purpose is for allowing reward of performance of traders
+and being at the basis of our incentives mechanism.
+In particular, activities which might require the status
+of  ”accredited”,  ”specialized”, or which might fall under
+the scope of regulation, will require users to hold minimum
+thresholds of GRG tokens.                                                                                      The above picture is a summary schematic of the Proof-
+                                                                                                               of-Performance incentives system.  This shows token pool
+                                                                                                               managers receiving rewards based on the condition they
+10.1.  The Assets Component.  The first component of                                                           hold the minimum amount of GRG tokens in their own
+the  Proof-of-Performance  reward  is  the  size  of  a  token                                                 wallet.  Standard users are also required to hold GRGs
+pool. The amount of new GRG tokens for the token pool                                                          in order to unlock premium features, which are otherwise
+manager is proportional to its assets. It is a substitute for                                                  locked by default.
+traditional management fees.
+                                                                                                               10.4.  Dynamic  Parameters  Setting.  The  assets  and
+                                                                                                               performance components are combined in a dynamic way
+10.2.  The   Performance   Component.  The   second                                                            set by the token holders, so that market equilibriums de-
+component is a calculation of the absolute performance                                                         termine the optimal mix.  Each manager’s reward is ob-
+of a token pool in respect to the previous observation pe-                                                     tained by multiplying the assets and performance com-
+riod.  This is a quarter of a year by default, however, can                                                    ponents combined by the reward factor of the class  (or
+be adjusted to allow for shorter or longer time frames.                                                        application) the token pool belongs to. The reward factor
+                                                                                                               is dynamically set by the token holders.
+                                                                                                               This new paradigm shift moves token pool managers’
+10.3.  The  High-Water  Mark.  Each  token  pool  gets                                                         rewards  from  the  traditional  management  and  perfor-
+benchmarked against its high-water mark, ensuring that                                                         mance  fees,  to  a  bonus  awarded  by  the  network.   This
+only positive performance is compounded. Unless a token                                                        is then paid in the form of a moderate inflation (expected
+pool’s net-assets-value is at least equal to its high-water                                                    aggregate between 1 and 2 percent), which has the benefit
+mark, no Proof-of-Performance tokens can be minted for                                                         of attracting users as well as external developers to the
+said token pool.                                                                                               RigoBlock ecosystem.
+
+
+
+
+RIGOBLOCK:  A  PROTOCOL  FOR  DECENTRALIZED  FUND  INFRASTRUCTURE     THE  NEW PARADIGM FOR ASSET MANAGERS 7
+The Proof-of-Performance incentives system, to sum-                                                            11.  Future Directions
+up, rewards the managers in case of non-negative perfor-
+                                                                                                               We have been building our proof of concepts since early
+mance. Which in turn, creates an incentive to bring assets
+                                                                                                               2016, with our first smart contracts for a decentralized in-
+into the RigoBlock ecosystem, rather than keeping them
+                                                                                                               vestment vehicle released around August 2016; ever since
+in standalone applications.
+we have been working on improving our concept, adding
+functionalities, checking for security and making the code
+a modular protocol, what we call the “smart contracts en-
+gine” so that it is more abstract and allows external ser-
+10.5.  The Components of Demand and Offer.  The                                                                vice providers create their own decentralized management
+GRG token is an inflation token. New tokens get created                                                        company  on  top  of  RigoBlock.   Our  platform  has  gone
+and allocated automatically by the Proof-of-Performance                                                        through alpha testing on the Kovan testnet and publicly
+algorithm, enforced by smart contracts.  The new tokens                                                        accessible within the Parity UI since May 2017.  We have
+then get distributed to the token pool managers.                                                               made such choice to allow testing in a safe environment
+Such a reward is a substitute to management and per-                                                           before moving to a more traditional UX experience. Sub-
+formance  fees.   The  distribution  happens  automatically                                                    stantial work has been done on improving UX/UI and the
+from the Proof-of-Performance module tied to the GRG                                                           platform  has  been  upgraded  to  a  beta  in  Q1  2018,  ac-
+token, in a fully auditable and transparent way, and with-                                                     cessible from the web.  A selected group of early-testers
+out manual intervention or reliance on a centralized coun-                                                     is currently using an advanced beta.  Our team has al-
+terpart.                                                                                                       ready expanded substantially, with a team of more than
+The  managers  must  hold  a  minimum  amount  of  to-                                                         10  people now  (three of them are advisors with relevant
+kens in order to receive their rewards.  The minimum is                                                        experience  and  competencies  in  the  field  of  asset  man-
+dynamic  and  set  by  the  token  holders,  so  that  the  ra-                                                agement, legal, crypto/blockchain), an improved interface
+tio between inflation and demand within the ecosystem                                                          and a more easily-accessible platform to the average user.
+will be balanced.  Standard users will be required to hold                                                     During the last few months substantial progress on decen-
+some GRGs in order to unlock premium features of the                                                           tralized exchanges has been made: the 0x Protocol is set-
+platform, thus generating additional demand.                                                                   ting a standard for efficiently using blockchain for creating
+The RigoBlock protocol retains a royalty of 5 percent                                                          hybrid decentralized exchanges and many relayers are al-
+of new tokens created, in order to generate a continuous                                                       ready building on top of it, bringing institutional liquidity
+funding model which allows the reward of external devel-                                                       to decentralized exchanges.  Further to that,  0x upgrade
+opers creating applications on top of the RigoBlock proto-                                                     to allow for fund interaction is expected to go live on the
+col. Since the GRG token holders set the inflation param-                                                      Ethereum mainnet during mid-late Q3 2018. Our Dragos
+eters, the continuous funding model provides them with                                                         have already been integrated and tested with the RigoB-
+an incentive of targeting a positive inflation, rather than                                                    lock Exchange as to demonstrate our PoC. At launch, our
+a null new tokens generation.                                                                                  Dragos will only be able to operate with limited function-
+alities and, projected Q4 2018, external exchanges will be
+connected to the protocol.  The RigoBlock Exchange is
+reliant on external oracles and will not go in production if
+we can find a better decentralized exchange for derivatives.
+We are also cooperating for work on decentralized oracles
+systems,  which  will  reduce  the  cost  of  maintaining  on-
+chain oracles. This is more of an optimization work as we
+have built our own oracles and are looking for an efficient
+way to provide free prices for everyone. Our ultimate goal,
+once our technology is fully operational on the Ethereum
+mainnet, is to make the RigoBlock platform an ecosystem
+for traders, allowing any investment strategy, no matter
+how twisted or strange, be performed.  One of the tools
+for creating such ecosystem will be to allow funds invest
+into other funds (dedicated fund-of-funds structures) and
+build autonomous pools of funds whose task is to invest
+in the best trading strategies and be able to more eas-
+ily raise from the crowd thanks to its unprecedented level
+of diversification.  Such pool-of-pools will have the power
+to levy the traders from the burden of regulation as the
+RigoBlock pool, in this case, will act as a global traders’
+fund with thousands or potentially millions of traders and
+bear all regulatory costs, acting as a guarantor.
+11.1.  Third-Party                                                                                             Integrations.  Our                                               modular
+blockchain  solution  allows  an  existing  marketplace  to
+offer  their  own  funds  on  their  own  platform  or  wallet
+application.  Third-parties can offer funds by interacting
+with our Javascript APIs.  As we do not have access to
+
+
+
+
+RIGOBLOCK:  A  PROTOCOL  FOR  DECENTRALIZED  FUND  INFRASTRUCTURE     THE  NEW PARADIGM FOR ASSET MANAGERS 8
+the funds’ assets and do not manage or have access to the                                                      choosing to target institutional clients only. Scalability is
+keys,  third  party  platforms  can  focus  on  managing  the                                                  one of the current limits of social trading when applied to
+keys of their users and integrating their existing services,                                                   real money.  By that we mean that a trader with a lot of
+either under our brand or under their own brand, at their                                                      followers might not be aware of the price impact on the
+own choice.  They can charge fees on top of our protocol,                                                      price her trades have; in case she is aware, there is even
+and, thanks to our Distribution module, they can charge                                                        the possibility of free riding her own clients, therefore to-
+distribution fees.                                                                                             tally dis-aligning their common and individual interests.
+                                                                                                               RigoBlock Drago, by contrast, provides a highly scalable
+11.2.  Decentralized  Governance.  One  peculiar  topic
+                                                                                                               infrastructure where trading is as scalable as the markets
+could be the possibility of fraud. What if a scam-token got
+                                                                                                               a manager trades.  Further to that, a trader has all the
+listed on an external decentralized exchange and bought
+                                                                                                               benefits of pooling investors together without the need of
+by the same creator through a decentralized pool of tokens
+                                                                                                               periodic rebalancing of single accounts.  Ultimately,  the
+deployed on our platform? We have already addressed this
+                                                                                                               topic of regulation will be responsibility of the individuals
+question by creating an Authority and Governance mech-
+                                                                                                               using the RigoBlock protocol.  Pooling investors’ clients
+anism  which allows trading only to an approved trader,
+                                                                                                               is subject to regulation in most countries under certain
+from approved pools of tokens, to approved exchanges and
+                                                                                                               conditions.  Regulation differs according to target clients
+even  the  tokens  of  the  exchanges  have  to  be  approved.
+                                                                                                               and business models; in some instances it is very limited,
+This has been created to improve compliance of the RigoB-
+                                                                                                               in others it is burdensome.  What we propose is a frame-
+lock ecosystem. While this might be seen as a limitation of
+                                                                                                               work which automatically self-regulates and poses higher
+decentralization, it is future-proof and upgradeable, and
+                                                                                                               guarantees of compliance than traditional fund structures,
+it is the Rigo token holders that set the parameters for
+                                                                                                               thus much alleviating the work needed in operations. Un-
+the decentralized governance, with the vision that RigoB-
+                                                                                                               der certain conditions, we believe some of the managers
+lock, over time and when the technology allows for safe
+                                                                                                               might be completely out of reach of the scope of regula-
+decentralized  governance,  will  become  a  completely  de-
+                                                                                                               tion, as with our proposed pool-of-pools model.  Our job
+centralized organization.
+                                                                                                               is to provide individuals with the technological tools to ef-
+We share the vision that the world’s value is becoming
+                                                                                                               ficiently do their job, and to focus on their core business.
+tokenized and we aim at becoming the reference tool for or-
+                                                                                                               Creating an ecosystem for trader, for us, means solving
+ganizing the value: tokens and tokenized assets. We envi-
+                                                                                                               their problems one by one.
+sion stable-currency-denominated funds and share classes
+(hedged and unhedged).  Long term we envision a world                                                          12.  Conclusion
+where everything related to money is transacted through
+                                                                                                               We have introduced, discussed and formally defined the
+the blockchain, different protocols communicate with each
+                                                                                                               RigoBlock protocol.  Through our Smart Contracts En-
+other, salaries and taxes are paid using digital tokens. So
+                                                                                                               gine, a trader may deploy a decentralized pool of funds on
+far  the  only  imaginable  way  of  providing  a  blockchain-
+                                                                                                               the RigoBlock platform on the Ethereum network and im-
+agnostic  framework  has  been  to  have  a  centralized  ap-
+                                                                                                               mediately she or her investors will be able to subscribe or
+proach with a centralized intermediary taking care of the
+                                                                                                               redeem the shares of the fund in real time. Contracts are
+different blockchains and transfers from one another. No-
+                                                                                                               autonomous and immutable, the manager can only man-
+table projects are proposing a solution through the use of
+                                                                                                               age them.  This level of transparency, efficiency and ac-
+side-chains (Hyperledger) by making use of relayers (Bit-
+                                                                                                               countability constitutes a self-regulatory body never seen
+coinRelay) and, last but not least, Polkadot, which pro-
+                                                                                                               before in any regulated environment. We propose a differ-
+poses the use of validators for allowing all blockchains to
+                                                                                                               ent paradigm for rewarding performance through Proof-
+be aware of what the other blockchains are doing and thus
+                                                                                                               of-Performance, a new token minting algorithm.
+allowing transfers from one chain to another, be them the
+public blockchain or private or consortium ones.                                                               13.  Acknowledgements
+11.3.  Scalability.  Scalability of the platform will be di-                                                   We might not be able to give proper acknowledgement
+rectly connected to the scalability of the blockchain it is                                                    to all the people that gave us feedback and helped us im-
+built on.  Further to that,  decentralized storage for the                                                     prove over time. A special thanks goes to Ms. Hanna Ke-
+application will provide a cost effective and infinitely scal-                                                 skin, Mr. Sharif Tarver and Mr. David Fava for providing
+able  solution  to  DDoS  attacks  and  it  will  result  in  the                                              valuable feedback on this work and to Mr.  Mikko Ohta-
+platform being censorship-resistant.   Swarm,  the decen-                                                      maa for helping explain the Proof-of-Performance system
+tralized storage solution for Ethereum, and IPFS provide                                                       in a visual and clear way.  Thanks to the Ethereum com-
+such a solution. At last, the fund structures are as scalable                                                  munity for creating an open architecture for us to be able
+as the markets that are traded; a manager has immediate                                                        and execute our vision and to the Parity team for all the
+visibility and global reach, therefore eliminating national                                                    tools built for the community.  Last but not least, thanks
+boundaries. The proposed Fund of Funds structure allows                                                        to our testers:  we are working hard to improve your ex-
+for professionally scaling the business and possibly even                                                      perience on the RigoBlock platform.
+
+
+
+
+

@@ -1,0 +1,1584 @@
+﻿White Paper v2.3
+Nousplatform: Global Investment Ecosystem powered by Smart Contracts
+https://nousplatform.com
+Edited and revised: May 20,   2018
+Nousplatform, Ltd., an affiliate of ABB Capital LP, UK
+Important Notices
+YOU MUST READ THE FOLLOWING BEFORE CONTINUING. YOU ARE ADVISED TO READ THIS CAREFULLY BEFORE
+READING THIS WHITEPAPER, ACCESSING OR MAKING ANY OTHER USE OF THIS WHITEPAPER. IN ACCESSING THIS
+WHITEPAPER,  YOU  AGREE  TO  BE  BOUND  BY  THE  FOLLOWING  TERMS  AND  CONDITIONS,  INCLUDING  ANY
+MODIFICATIONS TO THEM ANY TIME YOU RECEIVE ANY INFORMATION FROM US AS A RESULT OF SUCH ACCESS.
+PRELIMINARY DRAFT AS OF MAY 10, 2018; TO BE SUPERSEDED BY FINAL DRAFT
+Information contained in this Draft Confidential Whitepaper is subject to completion or amendment. The tokens described in this Draft
+Confidential Whitepaper may not be sold prior to delivery of a final Whitepaper. This Draft Confidential Whitepaper shall not constitute
+an offer to sell or the solicitation of any offer to buy the tokens nor shall there be any sale of such tokens in any jurisdiction in which
+such offer, solicitation or sale would be unlawful. This Draft Confidential Whitepaper supersedes in its entirety any other prior marketing
+materials or other communications concerning any tokens heretofore delivered to prospective purchasers.
+1
+
+
+
+
+THIS   DRAFT   CONFIDENTIAL   PRODUCT   WHITEPAPER                                                        (THIS                                                                                       “WHITEPAPER”)   HAS   BEEN   PREPARED   BY
+NOUSPLATFORM, LTD., A PRIVATE LIMITED COMPANY INCORPORATED UNDER THE LAWS OF THE BRITISH VIRGIN
+ISLANDS                                                                                                   (“NOUSLTD”),  FOR  USE  BY  PROSPECTIVE  PURCHASERS  TO  WHOM  NOUSLTD  IS  OFFERING  THE
+OPPORTUNITY TO PURCHASE UNITS OF NOUS SECURITY TOKENS (“NSS”) OR NOUS UTILITY TOKENS (“NSU”). UNLESS
+THE CONTEXT REQUIRES OTHERWISE, IN THIS WHITEPAPER THE TERMS “NOUSLTD” THE “COMPANY,” “WE,” “US”
+AND “OUR” REFER TO NOUSLTD AND ITS AFFILIATES AND ALL DOLLAR ($) AMOUNTS SET FORTH HEREIN REFER TO
+UNITED STATES DOLLARS.
+THIS WHITEPAPER SUPERSEDES IN THEIR ENTIRETY ANY AND ALL PREVIOUS DRAFT WHITEPAPERS, TERM SHEETS,
+ORAL OR WRITTEN COMMUNICATIONS OR OTHER INFORMATION REGARDING THE OFFERING DESCRIBED HEREIN.
+EXCEPT  AS  OTHERWISE  SET  FORTH  IN  THIS  WHITEPAPER,  THIS  WHITEPAPER  MAY NOT BE FORWARDED OR
+DISTRIBUTED  TO  ANY  OTHER  PERSON  AND  MAY  NOT  BE REPRODUCED IN ANY MANNER WHATSOEVER. ANY
+FORWARDING, DISTRIBUTION OR REPRODUCTION OF THIS WHITEPAPER IN WHOLE OR IN PART IS UNAUTHORIZED.
+FAILURE TO COMPLY WITH THIS DIRECTIVE MAY RESULT IN A VIOLATION OF CERTAIN APPLICABLE LAWS.
+YOU ARE REMINDED THAT THIS WHITEPAPER HAS BEEN DELIVERED TO YOU ON THE BASIS THAT YOU ARE A
+PERSON INTO WHOSE POSSESSION THIS WHITEPAPER MAY BE LAWFULLY DELIVERED IN ACCORDANCE WITH THE
+LAWS OF THE JURISDICTION IN WHICH YOU ARE LOCATED AND YOU MAY NOT, NOR ARE YOU AUTHORIZED TO,
+DELIVER THIS WHITEPAPER TO ANY OTHER PERSON.
+PROSPECTIVE PURCHASERS ARE NOT TO CONSTRUE THE CONTENTS OF THIS WHITEPAPER OR ANY PRIOR OR
+SUBSEQUENT  COMMUNICATIONS  WITH  REGARD  TO THIS WHITEPAPER AS INVESTMENT, LEGAL, ACCOUNTING,
+REGULATORY OR TAX ADVICE. PRIOR TO ANY PURCHASE, A PROSPECTIVE PURCHASER SHOULD CONSULT WITH ITS
+OWN ADVISORS TO DETERMINE THE APPROPRIATENESS AND CONSEQUENCES OF SUCH A PURCHASE IN RELATION
+TO THAT PURCHASER’S SPECIFIC CIRCUMSTANCES.
+NOTHING  IN  THIS  ELECTRONIC  TRANSMISSION  CONSTITUTES  AN  OFFER  OF  SECURITIES  FOR  SALE  IN  ANY
+JURISDICTION, WHETHER IN THE UNITED STATES, BVI OR OTHERWISE WHERE IT IS UNLAWFUL TO DO SO. THE
+TOKENS HAVE NOT BEEN, AND WILL NOT BE, REGISTERED UNDER THE SECURITIES ACT OF 1933, AS AMENDED, OR
+THE SECURITIES LAWS OF ANY STATE OR OTHER JURISDICTION, NO PROSPECTUS WILL BE ISSUED AND THE TOKENS
+MAY NOT BE OFFERED OR SOLD EXCEPT PURSUANT TO AN EXEMPTION FROM, OR IN A TRANSACTION NOT SUBJECT
+TO, THE REGISTRATION REQUIREMENTS OF THE SECURITIES ACT OF 1933, AS AMENDED, AND APPLICABLE STATE
+OR LOCAL SECURITIES LAWS. THE ACQUISITION AND TRANSFER OF THE TOKENS ARE SUBJECT TO ADDITIONAL
+RESTRICTIONS DESCRIBED IN A FINAL PRIVATE PLACEMENT MEMORANDUM TO BE DISTRIBUTED BY THE COMPANY,
+PURSUANT TO WHICH THE TOKENS WILL BE SOLD.
+THE  COMPANY  HAS  USED  REASONABLE  ENDEAVORS  TO  APPROACH  THE  TOKEN  GENERATING  EVENT  IN  A
+RESPONSIBLE  AND  SENSIBLE  MANNER.  GIVEN  THE  UNCERTAIN  LEGAL  STATUS  OF  DISTRIBUTED  LEDGER
+TECHNOLOGIES, BUSINESSES AND ACTIVITIES AS WELL AS CRYPTOCURRENCIES AND CRYPTOCURRENCY-RELATED
+BUSINESSES AND ACTIVITIES IN A NUMBER OF JURISDICTIONS, THE COMPANY HAS SPENT TIME AND RESOURCES
+TO CONSIDER ITS BUSINESS APPROACH AND WHERE IT PROPOSES TO OPERATE NOW AND IN THE FUTURE. IT IS
+POSSIBLE THAT THE COMPANY’S TOKENS DESCRIBED IN THIS WHITEPAPER AND WHICH ARE THE SUBJECT OF THE
+TOKEN GENERATING EVENT MAY COMPRISE A SECURITY IN CERTAIN JURISDICTIONS OR THE OFFER FOR SALE BY
+THE COMPANY OF THE TOKENS IN CERTAIN JURISDICTIONS MAY BE A REGULATED OR PROHIBITED ACTIVITY. IN
+ADDITION, THE TOKENS ARE NOT BEING OFFERED OR SOLD AND MAY NOT BE OFFERED OR SOLD, DIRECTLY OR
+INDIRECTLY, WITHIN BVI, EXCEPT AS PERMITTED BY THE SECURITIES AND OTHER LAWS AND REGULATIONS OF BVI.
+THE COMPANY ACCEPTS NO RESPONSIBILITY OR LIABILITY TO YOU IN THESE OR ANY OTHER CIRCUMSTANCES. YOU
+ARE  STRONGLY  ADVISED  TO  TAKE  INDEPENDENT  LEGAL  ADVICE  IN  RESPECT  OF  THE  LEGALITY  IN  YOUR
+JURISDICTION OF YOUR PARTICIPATION IN THE TOKEN GENERATING EVENT AND PURCHASE OF TOKENS.
+THE COMPANY WILL USE REASONABLE COMMERCIAL ENDEAVOURS TO COMPLY WITH ALL BVI REGULATIONS AND,
+TO THE EXTENT REASONABLY PRACTICABLE WITH THE REGULATIONS OF OTHER JURISDICTIONS. DUE TO THE
+CURRENT UNCERTAIN STATE OF REGULATION RELATING TO DISTRIBUTED LEDGER TECHNOLOGY AND TOKEN SALES
+ACROSS THE WORLD, THE COMPANY CANNOT GUARANTEE THE LEGALITY OF THE TOKEN GENERATING EVENT OR
+DRAFT MAY 20, 2018                                                                                        2
+
+
+
+
+THE NOUSPLATFORM ECOSYSTEM TO BE DEVELOPED AS ENVISAGED BY THE AVAILABLE INFORMATION OR THE
+COMPANY’S  ABILITY  TO  DEVELOP,  STRUCTURE  AND  LICENSE  ANY  FUTURE  TOKEN  FUNCTIONALITY IN EVERY
+JURISDICTION BUT THE COMPANY WILL USE REASONABLE COMMERCIAL ENDEAVOURS TO BE RESPONSIVE AND
+COMPLIANT IN THE FACE OF ANY REGULATORY INQUIRY.
+THE PURCHASE OF TOKENS WILL NOT ENTITLE YOU TO ANY EQUITY, GOVERNANCE, VOTING, ANY CONTROL OVER
+THE MANAGEMENT OF THE COMPANY WHATSOEVER OR SIMILAR RIGHT OR ENTITLEMENT IN THE COMPANY OR IN
+ANY OF ITS AFFILIATED COMPANIES AND WILL NOT EVIDENCE INTERESTS IN OR REPRESENT AN ARRANGEMENT
+WITH RESPECT TO POOLED PROPERTY OR THE RIGHT TO PARTICIPATE IN OR RECEIVE PROFITS OR INCOME ARISING
+FROM THE ACQUISITION, MANAGEMENT OR DISPOSAL OF POOLED PROPERTY OR SUMS PAID OUT OF SUCH PROFITS
+OR  INCOME.  THE  COMPANY  RECOMMENDS  THAT  ANY  PROSPECTIVE  PURCHASER  OF  TOKENS  HAS  PRIOR
+EXPERIENCE  WITH  CRYPTOGRAPHIC  TOKENS,  BLOCKCHAIN-BASED  SOFTWARE  AND  DISTRIBUTED  LEDGER
+TECHNOLOGY AND HAS TAKEN INDEPENDENT PROFESSIONAL ADVICE.
+SPECIAL NOTE REGARDING FORWARD-LOOKING STATEMENTS
+This Whitepaper contains forward-looking statements that involve substantial risks and uncertainties. All statements,
+other than statements of historical facts, included in this Whitepaper regarding our strategy, future operations, regulatory
+process, future financial position, future revenue, projected costs, prospects, plans, strategic relationships, joint venture
+relationships,  objectives  of management and expected market growth are forward-looking statements. The words
+“anticipate,”                                                                                                                   “believe,”   “estimate,”   “expect,”   “intend,”   “may,”   “plan,”   “predict,”   “project,”   “will,”   “would”  and  similar
+expressions are intended to identify forward- looking statements, although not all forward-looking statements contain
+these identifying words.
+The forward-looking statements in this Whitepaper include, among other things, statements about:
+●    our ability to develop a decentralized ecosystem of fund investment opportunities and that, in turn, enables
+growth without massive volatility, and that offers a value proposition to society;
+●    our ability to aggregate value from multiple token holders to satisfy minimum high-value investment thresholds
+to provide favorable access terms to the service of any business partners to its token holders, regardless of
+where they land on the socioeconomic scale;
+●    whether the Nousplatform Ecosystem will successfully generate revenue;
+●    our ability to reduce friction costs and exchange rates wherever possible in the Nousplatform Ecosystem;
+●    our ability to charge fees for our various service offerings that are at or below rates charged by current or future
+providers of similar services; and
+●    our ability to engage investors and fund sponsors to adopt the Nousplatform Ecosystem.
+We may not actually achieve the plans, intentions or expectations disclosed in our forward-looking statements, and
+readers of this Whitepaper are cautioned not to place undue reliance on these forward-looking statements, which
+speak only as of their respective dates. Actual results or events could differ materially from the plans, intentions and
+expectations  disclosed  in  the  forward-looking  statements  we make. We have included important factors in the
+cautionary statements included in this Whitepaper, particularly the factors described in the “Risk Factors” section of
+this Whitepaper, that could cause actual results or events to differ materially from the forward-looking statements that
+we make. Our forward-looking statements do not reflect the potential impact of any future acquisitions, mergers,
+dispositions, joint ventures or investments that we may make.
+We undertake no obligation to update or revise any forward-looking statements contained in this Whitepaper, whether
+as a result of new information, future events, a change in our views or expectations or otherwise, except as required by
+applicable law. New factors emerge from time to time, and it is not possible for us to predict all of these factors.
+Further, we cannot assess the impact of each such factor on our business or the extent to which any factor, or
+combination  of  factors,  may  cause  actual  results  to  be  materially  different  from  those  contained  in  any
+forward-looking statement.
+DRAFT MAY 20, 2018                                                                                                              3
+
+
+
+
+Table of Contents
+White Paper v2.3                                1
+Important Notices                               1
+Table of Contents                               4
+1. Introduction                                 6
+2. Major Obstacles of the Investment Industry   6
+3. Description of the AuM Market                7
+4. Solution                                     7
+5. How Nousprotocol works                       8
+5.1 Nousplatform Solution for Fund Managers     9
+5.2 Advantages of Nousplatform for Investors    9
+5.3 Type of Projects Supported                  10
+5.3.1 Open-ended Investment Fund                11
+5.3.2 Closed-ended Investment Fund              11
+5.3.3 Venture Capital Fund 2.0                  11
+5.3.4 Charity Funds                             12
+5.3.5 Family Trust Fund                         12
+6. Tokenization of Assets                       12
+6.1 Types of Tokens                             12
+6.2 Compliance for Tokenization System          13
+7. Competition and Comparative Analysis         13
+8. Structure of Nous Ecosystem                  14
+8.1 Nousprotocol                                15
+8.2 Auditing Oracle Node                        15
+8.3 Smart Contract of the Project               15
+8.4 Wallet                                      15
+8.5 Marketplace                                 15
+9. Platform                                     16
+DRAFT MAY 20, 2018                              4
+
+
+
+
+9.1 Participants and Their Functions                          16
+9.2 Functions for Managers                                    16
+9.3 Functions and Options of the Nousplatform for Investors   18
+9.4 Referring Agent or Investor Relations Manager             19
+10. Tokens                                                    19
+11. Crypto Currencies used for acquisition of Fund Assets     20
+12. Legal Framework                                           20
+13. Nousplatform Utility Token (NSU) Distribution             20
+13.1 Tokens Distribution                                      21
+13.2 Allocation of Funds                                      21
+13.3 Bonuses                                                  22
+13.4 Vesting Period                                           22
+13.5  Reserves, Grants and Partnerships                       22
+13.6 Liquidity Pool                                           22
+13.6 NSU Inflation / Deflation                                23
+14. Nousplatform Income and Revenue Stream                    23
+14.1 Profit Focused Equity Acquisitions                       23
+14.2 Income from tokenization                                 23
+14.3 Other streams of income and revenue                      24
+15. Our Team Members                                          24
+16. Advisors                                                  26
+17. Roadmap, Timeline and Milestones                          29
+18. Frequently Asked Questions                                30
+19. Risk Factors                                              32
+20. Conclusion                                                42
+DRAFT MAY 20, 2018                                            5
+
+
+
+
+1. Introduction
+With the emergence of cryptocurrency and the ability to raise capital via an initial coin offering
+(ICO), new financial markets have been created and the rules of participation in those markets are
+developing very rapidly. This has created an enormous demand for trusted, transparent and simple
+technology for traders, investors and subscribers alike. What was science fiction just a few years
+ago is now a reality with the introduction of blockchain technology.
+Cryptocurrency projects also provide investors with new opportunities to back promising startups
+launching on the basis of proprietary cryptocurrency or token platforms. Investors in turn have the
+ability to sell or exchange their assets or instruments on cryptocurrency exchanges. Unlike typical
+venture  capital  financings,  coin offering opportunities are often very  “user friendly” with low
+commissions and do not require minimum amounts to participate and extensive paperwork or
+bureaucracy. In the current market, almost anyone can purchase tokens of an issuing company by
+paying a small commission fee.
+These new developments create demand for new investment funds to manage crypto assets and
+cryptocurrency portfolios. Moreover, as the industry is becoming more regulated, institutional
+investors will take advantage of new opportunities in this niche market. In the near future, we
+anticipate that crypto assets will evolve into a new format of investing. For example, stocks,
+futures, options and many other assets may be indexed as crypto assets (tokens) and the supply
+of those tokens will be balanced utilizing an elimination and issuance mechanism.
+We are even witnessing some startup companies try to index gold and other precious metals with
+tokens. The indexing will make it possible to buy and sell any assets with tokens in digital format
+and will create new opportunities to institutional investors.
+This white paper describes the possibilities of creating new investment funds utilizing innovative
+blockchain technologies. Investing funds and investors are facing many obstacles such as raising
+capital, transparency of fund operations, decentralized data storage of investors’ assets, high
+liquidity,  elimination of intermediaries, and many others. We propose that implementation of
+blockchain technology will help in overcoming those obstacles.
+In  addition,  Nousplatform  will  provide  a  mechanism  for  tokenization  of  assets  for  existing
+companies and establishment of new companies.
+2. Major Obstacles of the Investment Industry
+The average investor faces many obstacles when trying to pick a project to make an investment:
+●   Lack of real time unaltered fund performance data of the Funds
+●   Intermediaries and high commissions
+●   High entry level for small investors
+●   Portfolio diversification and liquidity problems
+DRAFT MAY 20, 2018                                                                                       6
+
+
+
+
+Crypto Investors don’t have a possibility for efficient investments in the managed crypto assets
+due to the lack of transparency of crypto funds. Most of those funds are not auditable and not
+transparent. Licensed Crypto Funds are audited quarterly or annually, that is not enough on such
+dynamic and high volatile markets as crypto currencies and crypto assets. Investors need more
+efficient instruments to analyze performance of the funds or projects in real time.
+One of the most major obstacle for the private held, small and mid-size companies is a lack of
+alternatives for a long and costly process of Initial Public Offering (IPO), and thereby the lack of
+liquidity of these markets.
+3. Description of the AuM Market
+According   to   research  published  by  Boston
+Consulting                                                                                               Group,    global                   assets    under
+management                                                                                               (AuM)  placed  with  traditional
+managers  in  2016  grew  by  7%,  to  69.1  trillion
+dollars. 1
+The  marketplace  for  the  Nousplatform  is  very
+diverse and potentially astronomical in volume. For
+example,  BlackRock,  Inc.  alone  manages                                                               $5.5
+trillion in assets. As everybody knows, there are
+many hedge funds, banks, institutional investors,
+private  investment  funds,  family  trusts,  venture
+capital funds and many more investing entities. At
+some  point  a  plurality  of  these  entities  will
+implement blockchain technology; it is a promising
+method to limit liability and increase profitability by
+overcoming major obstacles. Yet today, the ratio of tokenized assets to traditional assets remains
+miniscule.
+4. Solution
+Our solution describes an open protocol, that allows investors to interact with financial projects, to
+purchase and sell the assets utilizing smart contracts peer-to-peer  without intermediaries. A
+Protocol drives interoperability among decentralized financial projects.
+There are three major components of Nousplatform
+●   Nousprotocol - is a framework that employs smart contracts to set the rules of On-Chain
+collaboration between investors and projects. Protocol sets the terms for interactions of
+the parties and can be adopted according to the type and the functionality of the project.
+The first release will support 6 types of investment projects.
+1 Boston Consulting Group, Global Asset Management 2017: The Innovator’s Advantage, July 2017
+DRAFT MAY 20, 2018                                                                                       7
+
+
+
+
+●   Auditing Oracle is On-Chain and Off-Chain solution consisting of smart contracts, and API
+that  allows  access  to  the  certain  data  of  the  project  such  as  gathering  statistics,
+calculations of capitalization, order books, exchange rates, etc. In the beginning our team
+will be assigned with the task of the Auditing Oracle, and later this task can be assigned to
+the third party audit companies. Auditing Oracles Network consists of nodes, that creates
+reports of any project connected to the Network. Reports are stored decentralized as files
+on every node and signed by its creator. The hash of file is stored in a project’s smart
+contract to ensure its credibility.
+●   Nousplatform Is Web interface which allows managers to create an investment project and
+deploy it on Ethereum blockchain. For the investors functionality of the platform allows to
+go thru KYC process, as well as acquisition and liquidation of the assets of the investment
+projects in the form of ERC20 tokens.
+5. How Nousprotocol works
+The project manager selects type of the project he desires to create. He can choose Open-Ended
+Fund,   Closed-Ended   Fund,   Venture   Capital   Fund,   Charity   Foundation,   Family   Fund,
+Business/Startup.  In  the  next  versions  of  the  Nousprotocol  the  types  of  projects  could  be
+extended.
+Example of an Open-Ended fund:
+Manager inputs the terms and conditions of the project and parameters of the token.
+Each project issuing its own token. In this example token represents Assets under Management
+(AuM).
+Then Project is getting deployed on a blockchain. After that, the manager goes thru set up process
+and configures the wallets and exchanges’ API for Auditing Oracle to track and make snapshots of
+the trading statistics and recalculates the price of the token. Price of the token directly correlates
+to the profit or loss of this project.
+If manager ignores Auditing Oracle and tempers with the collection of statistical data, Auditing
+Oracle may remove the project from the listing at its own discretion.
+Nousprotocol utilizes extended ERC20 standard, which enables the acquisition and liquidation of
+the tokens with atomic transactions within a smart contracts, and excludes intermediaries.
+5.1 Nousplatform Solution for Fund Managers
+Fund managers operating on our platform will receive a complete set of technology tools for
+managing their funds and interacting with investors. The main aspects of fund operations are
+controlled through open source smart contracts, which fosters improved transparency and makes
+the fund more trustworthy and attractive to the investor. Investment transactions are carried out
+according to smart contracts that regulate and control the acquisition or sale of equity shares
+utilizing our utility tokens, the “NSU”.
+DRAFT MAY 20, 2018                                                                                       8
+
+
+
+
+Every time a new fund is established on a platform, a new smart contract will be instituted and
+published by the Nousprotocol on the blockchain. We anticipate that this smart contract will
+contain  the  specific  terms,  conditions  and
+features of the fund. Each smart contract will
+have   two   types   of   parameters:   constant
+(unchangeable, permanent) and variable (can be
+changed  or  modified).  Constant  parameters,
+such  as  creation  date  of the fund, the initial
+capitalization, the founders, etc., are final and
+cannot be altered after the publication of the
+smart contract. By contrast, variable parameters,
+such as the investment maturity timeframe and
+the assignment of the manager, can be modified
+by utilizing a private key.
+Nousplatform approach will ensure fairness and transparency for both parties and will help protect
+investors from any manipulation by project managers. Each projects’s smart contract delegates a
+part of the authority over project to Auditing Oracle. Auditing Oracles Network in turn utilizes
+certain entrusted functions, such as verification of the asset ownership, records of the investment
+portfolio, identification of the fund managers, estimating the level of capital accounts, and much
+more.
+The Nousplatform by itself is a powerful tool for attracting and creating a pool of potential
+investors.  Therefore, we anticipate that all investment funds that adopt our platform will be
+exposed to a substantial number of users/investors.
+5.2 Advantages of Nousplatform for Investors
+By using the Nousplatform, an investor will be able to invest in any resident project at any time by
+purchasing project’s assets as ERC20 tokens. As of this writing, the ERC20 token standard has the
+advantages associated with leading cryptocurrency Ethereum, such as using a single wallet for all
+ERC20  tokens. If an investor wants to liquidate all or some of the assets he or she holds, the
+investor would receive NSU at the current exchange rate at the time of the transaction.
+We propose that an investor on the Nousplatform will be able to choose from multiple projects
+with differentiated portfolios to diversify risks. He/she will be able to decide whether to participate
+in a given project based on research of the statistics recorded by Auditing Oracle, which offers
+transparent, unaltered real data. Auditing Oracle creates snapshots of the assets portfolio of each
+project with a specified period. Statistics available for review and analysis at any time in a personal
+back office.
+An investor can analyze the activity of any fund in his/her back office. The statistical data of a
+project based on snapshots shows the fund's economic profile at any given period. In addition, it
+reveals the redemption and acquisition of assets, and any other modification of the portfolio, as
+well as the liquidity index, the number of tokens in reserve, the project's own capital in relation to
+the total portfolio, and so on.
+DRAFT MAY 20, 2018                                                                                        9
+
+
+
+
+The Nousplatform will provide tools for analyzing and evaluating funds based on various statistical
+data. These reports will be available for any user to review.
+The main advantages for investors are simplicity, transparency, the ability to diversify, quick
+deposit  or  withdrawal  of funds, no bureaucracy, set rules of participation for all the parties
+involved, no minimum amount entry requirements, and unaltered and accurate data.
+In the future, we plan to create a merchant portal for the Nousplatform, which will allow investors
+to  pay  for  goods  and services using their assets, assuming those assets are always under
+management of the same entity and utilized only when necessary. This approach, in our opinion,
+should lead to a new kind of relationship between the buyer and the seller, where money, as we
+know it, will no longer be needed; we anticipate that the economy will shift toward  tokenized
+barter.
+Example: Use of NSU in Commerce
+Bob acquires equity shares of a fund investing in solar energy which owns tokens of this solar
+energy portfolio company. The portfolio company pays dividends quarterly to the fund from the
+profits on energy sales. The fund receives the dividends and distributes them among investors.
+Accordingly, Bob receives quarterly dividends for his equity shares of the fund. Let us assume Bob
+would like to buy a video camera priced at 1,000 NSU tokens from an electronics store. Using the
+Nousprotocol, Bob directs a payment of 1000 NSU tokens to the electronics store from Bob’s Nous
+account. The Nousprotocol in turn (i) automates a request for the fund to redeem equity shares
+equivalent to  1000  NSU tokens and  (ii) transfers the  1000  NSU tokens as a payment to the
+electronics store in exchange for the camera
+What happened in this case? For Bob, it means he bought the camera for some of the energy that
+belongs to him, and for the store, it is a normal transaction. Of course, all of this will be possible if
+the fund has the sufficient amount of tokens for instant transactions with the investor, but as
+described above, the fund is predisposed having reserve to maintain liquidity. The retailer must
+accept  Nous  Tokens  as  a  payment in order to avoid paying additional commissions to the
+intermediary liquidity provider, or willing to accept payments utilizing more innovative technologies
+such as the bancor protocol or any 0x relayer.
+5.3 Type of Projects Supported
+At our first stage of development, the Nousprotocol will support six types of funds:
+1.  Open-ended Investment Funds
+2.  Closed-ended Investment Funds
+3.  Venture Capital Funds
+4.  Charitable Foundation
+5.  Family Trust Funds
+6.  Business/Startups
+We anticipate rolling out support for more complex types of funds shortly following launch.
+DRAFT MAY 20, 2018                                                                                          10
+
+
+
+
+5.3.1 Open-ended Investment Fund
+Open-ended investment funds enable Investors to acquire or sell investment shares directly from
+the fund. Within our platform, Investors will send NSU or USD pegged Tokens to the fund. The fund
+in return will assign tokenized investment shares to the investor. The investor can sell these shares
+back to the Fund at any time for the market value of the shares, based on the fund’s performance.
+This approach allows the fund constantly to increase liquidity, and allows the investor to liquidate
+the shares at any time. The fund typically charges Investors entry, management or exit fees for the
+acquisition and disposition of the equity shares.
+5.3.2 Closed-ended Investment Fund
+By contrast, closed-ended funds raise capital only once. After raising the capital, the fund issues a
+fixed amount of tokens, which are distributed among investors pro rata based on the amount they
+have invested. After capital formation and collection of investors’ assets, the fund would then be
+listed on crypto exchanges and its tokens would trade as an exchange traded fund. The fund pays
+dividends to its token holders based on profitability over a pre-described period. We anticipate that
+the Nousplatform will enable a closed-ended fund (i) to introduce its concept to investors, who are
+already utilizing the platform, and potentially (ii) raise initial capital by conducting an ITO.
+We anticipate that this approach will allow the closed-ended fund to attract new investors, which
+may increase the chance for successful fundraising. As for investors, they will have the opportunity
+to diversify their portfolio of close-ended funds.
+5.3.3 Venture Capital Fund 2.0
+Nousplatform allows VC founders to create venture capital funds, which in turn invest capital into
+start-ups and growth stage business. These fund structures will be extended from the open-ended
+fund. The VC fund utilizes an open voting system to allow investors to decide whether to invest in a
+particular start-up venture. Each investor who holds tokens of the fund is anticipated to have a
+pro-rata vote. The investor’s exit fees will paid in NSU or any USD pegged tokens as well. These
+funds have a unique ecosystem, which is why we call them second-generation VC funds.
+Example of a Venture Capital Fund
+After the VC fund’s successful launch via ITO, all investor funds are blocked by a smart contract
+and are released only after an open vote. Assuming the VC fund has raised $10 million, and the
+managers propose to invest $500k in start-up venture "X", the managers then propose to release
+the needed $500K by posing a vote to the investors. Each investor can vote via a smart contract for
+or  against the proposed investment, after evaluating the risks and rewards of the proposed
+start-up venture. If the required number of votes is cast according to the rules, the funds are
+automatically released for investment by the VC fund. The potential advantage of such VC fund
+structures is that each fund investor has a specific voting power.  For example, if Adam has 10
+shares, and Bart has 2 shares, then Adam’s vote is 5 times more powerful than Bart’s vote; if Adam
+and Bart agree, their 12 shares could potentially outweigh any other investor(s), even the VC fund
+management, whose shares in the VC fund are less than Adam’s and Bart’s.
+DRAFT MAY 20, 2018                                                                                      11
+
+
+
+
+5.3.4 Charity Funds
+Nousplatform enables users to create not only investment funds, but also Charity Foundations.
+The main advantage of a charitable organization based on blockchain is its transparency and
+accountability to its donors. Auditing Oracles are anticipated to enable the monitoring of the
+activities of the charitable foundation. There is open access of the information on how and what
+type of charitable assistance is being provided, and how much is spent on operational expenses. A
+charity fund is able to accept donations from all over the world without restrictions. Any token
+holder can donate to any fund anywhere in the world.
+5.3.5 Family Trust Fund
+Family  trusts  are  a  very  popular  form  of  capital  preservation  and  investment.  Trusts  are
+established when the asset holder (grantor) contributes assets (res) to a legal holding entity (trust)
+and appoints a manager (trustee). This family trust is an entirely private entity and the public does
+not have any access to any details of this structure or its holdings. Via the Nousplatform, family
+trusts would have the ability to allow voting by beneficiaries of the trust to approve investments of
+the res or to release assets from the trust.
+The trust fund may even consist of a structure with a single beneficiary, who nonetheless can
+manage the assets and enjoy all the advantages of the Nousplatform, or a more complex structure
+with multiple generations of beneficiaries of a larger estate.
+6. Tokenization of Assets
+Asset tokenization involves issuance of tokens that represent commodities, assets, products or
+services provided by a company in order to operate in the blockchain domain. Nousplatform seeks
+to provide the opportunity to any existing company to tokenize its assets in order to raise capital,
+as well as to help promising startups raise seed and growth capital.
+6.1 Types of Tokens
+In general, there are two types of tokens: security tokens and utility tokens.
+Security tokens are used by companies to raise money and are regulated by government oversight.
+The company issuing security tokens must follow laws, rules and regulations in order to be
+compliant. Security tokens are most easily compared to equity stakes, similar to a company’s
+shares of stock.
+Utility tokens, on the other hand, are not designed to be used for future developments of the
+issuer’s products, goods or services. Rather, they can be used as a medium of exchange for the
+existing products, goods or services.
+Assets  Tokenization  will  provide  liquidity  for  the  assets  held  by  private  companies.  It  is
+multi-trillion dollar market worldwide.
+6.2 Compliance for Tokenization System
+Let’s take a look at the scheme as shown on the diagram below:
+DRAFT MAY 20, 2018                                                                                        12
+
+
+
+
+For  the  purpose  of  assets  tokenization  for  company  “ABC,  Inc.”,  Nousplatform organizes a
+specialized investment vehicle called Cyprus International Fund (CIF) and hires a trusted, licensed
+and regulated company to manage CIF.
+If ABC, Inc. desires to tokenize 30% of its existing assets, it would take the following actions:
+●   Step one: CIF’s managing company creates new legal entity, that will issue tokens (Token
+Issuing Entity, or TIE). 100% of TIE is held by the CIF.
+●   Step two:  ABC, Inc. transfers thirty percent (30%) of its assets to TIE.
+●   Step three: TIE then issues new tokens on Nousplatform. New tokens are sold to investors
+as part of the sale offering. All new Nousplatform investors thereby become passthrough
+shareholders of ABC, Inc. by virtue of holding tokens of CIF, which owns 100% of TIE, which
+owns 30% of ABC, Inc..
+7. Competition and Comparative Analysis
+The marketplace in which Nousplatform operates is extremely competitive. However,
+Nousplatform has a very limited number of direct competitors developing solutions to integrate the
+investment management market with blockchain technology.
+DRAFT MAY 20, 2018                                                                                    13
+
+
+
+
+Product                            demo       no         release    beta
+Fund Types                         6          1          1          1
+Marketplace                        yes        no         yes        no
+Ratings                            yes        no         yes        yes
+Snapshots                          yes        no         no         no
+Blockchain                         multiple   ethereum   multiple   own
+*Tokenization                      yes        no         no         no
+KYC                                yes        -          yes        yes
+Fiat Investors                     yes        yes        no         no
+Audits                             yes        no         no         no
+Voting                             yes        no         no         no
+Legal Framework                    yes        yes        no         no
+Escrow                             yes        no         no         no
+Referring Agents                   yes        no         no         no
+*Tokenization - See Paragraph 6.
+DRAFT MAY 20, 2018                 14
+
+
+
+
+8. Structure of Nous Ecosystem
+Core components of the Nousplatform technology are as follows:
+System’s Components Interaction Scheme
+8.1 Nousprotocol
+Nousprotocol is a set of Smart Contracts, that has been published as an open source code and
+licensed under GNU Lesser General Public License v3.0
+Anyone can utilize the Nousprotocol to create a project.
+8.2 Auditing Oracle Node
+Auditing Oracle Node is also published as an open source code, and licensed under GNU Lesser
+General Public License v3.0. Any Auditing Company can install, compile and run the node on its
+own server. This node will be added to the Network after verification. Any Project can assign the
+node for issuing reports.
+8.3 Smart Contract of the Project
+Project’s Smart Contract will be created and published dynamically by Nousprotocol. Its main
+function will be managing the project, such as assets acquisition and redemption, and distribution
+of tokens among investors.
+DRAFT MAY 20, 2018                                                                                   15
+
+
+
+
+8.4 Wallet
+Nousplatform allows to create a wallet on Ethereum Network utilizing json+password verification.
+User can add existing wallets or use Metamask, Ledger or Trezor. Wallet’s owner will be able to
+make a payment or invest in any of the projects on the Nousplatform.
+8.5 Marketplace
+Nousplatform is the system which allows a collaboration between investment funds and their
+potential  and  existing  investors.  Nousplatform  includes  a  personal  back  office,  statistical
+reporting, wallet function, and lists of funds and their ratings. For investors, the Nousplatform is a
+turnkey solution for managing assets invested in Nousplatform-registered funds.
+The funds and their managers will also have a user-friendly interface to conduct business and a
+platform to attract potential investors.
+9. Platform
+Nousplatform’s user interface is a web interface that interacts with the clients’ Nousprotocol
+library,  as  well  as  with  an  API,  which  in  turn  interacts  with  the  Nous  Smart  Contract and
+Nousplatform database.
+9.1 Participants and Their Functions
+There are five primary categories of participants in the Nousplatform:
+1.  Fund Sponsor or General Manager
+2.  Fund Manager or Portfolio Manager
+3.  Referring Agent or Investor Relations Manager
+4.  Investor or Beneficiary
+DRAFT MAY 20, 2018                                                                                         16
+
+
+
+
+5.  Escrow Holder
+9.2 Functions for Managers
+A Fund Sponsor initiates registration on the Nousplatform and confirms the information and data
+through a double authentication process. After the registration process is confirmed and complete,
+the Fund Sponsor creates a Nous wallet and saves a private key file. This Nous wallet address is
+later used for the publication of the smart contracts of the fund. Then the Fund Sponsor deposits
+Nous tokens to the wallet to allow the proposed fund to collaborate with the blockchain. The
+blockchain charges a small commission for any transaction related to the recording of information,
+so the Fund Sponsor will need to pay a small fee to publish a smart contract for the fund.
+The Fund Sponsor then establishes the fund, inputs the data of the fund, the type of fund, and the
+addresses of the Fund Sponsor’s Nous wallet. Thereafter, the Nousprotocol published, on behalf of
+the  Fund Sponsor, a smart contract on the blockchain with all required settings. The smart
+contract also includes as necessary the addresses of the Escrow smart contracts to handle
+different trust functions.
+The next step is adding and verifying Nous wallets to create a portfolio. Verification is necessary to
+prove the fund and ensure that the assets of investors will be stored in these Nous wallets, and to
+confirm whether managers have their own equity shares in those wallets. The Nousprotocol will
+use a variety of verification methods, depending on the blockchain where the Nous wallets are
+stored.  The  simplest  method  of  verification  is  the  transfer  of  micro  sums  or  OP_RETURN
+transactions to the Nousprotocol verification wallet. If the transaction proceeds successfully, then
+the protocol verifies the wallet of the fund in a smart contract.
+Verification of the initial assets owned by the fund is one of the most important aspects, since it is
+very important to understand—especially for hedge funds—what amount of the assets at risk are
+owned by the fund. At the time of verification of the wallet, the Nousprotocol reads the available
+balance and records it into a smart contract as the initial capital of the fund.
+Publication of data: Once daily, Nousprotocol cross-references balances and transaction data from
+the verified Nous wallets and records them through Nous smart contracts to the smart contract of
+the fund. Published data becomes available so the managers can analyze the fund’s performance
+on a daily basis.
+Listings of the fund: Fund managers with existing funds that have been set up correctly on the
+Nousplatform system can use the Nousplatform to attract investors. Each qualified fund is listed
+and  ranked  by  the  Nousplatform,  which  is  the  most  powerful  marketing  tool  within  the
+Nousplatform framework for attracting new investors.
+Closed-ended funds can use the Nousprotocol to conduct an ICO, to raise initial capital and issue
+their own ETF tokens. After a closed-ended fund is established, the manager can publish an
+additional smart contract for the purpose of ICO, which works in concert with the primary smart
+contract of the fund and controls the distribution of the tokens.
+DRAFT MAY 20, 2018                                                                                       17
+
+
+
+
+Assignments of responsibilities: The Fund Sponsor will be able to assign responsibilities to the
+managers within the smart contract of the fund, by granting permission or blocking access to the
+different functions.
+9.3 Functions and Options of the Nousplatform for Investors
+Investors who register on the Nousplatform system will get a personal account and back office. If
+the investor passes “know your client” and “anti-money-laundering” verification, the investor then
+will receive access to a proprietary nous wallet, into which the investor can deposit funds and store
+Nous tokens. Investors can review the rating and statistical data of each fund on the Nousplatform
+and make a decision whether to invest or divest. Funds are divided into categories and types. The
+investors can analyze the activity of the fund for any period.
+The Nousprotocol forms the trust level of the fund, an important
+factor affected by and associated with the fund's activities. This
+will  allow  investors  to  make  more  educated  and  informed
+decisions.
+Investors can buy and sell equity shares of the fund by moving
+NSU tokens into and out of fund offerings. Investors wishing to
+divest can tender their equity shares back to the fund and get
+the then-current value of their equity stake in NSU tokens in
+return.  Closed-ended  funds  use  a  different  approach,  see
+paragraph 6.
+Security  of  the  assets:  All  assets  purchased  from  funds
+established by the Nousprotocol are stored in a “cold” wallet.
+Only holders of a private key have will have access to the wallet
+opened by the private key. The same Nous wallet may be used
+to store all the assets of a given investor.
+ICO participation: An investor can acquire the equity shares of a
+closed-ended fund before it is listed on an exchange.
+DRAFT MAY 20, 2018                                                                                      18
+
+
+
+
+9.4 Referring Agent or Investor Relations Manager
+The Referring Agent is an independent agent of the fund who is primarily responsible for attracting
+new capital to a fund and who receives compensation for the services provided. The Nousprotocol
+will support the Referring Agent’s functions via mechanisms of compensation by the fund. Upon
+introduction of a new investor by a Referring Agent and his or her admission as an investor to a
+fund, the protocol may also identify and record the compensation to to the Referring Agent and
+allocate Nous tokens to the Referring Agent’s wallet address.
+10. Tokens
+Nousplatform will issue a utility token for use in the Nousplatform system: NSU.
+The NSU Token is a utility token designed as in-platform currency to establish enhanced
+functionality of the Nousplatform, such as:
+●   Acquisition of tokens of open-ended crypto funds on the Nousplatform
+●   Acquisition of tokenized assets of companies established on Nousplatform
+●   Participation in ICOs of closed-ended funds or startups on Nousplatform
+●   Payment of dividends of closed-ended funds launched on Nousplatform
+●   Establishment of reserves of open-ended funds to increase liquidity
+●   Platform for Commissions payout
+●   Use of tokens to pay for goods and services.
+NSU tokens initially will be made available once the Nousplatform is completed. The NSU token
+will be based on the ERC20. ERC20 wallets can be used to receive and store NSU tokens.
+DRAFT MAY 20, 2018                                                                                    19
+
+
+
+
+We anticipate listing the NSU tokens on cryptocurrency exchanges. If we are successful in listing
+the NSU token on exchanges, such as Bittrex, Poloniex and Kraken or others, they will become
+available for the purchase on the secondary market.
+11. Crypto Currencies used for acquisition of Fund Assets
+NSU will be one of the tokens used for the acquisition of assets on Nousplatform. In addition
+Nousprotocol will allow the use of USD pegged tokens such as TrueUSD, DAI and some others.
+There are many advantages for the integration of those tokens.
+Those tokens are immune to volatility of the market, because they always retain USD/Token very
+close to 1:1 ratio.
+TrueUSD will enable user to convert fiat in to ERC20 Token pegged to USD. Then tokens used for
+the acquisition of the Project’s assets, and allows conversion of tokens back into fiat. For more
+information, please click on the link https://www.trusttoken.com/trueusd/
+USD pegged tokens designed to provide the opportunity for the Projects to limit effect of the
+cryptomarket volatility. They provide adequate liquidity for the large crypto portfolios for the
+purpose of acquisition of the assets.
+12. Legal Framework
+The legal framework for establishing Nousplatform, the Nousprotocol, the NSU and all related
+services is one of the most critical aspects of the Nousplatform business. Nousplatform provides
+services to investment funds and investors; therefore, Nousplatform is obligated to maintain
+appropriate  compliance  to  operate  its  business.  Nousplatform  began  operations  under  the
+jurisdiction of the United Kingdom and is in the process of reorganizing to operate via a Gibraltar
+entity that is a wholly-owned subsidiary of a British Virgin Islands limited company. The funds
+created on Nousplatform will similarly be controlled by additional terms and conditions included in
+each fund’s smart contract, depending on the jurisdiction. Nousplatform monitors compliance of
+the funds’ activities, and acts as a due diligence provider to verify the license of the fund to ensure
+operation within the legal framework. Nousplatform performs significant know your client and
+anti-money laundering procedures as mandated by the laws, rules and regulations.
+13. Nousplatform Utility Token (NSU) Distribution
+Upon completion of the Nousplatform technology and launch of the platform, Nousplatform will
+make NSU (utility) tokens available to subscribers.
+Symbol                                                                                                    NSU
+Maximum supply                                                                                            2 500 000 000
+Supply Available for ICO                                                                                  Not less than 1 250 000 000
+DRAFT MAY 20, 2018                                                                                                                      20
+
+
+
+
+Pre-ICO/ICO                                                                          See on Website
+                           Minimum transaction amount                                No minimum
+Accepted currencies                                                                  BTC, BTH, LTC, ETH, DASH
+Exchange Rate                                                                        See Table 11.3
+Soft Cap                                                                             $ 1,600,000 Crypto equivalent
+Hard Cap                                                                             $ 25,000,000 Crypto equivalent
+13.1 Tokens Distribution
+50%                        Will be sold to backers
+20%                        Will be retained by Nousplatform
+20%                        Reserves, Grants and Partnerships
+5%                         Advisors
+3%                         Community
+2%                         Will Be Used To Cover Token Sale
+13.2 Allocation of Funds
+5%                         Software development
+5%                         Legal Expenses, Licenses (FCA, SEC, etc.)
+15%                        Marketing
+5%                         Operational Expenses
+50%                                                                                  Liquidity pool (funds reserved for stabilization of the token value)
+20%                        Equity Acquisitions, Joint Ventures, Business Expansion
+13.3 Bonuses
+                                                                                     Nousplatform adopted dynamic bonus system anticipates offering a token-based bonuses to
+                           purchasers of NSU tokens, as follows.
+DRAFT MAY 20, 2018         21
+
+
+
+
+Token Sale starts at the Exchange Rate of 1 ETH to 22 500 NSU
+The price of NSU increases in order to reward early project backers. After any transaction, the price
+of NSU will increase as a function of received contributions. The formula for price increases:
+1 NSU = 0.000044443 ETH + (ETH equivalent contributed * 0.000000000452114).
+After the price reaches 1 ETH to 16 500 NSU, the dynamic price increase freezes and continues at
+that exchange rate until the conclusion of the sale.
+13.4 Vesting Period
+All NSU tokens retained by Nousplatform will vest over time. None of the retained NSU tokens will
+vest over the first 4 months following their issuance; thereafter 5% of the retained NSU tokens will
+vest per month for a period of 20 months. The total vesting period is 24 months.
+After Airdrop, Advisors’ tokens will be restricted for 30 days. Thereafter they will become freely
+tradeable.
+13.5  Reserves, Grants and Partnerships
+NSU tokens held as Reserves are intended to be deployed in connection with integrations with
+exchanges (such as Bittrex, Poloniex, and Kraken).
+Similarly,  NSU  tokens  may  be  used  in  connection  with  establishing  or  solidifying  strategic
+partnerships with joint venturers or strategically aligned firms (such as Bancor).
+NSU tokens are anticipated to be issued as grants to key team members in connection with
+specific  projects  that  Nousplatform  believes  will  provide  opportunities  for  expansion of the
+Nousplatform ecosystem or enhancements to Nousplatform’s revenue or net income.
+13.6 Liquidity Pool
+Liquidity pool serves as a reserve to accommodate large volume transactions in order to provide
+additional liquidity to the Fund managers.
+13.6 NSU Inflation / Deflation
+The Nousplatform team has developed a mechanism to reduce the circulating volume of NSU
+tokens.  Undistributed  tokens  are null and void after the completion of the ICO. Payment of
+platform commissions for transactions will be eliminated until it reaches the Hard Cap collected
+through the ICO. Thus, a large number of NSU will be terminated, which will ensure inflation. Some
+other factors must be considered to assess inflation. For example, Investment Funds and Projects
+will keep reserve of NSU to redeem their assets or make dividends payouts to their investors.
+Demand for NSU tokens will be created upon the usage of NSU.
+Some examples of NSU usage:
+●   Payment of commissions for transactions
+●   Payment of commissions for the management of assets by Investment Funds
+DRAFT MAY 20, 2018                                                                                       22
+
+
+
+
+●   Payment for partner services (KYC, Audits, Escrow)
+●   Projects Onboarding Fee.
+●   Dividend payment to investors
+●   Payment for additional Nousplatform services
+●   Acquisition of funds’ or projects’ assets
+14. Nousplatform Income and Revenue Stream
+Our proprietary research indicates that most companies capitalizing via ICO rely on a speculative
+valuation of their to-be-issued tokens as an income model for their backers. Our approach is quite
+different. Nousplatform believes that in order to be successful and provide long term opportunity
+for our investors and users, Nousplatform must adopt an income model that is both sustainable
+and profitable. To that end, we are committed to rewarding our investors by paying dividends as
+soon as practicable from retained earnings.
+14.1 Profit Focused Equity Acquisitions
+Nousplatform actively helps businesses to tokenize their assets. Our tokenization platform is
+designed to allow businesses to tokenize existing assets and utilize our ecosystem as a launching
+pad. In return, Nousplatform will acquire shares of companies that utilize our platform and will
+participate pro-rata in the profits derived from our subscriber companies’ activities.
+14.2 Income from tokenization
+When a business or company tokenizes assets on our system as described above, Nousplatform
+will receive a percentage equity allocation of the tokenizing business utilizing our system.
+14.3 Other streams of income and revenue
+As  a  sustainable  business,  Nousplatform  will  seek  out  additional  opportunities  to  enhance
+revenues and profitability. Additional income opportunities may come from the following, without
+limitation:
+1.  Fees and income associated with startup launch and support
+2.  Real estate acquisitions, development, sales and rental
+3.  Acquisitions of the shares of companies in tangible segments of the economy
+4.  Fees and income associated with launch of funds
+15. Our Team Members
+Our team brings together experts from many different industries. From operations to finance,
+execution to legal, our key leaders bring decades of experience in IT projects, metal manufacturing,
+raw energy industry, sales and marketing, and technology law. We are well versed in many aspects
+of fund management and asset trading. All of us are blockchain enthusiasts and believers in the
+future of a decentralized Internet.
+DRAFT MAY 20, 2018                                                                                     23
+
+
+
+
+COLIN BREEZE / CEO
+Colin  is  an  entrepreneur  and  attorney,  whose  education  and
+profession adds additional value to any successful venture. As a
+CEO, Colin brings fund management and operations experience. As a
+trained securities lawyer with over 20 years of working with startups,
+Colin has been at the intersection of technology, fund formation and
+regulatory oversight for his entire career.
+ANATOL OSTROWSKI / CTO
+Anatol is an entrepreneur and software developer with more than 12
+years of experience. He is the visionary, chief enthusiast and driving
+force for the Nousplatform. Anatol has managed more than 12+ IT
+projects since completing his IT education.
+ALEX MAN / Managing Director
+Alex  is  a  leading  blockchain  enthusiast  and  ICO  evangelist.  He
+combines a unique skill set in creative business analysis with domain
+expertise  in  cryptocurrency  business  development,  sales,  and
+marketing. Alex holds multiple degrees in Business Administration,
+Management, and Marketing.
+ANDREW VOROBYOVSKI / CSO
+Andrey specializes in business strategy and development of strategic
+partnerships.  He  has  over  two  decades  of  business,  sales  and
+management  experience.  His  dedication,  tenacity,  organizational
+skills, vision and drive for success is a big asset to the Nousplatform
+team.
+DRAFT MAY 20, 2018                                                        24
+
+
+
+
+VICTOR PULIAEV / COO
+Viktor  is  an  serial  entrepreneur  with                              18             years  of  business
+management experience and an expert in international trade relations
+between  Russia  and China. Since  2015, Victor has been actively
+working on financial asset and crypto asset management.
+16. Advisors
+JOHN CIOE
+John  is  founder  of  INOV8  Golf,  a professional    fundraiser and
+business development strategist for startups. He is a member of the
+private community of tech startups, Founders Network.
+BRIAN KUSMER
+Brian  is  a  real  estate  business  professional.  Over               20  years he
+handled nearly $500 million in transactions volume. He is among the
+top 1% of real estate business performers in the world.
+DRAFT MAY 20, 2018                                                      25
+
+
+
+
+BENJAMIN THEOBALD
+Benjamin is a serial entrepreneur of British-Dutch origin. He started
+his first company in  2003  at the age of  23  and has been active
+around the world with successful projects leading to the sale of iGo
+Inc. (NASDQ) listed in 2010. Founder of ICO Global.
+BONNIE NORMILE
+Bonnie  Normile  is  a  blockchain/cryptocurrency  enthusiast.  She
+assists  in  Business  Development,  Funding  and  Public  Relations.
+Bonnie also serves as advisor to many specialty blockchain projects.
+She is an accomplished entrepreneur and an SBA advocate. Bonnie
+holds her B.A. in Business Administration from Berkeley College.
+YAGUB RAHIMOV
+CEO/Co-founder  -  7marketz  Inc.  Group,  Yagub  Rahimov is serial
+entrepreneur operating within FinTech ecosystem. Investing since
+the  age  of  16,  Yagub  is  an  award  winning  trader  and  a  savvy
+Crypto/Bitcoin investor since mid-2009.
+MD. MOFASSAIR HOSSAIN
+CEO and Founder of Perhalic, the first ever Cryptocurrency website in
+Bangladesh. Expert at ICO bench.
+DRAFT MAY 20, 2018                                                        26
+
+
+
+
+ALEXANDER UGLOV
+Blockchain-evangelist, visionary. Has experience of staging ICOs in
+several projects  (SONM, Humaniq, etc). Co-founder of Blockchain
+Association in Russia.
+NORMAN CHOU
+Norman  Chou  is  an  blockchain  enthusiast  and  believes  that
+blockchain will impact society in the most positive ways. Norman
+brings  over                                                             20  years  of  successful  experience  from  IT  industry
+developing business partnerships. Norman has several engineering
+accreditations  along  with  his  Bachelors  of  Science  degree  in
+Business Administration specializing in Marketing Management and
+PR/Organizational Communications.
+HENOK (HEN) TEKLE
+Henok  (Hen) Tekle is a cryptoassets fund manager, advisor, and
+thought leader. Frequently invited to attend or speak at events in the
+space, Hen has attended or spoken at the inaugural Token Summit
+(New   York   City),   Blockstack                                        (Silicon  Valley),  CoinAlts  Fund
+Symposium (San Francisco), Block-Con (Los Angeles), Crypto Valley
+Trip                                                                     (Zug,   Switzerland),   Mindspace                           (Berlin),  GCC  Blockchain
+Conference (Dubai), Blockchain World Conference (Bangkok).
+AHSAN B. ALI
+Ahsan B. Ali is a blockchain and cryptocurrency enthusiast bringing
+over 20 years of Sales & Engineering experience in high-tech industry.
+With a proven track-record in creating innovative strategies to sell
+products and services to Fortune 500 companies and carrying 100
+million plus sales quotas. Ahsan is a thought leader in building and
+advising startups in Silicon Valley and APAC.
+DRAFT MAY 20, 2018                                                       27
+
+
+
+
+VIV ANAND
+Viv  is  a  big  believer in Blockchain technology and expects it to
+fundamentally change the way we live. He has a wealth of diverse
+work experiences including in corporate America (GE & McKinsey)
+and technology sales (Datalink, Nimble Storage & HPE).
+MICHIEL TRIEBERT
+Michiel Triebert is a dynamic entrepreneur of Dutch-Indonesian origin
+with  an  enthusiasm  for  online  marketing  and  a  fascination  for
+blockchain. Following a successful career in sales, Michiel made the
+decision to carve his own path and in 2012, he founded Gado Gado
+Mobile BV.
+MAURO ANDRIOTTO
+Mauro Andriotto is a professor of Corporate Finance and Enterprise
+Risk  Management  at  Bocconi  University,  University  of  Pisa  and
+University of Genève  - UBIS. He is an independent expert at the
+European Commission for Horizon  2020  (80  bn funds) where he
+approves public grants up to €2,5 mln for innovative and disruptive
+European projects. He is also the quantitative leader at EY for the
+South Europe area. He is the founder of Andriotto Financial Services
+a financial boutique located in Switzerland specialized in fundraising
+strategies and the founder and managing partner of ICO Advisors. He
+sits in different Advisory Boards around the world.
+ANDRE ( YUNSOO ) KIM
+He is the founder of first generation of Crypto Currency miner, when
+mining  is not well known in South Korea. After that he founded
+'BLOCKCHAIN i' (which is accelerating Crypto Fund & ICO projects)
+He is currently accelerating INSUREUM  (by Zikto voted as Top 20
+Start-up company from Forbes Magazine and Temco ( First Korean
+Supply Chain Blockchain Project  ). His goal in  2018  is dedicating
+himself to be a bridge in between Korean Blockchain technology to
+international and international Blockchain technology to South Korea.
+DRAFT MAY 20, 2018                                                       28
+
+
+
+
+17. Roadmap, Timeline and Milestones
+Nousplatform believes that the shift of the economy toward tokenized asset markets cannot be
+reversed. These markets have an extremely high demand for a mechanism to align investors,
+funds and portfolio companies in a single platform such as ours. We remain convinced that, with
+the expansion of the markets of cryptocurrency and crypto assets in general, our platform will be
+met with even greater demand. We believe that any investment fund based on Nousplatform will
+be able to gain access to thousands crypto assets available on the market today. Therefore, we
+see  as  our  first  and  most  important  task  the  creation  of  a  core  platform  for  fund  asset
+management and the interaction of investment funds and investors.
+April of 2017                                                                                             Idea creation, proof of concept.
+June of 2017                                                                                              Website     launch,                                               Nousplatform     and     Nousprotocol
+development. In-House Development Team.
+July of 2017                                                                                              Publishing  of  the  Whitepaper  Completion  of  technical
+documentation.
+September of 2017                                                                                         PoC of the investor's cold wallet for the storage of tokenized
+assets.
+November of 2017                                                                                          Pre-Sale  to  create  a  community  of  backers,  that  become
+potential investors on the platform.
+February of 2018                                                                                          Launch of back offices pre-registration of the investors and
+                                                                                                          establishment  of  their  accounts.  PR  campaign  to  build  a
+                                                                                                          community of the investors on the platform.
+June of 2018                                                                                              Launch  of  beta  version  of  the  Nousplatform  in  Ethereum
+                                                                                                          Testnet and initial testing. Launching pilot investment funds
+                                                                                                          with existing partners.
+July of 2018                                                                                              Integration with Bancor protocol.
+September of 2018                                                                                         Launch   of   beta   for   decentralized   exchange               (DEX)
+                                                                                                          Development of the API for Escrow and third-party service
+                                                                                                          integration with smart contracts.
+October of 2018                                                                                           Development  and  integration  of  third-party  solutions  and
+                                                                                                          services to purchase NSU using FIAT.
+December of 2018                                                                                          Launch beta integration API for third-party services.
+2019                                                                                                      Development and integration of algorithms for decentralized
+                                                                                                          asset management that will determine the initial rules and
+                                                                                                          framework for managers working with equity assets.
+DRAFT MAY 20, 2018                                                                                        29
+
+
+
+
+18. Frequently Asked Questions
+Where is Nousplatform Registered?
+Nousplatform, Ltd. is a British Virgin Islands limited company. Its affiliate, ABB Capital, LP is
+registered in Scotland (Company Number SL023197; Address: Suite 1, 4 Queen Street, Edinburgh,
+Scotland Uk, EH2 1JE Scotland, UK). ABB Capital, LP is reorganizing the activities of Nousplatform
+under Gibraltar operating entity owned 100% by Nousplatform, Ltd. (BVI).
+What is Nousplatform?
+Nousplatform is a financial ecosystem, that consists of on-chain and off-chain modules, that
+provide technical, auditing and legal framework for decentralized managed investment funds or
+projects  based on blockchain technology.
+What is an NSU token?
+NSU is an ERC20  Token, that serves as the main Utility Token for the transactions between
+investors and the investment funds or projects. An algorithm for settlement is based on NSU.
+Investors send NSU or any USD pegged Tokens to the fund or project. In return Investors get
+tokenized equity shares or any assets related to the project.
+What about NSU Inflation / Deflation?
+The Nousplatform team has developed a mechanism to reduce the circulating volume of NSU
+tokens.  Undistributed  tokens  are null and void after the completion of the ICO. Payment of
+platform commissions for transactions will be eliminated until it reaches the Hard Cap collected
+through the ICO. Thus, a large number of NSU will be terminated, which will ensure inflation. Some
+other factors must be considered to assess inflation. For example, Investment Funds and Projects
+will keep reserve of NSU to redeem their assets or make dividends payouts to their investors.
+How are NSUs and other assets stored?
+All of the assets  (ERC20 tokens) are stored in a wallet that can only be accessed through a private
+key. Nousplatform will support all popular “cold” wallets types: Json, Metamask, Ledger, Trezor.
+Important: Nousprotocol does not store the private keys of the investor and does not have access
+to the investor’s wallet.
+Why do I need NSU?
+NSU is used for: Payment of commissions for transactions. Payment of commissions for the
+management of assets by Investment Funds. Payment for partner services (KYC, Audits, Escrow).
+Projects Onboarding Fee. Dividend payment to investors. Payment for additional Nousplatform
+services. Acquisition of funds’ or projects’ assets.
+DRAFT MAY 20, 2018                                                                                     30
+
+
+
+
+Can I make an investment in the fund with USD pegged or other ERC20 token?
+Yes. Nousplatform supports USD pegged Tokens, such as TrueUSD, DAI and s.o. Other ERC20
+Tokens can be exchanged through Bancor protocol or 0x Relayers.
+How is the investment fund rating established and published?
+Auditing Oracles Network provides snapshots of verified wallets of the investment funds and
+records those in blockchain. That creates transparent and accurate data for statistics. Then the
+system analyzes this data and establishes a rating list based on the fund’s performance. This
+feature helps to build an investor’s confidence in the fund: the so-called Trust Level, which is also a
+factor for the ratings. At the TOP of the list, investors will see the most profitable funds that can be
+trusted.
+How do you plan to draw the investors to Nousplatform?
+Anyone who has spare cash and a smartphone is a potential investor. We are utilizing all the
+available  marketing  strategies  to  draw targeted traffic to the Nousplatform and are actively
+working with the investors’ community.
+19. Risk Factors
+A purchase of NSU Tokens involves a high degree of risk. You should consider carefully the risks
+described below, together with all of the other information contained in this Whitepaper, before
+making a decision to purchase. The following risks entail circumstances under which, NousLtd’s
+business, financial condition, results of operations and prospects could suffer.
+Participation in coin offerings, including the NSU Token offering, involves a high degree of risk.
+Financial and operating risks confronting financial and technology companies NousLtd may be
+significant.  The  financial  and  payment  processing  industries  are  highly competitive and the
+percentage of companies that survive and prosper may be limited. Unexpected problems in the
+areas of product development, marketing, financing and general management, among others, that
+cannot be solved may arise.
+We may not be successful in developing our proprietary blockchain and/or the technology upon
+which NSU Tokens are expected to be based.
+If we are unable to successfully develop this proprietary platform, we may not be able to issue NSU
+Tokens, and you may lose the entirety of your investment. Even if we develop such proprietary
+technology, such development may be delayed or become subject to the adverse intellectual
+property claims of others. In such an event, our ability to utilize our to be developed proprietary
+technology may be limited or delayed, and your ability to acquire NSU Tokens, if ever, may be
+delayed.
+General risks associated with the business of NousLtd.
+DRAFT MAY 20, 2018                                                                                         31
+
+
+
+
+NousLtd proposes to offer highly complex services and products and faces competition that may
+result in low market share and/or profitability. NousLtd expects the marketplace to continue to be
+highly competitive as new products develop, industry standards become well known and other
+competitors  attempt  to  enter  these  markets.  Some  competitors  may  have  longer operating
+histories,  and larger customer bases and significantly greater financial, sales and marketing,
+manufacturing, distribution, technical and other capabilities than NousLtd. These competitors may
+be able to adapt more quickly to new or emerging technological requirements and changes in
+customer and/or regulatory requirements. They may also be able to devote greater resources to
+the  promotion  and  sale  of their products and services. Competition from newly established
+competitors may also enter the marketplace and further materially adversely affect NousLtd.
+Existing or new competitors may develop products, technologies or services that more effectively
+address NousLtd’s markets with enhanced features and functionality, greater levels of integration
+and/or lower cost. Additionally, changes or developments in technology could render NousLtd’s
+products and services dated or obsolete or cause them to lose market acceptance, which could
+have a material adverse impact on business performance. As the technological sophistication of
+its competitors and the size of the market increase, competing low-cost producers could emerge
+and grow stronger.
+Our reliance on third parties and agreements with collaboration partners may require us to share
+our trade secrets, which increases the possibility that a competitor may discover them or that our
+trade secrets will be misappropriated or disclosed.
+Our reliance on third party contractors to develop and manufacture our products and services is
+based upon agreements that limit the rights of the third parties to use or disclose our confidential
+information, including our trade secrets and know-how. Despite the contractual provisions, the
+need to share trade secrets and other confidential information increases the risk that such trade
+secrets  and  information  are  disclosed  or  used,  even  if  unintentionally, in violation of these
+agreements. In the highly competitive markets in which our products and services are expected to
+compete, protecting our trade secrets, including our strategies for addressing competing products
+and services, is imperative, and any unauthorized use or disclosure could impair our competitive
+position and may have a material adverse effect on our business and operations. In addition, our
+partners may be larger and more complex organizations than ours, and the risk of inadvertent
+disclosure  of  our  proprietary  information  may  be  increased despite internal procedures and
+contractual obligations in place with our collaboration partners. Despite our efforts to protect our
+trade secrets and other confidential information, a competitor’s discovery of such trade secrets
+and  information  could  impair  our  competitive  position  and  have  an adverse impact on our
+business.
+Risks associated with financial reporting.
+There may be material weaknesses in our internal control over financial reporting as well as
+significant deficiencies in our disclosure controls and procedures, and we may identify material
+weaknesses  in  internal  controls  or  significant  deficiencies  in  our  disclosure  controls  and
+procedures in the future. If we fail to remediate any identified material weaknesses, or if we
+otherwise fail to maintain effective internal control over financial reporting and disclosure controls
+and procedures, we may not be able to accurately report our financial results, or detect or prevent
+fraud in a timely manner, which may, among other adverse consequences, cause our customers to
+DRAFT MAY 20, 2018                                                                                       32
+
+
+
+
+lose confidence. A “material weakness” is a deficiency, or a combination of deficiencies, in internal
+control  over  financial  reporting  such  that  there  is  a  reasonable  possibility  that  a  material
+misstatement of our annual or interim financial statements will not be prevented or detected on a
+timely basis.
+Interruptions in IT systems could materially adversely affect business performance.
+NousLtd is entirely dependent on the secure operation of its websites and systems as well as the
+operation  of  the  Internet  generally.  Its  business  involves  the  storage  and  transmission  of
+customers’ proprietary information, and security breaches could expose NousLtd to a risk of loss
+or misuse of this information, and to resulting claims and litigation. A number of large companies
+have suffered security breaches, many of which have involved intentional attacks. From time to
+time NousLtd and many other businesses also experience denial of service attacks in which
+attackers attempt to block customers’ access to any or all of its product, software and platforms,
+including but not limited to its website. If NousLtd is unable to avert a denial of service attack for
+any significant period, it could sustain substantial revenue loss from lost sales and customer
+dissatisfaction. NousLtd may not have the resources or technical sophistication to anticipate or
+prevent rapidly evolving types of cyber-attacks. Cyber-attacks may target NousLtd, its customers,
+its  suppliers,  banks,  credit  card  processors,  delivery services, e-commerce in general or the
+communication infrastructure on which it depends or which it operates. If an actual or perceived
+attack or breach of its security occurs, customer and/or supplier perception of the effectiveness of
+its security measures could be harmed and NousLtd could lose customers, suppliers or both.
+Actual or anticipated attacks and risks may cause NousLtd to incur increasing costs, including
+costs to deploy additional personnel and protection technologies, train employees, and engage
+third party experts and consultants. A person who is able to circumvent security measures might
+be  able  to misappropriate its or its customers’ proprietary information, cause interruption in
+operations,  damage  computers  or  those  of customers, or otherwise damage reputation and
+business. Any compromise of security could result in a violation of applicable privacy, banking,
+consumer  protection  and  other laws, significant legal and financial exposure, damage to its
+reputation, and a loss of confidence in security measures, which could harm NousLtd’s business.
+Any significant interruption to the efficient and uninterrupted operation of NousLtd’s information
+technology  applications,  systems  and  networks,  including,  but  not  limited  to,  new  system
+implementations, facility issues or energy blackouts, could have a material adverse impact on
+NousLtd’s operations and operating results. The protective measures adopted to avoid system or
+network disruptions may be insufficient to prevent or limit the damage from any future disruptions,
+and any such disruption could have an adverse effect on NousLtd’s business, financial condition
+and results of operations.
+Risks associated with intellectual property.
+We may in the future be subject to intellectual property or other claims, which are costly to defend,
+could result in significant damage awards, and could limit our ability to use certain technologies in
+the future. In the future we may have patent, copyright, and trademark infringement lawsuits filed
+against us claiming that certain of our products, services, and technologies infringe the intellectual
+property  rights  of  others.  Adverse  results  in  any  of  these  lawsuits  may  include  awards of
+substantial monetary damages, costly royalty or licensing agreements (if licenses are available at
+all), or orders preventing us from offering certain features, functionalities, products, or services,
+DRAFT MAY 20, 2018                                                                                          33
+
+
+
+
+and  may  also  cause  us  to  change  our  business  practices,  and  require  development  of
+non-infringing products or technologies, which could result in a loss of revenues for us and
+otherwise harm our business. Intellectual property claims are often time consuming, expensive to
+litigate or settle, and cause significant diversion of management attention. To the extent such
+intellectual property infringement claims are successful, they may have an adverse effect on our
+business. Our intellectual property rights are valuable, and any inability to protect them could
+reduce the value of our products and services. Our intellectual property rights are important assets
+for us. Various events outside of our control pose a threat to our intellectual property rights, as well
+as  to  our  products,  services  and  technologies.  For  example,  effective  intellectual  property
+protection may not be available in every country in which our products and services are distributed
+or made available. Also, the efforts we have taken to protect our proprietary rights may not be
+sufficient or effective. We also seek to maintain certain intellectual property as trade secrets. The
+secrecy could be compromised by outside parties, or by our employees, which could cause us to
+lose the competitive advantage resulting from these trade secrets. Any significant impairment of
+our intellectual property rights could harm our business and our ability to compete.
+Risks associated with legal proceedings.
+NousLtd undertakes global business operations and may be involved from time to time in disputes,
+including lawsuits and other legal proceedings, and investigations by relevant authorities. It is
+possible that such cases may arise in the future. Due to the differences in judicial systems and the
+uncertainties inherent in such proceedings, NousLtd may be subject to a ruling requiring payment
+of amounts far exceeding its expectations. Any judgment or decision unfavorable to NousLtd
+could also have a material adverse effect on NousLtd’s business. In addition, due to various
+circumstances, there can be no assurance that lawsuits involving claims for large sums will not be
+brought, even if the possibility of receiving orders for such payment is quite low.
+Risks associated with international operations.
+NousLtd is subject to numerous evolving and complex laws and regulations which apply, among
+other things, to financial reporting standards, corporate governance, data privacy, tax, competitive
+practices and regulations in each jurisdiction in which it operates. In the jurisdictions in which it
+operates,  NousLtd  would  need  to  comply  with  various  standards  and practices of different
+regulatory, tax, judicial and administrative bodies. There are a number of risks associated with
+international business operations, including political instability  (e.g., the threat of war, terrorist
+attacks or civil unrest), inconsistent regulations across jurisdictions, unanticipated changes in the
+regulatory environment, and import and export restrictions. Any of these events may affect its
+employees, reputation, business or financial results as well as its ability to meet its objectives,
+including the following international business risks:
+●   negative economic developments in economies around the world and the instability of
+governments, or the downgrades in the debt ratings of certain major economies;
+●   social and political instability;
+●   complex regulations governing certain of its products;
+●   potential terrorist attacks;
+●   adverse changes in governmental policies, especially those affecting trade and investment;
+●   foreign currency exchange; and
+DRAFT MAY 20, 2018                                                                                         34
+
+
+
+
+●   threats that its operations or property could be subject to nationalization and expropriation.
+NousLtd may not be in full compliance at all times with the laws and regulations to which it is
+subject. Likewise, NousLtd may not have obtained or may not be able to obtain the permits and
+other authorizations or licenses that it would need. If NousLtd violates or fails to comply with laws,
+regulations, permits, health and safety regulations or other authorizations or licenses, it could be
+fined or otherwise sanctioned by regulators. In such a case, or if any of these international
+business risks were to materialize, the business, financial condition and results of operations, and
+thus the value of the NSS Token, could be adversely affected.
+NousLtd may be forced to cease operations or take actions that result in a dissolution event.
+It is possible that, due to any number of reasons, including, but not limited to, an unfavorable
+fluctuation in the value of cryptographic and fiat currencies, the inability by NousLtd to establish
+the NSU Token, the failure of commercial relationships, intellectual property ownership challenges,
+inability to service debt or meet obligations as they come due in the ordinary course of business or
+governmental or regulatory actions or proceedings, NousLtd may no longer be viable to operate
+and may dissolve or take actions that result in a dissolution event.
+The loss of key personnel or any inability to attract and retain additional personnel could affect
+NousLtd’s ability to successfully grow its business.
+NousLtd’s  performance  is  substantially  dependent  on  the  continued  services  and  on  the
+performance of its senior management and other key personnel. The loss of the services, of any
+such person for any reason, including due to pending or future legal proceedings, could harm
+NousLtd’s business. NousLtd’s future success also depends on its ability to identify, attract, hire,
+train,  retain  and  motivate  other  highly  skilled  technical, managerial, editorial, merchandising,
+marketing and customer service personnel. Competition for such personnel is intense. The failure
+to retain and attract the necessary technical, managerial, editorial, merchandising, marketing and
+customer service personnel could harm NousLtd’s business.
+The regulatory regime governing blockchain technologies, cryptocurrencies, tokens and token
+sales such as NSU Tokens is uncertain or nonexistent in many jurisdictions, and new regulations or
+policies may materially adversely affect the development of NousLtd’s NSU Token.
+As blockchain networks and blockchain assets have grown in popularity and in market size, US
+federal and state agencies and regulatory authorities in other jurisdictions have begun to take
+interest in, and in some cases regulate, tokens and token sales and blockchains and their use and
+operation.  Regulation  of  tokens  and  token  sales  such  as  this,  cryptocurrencies,  blockchain
+technologies and cryptocurrency exchanges is largely undeveloped and likely to rapidly evolve,
+varies significantly among international, federal, state and local jurisdictions and is subject to
+significant uncertainty in legal and regulatory interpretation and enforcement. Various legislative
+and executive bodies in the United States and in other countries may in the future, adopt laws,
+regulations, guidance, or other actions, which may materially adversely affect or otherwise severely
+impact the development and growth of NousLtd and the adoption of NSU Tokens. Failure of any
+party to comply with any laws, rules and regulations, some of which may not exist yet or are
+DRAFT MAY 20, 2018                                                                                        35
+
+
+
+
+subject to interpretation and may be subject to change, could result in a variety of adverse
+consequences, including criminal and civil penalties, suspension of trading and fines.
+In the case of virtual currencies, state regulators like the New York Department of Financial
+Services have created new regulatory frameworks. Others, as in Texas, have published guidance
+on how their existing regulatory regimes apply to virtual currencies. Some states, including but not
+limited to New Hampshire, North Carolina, Illinois, Hawaii, California, Florida and Washington, have
+amended or are in discussions to amend their state’s statutes to address licensing, exchange and
+other regulatory matters. Treatment of virtual currencies continues to evolve under United States
+federal  law  as  well.  In  the  US,  the  Department  of  the  Treasury,  the  Securities  Exchange
+Commission  and  the  Commodity  Futures  Trading  Commission,  for example, have published
+guidance on the treatment of virtual currencies. The IRS released guidance treating virtual currency
+as property that is not currency for US federal income tax purposes, although there is no indication
+yet whether other courts or federal or state regulators will follow this classification. Both federal
+and state agencies have instituted enforcement actions against those violating their interpretation
+of existing laws. The regulation of non-currency use of blockchain assets is also uncertain. The
+SEC has issued a public report stating federal securities laws require treating some blockchain
+assets as securities. To the extent that a domestic government or quasi-governmental agency
+exerts regulatory authority over a blockchain network or cryptocurrency asset, including but not
+limited to the ways set forth in this Whitepaper, NousLtd and the ability of purchasers to negotiate
+NSS  Tokens  may  be  materially  and  adversely  affected.  Under applicable law the regulatory
+interpretation of the business to be conducted by NousLtd is by no means certain and is open to
+challenge. No licences or authorisations have been sought or applied for from the BVI financial
+regulators to conduct the business in the BVI. Given the uncertainty of the regulatory status of the
+NSU  Token  and  the  distributed  ledger  technology, added to which are the developments in
+applicable regulations, there is a real risk that the regulators may or could in the future dispute the
+regulatory interpretation currently being applied to the business and the NSU Token which could
+materially and negatively affect the viability of the Company and could lead it to cease operating.
+The effort to develop code for the purposes of facilitating the creation of certain of the programs
+and platforms set forth herein may be an area in which NousLtd has limited experience, may be
+expensive, and subject to the resolution of significant technical constraints.
+NousLtd is working to develop code for the purposes of facilitating the creation of certain of the
+programs and platforms set forth herein. Although NousLtd has hired and will hire employees with
+significant   experience   in   the   technical   workings   of   blockchain,   Ethereum  and  other
+cryptocurrencies, NousLtd has limited experience with such types of projects. These projects may
+be expensive, and are subject to substantial risk that they may ultimately be unsuccessful. Further,
+the creation thereof would be subject to the future resolution of numerous significant technical
+challenges, which may be insurmountable.
+The issuance of NSU Tokens may constitute the issuance of a “Security” under U.S. Federal laws
+and may constitute the issuance of a security under the laws of non-US jurisdictions.
+On July  25,  2017, the United States Securities and Exchange Commission  (the  “Commission”)
+issued a Report of Investigation under Section 21(a) of the Securities Exchange Act of 1934 (the
+“Exchange Act”) describing an SEC investigation of The DAO, a virtual organization, and its use of
+DRAFT MAY 20, 2018                                                                                        36
+
+
+
+
+distributed ledger or blockchain technology to facilitate the offer and sale of DAO Tokens to raise
+capital.  The  Commission  applied  existing U.S. federal securities laws to this new paradigm,
+determining that DAO Tokens were securities. The Commission stressed that those who offer and
+sell securities in the U.S. are required to comply with federal securities laws, regardless of whether
+those securities are purchased with virtual currencies or distributed with blockchain technology.
+The   Commission’s   announcement,   and   the   related   Report,   may   be   found   here:
+https://www.sec.gov/news/press-release/2017-131. NSS Tokens may be deemed to be securities
+by  other  jurisdictions’  securities  and  exchange  commissions  or  monetary  authorities  under
+applicable securities, banking or monetary laws and regulations, and might be similarly subject to
+registration requirements and/or civil and criminal investigations, proceedings and penalties, any
+of which might have a material adverse effect on NousLtd and purchasers’ ability to negotiate NSS
+Tokens, including but not limited to these recent events:
+The People’s Republic of China has banned initial coin offerings in China: The People’s Bank of
+China announced on September 4, 2017, that initial coin offerings are banned inside the People’s
+Republic of China and that refunds would be sought with respect to prior offerings.  Digital token 2
+financing and trading platforms are prohibited from converting digital tokens to fiat currencies. As
+of November 1, 2017, cryptocurrency exchanges were no longer operating in the People’s Republic
+of China.  There is no certainty regarding how long this ban will be in effect. 3
+This issuance of NSU Tokens may constitute the issuance of a “Security” under the Laws of Hong
+Kong and trading of NSU Tokens on secondary markets may be subject to applicable regulatory
+requirements: On September  5,  2017, the Hong Kong Securities and Futures Commission  (the
+“SFC”) issued a statement advising that  “depending on the facts and circumstances of a TGE,
+digital tokens that are offered or sold may be “securities” … and subject to the securities laws of
+Hong Kong.”  (emphasis in original). The SFC further noted that “Parties engaging in the secondary 4
+trading of such tokens  (eg, on cryptocurrency exchanges) may also be subject to the SFC’s
+licensing and conduct requirements.”[4] 5
+Regulation of cryptocurrencies such as NSU Tokens is likely to change in Korea in the near term
+and may become stricter: On September 3, 2017, Korea’s Financial Supervisory Commission held a
+joint task force with digital currency-related regulators and other bodies, including the Korea Fair
+Trade  Commission  and  the  National  Tax  Service.   Authorities  intend  to  strengthen  user 6
+2 See L . Chen and J. Lee, “Bitcoin Tumbles as PBOC Declares Initial Coin Offerings Illegal”
+Bloomberg.com (Sept. 4, 2017), a vailable at
+https://www.bloomberg.com/news/articles/2017-09-04/china-central-bank-says-initial-coin-offerings-ar
+eillegal​.
+3 See K . Rapoza, “Cryptocurrency Exchanges Officially Dead In China” Forbes.com (Nov. 2, 2017),
+available at
+https://www.forbes.com/sites/kenrapoza/2017/11/02/cryptocurrency-exchanges-officially-dead-in-china
+/#3d38d89f2a83​.
+4 Sec. and Futures Comm’n., Statement on initial coin offerings (Sept. 5, 2017), a vailable at
+http://www.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=17PR117​.
+5 Id.
+6 See Y oon Yung Sil, Regulating Bitcoin Trading Financial Authorities to Strengthen Regulations on
+Digital Currency Trading, BusinessKorea.co.kr (Sept. 4, 2017), a vailable at
+http://www.businesskorea.co.kr/english/news/money/19180-regulating-bitcoin-trading-financial-author
+ities-strengthen-regulations-digital​.
+DRAFT MAY 20, 2018                                                                                       37
+
+
+
+
+authentication procedures, regulate domestic trading of digital currencies, increase consumer
+protections, and punish initial coin offerings that do not comply with Korean laws. 7
+Secondary trading of NSU Tokens may be deemed subject to regulatory restrictions or even illegal
+by regulators subsequent to the publication of this Whitepaper: Other countries or regulatory
+jurisdictions may follow Hong Kong and deem the secondary trading of digital tokens potentially
+subject to regulatory requirements of local securities enforcement and regulatory bodies. It is
+possible  some  jurisdictions  may  ban  secondary  trading  altogether.  Laws  and  regulations
+applicable to digital tokens are evolving and there can be no certainty as to what any country,
+regulatory body, or other rule-making agency may determine. The effect of any future regulatory
+change  is  impossible  to  predict,  but  such  change  could  be substantial and adverse to our
+business. Changes and developments in commercial and   corporate laws may alter the nature of
+our business or the operation of a blockchain network upon which we rely in a manner that
+adversely affects our business. Blockchain networks face an uncertain regulatory landscape in
+many other jurisdictions such as the European Union, China and Russia. Various jurisdictions may,
+in the near future, adopt laws, regulations or directives that materially adversely affect or otherwise
+severely impact NousLtd. Such laws, regulations or directives may directly and negatively impact
+its business. The effect of any future regulatory change is impossible to predict, but such change
+could be substantial and materially adverse to the development and growth of NousLtd and the
+adoption, utility and transferability of the NSU Token.
+Regulations governing cryptocurrency, such as our Tokens, are unsettled and are likely to vary
+across different jurisdictions. We may not be in compliance with all applicable regulations, and you
+may lose the entirety of your investment.
+The landscape of cryptocurrency tokens and cryptocurrency token offerings is unsettled, and
+regulations are likely to vary across different jurisdictions. The Company has used reasonable
+endeavors to approach the Token Generating Event in a responsible and sensible manner. Given
+the  legal  uncertainty of distributed ledger technologies, businesses and activities as well as
+cryptocurrencies and cryptocurrency-related businesses and activities in a number of jurisdictions,
+the Company has spent time and resources to consider its business approach and where it
+proposes to operate now and in the future. It is possible that the Company's Tokens described in
+this Whitepaper and which are the subject of the Token Generating Event may comprise a security
+in your jurisdiction, or that the offer for sale by the Company of the Tokens in your jurisdiction may
+be a regulated or prohibited activity. The Company accepts no responsibility or liability to you in
+these or in any circumstances. You are strongly advised to take independent legal advice in
+respect of the legality in your jurisdiction of your participating in the Token Generating Event and
+purchase of Tokens. If the offering is not compliant with regulations in your jurisdiction, you may
+lose the value of your entire investment.
+Tokens do not represent equity ownership in NousLtd or an arrangement with respect to pooled
+property.
+Tokens do not entitle you to any equity, governance, voting or control over the management of the
+Company whatsoever, or any similar right or entitlement in the Company or any of its affiliates.
+7 See Id.
+DRAFT MAY 20, 2018                                                                                        38
+
+
+
+
+Tokens do not evidence interests in or represent an arrangement with respect to pooled property
+or the right to participate in or receive profits or income arising for their acquisition, management,
+or disposal of pooled property or sums paid out of such profits or income. We do not recommend
+that  you  purchase  tokens  unless  you  have  prior  experience  with  cryptographic  tokens,
+blockchain-based  software  and  distributed  ledger  technology  and  unless  you  have  taken
+independent professional advice. Accordingly, your purchase of Tokens will not provide you with
+an opportunity to influence the conduct of NousLtd's business.
+Purchasers of NSU Token will have no voting rights, consent rights or other control over or rights
+with respect to NousLtd.
+Purchasers are not and will not be entitled to vote or be deemed the holder of capital stock of
+NousLtd for any purpose, nor will anything be construed to confer on the purchasers any of the
+rights of a stockholder of NousLtd or any right to vote for the election of directors or upon any
+matter submitted to stockholders at any meeting thereof, or to give or withhold consent to any
+corporate action or to receive notice of meetings, or to receive subscription rights or otherwise.
+NSU Tokens do not evidence interests in or represent an arrangement with respect to pooled
+property or the right to participate in or receive profits or income arising from the acquisition,
+management or disposal or pooled property or sums paid out of such profits or income.
+Purchasers may lack information and/or access for monitoring NousLtd.
+A purchaser of NSU Tokens may not be able to obtain all information it would want regarding
+NousLtd or the NSU Tokens themselves on a timely basis or, as the case may be, in substantial
+part or at all. It is possible that purchasers may not be aware on a timely basis or at all of material
+adverse changes that have occurred with respect to NousLtd or with respect to the NSU Tokens.
+NSU Tokens have no operating history.
+NSU Tokens will be a newly formed token and have no operating history. Past performance of
+tokens  or  coins  issued by any other person or entity, including without limitation Bitcoin or
+Ethereum, is not predictive of the value of the NSU Tokens in the future.
+The further development and acceptance of blockchain networks, which are part of a new and
+rapidly changing industry, are subject to a variety of factors that are difficult to evaluate. The
+slowing or stopping of the development or acceptance of blockchain networks and blockchain
+assets would have a material adverse effect on the successful development and adoption of
+NousLtd’s platforms and proposed projects, as well as the NSU Tokens themselves.
+The growth of the blockchain industry in general, as well as the blockchain networks with which
+NousLtd will rely and interact, is subject to a high degree of uncertainty. The factors affecting the
+further  development  of  the  cryptocurrency  industry,  as well as blockchain networks include,
+without limitation:
+●   Worldwide growth in the adoption and use of Bitcoin, Ethereum and other blockchain
+technologies;
+DRAFT MAY 20, 2018                                                                                        39
+
+
+
+
+●   Government  and  quasi-government  regulation  of  cryptocurrency  and other blockchain
+assets and their use and exchangeability, or restrictions on or regulation of access to and
+operation of blockchain networks or similar systems;
+●   The maintenance and development of the open-source software protocol of the Bitcoin
+networks;
+●   Changes in consumer demographics and public tastes and preferences;
+●   The availability and popularity of other forms or methods of buying and selling goods and
+services,  or  trading  assets  including  new  means  of  using  fiat  currencies or existing
+networks;
+●   The nature and extent of cyberattacks, protocol forks and cryptocurrency co-participant
+fraud;
+●   General economic conditions and the regulatory environment relating to cryptocurrencies;
+and
+●   A decline in the popularity or acceptance of Bitcoin, Ethereum or other blockchain-based
+tokens and coins would adversely affect NousLtd.
+The slowing or stopping of the development, general acceptance and adoption and usage of
+blockchain networks and blockchain assets may deter or delay the acceptance and adoption of the
+NSU Tokens.
+Risk of losing access to NSU Tokens due to loss of private key(s), custodial error or purchaser
+error.
+A private key, or a combination of private keys, may be deemed a necessary element to control
+and, negotiate NSU Tokens stored in your digital wallet or vault. Accordingly, loss of requisite
+private key(s) associated with your digital wallet or vault storing NSU Tokens will result in loss of
+such  Progressive  Coins.  Moreover,  any third party that gains access to such private key(s),
+including by gaining access to login credentials of a digital wallet or vault service you use, may be
+able to misappropriate your NSU Tokens. Any errors or malfunctions caused by or otherwise
+related to the digital wallet or vault you choose to receive and store NSU Tokens, including your
+own failure to properly maintain or use such digital wallet or vault, may also result in the loss of
+your NSU Tokens. Additionally, your failure to follow precisely the procedures specifically set forth
+for buying and receiving, or negotiating NSU Tokens, including, for instance, providing the wrong
+address for receiving NSU Tokens, may result in the loss of your NSU Tokens.
+Risk of hacking and security weaknesses.
+Hackers or other malicious groups or organizations may attempt to interfere with the NSU Tokens
+in a variety of ways, including, but not limited to, malware attacks, denial of service attacks,
+consensus-based attacks, Sybil attacks, smurfing and spoofing. Furthermore, there is a risk that a
+third  party  or  a  member of the NousLtd team may intentionally or unintentionally introduce
+weaknesses into the core infrastructure of the NSU Tokens, which could negatively affect the NSU
+Tokens, including NSU Tokens’ utility for obtaining services. The NSU Tokens and any related
+blockchain platforms, as well as NousLtd’s technological platforms, may be the target of malicious
+cyber attacks or may contain exploitable flaws in its underlying code (such as distributed denial of
+service attacks, double-spend attacks, 51% attacks, or other malicious attacks), which may result
+in security breaches and the loss or theft of NSU Tokens. If cybersecurity is compromised or if the
+NSU Tokens and related platforms are subjected to attacks that frustrate or thwart its customers’
+DRAFT MAY 20, 2018                                                                                      40
+
+
+
+
+ability to access or use their tokens, the purchasers of NSU Tokens may suffer losses in value or
+otherwise be materially adversely affected. On February 7, 2014, MtGox (a bitcoin exchange based
+in Japan) halted all bitcoin transactions and withdrawals due to the disappearance of hundreds of
+thousands of customer- and MtGox-owned bitcoins.  All trading was suspended two weeks later 8
+following an internal investigation that pegged the loss at 744,408 bitcoins.  According to Mark 9
+Karpeles, CEO of MtGox, MtGox was susceptible to theft because of a “defect or ‘bug’ in the bitcoin
+software algorithm, which was exploited by one or more persons who had ‘hacked’ the bitcoin
+network.” 0 Ultimately, customer losses totaled nearly 750,000 bitcoins, while MtGox losses were 1
+approximately  100,000  bitcoins. At the time, this represented approximately  $473  million and
+nearly 7% of the bitcoins then in existence. 1 MtGox filed for bankruptcy protection in Japan on 1
+February 28, 2014. Following a proposed class action suit by traders alleging fraud against MtGox,
+the company sought recognition of the Japanese proceeding in U.S. bankruptcy court on March 9,
+2014. 2 The Japanese proceeding converted to liquidation in April 2014. Another substantial theft 1
+of  crypto-currency  funds  occurred  in                                                                    2016   in  connection  with  the  TGE  of  The  DAO,  an
+unincorporated organization that was intended as a first generation “Decentralized Autonomous
+Organization.” In exchange for ETH, participants received DAO Tokens, representing ownership
+interests  and  voting  rights  in  The  DAO.  The  holders  of DAO Tokens stood to share in the
+anticipated  earnings  from these projects as a return on their investment in DAO Tokens by
+re-selling the tokens on a number of different webbased platforms that supported secondary
+trading in the DAO Tokens. DAO founders envisioned projects and earnings distributions would be
+voted upon by all DAO Token holders, and that project proposals would be embodied in Ethereum
+blockchain  contracts.  DAO  Token  holders  could  exercise  their  voting  rights  by  choosing to
+distribute earnings from prior projects back to DAO Token holders, or to reinvest those earnings on
+new project proposals submitted for voting. Approximately 1.15 billion DAO Tokens were sold for
+approximately 12 million ETH from April 30, 2016, to May 28, 2016. Approximately $150 million
+USD was raised in the offering. On June 17, 2016, after the offering period ended, an unknown
+party exploited a software security vulnerability in The DAO and diverted 3.6 million ETH (worth
+approximately $45 million, and representing one third of the ETH raised by The DAO offering). In
+response, Slock.it’s cofounders (associated with the founding of The DAO) proposed a “Hard Fork”
+protocol (a process whereby the path of the blockchain is split, invalidating transactions confirmed
+by the nodes that have not been upgraded to the new version of the protocol software) to the
+Ethereum blockchain to restore DAO Token holders’ investments. On July  20,  2016, following
+implementation of the “Hard Fork” protocol updates, all funds raised in the offering, including those
+stolen, were transferred to a recovery address, where DAO Token holders could exchange their
+DAO Tokens for ETH. Other initial coin offerings have been compromised by attacks. On July 17,
+2017, $7 million in ETH was stolen from purchasers trying to participate in social-trading startup
+CoinDash’s initial coin offering. 3 Later that week, a well-known Ethereum wallet was hacked as 1
+8 See D eclaration of Robert Marie Mark Karpeles, In re MtGox Co., Ltd​. (a/k/a MtGox KK), No. 14-31229
+(Bankr. N.D. Tex. Mar. 3, 2014) [Docket No. 3], at 4.
+9 Id.
+10 Id.
+11 Id.
+12 See T om Hals, “Mt. Gox Files U.S. Bankruptcy, Opponents Call It a Ruse,” Reuters.Com, March 10, 2014,
+available at h ttps://www.reuters.com/article/us-bitcoin-mtgox-bankruptcy-idUSBREA290WU20140310.
+13 See A lexandria Arnold, “CoinDash Says Hacker Stole $7 Million at Initial Coin Offering,”
+Bloomberg.com, July 17, 2017, a vailable at
+https://www.bloomberg.com/news/articles/2017-07-17/coindash-says-hacker-stole-7-million-at-initialcoi
+n-offering.
+DRAFT MAY 20, 2018                                                                                          41
+
+
+
+
+well: on July 19, 2017, approximately 153,000 ether tokens worth roughly $32 million were stolen
+14
+by hackers exploiting security vulnerabilities in Parity’s digital wallet.
+Risk of uninsured losses.
+Unlike bank accounts or accounts at some other financial institutions, NSU Tokens are uninsured
+unless the purchaser is able to specifically obtain private insurance to insure them. Thus, in the
+event of loss or loss of utility value, there is no public insurer, such as the Federal Deposit
+Insurance Corporation, or private insurance arranged by us, to offer recourse to you.
+Risks arising from taxation.
+The tax characterization of NSU Tokens is uncertain. You must seek your own tax advice in
+connection with purchasing NSU Tokens, which may result in adverse tax consequences to you,
+including withholding taxes, income taxes and tax reporting requirements.
+14 See Luke Graham, “$32 Million Worth of Digital Currency Ether Stolen by Hackers,” CNBC.com, July
+20, 2017, a vailable at
+https://www.cnbc.com/2017/07/20/32-million-worth-of-digital-currency-ether-stolen-by-hackers.html
+DRAFT MAY 20, 2018                                                                                    42
+
+
+
+
+20. Conclusion
+We believe that blockchain technologies will become a part of our everyday lives: every day we find
+more things mentioned in the media, that various companies have successfully implemented pilot
+crypto projects and are ready to launch. In the near future, we believe developments in blockchain
+technology will unlock opportunities to allow anyone to access and benefit from segments of the
+economy and industry that until now were available only to the large institutional players and big
+corporations.
+We are confident that the Nousprotocol will be a key player to opening free investment in any
+managed tokenized asset and that our technology will allow investors to acquire completely new
+types of assets, such as solar energy, digital real estate, mining farms, game artifacts, futures and
+much more.
+We also anticipate that private or governmental organizations would utilize our Nousprotocol and
+platform to create pension funds that will be transparent, simple and understandable to the public.
+Do you have more questions? Contact us or join any of our communities
+Website: https://nousplatform.com
+Telegram: https://t.me/nousplatformEng
+Facebook: https://www.facebook.com/nousplatform
+Twitter: https://twitter.com/nousplatform
+Blog: https://medium.com/@nousplatform
+Github: https://github.com/nousplatform
+DRAFT MAY 20, 2018                                                                                      43
+
+
+
+
+

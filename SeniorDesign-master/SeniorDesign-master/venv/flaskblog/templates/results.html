@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+{% block content %}
+    <!--<div class="content-section">-->
+        <!--<h1>Results Page</h1>-->
+    <!--</div>-->
+
+    <article class="media content-section">
+      <div class="media-body">
+        <h2><a class="article-title" href="#">Results</a></h2>
+          <p></p>
+          <table class="table">
+              <tr>
+                  <td>Accuracy: </td>
+                  <td>{{ termFreqAcc }}</td>
+                  <td>{{ vocabAcc }}</td>
+              </tr>
+              <tr>
+                  <th></th>
+                  <th> Term Frequency </th>
+                  <th> Vocab Frequency  </th>
+              </tr>
+                {% for num in ran %}
+                    <tr>
+                        <td> {{ names[num] }}</td>
+                        {% if regResult[num][0] > regResult[num][1] %}
+                            <td style="width:150px"> Not Scam: {{ regResult[num][0] }}</td>
+                        {% else %}
+                            <td> Scam: {{ regResult[num][1] }}</td>
+                        {% endif %}
+
+                        {% if regResult is not none %}
+                            {% if result[num][0] > result[num][1] %}
+                            <td> Not Scam: {{ result[num][0] }}</td>
+                            {% else %}
+                            <td> Scam: {{ result[num][1] }}</td>
+                            {% endif %}
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+          </table>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <h2><a class="article-title" href="#">Topics</a></h2>
+          <p></p>
+          <table class="table">
+                {% for topic in topics %}
+                    <tr>
+                        <td>{{ topic }}</td>
+                    </tr>
+                {% endfor %}
+          </table>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <h2><a class="article-title" href="#">Scam Topics</a></h2>
+          <p></p>
+          <table class="table">
+                {% for topic in topicsScam %}
+                    <tr>
+                        <td>{{ topic }}</td>
+                    </tr>
+                {% endfor %}
+          </table>
+      </div>
+    </article>
+
+
+{% endblock content %}

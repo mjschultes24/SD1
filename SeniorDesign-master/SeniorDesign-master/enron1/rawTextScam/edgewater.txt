@@ -1,0 +1,1649 @@
+﻿Institutional Digital Asset Trading Platform
+White Paper
+Version 1.8.2
+January 2019
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+LEGAL NOTICES AND DISCLAIMERS
+IMPORTANT NOTICE
+THIS  WHITEPAPER  SETS  FORTH  THE  DESCRIPTION  OF  THE  PLANNED  “COMPANY”  AND  “PROPRIETARY  PLATFORM”.  THIS
+WHITEPAPER IS BEING PROVIDED FOR INFORMATIONAL PURPOSES ONLY.   THIS WHITEPAPER IS NOT A BINDING LEGAL
+AGREEMENT OR DOCUMENT OF A SIMILAR NATURE.   THE EDGEWATER SECURITY TOKEN GENERATION EVENT SHALL BE
+GOVERNED BY A SEPARATE LEGAL AGREEMENT “TERMS AND CONDITIONS” AND WILL BE MORE FULLY DESCRIBED IN A
+PRIVATE PLACEMENT MEMORANDUM AVAILABLE FROM THE COMPANY.   IN THE EVENT OF A CONFLICT BETWEEN THE
+“TERMS AND CONDITIONS” DOCUMENT AND THIS WHITEPAPER, THE TERMS AND CONDITIONS DOCUMENT SHALL GOVERN.
+EDGEWATER DIGITAL TECHNOLOGIES INCORPORATED, INCORPORATED UNDER THE LAWS OF DELAWARE IN THE UNITED STATES (THE “PLATFORM
+OPERATOR” AND THE “COMPANY”) PLANS TO ISSUE PREFERRED STOCK WHICH THE COMPANY INTENDS TO BE IN THE FORM OF DIGITAL SECURITY
+TOKENS OR UNCERTIFICATED SHARES (“SECURITY TOKENS” AND “THE SHARES”). THESE STATEMENTS AND DISCLOSURES ARE NOT INTENDED TO
+CONVEY THAT POTENTIAL PURCHASERS WILL BE ABLE TO AVAIL THEMSELVES OF ANY PROTECTIONS UNDER SECURITIES LAWS INCLUDING THE UNITED
+STATES SECURITIES ACT OF 1933, AS AMENDED (THE “SECURITIES ACT”), THE UNITED STATES INVESTMENT COMPANY ACT OF 1940, AS AMENDED,
+OR THE BLUE SKY LAWS OF ANY STATE OF THE UNITED STATES.
+THE SHARES HAVE NOT BEEN, AND WILL NOT BE, REGISTERED UNDER THE SECURITIES ACT AND MAY NOT BE OFFERED OR SOLD WITHIN THE UNITED
+STATES OR TO, OR FOR THE ACCOUNT OR BENEFIT OF, U.S. PERSONS EXCEPT PURSUANT TO AN EXEMPTION FROM, OR IN A TRANSACTION NOT
+SUBJECT TO, THE REGISTRATION REQUIREMENT OF THE SECURITIES ACT. ACCORDINGLY, (A) THE SHARES WILL ONLY BE OFFERED AND SOLD ONLY
+TO POTENTIAL PURCHASERS WHO ARE (1) “ACCREDITED INVESTORS” (AS DEFINED IN RULE 501 OF REGULATION D UNDER THE SECURITIES ACT) IN
+COMPLIANCE WITH RULE 506(C) OF REGULATION D UNDER THE SECURITIES ACT AND (2) OUTSIDE THE UNITED STATES TO PERSONS OTHER THAN
+“U.S. PERSONS” (AS DEFINED IN REGULATION S UNDER THE SECURITIES ACT) IN RELIANCE UPON REGULATION S UNDER THE SECURITIES ACT.
+ACCORDINGLY, THIS WHITEPAPER IS FURNISHED ON A CONFIDENTIAL BASIS TO, AND THE SHARES ARE BEING OFFERED IN THE UNITED STATES ONLY
+TO, ACCREDITED INVESTORS AS DEFINED UNDER REGULATION D UNDER THE SECURITIES ACT. THE SHARES MAY NOT BE TRANSFERRED EXCEPT IN
+ACCORDANCE WITH THE TRANSFER RESTRICTIONS DESCRIBED UNDER "NOTICE TO PURCHASERS" ON APPENDIX C OF THIS WHITEPAPER.
+NONE OF THE SECURITIES AND EXCHANGE COMMISSION (THE “SEC”), ANY STATE SECURITIES COMMISSION, ANY OTHER FOREIGN SECURITIES
+AUTHORITY OR ANY OTHER FEDERAL, STATE OR FOREIGN REGULATORY AUTHORITY HAS APPROVED OR DISAPPROVED OF THESE SECURITY TOKENS
+OR DETERMINED IF THIS WHITEPAPER IS TRUTHFUL OR COMPLETE. ANY REPRESENTATION TO THE CONTRARY IS UNLAWFUL AND MAY BE A CRIMINAL
+OFFENSE.
+THIS WHITEPAPER DOES NOT CONSTITUTE ADVICE NOR A RECOMMENDATION BY THE COMPANY OR THEIR RESPECTIVE
+DIRECTORS, OFFICERS, MANAGERS, EMPLOYEES, AGENTS, ADVISORS OR CONSULTANTS, OR ANY OTHER PERSON TO ANY
+READER OF THIS WHITEPAPER AS TO THE PARTICIPATION IN THE EQUITY OFFERING EVENT (THE “OFFERING”).
+INVESTING IN SECURITY TOKENS INVOLVES A HIGH DEGREE OF RISK. YOU SHOULD CAREFULLY CONSIDER THE RISKS SUMMARIZED IN APPENDIX B OF
+THIS WHITEPAPER FOR A DISCUSSION OF IMPORTANT FACTORS YOU SHOULD CONSIDER BEFORE PURCHASING THE SHARES. APPENDIX B OF THIS
+WHITEPAPER DOES NOT NECESSARILY IDENTIFY, OR CLAIM TO IDENTIFY, ALL THE RISK FACTORS CONNECTED WITH THE SHARES. ALL THE
+PARTICIPANTS MUST MAKE THEIR OWN INDEPENDENT EVALUATION, AFTER MAKING SUCH INVESTIGATIONS AS THEY CONSIDER ESSENTIAL, OF THE
+MERITS OF PARTICIPATION. PRINCIPAL INVESTORS SHOULD CHECK WITH AND RELY UPON THEIR OWN INVESTMENT, ACCOUNTING, LEGAL AND TAX
+REPRESENTATIVES AND CONSULTANTS AS SUCH MATTERS CONCERNING COMPANY AND ASSESS SEPARATELY THE FINANCIAL RISKS, CONSEQUENCES
+AND APPROPRIATENESS OF SUCH PARTICIPATION, OR IF IN ANY DOUBT ABOUT THE FACTS OF THIS WHITE PAPER. PARTICIPATION IN THE COMPANY’S
+OFFERING HOLDS CONSIDERABLE RISK AND MIGHT INVOLVE EXTRAORDINARY RISKS THAT MAY PERHAPS LEAD TO A LOSS OF ALL OR A SIGNIFICANT
+PORTION OF SUCH PARTICIPATION, UNLESS THE PARTICIPANTS COMPLETELY UNDERSTAND, BE AWARE OF AND ACCEPT THE CHARACTERISTICS OF THE
+SHARES AND THE POSSIBLE RISKS INHERENT TO THE COMPANY, THEY SHOULD NOT PARTICIPATE. EACH PARTICIPANT IS SOLELY RESPONSIBLE FOR
+ENSURING THAT ALL CHARACTERISTICS OF THE COMPANY AND THE SHARES ARE SATISFACTORY TO THEM. THERE CAN BE NO GUARANTEE THAT THE
+COMPANY’S BUSINESS PURPOSE WILL BE ACHIEVED AND PARTICIPATION CONSEQUENCES MAY DIFFER CONSIDERABLY OVER TIME. ALL THE
+PARTICIPANTS WITH AWARENESS SHOULD THINK ABOUT WHETHER A PROPRIETARY PLATFORM IS SUITABLE FOR THEM, THEIR CIRCUMSTANCES AND
+FINANCIAL RESOURCES.
+CONSULT YOUR LEGAL ADVISOR BEFORE TAKING ANY ACTION IN CONNECTION, IN RESULT OF, OR IN RELIANCE UPON ANY INFORMATION CONTAINED
+WITHIN THIS WHITEPAPER. SOME INFORMATION CONTAINED HEREIN IS IN THE FORM OF CIRCUMSTANTIAL EXAMPLES, THEORETICAL SITUATIONS, AND
+pg. 1
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+IDEALISTIC SCENARIOS THEREFORE ALL PERSONS VIEWING THIS WHITEPAPER ARE INFORMED THAT MANY OR ALL OF THESE EXAMPLES, SITUATIONS,
+AND SCENARIOS MAY NOT OCCUR IN THE MANNER IN WHICH THEY HAVE BEEN DESCRIBED. THIS WHITEPAPER WAS WRITTEN WITH A STYLISTIC
+APPROACH, FOCUSING ON READABILITY; IT ALSO MAKES USE OF LANGUAGE USED IN THE PRESENT TENSE. THIS WAS INTENDED FOR READABILITY AND
+ENJOYMENT AND SHOULD NOT BE CONSTRUED AS A PROMISE, OBLIGATION OR ANY FORM OF REPRESENTATION OR COMMITMENT. THIS WHITEPAPER
+WAS NOT INTENDED TO REPRESENT THE COMPANY OR ANY RELATED PARTIES OR THE SHARES AND ALL READERS OF THIS WHITEPAPER WHO WILL
+OR INTEND TO ENGAGE IN ANY DIRECT OR INDIRECT ACTIONS INVOLVED WITH CONTRIBUTING TO THE COMPANY AND RECEIVING SECURITY TOKENS,
+OR PURCHASING THE SHARES  (“POTENTIAL PURCHASERS” AND  “PURCHASERS”) ARE HEREBY ADVISED TO READ CAREFULLY, COMPLETELY
+UNDERSTAND AND AGREE TO THE TERMS & CONDITIONS DOCUMENT BEFORE CONSIDERING ANY ACTIONS. POTENTIAL PURCHASERS SHOULD PLACE
+NO RELIANCE UPON THIS WHITEPAPER FOR ANY INFORMATION REGARDING THE SHARES. POTENTIAL PURCHASERS ARE WARNED THAT NONE OF THE
+INFORMATION PROVIDED IN THIS WHITEPAPER SHOULD BE USED IN WHOLE OR IN PART TO MAKE THEIR DECISION TO CONTRIBUTE OR PURCHASE THE
+SHARES AS IT WAS WRITTEN IN A DESCRIPTIVE NATURE AND MAY CHANGE.
+CERTAIN ECONOMIC, MARKET AND OTHER HISTORIC INFORMATION CONTAINED HEREIN HAS BEEN OBTAINED FROM PUBLISHED SOURCES PREPARED
+BY OTHER PARTIES. CERTAIN OF THE ESTIMATES CONTAINED HEREIN ARE SUBJECT TO CHANGE AND ARE UNCERTAIN DUE TO LIMITS ON THE
+AVAILABILITY AND RELIABILITY OF PRIMARY SOURCES OF INFORMATION AND THE VOLUNTARY NATURE OF THE DATA GATHERING PROCESS. AS A RESULT,
+PROSPECTIVE PURCHASERS SHOULD BE AWARE THAT CERTAIN OF THE DATA CONTAINED HEREIN, AND ESTIMATES AND BELIEFS BASED ON THAT DATA,
+MAY NOT BE RELIABLE. ALTHOUGH THE COMPANY BELIEVES THE SOURCES REFERRED TO HEREIN ARE RELIABLE, NONE OF THE COMPANY OR ITS
+AFFILIATES HAS INDEPENDENTLY VERIFIED SUCH INFORMATION AND CANNOT GUARANTEE ITS ACCURACY OR COMPLETENESS.
+RESTRICTIONS ON DISTRIBUTION AND DISSEMINATION
+THE DISTRIBUTION OR DISSEMINATION OF THE WHITEPAPER OR ANY PART THEREOF MAY BE PROHIBITED OR RESTRICTED BY THE LAWS, REGULATORY
+REQUIREMENTS AND RULES OF ANY JURISDICTION. IN THE CASE WHERE ANY RESTRICTION APPLIES, YOU ARE TO INFORM YOURSELF ABOUT, AND TO
+OBSERVE, ANY RESTRICTIONS WHICH ARE APPLICABLE TO YOUR POSSESSION OF THE WHITEPAPER OR SUCH PART THEREOF (AS THE CASE MAY BE)
+AT YOUR OWN EXPENSE AND WITHOUT LIABILITY TO THE COMPANY. PERSONS TO WHOM A COPY OF THE WHITEPAPER HAS BEEN DISTRIBUTED OR
+DISSEMINATED, PROVIDED ACCESS TO OR WHO OTHERWISE HAVE THE WHITEPAPER IN THEIR POSSESSION SHALL NOT CIRCULATE IT TO ANY OTHER
+PERSONS, REPRODUCE OR OTHERWISE DISTRIBUTE THE WHITEPAPER OR ANY INFORMATION CONTAINED HEREIN FOR ANY PURPOSE WHATSOEVER NOR
+PERMIT OR CAUSE THE SAME TO OCCUR.
+NO OFFER OF SECURITIES OR REGISTRATION
+THE WHITEPAPER DOES NOT CONSTITUTE A PROSPECTUS OR OFFER DOCUMENT OF ANY SORT AND IS NOT INTENDED TO CONSTITUTE AN OFFER OF
+SECURITIES OR A SOLICITATION FOR INVESTMENT IN SECURITIES IN ANY JURISDICTION. NO PERSON IS BOUND TO ENTER INTO ANY CONTRACT OR
+BINDING LEGAL COMMITMENT AND NO CRYPTOCURRENCY OR OTHER FORM OF PAYMENT IS TO BE ACCEPTED ON THE BASIS OF THE WHITEPAPER. ANY
+AGREEMENT IN RELATION TO THE COMPANY’S PROPRIETARY PLATFORM (AS REFERRED TO IN THE WHITEPAPER) IS TO BE GOVERNED BY ONLY THE
+TERMS AND CONDITIONS OF SUCH AGREEMENT AND NO OTHER DOCUMENT. IN THE EVENT OF ANY INCONSISTENCIES BETWEEN THE TERMS AND
+CONDITIONS AND THE WHITEPAPER, THE FORMER SHALL PREVAIL.
+RESTRICTIONS
+THE WHITEPAPER DOES NOT MAKE YOU ELIGIBLE TO ENGAGE THE COMPANY REGARDLESS OF CITIZENSHIP, RESIDENCY OR COUNTRY OF ORIGIN. NO
+REGULATORY AUTHORITY HAS EXAMINED OR APPROVED OF ANY OF THE INFORMATION SET OUT IN THE WHITEPAPER. NO SUCH ACTION HAS BEEN OR
+WILL BE TAKEN UNDER THE LAWS, REGULATORY REQUIREMENTS OR RULES OF ANY JURISDICTION. THE PUBLICATION, DISTRIBUTION OR DISSEMINATION
+OF THE WHITEPAPER DOES NOT IMPLY THAT THE APPLICABLE LAWS, REGULATORY REQUIREMENTS OR RULES HAVE BEEN COMPLIED WITH.
+RESPONSES TO TORTUROUS INTERFERENCE, REGULATION, ENFORCEMENT & OTHER UNFORESEEN CIRCUMSTANCES
+THE WORLD OF CRYPTOCURRENCY IS CERTAINLY REACTIONARY AND OFTEN UNPREDICTABLE. IN THE CASE THAT THE COMPANY IS PRESENTED WITH
+A SITUATION OR CIRCUMSTANCE THAT WILL MAKE THE PROJECT CEASE OPERATIONS OR BECOME IMPRACTICABLE, THE COMPANY WILL SEEK THE
+OPPORTUNITY TO PIVOT INTO A NEW DIRECTION WITHOUT THE ADVICE, CONSULTATION OR INPUT OF THE PURCHASERS OR THE PUBLIC IN GENERAL.
+pg. 2
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+TABLE OF CONTENTS
+ABSTRACT … 4
+INTRODUCTION … 5
+SOLUTION … 8
+PRODUCT … 12
+REVENUE GENERATION MODEL … 22
+ROADMAP | PLAN OVERVIEW … 23
+EDGEWATER TEAM … 24
+SECURITY TOKEN OFFERING … 29
+USE OF PROCEEDS… 30
+APPENDICES
+A. GLOSSARY
+B. RISK FACTORS
+C. NOTICE TO PURCHASERS
+pg. 3
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+ABSTRACT
+Currently, the market landscape for trading digital assets is disjointed and riddled with latency
+and inefficiencies. This dynamic is a constant frustration for participants.  For professional money
+managers   to confidently enter the virtual currency space, accessing digital asset liquidity
+needs to be simplified, highly secure and compliant.
+Leveraging the proprietary technology, business processes and institutional trading expertise of
+Edgewater Markets LLC and utilizing our team’s decades of experience in currency trading,
+technology and global financial services management, The Company is building a best-in-class
+institutional digital asset trading platform to meet the requirements of professional money
+managers and traders globally.
+Edgewater Digital Technologies is leveraging the blueprint of Edgewater Markets successful fiat
+currency trading business to develop trading efficiencies, increase transparency and reduce
+execution costs in the digital asset markets. Edgewater Markets’ existing global network with data
+centers in New York, London, Tokyo and Mexico City provides secure, low latency connectivity
+for hundreds of fiat customers and liquidity providers in over 50 countries globally.   Modifying
+Edgewater’s existing electronic trading infrastructure and developing innovations tailored to the
+digital asset markets will accelerate institutional participation.
+Time-tested business processes and institutional currency trading expertise will enable the
+Edgewater team to create a best-in-class digital asset trading platform to meet the requirements
+and expectations of institutional investors.  With  offices  in  New  York,  London,  Chicago,
+Singapore, Mexico City and Santiago, Chile, we believe Edgewater’s trading infrastructure and
+existing institutional customer base will play a significant role in the growth of the digital asset
+class and is uniquely positioned to solve the issues faced by institutional traders and investors.
+Edgewater Digital Technologies, formed January 16, 2019, is a corporation incorporated under the
+laws of Delaware in the United States.  The Company was created to implement the business
+strategy outlined in this Whitepaper and develop the technology supporting the strategy.  The
+Company is pre-revenue and has no operating history.
+Unless the context suggests otherwise, as used herein, “we”, “us”, “our” and similar terms refer to
+the Company, the Platform Operator and Edgewater collectively.
+pg. 4
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+INTRODUCTION
+Digital asset trading began with the launch of Bitcoin in 2009. In less than 10 years, the digital asset
+market has grown to over $100 billion total market cap, with over 100 individual digital assets each
+valued at over $30 million1.  It has been estimated that the cryptocurrency market could reach $10
+trillion total market cap or more over the next 10 years2 as the disruptive potential of blockchain
+technology attracts institutional investors globally.
+As of April 2018, there are over 250 digital asset hedge funds with $3.5 billion to $5 billion in assets
+under management3.  Industry leaders anticipate more than 1000 hedge funds will get involved, as
+asset managers seek exposure to cryptocurrencies.   As further evidence of institutional demand,
+Thomson Reuters published a survey of their trading clients in April 20184 and found that “over 20
+percent of the survey participants are actively investigating launching a cryptocurrency trading
+function within the next three to six months.”
+We believe the proliferation and growth of digital assets presents an opportunity similar to the
+evolution of the fiat currency market. The introduction of aggregation technology in the past 15 years
+has made fiat currency markets dramatically more efficient with global average daily volume (ADV)
+of over $5 trillion5.  In the past 10 years, deployment of innovative technology, the growth of non-
+traditional tech-agile trading firms such as Edgewater Markets and simplified credit and settlement
+has reduced fiat liquidity fragmentation, resulting in greater price discovery for traders and has
+accelerated trading volume growth.
+The rapid expansion of cryptocurrency markets with increasing institutional interest comes with its
+own set of challenges. The infrastructure required to support institutional investor access to the
+digital asset market is in the early stages of being established. There have been some important
+developments, including the launch of futures contracts (CME and CBOE) and the establishment
+of numerous exchanges and OTC desks that support cryptocurrency trading.   However, moving
+traditional financial institutions from the sidelines will require a more efficient trading and investing
+ecosystem before they are comfortable incorporating digital assets into their portfolios.
+1 CoinMarketCap.com (January 2019)
+2 www.newsbtc.com: Pfeffer Capital Investor: Bitcoin to Replace Gold While Market Cap Could Be Worth $6 Trillion (April 26, 2018),
+www.ccn.com: $40 Trillion Cryptocurrency Market Cap ‘Definitely Possible’: Pantera Capital CEO (April 26, 2018)
+3 Autonomous NEXT (April 2018)
+4 Thomson Reuters 2018 Trading Client Cryptocurrency Survey (April 2018)
+5 Triennial Central Bank Survey of foreign exchange and OTC derivatives markets in 2016 (updated December 11, 2016)
+pg. 5
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+CURRENT INSTITUTIONAL BARRIERS
+EXCHANGE ACCESS:
+There are presently over 100 crypto exchanges6 and new entities are entering the space rapidly.
+There is little consistency across exchanges7 and coin/token availability varies from exchange to
+exchange, different exchanges quote different rates for the same coin/token and transaction costs
+and execution confirmation times vary greatly. Setting up multiple accounts to trade across different
+digital assets is complex and time consuming. Further, resolving security gaps and moving towards
+fully integrated pre-trade credit confirmation, with secure settlement and custody is requisite for
+maintaining institutional operational best practices. Institutional investors must have confidence in
+the end-to-end solution in order to adhere to their due diligence and fiduciary compliance
+responsibilities.
+FRAGMENTATION:
+Similar to the fiat currency market, the cryptocurrency market is highly fragmented with market
+participants located in de-centralized locations around the world.  Latency in execution and
+confirmation is a serious issue, especially when attempting to execute large buy/sell orders across
+multiple crypto exchanges. Providing access to this multi-plex, distributed   marketplace with
+minimal latency requires a sophisticated, secure and reliable global network that is available 24x7.
+DEPTH OF LIQUIDITY:
+Large institutional investors with sizable orders can significantly affect prices on any individual
+exchange, increasing volatility and resulting in order execution slippage. For example, in June
+2017 a flash crash occurred in GDAX when Ethereum prices fell more than 95% due to a single
+large trade8. This problem does not exist to the same extent for fiat currencies and other asset
+classes. The digital asset market presently lacks a global centralized order book with transparent
+prices which would help facilitate the higher volume trading that institutional investors require.
+TRANSPARENCY:
+Market data is a critical component of institutional investors’ trading systems. It is considered the
+life blood of any financial ecosystem. The digital asset market suffers from a lack of reliable and
+timely data that would give institutional investors a basis to analyze, invest in and trade the
+burgeoning market.
+6 CoinMarketCap.com (April 2018)
+7 Bitcoin Wiki (https://en.bitcoin.it/wiki)
+8 https://www.cnbc.com/2017/06/22/ethereum-price-crash-10-cents-gdax-exchange-after-multimillion-dollar-trade.html (published 4:05 AM
+ET Thu, 22 June 2017   | Updated 11:30 AM ET Fri, 23 June 2017)
+pg. 6
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+EXECUTION COSTS:
+Costs are not uniform across exchanges and market makers.   Trading commissions (exchange
+and OTC fees) alone can vary from 0.1% to over 4%9.   Total execution cost, which includes the
+cost of the bid/ask spread and slippage, is highly variable. There is presently no platform that
+efficiently processes orders from a global consolidated order book across multiple exchanges and
+OTC desks.  Moreover, calculating the total cost of execution prior to choosing execution venues
+is important to facilitate best execution required by institutional investors.
+9 COINPARATOR.com (April 2018)
+pg. 7
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+THE EDGEWATER SOLUTION
+Edgewater Markets currently provides institutional currency managers and traders a robust,
+secure, and scalable platform to consume fragmented market data for trading fiat currencies in
+large size efficiently. Edgewater Market’s battle-tested, proprietary technology has been serving
+institutional customers for over 10 years and is uniquely positioned to solve the issues faced by
+institutional money managers and traders in the digital asset space.
+Edgewater’s proprietary trading technology helps customers improve price discovery and reduce
+the cost of trading. Edgewater’s global network with data centers located in Asia, Europe and the
+Americas provides secure, low latency connectivity for hundreds of customers and liquidity
+providers in over 50 developed and emerging market countries.
+Edgewater has been developing its infrastructure and proprietary technology to design a global
+trading network for digital assets. Established business processes and institutional trading expertise
+will enable the Edgewater team to deliver a best-in-class platform to meet the requirements and
+expectations of professional money managers and traders who are investing in the cryptocurrency
+ecosystem. We believe Edgewater’s electronic trading infrastructure will play a significant role in
+the maturation and growth of the digital asset class.
+Institutional Trading Expertise
+Edgewater understands the requirements of institutional investors.  Professional money managers
+and traders have critical requirements, including efficient execution of trading strategies (“Best
+Execution”), secure and compliant business processes (“Security and Compliance”) and immediate
+customer  service                                                                                                                            (“Accessibility  and  Responsiveness”).    Edgewater  is  leveraging  its  deep
+understanding of these institutional requirements to develop a best-in-class digital asset trading
+service.
+Best Execution
+Edgewater Digital is developing a web-based trading platform, Crypto Prime Trader™ (CPT™), that
+provides fast and efficient execution supported by low latency access to crypto exchanges globally.
+The Platform Operator will provide a consolidated order book of tradable prices for major digital
+assets.   CPT includes easy to use order functionality, advanced analytics, charting, trading
+algorithms, position and P&L monitoring.   In addition, mobile access and post-trade integration to
+back-office systems will be provided.
+To achieve this, the Platform Operator is developing the next version of Edgewater’s Vision
+System™ for digital assets.   The Platform Operator is developing its Vision Rate Engine™ and
+pg. 8
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Vision Smart Order Router™ presently utilized by institutional fiat currency traders to deploy a digital
+asset trading engine that is designed for fast, efficient execution of large orders across multiple
+exchanges.   To facilitate this, the Platform Operator is connecting its Vision Exchange Data
+Gateway™ via low latency connectivity to crypto exchanges worldwide.
+Security & Compliance
+Edgewater has undergone compliance and security reviews by major institutional investors
+continuously over the past                                                                                                                   10 years in order to comply with their regulatory and fiduciary
+responsibilities.   Edgewater Markets began business in 2009 during the global credit crisis, when
+the Lehman Brothers failure, AIG bailout and Madoff scandal were rippling through the markets.
+Throughout that period and after, Edgewater has navigated and adapted to evolving market
+conditions, newly adopted rules and regulations, including Dodd-Frank in the US and MIFID II in
+Europe, to continue providing uninterrupted service to its customers.
+In deploying its digital asset trading solution, the Platform Operator will utilize similar best-in-class
+security currently used to protect Edgewater’s infrastructure and assets.   Edgewater’s network
+security is comprised of hardware, software, policies and procedures that defend against all threats.
+Edgewater’s infrastructure is placed in highly secure data centers with hot back-up facilities that
+ensure business continuity. Edgewater’s connectivity employs highly secure digital connections,
+from the Vision Exchange Gateway through to the network endpoints.  The Platform Operator will
+employ the best available technology solutions to ensure the security of the system and customer
+trading.
+Being adept at understanding and adapting to changing market conditions, as well as technological
+and security advancements is critical to adapting to unforeseen circumstances and providing a
+sustainable  service.    In  addition,  understanding  and  adhering  to  operating  standards  and
+regulations remains a critical component of Edgewater’s success that will continue in the rapidly
+developing digital asset marketplace.  As such, the Platform Operator will employ relevant domain
+expertise and resources to manage compliance and ensure best practices in all aspects of its
+business.
+Accessibility and Responsiveness
+Professional traders require world class service with immediate accessibility to professional and
+informed support personnel.   This could be as simple as help with logging into the system, to
+confirming positions - and all steps in between.  Supporting institutional investors/traders requires
+a well-trained team that is available immediately by phone 24x7.
+Transparency, end-to-end confirmation, security and conforming to record keeping requirements
+are paramount. The systems and processes designed to support these requirements must be
+managed by knowledgeable staff who are readily available to customers.   The Platform Operator
+pg. 9
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+will establish a new standard for service with multi-lingual (including Japanese, Korean, Chinese,
+Spanish) institutional quality, live customer service that does not presently exist in the digital asset
+market.
+Business Processes
+Edgewater has built an organization, established procedures and developed relationships over
+many years that are critical components to providing sustainable quality service in a competitive,
+global marketplace.   This includes a network of customer, partner and vendor relationships
+managed by experienced market professionals around the world.
+To achieve operational excellence and to comply with regulatory requirements, the Edgewater team
+maintains, and the Platform Operator will benefit from, living documents with detailed operational
+procedures and business continuity plans, supported by extensive and ongoing staff training, to
+ensure continuing operations in all situations.
+Edgewater  employs  a                                                                                                                        “follow  the  sun”  model  where  operational  and  customer  service
+responsibilities are passed from time zone to time zone around the clock daily: New York >
+Singapore > London > New York.   This ensures that experienced, professional staff are available
+24 hours per day to monitor systems and provide immediate customer support. With expertise in
+technology, operations, compliance, marketing and sales, Edgewater intends to build out a
+successful digital asset trading product through the Platform Operator.
+Technology
+The Platform Operator’s next generation trading infrastructure along with innovations in the digital
+asset markets will accelerate the development of institutional participation.  Edgewater’s proprietary
+infrastructure provides aggregated currency rates from hundreds of liquidity providers globally via
+strategically located data centers across the Americas, Europe and Asia.
+Edgewater infrastructure provides advanced analytics, intelligent algorithmic trading capabilities,
+customer-specific liquidity provision, pre-trade credit confirmation and execution settings with low
+latency delivery to institutional investors globally.   Edgewater infrastructure includes a proprietary
+Rate Engine and Smart Order Router (SOR), central limit order book (CLOB), market data gateway,
+co-located infrastructure and low latency connectivity (based on FIX standards) in every region,
+supported by highly secure administrative tools and analytics.
+The Platform Operator is developing a web and mobile based trading platform Crypto Prime Trader
+(CPT) to provide investors and traders with access to crypto exchanges globally. CPT will provide
+customers with a consolidated order book - traders will have the best buy/sell rates available
+globally for all major crypto coins/tokens in the sizes that they require, improving price discovery
+and saving execution costs.  With mobile access, the Platform Operator’s customers will have the
+pg. 10
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+majority of crypto liquidity available in the palm of their hand.
+CPT will provide customers with simplified trading and execution transparency - from pre-trade cost
+analysis and credit confirmation, order entry to execution and confirmation, traders will see exactly
+where their order and assets are in real time.   An easy to use electronic trading interface with
+advanced order functionality, charting, trading algorithms, position monitoring, real time P&L and
+back-office integration puts the trader in control, supporting investors’ best execution requirement
+and fulfilling institutional regulatory and fiduciary responsibilities.
+pg. 11
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+PRODUCT
+The Company aims to create the pre-eminent digital asset trading platform to meet the requirements
+of institutional asset managers and traders globally.   Edgewater Markets, through the Platform
+Operator, is modifying its proprietary infrastructure and developing a web-based trading platform to
+meet the requirements of digital asset markets.  Edgewater will launch additional ancillary products
+as described below in phase two.
+Edgewater Vision Infrastructure
+Edgewater’s Vision System™ is comprised of five proprietary components: a) market and order
+data gateway (“Vision Exchange Gateway”™), b) rate engine and smart order router (“Vision Rate
+Engine and Vision SOR”™), c) central limit order book (“Vision CLOB”), d) web-based trading
+service  (“Crypto Prime Trader”™) and e) integration with the customer’s pre and post-trade
+solutions to meet institutional compliance and reporting requirements                                                                        (“Crypto Prime Trader
+Solutions”™).
+As a complete end-to-end institutional technology solution, Vision aggregates many liquidity
+sources (applying customer-specific credit and execution rules), distributes executable rates and
+advanced trading support tools while flexibly integrating with customers’ existing trading platforms,
+thereby enhancing price discovery to enable more efficient trading and cost savings for institutional
+investors/traders globally.   Vision provides our customers with clarity to efficiently realize market
+opportunities and receive best execution.
+Vision Architecture
+pg. 12
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Vision Exchange Gateway™
+Liquidity sources are in disparate locations globally, requiring advanced, distributed networking and
+low latency connectivity which will give customers an advantage in accessing exchange liquidity
+and executing trades.
+Edgewater has developed proprietary technology to aggregate market and order data utilizing
+industry standard FIX specifications deployed globally in data centers in every region (Tokyo,
+London, Mexico City and New York).   This allows Edgewater to locate as close as possible to
+exchange providers and customers, reducing latency in receiving pre-trade credit and market data
+as well as reducing time to execute orders.   To facilitate this, Edgewater has developed a
+standardized application programming interface to integrate with various exchanges (based on
+standard FIX API).  Wherever possible, co-located equipment and cross-connects are used within
+data centers to eliminate latency.   When connecting remotely, low latency data circuits (such as
+fiber or microwave where possible) or secure internet connections are utilized.   Market data is
+normalized, aggregated and fed into the Vision Rate Engine.
+Vision Exchange Gateway Eco-System
+Hardware: Each hop in signal propagation incurs latency due to issues such as amplification, packet
+routing, queuing, and security.  Our experience in fiat currency markets has led us to develop fast,
+pg. 13
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+reliable, and proven solutions that will be deployed in the digital asset market.
+Proximity: When possible, systems are co-located to minimize latency due to distance. As it's not
+economical to be co-located with every system, in such cases other low latency connectivity options
+will be deployed.
+Connectivity: Fiber optic and microwave are the obvious contenders for remote connectivity, each
+with cost/performance trade-offs.   Our deep experience with both options allows us to tactically
+deploy tailored solutions.
+Latency: Leveraging proximity with the integration of hardware and connectivity will minimize
+latencies (for example, 8.02 milliseconds from Aurora, IL (CME) to Secaucus, NJ (NYSE) and 67.39
+milliseconds from Chicago, IL to Frankfurt, Germany (EUREX).
+Vision Trading Engine
+The Vision Rate Engine, Smart Order Router (SOR) and Administrative Management System are
+the heart of the Vision infrastructure, reducing liquidity fragmentation, increasing trading efficiency
+and dramatically reducing executions costs.
+Vision Rate Engine and SOR
+With aggregated market data and pre-trade credit confirmation (PTCC), the proprietary Vision Rate
+Engine produces a consolidated order book for all major crypto coins/tokens, generating customer
+specific  executable  quotes.    The  Vision  SOR  routes  orders  based  on  customers’ unique
+requirements, incorporating credit availability, Exchange Cost Analysis (ECA™), market conditions
+and other customer-specific settings. The consolidated order book provides best bid/offer rates in
+various sizes for different execution settings for each customer.
+Vision is an advanced technology platform residing in a Linux environment with best-in-class
+functionality for facilitating data across open and proprietary protocols such as POSIX shared
+memory communication, fine-grained atomic operations, lockless concurrent data structures, kernel
+bypass, TCP/IP, multicast, binary communication.
+The Vision SOR executes trades at the best possible prices according to credit availability and the
+order parameters entered by the trader.   Trades are executed instantly, to avoid significant price
+changes due to market movement.  Vision Rate Engine and SOR conducts simultaneous automated
+checks on multiple market conditions and alerts traders to orders entered outside of pre-set bands,
+reducing the risk of errors in placing the trades.
+pg. 14
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Vision Application Development Framework
+Edgewater’s proprietary Vision System™
+is comprised of the Exchange Gateway, Rate
+Engine and Smart Order Router, Central
+Limit Order Book, Admin Mgmt System and
+trading platform, Crypto Prime Trader.
+Vision Exchange Gateway™ aggregates
+exchange data globally via low latency
+connectivity and normalizes market
+data to create a consolidated,
+global rate with depth of market
+across all major exchanges.
+Vision Rate Engine™ produces a custom
+consolidated order book for all
+major digital asset assets, generating
+automated rate quotes with
+intelligent algorithmic execution
+across multiple exchanges globally.
+Vision Central Limit Order Book
+matches crossing buy and sell orders
+whenever possible, minimizing market
+impact and saving execution costs.
+Crypto Prime Trader™ web-based
+trading platform provides advanced
+analytics, charting, intelligent trading
+algorithms, position monitoring,
+real-time P&L and mobile access.
+Crypto Mission Control™ provides fast,
+efficient access to pre-trade credit
+confirmation and admin functions
+enabling trading support and customer
+service to monitor performance and
+provide high quality, 24x7 live support.
+Administrative Management System (“Crypto Mission Control”™)
+“Crypto Mission Control” (CMC™) is an administration management system that provides fast,
+efficient access to all administrative functions of the Vision Rate Engine and SOR, enabling
+management, trading support and customer service staff to monitor performance, manage the rate
+engine algorithm and maintain system and customer settings.
+CMC facilitates important customer settings including PTCC, compliance, risk and liquidity
+management.   Trading management and customer service staff utilize ECA and MIS reports
+(management information system) to monitor performance and adjust according to market
+pg. 15
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+conditions to continuously improve client experience.
+Transparency is key to successful and sustainable trading relationships.  Real-time trade flows, with
+end-to-end time stamps, allows trading analysts to measure and manage execution quality and
+underpins transparency.   Market snapshots and an audit trail of customer settings enable staff to
+respond to customer service inquiries and troubleshoot trading questions/issues as they arise.
+Alerts on various priority metrics facilitate fast response times by the team.  Following is a summary
+of the major functions provided by CMC:
+Liquidity Management
+i.                                                                                                                                           Aggregation - client specific exchange pool incorporating PTCC
+ii.                                                                                                                                          Exchange Cost Analysis (fill ratio, slippage, latency - by digital asset, customer, etc)
+iii.   Ability to add/remove exchanges in real-time - by customer, by digital asset, by size
+iv. Automated Actions and Alerts - order time-outs and auto-cover
+v.  Execution settings to assist in the client receiving the best execution
+Customer settings
+i.                                                                                                                                           Permissions and controls - access, credit
+ii.                                                                                                                                          Execution settings - by exchange, crypto pair, trade size
+                                                                                                                                             iii.   Organization vs Trader Specific reporting
+                                                                                                                                             iv. Volume reports - time of day, median, standard deviation
+Management Reporting
+i.                                                                                                                                           Execution quality - automated management reports, real-time trade flows, alerts, etc.
+ii.                                                                                                                                          Exchange performance - fill ratio, slippage, latency, etc.
+iii.   Exceptions - out trades, alerts
+iv. Historical data - by digital asset, customer, exchange, time period (hourly), etc.
+Trade Cost Analysis (TCA)
+i.                                                                                                                                           At the time of execution, the mid-point of trades is recorded and measured against the new
+mid-point at standard intervals thereafter.   These mark-outs are measured for individual
+customers in order to gauge market impact, which informs settings for future trades.   The
+analysis is done by exchange, by digital asset, time zone, etc. to optimize execution.
+Vision Central Limit Order Book (“Vision CLOB”)
+The Platform Operator will match crossing buy and sell orders whenever possible, thereby
+minimizing market impact and saving customers time and execution costs.   Generating CLOB
+volume will require trading volume on CPT whereby opposing orders exist in the system at the same
+pg. 16
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+time and can be matched in a fast, efficient manner.    As volume grows on the Vision System, the
+CLOB operation will become an increasingly important liquidity advantage offered by Edgewater
+that does not exist on competing systems.
+Matching of buyers/sellers significantly lowers market impact and execution costs while reducing
+the time for traders to execute into or out of positions.
+Web-based Trading Platform Crypto Prime Trader™
+The Platform Operator will provide customers with a web-based trading platform, Crypto Prime
+Trader (CPT), with a simple, easy-to-use, graphical user interface (GUI).   CPT will incorporate
+advanced analytics, charting, trading algorithms, position monitoring, real-time P&L, mobile access
+and post-trade integration.  Supported by a 24x7 global help desk with professional trading support
+staff, the Platform Operator will provide the institutional market with the most advanced digital asset
+trading system available with aggregated liquidity and immediate response to all customer inquiries,
+establishing a new bar for customer service in the digital asset market.   The Platform Operator’s
+CPT puts traders in control, providing access to reliable digital asset liquidity in the palm of their
+hand.
+a.  Crypto Prime Trader
+The Platform Operator trading platform development employs the concept of KSE™ (Key Stroke
+Efficiency™) which is an outcome of Edgewater’s institutional customer advisor group.   Periodic
+meetings are held with the Platform Operator’s customer advisor group to review trading platform
+developments.  The participating traders provide feedback and suggestions for improvement.  The
+objective of KSE is to continuously minimize key strokes, to manage risk and make execution
+efficient and error free.
+CPT provides traders with a control panel and dashboard to manage execution settings and view
+all relevant trading information, including market data, charting, TCA analytics, positions and P&L.
+pg. 17
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Traders can select from different order types                                                                                                (for example, FOK, IOC, limit, etc.*), liquidity
+composition (for example, ESP, RFQ/RFS, etc.*) and time in force (TIF).   In addition to the live
+system, the Platform Operator will make available a UAT/Demo version with live prices and demo
+dealing capabilities for training and review by prospective customers.  Installation requirements will
+be minimal (web access) and designed to facilitate quick IT/compliance review.
+*See Glossary for definitions.
+b.  Intelligent Trading Algorithms
+The Platform Operator will provide customers with an innovative suite of algorithmic execution
+models.  Pre-programmed rules define trade parameters including timing, price, quantity, volatility,
+rate of change, etc.  Algorithmic execution enables traders to execute efficiently and identify trading
+opportunities.  A large segment of the institutional market relies on algorithmic execution as part of
+their overall trading execution strategy.
+Benefits of algorithmic trading:
+•  Trades are executed at the best possible prices automatically
+•  Automated trade order placement ensures accuracy and helps execute desired levels
+•  Trades are timed accurately and instantly, to avoid significant price changes
+•  Reduced transaction costs
+•  Simultaneous automated checks on multiple market conditions reduces risk of errors
+•  Reduces/eliminates trader emotional and psychological factors
+•  Empirical back-tested algorithms provide confidence in suitability
+The most common algorithmic trading strategies follow trends in moving averages, channel
+breakouts, price level movements and related technical indicators. These are the easiest and
+pg. 18
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+simplest strategies to implement through algorithmic trading because these strategies do not involve
+making any predictions or price forecasts. Trades are initiated based on the occurrence of desirable
+trends, which are easy and straightforward to implement through algorithms without getting into the
+complexity of predictive analysis.
+c.  Advanced Analytics and Charts
+Pre-trade, mid-trade and post-trade analysis facilitates benchmarks for best execution to meet
+institutional fiduciary responsibility and to support trading decisions and compliance reporting.
+Basic and advanced time series charting capabilities will be available based on customer demand.
+For example, some of the popular charting analytics include line/bar, candlestick, Ichimoku Cloud,
+volatility, momentum indicators and oscillators, Bollinger bands, etc.
+Transaction cost analysis (TCA) is the study of trade prices to determine whether the trades were
+arranged at favorable prices.  TCA is essentially a rating of the spread between two possible prices
+and the market impact caused by the execution.  Results from these analyses are often used to fine
+tune trading processes to make them more effective.
+The main challenge of TCA is to determine whether a trade price is high or low given market
+conditions at the time the order was processed.   For this purpose, trade prices are commonly
+compared to benchmark prices such as the volume-weighted average trade price of the day (VWAP
+analysis) or the midpoint  of the bid/ ask spread at the time the order was first created
+(implementation shortfall analysis).
+Pre-trade Analytics (PTA) - Pre-trade Analytics is the process of taking known trade parameters of
+a planned execution and determining the best or most efficient execution strategy.  The goal is to
+pg. 19
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+minimize the cost of transacting for a given level of acceptable risk. The PTA tool helps traders
+determine expected market impact (i.e. slippage) of a transaction based upon the strategy or
+method of execution. PTA is an important risk management tool that can help plan trades.
+Post-trade analytics (TCA) - Post trade analysis tool offers transparency regarding execution
+performance and assess the quality of trader’s execution and decision making.
+d.  Position Monitoring and Real-Time P&L
+The Platform Operator will provide a blotter system that allows traders to monitor credit and manage
+orders, view trade details and positions with a real-time, consolidated P&L.  CPT will connect to the
+customer’s back office via STP (straight through processing) for automatic, electronic uploading of
+all trade details to the firm’s systems.   Vision Exchange Gateway connections will ensure that
+customer specific exchange limits are in synch with CPT at all times.
+e.  Mobile Access
+Institutional customers are increasingly requesting mobile access to trading platforms, so their
+traders can monitor and control open positions and execute trades as market conditions change
+throughout the day, regardless of where the trader is at any given moment.   The mobile app will
+provide customized alerts to help the trader to remain aware of trade impacting market movements.
+The mobile version of CPT will be available on various hardware options of the Apple and Android
+platforms.
+Credit and Post-Trade Solutions
+The Platform Operator plans to stay on the forefront of understanding the various options clients
+have for managing exchange credit, post-trade settlement and custody. The Platform Operator
+anticipates significant innovation and multiple solutions will evolve over time for credit management,
+settlement and custody in the digital asset market.  We also anticipate that different customers will
+prefer different solutions. Our goal is to help educate and connect our clients to suitable solutions
+and integrate Vision and CPT as required.
+Credit, settlement and custody solutions will develop as the digital asset market develops and the
+Platform Operator intends to partner with other firms as these important services evolve.
+PHASE 2 PRODUCT DEVELOPMENT:
+Following are additional products that the Platform Operator will introduce after launching its Vision
+System and Crypto Prime Trader for institutional investors.
+pg. 20
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Crypto Prime Trader White-Label Solutions
+The Platform Operator will provide a generic, custom branded version of the CPT trading system
+for institutional customers (banks, brokers) to provide to their customers.   Firms frequently make
+“buy versus build” decisions when targeting customers with a technology solution.  Speed to market
+is improved and development risk is reduced dramatically by outsourcing technology to an existing
+provider. The Platform Operator will make available a license to firms wishing to “buy” a solution.
+As part of the white-label solution, the Platform Operator envisions developing an associated simple
+(light) version of CPT for less sophisticated end customers.
+Crypto Prime Trader Data
+Digital asset market data is currently disseminated by many parties in unrelated formats. The
+Platform Operator will consolidate market and order data and normalize it to provide a ‘consolidated
+tape’ of digital asset market rates. A market data product will be sold to market participants and
+media, including high frequency trading firms, hedge funds, CTAs, banks and asset managers
+among others. Access to CPT market data can become the market standard and will be a valuable
+revenue generating product.
+pg. 21
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+REVENUE GENERATION MODEL
+The Company expects to generate operating revenue in the future from fees charged for the
+provision of services in the CPT ecosystem.
+Transaction Charges
+The Platform Operator will charge transaction fees based on notional trading volume.  The per US$
+million fee depends on crypto pair, depth of liquidity, market conditions, customer requirements such
+as size and complexity of the order and the execution venue(s), including whether the transaction
+occurred on the Vision CLOB.  Volume discounts will be available, as volume increases the basis
+point fee per million will decrease.
+Value added services including Custody, Intelligent Algorithms and Advanced Analytics will be
+available on a subscription basis (basis points per US$ million).
+The Platform Operator plans to charge a monthly minimum volume transaction fee per location.
+Installation/Setup
+CPT installation and setup includes establishing the necessary exchange relationships and pre and
+post-trade solution integration, according to individual customer requirements. The Platform
+Operator will configure CPT with value added services including Custody, Advanced Intelligent
+Trading Algorithms and Advanced Analytics and provide any training required.   Additional set-up
+options:
+Dedicated data circuits (versus internet) available.
+Co-located customer trading engine (Vision POP) - secure and private with the fastest access
+available is available.
+Crypto Prime Trader Data
+Data will be available via a data license fee.   Fees will vary based on usage (single office, global
+license, redistribution to firm’s customers, media, etc.).
+Crypto Prime Trader White Label
+The Platform Operator will white-label CPT to firms that wish to provide a custom branded version
+of the platform to their customers.  The white-label version will be provided as a software license
+based on the number of users, functionality included (for example, Algorithms, Analytics, etc.) and
+volume.
+pg. 22
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+ROADMAP | PLAN OVERVIEW
+pg. 23
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+EDGEWATER TEAM
+Founders
+Co-Founder and President - Alessandro Scarsini
+With over 25 years of FX expertise, Alessandro Scarsini, is the Co-Founder
+and President of Edgewater Markets LLC, an industry leader in electronic
+liquidity and distribution to institutional clients. Prior to Edgewater, Alex led the
+currency hedge fund sales desk at Deutsche Bank in New York. Fluent in
+Italian, French and Spanish, Mr. Scarsini has a stellar global track record which
+includes senior management positions at Merrill Lynch, ABN AMRO and
+Barclays, where he managed FX trading, institutional sales, eCommerce and
+prime  brokerage  businesses.  Mr.  Scarsini  holds  a  BS  in  Business
+Administration, Finance from Babson College and a Baccalauréat from the
+Lycée Français de New York. “We have the opportunity to reform the financial
+system and turn it into a level playing field. With the launch of our new digital
+asset business, we are continuing to redefine the gold standard in the crypto
+space. This release represents what a 21st century financial company can and
+should be and hints at future developments. Cryptocurrencies will pioneer the
+development of decentralized applications that will intrinsically change the
+digital economy.”
+Co-Founder and CEO - Skovran Schreder
+Skovran Schreder, Co-Founder and CEO of Edgewater Markets LLC., brings
+a wealth of Electronic Foreign Exchange industry expertise as evidenced by
+his past positions in senior capital markets roles working for large financial
+institutions including AIG, Lehman Brothers, Barclays Capital and Bank of
+America. Skovran’s career in eFX management spans over 25 years in a
+variety  of  executive  leadership  roles,  where  he  successfully  managed,
+developed and led global FX sales and trading teams. Mr. Schreder earned
+his Bachelor of Science in Finance from the California State University at
+Chico. “Cryptocurrencies, such as Bitcoin, will continue to rapidly permeate
+into the global commercial and financial mainstream. It is the smart currency,
+signifying the future of privacy and has the power of exponential growth.”
+pg. 24
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Leadership Team
+COO - Jeff Johnson
+Jeff Johnson was appointed Chief Financial Officer of Edgewater Markets LLC
+in 2014 and Chief Operating Officer in 2017. Jeff was most recently Senior
+Vice President of FX Prime Brokerage at Bank of America Merrill Lynch.
+Before joining BAML, Jeff held senior roles in prime services at Barclays
+Capital and Credit Suisse. Mr. Johnson also served as a Manager at Currenex
+and Director of FX Derivative Trading at CIBC. His career began at Morgan
+Stanley. Jeff holds a BA in Communication from the University of Connecticut.
+“I am fascinated by the constantly evolving world of Cryptocurrency and
+blockchain technology. How the world transforms because of it is the question.
+It will intrinsically change the internet and the digital economy.”
+CTO - Jason Aubrey
+Jason Aubrey, Chief Technology Officer at Edgewater Markets LLC., leads a
+global team in bringing ground-breaking solutions to financial markets. His
+career has focused on applying technology and innovation in high-frequency,
+low-latency trading at Chicago Trading Company, Bank of America, and
+AlphaWorks Capital Management where he successfully managed teams to
+deliver solutions at every level of the technology stack, including novel
+innovations utilizing concurrency, microwave, FPGA, and various languages.
+Jason    contributed                                                                                                                         a    major    performance   enhancement    to
+boost::condition_variable which became part of the C++11 standard. He has
+implemented  and  contributed  to  free  and  open  source  software  and
+participates in industry panels on various related topics. He is now pursuing
+the application of artificial intelligence to cryptocurrencies. Mr. Aubrey holds a
+BS in Computer Science from Illinois Institute of Technology in Chicago,
+Illinois. "A Blockchain is complex to create but simple to verify - much like the
+existence of a person. Blockchain security is guaranteed by a chain of digital
+Gordian Knots each larger than the previous.   Applying the chain is the
+challenge."
+pg. 25
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Managers
+Business Development Manager - Michael Naylor
+Michael Naylor, Managing Director at Edgewater Markets, has over 30 years
+of experience in financial services sales and marketing, introducing innovative
+products and developing new markets. Mike helped launch the first electronic
+inter-bank fiat matching system at Dow Jones Telerate and lived and worked
+in Asia and Europe opening new markets as Chief Marketing Officer for
+Standard & Poor’s.   Mike holds a BA in Economics from Rutgers University
+and an MBA in Finance and Int’l Business from NYU Stern School of Business,
+with studies at The Hong Kong University of Science and Technology.
+Product Development Team Manager - Mike Johnson
+Mike Johnson, Software Developer at Edgewater Markets LLC since 2014,
+develops low-latency applications and delivers ground-breaking solutions to
+financial markets. Mike holds a BS in Computer Science from the University
+of Illinois at Urbana-Champaign.
+Chief Administrative and Marketing Officer - Alessandra Bozzo
+Alessandra Bozzo is the Chief Administrative and Marketing Officer of
+Edgewater Markets LLC. Previously, she worked at Bridgewater Associates
+on the Core Management Technology Team. Alessandra holds a B.A. in
+Political Science and Romance Languages and Baccalauréat from the Lycée
+Français de New York. Alessandra is fluent in French, Spanish and Italian.
+European Region Head - Emanuel Georgouras
+Emanuel Georgouras, Head of Europe at Edgewater Markets LLC, has over
+17 years of foreign exchange experience with senior management positions
+at Axicorp, Marex Spectron, CMC Markets and MKS. Emanuel holds a BCom
+in Finance & Marketing from the University of Sydney and diplomas in Finance
+Mgmt and Financial Services from the Australian Institute of Management.
+pg. 26
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+LATAM Region Head - Robert Sanchez
+Robert Sanchez, Managing Director & Head of Edgewater Markets’ LATAM
+business, has over 20 years of eFX expertise with prior senior management
+positions, spearheading trading initiatives and eFX platforms, at leading
+companies including Integral Development Corp and Currenex. Robert is a
+U.S. Army Veteran and holds a BS in Information Technology from DePaul
+University.
+Asia Region Head - Shilpa Dubey
+Shilpa Dubey is Head of Asia-Pacific at Edgewater Markets LLC. Prior to
+Edgewater, Shilpa’s experience includes consulting and project management
+with firms based in South-East Asia, including foreign exchange aggregation
+and trading solution development for a leading electronic trading technology
+company. Shilpa holds an B.Eng. in Computer Science from Vishweshraya
+Technical University and an MBA with a specialization in IT and Operations
+from NITIE in Mumbai.
+Risk Management - Nate Arenchild
+Nate Arenchild, Global Head of Operations & Client Services at Edgewater
+Markets LLC since  2013, leads a global team in delivering operational
+solutions to financial markets. Nate holds a BS in Economics from The
+California State University in Sacramento.
+Liquidity Management - Mike Serpa
+Mike Serpa, Global Head of Liquidity at Edgewater Markets LLC, has been
+with the company since 2015. Mike leads a global team in delivering liquidity
+management  solutions  to  Edgewater’s  customers.  Mike  holds  a  BA in
+Economics from Dickinson College.
+pg. 27
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Advisors
+Matthew Roszak, Chairman & Co-Founder, Bloq
+Matthew Roszak is a leading blockchain investor, entrepreneur and
+advocate. Mr. Roszak is chairman and co-founder of Bloq, a blockchain
+technology company and the creators of Metronome, a next generation
+cryptocurrency. Mr. Roszak is also founding partner of Tally Capital, a private
+investment firm focused on cryptocurrencies and blockchain-enabled
+technology, with a portfolio of market leading companies, including: Binance, Block.One,
+Blockstream, Civic, Genaro, Orchid, Polymath, Rivetz, Spacechain, tZERO and QTUM.
+Mr. Roszak serves as chairman of the Chamber of Digital Commerce, the world’s largest trade
+association representing the blockchain industry - and the founder of Token Alliance, an industry-
+led initiative developing best practices and standards for the responsible issuance of tokens. In
+addition, Mr. Roszak serves on the board of BitGive, a non-profit foundation that improves
+philanthropic impact with blockchain technology. Mr. Roszak is also the founder of the Chicago
+Blockchain Center, a public-private partnership with the State of Illinois, CME Group, DRW and
+Lightbank.  Mr Roszak was a producer of the industry’s first ever documentary, The Rise and Rise
+of Bitcoin.
+Mr. Roszak is a sought after thought leader on blockchain technology and has testified as an
+expert before US Congress and spoken at the US Federal Reserve.  Mr. Roszak has presented at
+TEDx, been featured on CNBC and quoted in The Wall Street Journal, Bloomberg and Financial
+Times.  In addition, Mr. Roszak has been a keynote speaker at fintech conferences worldwide,
+including Money20/20, CES and Consensus.
+Richard S. Rofé, Managing Partner, Arcadia Crypto Ventures
+Richard S. Rofé has a diverse business background on both main street and
+wall street spanning more than 30 years.  Richard manages Arcadia Capital
+Management, LLC and Arcadia Crypto Ventures, LLC.  Prior to ACM and
+ACV, Richard was a serial entrepreneur founding, growing and financing
+companies in a variety of industries.
+Alongside his investments in crypto currencies, Richard sits on the boards of Arcadia Chemical &
+Preservative, Studio Wildway, SeaMax America, eBoost and the Cradle of Aviation Museum.  He
+is an investor and advisory board member at Bloq, Genaro, LaLa World and Noble Markets.  A
+licensed pilot and avid boater, Richard lives with his wife and two children in Great Neck, NY.
+pg. 28
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+SECURITY TOKEN OFFERING
+The Company is offering Preferred Equity to accredited investors with an ERC20 security token
+offering.
+The capital raised will accelerate development of the Company’s digital asset trading system,
+Crypto Prime Trader, and support a successful product launch.  As in the fiat trading market, there
+are many trading platforms that will co-exist in the crypto market. We believe the leading crypto
+platforms will be established in the next 12-18 months and Edgewater has the currency trading
+expertise, technology and relationships to establish itself as one of the leading platforms.
+To achieve this, Edgewater Digital Technologies is issuing Preferred Stock which the Company
+intends to be in the form of digital Security Tokens or Uncertificated Shares.  The Security Tokens
+or Shares will provide purchasers with equity ownership and dividends.
+Security Tokens provide many benefits for Purchasers and the Company: including: lower cost
+issuance as compared to traditional capital markets, automated compliance thru programmable
+“smart contracts”, improved transparency and accuracy of ownership records, efficient investor
+management (streamlined payment of dividends, communications, etc.), increased accessibility
+thru fractional ownership, global reach, and 24/7/365 availability via secondary markets enhance
+price discovery and improve liquidity.
+It is intended that the Security Tokens will be listed for trading on multiple security token platforms
+(available for trading following the required lock-up period).
+A strict limit of 250 million Security Tokens will be created, creating an upper cap on the total
+number of tokens.
+The Company will accept USD, ETH and BTC.
+The Securities are being offered to non-U.S. persons within the meaning of Regulation S and to
+U.S. persons that are accredited investors in compliance with U.S. securities laws under
+Regulation D 506(c).
+A detailed financial forecast is available upon request.
+pg. 29
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+USE OF PROCEEDS
+Following is a breakdown of the anticipated use of proceeds over 24 months following the token
+offering.
+Development: 31% of token sale proceeds will be used for platform development.  The Company
+is adapting its current fiat currency trading platform for digital assets, including refining its Vision
+rate engine and smart order router (SOR), building Crypto Prime Trader web-based GUI, mobile
+trading system and developing Crypto Mission Control.  Infrastructure requirements include
+building the Exchange Gateway system, establishing low latency connections to the major crypto
+exchanges and OTC desks, building quote adaptors, tick loggers and other critical infrastructure
+required to aggregate liquidity globally.
+Operations/Sales/Admin: 21% of proceeds will be used for marketing, sales, operations, and
+administration.  A global operations and customer service team will be established to provide live
+support 24/7.  The Platform Operator’s go-to-market strategy includes introducing CPT to digital
+asset hedge funds, OTC desks and exchanges as well as Edgewater Markets’ existing customer
+base.  To execute the strategy a digital asset focused institutional sales force will be established.
+Legal and Regulatory: 10% of token sale proceeds will be used for legal and regulatory purposes,
+including securing the necessary licenses as required.  The Platform Operator will employ
+relevant domain expertise and resources to manage compliance.  The Platform Operator plans to
+work closely with regulators to ensure regulatory compliance as well as contributing to relevant
+pg. 30
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+industry rules as they are developed.  Understanding and adhering to relevant rules and
+regulations has been a critical component of Edgewater’s success and that will continue in the
+rapidly developing digital asset marketplace.
+Marketing: 10% of token sale proceeds will be used for sales and marketing promotion, including
+the product launch.  Building brand and product awareness with institutional customers and digital
+asset investors across the digital asset marketplace will require a sustained, globally coordinated
+marketing and sales effort.
+Reserve: 28% of token sale proceeds will be reserved for operating liquidity and unforeseen
+capital requirements.
+pg. 31
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Appendix A | Glossary
+Algorithmic Trading: The process of using computer programs to follow a defined set of
+instructions for executing a trade at a speed and frequency that is impossible for a human trader.
+API (Application Programming Interface): A clearly defined protocol for communication
+between different exchanges and systems.
+Central Limit Order Book (CLOB): A centralized database of orders placed by market
+participants. A central limit order book will match different orders to reduce execution cost by
+crossing the bid/ask spread. The CLOB offers the ability to see market depth, in which customers
+can view the various prices and size available at each level, providing fully transparent, real-time,
+anonymous and low cost in execution.
+Consolidated Order Book: The aggregation of orders and prices from multiple market
+exchanges in a single consolidated view.
+ESP pricing: Executable Streaming Price. Real-time pricing of a financial product whose rate is
+continuously streaming and can be executed upon immediately.
+Fill Ratio: The ratio between the cumulative amount of trades executed versus trades attempted.
+This is calculated on either the number of orders executed/attempted, or the volume of orders
+executed/attempted.
+FIX Protocol: Short for the Financial Information exchange protocol, FIX protocol is a technical
+specification for electronic communication of trade-related messages. FIX protocol acts as a
+standardized format of messaging used for real-time exchange of information related to security
+transactions and the financial market.
+FOK Order Type: “Fill or Kill” order types specify that the order is executed immediately. The
+order is either filled in its entirety, or otherwise cancelled completely.
+GUI: Graphical User Interface - a user interface that enables users to interact with a computer
+through use of graphical elements, such as windows, icons, buttons and point devices.
+IOC Order Type: Immediate or Cancel order types specify that the order is executed immediately.
+If the entire order quantity becomes unavailable during execution, a partial fulfillment of the order
+is possible.
+pg. 32
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Keystroke Efficiency: A measurement of the efficiency of a software program, defined as the
+number of keystrokes required to perform a specific function. More efficiency in the software
+program leads to a lower the likelihood of human error or confusion occurs.
+Limit Order Type: Limit order types will attempt to buy or sell a financial product at no more or
+less than a specified price and are used when a trader wishes to control the price of the
+execution, rather than the certainty of the quantity of the execution.
+MIS: Management information system or management information systems refers to the
+complementary networks of hardware and software cooperating to collect, process, store, and
+disseminate information in order to support the managerial role of leveraging information
+technology to increase and monitor market performance and client experience.
+RFQ/RFS pricing: Request for Quote or Request for Stream. In comparison to ESP pricing, the
+pricing of a financial product is not continuously streaming. For RFQ/RFS pricing, a trader
+specifies the product, size and tenor which they are looking to execute, and submit the request.
+Pricing is then returned for the exact specifications of the execution.
+Slippage: The allowable deviation from the price where a trade is submitted which a trader will
+accept the execution. This allows for a higher certainty of the quantity of the execution attempted.
+Smart Order Router (SOR): An automated process of executing large orders via a Volume
+Weighted Average Price (VWAP), aimed at taking the best available opportunity by following
+defined rules, configurations and algorithms. The rules and algorithms within the smart order
+router analyze all connection venues for a variety of performance factors including, but not limited
+to, price, fill ratio, market impact, latency and execution/venue cost.
+STP (Straight-Through Processing): The electronic and automatic transfer of a financial
+transaction for the purpose of settlement and reporting. STP reduces the time required to process
+a transaction and increases the accuracy of settlement instructions.
+Time-In-Force: The time period for which an order is considered live/active.
+Trading Platform: Software though which investors and traders can open, close and manage
+market positions through a financial intermediary.
+pg. 33
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+APPENDIX B | RISK FACTORS
+The further development and acceptance of blockchain networks, which are part of a new and
+rapidly changing industry, are subject to a variety of factors that are difficult to evaluate. The
+slowing or stopping of the development or acceptance of blockchain networks and blockchain
+assets would have a material adverse effect on successful development.
+The growth of the blockchain industry, in general, as well as the blockchain networks on which the
+Company will rely upon in its business operations are subject to a high degree of uncertainty. A
+decline in the popularity or acceptance of cryptocurrencies such as Bitcoin or Ethereum would
+adversely affect the Company’s results of operations, the development, launch and/or operations
+of the Company. Factors that affect the development of the cryptocurrency industry and
+blockchain networks, include, but are not limited to:
+•  worldwide growth in the adoption and use of Bitcoin, Ethereum, and other blockchain
+technologies;
+•  government and quasi-government regulation of Bitcoin, Ethereum, and other blockchain
+assets and their use, or restrictions on or regulation of access to, and operation of
+blockchain networks or similar systems;
+•  the maintenance and development of the open-source software protocol of the Bitcoin or
+Ethereum networks;
+•  changes in consumer demographics and public tastes and preferences;
+•  the availability and popularity of other forms or methods of buying and selling goods and
+services; and
+•  general economic conditions and the regulatory environment relating to cryptocurrencies.
+Blockchain networks are based on software protocols that govern peer-to-peer interactions
+between computers connected to these networks. The suitability of the networks for the
+Company’s business, depends upon a variety of factors, including, but not limited to:
+•  the effectiveness of the informal groups of (often uncompensated) developers contributing
+to the protocols that underlie the networks;
+•  the effectiveness of the network validators (sometimes called “miners”) and the network’s
+consensus mechanisms to effectively secure the networks against confirmation of invalid
+transactions;
+•  disputes among the developers or validators of the networks;
+pg. 34
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+•  changes in the consensus or validation schemes that underlie the networks, including,
+without limitation, shifts between so-called “proof of work” and “proof of stake”
+schemes;
+•  the failure of cybersecurity controls or security breaches of the networks;
+•  the existence of other competing and operational versions of the networks, including,
+without limitation, so-called “forked” networks;
+•  the existence of undiscovered technical flaws in the networks;
+•  the development of new or existing hardware, software tools, or mechanisms that could
+negatively impact the functionality of the systems;
+•  the price of blockchain assets associated with the networks;
+•  intellectual property rights-based claims or other claims against the networks’
+participants; and
+•  the maturity of the computer software programming languages used in connection with the
+networks.
+Unfavorable developments or characteristics of any of the above circumstances could adversely
+affect the Company’s business, the development, launch and/or operations of the Company.
+The regulatory regime governing blockchain technologies, cryptocurrencies, tokens, and token
+offerings is uncertain. Developments in regulations in the United States or in other jurisdictions
+may alter the nature of the Company’s business or restrict the use of blockchain assets or the
+operation of a blockchain network upon which the Company and its business will rely in a manner
+that adversely affects the Company’s business, the development and/or operation of the
+Company.
+As blockchain networks and blockchain assets have grown in popularity and in market size,
+federal and state agencies have begun to take an interest in, and, in some cases, regulate their
+use and operation. In the case of virtual currencies, US state regulators like the New York
+Department of Financial Services, have created new regulatory frameworks. Other states, such as
+Texas, have published guidance as to how their existing regulatory frameworks apply to virtual
+currencies. Other states have amended their state’s statutes to apply existing licensing regimes to
+virtual currencies. Treatment of virtual currencies continues to evolve under US federal law as
+well. Both the US Department of the Treasury and the Commodities Futures Trading Commission
+(the “CFTC”), for example, have published guidance on the treatment of virtual currencies like
+Bitcoin. Further, the IRS released guidance on virtual currencies classifying Bitcoin and Ether as
+property for the purposes of US federal income taxes. Both US federal and state agencies have
+instituted enforcement actions against those violating their interpretation of existing laws.
+pg. 35
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+The regulation of non-currency use of blockchain assets is of particular relevance to the
+Company’s business and the software upon which it will rely. Neither the SEC nor the CFTC has
+formally asserted regulatory authority over any particular blockchain network. The CFTC has
+publicly taken the position that certain blockchain assets are commodities, but the SEC has not
+officially taken the position all blockchain assets are securities; rather, it is a facts and
+circumstances test. To the extent that a US government or quasi-governmental agency exerts
+regulatory authority over a blockchain network, including one upon which the Company’s business
+relies, or a blockchain asset, the Company’s business and the functionality of the Company may
+be adversely affected.
+On July 25, 2017, the SEC issued an investigative report cautioning market participants that offers
+and sales of digital assets by “virtual” organizations are subject to the requirements of the US
+federal securities laws. The report, entitled “Report of Investigation Pursuant to Section 21(a) of
+the Securities Exchange Act of 1934: The DAO” (the “DAO Report”), found that tokens offered and
+sold by a “virtual” organization known as “The DAO” were securities and were therefore subject to
+the US federal securities laws. The DAO Report confirmed that issuers of distributed ledger or
+blockchain technology-based securities must register offers and sales of such securities unless a
+valid exemption applies.
+Certain non-US regulators have also released statements or issued some form of guidance
+regarding their position on “initial coin offerings” and token sales. The Company’s business, the
+development, launch and/or operations of the Company could be adversely affected by
+regulations that restrict the use or trading of cryptocurrencies or digital assets and as a result, and
+as a consequence, the value of The Shares may diminish to zero.
+If regulatory changes or interpretations require the regulation of digital currencies under the United
+States Securities Act of 1933, as amended (the “Securities Act”) and the United States Investment
+Company Act of 1940, as amended (the “Investment Company Act”) by the SEC, we may be
+required to register and comply with such regulations. To the extent that we decide to continue
+operations, the required registrations and regulatory compliance steps may result in extraordinary,
+non-recurring expenses to us. We may also decide to cease certain operations. Any disruption of
+our operations in response to the changed regulatory circumstances may be at a time that is
+disadvantageous to purchasers of The Shares.
+Current and future legislation and rulemaking of the SEC, CIMA and other regulatory
+developments, including interpretations released by a regulatory authority, may impact the manner
+in which cryptocurrencies are treated for classification and clearing purposes. In particular, digital
+currencies may not be excluded from the definition of “security” by SEC or CIMA rulemaking or
+interpretation. As of the date of this whitepaper, we are not aware of any rules or interpretations
+pg. 36
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+that have been proposed to regulate cryptocurrencies as securities in the United States. We
+cannot be certain as to how future regulatory developments will impact the treatment of
+cryptocurrencies under applicable law. Such additional registrations may result in extraordinary,
+non-recurring expenses, thereby materially and adversely impacting the Security Tokens. If we
+determine not to comply with such additional regulatory and registration requirements, we may
+seek to cease certain of our operations. Any such action may adversely affect the Company and
+CPT.
+To the extent that cryptocurrencies are deemed by the SEC to fall within the definition of a
+security, we may be required to register and comply with additional regulation under the
+Investment Company Act, including additional periodic reporting and disclosure standards and
+requirements and the registration of our Company as an investment company. Additionally, one or
+more states may conclude cryptocurrencies are a security under state securities laws which would
+require registration under state laws including merit review laws which would adversely impact us
+since we would likely not comply. Such additional registrations may result in extraordinary, non-
+recurring expenses of our Company, thereby materially and adversely impacting the Security
+Tokens. If we determine not to comply with such additional regulatory and registration
+requirements, we may seek to cease all or certain parts of our operations. Any such action may
+adversely affect an investment in us.
+Developments in foreign regulations and laws may alter the nature of the Company’s business or
+restrict the operation of a blockchain network upon which the Company relies, including the use of
+blockchain assets, in a manner that adversely affects our business.
+Blockchain networks currently face an uncertain regulatory landscape in not only the United
+States, but also in many foreign jurisdictions, which have issued guidelines or regulatory
+communications regarding cryptocurrencies, digital assets and “initial coin offerings” and are still
+working on ways to regulate this industry. Various foreign jurisdictions may, in the future, adopt
+laws, regulations, or directives that affect the Ethereum network and its users, particularly Ether
+exchanges and service providers that fall within such jurisdictions’ regulatory scope. Such laws,
+regulations, or directives may conflict with those of the United States, or may directly and
+negatively impact the Company’s business, the development, launch and/or operations of the
+Company. The effect of any future regulatory change is impossible to predict, but such change
+could be substantial and adverse to the Company’s business, the development, launch and/or
+operations of the Company and the development of the Company. Developments in US
+commercial and corporate laws may alter the nature of the Company’s business or the
+development or operation of the software in a manner that adversely affects the Company’s
+business.
+pg. 37
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+The Company may not successfully develop, market and launch CPT or a Token Trading System.
+The Company views the development of CPT as a key commercial milestone. The development
+of CPT and a Token Trading System has not yet commenced, and CPT may never be developed.
+In addition, the development of CPT would require significant capital funding, expertise of the
+Company’s management and time and effort in order to be successful. The Company may have to
+make changes to the specifications of CPT for any number of reasons or the Company may be
+unable to develop CPT in a way that realizes those specifications or any form of a functioning
+network. It is possible that CPT may not ever be released and there may never be an operational
+system or launch of CPT may never occur. CPT, if successfully developed and maintained, may
+not meet expectations of Potential Purchasers at the time of purchase. Furthermore, despite good
+faith efforts to develop and complete the launch of CPT and subsequently to maintain CPT, it is
+still possible that CPT will experience malfunctions or otherwise fail to be adequately developed or
+maintained, which may negatively impact CPT and The Shares.
+The Company may, but is not obligated to, use the proceeds of its sale of The Shares to make
+significant investments to develop and launch a viable Token Trading System and subsequently to
+build a fulsome network upon which users can realize utility and value. The Company may not
+have or may not be able to obtain the technical skills and expertise needed to successfully
+develop CPT and progress it to a successful launch. While the Company has sought to retain and
+continue to competitively recruit experts, there, may, from time to time, be a general scarcity of
+management, technical, scientific, research and marketing personnel with appropriate training to
+develop and maintain CPT. In addition, there are significant legal and regulatory considerations
+that will need to be addressed in order to develop and maintain CPT and addressing such
+considerations will require significant time and resources. If the Company is not successful in its
+efforts to develop CPT that is compliant with all regulatory and legal requirements and to
+demonstrate to users the utility and value of CPT, there may not be sufficient demand for The
+Shares for the Company to proceed with the launch of CPT. As a result, or if the launch does not
+occur, purchasers of The Shares may lose all of their investment.
+Blockchain industry is highly competitive and should intensify in the future.
+There are many platforms that enable the use of blockchain technologies in the payment
+ecosystem. Additional competitors are likely to enter the industry in the future. It is possible that
+alternative platforms could be established that utilize the same or similar open source code and
+protocol underlying CPT and attempt to facilitate services that are materially similar to the services
+offered by or within CPT. CPT may compete with these alternatives, which could negatively impact
+CPT and Security Tokens.
+pg. 38
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Risks associated with unauthorized access.
+Third parties that gain access to a user’s login credentials or private keys may be able to transfer
+the user’s value. To minimize this risk, the users should guard against unauthorized access to
+their electronic devices. Hackers or other groups or organizations may attempt to interfere with the
+blockchain technology or the availability of our anticipated blockchain technology solutions in any
+number of ways, including without limitation denial of service attacks, Sybil attacks, spoofing,
+smurfing, malware attacks, or consensus-based attacks.
+Risk of security weaknesses in the core infrastructure and software.
+Some parts of the core software may be based on open-source software. There is a risk that the
+development team, or other third parties may intentionally or unintentionally introduce
+weaknesses or bugs into the core infrastructure elements of our anticipated blockchain technology
+solutions interfering with the use of or causing the loss to the Company.
+Risk of weaknesses or exploitable breakthroughs in the field of cryptography.
+Advances in cryptography, or technical advances such as the development of quantum
+computers, could present risks to cryptocurrencies and network, which could result in theft or loss.
+Risk of hard-fork: CPT will need to go through substantial development works as part of which it
+may become the subject of significant conceptual, technical and commercial changes before
+release.
+There is no existing trading market for Security Tokens and an active trading market may not
+develop. Security Tokens will not be listed on any exchange and secondary trading may be
+limited.
+Security Tokens are a new issue of digital tokens for which there is no established public market.
+The Company may not enable or otherwise facilitate any secondary trading or any such external
+valuation of Security Tokens. This may restrict the contemplated avenues for using Security
+Tokens to the token functionality described in in this whitepaper and could therefore create
+illiquidity risk with respect to any Security Tokens you own. Even if secondary trading of Security
+Tokens is facilitated by third-party exchanges, such exchanges may be relatively new and subject
+to little or no regulatory oversight, making them more susceptible to fraud or manipulation.
+Furthermore, to the extent that third parties do ascribe an external exchange value to Security
+pg. 39
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Tokens (e.g. as denominated in a crypto or fiat currency), such value may be extremely volatile
+and diminish to zero.
+The liquidity of any market for the Security Tokens will depend on many factors, including:
+•  the number of holders of Security Tokens;
+•  the market for similar digital tokens;
+•  the interest of potential users of the Platform in the Platform;
+•  the Company’s performance and financial condition;
+•  the Company’s successful development of the Platform;
+•  developments in the Company’s industry; and
+•  regulatory developments in the digital token or cryptocurrency industries.
+The digital token market is a new and rapidly developing market which may be subject to
+substantial and unpredictable disruptions that cause significant volatility in the prices of digital
+tokens. We cannot assure you that the market, if any, for Security Tokens will be free from such
+disruptions or that any such disruptions may not adversely affect your ability to sell your Security
+Tokens. Therefore, we cannot assure you that you will be able to sell your Security Tokens at a
+particular time or that the price you receive when you sell will be favorable.
+Only certain persons and entities are able to acquire The Shares.
+Only limited categories of persons and entities may purchase The Shares. The Company expects
+that these limitations will limit liquidity in Security Tokens, and the limitations may have a material
+adverse effect on the development of any trading market in the Security Tokens. Out of an
+abundance of caution, the Company is restricting the issuance and transfer of Security Tokens as
+if Security Tokens were securities under the Securities Act. The Shares have not been registered
+under the Securities Act or any United States state securities laws or under the securities laws of
+any other jurisdiction and may not be offered or sold within the United States or to, or for the
+account or benefit of, United States persons except pursuant to an exemption from, or in a
+transaction not subject to, the registration requirements of the Securities Act and applicable U.S.
+state securities laws. In addition, in offshore transactions The Shares may be purchased only by
+non-U.S. Persons in accordance with applicable restrictions under the securities laws of the
+jurisdictions in which they are sold. Generally, foreign securities laws restrict the categories of
+persons permitted to purchase securities to specified classes of sophisticated investors. No action
+has been taken in any jurisdiction to permit a public offering of The Shares.
+pg. 40
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Consequently, it is expected that there will only be a limited number of Security Token holders, a
+purchaser of The Shares and an owner of beneficial interests in those Security Tokens must be
+able to bear the economic risk of their investment in The Shares for an indefinite period of time.
+For a discussion of certain restrictions on resale and transfer, see Appendix C.
+The wallet or wallet service provider used to receive Security Tokens must to conform to the
+ERC20 token standard in order to be technically compatible with Security Tokens.
+The failure to ensure such conformity may have the result that Potential Purchaser will not gain
+access to his Security Tokens.
+You may not have the skills necessary to secure, trade or use the Security Tokens.
+Participating in any offering of digital tokens requires technical skill beyond that of many investors
+in digital tokens. Securing, trading or using digital tokens requires working knowledge of
+blockchain technology, blockchain assets and their attendant systems and processes. Similar
+knowledge of blockchain asset exchanges and other industry participants may be required to
+make obtain the full benefit of Security Tokens.
+Security Tokens may not be insurable.
+Unlike bank accounts or accounts at some other financial institutions, Security Tokens are
+uninsured unless you specifically obtain private insurance to insure them. Thus, in the event of
+loss, there is no public insurer or private insurance arranged by us, to offer recourse to you.
+The tax characterization of Security Tokens, the Company and the offering of Security Tokens is
+uncertain.
+You must seek your own tax advice in connection with acquisition, storage, transfer and use of
+Security Tokens, which may result in adverse tax consequences to you, including, without
+limitation, withholding taxes, transfer taxes, value added taxes, income taxes and similar taxes,
+levies, duties or other charges and tax reporting requirements. The tax characterization of
+Security Tokens also affects the Company’s tax liability in connection with this offering. There are
+also significant uncertainties about the taxation of the operations of the Company.
+We may require additional capital to fully utilize our business plan on a going forward basis as the
+Company develops and deploys its anticipated blockchain technology solutions and related
+ecosystem.
+pg. 41
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+While the Company expects that funding of the project will be from the proceeds of this offering,
+the Company might require additional capital to fully utilize its business plan on a go forward basis
+as the Company develops and deploys the ecosystem, cost of development of the ecosystem,
+value-added solutions as well as deployment and distribution costs. There is no assurance that
+the Company will be able to obtain sufficient capital on acceptable terms when needed.
+The use of new and untested technologies, including blockchain technology, may result in risks
+that we may not be able to currently anticipate.
+Blockchain technology is a relatively new and untested technology. In addition to the risks set forth
+here, there are risks with the use of this technology that the Company cannot anticipate. Risks
+may further materialize as unanticipated combinations or variations from the risks set forth here.
+Security Tokens do not grant governance rights with respect to the Company.
+Because Security Tokens confer no governance rights of any kind with respect to CPT or the
+Company, all decisions involving Company (including to sell or liquidate Company) will be made
+by the Company and its board of directors, and all decisions involving CPT including, but not
+limited to, decisions to discontinue CPT, to create and issue more Security Tokens, will be made
+by the Company. These decisions could adversely affect CPT and/or Security Tokens you hold.
+The Company is a new entity with no operating history.
+The Company was incorporated in January 2019 and has not commenced operations.
+pg. 42
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+APPENDIX C | NOTICE TO PURCHASERS
+No offering of The Shares has been registered or qualified under the securities laws of any
+jurisdiction anywhere in the world. The Shares are being offered and sold only in jurisdictions
+where such registration or qualification is not required, including pursuant to applicable
+exemptions that generally limit the purchasers who are eligible to purchase The Shares and that
+restrict their resale. The Shares may not be offered, sold, assigned, transferred, pledged,
+encumbered or otherwise disposed of except as permitted under applicable securities laws and
+the restrictions imposed on The Shares hereunder.
+Until a trading platform that is capable of trading the Tokens and other tokens or coins that are
+determined to be securities for purposes of U.S. securities laws is available (the “Token Trading
+System”), or the Company in the future designates a digital token exchange pursuant to which
+holders of Security Tokens may transfer or resell their Security Tokens (such an exchange,
+together with the Token Trading System, a “Designated Exchange”), the Tokens will not be
+transferrable on any trading platform even if there are no legal restrictions on transfer. There can
+be no assurance that any Designated Exchange will be chosen or created or that all Token
+holders will have access to a Designated Exchange. The Token Trading System is not expected to
+have been developed by on the date that the Security Tokens are initially issued.
+In addition, Token holders will not be able to transfer their Tokens until the Company designates or
+creates a Designated Exchange. Peer-to-peer trading will not be permitted unless and until Token
+holders are notified otherwise by the Company and informed of the requirements to do so.
+Furthermore, there can be no assurance that any Designated Exchange will be chosen or created
+or that all Token holders will have access to a Designated Exchange.
+Notice to Residents of the United States
+The Shares have not been registered under the Securities Act or any securities laws of any state
+and, unless so registered, The Shares may not be offered or sold except pursuant to an
+exemption from, or in a transaction not subject to, the registration requirements of the Securities
+Act and such other securities laws. The Shares  are being initially offered and sold only (1) to
+“accredited investors” (as defined under Regulation D) in compliance with Regulation D, in each
+case, in a private transaction in reliance on the exemption from the registration requirements of
+the Securities Act provided by Regulation D under the Securities Act, and (2) outside the United
+States to non-U.S. persons in offshore transactions in reliance upon Regulation S under the
+Securities Act. The Shares are being offered outside the United States to non-U.S. persons in
+offshore transactions in reliance upon Regulation S under the Securities Act.
+pg. 43
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+As used herein, the terms “United States,” “U.S. person” and “offshore transactions” have the
+meanings given to them in Regulation S under the Securities Act.
+Each purchaser of The Shares will be deemed to have acknowledged, represented and warranted
+to, and agreed with, the Company as follows:
+(1)                                                                                                                                          It understands and acknowledges that (i) the issuance of The Shares has not been and
+will not be registered under the Securities Act or any other applicable securities law, (ii)
+The Shares are being offered for sale in transactions not requiring registration under
+the Securities Act or any other applicable U.S. state securities law, (iii) The Shares will
+be issued in transactions not requiring registration under the Securities Act or any other
+applicable U.S. state securities law, and (iv)  The Shares may not be offered, sold or
+otherwise transferred or disposed of, except in compliance with the registration
+requirements of the Securities Act and any other applicable securities law, or pursuant
+to an exemption therefrom and, in compliance with the conditions for transfer set forth
+in paragraphs (4) and (5) below.
+(2)                                                                                                                                          It acknowledges that this whitepaper relates to an offering that is exempt from
+                                                                                                                                             registration under the Securities Act and may not comply in important respects with
+                                                                                                                                             SEC rules that would apply to an offering document relating to a public offering of
+                                                                                                                                             securities.
+(3)                                                                                                                                          It is:
+(a)                                                                                                                                          an “accredited investor” (as defined in Regulation D) acquiring The Shares, and
+it is aware that The Shares are being issued in reliance on an exemption from
+the registration requirements of the Securities Act; or
+(b)                                                                                                                                          not a “U.S. person” and it is not acquiring The Shares for the account or benefit
+of a “U.S. person,” and it is acquiring such The Shares in an offshore transaction
+in accordance with Regulation S under the Securities Act and in accordance with
+the laws applicable to it in the jurisdiction in which such acquisition is made.
+(4)                                                                                                                                          It acknowledges that the neither the Company, nor any of its representatives or
+affiliates, have made any statement, representation or warranty, express or implied, to it
+other than the information contained in this whitepaper, which has been delivered to it
+and upon which it is relying in making its investment decision with respect to The
+Shares. It has had access to such financial and other information concerning the
+Company and The Shares as it has deemed necessary in connection with its decision
+pg. 44
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+to invest, including an opportunity to ask questions of and request information from the
+Company, and such information has been made available to it.
+(5)                                                                                                                                          It is acquiring The Shares for its own account, or for one or more purchaser accounts
+for which it is acting as a fiduciary or agent, in each case for investment, and not with a
+view to, or for offer or sale in connection with, any distribution thereof in violation of the
+Securities Act or any other applicable securities laws, subject to any requirement of law
+that the disposition of its property or the property of such purchaser account or
+accounts be at all times within its or their control and subject to its or their ability to
+resell The Shares pursuant to Rule 144A, Regulation S, or any other exemption from
+registration available under the Securities Act.
+(6)                                                                                                                                          Each holder of Security Tokens, if, as and when issued, issued pursuant to Regulation
+S acknowledges on its own behalf and on behalf of any purchaser account for which it
+is acquiring The Shares, and each subsequent holder of such Security Tokens by its
+acceptance thereof will be deemed to acknowledge that, until the expiration of the one
+year “distribution compliance period” under Regulation S (the “Distribution Compliance
+Period”), it will not make any offer or sale of Security Tokens to a U.S. person or for the
+account or benefit of a U.S. person within the meaning of Rules 902 and 903 of the
+Securities Act, except in compliance with applicable securities laws. In addition, such
+holder further acknowledges that with respect to The Shares received pursuant to
+Regulation S, hedging transactions involving such Security Tokens may not be
+conducted unless in compliance with the Securities Act.
+Each holder of The Shares agrees (on its own behalf and on behalf of any purchaser
+account for which it is acquiring The Shares), and each subsequent holder of Security
+Tokens by its acceptance thereof will be deemed to agree, that (A) prior to the
+expiration of the applicable holding period set forth in Rule 144 (the “Resale Restriction
+Termination Date”), it will not offer, sell, assign transfer, pledge, encumber or otherwise
+dispose of Security Tokens, except to the Company or any of its subsidiaries and (B)
+after the Resale Restriction Termination Date, if it is an affiliate of the Company (or has
+been an affiliate of the Company within the immediately preceding three months), will
+offer, sell or otherwise transfer Security Tokens only (i) to the Company or any of its
+subsidiaries, (ii) pursuant to a registration statement that has been declared effective
+under the Securities Act or (iii) pursuant to any other available exemption from the
+registration requirements of the Securities Act (including in accordance with Rule 144, if
+available), subject, in each of the foregoing cases, to any requirement of law that the
+disposition of its property or the property of such purchaser account or accounts be at
+all times within its or their control and, in each case, in compliance with applicable
+pg. 45
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+securities laws of any U.S. state or any other applicable jurisdiction. In addition, the
+Company will require, prior to any offer, sale or transfer pursuant to clause (B)(iii), the
+delivery of an opinion of counsel, certification or other information satisfactory to the
+Company.
+Each holder of The Shares acknowledges that the Company is not making any
+representations as to the availability of the exemption provided by Rule 144 for resale
+of Security Tokens.
+It agrees that it will not transfer Security Tokens unless it is given reasonable assurance
+that each person to whom it transfers Security Tokens receives notice of any
+restrictions on transfer of such Security Tokens.
+(7)                                                                                                                                          If it is an acquirer in a transaction that occurs outside the United States within the
+meaning of Regulation S, it acknowledges that until the expiration of the Distribution
+Compliance Period, any offer or sale of The Shares within the United States or to a
+U.S. Person by a dealer (whether or not participating in the offering) may violate the
+registration requirements of the Securities Act.
+(8)                                                                                                                                          It acknowledges that the Company will not be required to accept for registration of
+transfer any Tokens, except upon presentation of evidence satisfactory to the Company
+and the Transfer Agent that the restrictions set out therein have been complied with.
+(9)                                                                                                                                          It understands that no action has been taken in any jurisdiction in the U.S. or elsewhere
+by the Company that would result in a public offering of The Shares or the possession,
+circulation or distribution of this whitepaper or any other material relating to the
+Company or The Shares in any jurisdiction where action for such purpose is required.
+Consequently, any transfer of Security Tokens will be subject to the transfer restrictions
+set forth under this “Notice to Purchasers.”
+(10)                                                                                                                                         It (a) is able to act on its own behalf in the transactions contemplated by this
+whitepaper, (b) has such knowledge and experience in financial and business matters
+as to be capable of evaluating the merits and risks of its prospective investment in The
+Shares and (c) (or the account for which it is acting) has the ability to bear the
+economic risks of its prospective investment in The Shares, and can afford the
+complete loss of such investment.
+(11)                                                                                                                                         It acknowledges that the Company will rely upon the truth and accuracy of the
+acknowledgements, representations, warranties and agreements set forth in this
+pg. 46
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+“Notice to Purchasers” section and agrees that, if any acknowledgements,
+representations, warranties and agreements deemed to have been made by its
+participation in the offering of The Shares are no longer accurate, it will promptly notify
+the Company.
+(12)                                                                                                                                         If it is acquiring The Shares as a fiduciary or agent for one or more purchaser accounts,
+it represents that it has sole investment discretion with respect to each such account
+and that it has full power to make the acknowledgements, representations, warranties
+and agreements set forth in this “Notice to Purchasers” section on behalf of each such
+purchaser account.
+(13)                                                                                                                                         Either (i) the holder of a Security Tokens is not acquiring or holding The Shares or an
+interest therein with the assets of (A) an employee benefit plan that is subject to Part 4
+of Subtitle B of Title I of The Employee Retirement Income Security Act of 1974, as
+amended (“ERISA”), (B) a “plan” to which Section 4975 of the Code applies (including
+an individual retirement account), (C) an entity deemed to hold “plan assets” of any of
+the foregoing by reason of an employee benefit plan’s investment in such entity, (D) a
+governmental plan (as defined in Section 3(32) of ERISA), (E) a church plan (as
+defined in Section 3(33) of ERISA) that has not made an election under Section 410(d)
+of the Code, or (F) a non-U.S. plan, or (ii) the Holder is acquiring or holding such
+Securities or an interest therein with the assets of (A) a governmental plan, a church
+plan that has not made an election under Section 410(d) of the United States Internal
+Revenue Code, or a non-U.S. plan and (B) the acquisition and holding of such
+Securities by the purchaser, throughout the period that it holds The Shares and the
+disposition of such Securities or an interest therein will not constitute or result in a
+violation of any provisions of any applicable United States federal, state or local laws or
+non-U.S. laws that regulate such plan’s investments.
+Digital Notices
+Purchasers (including secondary purchasers) of The Shares will be required to be presented with
+the restrictions on transfer of Security Tokens and, at a minimum, must affirmatively signal their
+understanding of the information and provide the Company with certain representations on their
+investor status and location. The Token Terms and Conditions will be presented at that time as
+well.
+pg. 47
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+Tax Matters
+You must seek your own tax advice in connection with acquisition, storage, transfer and use of
+security tokens, which may result in adverse tax consequences to you, including, without
+limitation, withholding taxes, transfer taxes, value added taxes, income taxes and similar taxes,
+levies, duties or other charges and tax reporting requirements. The tax characterization of security
+tokens also affects the Company’s tax liability in connection with this offering. There are also
+significant uncertainties about the taxation of the operations of the Company.
+SELLING RESTRICTIONS
+No action may be taken in any jurisdiction that would permit a public offering of The Shares or the
+possession, circulation or distribution of this whitepaper in any jurisdiction where action for that
+purpose is required. Accordingly, The Shares may not be offered or sold, directly or indirectly, and
+neither this whitepaper nor any other offering material or advertisements in connection with The
+Shares may be distributed or published in or from any country or jurisdiction except under
+circumstances that will result in compliance with any applicable rules and regulations of any such
+country or jurisdiction.
+pg. 48
+This document is proprietary and confidential.  No part of this document may be disclosed in any manner to a third party without the prior
+written consent of Edgewater Digital Technologies Inc.
+
+
+
+
+

@@ -1,0 +1,1397 @@
+﻿SWARM FUND
+The Blockchain for Private Equity
+The first globally live security token platform,
+coming to market by tokenizing funds
+and other assets
+White Paper
+April, 2018 / V0.91
+Contents of the white paper are subject
+to changes and improvements.
+
+
+
+
+Abstract
+Swarm’s governance-first model has been designed to bring  $1
+trillion  in  real  assets  into  the  blockchain  world  by  creating  a
+platform for regulatory engagement and a fully compliant legal
+container for highly profitable and scalable investments.
+As  with  other  highly  successful  network  models  like  Visa,  our
+infrastructure  is  fully  accessible  and  entirely  governed  by  its
+community  members.  We  use  a  token-based,  stake-weighted,
+liquid democracy system to provide both an early adopter incentive
+and input into long-term decision making. This is augmented by a
+reputational system, which helps streamline capital deployment
+and allow a fusion of human and artificial intelligence.
+We launch with multiple partner funds (distressed real estate, art,
+renewables, hedge funds) who have already deployed  $100mm+
+with  30+%  IRR  and  team  members  who  have  built  platforms
+that  handle  over  $20B  in  transactions  per  month.  Our  market
+infrastructure  allows  funds  to  automate  creation,  fundraising,
+deployment,  distribution,  and  reporting  via  a  process  language
+that  is  an  enhancement  of  currently  available  smart  contract
+technology.
+2
+
+
+
+
+Disclaimer
+The attached white paper is meant to describe Swarm’s currently
+anticipated plans for developing its business and its SWM Tokens.
+Nothing in this document should be treated or read as a guarantee
+or promise of how Swarm’s business will develop or of the utility
+or value of SWM; the document outlines our current plans, which
+could  change  at  our discretion,  and the  success  of which will
+depend on many factors outside our control, including market-
+based factors and factors within the cryptocurrency industries,
+among others.1
+Any  statements  about  future  events  are  based  solely  on  our
+analysis of the issues described in this document, and our analysis
+may prove to be incorrect.
+Purchasing SWM is subject to many potential risks, some of which
+are described in this paper, and some of which are provided in
+the FAQ on SWM Tokens and the Token Offering and in the risk
+disclosures for the Token Offering.   These documents, along with
+additional  information  about  our  business  and  the  SWM,  are
+available on our website.1    Purchasers of SWM could lose all or
+some of the value of the funds used to purchase SWM.
+1 Make sure to review:
+https://docs.swarm.fund/swarm-otc-risk-disclosures.pdf
+https://docs.swarm.fund/swarm-otc-token-term-sheet.pdf
+3
+
+
+
+
+1 . INTRODUCTION                                    5
+1.1 Overview                                        5
+1.2 The Ultimate Value Proposition                  6
+1.3 Current Investment Drawbacks                    7
+1.4 Mission Statement: Why We Created Swarm Fund    8
+2 . SWARM INNOVATIONS                               10
+2.1 Liquid Democracy                                10
+3 . SWARM TOKEN                                     13
+3.1 Two-tiered Token Model                          13
+3.2 Token Utility and Value                         14
+4 . SWARM PLATFORM MODEL                            20
+4.1 Swarm Layers                                    20
+4.2 Platform Components                             22
+5 . SWARM APPLICATIONS                              25
+5.1 Characteristics of Pilot Asset Classes          25
+5.2 Crypto Hedge Fund                               26
+5.3 Distressed Real Estate                          26
+5.4 Solar Installations                             26
+5.5 Purpose-driven Funding Pools                    27
+6 . TOKEN OFFERING                                  28
+6.1 Token Offering in Brief                         28
+6.2 Token Allocation                                28
+7. ROADMAP                                          29
+7.1 Key Activities                                  29
+7.2 Finances                                        30
+7.3 Development Roadmap                             31
+8 . LEADERSHIP                                      32
+8.1 Core Team                                       32
+8.2 Capital Market Advisors                         35
+8.3 Technology Advisors                             36
+8.4 Governance and Organizational Design Advisors   36
+8.5 Partners                                        37
+9. LEGAL INNOVATIONS                                38
+10. MEDIA COVERAGE                                  40
+11 . REFERENCES                                     41
+4
+
+
+
+
+1. Introduction
+1 .1 OVERVIEW
+The Swarm Fund team plans to help the               Swarm is building technology bottom-up, with
+crypto world grow to $1 trillion by bringing        a fully operational liquid democracy platform
+tokenized real-world assets through partner         for making key decisions related to investment
+funds.                                              opportunities on Swarm.
+The Swarm Fund team has managed $10B in             Our technology and blockchain co-op model
+portfolios and built platforms which handle         will likely also be useful for other industry
+$25B of monthly deal flow and already has           verticals besides finance.
+several pre-selected funds which generate
+30+% IRR through scalable models powered            People should participate if they believe in the
+by artificial intelligence.                         value proposition of democratizing finance,
+                                                    collaborative ownership, high returns, and the
+Swarm token holders will govern the platform        soundness of both the team and technology.
+in which all of this will happen and receive
+additional tokens on the private blockchain.
+This will allow them to participate in all of the
+subfunds.
+This system is designed to be adaptable
+for full regulatory compliance in multiple
+jurisdictions. The corridor between the public
+and private blockchain tokens is additionally
+designed to be fully AML/KYC compliant and to
+follow the model of existing exchanges.
+5
+
+
+
+
+Swarm goes beyond the typical ICO approach:
+Standard ICO Approach                                    Swarm Approach
+Utility token on public blockchain                       Utility token on public blockchain, and unlimited
+security tokens on private blockchain
+Unclear underlying value                                 Sub-tokens backed by existing highly profitable
+sub-funds holding real assets
+Single Swiss nonprofit foundation                        Seven inter-networked legal entities in different
+jurisdictions united by one platform co-op
+Unclear relation with regulators                         Direct relationships with regulators in multiple
+jurisdictions and organized legal conferences with
+extremely positive responses
+Prototype product or no product                          Working alpha product of utility layer and private
+blockchain asset structure
+No governance                                            Liquid democracy model on foundation level as
+well as for each security token separately - allows
+users to vote on any kind of issue
+No experience delivering product                         Team includes two previous CEOs with proven
+                                                         track records building and selling companies and
+                                                         private equity domain experience
+Token value is derived from velocity of token transfer   Token value is derived from functioning as “gas” of
+                                                         all fund operations and token transactions on the
+                                                         network
+Unknown or non-existent AML/KYC                          Fully compliant investor qualification (AML/KYC,
+                                                         etc.) through private blockchain implementation
+                                                         fully implementing local jurisdictions
+1 .2 THE ULTIMATE VALUE
+PROPOSITION                                              Additionally, peer-to-peer models are a
+From the standpoint of organizational                    perfect substrate for the utilization of artificial
+design, Wall St. is a collection of archaic              intelligence and a much higher degree of
+incentive models waiting for a fully peer-               automation in general. Peer-to-peer models
+to-peer organization to disintermediate and              combined with models of cooperative
+redistribute the wealth that is monopolized by           ownership also allow a high degree of
+a small group of insiders. Wall St. insiders are         resistance to abuse of big data, as well as
+able to manipulate market prices by creating             integration with other governance systems to
+artificial scarcity and promoting fear and               offset any potential abuses.
+ignorance of other models.
+                                                         Systems are a product of their incentives. If
+Peer-to-peer models consistently beat                    the existing Wall St. model has incentives for
+protectionist monopoly-based models                      protectionism and hierarchy, Swarm Fund
+because they directly incentivize top                    has incentives for early identification of talent
+performers rather than creating multiple levels          and rewards that proportionally follow high
+of opaque hierarchy, and because they layer              performance.
+dynamically-generated reputation on top of
+these models.
+6
+
+
+
+
+1 .3 CURRENT INVESTMENT                                                                                                             Meanwhile, tokens that store digital value are
+DRAWBACKS                                                                                                                           breaking into the mainstream investment
+Crypto Asset Holders                                                                                                                landscape as a new asset class in which
+The investment landscape for crypto asset                                                                                           to allocate investment capital. This is
+holders is largely limited in choice to either                                                                                      largely driven by an increasing awareness
+a selection of established crypto currencies,                                                                                       of the extreme returns generated by the
+(e.g. Bitcoin, Ether, Ripple etc.) or a selection                                                                                   early investors in this category. But for the
+of more recently issued tokens (i.e. altcoins).                                                                                     mainstream investor, this new asset class
+While overall crypto asset developments are                                                                                         presents challenges; namely, the workflow
+extremely positive, both asset categories have                                                                                      basics of navigating trading, and maintaining
+significant challenges associated with them                                                                                         asset security.
+from an investment perspective.
+◆ For Bitcoin and Ether, volatility is a major                                                                                      Market Problems in Traditional Investing
+factor. Holding a significant portfolio of                                                                                          Over the last 15 years, a simple S&P 500 index
+Bitcoin and Ether implies that the net asset                                                                                        fund outperformed 92% of large-cap funds.
+value fluctuates by a significant percentage                                                                                        Meanwhile, the percentages of mid-cap and
+on a monthly basis. As an investment, this                                                                                          small-cap funds lagging their benchmarks
+could be desired, but for the purpose of                                                                                            were 95% and 93%, respectively. The odds of
+predictable preservation of value, it is highly                                                                                     an actively-managed domestic equity mutual
+undesirable.                                                                                                                        fund performing better than an index fund are
+◆ For investment in altcoins, the challenges                                                                                        nearly as bad as 1 out of 20.2
+are primarily related to the evaluation of                                                                                          Finding products with high investment return
+assets prior to investment, and lack of                                                                                             is a challenge, which increases as the target
+liquidity post investment. It is also difficult                                                                                     return increases. The marquee products
+for many investors to clearly understand the                                                                                        offering more than 10% returns are invariably
+market dynamics of the coins.                                                                                                       hard to access (Bridgewater generally requires
+◆ Although the two million crypto asset                                                                                             that its clients have a minimum of $5 billion of
+transactions every week between people,                                                                                             investable assets3).
+businesses, and charities suggest a                                                                                                 Take real estate as an example. Investors
+significant value exchange, the grand
+question of the intrinsic value of Bitcoin and
+its peers remains.1
+Bridge to the New Financial World
+1                                                                                                                                   “Look, this is a perfect asset for a speculative bubble…There is a finite supply. There is no intrinsic value. If anybody is persuading you that it should somehow be related to
+some GDP or gold…put down the Kool-Aid and back away.” Henry Blodget, founder and CEO of Business Insider, on CNBC’s Squawk Alley
+2 http://www.marketwatch.com/story/why-way-fewer-actively-managed-funds-beat-the-sp-than-we-thought-2017-04-24
+3 https://www.elitetrader.com/et/threads/so-you-want-bridgewater-to-manage-your-money-there-is-one-small-condition.290936/
+7
+
+
+
+
+mostly face three major challenges:                Core Objective: Follow The Experts
+◆ The most exciting deals are for insiders only;   Swarm allows experts to run their own
+accessing them requires working through            syndicates and have other crypto investors join
+middlemen that are costly, sometimes               them in projects and deal opportunities, with
+untrustworthy, and who often only operate          no middlemen involved.
+locally.                                           We are building an ecosystem of experts with
+◆ Large amounts of money are required to           any kind of edge (track record, trading ability,
+participate in the best opportunities.             unique data, unique deal access, etc.) in order
+◆ Worst of all, investment is often tied down      to allow crypto investors to follow and co-
+for an indefinite amount of time.                  invest with them.
+Combinations of these challenges are part of       This changes the mechanics of the traditional
+any traditional investment product category,       fund/GP model, as investments can be as
+e.g. private equity and hedge funds.               large or small as the investor wants them to
+                                                   be, and they can operate the fund structures
+1 .4 MISSION STATEMENT:                            very flexibly. Also, it breaks up the syndicates
+WHY WE CREATED SWARM FUND                          of gatekeepers and rigid structures of
+Swarm is a fully decentralized capital Swarm       institutional capital as it is deployed today.
+is a fully decentralized capital marketplace
+platform built on blockchain technology that is
+entirely owned by the community.                   Core Objective: Combine Token Flexibility
+Our vision is to allow anyone, anywhere in the     With Real Opportunities
+world, to participate in value creation within     Crypto investors have appreciated the
+the crypto asset category and to capture           flexibility and immediate market-making
+opportunity in new types of asset-backed           function that tokenization has introduced.
+tokens, including in real estate, hedge funds,     Tokens and their underlying smart contracts
+solar installations, and many more.                represent the ultimate opportunity for two
+Swarm transforms financial opportunities from      parties to come together and interact without
+exclusive to inclusive. We provide access and      middlemen. One benefit is the freedom to
+tradability so that anyone can take part and       trade or co-own tokens. That is the freedom
+have their crypto funds work for them.             we want to bring to any kind of asset.
+With Swarm, we will:                               When a participant likes an opportunity
+◆ Make it extremely simple for hands-off or        running on Swarm, they will be able to pool
+novice crypto investors to participate in a        funds together with others and invest as little
+composite of wealth creation resulting from        or as much as they want in order to realize the
+utilizing the crypto space.                        project and see the opportunity grow.
+◆ Create a viable framework and hub for            At the same time, all projects become
+crypto investors to invest into alternative,       tradable, asset-backed tokens. Participants
+asset-backed token opportunities, in order         can buy or sell these tokens whenever they
+to escape market volatility.                       want; they decide how long to engage. All
+◆ Introduce a new alternative liquidity hub for    trades are made using blockchain technology,
+project owners with attractive underlying          making them fast, transparent, and secure.
+economics to find capital and engage with
+the investor community.
+8
+
+
+
+
+Core Objective: Collective Intelligence
+We believe in the swarm intelligence hypothesis that decentralized networks
+can out-compete traditional centralized entities, and that the trust and
+transparency embedded in blockchains greatly facilitates this.
+The foundational element of the blockchain is data transparency, which
+provides a basis for an unprecedented degree of machine-driven methods to
+generate insights and take actions.
+Ultimately, with Swarm we envision a degree of investment automation that
+helps participants make informed and data-driven investment decisions,
+while using reputational scores to maintain the health of the market. Our
+automation can go even further, to where every step of the investment
+process, from workflows to establishment of legal structures, will eventually
+be automated, creating an efficient system without single points of failure or
+control.
+With Swarm we envision an unseen
+degree of investment automation.
+9
+
+
+
+
+2. Swarm Innovations
+2 .1 LIQUID DEMOCRACY                                Swarm employs an enhanced voting stake
+Network Democracy as Liquid Democracy                process. The enhanced voting stake makes use
+Network democracy is a stake-weighted                of a locking period and is a proposed addition
+delegated voting system (liquid democracy)           to the stake-weighted liquid democracy
+that also provides options for enhanced stake        (which does not allow tokens to be traded for
+and programmable liquidity.                          a certain period). This can also allow a person
+Stake-weighted means that voting power is            to have a proportionally higher voting weight
+directly proportional to the amount of stake         if they have a provable long-term stake in the
+you have in a project. In the blockchain world,      network.
+this is typically called your ”tokens” or ”coins.”
+In the world of stock, this would be called your     Traditional model:
+”stock” or ”shares.”
+Liquid democracy involves ”delegated voting”
+and implies that a user can delegate their
+vote to another party at any point, for as long
+a duration as they desire. This allows users to      A funding pool is an organization governed by
+maintain a degree of control without having          network democracy that distributes funds. It
+to participate in minute decision making.            can be structured similarly to an investment
+This is in some ways similar to the decision         fund, in which case it seeks opportunities
+an investor makes when they give someone             or some other purpose (e.g., advocacy,
+capital for a project; the key distinction is that   education). Funds that go into any funding pool
+in a liquid democracy, the investor retains          can be allocated by a higher-level network
+control of the capital.                              democracy or received independently.
+Stake-weighted liquid democracy is a highly
+flexible governance model that accommodates          A key element of the Swarm Platform is the
+any structure, from one-member-one-vote, to          use of tokenized assets. Swarm may be used
+traditional corporate arrangements, to novel         to govern other real-world assets, such as real
+forms of collectives. It also appropriately          estate and other tokenized elements derived
+incentivizes the many different types of             from classic investment vehicles. Specific
+possible contributions to a network (code,           details of these deal opportunities are made
+community contributions, funding) and                available to members of the network.
+allows for both decision-making capability
+and rewards. It also integrates with other
+automated decision-making structures, such
+as futarchy.
+10
+
+
+
+
+Swarm Platform as a Representation of Holonic Principles
+Trust Network                                              as a positive one is important for separating
+The trust network is made up of many                       signal from noise (an example of a similar
+independent trust endorsements (i.e. vectors),             problem being Facebook fake news). As with
+which create accountability and allow                      other open networks, it has an open-access
+automation.                                                policy and the nature of the endorsements is
+pseudonymous.
+Trust Equation
+The trust is the sum of all trusted parties and
+their recommendations from the standpoint
+of an individual (here represented as vectors,
+which can be positive or negative). In this case,
+we record all of these endorsements and allow
+multiple levels of ascription and derivation.
+Trust currency is made up by individual
+immutable trust vectors. Each trust
+vector i t  is an endorsement. A endorses B
+for X. This has a timestamp and an optional
+weight represented as a number from [-1 .. 0 ..
+1]. The ability to provide a negative filter as well
+11
+
+
+
+
+Trust Graph                                         It helps incentivize positive overall social
+These vectors are optimally represented             contributions and augments the network more
+as a graph. This graph illustrates that trust       generally. It also allows full automation. For
+(including what we believe to be true) can be       example, portfolio allocation decisions can be
+derived from the various trust vectors on the       made by artificial intelligence. It also makes
+network.                                            certain other accountability mechanisms less
+The implications of a trust model are               necessary due to the strong social component.
+numerous. An open reputation ledger built of
+individual trust vectors is a critical element in
+the Swarm Platform.
+Swarm Trust Vectors
+4 TrustGraph.io - Harlan T. Wood, Adam Apollo
+12
+
+
+
+
+3. Swarm Token
+The token distributed during the token launch is known as the Swarm
+Token, or SWM. The SWM token is a standard ERC20 token (on the
+Ethereum platform) that allows one to use the Swarm software platform.
+The utility unlocked by the SWM token is the ability to create sub-
+funds, participate in token offerings of Swarm projects, get access
+to information that is exclusive to our network, and execute network
+governance functions. Member participation is key to the Swarm
+platform. Over time, more functionality will be released that helps
+generate swarm intelligence for the benefit of the network. This follows
+the model pioneered by Visa, SWIFT, and other consortia where common
+infrastructure is maintained by member organizations.
+3 .1 TWO -TIERED TOKEN MODEL
+The Swarm ecosystem has two types of                                       SRC20 token standard. The SRC20 standard
+tokens. The Swarm token (SWM) is a utility                                 implements fundamental characteristics to
+token, and the essential element that powers                               support regulatory compliant issuance of
+the Swarm ecosystem. It is used as Gas to                                  security tokens, such as transfer restrictions.
+implement the token economics on Swarm.
+Proofs create a self-enforcing mechanism,
+encouraging a thriving decentralized network
+of participants. Participating providers and
+consumers on the network use the SWM
+token to settle transactions on the platform
+and provide other services to operate the
+network. The SWM token also grants access to
+Swarm’s governance technology, which is used
+to govern any significant decision made on the
+platform.
+The second token category on Swarm is the
+security token layer, whereby each investment
+opportunity on Swarm is represented by
+its own security token, supporting the
+13
+
+
+
+
+Basic structure of the Swarm Token
+3 .2 TOKEN UTILITY AND VALUE
+In general, incentives and counter-incentives - elements of Game
+Theory - are not new in blockchain projects, and act as core functions
+that encourage desired behaviour in a decentralized system.
+Bitcoin’s Proof-of-Work (PoW) incentivizes miners to process
+transactions on the network, thereby securing it in return for
+a monetary reward to the first miner that solves an arbitrary
+mathematical problem and creates a new block.
+The 2nd generation model with Proof-of-Stake (PoS) is a more efficient
+protocol for validating transactions. New block creators are chosen
+deterministically, there is no block reward, and instead, the chosen
+block creator is rewarded proportionally to their wealth, or stake in the
+network. In other words, with PoS, incentives are constructed to buy
+and hold some of the coins being minted, with miners incentivized by
+transaction fees.
+14
+
+
+
+
+Now we’re seeing the rise of projects inspired       democratizing finance. We’re going further
+by “The Third Wave of Crypto” - decentralized        than opening up alternative high-performing
+projects that provide incentives and rewards         investment opportunities to all people rich and
+that promote deeper collaboration and                poor.
+real-world interaction, incorporate machine
+learning and artificial intelligence, and bring      At Swarm, we’re building a distributed system
+real assets to the blockchain. We’re now             that is AI-powered, community-governed, and
+moving on from incentives that encourage             will evolve into a self-sustaining and efficient
+support of the network and proving blocks, to        global resource marketplace.
+rewarding important value-adding services to
+the community of token holders (in addition
+to the core value proposition central to the         Swarm Token Utility Model
+system).                                             The token model has two core elements:
+                                                     ◆ The SWM tokens are created for the network
+NEO’s users are rewarded GAS to create               to govern a market infrastructure for a large
+a network that deploys and runs smart                pool of assets running on the Swarm Network.
+contracts. SIA tokens incentivize data hosts to      The Swarm (SWM) utility token has a limited
+stay online, building a network of decentralized     supply of 100M tokens.
+storage with sufficient redundancy.                  ◆ The SRC20 tokens are security tokens,
+Simply put, we’re seeing the first signs of          minted by the syndicate manager of each
+blockchain-based self-sustaining ecosystems          investment opportunity, that represent
+that disentangle massive inefficiencies in the       ownership of that investment.
+current economy.
+                                                     In that context, the SWM token has three
+In this spirit, we have been designing a crypto-     essential functions on the Swarm platform,
+economic token model that we believe                 each of which add to its value in a unique way,
+achieves far more than its core vision of            and each incentivized by the network.
+The SWM Token is the essential element
+which powers the Swarm ecosystem
+Proofs create a self-enforcing incentive mechanism
+encouraging a thriving decentralized network
+TOKEN HOLDERS                                        SERVICE PROVIDERS                                  PROJECT OWNERS
+SWM As Voice                                         SWM As Value                                       SWM As Gas
+SWM is used to govern by vote, the                   SWM is the incentive and the reward                SWM is required to launch new
+direction of the platform                            for services provided on the platform              investment opportunities and to keep
+them operational
+15
+
+
+
+
+SWM as Gas                                             capital placements, allows for tradeability and
+SWM functions as the core element that                 liquidity. However, rather than directly paying
+powers investments to operate.                         GCD to the fund, Swarm offers investors a
+On the investment side, fund managers are              strategic choice.
+required to pay SWM when they launch new
+investment opportunities and to keep them              Investors choose between:
+operational for their duration. We call this Gas       ◆ Liquidity: Investors can opt to keep their
+for Fund Operations (GFO), and it has the              investment liquid and tradeable, in which case
+following characteristics:                             the corresponding GCD is forfeited, but they
+◆ GFO is calculated as a percentage of Net             receive regular returns on their investment, or
+Assets Under Value (in $USD) and is payable in         ◆ Commitment: Investors can opt to lock
+SWM                                                    their investment for a fixed period of time,
+◆ GFO is withdrawn on an ongoing basis, as             correspondingly locking their GCD for the same
+needed, in order to fund operations                    amount of time. Capital, returns, and the full
+◆ Subject to iteration by early adopters, initial      amount of locked GCD is fully refunded at the
+GFO will be in the range of 0.6 - 1.0%                 end of the locking period. Note that investors
+                                                       could choose liquidity at first and once they
+Fund managers are required to continuously             gain comfort with the investment, later move
+maintain a positive balance of SWM to                  into a commitment on a lower basis (as some
+cover their expected GFO needs. Managers               of the GCD will already have been released on
+are able to plan their purchase of SWM at              a prorated basis). Subject to iteration by early
+times optimal to them, taking into account             adopters, initial GCD will be in the range of 1.0
+market forces, their own expert analysis, and          - 1.5%
+future investment requirements. In future
+iterations, this will be fully powered by artificial   Strategically opting to lock one’s GCD acts as a
+intelligence. For example, a real estate fund          Proof-of-Commitment, and brings enormous
+that expects to make a large investment                benefits for both investors and fund managers:
+in a year’s time may opt to front-load their           ◆ Fund managers can act on investments with
+purchase of SWM now, taking advantage of               far greater certainty knowing investor funds
+current prices and known market conditions.            are committed, and can recycle and reinvest
+                                                       capital rather than paying returns out regularly,
+SWM raised from GFO is automatically sent              giving them a greater ability to negotiate using
+to a smart contract that acts as a Proof-of-           their assets.
+Service pool. This pool is then used to reward         ◆ Investors who lock their GCD can also
+third-party actors that provide additional             benefit from potential appreciation in the value
+value-adding operational services such as              of SWM once their chosen locking period has
+audit, accounting, or marketing services,              ended.
+further adding value to the platform as a
+whole and promoting its growth.                        Swarm’s Proof-of-Commitment is so powerful
+                                                       that we’ve introduced a further incentive
+On the other side of the equation, investors           mechanism to encourage it, especially for
+are required to pay SWM when they allocate             those funds to whom capital commitment is
+capital to an investment. We call this Gas             strategically important. Fund managers are
+for Capital Deployment (GCD) and it can                given the option to match an investor’s GCD
+be thought of as a traditional placement               commitment with their own, in any ratio they
+fee that, in contrast to other private equity          like. This greatly amplifies investors’ potential
+16
+
+
+
+
+returns at the expiration of the lock. As an example, a solar installation
+in California, for whom capital commitment is important, may offer
+2-for-1 GCD matching as incentive for a 3-year lock, meaning that
+investors who choose to commit their investment receive a bonus of
+double their locked SWM tokens at the end of the locking period.
+GCD Proof-of-Commitment allows investors to effectively neutralize
+their placement gas and therefore boost their returns, while giving
+plannability and certainty to managers. Both win.
+SWM as Voice
+Perhaps the most revolutionary feature of the Swarm platform - and
+the one we are very passionate about - is its Liquid Democracy voting
+module. Swarm is built with governance designed into the core, and
+at every level. Blockchain is maturing beyond payment systems,
+stores of value, and distributed applications (Dapps). We are entering
+the age of real assets on the blockchain. Art installations, marijuana
+plantations, and community-funded infrastructure are all going to be
+conceptualized, debated, crowd-funded, realized, and managed on the
+blockchain. None of these functions can be performed without a layer
+of governance, arguably the most fundamental and important utility of
+SWM.
+Direct governance of investments is necessary and important, as we
+are not building Swarm to be another middleman. The ultimate goal is
+to found an ecosystem of independently governed engagements; an
+upgraded iteration of the DAO.
+Incentivized Governance                                                      Self-governance ensures the
+                                                                             evolution of the platform
+Governance is inherently key
+to Swarm
+                                                                             Swarm‘s governance model enables
+                                                                             direct representation for minorities
+The foundation allocates budgets
+to incentivize governance                                                    Through Liquid Democracy, votes can
+be delegated to those with
+Only token holders have voting                                               domain-specific knowledge
+rights in platform &
+investment-level decisions                                                   Delegation grants better-informed
+                                                                             individuals greater voting power
+Voters are rewarded with SWM for
+participating & taking actions to                                            Through incentivized governance, the
+improve the system                                                           Swarm Foundation is building a fully
+decentralized, self-governing
+Proof-of-Participation
+Participants get rewarded for
+making proposals & voting on the
+17
+
+
+
+
+SWM as Value
+SWM’s value derives directly from its powers          specialized knowledge, and further compete
+as incentive and reward; powers that                  by matching incentives.
+combine asset management with resource
+efficiency, powers that strengthen community          Infrastructure and service providers are
+engagement, and powers that derive and keep           incentivized to continuously innovate and
+value within the platform.                            advance the virtuous competitive cycle of
+Optimal behavior is clear within the system -         delivering more at lower cost.
+for all actors - and is summarized in the table       While initial monetary policies for gas
+below:                                                prices will be set by the foundation, future
+                                                      policy will be voted on and iterated by early
+◆ Investors choose between two powerful               participants. Successful interaction amongst
+strategies when allocating their resources.           all stakeholders will, over time, permit the
+                                                      Swarm Foundation to act as mentor and
+◆ Fund managers plan and optimize their               guide, moving on from its role as architect and
+operational requirements according to their           administrator.
+Investors                                             Syndicates
+The user decides his/her strategy                     The syndicate is incentivized to plan & purchase
+                                                      SWM from the market at the optimal time to power
+They can choose to forfeit or lock the SWM token,     future requirements & in appreciation of SWM
+choosing between liquidity & commitment
+                                                      Matching investor commitments allow more
+                                                      mechanics to come into play
+Infrastructure Providers                              SWARM
+                                                      The foundation's core role is to develop the initial
+As the ecosystem matures, the incentives to provide
+services to the network grow                          trials of the system components & hand them over
+                                                      to other actors over time
+At the same time, for any specific service, the
+greatest rewards naturally flow to actors who
+                                                      As SWM circulates amongst all network members,
+performed most efficiently
+the foundation's role naturally devolves to a state
+of distributed self-governance
+18
+
+
+
+
+Swarm seeks to not only
+create interesting software,
+but also a community of
+“
+those interested in sharing
+their project opportunities
+with other Swarm
+participants.
+
+
+
+
+4. Swarm Platform Model
+4 .1 SWARM LAYERS
+The Swarm platform will be composed of three primary layers: Core, Services, and Application.
+Primary Layers of the
+Swarm Platform                                                                                  Layer 1: Swarm Core
+The Core layer provides the foundational system components
+and smart contracts for Swarm use: network governance
+token management with consensus via liquid democracy, and a
+management interface. This also includes system replications of the
+preferred legal frameworks, reputational engine, and decentralized
+collaboration, as well as foundational processes around security and
+data transparency.
+The Core layer framework allows for the creation and management of
+new projects. It is and always will be free and open to use.
+20
+
+
+
+
+Layer 2: Swarm Services                            Layer 3: Swarm Applications
+The Swarm Services layer will offer additional     On the highest layer, on top of the Swarm
+services on top of Swarm Core. These services      Services layer or directly operating on the
+are meant to make it extremely easy for any        Swarm Core, is the Swarm Applications layer.
+participants to build investment applications      These applications are both front-end as well
+on top of Swarm and serve the marketplace in       as in some cases application back-ends that
+the most creative way.                             are specific to target investment use cases
+These services will include full-stack             and/or target segments.
+setup of vertical Swarm funds (via Special
+Purpose Vehicles, or SPVs), operating Swarm
+syndicates, asset custodian services, and any      Our vision for Swarm is
+automation of ongoing investment operations.
+to have a wide variety of
+More features will be introduced to best meet
+investment applications
+the requirements of the evolving marketplace.
+Application templates, customization tools,
+built on the same
+and advanced data processing capabilities
+platform technology and
+will allow our users to execute their visions
+faster while lowering the barrier to entry for     liquidity pool.
+new investment applications to come to
+market. While applications and participants
+are welcome to interact with Swarm on the          Some of these applications may be built by
+Core level, we will be offering Swarm Services     Swarm, while others will be built by third
+to accelerate the go-to-market process and         parties. Our vision for Swarm is to have a wide
+reduce operational costs. Swarm Services will      variety of investment applications built on the
+be offered using a license-fee model.              same platform technology and liquidity pool.
+These applications will likely charge additional
+fees or use alternative business models such
+as market making, information selling, or
+revenue/profit sharing. As further described
+in the following section, many of such Swarm
+applications may include the release of their
+own utility tokens as a core component of
+their business model.
+21
+
+
+
+
+4 .2 PLATFORM COMPONENTS
+Liquid Democracy Voting Module
+Governance is core to Swarm’s mission. And core to that mission is
+to create infrastructure that allows participants to vote on issues in a
+trustless, transparent, and auditable way, which can persist outside of
+Swarm as an organization.
+Therefore Swarm is creating a “Liquid Democracy Voting Module”
+(“LDVM”), which has been the basis of all voting that the Swarm
+organization has performed internally and externally, and first versions
+are already available.
+The LDVM is intended to be configurable by any developer, integrated
+with other platforms, and executed outside of the Swarm platform.
+The LDVM will be able to be customized to specific voting populations,
+issue discoveries, and consensus methods, as well as voting
+processes.
+Further, a major objective of new voting systems is to relieve
+participants of ongoing voting obligations or complexities around
+voting. With the LDVM, users are able to delegate their votes to others
+in a persistent fashion, and differentiated by issue category and
+duration. With these abilities, the governance of the foundation, as well
+as each of the underlying SRC20 tokens and related legal entities, can
+be performed in completely new ways; for example, there is no longer
+a necessity for board structures.
+The LDVM is intended to become a universally applicable voting engine
+for any part of the Swarm platform, and to be usable beyond Swarm
+in other related or even unrelated projects. In particular, the open
+architecture of this module will lead to exciting new applications and
+use cases well beyond Swarm.
+Purpose-Driven Funding Wallets (“Blackbird”)
+One of the use cases powered by the LDVM will be the Blackbird
+wallet. A Blackbird wallet is a smart, multi-user wallet that collects
+funds and deploys them to a target address that is approved using a
+stake-weighted majority. Each Blackbird Wallet can potentially have
+connections to realize its purpose on the Swarm network, but not
+necessarily.
+Blackbird will allow the pooling of capital, such as for a purpose that
+has yet to be specified, and all participants together make decisions
+along the way about the deployment of capital. As the purpose gets
+further specified, more participants gain confidence and invest more
+capital, and so on. While a setup like this can have many different
+22
+
+
+
+
+use cases, the first iteration of the wallet will be used (1) as a one-
+time fund collection and deployment instrument and (2) an evergreen
+(ongoing) fund collection and deployment instrument.
+There are a number of powerful use cases that can be powered by
+Blackbird wallets. Think of Uber drivers pooling their capital to buy a
+corner position in Uber. Or the creation of a foundation to offset the
+carbon footprint of the blockchain.
+Artificial Intelligence Infrastructure for the AI-driven Investment
+Economy
+The name ”Swarm” is a reference to “Swarm Intelligence,” a form of
+decentralized intelligence. In the natural world, it manifests in self-
+organizing communities like ant colonies, flocking birds, and schooling
+fish. Swarm intelligence is also employed at the vanguard of artificial
+intelligence technology. Swarm (the company) is taking a practical,
+multi-phasic approach to solving real-world problems, while building
+the infrastructure and ecosystem that will allow for decentralized
+intelligence to occur.
+The first phase of AI at Swarm is a simple approach: providing
+users and industry professionals with tools to make more informed
+investment decisions via products of machine learning. Within the
+Swarm ecosystem, we are rolling out a practical reinforcement
+learning algorithm that uses a multi-armed bandit approach (i.e.,
+an algorithm that acquires knowledge by performing multiple
+experiments simultaneously, assessing results, and quickly learning
+to optimize outcomes). This will be combined with some traditional
+financial analytics models (EMA, MACD, Ichimoku Cloud), along with
+more sophisticated ML models (LSTM, Phased-LSTM and others).
+We anticipate this taking a few months to roll out, as the algorithms
+require sufficient data and voting within the ecosystem in order to
+provide a robust model. A deep roster of funds are in the pipeline to
+get listed on the Swarm platform, and our astute AI will analyze them
+all. Not only will we deploy our bots for the direct benefit of Swarm
+platform participants; we will also offer these tools and infrastructure
+to Swarm syndicates to create crypto hedge funds that trade using
+machine learning algorithms (ML) in addition to traditional trading
+strategies.
+The second phase will advance the platform in a few very important
+ways: First, it will allow for active trading based on individual
+configuration and preferences within the Swarm platform. Some may
+individually use the tools, and others may create funds and offer them
+as syndicates on top of the platform. Swarm members will be able
+to participate in those strategies via the Swarm platform. There are a
+23
+
+
+
+
+few key advancements in this phase: The goal will be to employ a large
+ensemble of models whose number will be determined by market
+factors. Using many reinforcement learning agents, or ”bots,” we can
+program them to compete with each other, honing their “intelligence,”
+and maximizing potential rewards. A master algo will choose how to
+execute trades based on observed potential rewards and observed
+market behavior. The goal is to decentralize the AI, eventually achieving
+proper Swarm Intelligence (Today we are getting closer, but still not
+entirely decentralized from a model perspective.). A key component of
+this phase is the ability of models to give information to other models.
+This mutual informing can be both adversarial and constructive in
+nature. Models that can win the vote of the trade get more reward.
+By doing so, models learn to capture and maximize reward across
+many different market conditions while tailored to different trading
+preferences by investors.
+The third phase is a big and extremely exciting one. In Phase 3, we
+will fully decentralize the ability to trade within the Swarm network,
+and link with other technologies. While Phase 2 allowed the Swarm
+professionals to build out fund organizations upon which Swarm
+members can vote and invest, Phase 3 will allow any individual quant
+and model builder to tokenize their own models and strategies, and
+to effectively create their own funds. These models can be trading
+algorithms, or models that serve other monetary purposes. For
+example, a model builder can provide a language model with the
+ability to parse and make sense of Twitter or Telegram feeds. Then,
+other models can tap that model for information. The goal is to create
+the core market infrastructure and a network of incentives to allow
+for both model competition and genetic evolution of performance
+and fitness, thus allowing for model primitives to evolve, which
+then generalize to different domains. We will release more technical
+information on this in the near future.
+24
+
+
+
+
+5. Swarm Applications
+Swarm-Supported Asset Types
+With the Swarm investment platform serving as a technology reference
+framework as well as a global liquidity hub, decentralized application
+developers will be able to create new classes of investment assets that
+can be used in any number of simple or complex applications.
+The following section lays out defining characteristics of asset classes in
+which to pilot the Swarm Platform, followed by subsequent sections that
+highlight a number of use cases that Swarm has identified as interesting
+target markets and which are readily deployable using the Swarm
+Platform.
+5 .1 CHARACTERISTICS OF PILOT
+ASSET CLASSES
+When launching a marketplace technology it                                    Therefore, we invested significant efforts
+is critically important to (a) build trust with                               into identifying asset classes that have the
+the participants and (b) provide curated pilot                                following key characteristics, among others:
+use cases that allow the marketplace to take                                  ◆ Have the ability to start with small amount
+off in the right direction and with the right                                 of investment.
+momentum. In identifying the first target asset                               ◆ Show continuous tangible returns.
+use cases, we have tried to balance both.                                     ◆ Represent a range of risk-reward profiles
+Particularly in light of issues that led to the rise                          that are relevant to the crypto investor
+and fall of the DAO, we approached this project                               community and provide relevant alternative
+with significant diligence and preparation,                                   asset profiles (e.g. 20%+ ROI annually,
+before being able to bring a market-ready                                     focused on global impact, etc.).
+proposal to the community.                                                    ◆ Are well-established and understood from
+We strongly felt it was important in the early                                an assessment/ratings perspective.
+stages to (1) demonstrate tangible platform                                   ◆ Scale to significant size quickly
+viability, (2) be able to show viability and
+material attractivity, and (3) be able to quickly
+scale within the use cases if they prove their
+efficacy by meeting or exceeding expectations.
+25
+
+
+
+
+5 .2 CRYPTO HEDGE FUND                               5 .3 DISTRESSED REAL ESTATE
+Investing in crypto assets presents unique           Real estate investments present a unique
+challenges, revolving around trading workflows       opportunity for private equity real asset
+and asset security. It requires expert               engagements. Especially interesting are sub-
+knowledge to properly navigate the market            market segments like distressed real estate
+and be aware of the latest market dynamics           primarily focused on judicial foreclosure states.
+in specialized market verticals, starting with       The syndicate leader we have partnered
+liquidity movements, arbitrage opportunities,        with has created a machine-driven platform
+or proper assessment of the latest market-           to identify negative equity real estate in
+influencing industry news.                           foreclosure auctions, and acquire these
+The syndicate with which we are collaborating        “Subject To” existing liens from an impartial
+forms a crypto hedge fund that strives to            federal bankruptcy trustee. During the very
+be “ahead of the curve”  with the goal to            long judicial foreclosure timelines, this
+simplify value creation for crypto investors by      provides 2-3+ years of rental income, and in
+offering the best experience to engage with          some cases the fund is even able to clear liens
+a network of investors, collaborators, and           at a steep discount and immediately sell the
+opinion makers. The objective is to present          property at profit. This produces exceptionally
+an incentivized platform for vertical experts        high cash returns and is an excellent
+to trade on their unique market knowledge or         opportunity, even in an economic downturn.
+data and to provide uncorrelated, risk-adjusted
+alpha relative to industry benchmarks. The           5 .4 SOLAR INSTALLATIONS
+composite investment strategy includes right-        There is no doubt that renewable energy,
+frequency trading into 1) a highly curated           and particularly solar, is on the rise and an
+portfolio of crypto assets, 2) derivatives           interesting asset category. The unit economics
+market-making, and 3) mining proof-of-               of producing, installing and maintaining solar
+stake tokens. The goal is to create a blend          panels have improved significantly and made
+of selected best trades based on proprietary         the investment case an interesting opportunity
+algorithms, market-neutral quantitative              with 20%+ annual returns. Additionally, there
+models, and fully automated execution.               are significant tax breaks in various regions
+globally, especially in California, which presents
+additional major economic benefits. The
+syndicate operators we have been evaluating
+We’ll create a blend of
+have been successfully building an investment
+selected best trades                                 platform specifically for this application.
+based on proprietary
+algorithms, market-
+neutral quantitative
+models and fully
+automated execution.
+26
+
+
+
+
+5 .5 PURPOSE-DRIVEN FUNDING POOLS
+Swarm is also aiming to help generate impact investments for
+nonprofits and social enterprises that help meet significant
+community needs and address humanity’s grand challenges. We are
+working to ensure basic needs are met for all people, while sustaining
+and improving quality of life and mitigating future risks. We hope
+to involve individuals and institutions who are using their resources
+for social good, and are looking beyond simply making traditional
+philanthropic gifts. We seek to help them leverage their capital directly,
+with a purpose they deeply care about, and perhaps even earn a small
+gain over time.
+We believe the crypto community has successfully proven that it can
+build incentives for the community itself to create desired outcomes.
+We envision purpose-driven funding pools, that incentivize the
+entrepreneurial community to create solutions to meet the challenges
+and compete for the “bounty” by delivering a “social Proof-of-Stake”,
+similar to the way the X-Prizes have fueled innovation.
+We believe the crypto community has
+successfully proven that it can build
+incentives for the community itself to
+create desired outcomes.
+27
+
+
+
+
+6. Token Offering
+6 .1 TOKEN OFFERING IN BRIEF
+The Swarm organization created 100M tokens, and budgeted 33M
+tokens to be sold to purchasers. Of these, 8.2M were sold in Q4 2017.
+In the current token offering, we are projecting to sell 20M tokens,
+targeting a raise of $23.75M USD denominated in ETH. Should the
+demand be higher, the Swarm Foundation can decide to re-allocate
+token budgets to expand the sale.
+With the above, the cap share distribution changes in favor of the
+community. As such, a higher market demand within the sale simply
+allows for more exchange listings on the SUN network and augments
+the value of the platform.
+Our method of drip liquidity ensures that earlier token holders cannot
+immediately “dump” all of their tokens after the purchase. After the
+token generation, the members voted to introduce a liquidity option
+that releases the token liquidity in 4 equal releases every 84 days. The
+first liquidity release started on Nov 6, 2017, and full liquidity will be
+reached on Jul 16, 2018.
+6 .2 TOKEN ALLOCATION
+Of the total 100M tokens created, 33M tokens will go to contributors
+(past Swarm members, advisors, a pool for future contributors), while
+33M tokens are assigned to the core team.
+28
+
+
+
+
+7. Roadmap
+7.1 KEY ACTIVITIES
+For the past 6 months we have been executing
+on key activities, including the launch of the
+live Swarm platform:
+◆ Our team developed concrete, trusted           ◆ Ramping up community engagement efforts,
+investment opportunities, with a goal            Swarm has 14,000+ investors registered on
+of showing successes and pushing the             the live platform, with ongoing significant
+marketplace in the right direction.              growth.
+◆ The initial deployment of the Swarm            ◆ We have developed a pipeline of 35+ funds
+platform went live on Jan 29th  2018.            that want to list on the platform; we are
+◆ Substantial work has been performed            developing onboarding processes and
+toward viable legal frameworks for Swarm         launching them soon.
+initiatives.                                     ◆ We have created partnerships with
+◆ Implementation of a regulatory framework       exchanges to support SRC20 security
+across different jurisdictions for security      tokens.
+tokens has started, including integration
+with service providers for e-infrastructure
+and AML/KYC.
+29
+
+
+
+
+7.2 FINANCES                                        Product / Development Costs: Platform
+In our token sale, we are projecting a raise of     development will include building upon and
+$23.75M USD denominated in ETH. For capital         securing core smart contracts, additional
+allocation, the main principle is that funds will   frameworks such as a decentralized
+go towards operational expenses and platform        reputational engine, trading and management
+development.                                        interfaces, service-level app templates
+                                                    and customization tools, and integrations
+Our current team members have managed               with future Ethereum or other blockchain
+individual portfolios in excess of $3B and          infrastructure such as exchanges, custodian
+built platforms with an excess of $32B in deal      service providers, and stablecoins. We will
+flow. Fund usage will be split approximately        develop certain custodian components for
+evenly between platform and application             Swarm wallet holders and work with experts
+development.                                        for custodian services (e.g., Ledger).
+Legal & Regulatory Costs: Legal requirements
+Use of Contributions                                include corporate setups in different locations
+for crowdsale, operations, and other licenses.
+Post-launch, we will work with legal advisors
+and regulators in different jurisdictions to
+develop legal opinions of the interpretation
+with local laws, and become compatible
+with e-infrastructure and AML/KYC and
+accreditation infrastructures in various
+markets. Ongoing resources are required for
+investment and possible other use cases of
+legal work. A legal contingency fund will be
+reserved in case of future need.
+Marketing & Sales: Sales and business
+development efforts will be focused on
+identifying and forming relationships with new
+projects and existing partnerships that can be
+built on Swarm. Marketing will be focused on
+promoting Swarm applications to potential
+customer segments and markets. Additional
+efforts will be spent on increasing awareness
+and knowledge of the Swarm Platform and
+what can be built with it (applications, etc.).
+30
+
+
+
+
+7.3 DEVELOPMENT ROADMAP
+Current State
+Swarm has been under development for
+over 18 months. Since then there have been
+multiple iterations of the core elements of
+Swarm. These include the smart contracts
+powering the framework as well as the general
+web interface.
+The Swarm platform has a fully operational
+live implementation since January 2018.
+The current operational platform supports
+key use cases, such as voting within network
+democracy (including delegation), wallet
+transfers (ETH/BTC/SWM), and allocation of
+Current Active Interface - Live platform at http://invest.swarm.fund
+capital towards investment opportunities.
+Future Development
+Phase 1 (Quarter 2 2018):
+◆ Legal automation: Underlying the Swarm
+platform, our goal is to automate most
+of the administrative processes related
+to foundation of SPVs (special purpose
+vehicles) and fund deployment. We seek to
+work with e-governance providers to make
+this as seamless and scalable as possible.
+◆ SRC20 token standard protocol, with
+integration to exchanges supporting security
+tokens.
+31
+
+
+
+
+8. Leadership
+8 .1 CORE TEAM
+Philipp Pieper                                      Timo Lehes
+Co-founder & Chief Executive Officer (CEO)          Co-founder & Chief Investment Officer (CIO)
+Philipp is a serial tech entrepreneur and           Timo has over 20 years of experience from
+became interested in decentralized                  starting, running, exiting and investing in
+technologies in 2015, when interacting with         software companies. Timo has served as
+BitTorrent, Inc. and the Mozilla Foundation.        an investor and executive in technology
+Philipp has been a start-up entrepreneur for        companies, with extensive experience from
+the past 15 years and is a veteran in the digital   building, running and investing in software
+data space. After holding various private equity    companies and leading various merger and
+and management positions within Deutsche            acquisition deals. Throughout his career, Timo
+Bank and Allianz Group, Philipp was founder         has invested in more than 40 companies.
+and CEO of Proximic, a global data provider for     With a specific focus on Financial Technology
+digital media buyers (acquired by comScore          or fintech, he has contributed to the creation
+in 2015), and is mentor at various accelerators     of several alternative investment platforms.
+such Stanford’s StartX, Singularity University,     He currently serves as a board member at
+as well as TechCode. He holds degrees in            BankerBay, the world’s largest deal origination
+engineering and business administration and         platform for mid-market Private Equity deals.
+attended Berlin University of Technology and        He holds degrees in engineering and business
+UC Berkeley, Haas School of Business.               administration from Chalmers University of
+Technology and early stage investing from
+continuing studies at Stanford School of
+Business.
+32
+
+
+
+
+Chris Eberle                                     Frank Taylor
+Chief Operating Officer (COO)                    Head of AI
+Chris is a digital veteran with a passion for    Frank brings nearly 20 years of experience with
+building global businesses and communities.      expertise in Statistical Modeling and Machine
+He built the Media Partner Services and          Learning. He has served as Senior Data
+Operations teams at Facebook, with global        Scientist and ML engineer at Hotel Tonight,
+responsibility for connecting public figures,    Earnest Inc., and Personagraph among others,
+creators, and publishers to create authentic     and is advisor to and has provided solutions
+content on Facebook and Instagram. He            for a multitude of startups. He is currently
+then led teams in Global Business Marketing,     directing his efforts toward decentralized
+responsible for real world experiences that      machine learning and differential privacy, and
+drive online business results with Facebook      is working to advance the domain of Artificial
+partners. Prior to Facebook, Eberle was a        Intelligence in the future decentralized
+part of startup exits at Federated Media and     ecosystem.
+Meebo (acquired by Google). Earlier in his
+career, Eberle spent a decade at AOL, where
+he started as a contract worker and eventually
+served in executive roles in marketing and
+advertising. Chris is an alumnus of Syracuse
+University and The Harvard Business School.
+33
+
+
+
+
+“Jazzwall” Sharad Jaiswal                        Vivian Jane Smith
+Head of Product & Operations                     Project Admin
+Jazzwall has been implementing and               Vivian Jane is passionate about connecting
+orchestrating enterprise IT projects and         real people to real power in ways that support
+graduate tech-training programs at Swiss and     both individual potential and a harmonious
+Wall Street banks for the last decade. Hard      global paradigm. To that end, employing two
+to put in a box, he is a project manager, full   decades of experience as a top sales leader,
+stack developer, professional photographer,      human wellness guide, and energy medicine
+entrepreneur, and very interested in crypto      practitioner, she is a fervent advocate for
+markets.                                         the widespread adoption of blockchain
+technologies that allow decentralized
+governance and financial sovereignty. Her
+goal is to empower everyday people by
+spreading awareness and application of these
+revolutionary new systems.
+Katerina Kan
+Katerina is a visionary entrepreneur focused
+on building a sustainable global paradigm in
+business and communication. She applies the
+principles of symbiotic environments, energy
+optimization, and human wellness to her
+background in administration, management,
+commerce, and customer service.
+34
+
+
+
+
+8 .2 CAPITAL MARKET ADVISORS
+Chris Kitze                                       Dapps Fund, which was a lead investor in
+CEO at Safe Cash, co-creator of Flashcoin,        the initial crowdsale for Ethereum, Factom,
+and chairman of the Alphabit Digital Currency     MaidSafe and Storj. He currently heads up the
+Foundation, Chris is a serial entrepreneur who    ICO investment committee for Alphabit Fund,
+has created companies with over $7 billion of     and advises numerous blockchain companies.
+market capitalization over his 25-year career.    Terpin has led the PR efforts for more than
+He’s been part of the Lycos’ IPO team, was        150 blockchain companies and foundations,
+founder and CEO of Xoom.com (IPO: 1998), and      including some of the leading token
+was CEO of NBCi, formed by the merger of          crowdsales. Client successes include the
+Xoom.com and Snap.com, in addition to other       launches of Aeternity, Augur, Bancor, Ethereum,
+companies in digital media and payments,          Factom, Gnosis, Golem Network, Lisk,
+such as Wine.com and Unseen.                      MaidSafe, Qtum, and Tether, as well as ongoing
+                                                  campaigns for Bittrex, Counterparty, Dash, Eos,
+Anthony Di Iorio                                  Kraken, NEM, Neo, Storj and Shapeshift.
+CEO & Founder at Jaxx & Decentral, Founder
+at Ethereum. Anthony Di Iorio is a serial         Mark Oei
+entrepreneur, VC, community organizer, and        Until end of 2016, Mark was at Sequoia Capital
+thought leader in the field of decentralized      where he served as Managing Director of the
+technologies. Born and raised in Toronto,         venture capital firm’s Heritage Fund, a multi-
+Di Iorio is the former Chief Digital Officer of   strategy vehicle offering institutional investors
+the TMX Group and Toronto Stock Exchange,         and family offices investment exposure
+founder and CEO of Decentral, a software          to multiple asset classes. As leader of the
+development company focused on blockchain         Real Asset group Mark has been seeking
+technologies, and founder and CEO of Jaxx, a      opportunistic real estate investments both
+multi-token, blockchain interface that provides   domestically and abroad. Earlier, Mark was
+a unified experience across 9 platforms and       a managing director focused on real estate
+devices. In 2013, Di Iorio funded, and along      at Oaktree Capital Management, one of the
+with Vitalik Buterin and 3 others founded the     largest institutional alternative investment
+smart contract platform Ethereum.                 managers in the United States, and was VP at
+                                                  Morgan Stanley focused on acquisitions for the
+Michael Terpin                                    Morgan Stanley Real Estate Funds.
+CEO Transform Group (75+ ICOs), CoinAgenda,
+Alphabit Fund; BitAngels; founder, Marketwired;   Vivek Krishnappa
+advisor to blockchain companies. Terpin           Vivek is a board member for the WattTime.
+co-founded BitAngels, the world’s first           org, an advisor for Nexleaf Analytics, an advisor
+angel network for digital currency startups,      for FinTech and CleanTech Astia and a former
+which gave birth in 2014 to the successful        managing director for securities lending at
+CoinAgenda series of blockchain investor          Blackrock.
+conferences in North America, Europe/EMEA,
+Asia and Caribbean/LatAm. He co-founded
+early blockchain incubator bCommerce Labs;
+the Bitcoin Syndicate on AngelList (with
+legendary super-angel Gil Penchina), and the
+35
+
+
+
+
+8 .3 TECHNOLOGY ADVISORS                       8 .4 GOVERANCE AND
+Noah Thorp                                     ORGANIZATIONAL DESIGN
+Founder, CEO at COMAKERY                       ADVISORS
+Noah’s career as a technical entrepreneur      Christian Jacken
+is built on the principles of rapid feedback   Co-founder Liquid Democracy, former Global
+through experiments, continuous learning,      Bitcoin Alliance, EFF supporter.
+spirited creativity, and iterating towards
+excellence. These principles have directed     Adam Apollo
+Noah’s path through agile software             Adam is the founder of the Guardian Alliance
+development as a developer, lean product       and trust.exchange.
+management, responsive org building as
+a cofounder, and ecosystem building as a       Brad Nye
+platform creator.                              Founder of Tribalize summit and Burning Man
+organizer.
+Bogdan Fiedur
+Full stack developer and entrepreneur. Since
+the beginning of 2016 involved in “Smart
+Contract” design and implementation for
+Ethereum, using Solidity. Knowledgeable in
+all aspects of e-commerce website, back-
+end and front-end. Experienced in setting up
+network environment, running and maintaining
+servers. Experienced in supervising teams
+of developers, preparing technical design
+documents, preparing testing plans and
+integrating existing applications with newer
+technologies.
+David Kammeyer
+Software developer and platform manager.
+Matthew Tan
+CEO and founder of Etherscan.
+36
+
+
+
+
+8 .5 PARTNERS                                         Distributed Labs
+                                                      https://distributedlab.com/
+                                                      Distributed Labs is partner in developing Swarm
+Distributed Lab                                       portal application layer and custom blockchain
+Blockchain experts                                    development.
+SecureVote
+https://secure.vote
+The award-winning team of SecureVote is
+responsible for the development of the Swarm
+Fund Liquid Democracy Voting Module (LDVM). The
+LDVM is a universally applicable and decentralized
+voting engine which can be used for any part of the
+Swarm platform.
+TokenSoft
+https://www.tokensoft.io
+Tokensoft is a full-service smart contract
+development service company with specialization
+in token sale applications; Tokensoft helped
+develop the SWM token smart contracts and
+related technology.
+AmaZix
+https://www.amazix.com
+AmaZix provides full community management
+services and aids Swarm in spreading the mission
+of our company across the globe.
+Wings
+https://www.wings.ai
+We intend to use the Wings prediction service to
+estimate the target size of our own raise and other
+sub-asset tokens.
+Jaxx
+https://jaxx.io/
+FusionICO
+https://fusionico.pro
+FusionICO is a full-service blockchain advisory
+firm specializing in Asia markets, and is providing
+translation, community management, PR, and
+marketing services for Swarm in Chinese, Japanese,
+and Korean, as well as performing outreach to
+investors and institutions in China, Japan, Korea,
+Malaysia, Taiwan, Thailand, and Vietnam.
+37
+
+
+
+
+9. Legal Innovations
+Swarm co-organized legal summits at Harvard and Stanford in which
+the Distributed Collaborative Organisation model was established5.
+Legal experts suggested that the integration of a collaborative
+governance layer to a distributed organization would make it a
+membership organization similar to a co-op. We have remained active
+participants in the evolving platform co-op movement and Internet of
+Ownership (https://ioo.coop/) movements, including a section in the
+book “Ours to Hack and to Own.” (https://platform.coop/book).
+Swarm has consistently and openly stated its intent to democratize
+finance and proactively engaged with regulators including the SEC,
+FCA, and regulators in several other countries. As a result of advice
+from top legal experts and regulators, Swarm has operated for the
+last two years under the unincorporated non-profit association terms
+as described in the results of the Harvard summit with the intent of
+creating a global platform cooperative.
+To actualize these aims, Swarm has established the following legal
+entities:
+Swarm Foundation (Liechtenstein)
+Swarm Operations GmbH (Germany)
+Swarm Operations LLC (USA)
+Swarm IP (Singapore)
+The contribution period is a collaboration between the above entities
+with the intent of taking the “Distributed Collaborative Organization”
+model and a creating a legal entity owned and governed by the token
+holders. Rather than depend on a single legal firm to implement this,
+we will create a bounty system to award the first several teams that
+manage to create token-governance systems that integrate into the
+legal and tax systems of respective nation states.
+38
+
+
+
+
+The current board members are Philipp Pieper and Timo Lehes,
+with three spots left to be filled by either community contributors
+or managing directors of partner funds, dependent on a vote by the
+token holders.
+Additionally, all of the currency-related aspects of our implementation,
+including actions of all sub-funds, are performed on a private
+blockchain implementation. This allows us to implement all standard
+AML/KYC procedures and reporting as established by industry best
+practice.
+Due to the retrospective nature of regulatory action, the Swarm team
+can make no guarantees regarding the legality of the platform or
+launch in any given jurisdiction. Regardless, we are confident in, and
+proud of, the work we have done to shape Swarm into what we hope
+is a model of regulatory compliance for decentralized applications
+and token launches. We will be responsive and collaborative with any
+regulators as necessary going forward.
+39
+
+
+
+
+10. Media Coverage
+Swarm Fund has earned international attention from mainstream and larger crypto media.
+Some examples:
+Can Swarm Fund Help The Cryptocurrency Market Finally Enter The Mainstream?
+Forbes, August 16, 2017
+https://www.forbes.com/sites/giovannirodriguez/2017/08/16/can-swarm-fund-help-the-
+cryptocurrency-market-finally-enter-the-mainstream/#5f4cbdc32e77
+Swarm Fund Launches Compliance-Oriented Token Offering Tailored to Evolving Regulatory
+Environment
+CoinTelegraph, September 6, 2017
+https://cointelegraph.com/press-releases/swarm-fund-launches-compliance-oriented-token-
+offering-tailored-to-evolving-regulatory-environment
+Swarm Fund Aims to Democratize Investing
+Bankless Times, October 17, 2017
+https://www.banklesstimes.com/2017/10/17/swarm-fund/
+Swarm Closes $5.5 million ICO for Alternative Investment Fund
+Coindesk, October 31, 2017
+https://www.coindesk.com/swarm-closes-5-5-million-ico-alternative-investment-fund/
+Swarm Fund brings institutional investment opportunities to crypto investors
+AlphaQ, Institutional Asset Manager, Nov 27, 2017
+https://www.alphaq.world/2017/11/23/258631/swarm-fund-brings-institutional-investment-
+opportunities-crypto-investors
+2017: The Year of the Initial Coin Offering
+FTAdviser, December 13, 2017
+https://www.ftadviser.com/investments/2017/12/13/2017-the-year-of-the-initial-coin-offering/
+How Will Cryptocurrency Impact the Housing Crisis?
+International Business Times, February 10, 2018
+http://www.ibtimes.com/how-will-cryptocurrency-impact-housing-crisis-2651489
+40
+
+
+
+
+11. References
+Blodget, Henry. 2017. Bitcoin a perfect asset for speculative bubble: Blodget. [ONLINE VIDEO]
+Available at: http://www.cnbc.com/video/2017/05/25/bitcoin-a-perfect-asset-for-speculative-
+bubble-blodget.html. [Accessed 16 July 2017].
+Dietz, Joel, Greg Xethalis, Katten Primavera de Filippi, Jim Hazard. 2017. Model Distributed
+Collaborative Organizations. [ONLINE] Available at: https://swarm.gitbooks.io/dco-book/content/dco-
+model-template.html. [Accessed 16 July 2017].
+Durden, Tyler. 2015. So You Want Bridgewater To Manage Your Money? There Is One Small Condition.
+[ONLINE] Available at: https://www.elitetrader.com/et/threads/so-you-want-bridgewater-to-manage-
+your-money-there-is-one-small-condition.290936/. [Accessed 16 July 2017].
+Hulbert, Mark. 2017. This is how many fund managers actually beat index funds. [ONLINE] Available
+at: http://www.marketwatch.com/story/why-way-fewer-actively-managed-funds-beat-the-sp-than-
+we-thought-2017-04-24. [Accessed 16 July 2017].
+Herold, Jelle. 2017. Statebox. [ONLINE] Available at: http://statebox.org. [Accessed 16 July 2017].
+Herold, Jelle. 2017. Typedefs. [ONLINE] Available at: http://typedefs.com. [Accessed 16 July 2017].
+Lewis, Michael, 1989. Liar’s Poker. 1st ed. New York: W.W. Norton & Company, Inc..
+Platform Cooperativism Consortium. 2016. Platform Cooperativism. [ONLINE] Available at: https://
+platform.coop/book. [Accessed 16 July 2017].
+Van Valkenburgh, Peter, Joel Dietz, Primavera de Filippi, Houman Shadab, Greg Xethalis, David Bollier.
+2017. Distributed Collaborative Organizations. [ONLINE] Available at: http://www.bollier.org/sites/
+default/files/misc-file-upload/files/DistributedNetworksandtheLaw%20report,%20Swarm-Coin%20
+Center-Berkman.pdf. [Accessed 16 July 2017].
+Wood, Harlan T., Adam Apollo. 2017. TrustGraph. [ONLINE] Available at: https://github.com/trustgraph/
+trustgraph. [Accessed 16 July 2017].
+Yang, Paul. 2017. google/protobuf. [ONLINE] Available at: https://github.com/google/protobuf.
+[Accessed 16 July 2017].
+41
+
+
+
+
+SWARM FUND
+WHITE PAPER
+March 2018
+V0.91
+Philipp Pieper       Timo Lehes
+philipp@swarm.fund   timo@swarm.fund
+
+
+
+
+www.swarm.fund
+
+
+
+
+

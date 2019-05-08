@@ -1,0 +1,1032 @@
+﻿Platform for Goodwill Ecosystem
+White Paper
+Version 1.01-7E
+November 19, 2018
+Thank you for your feedback! Email: feedback@ecoverseglobal.io
+EcoVerse Team
+Abstract: Currently, the cryptoverse lacks a robust ecosystem that is sustainable in the
+long-term. Despite recent technical advancements, PoS and PoW consensus algorithms
+have proved to only allow those to get richer proportionally to how rich they already
+were. To tackle these challenges, we propose a platform centered around dApps with a
+dual coin system using an artificial intelligence supported consensus algorithm, AI-
+DPoC (Artificial Intelligence-supported Delegated Proof of Contribution). EcoVerse™
+is the first ever designed self-sustainable cryptocurrency platform.
+Page 1 / 22
+
+
+
+
+Disclaimer
+The EcoVerse™ project team does not make or purport to make, and hereby disclaims, any
+representation, warranty or undertaking in any form whatsoever to any entity or person, including
+any representation, warranty or undertaking in relation to the truth, accuracy and completeness of
+any of the information set out in this document.
+The purpose of this document is to provide information to anyone who is interested in Ecoverse,
+including  the  philosophy,  dApp  and  technical  details  of  the  EcoVerse™  Platform.  The
+EcoVerse™ project Team is putting in reasonable amount of efforts to deliver the latest
+information through updates after carefully reviewing the material and the technical details.
+However, the EcoVerse™ Team does not guarantee any accuracy or completeness of all the
+contents stated in this document.
+The contents of this document were provided at the time that was written, therefore the parts of
+the contents do not possess any binding powers or obligations. Therefore, the EcoVerse™ project
+Team is not liable for any damages caused by inaccurate or incomplete information, nor using or
+not using the information stated in this document.
+Also, the EcoVerse™ project Team is not responsible for any other activities involving this
+document other than its original purpose of providing information. If conflicts exist between
+different versions of this document written in different languages, the English version holds the
+prior interpretation. However, it should not be construed as guaranteeing responsibility for the
+contents  of  the  English  version.  Any  information  included  in  this  document  such  as  the
+EcoVerse™ Platform should not be copied, modified, distributed illegally without prior consent
+from the EcoVerse™ project Team.
+If terminologies or expressions in this document are against the current law, they will lose validity
+before they are revised, but the rest of the document shall remain valid.
+Page 2 / 22
+
+
+
+
+our philosophical vision which we hope to
+I.Introduction
+achieve with our platform.
+Since  Bitcoin’s                                   [1]  inception  by  Satoshi
+Nakamoto,   hundreds   of   thousands   of                                                           II.Challenging Problems
+cryptocurrencies  have  been  developed  with
+                                                   There is only one problem we at EcoVerse™
+over  1600 traded on exchanges today. The
+                                                   seeks  to  address:  self-sustainability.  The
+blockchain   constructed   by   Bitcoin   has
+                                                   problem, however, is quite complex. It requires
+successfully  shown   how   an   unspecified
+                                                   a multifaceted multidisciplinary approach to
+number   of   anonymous   people   in   the
+                                                   solve.
+cyberspace  can  do  activity  for  their  own
+interests  without  central  control.  There  is   We will explain the self-sustainability problem
+undoubtedly  historical  significance  to  the     in  technical,  economical,  philosophical  and
+collaboration on cryptographic formation in        socio-psychological perspectives.
+proofs on trustless cyberspace. Unfortunately,
+1.  Self-Sustainability Problem from
+Bitcoin’s   weaknesses   prove   to   be   too
+a Technical Perspective
+numerous to be widely used in everyday life
+and very few recent crypto projects have been
+                                                                                                     Technically    speaking,    we    believe    a
+designed  to  be  self-sustaining.  Dr.  Nicolas
+                                                                                                     cryptocurrency must satisfy two requirements
+Courtois,   a   cryptographer   at   University
+                                                                                                     to  be  self-sustainable:  daily  usability  and
+College London, reports how many current
+                                                                                                     universal  applicability.  Yet,  both  of  these
+cryptocurrencies are self-destructive in nature:
+                                                                                                     underlying issues that need to be addressed.
+"We observe that most cryptocurrencies have
+                                                                                                     1.1.Daily Usability
+mandated abrupt and sudden transitions. [...]
+Moreover,  we  show  that  smaller  bitcoin                                                          Daily usability means that an ordinary person
+competitors are substantially more vulnerable.                                                       should be able to use the cryptocurrency for
+[...] We exhibit examples of ‘alt-coins’ which                                                       his/her  daily  activities.  It  includes  sub-
+                                                                                                     problems such as scalability, volatility/price-
+validate our theory and for which the process
+                                                                                                     optimization,   privacy-protection/KYC-AML
+of  programmed  decline  and  rapid  self-
+destruction has clearly already started.” [2]                                                        compliance, and security.
+The EcoVerse™ team’s mission is to build the                                                         Scalability: We identify scalability as a part of
+first  ever  self-sustainable                      (or,  not  self-                                  the daily usability issue. Many sought to solve
+destructive) ecosystem, based on a developed                                                         the problem and recently partial solutions have
+blockchain network.                                                                                  been found. Several blockchain platforms such
+                                                                                                     as EOS have recently announced that they can
+This   paper   introduces   the   EcoVerse™
+                                                                                                     handle  millions  of  transactions  per  second
+platform.   First,   we   identify   the   main
+                                                                                                     (TPS). However, the TPS performance factor
+challenges currently facing the crypto universe.
+                                                                                                     can  no  longer  be  used  as  a  measure  of
+Next, we outline our technical solutions to
+                                                                                                     competitiveness—instead,                            the   public
+these problems. Then in conclusion, we offer
+                                                                                                     blockchain will be measured by a platform’s
+                                                                                                     Page 3 / 22
+
+
+
+
+ability  to  guarantee  transaction  finalization                                         1.2. Universal Applicability
+time (TFT).
+                                                                                          Universal   applicability   means   that   our
+Volatility/Price-optimization:                                         Many               cryptocurrency must be widely accepted and
+cryptocurrencies                                    show    volatile   price              used.
+fluctuations depending on the market situation
+                                                                                          Convenience: A cryptocurrency must be easy
+or the political situation of each country, which
+                                                                                          to use just as a credit card is.
+not only makes payment/settlement through
+cryptocurrency  difficult,  but  also  causes                                             Proliferation:  A  cryptocurrency  must  be
+psychological anxiety and shrinks investment.                                             widely accepted and therefore are usable in
+It is desirable for the value of cryptocurrency                                           both online and offline.
+stable for daily use. On another hand, it is not
+2.  Self-Sustainability Problem from
+desirable   if   the   motivation   of   holding
+an Economic Perspective
+cryptocurrencies are speculative. In this case,
+designers  must  plan  ahead  and  ensure  to
+                                                                                                                                           The economic perspective concerns the wealth
+optimize price increase in the long term.
+                                                                                                                                           distribution  of  cryptocurrencies.  They  are
+                                                                                                                                           known to have the rich-get-richer scheme. In
+Privacy  Protection/KYC-AML:  According
+                                                                                                                                           fact, almost all of them are terribly failing at
+to  the  General  Data  Protection  Regulation
+(GDPR) [3], individuals have the right to know                                                                                             evenly  distributing  the  wealth,  a.k.a.  the
+how their personal information is processed                                                                                                seigniorage. We believe this threatens their
+and used. If requested, service providers must                                                                                             sustainability  very  seriously.  As  soon  as
+provide people with these details. Considering                                                                                             ordinary people realize they get nothing from
+how many databases store this information, the                                                                                             their own crypto investment due to the scheme,
+                                                                                                                                           they will leave and never come back.
+most  difficult  challenge  at  present  is  to
+guarantee the right to be forgotten. For daily
+                                                                                                                                           2.1.The Gini Coefficient
+usability, privacy protection must be provided.
+Yet international law requires financial service                                                                                           For both of Bitcoin and Ethereum, the Gini
+providers to comply with KYC  (know your                                                                                                   coefficients,   an   indicator   showing   the
+customer) and AML (anti-money laundering).                                                                                                 inequality of  asset  distribution,  are  at       0.99
+This means a cryptocurrency platform aiming                                                                                                which is near total inequality [12] as shown in
+to be used for daily activities must be ready to                                                                                           the Figure 1 below.
+comply with the regulations.
+                                                                                                                                           According  to  Srinivasan  and  Lee                [12],
+                                                                                                                                           Ethereum  is  more  biased  in  their  asset
+Security:                                           Many               blockchain-based
+                                                                                                                                           distribution than Bitcoin is. We wondered if
+cryptocurrencies  are vulnerable to  hackings
+and attacks: popular cryptos like Bitcoin which                                                                                            the bias toward total inequality is lessening in
+are not incentive compatible, are vulnerable to                                                                                            recently developed cryptocurrencies, but there
+selfish  mining which poses  a threat  to  the                                                                                             is no evidence. In fact, in the case of EOS, the
+system [4]. Protection from such attacks has                                                                                               distribution  appears  to  be  worsened  quite
+been the most significant concern of the crypto                                                                                            seriously as only a handful of delegates take
+                                                                                                                                           the seigniorage.
+community since its inception.
+                                                                                          Page 4 / 22
+
+
+
+
+C  x                                               t                               ((incentive-paid  x,  t,  C)   >
+                                                     (incentive-wanted  x,  t,  C))                                  →  (incentive-
+compatible C)
+This formalization helps us to clearly see that
+designing C to be incentive compatible for all
+time  t  is  very  difficult,  and  realistically
+impossible.
+3.  Self-Sustainability Problem from
+a   Philosophical                                    (and   Socio-
+Psychological) Perspective
+Satoshi   Nakamoto   utilized   cryptographic
+Figure 1 Gini Coefficients of Bitcoin and Ethereum
+encryption technology to solve the problem of
+2.2 Mechanism Design in Game Theory                                                                                  trading  in  cyberspace  without  requiring  a
+                                                                                                                     trusted third party. To put it simply, people
+Perhaps  the  most  critical  problem  of  the
+                                                                                                                     may trade anonymously, without knowing who
+cryptocurrencies  to  date  is  that  from  the
+                                                                                                                     the other party is, as long as they use the same
+inception they were never designed to be self-
+                                                                                                                     coin. Such economic incentives are given to
+sustainable. Mechanism Design is a field in
+                                                                                                                     the participants.
+economics  and  game  theory  that  takes  an
+engineering approach to designing economic                                                                           Philosophically, the problem is this lack of
+mechanisms,  or  incentives,  toward  desired                                                                        trust and anonymity. If an error/bug appears
+objectives in strategic settings, where players                                                                      somewhere, an attack will take advantage of it.
+are economically rationale. According to the                                                                         utilizing it almost always occur. This is why
+theory of Mechanism Design, a mechanism is                                                                           hackings and attacks have become so common
+self-sustainable if it satisfies two attributes:                                                                     in cryptocurrency industry recently. In fact,
+voluntary-participation                              and                              incentive-                     from  the  year                                    2009  to  2015,  one  third  of
+compatibility. It also states that a mechanism is                                                                    cryptocurrency exchanges were attacked and
+incentive-compatible if every participant can                                                                        half of them were closed. We believe it stems
+achieve the best outcome for himself/herself                                                                         from the philosophical flaw that people can
+just  by  acting  according  to  his/her  true                                                                       trade without knowing each other all the time.
+preferences.                                                                                                         Hackings and attacks against cryptocurrencies
+                                                                                                                     are being developed as an industry itself.
+Suppose    a                                         cryptocurrency                   incentive
+mechanism gives away only one monotonic                                                                              As of June 2018, there were three instances
+type  of  incentive.  If  such  a  mechanism  is                                                                     where Horizen (Zencash) was hacked beyond
+denoted by C, participant x, and time t, then we                                                                     51%.  Others  such  as  Verge,  Bitcoin  Gold,
+can  define  the  incentive  compatibility  as                                                                       MonaCoin, and Litecoin Cash have also been
+following logical equation:                                                                                          subject   to   attacks.   Even   the   website,
+crypto51.app, shows how easy it is to get 51%
+Page 5 / 22
+
+
+
+
+control   through   hacking   by   providing                                                                                                                 •   Underlying Value: Asset-backed
+necessary information such as hash power and
+                                                                                                                                                             •   Utility: Fiat-pegged Usage Token
+attach  cost.  The  fact  that  people  rely  on
+cryptographic                                                                                       proofs                     while               trading   •   Legal Status - Utility
+anonymously  with  one  another  shows  a
+                                                                                                                                                             On the other hand, EcoVerse-R  (ECR) is a
+philosophical shortcoming.
+                                                                                                                                                             cryptocurrency  for  trading.  According  to
+If hacking cannot be detected, anyone can be a                                                                                                               Thomas    Euler’s    proposal    of    token
+thief.                                               Satoshi                                        Nakamoto    and    other                                 classification  framework,  ECR’s  attributes
+cryptocurrency   developers   overlook   this.                                                                                                               include:
+Nevertheless,  it  is  still  important  that  the
+                                                                                                                                                             •   Technical Layer: Blockchain Native
+identity of crypto users remains hidden.
+                                                                                                                                                             •   Purpose: Cryptocurrencies
+For self-sustainability, it is critical to find a
+solution that prevents hacking while at the                                                                                                                  •   Underlying: Network Value Token
+same time protecting one of cryptocurrency’s
+                                                                                                                                                             •   Utility: Inter-chain Connectivity Token
+unique characteristics: that of user anonymity.
+                                                                                                                                                             •   Legal: Cryptocurrency
+III.Solutions by EcoVerse™
+                                                                                                                                                             ECX is designed for daily economic use. As
+The  EcoVerse  team  will  solve  the  self-
+                                                                                                                                                             described in Figure  2, people can purchase
+sustaining problem outlined so far. The team’s
+                                                                                                                                                             ECR with fiat in a crypto exchange, and then
+mission  is  to  build  the  first  ever  self-
+                                                                                                                                                             use ECR to purchase ECX on the EcoVerseTM
+sustainable ecosystem based on a blockchain
+                                                                                                                                                             token  exchange.  When  ECR  and  ECX  are
+network.
+                                                                                                                                                             exchanged, the Foundation deposits the same
+                                                                                                                                                             value of fiat currency as the value of ECR in a
+We will now discuss our solutions to these
+                                                                                                                                                             designated bank. This policy minimizes the
+problems as presented above.
+                                                                                                                                                             price volatility of ECX, guaranteeing ECX as
+1.EcoVerse™ Technical Solutions                                                                                                                              a stable means for transactions. EcoVerseTM
+                                                                                                                                                             will issue ECX in exchange for ECR, which
+1.1.Daily Usability
+                                                                                                                                                             may then be used for goods and services within
+EcoVerse is designed with a cryptocurrency                                                                                                                   the EcoVerseTM economic ecosystem.
+system consisting of two basic coins, each with
+                                                                                                                                                             ECR is a typical cryptocurrency used to store
+different                                            characteristics                                                           and    functions.
+                                                                                                                                                             value and is the medium of cryptocurrency
+EcoVerse-X (ECX), pegged to a fiat currency
+                                                                                                                                                             exchanges.  ECR  provides  a  fee  charging
+(i.e. US dollars), is for daily use. According to
+                                                                                                                                                             function and various authentication functions
+Thomas    Euler’s    proposal    of    token
+                                                                                                                                                             for dApps that want to provide services to users
+classification framework [7], ECX’s attributes
+                                                                                                                                                             through    a    blockchain.    DApps    will
+include:
+reserve/deposit ECR blockchain as a concept
+•   Technical Layer: Blockchain Native               of membership to use ECR, and the processing
+•   Purpose: Network Token
+Page 6 / 22
+
+
+
+
+capacity of the ECR blockchain will be the                                                            speed of 60,000 TPS—Bitcoin and Ethereum
+amount deposited for the membership.                 are quite slow in comparison.
+The ECX and ECR  usage mechanisms                    are                                              The recently developed EOS [8] blockchain is
+shown in the figure 2.                               theoretically  capable  of  up  to               3,000  TPS,
+making it possible for everyday use. However,
+more  important  in  analyzing  performance
+measurement  for  day-to-day  use  is  the
+confirmation  time,  a.k.a.  TFT                     (Transaction
+Finalization  Time)  because  it  measures  the
+waiting time after using of the crypto. Not
+many will be waiting more than a few seconds
+Table 1 Use case of ECX and ECR                      for the confirmation.
+TFT is calculated as follow:
+TFT=Block_Creation_Time*confirm_Number
+EOS’s TFT is the fastest TFT at 45 seconds,
+yet it is still too slow to be used in stores. TFT
+of each payment is shown in the table below:
+Block
+                                                                                                                                                     No. Blocks to   TFT
+                                                     Coins                                            Generation
+                                                                                                                                                     Confirm         (sec)
+                                                                                                      Time (sec)
+                                                     Bitcoin                                          600                                            6               3600
+Figure 2 Usage mechanism of ECX and ECR token        Ethereum                                         14                                             12              168
+                                                     EOS                                              3                                              15              45
+We will implement the following policies with
+regards to types of tokens issued by dApps in
+Table 2 Payment TFT
+the EcoVerseTM ecosystem.
+                                                     EcoVerse™  will  apply  various  types  of
+First, security tokens will be excluded in the
+                                                     distributed   processing   techniques,   which
+ecosystem. The dApp Activation Committee
+                                                     include the Sharding and the Raiden Network
+will review the characteristics of a token before
+                                                     techniques to aims for a two-second TFT using
+any dApp launches it.
+                                                     the ECX payment process.
+Second, the committee will inspect the dApp’s
+                                                     Sharding Technique: The Sharding technique
+token characteristics and operation on a regular
+                                                     is one of the on-chain solutions to solve the
+basis.
+                                                     scalability problem, and it is a method based
+Scalability: One of the most common credit           on the assumption of the PoS series agreement
+cards in daily use, VISA, has a maximum              algorithm. This method divides the main chain
+into k shards and distributes them as shown in
+Page 7 / 22
+
+
+
+
+the figure below, and each shard processes all       is  called  SCN                                     (State  Channel  Network)  as
+the  transactions  on  the  network  in  parallel    shown in Figure 4.
+structure. This increases the overall throughput
+of the network in proportion to the number of
+shares. Recent work [9] has demonstrated the
+feasibility  of  sharding  consensus  protocol,
+making important steps towards partitioning
+the entire blockchain (Figure 3).
+Figure 4 SCN (State Channel Network)
+The transaction speed of the user—that is, the
+factor that directly affects the TFT—is the
+finality  of  the  transaction.  After  a  block
+containing a transaction record is created in an
+existing cryptocurrency blockchain, a fork is
+likely to occur because the transaction is not
+Figure 3 Sharding technique
+                                                     immediately confirmed. Because a fork occurs,
+                                                     each node compares blocks to generate coins
+Ethereum [10] has limited processing speeds
+                                                     in exchange for block  generation.  If nodes
+because all nodes will validate all transactions.
+                                                     cannot compete with each other in the block
+You can significantly increase the processing
+                                                     generation process from origin, a fork can be
+speed if you limit the valid transaction time of
+                                                     successfully  prevented.  For  this  purpose,
+the  nodes--this  is  the  basic  concept  of  the
+                                                     EcoVerse allows only one node to be created
+Raiden Network.
+                                                     for each block, so that only one node generates
+The Raiden Network is an off-chain technique
+                                                     a block at a time and forks cannot occur.
+for  local  agreement  between  two  trading
+                                                     However,  when  an  anomaly  occurs,  it  is
+partners that will deposit, exchange, and sign
+                                                     detected by a node monitoring it  using an
+their tokens in real time, according to terms
+                                                     artificial  intelligence  technique.  Artificial
+and conditions.
+                                                     intelligence  can  quickly  respond  and  be
+To this end, only the event of opening the
+                                                     recovered automatically, and a fork can be
+payment  channel  initially  and  closing  the
+                                                     prevented from occurring. Therefore, in most
+payment channel to terminate the transaction is
+                                                     cases, confirmation can be completed in one
+recorded   in   the   blockchain,   and   all
+                                                     step.
+intermediate transactions between the parties
+                                                     Volatility: Most cryptocurrencies show price
+are  not  recorded  in  the  blockchain.  This
+                                                     fluctuations depending on the market situation
+minimizes  the  processing  burden  on  the
+                                                     or the political situation of each country, which
+blockchain, and the intermediate transaction
+                                                     not only makes payment/settlement through
+can be confirmed immediately. At this time, an
+                                                     cryptocurrency  difficult,  but  also  causes
+off-chain channel is established to deal with
+                                                     psychological anxiety and shrinks investment.
+interim transactions between the parties, which
+Page 8 / 22
+
+
+
+
+However, this price volatility can be mitigated       EcoVerse adjusts the new issuance of coins to
+by temporarily adjusting the new supply of            be paid as compensation for block generation
+coins.                                                in the manner described above to control the
+                                                      sharp price fluctuations that can occur with
+Considering   the   intrinsic   value   of   the
+                                                      ECR. This can mitigate the price fluctuation of
+cryptocurrency without taking into account the
+                                                      ECR in the short term and, in the long run,
+temporary fluctuation of the price, the change
+                                                      gradually increase the value of ECR in tandem
+in value of the cryptocurrency can be explained
+                                                      with the inflation of the real economy.
+by the Quantity Theory of Money as the shown
+below:                                                Granting Anonymity and Veronimity: ECX
+                                                      and ECR used in EcoVerse require anonymity
+M * V = P * T
+                                                      and veronimity1 depending on their use. ECX
+Where M is the amount of currency issued, V           should be given anonymity because it is used
+is the rate of currency circulation, P is the value   as a daily payment instrument. To do this, we
+of the currency, and T is the transaction size.       use a zero-knowledge proof method that can
+Assuming V is constant, this equation implies         prove facts without showing any information
+that  for  a  certain  period  of  time  the  total   about the proof of facts to the other party. With
+expenditure and the total turnover coincide.          this method, the payment transaction itself is
+Using this equation, central banks of countries       posted in the public blockchain, but the privacy
+form  monetary  policy  such  as  change  in          of the counterparty and the amount of money
+currency circulation, but in reality this formula     can be protected by encryption.
+does not fit well.
+                                                      In  contrast,  since  ECR  is  a  coin  with  the
+We want to apply machine learning methods to          characteristics  of  utility,  it  should  provide
+adjust the value of coins based on experience.        veronimity  under  the  assumption  that  it
+This   method   will   find   an   appropriate        complies with KYC, AML, etc. established by
+increasing rate of M for the ECR  coin by             the  International  Covenant.  We  collect  the
+estimating the future value of P for the ECR          necessary personal information and manage it
+coin based on the current M, V, P and T values        by the Foundation. At the same time, according
+for the ECX and the ECR coins.                        to GDPR, it is necessary to guarantee the right
+of individual in handling their own personal
+information. For this, implementation of Self-
+Sovereign Identity is essential.
+To implement Self-Sovereign Identity, we use
+an  encrypted  off-chain  database  to  store
+personal information securely, but we divide
+Figure 5 Neural network model for predicting price
+fluctuation                                           the personal information to be disclosed into
+smaller units and register each of them in the
+1 Veronimity: fully verified identity
+Page 9 / 22
+
+
+
+
+main-net by hashing each. An individual can                                             Proliferation: The EcoVerse™ platform will
+selectively disclose to another each piece of                                           reach out to the point-of-sale terminal devices
+personal information registered in the main-net.                                        that can even be located in small “mom and
+The information to be disclosed is released to                                          pop” shop.  This  is  to  ensure that  ordinary
+the  selected  person  after  the  password  is                                         people  may  reach  out  to  use  our  service
+released.  At  the  same  time,  the  location                                          without any difficulties.
+information  of  the  main-net  in  which  the
+                                                                                        2. EcoVerse™ Economic Solutions
+information   is   registered   is   transmitted
+together;   information   can   be   confirmed                                          2.1.Gini    Coefficient    and    Consensus
+through the authentication process.
+                                                                                        Algorithm
+Security: We provide incentive compatibility
+                                                                                        The Gini Coefficient of cryptocurrencies at
+in three ways, using TSTP™ (Triple Shield for
+                                                                                        near  total  inequality  will  be  the  crypto’s
+Triple                                              Protection).   First,   incentive
+                                                                                        destruction. However, this biased distribution
+compatibility  provides  participants  with  a
+                                                                                        fault  is  only  a  natural  consequence  of  its
+variety of choices to enable simple economic
+                                                                                        consensus algorithm. A consensus algorithm
+value decisions. When incentive compatibility                                           has two functions: the operational stability of
+is provided in a system, hackings and attacks                                           the  network  and  its  wealth  distribution                     (or
+from the inner members are expected to be                                               seigniorage). The operational stability of the
+reduced similar to the reason that a thief cannot
+                                                                                        network  is  critically  important.  The  block
+steal money from his/her own pocket. Second,
+                                                                                        generation and ledger management have to be
+artificial  intelligence  technology  will  be
+                                                                                        done by someone trustable. This is why such a
+employed and be used in the operation of the
+                                                                                        big economic incentive is given to the block
+EcoVerse™ ecosystem. At first, the ecosystem
+                                                                                        producers. To handle the problem, we employ
+will  be  dependent  on  humans  and  their                                             artificial intelligence handle the operational
+operation until the time that AI can detect most                                        stability. Then, a consensus algorithm is only
+hackings and attacks better than the human
+                                                                                        needed to manage wealth distribution.
+counterpart. Finally, we will utilize dApps and
+                                                                                        Consensus Algorithm: EcoVerse will use the
+their  communities  to  incentivize  protection
+                                                                                        consensus  algorithm  AI-DPoC                                    (Artificial
+from hackings and attacks. For example, a
+                                                                                        Intelligence-supported  Delegated  Proof  of
+multiple   number   of   dApps   providing
+                                                                                        Contribution).                                      Artificial   Intelligence
+incentives to detect malicious activity will be
+                                                                                        techniques  will  quickly  and  appropriately
+able  for  added  security.  Having  multiple
+                                                                                        respond  to  problems  that  may arise during
+dApps and their communities involved could
+                                                                                        operations of each node. The AI agent in each
+be the best protection possible.
+node  will  automatically  cooperate  to  each
+1.2.Universal Applicability
+other  for  smooth  network  operation  and
+management.
+Convenience: The EcoVerse™ will develop a
+wallet that conveniently converts ECR to ECX
+AI-DPOC
+in  real  time.  The  ECX  should  be  used  as
+1) Evaluates the contribution of all participants
+conveniently as credit cards.
+Page 10 / 22
+
+
+
+
+2) Selects delegates for each node and forms a            Monitor block generation and
+verification, fine-tuning parameters as
+parliament  according  to  the  results  of  the
+necessary
+evaluation
+   Recover node if malfunctioning
+3)  The  selected  delegates  for  a  parliament
+operate and manage nodes
+                                                       The  nodes  constituting  the  main-net  are
+                                                       assigned a block to be newly created in a
+The criterion for selecting delegates is the level
+                                                       predetermined  order.  Each  block  is  thus
+of contribution via the following formula.
+                                                       created by exactly one node at a time. In this
+                                                       case, the order of node selection is determined
+                                                       by uniformly distributed random numbers so
+                                                       that external attackers cannot easily grasp the
+                                                       attack target.
+                                                       Some nodes will show abnormal patterns: 1)
+                                                       when it takes an extended period of time to
+Figure 6 contribution formula                          generate a block, 2) if attacked from outside, or
+                                                       3) errors in malfunction. These signs can be
+CP: Contribution of participant ‘p’
+                                                       detected through log analysis, and it is possible
+Wd:   dApp  ‘d’s weight of contribution to the         to apply a solution. The AI-DPoC (Artificial
+entire network
+                                                       Intelligence-supported  Delegated  Proof  of
+                                                       Contribution) can be applied to detect, prepare,
+Md: MAU (Monthly Active User) of dApp ‘d’
+                                                       and respond to malfunctions of the blockchain
+Wd, a: participant’s weight of activity a on dApp      effectively.
+‘d’
+                                                       Preventing Negative Bias: In the blockchain
+Ap,  d,  a: participant p’s amount of activity a on    using the PoW agreement algorithm, the node
+dApp ‘d’                                               having the most hash-power wins the right of
+                                                       block   generation   and   consequently   is
+Wc:  committee c’s weight on all committees
+                                                       compensated   the   most.   In   addition,   a
+Bp,   c:  participant  p’s  amount  of  activity  on
+                                                       blockchain  using  a  PoS  series  agreement
+committee c
+                                                       algorithm  gains  the  opportunity  of  block
+                                                       generation  with  the largest  share,  and thus
+In this formula, dApp d decides Wd, a by itself. Wd
+and Wc are optimized for the benefit of ecosystem      compensation. This negative bias is common
+using AI technique based on accumulated database       in  existing  blockchains  and  reduces  the
+in the EcoVerse TM platform.                           motivation for other participants. Therefore, it
+poses  a  problem  for  long-term  use  and
+Once  a  participant’s  contribution  has  been
+sustainability.
+calculated, she/he may be selected as a Delegate to
+participate in the Parliament to operate and manage
+a node.
+Page 11 / 22
+
+
+
+
+We  postulate  that  the  impossibility  largely
+stems  to  the  monotonicity of  the  incentive
+mechanism. If one can introduce multiplicity
+to   the   incentive   mechanism,   the   near
+impossibility  can  be  relieved.  In  fact,  we
+believe the problem is solvable by introducing
+a carefully designed incentive mechanism. If
+we  use  multiple  incentives  and  give  the
+participants  various  incentives  every  time
+Figure 7 Method for choosing delegates
+                                                                                     according to personal preferences, we could
+EcoVerse™   delegates   do   not   directly
+                                                                                     achieve  a  better  result  than  the  monotonic
+participate in the block creation process so
+                                                                                     incentive case.  We find multiple incentives in
+there is no need to compete to create more
+                                                                                     philosophical and socio-psychological theories
+blocks. The elected delegates do not need to
+                                                                                     and  designed  an  incentive  reward  model
+monitor, coordinate, and operate the system.
+                                                                                     CONFIRM™  (COmprehensive  ‘N  Flexible
+Instead,  they  receive  coins  in  return  for
+                                                                                     Incentive Reward Model) as discussed below.
+participating in policy decisions. The DPoC
+method  evaluates  the  contribution  to  all                                        3.EcoVerse™    Philosophical    and
+participants  who are  willing to  operate the                                       Socio-Psychological Solutions
+node at a certain cycle and selects delegates
+                                                                                     3.1.Philosophical Solutions
+based on this. In this case, not only the one with
+the highest contribution is selected, but the                                        Philosophically,  traditional  cryptocurrencies
+probability of being chosen is proportional for                                      are   hacked   and   attacked   because   their
+most delegates that are randomly selected. As                                        designers assume that a human is economically
+illustrated  in  the  Figure                         6  above,  when                 rational.  The  nature  is  to  chase  economic
+randomly selecting the required manpower at                                          incentives only. A human lives for bread. On
+equal probabilities in the area of the lower                                         the contrary, we believe it is not the case: Even
+curve, the less contributing person also gets an                                     though a human lives for bread quite often, but
+opportunity in proportion to his contribution.                                       s/he pursues a life helping and loving others.
+Therefore, there is no unreasonable bias like
+                                                                                     We  stated  that  hackings  and  attacks  likely
+that in conventional blockchains.
+                                                                                     happen  when  people  do  their  economic
+2.2.Mechanism                                        Design            and   Self-   activities   without   knowing   each   other.
+Sustainability                                                                       However, if people build their name and honor
+                                                                                     in the system, the number of hackings and
+Can the cryptocurrencies created until now be
+                                                                                     attacks will be reduced quite well.
+accidentally sustainable? Most of them are not,
+simply because they are not designed to be                                           To   find   multiple   levels   of   satisfaction
+self-sustainable.   Earlier,   we   stated   that                                    according to types of people, we chose Spiral
+satisfying  incentive  compatibility  is  almost                                     Dynamics Value Meme with Integral Theory.
+impossible.                                                                          The  implementation  of  multiple  incentives
+based on the Spiral Dynamics Value Meme are
+Page 12 / 22
+
+
+
+
+discussed in the next section, dApp world™         right dApps for their needs and get the most
+Development.                                       fulfillment   through   their   services.   The
+mechanism  will  be  designed  so  that  an
+IV. dApp world™ Development
+economy  can  naturally  emerge  and  the
+ecosystem can organically grow.
+The EcoVerse™ platform and its ecosystem is
+designed for decentralized applications, a.k.a.
+dApp).
+dApp  world™  Objectives:  The  goals  of
+building the dApp world™ for development
+and sustainable long-term growth are:
+•   Establishment  of  an  organic  network
+capable of cooperating with dApps based
+on the necessary environments for the daily
+use of cryptocurrency.
+•   Incentive                                      Compatible                                           Mechanisms
+                                                   designed in order to increase longevity and                       Figure 8 EcoVerse™ dApp World Universe
+guarantee the platform’s self-sustainability.
+Increase the Success Ratio Through dApp
+Consulting:  Consulting  services  will  be
+provided  to  ensure  each  dApp  provides  a
+1.dApp world™ Principles
+reward system with incentive compatibility.
+dApp designers participating in the ecosystem
+1.1.Incentive                                      Compatible      Mechanism
+                                                   will be supported and guided in designing an
+Design
+                                                   optimal reward system that meets the various
+We provide our own incentive reward model,         needs of users.
+CONFIRM™  (COmprehensive  ‘N  Flexible
+                                                   An optimal reward system can be designed
+Incentive  Reward  Model)  to  help  dApp
+                                                   utilizing the CONFIRM™ tool to design a
+designers to utilize and design their own dApps.
+                                                   model  and  create  a  reward  system  for  the
+dApp world™ Ecosystem: By keeping the              satisfaction  of  all  users.  Not  only  will  it
+whole  ecosystem  efficient  and  sustainable,     generate at a level for economic benefits but
+dApps constructed in the ecosystem will be         also  at  other  levels  such  as  cultural  and
+designed to share values between each other        psychological   rewards.   dApp   designers
+through  organic  interconnections,  thereby       participating in the dApp world™ will be able
+allowing the entire ecosystem to grow.             to take advantage of these services through
+                                                   consulting from our development team. The
+1.2.dApp world™ Building Strategy
+                                                   development  team  will  closely  analyze  the
+CONFIRM™ is implemented as a model for             requirements of the services and develop the
+incentive mechanism design in the ecosystem.       optimal Business Model and the reward system
+All participants will be able to easily find the   for each and every dApp to be successful.
+Page 13 / 22
+
+
+
+
+1.3.dApp world™ Development Plan                                                                                                               2)  Use  the  parameters  to  select  design
+                                                                                                                                               elements and fine tune.
+Template-based                                                                                            dApp     development
+environment:  Ethereum's  smart  contracts                                                                                                     3)  Check if dApp works properly in the
+have opened up many possibilities for dApp                                                                                                     simulation environment.
+developers by providing Turing completeness.
+                                                                                                                                               In particular, we provide a separate test net for
+However, this also means an open invitation
+                                                                                                                                               the  simulation  environment  and  use  pre-
+for fatal programming bugs and hackings. As
+                                                                                                                                               implemented smart contracts to see how dApps
+such,  it  takes  a  lot  of  effort  and  time  to
+                                                                                                                                               react to various usage patterns of end users.
+implement a business idea into dApps while
+                                                                                                                                               This development environment and the overall
+minimizing  the  risk  of  malicious  attacks.
+                                                                                                                                               structure of the system is shown in Figure 8.
+EcoVerse™  introduces  the  concept  of  a
+                                                                                                                                               The REST API supports the common functions
+buildable template to solve the problems of
+                                                                                                                                               provided by main-net in web format.
+these                                                 existing                                            dApp                   development
+environments and to accomplish the following
+two purposes:
+   All actions that cause dApps to disturb the
+ecosystem either by mistake or intention,
+will be blocked.
+   Providing an environment where dApps
+can be developed easily and effectively.
+Figure 9 Overall structure of the system
+The template provided by EcoVerse™ is a
+V. Incentive Reward Model
+preliminary implementation of dApps using a
+CONFIRM™
+smart  contract.  It  minimizes  developers’
+efforts and time for dApp implementation. It
+                                                      In order to implement universal applicability
+also uses parameters to customize each dApp's
+                                                      or versatility in a blockchain-based platform, it
+business characteristics. It is a flexible form of
+                                                      must accommodate a large number of dApp
+a smart contract that can select and coordinate
+                                                      types. Participants will be able to create many
+design  elements.  Of  course,  the  templates
+                                                      businesses in the form of dApps by classifying
+provided here preclude errors and side effects
+                                                      diverse  human  needs  and  various  business
+through a thorough testing process in advance.
+                                                      models.
+Integrated    Development    Environment
+                                                      As  part  of  its  differentiating  strategy from
+(IDE): Developers can use this tool to create a
+                                                      other platforms, our platform seeks to build
+dApp  that  meets  their  needs  through  the
+                                                      value chains by connecting dApps. To this end,
+following steps:
+                                                      we will develop a socket for easy connection
+1)  Select the type to suit your business             of   smart   contracts,   providing   seamless
+needs.                                                extendibility   for   users,   and   allowing
+developers to easily mash-up dApps. This will
+enable dApps for a complex business model
+Page 14 / 22
+
+
+
+
+and drive the formation of diverse value chains     The right side of Figure  9 represents each
+to  attract  as  many  people  as  possible  to     level’s core desire or motivation. The left side
+participate.                                        represents each level’s social state as reflected
+                                                    in its world view.
+1.Spiral Dynamics Value-Meme
+                                                    2.AQAL                                              (All  Quadrants  and  All
+The Spiral Dynamics Value Meme is one of
+                                                    Levels)
+many  human  development  theories  and  is
+widely accepted as  a tool  to  explain other       AQAL’s   AQ                                         (All   Quadrants)   is   a
+various  theories  in  an  integrated  way.  It
+                                                    topographical   map   that   represents   the
+explains why an individual's value structure is
+                                                    existence of all holons belonging to the Interior
+important and how desire and value operate in
+                                                    (Subjective), Exterior (Objective), Entity, and
+an organization or a social system.
+                                                    Group. AL (All Level) is a structural pattern
+                                                    that represents the unique characteristics of
+The  Spiral  Dynamic  Value  Meme  is  an
+                                                    both consciousness and meme level, as well as
+ecological  design  model  for  dApp’s  self-
+                                                    the  development  path,  which  distinguishes
+sustainability and long-term growth. In it, it
+                                                    healthy  values  corresponding  to  meme’s
+shows how desire, motivation, and incentive
+                                                    respective levels.
+work  together  as  a  single  mechanism.  For
+example, according to the characteristics and
+                                                    By using AQAL, we can present components
+value of the Meme, the profitability business
+                                                    of CONFIRMTM and differentiate values inside
+model  is  appropriate  for  Red  and  Orange,
+                                                    each  component  to  maximize  the  synergy
+while the public interest business model fits the
+                                                    among  dApp  world™™  business  models.
+Blue and Green.                                     AQAL will be employed in optimizing this
+interaction mechanism.
+For this reason, the Spiral Dynamics Value
+Meme will be used as a guide in designing the
+business model and incentive system, a key
+function of CONFIRMTM (COmprehensive ‘N
+Flexible Incentive Reward Model) which is an
+incentive reward model to be explained later.
+Figure 11 CONFIRM™ Business Implementation Model
+We choose dApp world™ business models
+using MECE (Mutually Exclusive Collectively
+Exhaustive). AQAL helps ensure that business
+Figure 10 Spiral Dynamics
+models can be formed in every area at various
+levels without duplication or omission. We
+Page 15 / 22
+
+
+
+
+will  devise  Database  mining  and  sharing                                                              promote  the  growth  through  solidarity  and
+methods  to  facilitate  the  exchange  and                                                               cooperation  by  having  inter-dApp  world™
+collaboration  of  each  business  model.  For                                                            services.  B.C.C.  will  provide  services  to
+example, linking healthcare, the green meme’s                                                             facilitate  economic  growth  of  dApps  by
+non-profit                                            (public  interest)  business  model,                applying  interconnectivity  through  Match-
+with  concierge  service,  the  orange  meme’s                                                            Making Services among similar dApps, based
+profitability business model, then it becomes                                                             on AQAL Matrix, which could share incentive
+shared  economy  model  of  goodwill  and                                                                 compatible Mechanisms.
+concierge services. This model’s short term
+                                                                                                          3.4.dApp Incubation Service
+profit  might  not  be  significant,  but  it  will
+increase the profit  of the whole ecosystem                                                               Various  startup  events  will  be  provided  to
+because  it  can  raise  participation  rate  and                                                         discover services that can support the growth
+encourage consistent activities of customers.                                                             of  the  ecosystem.  The  Foundation  will
+incubate  entrepreneurs  with  new  ideas  and
+3.Policy and Operation Plan for dApp
+products  so  that  they  may  be  successfully
+world™
+established in the ecosystem.
+3.1.Consulting   for   Development   and
+                                                      3.5.Funding for the Initial Development of
+Implementation
+                                                      dApp
+The EcoVerse™ CONFIRM™ Framework, as
+                                                      The  Foundation  will  operate  an  incubation
+shown in the Figure 10, is designed to provide        fund   for   business   partners   and   dApp
+the necessary technical support and training to       developers.  It will also  do various funding
+facilitate  easy  development  for  all  dApp
+                                                      activities to support dApps including air drops,
+developers/development    companies    who
+                                                      which are necessary to increase the users of
+participate  in  dApp  world™  by  offering  a
+                                                      dApp services. For example, the Foundation
+plethora of tools.
+could purchase tokens generated by a selected
+dApp and airdrop them to all of the EcoVerse
+3.2.Consulting  for  Feasibility  Studies  of
+users for free. This will dramatically increase
+dApp Business Models
+the users of the dApp. The cost of such airdrops
+                                                      Consultants and educators will be available to                                                         will be recovered over a period of time with the
+                                                      those who want to participate in dApp world™
+                                                                                                                                                             dApp’s operation fees.
+                                                      to design their own business models, service
+                                                      mechanisms,  and  reward  systems  based  on                                                           VI.Philosophy
+SDICMD                                                (Spiral                                             Dynamics    Incentive
+1.An Ubuntu Economy
+Compatible Mechanism Design) development
+methodology.
+Ubuntu [11] comes from the Nguni proverb
+3.3.Match-Making for Cooperation Among                "Umuntu ngumuntu ngabantu," which in its
+dApps                                                 literal translation means, “I am because we are.”
+                                                      Ubuntu stresses the importance of community,
+The Foundation will establish and operate a
+                                                      solidarity, caring, and sharing. This worldview
+Business  Cooperation  Center                         (B.C.C)  to
+                                                      Page 16 / 22
+
+
+
+
+(Ubuntu)  advocates  a  profound  sense  of        are vast and endless. EcoVerse utilizes this
+interdependence and emphasizes that our true       concept  of  allowing  the  individual  to  be
+human  potential  can  only  be  realized  in      authentically themselves—it acknowledges the
+partnership with others (Ngcoya 2009).             dynamism  between  people  and  culture  by
+recognizing  the  differences  between  each
+At the heart of Ubuntu remains interconnected-
+individual  in  how  he/she  thinks,  within  a
+ness  between  people,  and  the  idea  of
+certain context, and at a particular level.
+community. EcoVerse™ founds itself on the
+Ubuntu concept of humanity towards others          Integral  Theory  aims  to  piece  together  a
+and our neurobiological need for connection.       framework for better understanding the issues
+An  Ubuntu  economy  is  our  vision  of  a        of the world through a lens that takes into
+community for participants of all cultural and     account  at  least  four  different  dimensions
+social trajectories where each individual can      including the interior-individual (intentional),
+act on the sense of being connected to others      the   exterior-individual                             (behavioral),   the
+by  our  common  humanity,  and  where  all        interior-collective (culture), and the exterior-
+relationships and levels of behavior or action     collective (social). It is not only a theory but a
+are elevated to a higher plane. Fundamental to     practice and an actual series of practices of
+the  EcoVerse  philosophy  are  concepts  of       inclusion. It involves the meta-paradigm of
+empathy and of building the community for the      correlating  humanity’s   most   fundamental
+greater good of society--beyond the economic       methodologies of knowledge. [6]
+and financial freedoms  or gains  which our
+                                                   Both theories provide analytical and design
+platform offers.
+                                                   methods for analyzing human desire. When
+2.Adaption  of  Spiral  Dynamics  &                considering the key elements and mechanisms
+                                                   that  build  dApp  world™,  a  theoretical
+Integral Theory for dApp world™
+framework is needed to interpret qualitative
+Spiral   Dynamics   is   a   developmental
+data in order to optimize behavioral motivation,
+psychology-based theory which postulates that      and appropriate incentive conformity design.
+human’s  cognitive  development  happens  in       In order to construct and expand the ecosystem,
+stages. Supported by rich data of more than        MECE should be applied to ensure that the
+50,000 interviews worldwide, they found that       synergy effect of the interaction between dApp
+each stage of development represents a leap in
+works.
+consciousness  that  brings  on  a  new  set  of
+values.                                            The    initial                                        theorems    were                     VII.Conclusion
+                                                   conceptualized by Clare Graves, who wanted
+                                                                                                                                              The proposed EcoVerse™ is the first ever self-
+to  explore                                        ‘the  engine  that  drives  human
+                                                                                                                                              sustainable platform using AI-DPOC (artificial
+                                                   emergence - why we are and what leads us to
+                                                                                                                                              intelligence  supported  delegated  proof  of
+                                                   change to be something different’. According
+                                                                                                                                              contribution).   EcoVerse™   solves   daily
+                                                   to Graves, "Every person, every individual has
+                                                                                                                                              usability and universal adoption by improving
+                                                   the  right  to  be  who  he  really  is.”  Spiral
+                                                                                                                               transaction    times,                                            security,   and
+                                                   Dynamics introduces a dynamic world full of
+                                                                                                                                              interconnectivity.   The   platform   aims   to
+                                                   possibilities. In this landscape, the possibilities
+                                                                                                                               Page 17 / 22
+
+
+
+
+achieve the goal of hundreds of thousands TPS
+in real world application with TFT at less than
+2 seconds, which we consider the highest limit
+for cryptocurrency adoption in daily activities.
+Ecoverse™ supports a two-coin system that
+answers  both  the  need  for  privacy  and
+KYC/AML regulation and allows for a stable
+currency, optimal for the needs of e-commerce,
+and a utility coin for interchain connectivity
+and growing in value.
+EcoVerse™  is  simply  better  than  many
+platforms in the following areas
+✓                                                  Technology:  it  provides  an  array  of
+solutions,  including  patent-pending  AI-
+DPoC for consensus and the fastest TFT.
+✓                                                  Economics:  it  is  designed  to  be  self-
+sustainable  unlike  almost  all  the  other
+cryptocurrency mechanisms.
+✓                                                  Philosophy:   Based   on   a   different
+perspective   on   humans   than   other
+platforms,  it  is  designed  to  build  an
+ecosystem based on Ubuntu economy.
+✓                                                  Socio-Psychology: To increase longevity
+and guarantee the platform’s sustainability,
+Incentive  Compatible  Mechanisms  are
+designed  by  adopting  Spiral  Dynamics
+Value Meme and Integral Theory.
+✓                                                  Business  Orientation:  EcoVerse™  is
+designed  to  be  a  dApp-centered  shell
+structure. The dApps will collaborate and
+share the businesses and customers so that
+they may all grow together.
+Page 18 / 22
+
+
+
+
+References
+                                                                                                            [7]. Euler,  Thomas.                                                                  “The  Token  Classification
+[1]. S.   Nakamoto,                                     “Bitcoin:   A   peer-to-peer
+                                                                                                                                            Framework:  A  multi-dimensional  tool  for
+electronic cash system,” 2008.
+                                                                                                                                            understanding and classifying crypto tokens.”
+[2].   Nicolas T. Courtois. On the longest chain rule                                                                                       Jan. 18, 2018. https://bit.ly/2BzYDie.
+and programmed self destruction of crypto
+                                                                                                                                            [8].   I. Grigg, “EOS - An Introduction,” 2017.
+currencies, 2014.
+                                                                                                                                            [9]. L. Luu, V. Narayanan, C. Zhang, K. Baweija,
+[3].   European Union.  2018 reform of EU data
+                                                                                                                                            S. Gilbert, and P. Saxena, “A secure sharding
+protection rules. https://bit.ly/2Fa05Kl.
+                                                                                                                                            protocol for open blockchains,” in CCS, 2016.
+[4].   I.  Eyal  and  E.  G.  Sirer,                                                   “Majority  is  not
+                                                                                                            [10].                           Buterin, V. et al. 2014. A next-generation
+enough:  Bitcoin  mining  is  vulnerable,”  in
+                                                                                                                                            smart contract and decentralized application
+Proceedings of 18th International Conference
+                                                                                                                                            platform. Ethereum white paper.
+on Financial Cryptography and Data Security
+(FC), Christ Church, Barbados, 2014, pp. 436-                                                               [11].    Ngcoya,   Mvuselelo.                                                                                       (2009).   Ubuntu,
+454.                                                                                                                                        globalization,                                        accommodation                                     and
+                                                                                                                                            contestation in South Africa.
+[5]. Butters, A. (2015). A brief history of Spiral
+Dynamics. Approaching Religion, 5(2), 67-78.                                                                                                [12].   Balaji S. Srinivasan and Leland Lee. (2017)
+https://doi.org/10.30664/ar.67574                                                                           Quantifying Decentralization.
+[6]. Sean Esbjörn-Hargens PhD, Integral Institute,                                                          https://bit.ly/2gVumCA
+Resource Paper No. 1, March 2009, pp. 1-24
+Page 19 / 22
+
+
+
+
+Appendix A. ICO Schedule and Plan
+Figure 12 ICO   Schedule
+Figure 13 Token sale Schedule
+Table 3 Token sale Schedule
+Page 20 / 22
+
+
+
+
+Appendix B. CONFIRM™ Incentive Matrix and KPI Matrix Use case
+Figure 14 The eight cells in the middle matrix are the incentive types provided by CONFIRM™. Matrices
+surrounding the middle are specific examples for the type.
+Figure 15 Using CONFIRM™, KPI (Key Performance Index) Matrix is developed).
+Page 21 / 22
+
+
+
+
+Appendix C. System Architecture
+Figure 16 Ecosystem Service Architecture
+Figure 17 Blockchain Based Local Currency Issue Service Use Case
+Page 22 / 22
+
+
+
+
+

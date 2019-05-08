@@ -1,0 +1,298 @@
+﻿Whitepaper
+
+
+
+
+CONTENTS
+Introduction - a quick overview ...     .. 3
+Asset Split ...                         . 4
+Ethereum Asset Split Token (EAST) ...   . 5
+Initial token sale ...                  ... 6
+EAST profit shares ...                  ... 7
+Share manager (smart contract) ...      . 8
+Payee share (smart contract)...         ... 8
+EAST sub shares (Payees) ...            . 9
+Test share ...                          .. 9
+Regular sub shares ...                  . 9
+Upcoming services ...                   ... 10
+ERC-20 token ...                        . 10
+Token sale ...                          .. 10
+Crowdfund ...                           . 11
+Web wallet ...                          ... 11
+Share manager ...                       .. 11
+Duty stapler ...                        ... 12
+Personalized asset to blockchain ...    . 12
+Decentral (P2P) exchange ...            ... 12
+Exchange listings ...                   ... 13
+Roadmap 2019 ...                        ... 13
+[2]
+
+
+
+
+INTRODUCTION - A QUICK OVERVIEW
+With  the  presentation  of  Ethereum  in  a  white  paper  called
+"Ethereum:  A  Next  Generation  Smart  Contract  &  Decentralized
+Application Platform", Vitalik Buterin initiated an era of blockchain-
+based contracts (smart contracts) since late 2013.
+Smart contracts are used to build ethereum-based sub-currencies
+(tokens), trustee services, decentral exchange services, blockchain-
+based  authentication  systems,  DAOs  (autonomous  organizations),
+blockchain games and much more - the usability of smart contracts is
+sheer infinite.
+Each and every possibility is realized trough "Solidity", a programming
+language  developed  by  Ethereum  for  communication  with  the
+Ethereum Virtual Machine (EVM). Further development is still going
+on.
+Ethereum is leading the field in smart-contract-enabled blockchain
+systems in spite of dozens of competitors.
+A necessary step to make Ethereum fit for the mass market has already
+been taken by introducing the Light Client.
+Since, there is no more need of downloading the entire blockchain,
+instead the last 1000 mined blocks reach out to open up the gate to
+Ethereum for the user.
+Dapps-ready-browsers as Opera, browser extensions like Metamask
+and many more services from different vendors rely on the Ethereum
+network.
+[3]
+
+
+
+
+ASSET SPLIT
+Asset Split is the place to split up your valuables with the help of
+smart contract technology, to get fresh capital to drive your project´s
+growth.
+The use of the ASN services currently requires a web3-capable browser
+or  the  Metamask  browser  extension  to  access  data  from  the
+blockchain.
+From Q2|2019, the use of ASN smart contracts will also be possible via
+an interface for non-web3-capable internet browsers.
+This  option  is  primarily  developed  and  integrated  to  be  fit  for
+the mass market.
+We, as well as our potential customers, rely on the "code is law"
+strategy of smart contracts. The entire backbone of the ASN is not a
+database in the traditional sense but smart contracts, which, with the
+help of the Ethereum Protocol, store and call the data in and from the
+blockchain in a decentralized manner.
+All data can be accessed permanently and the access point does not
+require a pre-defined frontend.
+This  design  makes  it  possible  to  build  a  frontend  application      -
+decentralized in the web.
+The following explanations are for illustration of the contract structure
+that makes up the ASN backend.
+[4]
+
+
+
+
+ETHEREUM ASSET SPLIT TOKEN (EAST)
+EAST is an Ethereum ERC-20 token, used as the primary payment
+method for services on the ASN and is building the backbone of every
+upcoming ASN service contract.
+Token parameters
+Token contract: 0x2d1e23144b89fc7364ed3efcd5af04093f7d9a3d
+Full name: Ethereum Asset Split Token
+Symbol: EAST
+Total supply: 150,000 EAST
+Decimals: 18
+Minting: none
+The total supply of 150,000 EAST was sent to the Asset Split token
+sale contract in the transaction with the address
+0x08377f47fcfd2f922860a34f1c45a0633eff6d1d2ef2fffe2d0a51cecea5d07e
+[5]
+
+
+
+
+INITIAL TOKEN SALE
+Token sale contract address:
+0x745ed8e2dC790c3b26f6458E297d7E5D8d1d1Ee8
+100%
+Total Supply
+150,000 EAST (100%) are sold originally. Selling the total supply for a
+fixed rate will save your investments when trading EAST is going live
+on an external exchange.
+1 Ether = 100 EAST
+Bonuses for investments:
+1+ Ether = 2% EAST bonus on top
+5+ Ether = 5% EAST bonus on top
+10+ Ether = 10% EAST bonus on top
+The first five investments of  10+ Ether will receive an additional
+900 EAST as an „early bird bonus“.
+[6]
+
+
+
+
+EAST PROFIT SHARES
+All  existing  and  upcoming  ASN  service  contracts  are  owned  by
+the ASN share manager contract. From this ASN share manager,
+investors are allowed to sign ASN shares. Each ASN share is an own
+smart contract, holding investors collateral of 1,000 EAST and is owned
+by the signer.
+All  ASN  share  contracts  have  included  functions  to  receive  and
+withdraw payments in EAST & Ether. The EAST sale contract is owned
+by  the  ASN  share  manager  contract  too,  providing  Ether  from
+EAST token sales to ASN shareholders.
+Collateral tokens are locked in a ASN share contract for 100 days for
+the first signed contract, decreasing by one day for every further
+contract signed. After the locking time is up, the collateral can be
+unlocked and withdrawn. This action will end the profit distribution to
+that ASN share.
+50 shares
+1,000 EAST collateral
+1% profit from service & token sales
+Owners of a full 1% ASN share do also have the option to sell parts of
+their full ASN share. All partial ASN shareowners are becoming part of
+the locked token and of every further payment withdraw from this
+ASN share. This includes later built ASN share parts as well.
+[7]
+
+
+
+
+SHARE MANAGER (SMART CONTRACT)
+Solidity Version 0.5.2
+Published at address: 0x14796A10F6DdE2A5575cbA91ceBBdfFFE45Ca45A
+Owner:
+PayeeShare: 0x461f3a721b9cb587c061ee1e6cc2b6345e20fc6c
+Owns:
+Tokensale: 0x745ed8e2dC790c3b26f6458E297d7E5D8d1d1Ee8
+Sell Payee (Service): 0xa79ebc75ac9cab762c807054a96615b213e42cd6
+All future services
+Pays out to:
+50%                                                                                          0xf001f2be101bca44997a3d3fcd6327dc3d8bd45c   Asset Split
+50x 1%                                                                                                                                    Shareholers
+Balance distribution: EAST & ETH
+While there are less than 50 shares signed, the remaining percentage from a payout is sent
+to the owner contract.
+PAYEE SHARE (SMART CONTRACT)
+Solidity Version 0.5.2
+Published at address: -
+Owner: share signer
+Locked balance: 1,000 EAST
+Owns: -
+Pays out to: Share owner, added payees
+Balance distribution: EAST & ETH
+Payee share contracts are generated by the share manager contract when signing a share. A
+payee share can store up to 100 different payees.
+[8]
+
+
+
+
+EAST SUB SHARES (PAYEES)
+Sub  shares  can  be  acquired  in  the  partial  share  section  in
+the ASN dashboard or in a private sale from any full ASN share owner.
+TEST SHARE
+This   share   is   added   for   the   very   first   stage   of   the
+ASN sub share system, marked as invalid when the token sale ends and
+from then on will not receive any further payments.
+ASN added shares do not contain any locked tokens and do not require
+locked tokens to get paid.
+Every payout and EAST | Ether distribution works the same way like
+regular ASN sub shares do.
+REGULAR SUB SHARES
+ASN  Sub  shares  are  distributed  with  a  percentual  part  of  every
+EAST | Ether payment a full ASN share receives.
+A ASN sub share is, when sold, always bought from the ASN full share
+and paid to the ASN full share. Payees thus not only receive the
+participation from the ASN allocations, but also the participation in
+every later sold ASN sub shares.
+ASN sub share owners become partial owner of the ASN full share‘s
+locked 1,000 EAST. ASN full share owners have the option to end a
+share after the token lock time is up. This will distribute all balances to
+the shareholders and the owner.
+[9]
+
+
+
+
+UPCOMING SERVICES
+All different, upcoming service contracts will be integrated to the ASN,
+accepting  payments  in  either  EAST  &  Ether  with  a  factor  of
+2 EAST = 1 Ether.
+Every   new   built   ASN   smart   contract   is   generated   by
+the   ASN   service   contract   to   benefit   from   less   gas   fees.
+All ASN service contracts are owned by the ASN share manager and
+the service fee is paid to the ASN share manager.
+ERC-20 TOKEN
+Token  contracts  built  by  the  ASN  can  be  created  and  managed
+directly and entirely through the ASN dashboard.
+Price: 2 EAST |1 Ether
+For each token, the client gets access to an administration interface
+with which the standard functions of a token can be controlled and
+managed.  This  includes  functions  for  transfer,  approval,  call  and
+balances.
+TOKEN SALE
+ASN  Token  sale  contracts  are  only  available  for  ERC-20  tokens,
+generated by ASN. Each token sale contract can be managed through
+the ASN dashboard.
+Price: 2 EAST | 1 Ether
+Different frontend options available, starting at 15 EAST | 7.5 Ether.
+[10]
+
+
+
+
+CROWDFUND
+ASN crowdsale contracts can be generated in the final step of an
+ERC-20 token purchase. There are no additional costs for this service
+but for the administration and user interface.
+Price: 5 EAST | 2.5 Ether
+Different   frontend  options,  for   your  website,  are  available.
+Prices start at 15 EAST | 7.5 Ether.
+WEB WALLET
+Web  wallets  provide  a  range  of  informational  and  functional
+opportunities for you as a token owner and for the token users.
+The wallet will be available as a web service that can run via ASN or via
+its own website.
+Price: 10 EAST | 5 Ether
+SHARE MANAGER
+ASN share manager contracts are bound to the client’s token and
+function the same like the ASN share manager. It can be configured to
+allow up to 10,000 shares with manual payout options.
+Every  share  is  an  own  ASN  smart  contract,  created  by  the
+ASN share manager, later owned by the share signer.
+Price: 15 EAST | 7.5 Ether
+[11]
+
+
+
+
+DUTY STAPLER
+ASN duty stapler, running as a platform service, managed and vouched
+(paid) by the blockchain - simply a classic duty stapler.
+Every project is an own ASN smart contract, containing a locked
+balance in EAST | Ether for the summary of the project‘s milestones.
+When a milestone is committed by the client and by the contractor,
+the contractor gets paid for his work through the ASN.
+PERSONALIZED ASSET TO BLOCKCHAIN
+Active  acquiring  of  businesses  from  blockchain-interested  and
+not-yet-blockchain-experienced                                          companies,                                              beginning   with
+European rental services.
+This service is payable with EAST | Ether and FIAT payment systems
+(FIAT payments are partial - 70% - exchanged to EAST and distributed
+from the ASN share manager contract to EAST shareowners).
+All custom integrations are handled by the ASN duty stapler contract.
+DECENTRAL (P2P) EXCHANGE
+ASN  decentral                                                          (P2P)  exchange  will  allow  the  trading  of  every
+ASN generated asset. This includes the ASN provided websites.
+[12]
+
+
+
+
+EXCHANGE LISTINGS
+ASN will request for EAST listing on at least one decentral and one
+classic exchange service after less than 25% EAST from total supply
+are available throught ASN token sale.
+The exchange services are voted by ASN shareowners.
+ROADMAP 2019
+[13]
+
+
+
+
+

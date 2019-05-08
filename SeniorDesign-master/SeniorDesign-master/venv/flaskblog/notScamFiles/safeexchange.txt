@@ -1,0 +1,496 @@
+﻿Safex (Blue Paper)
+A peer-to-peer marketplace and fungible digital cash system
+A guiding document to Safex Developers, Advisors, and Early Adopters
+Daniel Dabek, Ivana Todorovic
+January 3, 2018
+Abstract                                                               delineate the conclusion of beta, and the start
+                                                                       of  Safex  Cash  mining.   Future  documenta-
+A purely peer-to-peer marketplace with an em-                          tion will summarize the innovations that have
+bedded cryptocurrency that is anonymous, has                           taken place during the beta development phase
+an emission rate based on merit, and is easy                           and will be published prior to launch.  This
+to  obtain  and  use  by  a  wide  group  of  peo-                     document  is  the  initial  one  and  there  will
+ple would allow mass adoption of decentralized                         be more to follow, as development progresses,
+cryptocurrency.   Safex establishes a network                          which will describe in depth each process as it
+where digital currencies are fairly distributed                        reaches finalization in code.
+through Proof of Work mining.  The emission
+rate is such that the currency is desirable to
+earn through productivity and trade.  Every                            Token
+action: transfer of currency and trade of goods
+and services that take place in the ecosystem                          Safex Tokens provide a means for people to
+is via a series of linked transactions that are                        license  themselves  with  the  blockchain  net-
+recorded at regular intervals of blocks.  The                          work.  Any activity by users that intends to
+chaining of transactions of balances forms a                           be lasting, and attached with a form of digital
+blockchain.  Security is brought by technolo-                          pseudonym, must be established through us-
+gies that enable privacy which allows all par-                         age of Safex Tokens.  There are 2,147,483,647
+ticipants to enjoy embedded trust and trans-                           Safex Tokens that will ever exist and they serve
+parency.  This provides people with a secure                           a number of important utilities for Safex.
+enclave for building digital wealth.                                   At this moment (January 2018) Safex Tokens
+                                                                       exist on the Bitcoin Blockchain, but they will
+                                                                       be moved to their own blockchain during the
+Introduction                                                           launch phase of the Safex Blockchain.
+While  the  Safex  Blockchain  could  be  a                            About the Safex Tokens that exist cur-
+“vanilla” cryptocurrency and blockchain, the                           rently  on  the  Bitcoin  Blockchain.   The
+further progression of Safex is to establish a de-                     origins  of  the  Safex  project  begin  with  the
+centralized marketplace.  Therefore, this doc-                         token  being  instantiated  and  traded  on  the
+ument outlines the beta phase of the develop-                          Bitcoin Blockchain.  It adheres to the Omni
+ment cycle. This blue paper outlines the foun-                         Protocol,  and it is identified by the  #56  in
+dation on which the Safex Development team                             the series of assets and its name is Safe Ex-
+will build upon.                                                       change Coin.  The initialization of the Safex
+The conversion of Safex Tokens from the Bit-                           Blockchain also enables the holders of Safe Ex-
+coin Blockchain into the Safex Blockchain will                         change Coin, found on the Bitcoin Blockchain
+1
+
+
+
+
+as                                                  #56  in  the  series  of  Omni  Protocol  to-   Safex  Accounts  earn  incentives.  Estab-
+kens, to convert their Bitcoin based tokens into                                                    lishing an account with Safex Tokens requires
+Safex Blockchain based Safex Tokens.  Only                                                          the user to encumber them in such a way that
+the Safex Tokens that have been redeemed on                                                         they can never be removed in the future. The
+the Safex Blockchain are eligible for the prop-                                                     network charges a provision for trading on the
+erties for earning incentives and for establish-                                                    marketplace and therefore whoever has estab-
+ing accounts.                                                                                       lished an account receives their share of the
+                                                                                                    provisions based on their holdings relative to
+Migration    of    Safex    from    Bitcoin
+                                                                                                    the Safex Token supply.
+Blockchain. The migration of Safex from the
+                                                                                                    Besides establishing an account and encumber-
+Bitcoin Blockchain into the Safex Blockchain
+                                                                                                    ing only the minimal amount of Safex Tokens,
+marks  the  start  of  the  Safex  Blockchain.
+                                                                                                    individuals can also create an incentive trans-
+All  Safex  Tokens  that  are  on  the  Bitcoin
+                                                                                                    action, which enables them to receive incen-
+Blockchain  will  be  passed  through  a  one
+                                                                                                    tives on their entire holdings.  These special
+way burn function and credited on the Safex
+                                                                                                    transactions can be unencumbered in the fu-
+Blockchain and will forever only exist on the
+                                                                                                    ture.
+newly established Safex Blockchain.
+                                                                                                    Incentives    come    from    marketplace
+Safex Tokens are used to establish Ac-
+                                                                                                    trades. Incentives are established from charg-
+counts on the Safex Network.  Safex To-
+                                                                                                    ing a  5% marketplace fee, this is a provision
+kens are required to establish a profile on the
+                                                                                                    on  all  sales  offers  of  goods  and  services  on
+network that establishes a pseudonym which
+                                                                                                    the platform.  At the conclusion of payment
+could be used to create brand recognition and
+                                                                                                    the provision is allocated proportionally to all
+also to maintain a consistent identity.   This
+                                                                                                    locked in Safex Tokens.
+identity would be valuable for establishing rep-
+utation and for making it easy to find a specific                                                   Dealing with a larger number of incen-
+user on the network for interaction. A further                                                      tive distributions. Due to a potentially high
+description of Safex Accounts is found in the                                                       volume  of  incentive  distributions,  an  entire
+subsequent section.                                                                                 block will be allocated on a regular interval
+                                                                                                    in order to allocate incentives to their respec-
+Two types of ways to get incentives. The
+                                                                                                    tive beneficiaries. The beneficiary will be able
+Safex Blockchain pays incentives to two differ-
+                                                                                                    to then spend from this block towards other
+ent forms of Safex Tokens encumbrance.  In
+                                                                                                    offers in the marketplace or to send to another
+the first,  Safex Tokens are used to make an
+                                                                                                    address.
+alias  (account) on the network.  Payment of
+incentives are still made to those tokens spent
+in forming the account.  In the second place,                                                       Cash
+someone with Safex Tokens can “lock in” their
+                                                                                                    Safex Cash is the currency of the Safex Mar-
+tokens and begin receiving fees from the mar-
+                                                                                                    ketplace.  Safex Cash is necessary to pay all
+ketplace.  The second is not permanent, the
+                                                                                                    transaction fees to the network.  Every action
+tokens can be unlocked from the blockchain.
+                                                                                                    that takes place on the Blockchain network re-
+Cost of performing an incentive lock in.                                                            quires the payment of some network fee. Safex
+Performing a lock in transaction will cost  1                                                       Cash is obtainable through proof of work min-
+Safex Token which is burned but counts to-                                                          ing as well as from staking Safex Tokens. Safex
+wards the incentives in the lock in.  Unlock-                                                       Cash  is  also  the  principal  payment  method
+ing the Safex Tokens will cost an additional 1                                                      when fulfilling the purchase of products and
+Safex Token.                                                                                        services of the marketplace.
+2
+
+
+
+
+Money Supply of Safex Cash.  The main
+function  for  Safex  Cash  is  to  act  as  an  in-
+termediary instrument between parties,  that
+is,  to  facilitate  the  business  of  the  market
+by acting as a common medium of exchange
+(Mises,  1953).  In order to achieve that goal,
+it  should  meet  the  demand  for  currency  so
+as to enable all transactions on the market-
+place.   Taking into consideration that Safex
+Cash should be generated from the start of the
+Safex Blockchain, the emission of the money                                                               Figure   1:   Safex cash emission curve
+supply must adjust according to demand for
+money supply.   Demand for Safex Cash de-
+pends on platform growth - growth of new ac-
+tive users  (both buyers and sellers) and the
+number  of  transactions.   Consequently,  the
+emission curve for Safex Cash is designed to
+follow the rate of marketplace adoption.
+Safex marketplace is the innovation - it applies
+new  ideas  (encryption,  cryptocurrency)  and
+new, more effective technology (blockchain) to
+e commerce.  Therefore, the adequate model
+that  represents  future  growth  of  the  Safex
+marketplace  is  known  as  “diffusion  of  inno-
+                                                       Figure 2: Annual mining reward per block
+vation”.   It  is  a  process  by  which  an  inno-
+vation is communicated internally over time
+among the members of a social market sys-              The purpose of a Safex Cash airdrop. In
+tem  (Rogers  1983).  The diffusion follows an         order to seed the network with activity and be
+S-shaped curve which means that the innova-            able to cover fees for the initialization of the
+tion requires a lengthy period from the time           marketplace,  1 percent of Safex Cash will be
+it  becomes  available  until  mass  adoption  is      airdropped.  One half of that amount  (0.5%
+achieved.  In our case, after the marketplace          of the money supply or  5  million coins) will
+is released, only a class of innovators are in-        be obtainable by the holders of Safex Tokens
+terested in using it (represented with a slow,         during the start of the Safex Blockchain. The
+and deliberate start).  As it is communicated          other 0.5% will be assigned to the Safex devel-
+in a social system, other groups of consumers          opment team.
+begin adopting the marketplace  (represented           Airdropped  coins  have  a  key  role  in  the
+with accelerated growth).  In the last phase,          marketplace operation in the first months of
+growth rate of diffusion decelerates and even-         launch, but they will also highly affect the fu-
+tually reaches the saturation level.                   ture growth of the Safex platform.  An initial
+The Safex Cash emission curve is going to fol-         condition for using the marketplace is the exis-
+low an S shape.  There is a limit of 1 billion         tence of a certain amount of currency. Without
+(1,000,000,000) Safex Cash that will be emit-          circulation of the currency, operations wouldnt
+ted in the next 20 years (2 minutes per block).        be possible. So, airdropped Safex Cash are lit-
+Half of the coins will be mined in first 7 years,      erally enabling usage of the platform.
+while the other half will be emitted in the fol-       The best way to put money in circulation is to
+lowing 13 years.                                       distribute it to those who want to use it. Con-
+3
+
+
+
+
+sequently,  coins will be distributed to Safex                                                       there will be rewards available to those who
+Token holders and the development team. One                                                          are adopting the network.
+smaller amount of the teams currency will be                                                         Emission of new coins follows the marketplace
+used to cover development costs.  The main                                                           adoption model.  For example, in years that
+part will be invested in marketing and promo-                                                        are expected to have an exponential growth of
+tion in order to increase the number of market                                                       users and transactions, money supply growth
+participants so as to galvanize trading on the                                                       will also be exponential, and vice versa.  This
+platform.   Also,  Safex Cash will be used to                                                        means that when there is higher demand for
+finance future development of the project us-                                                        money, mining rewards will be higher.  Total
+ing the Safex marketplace mechanisms of ser-                                                         supply of Safex Cash is limited to one billion
+vice providers.  The amount of dividends that                                                        coins and when it reaches the maximum min-
+Safex holders will earn are directly dependent                                                       ers will depend on the transaction fees alone
+on the gross merchandise volume. This creates                                                        which will be ample with widespread usage of
+a strong incentive for Safex holders to promote     the currency.
+the marketplace and spend  (and earn) their
+Safex Cash from the platform.  That is why
+                                                    Table                                                                                              1: Safex cash mining schedule.
+a significant amount of airdropped Safex Cash
+will be used for marketing purposes and for                                                          Block                                             Mining                           Total
+                                                    Year
+buying goods and services.                                                                           height                                            reward                           supply
+                                                    airdrop                                          0                                                 /                                10,000,000
+Safex Cash Divisibility.  Safex Cash is di-
+                                                    1                                                262,500                                           60                               25,750,000
+visible to 10 decimal places.  1.0000000000         2                                                525,000                                           130                              59,875,000
+                                                    3                                                787,500                                           200                              112,375,000
+Names of divisible quantities:
+                                                    4                                                1,050,000                                         270                              183,250,000
+                                                    5                                                1,312,500                                         340                              272,500,000
+0.0001 Safex Cash = 1 Dabek
+6                                                   1,575,000                                        410                                               380,125,000
+0.001 Safex Cash = 1 Todor
+                                                    7                                                1,837,500                                         480                              506,125,000
+0.01 Safex Cash = 1 Cortez
+                                                    8                                                2,100,000                                         400                              611,125,000
+0.1 Safex Cash = 1 Cabral
+                                                    9                                                2,362,500                                         320                              695,125,000
+                                                    10                                               2,625,000                                         260                              763,375,000
+                                                    11                                               2,887,500                                         200                              815,875,000
+Proof of Work Mining.  Safex Cash is dis-
+12                                                  3,150,000                                        160                                               857,875,000
+tributed  using  an  egalitarian  proof  of  work
+13                                                  3,412,500                                        120                                               889,375,000
+mining algorithm.  The algorithm is based on
+14                                                  3,675,000                                        100                                               915,625,000
+the CryptoNight algorithm (Seigen, 2013).  It
+15                                                  3,937,500                                        80                                                936,625,000
+is unrealistic to think that hardware manufac-
+16                                                  4,200,000                                        64                                                953,425,000
+turers will incorporate more expensive meth-
+17                                                  4,462,500                                        52                                                967,075,000
+ods to produce application specific machines
+18                                                  4,725,000                                        44                                                978,625,000
+for mining the coins.  Therefore, general pur-
+19                                                  4,987,500                                        40                                                989,125,000
+pose computers such as the average home com-
+20                                                  5,259,375                                        40                                                1,000,000,000
+puter and at best graphic card arrays will be
+efficient at mining Safex Cash.   This means
+that the ability for ordinary people to partici-
+pate in the support of the network and acquisi-
+Marketplace
+tion of Safex Cash is more evenly distributed.
+It is for this reason and the Money Supply Dis-     The  main  value  proposition                    of  the  Safex
+tribution that throughout the entire lifetime       Blockchain is its embedded marketplace.  The
+of the Safex Marketplace and its Blockchain         world  has  found  that  cryptocurrencies  are
+4
+
+
+
+
+highly effective for making international pay-              Title  Market  (A  curated  and  centrally
+ments and purchases (Nakamoto, 2008). How-                  managed  marketplace  of  vendors  and
+ever,  there  are  many  shortcomings  due  to              participants). A title market is a listing that
+offsite  clearing  of  the  payments.               Safex   is backed by a staked participant. In order to
+Blockchain addresses this by providing a fully              post a listing, such a participant would need to
+functional marketplace mechanism where peo-                 be verified by the Title operator or be the con-
+ple are capable of offering their goods or ser-             troller of the Title. These listings are enabled
+vices directly on the Blockchain and all pay-               to provide an identity;  for example the title
+ment clearing and processing takes place atom-              market for apples could be: apple, and within
+ically via blockchain transactions.                         it are all verified sellers listings of apples, their
+There are a number of advantages to such a                  prices, and terms of redemption.
+system:                                                     The curator would then enable settings to pro-
+                                                            vide the proper means for the vendors to fulfill
+1.  No  longer  do  people  need  to  host                  their objectives of trading in their respective
+complex services to provide purchasing                      markets.   The curator can enable or disable
+mechanisms for cryptocurrencies.                            anyone from participating in this particular ti-
+2.  The advancement permits fewer risks in                  tle, for instance, should an apple vendor begin
+service  breach  that  leads  to  theft  and                to sell electronics in the market for apples.
+compromised  payment  systems  involv-
+                                                            Escrow and Arbitration. Curators can also
+ing cryptocurrencies. Safex Marketplace
+                                                            set arbitration rules, and the forms of escrow
+eliminates the web server altogether be-
+                                                            that are permitted on their market segment.
+cause all payment and clearing is carried
+                                                            This means that when a merchant decides to
+out cryptographically over a decentral-
+                                                            offer their product on a specific Title Market,
+ized network.
+                                                            they are enabling all of the rules set forward
+3.  Discovery  of  trading  partners  becomes
+                                                            by the person who established that Title.
+more efficient so that you can find prod-
+ucts and services readily.                                  Costs of establishing a Title Market. The
+                                                            cost of establishing a Title Market and becom-
+The Safex marketplace is a collection of mar-               ing its curator requires a Basic Account to pay
+kets and sale listings. People can interact with            and burn 200 Safex Tokens at the time estab-
+the marketplace term agreements.  Within a                  lishment.  The curator of the market can set
+term agreement are the parameters by which                  a fee for utilizing their segment and they will
+a transaction will be fulfilled.  Among the at-             earn the fee from all sellers within their mar-
+tributes include:  arbitration,  escrow,  digital
+                                                            ketplace.
+receipts, timestamp proofs, cash on delivery.
+                                                            Encrypted Marketplaces. Any user has the
+The possibilities of expanded data structures
+                                                            ability to fully encrypted their market, and in
+of a CryptoNote Transaction allows the net-
+                                                            order to participate in that market, the user
+work to implement various advancements in
+                                                            must acquire the decryption key.
+utility (Werner, 2012).
+                                                            Finding  and  Interacting  with  hosted
+Void Market (when someone has no cat-
+                                                            markets.  The transaction hash, is the “web
+egory  marketplace  listing).    The  Safex
+                                                            address” in the blockchain where a Title mar-
+marketplace permits any person to pay a list-
+                                                            ketplace listing or void market listing can be
+ing fee which enables a digital contract to be
+                                                            parsed from.
+embedded and executed by the blockchain net-
+work. These market listings bare no title, and              While the blockchain marketplace cannot be
+are free formed with arbitrary parameters.                  censored in any way, the way people experi-
+5
+
+
+
+
+ence the marketplace can be regulated  (vol-           Full confidentiality is established by en-
+untarily).  Thus, a layer above the blockchain         crypting the marketplace listing. It is also
+could  act  as  a  registry  of  these  transaction    possible that users will want to privately share
+hashes that represent the destination to a spe-        their marketplace listings. In order to facilitate
+cific product or service within the Safex mar-         this, users can encrypt their marketplace list-
+ketplace. These addresses can then be filtered         ing.  Only those characteristics which are re-
+and curated on a website or an application.            quired for the Blockchain to process escrow re-
+main visible.  The conditions and descriptions
+of the product or service remain encrypted via
+Accounts
+PGP.
+Users  of  the  marketplace  can  establish
+a  profile  via  a  Safex  Account.  A Safex
+Treasury
+Account is able to display its identity and be
+stored in the blockchain. A basic account con-
+                                                       Safex needs a way to finance future de-
+sists of a Name, Avatar, Website URL, Unique
+                                                       velopment and maintenance.  Since safex
+ID, and an array of PGP Keys. The most im-
+                                                       is a completely decentralized community and
+portant aspect is the fact that a basic account
+                                                       software that has been demanded and built by
+could receive and give reputation.
+                                                       a worldwide collective effort, it also will need
+Effectively, an Account is capable of applying
+                                                       to have some form to ensure the maintenance
+its sell orders to a Title Market or to the Void
+                                                       of its future.  Other decentralized technology
+and  represent  its  wares  in  that  marketplace
+                                                       platforms such as Dash  (Balazs,  2017) have
+if approved by the Title Market Curator.  A
+                                                       found great success in proliferating their mes-
+Basic account may not create a Title Market.
+                                                       sage and development contributions by offer-
+This type of account can already begin to ac-
+                                                       ing bounties.
+quire reputation and give feedback on other
+                                                       Safex will need to permit for such a provision
+transactions.
+                                                       so that innovation remains on a constant tra-
+The  cost  of  a  basic  account  is  a  burn  of  2
+                                                       jectory, and for there to be an unbiased reserve
+Safex Tokens.   These tokens are staked and
+                                                       of  finance  to  permit  incentives  to  be  made
+earn residual dividends for the account.
+                                                       which the community could call on to demand
+                                                       improvements and the development of new fea-
+Safex  Network  fees  are  paid  in  Safex
+                                                       tures.
+Cash.  Each action that involves manipulat-
+ing data related to the marketplace takes the
+                                                       Treasury funding comes from trades on
+form of a transaction. These transactions bear
+                                                       the marketplace.  A provision on all trans-
+a network fee that must be paid in Safex Cash.
+                                                       actions will be charged from all sales events of
+Each trade enables a feedback event for                0.02%.  This amount will be sent to a reposi-
+building  reputation.  When someone con-               tory maintained by the Safex software.
+cludes a trade with another party, so long as
+the  trade  took  place  with  an  account,  each      Community  appointed  Chief  Architect.
+person may grant feedback to the other party.          The community could appoint a chief archi-
+Both buyer and seller can award a reputation           tect who could allocate  50% of the finances
+score between 1-5 as well as a text comment.           based on a monthly balance average without
+Part of the provision from a trade is allocated        approval from the community.  The Chief Ar-
+so that people need not worry about additional         chitect will submit a key that the blockchain
+payments for the data costs when leaving feed-         software will recognize for spending funds. All
+back.                                                  expenses must be a proposal and should be put
+6
+
+
+
+
+towards critical infrastructure bounties to de-     block utilization increases so does the limita-
+velopers, and other necessary expenses for the      tion in order to accommodate an ever expand-
+Safex software.                                     ing user base.
+                                                    Encrypted    communication    via    the
+Nominating a chief architect. Nomination
+                                                    blockchain.   Anyone  can  store  a  PGP  key
+of a chief architect could take place once ev-
+                                                    in the Safex Blockchain for a fee.  Therefore,
+ery 3 months. Also a majority of participating
+                                                    messages can be encrypted using the identifier
+voters will determine the outcome of the vote.
+                                                    of the PGP key and stored in the blockchain
+                                                    for retrieval in the future by the recipient.
+Proposal for spending from the treasury
+for  community  initiatives.   Anyone  with
+                                                    Ring  Confidential  Transactions  ensure
+an account could make a proposal and any-
+                                                    fungible  currency.   A  critical  element  of
+one with Safex Tokens before the proposal was
+                                                    cryptocurrency is that it must be mutually in-
+formed could cast a vote whether to approve
+                                                    terchangeable. One unit of Safex Cash must be
+or decline an expense. Majority of participants
+                                                    in the same perception as another Safex Cash
+will determine the outcome of the proposal.
+                                                    unit. This defines the “Cash” term of the Safex
+                                                    Currency. Therefore, the Safex Blockchain em-
+                                                    ploys the use of Ring Confidential Transactions
+Blockchain
+                                                    in order to preserve the fungibility of the cur-
+                                                    rency  so  that  each  Safex  Cash  is  viewed  in
+The  Safex  Blockchain  focuses  on  addressing
+                                                    the  same  way.   This  also  means  that  when
+critical issues related to community adoption
+                                                    spending to a purchase agreement or sending
+and  sustainability.   This  means  that  people
+                                                    a transaction the recipient has no knowledge
+who find themselves using the currency mined
+                                                    of the purchasers other balances and has no
+on this blockchain must be able to maintain
+                                                    knowledge of the purchasers spending habits
+their sovereignty by protecting their balances
+                                                    (Noether, 2015).
+in such a way that adversaries cannot analyze
+and make targets of the users.  Therefore, the
+                                                    RingCT for securing private wealth. Uti-
+currency must employ anonymizing features to
+                                                    lizing  Ring  Confidential  Transactions  means
+protect the people who use it.
+                                                    that  only  the  sender  and  the  receiver  know
+Secondly, users should be able to exercise ac-
+                                                    which transaction is correct from the set of in-
+tivities over the blockchain,  in this case ex-
+                                                    puts used to form a transaction.  On the one
+posing a marketplace where people can buy
+                                                    hand the sender who formed the transaction
+and sell the things that they want and need
+                                                    has information about the real transaction and
+from other people without leaving the confines
+                                                    on the other hand the recipient is able to sign
+of the Safex peer to peer network.  In addi-
+                                                    off on a future transaction with their private
+tion, the sustainability aspect depends on the
+                                                    key.  These features are essential to maintain
+blockchain not being constrained and prone to
+                                                    privacy that one should expect with their fi-
+spam attacks due to full blocks as is the case
+                                                    nances when utilizing a fully transparent and
+with Bitcoin.
+decentralized blockchain.
+Dynamic   block   size   deals   with   full
+blocks.  A common flaw and the subject of
+Conclusion
+intense controversy is the capacity of blocks in
+many blockchain networks, particularly in Bit-      We have outlined a path that will solve the
+coin. The Safex Blockchain employs a dynam-         most important issues that face cryptocurren-
+ically adjusting block size limitation so that as   cies today. Those of fair currency distribution,
+7
+
+
+
+
+a rigorous incentive model for promotion of the   considered a global infrastructure that is being
+ecosystem to more participants, the means to      cultivated for the long term.
+remain secure when spending funds within the
+digital realm, and finally a mechanism through
+which people can engage in meaningful trade       References
+among each other.
+                                                  Balazs,  K.  (2017.)   Governance  and  Budget
+From here the development team is able to pro-
+duce a minimum viable product that can go to      System, https://dashpay.atlassian.net
+the market and serve the people to conduct        Mises L.  (1953.)  The Theory of Money and
+crypto commerce.  The future will be full of      Credit, Yale University Press, New Haven, CT,
+                                                  USA
+innovations beyond the initial implementation
+and only because we took the first steps will     Nakamoto, S. (2008.) Bitcoin: A Peer-to-Peer
+those enhancements and optimizations be pos-      Electronic Cash System, bitcoin.org
+sible.  The early adopters are the first to the   Noether, S. (2015.)  Ring Confidential Trans-
+market and will be veterans of utilizing our      actions, https://eprint.iacr.org
+novel platform and be leaders in the new eco-     Rogers  E.  (1983.)   Diffusion  of  innovations
+nomic model that cryptocurrencies have pre-       (3rd ed.).  New York:  Free Press of Glencoe,
+sented to us.  We have found the best way to      USA
+distribute money to support real utilization,     Seigen et al.  (2013.) CryptoNight Hash Func-
+while maintaining the incentive for people to     tion, cryptonote.org
+participate fairly along the way.  This project   Werner et al.  (2012.) CryptoNote Transaction
+intends to stand the test of time and should be   Extra Field, cryptonote.org
+8
+
+
+
+
+

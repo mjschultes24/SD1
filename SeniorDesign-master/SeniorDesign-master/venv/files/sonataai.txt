@@ -1,0 +1,792 @@
+﻿The only cryptocurrency
+exchange you will ever need
+Whitepaper 1.2
+October 2018
+
+
+
+
+Content
+Content                                 2
+1. Disclaimer                           4
+2. The Vision                           6
+Our experience                          6
+3. Introduction                         8
+Backed by a strong investor             8
+4. The Market                           9
+Market analysis                         9
+Target group                            10
+5. The Product                          11
+Security                                11
+Transaction fees                        12
+User Interface                          13
+Margin trading                          14
+All coins and tokens in one place       15
+AI algorithms predicting price trends   15
+Bot-friendly API                        16
+Social elements                         16
+Mobile apps                             17
+Underlying technology                   18
+6. Sonata Token (SONT)                  19
+Token sale                              19
+Token distribution & Use of funds       20
+Plan of token trade                     20
+Sonata.ai                               2
+
+
+
+
+7. How can I benefit from investing into Sonata   21
+System of rewards for investors                   21
+Estimated payback period                          21
+Income from margin trading                        22
+Additional tokens gained from fees                22
+8. Marketing Strategy                             24
+Mission of the project                            24
+Strategic goal of the project                     24
+Marketing channels                                24
+9. Roadmap                                        26
+10. The Team & Advisors                           28
+Sonata.ai                                         3
+
+
+
+
+1. Disclaimer
+The given White Paper document has been formulated to present the Sonata project to
+potential participants of the platform and those interested in contributing to its development.
+The information set out below may not be exhaustive and does not imply any contractual
+relationship. Its sole purpose is to provide information to potential token holders, so they may
+determine whether they are willing to analyze the company with the intent of acquiring Sonata
+(SONT) tokens.
+No part of the given White Paper shall be deemed to constitute a prospectus or a solicitation for
+contribution, nor does it in any way pertain to an offering or a solicitation of an offer to buy any
+securities in any jurisdiction.
+The given document is not composed in accordance with, nor subject to, any laws or regulations
+of any jurisdiction aimed at protecting contributors.
+Certain statements, estimates, and financial information contained in the given White Paper
+constitute forward-looking statements. Such forward-looking statements or information deem
+risks and uncertainties, which may cause actual events or results to differ materially from the
+estimates or results implied or expressed in such forward-looking statements.
+The given English language White Paper is the primary and sole official source of information
+about the Sonata project and its token launch. The information contained herein may be
+translated into other languages or used for establishing written or verbal communication
+channels with potential partners or contributors of the project. As a result of translation, some
+information contained herein may be omitted, corrupted, or misrepresented. In the event of
+inconsistencies between any translations or communications and the given official English
+language White Paper, the provisions of the given English language original document shall hold
+primary status and prevail.
+Sonata Coin Ltd. reserves the right to introduce changes to the given White Paper. In the case of
+a difference or differences between the versions of the document, the latest version of the White
+Paper published on the sonata.ai website shall prevail, and all previously published versions are
+considered to be invalid in all their iterations and representations.
+Sonata prohibits users of the platform to avoid capital controls of any kind and does not allow
+them to conduct contributions in foreign assets of any manner.
+Sonata.ai                                                                                              4
+
+
+
+
+The information contained in this White paper and on https://www.sonata.ai is of descriptive
+nature only, is not binding and does not form part of the terms and conditions of the token
+generation event (hereinafter known as the “Terms”). In particular, you should be advised that
+the purchase of Sonata tokens may involve high risks. Please refer to the risks section in the
+Terms for more information.
+Before purchasing any Sonata tokens, please ensure you are capable of offering official
+representation and warranties, specified in the respective sections of the Terms.
+Any distribution, public or otherwise, of the given document and the offer and/or sale of Sonata
+tokens may be restricted by law in some jurisdictions. Failure to comply with any restrictions
+could result in a violation of the law. At the moment, Sonata tokens have not been registered
+under the U.S. Securities Act of 1933 (hereinafter the “Securities Act”), or with any regulatory
+authority of securities of any state or other jurisdiction in the territory of the United States.
+Sonata tokens shall not and cannot be offered to, purchased by or sold to, on the account of or
+for the benefit of, any green card holder of the United States or any US citizen or permanent
+resident of the United States (tax or otherwise), or to an individual having a primary residence or
+domicile in the United States (tax or otherwise), including Puerto Rico, the U.S. Virgin Islands or
+any other territory or possession of the United States.
+Sonata tokens shall not and cannot be offered to citizens or permanent residents of the
+Republic of Singapore (tax or otherwise), or anyone having a primary residence or domicile in
+Singapore.
+Sonata tokens shall not and cannot be offered to citizens or permanent residents of Canada (tax
+or otherwise), or to anyone having a primary residence or domicile in Canada.
+We do not and cannot provide guarantees and disclaim any liability that the above-mentioned
+conditions shall be fulfilled. It is the sole responsibility of the reader and potential participant or
+contributor to ensure that participation in the token Sale is not prohibited under the applicable
+laws of said participant’s or contributor’s country of residence or domicile.
+Sonatacoin Ltd will take all legal steps to maintain Sonata exchange legitimacy in the quickly
+changing environment of regulatory policies. Sonata exchange will stay compliant to all
+regulatory laws applicable even in the future. Therefore, we have carefully create our product in
+close cooperation with the legal team provided by our investor.
+Sonata.ai                                                                                                 5
+
+
+
+
+2. The Vision
+In the past few years, the cryptocurrency market has been constantly growing. It has become a
+multibillion-dollar industry, appealing for investors who see it as a platform for making quick
+money. The sudden popularity of investing in new coins and tokens was undoubtedly inspired by
+stories of young millionaires who invested in Bitcoin back in the time when only few people
+believed this technology would be successful.
+The vision of effortless income has attracted some expert investors, but also large numbers of
+inexperienced enthusiasts. A common weakness of these novice investors is that they are not
+familiar with how cryptocurrencies work since they are usually not interested in the underlying
+technology of blockchain. Moreover, as opposed to seasoned professional brokers, these new
+investors typically lack the knowledge of basic stock exchange principles.
+However, these newcomers are the driving force behind the quickly growing market, fueling the
+largest share of the industry. Their number is steadily growing as the public awareness of
+cryptocurrencies and their benefits spreads across the globe.
+Our experience
+When we first decided to invest in cryptocurrencies ourselves, we naturally started using several
+different existing exchanges, because there was not a single one that would satisfy our needs.
+We have soon found out, that as technology enthusiasts, we were deeply dissatisfied with the
+state of the cryptocurrency market. That is why we decided to do something about it.
+We approached other users to ask them about their experience. Many of them shared our views
+on the unsatisfactory situation of cryptocurrency exchanges. We have heard most of those
+complaints over and over. Let us summarize the most frequent deficiencies and concerns:
+There is a huge need for a stable and secure cryptocurrency exchange system. Even the
+biggest players have stability issues, therefore their applications are not completely
+reliable. This is not acceptable in the trading world, where every millisecond can be
+worth a large sum of money.
+To the big surprise of users, most cryptocurrency exchanges lack many functionalities of
+established exchange systems (Forex, commodities, etc.) that have been used for many
+years.
+The vast majority of cryptocurrency exchanges do not provide an easy-to-use trading
+from charts, a tool that has been used by traditional exchanges for many years.
+Sonata.ai                                                                                           6
+
+
+
+
+Even the biggest exchanges offer only few of the most common coins and tokens.
+Most exchanges impose restrictive daily and monthly transaction limits. The registration
+process is too lengthy. The whole registration process can take up to three months,
+during this time, investors can miss many opportunities.
+The user interface is usually too complex for basic operations, with too much emphasis
+on tools that are unimportant and not often used. Many common tools do not function
+as would be expected and leave even the expert traders confused, let alone the
+beginners.
+These issues make the users search for more than one exchange, force them to work with more
+products at once and cause unnecessary inconvenience. It seems that also expert users are
+missing one exchange that would contain all the basic features and “do them right”.
+Sonata.ai                                                                                     7
+
+
+
+
+3. Introduction
+We are aware that it is challenging to succeed as a new project in a saturated market. However,
+the fact that Sonata is not the first cryptocurrency exchange on the market is actually one of its
+advantages. This allows us to evaluate several established projects and the usability of their
+features. Unlike the leading exchange platforms, Sonata does not have to alter an already
+operational product and force users to acquire new usage patterns. Currently, we are gathering
+feedback from users in the field and fine-tuning our platform before the actual launch.
+Right from the start we are building an exchange with the expectation of large trading volumes,
+so the whole solution is based on a scalable microservices architecture.
+The motto of our company is to maintain continuous technological and functional development
+of the product. Our goal is to create a balanced, easy-to-use product that would be suitable for
+entry-level users, while also providing all the advanced features required by experienced
+investors.
+Backed by a strong investor
+The main investor of Sonata is the company Solidní Finance, a.s., a company that has been active
+in the investment market since 1994. Solidní Finance, a.s. provides all the financial resources
+needed for the completion of our project. Thanks to a strong financial support of this company,
+Sonata’s project development team can fully concentrate on the creation of a high-quality
+product. Therefore, the ICO can be used as a marketing campaign, rather than a way of
+gathering necessary financial resources.
+Solidní Finance
+Solidní Finance, a.s. cooperates with brokers and stock brokers who are helping the team with
+user experience testing and they are providing advisory services in processes “behind the
+curtain”. Thanks to these experts with rich experience in the field and also thanks to the
+technical knowledge of our implementation team, Sonata is a project that will have a strong
+position on the multibillion cryptocurrency market.
+Sonata.ai                                                                                            8
+
+
+
+
+4. The Market
+The crypto market is without a doubt one of the fastest growing new markets in modern history.
+Its total market cap fluctuates around $200,000,000,000 1 , with daily exchange volume at over
+$10,000,000,0002  and is steadily growing.
+Most of the market analysts agree that the field is still in its infancy and expect that it will
+become more stable as cryptocurrencies will become globally accepted as a means of trade in
+the future. Gradual regulation in many countries points to the fact that cryptocurrencies are
+being taken seriously even at the top governmental levels.
+That said, only small percentage of potential investors and traders are currently taking part in
+cryptocurrency exchange. As the market is grows, we can clearly see a rising interest of investors
+emerging from the general public. Their interest can be attributed to somewhat hyped media
+coverage of this topic. It is surprisingly not diminishing, even though the government
+restrictions and stagnant a Q2 and Q3 of 2018 would indicate the contrary. We expect steady
+and strong interest in investments in this field, be it cryptocurrencies or blockchain as such.
+Market analysis
+It is almost impossible to find out how many people trade cryptocurrencies and how often they
+actually trade them. The reasons are following:
+Users can have more than one wallet. They usually have wallets for different services,
+cryptocurrencies, and for different activities: payment, holding, exchange etc.
+Users of exchanges can have many smaller virtual wallets for every platform, possibly
+even one wallet for every transaction.
+The only way to effectively count the number of cryptocurrency users is an approximation.
+According to available data, currently over 28,000,000 wallets were created using the blockchain
+network 3. To compare this number: at the beginning of the year 2017, only approx. 10,000,000
+wallets existed. We can easily see the sharp increase in the number of wallets within the last two
+years. However, to make our estimation relevant, we see the 28,000,000 wallets as a upper limit
+for our calculations.
+1 https://cryptolization.com
+2 https://coinmarketcap.com
+3 https://www.blockchain.com
+Sonata.ai                                                                                            9
+
+
+
+
+30,000,000
+28,000,000
+26,000,000
+24,000,000
+22,000,000
+20,000,000
+18,000,000
+Nov 2017                                                                                            Jan 2018   Mar 2018   May 2018   Jul 2018   Sep 2018
+Blockchain Wallet Users, source: Blockchain.com
+Target group
+As we already pointed out in Introduction of this white paper, Sonata is aiming at the large and
+steadily growing group of novice investors as the main target group. To specify the target group,
+let’s sum up some of the main traits of a potential user:
+A new user, who is searching for the best business opportunity and needs the help of a
+community of professionals.
+An experienced user searching for a better trading platform to replace his current
+exchange.
+The owner of a larger amount of cryptocurrencies, searching for a safe way to multiply
+his holdings via high interest P2P loans.
+A holder, who wants to gain passive income from the transaction fees Sonata will divide
+between investors.
+An exchange specialist, who knows how to maximize his earnings using a few different
+exchange platforms.
+Strategy providers and asset managers, who manage asset portfolios of their clients.
+These user personas can and in most cases will mingle into more complex groups. That allows
+us to reach our audience with a wider variety of marketing tools, as their online presence in
+different channels overlaps.
+Sonata.ai                                                                                           10
+
+
+
+
+5. The Product
+Security
+The main concern of any rationally thinking investor must be the safety of a given service.
+Questions like “Is it safe to entrust my money to the platform owners?” or “Can I trust the
+expertise of the creators?” are perfectly understandable. That is why we have built our exchange
+with the mindset, "security first". We provide multiple security layers, including unmatched
+server-side security, hardware wallet storage and premium protection against phishing and
+DDoS attacks. We have learned from the best and will secure your investment no matter what.
+We are still in process of testing all possible security measures, but we have already created a
+basic set of rules for the exchange. The set includes, but is not limited to, the following:
+Strict internal security processes, risk and vulnerability management
+Certified data center that meets the highest security standards - ISO 27001, SOC 1 and
+SOC 2/SSAE 16/ISAE 3402, PCI Level 1, Sarbanes-Oxley (SOX), FISMA Moderate
+Port scanning
+An isolated database environment
+Individual microservices, communication via an encrypted protocol
+90%+ test coverage
+Regular test-first updates of all used dependencies
+Secure communication over IPsec (Internet Protocol security)
+SQL injection protection
+EV SSL certificate
+SSL/HTTPS + HSTS
+Cross-site scripting protection (XSS)
+Cross-site request forgery protection (CSRF)
+High efficiency DDoS protection
+Sonata.ai                                                                                          11
+
+
+
+
+Spoofing and sniffing protection
+IP address blacklist
+Strong password policy with two-factor authentication (SMS verification, Google
+Authenticator)
+All passwords and keys will be stored using modern hashes (Argon2i, bcrypt, scrypt or
+PBKDF2)
+Cryptography - we do not use MD5, SHA-2 or similar hash functions that could mean
+potential security vulnerability of the system. All sensitive data will be encrypted using
+AES-256 encryption.
+Private keys stored on multiple cryptocurrency wallets. The wallets will be
+geographically separate, so that compromise of one wallet will not endanger all keys.
+Transaction fees
+Although it may seem counterintuitive, we will offer lower fees than most of the competition.
+Our fees will probably not be the lowest, but we will maintain them at a competitive level. It is
+obvious that the SONT token holders would prefer the highest possible fees. We believe that it is
+crucial to attract large group of traders who will actually use the exchange and provide high
+liquidity, thus attracting more users to join. Fees are one of the criteria certain users will build
+their decision on, especially on the entry level.
+Finding the “sweet spot” between low fees for the active users and rewarding payments for the
+token holders is one of the challenges Sonata has to solve continuously.
+You can find the expected fees for the transaction and withdrawal below:
+Currency                                                                                               Deposit
+BTC, LTC, ETH                                                                                          0%
+Currency                                                                                               Maker / Taker fee
+BTC, LTC, ETH                                                                                          0.09% / 0.19% (decreases with volume)
+Currency                                                                                               Withdrawal fee
+BTC, LTC, ETH                                                                                          Varies by currency and volume
+Sonata.ai                                                                                                                                      12
+
+
+
+
+We are planning to add other coins and tokens based on the volume trading and internal audit,
+so the system liquidity is ensured. We are expecting listing the major cryptocurrencies (Tether,
+EOS and Bitcoin CASH) in the first wave. Newly added assets will be announced in advance
+before they appear on Sonata.
+User Interface
+The best interface is no interface.
+We conducted in-depth interviews with exchange experts and the results have shown that every
+user has different needs and likes different things when it comes to the user interface.
+Therefore, we decided to make our default interface based on the most common usage
+patterns. Our designers have spent hours analyzing the user experience of professional brokers
+to build a truly distraction free interface. We aim to fulfill the needs of the majority of users.
+However, we plan an addition of customizable user interface to suit the needs of all of our
+clients.
+Sonata.ai
+
+
+
+
+Margin trading
+Margin (also leverage) trading is an
+expert tool used to level up the order
+income. On the other hand, this highly
+requested functionality can represent a
+high-risk scenario for the lender and the
+exchange if not “done right”. It is quite
+difficult to master the right algorithm for
+pairing the lender with the buyer and
+that is one of the reasons, why the
+feature is not as common as it might be.
+We are aware that margin trading is
+regulated or even restricted in certain
+countries. The platform will allow
+restriction of certain functions for
+specific countries, thus effectively          Margin trade settings, Sonata exchange application
+providing the needed flexibility.
+Sonata.ai                                     14
+
+
+
+
+All coins and tokens in one place
+Some exchanges do not offer small tokens because these tokens have low liquidity and not
+everyone is interested in buying them. However, there is a high demand for exchanges with a
+wide portfolio of tokens of different values. That is why Sonata will offer the majority of
+important tradeable tokens.
+It is probable that we will add tokens and coins gradually/one by one, so not all of them will be
+available at the launch of the first version. The key trading pairs included at the launch will be:
+Bitcoin (BTC), Litecoin (LTC) and Ethereum (ETH).
+AI algorithms predicting price trends
+Sonata will use a real-time market data and advanced AI algorithm to predict future price trends.
+We are confident to deliver a very precise prediction model built by artificial neural network
+(Long short-term memory). The algorithm is consulted with AI experts who have already created
+a working model of short-term prediction for gold spot price.
+AI prediction can by no means be seen as the only instrument for informed investment
+decisions, but it can be a very helpful starting tool for beginners in the field.
+30m                                                                                                   Ai      O: 6994.00   H: 7009.86.  L: 6981.39   C: 7009.86.                                                 0.23%
+$8,375
+$8,350
+$8,332
+$8,325
+$8,311
+$8,300
+42%
+$8,275
+$8,269
+$8,250
+$8,225
+Prediction
+17:30                                                                                                 18:00   18:30        19:00                     19:30                                                       20:00   20:30   21:00   21:30   22:00
+                                                                                                                                                     AI prediction in trade graph, Sonata exchange application
+Sonata.ai                                                                                             15
+
+
+
+
+Bot-friendly API
+Sonata will support all kinds of traders. Traders who prefer carefully planned long-term
+strategies can take advantage of our bot-friendly, well documented API. You will be able to
+customize your own notifications, trading orders, limits and much more.
+Social elements
+Interest in cryptocurrencies has connected highly specialized communities of professional and
+semi- professional exchange brokers. We plan to foster and cultivate this community even
+further. Sonata will feature group chats, categorized by topics, currencies etc. Real-time chat will
+allow users to share their knowledge and experience, communicate with others, ask for help or
+share a solution.
+Yet another social mechanism is trader ranks. The profile of every trader will be distinctly
+highlighted by a color and symbols based on their trade volume and success. This way the
+community can grow, strive and become stronger in a truly win-win fashion.
+Group:The future of Bitcoin
+here, they prolly do have an incentive.
+AbCoin:I have just ten pieces, but I plan to
+buy another one...
+Kentrick:By the end of the year we are
+again on horseback
+Sperkt:
+DJ BTC:There is no bulls there are only
+whales and bears and much bull meat.
+Tralas :this doesnt really need to go from
+the top of 6ks to the bottom of 6ks over
+and over again…
+Raul:Lucky2110: yes, and open a long with
+30% of my money at 8256 and waiting
+8185 to add 70%
+Type a message
+Group:Novice help (41)                                                                                 SEND                                          John Lundrick (3)
+                                                                                                       Real-time chat, Sonata exchange application
+Sonata.ai                                                                                                                                                                16
+
+
+
+
+Mobile apps
+Sonata is not a single application, but a whole
+ecosystem. Although we consider the web-based
+application as its core, the mobile application is not
+of any less importance. The mobile experience is a
+carefully planned part of the overall user experience
+and unlike what you might have seen in other cases,
+it is not just a smaller version of the core
+application. Our mobile apps will provide all the
+basic features of the web exchange, portfolio
+overview, current income from SONT and also
+advanced notifications settings. Sonata will be
+available as a native app, both for Android and iOS.
+Sonata.ai                                                17
+
+
+
+
+Underlying technology
+Carefully planned design and flawless
+Frontend
+technical execution are key factors for                                                                 API
+(ReactJS)
+API smooth user experience. Our
+developers have long-term experience
+creating global IoT projects, streaming
+services and other volume-heavy
+platforms that provide services to
+Microservices
+hundreds of thousands of users at the
+(GO + Python)
+same time. The team has put together
+a stack of technologies we have already
+tested and implemented elsewhere.
+InfluxDB                                                                                                PostgreSQL
+Our application will be distributed
+between carefully planned
+microservices. This will allow us to
+maximize effectivity of every part of the
+platform and will provide almost
+Message broker
+(Kafka)
+unlimited scalability for the future.
+Most of the Sonata’s microservices are written in Go and fully test-covered. The programming
+language Go, created by Google, is typical for its low latency, highly secure design and a high
+level of standardization.
+The administrative interface and part of the microservices of Sonata is built in Python’s popular
+framework Django. Database is handled by Apache Kafka, a platform for distributed streaming.
+Apache Kafka was created for real-time data logging and data pairing. It will be used together
+with a time series database system InfluxDB to handle transactions, margin trading and fees
+distribution. All other data will be securely stored within performance-oriented database
+PostgreSQL.
+The front end interface (content presented to a user) is written in React, the JavaScript library
+used by global services for real-time data and content streaming (Facebook, Spotify, Twitch,
+Instagram, Netflix etc.)
+The main interface of every trader is a chart or set of charts. Sonata will build the interface using
+Tradingview charts, a service widely used among other exchange platforms. These charts are
+highly customizable and provide the flexible functionality for almost every use case.
+Sonata.ai                                                                                               18
+
+
+
+
+6. Sonata Token (SONT)
+Sonata token (SONT) is based on Ethereum blockchain system and is standard ERC20 compliant.
+During the ICO period we will offer 250,000,000 tokens out of total 500,000,000. Sale will start
+on October 8, 2018 and will be followed by strategic phases as illustrated in the chapter
+“Roadmap” below.
+Token sale
+We plan to divide the token sale into several stages, rewarding early adopters with the highest
+bonus rate. The token sale will not be limited by time, as is common for other ICOs, but by the
+amount of tokens. Once the tokens are sold, there will be no other chance to buy them with the
+given bonus. To keep the price of SONT steady, Sonata will lockout its tokens and will release
+them in regulated quantities, always in a given period of time.
+Value of token                                                                                     1 SONT = $0.1
+Minimal transaction                                                                                1,000 SONT
+Hardcap                                                                                            $21,000,000
+Phases of the sale are as follows:
+Sale phases                                                                                        Tokens available   Bonus
+Private sale                                                                                       100,000,000 SONT   -
+Public sale 1                                                                                      30,000,000 SONT    15%
+Public sale 2                                                                                      50,000,000 SONT    10%
+Public sale 3                                                                                      70,000,000 SONT    5%
+Sonata.ai                                                                                          19
+
+
+
+
+Token distribution                                                                                                                Use of funds
+                                                                                                                                  16%            Infrastructure
+                                                                                                                                  25%            Development
+50%                                                                                                   Public sale
+                                                                                                                                  9%             Legal
+5%                                                                                                    Bounty system
+                                                                                                                                  23%            Marketing, PR, advert
+20%                                                                                                   Team, investors, advisors
+                                                                                                                                  8%             Operations, admin
+25%                                                                                                   Acquisitions
+                                                                                                                                  19%            Security
+Plan of token trade
+Plenty of ICOs made the mistake selling their tokens in a haste. Because of that, their token lost
+a lot of its value, often dropping to fraction of its potential. Knowing that, we have prepared a
+trading plan that will have strict annual limits and the real trade volume will react to the market
+situation.
+Sonata (both the team and the company) will not take part in sale of tokens the first year after
+the ICO is over, and will not offer tokens under the subscription price of $0.1.
+Below is the trade plan of the acquisition tokens:
+Years after ICO                                                                                       Token limits
+First year                                                                                            0 SONT
+Second year                                                                                           15,000,000 SONT
+Third year                                                                                            25,000,000 SONT
+Fourth year                                                                                           30,000,000 SONT
+Fifth year                                                                                            35,000,000 SONT
+5-year distribution will be enforced by a smart contract.
+Sonata.ai                                                                                                                         20
+
+
+
+
+7. How can I benefit from investing
+into Sonata
+System of rewards for
+37.12
+investors                                                                                BTC monthly
+11.87
+We want to reward the community of                                                       BTC monthly
+4.41
+investors and therefore, 80 % of all
+BTC monthly
+1.74
+Sonata’s exchange fees is redistributed                                                  BTC monthly
+back to them. If you participate in our coin
+offering, you can generate passive income
+from the exchange fees. The earnings are                                                 $100M                      $200M   $300M                     $400M
+(profit estimated for 24H volume)
+redistributed every month and your current
+revenue is displayed in your user profile.
+Every user can freely transfer the tokens,
+send them to his wallet outside of the
+exchange or invest further. Investors are                                                14.5                       BTC     14,155,000 SONT
+                                                                                         Your investment                    Total tokens with bonus
+thus granted a transparent and easy-to-track
+system of rewards.
+Earnings estimates for token holders
+Estimated payback period
+Estimation of payback period is directly dependent on daily exchange volume of Sonata.
+Daily exchange volume                                                                    Estimated payback period
+$100,000,000                                                                             ~250 days
+$200,000,000                                                                             ~125 days
+$300,000,000                                                                             ~83 days
+$400,000,000                                                                             ~63 days
+Sonata.ai                                                                                21
+
+
+
+
+Income from margin trading
+Margin trading is one of the basic tools of trade
+of any exchange broker. Traders can borrow a
+leveraged amount of money at market-driven
+interest rates. This way they can invest more and
+Loan interest
+significantly increase their profits from their
+investment. A smart automatic pairing and
+closing algorithm will secure both sides of the
+deal.
+Traders pay loan fees both to the exchange and
+the loaner. 80 % of portion of the interest                                                            80% to investors     20% to Sonata.ai
+                                                                                                       (SNT token owners)   (platform development)
+income paid to the exchange is distributed
+among Sonata token holders every month.
+Please, see the interactive chart on our webpage
+to learn more about the potential revenue
+available for token holders.
+Additional tokens gained from fees
+You can acquire SONT tokens in more ways than by cryptocurrency exchange during the ICO
+stage of the project. We designed a mechanism that will guarantee that all active users of our
+exchange platform can get SONT tokens for every transaction they make.
+The amount of gained tokens will be calculated according to the value of the transaction. Tokens
+will be distributed fairly. They will be credited to the user’s wallet as soon as the transaction is
+completed. In total, we will distribute 5 % of all issued tokens, plus the tokens that would not be
+sold in the ICO stage of the project.
+Reward model
+The token distribution mechanism is optimized to reward actively trading users. The estimation
+of the payback period is based on the system of rewards for investors; to be more specific we
+base this on daily exchange volume.
+Example of rewards
+A user trades 1 BTC. This trade will cost him 0.19% of the traded value. 50% of the paid fee will
+be returned back to the user in SONT tokens. These tokens can be further sold or you can hold
+them to increase your passive revenue. This way, users can de facto get back the value of
+previously paid fees.
+Sonata.ai                                                                                              22
+
+
+
+
+Estimated payback period:
+Daily exchange volume                                                                          Payback period
+$100,000,000                                                                                   ~657 days
+$200,000,000                                                                                   ~330 days
+$300,000,000                                                                                   ~219 days
+$400,000,000                                                                                   ~164 days
+In addition to regular fees from the whole exchange, in the longer term you can receive your
+own transaction fees back.
+Sonata.ai                                                                                      23
+
+
+
+
+8. Marketing Strategy
+Our marketing strategy focuses on online promotion of the application. In our advertisement,
+we will clearly and transparently emphasize the advantages it has for the users. The campaign
+will present the project, its mission and its global impact to a pre-defined group of users.
+Mission of the project
+When it comes to cryptocurrency trading and exchange, we strive for simplicity and efficiency.
+We want to take part in education and in the development of blockchain technologies on a
+global level. Our mission is to introduce cryptocurrencies to the general public, novice traders
+and ecommerce companies that can also largely contribute to the development of
+cryptocurrencies.
+Strategic goal of the project
+The main goal of this project is the development of a community formed around our exchange
+application. A community of users who would trade together, communicate, share their
+expertise and help each other. When we designed our platform, we focused on the effectiveness
+of the trading process and on maximizing income with respect to the current situation on the
+market.
+Marketing channels
+The project will be promoted on efficient communication channels that can be used to target a
+specific audience. Below, you can find a list of the channels we will be using. The list is neither
+exhaustive nor definitive.
+Press release
+A press release is a great way to inform the general public about the project and its
+characteristics. Not only does it raise awareness of the project and the brand, but it also allows
+us to measure the conversion rate of visitors from information websites.
+Reach: up to 15 million users / month
+Sonata.ai                                                                                             24
+
+
+
+
+Guest articles and PR articles
+Publishing guest articles on thematic websites is usually for free. This applies to smaller websites
+with lower reach. High-traffic websites and media servers publish PR articles for a fixed fee.
+Reach: up to 25 million users / month
+PPC
+PPC is one of the most complicated marketing methods when it comes to advertising crypto
+products. This is even more true in comparison with the year 2017. Advertising ICO and other
+crypto projects is currently banned on browsers and Google, Facebook, LinkedIn and Twitter
+content networks. This has unfortunately reduced the efficiency of performance marketing.
+However, there is still a large number of specialized websites, blogs and media that offer PPC
+advertising or other forms of publicity with great potential.
+Reach: depending on the budget, we estimate it could be up to 5 million users / month
+Social networks and internet forums
+This is one of the best ways to achieve significant reach within your target group
+at a relatively low cost. There are hundreds of communities on social networks and these
+communities have hundreds of thousands of members. The advantage is that they are usually
+active members with a potential of long-term communication. Some of these channels offer paid
+advertisement that is easily quantifiable.
+Reach: 35 million users / month
+Referral program
+These commission programs are more and more popular, both with users who are rewarded if
+their friends join the program, but also with bloggers, youtubers and other content creators.
+Reach: 3 million users / month
+Sonata.ai                                                                                              25
+
+
+
+
+9. Roadmap
+Q2 2015
+First cryptocurrency investments. We are searching for a single exchange platform that
+would fulfil all our expectations. We fail to find one.
+Q3 2015
+We enjoy cryptocurrency trading and we see enormous potential in this branch. We are
+thinking about ways to enter the cryptocurrency market with a new product.
+Q4 2016
+The idea is born: Sonata will become a cryptocurrency platform designed for exchange,
+trading, P2P lending and maybe even more.
+Q3 2017
+We set up a team of designers, developers, marketers and specialists in the field of
+exchange market analysis.
+Q1 2018
+We create a simple currency exchange aimed for the Czech market: SonataCoin.com.
+There is a lot of potential for a new full-fledged exchange and the team agrees to start the
+development of such a service.
+Q2 2018
+The team laid the groundwork for Sonata.ai. We have a chance to meet with partners and
+advisers who are as enthusiastic about our idea as we are.
+Q3 2018
+The first internal version of the exchange. The AI for price prediction is consulted with AI
+experts and we can see the first results of short-term predictions.
+Q4 2018
+The public sale of SONT tokens is launched. We strongly believe that the investment will
+be beneficial for investors thanks to our smart payment mechanism. The mechanism pays
+out 80 percent of trade fees back to holders.
+Sonata.ai                                                                                      26
+
+
+
+
+Q1 2019
+The sale of SONT tokens is closed. We are expanding our team of developers and other
+specialists focusing on different tasks in order to innovate and upgrade the platform.
+Q2 2019
+The first public beta version of our exchange platform is released. Holders of our tokens
+are given the opportunity to be the first ones to try using it.
+Q3 2019
+We are focusing on further development and testing of our platform and upgrading our
+mobile applications. The first batch of altcoins is listed.
+Q4 2019
+The first versions of mobile apps for Android and iOS are released to public. We are
+publicly testing AI price prediction.
+Q1 2020
+The exchange application is continuously upgraded. We are implementing our own AI
+prediction of cryptocurrency prices. A large number of altcoins is listed.
+Q2 2020
+We expect almost 200,000 active users and the average daily trading volume of roughly
+$300,000,000.
+Q3 2020
+Public listing of altcoins and other tokens. Listing of SONT tokens expanded to other
+exchange markets.
+Sonata.ai                                                                                   27
+
+
+
+
+10. The Team & Advisors
+Team
+Eduard Sedlmajer          Jakub Langr                                Radim Bastan           Jan Sedlacek
+CEO, investor             Project director                           PR manager             Lead back end
+                                                                                            programmer
+David Stuller             Martin Bus                                 Vitezslav Hungr        Silvie Odehnalova
+Lead front end            Senior Designer                            Executive strategist   Marketing and
+programmer                                                                                  communication
+Renata Hadravova          Petr Nemecek                               Jaroslav Cehovsky      Petr Polanka
+Marketing and PR          Blockchain Expert                          Security Specialist    Lawyer
+                          and our team of developers and marketers
+Advisors
+Tomas Horak               Martin Bocanek
+Exchange expert           Exchange analyst
+Sonata.ai                 28
+
+
+
+
+

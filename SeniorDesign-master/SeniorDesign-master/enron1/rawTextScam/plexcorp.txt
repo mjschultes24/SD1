@@ -1,0 +1,1718 @@
+﻿Section 01
+Table of contents
+1. Table of contents ...                        .. 1
+2. Introduction ...                             ... 4
+2.1.   Who are we? ...                          . 4
+2.2.   Confidentiality ...                      ... 4
+2.3.   Team background ...                      .. 5
+2.4.   Our experience ...                       . 6
+2.5.   Message from the President ...           . 7
+2.6.   Anonymity ...                            .. 8
+2.7.   Our offices ...                          .. 8
+2.8.   The market ...                           . 9
+2.9.   Issues ...                               ... 9
+2.10. Solutions ...                             .. 10
+2.11. Security, our priority ...                ... 10
+2.12. Our mission ...                           . 14
+2.13. Our motivation ...                        ... 15
+3. Abstract of our projects ...                 ... 16
+3.1.   PlexCoin ...                             ... 16
+3.2.    PlexWallet ...                          ... 17
+3.3.   PlexCard ...                             .. 18
+3.4.   PlexBank ...                             .. 19
+3.5.   PlexCorps ...                            . 20
+4. The PlexCoin project ...                     .. 21
+4.1.   The future ...                           . 22
+4.2.   Our goal ...                             ... 23
+4.3.   How are we different? ...                ... 23
+PlexCoin (PLX) White paper - © PlexCorps 2017   1 of 56
+
+
+
+
+4.4.   Use of PlexCoin ...                           ... 24
+4.5.   Ethereum technology ...                       . 26
+4.6.   Why ERC20 Ethereum? ...                       ... 26
+4.7.   PlexCoin token address ...                    ... 28
+4.8.   PlexCoin smart contract address ...           . 29
+4.9.   Social networks ...                           . 31
+4.10. PlexCoin project important dates ...           . 32
+4.11. PlexCoin, the new Bitcoin? ...                 . 32
+5. Pre-sale (ICO)...                                 34
+5.1.   Why a pre-sale? ...                           34
+5.2.   Pre-sale workings ...                         34
+5.3.   Calculator ...                                36
+5.4.   Return on investment ...                      37
+5.5.   Payment methods ...                           38
+5.6.   Sale levels ...                               39
+5.7.   PlexCoin price ...                            40
+5.8.   Bonus ...                                     41
+5.9.   Available PlexCoin number ...                 43
+5.10. How to buy? ...                                43
+5.11. How to sell? ...                               45
+5.12. How to transfer? ...                           46
+5.13.  PlexCoin distribution ...                     47
+5.14. Amount earned from the PlexCoin pre-sale ...   48
+5.15. Project budget ...                             48
+6. Finances ...                                      ... 50
+6.1.   Abstract ...                                  . 51
+6.2.   Financial forecast - Conservative ...         . 51
+6.3.   Financial forecast - Optimistic ...           ... 52
+PlexCoin (PLX) White paper - © PlexCorps 2017        2 of 56
+
+
+
+
+7. Conclusion ...                               .. 53
+7.1.   PlexCorps projects roadmap ...           .. 53
+7.2.   Official pages links ...                 .. 54
+7.3.   Reference links ...                      . 54
+7.4.   Logos ...                                . 55
+8. Terms and conditions ...                     . 56
+8.1.   Existing laws ...                        .. 56
+8.2.   Acknowledgments ...                      ... 56
+PlexCoin (PLX) White paper - © PlexCorps 2017   3 of 56
+
+
+
+
+Section 02
+Introduction
+Thank you for your interest in this white paper. We worked hard in order to provide you
+with intelligible and detailed information on our company.
+People who are used to reading white papers will notice that this one is slightly different.
+Keep in mind that our products are intended for the general public and not only for
+cryptocurrency  experts.  We  thus  simplified  certain  passages  and  provided  detailed
+explanations. This may seem banal to some people, but it is necessary for the novices of
+the field.
+This document is not a prospectus. It was constituted for informational purposes
+only, in order to present PlexCorps' products. No purchase is necessary. You are
+free to take part in the project or not. It is your responsibility to review the existing
+laws  in  your  country  before  buying  PlexCoin.  You  must  read,  understand  and
+accept the terms of this document before involving yourself in the project.
+2.1.   Who are we?
+PlexCoin is the first product offered by PlexCorps. Who is behind PlexCorps? We
+currently are a team of 53 people, men and women from all over the world who
+have a common goal: improving global financial services by simplifying the use of
+cryptocurrency in a manner that everybody can easily integrate it in their life. In
+other words, we are here to change the financial world as we currently know it.
+2.2.   Confidentiality
+Since the launch of www.plexcoin.com and of our Facebook page, people ask us
+why did we not publish our white paper since the beginning, just like other ICOs.
+One of the many reasons that influenced this decision is that we are different. We
+do not copy others' websites, documents or systems. PlexCoin has one goal, and
+its team will never lose sight of it. We do not compare ourselves to other ICOs.
+Let's take a look at the main reason why we did not make the white paper available
+before now.
+Lately, lots of companies and organizations have launched their own ICO. There
+are new ones every day. People want to easily finance the development of their
+company. Every idea can be good; you may want to fund decentralized dental
+services or you may want to decentralize instant messaging services.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                   4 of 56
+
+
+
+
+We wanted to avoid a tricky situation: a situation in which people could have read
+our  white  paper  and  develop  our  concept  before  we  even  launch  it.  We  thus
+decided to make you linger a little bit! Here it is, and our pre-sale begins in a few
+hours.
+We  know  that  eventually,  we  will  have  to  display  the  names  of  some  of  our
+executives. However, we will try to remain discreet until all of our projects are
+launched. Nonetheless, we will never mention the names of our employees and
+subcontractors. This rule is paramount for our projects' security and for the people
+around us to remain safe.
+2.3.                                                                                      Team background
+                                                                                          More and more people join our team every day. Experts of their own field bring
+                                                                                          their contribution to our ambitious project, which is to change the financial world.
+                                                                                          In our entourage, there are:
+-                                                                                         Former managers of the finance field;
+-                                                                                         Prosperous company founders;
+-                                                                                         Specialists in private fund management;
+-                                                                                         Lawyers, notaries, accountants and renowned tax experts;
+-                                                                                         A business development manager;
+-                                                                                         A risk management supervisor;
+-                                                                                         A regulation manager;
+-                                                                                         A marketing manager;
+-                                                                                         A complete team of programmers-analysts;
+-                                                                                         A back-end, front-end and network architects team;
+-                                                                                         A renowned network security and Cloud specialist;
+-                                                                                         A large team responsible for the social networks;
+-                                                                                         A large customer service team;
+PlexCorps gathers all types of specialists for the accomplishment of its mission.
+The team grows rapidly. If after reading this white paper you wish to join us and if
+you think that you can bring valuable expertise to the company, please send your
+résumé and a transmittal letter at info@plexcorps.com.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                              5 of 56
+
+
+
+
+Specialists distribution under six categories:
+Management                                                                            Programming   Security   Client  service   Legal   Subcontractors
+2.4.   Our experience
+A lot of PlexCorps' team members have solid experience with cryptocurrency and
+with blockchain technology. Indeed, we hire the best people of each area. This has
+become possible thanks to a company structure that allows employees to work
+remotely. Instead of only hiring people who are from around our offices, we can
+see the bigger picture and have access to the best of the best, no matter where
+they are around the world.
+We learn new things each and every day. Even if we are surrounded by the best of
+each field, we advocate for knowledge sharing between employees. We are ready
+to take on any challenge. We have run feasibility studies for our projects. We know
+that we can deliver our projects within the deadlines.
+Important: The decision to buy PlexCoin or not should not be made solely on the
+company's information or according to the information provided on our personnel.
+You must think about the potential success of the product and think about how we
+will change and improve the financial sector.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                          6 of 56
+
+
+
+
+2.5.                                                                                     Message from the President
+Motivated by our willingness to meet the members' expectations, we can affirm
+today with pride that PlexCorps will have a major impact on the cryptocurrency
+world.  We  are  focused  on  our  mission  more  than  ever.  We  want  to  make  the
+cryptocurrency technology accessible to all by simplifying its management and use
+to the maximum. The banking sector and the finance world will have to converge to
+the cryptocurrency path in a near future.
+In order to achieve our goal, we rely on five strategical linchpins. According to us,
+they are essential for success and growth. Here they are:
+-                                                                                        Ensure that our members live the best experience;
+-                                                                                        Distinguish  ourselves  by  offering  unique  and  effective  quality  products  and
+services;
+-                                                                                        Deploy our unique strategy, which is doing things differently;
+-                                                                                        Surround ourselves with the most talented team;
+-                                                                                        Access  some  financial  flexibility  in  order  to  invest  in  our  most  promising
+projects.
+We are proud to tell to each member that they are at the heart of every decision of
+the  company.  We  always  go  the  extra  mile  for  our  customers.  At  the
+decentralization and cryptocurrency era, we are fully engaged in connecting with
+our members, wherever they are.
+It is a fact that applies to each of our products!
+PlexCorps will keep on growing by focusing on client satisfaction, on the talent of
+its employees, on innovation and on the performance of its products.
+President, CEO
+PlexCorps
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                             7 of 56
+
+
+
+
+2.6.                                                                                           Anonymity
+PlexCorps' and PlexCoin's priorities are your safety and the confidentiality of your
+operations. How do you want us to be able to guarantee you a total confidentiality
+if  we  reveal  our  identity?  Any  organization  could  then  contact  us,  visit  us  and
+scrutinize our operations (and yours)! This is not what we want.
+We   are   not   funding   a   standard   credit   card   company   or   an   insurance
+decentralization company. We are talking about a major change in the financial
+system. Are you not tired of paying substantial fees to your bank? They make
+billions of dollars every year! These financial institutions lend you money that does
+not even belong to them, at a high interest rate. This money comes from people's
+savings accounts, and they only give back a tiny amount.
+The 1 000 richest banks cumulated a profit of 920 billion dollars in 2013, according
+to The Banker's ranking. (RE: 01)
+We are talking about 2013. Imagine what it is today, in 2017, and what it will be in
+2018 and 2019. We have to stop this phenomenon.
+This is the main reason why we will remain quiet for as long as possible as to our
+identity. We want to improve our services and keep on improving them. We are
+convinced that our projects will make today's banks almost unnecessary.
+This will be disturbing. For safety purposes, we decided to remain anonymous,
+even if it means to work harder in order to earn people's trust. We are persuaded
+that you will learn to trust us over time.
+Important:  You  are  free  to  not  take  part  in  this  ICO  if  the  fact  that  we  are
+remaining  anonymous  in  order  to  provide  a  competitive  product  makes  you
+uncomfortable. You can watch the train go by and lose the chance to be part of a
+great change if this is what you wish.
+2.7.  Our offices
+Our offices are currently based in the heart of Singapore. Our team works remotely
+and is located all over the world. We embrace this type of organization because we
+do not rely on the availability of our offices in order to provide services. We are
+able to keep on working in case of any extreme situation such as a power failure, a
+major accident, a fire or a flood at the headquarters. Not depending on a physical
+area to provide services is a great thing. It reduces the risk of dependence to a
+sole workplace.
+We are in the process of opening new offices in Switzerland, in the Bern area.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                   8 of 56
+
+
+
+
+2.8.  The market
+The global money market is enormous, and more and more virtualized, which is
+very profitable to us. Indeed, paper money is on the path to extinction. It is very
+difficult, if not impossible, to carry US$ 100 000 cash confidentially from Paris to
+Miami. The only way to successfully do that is by an interbank transfer, which
+means that financial institutions and governments can look up your transaction. In
+other words, you are not totally free to use your money how you want to.
+How much money is in circulation on the planet? First, you need to know that
+about 90% of the money is virtual. Indeed, only 10% of all the money is found in
+the form of either bills or coins.
+In terms of numbers, we estimated that in 2013 there were about 10 trillion dollars
+(US)  circulating  around  the  world.  Moreover,  we  acknowledge  an  exponential
+increase of the total global value of money. (REF: 02)
+The potential cryptocurrency market is wide and within our reach. The only missing
+elements are easy-to-use and accessible tools.
+2.9.   Issues
+Many issues with cryptocurrency have been reported. The most important of them
+concerns its process of purchase, of sale and of exchange. This is perhaps not
+true for a young adult to whom the computing world has no secrets and who learns
+quickly, but for a person who is less accustomed to the field, it may be completely
+different. Another problem is the misunderstanding of cryptocurrency. The majority
+of people are novices of cryptocurrency even if it has existed for almost 10 years
+and if it is being discussed in the media. The third major problem with this concept
+is insecurity. If properly used, cryptocurrency is safer than any other currency. It
+has to be wisely used, though. A fourth issue has been raised: volatility. We will
+resolve this issue with PlexBank. For example, you could go to sleep one night and
+own US$ 100 000.00 in Bitcoin, and wake up the next morning with a balance of
+US$ 70 000.00. Scary, isn't it?
+2.10. Solutions
+We simplified PlexCoin's purchase, sale and exchange methods to the maximum.
+No  more  need  to  transfer  your  cryptocurrency  to  an  exchange  platform  like
+Poloniex or Bittrex. You will be able to make all your transactions straight from
+your  PlexWallet.  However,  if  you  desire  to  exchange  your  PlexCoin  for  other
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                             9 of 56
+
+
+
+
+cryptocurrencies like Bitcoin or Ethereum, you must transfer them to an exchange
+platform or wait for the launch of PlexWallet.
+We also resolve the misunderstanding issue by approaching people in a new way.
+We regularly update our FAQ and we make available a chat service that will be
+accessible  24/7  when  we  launch  our  currency  on  the  market.  Moreover,  our
+interfaces are more ergonomic and user-friendly than those of the competition.
+We cannot afford to take risks in terms of security. Our systems are replicated by a
+number of servers around the world and your PlexCoin are transferred as of the
+moment you buy them into your private wallet. PlexCoin's priority is and will always
+remain your security. Again, this is one of the reasons why we want to remain
+anonymous.  We  want  to  avoid  attacks  against  the  company  or  against  its
+employees.  We  want  to  prevent  an  attack  from  negatively  affecting  our  strong
+system structure.
+PlexBank will quickly guarantee the value of your cryptocurrency in order to never
+receive  unpleasant  surprises.  We  will  get  back  to  this  point  further  in  this
+document.
+2.11. Security, our priority
+Multiple  people  do  not  understand  the  reason  why  our  IT  systems  are  hidden
+behind a proxy.
+A proxy is a computer software component that plays the role of an intermediary
+between two hosts in order to facilitate or to monitor their exchanges.
+In  the  context  of  computer  networks,  a  proxy  is  a  program  that  serves  as  an
+intermediary to access another network, generally the Internet. By extension, we
+also  call  a  proxy  a  device  like  a  server,  implemented  to  ensure  the  good
+functioning of such services. (REF: 03)
+This is carried out to increase your security. We use the renowned services of
+www.cloudflare.com in order to keep our servers' position secret. This service also
+avoids possible DDoS attacks and prevents hackers from negatively affecting our
+good workings.
+Many well-known companies such as CISCO, DigitalOcean, Zendesk and Nasdaq
+use this service.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                10 of 56
+
+
+
+
+A global network designed for exponential evolution.
+A capacity of 10 terabits per second and more than 115 datacenters.
+We are the only ones who use security through obscurity in the cryptocurrency
+world. Even if a few sceptics are not into this measure, we intend to pursue this
+path.
+The  concept  of  security  through/by  obscurity  relies  on  non-disclosure  of
+information  related  to  the  structure,  the  functioning  and  implementation  of  the
+object or of the considered process in order to protect its security. This applies to
+the sensitive fields of computing, cryptology, weapons, etc. (REF: 04)
+We  prefer  to  increase  the  security  level  and  to  offer  you  maximum  protection
+instead  of  doing  just  like  others  and  only  try  to  gather  the  highest  number  of
+members, thus face high risks of attacks or risk any control failure.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                   11 of 56
+
+
+
+
+DNS Reflection Attack Without CloudFlare
+The  attacker  gathers  resources,  like  botnets  or  unsecured  DNS  recursion,  and
+imitates the target’s IP address. The resources then send a flood of replies to the
+target, knocking it offline.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                             12 of 56
+
+
+
+
+DNS Reflection Attack With CloudFlare
+The  attacker  gathers  resources,  like  botnets  or  unsecured  DNS  recursion,  and
+imitates the target’s IP address. The resources then send a flood of replies to the
+target, but PlexCorps regionally blocks their points-of-presence. Legitimate traffic
+can still access the web property.
+Moreover, our client identification and registration systems are rigorously protected
+against hijacking.
+Domain hijacking can occur at the registrar level if an attacker compromises a
+registrar account and changes the nameserver or other registration information
+associated with a domain. The registrar, believing that the changes originated from
+an authorized registrant, sends the new information to the registry.
+Recently, various ICOs underwent this type of attacks, making them lose millions
+of dollars. PlexCoin’s security budget is huge. We use every available means to
+protect you, your personal information and your money.
+Even if we intend to create a very simple white paper, we still have to include
+technical information for important buyers or organizations that could be interested
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                             13 of 56
+
+
+
+
+in  PlexCorps’  products.  Here  is  the  structure  that  we  use  to  block  hijacking
+attempts.
+2.12. Our mission
+PlexCoin is a company founded by and is made up of entrepreneurs and finance
+professionals with a strong desire to change the financial world that we live in
+today by simplifying to the maximum the access to cryptocurrency, the future’s
+currency. Its mission is to increase the number of possible uses and to increase its
+number of users by streamlining its management process. We are here to provide
+you with the option to use your money the way you want to, without having to pay
+astronomical fees to international banks, which already have the monopoly since a
+long  time.  We  must  go  the  opposite  way.  It  is  our  main  engagement  and  the
+reason why PlexCorps works day in and day out. We will advocate for this mission
+until it is accomplished, and until our members are fully satisfied with our products.
+"Take control of YOUR money!"
+PlexCoin makes available the necessary tools in order to use money in a totally
+private  and  safe  way.  Stop  giving  away  money  to  governments  and  financial
+institutions that monitor all your transactions.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                               14 of 56
+
+
+
+
+2.13. Our motivation
+Why are we doing all of this, exactly? Our main motivation is to provide absolute
+financial  independence.  We  will  give  you  the  possibility  to  control  your  money
+without supervision. No more bounced cheques, no more  lengthy transfers, no
+more frozen funds, no more withdrawal limits at ATMs, no more frozen funds on
+deposit, etc. Stop depending on banks that make billions of dollars.
+We are motivated to change the banking sector and the finance world. We are
+convinced that we will achieve our goal. The best way to predict the future is to
+create it.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                15 of 56
+
+
+
+
+Section 03
+Abstract of our projects
+PlexCorps will eventually comprise multiple products related to the financial field. We will
+explain  briefly  them  hereunder.  A  white  paper  will  be  published  to  provide  you  with
+further information before the launch of each product.
+3.1.  PlexCoin
+PlexCoin is a cryptocurrency (private Internet monetary currency) that has a value
+based on the current market. In other words, PlexCoin is an entirely decentralized
+open code global currency. Your transactions will not be managed or monitored by
+traditional banking institutions. The users can now anonymously control their own
+finances.
+In  comparison  with  Bitcoin                                                                      (45  minutes),  PlexCoin’s  transactions                                            (deposit,
+                                                                                                   withdrawal, purchase, sale, transfer) are confirmed more rapidly (30 seconds) and
+have enhanced storage efficiency.
+PlexCoin’s  revolutionary  operational  structure  is  safer  than  that  of  current
+cryptocurrencies and is a lot simpler to use.
+PlexCoin may be used just like traditional money to pay bills or on the market to
+buy, sell or exchange for other currencies.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                       16 of 56
+
+
+
+
+3.2.  PlexWallet
+PlexWallet will be available on PC, on MAC and as a mobile application that you
+may download from the App store or from Google Apps. PlexWallet will give you
+the freedom to manage your money, to transfer funds, to buy or sell PlexCoin, to
+give money to your contacts or to pay your bills.
+You will also have access to useful options such as a budget tab and a market
+evaluation tab. You will even have the possibility to configure automatic PlexCoin
+buying and selling options.
+Every  transaction  made  from  the  PlexWallet  will  come  at  no  fee!  They  will  be
+totally safe and immune to prying eyes. It will be possible to use PlexWallet from
+anywhere in the world. For example, a member may transfer US$ 100 000.00 from
+Dubai to Paris in a few seconds, without the funds to be frozen and without facing
+banking beaurocracy issues. PlexWallet will be an essential tool for your financial
+operations and will include all of our products.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                17 of 56
+
+
+
+
+3.3.  PlexCard
+Revolutionary and unprecedented, PlexCard will be accepted everywhere in the
+world,  regardless  of  your  country’s  currency.  Your  card  will  adapt  to  the
+geographical  area  in  which  you  are  located.  PlexCard  will  be  linked  to  your
+PlexWallet and to your PlexCoin. When you make a purchase with the card, our
+system will target the best available exchange rate and will debit your account of
+the exact PlexCoin amount corresponding to your purchase in order to confirm the
+transaction.
+No more credit limit, no more questions on your transactions. You will be the only
+one to control your finances. We unceasingly repeat that no person or company
+will be able to consult your transactions. Therefore, we cannot directly deal with
+VISA. We thus deal with a sister company that issues VISA cards and that meets
+our expectations.
+There already exist similar cards on the market that displays the VISA logo, that
+are accepted by VISA terminals, but that are not issued by VISA. Our difference?
+We will offer options that do not exist yet and provide enhanced security. We will
+also offer a PlexCoin rewards bonus program on all purchases.
+Therefore, we do not have a direct agreement with VISA, but we provide credit
+cards that will be accepted everywhere and that will be directly connected to your
+PlexCoin. At the time of writing these lines, we are assessing our cards, and the
+result is definitely up to our expectations
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                              18 of 56
+
+
+
+
+3.4.  PlexBank
+Here  is  our  most  important  product;  the  one  that  will  change  the  way  people
+perceive  and  use  the  current  banking  system.  PlexBank  will  offer  you  the
+possibility  to  manage  all  your  favourite  cryptocurrencies                            (Bitcoin,  Ethereum,
+Litecoin, Ripple, etc.) in a single place.
+Obviously, your PlexCard will also be connected to your bank account to manage
+payments  and  to  manage  received  purchase  bonuses.  The  most  important
+PlexBank innovation will be the cryptocurrency securing option. In one click, you
+might  freeze  the  value  of  one  or  more  cryptocurrencies  from  your  PlexBank
+account: even if the value of one of your cryptocurrencies decreases, your own
+value will remain the same.
+Here is an example. You own 100 Ethereum, of a value of US$ 100 each, which
+equals to a US$ 10 000 total value. You leave on a trip in a few hours and you
+decide to freeze your asset through PlexBank. When you come back from your
+vacation, you notice that the Ethereum value has dropped to US$ 60, a loss of
+US$ 40 per Ethereum. Since you have frozen your asset before you left, you still
+own a value of US$ 10 000 in your PlexBank account. Therefore, if you unfreeze
+your money, PlexBank will not deposit 100 Ethereum in your account, it will deposit
+166.66 Ehereum, of a total value of US$ 10 000 because of the current cost of the
+Ethereum
+This will be one of the options offered by PlexBank. This is something that does
+not exist at the moment of writing these lines. We are confident about the success
+of this option.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                               19 of 56
+
+
+
+
+3.5.  PlexCorps
+These products are ideas and innovations that stem from PlexCorps. We will work
+blood, sweat and tears in the next months to develop the financial products that
+will help you understand cryptocurrencies better and to use them wisely.   We are
+open to any novelty in terms of product offering, but we remain firm regarding our
+position. Each of our products will always respect these criteria:
+-                                                                                           Decentralized;
+-                                                                                           Innovative;
+-                                                                                           Related to finance;
+-                                                                                           User-friendly;
+-                                                                                           Private;
+-                                                                                           Available to everyone.
+An idea that would gather all these criteria would be seriously taken into account,
+assessed by our team and possibly developed. PlexCorps evaluates its number of
+employees to almost  100 by the end of  2018, and to almost  300 by the end of
+2019.
+PlexCorps' products are linked by a strong decentralized authentification structure
+intended  to  block  attacks  from  mischievous  people  and  to  prevent  all  types  of
+potential attacks regarding your personal information and your money.
+Here  is  a  simplified  illustration  of  the  general  mechanism  of  the  PlexCorps,
+PlexCoin, PlexBank, Plex Wallet and PlexCard operational structure.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                20 of 56
+
+
+
+
+Section 04
+The PlexCoin project
+Innovation is terrifying, but cryptocurrency is there for the long haul and to change the
+world. We already observe this phenomenon.
+We notice an increase in the number of companies from different sectors that are taking
+their first steps towards adopting the blockchain technology. They understand that it is
+pressing to be ahead of the competition. The principal interest of the sector is shown by
+technology giants (Microsoft, IBM, Amazon), by Wall Street’s biggest banks (JPMorgan,
+Citigroup) and by companies that work on products based on the blockchain technology,
+supporting the financial sector like Infosys, TCS and HCL. R3 was the first blockchain
+company in the finance industry. Founded in 2014, it now manages a consortium of 70
+of the most powerful financial institutions in the world and it works on different projects
+protected by patents.
+Meanwhile, the technological demand related to the blockchain for the financial services
+sector increases at the global level and mostly in developing countries. Various countries
+from  Latin  America,  Southeast  Asia  and  Africa  issue  strict  regulations  on  currency
+control, and consumers are turning to other solutions rather than to traditional financial
+institutions.
+In terms of entrepreneurship initiatives, a tendency is emerging since the last couple of
+years. Generally speaking, 2015 was the year in which financial institutions and young
+financial technologies companies discovered the blockchain. The year 2016 was the one
+of pilot projects and of the first deployments. If we follow this tendency, we expect that
+2017 will be the year when blockchain commercial solutions will go from pilot projects to
+marketing and large-scale adoption
+Cryptocurrency  transforms  the  world.  It  will  create  an  unprecedented  positive  social
+impact. You may decide to watch the train go by, or you may take part in a historical
+moment and support us in this journey.
+4.1.  The future
+PlexCoin's projects and ideas on short, medium and long terms are ambitious and
+bold. Our priority is to make cryptocurrency accessible to everybody. We must
+inform  people  on  the  operating  process  of  this  new  technology.  We  also  must
+reassure   people   about   publications   found   on   the   Internet   that   scorn
+cryptocurrency. Using PlexCoin is as convivial, if not more, than using a traditional
+credit card.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                     21 of 56
+
+
+
+
+Having the possibility to transfer an amount to someone without any delay or fees
+or  make  your  daily  purchases  without  depending  on  a  bank  that  controls  your
+money by imposing transaction limits and unreasonable fees is the vision of the
+future  of  the  financial  world  of  the  PlexCorps  group  and  of  the  PlexCoin
+cryptocurrency.
+Here are some of the cryptocurrency's main advantages:
+1.                                                                                        They are currencies that do not depend on central banks.
+2.                                                                                        They  are  created  for  the  Internet.  They  are  tangible  alternatives  to
+traditional  payment  systems.  They  allow  increasing  the  accessibility  to
+online markets of developing countries.
+3.                                                                                        They are transparent. All transactions are public, but the owners and the
+recipients  of  these  transactions  are  impossible  to  trace  since  they  own
+private addresses.
+4.                                                                                        Cryptocurrency  cannot  be  counterfeited  or  misused.  The  encryption
+protocol is also intended to resist to an impressive list of computing attacks,
+including distributed denial of service attacks.
+5.                                                                                        There  are  no  transfer  fees.  Therefore,  these  are  lower  than  those  of
+traditional banks and to those of fund transfer companies such as Paypal or
+Western Union.
+6.                                                                                        Funds are rapidly transferred, in seconds or minutes. Bank transfers
+usually confirm in hours or days.
+7.                                                                                        Money  transfers  can  be  processed  internationally,  regardless  of  the
+country.
+8.                                                                                        There is no maximum or minimum amount allowed or required for transfers.
+9.                                                                                        There is no intermediary (bank, depositary). The credit is carried directly to
+the recipient.
+10. Transactions are irreversible. The recipient cannot undergo any transaction
+cancellation.
+11. Any individual and any company may transfer funds.
+12. Cryptocurrency storage is remote, on a server or downloaded on a key.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                              22 of 56
+
+
+
+
+13. The  total  amount  of  money  may  be  capped  for  some  cryptocurrencies,
+making this kind of currency deflationary  (the quantity of money can only
+decrease over time).
+4.2.  Our goal
+The PlexCorps group focuses on granting its members the total control over their
+finances and offering them the necessary tools to achieve this goal in a completely
+safe and decentralized way. Peace of mind based on the confidential management
+of  your  finances  is  within  your  reach.  PlexCorps  will  ensure  you,  in  a  timely
+manner, an entirely independent way of managing your finances based on the
+proper functioning of a bank.
+4.3.                                                                                         How are we different?
+People who are familiar with ICOs and to company funding will quickly notice that
+PlexCorps  do  things  differently.  We  do  not  rely  on  other  ICOs  and  on  their
+processes. Of course, we often check out other ICOs in order to be aware of the
+available offers and of the new technologies, but we do not copy them. We noted
+that some ICOs have identical websites. We even noticed that some images and
+some team members presented were the same across different companies  (we
+will not name them). We also remarked photographs of totally forged, misleading
+persons.
+Instead of giving wrong information to secure our members, we set the record
+straight and remain transparent on what we deem important to reveal. If for one
+reason or another we must narrow down the quantity of information we give away,
+we will inform you about it as soon as possible and we will provide you with clear
+explanations as to the reason why we are making such decision.
+We also are different in terms of proximity to our members. For example, we run a
+professional Facebook page, which gathers now more than 70 000 followers from
+all over the world.
+This is an unprecedented popularity in an ICO. We target the general public, not
+only the cryptocurrency experts. We also are very active on our page. A full team
+is dedicated to answering your questions. We put into place an online chat service
+on our website and we answer emails within 24 hours.
+These details make us stand out from other organizations and people talk a lot
+about us. Talk about us in a good way or talk about us in a bad way, as long as
+you talk about us, everything’s OK!
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                 23 of 56
+
+
+
+
+4.4.   Use of PlexCoin
+Those who already know about cryptocurrency have an idea of the different uses
+of the PlexCoin. For the novices, here are some of its porpuses:
+-                                                                                   Buy PlexCoin
+o   Directly from the PlexWallet;
+o   By a money deposit at affiliated ATMs;
+o   On exchange platforms (Poloniex, Bittrex, etc.);
+o   From your contacts
+-                                                                                   Sell PlexCoin
+o   Directly on the PlexWallet;
+o   By withdrawing money from affiliated ATMs;
+o   On exchange platforms (Poloniex, Bittrex, etc.);
+o   To your contacts.
+-                                                                                   Make daily purchases
+-                                                                                   Make online purchases
+-                                                                                   Make payments to your contacts
+-                                                                                   Use it wherever you are in the world
+-                                                                                   Set up automatic periodic transfers
+-                                                                                   Pay your rent
+-                                                                                   And much more!
+PlexCoin will be a common currency that might be used anywhere in the world,
+without amount limitations, without fees and without delays. You will be the only
+one to manage your money. Therefore, you will be the only one to decide what to
+do with it.
+Cryptocurrency will eventually outpace traditional money. The number of users and
+the number of transactions will never stop increasing.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                        24 of 56
+
+
+
+
+We note an obvious explosion of the cryptocurrency market capitalization since
+March 2017, reaching a value of more than 100 billion dollars. The time has come
+for change. It is time to make known this new method of payment and of financial
+management to everyone.
+4.5.   Ethereum technology
+Build unstoppable applications
+Ethereum is a decentralized platform that runs smart contracts: applications that
+run exactly as programmed without any possibility of downtime, censorship, fraud
+or third-party interference.
+These  apps  run  on  a  custom  built  blockchain,  a  very  powerful  shared  global
+infrastructure  that  can  move  value  around  and  represent  the  ownership  of
+property. This enables developers to create markets, store registries of debts or
+promises, move funds in accordance with instructions given long in the past (like a
+will or a futures contract) and many other things that have not been invented yet,
+all without a middle man or counterparty risk.
+On traditional server architectures, every application has to set up its own servers
+that run their own code in isolated silos, making data sharing hard. If a single app
+is compromised or goes offline, many users and other apps are affected. On a
+blockchain, anyone can set up a node that replicates the necessary data for all
+nodes to reach an agreement and be compensated by users and app developers.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                             25 of 56
+
+
+
+
+This allows for the user's data to remain private and apps to be decentralized like
+the Internet was supposed to in the first place. (REF: 07)
+Smart money, smart wallet
+The Ethereum Wallet is a gateway to decentralized applications on the Ethereum
+blockchain. It allows you to hold and secure Ethereum and other crypto-assets
+built on Ethereum, as well as write, deploy and use smart contracts.
+4.6.                                                                                        Why ERC20 Ethereum?
+Ethereum is a decentralized exchange protocol allowing for the creation by the
+users  of  smart  contracts  thanks  to  a  Turing  complete  language.  These  smart
+contracts  rely  on  a  computing  protocol  that  recognizes  the  verification  or  the
+application  of  a  mutual  contract.  They  are  deployed  and  available  for  public
+consultation on the blockchain.
+Ethereum uses a denominated count unit called Ether as the payment method for
+these contracts. The corresponding acronym used on exchange platforms is ETH.
+Ethereum  is  the  second  decentralized  cryptocurrency  in  importance,  with  a
+capitalisation of more than 15 billion euros.
+An ERC20 token is no different from any other token, it just happens to comply
+with Ethereum’s token standard. Why would Ethereum need a token standard?
+Interoperability.  If  all  tokens  created  on  the  Ethereum  network  use  the  same
+standard, those tokens will be easily exchangeable and be able to immediately
+work with Dapps, that uses the ERC20 standard.
+A token is “standardized” when it uses a certain set of functions. If developers are
+aware of how a token operates, they can easily integrate it into their projects with a
+reduced fear of bugs or errors. If multiple tokens behave similarly, operating the
+same functions in the same way, a Dapp can then easily interface with different
+sub-currencies.
+The ERC20 token standard describes the functions and events that an Ethereum
+token contract has to implement.
+How does a token contract work? Hereunder is a fragment of a token contract to
+demonstrate how it maintains the token balance of Ethereum accounts:
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                26 of 56
+
+
+
+
+1                                              contract  TokenContractFragment  {
+2
+3                                              //  Balances  for  each  account
+4                                              mapping(address  =>  uint256)  balances;
+5
+6                                              //  Owner  of  account  approves  the  transfer  of  an  amount  to  another  account
+7                                              mapping(address  =>  mapping  (address  =>  uint256))  allowed;
+8
+9                                              //  What  is  the  balance  of  a  particular  account?
+10                                             function  balanceOf(address  _owner)  constant  returns  (uint256  balance)  {
+11                                             return  balances[_owner];
+12                                             }
+13
+14                                             //  Transfer  the  balance  from  owner's  account  to  another  account
+15                                             function  transfer(address  _to,  uint256  _amount)  returns  (bool  success)  {
+16                                             if  (balances[msg.sender]  >=  _amount
+17                                             &&  _amount  >  0
+18                                             &&  balances[_to]  +  _amount  >  balances[_to])  {
+19                                             balances[msg.sender]  ‐=  _amount;
+20                                             balances[_to]  +=  _amount;
+21                                             return  true;
+22                                             }  else  {
+23                                             return  false;
+24                                             }
+25                                             }
+26
+27                                             //  Send  _value  amount  of  tokens  from  address  _from  to  address  _to
+28                                             //  The  transferFrom  method  is  used  for  a  withdraw  workflow,  allowing  contracts  to  send
+29                                             //  tokens  on  your  behalf,  for  example  to  "deposit"  to  a  contract  address  and/or  to  charge
+30                                             //  fees  in  sub‐currencies;  the  command  should  fail  unless  the  _from  account  has
+31                                             //  deliberately  authorized  the  sender  of  the  message  via  some  mechanism;  we  propose
+32                                             //  these  standardized  APIs  for  approval:
+33                                             function  transferFrom(
+34                                             address  _from,
+35                                             address  _to,
+36                                             uint256  _amount
+37                                             ) returns  (bool  success)  {
+38                                             if  (balances[_from]  >=  _amount
+39                                             &&  allowed[_from][msg.sender]  >=  _amount
+40                                             &&  _amount  >  0
+41                                             &&  balances[_to]  +  _amount  >  balances[_to])  {
+42                                             balances[_from]  ‐=  _amount;
+43                                             allowed[_from][msg.sender]  ‐=  _amount;
+44                                             balances[_to]  +=  _amount;
+45                                             return  true;
+46                                             }  else  {
+47                                             return  false;
+48                                             }
+49                                             }
+50
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017   27 of 56
+
+
+
+
+51                                                                                                                                  //  Allow  _spender  to  withdraw  from  your  account,  multiple  times,  up  to  the  _value  amount.
+52                                                                                                                                  //  If  this  function  is  called  again  it  overwrites  the  current  allowance  with  _value.
+53                                                                                                                                  function  approve(address  _spender,  uint256  _amount)  returns  (bool  success)  {
+54                                                                                                                                  allowed[msg.sender][_spender]  =  _amount;
+55                                                                                                                                  return  true;
+56                                                                                           }
+57 }
+4.7.  PlexCoin token address
+The  confirmed  and  verified  PlexCoin  token  can  be  consulted  on  the  official
+Etherscan website:
+https://etherscan.io/token/0xb3203DB25a01fa7950a860B42b899Ad7Da52DDD6
+As shown in the token configuration:
+-                                                                                            Total supply: 1,000,000,000 PlexCoin
+-                                                                                            Token decimals: 8
+It  shows  that  in  a  timely  manner,  there  will  be  more  than  a  billion  PlexCoin
+distributed everywhere in the world. From that number, only 400 million will be sold
+on the pre-sale. The other 600 million will be distributed as PlexCoin bonuses on
+PlexCard purchases.
+The PlexCoin will eventually be counted with more than eight numbers after the
+comma. The PlexCoin UN will thus read as follows: 1,00000000.
+4.8.  PlexCoin smart contract address
+The confirmed and verified PlexCoin smart contract can be consulted on the
+official Etherscan website:
+https://etherscan.io/address/0xb3203DB25a01fa7950a860B42b899Ad7Da52DDD6#code
+Our contract was created in the simplest way possible in order to reduce to the
+maximum PlexCoin's transactions delays. The simpler the contract, the faster the
+process.
+We  worked  for  several  days  on  the  contract's  conception  before  it  met  our
+simplicity expectations.
+Here is our smart contract’s source code:
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                 28 of 56
+
+
+
+
+pragma  solidity  ^0.4.11;
+contract  tokenRecipient  {  function  receiveApproval(address  _from,  uint256  _value,  address
+_token,  bytes  _extraData);  }
+contract  PlexCoin  {
+/*  Public  variables  of  the  token  */
+string  public  standard  =  'Token  0.1';
+string  public  name;
+string  public  symbol;
+uint8  public  decimals;
+uint256  public  totalSupply;
+/*  This  creates  an  array  with  all  balances  */
+mapping  (address  =>  uint256)  public  balanceOf;
+mapping  (address  =>  mapping  (address  =>  uint256))  public  allowance;
+/*  This  generates  a  public  event  on  the  blockchain  that  will  notify  clients  */
+event  Transfer(address  indexed  from,  address  indexed  to,  uint256  value);
+/*  This  notifies  clients  about  the  amount  burnt  */
+event  Burn(address  indexed  from,  uint256  value);
+/*  Initializes  contract  with  initial  supply  tokens  to  the  creator  of  the  contract  */
+function  PlexCoin(
+uint256  initialSupply,
+string  tokenName,
+uint8  decimalUnits,
+string  tokenSymbol
+) {
+balanceOf[msg.sender]  =  initialSupply;                                                            //  Give  the  creator  all  initial  tokens
+totalSupply  =  initialSupply;                                                                      //  Update  total  supply
+name  =  tokenName;                                                                                 //  Set  the  name  for  display  purposes
+symbol  =  tokenSymbol;                                                                             //  Set  the  symbol  for  display  purposes
+decimals  =  decimalUnits;                                                                          //  Amount  of  decimals  for  display  purposes
+}
+/*  Send  coins  */
+function  transfer(address  _to,  uint256  _value)  {
+if  (_to  ==  0x0)  throw;                                                                          //  Prevent  transfer  to  0x0  address.  Use  burn()  instead
+if  (balanceOf[msg.sender]  <  _value)  throw;                                                      //  Check  if  the  sender  has  enough
+if  (balanceOf[_to]  +  _value  <  balanceOf[_to])  throw;  //  Check  for  overflows
+balanceOf[msg.sender]  ‐=  _value;                                                                  //  Subtract  from  the  sender
+balanceOf[_to]  +=  _value;                                                                         //  Add  the  same  to  the  recipient
+Transfer(msg.sender,  _to,  _value);                                                                //  Notify  anyone  listening  that  this  transfer  took
+place
+}
+/*  Allow  another  contract  to  spend  some  tokens  in  your  behalf  */
+function  approve(address  _spender,  uint256  _value)
+returns  (bool  success)  {
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                        29 of 56
+
+
+
+
+allowance[msg.sender][_spender]  =  _value;
+return  true;
+}
+/*  Approve  and  then  communicate  the  approved  contract  in  a  single  tx  */
+function  approveAndCall(address  _spender,  uint256  _value,  bytes  _extraData)
+returns  (bool  success)  {
+tokenRecipient  spender  =  tokenRecipient(_spender);
+if  (approve(_spender,  _value))  {
+spender.receiveApproval(msg.sender,  _value,  this,  _extraData);
+return  true;
+}
+}
+/*  A  contract  attempts  to  get  the  coins  */
+function  transferFrom(address  _from,  address  _to,  uint256  _value)  returns  (bool  success)  {
+if  (_to  ==  0x0)  throw;                                                                             //  Prevent  transfer  to  0x0  address.  Use  burn()  instead
+if  (balanceOf[_from]  <  _value)  throw;                                                              //  Check  if  the  sender  has  enough
+if  (balanceOf[_to]  +  _value  <  balanceOf[_to])  throw;    //  Check  for  overflows
+if  (_value  >  allowance[_from][msg.sender])  throw;                                                  //  Check  allowance
+balanceOf[_from]  ‐=  _value;                                                                          //  Subtract  from  the  sender
+balanceOf[_to]  +=  _value;                                                                            //  Add  the  same  to  the  recipient
+allowance[_from][msg.sender]  ‐=  _value;
+Transfer(_from,  _to,  _value);
+return  true;
+}
+function  burn(uint256  _value)  returns  (bool  success)  {
+if  (balanceOf[msg.sender]  <  _value)  throw;                                                         //  Check  if  the  sender  has  enough
+balanceOf[msg.sender]  ‐=  _value;                                                                     //  Subtract  from  the  sender
+totalSupply  ‐=  _value;                                                                               //  Updates  totalSupply
+Burn(msg.sender,  _value);
+return  true;
+}
+function  burnFrom(address  _from,  uint256  _value)  returns  (bool  success)  {
+if  (balanceOf[_from]  <  _value)  throw;                                                              //  Check  if  the  sender  has  enough
+if  (_value  >  allowance[_from][msg.sender])  throw;                                                  //  Check  allowance
+balanceOf[_from]  ‐=  _value;                                                                          //  Subtract  from  the  sender
+totalSupply  ‐=  _value;                                                                               //  Updates  totalSupply
+Burn(_from,  _value);
+return  true;
+}
+}
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                           30 of 56
+
+
+
+
+4.9.                                                                                         Social networks
+It  is  important  to  explain  PlexCoin’s  marketing  strategy.  Unlike  other  ICOs,  we
+focused our efforts on Facebook.
+Our Facebook campaign targeted a total of  1.8 billion people from all over the
+world,  every  day  (excluding  the  province  of  Quebec  (Canada)  and  the  United
+States).  We  targeted  men  and  women  from  18  years  of  age  to  65  years  old
+speaking English and French.
+Unlike a Google advertising placement, which only aims at people who research
+on cryptocurrency, Facebook targets people who are susceptible to like our page,
+thus people who have already seen or read an article on cryptocurrency or who
+talked about it with their friends. Our mission is to make PlexCoin known to the
+highest number of people possible. Facebook is then our main ally.
+An additional strategy used was a simple contest in which we allowed people to
+invite their friends to also participate. We then drew a winner for a US$ 5 000.00
+cash prize.
+Another very successful strategy was referencing for a 5% bonus on purchases.
+When subscribing, each member had a unique link that they could share with their
+friends and have the chance to get 5% of all the purchases made by the referred
+people on the pre-sale, additionally to a 5% bonus on their own purchases.
+A few numbers that show Facebook’s potential  (Q1  2017):
+-                                                                                            Active users: 1.936 billion
+-                                                                                            Active mobile users: 1.74 billion
+-                                                                                            Active daily users: 1.28 billion
+Therefore, we plan to continue our expansion through Facebook.
+During the pre-sale registration campaign, we received numerous requests from
+websites that offered us advertising services in exchange for a Bitcoin payment.
+Various people criticized the fact that we were not on large ICO websites. Did you
+know that they ask for a weekly amount of US$ 5 000.00 to display your company?
+We do not think that it is necessary to spend that much money for this purpose.
+Once again, we are different.
+4.10. Important dates of the PlexCoin project
+Please take note of these important dates related to the PlexCoin project:
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                 31 of 56
+
+
+
+
+Q3 2016                                                                                       Research and analysis on PlexCorps’ services
+Q1 2017                                                                                       PlexCoin development
+July 3, 2017                                                                                  PlexCoin pre-sale registration
+August 8, 2017                                                                                PlexCoin pre-sale launch
+September 12, 2017                                                                            PlexCoin official launch
+September 15, 2017                                                                            Bonus tokens distribution to members
+September 20, 2017                                                                            PlexCoin launch on exchange platforms
+Q4 2017                                                                                       PlexWallet launch (PC, Mac, iOS, Android)
+Q1 2018                                                                                       PlexCard launch
+Q1 2018                                                                                       PlexCard distribution for VIP members
+Q1 2018                                                                                       PlexCard request form
+Q3 2018                                                                                       Launch of the main project, PlexBank
+4.11. PlexCoin, the new Bitcoin?
+We already hear that PlexCoin could be the next Bitcoin, which is very flattering. It
+is virtually our main goal.
+Bitcoin was created in 2009, and it is already getting old. Its mining technology is
+not optimized, and the minors have a decreasing interest in the gains they are
+generating with it compared to other cryptocurrencies.
+Bitcoin’s value is considerable because this cryptographic currency is just like gold
+to  the  banking  system.  It  is  the  foundation  on  which  other  cryptocurrencies
+calculate  their  performance.  When  a  person  buys  or  sells  another  type  of
+cryptocurrency, they often go through Bitcoin for the payment, which makes it the
+“official” cryptocurrency.
+Since  2011, the enthusiasm has rapidly increased, particularly while on the fast
+rise  of  the  Bitcoin  price  in  April  2013.  From  2014  on,  a  second  generation  of
+cryptocurrencies  surfaced  (Monero,  Ethereum  and  Nxt)  with  new  functionalities
+such as stealth addresses, smart contracts, the resort to lateral blockchains or
+ones relying on assets like gold.
+Nowadays, the representatives of many central banks declared that cryptocurrency
+adoption  such  as  Bitcoin  poses  a  significant  challenge  for  the  central  banks’
+capacity to influence the credit price for all the economy. They also evaluated that
+the growing popularity of commercial cryptocurrencies may influence consumers
+and these may lose faith in paper money. Gareth Murphy, a representative from
+the American central bank, said "the general use of cryptocurrency would pose a
+challenge  for  the  statistics  organizations,  because  it  would  become  difficult  to
+gather data on economic activities, these data being used by the governments to
+orientate the economy". He warns that cryptocurrencies represent a new challenge
+for the control of important functions of the monetary policy and the change policy
+of the central banks. (REF: 05)
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                  32 of 56
+
+
+
+
+We are convinced of the potential of PlexCoin and of its products. We truly believe
+that it could outpace Bitcoin over the next years. PlexCoin could become the main
+exchange cryptocurrency and the most used one in the world.
+The only solution to this extravagant ambition is to make ourselves known and for
+PlexCoin to be used by the general public. In order to do that, we need PlexCoin to
+be user-friendly and highly convenient.
+«  Be the game changer!  »
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                          33 of 56
+
+
+
+
+Section 05
+Pre-sale (ICO)
+This section will inform you of important aspects of the PlexCoin pre-sale, which will be
+launched for the registered members on August  5,  2017, at  2:00 p.m. GMT. For the
+people who did not register, the official sale will begin on August 7, 2017, at 3:00 p.m.
+GMT.
+5.1.                                                                                        Why a pre-sale?
+An ICO (Initial Coin Offering) pre-sale is an unregulated means of crowdfunding.
+Early ICO's were for funding development of new cryptocurrency instruments, but
+modern ICOs serve any purpose.
+Generally, tokens are sold to raise money, with token existence and behaviour
+defined by mathematical contract algorithms. Unlike an initial public offering (IPO),
+the token acquisition is not regulated by the government, and may or may not
+grant ownership or other rights in the venture.
+In order for PlexCoin to become an international phenomenon and for everyone to
+talk about it, we had to create a buzz around this pre-sale. The means used to
+achieve this goal was the percentage of profit attributed (projection) according to
+the sale level (ROI), an unusual method in the ICO market.
+The PlexCoin pre-sale will allow collecting US$ 249 500 000.00. These funds will
+be used to develop and design PlexCorps’ products. They will also be used to
+maintain the market. You will find more details on PlexCorps’ budget at number
+5.15 of this white paper.
+Therefore, we hope to sell all the available PlexCoin (400 000 000.00 PLX) on the
+pre-sale, and thus make our members benefit from this craze.
+5.2.  Pre-sale functioning
+The pre-sale functioning is very simple. As for all our products, we designed the
+system so that it would be easily understandable. ICOs are usually complex, not to
+mention their registration process. People often don’t know what to do or how to do
+it, and there is usually little to no information on which to rely on. People then give
+up the process and just go to the next ICO, which turns out to be as complex as
+the previous one. We solved this puzzle for you. Here are the pre-sale steps to
+follow:
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                34 of 56
+
+
+
+
+Registration
+To register to the PlexCoin pre-sale, click on the "Registration" tab, accessible via
+the  www.plexcoin.com  website  menu  and  enter  an  email  address  in  the
+appropriate field.
+In  the  following                                                                             15  seconds,  the  registration  management  system  will  send  a
+validation message to the member’s email address.
+The member must consult the received email and click on the "Confirm my email
+address" button for our system to confirm that the emails will be sent to the correct
+location.
+The system will then ask to provide a password, preferably a complex one so that
+nobody can guess it. This password will allow access to the money; it is then
+recommended to avoid common ones.
+Once this step is finished, the registration process is completed and the member is
+on the waiting list.
+The purchase time
+The system will assign a purchase time according to the member’s position on the
+waiting list. In order to avoid overloading our servers, we will grant access to the
+pre-sale to 2 000 people per hour. These people are categorized according to the
+date  and  time  at  which  they  registered  to  the  pre-sale  in  order  to  respect  the
+priority.
+The purchase time will be displayed according to Greenwich Mean Time (GMT),
+also known as "Hour 0" on the client access. The time and date are displayed at
+the top of the client access screen. A countdown will also be displayed. The ladder
+will outline the remaining time before the sale period.
+The pre-sale
+One hour before the exact sale time, a reminder email will be sent. It will explain
+the simple procedure to buy PlexCoin. Members must be ready when the moment
+comes; they must have their payment method at hand and be connected at the
+right time to enjoy the best prices before PlexCoins are all sold at each level.
+PlexCoin management
+Once  PlexCoin  are  purchased,  the  transaction  will  be  displayed  on  the  client
+access. It will be possible to make other transactions after an initial purchase. One
+might buy more PlexCoin until they are all sold.
+Important tools will be at the reach of the members on the client access. Here are
+some of them:
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                   35 of 56
+
+
+
+
+ The number of available PlexCoin
+ The number of buyers
+ PlexCoin’s current price
+ PlexCoin’s current value
+ The wallet’s value
+ The detailed transactions list
+ Referencing information
+ The current sale level
+ The pre-sale end date
+With this information, the members will have an overall idea of the situation and of
+the pre-sale performance.
+End of the pre-sale
+When  the  pre-sale  ends,  it  will  not  be  possible  to  buy  PlexCoin  from  your
+PlexWallet anymore, even if all the PlexCoin are not sold.
+The remaining PlexCoin will be added to the wallet that is strictly reserved to the
+bonus issued to the PlexCard users.
+It will then be possible to transfer PlexCoin in private Ethereum wallets or to leave
+them in the PlexWallet while waiting for the official, complete PlexWallet launch, as
+of Q4 2017.
+5.3    The calculator
+On  PlexCoin’s  website,  you  will  find  a  section  called  "Calculator".  This  tool  is
+designed to give you an idea of the potential of our cryptocurrency.
+The tool will ask you which currency will be used for the PlexCoin purchase. Note
+that these currencies are updated every 5 seconds according to the current global
+value, to give you the most precise numbers possible.
+Once you have chosen a currency, you may use the tool to display the amount that
+you wish to spend on PlexCoin. Please keep in mind that this tool relies on the
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                   36 of 56
+
+
+
+
+possibility that you bought PlexCoin at the price of US$ 0.13 per unit and on the
+possibility that the 400 million available PlexCoin are sold during the pre-sale.
+The profit percentage decreases considerably at each sale level.
+We explain this fact with this passage:
+This calculation tool relies on the pricing scale of the first sale level, which will be
+activated  on  the  pre-sale  launch                                                         (US$ 0.13  per  unit).  The  evaluated  value
+(US$ 1.76 per unit) relies on the possibility that all of the PlexCoin are sold within
+the pre-sale period. If this is the case, your initial purchase will be multiplied by
+1 354% in 29 days or less. (REF: 06)
+You also have the "I want to invest more" option, at the bottom of the calculator. By
+clicking on this button, the numbers displayed on the calculator will increase by
+x100.
+5.4                                                                                          Return on investment
+The return on investment (ROI) is the projected gain on your PlexCoin purchase,
+considering that you must sell your PlexCoin to receive your money.
+Here  are  the  expected  returns  on investment,  relying  on the  possibility  that  all
+PlexCoin are sold during the pre-sale:
+-                                                                                            Sale level 1: ROI after 29 days or less: 1 354%
+-                                                                                            Sale level 2: ROI after 29 days or less: 629%
+-                                                                                            Sale level 3: ROI after 29 days or less: 332%
+-                                                                                            Sale level 4: ROI after 29 days or less: 200%
+                                                                                             These  numbers  might  seem  enormous,  but  they  are  real.  For  comparison
+                                                                                             purposes, hereunder are shown some ROI examples from previous ICOs:
+-                                                                                            Bitcoin: 1 887.36%
+-                                                                                            Ethereum: 7 951.36%
+-                                                                                            Ripple: 3 005.48%
+-                                                                                            Litecoin: 938.46%
+-                                                                                            Dash: 88 736.89%
+-                                                                                            Monero: 1 539.95%
+We are rather conservative in these comparisons. This information is displayed
+only to show to novice people that cryptocurrency's value is ever growing. This
+growth  is  principally  generated  by the  craze around  cryptocurrency  and  by  the
+products that the companies offer in order to maintain the value of its money.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                 37 of 56
+
+
+
+
+Please understand that the return on investment relies on the eventuality that all
+Pexcoin are sold during the pre-sale. If not, you may consult the value according to
+the number of available PlexCoin on our calculation tool.
+5.5.  Payment methods
+During pre-sale, multiple payment methods will be accepted:
+-                                                                                      Credit card (VISA, Mastercard, AMEX, Debit, etc.)
+-                                                                                      PayPal
+-                                                                                      Bitcoin
+-                                                                                      Ethereum
+-                                                                                      Litecoin
+-                                                                                      QR code* payment at an affiliated ATM
+* In your PlexWallet, you will find a "QR Code" button, which will display your
+Bitcoin wallet's address in the form of a code, so you can go to a cryptocurrency
+affiliated ATM and deposit cash to exchange it for PlexCoin.
+Denied payment methods during the pre-sale:
+-                                                                                      Payoneer
+-                                                                                      Cheque
+-                                                                                      Transfer
+-                                                                                      Any other payment platform (except PayPal)
+5.6.  Sale levels
+We established four gradual sale levels during the pre-sale:
+The first level will be the most popular and will
+be  the  one  that  ends  the  fastest.  This  level
+offers  the  best  return  on  investment  ever
+offered by an ICO.
+50 million PlexCoin
+sold at US$ 0.13 per unit
+ROI: 1 354%
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                           38 of 56
+
+
+
+
+The   second   level   will   automatically   be
+activated when level 1 ends. This level is very
+interesting   because   of   its   relatively   low
+purchase price.
+50 million PlexCoin
+sold at US$ 0.28 per unit
+ROI: 629%
+The next sale level offers a very attractive ROI
+of 335%. More PlexCoin will be offered on this
+level, so it will last longer.
+100 million PlexCoin
+sold at US$ 0.53 per unit
+ROI: 332%
+The final level will be your last chance to buy
+PlexCoin before the sale ends. This level will
+release                                               200  million  PlexCoin  at  less  than
+US$ 1.00 per unit.
+200 million PlexCoin
+sold at US$ 0.88 per unit
+ROI: 200%
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017          39 of 56
+
+
+
+
+These sale levels are definitive and cannot be modified since the launch of the pre-
+sale registration process.
+5.7.                                                                                          PlexCoin price
+PlexCoin’s purchase price and its value during pre-sale are two different concepts.
+Its value relies on an algorithm that will make it increase at each transaction.
+The established base price is US$ 0.13, but its initial value is US$ 0.26. On the
+sale  level                                                                                   1,  the  price  will  remain  of  US$ 0.13,  but  the  value  will  always  be
+increasing. At every PlexCoin transaction, the value will rise.
+There is a tool on the client access that will inform you of the PlexCoin value
+during the pre-sale. You can also verify this information on our website, on the sale
+levels tab. We displayed a value/quantity graph; you will then be able to hover the
+cursor  over  the  graph  to  consult  the  precise  data  according  to  the  number  of
+PlexCoin sold.
+For  example,  after  we  sell  20  millions  of  them,  the  purchase  price  will  remain
+US$ 0.13 per unit, but its unitary value will be of US$ 0.34. Your wallet’s value will
+thus increase continuously.
+The expected final value after the 400 million PlexCoin are sold is of US$ 1.76 per
+unit. This value will remain the same until its market entry on exchange platforms
+in September.
+We estimate an approximate unitary value of US$ 8.50 before the end of the year
+2017, and a value of US$ 14.00 per PlexCoin by the end of 2018.
+5.8.  Bonus
+In PlexCoin’s business plan, you will find four types of PlexCoin bonuses:
+1. Profile bonus
+These bonuses are issued when a member answers the questions asked on the
+client profile. A total of 5 PlexCoin per answered question will be delivered.
+We implemented these bonuses for one simple reason. We want you to live the
+PlexCoin client access experience with real transactions since the beginning of
+your journey with us. When the pre-sale launches, your bonus PlexCoin’s value
+will increase, which will certainly make you want to have more in your account.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                  40 of 56
+
+
+
+
+2.                                                                                        Reference bonus
+This bonus is issued by percentage. Each referred person who subscribes
+will be linked to your account as referrer/referred.
+The referred person, who became a PlexCoin member thanks to you, will
+receive a 5% bonus on each purchase in PlexCoin.
+As a referrer, you will also receive the equivalent of 5% on every purchase
+made by your referred people during the pre-sale.
+3.                                                                                        PlexCard bonus
+The PlexCard will offer you bonus PlexCoin on every purchase. There will be
+four types of PlexCard:
+o   PlexCard Ultimate Member Limited edition
+o   PlexCard Platinium Member Limited edition
+o   PlexCard Helper Member Limited edition
+o   PlexCard Standard
+These   cards   will   have   different   characteristics,   explained   in   the
+corresponding PlexCard white paper. They will all offer different percentage
+bonuses on purchases paid in PlexCoin.
+During the pre-sale, at the bottom of the client access, you may verify your
+admissibility  to  one  or  another  of  these  cards.  The  Platinium  and  Helper
+cards  will  rapidly  be  given  out  since  they  are  both  intended  for  the  first
+thousands of people who will buy PlexCoin.
+The Ultimate Member card’s list of potential recipients will be updated until
+the very end of the pre-sale because it is intended for the 500 people who
+will have bought the highest number of PlexCoin. This list is available on the
+client access. Are you one of these lucky people? If you are at position 505
+of                                                                                        500,  you  will  not  receive  the  Ultimate  Member  card.  If  you  decide  to
+purchase more PlexCoin and you now qualify for this card, you will be, for
+example, at rank 498 and thus be admissible for the card.
+Here are the requirements to meet in order to  receive the limited edition
+cards.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                              41 of 56
+
+
+
+
+Ultimate Member
+Important buyers
+The 500 people who will buy the largest
+number  of  PlexCoin  will  receive  the
+PlexCard  ULTIMATE  MEMBER  Limited
+edition   card,   which   will   offer                                           10%
+bonuses  on  every  purchase,  unlimited
+withdrawals at ATMs and no fee for life.
+Platinium Member
+Fast buyers
+The 1 000 first buyers (regardless of the
+amount   purchased)   will   receive   a
+PlexCard PLATINIUM MEMBER Limited
+edition   card,   which   will   offer                                           7.5%
+bonuses  on  every  purchase,  unlimited
+withdrawals   at   ATMs   and   lifetime
+reduced fees by 75%.
+Helper Member
+Helper buyers
+The first 2 000 buyers (regardless of the
+amount   purchased)   that   will   have
+referred  at  least  one  person  with  their
+private   referral   link   will   receive   the
+PlexCard   HELPER   MEMBER   Limited
+edition card, which will offer 5% bonuses
+on every purchase and lifetime reduced
+fees by 50%.
+People who do not qualify for one of these three cards will have the option to
+order a standard PlexCard card as of February  15,  2018, from their client
+access. Please note that all our cards will be issued on demand, without fees
+and without a credit inquiry.
+4.  Draw bonus
+During our advertising campaigns, we will make several drawings. The
+winners will be granted bonus PlexCoin in their personal account.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                     42 of 56
+
+
+
+
+5.9.  Available PlexCoin number
+The total number of available PlexCoin is 1  000  000  000.00.
+The total number of PlexCoin on sale is 400  000  000.00.
+The total number of PlexCoin exclusively reserved for bonuses is 600  000  000.00.
+No additional PlexCoin will be created. When all PlexCoin are issued, there will be
+a total of 1  000  000  000.00 PlexCoin in circulation. We configured the PlexCoin so
+that it can display up to 8 decimals after the 0. This will be necessary if its value
+increases so much that it is possible to buy parts of them (buying 0.005 PlexCoin
+or 0.00000008 PlexCoin, as an example).
+5.10. How to buy?
+The PlexCoin purchase procedure has been simplified to the maximum in order to
+respect  our  commitment  to  the  public,  which  is  to  make  cryptocurrency  highly
+convenient.
+On a regular ICO, a person who desires to buy tokens has to already possess
+cryptocurrency, such as Bitcoin. On the new ICO’s website, you will find a wallet
+address, to which you must transfer the desired amount in Bitcoin.
+This  transaction  cannot  be  made  from  exchange  platforms  such  as  Poloniex,
+Bittrex or Coinbase, but from a private wallet that belongs to you.
+Complicated, isn’t it?
+One hour before your purchase moment, you will receive an information email from
+PlexCoin in order to notify you to get ready to purchase. Once the moment has
+come, go to the PlexCoin website and connect to your profile. You will then see, in
+the "PlexWallet" section, the "Buy" button, which will be in colour when you will be
+allowed to make a purchase.
+Click on the "Buy" button. On the next page, you will find the terms and conditions,
+which you must read and confirm to agree on by checking two boxes.
+You will then be invited to choose between four payment options:
+-                                                                                         1.   Credit card
+-                                                                                         2.   Bitcoin
+-                                                                                         3.   Ethereum
+-                                                                                         4.  Litecoin
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                              43 of 56
+
+
+
+
+1.                                                                                            The credit card option requires for you to indicate the amount that you wish to
+use (in USD) to buy PlexCoin, in the window at the right of the screen. Once
+this step is done, click on the box to confirm that you are the owner of the card
+and click on "Continue".
+A window will open. It is an external secured application that processes millions
+of  transactions  yearly.  It  is  reliable.  You  will have  to  enter  your  credit  card
+number and its expiration date in the window.
+Once this procedure is completed, you will be redirected to the client access
+home page and you will see the new transaction appear.
+2.                                                                                            PlexCoin innovates: instead of having only one wallet to receive the Bitcoin
+used by its members who buy tokens, it is PlexCoin’s system that will help you
+to complete the registration to a private wallet for each cryptocurrency that we
+accept as a payment method. This prevents security problems and prevents
+hackers from attacking one wallet address where all the money would be.
+Buying PlexCoin with Bitcoin is simple. Copy your PlexCoin personal wallet
+address  and  transfer  the  desired  number  of  Bitcoin  from  any  exchange
+platform. You may use Poloniex, Bittrex, Coinbas and other ones without any
+issue.
+When  your  Bitcoin  is  in  your  private  PlexCoin  wallet,  our  systems  will
+automatically  detect  the  transaction  and  immediately  exchange  the  Bitcoin
+value into PlexCoin.
+When  you  make  a  Bitcoin  transaction,  once  the  transfer  is  processed,  the
+transaction will appear in the transactions list on your client access. It will be
+"Pending" until your Bitcoin transaction is confirmed.
+3.                                                                                            Ethereum purchases use the same innovation as Bitcoin. The functioning is
+identical, but if you interact with a private Ethereum management app, you will
+have to indicate an amount in GAZ as well as an amount in GWUI.
+o   Suggested GAZ amount: 200  000
+o   Suggested GWUI amount: 50
+4.                                                                                            The Litecoin purchase process is exactly the same as the Bitcoin one.
+5.                                                                                            A fifth option is available. Once again, it is an option that was never offered by
+an ICO. A  number of  cryptocurrency ATMs are available in the world, with
+which you may deposit money and exchange it for Bitcoin.
+Every PlexCoin member has a private Bitcoin, Ethereum and Litecoin private
+addresses. This means that when you go to a cryptocurrency automatic teller
+machine, instead of scanning your Bitcoin, Ethereum or Litecoin private wallet
+QR code, you need to scan the QR code of one of your PlexCoin wallets.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                  44 of 56
+
+
+
+
+These QR codes are found in the cryptocurrency section of your choice. Copy
+the wallet address. You will find a button that will make appear the QR code
+linked to your wallet.
+This  way,  the  money  you  deposit  will  be  automatically  distributed  in  your
+PlexCoin  wallet.  The  system  will  change  the  incoming  cryptocurrency  for
+PlexCoin.
+5.11. How to sell?
+On the client access, at the right of the "Buy" button, you will find the "Sell" button.
+When  the  pre-sale  ends,  you  will  have  the  opportunity  to  sell  your  PlexCoin
+according to the current value. It will also be possible to transfer them to another
+private wallet, which will be a "myetherwallet" and to download your cryptocurrency
+on a USB drive.
+To sell your PlexCoin from the client access, click on the "Sell" button. The system
+will display the following PlexWallet details:
+-                                                                                          The number of PlexCoin owned;
+-                                                                                          The number of bonus PlexCoin owned;
+-                                                                                          The total number of PlexCoin available for sale;
+-                                                                                          The current PlexCoin value.
+You  may  then  indicate  the  number  of  PlexCoin  that  you  are  selling  in  the
+appropriate field. The transaction will be immediate and definitive. It will also be
+listed in your transactions display.
+The money earned from your PlexCoin sale will be added to your wallet in USD.
+From this wallet, you may ask for a withdrawal by direct transfer or you may buy
+more PlexCoin.
+When you receive your PlexCard, it will be easy to transfer your PlexCoin and/or
+your US dollars on it in order to spend your money privately.
+5.12. How to transfer?
+When  the  PlexWallet  is  officially  launched,  you  may  download  the  mobile
+application on the device of your choice  (iOS or Android). You also may install
+PlexWallet on a tablet, a PC or a MAC.
+The "Transfer" option may be used to transfer your PlexCoin from your PlexWallet
+to an external wallet. You may then transfer funds to a friend who is on the other
+side of the world or to a family member in seconds and at no cost.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                               45 of 56
+
+
+
+
+You may also receive transfers from your contacts. It is your money; you should be
+able to do whatever you want with it!
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                         46 of 56
+
+
+
+
+5.13. PlexCoin distribution
+1%
+4%
+40% ‐  Public  contribution
+40%
+55% ‐  Bonus  reserve
+04% ‐  Development  reserve
+01% ‐  Overdraft  protection
+55%
+                                                                                     Of the total number of PlexCoin, 55% of the ones created during the pre-
+sale are reserved for bonus remittances, mainly on the purchases made
+by members with the PlexCard.
+                                                                                     Of the total number of PlexCoin, 40% of the ones created during the pre-
+sale  will  be  sold  to  members  who  buy  them  with  one  of  the  payment
+methods available on the client access.
+                                                                                     Of the total number of PlexCoin, 4% of the ones created during the pre-
+sale  will  be  dedicated  to  the  development  team  at  PlexCorps.  These
+PlexCoin will be used to operations tests for our future products.
+                                                                                     Of the total number of PlexCoin, 1% of the ones created during the pre-
+sale will be reserved to the "overdraft" mode to conclude dysfunctional
+transactions or to solve potential conversion problems. Please note that
+this reserve exists for security purposes only and that it is very unlikely
+that it becomes necessary.
+These four allowances will be transferred onto four different wallets pertaining to
+PlexCoin since the very beginning of the pre-sale to secure the amount.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                          47 of 56
+
+
+
+
+5.14. Amount earned from the PlexCoin pre-sale
+According to a simple calculation, here is the expected amount to be earned from
+the PlexCoin pre-sale:
+Level 1 = 50 million PlexCoin X US$ 0.13 = US$ 6 500 000.00
+Level 2 = 50 million PlexCoin X US$ 0.26 = US$ 14 000 000.00
+Level 3 = 100 million PlexCoin X US$ 0.53 = US$ 53 000 000.00
+Level 4 = 200 million PlexCoin X US$ 0.88 = US$ 176 000 000.00
+A total of 400 million PlexCoin sold and US$ 249 500 000.00
+5.15. Project budget
+10%
+5%
+10% ‐  Development
+5%
+05% ‐  Security
+05% ‐  Marketing
+7%
+07% ‐  Operations
+3%
+03% ‐  Legal
+70% ‐  Market  maintenance
+70%
+The  funds  earned  from  the  PlexCoin  pre-sale  will  be  used  according  to  the  chart.
+Regardless of the received amount, the funds will always be used in these proportions.
+Our budget structure allows for a large part to be used for the market maintenance. This
+will ensure a consistent increase of PlexCoin’s value, even if members sell their assets
+massively.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                    48 of 56
+
+
+
+
+10% - Development
+A  budget  of                                                                                    10%  of  the  revenue  will  be  allowed  to  PlexCorps’  future  products
+development. This budget will be used to improve the user’s experience and to maintain
+it  up-to-date.  The  team  at  PlexCorps  will  design  easy-to-use  and  safe  products  and
+applications, in accordance with the main mission of the company.
+5% - Security
+The financial health of the PlexCoin market relies on its security. We will use every
+necessary  and  available  means  to  secure  your  transactions  and  to  protect  our
+infrastructures against potential attacks.
+5% - Marketing
+PlexCoin must be known by everybody. We want to expand more in the underdeveloped
+countries that wish to use their own money in a safe way. We also wish to be present in
+the world’s biggest cities to outpace Bitcoin.
+7% - Operations
+To ensure quick and efficient transactions, our networks management team will always
+be optimizing our networks and redundancy architectures everywhere in the world for
+your transactions to be fast and for our products to remain secure.
+3% - Legal
+Laws differ from one country to another. PlexCorps needs to ensure compliance with
+these laws. Even if our services are decentralized, we need to protect the members that
+use our services in countries where laws about cryptocurrency are not clearly dictated.
+70% - Market maintenance
+The major part of the pre-sale earned funds will be reserved for this use. Our market
+maintenance team will remain on the lookout for PlexCoin’s value fluctuations when it
+will be launched on the market. The team will limit the value decreases by buying if the
+value drops. This part of the budget will also be used to buy member’s PlexCoin on
+demand via PlexWallet.
+We will thus guarantee a rather steady increase of PlexCoin’s value and will avoid high
+price fluctuations in case of mass purchase or sale from our members.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                     49 of 56
+
+
+
+
+Section 06
+Finances
+Our company is taking off and we promote a new business model that offers significant
+innovations. This compromises the assessment of the popularity of our products and
+complexifies the predictions of the impact of these on the population. Therefore, we
+created not one, but two tables of financial forecasts for the next five years. One displays
+conservative numbers, and the other displays optimistic numbers.
+6.1.                                                                                           Abstract
+PlexCorps’ and its products’ revenues will only come from PlexBank, which will be
+launched at the end of 2018. We want to reduce to a minimum the fees paid by our
+members so we can increase the number of people who use and appreciate our
+products and our cryptocurrency to the maximum.
+PlexCoin will profit from the PlexCoin sale and from the purchase of these. The
+company will then offer this profit to its members after the pre-sale. If clients wish
+to buy PlexCoin (if any still available) after the pre-sale, they will pay a price 2%
+higher than the current PlexCoin value. A member who wants to sell PlexCoin after
+the pre-sale will be able to do it directly with PlexCoin from the client access at a
+price 2% lower than the current PlexCoin value.
+PlexBank will offer special accounts to the members, with established monthly fees
+and  interesting  investment  benefits  thanks  to  our  "freeze  cryptocurrency  value"
+service, an option that is not available elsewhere.
+From a conservative standpoint, we estimate that, on average, a member who
+uses all of PlexCoorps’ services will bring a yearly profit of US$ 1 100 in the fifth
+year.
+Since  January  2017,  Ethereum  and  the  cryptocurrency  market  increased  their
+value of almost 300 000% yearly (6.7 times per three months). We do not believe
+that this increase will last for a long time, but the market will stabilize over a few
+years.
+It  is  time  to  take  advantage  of  the  buzz  around  cryptocurrency  and  to  use  its
+services. Do not forget that, at the very beginning, the Bitcoin sold at less than
+US$ 0.03 per unit and that now, it sells at more than US$ 3 000: a phenomenal
+increase of 10 000 000%.
+Hereunder you will find our conservative financial forecast, as well as the optimistic
+one, for the five years to come.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                   50 of 56
+
+
+
+
+The major part of the company’s profits will come from the PlexCard purchases.
+When members will use their credit card to make a purchase, the PlexCoin system
+will "buy" the exact amount of necessary PlexCoin to pay for the transaction in the
+currency of the member’s choice. The purchase will be made at the amount of the
+current PlexCoin value minus 2%. These PlexCoin will then return on the market,
+sold at the current price.
+This  2% revenue per transaction ensures great profitability. By proceeding this
+way,  we  will  be  able  to  guarantee  a  profit  margin  during  the  pre-sale  to  our
+founding members.
+The purchase fees are subject to change. They will be reviewed at the PlexCard
+launch. The details will be explained in the project’s white paper.
+6.2.  Financial forecast - Conservative
+To estimate the numbers of the conservative forecast, we considered that 50% of
+the PlexCoin would be sold in the pre-sale and that the number of members would
+increase by 25% yearly.
+                                                                                             Year 1           Year 2            Year 3            Year 4            Year 5
+Members                                                                                      80 000           88 000            96 800            106 480           117 128
+Active PLX                                                                                   200 000 000      225 000 000       275 000 000       350 000 000       500 000 000
+Average
+                                                                                             US$ 0.75         US$ 0.98          US$ 1.34          US$ 1.55          US$ 1.80
+value
+Total market                                                                                 150 000 000      245 000 000       368 500 000       542 500 000       900 000 000
+Increase                                                                                     25%              25%               25%               25%               25%
+Revenues                                                                                     US$ 72 000 000   US$ 100 000 000   US$ 137 500 000   US$ 171 875 000   US$ 214 843 750
+Expenses                                                                                     US$ 18 000 000   US$ 35 000 000    US$ 61 875 000    US$ 94 531 250    US$ 139 648 437
+Profit                                                                                       US$ 54 000 000   US$ 65 000 000    US$ 75 625 000    US$ 77 343 750    US$ 77 195 312
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                 51 of 56
+
+
+
+
+6.3.  Financial forecast - Optimistic
+Here  is  the optimistic  forecast.  We considered that  the  totality  of  the PlexCoin
+would  be  sold  through  the  pre-sale  and  that  the  number  of  members  would
+increase by 230% yearly, for five years. We also added to this hypothesis that all
+our projects would be delivered and functional by the established deadlines.
+                                                                                           Year 1            Year 2            Year 3              Year 4              Year 5
+Members                                                                                    130 000           299 000           687 700             1 581 710           3 637 933
+Active
+400 000 000                                                                                600 000 000       1 000 000 000     1 000 000 000       1 000 000 000
+PLX
+Average
+                                                                                           US$ 1.76          US$ 8.50          US$ 15.00           US$ 25.00           US$ 70.00
+value
+Total
+                                                                                           704 000 000       5 525 000 000     15 000 000 000      25 000 000 000      70 000 000 000
+market
+Increase                                                                                   230%              230%              230%                230%                230%
+Revenues                                                                                   US$ 117 000 000   US$ 429 000 000   US$ 1 557 270 000   US$ 5 138 991 000   US$ 16 958 670 300
+Expenses                                                                                   US$ 29 250 000    US$ 150 150 000   US$ 700 771 500     US$ 2 826 445 050   US$ 11 023 135 695
+Profit                                                                                     US$ 87 750 000    US$ 278 850 000   US$ 856 498 500     US$ 2 312 545 950   US$ 5 935 534 605
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                               52 of 56
+
+
+
+
+Section 07
+Conclusion
+We hope that this white paper allowed you to get a grasp of PlexCorps’ mission and the
+company’s products. We also hope to have answered every question you might have
+had.
+We  attempted  to  explain  each  point  in  a  clear  way,  without  exaggerating  on  the
+document’s length. Should you have any interrogation, please communicate with our
+client service team at  info@plexcoin.com.
+7.1.  PlexCorps’ projects roadmap
+Q3 - 2016                                                                                     Research and analysis
+Q1 - 2017                                                                                     PlexCoin development
+3 July 2017                                                                                   PlexCoin pre-sale registration
+8 August 2017                                                                                 PlexCoin pre-sale launch
+12 September 2017                                                                             PlexCoin official launch
+Q4 - 2017                                                                                     PlexWallet application launch
+Q1 - 2018                                                                                     PlexCard launch
+Q3 - 2018                                                                                     PlexBank project presentation
+Q2 - 2019                                                                                     PlexBank operations launch
+Q1 - 2020                                                                                     PlexBank opening to the public
+The dates of this table are subject to change. They are approximative and may
+depend on many factors that might cause delays or an early launch.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                  53 of 56
+
+
+
+
+7.2.                                                                                     Official pages links
+PlexCorps
+Internet: http://www.plexcorps.com
+Facebook: https://www.facebook.com/plexcorps
+PlexCoin
+Internet: http://www.plexcoin.com
+Facebook: https://www.facebook.com/plexcoin
+PlexWallet
+Internet: http://www.plexwallet.com
+Facebook: https://www.facebook.com/plexwallet
+PlexCard
+Internet: http://www.plexcard.com
+Facebook: https://www.facebook.com/plexcard
+PlexBank
+Internet: http://www.plexbank.com
+Facebook: https://www.facebook.com/plexbank
+7.3.  Reference links
+Most of our reference links lead people towards French pages. You may change
+the language to English directly on the websites, if needed.
+REF  : 01  : http://www.financialafrik.com/2014/07/02/les-banques-africaines-les-plus-
+rentables-au-monde/#.WXOE8IjhBHZ
+REF  : 02  : https://www.lepetiterudit.com/combien-dargent-y-a-t-il-dans-le-monde/
+REF  : 03  : https://fr.wikipedia.org/wiki/Proxy
+REF  : 04  : https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_par_l%27obscurit%C3%A9
+REF  : 05  : https://fr.wikipedia.org/wiki/Crypto-monnaie
+REF  : 06  : https://www.plexcoin.com/
+REF  : 07  : https://www.ethereum.org/
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                             54 of 56
+
+
+
+
+7.4.  Logos
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017   55 of 56
+
+
+
+
+Section 08
+Terms and conditions
+This document is not a prospectus. It was created with the sole purpose of information,
+to explain PlexCorps’ products. No purchase is necessary; the decision to take part in
+the project or not is on you. It is your responsibility to consult the applicable laws of your
+country before purchasing PlexCoin. PlexCorps disclaims any responsibility mentioned
+in this document and commits to comply with the laws outlined hereunder.
+8.1.   Applicable laws
+This Agreement shall be governed and construed in accordance with the laws of
+Singapore.
+All disputes, controversies or differences arising out of or in connection with this
+contract,  including  any  question  regarding  its  existence,  validity  or  termination,
+shall be first referred to mediation in Singapore in accordance with the Mediation
+Rules of the Singapore International Mediation Centre for the time being in force.
+8.2.  Acknowledgements
+We  thank  all  our  collaborators,  our  employees,  our  vendors,  our  law  firm,  our
+accounting firm, our notary firm, our cryptocurrency specialists, our security firm,
+the government of Singapore and every other organization and supplier for the
+support provided to our company.
+We especially thank every member and ally. Without you, PlexCorps would
+not exist.
+PlexCoin (PLX) Whitepaper - © PlexCorps 2017                                                     56 of 56
+
+
+
+
+

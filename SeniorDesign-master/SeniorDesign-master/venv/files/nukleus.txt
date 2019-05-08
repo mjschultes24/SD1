@@ -1,0 +1,655 @@
+﻿MASTERNODE PLATFORM
+WHITEPAPER
+Last updated: 3/4/2018
+https://nukl.eus
+
+
+
+
+TABLE OF CONTENTS
+Table of Contents ...                              ... 1
+Overview ...                                       . 2
+Intro to Masternodes ...                           ... 4
+Cryptocurrency Technology ...                      . 4
+Nodes ...                                          . 5
+Masternodes ...                                    .. 6
+Masternode Rewards ...                             ... 7
+The Future of Bitcoin and Ethereum ...             .. 9
+The Nukleus Platform ...                           10
+Why Run a Masternode? ...                          10
+Support a Crypto Network ...                       10
+Generate Financial Return ...                      10
+Challenges of Running a Masternode ...             11
+Technical Difficulty ...                           11
+Expensive Startup Costs ...                        12
+The Nukleus Solution ...                           13
+One-click Masternodes ...                          13
+Low-Cost Masternode Hosting ...                    14
+Masternode Pools ...                               15
+Support for Many Masternode Coins ...              16
+The Lightning Network and The Raiden Network ...   17
+Roadmap ...                                        18
+Team ...                                           19
+Token Sale ...                                     20
+Risk Disclosure ...                                20
+Token Sale Details ...                             26
+More Information ...                               26
+Social Media ...                                   26
+1
+
+
+
+
+OVERVIEW
+There  is  a  growing  subset  of  cryptocurrencies  known  as
+masternode  coins.  Masternode  coins  operate  similarly  to
+Bitcoin  and  other  cryptocurrencies  but  with  one  notable
+difference; they utilize masternodes as opposed to full nodes.
+This  offers  a  range  of  functionality  not  provided  by  other
+cryptocurrencies  including  instant  payments,  anonymous
+transactions, and more.
+As  a  reward  for  providing  these  valuable  services  to  the
+network, masternode operators are compensated in the form
+of block rewards, similar to cryptocurrency miners. For instance
+with the masternode coin Dash masternode operators earn the
+same reward as miners, or 45% of the total block reward.
+While operating a masternode can be profitable and fulfilling
+for venturing cryptocurrency supporters and enthusiasts there
+are some challenges to getting started:
+• Launching a masternode is a highly technical process and
+goes beyond the scope of most users’ abilities.
+• Launching a masternode requires a minimum holding, or
+stake, of coins to get started. This stake can require 10’s
+to 100’s of thousands of dollars.
+2
+
+
+
+
+The Nukleus platform solves the two big obstacles preventing
+more users from launching masternodes:
+• One-click masternode hosting allows users to launch a
+masternode with incredible ease - no advanced technical
+ability required.
+• Masternode pools allow users to pool their masternode
+coin holdings with other users to launch a masternode.
+Now users with any amount of masternode coins can
+enjoy the benefits of running a masternode.
+We have an ambitious roadmap and development is underway.
+The  Nukleus team  expects  to launch  our full-site including
+masternode hosting in April 2018. By August 2018 we will have
+completed our token sale and launched our first masternode
+pools.  By  December  2018  we  plan  to  support  at  least  10
+masternode coins for hosting and pool services.
+The Nukleus platform relies on the Nukleus token (NUK) for
+users to consume our services. There are 21B NUK in existence
+of which 70% will be available via token sales. NUK will not be
+subject to buy-backs, dividends, coin burning, or any other
+means of passive appreciation.
+3
+
+
+
+
+INTRO TO MASTERNODES
+Masternodes are a key component in the technology of a
+growing   subset   of   cryptocurrencies.   To   understand
+masternodes it helps to have a high level understanding of
+cryptocurrencies in general.
+CRYPTOCURRENCY TECHNOLOGY
+The validity of each cryptocurrency's coins is provided by a
+blockchain.  A  blockchain  is  a  continuously  growing  list  of
+records,  called  blocks,  which  are  linked  and  secured  using
+cryptography. By design, blockchains are inherently resistant to
+modification of the data. It is "an open, distributed ledger that
+can record transactions between two parties efficiently and in a
+verifiable and permanent way".
+For  use  as  a  distributed  ledger,  a  blockchain  is  typically
+managed by a peer-to-peer network collectively adhering to a
+protocol for validating new blocks. Once recorded, the data in
+any given block cannot be altered retroactively without the
+alteration of all subsequent blocks, which requires collusion of
+the network majority.1 2 3 4 5
+1 Economist Staff (31 October 2015). "Blockchains: The great chain of being sure about things". The Economist.
+2 Narayanan, Arvind; Bonneau, Joseph; Felten, Edward; Miller, Andrew; Goldfeder, Steven  (2016). Bitcoin and
+cryptocurrency technologies: a comprehensive introduction. Princeton: Princeton University Press.
+4
+
+
+
+
+Here is a simple example of the Bitcoin network architecture:
+You’ll note the role of the  “Full Node”, which is to receive
+transactions from users and broadcast to the network.
+NODES
+Nodes job is to enforce the rules of a blockchain network. In the
+case of Bitcoin nodes enforce rules such as:
+• Blocks  may  only  create  a  certain  number  of  bitcoins.
+(Currently 12.5 BTC per block)
+• Transactions must have correct signatures for the bitcoins
+being spent
+• Transactions/blocks must be in the correct data format
+• Within a single block chain, a transaction output cannot be
+double-spent
+3 "Blockchain". Investopedia. Archived from the original on 23 March 2016. "Based on the Bitcoin protocol, the
+blockchain database is shared by all nodes participating in a system."
+4 Iansiti, Marco; Lakhani, Karim R. (January 2017). "The Truth About Blockchain". Harvard Business Review. Harvard
+University.
+5 “Cryptocurrency”. Wikipedia. Retrieved on 28 January 2018.
+5
+
+
+
+
+If a transaction or block violates the rules, then it is absolutely
+rejected, even if every other node on the network thinks that it
+is valid. This is one of the most important characteristics of full
+nodes - they do what's right no matter what.6
+MASTERNODES
+Like  full  nodes,  masternodes  are  a  series  of  servers  that
+underpin a blockchain’s network.    They are responsible for
+enabling specific services that miners under proof of work
+cannot accomplish.
+Popular masternode coins:
+Dash                                                                  Pivx   Crown   Linda   Ionomy
+Dash   was   the   first   cryptocurrency   to   implement   the
+masternode model into its protocol.   Under what Dash calls its
+proof  of  service  algorithm,  a  second  tier  network  of
+masternodes exists alongside a first tier network of miners to
+achieve distributed consensus on the blockchain.
+6 “Full node”. Bitcoinwiki. Retrieved on 28 January 2018.
+6
+
+
+
+
+Masternodes expand the scope of functionality which exists on
+other  networks  such  as  Bitcoin.  In  the  case  of  Dash,
+masternodes provide the following:
+• InstaSend:                                                                                       Masternodes   accommodate   nearly
+instantaneous transactions
+• PrivateSend: Masternodes allow for users to make and
+receive anonymous payments
+• Decentralized Governance: Masternodes adjudicate and
+vote on technological and financial developments for the
+blockchain
+Building  off  Dash’s  success  new  cryptocurrencies  began  to
+surface which took bits and pieces of Dash’s model, especially
+masternode technology, for themselves.7
+MASTERNODE REWARDS
+Like Bitcoin, masternode coins rely on masternodes to ensure
+the  security  and  stability  of  the  network.  Unlike  Bitcoin
+however,  masternode  operators  are  compensated  for  their
+efforts. Dash masternode operators receive 45% of the block
+reward generated as each new block is mined, with miners
+receiving the same for their efforts. Other masternode coins
+are similarly configured.
+7 Harper, Colin (December 2017). “What are Masternodes? An Introduction and Guide”. Coincentral.
+7
+
+
+
+
+With  Dash,  the  most  established  masternode  coin,  the
+compensation   from   operating   a   masternode   nets   an
+approximate  10% annual return. Other newer coins are less
+expensive to get up and running and can provide a more
+lucrative return for masternode operators, sometimes reaching
+into the 100%+ range.
+Some recent masternode ROI’s by coin (masternodes.pro):
+8
+
+
+
+
+THE FUTURE OF BITCOIN AND ETHEREUM
+Bitcoin   and   Ethereum,   the   two   most   widely   utilized
+cryptocurrencies, have been struggling to scale with growing
+user demand. Two of the most promising solutions for this
+issue,  The  Lightning  Network  for  Bitcoin  and  The  Raiden
+Network for Ethereum, are currently under development.
+Interestingly, both the Bitcoin Lightning Network and Ethereum
+Raiden Network utilize many principles already employed by
+masternode networks. As a result these proposed networks
+allow for many features masternode coins already provide,
+including:
+• Instant Transactions - No need for block confirmations
+• Micropayments - Possible due to lower fees
+• Scalability - Infinitely scalable off-chain transactions
+If  these  solutions  deliver  as  advertised  there  is  a  good
+possibility  that  running  a  Bitcoin  or  Ethereum  node,  like
+masternodes today, will be a profitable venture. When these
+technologies  arrive  Nukleus  will  provide  a  simple  solution
+allowing anyone to profit from this new opportunity.
+9
+
+
+
+
+THE NUKLEUS PLATFORM
+Masternode coins are a new breed of cryptocurrencies which
+enhance the best elements of blockchain technology and offer
+a  range  of  incremental  benefits  to  users  and  masternode
+operators.
+WHY RUN A MASTERNODE?
+There are two key reasons to run a masternode:
+SUPPORT A CRYPTO NETWORK
+Many  cryptocurrency  enthusiasts  are  passionate  about  the
+projects they support and some are willing to expend time and
+resources to contribute to the network infrastructure. This is
+best exemplified by Bitcoin, which offers no financial incentive
+to operate nodes yet has many thousands currently online.
+GENERATE FINANCIAL RETURN
+Some masternode operators are strictly financially motivated.
+They may switch between masternodes to generate the best
+return possible. Other masternode operators are more passive,
+often  being  long-term  holders  of  a  coin  and  operating  a
+masternode to earn a supplemental return in addition to any
+appreciation they experience.
+10
+
+
+
+
+CHALLENGES OF RUNNING A MASTERNODE
+Despite  the  various  benefits  of  and  incentives  to  operate
+masternodes, there are still challenges that make running them
+out of reach for many.
+TECHNICAL DIFFICULTY
+Configuring a masternode can be a challenging task, and is
+beyond the abilities of a large portion of crypto users. Besides
+technical skills like working from the command line, launching a
+masternode also requires a reliable system. Typically this calls
+for a virtual server to be set up and configured to ensure the
+uptime and performance of the masternode.
+A  sample  of  technical  commands  needed  to  launch  a
+masternode (dash.org):
+11
+
+
+
+
+EXPENSIVE STARTUP COSTS
+In  addition  to  the  cost  of  a  dedicated  server  to  host  a
+masternode,  users  also  are  required  to  hold  a  minimum
+amount of the applicable masternode coins. Dash for instance
+requires  masternode  operators  to  hold                            1,000  DASH  as
+collateral,  which  would  require  approximately                    $600K+  to
+acquire. Most masternode coins are not as expensive as this
+but many are still too costly for everyday cryptocurrency users
+to acquire.
+Recent  minimum  worth  requirements  to  launch  various
+masternodes (masternodes.pro):
+12
+
+
+
+
+THE NUKLEUS SOLUTION
+The Nukleus platform provides solutions to the two biggest
+challenges of running a masternode: technical difficulty and
+high up-front costs.
+ONE-CLICK MASTERNODES
+Nukleus makes running a masternode easy enough for anyone.
+By providing a user-friendly interface layer the need for strong
+technical  skills  is  removed.  Behind  the  scenes  our  flexible
+infrastructure   and   scalable   distributed   network   ensure
+maximum performance and reliability.
+Masternode hosting without Nukleus:
+erve
+Coin Stake                                                            User   ecurit   sternode
+Monitoring
+13
+
+
+
+
+Masternode hosting with Nukleus:
+erve
+curi
+Coin Stake                                                        User   Nukleus   ternode
+Monitoring
+LOW-COST MASTERNODE HOSTING
+We will provide the lowest cost masternode hosting possible.
+Pricing will be a low flat fee and never cost any percentage of
+your masternode proceeds. This is possible due to economies
+of scale from our large enterprise as well as proceeds from
+Nukleus'  operating  stake  in  masternode  pools,  which  will
+subsidize our infrastructure overhead.
+14
+
+
+
+
+MASTERNODE POOLS
+As discussed masternode coins require users to hold a specific
+amount of applicable coins as collateral in order to run a
+masternode. In the case of Dash users must hold 1,000 coins,
+which have been as expensive as $1,500+ each.
+Nukleus solves this problem with masternode pools, which
+allow users to pool their masternode coin holdings with other
+users. As a result someone with only a small number of coins
+can own a stake in a masternode. This makes masternodes
+totally accessible for every level of cryptocurrency user.
+Users can participate no matter how many coins they have:
+User                                                             kleu         erve
+User                                                                          cur
+ternode
+Monitoring
+User                                                             Coin Stake
+15
+
+
+
+
+SUPPORT FOR MANY MASTERNODE COINS
+We plan to provide masternode hosting and pools for a wide
+range of masternode coins.
+Coins the Nukleus platform can support:
+ARCTICCOIN (ARC)                                             BITSEND (BSD)           BLOCKNET (BLOCK)        BRAINCOIN (BRAIN)
+BULWARK (BWK)                                                CHAINCOIN (CHC)         COLOSSUSCOINXT (COLX)   COPICO (XCPO)
+CRAVE (CRAVE)                                                CROWDCOIN (CRC)         CROWN (CRW)             DASH (DASH)
+DESIRE (DSR)                                                 DIAMOND (DMD)           ETERNITY (ENT)          EXCLUSIVECOIN (EXCL)
+                                                                                                             HARVEST MASTERNODE
+FOOTY CASH (XFT)                                             FORCE (FOR)             GANJACOIN (MRJA)
+                                                                                                             COIN (HC)
+IGNITION (IC)                                                INSANECOIN (INSN)       INTERZONE (ITZ)         ION (ION)
+MADCOIN (MDC)                                                MASTERNODECOIN (MTNC)   MONETARYUNIT (MUE)      MONOECI (XMCC)
+NEUTRON (NTRN)                                               NUMUS (NMS)             PHORE (PHR)             POLIS (POLIS)
+PURE (PURE)                                                  SAGACOIN (SAGA)         SMARTCASH (SMART)       SOCIAL SEND (SEND)
+SOLARIS (XLR)                                                STRAKS (STAK)           SYNDICATE (SYNX)        TERRACOIN (TRC)
+And more…
+TOKUGAWA (TOK)                                               VIVO (VIVO)             VSYNC (VSX)
+16
+
+
+
+
+THE LIGHTNING NETWORK AND THE RAIDEN
+NETWORK
+The Bitcoin and Ethereum communities are rapidly working to
+develop a scaling solution for each blockchain. The Lightning
+Network will utilize a network of 2-way payment channels to
+create a scalable layer on top of the original blockchain. The
+Raiden Network will utilize a similar approach combined with a
+shift to the less resource intensive proof-of-stake consensus
+methodology.
+This is important because once implemented these solutions
+introduce profit potential for operating Bitcoin and Ethereum
+nodes. Nukleus, as an expert in masternode infrastructure, will
+be well positioned to capitalize on these innovations.
+Once completed, Nukleus will offer one-click hosting and pool
+services for Bitcoin and Ethereum nodes on the new Lightning
+and Raiden networks. Users of any technical ability will be able
+to profit from these new innovations just as they do from our
+traditional masternode services.
+17
+
+
+
+
+ROADMAP
+For roadmap details please visit https://nukl.eus.
+18
+
+
+
+
+TEAM
+For team details please visit https://nukl.eus.
+19
+
+
+
+
+TOKEN SALE
+RISK DISCLOSURE
+RISKS ASSOCIATED WITH THE NUKLEUS TOKEN AND SALE
+Last updated February 28th, 2018
+NUKLEUS Token (“NUK”) is a new and innovative product. This memorandum is intended to
+apprise you of some of the risks involved with purchasing, buying, owning, and using the NUK
+Token. It does not purport to advise you of all of the risks and other significant aspects of the
+sale (“Token Sale”) by NUKLEUS LLC., (“NUKLEUS” or “Company”) of NUKLEUS Tokens
+(“Tokens”). You should also consider any additional risks and considerations relating to the
+Token Sale and consult your own legal, tax, financial and other advisers before entering into any
+transaction.
+There are a number of risks involved in this Token Sale, as well as the future development,
+maintenance and management of NUKLEUS and Tokens. Some of these risks are beyond the
+control of the Company. Each person participating in the Token Sale  (“Purchaser”) should
+comprehend, consider and evaluate carefully the risks described below in addition to any other
+available information before participating in the Token Sale.
+Participation in the Token Sale shall be taken as an action based upon careful and prudent
+analysis  and  evaluation,and  will  be  deemed  as  the  relevant  Purchaser  having  been  fully
+informed, advised and willing to bear all of the risks associated with it, including as set out in
+this Agreement.
+A purchase of the Tokens is not an investment. There is no guarantee - indeed there is no reason
+to believe - that the Tokens you purchase will increase in value. They may decrease in value. For
+a more complete description of NUKLEUS and the Tokens, please see NUKLEUS whitepaper,
+available  at  https://drive.google.com/drive/folders/1G1Ht9v8algl9dkUbVhIwHmU68qeYN4BZ
+the contents of which are incorporated into this document by reference.
+1) Risks Associated with Purchaser Credentials
+Any third party that gains access to the Purchaser’s login credentials or private keys may be able
+to dispose of the Purchaser’s Tokens. To minimize this risk, the Purchaser should guard against
+unauthorized access to their electronic devices.
+2) Risk of Unfavorable Regulatory Action in One or More Jurisdictions
+20
+
+
+
+
+Crypto-tokens have been the subject of scrutiny by various regulatory authorities and may be
+overseen by the legal and regulatory authorities of a number of jurisdictions globally. The
+functioning of NUKLEUS and the Tokens could be impacted by one or more regulatory inquiries
+or actions, including, but not limited to, restrictions on the use or possession of digital tokens like
+the Tokens, which could impede or limit the development of the NUKLEUS platform. The
+Company  may  receive  notices,  queries,  warnings,  requests  or  rulings  from  one  or  more
+authorities upon short notice, or may even be ordered to suspend or terminate any action in
+connection with the Token Sale or the NUKLEUS platform as a whole without prior notice.
+Furthermore, many aspects of NUKLEUS also involve untested areas of law and regulation, and
+could be subject to new laws or regulation, so their legal and regulatory outcome in all relevant
+jurisdictions  is  not  possible  to  predict.  The  planning,  development,  marketing,  promotion,
+execution or otherwise of the Company or the Token Sale may be seriously affected, hindered,
+postponed or terminated as a result. Since regulatory policies can change with or without prior
+notice, any existing regulatory permissions for or tolerance of the Company, NUK and the Token
+Sale in any jurisdiction may be withdrawn without warning. The Tokens could be deemed from
+time to time as a virtual commodity, a digital asset or even as money, securities or currency in
+various jurisdictions and therefore could be prohibited from being sold, purchased, traded,
+distributed or held in certain jurisdictions pursuant to local regulations. In turn, NUK could be
+deemed to be a regulated or restricted product. There is no guarantee that the Company can
+maintain any particular legal or regulatory status in any particular jurisdiction at any time.
+3) Risk of Insufficient Interest in NUK
+It is possible that NUK will not be used by a large number of businesses, individuals, and other
+organizations and that there will be limited public interest in the creation and development of this
+and other distributed applications. Such a lack of interest could impact the development of the
+NUKLEUS platform and therefore the potential uses or value of the Tokens.
+4)  Risk  that the  NUKLEUS  platform, As Developed, Will  Not Meet  the Expectations  of
+Purchaser
+The NUKLEUS platform is presently under development and its governance structure, fees,
+purpose,  consensus  mechanism,  algorithm,  code,  infrastructure  design  and  other  technical
+specifications and parameters may undergo significant changes without notice. Any expectations
+regarding the form and functionality of the Tokens or NUKLEUS held by the Purchaser may not
+be met, for any number of reasons, including a change in the design and implementation plans
+and execution of the NUKLEUS platform.
+5) Risk of Theft and Hacking
+Hackers or other groups or organizations may attempt to interfere with NUKLEUS or the
+availability of the Tokens in any number of ways, including, without limitation, denial of service
+attacks,  Sybil  attacks,  spoofing,  smurfing,  malware  attacks,  or  consensus-based  attacks.
+Additionally, there may be attempts to steal the Token Sale proceeds. Such theft or attempted
+theft may impact the ability of the Company to fund the development or maintenance of the
+NUKLEUS platform. While the Company will endeavor to adopt industry best practices to keep
+21
+
+
+
+
+the Token Sale proceeds  safe  (including, but  not  limited to,  the use of cold  storage  and
+multisignature authentications), successful cyber thefts may still occur.
+6) Risk of Flaw in Source Codes
+While the Company adopts quality assurance procedures to help ensure the source codes reflect
+as accurately as possible their intended operation, the flawlessness of the source codes cannot be
+guaranteed. They may contain bugs, defects, inconsistencies, flaws or errors, which may disable
+some functionality, create vulnerabilities or cause instability. Such flaws may compromise the
+predictability, usability, stability, and/or security of the NUKLEUS platform. Open source codes
+rely on transparency to promote community-sourced identification and solution of problems
+within the code.
+7) Risk of Unpermissioned, Decentralized and Autonomous Ledger
+The NUKLEUS platform is being developed in connection with various distributed ledger
+systems including, but not limited to, Ethereum, which are unpermissioned protocols that could
+be accessed and used by anyone. The utility and integrity of the NUKLEUS platform relies on
+the stability, security and popularity of these decentralized ledgers. The NUKLEUS platform is
+envisaged to be an open, decentralized community and its composition can include users,
+supporters, developers, Token holders and other participants worldwide who may or may not be
+connected with the Company in any manner.
+8) Risk of Weaknesses or Exploitable Breakthroughs in the Field of Cryptography
+Cryptography is evolving and there can be no guarantee of security at all times. Advancement in
+cryptography technologies and techniques, including, but not limited to, code cracking, the
+development of artificial intelligence and/or quantum computers, could be identified as risks to
+all cryptography-based systems, including NUKLEUS and the NUK. When such technologies
+and/or  techniques  are  applied  to  NUKLEUS,  adverse  outcomes  such  as  theft,  loss,
+disappearance, destruction, devaluation or other compromises may result. The security of the
+NUKLEUS platform cannot be guaranteed as the future of cryptography or security innovations
+is unpredictable.
+9) Risk of Token Mining Attacks
+As with other decentralized blockchains, the blockchain used for the NUK is susceptible to
+mining attacks, including, but not limited to, double-spend attacks, majority mining power
+attacks, and race condition attacks. Any successful attacks present a risk to the NUKLEUS
+platform. Despite the efforts of the NUKLEUS team, the risk of known or novel mining attacks
+exists.
+10) Risk of Abandonment or Failure
+Due to the technically complex nature of the NUKLEUS platform, the Company or those
+contributing to the NUKLEUS software development effort could face difficulties from time to
+22
+
+
+
+
+time that may be unforeseeable and/or unresolvable. Accordingly, the development of the NUK
+could fail, terminate or be delayed at any time for any reason, including due to lack of funds.
+Development failure or termination may render the Tokens untransferable, of reduced or no
+utility, and/or obsolete.
+11) Risk of Lack of Adoption or Use of the NUKLEUS Platform
+The utility of the Tokens is dependent on the popularity of the NUKLEUS platform. While the
+Tokens should not be viewed as an investment, they may have value over time. An absence of
+active users or low level of utilization may negatively affect the long-term development and
+future of the NUKLEUS platform, and reduce or obviate the utility of the Tokens.
+12) Risk of an Illiquid Market
+After the Token Launch, the Company is not responsible for and has limited control over the
+subsequent circulation and trading of the Tokens. The Token is not money, legal tender or
+currency,  fiat  or  otherwise,  issued  by  any  individual,  entity,  central  bank  or  national,
+supranational or quasi-national organization, nor is it backed by any type or quantity of assets,
+property  or  credits,  nor  does  it  represent  any  entitlement  to  any  distributions  of  profits,
+dividends, or any other returns or payments of any kind. There is no obligation of the Company
+nor anyone else to redeem, repurchase or acquire any Tokens from any Token holder. There is no
+guarantee or assurance that there will be a market or marketplace where holders may readily
+trade Tokens.
+13) Risk of Price Volatility
+Many  cryptographic  tokens  have  volatile  prices.  Large  fluctuations  in  price  over  short
+timeframes occur frequently. Such fluctuations could result from market dynamics (including,
+but  not  limited  to,  speculation),  regulatory  changes,  technical  advancements,  exchange
+availabilities and other factors that impact the equilibrium between token supply and demand.
+14) Risk of Exposure to Cryptographic Tokens
+After the completion of this Token Sale, the Company expects that a certain portion of the
+proceeds will be held in cryptographic tokens. The Company expects to convert an appropriate
+proportion of cryptographic tokens received into fiat currencies at the sole discretion of the
+management of the Company. For the avoidance of doubt, no Token holder has any right, title or
+interest in any such cryptographic tokens.
+15) Risk of Masternode Tokens’ Modification of Payouts
+Due to the NUKLEUS platform’s inherent reliance on  3rd party token platforms and their
+respective  developers  and  management,  the  payment  structure  which  Company collects  in
+exchange for hosting masternode points may change unpredictably or be reduced to make
+hosting masternodes for any given token unprofitable. There is no guarantee or warranty of any
+23
+
+
+
+
+kind that hosting masternode points will produce any type of income for the Company or any
+Purchaser.
+16) Risk of Uninsured Losses
+Unlike bank accounts  or accounts at some other financial institutions, funds held using a
+blockchain network are generally uninsured. In the event of loss or loss of value, there is no
+public insurer, such as the FDIC or private insurer, to offer recourse to the Purchaser.
+17) Risk of Privacy and Data Retention Issues
+As part of the Token Sale and the subsequent verification processes, the Company may collect
+personal information from Purchasers. The collection of such information is subject to applicable
+laws and regulations. All information collected will be used for purposes of Token Sale and
+community management for the NUKLEUS platform and may be transferred to contractors,
+service providers and consultants worldwide as appointed by the Company. Apart from external
+compromises, the Company and its appointed entities may also suffer from internal security
+breach whereby their employees may misappropriate, misplace or lose personal information of
+Purchasers. The Company may be required to expend significant financial resources to alleviate
+problems caused by any breaches or losses, settle fines and resolve inquiries from regulatory or
+government authorities. Any information breaches or losses will also damage the Company
+reputation and thereby may harm its long term prospects.
+18) Risk of Malfunction in the NUKLEUS
+It is possible that the NUKLEUS platform malfunctions in an unfavorable way, including, but
+not limited to, one that results in the loss of Tokens, or information concerning a market.
+19) Risk Relating to Use of the Internet or Other Electronic Medium
+Without limiting the foregoing risks, any communication or transaction via or information
+(including document) transmitted via the internet or other electronic medium involves risks and
+by participating in the Token Sale or utilizing NUK, you acknowledge that you understand and
+accept the following risks:
+•    We and/or third parties may use such authentication technologies as we deem
+appropriate. No authentication, verification or computer security technology is
+completely secure or safe. You agree to bear all risks of unauthorized access/use, hacking
+or identity theft.
+•    The internet or other electronic media (including, without limitation, electronic devices,
+services of third party telecom service providers such as mobile phones or other handheld
+trading devices or interactive voice response systems) are an inherently unreliable form
+of communication.
+•    Any information (including any document) transmitted, or communication or transactions
+made, over the internet or through other electronic media (including electronic devices,
+services of third party telecom service providers such as mobile phones or other handheld
+24
+
+
+
+
+trading devices or interactive voice response systems) may be subject to interruption,
+transmission blackout, delayed transmission due to data volume, internet traffic, market
+volatility or incorrect data transmission (including incorrect price quotation) or stoppage
+of price data feed due to the public nature of the internet or other electronic media.
+•    As a result of such unreliability there may be time-lags, delays, failures or loss of data or
+loss of confidentiality in the transmission of data and receipt of communications; and
+while the Company may believe certain data to be reliable, there may be no independent
+basis for it to verify or contradict the accuracy or completeness of data.
+•    This is not an exhaustive list of all of the consequences arising from such unreliability.
+•    Purchasers are solely responsible for preventing anything which may be harmful to any
+equipment that they use in connection with the Tokens or the NUKLEUS platform
+(including any computer virus, malicious program or harmful component) from affecting
+any such equipment, regardless of whether it originated in connection with the Tokens or
+the NUKLEUS platform.
+20) Tax Risk Relating to Participation in the Token Sale
+The taxability of cryptographic tokens is an evolving area of law, is subject to change, and may
+vary amongst jurisdictions. In some instances, there may be little or no formal regulatory
+guidance. Participation in the Token Sale may have tax reporting implications and liabilities for
+Purchasers,  and  such  liabilities  and  obligations  shall  be  borne  by  the  Purchasers  alone.
+Purchasers are advised to consult their tax advisors prior to participating in the Token Sale.
+21) Unanticipated Risks
+Applied cryptography and blockchain technology are new and untested. In addition to the risks
+set forth here, there are risks that the NUKLEUS team cannot anticipate. Risks may further
+materialize as unanticipated combinations or variations of the risks set forth here.
+25
+
+
+
+
+TOKEN SALE DETAILS
+For token sale details please visit https://nukl.eus.
+MORE INFORMATION
+Please contact us with any questions you have. You can reach
+us by email at info@nukl.eus.
+SOCIAL MEDIA
+https://bitcointalk.org/index.php?topic=2944587
+https://t.me/nukleusOFFICIAL
+https://www.facebook.com/nukleusNODES/
+https://twitter.com/nukleusNODES
+https://github.com/nukleusNODES
+https://steemit.com/@nukleus
+https://medium.com/@nukleusNODES
+26
+
+
+
+
+

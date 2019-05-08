@@ -1,0 +1,914 @@
+﻿All-in-one cryptocurrency
+current account.
+London, 2018
+Written by: Ivan A. Gyimah
+Edited by: Utku Kerem Gülçek
+H U B R I S O N E  . C O M
+“Always see things a           s they can be, and not as they are now.”
+
+
+
+
+Table of Contents
+1                   Abstract...                                                     .4
+2                   Introduction ...                                                ...5
+2.1                 Our Vision ...                                                  ...5
+2.2                 Progress to Date ...                                            .6
+3                   The Problem ...                                                 ..7
+3.1                 Challenges Caused by the Infancy of Cryptocurrency Market ...   ..7
+3.2                 Viewing Cryptocurrency Differently From Fiat Currencies ...     ..7
+3.3                 Recognising the Role of the Banking System ...                  ...7
+3.4                 The Cryptocurrency World Needs a Bank...                        ...7
+3.5                 Complacency & Poor Customer Service ...                         ..8
+3.6                 The Banks: Extortionate Global Exchange Fees ...                ..8
+3.7                 High Competition in Customer Acquisition ...                    ...9
+4                   Solutions & Value Propositions ...                              ...10
+4.1                 Instant Digital Bank Accounts ...                               .10
+4.2                 International Transfers using Stellar Blockchain ...            ..10
+4.3                 Secure Cryptocurrency Wallets ...                               ..11
+4.4                 Secure Digital Account and Card Management ...                  .12
+4.5                 Fair and Transparent Crypto-Backed Loans ...                    .13
+4.6                 Real-time Transaction Monitoring ...                            ...13
+4.7                 Hubris Wealth Management Solutions ...                          ...14
+4.8                 Integrated Cryptocurrency Exchange ...                          ..14
+4.9                 Third Party Open Marketplace ...                                ...15
+4.10                Secure Contactless Debit Card ...                               ...15
+4.11                The Growth of Smartphone Usage and Unbanked ...                 ...16
+4.12                Helping Cryptocurrency Adoption ...                             ...16
+4.13                Security & Ownership ...                                        .16
+5                   Business Model ...                                              .17
+5.1                 The Market Opportunity: How Big is the Global Market? ...       ...17
+5.2                 Customer Acquisition Strategy ...                               ...17
+                    Freemium Model ...                                              .17
+                    Hubris Token Reward for User Sign up ...                        ..18
+                    Partnerships & Third Party Open Platform ...                    ...18
+5.3                 Competition & Differentiation ...                               ...19
+5.4                 Revenue Generation & Sustainability ...                         .19
+                    Customer Acquisition Analysis: Years 1-5 ...                    ...19
+                    Customer Lifetime Value ...                                     ...19
+                    HubrisOne Membership Breakdown ...                              .20
+5.5                 Marketing Channels ...                                          ..21
+
+
+
+
+5.6               HubrisOne Customer Journey ...                         .22
+6                 Equity Sale / Token Sale ...                           ..23
+7                 HubrisOne Utility Token (HBRS) ...                     ...24
+8                 Funding Proceeds: Distribution ...                     .25
+9                 Roadmap ...                                            ...26
+10                The Team & Advisors ...                                ..27
+10.1              Team ...                                               .27
+10.2              Advisers ...                                           ..28
+11                Conclusion ...                                         ..29
+Attachments ...                                                          ...30
+                  A1- Regulatory Compliance & Company Jurisdiction ...   ...31
+                  A2- KYC/AML & Compliance ...                           ..31
+                  A3- Highlighted Risks Disclaimer ...                   ...32
+                  A4- Legal Disclaimer ...                               ..32
+References ...                                                           ..35
+
+
+
+
+1  Abstract
+There are many challenges originating from both cryptocurrencies and traditional banking
+system. These challenges prevent wider adoption of cryptocurrencies and whole world to
+benefit from cryptocurrencies. These challenges would only be overcome if the perception of
+people changed, which is almost impossible as a solution. The other option would be to
+implement a solution which would become a real connector between these two functional
+systems, offering benefits that will make processes related to each ecosystem easier, cheaper
+and more beneficial to participants.
+HubrisOne, is a mobile application designed to completely revolutionise the dynamics
+between the cryptocurrency and the banking sector. At present there is little to no trust between
+traditional banking and cryptocurrency users. We plan to fuse traditional banking with
+cryptocurrency, and deliver the related services to the masses through an open, honest and
+fully trustworthy infrastructure, which is easy to use and easy to understand by new entrants
+into the cryptocurrency market and veterans alike.
+The HubrisOne team is introducing a functional utility token known as the Hubris Token
+(HBRS), which will be used within the HubrisOne app and infrastructure, as a store of value,
+a way to transfer funds, receive platform access, discounts and used as a form of payment in
+conjunction with the HubrisOne debit cards.
+There is a vast market opportunity which is not dominated by any new solution. We are
+offering easy and affordable banking solutions to the 2 billion unbanked people around the
+world.
+There is a robust business model established depends on several revenue streams such as,
+membership fees, crypto-backed lending services, and open partner marketplace.
+As you read through our whitepaper, please note that the following information is based on
+services and solutions we are certain of bringing to market, and these are not just ideas, but
+well thought-out researched actionable tangible services. The app illustrations you see are
+copyrighted and are actual screen shots of our upcoming proof of concept.
+We appreciate your time and interest taken to read our whitepaper.
+
+
+
+
+2  Introduction
+HubrisOne, is a cryptocurrency wallet and traditional fiat bank account combined into a powerful,
+intelligent, regulated and compliant digital mobile application. We are focused on merging the benefits
+of these two powerful industries, seamlessly.
+We have designed HubrisOne to be easy to use, secure and intelligent. HubrisOne is more than just a
+digital cryptocurrency friendly bank account. It is a realistic and innovative approach to banking and
+cryptocurrency utilization together.
+2.1   Our Vision
+Our vision is to bring the benefits of traditional world of finance and banking and the new world of
+cryptocurrencies together in a new, secure, regulated and user-friendly way.
+There is a need for a regulated, trusted and licensed go to solution that will help new investors to adopt
+into the cryptocurrency market, whilst still maintaining the importance of their trusted banking system
+they use on a daily basis. We know that current banking system has plenty of improvement points. We
+might improve their current processes and services on offer by leveraging the technology such as
+blockchain and cryptocurrencies.
+We aim to become the world’s first cryptocurrency friendly digital bank, fully complaint and regulated
+within the United Kingdom.
+Just imagine, your day to day banking facilities, accounts, and cryptocurrency wallets side by side.
+Banking made digital, secure and cryptocurrency friendly.
+
+
+
+
+2.2   Progress to Date
+See progress updated live here:
+
+
+
+
+3                                                                                                       The Problem
+3.1                                                                                                     Challenges Caused by the Infancy of Cryptocurrency Market
+Due to its infancy the cryptocurrency market is facing many significant issues, including
+but not limited to;
+•   The lack of global financial inclusion (CGAP, 2018)
+•   Lack of a full end-to-end, on ramp and off ramp platform for new investors into the
+cryptocurrency market.
+•   Unregulated services and solutions such as exchanges, derivatives and indexes and other
+investment derivative investment linked products (TechCrunch, 2018)
+•   Price volatility and manipulation (CNN, 2018)
+•   Lack of trust, transparency and Fraud (HBR, 2018)
+3.2                                                                                                     Viewing Cryptocurrency Differently From Fiat Currencies
+Most of the people in traditional finance space believe that cryptocurrencies will not be around in
+the future. On the contrary, most of the cryptocurrency enthusiasts believe the opposite.   We see
+the market evolving and developing to find a fair-balanced middle ground between the two form
+of currencies as noted above. Therefore, it is most probable that cryptocurrencies and fiat
+currencies in the future will operate as one overarching option of global currency, with each having
+their own use case.
+If cryptocurrencies are to be taken seriously by the world and for mass adoption to be achieved,
+we need to legitimise cryptocurrencies through a trustworthy, secure and regulated medium,
+channel or solution.
+3.3                                                                                                     Recognising the Role of the Banking System
+Most of the cryptocurrency enthusiasts are against the banking system with a subjective approach.
+An objective and realistic analysis of to the existing banking systems reveals the fact that it plays
+important roles in our lives.  Global banking system has been established, built and trusted for over
+200 years. This 200-year old banking industry has its pitfalls, however, it is important to emphasise
+its significance, access and opportunities it has given (BBA):
+•   secure payment networks that keep the world’s economy moving 24/7
+•   Providing financing and access for people to buy their dream homes, cars or holidays
+•   Allows billions of people each day to pay for goods and services on and offline
+•   Has provided millions of jobs globally
+•   Pays millions of salaries everyday
+•   Moves billions of payments everyday globally
+3.4                                                                                                     The Cryptocurrency World Needs a Bank
+Recently, the world and the cryptocurrency community has witnessed a severe backlash from
+traditional banks, payments processors and credit card companies banning customers and users from
+buying, investing or transacting in any cryptocurrency related businesses (Forbes, 2018).
+
+
+
+
+3.5                                                                                                    Complacency & Poor Customer Service
+Only 23 percent of customers globally believe their bank is meeting their expectations, according
+to a newly released survey of 9,000 bank customers in nine countries by FIS, a banking and
+payments technology company (FIS, 2015).
+Banks globally are failing to meet their customer’s expectations; however, customers do not have
+or know of any alternatives they can switch to due to the monopolistic nature and copy-cat offerings
+each bank presents.
+Below are a few issues and examples banks place on to their valued customers, not limited to the
+following:
+•   Old fashioned and outdated verification systems - up to 20-minute wait times
+•   Lack of new and innovative communication channels - no live chat
+•   Slow and outdated payment systems
+•   No payments processed on the weekend
+•   Unnecessary fees for overdrafts and missed payments
+•   Long wait times for a new card or pin number
+3.6                                                                                                    The Banks: Extortionate Global Exchange Fees
+When you are sending money to a different location and you transfer money the banks can charge
+you up to the purchase is in a different currency, the banks can charge you up to 13% on each
+transfer. The greedy and unfair part is they could give you the inter-bank FX rates whereby your
+fees are reduced by up to 98% to 100%.
+Here’s an excerpt taken from (TD, 2018)- which captures the above problem perfectly.
+“So let’s say you are moving countries and you sold your house in one country and bought in
+another. $200,000 house, transferring from London to New York, or from Sydney to San
+Francisco. How much do you pay the bank when you wire the money? You might be shocked
+to discover that the fees are as high as 13%.
+That’s on a round-trip exchange, meaning if you changed the money then changed it back you would
+lose 13%. Ofccourse you’re not going do a round trip exchange, but it gives you the idea of how
+much the banks are making. The average fees are around 7% round-trip or 3.5% one way.
+This means that on your $200,000 house you just paid $7,000 to the bank to transfer the money for
+you.”
+
+
+
+
+Below you will find a table that displays the add-on fees banks commission on each of your transfers
+you make.
+Additionally, to the above we find the following issues are very prevalent and need to be disrupted:
+Our research and market analysis suggests the majority of people are unhappy and are unsatisfied
+with their bank for various reasons, ranging from, but not limited to:
+•   Fees being too high
+•   Lack of quality customer service
+•   Significant inefficiency
+•   Lack of innovation
+•   Greed and not being customer-centric
+3.7   High Competition in Customer Acquisition
+Acquiring and retaining profitable customers is an ever-growing challenge for banks. It is apparent
+that customer demographics, buying behaviour and needs are evolving rapidly, and have accelerated
+even more with the introduction of cryptocurrencies.
+The competition is aggressive and adapting rapidly. Traditional banks now need a 360-degree view
+of each customer in order to focus their resources efficiently (BoC, 2017).
+
+
+
+
+4  Solutions & Value Propositions
+4.1   Instant Digital Bank Accounts
+We’ve made it extremely easy and simple to create a bank account in GBP, USD and EUR
+dominated currencies. This means, upon approval of KYC and AML, users will be able to transact,
+transfer and store funds as they would in their bank account today. For free.
+Allowing users to create unlimited personal IBAN, BIC, and UK sort code and account numbers in
+seconds, creates an eco-system of personal accounts for savings, college funds, rainy day fund or
+holiday savings. Users can securely pay in your salary, set up recurring payments or pay bills and
+merchants.
+4.2   International Transfers using Stellar Blockchain
+There is no need to wait 3-5 days for intentional payments to arrive, and no need to pay
+extortionate exchange fees. We have made it extremely easy for users to transfer funds from
+their HubrisOne bank account using secure blockchain payments, this brings many benefits
+never seen before in the banking industry, such as:
+•                                                                                                    Real-time traceability and tracking of funds, you'll know when and where your transfer is
+at all times
+•                                                                                                    International payments using the Stellar blockchain Connectivity across international
+banking payments networks
+•                                                                                                    An instant on-demand settlement, when you transfer with faster payments or SEPA (usually
+within 2-4 hours)
+A key feature of the HubrisOne app will be the ability to conduct traditional and blockchain
+international payments. Users will be given the option of transferring funds to bank accounts
+via SEPA, SWIFT or Faster Payments or send via Stellar’s international blockchain payment
+technology.
+
+
+
+
+Why Stellar?
+•   Quick settlement. 3-5 seconds for a token holder to send the token to someone else.
+•   Cheap transactions
+•   Built in exchange with any other token, asset or currency in the network.
+•   Stellar is scalable - Stellar transaction is 1/100,000 of a penny. In recent tests, Stellar has
+achieved  10,000 transactions per second and with an average settlement time of  5
+seconds.
+•   Ability to do voting, dividends or awards all in the same network.
+•   Stellar supports eco-system expansion
+This means that HubrisOne will be a cross-chain cryptocurrency asset operating on two
+blockchains.
+1)                                                                                                    ERC20 Ethereum for our ICO and as a utility to gain access to HubrisOne features and
+2)                                                                                                    Stellar’s blockchain for international instantaneous payments.
+4.3   Secure Cryptocurrency Wallets
+Cryptocurrency wallets provided by HubrisOne will enable users to
+exchange, convert and  transact  fiat  to  and from  cryptocurrency
+working in perfect harmony with the HubrisOne bank accounts and
+HubrisOne debit cards. . Features provided:
+•    Storing and accessing cryptocurrency funds directly from the
+HubrisOne app.
+•    Users will have full ownership of their keys.
+•    Freedom, variety and diversify add up to 200 cryptocurrencies
+and selected alt-coins.
+•   Easily transfer between cryptocurrency wallets and HubrisOne
+bank account, and spend globally using the HubrisOne secure
+debit card.
+•   Sending cryptocurrency to friends, family or to an exchange
+within a few taps.
+
+
+
+
+4.4   Secure Digital Account and Card Management
+As digital ownership grows, banking will be the next industry to
+be disrupted digitally. HubrisOne will transform the old-fashioned
+long  waiting  times  on  the  phone  into  digital  self-account
+management. Users will be able to do everything they can do with
+a bank representative over the phone with HubrisOne, which
+means they will be in charge on their accounts and cards whenever
+they want 24/7.
+Features provided:
+•   Create a new virtual card for online purchases in a few taps.
+Order a physical card directly from your app. No phone calls,
+no call centres.
+•   Change, view or reset your security pin in two seconds. No
+need to order a pin by mail.
+•   Link your card to your HubrisOne bank account or to your
+cryptocurrency wallet. One card, multiple accounts.
+
+
+
+
+4.5   Fair and Transparent Crypto-Backed Loans
+Users will be able to receive fiat payments upon approval of their
+application in under 5 seconds in to their HubrisOne connected bank
+account.
+People might need a loan from their bank but their credit score is poor,
+a situation million’s face daily. However, as cryptocurrency adoption
+grows, and ownership of cryptocurrencies grow along with it we will
+begin to increase demand for financing services which are linked to
+the ownership value of their cryptocurrencies.
+Features provided:
+•    Instant crypto-back lending financing
+•    Transfer fund instantly to your HubrisOne bank account.
+•    Instant decision in 2 seconds
+•    No credit score check required
+•    Flat 10% interest rate
+4.6   Real-time Transaction Monitoring
+We’re leveraging our technology to bring our users a new and refreshed way to report their
+transactions, they no longer need to wait monthly for their statements. HubrisOne enables
+users to know how much they have spent in FIAT and cryptocurrency live rates and more
+Features provided:
+•   Generate PDF statements in a touch of button. Automated monthly account analysis,
+keep on top of your spending habits.
+•   See the location, vendor and amount spent. View the amount in real-time in fiat and
+cryptocurrency rates.
+•   Selecting primary currency (crypto or fiat), linking or unlinking seamlessly to your
+HubrisOne card, quickly and easily.
+•   Automated risk and fraud alerts
+
+
+
+
+4.7   Hubris Wealth Management Solutions
+HubrisOne allows users  to  consolidate their new  and  existing
+portfolios  under  one   roof   whilst   maintaining  their   fund
+management  company.  We’re  simplifying  wealth  management
+solutions for our users by incorporating data powered insights and
+analytics, a vast breadth of investment finance products, from
+cryptocurrency indexes to traditional S&P global index and more.
+Features provided:
+•    Withdraw or add funds directly from your HubrisOne bank
+account in seconds.
+•    Access third-party funds and wealth managers using the Hubris
+Token.
+4.8  Integrated Cryptocurrency Exchange
+•    Users will be able to use ‘auto exchange’ function to exchange
+between your bank account and cryptocurrency wallets, instantly. Fees from only 0.60%.
+•    Easy to use, user-friendly and instant. Stabilise your exposure to cryptocurrencies by quickly
+exchanging to fiat.
+•    Up to 200 cryptocurrencies and selected alt-coins will be available upon launch.
+
+
+
+
+4.9   Third Party Open Marketplace
+We’re introducing the HubrisOne open partner marketplace to connect our users to other blockchain
+and non-blockchain service providers and to increase and improve our scope of service offerings.
+Connecting great services and solutions to willing customers, users and investors.
+Think about a comparison website when you are traveling or when booking a hotel. This is a similar
+structure and concept that would be applied. These additional services can and only will be available
+to Hubris Token holders.
+4.10 Secure Contactless Debit Card
+Multiple accounts, one card. Within a few taps
+you can connect your debit card to your bank
+account,  cryptocurrency  wallet  or  set  your
+account to auto-spend from a nominated account.
+We’ve simplified each step and made it seamless
+to connect users to the world of cryptocurrency
+and the traditional world of banking.
+Users cards come fully loaded as you would
+expect from your bank plus more:
+•    Contactless payments
+•    Spend where the VISA logo is accepted
+•    Secure with 24/7 account monitoring
+
+
+
+
+4.11 The Growth of Smartphone Usage and Unbanked
+The growth of smartphone usage aligns with our growth plans and direction of developing an app
+only digital banking solution which is lightweight, secure and accessible. In saying this, there are
+over 2 billion unbanked adults who do not have access to the banking infrastructure that we take we
+granted.
+According to Statista, the number of smartphone users is forecast to grow from 2.1 billion in 2016
+to around 2.5 billion in 2019, with smartphone penetration rates increasing we see a general global
+shift to mobile-only digital solutions and banking is an area that is due for a digital shake-up
+(Statista, 2016).
+4.12 Helping Cryptocurrency Adoption
+The HubrisOne app will increase the adoption rate through our cryptocurrency integrated digital
+banking accounts.
+By presenting a familiar banking solution with cryptocurrency integration, we will slowly increase
+adoption and gain users at the same time
+By enabling our target
+market to execute their
+day  to  day  banking
+operations   from   the
+HubrisOne   app   and
+providing  easy  access
+to  the  cryptocurrency
+market   infrastructure,
+we  provide  a  simple
+vessel for users to adopt
+cryptocurrencies
+exponentially.
+4.13 Security & Ownership
+HubrisOne will integrate and implement the strictest security features to ensure consistent
+trust, integrity and reliability of the app.
+Features provided:
+• PCI-DSS Compliant
+•                                                                                                      24/7 Real-time anti-fraud machine learning account monitoring
+• Integrated digital and instant AML & KYC verification
+• Application is run entirely over encrypted SSL
+• Two-factor authentication for additional security
+• Wallets and private keys are yours and are stored in AES-256 encryption
+
+
+
+
+5                                                                                                   Business Model
+5.1                                                                                                 The Market Opportunity: How Big is the Global Market?
+The market for the HubrisOne app and digital banking solution is vast and an extremely attractive
+market.
+Firstly, we are offering a digital banking solution to people who meet the following criteria:
+•   Have a smartphone with internet connection with access to Apple App Store or Google
+Play
+•   Have or need a bank account.
+•   Over 18
+Note: The above criteria has been simplified for illustration purposes, but already, the
+evidence is apparent that our solution is a mass market product and applies to the mass
+population, which already shows the potential demand of the market we are targeting.
+According to the WSBI, over 37 million individuals do not have a bank account within the
+EU. The EU will be the first regional hub HubrisOne will launch (WSBI).
+On the contrary, over 430 million individuals have a bank account within the EU. The above
+two criteria are our target market we will focus on upon launch of HubrisOne.
+A combined 467 million target opportunity in the EU alone.  Additionally, we have identified
+over 2 billion global unbanked adults which will be our secondary target market. HubrisOne
+appeals to the mass market, however we have further segmented this market in order for  our
+focus to not be too wide. Hence our proposition is      cryptocurrency-banking, cryptocurrency
+first and compliant and regulated banking solutions second.
+5.2                                                                                                 Customer Acquisition Strategy
+We will implement three key customer acquisition models which will generate revenue to
+cover costs, increase cryptocurrency adoption and increase the rate of customer acquisition.
+Our customer acquisition model is a simple yet effective strategy. Many of our future users
+and customers will be acquired through the following three key acquisition strategies. We
+ensured that  the  cost  to acquire was significantly lower than  the future revenue and
+monetization potential each customer would bring.
+We will be focusing and are implementing three strategic customer acquisition channels:
+Freemium                                                                                            Model
+HubrisOne will offer basic digital current accounts services for free in addition to other
+services. However, a fee will be charged per month for additional premium services.
+
+
+
+
+By giving away the basic product for free it is easier to attract users and create a strong
+customer base. Some key benefits we see are: Customer acquisition, marketing effect via
+word of mouth and network effect, the more people that use HubrisOne the more people it
+will attract.
+Hubris Token Reward for User Sign up
+The second key strategic
+acquisition  channel  we
+see  as  being  effective
+and                                                                                                 significant   is
+leveraging   the   native
+HubrisOne
+cryptocurrency   tokens
+(HBRS)  which  will  be
+used as a reward (among
+other   uses)   for   each
+customer  that  signs  up
+with HubrisOne.
+By rewarding users to sign
+up with our Hubris Token, we incentivise and reward new users to join and share. This will
+increase the rate of our customer acquisition, and significantly increase the growth rate of our
+customer base via organic network and marketing effect.
+Partnerships & Third Party Open Platform
+The third key strategic acquisition channel we see as being effective and significant is creating
+and building an open platform for third-party blockchain and non-blockchain services.
+
+
+
+
+Creating an open platform for non-conflicting third-party services and solutions we:
+•   create a revenue stream via commissions and on-boarding fee.
+•   we create awareness of blockchain services thereby increasing adoption
+•   we increase the scope of services we provide indirectly without increasing the cost of
+having  to  offer  these services  directly.  Partnerships  will  be key and  we are  in
+discussions with key players in financial services, insurance, and retail.
+5.3                                                                                                          Competition & Differentiation
+We are aware of competing solutions which offer similar or fragmented digital banking
+solutions. However, we are yet to identify a solution which offers the same offerings as
+HubrisOne. Upon analysis we find the market is in it’s infancy and our value propositions have
+been tailored to our primary customer segment.
+Below you will find three potential competitors, now and in the future:
+•   Wirex
+•   Revolut
+•   TenX
+Note: There may be smaller competitors, however we have not identified them as serious
+contenders for the cryptocurrency and digital banking market. These smaller competitors have
+been identified as: MinexPay, ViaBuy
+Although we have identified there are competitors, we have mapped out the market ad
+understand that our solution differentiates significantly.
+5.4                                                                                                          Revenue Generation & Sustainability
+Customer Acquisition Analysis: Years 1-5
+Below you will find details and data points regarding our customer acquisition within the first five years
+of operation. We have based these predictions on real, tangible, relevant data points. We have used
+Revolut’s growth rate in the past two years as a base standard. Revolut in some respect can be identified
+as a potential competitor of HubrisOne.
+The data below has been adjusted to reflect the following:
+•   The infancy of HubrisOne
+•   Lack of brand awareness of HubrisOne
+•   Proof of concept only and no working product
+•   New cryptocurrency solution and a relatively new market
+According to (CNBC, 2017), Revolut was signing up and acquiring over 3,500 users every single day. As
+mentioned above we will not use the same growth and acquisition rate due to the reasons mentioned
+earlier. We will apply a 50% reduction in customer acquisition growth. See below for our estimates,
+analysis and predictions for HubrisOne.
+Customer Lifetime Value
+Our customer lifetime value, is a simple equation - (current revenue - cost to acquire, projected
+over the customer lifecycle).       However, it is very difficult to measure in today’s changing and
+always evolving business context. We’ve simplified the above formula to apply to the estimated
+customer acquisition, number of paid users over a predicted 17 years LTV (life time value cycle).
+
+
+
+
+A new study suggests that the average time a customer remains with a bank is 17 years (Gaurdian,
+2013). We will use this as our foundation to generate a customer lifetime value based on 30% of
+our acquired customers being premium paid users.
+Upon launch and through the development of HubrisOne we will establish the perfect
+monthly fee to charge users per month for our services. The above is only analysis to illustrate
+the potential of our targeted market over a five-year period without factoring in growth,
+inflation and others.
+HubrisOne Membership Breakdown
+For  the  purposes  of  this  descriptive  whitepaper  we  have  decided  to  focus  solely on
+membership fees which will form the backbone of our revenue and sustainability model.
+See below for our proposed membership model. Free and Premium, with each having their
+target customers and benefits.
+
+
+
+
+5.5   Marketing Channels
+We have identified our user base and customer segment to be digital natives, so it only makes
+sense for us to focus heavily on digital marketing channels. As a full digital banking alternative
+our focus is to use analytical tools to effectively target and acquire customers. Our digital
+marketing campaigns will be the building blocks or actions within your strategy that move us
+toward our short-term and long-term goals.
+We will focus on social media and digital marketing channels, with zero print or television media. The
+following channels is where we will be focusing our efforts:
+•   Google Adwords
+•   Instagram Influencers
+•   Twitter Ads
+•   Youtube Ads
+•   Instagram Ads
+•   Facebook Ads
+•   Quora Ads
+We have divided our strategy by deeply segmenting our target customer by the following criteria:
+Quantitative (or Demographic) Information
+•   Location
+•   Age
+•   Income
+•    Job Title
+We will utilise the following three forms of media in conjunction with above social media
+channels mentioned, HubSpot has provided a short summary on what each type of media
+provides.
+Owned Media
+This refers to the digital assets that your brand or company owns -- whether that’s your website,
+social media profiles, blog content, or imagery, owned channels are the things your business has
+complete control over.
+Earned Media
+Quite simply, earned media refers to the exposure you’ve earned through word-of-mouth.
+Whether that’s content you've distributed on other websites (e.g., guest posts), PR work you’ve
+been doing, or the customer experience you've delivered, earned media is the recognition you
+receive as a result.
+Paid Media
+Paid media is a bit self-explanatory in what its name suggests -- and refers to any vehicle or
+channel that you spend money on to catch the attention of your buyer personas.
+Marketing will be extremely significant for us and as a result we have dedicated over 20% of
+funding to marketing alone.
+
+
+
+
+5.6   HubrisOne Customer Journey
+
+
+
+
+6                         Equity Sale / Token Sale
+Equity Sale Start Date                               07.01.2019 @ 00:00 GMT
+Equity Sale Finish Date                              07.02.2019 @ 23:59
+Minimum Contribution                                 10 GBP
+Equity to be Sold                                    15%
+Payment Methods                                      Credit/Debit Cards (Visa, Amex, Mastercard)
+Equity Sale Platform                                 crowdcube.com
+Hard Cap                                             500,000 GBP
+ICO Start Date                                       01.01.2019 @ 00:00 GMT
+ICO Finish Date                                      31.05.2019 @ 23:59 GMT
+Token Price                                          $0.01 (+$0.01 each following month)
+Soft Cap                                             $100,000
+Hard Cap                                             $5,500,000
+Tokens to be Sold                                    550,000,000 HBRS
+Token Symbol                                         HBRS
+Token Standard                                       ERC-20
+Payment Accepted                                     ETH
+Restrictions                                         US, China and Canada citizens and residents
+Whitelist                                            Not required for both sale phases
+KYC                                                  Required for both sale phases
+
+
+
+
+7  HubrisOne Utility Token (HBRS)
+The HBRS token will be the bloodline of the Hubris Application. If the Hubris App is the road,
+the HBRS token is the cars, trucks and the motorcycles. They are both very dependent on each
+other.
+The HBRS token will be a functional utility token within the platform, this will allow users,
+investors and our customers to access the following, the list is not exhaustive and further
+functionalities may be added in due course:
+
+
+
+
+8                                                                                                      Funding Proceeds: Distribution
+Development (40%)                                                                                                                       24/7 Live Chat - 5 Languages
+Research  and  continuous  development,  processing,  design  and  testing  expenses  for  the
+HubrisOne app. We will contract and, in some cases, hire onto the HubrisOne team the best and
+experienced developers within the fintech industry
+Operations (20%)
+The operational costs are, in most cases, fixed costs associated with most businesses, this includes
+office expenses, global contact agents to service the bank accounts  24/7, salaries for the
+HubrisOne employees and team, exhibition expenses for promotion, travel, human resources
+expenses and subscriptions for SaaS solutions for day to day running of HubrisOne.
+Marketing (20%)
+We will implement an aggressive social media strategy, due to the mass appeal of our product
+we have allocated 20% of proceeds to acquire new users. We will primarily execute online social
+media and platform ads in order to efficiently track ROI.
+Security Infrastructure (15%)
+Due to the sensitivity of our digital banking solution, we will need to implement the strictest
+security and compliance standards. Therefore, we will recruit experienced compliance, security
+and regulatory specialists on-board the team. The team at HubrisOne understands the importance
+of creating a secure trusted alternative digital banking solution.
+Partnerships (5%)
+Partnerships will be key to our business model, and as a result, we will create a headcount
+(recruit) of two business development and partnerships managers to ensure we partner with the
+best blockchain and non-blockchain service providers to join our Open Partner Platform.
+
+
+
+
+9  Roadmap
+24/7 Below is our proposed roadmap detailed with key milestones we will achieve during
+Below is our proposed roadmap detailed with key milestones we will achieve during and after
+our funding and beyond.
+*Subject to adjustment and change, this will be communicated via www.hubrisone.com or via
+our Official Telegram channel.*
+Q1 -Q3 2017                                                                                   Q4 2017                               Q1 2018
+• Market Research                                                                             • Search for Compliant Card Partner   • App UI/UX Design & Build
+• Market Fit and Analysis                                                                     • Banking Software Secured            • App Wireframe Build
+• Product Creation to align to Market Fit                                                     • Development Partner Search
+• Target Market Assessment
+• Regulatory Research & Scope
+Q3- Q4 2019                                                                                   Q1 - Q2 2019                          Q2 - Q4 2018
+• Android and Apple App Release V1                                                            • Complete Public Token Sale          • Assembling Team & Advisors
+• Apple Pay and Google Pay Release                                                            • Equity Share Crowdfunding           Recruitment (Complete)
+• Crypto-Lending Facility Integration                                                         • Apple App & Android Development     • Search for Equity Share
+                                                                                              • Security Audit                      Partner (Complete)
+• Beta Testing and Bug Improvements
+• Debit Card Design and Manufacturing
+
+
+
+
+10 The Team & Advisors
+10.1 Team
+
+
+
+
+10.2 Advisers
+
+
+
+
+11 Conclusion
+Cryptocurrency space does not need fastest blockchains, flawless dApps, shortest settlement
+times or lowest fees to proceed to the next level. It only needs wider adoption to achieve that.
+Current phase of cryptocurrency ecosystem is not mature enough to replace traditional systems
+or processes. It is in its’ infancy.
+It  is  not  realistic  to  expect  cryptocurrency to  replace  fiat  currency.  On  the  other  hand,
+cryptocurrencies will not disappear or become idle. In order to achieve wider adoption of
+cryptocurrencies, we need a solution which, respects and identifies the importance of the
+traditional banking system and the benefits it provides, however at the same time, removing the
+greed, unfairness in exchange fees, removing the inefficiencies such as physical branches and
+call centres - whilst at the same time improving the customer service, product innovation,
+technology and becoming more customer centric.
+Banks have been enabling the tradition to continue globally, letting everyone to have their dream
+belongings, helping everyone to receive salaries, etc. These are a few significant benefits and
+real-life examples of what banks provide to the mass population on a daily basis. We recognise
+the importance of this and at the same time we understand the issues banks have created globally
+through greed, lack of transparency and complacency.
+In order for the market to mature and to increase mass adoption we need to promote freedom and
+autonomy over people’s own finances. The solution is not to abolish banks, or financial
+institutions or to overthrow them with the rise of blockchain and cryptocurrencies, but the
+solution is to merge and marry the benefits from both of these powerful worlds.
+We feel there is a strong need for an all-inclusive, end-to-end banking and cryptocurrency
+solution. Not only will HubrisOne open more doors for cryptocurrency adoption, HubrisOne will
+allow users and investors to use one solution for all of their banking needs, today and more
+importantly, in the future. This is banking for the cryptocurrency generation.
+It’s about time we move this industry into the future and whilst we're doing this, HubrisOne is
+bringing banking into the digital age, and we've future-proofed it with the integration of
+cryptocurrencies and blockchain technology.
+The above key pain points are our main focus, including cryptocurrency integration. We see a
+spectrum wide problem with banking today and this is where we believe the opportunity is. We
+want to incorporate a customer centric, innovative and trustworthy application that welcomes
+your feedback.
+
+
+
+
+Attachments
+A1- Regulatory Compliance & Company Jurisdiction
+A2- KYC/AML & Compliance
+A3- Highlighted Risks Disclaimer
+A4- Legal Disclaimer
+
+
+
+
+A1- Regulatory Compliance & Company Jurisdiction
+We are legally registered with companies’ house in the UK company number: 11529615.
+Our choice for registration within the United Kingdom was a careful strategic decision which we
+took after careful consideration, the reasons and rationale for this choice are as follows:
+•                                                                                                    Firstly,  the  UK  alongside  the  United  States  has  the  most  advanced,  innovative  and
+established global banking infrastructure in the world.
+•                                                                                                    Secondly, the UK government is very open-minded with respect to cryptocurrencies and
+blockchain technologies.
+•                                                                                                    Thirdly, the United Kingdom has great protectionism over banks, financial institutions which
+favour the customers, this means our customers funds will be protected under the FCSC
+scheme (FSCS, 2018).
+•                                                                                                    Lastly, the United Kingdom along with other EU countries are supporters of digital banking
+innovation and disruption hence the introduction of the electronic money licence regulation
+(2011), which we will be leveraging through our card partner upon launch (Europa).
+The above decisions were considered, among others, when deciding where to register and create
+our company. HubrisOne is a trading name of HubrisOne Technologies Ltd.
+HubrisOne will be authorized by the Financial Conduct Authority (FCA) through our UK card
+issuer as an authorized agent, under the e-money institution license. Thereby granting access
+HubrisOne EEA passporting permissions to all 31 EU countries in the EU. The introduction of
+the e-money license and the regulation is to allow and spur innovation in a safe and controlled
+way.
+The Electronic money (e-money) is a digital alternative to cash. It allows users to make cashless
+payments with money stored on a card or a phone, or over the internet. The reasons this license
+was introduced is primarily for such services such as HubrisOne and many others to flourish and
+capture market share from traditional banking operators. EU rules on e-money aim to:
+•  facilitate the emergence of new, innovative and secure e-money services
+•  provide new companies with access to the e-money market
+•  encourage effective competition between all market participants
+A2- KYC/AML & Compliance
+The HBRS tokens on offer during the Crowdsale cannot be re-distributed or resold to citizens or
+persons who reside or are natural legal citizens of countries where digital currencies, tokens and
+or digital security tokens are prohibited or restricted by current laws or regulation.
+Due to current laws, we are unable to accept investment or participation from the restricted
+persons  (as detailed above) or  we reserve the full right to refuse any person(s) from the
+Crowdsale at our discretion, especially if the information provided to the HubrisOne team is not
+complete, incorrect, false or unverifiable during the KYC verification process.
+
+
+
+
+A3- Highlighted Risks Disclaimer
+As a responsible business and company, we need to highlight potential risks associated with
+Crowdsale and investments, as with any investment.
+Perspective investors that wish to be involved in the Crowdsale and wish to purchase HBRS
+tokens, must take time to consider the following and evaluate all risks that may be associated
+with this Crowdsale. Upon purchasing the HBRS tokens, you should carefully evaluate and
+consider these following areas and assess with your own internal risk
+assessment criteria.
+•  Read and assess all the information in this whitepaper
+•  Cryptocurrency mark volatile price fluctuations
+•  Inability to be granted licences and regulatory approvals
+•  Failure to maintain permits, or fail audits
+•  Failure to deliver by the detailed timeline
+•  Regulation and compliance risk
+•  Third-party DDoS attacks and cyber-attacks on the smart contract
+•  Price volatility once Hubris Tokens is listed on an exchange
+HubrisOne stays compliant and allows us to do the following:
+•                                                                                                to comply with the requirements of relevant legislation and regulation to help the firm, at the
+time the due diligence is carried out,
+•                                                                                                to be reasonably certain that the customers are who they say they are to provide users with
+the products or services requested
+•                                                                                                to guard against fraud, including impersonation and identity fraud to help HubrisOne to
+identify, during a continuing relationship
+•                                                                                                if unusual events do not have a commercial or otherwise straightforward rationale they may
+                                                                                                 involve money laundering, fraud, or handling criminal or terrorist property
+•                                                                                                to enable HubrisOne to assist law enforcement, by providing verifiable available data on
+customers
+A4- Legal Disclaimer
+PLEASE READ THESE TOKEN SALE TERMS CAREFULLY. NOTE THAT SECTIONS 14
+AND  15 CONTAINS A BINDING ARBITRATION CLAUSE AND REPRESENTATIVE
+ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE
+TO THESE TOKEN SALE TERMS YOU SHALL NOT PURCHASE TOKENS.
+YOU ARE NOT ELIGIBLE AND YOU ARE NOT TO PURCHASE TOKENS IF YOU ARE
+(I) A GREEN CARD HOLDER OF THE UNITED STATES OF AMERICA, OR  (II) A
+
+
+
+
+CITIZEN OR A RESIDENT  (TAX OR OTHERWISE) OF THE UNITED STATES OF
+AMERICA, PUERTO RICO, THE VIRGIN ISLANDS OF UNITED STATES, OR ANY
+OTHER  POSSESSIONS  OF  THE  UNITED  STATES  OF  AMERICA,  OR  PEOPLE’S
+REPUBLIC  OF  CHINA,  OR  PERSON  OF  THAT  STATES  OR  (III)  A  CITIZEN  OR
+RESIDENT  (TAX OR  OTHERWISE) OF ANY COUNTRY OR  TERRITORY WHERE
+TRANSACTIONS  WITH  DIGITAL  TOKENS  AND/OR  DIGITAL  CURRENCIES  ARE
+PROHIBITED OR IN ANY OTHER MANNER RESTRICTED BY APPLICABLE LAWS.
+“PERSON” IS GENERALLY DEFINED AS A NATURAL PERSON RESIDING IN THE
+RELEVANT STATE OR ANY ENTITY ORGANIZED OR INCORPORATED UNDER THE
+LAWS OF THE RELEVANT STATE. PURCHASED TOKENS CANNOT BE OFFERED OR
+DISTRIBUTED AS WELL AS CANNOT BE RESOLD OR OTHERWISE ALIENATED BY
+THEIR HOLDERS TO MENTIONED PERSONS (“RESTRICTED PERSON”).
+This document acts as an agreed upon token sale terms (“Token Sale Terms”, “Terms”) between
+you                                                                                                   (“Purchaser”,   “User”,   “you”)  and  HubrisOne  Technologies  Ltd   (Trading  name  of
+HubrisOne) company number:  11529615, a United Kingdom company, located in London
+(“Company”, “us” or “we”). Each of you and Company are a “Party” and collectively the
+“Parties”. You accept these Terms when you purchase HBRS Tokens  (“HBRS”,  “HBRS
+Tokens”, “Tokens”).
+HBRS Tokens is a digital product made by the Company for the use by token holders within the
+HubrisOne app located at https://HubrisOne.com (“Platform”) as a payment for the Platform and
+Company’s or third parties service fee, which is collected by Company and/or third parties for
+providing services within the Platform. Any purchase of HBRS Tokens is subject to these Terms.
+HBRS Tokens are not digital currency, commodity, or any other kind of financial instrument and
+has not been registered under relevant securities regulations, including the securities laws of any
+jurisdiction in which you are a resident.
+We will provide notice of any amendment to these Terms by posting any revised document to
+the Website and updating the “Last updated” field above accordingly or by any other method we
+deem appropriate. We are not obligated to provide notice in any other method beyond these. Any
+change to these Terms will be effective immediately upon such notice and apply to any ongoing
+or subsequent purchase of HBRS Tokens.
+Information about the Tokens and Tokens sale is set forth in the Whitepaper located at the
+Website. Purchaser is required to read the Whitepaper and any other documents located at the
+Website in their entirety prior to purchase of HBRS Tokens.
+
+
+
+
+By purchasing HBRS Tokens from the Company, you will be bound by these Terms and any
+other terms incorporated by reference as well as with any other document located at the Website.
+If you have any questions about these Terms, please contact us at hello@hubrisone.com
+All updates related to Crowdsale, legal disclaimer and token agreement will be updated via the
+website and investors are advised to refer to the website www.hubrisone.com in order to stay up
+to date as the information in this whitepaper is subject to change.
+Full legal disclaimer and token agreement can be found at www.hubrisone.com
+
+
+
+
+References
+1.  BBA.                                                                                                      (n.d.).                                                                                    2014.                                                                                          Retrieved   from    https://www.bba.org.uk/news/reports/the-benefits-of-
+banking/#.W3254c4zapo
+2.  BoC. (2017). Retrieved from http://www.crm.umontreal.ca/probindustriels2015/pdf/BNC.pdf
+3.  CGAP.  (2018). Bitcoins and Financial Inclusion: Not Much of a Link for Now.  Retrieved from
+http://www.cgap.org/news/bitcoins-and-financial-inclusion-not-much-link-now
+4.  CNBC. (2017). Digital banking start-up Revolut breaks even as it prepares global expansion. Retrieved
+from https://www.cnbc.com/2017/11/24/revolut-signs-up-1-million-users-ahead-bitcoin-cryptocurrency-
+launch.html
+5.  CNN.  (2018).  Retrieved  from  https://www.ccn.com/bitmex-downtime-crypto-pump-manipulation-in-
+the-bitcoin-market/
+6.  Europa.                                                                                                   (n.d.).                                                                                    Retrieved    from   https://ec.europa.eu/info/business-economy-euro/banking-and-
+                                                                                                              finance/consumer-finance-and-payments/payment-services/e-money_en
+7.  FIS, C. (2015). Retrieved from https://www.cnbc.com/2015/05/19/cent-of-customers-happy-with-their-
+bank-study.html
+8.  Forbes.                                                                                                   (2018).  Retrieved  from  https://www.forbes.com/sites/heatherfarmbrough/2018/02/09/why-
+britains-largest-bank-stopped-customers-buying-bitcoin-with-credit-cards/
+9.  FSCS.                                                                                                                                                                                                (2018).  Retrieved  from  https://www.fscs.org.uk/what-we-cover/compensation-limits/deposit-
+limits/
+10. Gaurdian.                                                                                                 (2013).                                                                                    Switching                                                                                      Banks.      Retrieved                                                      from
+https://www.theguardian.com/money/2013/sep/07/switching-banks-seven-day
+11. GenPact.                                                                                                  (2017).                                                                                    Customer                                                                                       Lifetime    Value                                                          in     Banking.   Retrieved   from
+http://www.genpact.com/docs/default-source/resource-/customer-lifetime-value-analytics-in-retail-
+banking---staying-competitive-and-profitable
+12. HBR. (2018). Retrieved from https://hbr.org/2015/06/transparency-trust-and-bitcoin
+13. Statista. (2016). Retrieved from https://www.statista.com/statistics/330695/number-of-smartphone-users-
+worldwide/
+14. TD.  (2018). Retrieved from https://biz30.timedoctor.com/crazy-high-currency-exchange-fees-how-to-
+stop-the-banks-from-taking-advantage-of-you/
+15. TechCrunch.                                                                                               (2018).  Retrieved  from  https://techcrunch.com/2018/03/07/sec-says-cryptocurrency-
+exchanges-are-an-unregulated-mess/
+16. WSBI.  (n.d.).  Retrieved  from  2017:  https://www.wsbi-esbg.org/press/latest-news/Pages/Close-to-40-
+million-EU-citizens-outside-banking-mainstream.aspx
+
+
+
+
+Thank you for reading.
+Email: hello@hubrisone.com
+Website: www.hubrisone.com
+Telegram: HubrisOne Official
+Official Twitter: @HubrisOne
+Facebook: HubrisOne1
+H U B R I S O N E  . C O M
+A U G U S T  2
+
+
+
+
+

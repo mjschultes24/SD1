@@ -1,0 +1,1400 @@
+﻿W H I T E P A P E R
+
+
+
+
+"Art is culture and this part of
+our identity, but art is
+also passion, a good commercial and
+object of desire, investment and
+currency. Art is so much
+and yet something
+different for everyone - only one
+thing we all have in common
+is the desire
+to protect this asset and its values".
+Çiȟo ¶ipouros,
+nitiatorԞӣԞ{rʒnder љAĄěechnologies
+
+
+
+
+EXECUTIVE SUMMARY
+4ARTechnologies Group (4ARTechnologies  Holding               3.)  Brings novel efficiency to condition and
+AG and its subsidiaries)  - hereafter referred to as          restoration reporting
+"4ARTechnologies" - is building a blockchain-powered          Condition reports are part of virtually every transaction
+cataloguing and transactions platform to bring greater        in the art market, from insurance to logistics to sales -
+transparency, security and process efficiency to the          at least in theory. Practically, there has not been any
+art world.                                                    good solution to do these efficiently. With the 4ART
+                                                              mobile  app,  both  condition  and  restoration  reports
+At  the  heart  of  the  platform  lies  a  patented  “aug-   are bound to become a matter of minutes for a fraction
+mented  authentication"  technology  made  available          of the established cost.
+through our unique technical partner Atlantic Zeiser
+GmbH.  By  allowing  users  to  log  an  artwork’s  “fin-     4.)   Makes managing portfolios easier than ever
+gerprint” on the blockchain along with all important          The  4ART platform as a service helps users main-
+information on history/provenance, this technology            tain all ownership certification, lending, restoration,
+renders  registered  artworks  essentially  unforgea-         transportation and insurance coverage related to an
+ble. Requiring nothing more than a standard smart-            artwork  -  for  owners  of  individual  pieces  as  well
+phone,  this  first-of-its-kind  solution  doesn’t  just      as galleries and museums with large portfolios. The
+combat the problem of art fraud, but provides highly          information related  to  the  object  and  the  user  can
+relevant use cases for all art world players.                 be separated on demand, allowing for the greatest
+                                                              transparency while keeping individual anonymity.
+Core Features                                                 5.)  Empowers artists to earn from resales of
+                                                              their works
+1.)  Eliminates the problem of art fraud                      Like  any  other  holder  of  intellectual  property  (e.g.
+Once an artwork’s “fingerprint” has been captured, all        writers or musicians) artists, too, are entitled to gain
+it takes to check that artwork’s authenticity is another      royalties from their works. Due to the intransparency
+quick scan using the mobile app. Since this fingerprint       around resales, this rarely happens. With the  4ART
+- along with all other vital information on history and       platform’s smart contracts, artists can now be notified
+provenance  - is stored on the blockchain, it is tam-         whenever one of their works is being sold - and earn
+per-proof.                                                    without compromising buyer privacy.
+                                                              6.)   Market Potential
+2.)  Creates transparency at no expense                       While art has long been a prized asset for investors
+to privacy                                                    looking to diversify their portfolios, the most recent
+The industry has long resisted the creation of a cen-         numbers on the art market published by Art Basel and
+tralized database due to privacy concerns for inves-          UBS in their report on “The Art Market 2018” reveal
+tors and artwork owners, and the lack of a practical          the true potential of a vibrant and growing market.
+technical  solution.  Thanks  to  blockchain  and  smart
+contracts, buyers’ and sellers’ privacy is guaranteed         Having grown by 12% since 2016, the market’s annu-
+at every step of the way. And with added transpar-            al turnover in 2017 amounted to $ 63.7 billion, broken
+ency around history/provenance, the market will be-           down into 39 million individual transactions - the high-
+come more secure and transparent for all established          est number of transactions since 2008. The fact that
+players, and more accessible to new investors.                the number of transactions grew by only 8% suggests
+that  the  average  value  of  artworks  traded  has  in-
+3
+
+
+
+
+EXECUTIVE SUMMARY
+                                                             creased. However, included in these figures are only                                     over  50  countries.  This  makes  for   approximately
+                                                             those transactions that are carried out by galleries,                                    2.1 million transports, all requiring condition repor-
+                                                             auction houses or other commercial sellers. With the                                     ting and insurance. In addition to the larger art fairs,
+                                                             inclusion of private sales, the market is more likely in                                 there are about 100,000 local exhibitions and  gallery
+the range of $ 100 billion.                                                                                                                           openings. If each of these includes 20 images, then
+                                                                                                                                                      the number of transports grows by another 2 million.
+                                                             With  4ARTechnologies’ solution being of immense           If                            50%  of  the  exhibited  works  are  shipped  back,
+                                                             value to logistics providers, let’s take a look at the                                   then the total sum of transport movements in con-
+transportation volume:                                                                                                                                nection to art fairs, exhibitions and shows is upwards
+                                                                                                                        of 6.1 million.
+                                                             TEFAF’s Art Report 2017 details the turnover through
+                                                             import and export of artworks. At an average price                                       You can get an exact overview of the market potential
+                                                             of  $  5000  per  image  -  according  to  TEFAF,  80%     by using the stored charts.
+of artworks traded in  2017 were in the lower price
+segment - this amounts to 13.5 million cross-border
+transports.
+Then there are the art fairs, one of the central sales
+avenues  for  artworks.  10  global  cities  are  host  to
+https://d33ipft-
+the 70 most important fairs, each of which features
+jqrd91.cloud-
+roughly  30,000 works offered by  350 vendors from
+front.net/asset/
+cms/Art_Ba-
+sel_and_UBS_
+The_Art_Mar-
+ket_2017.pdf
+4
+
+
+
+
+TABLE OF CONTENT
+Project Summary            6
+Services                   12
+System & Technology        15
+Business Case & Forecast   27
+Roadmap                    30
+ICO                        31
+Team                       35
+Let’s do this              38
+Appendix                   39
+5
+
+
+
+
+PROJECT SUMMARY
+Introduction & Background
+With a sales volume of $ 63.7 billion in 2017 - making       constantly perform costly and time-consuming work
+for 12% year-on-year growth - the art market is an           to verify and track objects, often incompletely due to
+ever more exciting field of opportunities for investors      a lack of funds.
+looking to diversify their portfolios. To the uninitiated,
+however, buying into the arts can mean a leap of faith.      While the rise of the internet has hailed the coming of
+The market is notoriously intransparent; making wise         an age of greater accessibility and equality in many
+investment decisions requires both considerable ex-          realms, the art market has been notably exempt from
+pertise, the right personal network or the guidance          this. Only 8% of sales are conducted digitally; most
+of trusted but costly intermediaries, e.g. brokers or        of them in the lower price segment of up to $ 5000.
+auction houses. In the absence of a centralized da-          It is clear then, that tech has yet to tap into the market’s
+tabase of artworks, investors often run into problems        full potential and to spur its growth by opening it to
+when trying to verify the history and provenance of          more buyers.
+an artwork - information that is central to its valuation.
+Museums,  Galleries  or   public  collections  need  to
+6
+
+
+
+
+PROJECT SUMMARY
+The  art  market’s  upward  trend  notwithstanding,  it     C   Condition reporting
+remains  rife  with  problems.  Its  greatest  issue,  no   Condition  reports  are  cumbersome  and  expen-sive
+doubt, is the fact that an estimated 30 - 50% of art-       -  taking  either  human  effort  or  large  scanners.
+works are likely to be counterfeited or cannot be de-       Owners often forego them, even though they are cen-
+clared as verified originals due to incomplete prove-       tral for image valuation and insurance purposes (e.g.
+nance information. In light of this, owners and buyers      in the context of transactions/transportation)
+frequently call on experts to assess an art object´s
+veracity. But not only does this command thousands          It is nearly impossible to identify those responsible for
+of dollars in fees, it also renders the result prone to     damages to an image  (e.g. in the context of gallery
+human error or even ill-intent. If, as a result of an       loans: whether damage happened during transporta-
+expert appraisal, an artwork is detected and/or de-         tion or exhibition)
+clared fake, the impact goes far beyond rendering
+that one particular piece worthless. Indeed, it casts       D   Restoration
+doubt on that artist’s entire oeuvre. Affected by sub-      There   is   no   standard   recording                      (and   secure
+sequent losses in value are all those who hold works        storing)  of  restoration  activities  along  with  an
+by that artist: private collectors, galleries, the artist   art-work’s other vital stats, i.e. history, provenance,
+themselves or their estate. The combined damages            and condition reports
+due to art fraud are hard to quantify; experts place
+them in the hundreds of millions per year.                  E   Logistics & transportation
+                                                            There is currently no track & trace solution Transports
+Artwork authentication, then, is another area where         are usually underinsured
+the  right  tech  solution  can  generate  considerable
+growth  by  increasing  process  efficiency  and  elimi-    F   Intellectual property rights
+nating the opportunity for human error. But it is by        Due  to  the  intransparency  around  image  trans-
+far not the only use case that would benefit from a         actions, artists are not able to gain royalties from
+tech-driven update. A closer look at the most com-          resales of their works
+mon transaction chains within the art market reveals
+a multitude of areas needing a unified digital stand-       G   Collection management
+ard backed by a technology that promises to create          The  absence  of  an  effective  digital  solution  means
+value for all artworld players by increasing transpar-      that managing large collections - from individual docu-
+ency, security, and process efficiency.                     mentation/condition reporting to coordination of resto-
+                                                            ration works - takes a great deal of time and effort
+The areas for which no effective digital solution  exists
+(For detailed market figures, please see p. 27)
+are as follows:
+A   Image authentication
+As image authentication is performed manually,
+it is prone to human error, costly and time-consuming
+B   Documentation
+Records  of  history  and  provenance  are  central  to
+image valuation and authentication, yet these are often
+incomplete, easily forgeable and not stored securely
+7
+
+
+
+
+Current & Proposed Solutions
+There  is  no  shortage  of  projects  in  the  block-                                                        In  summary,  the  projects  aiming  to  harness  block-
+chain  space  aiming  to  combat  the  problem           chain for the art market fall short in these ways:
+of intransparency and inaccessibility in the art
+                                                         -                                                    There is no authentication of the physical artwork
+market.  Most  of  these solutions aim to create
+                                                         -                                                    Provenance data, however securely stored, is worth-
+greater transparency around history and prov-
+                                                                                                              less if the material artwork is not verified
+enance by storing this data on the blockchain
+                                                         -                                                    The use cases for other actors in the art market
+and/or by facilitating sales transactions that cut
+                                                                                                              besides buyers and sellers are extremely limited
+out the need for middlemen, such as galleries,
+                                                         -                                                    By directly connecting buyers and sellers, these
+auction  houses  or  brokers.  However,  common
+                                                                                                              solutions  exclude  some  of  the  most  important
+to all these proposals are two major limitations.
+                                                                                                              players in the art market, such as influencers like
+Firstly, being able to verify the authenticity of a
+                                                                                                              galleries, exhibition makers, and trendsetters
+digital certificate is not the same as verifying the
+                                                         -                                                    In  the  absence  of  KYC  identification  according
+authenticity of the physical artwork itself. And
+                                                                                                              to legal and regulatory standards, the identity of
+secondly, excluding some of the most powerful
+                                                                                                              market place actors cannot be verified, eliminat-
+players in the art market - who hold a consider-
+                                                                                                              ing the usefulness of these systems; this includes
+able amount of artwork data - is likely to prove a
+                                                                                                              living artists who, while holding rights to their im-
+major barrier to wider adoption.
+ages, are not rewarded during resales
+(For a detailed analysis of competitor
+proposals, please see appendix, p. 39)
+8
+
+
+
+
+                                                               ZorldZide use in the art Parket                                  $tlantis  =eiser has
+The 4ARTechnologies Solution
+                                                               Eeen part oI 2rell )  ssli +oldinJ /td since                     the
+                                                               coPpany  that  has  Eeen  responsiEle  Ior  printinJ  all
+The 4ARTechnologies solution combines the superior             6Ziss  Eank  notes  since                                        and  Zhose  larJest
+security of the blockchain with  “augmented authenti-          shareholder is the 6Ziss 1ational %ank
+cation” technology to tackle the industry’s most press-        When a user (verified according to the KYC standards
+ing problems while creating value for all artwork players.     used by Swiss banks) scans an image, this powerful
+                                                               software records its structural, material and textural
+Whereas other cataloguing and transaction platforms            features as well as color spectrum. Using  “augmented
+allow  only  for  the  authentication  of  digital  certifi-   authentication”  technology  and  layer  photography,
+cates  (of history and provenance), 4ARTechnologies            image data is then converted into an artwork’s unique
+allows  for  the  authentication  of  the  physical  image     fingerprint.  This  “fingerprint”  is  stored  on  the  block-
+itself. The “augmented authentication” technology to           chain  along  with  all  other  relevant  information,  pro-
+be featured in our mobile applications makes verifica-         viding  the  artwork  with  a  forgery-proof                     “biometric
+tion quick and easy. In addition, it helps with the gen-       passport” that also lists its current condition / restora-
+eration of condition and restoration reports. Thanks to        tion status. After the initial scanning of an image, its
+the exclusive relationship with our technical partner          fingerprint can be checked against any other image
+Atlantic Zeiser GmbH - the leading German provider             purporting to be that same image, again using only a
+of security solutions for banknotes and identity docu-         smartphone. For the first time, all information that is
+ments - it is licensed exclusively to 4ARTechnologies          relevant  to  artwork  authentication  and  valuation  will
+for global use in the art market.                              be securely stored together. This guarantees both the
+Thanks to the cooperation Zith our technical partner           veracity  of  the  digital  certificate  and  the  physical
+$tlantic =eiser *PE+    the leadinJ *erPan proYider oI         image. For now and for generations to come.
+security solutions Ior Eank notes and identity cards    it
+is e[clusiYely licensed to                                     $5TechnoloJies Ior
+PASSPORT#1782344
+9
+
+
+
+
+Again: all it takes to scan and authenticate an image         -    Condition reports  (which accompany any trans-
+is a standard smartphone.                                     action) are easily generated on a smartphone and are
+                                                              now feasible to add security to any transaction, from
+The combination of a blockchain-based cataloguing             selling artworks to shipping or insurance deals
+and  transaction  platform  with  “augmented  authenti-
+cation” software makes for a wider range of compel-           -    Logistics and transportation providers benefit from
+ling use cases beyond artwork authentication. These           track & trace functionality
+create value for all industry players - including those
+excluded by current solutions.                                -    Underinsurance is no longer a problem as artworks
+                                                              can easily and quickly be registered individually, rather
+With the introduction of one unified standard,  4ART          than through a bulk estimate (as is often the case)
+brings much greater efficiency, security, and transpar-
+ency to all artwork-related transactions:                     -    Artwork conservators and restorers are able to log
+                                                              the details of their work and/or access the details of
+-    All platform users are verified according to regu-       previous restoration or conservation activities
+lation-compliant KYC standards
+                                                              -    Artists  will  be  able  to  gain  royalties  thanks  to
+-    Artwork  owners  (private  or  institutional)  benefit   the  recording  of  resales  in  the  artwork’s  block-
+from increased investment security and a convenient           chain-passport
+solution for managing their portfolios
+DNA-Scan                                                      verification                                                    blockchain
+10
+
+
+
+
+cloud                     blockchain 4ART
+user ID
+1.
+Download 4ART-APP
+2.
+Take a picture in
+the app of the
+4ART-APP
+piece of art
+3.
+The ART-APP registers
+the art and provides a
+registration ID stored
+in the blockchain to-
+gether with the user ID
+11
+
+
+
+
+SERVICES
+4ARTechnologies will provide the following essential
+services to its users:
+1)                                                        Fingerprinting service:                                                                                                                                                      3)  Data storage service:
+                                                                                                                Authentication  of  an  artwork  using  state-of-the-art                                                                                                             Data is stored on the cloud to give users quick and
+                                                                                                                augmented  authentication  technology  that  scans,                                                                                                                  user-friendly access to data sets as well as associated
+                                                                                                                recognizes  and  validates  a  “fingerprint”  and  stores                                                                                                            services. The artwork’s fingerprint and transaction his-
+this   in   the   image’s   proof-of-life,   its                                                                                                                            “biometric                                                 tory are securely stored on the blockchain.
+passport”
+2)  Certification issuance:                                                                                     4)                                                          4ART Platform as a service:
+                                                          Using  the  augmented  authentication  technology,                                                                Helps   users   maintain   their   ownership,   lending,
+                                                          users are able to validate and document each trans-                                                               restoration, transportation and insurance coverage re-
+action around an image                                                                                                                                                      lated to an artwork. Users registered as creators  (i.e.
+artists) will be able to gain royalties from resales of
+their artworks.
+ID
+12
+
+
+
+
+SERVICES
+5)  Transaction verification service:                                                                   7)  Art Catalog:
+Each transaction related to an artwork is stored on the                                                 Users (e.g museums or galleries) can make their art
+blockchain                                                (in  compressed  form),  transaction  veri-   portfolio  and  select  information  available  to  re-
+fication service validates the 4ART record with support                                                 searchers or other interested parties through sub-
+of the transaction stored on the ethereum blockchain.                                                   scription models.
+6)                                                        4ART Wallet:                                                                                                                      The  services  are  payable  by  redeaming                                    4ART
+                                                                                                        Free 4ART wallet to store 4ART coins.                     utility  tokens.  These                                                4ART  utility  tokens  can  be
+pre-purchased  by  users  through  various  crypto  or
+FIAT  currencies.  Of  course,  the                       4ART  payment
+tokens issued on the occasion of this ICO will also
+be accepted as 4ART payment.
+ID
+13
+
+
+
+
+1.                           4.
+(optional)
+DNA-Scan
+verification of the
+transmitting protocol +
+personal data of the owner
+2.
+protocol of provenance
+birth certificate proof of
+life protocol
+conclusion of the
+3.
+insurance
+smart contract
+4ART-APP
+transmission of
+the biometric
+handover protocol
+digital art catalogue        (Galleries / Buyer)
+14
+
+
+
+
+SYSTEM & TECHNOLOGY
+System Components
+The system has several central components:
+KYC identification
+-    of  all  users  able  to  register  an  artwork / make
+changes to its data set, i.e. creators, owners, restorers.
+The user can choose to link their data to the objects
+data only with the UserID, offering both full transpar-
+ency and anonymity
+4ART-APP                                                      ID
+blockchain                                                    cloud
+4ART platform
+fingerprint                                                   certificate
+15
+
+
+
+
+SYSTEM & TECHNOLOGY
+Technical Overview
+                                                             Augmented authentication software                                                         Access and security
+                                                             -    Image data is scanned through camera hardware                                        -    The 4ART Digital Artwork Catalog is accessible
+with a minimum of 12 megapixels                                                                                                                        through the desktop web application
+                                                             -    This is then converted into an artwork’s ID,  using                                  -    User roles make sure that features and functiona-
+the                                                          (fully  developed)                                          “augmented  authentication”   lities are only available to appropriate parties
+                                                             technology licensed to 4ARTechnologies by indus-                                          -    All users who are able to generate an artwork’s fin-
+try leader Atlantic Zeiser GmbH                                                                                                                        gerprint and “biometrical passport”, or make changes
+                                                             -    Micro-level image data is encoded and stored on                                      to this passport (e.g. restorers), are verified  according
+the blockchain network                                                                                                                                 to KYC-technology in line with Swiss regulatory re-
+                                                             -    Beyond the initial check, the software draws on                                      quirements for banks
+                                                             this data for subsequent image authentication checks                                      -    User profiles are encrypted and stored on the
+and condition reports                                                                                                                                  cloud
+                                                                                                                                                       -    All  privacy  requirements  are  respected  at  all
+                                                             Blockchain service                                                                        times. The solution is fully GDPR compliant
+-                                                            4ARTechnologies  utilizes  the  Ethereum  block-
+                                                             chain; its smart contract functionality guarantees vali-                                  Payment and tokens
+                                                             dation of all transactions as well as data immutability                                   -    All  services  can  be  obtained  by  redeeming  the
+                                                             -    Any modification or transaction concerning the                                       4ART utility tokens. The 4ART utility tokens can in turn
+                                                             artwork  -  either  the  material  image,  e.g.  through                                  be  acquired  through  a  variety  of  means,  such  as
+                                                             restoration, or its status, e.g. sales or loans - will be                                 payment via FIAT currencies, credit or debit cards, or
+                                                             registered in the 4ART Digital Artwork Catalog with                                       cryptocurrencies such as the 4ART payment tokens.
+its unique systems ID (ArtID)
+-    The  data  submitted  to  the  blockchain,  i.e.  the
+fingerprint and data set, amounts to roughly 160 kilo-
+bytes
+Cloud service
+-                                                            4ARTechnologies’ cloud service hosts the data
+from which an artwork’s fingerprint is generated
+-    Equipped with a user friendly interface, the cloud
+service provides access to an image’s complete data
+set and other services around the image’s entire life
+cycle
+-    Any data set that is stored in the cloud service
+also has a corresponding blockchain fingerprint, thus
+guaranteeing authenticity of cloud data
+16
+
+
+
+
+SYSTEM & TECHNOLOGY
+Certificate Issuance
+Transportation
+Central to 4ARTechnologies’ services is the issuance
+of certificates around all typical art world transactions,    Transportation serYice reTuires three certiIicates
+e.g. for authentication and condition reporting. This is      i.e. certificate of good condition, certificate of hand-
+the complete list of certificates to be issued:               over and certificate of possession. When a user wants
+                                                              to send an art object to another user, the sender gen-
+Authentication                                                erates a certificate of good condition, then the trans-
+Any user at any time can use the application in               porter generates certificate of handover (requiring an
+order to check the authenticity of an art object. Each        insurance policy) and once this certificate of handover
+successful verification will result in a new “certificate     is generated, a certificate of possession is generated
+of authenticity” which is stored to the history/prove-        between  sender  and  transporter.  Once  the  trans-
+nance data set of that art object.                            porter  delivers  the  art  object,  another  certificate  of
+                                                              possession  is  generated                                       between   the   transporter
+Restoration
+and the receiver.
+Restoration  of  artwork  requires  a  “certificate  of
+restoration.” This certificate is generated when a re-
+storer  restores  an  artwork.  This  certificate  requires
+two users: the restorer and the user who commissions
+them. Once a certificate of restoration is issued, the
+4ART system requests the updated fingerprint.
+Change of ownership
+Change of ownership requires certificate of own-
+ership. This certificate is generated when a user sells
+an artwork to another user. This certificate requires
+two users and verification of the artwork’s fingerprint.
+Once this certificate is issued, ownership of the art
+object is also changed in the 4ART system.
+Lending
+Lending  service  requires  two  certificates,  i.e.  a
+certificate of good condition and certificate of posses-
+sion. Certificate of good condition is issued when a
+user hands over the artwork to a recipient; hence, this
+certificate  requires  two  users  and  a  fingerprint.  On
+the other hand, a certificate of possession is generat-
+ed when an art object is transferred to another user.
+Certificate of possession is directional, meaning that
+when a user lends out an artwork, it is directed from
+owner to borrower. When the art object is returned, it
+is directed from borrower to owner. Lending service
+generates four certificates during its lifespan.
+17
+
+
+
+
+SYSTEM & TECHNOLOGY
+User Roles & Associated Services
+Creator/rights holder                                           Owner
+-    The creator/rights holder is stored as a distinct user     -    An owner is stored as a distinct user of the 4ART
+of the 4ART system with a unique ID (UserID) type               system with a unique ID (UserID) type
+-    The  creator/rights  holder  is  able  to  register  the   -    An artwork is associated with an owner (UserID)
+item, record its fingerprint, and to submit this to the         once it is bought from a creator or another owner (pri-
+4ART system along with all relevant images to gener-            vate or institutional) and the transaction is confirmed
+ate the artwork’s “biometric passport,” i.e. the artwork’s      through the 4ART app
+proof of life                                                   -    Owners are able to generate an artwork’s initial fin-
+                                                                gerprint/biometric passport
+                                                                                                                             PASSPORT#1782344
+digital fingerprint                                             birth certificate                                            biometric passport
+gallery owner                                                   owner/artist
+18
+
+
+
+
+SYSTEM & TECHNOLOGY
+Gallery / museum / institution                              Restorer
+-    With galleries / museums / institutions, the system    -    A person who can restore an artwork on request
+distinguishes  between  different  legal  definitions  of   -    The restorer is stored as a distinct user of the
+possessing an artwork, depending on whether it was          4ART system with a unique ID  (UserID) type, i.e.
+bought or acquired on commission                            restorer
+-    Galleries / museums / institutions are able to gen-    -    Restorers can generate an artwork’s initial finger-
+erate artwork initial fingerprints / biometric passports    print / biometric passport
+-    Galleries / museums / institutions can utilize man-
+agement  tools  for  larger  portfolios  and  make  their
+collections’  (or parts thereof) data sets available to
+subscribers
+validation report of the art
+user (everyone)                                             user (conservator)
+certificate of restoration
+(art-object successfully restored)
+19
+
+
+
+
+SYSTEM & TECHNOLOGY
+Transporter                                              Insurer [external]
+-    Transporters are able to check the artwork’s au-    -    An insurer is an external user who has access to
+thenticity and generate condition reports                the system through an API
+                                                         -    Insurers  can  carry  out/request  authentication
+Researcher                                               and condition reports
+-    A researcher is a passive user of the system that   -    Insurers can use the system’s algorithm for risk
+can only have access to museum/gallery art catalog       assessment
+via subscription.                                        -    Insurers can respond to requests for offers
+1. User (everyone)                                       2. User (transporter)                                    3. User (transporter)
+validation report of the art                             certificate of ownership                                 report of ownership
+                                                                                                                  (change of ownership)
+4. User (transporter)                                    1. User (everyone)
+validation report of the art                             report of ownership
+(change of ownership)
+20
+
+
+
+
+SYSTEM & TECHNOLOGY
+Borrower
+-    A  borrower  is  stored  as  a  distinct  user  of  the
+4ART system with a unique ID (UserID) type
+-    The artwork’s status in its data set is changed to
+“borrowed” once the transaction has been confirmed
+through the 4ART app
+1                                                              2
+validation report of the art                                   report of ownership
+                                                               (change of ownership)
+3                                                              4
+report of ownership                                            validation report of the art
+(change of ownership)
+21
+
+
+
+
+SYSTEM & TECHNOLOGY
+The 4ART App
+Personal page
+Upon opening up the 4ART app, users are greeted by their personalized home screen,
+showing their profile picture, navigation options as well as updates regarding their sub-
+scriptions and other 4ART news or service updates. Navigation options are as follows:
+4ART user portfolio
+Art registration and verification
+Transaction history
+Settings
+Contacting the 4ARTechnologies support team
+22
+
+
+
+
+SYSTEM & TECHNOLOGY
+Portfolio                                                    Registration of an item
+A user’s portfolio displays the items registered by          The reJistration process reTuires Iour steps
+that user on the 4ART platform. Listed with each item
+is the original date of registration as well as the last
+time its fingerprint was verified. Clicking on that item’s   Restoration of an item
+thumbnail reveals the item’s transaction history, cer-       Owners  of  damaged  images  can  access  resto-
+tificate details as well as all information on history and   ration  services  through  the  4ART  app,  which  are
+provenance gathered in that data set.                        vet-ted  for  their  quality  and  ability  to  preserve
+Users  with  larger  portfolios,  such  as  museums,         historic  artworks. The condition of the image before
+galleries  and  institutions,  benefit  from  the  portfo-   and after restoration remains with the image’s data
+lio management tool integrated for this user group.          set, while the last known image scan will be used
+Here they find the option to make a part of the port-        whenever a certificate needs to be issued.
+folio public and to offer access to patrons/followers
+through subscription models.
+23
+
+
+
+
+SYSTEM & TECHNOLOGY
+Change of item ownership                                 Transportation of an item
+The  4ART  app  enables  an  item’s  owner  to           The 4ART app allows owners, transporters and
+change the ownership when desired. A certificate is      insurers  transport  items  to  cut  risks  during  trans-
+issued whenever a change of ownership happens;           portation  with  certificates  of  transportation,  which
+this certificate is also verifiable thanks to Ethereum   include track and trace functionality. All items need
+blockchain transactions.                                 to be insured before transportation.
+Lending an item
+The owner of an item can lend it to other 4ART
+users.  Lending  requires  the  item  to  be  insured;
+insurance  can  also  be  requested  inside  the  4ART
+app. This certificate is issued when an object is lent
+to another user and temporary change of ownership
+happens in the 4ART system.
+24
+
+
+
+
+SYSTEM & TECHNOLOGY
+smart phone camera hovers over the
+artwork (verification)
+1
+4ART-APP
+The 4ART-App recognizes the art
+and guides the camera to capture
+specific details of the art work
+2
+4ART-APP
+The picture will be
+uploaded to the cloud
+cloud
+3
+                                                                                personalized user
+                                                                                +
+4ART-APP                             explicit User ID with digital passport /   data of the owner
+birth certificate
+blockchain
+The app tells you, if the art
+can be recognized as original
+4
+4ART-APP
+25
+
+
+
+
+SYSTEM & TECHNOLOGY
+4ART coin
+The 4ART ecosystem will have a 4ART payment token (4ART Coin) and a 4ART utility
+token  (4ART  Token).  The  4ART  payment  token  should  establish  itself  as  a  generally
+accepted  means  of  payment  in  the  art  world.  4ART  intends  to  build  a  network  of  art
+partners that will accept the  4ART payment token as a means of payment. The  4ART
+payment  token  is  also  to  be  traded  on  crypto  exchanges  in  order  to  increase  the
+awareness  and  distribution  and  to  reach  the  widest  possible  audience.  However,
+cryptocurrencies  are  also  subject  to  speculation  and  are  subject  to  significant  price
+fluctuations.  To  avoid  such  unwanted  price  fluctuation  effects  on                           4ART's  operating
+business and future 4ART service customers, a second 4ART token is created. The 4ART
+utility  token  can  be  purchased  using  the  4ART  payment  token  and  various  FIAT  and
+cryptocurrencies on the 4ART platform. However, the 4ART utility token is non-tradable
+and non-transferable (to exclude speculative effects) and is intended solely to service the
+4ART  platform.  In  order  to  promote  the  dissemination  of  the  4ART  payment  token,  a
+discount should be granted to users who use this means of payment to purchase 4ART
+tokens.
+The  new  blockchain-based  ecosystem  for  the  art  world  should  address  the  widest
+possible  circle  of  people                                                                        (e.g.  buyers  and  sellers  of  artworks,  artists,  or  dealers
+worldwide) with the model of two tokens, while still ensuring stability for those using the
+services of 4ART.
+26
+
+
+
+
+BUSINESS CASE
+Forecast
+On the basis of the 39 million sales transactions in the art market in 2017 and an approach
+of only 6.1 million transports per year, 4ARTechnologies, starting with Europe, is planning
+to tap into the market of art transactions. The following table shows when the development
+of the individual markets is planned and what growth is expected in the individual segments
+and regions of 4ARTechnologies.
+Forecast                                                                                                                                      Year                   2019                                                                                      2020
+                                                                                                             Transactions                                            Transactions                                                                              Transactions
+                                                                                                                                              unmoved stocks                                            unmoved stocks                                                                       unmoved stocks
+                                                                                                             Sale with         transport                             Sale with         transport                                                               Sale with         transport
+Markets                                                                                       0,0            transport a. 1.   caused by      Initial registration   transport a. 1.   caused by        Initial regis-                                         transport a. 1.   caused by   Initial regis-
+                                                                                                             registry          lending                               registry          lending          tration                                                registry          lending     tration
+Planned market                                                                                Europe         1,00%             1,00%          0,30%                  3,00%             3,00%            0,60%
+development shares
+                                                                                              USA                                                                    1,00%             1,00%            0,30%
+                                                                                              China
+                                                                                              Others
+Market distribution                                                                                          Number            Number         Number                 Number            Number           Number                                                 Number            Number      Number
+Europe                                                                                        33%                              12,9           2,0                    128,7             128.700          20.130                                                 386.100           386.100     60.390           772.200
+USA                                                                                           40%                              15,6           2,4                    156,0                                                                                                       156.000     24.400           468.000
+China                                                                                         21%                              8,2            1,3                    81,9
+Others                                                                                        6%                               2,3            0,4                    23,4
+                                                                                              100%                             39,0           6,1                    390,0             128.700          20.130                                                 386.100           542.100     84.790           1.240.200
+                                                                                                                                                                     EUR               EUR              EUR                                                    EUR               EUR         EUR
+Pricing model
+(value-chain of a                                                                             390,00         450,00            250,00         390,00                 450,00            250,00
+transaction)
+                                                                                              Mio. EUR       Mio. EUR          Mio. EUR       Mio. EUR               Mio. EUR          Mio. EUR
+Revenues                                                                                      50.193         9.059             96.525         211.419                38.156            310.050
+Total annual                                                                                  155.777        559.625
+revenue
+Forecast                                                                                                     Year              2021                                  2022                               2023
+                                                                                              Transactions                     Transactions                          Transactions                       Transactions
+                                                                                                             unmoved stocks                   unmoved stocks                           unmoved stocks                                                          unmoved stocks
+                                                                                              Sale with                        transport                             Sale with         transport        Initial regis-                                         Sale with         transport   Initial regis-   Sale with                     transport caused
+Markets                                                                                       0,0            transport a. 1.   caused by      Initial registration   transport a. 1.   caused by        tration                                                transport a. 1.   caused by   tration                      transport a. 1.   by lending         Initial registration
+                                                                                              registry                         lending                               registry          lending                                                                 registry          lending                      registry
+Planned market                                                                                Europe         5,00%             5,00%          0,90%                  7,00%             7,00%            1,20%                                                  9,00%             9,00%       1,50%
+development shares
+                                                                                              USA            3,00%             3,00%          0,60%                  5,00%             5,00%            0,90%                                                  7,00%             7,00%       1,20%
+                                                                                              China          1,00%             1,00%          0,30%                  3,00%             3,00%            0,60%                                                  5,00%             5,00%       0,90%
+                                                                                              Others                                                                 1,00%             1,00%            0,30%                                                  3,00%             3,00%       0,60%
+Market distribution                                                                                          Number            Number         Number                 Number            Number           Number                                                 Number            Number      Number           Number      Number            Number
+Europe                                                                                        33%                              12,9           2,0                    128,7             643.500          100.650                                                1.158.300         900.900     140.910          1.544.400   1.158.300         181.170            1.930.500
+USA                                                                                           40%                              15,6           2,4                    156,0             468.000          73.200                                                 936.000           780.000     122.000          1.404.000   1.092.000         170.800            1.872.000
+China                                                                                         21%                              8,2            1,3                    81,9              81.900           12.810                                                 245.700           245.700     38.430           491.400     573.300           115.290            1.228.500
+Others                                                                                        6%                               2,3            0,4                    23,4                                                                                                        23.400      3.660            70.200      70.200            10.980             140.400
+                                                                                              100%                             39,0           6,1                    390,0             1.193.400        186.660                                                2.340.000         1.950.000   305.000          3.510.000   2.893.800         478.240            5.171.400
+                                                                                                                                                                     EUR               EUR              EUR                                                    EUR               EUR         EUR              EUR         EUR               EUR
+Pricing model
+(value-chain of a                                                                             390,00         450,00            250,00         390,00                 450,00            250,00           390,00                                                 450,00            250,00
+transaction)
+                                                                                                             Mio. EUR          Mio. EUR       Mio. EUR               Mio. EUR          Mio. EUR         Mio. EUR                                               Mio. EUR          Mio. EUR    Mio. EUR
+                                                                                              Revenues       465.426           83.997         585.000                760.500           137.250          877.500                                                1.128.582         215.208     1.292.850
+27                                                                                                                                                                                                      http://35.156.58.99/wp-content/uploads/Forecast.tiff
+
+
+
+
+BUSINESS CASE
+Scenarios of Capital Raising
+The development of markets on this scale, of course, requires adequate capital.The following
+shows which capital requirements are associated with individual market developments and
+how the capital generated in the context of the ICO is to be used.
+Variants of capital raising and hardcap                                                                                                                                                                                                                              EUR                                                                                                                                                EUR           EUR                 EUR                  EUR
+                                                                                                                                                                                                                                                                     Softcap
+Capital raising from ICO                                                                                                                                                                                                                                                                                                                                                                                                15.000.000    40.000.000          100.000.000          180.000.000           250.000.000
+Possible launch for the regions with the                                                                                                                                                                                                                                                                                                                                                                                                                  Europe and USA and   Europe and USA and
+use of funds                                                                                                                                                                                                                                                         EU 1)                                                                                                                                              Europe 2)     Europe and USA 3)   China 4)             China and others 5)
+                                                                                                                              Coremarkets Europe                                                                                                                     2019                                                                                                                                               0,25%
+                                                                                                                                                                                                                                                                     2020                                                                                                                                               0,50%
+Planned market development shares
+                                                                                                                                                                                                                                                                     2021                                                                                                                                               0,75%
+                                                                                                                                                                                                                                                                     2022                                                                                                                                               1,00%
+                                                                                                                                                                                                                                                                     2023                                                                                                                                               1,25%
+                                                                                                                              Europe                                                                                                                                 2019                                                                                                                                                             1,00%
+                                                                                                                                                                                                                                                                     2020                                                                                                                                                             3,00%
+                                                                                                                                                                                                                                                                     2021                                                                                                                                                             5,00%
+                                                                                                                                                                                                                                                                     2022                                                                                                                                                             7,00%
+                                                                                                                                                                                                                                                                     2023                                                                                                                                                             9,00%
+                                                                                                                              USA                                                                                                                                    2020                                                                                                                                                                                 1,00%
+                                                                                                                                                                                                                                                                     2021                                                                                                                                                                                 3,00%
+                                                                                                                                                                                                                                                                     2022                                                                                                                                                                                 5,00%
+                                                                                                                                                                                                                                                                     2023                                                                                                                                                                                 7,00%
+                                                                                                                              China                                                                                                                                  2021                                                                                                                                                                                                      1,00%
+                                                                                                                                                                                                                                                                     2022                                                                                                                                                                                                      3,00%
+                                                                                                                              Others                                                                                                                                 2022                                                                                                                                                                                                                            1,00%
+Use of funds                                                                                                                                                                                                                                                         EUR                                                                                                                                                EUR           EUR                 EUR                  EUR
+Direct ICO costs                                                                                                              7,00%                                                                                                                                                                                                                                                                                     -1.050.000    -2.800.000          -7.000.000           -12.600.000           -17.500.000
+Taxes on ICO income                                                                                                           7,90%                                                                                                                                                                                                                                                                                     -1.102.050    -2.938.800          -7.347.000           -13.224.600           -18.367.500
+Investment                                                                                                                    IT equipment, furniture                                                                                                                                                                                                                                                                   -3.570.000    -6.780.000          -14.790.000          -26.480.000           -37.350.000
+and fixtures
+Initial equipment business                                                                                                    -89.700                                                                                                                                -174.800                                                                                                                                           -328.900      -496.800            -751.500
+operation
+                                                                                                                              Employees recruitment                                                                                                                  -534.000                                                                                                                                           -1.104.000    -4.346.000          -6.542.000           -8.842.000
+                                                                                                                              costs
+                                                                                                                              further development of the                                                                                                             -500.000                                                                                                                                           -800.000      -1.600.000          -2.800.000           -4.000.000
+                                                                                                                              Software
+Preliminary costs                                                                                                             Personnel costs                                                                                                                        -3.892.800                                                                                                                                         -8.054.400    -15.642.000         -23.488.800          -31.482.000
+                                                                                                                              Operating costs                                                                                                                        -819.480                                                                                                                                           -1.212.320    -2.854.760          -4.127.120           -5.179.400
+Advertising, marketing and establishing                                                                                                                                                                                                                              -3.000.000                                                                                                                                         -10.400.000   -26.200.000         -57.000.000          -83.200.000
+sales-network
+Promoting the art                                                                                                             Endow the 4ART-founda-                                                                                                                                                                                                                                                                                  -5.000.000          -9.000.000           -12.500.000
+                                                                                                                              tion with capital
+Reserve                                                                                                                                                                                                                                                              441.970                                                                                                                                            5.735.680     14.891.340          24.240.680           30.827.600
+                                                                                                                              Launch in the period                                                                                                                   2018                                                                                                                                               2018          2019/20             2019/20/21           2019/20/21
+Employee growth                                                                                                               No. of employees                                                                                                                       74                                                                                                                                                 54            86                  78                   74
+                                                                                                                                                                                                                                                                     The investments and up-front costs shown above relate to the first year of the relevant market development or market epansion.
+Generell:                                                                                                                                                                                                                                                            For the first two variants of the generation of capital, this already applies to the year 2018. The figures for employee growth refer
+                                                                                                                                                                                                                                                                     in each case only to the increase in the number of employees required for the first year of the relevant market development or market expansion.
+The following applies to the individual vari-                                                                                 Each revenue stage includes the investment and start-up costs of the market development for each region or region expansion.
+ants of capital generation:                                                                                                   In addition, each stage includes the costs necessary for the further development of the market started in the previous stage.
+                                                                                                                                                                                                                                                                     The level marked “softcap” is considered a minimum amount of capital generation.
+Softcap:                                                                                                                                                                                                                                                             Once this has been achieved, the implementation of the business model begins.
+Footnotes:                                                                                                                    1                                                                                                                                      In this investment variant, the market development will only take place in the most important European countries of the art market.
+                                                                                                                              2                                                                                                                                      If enough capital can be generated from the ICO, the project is developed throughout allmost all of Europe.
+                                                                                                                                                                                                                                                                     If the capital of the third-level is reached, the US market will also be tapped. In addition, an expansion of market development
+                                                                                                                              3                                                                                                                                      in Europe, including Russia, is envisaged.
+                                                                                                                              4                                                                                                                                      Upon reaching the 4th level of capital raising, the market development in China including Hong Kong is to be started.
+In addition, all other markets (Europe, USA) will be further developed.
+Once the hardcap has been reached in accordance with the 5th stage, then the development of the art market should also take
+5                                                                                                                             place continuously in the most important countries of the rest of the world. In addition, the further market development takes place
+in the other regions where it has already started.
+http://35.156.58.99/wp-content/uploads/Mittelverwend.tiff
+28
+
+
+
+
+BUSINESS CASE
+Profit and Loss Plan
+                        Plan-Profit-and-loss-account for variants of market development                                                                                  2019          2020                    2021            2022            2023
+                                                                                                                                                                         EUR           EUR                     EUR             EUR             EUR
+ICO generated capital   Region                                                            Planned market development shares                         Coremarkets Europe
+                                                                                                                                                                                       0,25%    0,50%          0,75%                           1,00%   1,25%
+15.000.000              EU                                                                Revenues                                                                       38.944.125             77.888.250     116.832.375     155.776.500             194.720.625
+                                                                                          ./. External services                                                          -2.977.708             -6.464.558     -7.974.980      -11.099.973             -14.424.966
+                                                                                          ./. Personnel and operating costs                                              -13.508.520            -21.029.600    -22.991.120     -25.037.840             -26.756.600
+                                                                                          ./. Advertising and sales costs                                                -14.683.238            -32.766.475    -50.849.713     -68.932.950             -87.016.188
+                                                                                          ./. Depreciation and Amortization                                              -375.750               -685.000       -1.521.167      -2.730.667              -3.602.083
+                                                                                          Operating result (EBIT)                                                        7.398.910              16.942.617     33.495.396      47.975.070              62.920.788
+                                                                                          + Financial income                                                                           77.747   300.389        636.400         1.073.645               1.479.437
+                                                                                          ./. Remuneration of 4ART-Foundation                                                          0        0              -1.710.000      -2.450.000              -3.220.000
+                                                                                          Profit before taxes (EBT)                                                      7.476.657              17.243.006     32.421.796      46.598.716              61.180.225
+                                                                                          ./. Taxes                                                                      -1.271.032             -2.931.311     -5.802.405      -8.338.282              -10.948.038
+                                                                                          Profit after taxes                                                             6.205.625              14.311.695     26.619.390      38.260.434              50.232.187
+                                                                                                                                                    Total
+ICO generated capital   Region                                                            Planned market development shares                         Europe                             1,00%    3,00%          5,00%                           7,00%   9,00%
+                                                                                                                                                                         EUR           EUR                     EUR             EUR             EUR
+40.000.000              Europe                                                            Revenues                                                                       155.776.500            370.804.500    585.832.500     800.860.500             1.015.888.500
+                                                                                          ./. External services                                                          -6.808.830             -24.814.598    -29.301.265     -40.137.911             -51.198.557
+                                                                                          ./. Personnel and operating costs                                              -23.645.040            -27.073.040    -40.564.480     -48.303.960             -55.744.280
+                                                                                          ./. Advertising and sales costs                                                -68.932.950            -155.641.350   -226.549.750    -297.458.150            -368.366.550
+                                                                                          ./. Depreciation and Amortization                                              -2.154.667             -3.554.667     -4.241.000      -4.832.833              -5.420.167
+                                                                                          Operating result (EBIT)                                                        54.235.013             159.720.845    285.176.005     410.127.646             535.158.946
+                                                                                          + Financial income                                                             563.897                2.465.698      5.489.155       8.800.247               12.108.637
+                                                                                          ./. Remuneration of 4ART-Foundation                                            -2.740.000             -8.110.000     -14.530.000     -20.950.000             -27.360.000
+                                                                                          Profit before taxes (EBT)                                                      52.058.910             154.076.543    276.135.160     397.977.893             519.907.584
+                                                                                          ./. Taxes                                                                      -10.411.782            -32.437.309    -58.133.032     -83.785.579             -109.453.517
+                                                                                          Profit after taxes                                                             41.647.128             121.639.234    218.002.128     314.192.314             410.454.067
+                                                                                                                                                    Europe                             1,00%    3,00%          5,00%                           7,00%   9,00%
+ICO generated capital   Region                                                            Planned market development shares
+                                                                                                                                                    USA                                                        1,00%                           3,00%   5,00%
+                                                                                                                                                                         EUR           EUR                     EUR             EUR             EUR
+100.000.000             Europe and USA                                                    Revenues                                                                                              559.624.500    1.035.292.500   1.510.960.500           1.986.628.500
+                                                                                          ./. External services                                                                                 -37.772.678    -51.230.985     -65.990.751             -99.277.237
+                                                                                          ./. Personnel and operating costs                                                                     -36.718.720    -60.196.820     -75.274.800             -90.926.680
+                                                                                          ./. Advertising and sales costs                                                                       -234.487.350   -405.787.750    -577.088.150            -736.588.550
+                                                                                          ./. Depreciation and Amortization                                                                     -3.848.167     -5.485.250      -7.678.333              -9.560.167
+                                                                                          Operating result (EBIT)                                                                               246.797.585    512.591.695     784.928.466             1.050.275.866
+                                                                                          + Financial income                                                                                    3.339.400      9.182.961       16.274.462              23.417.607
+                                                                                          ./. Remuneration of 4ART-Foundation                                                                   -12.510.000    -26.090.000     -40.060.000             -53.680.000
+                                                                                          Profit before taxes (EBT)                                                                             237.626.985    495.684.656     761.142.928             1.020.013.474
+                                                                                          ./. Taxes                                                                                             -50.027.397    -104.354.931    -160.240.586            -214.738.695
+                                                                                          Profit after taxes                                                                                    187.599.588    391.329.725     600.902.343             805.274.779
+                                                                                                                                                    Europe                             1,00%    3,00%          5,00%                           7,00%   9,00%
+ICO generated capital   Region                                                            Planned market development shares                         USA                                                        1,00%                           3,00%   5,00%
+                                                                                                                                                    China                                                                                      1,00%   3,00%
+                                                                                                                                                                         EUR           EUR                     EUR             EUR             EUR
+                                                                                          Revenues                                                                                                             1.134.423.000   1.746.927.000           2.569.221.000
+180.000.000             Europe and USA and China
+                                                                                          ./. External services                                                                                                -56.984.786     -78.758.054             -128.025.166
+                                                                                          ./. Personnel and operating costs                                                                                    -68.659.860     -94.159.680             -113.593.080
+                                                                                          ./. Advertising and sales costs                                                                                      -461.926.900    -699.678.100            -976.566.300
+                                                                                          ./. Depreciation and Amortization                                                                                    -6.360.750      -10.106.833             -13.120.167
+                                                                                          Operating result (EBIT)                                                                                              540.490.704     864.224.333             1.337.916.287
+                                                                                          + Financial income                                                                                                   9.470.706       17.542.694              27.618.637
+                                                                                          ./. Remuneration of 4ART-Foundation                                                                                  -27.500.000     -44.090.000             -68.270.000
+                                                                                          Profit before taxes (EBT)                                                                                            522.461.410     837.677.027             1.297.264.924
+                                                                                          ./. Taxes                                                                                                            -109.992.282    -176.353.405            -273.106.985
+                                                                                          Profit after taxes                                                                                                   412.469.128     661.323.622             1.024.157.939
+                                                                                                                                                    Europe                             1,00%    3,00%          5,00%                           7,00%   9,00%
+                                                                                                                                                    USA                                                        1,00%                           3,00%   5,00%
+ICO generated capital   Region                                                            Planned market development shares
+                                                                                                                                                    China                                                                                      1,00%   3,00%
+                                                                                                                                                    Others                                                                                             1,00%
+                                                                                                                                                                         EUR           EUR                     EUR             EUR             EUR
+                                                                                          Revenues                                                                                                                             1.775.250.000           2.636.640.000
+250.000.000             Europe and USA and China and others
+                                                                                          ./. External services                                                                                                                -81.219.140             -133.271.824
+                                                                                          ./. Personnel and operating costs                                                                                                    -99.537.000             -124.322.480
+                                                                                          ./. Advertising and sales costs                                                                                                      -719.575.000            -1.019.592.000
+                                                                                          ./. Depreciation and Amortization                                                                                                    -10.513.333             -13.887.667
+                                                                                          Operating result (EBIT)                                                                                                              864.405.527             1.345.566.029
+                                                                                          + Financial income                                                                                                                   17.548.571              27.705.803
+                                                                                          ./. Remuneration of 4ART-Foundation                                                                                                  -44.100.000             -68.660.000
+                                                                                          Profit before taxes (EBT)                                                                                                            837.854.098             1.304.611.832
+                                                                                          ./. Taxes                                                                                                                            -176.390.820            -274.654.366
+                                                                                          Profit after taxes                                                                                                                   661.463.278             1.029.957.465
+                                                                                          http://35.156.58.99/wp-content/uploads/Profit_Loss.tiff
+29
+
+
+
+
+ROADMAP
+February                             Idea inception
+2017
+Licensing of augmented
+authentication technology
+to 4ART
+April 2017
+Legal setup
+May 2017
+Team setup
+July 2017
+White paper and
+project concept
+December 2017
+March
+2018
+Demo Application on
+iOS Development
+Token    sale    to    early-stage
+investors                            (Closed          Group)
+25.06.2018
+4ART Pre-ICO Phase 1
+4ART Pre-ICO Phase 2
+4ART ICO Start
+4ART ICO End
+Launch of Alpha version of 4ART
+app (MVP)
+September 2018
+Launch of Beta version
+of 4ART app
+January                              October 2018
+2019
+Integration of further APIs
+November 2018
+4ART Token launch
+on exchange
+                                     3  .1            2018
+                                                      European rollout
+From
+March 2019
+September
+2019
+US rollout
+August 2019
+Continued development
+in all directions
+30
+
+
+
+
+ICO DETAILS
+Accompaniment of the ICO                                    Token Sale Details
+by Legal Consultants
+The ICO has been and will continue to be accompanied        The issuance of  4ART coins will be regulated by a
+by our consultants from the law firm Reichlin Hess, law-    smart contract deployed on the Ethereum blockchain
+yers and tax consultants, based in Zug / Switzerland.       conforming to the ERC 20 standard. 26.23% out of a
+Above all, they take care of the rulings with the author-   total of 6.5 billion tokens will be made available during
+ities, such as the Swiss Financial Market Supervisory       the three ICO stages:
+Authority (FINMA) and tax authorities.
+1                                                           Closed Group (min. invest 500€)
+2   Pre ICO (phase 1 and phase 2),
+(min. invest 100€)
+3   ICO (min. invest 100€)
+Close group
+@ 0,08€
+Pre ICO 1 @ 0,10€
+Pre ICO 2 @ 0,20€
+ICO @ 0,30€
+40,75 %
+26,23 %
+0,6 %
+1,5 %                                                       23 %
+5,6 %
+1 %
+Investors                                                   Partners                                                    Partner companies
+Team                                                        First subscriber                                            Miscellaneous
+Consulter                                                   Bounty program                                              Allocation of future
+4ART utility tokens
+31
+
+
+
+
+ICO DETAILS
+The price of the  4ART coin is set at  ¤0.08 for the        The coins will be locked as per following sliding scale
+closed group sale, at  ¤0.10 during phase  1 of the
+Pre-ICO stage, at ¤0.20 during phase 2 of the Pre-          Year 1: 85% locked
+ICO and at ¤0.30 during the ICO stage. For investors        Year 2: 60% locked
+in the closed group, a lock period has been defined         Year 3: No restrictions
+whereby they will have to hold their 4 ART coins for
+Partnerships
+6 months after the ICO (pre sale phase 1 lock period
+0.6% of the  4ART coins  (39 million coins) will be
+for 4 months and presale phase 2 lock period for 3
+allocated for pre-sale partners
+months).
+The minimum invest for each group is                        ¤.
+Advisors
+0.6 % of the 4ART coins (39 million coins) will be
+allocated to the advisory board.
+Allocation of Tokens
+The  coins  will  be  locked  as  per  following  sliding
+scale
+Crowd sale participants
+26,23% of 4ART coins (1.704 billion tokens) will be
+Year 1: 85% locked
+made available to the investors participating in the
+Year 2: 60% locked
+crowdsale of tokens through media channels in-
+Year 3: No restrictions
+cluding  Airdrop,  Bitcointalk.org,  Twitter,  Facebook,
+Blogs, press releases, etc.
+Affiliate Programs
+5.6 % of the 4ART coins (364 million coins) will be
+First Subscription
+allocated for affiliate programs. This will be done to
+23% of the  4ART coins  (1.5 Billion tokens) will be
+reward  those  who  refer  our  coins  further,  whereas
+reserved for the first subscribers of the 4ART To-
+the source person will be awarded a certain amount
+kens. A lock period of one year has been defined
+of tokens and the one referred will be offered a dis-
+for the founders, during which they will have to hold
+count on the coins.
+85% of their tokens for one year and will only be al-
+lowed to release 15%.
+Reserve for future needs
+46.02%  (2.9915 billion tokens) are being destroyed
+The tokens will be locked as per following sliding scale
+after the ICO and will be replaced  in the future by
+the  same  number  of  new  4ART  utility  tokens.  The
+Year 1: 85% locked                                          4ART utility token can be purchased after the start
+Year 2: 75% locked                                          of   operations   by   paying   using                     4ART   payment
+Year 3: 60% locked                                          tokens.
+Year 4: No restrictions
+Flexible Token Pot
+4ARTechnologies will also keep a flexible coin
+Core team
+pot of 100 million (1.5%) 4ART coins which we will
+0.6 % of the 4ART coins (39 million coins) will be
+use for any future partnerships, and payment needs.
+allocated to the core team of 4ART technologies
+apart from the founders. The core team also has a
+lock period of one year during which they will have
+to hold 85 % of their coins.
+32
+
+
+
+
+ICO DETAILS
+Market Relevance of the 4ART Token
+The  number  of  4ART  coins  in  the  free  float  serves   Of course, never get all coins for redemption should
+to pay for the digital service when redeemed by the          be clear to everyone. It is to be shown with the period
+company. The company's planned revenues shown in             falling from 18 months to 5 months, that the demand
+the Business Plan section thus provide the basis for         for the coins could increase by the  3.6 - fold by the
+determining the number of coins to be purchased by           rising sales of the enterprise.
+customers for payment of those sales.
+The following table therefore shows the number of
+months as a measure of demand for the 4ART coins,
+which - assuming a token price of EUR 0.30 (accor-
+ding to the ICO) - would take until all the free-float
+on the market - by redeeming the digital services
+company.
+Redemption period of token                                                                                                                                                      2019                                     2020                                       2021                                     2022                                       2023
+I.                                                                                                                                                                              Transactions                unmoved      Transactions                unmoved        Transactions                unmoved      Transactions                unmoved        Transactions                unmoved
+Calculation of the required tokens                                                                                                                                                                          stocks                                   stocks                                     stocks                                   stocks                                     stocks
+at a token price of 0,30                                     €
+                                                                                                                                                                                Sale with      transport    Initial      Sale with      transport    Initial reg-   Sale with      transport    Initial      Sale with      transport    Initial reg-   Sale with      transport    Initial
+                                                                                                                                                                value chains    transport a.   caused by    registra-    transport a.   caused       istration      transport a.   caused       registra-    transport a.   caused       istration      transport      caused       registra-
+                                                                                                                                                                                1. registry    lending      tion         1. registry    by                          1. registry    by           tion         1. registry    by                          a. 1.          by           tion
+                                                                                                                                                                                                                                        lending                                    lending                                  lending                     registry       lending
+regions                                                                                                                                                                         Mio EUR        Mio EUR      Mio EUR      Mio EUR        Mio EUR      Mio EUR        Mio EUR        Mio EUR      Mio EUR      Mio EUR        Mio EUR      Mio EUR        Mio EUR        Mio EUR      Mio EUR
+Europe                                                                                                                 Turnover from all digital services                       50.193         9.059        96.525       150.579        27.176       193.050        250.965        45.293       289.575      351.351        63.410       386.100        451.737        81.527       482.625
+USA                                                                                                                    Turnover from all digital services                                                                60.840         10.980       117.000        182.520        32.940       234.000      304.200        54.900       351.000        425.880        76.860       468.000
+China                                                                                                                  Turnover from all digital services                                                                                                           31.941         5.765        61.425       95.823         17.294       122.850        223.587        51.881       307.125
+Others                                                                                                                 Turnover from all digital services                                                                                                                                                    9.126          1.647        17.550         27.378         4.941        35.100
+                                                                                                                       Total sales                                              50.193         9.059        96.525       211.419        38.156       310.050        465.426        83.997       585.000      760.500        137.250      877.500        1.128.582      215.208      1.292.850
+Tokens needed for digital services                                                                                                                                              Mill. Pcs.     Mill. Pcs.   Mill. Pcs.   Mill. Pcs.     Mill. Pcs.   Mill. Pcs.     Mill. Pcs.     Mill. Pcs.   Mill. Pcs.   Mill. Pcs.     Mill. Pcs.   Mill. Pcs.     Mill. Pcs.     Mill. Pcs.   Mill. Pcs.
+                                                                                                                                                                                167.310        30.195       321.750      704.730        127.185      1.033.500      1.551.420      279.990      1.950.000    2.535.000      457.500      2.925.000      3.761.940      717.360      4.309.500
+Sum of all tokens required for digital services                                                                                                                                                             519.255                                  1.865.415                                  3.781.410                                5.917.500                                  8.788.800
+II.                                                                                                                                                                                            quota of                                 quota of                                   quota of                                 quota of                                   quota of
+Calculation of free-float tokens
+Group of token holders                                                                                                                                          Number of       EUR            free-float   Mill. Pcs.   EUR            free-float   Mill. Pcs.     EUR            free-float   Mill. Pcs.   EUR            free-float   Mill. Pcs.     EUR            free-float   Mill. Pcs.
+                                                                                                                                                                tokens
+First Subscribers                                                                                                                                               1.500.000.000                  15,00%       225.000                     25,00%       375.000                       40,00%       600.000                     100,00%      1.500.000                     100,00%      1.500.000
+Core Team                                                                                                                                                       39.000.000                     15,00%       5.850                       40,00%       15.600                        100,00%      39.000                      100,00%      39.000                        100,00%      39.000
+Business partner                                                                                                                                                39.000.000                     15,00%       5.850                       40,00%       15.600                        100,00%      39.000                      100,00%      39.000                        100,00%      39.000
+Advisers                                                                                                                                                        39.000.000                     15,00%       5.850                       40,00%       15.600                        100,00%      39.000                      100,00%      39.000                        100,00%      39.000
+Affiliates                                                                                                                                                      364.000.000                    16,00%       58.240                      40,00%       145.600                       100,00%      364.000                     100,00%      364.000                       100,00%      364.000
+Bounties                                                                                                                                                        65.000.000                     16,00%       10.400                      40,00%       26.000                        100,00%      65.000                      100,00%      65.000                        100,00%      65.000
+future business partners                                                                                                                                        100.000.000                    15,00%       15.000                      40,00%       40.000                        100,00%      100.000                     100,00%      100.000                       100,00%      100.000
+Investors
+closed group                                                                                                           0,08                                 ¤   312.500.000     25.000.000     100,00%      312.500                     100,00%      312.500                       100,00%      312.500                     100,00%      312.500                       100,00%      312.500
+Pre-ICO - 1. stage                                                                                                     0,10                                 ¤   300.000.000     15.000.000     100,00%      150.000                     100,00%      150.000                       100,00%      150.000                     100,00%      150.000                       100,00%      150.000
+                                                                                                                                                                                                                         15.000.000     100,00%      150.000                       100,00%      150.000                     100,00%      150.000                       100,00%      150.000
+Pre-ICO - 2. stage                                                                                                     0,20                                 ¤   300.000.000                                              45.000.000     100,00%      225.000                       100,00%      225.000                     100,00%      225.000                       100,00%      225.000
+                                                                                                                                                                                                                                                                    15.000.000     100,00%      75.000                      100,00%      75.000                        100,00%      75.000
+ICO                                                                                                                    0,30                                 ¤   450.000.000                                                                                         65.000.000     100,00%      216.667                     100,00%      216.667                       100,00%      216.667
+                                                                                                                                                                                                                                                                                                             70.000.000     100,00%      233.333                       100,00%      233.333
+Future 4ART utility tokens                                                                                                                                      2.991.500.000
+Capital generated from ICO                                                                                                                                                      40.000.000                               60.000.000                                 80.000.000                               70.000.000
+                                                                                                                                                                6.500.000.000                               788.690                                  1.470.900                                  2.375.167                                3.508.500                                  3.508.500
+III.
+Calculation of the redemption period                                                                                                                                                                        months                                   months                                     months                                   months                                     months
+Redemption time of all free-float tokens                                                                                                                                                                    18                                       9                                          8                                        7                                          5
+http://35.156.58.99/wp-content/uploads/EinlosDauer.tiff
+33
+
+
+
+
+ICO DETAILS
+Bounty Programs
+1 % of the 4ART coins (65 million tokens) will be allocated to bounties to spread word about
+4ART through social media and articles.
+INTERNAL REWARD                                                                                SOCIAL REWARD
+€
+recommends                                                                                     registry link
+buying
+4ART user
+4ART ICO website
+34
+
+
+
+
+INITIATOR / FOUNDERS /
+FIRST INVESTORS
+Niko Kipouros                                         Peter Steiner
+Initiator / Founder                                   Boardmember / CEO
+As an established arts broker and collector with      Peter is one of Switzerland’s leading sales and mar-
+over two decades of experience, Niko knows the        keting experts whose credits include serving as Glob-
+art world inside out - and he is excited to have      al Head of Sales at Swatch and overseeing the mar-
+found a solution to one of its greatest challenges.   ket launch of Europe’s major isotonic beverage. With
+With a successful track record as an entrepreneur     his vast expertise, Peter knows how to lead cross-
+and investor whose portfolio includes more than       disciplinary teams from ideation to market implemen-
+50 companies, Niko combines excellent business        tation, developing and launching products that create
+sense with a profound understanding of the art        value across their entire life cycle.
+industry and its intricacies.
+Rolf Maier
+First Investor
+The long-time CEO of a 70-strong insurance bro-
+kerage, Rolf is both an impassioned arts  collector
+and  experienced  manager  with  great  strategic
+acumen. Having served the art world as an in-
+surance broker for over 35 years, he is delighted
+to spearhead the development of an innovative
+service that will enhance security and cut costs
+for his many trusted partners in the industry.
+35
+
+
+
+
+DESIGNATED DIRECTORS
+Christina Kipouros                                       Dino Lewkowicz
+                                                         Designated CEO USA
+Trained as an insurance broker, Christina  specialises
+                                                         Having served in leading functions on both the hard-
+in the field of art investments. With her in-depth un-
+                                                         ware and software side of digital industries, Dino
+derstanding of the needs and desires of insurers and
+                                                         Lewkowicz knows how to bring to life great pro ducts
+artwork owners, she empowers  4ARTechnologies
+                                                         built around customer needs. He  previously served
+to place customers’ concerns at the heart of both
+                                                         as CMO for Iteora, a German-Russian  mobile devel-
+pro duct development and marketing.
+opment outfit.
+Serge Poliakov
+Serge Poliakov develops innovative forms of adver-
+tising to create transparency and to give his custom-
+ers the desired success or the opportunity to reach
+the right target group at the right time. He supports
+with his innovative advertising technologies, interna-
+tional network of media specialists and press work in
+Eastern Europe. Serge combines Western and East-
+ern European cultures and business practices. His
+access to decision-makers in the Eastern European
+art scene, business and politics is second to none.
+36
+
+
+
+
+TEAM
+Reinhold Wentsch                                          Monja Maier
+With  over  twenty  years  experience  in  marketing,     A marketer and PR specialist with a love of the
+IT and insurance, Reinhold is committed to launch         arts, Monja brings to  4ARTechnologies her keen
+product that lives up to its promises of trust, securi-   eye for good storytelling as well as a wealth of inno-
+ty, and transparency. A self-avowed geek,  Reinhold       vative ideas.
+combines serious tech knowledge with ample cre-
+ativity.
+37
+
+
+
+
+DESIGNATED DIRECTORS FAR EAST
+DESIGNATED DIRECTORS
+4 ARTechnologies Asia
+Joachim Haas                                            Peter Cheung
+Joachim Haas is President and Director of Northwest     The founder of Blockchains Limited and Artchain
+Oil & Gas Trading Company; he advises companies         AI Limited, Peter Cheung is one of the pioneers of
+on entering the stock market, investor relations as     the field. He draws on twenty years of experience
+well as capital and assets.                             as a private investor and merchant banker with a
+successful track record in industries such as natural
+gas, oil, mining, pharmaceuticals and technology.
+38
+
+
+
+
+ADVISORY BOARDS
+ADVISERS TECHNOLOGY
+Thorsten Tritschler                                      Ali Naqi Shaheen
+More than 30 years of world wide experience in the       Ali  is  a  serial  entrepreneur,  information  architect,
+Security Printing field with Atlantic Zeiser. Thorsten   and business angel whose focus is on driving growth
+contributes his technical understanding and profes-      through platforms, customer and employee experi-
+sional marketing & sales perspective. He supported       ence  and  blockchain  technology  applications.  As
+as a  “connector” between technology and track &         Chief Product Officer at eKomi, a Goldman Sachs
+trace and authenticity solutions.                        backed company, he has a successful track record in
+taking products from zero to toplining the company's
+revenue; as Technical Co-Founder, he is known for
+his ability to envision and design complex systems
+that simplify architecture for growth and speed.
+39
+
+
+
+
+ADVISORY BOARDS
+ADVISERS TECHNOLOGY
+Thomas Obitz                                               Kai Zeh
+Managing Director of Atlantic Zeiser with a strong         With a career that boasts of positions such as Di-
+economic and legal background and a high entre-            rector Technology & Client Partner Digital for the
+preneurial  spirit.  Thomas  has  great  international     Publicis Group, Vice President Customer Success
+experience  in  leadership  and  corporate  strategy       & Operations for eKomi and Development Director
+management.                                                within the WPP group, Kai is highly skilled at realiz-
+ing projects that fuse the latest tech with user-centric
+innovation. Renowned as a great and inspiring team
+leader, Kai is as much development director and ex-
+pert developer in his own right as he is a visionary
+for leadership and organizational development. Over
+the course of his career, he has brought over 350
+software and hardware solutions to market; his cli-
+ents have included Volkswagen, Audi, BMW, Com-
+merzbank,  Deutsche  Post  DHL,  Ergo,  Microsoft,
+Louis Vuitton, Intelligent Systems Co. and Telekom.
+40
+
+
+
+
+ADVISORY BOARDS
+ADVISERS FINANCE
+Kurt Spirig                                                Christian Kendlbacher
+Kurt Spirig is an expert in investment and asset man-      Having held executive positions at global corpora-
+agement and digital innovation strategy. In recognition    tions as well as in the Swiss public sector, Christian
+of  his  achievements  in  customer-centric  end-to-end    Kendlbacher now advises companies on all matters
+systems, he was awarded Expo Cologne’s CRM Award           controlling and finance. He is the CFO of 4ARTech-
+and helped found the Competence Center for Custom-         nologies’ partner ARTeco.
+er-Centric Business Models at the University of Sankt
+Gallen. In addition to advising major players in banking
+and finance on developing blockchain ecosystems, he
+recently founded ARTeco,  4ARTechnologies’ strategic
+partner.
+ADVISERS ART
+Raimund Stecker                                            Andrea von Bredow
+Raimund Stecker is one of Germany’s leading art his-       Andrea von Bredow is an art historian and master
+torians. Before teaching at the University of Fine Arts    in law having more than  20 years of professional
+Essen as Professor of Art History, Stecker headed          experience in the international art market. Through
+up several museums and foundations. In addition to         her various cooperations with the global players of
+the consulting services he provides to museums, he         the art world, she has profound market knowledge
+serves as a member of various juries and commit-           within this sector. Since 2000 she has been working
+tees, e.g. for Art Cologne.                                as an art expert in Wealth Management at Deutsche
+41                                                         Bank AG.
+
+
+
+
+ADVISORY BOARDS
+ADVISERS MEDIA
+Manfred Meier                                              Michael Keusgen
+Manfred Meier, for many years Chief Editor Entertain-      Michael  Keusgen  has  been  Managing  Director
+ment and Deputy Editor-in-Chief of Europe’s largest        of  Siegfried  GmbH  since  July  2003.  In  this  func-
+newspaper. BILD had a daily run of 4.3 million at that     tion,  he  headed  perennial  media  projects,  mainly
+time.                                                      international projects. Siegfried GmbH continuously
+                                                           produces  selected documentaries under the direc-
+Prior to this he worked as a reporter in cities such as
+                                                           tion of  Michael Keusgen, and through its subsidiary
+Los Angeles, Moscow and Beijing. His book “The Mir-
+                                                           FiletFilm GmbH a larger volume of reports and mag-
+acle of Lengede” described one of the world’s great-
+                                                           azines for various TV stations. He studied Chinese
+est mining dramas.
+and Geography at the School of Oriental and African
+Studies SOAS in London.
+He then turned to the TV business industry and ad-
+vised one of the largest television formats of all time:
+“Wetten, dass…” reached up to 20 million viewers.
+At 4ARTechnologies, Mr Meier takes care of linking
+up with the worldwide media.
+42
+
+
+
+
+ADVISORY BOARDS
+Advisory Board Legal
+Jens Rottloff                                                                                            Christian Maeder
+Jens Rottloff is a lawyer and specialist lawyer for banking                                              Christian Maeder is an attorney-at-law and certified
+and capital market law in Frankfurt am Main, Germany.                                                    tax expert in Switzerland. He advises numerous crypto
+For  more  than                                               20  years  he  has  specialized  in  the   and  blockchain  companies  in  Switzerland  from  a
+acquisition of capital market law advisory mandates, in                                                  Swiss regulatory, legal and tax perspective. Christian
+particular with regard to supervisory law. Jens Rottloff is                                              Maeder  worked  many  years  for  large  international
+managing  partner  of  Graf  Praschma,  Heß  &  Rottloff                                                 consulting firms before joining Reichlin Hess AG, a law
+Rechtsanwaltsgesellschaft mbH.                                                                           firm in Zug, where he took over the responsibility of
+the development of the tax and crypto practice.
+42
+
+
+
+
+LET'S DO THIS
+We’re honored to be able to count on the support and counsel of artists such as Stefan A.
+Wengen, VOKA and Dieter Blum as well as the world’s leading arts logistics and insurance
+companies, galleries and museums, investors and collectors in our vast network. Together,
+and with a capable tech team by our side, we’re ready to change the face of the industry.
+Not least, we’re also hoping to create exciting opportunities for those not yet in the art world -
+for potential buyers who haven’t yet considered art or found the market too forbidding as
+much as for all of those who are, quite simply, curious. In art, there is so much to discover.
+We are delighted to help preserve it for generations to come.
+43
+
+
+
+
+APPENDIX
+… Competitors in Detail                                    project is supported by a consortium of auction hous-
+                                                           es and dealers of various collectibles in order to gain
+Over the past few years, several startups have pro-        recognition as quickly as possible.
+posed the use of blockchain technology to rectify the
+                                                           Everledger
+market’s persistent issues around provenance, audit-
+ability, ownership, removal of intermediaries and proof    Everledger is another startup that uses the block-
+of transaction history.                                    chain  for  decentralized  storage  of  object  data.  The
+                                                           company is already established in the gem and dia-
+Maecenas                                                   mond trade, and now wants to copy its technology to
+Maecenas offers a crowdfunding platform for art-           other markets, such as the art market. However, not
+works that will divide these works into smaller Maece-     only does it lack advanced market knowledge, but also
+nas. Traditional auction houses and other intermediar-     specific authentication processes, which only exist for
+ies are to be replaced by allowing access to works of      gems. The verification and object data are laser en-
+art while requiring a 6% fee for the artwork placement     graved on the gemstone and then stored on a block-
+by the owner and a  2% fee from the investors. The         chain. With the appropriate code, the origin and history
+mechanism for determining these percentages is not         can be assigned to the specific stone.
+explained and can later be adapted or improved by a
+                                                           All Public Art
+competitor. In addition, the Maecenas platform is not
+expandable and has financial units that allow the art      To solve the problem of fraud and counterfeiting, All
+objects to be co-determined by a large number of peo-      Public Art wants to build a peer-to-peer network that
+ple. Maecenas uses its own token called ART, which is      eliminates  the  need  for  intermediaries.  Through  the
+needed to access the Maecenas platform, on which all       use of smart contracts, the company ensures that all
+artwork is stored. The basic idea is not to allow exten-   data is traceable. Artists and art collectors register on
+sions, which is a crucial limitation of their system.      the platform in exchange for All Public Art Tokens, af-
+                                                           ter which they receive unique IDs such as QR codes,
+Artex                                                      stickers, RFID chips or RFID tags. Accordingly, no in-
+Artex is a prominent example for the solution of           tegrated solution for authenticating artworks exists. All
+provenance and authenticity by recording the art histo-    Public Art have not yet presented a detailed roadmap,
+ry of digital and physical photographs. Artex provides a   making it difficult to determine progress.
+platform for photographers to upload their photos and
+                                                           Paddle8
+have  them  authorized  by  renowned  experts,  paying
+for them with ARX tokens. In addition, the rights of the   The online auction house Paddle8, in cooperation
+photos may be sold to users in exchange for tokens to      with The Native, develops technologies for improved
+generate a cycle.                                          artwork trade and the integration of cryptocurrencies.
+                                                           The focus is on the introduction of blockchain technol-
+                                                           ogies for the art trade in the form of digitization projects
+Codex                                                      and decentralized data structures, as well as the anon-
+The Codex Protocol is a blockchain-based decen-            ymous participation in online auctions and payments
+tralized register for art and collectibles. This startup   with  common  cryptocurrencies.  In  addition,  the  joint
+aims to capture and record the provenance of an object     venture with Verisart is developing the P8Pass, which
+on the blockchain to ensure its authenticity. In addi-     stores the certification and history of origin of a work
+tion, trade channels for the purchase and sale of art-     of art on the blockchain. The certification is done once
+works will be connected in the future, as well as others   through the conventional ways, future status and con-
+compatible with cryptocurrency fintech products. The       dition reports are not performed.
+44
+
+
+
+
+APPENDIX
+Competitors in Detail
+All Public
+                           Maecanas      Artex       Codex   Everledger         Paddle8   4ART
+                                                                          Art
+Blockchain for Art-
+                           x                     x   x       x            x     x         x
+Provenance
+Smart-Contracts            x                     x   x       x            x     x         x
+Track and Trace            x                     x   x       x            x     x         x
+Change of ownership
+                           x                     x   x       x            x     x         x
+protocol
+KYC for authorized users                                                  x     x         x
+Fingerprint of Art-DNA                                                                    x
+Condition reports
+x
+per App
+Art Valuation and
+x
+Insurance
+Legally binding
+x
+digital contracts
+45
+
+
+
+
+

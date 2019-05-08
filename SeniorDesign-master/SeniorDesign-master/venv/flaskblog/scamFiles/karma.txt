@@ -1,0 +1,468 @@
+﻿KARMA
+Incentivizing
+Beneficial
+Interactions
+Dallas Rushing
+KARMA CO-FOUNDER
+WHITEPAPER
+Version 2.1
+
+
+
+
+The sum of a
+person's actions in
+this and previous
+states of
+existence, viewed
+as deciding their
+fate in future
+existences.
+KARMA
+/ˈkɑːmə,ˈkəːmə/
+
+
+
+
+TABLE OF CONTENTS
+Abstract 3
+App Functions 4
+Upvote  4
+Downvote  4
+Comment  4
+Share  4
+Categories  4
+User Profile  5
+In-App Wallet  5
+KARMA Post  5
+KARMA Idea Generator  5
+Economic System 6
+KARMA Token Supply  6
+Why An Airdrop?  6
+KARMA Token Distribution  6
+Self Funding Application  8
+KARMA Rewards Pool  8
+Zero Fees  10
+Staking KARMA For A Stronger Upvote  10
+Starting A Grassroots Ecosystem 11
+Airdrop Via The Initial Token Distribution  11
+Acquire KARMA  11
+Earn KARMA  11
+Use Cases For KARMA  11
+Governance 12
+
+
+
+
+Abstract
+Imagine a system that enables someone to wake up everyday, decide how they can
+improve the life of another, take action immediately and earn a reward when sharing
+their positive actions with others. Monetary incentive & economic freedom, historically,
+have been the greatest driving forces to improve both societies as a whole and the
+quality of life for the individual. Apart from the personal “Karma” one might receive
+from the ether, there isn’t a tremendous amount of incentive to do good in a world of
+scarce resources. For billions of people around the globe, opportunities to earn an
+income are slim. Beyond those scarce opportunities, even fewer of them add
+tremendous value to the communities in which the individuals live. KARMA believes
+that if basic human needs are met, it is in our DNA to interact positively with one
+another.
+The KARMA App powered by EOSIO, solves these problems by incentivizing users to
+have beneficial interactions in the world, post them and receive KARMA by other users
+up-voting their post. KARMA creates a positive feedback loop between beneficial
+human interactions and a tokenized incentive. The actions KARMA incentivizes will
+create an exponential effect of good in the world amongst individuals living in
+communities. Every single day billions of humans interact with one another. Broadly
+speaking, the majority of these interactions are positive. Creating a reward system for
+these actions through tokenization will be the fuel needed for the exponential growth
+of human good towards one another.
+It’s about bridging the gap between users of the platform and beneficiaries of the
+actions incentivized by the platform. Going a step further, by improving the life of
+others, you're actually improving the world around you.
+KARMA will create a borderless ecosystem incentivizing individuals to take daily actions
+towards the betterment of society.
+3
+
+
+
+
+App Functions
+Up-Vote
+Within KARMA, users will be able to up-vote other users posts. Similar to a “like” on
+conventional social media, this will give the content creator feedback as to what type
+of content others respond to positively. Up-votes within KARMA are not only likes. They
+are also a users way to cast a vote as to where KARMA in the reward pool is to be
+allocated to content creators.
+Downvote
+The downvote is a simple yet powerful aspect of KARMA. It is the best tool for
+community self-regulation on posts & users who are attempting to game the ecosystem.
+It is in the best interest of the ecosystem for users to downvote posts/events that they
+feel are most likely spam, abuse or did not actually take place.
+Comment
+On every KARMA post, users will have the ability to comment and share their thoughts. In
+the spirit of the KARMA community, users are encouraged to comment positive thoughts
+and anything that could add value to the platform.
+Share
+Network effects are one of the most important aspects to the growth & success of any
+social media platform. Within KARMA users will be able to share their posts onto other
+existing social media platforms. This will drive exposure & awareness to a users
+individual KARMA post and the KARMA ecosystem as a whole. Beyond that, sharing of
+quality content will encourage new users to join the KARMA platform which adds
+tremendous value to the ecosystem as a whole. Once content is shared within KARMA,
+any user is now allowing that content to be considered public. This allows any content
+shared within the KARMA application to be shared across other existing social media
+platforms by the content poster or any other user on the KARMA application.
+Categories
+Initially, KARMA will launch with several categories. Categories allow users to filter the
+types of posts that they’d like to see, relative to their interest. This encourages user
+engagement & allows trends within the KARMA community to form. It is impossible to
+know all relevant categories to the community prior to having a large user base,
+because of this, KARMA will launch with several categories and will evolve over time.
+4
+
+
+
+
+User Profile
+Users will be able to upload profile photos, their age and one other awesome thing
+about themselves. KARMA encourages users to use real photos for their profile. This
+strengthens the community by making transparency an essential aspect. Also, this
+enables the community to easily validate whether a users KARMA post most likely took
+place.
+In-App Wallet
+Within the KARMA application, users will be able to send & receive KARMA. Also, users
+can store their KARMA within their mobile wallet. This allows KARMA to be used in a
+variety of ways both in-app and in the world. More features will develop within the
+KARMA wallet as the project evolves.
+KARMA Post - Photos & Videos
+Users will be able to post both photos & videos of their KARMA event. For most users it is
+likely easier to upload photos. Within KARMA, users are incentivized to post a video over
+a photo. On traditional social media platforms, the numbers would show that videos get
+significantly more engagement. This is an obvious incentive for users to want to post
+videos. Beyond that, videos posted within KARMA will take up much more visual real
+estate. Videos are better for the community for a number of reasons. It makes it much
+easier to others to validate that the “good deed” actually took place. Also, videos make
+a bigger impact on viewers and we believe will encourage & inspire others to take
+action as a result of seeing an awesome video within the KARMA application.
+Upload KARMA Posts
+When a user uploads a photo or video to the KARMA platform they will be able to add a
+caption, location & category to their post. This enables users to tell the community what
+they did with a simple caption. It allows them to tell the community where the event
+occured and also categorize their post for users who choose search by category.
+KARMA Idea Generator
+In a world of endless possibilities, KARMA believes that there is an endless amount  of
+beneficial human interactions to have with one another. Within the application,
+there  will be a KARMA idea generator. This function will exist to spark ideas as to what
+someone can do next to provide value for others in the world. There will be a simple
+interface for users to click a button and get a KARMA idea. If they want to get inspired
+further, users can simply continue to click the button and another idea will appear until
+they find an idea/action that resonates with them to act on, record, and then post
+within the app.                                                                              5
+
+
+
+
+Preventing Abuse:
+On any social content sharing platform, community regulation is essential for the
+success & adoption of the ecosystem. As KARMA token holders, all users have an
+aligned interest in adding value to that ecosystem. It is inevitable that a small amount of
+users will aim to exploit the system for their own self interests. As stated earlier,  the
+greatest curator of acceptable content is utilizing the up-vote. On the counter side, the
+greatest regulator of spam or “fake actions” is utilizing the downvote.
+Beyond that, users will be able to report a profile as spam/inappropriate if they feel
+that it is most likely the case. It is inevitable that there will be reports of spam when they
+do not actually apply. Users who are reported as spam/inappropriate will not be
+instantly penalized. A user will need to be reported as spam/inappropriate by multiple
+users to count as a “strike” against them.
+KARMA will implement a 3 strike rule. When a user is reported as spam/inappropriate 3
+times, their ability to post will be frozen temporarily. Their account will then be reviewed
+utilizing  KARMA arbitration  to determine the accuracy of the reports. If after arbitration
+runs its course and a user is found to have abused the  rules of the platform  intentionally,
+they will lose their ability indefinitely to post new KARMA posts on that account. They will
+not lose their tokens but they will effectively lose access to the distribution channel
+(followers) that they grew and then aimed to take advantage of.
+Economic System
+KARMA Token Supply
+The initial circulating supply of KARMA tokens will be 9,469,148,945 KARMA.
+Why an Airdrop?
+ICO’s come with an inherent risk for both contributors & projects. Not to mention
+legislative uncertainties for all parties involved. An airdrop to EOS holders has multiple
+benefits for both the EOS ecosystem & the KARMA project. It allows KARMA to launch
+with a large community and also enables users to become token holders without taking
+on any risk to acquire KARMA initially.
+6
+
+
+
+
+KARMA Token Distribution
+EOS Genesis Block Snapshot:
+A total of 5,400,000,000 KARMA  was  allocated for the initial airdrop to EOS holders
+using the Genesis Block Snapshot. It  was intended to be distributed to EOS token
+holders at a ratio of  9:1. Regarding the EOS/KARMA ratio, EOS holders should
+receive  9  KARMA tokens for every 1 EOS that was registered in their wallet at the time of
+the EOS Genesis Block Snapshot. For example, if someone had  100 EOS, they should
+have received  900 KARMA.
+Certain exchanges will be excluded from the initial Airdrop who will not be supporting
+the KARMA Airdrop. Exchanges will have between now and the KARMA    airdrop to
+confirm that they’re committed to distribute the Airdropped KARMA to their customers.
+KARMA feels that it is unfair to the community to Airdrop a large number of tokens to an
+exchange who doesn’t plan to give those tokens to its customers.
+*Any tokens not airdropped due to an exchange not supporting  KARMA or because of
+the 250k EOS  9:1 Cap will be burned.
+Founding Team:
+A total of  2,840,744,683  KARMA will be used to incentivize the founding team for
+ongoing development and as compensation for future contributions to add value to the
+KARMA ecosystem.
+Future Airdrops:
+A total of 1,890,000,000 KARMA will be allocated for future airdrops to relevant
+communities to aid in the growth of the KARMA ecosystem. UPDATE:  KARMA Rewards
+For Early Adopters & Beyond -  https://goo.gl/dT2HmP
+Marketing:
+A total of 840,000,000 KARMA will be used by KARMA ltd to grow awareness globally &
+drive mass adoption of the KARMA Application.
+Advisors:
+A total of  270,000,000 KARMA will be allocated for advisors to the KARMA project
+who’ve added value in numerous ways.
+*Most Updated Allocation Is On KARMAapp.io
+7
+
+
+
+
+Self Funding Application
+Pretending to know the perfect amount of inflation required to sustain a self funding
+application is near impossible to know prior to the application being in a live
+environment. With a multitude of factors at play, the most logical approach seems to be
+to establish a minimum percentage of inflation and more importantly a maximum.
+Having too high an inflation opens the door to rapidly devaluing the intrinsic value of
+each KARMA token, while having too low a percentage of inflation inevitably leads to
+smaller rewards/incentive to users on a typical post with a fair amount of engagement.
+Minimum Annual Inflation: 1% (0.0027 approx. per day)
+Maximum Annual Inflation: 5% (0.0137 approx. per day)
+Initially the inflation will start at 1% annually and will scale up as the platform is used
+more. The metric used to measure this will be Daily Posts across the entire platform.
+Using posts as the KPI (Key Performance Indicator) makes the most sense as it
+represents actual good deeds being done and is the primary feature of the KARMA
+Application.
+The Inflation of KARMA Tokens Will Result As Follows:
+Inflation needs to meet the situation. KARMA will utilize a governance contract that has
+the authority to change the inflation variable given a token holder vote of at least 10%.
+KARMA ltd feels that a community owned dApp, should have the communities input on
+making the best decisions for the health of the ecosystem. The Annual Inflation of
+KARMA tokens can NEVER exceed 5%. The sliding scale of inflation relative to Daily
+Posts, can go both up and down between the different levels if the number of Daily
+Posts were to rise or fall.
+KARMA Rewards Pool
+As new KARMA is created daily through  inflation, it will flow into four separate pools.
+Each are operated with a specific purpose aimed at adding value to the KARMA
+project.
+8
+
+
+
+
+Content Creation Rewards Pool -  70% (of daily KARMA created)
+The Content Creation Rewards will flow to users of the KARMA Application who receive
+upvotes on their posts by other users. Users upvotes will be weighted relative to the amount of
+KARMA that they have staked within their wallet.
+Ratio at which KARMA will be allocated to content creators for Video vs. Photo Content:
+Video Posts:  95%
+Photo Posts: 5%
+KARMA Staking Rewards - 15%  (of daily KARMA created)
+The KARMA in this pool will be utilized to incentivize those who stake their KARMA. 15% of the
+daily KARMA created will flow to those who stake their KARMA.
+- Unlocked for transfer 3 days after you "unstake"
+- Claim Rewards once each week.
+KARMA User Engagement Rewards - 10%  (of daily KARMA created)
+The KARMA in this pool will be utilized to incentivize all users on the app who actively
+participate and engage with posts. Community regulation is very important and the effort of
+upvotes & downvotes are essential to KARMA remaining decentralized. This gives new users
+with no KARMA a chance to acquire KARMA through participation.
+KARMA Platform Administration Pool -  5%  (of daily KARMA created)
+The KARMA in this pool will be distributed to the Administrator of the KARMA Platform for the
+purposes of maintaining, developing and improving the Platform. With KARMA being an open
+source project, developers are welcome, with open arms, to make any contributions and
+submit proposals for their efforts to enhance the KARMA ecosystem.
+Why the weight of rewards on Photo Content vs. Video Content
+Current user data on existing social content sharing platforms would suggest that Video
+Content receives significantly better engagement than Photo Content. This data is extremely
+relevant for several reasons. Engagement at its core is simply an individuals focus & attention
+on a given item for a certain period of time. If a user is engaged they are more likely to have a
+great experience and also be inspired by others to take action and do their own “good
+deeds” in the world using KARMA. Also, it becomes exponentially easier to validate whether a
+particular KARMA post most likely happened when posted as a video.
+Incentivizing users to post videos over photos will reduce the amount of spam or fake posts.
+Users are incentivized to post videos by receiving a greater share of the newly created KARMA
+as opposed to posting photos. Photos are simply harder to attest to the likeliness of the
+beneficial interaction taking place or not.
+9
+
+
+
+
+Zero Fees
+From a user experience, it’s undeniable that no fees are better than fees. Although that
+may seem obvious, the majority of the projects in the blockchain space are on the
+pursuit of creating applications & ecosystems that charge users fees to do even the
+most basic functions. For a decentralized application to compete with a centralized
+alternative it must enable users to have a fee-less experience. Imagine for a moment if
+the next time you went to use Instagram, you had to pay a small fee every time you
+wanted to post a photo or like content from someone that you follow. It seems likely
+that you’d quickly look for a better, fee-less alternative.
+KARMA enables users to have Zero Fee transactions for the following aspects:
+Posting, Upvotes, Downvotes, Comments, Messaging, Sending KARMA and Receiving
+KARMA.
+Staking KARMA For A Stronger Upvote
+Staking KARMA (Power Up) adds value to the entire ecosystem and solidifies trust for
+the long term in the KARMA token by taking it out of circulation for an extended period
+of time. The minimum time that a token must be staked for is 3 days. If a user Powers
+Down their tokens, they will become available to move again after 3 days. Users are
+incentivized to stake their tokens to have a stronger upvote within KARMA. A users
+influence on the distribution of newly created KARMA is directly correlated to the
+amount of KARMA that they have staked. Users who stake more KARMA have a larger
+influence on the distribution of content creator rewards. This function gives “Super
+Powers” to users within KARMA.
+Steemit was the first social media platform on a blockchain. The Steemit project
+introduced several revolutionary ideas to the entire space. Steemit enabled an
+application to become a “self funding application”. The KARMA project is learning from
+some of these innovations and improving on some of these ideas.
+Dan Larimer on Staking Steem to have a stronger vote:
+"It gives people influence and clout on the platform. This is something of "intrinsic" value
+which will provide the base of demand. Everything else is all perception."
+10
+
+
+
+
+Starting A Grassroots Ecosystem
+There are 3 ways that an individual can enter the KARMA ecosystem & become a token
+holder.
+Airdrop Via The Initial Token Distribution
+An airdrop enables KARMA to instantly be in the possession of 100k plus individuals
+globally. This style of distribution continues to be more appealing as the entire space
+matures because the true value of a network is in the size and passion of the individuals
+in that network.
+Acquire KARMA
+Certain individuals will join the ecosystem over time by going to an exchange and
+acquiring KARMA in exchange for other tokens. This adds value to the community as a
+whole and benefits those who are already holders of KARMA. Users who go this route
+will have the option to hold KARMA, sell KARMA or use it within the KARMA application
+and add value to the community.
+Earn KARMA
+The focus of the KARMA project is to inspire & incentivize individuals to take action and
+help those around them. Users can earn KARMA through the application by helping
+others, posting the interaction as a photo or video and then receiving upvotes from
+other users on the application. This is the purest way to acquire KARMA. It adds the most
+value to the ecosystem & more importantly has an exponential impact on the lives of
+others.
+Use Cases For KARMA
+1. Receive As Rewards For Awesome Posts
+2. Peer-To-Peer Payments - Send & Receive Within The App
+3. Tipping/Donating To A User Beyond Just Giving An Upvote
+4. Staking KARMA For A Stronger Upvote
+5. Promoting Posts Within Categories To Get More Exposure
+6. Advertisers - Run Ads Within The App Using KARMA
+7. Donate To Disaster Relief & Different Initiatives
+8. Exchange For Products Thru Socially Conscious Businesses & KARMA Accepting
+Merchants
+9. When KARMA Becomes A DAC - Voting On Community Propositions & Decisions
+11
+
+
+
+
+Governance
+Initially any governance decisions pertaining to KARMA will be made transparently by
+the  Administrator.  Once the DAC is fully constituted, governance will be undertaken by
+the DAC.
+*This will be an evolving document that will continue to grow and improve over time
+discussing the details of the KARMA project.
+12
+
+
+
+
+Legal Disclaimer
+There is no guarantee that the KARMA tokens or the KARMA platform envisaged on
+KARMA white paper, website or any official publication will actually be delivered or
+realized in full or in part or as envisaged.
+KARMA tokens are not and are not intended to be shares or securities of any type, and
+do not entitle holders thereof to any ownership or other interest in Karma Ltd or any
+affiliated company or entity. KARMA tokens shall permit access to and user of the
+KARMA platform and shall maintain such utility as prescribed from time to time,
+including but not limited to voting functionality on the KARMA platform. There is no
+guarantee that the KARMA platform will actually be developed or developed as
+described in the KARMA white paper, website or other official publication.
+Nothing in the KARMA white paper, website or other official publication is intended to
+act as an invitation to any person to enter into any investment or constitute or relate in
+any way to an offer of securities in any jurisdiction or shall be construed as any
+recommendation thereof.
+Any information in the KARMA white paper, website or other official publication is given
+for general information purposes only and neither Karma Ltd nor any other person
+related thereto shall be construed as providing any representation or warranty as to the
+accuracy and completeness of such information.
+There are no representations, warranties, promises or guarantees, express, implied or
+statutory arising or related to KARMA tokens or the KARMA platform and same are
+expressly disclaimed, including but not limited to any representations, warranties,
+promises or guarantees, express, implied or statutory, relating to title, non infringement,
+merchantability, usage, suitability or fitness for any particular purpose, or as to
+workmanship or technology (including technical coding), or the absence of any defects,
+whether latent or patent.
+Any acceptance, use and/or participation of KARMA tokens or on the KARMA platform
+shall be strictly subject to the Terms and Conditions, which are available upon request
+from Karma Ltd. Please read the entirety of the Terms and Conditions and other
+material, as amended from time to time, applicable to the white paper, website, KARMA
+tokens or KARMA platform.
+13
+
+
+
+
+By accepting, using and/or participating in any way with the KARMA token or KARMA
+platform, any holder of KARMA tokens or user of the KARMA platform agrees to waive
+and shall have no claim, right or remedy, in law, equity or otherwise against Karma Ltd
+or any other person related thereto if the utility of the KARMA tokens or the KARMA
+platform described, is not delivered or realized, whether in full or in part or in conformity
+to any description thereof, or for any right or cause of action of any kind in any
+jurisdiction that would give rise to any damages, losses, liabilities, costs or expenses of
+any kind.
+If any person is uncertain as to anything in or on the white paper, website or in any
+official publication, such person is advised not to accept, use and/or participate with
+regard to KARMA tokens or the KARMA platform in any way.
+Persons are recommended to consult legal, financial, tax and other professional
+advisors or experts for further guidance before accepting, using and/or participating in
+any way with KARMA tokens or the KARMA platform. Any person receiving, by
+distribution or otherwise, any KARMA tokens is advised to take independent legal,
+financial, tax and other professional advice in any applicable jurisdiction.
+Nothing contained on the white paper, website or other official publication constitutes
+legal or tax advice. Neither the information nor any opinion contained in the white
+paper, website or other official publication constitutes a solicitation or an offer to buy
+or sell any securities, futures, options or other financial instruments. Any decisions based
+on information contained in or on the white paper, website or other official publication
+are the sole responsibility of the reader or viewer thereof.
+Any information or materials in or on the white paper, website or other official
+publication are provided “as is”, “as available” and “where is” without any
+representations, warranties, promises or guarantees whatsoever. To the fullest extent
+permitted under any applicable law, any and all representations, warranties, promises
+or guarantees, express or implied are disclaimed entirely.
+KARMA tokens and/or the KARMA platform is based on the EOS protocol and,
+accordingly, any delay, malfunction, unplanned function or unexpected operation of the
+EOS protocol may cause the KARMA token and/or KARMA platform to be delayed,
+malfunction or operate in a way that is not expected.
+No U.S. Persons: KARMA is not being and/or is not intended to be distributed to any
+United States person, citizen, resident or entity (“Excluded Person”), or any person on
+behalf of an Excluded Person, pursuant to the Open Token Distribution, as defined in
+the Terms and Conditions.
+14
+
+
+
+
+KARMA
+RMAapp.io
+POWERED BY EOS.IO
+
+
+
+
+

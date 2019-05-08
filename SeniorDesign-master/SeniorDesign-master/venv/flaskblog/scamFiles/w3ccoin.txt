@@ -1,0 +1,347 @@
+﻿W3C: A Payment Gateway and
+Merchant Settlement Services for
+Instant, Secured Global Payments
+cryptocoin’s  value  will  depend  on  its  usability,
+demand   and   supply.   These   issues   will   be
+Abstract
+                                                          addressed and covered later in this document.
+W3C  is  a  cryptography-based  digital  coin  and
+                                                          Purchasing W3Coins will enable users to become
+payment gateway introduced to the market in 2017
+                                                          part   of   a   global   network   of   W3C   traders,
+to   serve   as   a   fully   functional  currency  and
+                                                          merchants  and  Independent  Marketing  Partners
+alternative  to  cash  and  brick-and-mortar banking
+                                                          (IMPs). W3Coins can be traded and used to make
+payment system. W3C expects to gain significant
+                                                          payments and transfer money to and from any part
+international   market   share   through   a   retail
+                                                          of the world.
+e-commerce  delivery  platform,  coin  trading  and
+bulk  remittance  activity. Offering both a currency
+                                                          W3C's  Ethereum-based  cryptocoin  and  payment
+and  a  set  of payment solutions, the platform will
+                                                          gateway  will  set  a  new  industry  standard  by
+introduce  a  complete  cryptocurrency  ecosystem
+                                                          storing Know-Your-Customer information, running
+that includes:
+                                                          every minute and will be tailored to customer and
+                                                          merchant needs. W3Coins will have an expected
+(1) The W3Coin
+                                                          200 billion in circulation globally.
+(2) Trading Opportunities
+(3) A W3C Wallet
+                                                          This  paper explores the three major components
+(4) Peer-to-peer Exchange
+                                                          of the W3C platform including:
+(5) Remittances
+(5) Secure Transaction
+                                                          1) The W3C ecosystem overview
+(6) Merchant Services
+                                                          2) Coin supply and allocation
+(7) Loyalty Rewards
+                                                          3) The initial market delivery mechanism
+(8) W3Coin Payment Card
+Like paper currency, W3Coins will be maintained
+                                                          1. Introduction
+by ERC-20  technology with a total supply of  200
+billion  coins  in  circulation  globally. Unlike money
+                                                          Offering  both  a  currency  and  a  set  of  payment
+issued  by  governments,  only  a  finite  number  of
+                                                          solutions,  W3C  intends  to  introduce  a  complete
+W3Coins will be issued, limiting risks of inflation.
+                                                          cryptocurrency ecosystem that includes:
+W3C offers  counterfeit protection through the fact
+that cryptocurrencies are not tied to any particular
+                                                          (1) Cryptocurrency-secured coins
+country or central bank and are completely secure
+                                                          (2) A self-funded and self-governed platform with
+in both their storage and exchange platform. The
+                                                          global reach
+1
+
+
+
+
+(2)  A  complete  payment  gateway  with  instant         Reserve token: 15 billion W3Coins are being held
+transaction settlement.                                   in  reserve  for use in an emergency or recession
+(4)   Retail   and   bulk   remittances  with  special    period or in any market  circumstances that would
+low-cost transaction fees.                                warrant dissemination into the market.
+(5)  A  direct  B2C,  M2C  and  B2B  e-commerce
+shopping  and  trading  platform  to  facilitate  early
+                                                          1.3 Payment Gateway Services
+adoption and cryptocurrency market dominance in
+the travel industry as an entree into the cryptocoin
+                                                          W3C will develop its own transaction service that
+industry.
+includes:
+- Settle in less than five seconds;
+1.2 Technical Overview
+- Globally scalable, handling thousands of
+Technical  components  of  the  W3C  platform  will       transactions simultaneously;
+include:                                                  - No fee for market makers and providers
+- Whisper/Swarm
+1.4 Merchant Services
+- Secured Server
+- Secured Ledger
+                                                          W3C  will  provide  its  own  proprietary  payment
+- Private Keys
+                                                          gateway  solutions  for  providers  and  marketing
+- Security implementation that secures the
+                                                          partners   to   buy  and  sell  their  products  and
+database and blocks
+                                                          services. Using its unique independent marketing
+- Commercial APIs
+                                                          partner  model,  the  company  will  develop its first
+- All other needed technical components that
+                                                          tier  of  merchant  activity  through  its  partnership
+required to secure and become the best in crypto
+                                                          with sister-company, Xceltrip LLC, a digital travel
+industry.
+company  for  hotel  bookings  and  air  ticketing
+online.
+1.2 The W3Coin
+Expected  to  formally  announce  its  launch  on
+About the W3C Coin:                                                                                                 November               11,                                                      2017,   W3C   will   leverage   its
+                                                                                                                                           partnership program with xcelltrip.com to stimulate
+Coin name: W3C                                                                                                                             market   growth   and   build   its   global   B2C
+Total coin supply: 200 billion                                                                                                             marketplace. Xceltrip.com will operate exclusively
+Public allocation: 75%                                                                                                                     on  the  W3C  Merchant Platform featuring a hotel
+Initial coin supply (ICO): 2.5%                                                                                     property               listing                                                  campaign     launched     in
+Holdback allocation: 15%                                                                                                                   cross-promotion   with   the   introduction   of   the
+Reserve allocation: 7.5%                                                                                                                   W3C-based network travel agent partnership with
+W3C value: $0.01 per W3C                                                                                                                   an  already  existing  base  of  suppliers  that  will
+Public symbol: W3C                                                                                                                         instantly be converted to the W3C platform.
+Decimal places: 18
+Transaction time: 16 Seconds                                                                                                               Users will have the ability to use W3Coins to book
+Time between block: 14 seconds                                                                                                             airfare  and  hotel  nights  and then instantly trade,
+                                                          Smart contract token: ERC-20 Ethereum Token                                      sell  or  exchange  the  coin  with other cryptocoins
+                                                          (Standard  as  all  exchanges  have  capabilities  to                            including Bitcoin, Ethereum, and Ripple.  W3Coin
+deal    with    ERC-20                                    for                                                       the    purpose    of   value  can  also be converted to a W3C Payment
+trading/exchanges)                                                                                                                         Card  and  loyalty  rewards  for  transactions  within
+the W3C network.
+2
+
+
+
+
+Ultimately, W3C’s network will expand beyond the
+initial  partnership  with  xceltrip.com  to  all  online
+2.2 Company Ownership
+providers  in  any  industry or business sector that
+has online payment capabilities.
+                                                            Venture  capital  firms  and  private  investors  will
+                                                            retain  five  percent  of  the  total  currency  supply.
+W3C  also  expects  to  reach  those who have not
+                                                            Five percent of the total supply will be distributed
+yet  engaged  in  online  purchasing  models  by
+                                                            immediately to network market makers increasing
+reaching  individuals  and  business  providers who
+                                                            over time to 10 percent.
+currently  have  no  or  limited  access  to  basic
+financial  services  such  as  a  chequing  account.
+                                                            All  retained  token  supplies  are  paid  and  fully
+These users will also be able to participate fully in
+                                                            tradable immediately. A small portion of supply will
+the  W3C  ecosystem,  to  buy,  acquire,  trade  and
+                                                            be distributed free to create market makers across
+sell W3Coins, possibly as their first interaction with
+                                                            the  globe  with  the  purpose  of  building  the W3C
+currency exchange.
+                                                            community within the blockchain network.
+1.4 API
+                                                            2.3 Distribution
+W3C provides payment solution APIs (application
+                                                            W3C will offer a unique model of distribution with
+programming interfaces) to all kinds of digital and
+                                                            the  target  of  creating  a  larger  opportunity  for
+fiat currencies for immediate conversion.
+                                                            community     or     network     ownership     and
+                                                            participation.   Most initial coin offerings include a
+                                                            model of:
+2. Supply and Distribution
+33% public allocation initial ICO
+35% allocation to company / founders
+2.1 Total Supply
+32% held for future use
+Total W3C supply will include  200  billion W3C to
+be available in the following tranches:
+- Token allocation for public: 150 billion
+- Token allocation for ICO: 5 billion
+- Reserve token allocation: 15 billion
+- Token allocation for company: 30 billion
+Diagram 2: Traditional Allocation
+W3C  intends  instead  to  offer  a  model  that  will
+increase network participation:
+75% Allocation to Public
+15% Allocation to Company
+7.5% Reserve
+2.5% ICO
+Diagram 1: W3C Coin Allocation
+3
+
+
+
+
+For  the  initial  ICO  offering,                          2.5  percent  of  the
+public offering will be released at the initial ICO.       3.1 Independent Marketing Partners
+                                                           (IMP)
+W3C intends to release an additional 10 percent of
+total founder shares (over 3-4 years) in six month
+                                                           The  travel  industry  has  experienced  irrevocable
+intervals.
+                                                           changes to the role the travel agent in the delivery
+                                                           supply  chain  with  the  development  of  sites  like
+A 7.5 percent reserve allocation will be used at the
+                                                           Kayak  and  Priceline.  The  traditional travel agent
+company’s discretion as needed.
+                                                           and agency have also lost such significant market
+                                                           share.  Encouragingly,  the  first  W3C marketplace
+All  retained  token  supply  will  be  fully  paid  and
+                                                           offers   new   opportunity   to   both   create   new
+tradable at anytime. A small portion of supply has
+                                                           opportunities   for   income   and   wealth   with   a
+been  distributed  at  no  cost  to  create  market
+                                                           no-up-front  investment  while opening the door to
+makers  across  the  globe  with  the  purpose  of
+                                                           thousands  of  small  business  partners  through
+increasing  W3C community within the blockchain
+                                                           earning  W3C  coins  as  Independent  Marketing
+network.
+Partners (IMPs).
+With the release of the W3Coin, payment gateway
+3. Unique Market Offering
+and ecommerce co-system, W3C will partner with
+What sets W3C apart from other coin offerings is           Xceltrip   to   deliver   both   a   completely   new
+its  holistic  trading  and  e-commerce  ecosystem.        W3C-backed  ecommerce  platform  and  a  new
+Through the intersection of its three key offerings,       opportunity  in  this  model  for  IMPs  to  bring  new
+the W3Coin, the cryptocurrency payment gateway             merchants into the platform.
+and  exchange  platform  (through  its  introductory
+partnering    e-commerce    marketplace),    W3C
+creates the best possible climate to achieve early
+adoption and high coin-value and opportunities for
+independent  marketing  partners                           (IMPs)  to  offer
+value   in   a   newly   possible   global   exchange
+marketplace.
+The   complete   W3C   ecosystem   provides   a
+sustainable  model  of  commerce  and  exchange
+inside  and  out  of  the  W3C  payment  gateway.
+Suppliers, merchants and IMPs can all participate
+in  the  exchange  inside  the  W3C  gateway  and
+merchant  ecommerce  platform.  While  payments            Diagram 4: Initial W3C Payment Network
+are  made  inside  the  platform using the W3Coin,
+transactions  can  instantly  be  converted  to  any
+3.2                                                        How  the  IMP  Revenue  Model
+other currency for an additional fee.
+Creates   Individual   Income   while
+The model allows all participants to move money
+Increasing the W3Coin Value
+instantly within and outside of the system and for
+W3C’s   payment  network  to  ultimately  remain
+currency agnostic while encouraging the use and
+Through its relationships with its partner company
+ownership of the W3C coin.
+Xceltrip,  W3C  has  established  relationships  with
+more than 140,000 potential IMPs. These partners
+4
+
+
+
+
+have    the    opportunity   to   collectively   bring
+thousands of new merchants to the W3C Platform
+while   earning   W3C   ongoing   revenue   as   a
+percentage  of  all  sales  generated  from  their
+network of merchants.
+As we saw with the waterfall change in workforce
+climate  with  the  birth  of  the  gig  economy,  Uber
+quickly became the marketing partner of choice for
+the  many  people  who  were  looking  to  join  the
+ranks  of  independent  contracting  on  their  own
+schedule.   W3C,   along   with   its   early   market
+alliance with the Xceltrip platform, expects similar
+results  for  both  its marketing partners as market
+Diagram 5: Advanced W3C Payment Network
+makers   and   the   expected   byproduct   of   the
+increased value of the W3Coin.
+W3C expects these market makers will enjoy the             3.3  Other Expected Market Making
+benefits  of  this  new  model  of  no-investment,
+Contributions
+ongoing revenue.
+Hundreds  of  other  market-makers  will be adding
+value   as   W3C  coin  holders  remain  involved
+3.3                                                        Travel  Commerce  Partnership
+                                                                                               alongside  the  thousands  of  traders,  buyers  and
+as a Model for More to Come                                                                    marketers who will also continue to legitimize the
+                                                                                               coins  through  active  trading.  The    commerce
+The   initial   partnership   and   expansion   of   its
+                                                                                               exchange  will  be  only  one  way  we  expect  to
+merchant base and IMP network will serve only as
+                                                                                               increase coin value through. Trade within the W3C
+the    introductory    model   for   other   possible
+                                                                                               platform  along  with  exchanges  through  the  API
+partnerships  and  commercial  applications  of  the
+                                                                                               interface to other crypto and fiat currencies expect
+W3C  ecosystem  of  coins, payment gateway and
+                                                                                               to  generate additional increases in market value.
+merchant platform.  The refining of this process is
+                                                                                               Expecting to operate on exchanges like Poloniex
+expected  to  lead  to broad expansion opportunity
+                                                                                               platform,  W3C  will  be  open  to  the  public  for  all
+into other markets beyond the other markets and
+                                                                                               buying and trading purposes. 160 billion available
+new channels for IMPs to participate in the model
+                                                                                               for trading once the coin goes live.
+and continue to raise the visibility and value of the
+W3Coin.
+Because   the   current  centralized  system  may
+appear to include many choices online, ultimately
+payments  are  managed  and  controlled  by  the
+individual banks and the powers that run through
+them,  the  opportunities  for  participating  in  the
+online travel experience may feel as though they
+are  shared  by  all  (travel  agents  and  consumers
+alike can login and search and book travel).
+5
+
+
+
+
+purchasing, buying, trading, selling and holding all
+within the native W3Coin platform.
+4. Summary
+                                                         With   proper   timing   and   marketing   partner
+While Bitcoin, the godfather of all cryptocurrency,
+                                                         involvement, we expect to see W3C’s end-to-end
+continues to dominate the marketplace with its top
+                                                         offering provide great opportunity for a real-world
+market value, and Ripple stays strong as leading
+                                                         advancement  and  application  of  the  real-world
+the  way  in  payment  system  integration  with  the
+                                                         advancements  made  available  to  date  by  the
+incumbents,   and   Ethereum’s   smart   contract
+                                                         cryptocurrency technologies and communities.
+ecosystem offers great promise to its development
+community,   W3C   stands   apart   in  its  unique
+positioning  to  create  a  fully-functional  currency
+and    economic    ecosystem    for    end-to-end
+6
+
+
+
+
+References
+[1] W3Coin Website
+https://www.soarpay.com/nutraceuticals-merchant-accounts/
+[2] Xceltrip
+http://xceltrip.com
+[3] Ripple Labs Payment Gateway Rail Remittance
+https://ripple.com/solutions/retail-remittances/
+[4] Poloniex: US-based digital asset exchange and trading platform
+https://poloniex.com
+7
+
+
+
+
+

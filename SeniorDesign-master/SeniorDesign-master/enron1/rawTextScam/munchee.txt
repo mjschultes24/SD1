@@ -1,0 +1,734 @@
+﻿Munchee Token: A decentralized
+Blockchain based food
+review/rating social media platform
+By Dr. Sanjeev Verma, Nghi Bui and Chelsea Lam
+Updated   Oct   16, 2017
+1Pager: https://s3.amazonaws.com/munchee-docs/Munchee+1pager+-+EN.pdf
+Abstract
+Munchee is building a Blockchain-based incentivized restaurant review platform.
+The Munchee platform will offer a proprietary crypto-token to restaurants and consumers in an
+effort  to  incentivize  activity  on  the  Munchee  mobile  app.  This  will  primarily  occur  when
+restaurants buy Munchee tokens (MUN) and offer them as a reward to users for their photos,
+reviews, and social activity related to their experience at the restaurant. The MUN token holds
+utility  for  the  consumer  as  a  payment  method  at  participating  restaurants,  for  use  in  the
+Munchee app for rewards and interactions.
+The purpose of this document is to share information about our Ethereum-based token. The
+MUN token is a critical component to our effort to improve the online review space and solve
+real problems that restaurant owners encounter every day.
+There is sensitive information enclosed and it is understood this packet will be used solely for
+the purpose of considering partnership or participation in the sale or pre-sale of the MUN token.
+It is not for public consumption or consideration.
+
+
+
+
+Table Of Contents
+Abstract                                         0
+Table Of Contents                                1
+Disclaimers                                      2
+Forward-Looking Statement Disclaimer             2
+Legal Disclaimer                                 2
+Introduction: Problem                            6
+General Competition                              6
+Problems with General Competition                6
+Our Solution                                     8
+Mobile Product                                   9
+Token Economics                                  10
+Content Creator Reward Model                     12
+Technical Implementation                         13
+Munchee Peer Review                              14
+Tiered Munchee Token Membership Plan             16
+Token Issuance, Plan, Terms, and Participation   18
+Issuance                                         18
+Plan                                             18
+Use of Funds                                     20
+Development Roadmap                              20
+Team                                             22
+1
+
+
+
+
+Disclaimers
+Forward-Looking Statement Disclaimer
+Certain matters discussed in this document are about our future performance including, without
+limitation,  the  future  revenues,  earnings,  strategies,  and  prospects  of  Munchee,  Inc.  All
+statements  that  are  not  purely  historical  constitute                                             “future-looking  statements”  within  the
+meaning  of  the  Private  Securities  Litigation  Reform  Act  of  19951.  Such  forward-looking
+statements are subject to risks and uncertainties which could cause actual results to differ
+materially from those anticipated. Such statements are based on management’s beliefs as well
+as  assumptions  made  by  and  information  currently  available  to  management.  When  used
+herein,  the  words                                                                                    “anticipate,”                                                                                   “intend,”   “estimate,”   “believe,”   “expect,”  “should,”  “potential,”
+“forecast,” “project,” variations of such words and similar expressions are intended to identify
+forward-looking  statements.  Readers  are  cautioned  not  to  place  undue  reliance  on  these
+forward-looking statements in making any personal decision.
+Legal Disclaimer
+Participation in a token sale can be highly speculative and could involve a risk of loss.
+This White Paper does not constitute the offering of a security. Munchee Inc. has consulted with
+legal counsel to assess the possible regulatory treatment by the U.S. Securities and Exchange
+Commission and relevant foreign authorities in light of developing regulatory guidance. The
+primary mechanism for determining whether an instrument is a security in the United States
+under United States securities laws is the Howey test, articulated in SEC v. W.J. Howey, 328 U.S.
+293                                                                                                    (1946). The Howey test posits that an instrument is a security if four factors are satisfied:
+(i) an investment of money; (ii) in a common enterprise; (iii) with an expectation of profits; (iv)
+1 https://www.gpo.gov/fdsys/pkg/PLAW-104publ67/html/PLAW-104publ67.htm
+2
+
+
+
+
+solely from the efforts of others. Most recently, the SEC Division of Enforcement’s investigative
+report involving DAO tokens revealed that tokens that function like investment contracts under
+Howey will be treated as securities. The DAO Report applied the Howey test to digital tokens
+offered and sold by a virtual organization known as “The DAO,” and concluded that the tokens
+were in fact securities. The SEC did not take the position that virtual currencies, or interests in
+such currencies, are themselves securities.
+In the United States, the implication of the DAO Report is that depending on the facts and
+circumstances of an individual token sale, the virtual coins or tokens that are offered or sold
+may be securities, and that if they are securities, the offer and sale of these virtual coins or
+tokens are subject to the federal securities laws. Although the Howey test has not yet been
+directly applied by the courts to any digital currency or blockchain token, a Howey analysis has
+been conducted to determine that, as currently designed, the sale of MUN utility tokens does not
+pose a significant risk of implicating federal securities laws. As such, the MUN tokens, have not
+and will not be registered or filed under the securities laws or regulations of any jurisdiction.
+Further, as this is a sale of utility tokens, it is not being provided through any of the exemptions
+under the United States Securities Act.
+Additionally, although the regulatory treatment of token sales is a live and developing issue, and
+no  assessment  is  conclusive,  a  legal  analysis  has  been  conducted  to  determine  that,  as
+currently designed, the sale of MUN utility tokens does not pose a significant risk of implicating
+foreign  securities  laws  in  jurisdictions  that  have  addressed  token  sales.  Specifically,  in
+Singapore,  because  the  MUN  tokens  do  not  appear  to  represent  an ownership or security
+interest in Munchee’s assets or property, the tokens most likely will not be considered an offer
+of shares or units in a collective investment scheme. In Canada, because the MUN token sale
+would not meet the Pacific Coast test, which mirrors the Howey test, the tokens are unlikely to
+constitute securities subject to Canadian securities regulations. In Australia, because the only
+official  guidance  regarding  the  treatment  of  token  sales  only  applies  to  token  exchange
+platforms, the MUN token sale is likely not subject to Australian securities regulations.
+In compliance with U.S. and international trade laws, prospective purchasers located in, under
+the control of, or a national or resident of any restricted location or country to which the United
+States has embargoed goods or services, are prohibited from participating in the token sale. For
+3
+
+
+
+
+example,  in  China  where  all  ICOs  and  token  sales  have  been  frozen,  allowing  Chinese
+purchasers to participate in the MUN token sale would currently be unlawful. As such, Chinese
+purchasers are prohibited from participating in the token sale. Furthermore, the token sale will
+not be offered in other restricted jurisdictions including, but not limited to, Iran, North Korea, the
+Sudan, Syria, and the Crimea region of the Ukraine.
+Although due diligence has been conducted, and Munchee Inc. has taken steps to mitigate
+regulatory  risk,  given  that  blockchain  is  a  young industry and token sales are a novel and
+evolving development, there is inevitably a degree of uncertainty with any token sale. Given the
+rapidly  changing  regulatory  landscape  and  warnings  signaled  by  multiple  international
+jurisdictions regarding the potential for tokens to be viewed as securities offerings, there is
+always  a  risk  that  the  MUN  utility  token  may  not  be  exempt  from  securities  registration
+requirements in the United States or any other jurisdiction. Many international jurisdictions have
+indicated  that  token  sales  may  qualify  as  sales  of  investment  contracts,  or  qualify  as
+crowdfunding sales under pre-existing regulations, and may be regulated as such.
+In view of the guidance recently received from these regulatory authorities, it is likely that a
+growing  number  of  jurisdictions  will  be  closely  scrutinizing  token  sales.  Munchee  Inc.'s
+representations  and  securities  assessment  is  not  a  guarantee  that  the  SEC  or  any  other
+regulatory authority will not determine the tokens to be securities subject to registration. The
+MUN  tokens  have  not  been  approved  or  disapproved  by  the  United  States  Securities  and
+Exchange  Commission,  any  state  securities  commission  in  the  United  States  or any other
+regulatory authority in the United States. The same applies to relevant regulatory authorities in
+foreign  jurisdictions,  including,  but  not  limited  to,  jurisdictions  who  expressed any form of
+guidance as to initial coin offerings and token sales, such as Australia, Canada, China, South
+Korea and Singapore. Should Munchee’s tokens be deemed securities by the SEC, or another
+regulatory authority, Munchee Inc. and participants in the MUN token sale may be subject to
+civil or criminal penalties if the tokens are not properly registered.
+Prospective token purchasers should not construe this White Paper as providing any legal or tax
+advice. This White Paper currently contains a fair summary of Munchee Inc.’s vision and the
+operation  and  utility  of  its  token.  Further  information  will  be  provided  in  its  Token  Sale
+4
+
+
+
+
+Memorandum, including the merits and risks involved in participating in Munchee Inc.’s token
+sale.
+5
+
+
+
+
+Introduction: Problem
+Restaurant owners and other small business owners have a plethora of options for advertising
+today:  social  media  platforms,  online  review  websites,  search  engines,  and  legacy  media
+channels, among others. Each of these platforms has its own audience and its own set of
+strengths and weaknesses, which can be difficult for a restaurant owner to distill.
+General Competition
+A number of eCommerce and social media platforms have met the growing demand for such
+applications. These platforms offer independent reviews by end-users and customers based on
+their  direct  personal  experiences,  which  offers  a  service  to  other  end-users  and  awards
+businesses with a way to reach local audiences and qualified leads.
+One  such  platform,  Yelp,  has  gained  a foothold as the premier resource for crowdsourced
+reviews of local businesses. The $3.2 billion company, founded in 2004, often achieves higher
+organic search ranking than official restaurant websites and has established a reputation for
+curating  comprehensive  collections  of  reviews,  photos,  and  menus.  Yelp  offers  additional
+services, including reservation services, coupons, and special deals.
+Reviews posted to the Yelp platform rely on a simple one to five-star rating system, and the
+platform enables social interaction among end-users including the ability to comment, reply, and
+post reactions. The platform also allows businesses to communicate with reviewers.
+Other significant competition, including FourSquare, Google Places, and Zagat, offer comparable
+services that do not differ in any material way.
+Problems with General Competition
+Existing solutions share a number of problems, most notable of which is false reviews. False
+reviews run counter to the stated purpose of a crowdsourced review site and generally lead to a
+low-quality listing. A study by Harvard professor Michael Luca revealed that fake reviews of
+establishments in Boston, Massachusetts rose from 6% in 2006 to 20% in 2014.   2
+2 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2293164
+6
+
+
+
+
+In addition to the frustration stemming from false reviews, many small business owners take
+issue with the way that Yelp operates its business. Some small business owners have gone as
+far as to claim that Yelp manipulates reviews in an effort to secure advertising revenue, a claim
+that has been brought to court. 3
+With the closed and centralized platforms operated by Yelp and other members of our general
+competition, it is impossible to prove there is truth in the review and rating system.
+Further, it is believed the reviews listed on our general competition are skewed to the negative
+due to the lack of incentive for the standard end-user. In short, end-users who have a neutral or
+positive experience are far less likely to post a review than an end-user who had a negative
+experience.
+As has been noted by Roy F. Baumeister, a professor of social psychology at Florida State
+University, “losing money, being abandoned by friends, and receiving criticism will have a greater
+impact than winning money, making friends, or receiving praise. Put another way, you are more
+upset about losing  $50  than you are happy about gaining $50. … Bad events wear off more
+slowly than good ones.”4 The same is true when it comes to restaurant reviews, and when paired
+with no incentive to participate following a neutral or positive experience, the reviews of our
+general competition should be placed into question.
+3 http://valleywag.gawker.com/lawsuit-says-yelp-made-millions-forcing-businesses-to-p-1617941464
+4
+http://www.nytimes.com/2012/03/24/your-money/why-people-remember-negative-events-more-than-pos
+itive-ones.html?_r=0&pagewanted=all
+7
+
+
+
+
+Our Solution
+The   aforementioned   issues   can   be   resolved   through   an   immutable   and   verifiable
+blockchain-based solution that uses a crypto-token to incentivize ecosystem participants.
+Each participant in the Munchee network will find utility in the Munchee token including the
+end-user, who will be rewarded with Munchee token for sharing their review content and can use
+this token to dine at partner restaurants, and small business owners who will use Munchee
+token to purchase advertising on Munchee channels.
+End-user
+The end-user will find Munchee token integration beneficial on a number of fronts:
+●   High-quality reviews and a trusted product because with our Decentralized Peer Review
+system,  individuals  can  be  sure  that  they’re  interacting  with  fellow  individuals,  not
+competing with small businesses or false review sources.
+●   Reward for activity in the mobile app, which can be redeemed for products and services
+at partner businesses or restaurants.
+Restaurant
+Cryptocurrencies  such  as  MUN  are  not  linked  to  the  laws,  rules,  and  regulations  of  any
+government,  bank  or  corporation.    Existing  centralized  financial  networks  such  as  VISA,
+Mastercard etc. charge exorbitant amounts to consumers and business owners in terms of
+interest rates, fees and surcharge for their services.   However, decentralized cryptocurrency
+network such as Munchee facilitates peer-to-peer transactions, eliminating the need to pay an
+outrageous transaction fee to the middlemen or payment networks.
+Blockchain technology and the associated distributed public ledger ensure that the exchange of
+Munchee tokens is stored in a hashed and unalterable form. This is a win for businesses by
+virtue of the advertising exchange for Munchee token. Rather than pay for a simple promoted
+listing, businesses will know that their advertising dollars are going to incentivize real reviews
+from  real  people.  As  noted  earlier,  restaurants  who  offer  end-users  the  ability  to  redeem
+8
+
+
+
+
+Munchee token for their meal will not have to pay high third-party transaction fees from the likes
+of Visa, MasterCard, and American Express.
+Mobile Product
+Munchee  is  a  social  networking  app  for  food
+lovers,  akin  to  Instagram  for  food.  Our mobile
+application,  now  available  for  download  in  the
+U.S.,   is   a   visual   food   review   and   social
+networking  app  which  enables  users  to  share
+their dining experience via photos.
+Existing products in the restaurant review space
+focus  on  the  entire  dining  experience,  not  the
+food itself. While this method has merit, we have
+found that this leads the majority of reviews to
+address  negative  experiences  with  staff  and
+other   such  points  that  can  take  a  one-off
+negative  event  and  amplify  it,  making  these
+non-food factors impact a restaurant’s image. It
+has  also  been  found  that,  while  other  social
+networks                                                                                             have   evolved   to   enable
+micro-influencers  and  community  influencers,
+existing solutions in the food space do not allow
+these individuals to capitalize on their expertise and hobby.
+Munchee provides instant visual search results of specific dishes, not
+restaurants, and offers side-by-side information about price, reviews,
+and dish ratings so users can make an informed decision quickly.
+This is not only for the benefit of the end-user. Restaurants have the
+opportunity to showcase what they’re most proud of--their food and
+best  dishes--and  not  spend  time  addressing  reviews  based  on
+non-food factors. Food influencers are empowered to share their food passion and make money
+doing so, the only tool of its kind.
+9
+
+
+
+
+The Munchee mobile app launched the closed beta in the fourth quarter of 2016 and the public
+beta in early 2017. The iOS application was launched in spring 2017 and an Android version is
+slated for release by the end of 2017. Since then Munchee has been featured on:
+Munchee has also been mentioned by several influential Instagram accounts, including many
+with  more  than  100,000  followers.  The  app has tremendous engagement on social media,
+including more than 3,500 Instagram followers and 16,000 Facebook followers.
+Token Economics
+The Munchee token (MUN) is a method of exchange inside of the Munchee ecosystem, built to
+facilitate meaningful advertising and promotion for restaurant owners while building a quality
+base of content by rewarding content creators for their activity.
+As is described in the Token Issuance, Plan, Terms, and Participation section, there will be a
+total and finite supply of 500,000,000 MUN. Of that supply, 225,000,000 MUN will be listed for
+sale as part of the token pre-sale and sale events, with 275,000,000 MUN held in reserve by the
+company.
+Upon activation of the token system in production, MUN owners will be offered the ability to
+exchange their tokens for advertising and promotion inside of the Munchee app. This promotion
+will  take  place  in  the  form  of  a  listed bounty, with token presented to the end-user as an
+incentive to post a review of the business and other social activity related to their experience at
+the restaurant. Upon successful completion of the review, the end-user will receive the bounty.
+10
+
+
+
+
+Since the direct function of advertising is executed in MUN, the value of the token is intrinsically
+linked to the value of the MUN coin.
+Simply, the standard internal cycle of token ownership and trade is illustrated in Figure 1.
+Figure 1: Munchee Economic Model
+There are multiple opportunities to break this cycle and bring the token outside of the ad-buy,
+review-compensation flow, including:
+●   Use  of  MUN  for  the  purchase  of  services  or  product  from  partner  restaurants  or
+businesses.  Munchee  will  work  with  restaurant  partners  to  make  MUN  token  an
+acceptable form of currency at their venues.
+●   The movement of MUN to a wallet or exchange, where it can be stored or exchanged for
+other  altcoins  or  ETH.  As  is  described  in  the  Token  Issuance,  Plan,  Terms,  and
+Participation  section  of  the  white  paper,  Munchee  will  ensure  that  MUN  token  is
+11
+
+
+
+
+available on a number of exchanges in varying jurisdictions to ensure that this is an
+option for all token-holders.
+Figure 2: MUN Token Model
+Content Creator Reward Model
+There are multiple ways for content creators to earn MUN token:
+●   For valid contributors: contributors who create new posts which successfully pass peer
+review will be rewarded with MUN token. To encourage valid posts, the top 20% of users
+(in terms of contribution volume) each 7-10 day period will be rewarded additional token.
+These MUN token will be offered from Munchee’s company reserve. The additional MUN
+rewarded  to  the  top  user group will be from a fixed number to prevent gaming the
+system.
+●   For high-quality content contributors: contributors who regularly perform in the top-tier
+(top                                                                                            20%)  will  be  rewarded  with  additional  MUN  tokens.  Top-tier  reviewers  are
+12
+
+
+
+
+determined based on the accepted reviews as well as the total number of likes and pins
+in a period. These MUN tokens will be offered from Munchee’s company reserve. The
+additional MUN rewarded to the top user group will be from a fixed number to prevent
+gaming the system.
+●   For new and valid restaurant listing creators: contributors may also be rewarded with
+MUN token for creating a new restaurant, pending restaurant detail verification. These
+MUN token will be offered from Munchee’s company reserve.
+●   For user referrals: each user will hold a unique referral code to share with those in their
+network.  Should  a  new user join through this referral process and contribute to the
+platform, the referring user may be rewarded with MUN token.
+Technical Implementation
+Figure 3: Munchee Blockchain Implementation
+The technical deployment will have three main components (see Figure 3 & 4):
+1.  Munchee Community peer review system, to filter out low-quality submissions.
+2.  The first Smart Contract to maintain an audit trail of submissions and votes.
+3.  The second Smart Contract to keep the MUN token record.
+13
+
+
+
+
+Our solution will have two separate smart contracts hosted on the Ethereum blockchain:
+●   The first smart contract will keep an audit trail of all content submissions and votes.
+Munchee will store a signature or fingerprint on the User ID, Timestamp, and Hash value
+of  the  review  or  vote  in  the  Blockchain.  This  will  allow  a  verifier  to  download  the
+Blockchain and verify all reviews and votes. An authorized user can request off-chain
+reviews referenced by its fingerprint on the Blockchain.
+●   The second smart contract will keep the MUN token record.
+Figure 4 : Smart Contract based MUN Tokens sharing in the Munchee Ecosystem
+Munchee Peer Review
+Munchee’s Peer Review system is implemented to ensure that only quality reviews are accepted
+in the Munchee ecosystem.  Every new submission first goes through the peer review by other
+Munchee users, which makes the Munchee platform truly social and transparent. Munchee uses
+14
+
+
+
+
+Machine Learning to mine user preferences to suggest suitable reviewers for peer review based
+on  criteria, such as location, language, food category, food preference, etc. Everyone in the
+Munchee  ecosystem  participates  in  improving  the  quality  of  the  platform  through  active
+participation--instead of being just passive user of the content provided by others. This fosters
+valuable content and a collaborative community. Such a platform attracts many first-time users
+to the platform since they can’t just only access trusted content but also earn MUN tokens by
+actively participating in improving the validity and quality of the content.
+●                                                                                                   Creating and Voting on a Post
+○   End-users must review the validity of a post created by another user in order to
+gain permission to create their own post and earn MUN token.
+○   End-users will not be permitted to earn MUN token until their post is successfully
+reviewed by other end-users.
+○   Review, confirmation, and disbursement of token compensation may take up to
+7-10 days.
+●                                                                                                   Decentralized peer review
+○   Each peer review offers two choices: approve or flag.
+○   An approval indicates that all required fields are correctly and accurately listed,
+including the name of the dish, the restaurant name, the price range, the rating,
+and category. A successful post must also include a photo taken by the user and
+a check-in at the restaurant.
+○   A flag may indicate one or more of the following:
+■   Spam
+■   Inappropriate content
+■   Inaccurate data
+■   Copyright infringement
+●                                                                                                   System rules and regulation
+○   The simple majority of votes wins.
+○   An odd number of end-users will be chosen at random to review the post.
+○   Munchee will provide a formula which ensures the random matching of an odd
+number of reviewers with the post in question, based on location.
+○   Selected  reviewers  must  have  passed  peer  review  at least once and have a
+satisfactory history on the platform.
+15
+
+
+
+
+○   Reviewers may only vote once, and cannot change their vote.
+○   After  all  reviewers  have  concluded  the  review  process,  the  total  number  of
+passes and flags are totalled.
+○   The highest total will determine the status of the post. If it is a pass, the poster is
+notified and rewards are batched in 7-10 days. If it fails, the poster is notified and
+the post is not published.
+Tiered Munchee Token Membership Plan
+Our scheme will implement an in-app Token Membership Plan, which will allow users to move to
+higher membership level status (Bronze, Silver, Gold, Diamond, and Platinum) by actively
+participating in the growth of Munchee platform.   Munchee users will be incentivized to move to
+higher membership levels through Munchee’s accelerated reward program.
+The details are as follow:
+●                                                                                                  We will implement the following membership levels in our current app for active users:
+○   Bronze
+○   Silver
+○   Gold
+○   Diamond
+○   Platinum
+●                                                                                                  Users can accumulate MUN tokens in order to advance to higher membership levels.
+The higher-ranked they are, the more benefits they will get.
+●                                                                                                  In following discussions, we ONLY consider MUN tokens that users get by being active
+participants on the platform; specifically, these are the tokens that users earn by posting
+valid reviews and photos on Munchee.
+○   Munchee users will have to have earn certain numbers of MUN tokens in order to
+acquire certain membership level and corresponding benefits. Below is an
+example of the token range for each membership level (this is for illustration
+purpose only):
+■   Bronze: 0-99 MUN Tokens.
+■   Silver: 100- 199 MUN Tokens.
+■   Gold: 200-299 MUN Tokens.
+16
+
+
+
+
+■   Diamond: 300-399 MUN Tokens.
+■   Platinum: 400   MUN   Tokens and above.
+○   When users sell their tokens and no longer have enough tokens to be qualified to
+be in a certain membership level, they might get dropped to the previous level.
+●                                                                                               Benefits of moving to higher membership levels:
+○   Munchee users will be rewarded through accelerated membership plan with
+increasing numbers of   MUN Tokens for their reviews as they move to the higher
+membership levels.
+○   For example, Munchee might implement a scheme, where an user could be
+incentivized in following manner for posting a valid post (for illustration purpose
+only):
+■   Bronze: 10 MUN Tokens.
+■   Silver: 10 x 1.25 = 12.5 MUN Tokens.
+■   Gold: 10 x 1.35 = 13.5 MUN Tokens.
+■   Diamond: 10 x 1.5 = 15 MUN Tokens.
+■   Platinum: 15 x 1.5 = 22.5 MUN Tokens.
+○   Note: Above is for illustration purpose only. Incentives will depend on the
+conditions of the market at the time and/or the growth of the platform.
+●                                                                                               To simply evaluate the membership level that each person is at you can have each user
+supply their wallet address and check that (maybe once per day) against the public
+ledger of token holders for the MUN token.   This would give you the number of tokens
+the user is holding.   You would need to make sure that multiple users could not submit
+the same address.
+Token Burning Plan
+Munchee could potentially choose to to burn (take out of circulation) a small fraction of MUN
+tokens everytime a restaurant pays Munchee as advertising fee. This, along with our tiered
+membership plan could potentially increase the appreciation of the remaining MUN tokens as
+the total supply in circulation reduces and as users would prefer holding their MUN tokens.
+17
+
+
+
+
+Token Issuance, Plan, Terms, and Participation
+Munchee is issuing an open-source cryptographic token named Munchee token. The Munchee
+token,  which  will  have  other  uses  beside  being  a  cryptocurrency,   is  of  fixed supply. It is
+fractionally divisible and non-inflationary. As described below, only a portion of the Munchee
+token will become liquid in the immediate-term. Like other cryptocurrencies, Munchee tokens
+are transferable and will be traded on cryptocurrency exchanges.
+Munchee buyers must comply with the laws of their home jurisdiction. Munchee, its partners,
+employees,  parent  company,  and  affiliate  products  offer no warrants or guarantees to any
+purchasers regarding the legal status of the Munchee token or product(s) of any sort. If you
+have any questions or concerns, refer to legal counsel in your jurisdiction.
+Issuance
+To finance Munchee’s development roadmap and continued growth, Munchee will conduct a
+token distribution event that will offer 225,000,000 MUN out of the 500,000,000 total supply.
+Proceeds from the distribution event will be used to fund Munchee operations including the
+development of blockchain-powered projects.
+Upon  conclusion  of  the  sale,  the  distributed  Munchee  token  (225,000,000  MUN), the MUN
+withheld  for  the  purposes  of  facilitating advertising transactions in the future  (185,000,000
+MUN), the MUN withheld for in-app rewards (12,000,000 MUN), the MUN reserved for the team
+and advisors (33,750,000 MUN), and the MUN reserved for bounty promotion (18,000,000 MUN),
+and referral bonuses   (11,250,000 MUN) will represent the entirety of the liquid supply .
+To be whitelisted and notified of updates regarding the token distribution event, participants
+should provide their email addresses at http://token.munchee.io.
+Plan
+There will be 2 sale periods for MUN token which comprise our Token Generation Event, which
+are the token pre-sale and the main sale. The BTC/ETH exchange rate will be set  48  hours
+18
+
+
+
+
+before the start of the pre-sale and will remain the same throughout the sale. The rate will be
+published on our website.
+The pre-sale event (15% discount), which will begin on October 31, 2017. During this period, the
+first 25% of sold tokens will be offered at a discounted price of 15%. Individuals can purchase
+tokens at an exchange rate of 1 ETH to  5294.117 MUNs, which represents a 15% discount on
+the launch exchange rate of 1 ETH to 4500 MUNs.
+The main sale event, which will start on November 8, 2017 or when the hard cap for the pre-sale
+period is met, whichever comes first. The main sale will have 2 tiers - 10% discount and 0%
+discount. The main sale event will run for a period of 31 days or end when we reach our hard
+cap, whichever comes first.
+Main sale Tier 1 (10% discount): during this period, the first 25% of the remaining sold tokens
+will be offered at discounted price of 10%. The exchange rate will be 1 ETH = 4950 MUNs, which
+represents a 10% discount on the launch exchange rate of 1 ETH to 4500 MUNs.
+Main  sale  Tier  2  (no  discount):  during  this  period,  individuals  can  purchase  tokens  at  an
+exchange rate of 1 ETH to 4500 MUN. We accept both ETH and BTC. For details and more info,
+please visit our website at http://token.munchee.io.
+Munchee will offer a  5% referral bonus during both sale events. After buying your own MUN
+tokens you will be given a unique referral URL that you can send to your friends or colleagues to
+also participate.  As a reward for helping get the word out about Munchee you'll get a bonus of
+5% of the MUN tokens they buy!   So, if your friend buys 100,000 MUN tokens through your
+referral link, you'll get 5,000 MUN for free!
+The token sale event is capped at 225,000,000 MUN. There are 500,000,000 authorized MUN
+and no additional MUN will be created after the token issuance. These limits were fixed in the
+smart  contract  at  token  creation  and  cannot  be  changed  during  or after the pre-sale. The
+remaining 275,000,000 MUN are to be distributed to bounty/referral/team at the end of the sale,
+and to be introduced to testing and managing rewards in the future.
+Team and advisors will also have a lock-up period of 6 months.
+19
+
+
+
+
+Within 30 days of the conclusion of the token sale event, MUN will be available for trading on at
+least one U.S.-based exchange and the organization will use its organizational supply to ensure
+that  there  is  a  sufficient  liquid  market.  The  organization  will  seek  to  work  with additional
+exchanges in the future. The source code of the MUN smart contract will be made available.
+Use of Funds
+●                                                                                                           35% of funds collected will be applied to marketing, user acquisition, and promotion
+schedule for the existing Munchee mobile application.
+●                                                                                                           40% of funds collected will be applied to growing the development team.
+●                                                                                                           10% of funds will go towards legals to make sure Munchee is compliant in all countries.
+●                                                                                                           15% of funds will be reserved for maintenance and to ensure the smooth operation of
+the MUN token ecosystem.
+Development Roadmap
+●                                                                                                           2017 - Q4
+○   Cryptotoken planning and issuance
+○   Cryptotoken pre-sale and sale event
+●                                                                                                           2018- Q1
+○   Improve Munchee mobile app backend and restaurant database.
+○   Enhance UX/UI of the app and add new features.
+●                                                                                                           2018 - Q2
+○   Begin development of Munchee Token Smart contract on Ethereum Blockchain
+network- integration of MUN Token in Munchee App.
+○   Launch user acquisition and marketing campaigns - focusing on the American
+and Asian (piloting South Korea) markets while growing user base worldwide.
+●                                                                                                           2018- Q3
+○   Start of development of second Smart contract to record fingerprint of reviews
+on Ethereum Blockchain network.
+○   Begin setting up in-app wallets for end-users.
+●                                                                                                           2019- Q1
+○   Third-party security audits.
+20
+
+
+
+
+○   Food delivery partnership agreements.
+●                                           2019 - Q2
+                                                                                                                       ○   Release a new website just for restaurant owners/managers.
+                                                                                                                       ○   Build web-based wallets for restaurants to facilitate advertisement.
+                                                            ○   Integration of second Smart contract in Munchee App.
+●                                           2019 - Q3
+                                                        ○   Integrate food delivery on Munchee platform.
+21
+
+
+
+
+Team
+Sanjeev Verma, PhD - Co-founder
+Sanjeev graduated from University of Toronto with a doctorate degree in Electrical and
+Computer Engineering. Sanjeev has 18+ years’ research experience working in Fortune 500
+organizations such as Nokia and Samsung on variety of projects. He has 12 granted and eight
+pending U.S. patents. He is a highly enthusiastic and adaptive technologist with broad
+experience in security, networking and multimedia streaming technologies. His current research
+focus is on finding creative applications of Blockchain technology in both financial and
+non-financial world. He is currently a Mentor/Advisor (Blockchain Expert) in Data-X project, U.C.
+Berkeley, CA.
+22
+
+
+
+
+Chelsea Lam - Co-founder
+Chelsea is a blockchain enthusiast and a foodie at heart. Chelsea holds a Bachelor’s degree
+with honors in Marketing and Entrepreneurship from San Jose State University. She was
+previously a marketing consultant at VMware, focusing on supporting vForum live and online
+events. Before that, Chelsea served as the Program lead for Mid Market Sales - Google's biggest
+SMB revenue program. Chelsea is a tech -savvy, passionate, trilingual, and culturally enriched
+professional and entrepreneur. She has been involved with a lot of startups and enterprises both
+in Asia and the U.S.
+Nghi Bui - Co-founder
+Nghi is currently a PhD candidate in Information System at Singapore Management University.
+His research concerns application of natural language processing and machine learning to
+software engineering and programming languages to create smart software engineering tools
+for developers. He is also an experienced software engineer and was previously working with
+the Jira project at Atlassian. He is interested in building scalable and high performance
+applications on distributed system. Nghi is also interested in working on various blockchain
+platforms including Bitcoin, Ethereum and IBM's Fabric ledger.
+23
+
+
+
+
+Kyle Bunthuwong - Marketing Manager
+Kyle- a blockchain enthusiast- holds a Bachelor’s degree in Sociology from U.C. Berkeley and
+has 5+ years experience in social media, content marketing and online community engagement.
+He has assisted fitness and nutrition brands significantly grow their online user base and
+followings. After spending nearly two decades at USA Gymnastics National Team as a
+nationally ranked gymnast and coach, Kyle now brings his athlete mindset into the professional
+marketing field.
+Dan Weiner - Marketing
+Dan is a multimedia journalist by trade with experience in all forms of media. He is highly
+interested in politics, marketing & developing strategies for companies to succeed. Dan formerly
+was a marketing lead at WGMT, WSTJ, WNCS and Cabot Creamery.
+24
+
+
+
+
+Matt Goldstein - Communications
+Matt is a graphic designer and communications specialist. He comes to the effort from leading
+the design and communications team at STRAN Promotional where he worked with top
+American brands. Previously, he was a leader at SharpShooter Imaging. Matt earned his degree
+at Northern Vermont University.
+Our Advisors
+Loi Luu - Cofounder of Kyber.Network - Cofounder of Smartpool
+Loi is a researcher working on cryptocurrencies, smart contract security and distributed
+consensus algorithms. He is also a regular invited speaker at Bitcoin and Ethereum workshops
+such as DevCon2, EDCON. Loi believes in the force of the Ethereum and Blockchain technology.
+Much of his work revolves around this community. He developed Oyente, the first open-source
+security analyzer for Ethereum smart contracts. Loi also cofounded SmartPool, another open
+source project which embraces decentralization of mining pools in existing cryptocurrency. He
+25
+
+
+
+
+continues to champion decentralization and trust-less properties of the Blockchain with Kyber
+Network, taking inspiration and developing value for the community.
+Nick Ayton - Top 21 Blockchain Influencer. Advisor of Humaniq
+Nick is a Top100 Fintech Influencer and number 21 on Rise Top100 Blockchain people. He is
+London Correspondent for CoinTelegraph and in 2012 designed a Fintech Self Service Pension
+Platform growing at 131% a quarter. Nick has had 8 Tech startups and was corporate officer at
+Siemens, Xchanging and CapGemini. He recently chaired Blockchain Expo at Olympia and is a
+business architect for Blockchain operating models and runs a series of Blockchain Master
+Classes lecturing at International Business Schools. He spent 35 years in technology services
+and is a frequent speaker and writer on all things Blockchain. Nick is expecting to publish a
+book on Blockchain Implementation Strategies in 2017.
+26
+
+
+
+
+Addison Huegel - Formerly at the Ethereum Foundation & Kyber.Network
+Addison is the Managing Partner and Media Director at Elevator Communications, LLC.   He is a
+new technology communications and marketing specialist with extensive experience building
+communities around blockchain, B2B, and B2C applications. Over the years he’s worked with
+hundreds of companies, from startups to Fortune 500s.   In 2015, he served as a
+communications consultant to the Ethereum Foundation and DEVCON1, while more recently
+he’s worked to help launch KyberNetwork.   Before entering into marketing and PR, Addison
+worked in the field of Condensed Matter Physics and has published a number of scientific,
+peer-reviewed papers.   He also spent two years writing software for the Mars Orbiter program at
+NASA Ames Research Center.   He holds a degree in Physics from University of California,
+Berkeley.
+Andrew J. Chapin - Cofounder and CEO of Benja/BenjaCoin
+Andrew is the Co-Founder & CEO of Benja, the merchandise ad network which launched the
+benjaCoin ICO in August 2017. He is the author of “Art of the Initial Coin Offering,” and a
+member of the ICO Governance Foundation. Previously, Andrew coordinated revenue and
+growth for Feathr as the VP of Business Development. Andrew has also coordinated sales,
+marketing, and user acquisition efforts at Microsoft and Color Labs.
+27
+
+
+
+
+Bryan Pham - Co-founder and CTO of Cloudtenna
+Bryan is a Silicon Valley-based entrepreneur and blockchain evangelist. He is the co-founder and
+CTO of Cloudtenna- a company that provides innovative solutions for file storage systems using
+metadata for hyper scale transport across business applications. Bryan has been involved with
+the Munchee project since its inception. A self-made millionaire from humble beginnings and a
+super-star engineer, Bryan is bringing his 10+ years of technical expertise, business acumen and
+deep understanding of the tech scene in Silicon Valley, to strategically advise Munchee on all
+fronts.
+Min Kim - Chief of Staff at Civic - Formerly at Draper University
+Min is currently the Chief of Staff of Civic. She is the founder of Blocultural Studios, which holds
+blockchain events in San Francisco and connects blockchain startups with investors. Min
+previously worked with Tim Draper on PR & marketing for blockchain related initiatives. She
+graduated from Dartmouth College with a degree in Economics and Mathematics.
+28
+
+
+
+
+To learn more visit:
+●   Website:
+○   Product: http://munchee.io/
+○   Token: https://www.token.munchee.io/
+●   Blog: https://blog.munchee.io/
+●   Facebook:
+○   Product: https://www.facebook.com/muncheeapp/
+○   Token: https://www.facebook.com/muntoken/
+●   Twitter: https://twitter.com/MuncheePlatform
+●   Instagram: https://www.instagram.com/muncheeapp/
+●   Slack: https://muncheeplatform.slack.com/
+●   Telegram:
+○   Announcements: https://t.me/MuncheePlatform
+○   Discussion: https://t.me/MuncheeDiscussion
+29
+
+
+
+
+

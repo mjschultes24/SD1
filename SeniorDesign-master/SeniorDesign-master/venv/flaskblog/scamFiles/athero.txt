@@ -1,0 +1,666 @@
+﻿A
+
+
+
+
+A
+Contents
+1. Introduction to Athero Platform...                                                                               ... 3
+2. Vision and Mission...                                                                                            .. 4
+2.1. The need of Athero...                                                                                          .6
+                                        2.2. Challenges with current IoT solutions…………………………………………...               ...9
+                                        2.3. Changing the IoT landscape…………………….……………………………………………………………………10
+2.4.                                    Athero Structure…………………………………….……………………………………………………………….10
+2.5.                                    Commercial Athero products………………………………...                                   ..11
+3. Key Technologies of THO chain ...                                                                                ...14
+                                        4. Athero token (THO)………………………………………….…………...                               ..18
+                                        5. Athero ICO details…………………………….……………….…………………………...                       ..19
+                                        6. Sustainability of the Project……………………………………..………………………..…………………………..23
+6.1. Roadmap of Athero...                                                                                           ... 24
+6.2. Athero Team...                                                                                                 .. 26
+7. Contact us…...                                                                                                   ... 28
+
+
+
+
+Athero.io                                                                                          A new era of Cryptofinance for the Internet 3.0
+1. Introduction to Athero Platform
+The Athero platform structure is a decentralized and economically  sustainable public
+compute infrastructure that is focused on growth and prosperity.
+Athero is a platform designed to improve commerce by combining the Internet of Things and
+the blockchain technology. Athero incorporates a distributed operating system with an open
+blockchain, using virtual business to business networks and a consensus algorithm to realize
+better offline solutions for information flow and product sourcing needs.
+While the Athero design is inspired by that of earlier blockchains, it also realizes decades of
+research across the fields of concurrent and distributed computation, mathematics, and
+programming language design. The platform includes a modular, end-to-end design that
+commits to correct-by-construction software and industrial extensibility.
+Simply put, Athero is a highly profitable, global cryptocurrency ecosystem that doesn’t rely
+on banks or any other financial institution.
+The Athero Blockchain Protocol and Athero Token
+THO is native crypto token currency which is being created to be integrated with and used on the
+Athero network, for decentralized applications on the network.
+Initially, THO is proposed to be issued and implemented on the public Ethereum blockchain
+asan ERC-20 compliant token. Athero team will integrate its existing “wallet” function to hold
+THObalances, and allow users to utilize the tokens on the THO platform shortly after the
+tokensare activated. The Athero protocol is being developed for implementation on its own
+opensource blockchain. In this scenario, the initial THO based on ERC-20 would be exchanged
+on a 1:1 basis with native THO issued on Athero’s blockchain.
+Blockchain technology changes the roles of users, IoT devices and vendors in the IoT system.
+3
+
+
+
+
+Athero.io                                                                                           A new era of Cryptofinance for the Internet 3.0
+Unlike the current centralized architecture, users in the new IoT system can dynamically
+develop data authorization mechanisms and interaction rules with devices, etc.
+Not only  does the  device  perform  a  single function.  The  blockchain can  simply
+interconnects the device, and also enables devices to interact with each other autonomously.
+Vendors no longer need to maintain hundreds or thousands of IT systems in different systems.
+Changing roles will attract more participants, reshape market rules and create entirely new
+business models.
+Athero is a new blockchain protocol being developed and specifically designed and optimized
+for business and marketplace applications. The protocol will consist of a blockchain based
+“virtual machine” and defined modules of middleware software stacks, which operate outside
+the chain. It will support decentralized processes governed by smart contractsimplemented on
+the network.
+2. Vision and Mission
+Blockchain  technology  has a  huge  potential  to  create  new  bussines  models  and
+bring measurable benefits and value to the public and private sectors. To unlock this potential,
+Athero protocol was designed purposefully to tackle the main challenges which limit the fluent
+exchange and integrity of data in product smart chains. With smart chain data becoming
+increasingly fragmented, scalability and cost concerns of current decentralized solutions
+become evident.
+Using Athero,  all  stakeholders can  securely  share  their  data  and  keep  sensitive  data
+fully encrypted  at  all  times.  By  supporting  global  standards  for  data  exchange            (GS1,
+IoT, compliance  standards),  Athero  assures  compatibility  with  existing  ERP  systems,
+making implementation process quick and efficient. Finally, it is fully decentralised. It removes
+the possibility of collusions and introduces full accountability for the data provided.
+4
+
+
+
+
+Athero.io                                                                                         A new era of Cryptofinance for the Internet 3.0
+Athero is not a company, it is an ecosystem. It’s based on token economy with directrelations
+between users and network nodes free of arbitrary fees. Contribution to Atheroecosystem is
+a pledge towards more transparent, collaborative, fair and trusted decentralized blockchain.
+Modern society’s commercial infrastructure has evolved to favor the largest markets where
+most valuable asset is information.
+Web 3.0: The Third Generation Web is Coming
+The Web is entering a new phase of evolution. There has been debate, which innvolved
+thinking about proper name. Web 3.0 is revolution in modern era.
+Some would prefer to not name it all, while others suggest continuing to call it “Web 2.0”.
+However, this new phase of evolution has quite a different focus from what Web 2.0 has come
+to mean.
+Athero’s mission is to create a “world changing data/financial tool/network”. THO Blockchain
+Meets  IoT.  Building  decentralized  cutting  edge  blockchain  enviroment                       =  “Internet  of
+Blockchains”
+What is internet of blockchians?
+The future of blockchain will not be one network to rule them all, but rather an interconnected
+network of multiple blockchains, much like the internet as we know it.
+The Athero technology makes blockchain networks work more like the internet. Just as
+the internet is a series of smaller physical networks, connected to a larger network through
+common protocols, Athero will connect smaller, diverse networks together to create a truly ,
+global, scalable, and evolving blockchain layer of the internet.
+5
+
+
+
+
+Athero.io                                                                                         A new era of Cryptofinance for the Internet 3.0
+2.1 The need for Athero: Market Analysis
+Cryptocurrency has been the latest buzz everywhere in nowday. Bitcoin has been a huge
+success as the first cryptocurrency that has proved every financial expert wrong.
+within quicktime Bitoin surpassed several assets to touch   $300B market cap in Dec 2017.
+Not only that, Bitcoin paved way for multiple currencies to follow. Today, there are more
+than 1000 crypto currencies running successfully in the market.
+As we now, this crypto currency leader brought different point of view almost on  everething
+connected to the finance and technology.
+However,  the  key  to  success  of  Bitcoin  is  its  underlying  technology;  The  Blockchain
+technology. With immutability, distributed ledger system and secure P2P transactions,
+blockchain technology quickly grabbed several eyeballs.
+According to MarketsandMarkets, the global blockchain market was valued at $286.74 bln
+2017. This value is expected to touch $7683.7 bln by 2023, growing at a whopping CAGR of
+79.6% between 2017 and 2023. Reduced TCO and increasing demand for distributed ledger
+systems are the key factors that are driving blockchian technology. Both North America and
+Europe regions hold a market share of 40% while the Asia Pacific accounts for 10%. The rest
+of the world holds the remaining 10% share.
+that, Bitcoin paved way for multiple currencies to follow. Today, there are more than 1000
+6
+
+
+
+
+Athero.io                                                                                           A new era of Cryptofinance for the Internet 3.0
+While the blockchain technology was introduced as the underlying technology for Bitcoin,
+developers are now extending its functionality to every other industry to leverage its power.
+The Internet of Things (IoT) is not excluded.
+The Rise of Internet of Things
+Internet of Things (IoT) is one of the growing technologies in recent times. Simply put, Internet
+of Things is a network that comprises things such as computing devices, sensors, electronic
+equipment etc. with the help of an IP address for each thing, you can easily monitor and
+manage the things of the network from anywhere, anytime and from any device. A common
+example is using your smart phone to turn on your geyser, AC or TV at home from your office
+or any other location.
+The state of IoT Market
+According to a Forbes article, the global IoT market was valued at $157 billion in 2016. This
+value is expected to touch $457 billion by 2020, growing at a CAGR of 28.5%. Manufacturing,
+logistics and utilities are the three major verticals that would account for the major market
+share, earning $40 billion each. Boston Consulting Group predicts that the total IoT market
+7
+
+
+
+
+Athero.io                                                                                         A new era of Cryptofinance for the Internet 3.0
+would touch $267 billion by 2020. Similarly, Bain predicts that the B2B IoT market would earn
+an annual revenue of $300 billion b 2020.
+MarketsandMarkets reports that the global IoT market value was $170.57 billion in 2017. This
+value is expected to reach $561.04 billion by 2022, growing at a CAGR of 26.9%. Analyst firm
+Statista has something exciting to offer. According to Statista, the global IoT market revenues
+were  $157.05 billion in 2016. This value is expected to touch $457.29 billion by  2020.
+Consumer electronics is the largest industry for IoT followed by the automotive industry.
+8
+
+
+
+
+Athero.io                                                                                       A new era of Cryptofinance for the Internet 3.0
+2.2 Challenges with current IoT Solutions
+While several industries are aggressively embracing the IoT network, it comes with several
+challenges.
+Trust
+IoT networks involve a range of disparate things, right from laptops, smartphones and
+wearables  to  sensors,  TVs,  medical  equipment  and  many  more.  As  such,  managing
+communication between disparate users is always a challenge. To exchange data, devices
+should trust and verify the authenticity of each other.
+Data transfer speeds
+With a range of disparate devices working in the network, exchanging data and processing it
+takes time. There are several intermediaries such as IoT gateways and filters. As data passes
+through these intermediaries, it takes more time to reach the destination. Moreover, devices
+in the network are not evenly configured. As such, data consumption and storage varies with
+each device. So, the central management has to monitor and act accordingly.
+Total cost of ownership
+IoT networks bring flexibility and heterogeneity into the network. However, it comes at an
+additional cost. The processing overheads, gateways and other intermediaries increases the
+operational costs. Not to forget the centralized management! As such, businesses have to
+optimize resources to reduce the TCO.
+Security
+While data is exchanged between multiple devices, security and reliability becomes critical.
+However, security is not only confined to data hacking. The health and safety of humans is in
+stake too. Consider an instance wherein a hacker gets access to household appliances such as
+baby monitors or rifles or any harmful things. The damage can be unimaginable.
+The blockchain technology offers the right solution for all IoT challenges. Athero integrates
+crypto, IoT and encryption/decryption technologies to create a new decentralized and
+distributed Internet of Things.
+9
+
+
+
+
+Athero.io                                                                                       A new era of Cryptofinance for the Internet 3.0
+2.3 Athero: Changing the IoT Landscape
+Athero is a blockchain-based decentralized, distributed and economically sustainable public
+compute  platform. By  integrating two innovative  technologies namely  blockchain  and
+Internet of Things and augmenting it with encryption/decryption technologies, Athero offers
+a highly scalable and secure global cryptocurrency eco system that runs on a distributed
+operating system uses consensus algorithm for end-to-end crypto solutions.
+2.4 Athero Structure
+Athero's engineers combined best-in-class technologies with private development to create
+fog computing stack.
+1)  Ethereum smart contracts
+A consensus system ensuring transparency and security for the system’s participants
+2)  Fog computing
+Decentralized and more efficient computing model compared to cloud
+3)  P2P networking stack
+Ability to work without public IP (NAT penetration and relays)
+4)  Docker Container
+Isolated environment ensuring computing parallelism and appropriate apps running
+on any device
+5)  Overlay networking
+Ability to link different containers in private network
+How Athero works?
+Leveraging the Blockchain Technology, Athero brings New Potential to the Internet of Things.
+Athero chain (THO chain) deeply integrates blockchain with Internet ofThings (IoT) to realize
+10
+
+
+
+
+Athero.io                                                                                                A new era of Cryptofinance for the Internet 3.0
+a decentralized and trusted brand-new distributed IoT systems. It can reduce the cost of
+system interconnection, increase the value of data sharing, and ensure user privacy and
+system security. THO Chain focuses on the scalability, security and real-time issues that
+blockchain faces in the Internet of Things industry. By combining the three technologies:
+blockchain, Internet of Things and distributed encryption storage and computing, it builds a
+new generation of Internet of Things. This combination can provide entire solutions for data
+acquisition, sharing and application in the IoTindustry.
+Athero focuses on multi-party data transactions and IoT-big-data-based Artificial Intelligence
+(AI) decision-making applications, establishes multi-faceted trustand heterogeneous data
+interconnection, and solves the pain points in the industry. Moreover, an explosive and
+innovative business model of new generation of datasharing is  based on THO chain.
+Even  before  the  revenue  of  IoT  reaches  market  expectations,  the costs  of  IoT  are  still
+extremely   high.   Most   existing   IoT   solutions   require   huge investments: apart   from   the
+commission    for    intermediaries    of    these    services, building    and    maintaining    the
+infrastructure   related   to   centralized   cloud   and   large-scale server clusters represent a
+significant capital outlay.
+2.5 Commercial Athero products
+1) Smart contract applications (DApps)
+Decentralized applications (dApps) are applications that run on a P2P network of computers
+rather than a single computer. dApps have existed since the advent of P2P networks. They
+are a type of software program designed to exist on the Internet in a way that is not controlled
+by any single entity.dApps are a ‘blockchain-enabled’ website, where the Smart Contract is
+and this allows being connect to the blockchain. It's like a "decentralized appstore" where
+anyone can publish their unstoppable apps (dapps), which unlike today's apps (think Gmail
+or Uber) don't require a middleman to function or to manage a user's information.
+11
+
+
+
+
+Athero.io                                                                                        A new era of Cryptofinance for the Internet 3.0
+2) Blockchain-based Decentralized Exchange
+A decentralized exchange is an exchange market that does not rely on a third party service to
+hold the customer's funds. Instead, trades occur directly between disparate users (peer to
+peer) through an automated process. This system can be achieved by creating proxy tokens
+(crypto assets that represent a certain fiat or crypto currency) or assets (that can represent
+shares in a company for example) or through a decentralized multi-signature escrow system,
+among other solutions that are currently being developed.
+This system contrasts with the current centralized model in which users deposit their funds
+and the exchange issues an IOU that can be freely traded on the platform. When a user
+requests to withdraw his funds, these are converted back into the cryptocurrency they
+represent and sent to their owner.
+3) Data sharing (IoT)
+In the era of big data, the value of data is crucial. The huge amount of datagenerated by
+THO chain will also be of great value, and THO chain will use block chaintechnology to make
+all data available to and at the disposal of users. For holding data long-term, sidechains
+('counterparty protocols)' will be created to avoid disproportionately data load on the main
+THO chain.
+A large number of Internet of things equipment and user interaction data in the fieldof
+business and scientific research have very high value with the development of artificial
+intelligence. High-quality data is essential, especially for small and medium-sizedcompanies
+and scientific research institutions such as colleges and universities.
+With this open IoT data platform of CPChain, you can access to large amounts of realdata at
+low cost, which will greatly facilitate technological progress
+4) Wifi-ready Solar Smart Bench Network (IOT)
+The application potential of Smart Solar Benches is impressive. Supporting the concept of
+Smart City, they can integrate a cloud platform combined with various hardware solutions to
+gather  data from the environment (with real-time information gathered by sensors).
+12
+
+
+
+
+Athero.io                                                                                           A new era of Cryptofinance for the Internet 3.0
+A Wi-Fi hotspot that is equipped with air quality sensors be able work for ten days without
+sun. Smart bench is optimal for 4 people. This bench is also equipped with the high-speed
+LTE Wi-Fi internet. It can be optionally equipped also by the Emergency SOS button directly
+connected to the National Emergency System. Built in beneath the solar panel is a Wi-Fi
+enabled sensor that is able to register anyone who walks within 150 feet of the bench with a
+Wi-Fi enabled mobile device as a unique visitor.
+5) Smart Car Parking Technology (IOT)
+Again application potential is significant. The next generation, real-time and historical parking
+analytics application, Smart parking uses sensors, wireless communication technology, data
+analytics etc. to solve parking issues. Smart parking solutions can be used to locate available
+parking space with the help of sensors. This saves time as well as minimizes wastage of
+fuel. Various technologies are being used to ease parking problems in public places.
+For example using RFID technology, the check-in and check-out time for the vehicle can be
+reduced and also the payment system can be automated.
+Smart city is a key trend
+As the demand for data is on the rise, more and more citites, universities and transportation
+leaders are turning to smart parking and environment analytics. Their goal is to not only
+improve their community, but also help many cities to start down the path of becoming a
+smarter city.
+6) Air and pollution smart sensors (IOT)
+Air pollution has been a global challenge for environment protection. Effectively collecting
+and scientifically visualizing the air quality data can better help us monitor the environment
+and address related issues. With the progression of advancements in technology, several
+innovations has been made in the field of communications that are transiting to Internet of
+Things. In this domain, Wireless Sensor Networks (WSN) are one of those independent
+13
+
+
+
+
+Athero.io                                                                                              A new era of Cryptofinance for the Internet 3.0
+sensing devices to monitor physical and environmental conditions along with thousands of
+applications in other fields.
+Air pollution is a major environmental change that causes many hazardous effects on human
+beings. As such, it needs to be controlled. Hence, we deployed WSN nodes for constant
+monitoring of the air pollution around the city and the moving public transport buses and
+cars. This methodology gave us the monitoring data from the stationary nodes deployed in
+the city to the mobile nodes on Public Transport buses and cars.The data of the air pollution
+particles such as gases, smoke and other pollutants is collected via sensors on the public
+transport buses and the data is being analyzed when the buses and cars reach the source
+destination after passing through the stationary nodes around the city.
+Our proposed architecture having innovative mesh network will be more efficient way of
+gathering data from the nodes of WSN. It will have lots of benefits with respect to the future
+concept of Smart Cities that will have the new technologies related to Internet of Things.
+3. Key Technologies of THO chain
+Athero Chain(THO) has adopted the asymmetrical encryption.   As long as the private key is
+kept properly, the data cannot be cracked even if it’s collected. At the   same   time, all   the
+nodes in   THO are equal,   which   protects   the   users’ privacy. Moreover,    based    on    the
+character   that   blockchain   cannot    be   tampered, the manufacturers  and  service  providers
+will  not  be  able  to  tamper  with  users information.
+THO Blockchain can actually be thought of as the combination of several different existing
+technologies. While these technologies themselves aren't new, it is the ways in which they
+are combined and applied which brought about Athero´s blockchain.
+14
+
+
+
+
+Athero.io                                                                                            A new era of Cryptofinance for the Internet 3.0
+THO Blockchain itself is composed of these three technologies:
+1)  Private key cryptography
+2)  A distributed network that includes a shared ledger, accounting for the transactions
+and records related to the network
+3)  Smart contract ability
+The parallel distributed architecture, which separates the data layer from the control layer by
+THO chain can greatly improve the transaction speed and system extensibility without
+changing the block capacity.
+But it also faces new challenges. For example, after separating the data layer from the control
+layer, it is necessary to build a distributed storage network and ensure efficient interaction
+with the blockchain, and an effective connection must be established between the two
+parallel architectures. At the same time, the security and efficiency of the system should be
+guaranteed.
+In addition, if the data layer is independent, the block chain itself will be abandoned to protect
+the privacy ofthe data, so we must design a privacy protection scheme based on encryption
+technology.The encryption function based on re-encryption or homomorphic encryption has
+certain  requirements  for  computing  resources,  but  the  block  chain  itself  has  limited
+computing resources and high cost, so it is necessary to strike a balance between privacy and
+availability.
+With large scale of nodes and the heterogeneity of data, large scale P2P networks pose a great
+challenge in ensuring the consistency in the process of node state synchronization and data
+security storage. However, the current block chain distributed network based on the proof of
+work                                                                                                 (POW)  consensus  protocol  has  some  problems, such  as  scalability,  waste  of
+computational power and limited block speed.
+Athero  adopts  the  two-layer  consensus  protocol  solution,  designs  the  dynamic
+committee security election mechanismand solves the low throughput and the high delay
+15
+
+
+
+
+Athero.io                                                                                           A new era of Cryptofinance for the Internet 3.0
+problem while enhancing the data consistency and the system security. In addition, THO chain
+is oriented to the characteristics of the Internet of things industry and adopts a cross-chain
+architecture. That is, based on the main chain, THO provides industry-oriented side chain
+network function expansion for diversified practical application scenarios. The main chain
+network is mainly used for the high-speed control channel of IoT data exchange.
+Parallel Distributed Encrypted Storage and Computation
+Athero chain aims to construct a basic data platform for the IoT system, providing a full
+process solution for data acquisition, storage, sharing and application. THO chain will break
+through the core underlying technology of the application of block chain in the Internet of
+things system, and provide the infrastructure for the sharing and transaction of the data in the
+Internet of things.
+On THO chain, we can build data aggregation and real-time data flow applications to maximize
+the value of Internet of things data.The decentralized blockchain system requires the whole
+network node to operate on the same transaction (data), which has great disadvantages from
+the point of view of calculation and storage. It cannot give full play to the cooperative ability
+of the distributed network system. The decentralized system can only follow the "barrel
+principle", so it is not scalable.
+Athero proposes the idea of separating data layer from control layer, constructs parallel
+architecture  to  enhance  system  scalability,  providesopen  data  sharing  function  while
+protecting user privacy, and adopts distributed storage scheme. The user data is encrypted
+and uploaded to the cloud to reduce the storage burden of the block chain and to ensure the
+integrity and accuracy of the data.
+Side chain consensus system with high real-time and security
+Another  technology  that  could  see  more  widespread  use  in  the  coming  years  is
+sidechains. Based on the sidechain technology, Athero aims to create a modern alternative
+internet environment.
+16
+
+
+
+
+Athero.io                                                                                            A new era of Cryptofinance for the Internet 3.0
+Imagine a blockchain with multiple sidechains. Each sidechain can serve a different purpose
+such as scaling traffic, data sharing,instant messaging, and verifying documents, receiving and
+distributing data from iot devices or even running blockchain-based web sites.
+There can be multiple sidechains where different tasks are distributed accordingly for
+improving the efficiency of processing. Maybe one application needs to optimize for high
+speeds and another needs to optimize for large computations. In any case, side chains can be
+used to handle commercial blockchain usage.
+More specifically, a sidechain is an Application-specific Sidechain thatruns parallel to a
+mainchain, Athero in this case. Its rule set is customized based on the use-case, and its
+security is maintained by the mainchain’s consensus algorithm.
+Typical Applications of THO chain
+Athero is a platform that is intended to allow people to easily write decentralized applications
+(Ðapps) using blockchain technology. A decentralized application is an application which
+serves some specific purpose to its users, but which has the important property that the
+application itself does not depend on any specific party existing. Rather than serving as a front-
+end  for  selling  or  providing  a  specific  party's  services,  a  Ðapp  enables  people  and
+organizations on different sides of an interaction to come together without any centralized
+intermediary.
+Contracts generally serve four purposes:
+1)  Maintain a data store representing something which is useful to either other contracts
+or to the outside world. One example of this is a contract that simulates a currency,
+and another is a contract that records membership in a particular organization.
+2)  Serve as a sort of externally owned account with a more complicated access policy.
+This is called a "forwarding contract" and typically involves simply resending incoming
+messages to some desired destination only if certain conditions are met. For example,
+one can have a forwarding contract that waits until two out of a given three private
+17
+
+
+
+
+Athero.io                                                                                            A new era of Cryptofinance for the Internet 3.0
+keys have confirmed a particular message before resending it (ie. multisig). More
+complex forwarding contracts have different conditions based on the nature of the
+message sent.The simplest use case for this functionality is a withdrawal limit that is
+overrideable via some more complicated access procedure.
+3)  Manage an ongoing contract or relationship between multiple users. Examples of this
+include a financial contract, an escrow with some particular set of mediators, or some
+kind of insurance. One can also have an open contract that one party leaves open for
+any other party to engage with at any time. One example of this is a contract that
+automatically  pays  a  bounty  to  whoever  submits  a  valid  solution  to  some
+mathematical problem, or proves that it is providing some computational resource.
+4)  Provide functions to other contracts; essentially serving as a software library.
+4. AtheroToken (THO)
+Atherotoken (THO) is the key lubricant of the entire Athero ecosystem. Whether you want to
+use any application or service, exchange cryptocurrencies or create and sell dApps, you need
+to incur a small fee that would require Athero tokens. These tokens can be used to utilize the
+Athero IoT network or the AtherodApps. Initially, THO is proposed to be issued and
+implemented on the public Ethereum blockchain as an ERC-20 compliant token. Athero team
+will integrate its existing “wallet” function to hold THO balances, and allow users to utilize the
+tokens on the THO platform shortly after the tokens are activated. The Athero protocol is
+being developed for implementation on its own open source blockchain. In this scenario, the
+initial THO based on ERC-20 would be exchanged on a 1:1 basis with native THO issued on
+Athero’s blockchain.
+18
+
+
+
+
+Athero.io                                                                                      A new era of Cryptofinance for the Internet 3.0
+How to get Athero tokens?
+There are multiple ways to get Athero tokens
+You can purchase Athero tokens during the ICO sale
+You can purchase Athero tokens at selected cryptocurrency exchanges
+You can get Athero tokens by participating in the Athero ecosystem and performing
+certain tasks
+You can get Athero tokens by referring users
+Occasionally, Athero might airdrop tokens
+5. Athero ICO Details
+Why this ICO?
+Athero has a team of experts coming from technical, financial and marketing backgrounds.
+While we have a great idea and an expert team to make this idea a reality, we don’t have the
+funds to create and manage the distributed Athero IoT networks and hence this ICO.
+In addition, we would like to invite people who are interested to be a part of a disruptive
+technical project. As a community, we all can come together to contribute towards a more
+transparent, collaborative, fair and trusted decentralized blockchain network.
+Token Sale Details
+For the Token Launch, Athero will issue the THO Token.
+The initial funding of the Athero Platform will be through a crowd sale dashboard accessible
+via https://athero.io/tokensale
+Initially, the company is offering 1,400,000,000 of the 2,000,000,000 initial Tokens.
+19
+
+
+
+
+Athero.io                                                                                        A new era of Cryptofinance for the Internet 3.0
+Tokens will be distributed in two crowd sales:
+(1) A private pre-sale(400,000,000)
+(2) (1,000,000,000) via a public sale.
+Private sale was available for 2 months. From July 10,2018 to September 16, 2018. Before sale,
+we contacted 5000+ companies (+private individuals). They recieved invitations to our Athero
+summits. Summits were at London, New York, Dubai and Tokio.
+Athero raised 12 000 000 USD in private sale   (at rate 0.03 USD per 1 THO). Tokens were
+distributed at the end of  private sale. (17.9.2018)
+Public ICO sale will start:
+September 20, 2018, Saturday, 11:00 AM
+Public ICO sale will end:
+January 20, 2019, Friday, 11:00 AM (GMT)
+Bonus structure:
+1st month 30% ( 1 THO   = 0.028 USD)
+2nd month 20% (1 THO = 0.032 USD)
+3rd month 10% (1 THO = 0.036 USD)
+4th month 0% (1 THO = 0.04 USD)
+Payment options:
+Bitcoin, Ether, Litecoin, Monero, Dash, Bitcoincash, Ethereum Classic, NEM, NEO
+All tokens unsold during the Token Sale will be burned.
+Your token balance will be available for viewing in your personal account at
+https://athero.io/tokensale immediately after the completion of the transaction. Once the
+Token Sale and the KYC process is complete, you can transfer THO tokens to your Ethereum
+wallet, specified in your account.
+Token: THO
+The THO is an Ethereum based token implemented as ERC20 and allows participants to
+contribute and engage in building a new blockchain ecosystem.
+There are 2,000,000,000 THO tokens in existence and no more tokens will be issued after
+the Token sale period is over. About 5% of the tokens, to ensure a wide distribution, will be
+airdropped to users of the community and relevant Ethereum blockchain projects that will
+add value to the Athero Platform.
+20
+
+
+
+
+Athero.io                    A new era of Cryptofinance for the Internet 3.0
+Token structure
+Soft-cap Budget Allocation
+21
+
+
+
+
+Athero.io                                                                                             A new era of Cryptofinance for the Internet 3.0
+Software development, IT Infrastructure & Security
+A vital part of our budget will be allocated to development. Since software development
+requires mostly the collaboration of skilled employees ,this part of our budget will be used to pay
+our software developers and analysts. Funds will be used so that the appropriate security and IT
+and IT infrastructure is made available to ensure software delivery from the testnet to the
+mainnet with utmost quality and in a timely manner.
+Marketing & Community building
+The Athero Platform is a unique blockchain project that requires hands-on involvement of
+ensuring that the impact of decentralisation is effective with a strong sense of community. To
+this effect, we have to ensure that enough funds are allocated to the outreach of local,
+regional, national and international communities around the world. The marketing budget
+will be used to create awareness and engagement of the possibilities of our platform.
+On boarding talented developers + development staff
+Given the local and international nature of the outreach, it will be vital for Athero to have the
+right personnel in the office and on the ground at strategic intersections of specific countries.
+This is both a labor and capital intensive endeavour.
+Operations & Legal
+The budget allocated to operations is to run the supporting organization, to rent the office
+space and equipment, have proper means of communication, provide a level of support to
+the platform user, etc. Also, ensuring Athero has the right legal contracts with users, traders,
+exchanges on an ongoing basis.
+Reserve fund
+This budget is the Athero 'reserve fund'. This will be used when new budget needs arise, or
+when one of the other budget lines was underestimated and runs out of funding.
+22
+
+
+
+
+Athero.io                                                                                        A new era of Cryptofinance for the Internet 3.0
+6. Sustainability of the Project
+The Athero platform sustains through revenues generated from the following areas.
+1) Tokenomics
+Athero team involves financial experts and professional traders who have helped in creating
+the right tokenomics for this project. As such, the company is confident that profits would be
+made as soon as the ICO sale is concluded.
+2) Token Fees
+Users that participate and use Athero services are supposed to pay a small fee in the form of
+Athero tokens. Athero generates a steady revenue from this fee.
+3) Marketing Campaigns
+a) Online Campaigns
+b) Offline Campaigns
+4) Partnerships with businesses
+23
+
+
+
+
+Athero.io            A new era of Cryptofinance for the Internet 3.0
+6.1 Athero Roadmap
+24
+
+
+
+
+Athero.io   A new era of Cryptofinance for the Internet 3.0
+25
+
+
+
+
+Athero.io                                                                                        A new era of Cryptofinance for the Internet 3.0
+6.2 Team Behind the Project
+Athero is backed by a strong technical team that has several years of experience in developing
+world-class IT solutions. The technical team is augmented by an experienced management
+team and a vibrant marketing team that leaves no stone unturned to make Athero succesfull.
+Jay Friscia
+Thomas Plattsmier
+Co-founder +Software developer
+CEO + Co-founder
+LinkedIn
+LinkedIn
+Lukas Zadorozny
+Sofware developer
+LinkedIn
+26
+
+
+
+
+Athero.io                     A new era of Cryptofinance for the Internet 3.0
+Alex Dehlinger                Madhu Sahota
+Marketing, Public relations   Software Engineer
+LinkedIn                      LinkedIn
+Niou Someya                   Yagi Taisho
+Programmer                    Software Developer Technical Lead
+LinkedIn                      LinkedIn
+27
+
+
+
+
+A
+Visit our website and search for contact form
+https://athero.io/
+Emails:
+support@athero.io
+athero@athero.io
+sales@athero.io
+Team members:
+Lukas Zadorozny
+zadorozny@athero.io
+Jay Friscia
+friscia@athero.io
+Dalton Janovsek
+janovsek@athero.io
+ThommasPlatsmier
+plattsmier@athero.io
+Alex Delingher
+delinger@athero.io
+
+
+
+
+

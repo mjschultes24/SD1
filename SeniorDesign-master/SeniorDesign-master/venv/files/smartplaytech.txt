@@ -1,0 +1,402 @@
+﻿SmartPlay.Tech
+Whitepaper
+V2.0
+Blockchain Realization in Game Industry
+
+
+
+
+Contents
+1. Online gaming - An Introduction                  3
+2. Our Solution                                     3
+3. Smart Contract Token - RLT                       5
+3.1 Token details                                   5
+3.2 Initial distribution of tokens                  5
+3.3 How to get tokens                               5
+4. Issue of RLT tokens                              5
+4.1 Emission formula                                6
+4.2 Economic Justification                          6
+5. Loyalty Rewards System                           7
+5.1 RLT Token as a multi-functional utility token   7
+6. Bonuses and Bounty                               8
+6.1 Bonuses for Players                             8
+6.2 Bug Bounty and Contribution Rewards             8
+7. Affiliate Program                                8
+7.1 Terms                                           8
+7.2 Rewards                                         9
+8. Development roadmap                              9
+9. Development team                                 10
+10. ICO (Crowdsale) - Ended                         10
+10.1 Summary                                        10
+10.2 Goals                                          10
+10.3 Distribution of ICO funds                      11
+10.4 Mechanism of ICO implementation                11
+
+
+
+
+1. Online gaming - An Introduction
+Online gaming, or gambling, is the wagering of something valuable, usually asset or
+money, on the outcome of an event or game, using the Internet. It usually includes
+various activities such as casino gaming, sports betting, bingo and other lotteries. Of
+these, casino games and sports betting account for the largest market share[1]. In 2015,
+the online gaming market had a volume of 37.91 billion U.S. dollars[2]. And according to
+market analysts, this figure is forecasted to increase to 59.79 billion U.S. dollars in 2020[2].
+Despite the booming market, the online gaming industry is plagued by three significant
+issues.
+Lack of Trust - Trust is an important factor, especially in online games, where a certain
+central  gaming  authority  is  accountable  for  keeping  the  players'  bets  as  well  as
+winnings safe. Building trust is difficult, especially for smaller, newer casinos or gaming
+centers. People usually aren’t confident enough to place bets on a platform which
+doesn't have the necessary resources required for the safekeeping of players' assets.
+There is also the additional factor of fraud; the gaming authority might tend to cheat
+players into depositing assets of significant value, and then disappear without paying
+back the players with their rightful winnings. Alternatively, players might tend to fool the
+gaming authorities into winning a significant value in assets through illegal or dishonest
+means.
+Lack of Anonymity - In the online gaming landscape, multiple players are competing
+against each other and a significant value in assets is almost always at stake. As such,
+some players might want to keep their identities hidden for personal security. This is not
+always the case with conventional online games.
+High Commission fees - Keeping transactional commission fees low has always been a
+challenge in the online gaming industry. Low fees encourage maximum participation
+from players, as well as enabling them to place micro bets, such that the participation
+fees are fairly insignificant compared to the total value of the bets placed. But, usually
+the operational costs for running a casino, even an online one, is significant , and it
+becomes mandatory to keep commission fees in order to keep the platform running over
+the long term.
+2. Our Solution
+SmartPlay.tech has developed a unique, decentralized gaming platform, based on
+Ethereum Smart Contracts, aiming to take advantage of the Blockchain technology in
+online games to counter these aforementioned issues.
+First, the platform eliminates the trust factor and brings complete transparency into the
+system with the help of Blockchain. The honesty of the game is confirmed by an open
+algorithm locked via a smart contract. It is impossible for anyone to alter the game
+conditions or predict the result of the game in the Blockchain. Moreover, there is no
+deposit required. Funds are controlled by the player and their winnings are directly
+transferred to their wallets. All the in-game transactions, including the processing of
+3
+
+
+
+
+bets  and  payout  of  winnings,  are  visible  to  the  players  and  investors,  enabling
+transparency within the platform.
+Second, the use of cryptocurrency in gaming addresses the question of anonymity for
+the  players.  People  can  participate  in  online  games  without  any  requirement  of
+registration, documentation or verification. Further, the players’ wallet addresses, which
+are primarily used for in-game transactions, cannot be associated with any personally
+identifiable  information.  Hence,  players  can  participate  in  the  online  games
+anonymously without worrying about their safety. It is to be noted, however, that we do
+not encourage the use of anonymity as an advantage for illegal participation of players
+from locations where gambling is banned. Access to our platform and its games are
+blocked from such locations.
+Third,  we  are  continuously  working  on  the  implementation  of  new  and  under
+development Blockchain forks that tend to minimize and even eliminate transaction
+fees. We have already been able to reduce the operating costs, particularly related to
+commissions during in-game transactions. As a result, one of the games implemented
+on our platform, was able to reach a certain level of operating profitability.
+We  have  developed  and
+launched the prototype of the
+European  Roulette  game,
+called  SmartRoulette,  based
+o n  a n  E t h e r e u m  S m a r t
+Contract.  We  have  tried  to
+make the gaming experience
+productive, fully functional and
+complete,  by  offering  the
+following features:
+• Various types of bets, such as Corner, Split, Sixline, etc.;
+• The possibility of placing up to 64 bets on different fields per turn;
+• Provably fair random number generation, as well as fully automated payouts, being
+governed by the smart contract;
+• Open source smart contract code available on GitHub, its transparency may be
+verified by any Blockchain developer;
+• All results of the smart contract are permanently stored in the Ethereum Blockchain.
+The game uses the Ethereum DApp browser to interact among the client browser, the
+Ethereum Blockchain and our smart contract via the SmartRoulette.io interface. For
+Google Chrome users, one has to install the MetaMask extension to enable these
+features. The game is available on both the Ethereum Main network (MainNet) as well as
+on the Test network (TestNet). After signing up, a user may select the TestNet mode, and
+get several free ETH test coins to try the game.
+We have also announced the launch of SmartBox[3] - a Blockchain based gambling
+machine working on Ethereum smart-contracts. It is a first-of-its-kind solution in the
+gambling industry, in which smart contract algorithms are used to implement traditional
+slot machine games.
+The SmartBox software is based on the SmartRoulette gaming mechanics, and includes
+all the advantages of our platform. Transparency and honesty are guaranteed by a
+4
+
+
+
+
+smart  contract,  which  cannot  be  altered,  even  by  the  SmartBox  owner,  since  the
+Blockchain ensures the permanence of data and game code.
+3. Smart Contract Token - RLT
+RLT (RouletteToken) is an ERC20 token, created for the primary purpose of its use in
+various blockchain-based gaming solutions developed by SmartPlay.tech. RLT tokens
+can easily be transferred among participants via Ethereum network addresses. They
+can also be transferred from and to supported cryptocurrency exchange accounts.
+3.1 Token details
+Name: Roulette token (RLT)
+Initial amount: 10,000,000 (10 million)
+Initial price: 1.00 RLT = USD 0.07 (0.0015 ETH)
+Token standard: ERC20
+3.2 Initial distribution of tokens
+• 2,500,000 RLT (25%) - Funded for token distribution during ICO (Crowdsale);
+• 2,500,000 RLT (25%) - Rewards for developers and initial investors of the project;
+• 5,000,000 RLT (50%) - Reserved for system maintenance — costs associated with
+servers,  domains,  refilling  bankroll  of  existing  and  new  game  versions,  bounty
+payouts and other overhead costs.
+3.3 How to get tokens
+There are several ways to get tokens. As of now, users can acquire RLT tokens by:
+• Purchasing tokens during ICO;
+• Placing bets in SmartRoulette (p. 8);
+• Assisting in the testing, development and promotion of the project;
+• Attracting players via the affiliate program;
+• Purchasing tokens on cryptocurrency exchanges.
+4. Issue of RLT tokens
+RLT token liquidity is primarily backed up by our products, which are games running on
+Ethereum  smart  contracts.  Therefore,  to  maintain  the  economic  sense  and
+attractiveness of the tokens, we bind the volume of tokens issued, to the quantity and
+the volume of games played.
+5
+
+
+
+
+4.1 Emission formula
+RLT tokens are generated after a bet is placed using ETH, in any version of Roulette.
+Generation of tokens is governed by the following formula:
+Emission = Bet * coef / RLT rate, where:
+Emission  (in RLT)  - Number of new tokens generated and received by players after
+placing a bet.
+Bet (in ETH) - A player's bet size.
+coef - The coefficient of return received by a player after placing a bet. This number is
+defined by the administrator as follows:
+Test period 03.14.2017 - 03.21.2017                                                           3%
+Test period 03.22.2017 - 03.29.2017                                                           2.5%
+Test period 03.30.2017 - 04.06.2017                                                           2%
+Test period 04.07.2017 - 04.14.2017                                                           1.5%
+After 04.15.2017                                                                              0.5%
+RLT rate - The current rate of RLT token to ETH on cryptocurrency exchanges.
+4.2 Economic Justification
+Roulette token holders have no reason to worry about the value of RLT being impacted
+by emission of new tokens, as:
+• A significant volume of token emission is only possible in case of high player activity,
+increase in demand and increase in popularity of RLT. The more the players' activity,
+the higher the popularity of RLT token and its value, leading to decrease in the
+issue volume equivalent to bets, as the emission volume is inversely proportional to
+a token rate;
+• At the same time players receive instant guaranteed bonuses in RLT tokens backed
+up by ETH cryptocurrency at the current rate and automatically become members
+of the loyalty reward system. All this eventually leads to increase in players' interest
+as well as the popularity of the project.
+Here we present several examples to help understand how the algorithm works*:
+Date: 03.17.2017
+coef: 3%
+Rate: 1 RLT = 0.0015 ETH
+A player places a bet 0.5 ETH. According to the formula, the smart contract issues 0.5 *
+0.03 / 0.0015 = 10 RLT and send them to player's balance.
+*
+Definite numbers are shown to simplify calculations as per the algorithm, and may differ in
+reality.
+6
+
+
+
+
+Date: 05.04.2017
+coef: 2%
+Rate: 1 RLT = 0.004 ETH
+A player places a bet 0.5 ETH. According to the formula, the smart contract issues 0.5 *
+0.02 / 0.004 = 2.5 RLT and send them to player's balance.
+Date: 17.04.2017
+coef: 0.5%
+Rate: 1 RLT = 0.011 ETH
+A player places a bet 0.5 ETH. According to the formula, the smart contract issues 0.5 *
+0.005 / 0.011 = 0.227 RLT and send them to players' balance.
+5. Loyalty Rewards System
+All loyal users have the privilege of receiving loyalty rewards for their contribution to the
+project. Loyalty reward points are built up from gaming activity, thus appraising users for
+their quality work and encouraging them to create additional value.
+Initial amount of tokens necessary for participation in the loyalty reward system is 1,000
+RLT,  which  can  be  acquired  by  using  SmartPlay.tech  products,  participating  in  its
+promotion or playing in its games. In the course of the project development, this number
+will vary.
+This  new  loyalty  program  is  currently  under  development.  Further  details  will  be
+available on the Smartplay.tech website.
+5.1 RLT Token as a multi-functional utility token
+RLT  is  mainly  used  as  an  in-game  token  for  playing  various  games  on  the
+SmartPlay.Tech platform. For example, it is now utilized for playing “European roulette”
+on Smartroulette.io. It could also be utilized for accessing several existing apps and
+services on the platform, as well as the ones developed in future. Hence, RLT serves as a
+utility token. Users can also exchange RLT in supported exchanges, such as Livecoin,
+YoBit, etc., so the tokens aren’t just locked in within the platform.
+In the current loyalty rewards system, reward payouts are directly dependent on the
+user activities, rather than being a regular dividend payout. Hence, this system is now a
+reward-based loyalty program, which is not subject to any regulation by the authorities.
+7
+
+
+
+
+6. Bonuses and Bounty
+6.1 Bonuses for Players
+When a bet is placed using ETH, new RLT tokens are generated according to the
+Emission formula (p. 6), and as a bonus for the player, the new tokens thus generated
+are sent to the same Ethereum address, which was used to place the bet.
+Tokens are paid regardless of the game result. After receiving tokens, the player can use
+them for different purposes:
+• Utilize  the  tokens  to  access  games  and  services  across  the  Smartplay.tech
+platform;
+• Send them to any other Ethereum network user;
+• Trade them on any of the supported cryptocurrency exchanges.
+6.2 Bug Bounty and Contribution Rewards
+Developers can also contribute to our project by testing our games/software, and
+reporting new bugs found in the system. Users who are able to find major bugs are
+rewarded in RLT. Additionally, any person contributing to the project in any way, if
+recognized by the team, shall also be eligible for bounty rewards. Bug bounty and other
+bounty rewards are distributed from the funds reserved for system maintenance. Please
+send your requests via email to info@smartplay.tech.
+7. Affiliate Program
+As per our affiliate program, any player who refers another player via their affiliate link
+gets rewarded whenever the referred player places a bet using RLT.
+7.1 Terms
+Every participant of the project can take part in the affiliate program by procuring an
+affiliate link and sharing the same to other people via:
+• Personal websites;
+• Public forums;
+• Instant messages / Chats;
+• Social Networks;
+• Media Reviews;
+• Direct referrals.
+What is strongly prohibited:
+• To send spam;
+• To post information relating to the project on non-thematic sections of forums,
+blogs, etc.;
+• To publish misleading information about the project.
+8
+
+
+
+
+7.2 Rewards
+Players who join the platform via affiliate links become permanently associated to the
+respective players who referred them, after placing the first bet. The affiliate is rewarded
+in RLT by the smart contract for each bet the referred player places using RLT. Currently,
+affiliate rewards are valid for lifetime as long as the referred player continues placing
+bets using RLT, although this could change in future. This reward is currently equal to
+0.5% of each bet (not depending on the game result), and may be modified later for
+better effectiveness.
+Here we present several examples to help understand how the affiliate program works:
+You post your affiliate link on your Facebook page and 7 users follow it. Only one of
+them installs the MetaMask extension and places the first bet amount of 100 RLT. At that
+moment, the particular user is permanently associated with you and you get your first
+reward calculated according to the following:
+Reward = (coef %) of Bet = 0.5% of 100 RLT = 100 RLT * 0.005 = 0.5 RLT
+During the following months the referred user places bets with total amount of 18000
+RLT in 100 games providing you with a total reward of 18000 RLT * 0.005 = 90 RLT.
+8. Development roadmap
+Our development plans for the near future, funded by our primary investments as well as
+the teams’ personal expenses, are as follows†:
+Q3 2018
+• Implementing a solution to further optimize transaction fees.
+• Adaptation  of  smart  contract  in  our  game  under  the  Casper  update  for  the
+Ethereum Blockchain.
+• Creating and implementing a new design for existing games.
+• Researching  to  find  possible  solutions  to  decentralize  the  winning  payouts.
+Currently these payouts are handled by our team; the idea is to the finance the
+winners’ payments from a special fund powered by private investors, who would
+receive benefits from the profits of the game.
+Q4 2018
+• Adding support for specialized browsers with built-in access into the Ethereum
+network.
+• Completion of the development and testing of the new game - Bingo - followed by
+game launch.
+• Creating an interface with easy access to an open Roulette transactions database.
+†
+This roadmap may be modified later for better effectiveness, as per the market conditions.
+9
+
+
+
+
+• Researching the possibilities of EOS smart contracts with the goal to create a
+gaming solution based on it.
+Q1 2019
+• Researching  on  the  possibility  of  creating  a  multiplayer  mode  for  the  existing
+games, so several players could play at a single roulette table.
+• Integrate player chat.
+• Exploring possible concepts for creating a multiplayer Poker game.
+9. Development team
+Our team of developers is experienced in the field of Blockchain technology for more
+than 4 years. The concept of smart contracts represents the minimization of human
+involvement, and that is the very ideology, which inspired us when we started the
+project                                                                                       —  trust  the  code  and  numbers,  rather  than  the  creators’  authority  or
+advertisement.
+There were several reasons for us to consider keeping the identities of the project
+founders, developers and testers a secret; a significant one among them being the fact
+that the legal status of cryptocurrencies is still questionable in the developers’ home
+country, and casinos are not allowed to operate outside permitted zones.
+But,  due  to  high  demand  from  the  community,  the  team  is  now  considering  the
+possibility of revealing their identities to the public in near future.
+10. ICO (Crowdsale) - Ended
+10.1 Summary
+We  have  successfully  completed  the  ICO  for  RLT  token.  The  three-day  crowdsale
+started on 7th of April, 2017 at 12:00 GMT, with the initial price of RLT being 0.0015 ETH,
+and ended on 10th of April, 2017. In total, the Smartplay.tech platform was able to raise
+2873.592 ETH, which was roughly equivalent to  $126,150 as of  04/10/2017. The total
+number of tokens sold at the time of ICO was 1,874,170.
+10.2 Goals
+We put realistic goals ahead of us to ensure that the collected funds are used for
+definite purposes aimed at delivering results. The following were some of the immediate
+goals we had in mind at the time of ICO:
+• To launch the affiliate program in order to boost the popularity of the platform and
+the game among new players;
+• To provide RLT token holders with sustainable loyalty rewards;
+• Introduce RLT token within popular cryptocurrency exchange markets;
+10
+
+
+
+
+• To  develop  and  launch  a  voting  system  for  RLT  token  holders  allowing  its
+participants  to  make  decisions  concerning  the  game  development  and  its
+promotion;
+• To present SmartRoulette game with animated 3D design, along with visual and
+sound effects;
+• To develop and launch a set of additional Roulette versions with various types of
+bets and options (for e.g., American Roulette, Russian Roulette, etc.).
+Since the ICO held last year, we have completed most of the ICO goals, a few others
+are in progress, while some new ones have also been added. We plan to develop the
+following games in the future:
+• Bingo;
+• Poker;
+• Blackjack;
+• Slots.
+For more information on our updated near-term goals, refer to p. 9.
+10.3 Distribution of ICO funds
+• 60% of the collected funds was used for carrying out an advertising campaign to
+promote our game;
+• 20% of the funds are being used for development of SmartRoulette game, as well
+as launching additional versions of the game;
+• 20% of the funds are reserved as rewards for developers and initial investors of the
+project.
+10.4 Mechanism of ICO implementation
+RLT tokens were initially priced at 0.0015 ETH during the ICO. The smart contract only
+allowed a total purchase of RLT tokens worth between 0.15 ETH and 500 ETH. In case of
+a valid purchase, the equivalent amount of RLT tokens was immediately sent to the
+Ethereum address used for the purchase. Moreover, no deposits were accepted from
+countries like the U.S. and Canada, where there are strict security regulations in place.
+Collection of deposits was discontinued after three days from the start of the ICO.
+References
+[1] - https://www.statista.com/statistics/248655/segmentation-of-online-gambling-market/
+[2] - https://www.statista.com/statistics/270728/market-volume-of-online-gaming-worldwide/
+[3] - https://www.youtube.com/watch?v=xQ1zsplSrmE
+11
+
+
+
+
+

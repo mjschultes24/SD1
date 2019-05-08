@@ -1,0 +1,314 @@
+﻿Universa
+Universa Blockchain Platform
+Whitepaper
+OVERVIEW
+Universa Platform and our Universa Smart Blockchain, or “C-Chain” for short, is the evolution of
+the blockchain idea to implement the most common entity in every business process: a set of
+referenced contacts, signed and stamped documents, without any of the numerous drawbacks
+found in other bitcoin-style token-based solutions. It operates via a decentralized system of
+versatile smart contracts or applications with electronic certification, that closely resembles the
+traditional creation of paper documents.
+INTRODUCTION
+The idea is to offer an automated electronic replacement of traditional paper documents and
+their substitutes (such as Word documents) and related workflow, in both essence and handling.
+Even though digital communications have been around for many years, from email to various
+blockchain systems, the cornerstone of business workflow remains as it was centuries ago: a
+paper document, signed, stamped and certified/notarized. The only difference is that now we use
+word processors to write, printers to print and communication networks to exchange drafts and
+scans. However, we then put the paper documents in a briefcase and handle them by hand. Now
+is the time to get rid of the briefcases, piles of papers, ink signatures and stamps. This is where
+Universa Platform comes in.
+WHAT IT DOES
+It allows virtually any type of smart contracts to be processed by a decentralized smart notary
+blockchain, forming contract chains that can serve virtually any purpose. For example:
+-                                                                                                     Personal or corporate bank accounts. A contract with the bank sets individual spending
+                                                                                                      limits for different users on the same account, in absolute or relative terms. Each user can
+                                                                                                      spend up to their individual limit, with some or all of them being able to top up
+-                                                                                                     Electronic currencies and crypto-tokens
+-                                                                                                     Smart self-processing shares of all types, with precision control of usage rights and times
+-                                                                                                     Voting and elections, personal identification and access control
+
+
+
+
+-                                                                                                    E-tickets and booking
+-                                                                                                    ICO for your projects, as smart tokens and set of standart smart contracts for ICO
+-                                                                                                    Incorporate any materials, intellectual property, source codes, images, blueprints,
+                                                                                                     e-currency, and more, all into a single contract
+-                                                                                                    Have both open and encrypted parts in each contract, with the private data only being
+                                                                                                     available to duly authorized parties
+-                                                                                                    Stock exchange robots that can coordinate intelligent stakes and shares
+-                                                                                                    Virtually anything that can be done with a paper contract in the old fashioned paper
+world!
+TECHNICAL DETAIL
+In short: Universa defines a set of data formats, protocols and entities, which enable smart
+contracts owned and controlled by services, organizations and persons, with a decentralized
+notary cloud that certifies each transaction.
+Each smart contract comes in a heavily protected, packed representation, the capsule, signed by
+at least one party (the owner) and optionally by any number of other parties; the capsule contains
+an unencrypted public, and optionally an encrypted private part, with multiple-key access. For
+example, the contract owner may not have access to the encrypted part, and several other
+parties may independently have access.
+Each capsule has a unique ID, by which the notary cloud can confirm and revoke its approval of
+the respective contract. A capsule approved by the notary cloud contains a smart contract, valid
+for all purposes declared in its public part.
+A party that has the necessary rights (e.g. keys) to perform one or more valid actions under the
+respective contract can perform those and validate the results, e.g., transfer some e-currency
+from one owner to another, vote with a public or privileged share, receive dividends, or do
+virtually anything else.
+To implement this mechanism, Universa Platform specifies the following open standards, entities
+and protocols:
+Open Smart Contract specification
+The specification defines the implementation of the heavily protected digital container, or
+capsule, that contains an easily extendable set of rules and specifications describing its usage,
+lifespan, purpose and ownership. The contract is as versatile as a white paper sheet, or rather a
+pile of white paper sheets, is it would be. You can make absolutely any document out of it, simply
+by adding some data and getting the necessary signatures and stamps.
+
+
+
+
+The contract specification sets the rules as to how and when the contract can be used. In short,
+the open standard describes:
+●   What action can be done: e.g. transfer ownership, split into parts (for example e-currency),
+generate a new contract out of it, or change its state
+●   When can any action be done: one or more time spans for every action. For example, a
+share that cannot be transferred before or after a certain date, or cannot vote on any day
+other than Monday
+●   Who can perform every action. For example, the deal must be approved by all parties, the
+escrowed purchase needs third party authorization, etc.
+Moreover, an API link can be embedded in the smart contract, which allows or forbids certain
+transactions. For example, a certain action needs to be authorized by calling some REST API
+method. This is how we add new services to the notary cloud: fill in the contract with proper
+instructions.
+Finally, it’s possible to put a short program or script directly into the contract, to implement
+virtually any other functionality. It’s a JavaScript program, executed in a sandbox within the notary
+cloud.
+Sample smart contracts could include ownership of a real-world object, an intellectual property
+(IP) item included as an attachment, a contract to purchase some property (usually, another smart
+contract).
+Smart Contract Chain (C-Chain)
+A Smart Contract Chain is a set of smart contracts that reference and confirm each other. A
+C-Chain represents a real-world set of related documents.
+The concept of a C-Chain can be illustrated by this real-world example of an intellectual property
+purchase.
+●   An IP ownership contract (IPO1): the IP owner creates this, possibly embedding a copy of
+the copyrighted materials or their signatures, and registers the contract with Universa.
+●   E-currency ownership contract (EC1): the Customer owns this - for example, received it
+from their bank. An e-currency contract could represent any amount of e-currency or a
+e-check.
+●   Sale contract (SC): We call it an exchange contract, as the owner basically exchanges his
+intellectual property for an e-currency contract.
+●   Resulting contracts: new IP ownership contract (IPO2) and new electronic currency
+contract (EC2), with swapped owners.
+
+
+
+
+The C-Chain for that case will be:
+-                                                                                                  Before the transaction: IPO1, EC1
+-                                                                                                  The transaction (sale): SC (IPO1, EC1) → IPO2, EC2. This means that two new contracts
+(IPO2 and EC2) are generated and approved, by processing smart contract SC, which
+refers to IPO1 and EC1.
+Note that as soon as the transaction is completed, IPO1 and EC1 are removed from the notary
+cloud database (optionally stored in the database). Also note that the cloud does not store the
+contracts themselves, just their current status.
+Decentralized network and Nodes
+This is a decentralized network of verification nodes that check and authorize smart contracts.
+The network authorizes each smart contract based on a consensus model. Each node checks the
+contract and propagates it down the network, until most of the nodes approve it, as in a
+consensus is reached. If an incident occurs before a consensus is reached, the conflicting
+contracts will be rejected.
+There are some key differences from bitcoin-like blockchain solutions:
+●   NO MINING. Transaction cost is low, as it should be. The aim of the service is to facilitate
+the e-document workflow, not to increase sales of graphics cards and other, generally
+useless, hardware for calculating hashes.
+●   NO CONTRACTS ARE KEPT. The cloud operates with contract tokens, based on the
+contract identification and signature. A typical contract validation record stored in the
+cloud is about 80 bytes long.
+●   NO FULL HISTORY. C-Chain ideology keeps only the minimum relevant subset of the
+validation records. Therefore the size of the data does not grow exponentially as with
+bitcoin-like blockchains. The full chains could be stored in a participant’s personal
+archives if need be. Invalidated records are discarded. This reduces hardware
+requirements for the notary cloud nodes and transaction costs. Moreover, the actual
+C-Chain database could actually fit in a mobile terminal.
+●   PREDICTABLE, STABLE and LOW TRANSACTION COST. All of the aforementioned
+renders   transaction cost literally independent from the system load, which allows the
+operator to estimate transaction costs, with reliable projections into the distant future.
+●   Master nodes are trusted. Their owners will not be anonymous and will take responsibility
+for their nodes. Coupled with the consensus principle, this makes the cloud resistant to
+typical bitcoin attacks.
+
+
+
+
+MORE DETAIL
+Extending contracts with services
+A contract could incorporate a set of API calls to external services to allow and/or perform
+actions, and to generate results. For example, a public share contract can have an endpoint that
+performs “vote” action for its owner by specifying a GET or POST HTTP request to a given URL,
+or an endpoint to generate dividends as e-currency emitted by a e-bank service.
+In this case, the notary cloud will call the specified endpoint, check the values returned and
+approve the respective transaction if everything is fine. This way, any types of services can be
+added to the Universa Platform without any pain of registration by providing contracts
+referencing its endpoints.
+Extending contracts with online scripts
+In some cases, the appropriate logic to perform a certain action and/or management can be too
+complicated to be expressed as a set of configuration properties. For example, you might want to
+associate a share with some external data, e.g, the US dollar exchange rate or a set of stock
+indices that will allow the share to be sold only under certain circumstances. While it’s almost
+impossible to include provisions for every possible scenario of this kind in the contract
+specifications, this could easily be achieved by a script stored within a contract. The script is a
+signed, non-changeable part of the contract that can perform any complex and intelligent logic to
+check complex conditions enabling certain actions and perform the respective actions as
+needed.
+Certainly, the same effect could be achieved by integration with an external service, but in some
+cases incorporating the logic clearly into the contract, rather than having it hidden in the external
+service, would make the system more trustworthy.
+COMPONENTS
+Specifications and documentation
+-                                                                                                       Open Smart Contract specifications
+-                                                                                                       Notary cloud API, protocols and specifications
+-                                                                                                       Notary node installation instructions and source code
+-                                                                                                       External integration API specifications
+
+
+
+
+Notary Cloud node
+Will be published as an open-source server application to work on a typical Unix server. A basic
+notary cloud will be deployed in the beginning, with the ability to register additional nodes.
+Client libraries
+At the first stage, Java libraries, which will work both in desktop environments and on the Android
+platform, will be published as open source. Later more bindings and platforms will be directly
+supported.
+Client applications
+We plan to provide the following, as a reference design and an MVP (Minimum Viable Product):
+-                                                                                                        Client reference application for Windows, MacOS and Linux, with basic Universa feature
+set
+-                                                                                                        Android mobile application
+CONCLUSION
+Universa was designed to meet the market’s obvious need for a functional and scalable
+blockchain, with the aim of eliminating paper documents from everyday business operations. It’s
+more than just another e-currency; it’s a proposed open standard and a working core service. It
+was created with real-world business practices and needs in mind, to simplify the conversion
+from paper documents to Universa Smart Contracts. It was universal from the very beginning, and
+we’ll do our best to ensure that it remains that way, as it grows and extends its functionality as the
+universal platform of choice for businesses worldwide. Welcome to Universa!
+See below: Smart Contract Example
+
+
+
+
+Use Cases: Smart Contracts
+Sample Smart Contract:
+---
+smart_contract:
+type:  company_foundation
+shareholders:
+quorum:  0.70  #  70%
+parties:
+-  key_name:  owner
+first_name:  Harry
+last_name:  Word
+share:  0.33333                       #  1/3rd
+vote:  0.40                           #  40%
+-  first_name:  John
+last_name:  Pain
+attesta_id:  1871234
+share:  0.65667                       #  65.667%
+vote:  0                              #  no  votes
+-  first_name:  John
+last_name:  Pain
+attesta_id:  1871234
+share:  0.01                          #  1%  share
+vote:  0.60                           #  60%  vote
+changes_require:
+-  sharehodlers_meeting:
+quorum:  0.90
+active_from:  '2017-12-12'
+title:  Horns  &  Hooves,  Inc.
+text:  company  creation  document
+roles:
+-  CEO:
+can_sign_documents:  all
+#  see  'decision'  contract  below
+assigned_by:  decision
+-  CFO:
+can_sign_documents:
+only:
+-  payments
+
+
+
+
+assigned_by:
+any:
+-  decision
+-  CEO
+attachments:
+-  company  chatrer.pdf
+-  presentation.pdf
+derivatives:
+proposal:
+type:  voting_proposal
+parties:  shareholders
+vote_contract:  vote
+decision_contract:  decision
+signed_by:
+-  any:
+-  shareholders
+-  CEO
+vote:
+type:  general_vote
+requires:  voting_proposal
+signed_by:
+-  any:  shareholders
+decision:
+type:  voting_result
+requires:  proposal
+signed_by:
+-  any:
+-  shareholders
+-  CEO
+order:
+type:  any
+signed_by:  CEO
+---
+Sequence of actions:
+a.  Somebody drafts a contract (in Contract Wizard, for example)
+b.  Sends it out to all shareholders to sign (via our messenger or via our chain)
+c.   The contract is registered
+Any of the owners:
+
+
+
+
+d.  Creates a proposal for CEO elections
+e.  Sends it out to everyone (the client does that)
+f.                                                                                                   The proposal is sent to all owners for voting
+g.  If there are enough votes, a decision is created that the CEO can act upon and
+register it at the Universa Blockchain. The final document is sent to the CEO,
+who then uses it to certify all other documents - a kind of a “seal”.
+All these actions can be done in our Universa Messenger chat.
+A draft contract for CEO election proposal
+smart_contract:
+type:  proposal
+parent_id:  1769769
+action:  assign_roles
+roles:
+-  CEO:
+new_party:
+party_id:  17900901
+current_party:
+#  this  is  crucial:  to  elect  new  one  we  should  fire  off  old  one!
+#  otherwise  2  CEOs  may  coexist...
+contract_id:  878767887
+Please note that the contract for   the CEO election proposal must refer to the previous contract,
+if any exists. Therefore the system, upon certifying this decision, will automatically delete the
+past contract, depriving the previous CEO of any authority to take any action.
+
+
+
+
+

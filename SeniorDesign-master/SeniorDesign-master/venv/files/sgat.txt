@@ -1,0 +1,1737 @@
+WHITE PAPER V 4.0
+2
+SUMMARY
+SUMMARY
+WARNING ON ICO RISKS
+SGAT, THE NEW INFRASTRUCTURE TO YOUR DECENTRALIZED PROJECTS
+FOREWORD
+EXECUTIVE SUMMARY
+1. THE REVOLUTION IN MOTION?
+• INDUSTRIAL REVOLUTIONS
+• FROM THE COMPUTER REVOLUTION TO THE WORLD WIDE WEB
+• VALUES OF BLOCKCHAIN TECHNOLOGY
+2. THE PREMICES OF SGAT PROJECT
+• PATTERNS OF TECHNOLOGY ADOPTION
+• THE NEW ARCHITECTURE
+• A FRAMEWORK FOR BLOCKCHAIN ADOPTION
+• HOW FOUNDATIONAL TECHNOLOGIES ARE IMPLEMENTED?
+3. THE ECOSYSTEM DEVELOPPED BY SGAT
+• SGAT USERS
+• FUNCTIONAL DIAGRAM OF SGAT INTERFACE
+• SGAT SERVICES AND APPLICATIONS
+• WHAT DOES BRING SGAT TOOL?
+• USE CASES AND APPLICATIONS
+• SGAT POINT
+• REGULATIONS AND REQUIREMENTS
+4. SGAT ICO, WHAT IS IT?
+• SGAT TOKEN SALES DISTRIBUTION
+• USE OF FUNDS RAISED THROUGH THE ICO
+5. THE TECHNOLOGY THAT SGAT DEVELOPS
+• SGAT BLOCKCHAIN
+• SGAT WEB APPLICATION
+• SGAT SERVERS & DATABASE
+• SNAPSHOT ON CYRPTONOTE ALGORITHM
+6. SGAT TOKEN CHARACTERISTICS
+7. ROADMAP
+8. CRYPTONOTE : NICOLAS VAN SABERHAGEN & SURAE NOETHER WORKS
+	 • « DIFFIE-HELLMAN » EXHANGES
+• TECHNICALITY AND REFERENCES
+• UNTRACEABILITY AND UNLIKABILITY
+• PROBLEMS WITH THE PROTOCOL
+9. THE TEAM
+• COMPANY PRESENTATION
+• PRESENTATION OF THE TEAM AND ITS PARTNERS
+2
+3
+4
+5
+6
+13
+15
+18
+20
+21
+22
+23
+25
+26
+30
+31
+32
+34
+35
+36
+38
+39
+41
+41
+43
+44
+44
+45
+45
+46
+47
+49
+50
+50
+51
+52
+54
+56
+56
+57
+3
+WARNING ON ICO RISKS
+By subscribing to the ICO, the subscriber acknowledges being fully informed of the warning contained in the
+document entitled «PUBLIC CONSULTATION ON INITIAL COIN OFFERINGS (ICOs)1 issued by the “Autorité des
+Marchés Financiers” (AMF) and in particular:
+Risk of capital loss:
+Capital invested in the ICO is not guaranteed. The investment made by the subscriber presents a significant
+risk of capital loss.
+No regulation of ICOs:
+The White Paper provided by SGAT TECHNOLOGIES in support of the ICO is for information purpose and can’t
+under any circumstances be assimilated to a legal or regulatory information document subject to prior control
+by the AMF.
+Lack of guarantees:
+The subscriber does not benefit from any of the legal guarantees associated with IPOs on regulated financial
+markets or other financial investments regulated by the AMF, as ICO does not benefit from a dedicated legal
+framework and is essentially covered by these contractual provisions.
+Volatility risk of tokens:
+“The value of tokens, just like that of cryptocurrencies in general, can be extremely volatile and subject to
+significant, and largely unforeseeable, fluctuations. Moreover, the market or markets on which these tokens
+are traded do not offer the same guarantees that are generally applicable to conventional financial markets.” 2
+Money laundering risk:
+Any subscription to the ICO in order to carry out illegal operations such as money laundering will give rise
+to an immediate denunciation by SGAT TECHNOLOGIES to the competent authorities and in particular to
+TRACFIN (« Traitement du renseignement et action contre les circuits financiers clandestins »: a service of
+the French Ministry of Finances responsible for fighting money laundering and terrorist financing.)
+1
+ Source : AMF public consultation on INITIAL COIN OFFERING (ICOs):
+http://www.amf-france.org/technique/multimedia?docId=workspace://SpacesStore/a2b267b3-2d94-4c24-acad-7fe3351dfc8a_fr_1.0_rendition
+2
+ Conf. Note 1
+4
+A powerful blockchain infrastructure offering decentralized
+applications and tailor-made smart contracts
+a public blockchain
+based on CryptoNote
+protocol
+but also, a physical gateway to a virtual world and a place of exchange for a crypto-tech community
+an innovative and
+scalable ecosystem
+offering tailor-made
+smart-contracts
+applications
+a benefit
+in terms of reliability,
+confidentiality, security,
+ergonomics and
+portability
+a platform dedicated
+to the community,
+an access to SGAT environement through a single
+member account
+SGAT, THE NEW INFRASTRUCTURE
+TO YOUR DECENTRALIZED PROJECTS
+SGAT is a decentralized smart-contracts and blockchain-based platform
+for tailor-made transactions
+OUR MISSION:
+OFFERING BLOCKCHAIN SOLUTIONS
+ADAPTED TO THE CHALLENGES OF ALL SECTORS
+What is SGAT?
+5
+FOREWORD
+But to get there, we are going to need more blockchain application users, more applications to create, and many
+more developers. The era we are living in is comparable to that of the birth of the Internet, where the general
+public was hearing about a technological revolution, without necessarily understanding how it works, but with a
+clear understanding of its impact on the economy and society: «blockchain is like the Internet before the arrival of
+the browser».
+Just like the Internet economy, we are convinced that blockchain will create a new economy, a crypto-tech economy that will be rewarded if based on decentralized but controlled trust. The basis of blockchain is the transmission of values.
+It is quite clear that the economy and society will experience major upheavals, which some qualify as a disruption,
+and even a revolution. But it is not a «disruptive» technology, i.e. one capable of defying a traditional business
+model by offering a low-cost solution that would quickly overtake the existing companies. In reality, it is a fundamental technology, a foundational one which has the potential to create new foundations for our economic and
+social systems.
+However, it will be some time before blockchain is established in our systems and its adoption will not be sudden,
+but gradual and regular. In any case, true technological and institutional changes are underway, and a profound
+mutation will undergo in many uses.
+It is from this vision and its strategic implications that SGAT was born, and from the desire, the urge, to participate
+in this adventure, that of a genuine transformation of the economy and governance initiated by the blockchain
+which, however, will be gradual.
+SGAT is above all a dynamic and passionate team that decided to combine their different skills and gather their
+expertise in order to concretize, in an open and participatory approach, its vision, through the creation of a consulting and development company of services and applications based on blockchain technology.
+SGAT adventure just only begun, we will do everything we can to make this project successful!
+Sébastien Pussiau
+CEO & Co-Founder
+SGAT
+Blockchain technology is the best tool of this decade. Versatile and modular, it is not
+a single object but is composed of multiple parts. It offers an immense field of
+exploitation and an infinite range of applications.
+The message of the blockchain is simple, but strong: it’s all about innovation. Its survival
+will depend on what we will do with it, and this will not be solely based on its technical
+characteristics.
+6
+EXECUTIVE SUMMARY
+SGAT is one of the first decentralized smart-contracts and blockchain-based platform. While focusing on
+enhanced privacy and maintaining the transparency and security of our blockchain, we offer comprehensive
+and tailor-made transactions. Our ambition is to offer innovative smart-contracts solutions adapted to the
+challenges of today’s industries.
+The blockchain is like a large accounting book distributed: one must imagine a very large notebook, which everyone can read, for free, on which everyone can write and impossible to erase. In short, it is a register protected against falsification by a system of trust shared among the participating members.
+By its nature, blockchain is a decentralized technology shared by its members, bringing trust, sharing and
+transparency. Blockchain technology is now applicable in many areas. We’re talking about use cases with many
+sectors of activity already concerned : energy, health, cadastral management, digital voting, carpooling, food
+processing, jewellery, luxury goods, insurance, banking... And among one of its main functionalities, «smart
+contracts» that can automate many contractual relationships.
+Bankers, notaries, insurers, auditors, bailiffs... The activity of many professionals – trusted third parties – is
+transformed by a technology that allows peer-to-peer processing of all types of transactions. Disintermediation,
+transparency, traceability and security are among the main key points of the promise of blockchain.
+Understanding this technology, but also identifying the challenges, needs and problems of each industry, as
+well as offering a private, confidential and business-friendly environment is SGAT mission. Through our ecosystem
+and our tailor-made toolkit, we offer a powerful and evolutive infrastructure, adapted and modelled to the
+specific needs of all sectors and business models.
+The blockchain, how does it work?
+How does it work:
+The transaction is complete
+Validation of the
+transaction by
+Someone requests a transaction the nodes
+The requested
+transaction is broadcast
+to P2P network, the “nodes”
+Once verified, the transaction is combined
+with other transactions to create a new
+block of data for the ledger.
+The new block is then added to the existing blockchain,
+in a way that is permanent and unalterable
+A verified transaction can
+involve cryptocurrency,
+contracts, records or
+other information
+BLOCKCHAIN
+SGAT
+SGAT POINT
+WEB
+APPLICATION
+SGAT
+7
+The real promise of the blockchain, what it will bring, is shared trust : trusted third parties can be replaced
+by these distributed books which are more accurate, more transparent and less expensive. In fact, like other
+industrial revolutions such as the steam engine or the Internet, the Blockchain will structurally change society.
+SGAT has the ambition to be a strong player in this transformation, by developing its own blockchain and its
+own crypto-currency, as well as a pre-blockchain application overlay. This platform will encompass all services
+and applications developed by SGAT. These services will focus on smart-contracts to ultimately have concrete
+applications that will be useful to everyone on a daily basis and in complete confidence.
+The technology that SGAT develops will thus allow the configuration of smart-contracts without modification
+of the source code of the blockchain. Therefore, the tool will be durable and scalable, able to be improved and
+adapted in order to offer ever more comprehensive services, and in accordance with behavioral and regulatory
+changes.
+SGAT aims offering solutions in all sectors but cannot be present everywhere, even less develop all solutions
+at the same time. That is why we have already preselected a few sectors to illustrate what SGAT could bring.
+SGAT ecosystem
+8
+In addition to the development of SGAT blockchain and ecosystem, SGAT project will first and foremost
+materialize through the inauguration of a physical gateway to this virtual world, the SGAT POINT: an all-pubic
+meeting-place for exchanges and idea sharing dedicated to the world of crypto-curency and to a community
+of neophytes, passionates and experts.
+The SGAT Point will primarily meet a growing and vital need for the survival of the blockchain, that to bring
+confidence to users in this technology but also to offer tools and resources to an active and committed crypto-tech community through Blockchain technology. It will be divided into two parts. First of all, a general-public
+area that will include a small catering area – coffee type – as well as co-working or privatizable areas to host
+various events. Finally, a private area, in order to receive SGAT’s corporates and commercial partners, and in
+which part of SGAT teams will be located.
+SGAT is the token at the heart of our ecosystem, allowing to access and use every services and applications
+developed by us. For example, transfer of fiduciary securities, exchange of cryptocurrencies, member subscription and access and use of the smart-contracts tools.
+Unlike Ethereum blockchain, the token SGAT is not ERC20 compliant and cannot be stored on any Ethereum
+wallet which supports Ethereum’s protocol such as MyEtherWallet or Metamask. That is why our blockchain is
+based on CryptoNote protocol.
+In addition, we are developing our own smarts-contracts technology and have chosen to separate our
+blockchain infrastructure from our smart-contracts tool infrastructure. This in order to create a modular and
+scalable tool, ultimately leading to an ever more comprehensive and customized infrastructure.
+Therefore, the SGAT that will delivered will be a full-fledged cryptocurrency like Monero, Dash, AEON, Bytecoin,
+etc… offering further strengths :
+• collaborative blockchain (possibility of mining)
+• independency from Ethereum network
+• creation of a brand-new smart-contracts technology
+A unique token to access SGAT ecosystem and services
+• Safe, fast and cheap transfer value
+• Secured, private, untraceable and fungible
+• Access and use of SGAT services
+(crypto and fiat transfer value,
+member subscription, SGAT Point…)
+01
+02
+03
+9
+Our technology
+SGAT blockchain and infrastructures consists of two layers : a new high-performance public blockchain and
+an innovative and evolutive eco-system focusing on smart-contracts and blockchain applications
+SERVERS & DATABASE
+Own and private AWS servers (performance and scalability) built on Ubuntu
+(Linux), with multiple servers running the smart-contracts applications mainly
+built on NodeJS.
+Database will run with MongoDB technology for a better scalability and flexibility.
+BLOCKCHAIN LAYER
+Based on CryptoNote protocol,
+written in C / C++ (Monero, Dash, AEON,
+Bytecoin, etc…), privacy oriented
+APPLICATIVE LAYER
+Written in Java, built with React
+(front, i.e. the user interface)
+and NodeJS (back, i.e. how the
+applications are built)
+SGAT FRAMEWORK
+Flexible, evolutive, and user-friendly
+ecosystem for a committed community
+SGAT POINT
+A physical gateway to a virtual
+world and a place of exchange for
+a crypto-tech community
+SMART CONTRACTS
+A modular and scalable smart-contracts
+technology with a focus on privacy
+STATE OF ART BLOCKCHAIN
+Technology with enhanced reliability,
+privacy, security, usability and
+portability
+10
+Characteristics of our ecosystem
+SGAT ICO, what is it?
+Tailor-made smartcontracts applications
+and modules
+Single account
+management and
+user-friendly interface
+An open and complete
+distributed ledger
+Legal certification and
+enforceability of the
+smart-contracts
+A framework built
+for individuals and
+companies
+Privacy, confidentiality
+and fungibility of the
+counterparties
+A simple access to
+blockchain applications
+and services
+A community-based
+token designed to
+access SGAT ecosystem
+Let us take the case of Air France as an example : an IPO would consist in the purchase of Air France shares,
+whereas an ICO would rather be the pre-buying of Passenger Miles. Their value is therefore supposed to be
+based on the services ultimately provided by the company behind the ICO. So, the ICO is a meaning, a beginning,
+not an ending. By proposing to support us, we invite you to take part in this adventure.
+First, because ICOs are removing the barrier between professional and private investors. Anyone can rely on
+promising services: you can thus become a Business Angel for SGAT in a very accessible and transparent way.
+Indeed, we allow anyone who wishes to offer financial support to have direct access to our future pre-sale services,
+and thus become the first users. This is why we offer the sale of our tokens which will be the unique way of
+payment for our services and the use of our blockchain.
+In fact, we are building, even before the opening of our blockchain, a large and eclectic community which will
+be at the cutting edge of SGAT, both financially and in terms of SGAT’s values.
+5% 35%
+3%
+ 35%
+ 12%
+ 10%
+3%
+3% 4%
+ 2%
+6,5%
+6%
+6,5%
+4%
+11
+SGAT token sales distribution
+Use of funds raised throught the ICO
+• Volume: up to 12,000,000 SGAT
+• Maximum token amount for sale:
+• 65 %, splitted as follows:
+	 • 8% for privat pre-sales, including 30% bonus
+	 • 15% for public pre-sale, including 15% bonus
+• 77 % en la vente publique
+• Softcap ICO : 1,500,000 €
+• Hardcap ICO : 6,500,000 €
+Proceeds from the token pre-sale will fund the platform launch and development, user acquisition and the
+physical gateway
+SGAT POINT
+Office & Management
+Software Development
+Cash reserve
+Marketing & Communication
+Legal
+PRIVATE PRE-SALE PUBLIC PRE-SALE PUBLIC SALE INVESTOR POOLS AND PRIVATE
+CORPORATE SALES
+KYC Procedure Required Required Required
+Hardcap 500 000 € 1 000 000 € 5 000 000 €
+Token price 1 € = 1 SGAT
+Token bonus 30 % 15 % 0 % 30 % à 55 %
+Minimum
+participation
+500 € 100 € 50 000 €
+Currencies accepted BTC (bitcoin), ETH (ethereum), et € (euros)
+BTC & ETH will be converted in € at market price (in case of strong volatility, an adjustment could be made)
+Private Pre-Sale
+Public Pre-Sale
+Public Sale
+Maximum token amount for sale
+Marketing & community support
+Advisors
+Ambassadors
+Team
+Legal
+Founders
+Cash reserve
+Shareholders
+12
+SGAT token characteristics
+12,000,000 tokens will be in circulation if the token sale maximum hardcap is reached. Maximum supply is
+however set at 30,120,000 through mining. Unsold tokens won’t be mined and even less burned but will be
+leaved for further mining by the community.
+Indeed, shortly after the official launch of SGAT webapp (Q4 2018), the source code will be published so that
+our blockchain becomes collaborative and anyone can participate in the mining of SGAT blockchain.
+SGAT is based on the CryptoNote protocol, an open-source protocol that ensures counterparty anonymity
+and transaction confidentiality by using, for cryptography and mathematical logic enthusiasts, so-called circle
+signatures and «Diffie-Hellman» key exchanges to make transactions untraceable, addresses and amounts
+exchanged remaining hidden.
+Community mining
+Pre-sales mining
+SGAT TOKEN EMISSION MINING (%)
+13
+THE REVOLUTION 01 IN MOTION?
+In order to allow even the very beginners to look at the exciting subject of blockchain technology and the
+revolution it triggered, let us recall the basic principles underlying this technology4.
+4 For more details on the technology – for the very beginners, or as a simple reminder – we invite you to check the informative and pedagogical memos
+available for free in the SGAT library (SGATpedia), accessible to the memberds registered on the platform
+DISTRIBUTED DATABASE
+Each party on a blockchain has access to the entire database and its complete history.
+No single party controls the data or the information. Every party can verify the records
+of its transaction partners directly, without an intermediary.
+PEER TO PEER TRANSMISSION
+Communication occurs directly between peers instead of through a central node.
+Each node stores and forwards information to all other nodes.
+«It will take years to transform the business world, but the
+adventure begins now» 3
+3
+ Quote from Marco Iansiti and Karim R. Lakhani, authors of « The Thruth About Blockchain »
+TRANSPARENCY WITH PSEUDONYMITY
+Every transaction and its associated value are visible to anyone with access to the system.
+Each node, or user, on a blockchain has a unique 30-plus- character alphanumeric address
+that identifies it. Users can choose to remain anonymous or provide proof of their identity
+to others. Transactions occur between blockchain addresses.
+IRREVERSIBILITY OF RECORDS
+Once a transaction is entered in the database and the accounts are updated, the records
+cannot be altered, because they’re linked to every transaction record that came before them
+(hence the term “chain”). Various computational algorithms and approaches are deployed
+to ensure that the recording on the database is permanent, chronologically ordered, and
+available to all others on the network.
+COMPUTATIONAL LOGIC
+The digital nature of the registry means that transactions carried out on the blockchain can
+be subject to IT logic and therefore programmed (coded). Users can define algorithms and
+rules that automatically trigger transactions between network nodes.
+14
+Fields of exploitation of Blockchain technology are immense and we want to accompany and facilitate the
+access to Blockchain services and applications in a real, sustainable and innovative economy, through a
+network of quality partners, but more than anything passionate ones.
+Through blockchain, our world is engaged in a series of deep changes capable of challenging our entire societal
+model patiently built for nearly two centuries. It is quite clear that the economy and society will experience major
+upheavals, which some qualify as a disruption, and even a revolution, and that a profound transformation will
+take place in many uses.
+But it is crucial, first of all, to apprehend and understand this revolution by briefly looking at previous revolutions
+that impacted our economies and societies since the 18th century. 
+15
+According to Carlota Perez, a Venezuelan scholar specialized on technology and socio-economic development,
+and whose researches focused on the concept of techno-economic paradigm shifts and the theory of great
+surges – a further development of Joseph Schumpeter’s work on Kondratieff waves – we can distinguish five
+successive eras, including three industrial revolutions from 1771 to present. 5
+1ST INDUSTRIAL REVOLUTION:
+The Era of Mechanized Industry and Hydraulic Power
+Age of Steam and Railways
+1771
+1829
+CORE COUNTRY:
+TRIGGERING EVENT:
+Test of the ‘Rocket’ steam engine for the Liverpool-Manchester railway
+NEW OR REDEFINED INDUSTRIES:
+Steam engines and machinery, iron and coal mining (central role), railway
+construction, rolling stock production, steam power for many industries
+(including textiles)
+NEW OR REDEFINED INFRASTRUCTURES:
+Railways, universal postal service , telegraph (nationally), great ports,
+great depots and worldwide sailing ships, city gas
+CORE COUNTRY:
+TRIGGERING EVENT:
+Arkwright’s mill opens in Cromford
+NEW OR REDEFINED INDUSTRIES:
+Mechanized cotton industry, wrought iron, machinery
+NEW OR REDEFINED INFRASTRUCTURES:
+Canals and waterways, water power
+5
+ Source : Carlota Perez, « Technological Revolutions and Techno-Economic Paradigms »,
+Technology Governance, January 2009 :
+http://technologygovernance.eu/files/main//2009070708552121.pdf
+© Morio
+Industrial revolutions
+16
+2ND INDUSTRIAL REVOLUTION:
+Age of Steel, Electricity and Heavy Engineering
+Age of Oil, the Automobile and Mass Production
+1875
+1908
+CORE COUNTRY(IES):
+TRIGGERING EVENT:
+First Model-T comes out of the Ford plant in Detroit, Michigan
+NEW OR REDEFINED INDUSTRIES:
+Mass-produced automobiles, cheap oil and oil fuels, petrochemicals
+(synthetics), internal combustion engine for automobiles, transport,
+tractors, airplanes, war tanks and electricity, home electrical appliances,
+refrigerated and frozen foods
+NEW OR REDEFINED INFRASTRUCTURES:
+Networks of roads, highways, ports and airports, networks of oil ducts,
+universal electricity (industry and homes), worldwide analog
+telecommunications (telephone, telex and cablegram) wire and wireless
+CORE COUNTRY(IES):
+TRIGGERING EVENT:
+The Carnegie Bessemer steel plant opens in Pittsburgh, Pennsylvania
+NEW OR REDEFINED INDUSTRIES:
+Cheap steel, heavy chemistry and civil engineering,
+electrical equipment industry, copper and cables, canned
+and bottled food, paper and packaging
+NEW OR REDEFINED INFRASTRUCTURES:
+Worldwide shipping in rapid steel steamships, Suez Canal,
+transcontinental railways, great bridges and tunnels,
+worldwide telegraph, telephone (mainly nationally),
+electrical networks (for illumination and industrial use) 
+17
+3RD INDUSTRIAL REVOLUTION: 1971 Age of Information and Telecomunications
+CORE COUNTRY:
+TRIGGERING EVENT:
+The Intel microprocessor is announced in Santa Clara, California
+NEW OR REDEFINED INDUSTRIES:
+Cheap microelectronics, computers, software, telecommunications,
+control instruments, computer-aided biotechnology and new “revolutionary”
+materials (resins, silicones, ceramics)
+NEW OR REDEFINED INFRASTRUCTURES:
+World digital telecommunications (cable, fiber optics, radio and satellite),
+internet, electronic mail and other e-services, high-speed multi-modal
+physical transport links (by land, air and water). The Internet disrupted
+the usual production paradigms by increasing the intensity of exchanges
+on a global scale
+Jeremy Rifkin, an American writer born in 1971, economic
+and social theorist, described this new age of the information
+and telecommunications as the «third industrial revolution»
+(or “computer revolution” that would be distinct from the
+traditional production sectors of activity and would have
+started with the development of new information and
+communication technologies).
+18
+We could also summarize the milestones of the “technological revolution” by:
+But how would this evolution be a revolution?
+What distinguishes a random collection of technology and justifies conceptualizing it as a revolution are two
+basic features : the strong interconnectedness and interdependence of the participating systems in their
+technologies and markets; and the capacity to transform profoundly the rest of the economy (and eventually
+society).
+The first is the most visible and defines what is popularly understood as “the revolution”; but in reality, it is the
+second that makes it really warrant the term.
+The technological revolution is that capacity to transform other industries and activities into
+new industries that become the engines of growth for a long period of time while leading to
+a significant rise in productivity across the economy, along with a vast reorganisation of the
+socio-economic system.
+The computer
+in 1944
+The Macintosh
+in 1984
+Internet
+in 1994
+Social networks
+in 2004
+The blockain
+in 2014
+The minicomputer
+in 1964
+The mainframe
+in 1954
+The personal computer
+in 1974
+From the computer revolution to the World Wide Web
+19
+The information revolution began in the 70s with the “mainframes” and has undergone a major evolution every
+10 years : the PC in the 80s, Internet in the 90s, then social networks in 2000s. Blockchain technology would
+then be the natural evolution of the past forty years.
+However, according to many economists and researchers, a new source of energy is needed for an industrial
+revolution to happen. We have successively seen the steam, the electricity, and the oil, but the computer
+revolution of the 70s doesn’t have clean energy, even though it is still a revolution.
+What if the energy of this new revolution was actually computer science, the Internet ? Isn’t the economy
+and society at the heart of a radical transformation thanks to (or because of) this technological revolution?
+Blockchain technology, or more widely that of the large distributed ledgers, isn’t it carried, conveyed and
+amplified by the web network ? By adopting this reasoning, we are in the middle of a revolution.
+Don Tapscott, author of Blockchain Revolution, declared in 1994 that «Blockchain represents the second era
+of the Internet. We got the internet of information. With blockchain, we see the rise of the internet of value.
+There is great potential to improve the economy and management of States.
+Many experts actually say that the blockchain seems as revolutionary as the invention of the internet: in the
+1990s and 2000s, it revolutionized society through data search as well as the joint use of information by online
+communities. But blockchain goes even further, allowing the distribution and management of almost all types
+of data, including ownership certificates, real and numerical values, and even identity-related data. In short,
+this technology offers the possibility of distributing, updating and coordinating electronic lists practically in
+real time.
+Would we then be in the midst of creative destruction, synonymous of jobs and markets creation at the
+expense of the destruction of other jobs and markets? Let us recall that in 1942, in Capitalism, Socialism
+and Democracy, Schumpeter explained that «the new one doesn’t come from the old one, but appears next
+to the old one, competes with it until ruining it».
+We are convinced that this «World Wide Web” era with the internet and then the collaborative
+economy reaches its climax through blockchain technology. By relying on the internet network, the
+internet of things and artificial intelligence, this technology will allow making energy itself, cities,
+buildings, cars, industries, trades, etc, smarter, in order to bring to our economy and society more
+transparency, sharing and trust.
+It seems that blockchain technology is the next revolution and that 2017 has been the year when organizations
+and the general public discovered its first concrete applications. 2018 will most certainly be a year of confirmation and democratization among the general public and organizations, but more importantly a vital year to its
+survival because of its regulatory and legal challenges.
+20
+It is the crisis of confidence and defiance towards companies that, at the turn of the 2007-2008 crisis, gave
+birth to Bitcoin and then to blockchain technology as we know it today. A libertarian spirit blew on the finance
+world, and that’s why banks and other financial institutions were the first to react to the rise of bitcoin and
+attempted to get their hands across this technology which threatens disrupting them. Technology that, by
+its nature, is decentralized and shared by its members, bringing trust, sharing and transparency. This is the
+promise of the blockchain.
+But it is clear that the economy and society won’t change and be transformed in a few months because of – or
+thanks to – blockchain technology. We know, however, that the process is now underway and that few things
+can stop it. While initiatives on crypto-currencies and public blockchains are being launched all over the world,
+vast international blockchain projects are also being initiated by States and public or private organisations, and
+States, financial and regulatory institutions are seriously considering the subject. The enthusiasm generated by
+last G20 on the question of Bitcoin regulation is a convincing example. Through blockchain and the questioning
+of our societal model, some of the major challenges facing today’s world are expressed.
+But it is precisely by restricting it to known and recognized functions of the economy (monetary exchanges,
+decentralized, simplified transactions, eviction of high-cost intermediaries), of production (modeling of tomorrow’s 4.0 enterprise, DAOs), of pure application (securing exchanges and data) or of governance (decentralization, consensus), that any forward-looking vision of the blockchain is prevented.
+Through blockchain technology and distributed consensus protocols, the general public will very soon discover
+disintermediation and digital currencies. New services offering instant and near-zero-cost transactions,
+marketplaces and social networks without intermediaries (trusted third parties), or group insurances without a
+central control body, but also autonomous and shared cars. We could even dream of transparent democracy,
+of smart energies and cities...
+Since 2008 the financial crisis, we gradually lost confidence in our banks and financial institutions, even stateowned... But blockchain could offer a new trust to our community, to «the other us», to the one who corresponds to us, who resembles us. A community through which could emerge a new economy and a new form
+of governance and income distribution. Blockchain technology will now amplify what the Web has initiated
+and developed.
+It will perhaps succeed in this bet initiated by the Web to place more human, freedom and trust at the heart
+of its technology and thus gradually shift us from a wikinomics world (collaborative) to a trustnomics world
+(trust)... it is all what we must build. But blockchain is not the revolution so much announced, «it is only the
+tool of a world itself entered in revolution»6
+It directly questions at least five of these major challenges : value, money, work, the individual
+and democracy; while technically being able to be used to address other important issues such as
+environmental preservation or energy management.
+6
+ Quote from Alain Brégy, e-democracy/e-citizenship, commons and free currencies activist. He is the founder of « vol de nuit », a company dedicated to
+innovative difital uses : artificial intelligence, virtual reality, network applications, sharing platforms, blockchain solutions. He is also the co-founder of the
+France Blocktech association, a French blockchain ecosystem association and initiaor of the Blockchain Alsace group.
+Values of blockchain technology
+21
+THE PREMICES 02 OF SGAT PROJECT
+Contracts, transactions, and the records of them are among the defining structures in our economic, legal, and
+political systems. They protect assets and set organizational boundaries. They establish and verify identities
+and chronicle events. They govern interactions among nations, organizations, communities, and individuals.
+They guide managerial and social activities.
+And yet, these critical tools and the bureaucracies formed to manage them have not kept up with the
+economy’s digital transformation and in this digital world, the way we regulate and maintain administrative
+control has to change. Blockchain promises to solve this problem.
+This technology, at the heart of bitcoin and other virtual currencies, is an open and distributed ledger that can
+record transactions between two parties efficiently and in a verifiable and permanent way. The ledger itself
+can also be programmed to trigger transactions automatically. (See the sidebar “How Blockchain Works.”)
+Indeed, virtually everyone has heard the claim that blockchain will revolutionize business and redefine companies
+and economies. The enthusiasm generated by its potential is however seriously threatened by the media hype.
+It is not only security issues – such as the collapse, in 2014, of MtGox, one of the largest bitcoin exchange
+platforms at the time, or more recently, the hackings of other platforms – which preoccupies. Many barriers—
+technological, organizational, of governance and even societal — will firdt have to fall.
+But true blockchain-led of economy and governance initiated by the blockchain will not happen for many
+years. Because it is not a «disruptive» technology, capable of challenging a traditional business model by
+proposing a solution at lower cost and thus quickly supplanting existing companies.
+Blockchain is actually a fundamental technology that has the potential to create new foundations for
+our economic and social systems. However, it will take decades for it to take hold, and its adoption will not
+be sudden, but gradual and steady, as successive waves of technological and institutional change accelerate.
+With blockchain, we can imagine a world in which contracts are embedded in digital code and
+stored in transparent, shared databases, where they are protected from deletion, tampering, and
+revision. In this world every agreement, every process, every task, and every payment would have
+a digital record and signature that could be identified, validated, stored, and shared. Intermediaries
+like lawyers, brokers, and bankers might no longer be necessary. Individuals, organizations,
+machines, and algorithms would freely transact and interact with one another with little friction.
+This is the immense potential of blockchain. 
+22
+To understand why this transformation is inevitable, and has even been initiated for a long time, Marco Iansiti
+and Karim R. Lakhani explain that we must first look at what we already know about the adoption of a technology,
+and in particular about the transformation process specific to other fundamental technologies. One of the
+most relevant examples is distributed network computing, born with the adoption of TCP/IP (Transmission
+Control Protocol/Internet Protocol) protocols, which laid the foundations for the development of the Internet.
+Before jumping into blockchain strategy and investment, let’s reflect on what we know about technology
+adoption and, in particular, the transformation process typical of other foundational technologies. One of
+the most relevant examples is distributed computer networking technology, seen in the adoption of TCP/IP
+(transmission control protocol/internet protocol), which laid the groundwork for the development of the internet.
+Introduced in 1972, TCP/IP first gained traction in a single-use case: as the basis for e-mail among the researchers
+on ARPAnet, the U.S. Department of Defense precursor to the commercial internet.
+Before TCP/IP protocols, the architecture of telecommunications networks was based on «circuit switching», in
+which connections between the two users or two machines had to be established in advance and maintained
+throughout the exchange. To ensure communication between any two nodes, telecom service providers and
+equipment manufacturers invested billions in building dedicated lines.
+TCP/IP protocols burst into the mainstream with the advent of the World Wide Web in the mid-1990s and
+rapidly new technology companies emerged to provide the «plumbing» (hardware, software, and services needed
+to connect to the network now open to the public and exchange information). Netscape commercialized
+browsers, web servers, and other tools and components that accompanied the development and adoption of
+Internet services and applications, while Sun led the development of Java, the application programming language.
+From the exponential growth of information on the Web were then born Infoseek, Excite, AltaVista and Yahoo!,
+to guide users around it.
+When this basic infrastructure gained critical mass, a new generation of companies took advantage of this lowcost connection by creating Internet services that were compelling substitutes for existing businesses. CNET,
+the information website put the news online, Amazon created a larger book offering than any other bookstore,
+while Priceline and Expedia facilitated the purchase of airline tickets and introduced unprecedented transparency into the process. The ability of these new entrants to cover a large market at a relatively low cost has
+logically put considerable pressure on traditional businesses such as newspapers and physical retailers.
+TCP/IP protocols then disrupted this model by creating a public, open and shared network without any central authority or party responsible for its maintenance and improvement. In the late
+1980s and early 1990s, an increasing number of companies, such as Sun, NeXT, Hewlett-Packard
+and Silicon Graphics, used TCP/IP protocols, in part to create localized private networks within
+organizations. They then developed technology bricks and tools that extended its use well beyond
+the e-mail, gradually replacing the technologies and standards of more traditional local networks;
+dramatic productivity gains were then observed.
+7 Source : Marco Iansiti et Karim R. Lakhani, « The Truth About Blockchain »
+Patterns of technology adoption 7
+23
+Building on the very broad access to the Internet, the next wave of businesses generated new, transformative
+applications that fundamentally changed the way businesses created and captured value. These companies
+were given a «peer-to-peer» architecture and produced value by coordinating decentralized networks of users.
+Ebay revolutionised online sales through auctions, Napster shaken up the music industry, Skype changed
+telecommunications and Google transformed web search by exploiting user-generated links to deliver relevant
+results.
+It finally took more than thirty years for TCP/IP protocols to go through all these stages - single application, localized use, substitution and transformation – and reshape the economy. Today, more than half of the world’s
+largest market capitalizations have Internet-driven, platform-based business models.
+The very foundations of our economy have changed. The physical scale and exclusive intellectual property no
+longer guarantee unbeatable advantages. Increasingly, business leaders are companies that position themselves
+as «keystones», proactively organizing, influencing and coordinating large networks of communities, users and
+organizations.
+24
+The parallels between the blockchain and TCP/IP protocols are obvious. Just as the e-mail makes it possible to
+send bilateral messages, Bitcoin makes bilateral financial transactions possible. Blockchain development and
+maintenance is open, decentralized and shared - like TCP/IP protocols. A team of volunteers around the world
+maintains the basic software. And, like the e-mail, makes it possible to send bilateral messages, Bitcoin makes
+bilateral financial transactions possible. And, like the e-mail, Bitcoin gained popularity thanks to a fairly small
+but very enthusiastic community.
+TCP/IP protocols released a new economic value by significantly lowering the cost of connections. Similarly,
+the blockchain could significantly reduce transaction costs. This technology has the potential to become the
+system of record for all transactions. If this were to happen, the emergence of new blockchain-based sources
+of influence and control would once again make the economy undergo a radical change.
+For any company, the continuous recording of transactions is one of the core functions. These recordings keep
+track of past operations and performance, and guide planning for future goals. They provide an overview not
+only of the company’s internal operations, but also of its external relationships. Each organization maintains
+its own records, and these are private. Many companies do not have a master register of all their activities;
+separate registers are kept within internal units and functions. The problem? Reconciling individual and private
+transaction registers is time consuming and prone to error.
+For example, a current stock transaction can be executed in a few microseconds, often without human intervention. However, settlement - the transfer of ownership of the stock - can take up to a full week. This is because the parties do not have access to their respective records and therefore cannot automatically verify that
+the assets exist and can be transferred. Instead, a series of intermediaries act as guarantors as the transaction
+is recorded within the organizations and the records are updated one by one.
+In a blockchain system the registry is replicated in a large number of identical databases, each hosted and
+maintained by one of the interested parties. When changes are recorded in one database, all other databases
+are updated simultaneously. Thus, at the same time as transactions are made, the notification of the values
+and assets exchanged are permanently entered in all registers. No need for a third-party intermediary to
+verify or transfer ownership. If a stock transaction is carried out on a blockchain-based system, it would be
+settled in a few seconds, securely and verifiably (the infamous hacks that hit the bitcoin exchanges highlighted
+weaknesses specific not to the blockchain itself, but to the separate systems linked to certain users of the
+blockchain).
+Blockchain was launched in October 2008 as part of a virtual money offer, the Bitcoin, a system for
+putting money into circulation, transferring ownership and confirming transactions, all without
+central authority. Bitcoin is the first application of blockchain technology
+The new architecture
+25
+If Bitcoin is like the first e-mails, will blockchain have to wait decades before reaching its full potential? It is very
+likely that the answer is a qualified no unless you have a crystal ball it is impossible to predict exactly how long
+the transformation will take, but you could guess what types of applications will be the first to gain ground and
+how blockchain will eventually be widely adopted.
+Still according to the analysis of Marco Iansiti and Karim R. Lakhani, history suggests that two parameters
+influence the evolution of a foundational technology and its applications:
+• the first is novelty, i.e. the degree to which the proposed application is new to the public :
+the more innovative it is, the greater the efforts needed to make users understand the
+problems it solves;
+• the second dimension is complexity, represented by the level of ecosystem coordination
+involved—the number and diversity of parties that need to work together to produce value
+with the technology. For example, a social network with just one member is of little use; a
+social network is worthwhile only when many of your own connections have signed on to it.
+Other users of the application must be brought on board to generate value for all participants.
+The same will be true for many blockchain applications. And, as the scale and impact of those
+applications increase, their adoption will require significant institutional change.
+They developed a diagram, divided into quadrants, characterizing certain innovations according to these two
+contextual parameters (see exhibit).
+01
+02
+A framework for blockchain adoption
+26
+Adoption of foundational technologies generally occurs in four phases. Each phase is characterized by the
+novelty of the applications and the complexity of the coordination efforts required to make these applications
+workable. Those with a relatively low degree of novelty and complexity will be accepted first. On the other
+hand, if the degree of novelty and complexity of applications is high, they logically take decades to evolve but
+can transform the economy. TCP/IP technology, introduced on Arpanet network in 1972, already reached the
+transformation phase, but blockchain applications (in red) are still in their early days.
+Each quadrant represents a stage of technological development. Identifying the quadrant in which a given
+blockchain innovation fits into would help policy makers appreciate the challenges they face, the level of collaboration and consensus required, and the legislative and regulatory efforts required. This scheme would also
+identify the processes and infrastructures to be put in place to facilitate the adoption of innovation.
+Managers could use it to assess the stage of blockchain development in any industry, and to evaluate strategic
+investments with regard to their own potential in this area.
+SUBSTITUTION
+retailer gift cards based
+on bitcoin
+AMAZON ONLINE BOOKSTORE
+SINGLE USE
+bitcoins payments
+E-MAIL ON ARPANET
+HIGH
+LOW DEGREE OF NOVELTY AMOUNT OF COMPLEXITY AND COORDINATION
+TRANSFORMATION
+self-executing
+smart contracts
+SKYPE
+LOCALIZATION
+private online ledgers
+to process financial
+transactions
+INTERNET CORPORATE
+E-MAIL NETWORKS
+HIGH
+How foundational technologies are implemented?
+27
+SINGLE USE
+LOCALIZATION
+In the first quadrant, applications with a low level of novelty and coordination, offering better, less costly and
+highly focused solutions. The e-mail, a cheap alternative to phone calls, faxes and snail mail, was a single-use
+application for TCP/IP protocols (although its value increased with the number of users). Bitcoin also finds its
+place in this quadrant: even in its early days, it offered immediate value to the few who used it as an alternative
+method of payment. It can be considered as a complex form of e-mail capable of transferring not only information but also real value.
+The second quadrant includes innovations that are relatively innovative but require only a limited number of
+users to create immediate value, which facilitates their adoption. If the development of blockchain technology
+follows the same path network technologies took it within companies, its innovations can be expected to rely
+on single-use applications to create localized private networks to which multiple companies will be connected
+through a decentralized register, notably in the financial services sector or in small companies’ networks, so
+that the coordination required remains modest.
+For example, NASDAQ works with chain.com, one of many blockchain infrastructure providers, to provide technology for processing and validating financial transactions. Bank of America, JPMorgan, The New York Stock
+Exchange, Fidelity Investments and Standard Chartered but also French banks such as Société Générale, BNP
+Paribas and Crédit Agricole are testing blockchain technology to replace paper-based and manual transactions
+in several areas: trade finance, foreign exchange, cross-border settlements and securities settlement. And
+the Bank of Canada is testing a digital currency, the CAD-coin, for interbank transfers, while the Central Bank
+of Sweden, with e-krona, could become the first bank in the world to launch its own digital currency, despite
+being the oldest in the world. It is expected that private blockchains serving specific purposes will proliferate in
+various industries.
+28
+SUBSTITUTION
+TRANSFORMATION
+The third quadrant contains applications with a rather limited innovative character, as they are based on
+existing single-use and localized applications, but with high coordination needs, as they assume to be used by
+a broader and ever-growing public. These innovations aim to change whole areas of the way we do business.
+Their adoption, however, faces serious obstacles.
+Not only do they require more coordination, but the processes they hope to replace are sometimes still
+flourishing and deeply embedded within companies and institutions. Cryptocurrencies are an example of
+substitutes: they are new, fully formed currency systems derived from the simple payment technology like
+Bitcoin. The essential difference is that cryptocurrency must be adopted by all parties involved in monetary
+transactions, which means challenging governments and institutions that have long managed and supervised
+these transactions. Users also need to change their behaviour and understand how to take advantage of the
+potential of cryptocurrency.
+It is in the fourth quadrant that we find the most innovative applications which, if successful, are likely to transform the very nature of economic, social and political systems. They involve coordinating the activities of many
+actors and obtaining institutional agreement on standards and processes. Their adoption will require major
+social, legal and political change.
+Smart contracts are the most important transformation potential at the moment. They automate payments
+and transfers of currency or other assets once trading conditions are met. For example, a smart contract could
+trigger a payment order to a supplier as soon as a good is delivered. A company could report, via blockchain,
+the receipt of a given commodity - or the product in question could be equipped with a GPS function that
+would automatically record its new position, which in turn would trigger a payment order. Such contracts,
+which are self-executing, have already been tested in the areas of corporate finance, banking and digital rights
+management.
+The consequences are of course fascinating; companies are built on contractual relationships, from their
+creation to buyer-supplier relationships to the one with their employees. If contracts are automated, what
+will happen to traditional corporate structures and processes, as well as intermediaries such as lawyers and
+accountants? And what about managers? Their roles will radically change. However, it will be decades before
+the adoption of smart-contracts actually becomes widespread, and considerable coordination and clarification
+is needed in the design, monitoring, implementation and enforcement of smart contracts.
+29
+Understanding this technology, but also identifying the challenges, needs and issues of each industry, in order
+to offer a private, confidential and applicable infrastructure to all is SGAT’s mission. Through our ecosystem
+and thanks to our customized toolbox, we want to offer a powerful and scalable infrastructure, adapted and
+modelled to the specific needs of all sectors.
+The real promise of the blockchain, what it will bring, is shared trust: trusted third parties can be replaced by
+these books distributed more just, more transparent and less expensive. In fact, like other industrial revolutions
+such as the steam locomotive or the Internet, the blockchain will structurally change society.
+SGAT has the ambition to be a powerful player in this transformation, by developing its own blockchain and its
+own crypto-currency, as well as a pre-blockchain application overlay. This platform will encompass all services
+and applications developed by SGAT. These services will focus on smart-contracts to ultimately have concrete
+applications that will be useful to everyone on a daily basis and with complete confidence.
+TO SUMMARIZE…
+Whatever the context, blockchain technology is likely to have an impact on any industry.
+The question is when. Everyone says it: blockchain will revolutionize the economy. But it will take
+much longer than many people think. Like TCP/IP protocols (on the basis of which the Internet
+was built), blockchain is a foundational technology that will require a widespread coordination.
+The level of complexity - technological, regulatory, social and others - will be unprecedented.
+However, the example of the adoption of TCP/IP protocols suggests a fairly predictable development of the blockchain. While the adventure will take years, it is in the interest of companies
+to get ready for it now.
+WEB
+APPLICATION
+SGAT
+30
+THE ECOSYSTEM 03 DEVELOPPED BY SGAT
+With this vision and these convictions, SGAT wanted to build its foundations: on the one hand, its own
+blockchain, offering reliability, confidentiality, security, ease of use and portability; and on the other hand,
+a flexible, scalable and ergonomic ecosystem offering custom smart-contracts tools.
+SGAT is one of the first decentralized smart-contracts platforms based on blockchain technology. By focusing
+on increased confidentiality, while maintaining the transparency of our blockchain, as well as the highest
+level of security, we offer complete and tailor-made transactions. Our ambition is to offer innovative smartscontracts solutions adapted to the challenges of today’s industries.
+SGAT is the token at the heart of our ecosystem. It allows you to access and use all the services and applications
+we develop on our platform. For example, transfer of fiduciary values, exchange of crypto-currencies, member
+account subscription, access and use of smarts-contracts tools. This token is also the essential financial lever
+for a healthy development – and independently of the financial and banking sphere – of our project. By placing
+the SGAT at the heart of our ecosystem, we collectively have the opportunity to create an alternative to our
+economy, or at least to begin a transformation of it, more communitarian and more committed.
+In order to ensure a solid community of users and to rule out any illegal activity on SGAT blockchain, our
+services and applications will only be accessible through the ecosystem developed by SGAT, which requires the
+creation of a single account per user, subject to rigorous customer identification and anti-money laundering
+procedures.
+31
+Any person or company wishing to access the services offered by SGAT Technologies must register on the
+platform through the website or directly at the physical store that will open following the official launch of our
+web application.
+Most of all, we wish to accompany and facilitate access to blockchain technology, even for the most novices.
+It is for this reason that we primarily adopt an educational approach and that any user registering on the
+platform will be able to freely access the various memos and contents published and/or consolidatd by SGAT.
+The first services that will be offered at the launch of the platform will also make it possible to reach various
+targets in a wide sphere: individuals, users of crypto-currencies wishing to dispose, spend and transfer their
+money, companies wishing to revolutionize or redefine their business, or simply position themselves in this
+new crypto-tech economy and participate in its development.
+Any SGAT user will be able to generate a SGAT electronic wallet supporting several cryptocurrencies, allowing
+him to store them or exchange them for SGATs. This portfolio will be accessible from SGAT web application’s
+user interface and will allow easy access to the various crypto-active balances and display the corresponding
+QR codes or alphanumeric reception addresses. The cryptocurrencies that will initially be accepted at launch
+will be Bitcoin (BTC), Ether (ETH) and Monero (XMR).
+At any time, the user may request the conversion of his SGATs into cash (in euros), the details of which
+(exchange rate and/or fees) will be presented to him before acceptance and transfer of the amount to the
+account in his desired name.
+SGAT wishes to address any user of crypto-currencies by proposing a crypto-wallet (electronic
+wallet) as well as its own crypto-currency, true instrument of valorization of the community activity.
+Therefore, SGAT token can be used to access the proposed services and applications or can simply
+be saved and/or exchanged to support SGAT blockchain.
+SGAT blockchain will record all transactions and flows generated by the use of our services and applications
+but will in no case disclose the details of these. The characteristics and counterparts of these transactions
+will therefore be stored and maintained through SGAT’s technical infrastructures. This pre-infrastructure
+blockchain overlay will make it possible to maintain the private and/or confidential nature of transactions,
+while ensuring their traceability, follow-up and due diligence, in particular for legal, audit or administrative
+purposes.
+The protection of users’ and commercial data will be and will remain one of SGAT’s priorities; more
+than anything, we are committed providing the community a quality service, transparency regarding data protection and disclosure, and maintaining the highest level of security for our data and
+servers. We also undertake not to share your personal data with anyone without your permission,
+whether for commercial or advertising purposes.
+SGAT Users
+32
+ACCOUNT CREATION AND ACCESS TO SGAT SERVICES
+WEB APPLICATION SGAT :
+DESKTOP, MOBILE
+AND BOUTIQUE
+KYC
+SGAT MEMBER
+SGAT SERVICES & APPLICATIONS
+SGAT
+CONTRACTS
+SGAT
+COUPONS
+WALLET
+SGAT
+SGAT
+PAYMENT
+SGAT
+SHOP
+Functional diagram of SGAT interface
+33
+SGAT ACCOUNT FUNDING AND PAYMENT/FIDUCIARY CONVERSION
+WEB APPLICATION SGAT :
+DESKTOP, MOBILE
+TRANSFERT
+TO SGAT
+TRANSIT
+TRUST
+ACCOUNT
+PAYMENT
+PAGE
+(CARD)
+SGAT SERVICES & APPLICATIONS
+WALLET
+SGAT 
+34
+In parallel with the launch of the blockchain, SGAT is developing a traditional payment service, but more importantly, its own smart-contracts tool. The technology that SGAT develops will indeed allow the configuration of
+smart-contracts without modification of the source code of the blockchain. Therefore, the tool will be durable
+and scalable, it will be able to be improved and adapted in order to offer ever more comprehensive services,
+and in accordance with behavioural and regulatory changes.
+SGAT
+PAYMENTS
+The service and payment mechanism developed by SGAT will be vital to the functioning of our ecosystem
+and will allow in a very simple way to pay anything or anyone with SGAT. For example, it will be enough for a
+merchant to be a SGAT member in order to be able to accept payment for his products via our application.
+From his mobile phone and/or thanks to the smart card containing the crypto-wallet, a user will be able to pay
+with his SGAT tokens with our partners.
+The only private key of the corresponding SGAT wallet will be stored within the smart card, while a QR code will
+be stored in the smartphone and displayed for payment. The SGAT card will be manged from the application
+and controlled via a PIN code. The mobile application can be secured with a PIN code or biometric control.
+In case of loss or theft of its SGAT card, and therefore of his electronic wallet, the user will have the possibility
+to lock the card so that the SGAT wallet cannot be used via this smart card. It will then have the possibility to
+restore the SGAT wallet thanks to a combination of words provided at the creation of its SGAT wallet. The user
+will have to keep these words in a safe place, ideally on paper and not on an electronic support, even less on
+a connected support or in the cloud.
+SGAT services and applications
+WHAT IS A
+SMART-CONTRACT?
+SGAT smart-contracts are computer programs that will record and/or execute the terms of a contract when
+the deadlines expire and whose characteristics have been clearly defined beforehand. The aim is to satisfy
+contractual conditions, such as terms of payment, delivery, but also confidentiality, and even the performance
+of reciprocal obligations.
+The digital and automated nature of the contract will enable two SGAT partners to establish a commercial
+relationship without the need to trust each other beforehand, without any central authority or intervention.
+It is indeed the system itself, and not a participant, that will guarantee the honesty of the transaction.
+Electronic contracting has now become an integral part of companies’ dematerialization projects. Being able
+to constitute, validate, exchange, approve and sign a contract electronically while being able to authenticate
+the signatory has become a competitiveness issue for many companies.
+35
+EUROPE - EIDAS REGULATION (JULY 1ST 2016) FRANCE - LOI MACRON (2015, ARTICLE 220)
+• has homogenised the
+electronic signature market
+at European level
+• increased confidence in
+electronic transactions
+obliged companies to set up a
+system to prove their identity
+and the integrity of documents
+transmitted online
+These «autonomous « contracts will make it possible to securely record contractual information
+linking the parties to each other. The terms of the contract, information on the various parties and
+dates will be kept. The blockchain will allow here to have an irrefutable and unfalsifiable digital
+dated proof.
+When the performance conditions are linked to time indicators or entries in the blockchain, the verification
+will be done automatically. On the other hand, if it is necessary to verify an external condition (for example
+that the package has been received), SGAT will act as trusted third party.
+Companies will see many benefits in adopting this service, such as improved responsiveness through reduced
+processing and response times, but also improved performance with increased conversion rate and better
+service, but also better traceability, process control and security. The smart contracts service will also enable
+companies to collaborate more effectively by sharing documents between the various parties. Finally, it will
+help reduce costs (processing, editing or distribution...).
+What does bring SGAT tool?
+SGAT’s ambition is to offer, through this service, a tailor-made and comprehensive contractualisation tool,
+adapted to both companies and individuals. The interface, settings and tools offered by this service will differ
+between individuals and businesses – due to different needs – but will be adjusted and wil evolve according to
+community voices. Similarly, the idea is to develop, for companies, a module specific to their sector of activity
+or their needs in order to provide a tailor-made and evolving contracting tool.
+Performance Responsiveness Traceability Collaboration Cost Reduction
+WEB
+APPLICATION
+SGAT
+36
+Thanks to the smart-contracts technology that SGAT is developing, all elements are then brought together
+so that we can offer to both companies and individuals a completely digitalized process in contracting.
+There are 5 main challenges to which we will respond: efficiency and performance, simplification of the process,
+digitalization, acceleration of the contracting process and compliance with regulations.
+SGAT wants to offer solutions in all sectors but cannot be present everywhere, nor develop all solutions at
+the same time. That is why we have already preselected a few sectors to illustrate what SGAT can bring.
+We will also prioritize sectors based on community votes, business partnerships and the overall evolution
+of the budget.
+Above all, we wish to provide comprehensive contractualization tools, evolving under the impetus of a strong
+and committed community.
+Use cases and applications
+Challenges:
+• transparency of contracts and transfers
+• tracking and conformity of transfer offers
+• commissions and intermediaries
+What SGAT can bring:
+• automatization of the contractual relationships
+(between clubs, agents and players) via smart-contracts
+• optimized tracking (speed and time stamping)
+• suppression of many intermediaries, reduction of
+commissions
+Défis :
+• copyright, royalties and plagiarism
+• record labels’ supremacy
+• monitoring listening and sharing
+What SGAT can bring:
+• certification and tracking of music content for redistribution
+• new distribution channel, centred on the artist and fans
+• effective monitoring of music listenings and findings
+(when fans identify tracks for further listening)
+SPORTS, FOOTBALL CONTRACTS MUSIC, FAIR REDISTRIBUTION
+37
+Challenges:
+• transfer speed
+• commissions and intermediaries
+• KYC (Know Your Customer)
+• AML (Anti-Money Laundering)
+• CFT (Combating the Financing of Terrorism)
+What SGAT can bring:
+• instant transfers via SGAT blockchain
+• no intermediaries, low transfer cost
+• user-friendly environment of SGAT payment
+(for individuals and merchants)
+• single account management for an optimized identification
+and monitoring
+Challenges:
+• transparency between authors and publishing companies
+• financial dependence to large production firms
+What SGAT can bring:
+• real property and transparency about copyright
+• improve visibility and tracking of distribution
+• community-based blockchain crowdfunding for independent
+producers
+Challenges:
+• fast and constant evolution of the industry
+• security of games’ market places and auction houses
+What SGAT can bring:
+• real tokenization of the industry, bringing transparency
+and security
+• certification of items dropped in-game and registration
+on blockchain (no more fakes/cheats)
+• implementation of true, certified and secured cadastral
+management
+• portability and exchange of tokens between gaming
+platforms/games
+Challenges:
+• cash thefts
+• cash management and accounting
+What SGAT can bring:
+• a complete and user-friendly payment interface
+• suppression of cash and fast payment process
+• customized cash flow management configuration
+(fiat and crypto-currencies)
+Challenges:
+• helping caritative actions & associations to produce campaigns
+• lack of visibility of use of the funds
+What SGAT can bring:
+• tracking and transparency for the donors
+• improved visibility on field of actions
+• new forms of governance
+Challenges:
+• costs of runs
+• a better redistribution
+What SGAT can bring:
+• build a true cooperative for all VTC drivers & companies
+• reduce fees (~30% fee to VTC firms) & costs of runs
+• transparent transactions, smart-contract based
+FINANCE, VALUE TRANSFER
+EDITION, AUTHOR’S MANAGEMENT
+GAMING, COMMUNITY EVENTS
+FOOD SERVICES, CASH MANAGEMENT
+CHARITY AND SOCIAL WORKS
+TRANSPORT VEHICLE WITH DRIVE
+38
+In addition to the development of SGAT blockchain & platform and its smart-contracts tools, SGAT project will
+first and foremost materialize through the inauguration of a physical gateway to this virtual world, the SGAT
+POINT: an all-pubic meeting-place for exchanges and idea sharing dedicated to the world of crypto-curency
+and to a community of neophytes, passionates and experts.
+This place, divided into two parts, will above all respond to a growing and vital need for the survival of the
+blockchain, that of bringing confidence to users in this technology but also to offer tools and resources to an
+active and committed crypto-tech community thanks to the blockchain technology.
+SGAT
+COFFEE
+SGAT
+AREA
+SGAT COFFEE will be a catering area “American Coffee” like opened to SGAT members, but also to the general
+public. Prices will be displayed and payable in euros but will also be payable in SGAT.
+Prepaid, non-rechargeable cards – which can be used withall SGAT partners – will also be sold in stores for
+non-member customers who still wish to pay in SGAT.
+Each transaction made will be processed by SGAT ecosystem and blockchain, ensuring a gradual increase and
+stable flow of transactions. SGAT Coffee will offer high visibility but also bring stability and financial sustainability
+to the company.
+SGAT Area will be dedicated to companies and SGAT partners and will become the company’s head office.
+Part of our teams and infrastructure will be located there, the purpose being to make it a workspace and client
+reception area for SGAT corporate customers and partners.
+A reception area for visitors and new customers who wish to become members will be set up, while one or
+several SGAT counters for accessing our services will also be available for individuals and SGAT customers.
+SGAT POINT
+39
+INTERNAL
+GOVERNANCE AND
+INTERNAL CONTROL
+A Board of Directors must, in the long term, ensure sound and prudent management of risk management and
+internal control, as well as of internal governance and risk allocation within the company. It will determine the
+nature and extent of the company’s appetite and risk tolerance. The Board of Directors must also implement
+internal control and audit while ensuring its proper execution.
+MONITORING
+CAPITAL
+For example, payment institutions must present and guarantee a certain level of regulatory capital, but this
+could be applied to any sound financial management of a company. Part of the SGAT tokens set in reserve as a
+result of the ICO will therefore be determined with a similar guarantee. We will also apply an extreme level of
+vigilance as to the origin of the funds coming from the ICO.
+SGAT will not be a payment institution – status given to banking services (or banking alternatives) – because
+our services will not allow the deposit of cash into a payment account or the management of a payment
+account: the heart of our ecosystem is our cryptocurrency SGAT, and all services will only be accessible and
+payable with it.
+As explained above, all payment services will be handled through our token, and exchanges of fiduciary values
+will be processed through smart-contract services. These services will be avaialale on SGAT web application
+and registered on SGAT blockchain and private servers.
+Thanks to our skills and knowledge of the banking sector, its regulatory culture and its compliance procedures,
+we are fully aware – and wish to maintain this monitoring – of the way we need to understand the issues and
+implications if our business and the world of cryptocurrency.
+In order to ensure continuity and sustainability, SGAT must integrate certain financial, organizational, functional,
+security and general compliance risk management requirements into the development of its services and
+applications for the use of cryptocurrency – or at least try to anticipate them.
+Regulations and requirements
+40
+KYC (KNOW YOUR
+CUSTOMER)
+PROTECTION
+OF USER FUNDS
+INFRASTRUCTURE
+AND DATA
+PROTECTION
+To prevent fraud, money laundering or the financing of terrosrism, we will establish extremely rigorous
+monitoring of both transaction flows and users (KYC «Know Your Customer» procedures). In terms of AML
+(Anti-Money Laundering), it will be ossential for us to monitor and control money transfers (origin, use,
+destination) to ensure compliance.
+Inr relation to our proposed services – for example that of a smart-contract which would induce the escrow of
+a significant sum – and in accordance with the requirements of protection of user funds, SGAT will protect and
+segregate the funds it will receive in exchange for the execution of the said smart-contract, by depositing them
+in a segregated account that we will hold with a credit institution (under NDA, «Non Disclosure Agreement»).
+The funds held in such an account will then be separated from the equity of our company and the funds of any
+other person. These funds will not be pooled at any time with the funds of any other persons or transaction
+than the so-called smart-contract. These funds will not be used by our company as collateral to cover its own
+obligations and the obligations of third parties may not be seized by its creditors and will not be part of our
+company’s assets in the event of insolvency.
+One of SGAT’s priorities is to ensure the quality and maintenance of our IT infrastructures at the highest level,
+to have full control over them, and to ensure extreme vigilance with regard to the protection of confidential
+data entrusted to us by users.
+This is why SGAT relies, through four of its shareholders, on high-quality and experienced developers offering
+valuable resources and tools to the SGAT project. An IT architecture in compliance will then be established and
+will respond to the relative problems of architectures, geographical distribution of data, physical location of
+equipments, subcontracting, system security, backup/restore, etc....
+41
+SGAT ICO, 04 WHAT IS IT?
+Let us take the case of Air France as an example : an IPO would consist in the purchase of Air France shares,
+whereas an ICO would rather be the pre-buying of Passenger Miles. Their value is therefore supposed to be
+based on the services ultimately provided by the company behind the ICO. So, the ICO is a meaning, a beginning,
+not an ending. By proposing to support us, we invite you to take part in this adventure.
+First, because ICOs are removing the barrier between professional and private investors. Anyone can rely on
+promising services: you can thus become a Business Angel for SGAT in a very accessible and transparent way.
+Indeed, we allow anyone who wishes to offer financial support to have direct access to our future pre-sale
+services, and thus become the first users. This is why we offer the sale of our tokens which will be the unique
+way of payment for our services and the use of our blockchain.
+In fact, we are building, even before the opening of our blockchain, a large and eclectic community which will
+be at the cutting edge of SGAT, both financially and in terms of SGAT’s values.
+SGAT token is offered at the unique price of 1 € / SGAT. The participative sale is organized in three phases :
+SGAT token sales distribution
+To participate in our ICO, investors will need to submit their KYC (Know Your Customer) and AML/CFT (Anti-Money
+Laundering/Combating the Financing of Terrorism) documents via the online form. Our compliance team to
+conduct the necessary verification. Each participant will then receive a specific address to which it will be able
+to send the payment to participate in the crowdsale.
+A holder may transfer its SGATs under different conditions. With the exception of over-the-counter sales, SGAT
+will make its best efforts to ensure that its tokens are accepted on various trading platforms (Bittrex, HitBTC,
+Binance, etc.).
+As SGAT must also regularly purchase its tokens in order to reward its holders, the company will have to make
+its purchases on secondary market cryptocurrencies platforms like the ones mentioned above among others.
+• a private pre-sale, for a maximum of € 500,000, including a 30% bonus on the number
+of SGAT tokens delivered
+• a public pre-sale, for a maximum of € 1,000,000, including a 15% bonus on the number
+of SGAT tokens delivered
+• a public sale, for a maximum of € 5,000,00
+01
+02
+03
+42
+• Volume for sales: up to 12,000,000 sgats including bonuses
+• Maximum token amount for sale: 65 %, or 7,800,000 sgats splitted as follows :
+	 • 8% for privat pre-sales, including 30% bonus, or 650,000 sgats
+	 • 15% for public pre-sale, including 15% bonus, or 1,150,000 sgats
+• 77 % for public sale, or 6,000,000 sgats
+• Marketing & community support: 3%, or 360,000 sgats allocated to marketing and the community
+(for example, bountry reward program)
+• Advisors: 3%, or 360,000 sgats, allocated to ICO advisors
+• Ambassadors: 4%, or 480,000 sgats, allocated to SGAT ambassadors
+• Legal: 2%, or 240,000 sgats allocated to legal advisors
+• Cash reserve: 6.5%, or 780,000 sgats to ensure sufficient liquidity of sgats for future buyers and to control
+the growth of our token price
+• Team: 6%, or 720,000 sgats allocated to SGAT team members
+• Founders: 6.5 %, or 780,000 sgats allocated to the initial founders of the SGAT project
+• Shareholders: 4%, or 480,000 sgats allocated to SGAT SAS shareholders
+PRIVATE PRE-SALE PUBLIC PRE-SALE PUBLIC SALE INVESTOR POOLS AND PRIVATE
+CORPORATE SALES
+KYC Procedure Required Required Required
+Hardcap 500 000 € 1 000 000 € 5 000 000 €
+Token price 1 € = 1 SGAT
+Token bonus 30 % 15 % 0 % 30 % à 55 %
+Minimum
+participation
+500 € 100 € 50 000 €
+Currencies accepted BTC (bitcoin), ETH (ethereum), et € (euros)
+BTC & ETH will be converted in € at market price (in case of strong volatility, an adjustment could be made)
+43
+The funds collected through the ICO will primarily build the financial reservers to ensure a sustainable development of the project but will also ensure a certain reserve of crypto-assets (Bitcoin, Litecoin, Ethereum,
+Monero, Dash, etc...).
+The fund raising will also be used to finance the launch and development of the platform, to have sufficient
+resources to develop and distribute the offer firstly in France, then in Europe and the rest of the world.
+The softcap of our ICO, i.e. the minimum amount that we have to raise so that our project can be serenely
+developed is € 1,500,000. That said, if the softcap is not reached, that does not mean that we will cancel the
+project, but then we will have to find new sources of funding. The project has already been launched, developments also begun, the first newcomers have arrived, and the founders, who are already dedicated body and
+soul to SGAT, will never give up until this beautiful project becomes a reality.
+As for the hardcap of our ICO, i.e. the maximum amount we wish to raise, it is 6,500,000 €. Unlike many ICOs
+wanting to raise dozens of millions of euros, we do not claim being able to use so much money in an economically viable way. In other words, it is unthinkable for a startup, while the project is only in its first phase, to
+expect being able to quickly respond to the expectations placed in a blockchain project having raised dozens
+of millions of euros. The development of such advanced technology requires in all cases time. On the other
+hand, the correlation between allocated resources vs. strengthening and acceleration of development is only
+efficient up to a certain limit. One only needs to look at the number of ICOs having raised such sums and then
+had their token price collapse.
+SGAT believes that it is necessary to capitalize its blockchain as the project moves forward and as SGAT’s cash
+flow increases, in order to bring stability to our token price and thus protect itself from massive «pump &
+dump» effects.
+Use of funds raised through the ICO
+5% 35%
+3%
+ 35%
+ 12%
+ 10%
+SGAT POINT
+Office & Management
+Software Development
+Cash reserve
+Marketing & Communication
+Legal
+44
+THE TECHNOLOGY 05 THAT SGAT DEVELOPS
+SGAT blockchain and infrastructure is composed of two layers: a new high-performance public blockchain and an
+innovative and scalable ecosystem focused on smart-contracts and blockchain applications.
+Unlike Ethereum blockchain, SGAT token is not ERC20 compliant and cannot be stored on any Ethereum wallet
+which supports Ethereum’s protocol such as MyEtherWallet or Metamask.
+SGAT has chose to prioritise confidentiality and believes that this criterion is essential to a real adoption of smartcontracts tools by companies. This is why our blockchain is based on the CryptoNote protocol.
+Therefore, the SGAT that will delivered will be a full-fledged cryptocurrency like Monero, Dash, AEON, Bytecoin,
+etc… offering further strengths:
+• collaborative blockchain (possibility of mining)
+• independency from Ethereum network
+-	 • reation of a brand new smart-contracts technology
+SGAT is a state-of-the-art blockchain, offering improved reliability, privacy, security, ergonomy and
+portability. It is based on the CryptoNote protocol
+(like Monero) and is written in C / C++.
+Even if the SGAT will not be a proper fork from
+Monero (since we generated our own genesis block,
+Monero code not allowing it), the code of the latter
+has been reworked. Indeed, we are currently setting
+up our blockchain and patching it progressively so
+that it is in perfect synergy with SGAT web application.
+That’s why we made the choice to be able to rework
+the code from the start by generating our own
+genesis block while the Monero code only allows to
+make forks from their blockchain, to ultimately be
+in full control of our technology, its evolution and
+be master of the choices we will make. The code of
+our blockchain can be viewed and audited on SGAT
+Github.
+SGAT blockchain
+45
+SGAT has always been a strong supporter of Monero, and considers it to be one of the most important cryptocurrencies, a precursor in the privatization of transactions, having one of the strongest and most competent
+community and attracted some of the best experts in crypto-currency and some of the best talents in
+engineering. So far, more than 240 developers have contributed to the Monero project, including 30 «core
+developers». Forums and discussion channels are very active and various projects of development projects
+are ongoing. The Monero’s Research Lab, a research laboratory composed of the Core Development Team
+and Community Developpers, is constantly pushing the limits of what is possible with the confidentiality and
+security of cryptocurrency. SGAT also wants to participate and contribute to the development of blockchains
+based on the CryptoNote protocol by remaining very attentive to the evolutions and discussions coming from
+the Monero community whilst sharing the code of our own blockchain and the patchs/forks that will follow.
+By separating our blockchain infrastructure from
+our smart-contracts tool infrastructure, we chose
+to develop our own technology in order to build a
+modular and scalable tool, leading to an ever more
+comprehensive and customized infrastructure.
+Our smart-contracts tool is an application overlay
+integrated into SGAT ecosystem. It is written in Java,
+built with React for the front, i.e. the user interface,
+and in NodeJS for the back, i.e. the way the application is built.
+Our own and private servers are hosted at Amazon
+AWS (Amazon) and built on Ubuntu (Linux). AWS provides high-performance and easy-to-scale servers,
+adapting very quickly to a strong increase in user
+flow. In addition, AWS makes it easy to build and
+run sophisticated and scalable applications. Several
+sub-servers will also run smart-contracts tools which
+will be mainly built on NodeJS.
+Finally, our database works with MongoDB technology
+for better scalability and flexibility.
+ SGAT web application
+SGAT serveurs & database
+46
+Confidentiality of transactions is essential for financial institutions and corporates, but also for individuals. The
+defence of anonymous ways of payment is one of our priorities.
+CryptoNote is an open-source protocol ensuring counterparty anonymity and transaction confidentiality.
+Unlike Bitcoin network, a blockchain administered via CryptoNote does not disclose the origin or destination
+of the units. CryptoNote protocol uses ring signatures and “Diffie-Fellman” key exchanges to make untraceable
+transactions, addresses and amounts remain hidden.
+Snapshot on CryptoNote algorithm
+Anonymity of the sender: 
+ensured using several public keys to sign a transaction (ring signatures). Network nodes can prove
+that the transaction has been signed by the sender,
+without being able to identify the key that was used.
+Protection against double spending: 
+the ancestor of ring signatures (group signatures)
+relied on a third party to protect the system from
+double spendings. From now on, each stealth
+address leaves a fingerprint in the blockchain and
+the protocol rejects any transaction involving a
+stealth address that has already been used.
+Anonymity of the receiver: 
+the protocol allows to generate a single-use pair key
+for each transaction (stealth addresses). It is impossible for a third party to determine whether certain
+transactions are sent to the same receiver.
+«Egalitarian» proof of work: 
+the system wants to ensure linearity between the
+financial investment and the corresponding hash
+power, regardless of the hardware used to mine.
+47
+SGAT TOKEN 06 CHARACTERISTICS
+A maximum of 30,120,000 units can be generated through SGAT blockchain. This figure is irrevocable and no
+further SGATs can be generated when the maximum is reached. The below chart represents the theoretical
+daily emission curve assuming that it would not be interrupted. Blocks will be mined approximately every 60
+seconds, ensuring fast transactions.
+As part of the ICO, 12,000,000 SGAT tokens – or 40% of the total supply – will be in circulation if the maximum token
+sales limit is reached. The remaining units can then be generated by the community through the mining process.
+Unsold tokens from the ICO will not be mined, let alone burned, but may then be mined by the community.
+Indeed, shortly after the official launch of SGAT webapp (Q4 2018), the source code will be published so that
+our blockchain becomes collaborative and anyone can participate in the mining of SGAT blockchain.
+A software, as well as a search website (SGAT Explorer), will be developed by SGAT to allow anyone to easily
+consult the blockchain
+Community mining
+Pre-sales mining
+SGAT TOKEN EMISSION MINING (%)
+48
+SGAT is secure :
+SGAT is a decentralized token, i.e. operated through
+a network of users. Transactions are confirmed by
+a distributed consensus, then immutably recorded
+on the blockchain. Third-parties do not need to be
+trusted to store, manage and protect your SGAT.
+SGAT is untraceable :
+By default, sending and receiving addresses as well
+as processed amounts are obfuscated. Transactions
+recorded on SGAT blockchain cannot be linked to a
+particular user or to a real identity.
+SGAT is private :
+SGAT will use ring signatures, ensuring confidential
+transactions and stealth addresses in order to
+obfuscate the origins, amounts and counterparties
+involved in these transactions. SGAT provides all the
+benefits of a decentralized cryptocurrency, while
+maintaining the private or confidential intrinsic nature
+to exchanges between individuals or corporates.
+SGAT is fungible :
+Because of its private nature, SGAT is fungible by
+default. Units of SGAT cannot be blacklisted by
+exchanges or vendors due to their association in
+previous transactions.
+49
+ROADMAP
+January / February 2018
+July /August 2018
+Q4 2018 and beyond…
+May 2018
+March / April 2018
+07
+• Team consolidation and finalization of objectives
+• Public sale opening
+• Development of SGAT eco-system and smart contracts
+tools
+• Optimization and securitization of technical infrastructures
+in order to guarantee system’s performance and continuity
+• Official launch of SGAT webapp
+• Inauguration of SGAT boutique
+• Private pre-sales opening
+• Finalization of SGAT blockchain and electronic wallet system
+• Finalization of the commercial tenders for the location
+of the SGAT Point in Paris
+• ICO website development v1
+• Publication of the detailed whitepaper v1
+June 2018
+September 2018
+• Public pre-sale opening
+• Start of test phases for mining, storage and sgat exchanges
+• Development of technical infrastructures : servers, node
+and ecosystem
+• Start of landscaping projects and works on SGAT Point
+• Start of SGAT 1.0 webapp beta test
+• Fixes and patches on beta version
+50
+NICOLAS VAN SABERHAGEN8
+
+ET SURAE NOETHER 08 9
+Decentralization and anonymity are important in the financial world simply because of the inevitable conflicts of
+interest between any centralizing authority and users. Man needs to be paid, and we need our privacy. It’s not a
+bad thing, it’s just like that, but today, it can be solved with technology. Bitcoin was the very first decentralized,
+peer-to-peer solution with an attempt at pseudonymization. According to Nicolas, there are very few other truly
+unique and innovative solutions that have been proposed so far. Overall, the CryptoNote (CN) protocol was the
+first real new advance in the crypto-currency environment after Bitcoin.
+According to Nicolas Van Saberhagen, there are very few other truly unique and innovative solutions that have
+been proposed so far. Overall, the CryptoNote (CN) protocol was the first true new advance in the crypto-currency environment after Bitcoin. One of the reasons which pushed SGAT to choose CryptoNote protocol is mainly for
+its mathematical technicality in terms of anonymization and untraceability which is, from our point of view, the
+most advanced to date.
+Surae Noether published a very interesting report with his views as a mathematician and coder on CryptoNote
+protocol. He criticises certain points and raises certain inconsistencies or incompleteness on Nicolas van Saberhagen’s paper that deserve to be highlighted.
+But how does CN works ? Well, like everything that – in the world of crypto – works well, actually works strangely. CN protocol can be imagined as a post office box system. Each user has a set of public and private keys,
+as within the Bitcoin protocol.
+But instead of sending CrytpoNote directly to other public keys, users execute a Diffie-Hellman exchange and
+create ring signatures to create a unique P.O. box in which the CNs are stored. When we send the CNs, we
+include a «key image», which is nothing more than a hash of our private key and that of the final destination,
+the one that gave us the right to send these CNs in the first place. If this key image has not been used yet,
+then the corresponding one-time ring signature has not yet been spent either.
+8 Nicolas van Saberhagen is the author of the whitepaer on CryptoNote, published on 17 October 2013. Very rich and interesting reading on the
+technicality and mathematical logic of the protocol. Just like Satoshi Nakamoto (the author of the whitepaper on bitcoin), it is most certainly a pseudonym.
+Its true identity and geographic location remain unknown. Some claim that the real creator is someome from bitcoin community.
+9 Suraeh Noether s one of the developers of Monero’s Research Lab alongside Sarang Noether and Shen Noether. For the anecdote, their name is most
+certainly a tribute to the famous mathematician Emmy Noether, one of the most important women in the history of mathematics. Similarly their initials
+«SN», could be a nod to Satoshi Nakamoto, the inventor of Bitcoin. He published in July 2014 his mathematician’s view on the whitepaper by Nicolas van
+Saberhagen. Pour le consulter : https://downloads.getmonero.org/whitepaper_review.pdf.
+«Diffie-Hellman» exhanges
+51
+It’s like if in a way we were saying, «So, you see that box over there ? There is 1 CN in it, and I have a private key
+(K) to open it. With a Diffie-Hellman exchange, you create your own new private key (K*) and I create a new public address to which I will send my 1 CN. When I send my 1 CN, I will then announce my Im(K) key image that I
+used to do it. Anyone who sees the transaction will check if my Im(K) image key has been used before to make
+sure the PO Box still has my 1 CN inside. On your side, you now have a new private key (K*) corresponding to a
+new mailbox containing my 1 CN.
+Or, the way Surae likes to illustrate it, it’s like someone saying: “Everyone take your hands of the money while
+it is being transferred around! It is simply enough to know that your keys can open that box... oh, wait, no! It’s
+enough to know that a hash of your keys are equivalent to the location of that box! And that we know how
+much money is in the box! Never put your fingerprints on the post-office-box or actually use it, just trade the
+hashes of the keys that are equivalent to the locations of the boxes filled with cash! That way we don’t know
+who sent what! But these trades are still friction-less, fungible, divisible, and still possess all the other nice
+qualities of money we desire like in the Bitcoin protocol”. As strange and abstract as it may sound, that’s how
+CryptoNote works.
+Originally, group signatures were the first way to allow any public member of a group to anonymously sign a message on behalf of that group, and in which there was a group administrator who
+could, at his own discretion, revoke the anonymity of any member of the group. The name «group
+signature» annoyed the algebraists who actually invented cryptography...
+For any fan of cryptography and mathematical logic, Nicolas van Saberhagen’s works on ring signatures in
+particular is exciting. The story he tells is fascinating and Surae Noether sums it up perfectly in his writing.
+Technicality and references
+52
+The untraceable ring signatures were then developed to remove the central point that was the group administrator. The name also annoyed the algebraists... Basically, if everyone has a pair of public and private key,
+you just have to sign your message with your private key, as usual, then publish a key set mixing your friend’s
+public key and yours, and then establish a specific protocol so that you can use that newly created key to verify
+the message. Pretty simple! And so, it becomes impossible to establish «traceability».
+Then linkable ring signatures appeared, which is surprising in reality, because the linkable terminology used in
+all the documents shows that in reality it is really «not untraceable», or at least it is actually scalably traceable.
+These are ring signatures in which the sender can basically lift his anonymity whenever he wishes.
+After that, there were the traceables ring signatures – also quite surprising in their denomination because it is
+difficult to see the link with «traceability» – which established a one-time method of using ring signatures. In
+the end it is not very applicable – perhaps useful in a voting scheme – but definitely useful in any token-based
+system.
+Finally, ad hoc group signatures came along through which we have the possibility to choose the members of
+our group on the fly.
+Historically, there have therefore been:
+• Group Signatures ;
+• Untraceable Ring Signatures ;
+• One-Time Use Scalably Traceable Ring Signatures; and
+• Ad Hoc Group Signatures.
+Nicolas van Saberhagen took everything, glued it all together, and got CryptoNote, actually pretty smart ! But
+as Surae points out, it is not these terminologies that are important – they are never mentioned in his document – because all of this is part of the «old context of crypto-currency», this algorithm no longer has anything
+to prove and has precisely shown the strongest resilience compared to other crypto-currencies. By this he
+implies that, by experience, he has generally seen other attempts at crypto-money of this kind fail.
+There are many little improvements when comparing the CryptoNote protocol compared to the Bitcoin one.
+Your password is equivalent to your private keys, and each user only needs one address. There are no conflicts
+between transactions. In the end, you can give away half of your private keys without fear of a security breach
+from a third party, let’s say a payment intermediary...
+Untraceability and unlinkability
+53
+Transactions are also untraceable on a large scale: according to van Saberhagen, a transaction is untraceable
+if any sender is equiprobable, i.e. when a sender uses a public key generated by a ring signature, from an
+attacker’s point of view, all members of that ring signature can be the sender equiprobably. It’s like a jamming
+system (an obfuscating set), and scalable, in the sense that you can choose the size of your obfuscating set
+(the degree of ambiguity is defined as the number of public keys composing your obfuscating set).
+For van Saberhagen, untraceability and unlinkability are two desirable properties of a cryptocurrency. It then
+defines a system as being untraceable, if for any incoming transaction, any sender is equiprobable, and unlinkable, if for any pair of transactions, it is impossible to prove that they were sent by the same person.
+The term «impossible» is to be understood as «of probability that can be made arbitrarily small, if not zero».
+According to van Saberhagen, two transactions are unlinkable if we cannot prove that they come
+from the same person, and a system is unlikable if it is impossible to link two transactions. The
+random oracle then assumes the existence of a perfect hash function, which is a bit unrealistic, but
+which does not seem really close to the current hash functions. The only way would be to apply
+under the standard model, but almost no cryptographic model is proven under the standard model.
+No other developer has been able to prove anonymity in their crypto-currency. We must insist on
+this point: no other cryptocurrency has the weight of mathematical proof behind their product.
+Any user can generate an address that allows an audit of funds using only half of their keys. Transaction scripts
+are very simple, global variables like block size and block reward adjust dynamically, so we don’t have to worry
+about network consensus for infrastructure type code changes. Really, most of the good things about this
+protocol are just a bunch of little things.
+The most interesting is certainly the proof that transactions are unconditionally unlinkable or “unassociable” –
+under the assumption of the Random Oracle Assumption, a kind of theoretical cryptographic black box
+capable of generating a true random response to any query.
+54
+« ZERO-KNOWLEDGE »
+PROOF
+KEY IMAGES
+The real question that arises from this protocol is obviously the fact that this one-time ring signature scheme
+provides a very good anonymity, but as said just above, it is however not a «zero-knowledge» scheme.
+Meaning that the unlinkability is made through an obfuscating set, and theoretically, an opponent with
+the right tools would be able to recover these «crumbs» close to zero.
+Indeed, a proof of zero knowledge would imply that it uses absolutely no information to build its proof.
+The random oracle on the other hand, generates something «random», something unique, identifiable with
+the keys, but in a way impossible to duplicate by anyone, but the information is in the function.
+But if there was a God of Cryptography and Statistics, it could then look through this mortal function and
+retrieve your private data...
+CN protocol has implemented an element of cryptography never seen before in cryptocurrencies, especially
+with the idea of using image keys to protect against double spending.
+But it’s a boldly step on dangerous ground; no matter how many mathematicians or researchers have looked
+at the algorithm, it’s quite possible that a 16-year-old kid, the new “Diffie of cryptography”, finds a way to crack
+this encryption... If you gather all the knowledge in RSA (Rivest-Shamir-Adleman) and ECDSA (Elliptic Curve
+Digital Signature Algorithm), you know it can work and «it’s not because it can’t be seen that it’s not there».
+On the other hand, given the number of brains and eyes that have been trying to crack open this «old cryptography» for a very long time, we can only let it stand the test of time...
+Problems with the protocol
+55
+DYNAMIC
+VARIABLES
+Variables adjust dynamically over time (block size for example). This parameter is clearly positive in one sense
+but can also have a very negative impact. Indeed, if we are not careful, it can lead either to blowups, on the
+blockchain or to «wild fishtailing».
+To understand, you must know that in CryptoNote, blocks can be rejected if their size is too large (more than
+twice the median). This can, if it is a long-term attack, cause an exponential blowup of the blockchain. However,
+this remains very unlikely, extremely costly, but still possible. In itself, a small-scale attack can be easily avoided
+mathematically. Moreover, to discourage this kind of behaviour, the reward obtained by the confirmation of a
+block is penalized if its size is abnormal.
+56
+THE TEAM 09
+SGAT Technologies Ltd is initially a company incorporated under English law, created at the end of September
+2017 by Sébastien Pussiau and Thomas Paillet – they respectively own 51% and 49% of the company’s shares.
+This consulting firm was created at the beginning of the project and provided the necessary resources to initiate the project. Until the opening of the French company is completed, it pilotes and contributes financially to
+the launch of the ICO and the development of SGAT ecosystem.
+SGAT, a French SAS (“Société par Actions Simplifiés”) with a capital of €2,000, is currently being registered in
+France. Sébastien Pussiau is the Chief Executive Officer, Thomas Paillet the Managing Director, and Antoine La
+the Chief Technical Director. They are accompanied by three Directors: Stéphane Hurpé, Philippe Bonan and
+Aina Randriamalala.
+The ownership is distributed as follows :
+25.5 % 25.5 % 12,25% 12,25% 12,25% 12,25%
+Sébastien Pussiau Thomas Paillet Antoine La Stéphane Hurpé Philippe Bonan Aina Randriamalala
+At the end of the ICO, the company will relocate into the SGAT Point and begin its recruitment phase of an
+operational team to ensure :
+technical developments:
+• SGAT platform (SGAT and Blockchain Explorer
+websites)
+• SGAT blockchain
+• SGAT web application
+the regulatory and compliance processes and
+environment:
+• legal monitoring
+• implementation of internal procedures
+• risk management
+communication, marketing and SGAT community:
+• expansion and development
+• exchange and validation with the community
+• content, community animation, public relations,
+partnership development
+financial management:
+• daily monitoring
+• implementation of management indicators
+and reporting
+• cash management
+Company presentation
+57
+PROJECT TEAM
+PROJECT TEAM
+SÉBASTIEN PUSSIAU, CHIEF EXECUTIVE OFFICER
+Sébastien Pussiau has 6 years of experience as a Project Manager in structured
+asset financing in the banking sector. He worked for HSBC France in structured
+commodity financing, mainly in Africa and then for Société Générale, particularly
+in structured maritime asset financing. Graduated from the Institut Supérieur de
+Gestion in Paris with a master’s degree in finance and international trade from
+the Institut Supérieur de Gestion in Paris, his professional career enabled him
+to develop strong commercial and financial skills, as well as to understand and
+handle the economic and legal reality of a project and a company. Finally, he
+acquired a culture of banking and financial regulation as well as of compliance
+and regulatory monitoring procedures, indispensable skills for understanding
+the challenges and implications of the cryptocurrency world.
+ITS OBJECTIVE:
+To develop and federate a powerful, influencing and committed community
+through the ICO in order to build SGAT project, and to participate in the development of a cryptotech economy and cryptocurrency uses, in a stable and regulated
+environment.
+THOMAS PAILLET, CHIEF OPERATING OFFICER
+Thomas Paillet began his career in the management field with complex organisational establishments (franchised networks and multiple sites), notably for
+HÄAGEN-DAZS and FIVE GUYS. Through the coordination of diversified projects,
+he developed managerial and team management skills by integrating an operational and financial – but also social – approach to various issues and challenges.
+With this experience, and his passion about new technologies, Thomas founded
+the startup BT3D Technologies, specialist in 3D printing, in perpetual development.
+A year ago, Thomas decided to dedicate himself to blockchain technology and
+co-founded SGAT project alongside Sebastien.
+ITS OBJECTIVE:
+To ensure the financial management of the company, but also human resources.
+He will also supervise the management of personal data processing and contribute
+to the implementation of the communication and loyalty plan as well as the
+development of the franchise plan.
+Presentation of the team and its partners
+58
+PROJECT TEAM
+PROJECT TEAM
+ANTOINE LA, CHIEF TECHNICAL OFFICER
+Antoine is the CTO of SGAT. Developer since always and now Full Stack thanks to
+his experiences in digital agencies, he specialized since a few years in blockchain
+technology. Now expert in the CryptoNote protocol, he manages all the technical
+aspects of the project.
+ITS OBJECTIVE:
+To lead the development and the technological decisions, to ensure to each user
+of SGAT services, total security and full accessibility.
+STÉPHANE HURPÉ, MANAGEMENT DIRECTOR
+Stéphane Hurpé, co-founder of several digital agencies and digital technology entrepreneur, he is fascinated by the impact of the Internet on consumer behaviour
+and usage. For the past ten years, he worked closely with brands and supported
+them in their communication needs.
+ITS OBJECTIVE:
+He is convinced that the perspectives offered by blockchain will rapidly and
+profoundly change the economy as we know it, but the general public has to seize
+the advantages it offers. SGAT project, with its physical presence, the SGAT POINT,
+is for him an exciting opportunity to effectively participate in this revolution.
+59
+PROJECT TEAM
+PROJECT TEAM
+PHILIPPE BONAN, ART DIRECTOR
+Philippe Bonan is an interior designer, creative director for over 10 years, and
+expert in 2D and 3D animation. He knows how to visually translate the positioning
+of a brand or a product. His architectural and landscaping talents are invaluable
+in the creation of the SGAT POINT, a place in Paris where SGAT community can
+meet.
+ITS OBJECTIVE:
+To translate SGAT’s ambitions into a visual (creation of communication tools)
+and physical experience with the development of the SGAT POINT. Philippe’s
+requirements and experience will allow a meticulous and creative implementation
+of SGAT strategy.
+AINA RANDRIAMALALA,
+MARKETING & COMMUNICATION DIRECTOR
+Serial entrepreneur and expert in BtoC (Business to Customer) acquisition strategies,
+Aina Randriamalala is a digital marketer. Passionate about social mechanics of
+digital technology, he drives and spreads SGAT’s vision and values to the teams.
+ITS OBJECTIVE:
+SGAT’s positioning ambition is to «speak clearly» to the consumer and to offer
+innovative services to its users on a daily basis. Aina supports SGAT teams in this
+philosophy and takes part in maintaining a «user-centred» vision. He also contributes to the development of SGAT communication plan.
+60
+PARTNERS
+SGAT
+PARTNERS
+SGAT
+PARTNERS
+SGAT
+EIKO STUDIO
+EIKO STUDIO is a media group founded 10 years ago. Creative studio in its early
+days, it has since grown to become a global digital agency.
+EIKO works with brands and assists companies from different industries in their
+daily communication (cosmetics, insurance, medical, sports, biochemistry...).
+TRENTE-DOUZE
+Several years ago, the group created an entity totally dedicated to mobile and
+web development: TRENTE DOUZE. The team puts its technical expertise,
+its crypto-enthusiasm and all its digital experience at the service of SGAT project!
+CHRISTOPHE LANDAT,
+ACCOMPAGNEMENT JURIDIQUE – LAW FIRM GETAVOCAT
+To develop its project, SGAT relies on the lawyer subscription services offered by
+www.getavocat.fr, a service founded by Maître Christophe LANDAT, a lawyer at
+the Montpellier Bar since 15 years, holder of a DEA in Computer Science and Law
+and former president of the “Commission Nouvelles Technologies” of Barreau
+de Montpellier when he was elected to the Council of the Order between 2011
+and 2014.
+61
+Chaineum, crypto-finance advisors, ICO/TGE:
+http://www.chaineum.com/
+Blockchain Daily News, French internet newspaper focusing on blockchain technology, IoT,
+quantum computing and artificial intelligence.
+https://www.blockchaindailynews.com/
+Finyear is on its side focusing on financial and digital innovation:
+https://www. nyear.com/
+Bitcoin.fr, Bitcoin news and information French website:
+https://bitcoin.fr/
+E-Ducat.fr, Blog on Bitcoin, internet of transactions et programmable currenc :
+http://educat.fr/
+Paradigm Shift:
+https://en.wikipedia.org/wiki/Paradigm_shift
+Kondratiev Wave:
+https://en.wikipedia.org/wiki/Kondratiev_wave
+« Blockchain: La Révolution de la Confiance » by Laurent Leloup (Author), published on 16 February 2017
+by Eyrolles
+« Bitcoin, La Monnaie Acéphale » by Jacques Favier and Adli Takkal Bataille (Authors), published on 24 May
+2017 by CNRS
+«Apple, Bitcoin, Paypal, Google : la fin des banques ? Comment la technologie va changer votre argent»
+by Philippe Herlin (Author), published on 12 February 2015 by Eyrolles
+« La cryptomonnaie une monnaie libre: de l’histoire vers l’avenir » de Suzanne Bédard (Author),
+Jean Nadeau (Preface), published on 10 August 2017
+« Mastering Bitcoin: Programming the Open Blockchain » by Andreas Antonopoulos (Author),
+published on 16 June 2017 by O’Reilly Media
+« La révolution FinTech » by Régis Bouyala, published on 17 March 2016 by Revue Banque
+Websites and readings

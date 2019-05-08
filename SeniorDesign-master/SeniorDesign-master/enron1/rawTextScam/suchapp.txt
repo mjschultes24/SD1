@@ -1,0 +1,1460 @@
+﻿EXECUTIVE SUMMARY
+The Problem
+Today's messaging apps are fundamentally anchored to a very limited paradigm of one-on-one
+conversaBons and small unstructured groups. Largely, they fail to provide the necessary tools
+required to foster community, sBmulate economic acBvity and encourage lively human interacBon.
+The Opportunity
+The social media/messaging industry now represents $90 billion worldwide and is expected to grow
+to over $120 billion by 2020. However, the funcBonality that is offered to their 3 billion users leaves
+much to be desired. With a prepared rollout scheduled for 178 countries and 16 planned localized
+versions of the app, SuchApp will provide a new, full-featured messaging ecosystem based on
+blockchain technology.
+The Solu=on
+The app which will enter into public alpha in January 2018, not only provides realBme messaging but
+incorporates powerful new features such as locaBon based messaging, 4K broadcast video, granular
+security and powerful community and business communicaBons capabiliBes.
+Thanks to the integrated cryptocurrency ecosphere based on our ERC20-based SPS token, users will
+be able to buy, sell and trade all types of assets and services directly from within the app.
+AddiBonally, anyone in the world can create and administer a group on SuchApp leveraging
+advanced community features such as a custom loyalty program based on the integrated token.
+The Strategy
+Unlike most iniBal coin offerings, SuchApp is far from an abstract project waiBng to be commenced.
+Thanks to over $1.5 million already invested in development, the applicaBon is nearly ready to
+launch globally to the public. Our goal is to posiBon ourselves as one of the top 5 messaging apps in
+the world within 5 years.
+To accomplish this we will uBlize the funds raised in our iniBal token sale to catapult our user growth
+through strategic acquisiBons and sustained organic promoBon.
+The Offering
+SuchApp will soon announce an iniBal public crowdsale of its SPS token. The total supply of tokens
+will be 2.5 billion with a maximum fundraise of $40 million. The ICO price of each token will be
+$0.05. Pre-sale phase parBcipants will receive, in addiBon to significantly discounted token prices,
+lifeBme Gold Membership within the applicaBon.
+2
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+CONTENTS
+EXECUTIVE SUMMARY                               2
+OVERVIEW                                        4
+WHAT IS SUCHAPP?                                4
+WHY ARE WE RAISING FUNDS?                       5
+WHAT WILL TOKEN SALE PARTICIPANTS RECEIVE?      5
+TOKEN SALE FACTSHEET                            6
+MOTIVATION                                      7
+OUR STORY                                       7
+WHAT DRIVES US?                                 8
+MARKET OVERVIEW                                 9
+PRODUCT DESCRIPTION                             10
+INTRODUCTION                                    10
+RADAR                                           12
+SUCHAPP GROUPS                                  13
+GROUP ADMINISTRATION AND CONTROL                15
+VIDEO CHAT                                      16
+MARKETING                                       17
+LOYALTY PROGRAMS                                18
+INTEGRATED DIGITAL WALLET                       19
+SPS DIGITAL CURRENCY                            20
+EXCLUSIVE DEBIT/GIFT CARD                       21
+LIVE FILTERS IN 4K                              22
+4K VIDEO EDITING                                24
+SUCHAPP USER ACQUISITION STRATEGY               25
+SUCHAPP BLOCKCHAIN SMARTPHONE                   26
+TECHNICAL PAPER                                 28
+IntroducMon                                     28
+Protocol                                        28
+SP Coin Issuance                                29
+SP Coin Wallet                                  29
+Security                                        29
+GiT Cards                                       30
+TransacMons between users                       31
+API Architecture                                31
+TOKEN UTILIZATION WITHIN SUCHAPP                33
+DISTRIBUTION OF FUNDS AND TOKENS                36
+ROADMAP                                         37
+TEAM                                            38
+ExecuMve Team:                                  38
+Advisors:                                       40
+DISCLAIMERS                                     43
+3
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+OVERVIEW
+The social media and messaging industry now represents $90 billion worldwide and is expected to
+grow to over $120 billion by 2020. However, the funcBonality that is offered to their 3 billion users
+leaves much to be desired. With a prepared rollout scheduled for 178 countries and 16 planned
+localized  versions,  SuchApp  will  provide  a  new,  full-featured  messaging  ecosystem  based  on
+blockchain technology.
+With SuchApp, anyone in the world can create and administer a group on SuchApp leveraging
+advanced community features such as a custom loyalty program based on the integrated SPS
+cryptocurrency token. Group administrators will be able to culMvate a direct relaMonship with their
+customers and can offer them uniquely targeted promoMons.
+SuchApp, includes an open searchable marketplace built over a robust blockchain ecosphere. This
+will bring excepMonal value to endusers, community organizers and businesses alike.
+Our goal is to bring on board more than 400 million ac=ve users in the next 5 years.
+WHAT IS SUCHAPP?
+SuchApp combines best-of-class messaging with the power of a social network architected over a
+robust, enterprise-level blockchain economy to create the worldes frst 5G messaging ecosphere.
+From one easy-to-use app users will be converMng their smartphones into a single point of contact
+for talking to friendsg socializing and networking with like-minded peopleg buying, selling and trading
+goods and services and making payments with our own digital currency. This is SUCHAPP.
+SuchApphs uMlity SP Coin iSPSj provides a combinaMon of Digital Currency and bonus-based loyalty
+plan features. It is built on the Ethereum Plakorm making the integraMon with the blockchain
+community smooth and simple.
+nceptual design. Instead, our mobile
+dvanced technical development stage.
+ment team working on it and will be
+g stage in January, 2018. The business
+y explained in this white paper is also
+wards full implementaMon.
+4
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+WHY ARE WE RAISING FUNDS?
+We have already invested over l1.5 million of our own funds into the development of SuchApp.
+However, to reach our goal of becoming one of the top 5 messaging apps in the world much more
+will be needed. We are not too shy to put the actual fgure we need to raise on the 1st page of our
+white paper.
+Our hard cap is 40 million dollars, and there is good reason for that.
+Our markeMng target is to become the messenger of choice for the blockchain community and our
+business target is to enter the top-5 list among Messaging ApplicaMons, measured by acMve users
+within 5 years.   By that Mme, the market will be worth over l120 billion, and we will be strategically
+placed to act as a market leader thanks to the goodwill of the blockchain community and our loyal
+supporters across the world.
+To achieve the targeted growth strategy, we will need to invest considerably into both organic user
+growth as well as execuMng a well planned acquisiMon strategy.  We also plan to conMnue developing
+our applicaMon, adding features and integraMng it even more Mghtly into the blockchain.
+It is not a secret that most of the messaging apps are cash-negaMve during the frst few years of
+operaMonsg and we must have enough cash on hand to fnance our longterm strategic goals.
+WHAT WILL TOKEN SALE PARTICIPANTS RECEIVE?
+First and foremost, token sale parMcipants will be acquiring SPS tokens at their iniMal highly
+discounted price.
+The token will have several clear uMlity funcMons within the SuchApp applicaMon:
+It will serve as the basis of all product and service purchases within the applicaMon.
+It will serve as measurement token of all SuchApp loyalty programs.
+It will serve as the exchange mechanism between all user-created loyalty programs.
+In addiMon to these inherent uMliMes, we are offering lifeMme Gold Membership Levels to all the
+original qualifed investors.
+This means that you will be rewarded with certain in-app services for free for as long as your account
+stays acMve.
+5
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+TOKEN SALE FACTSHEET
+SuchApp combines best-of-class messaging with the power of a social network architected over a
+robust, enterprise-level blockchain economy to create the worldes frst 5G messaging ecosphere.
+Our funding strategy is based on introducing our proprietary SP iSuchApp Tokenj cryptocurrency in a
+phased manner.   Our goal is to become a top-5 messaging app within 5 years as well as to become
+the messenger of choice for the blockchain community.
+6
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+MOTIVATION
+OUR STORY
+Unlike many ICO projects that start on a mere promise, we bring to the table a solid, robust history
+of successful business development with an over 6 year proven track record of genuine customer
+acquisi=on.
+SuchApp is an instant messaging service developed by Footprint Media Holdings CorporaMon the
+parent company of the satellite TV networks High TV 3D and High 4K TV.
+Together our media channels reach an audience of 1.3 billion people spread all around the globe.
+Headquartered in New York, Footprint Media Holdings CorporaMon was founded in mune 2011 to
+provide  innovaMve media services. We now serve 198 countries around the planet providing quality
+ad-free content on a daily basis thanks to our 24 full-Mme producMon teams. Due to the internaMonal
+nature of our service, we regularly hold conferences and passionately collaborate to achieve
+ambiMous goals. The development of SuchApp started with one such meeMng by tech professionals
+in the communicaMon industry.
+The idea for SuchApp emerged in 2015. A group of tech professionals from the communicaMon
+industry met and realized that popular messaging apps used across the world lack some highly
+needed  features.  The  discussion  conMnued  and  a  pronect  was  launched  around  the  idea  of
+developing an app with features unseen in the current realMme social and messaging apps on the
+market. Ideas quickly started pouring in from all quarters. We had many fruikul brainstorming
+sessions that reoect the synergisMc group dynamics of our team.  What started in one of our humble
+conference rooms steadily grew into SuchApp.
+7
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+We began by discussing the need to develop a popular messaging app that would help people
+navigate the world with ease. WeChat was one of the few messengers that provided the enhanced
+tools that transformed the basic messenger app into a social and trading network for the Chinese
+market. Unlike WeChat, we realized that there was a bigger niche for the full-stack new-era social
+communicaMon tool for the growing audience of smartphone users.
+By the end of 2015, the pronecths main goal of becoming the UBER of online communicaMons had
+evolved into a clear technological concept.  In 2016, the original concept and the team was extended
+due to the overwhelming interest in blockchain development and the growing popularity of the
+Ethereum plakorm.
+With these ideas in mind we set out to integrate the best of blockchain technology with an enMrely
+new realMme messaging ecosphere. This is SuchApp.
+WHAT DRIVES US?
+We are on a quest to build a truly global blockchain messaging app.  All the benefcial features of the
+distributed ledger will be deeply integrated into one universal product that combines many common
+funcMonaliMes  spread  across  numerous  different  apps
+currently  in  use.  Not  only  will  this  enhance  the  user
+experience, comfort and convenience, but it will also open
+up enMre new opportuniMes for entrepreneurial thinkers.
+SuchApp is  80q ready and contains the most up-to-date
+features of any messaging app on the market. Thanks to our
+state of the art blockchain implementaMon, we will launch
+far ahead of the manor players in the market.
+Unlike  any  other  messenger  iwhose  popularity  differs
+drasMcally  from  country  to  countryj,  we  are  building  a
+product that will become LOCAL in every country due to our
+advanced RADAR funcMonality. LocaMon based messaging
+means that you will always feel at home no marer where
+you are.
+Furthermore, all our users are united by our SPS coin. The
+token will be tradable on manor exchanges and will be widely
+used  as  a  payment  alternaMve  for  a  variety  of  naMonal
+currencies.
+At the end of the day, we believe that our app will become
+an important driver for cryptocurrency adopMon all around
+the world. As people realize the ease of use of making
+purchases  within  SuchApp  and  begin  to  receive  SPS  as
+loyalty rewards at businesses they already frequent, both
+our  growth  and  that  of  the  enMre  community  will  be
+assured.
+That  is  our  mission  and  thaths  what  drives  us  to  make
+SuchApp as awesome as it can bes
+8
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+MARKET OVERVIEW
+Immense changes are underway in mobile messaging.   Despite the fact that SMS messaging is over
+20 years old, it feels as if the medium itself is on the brink of a new era.
+One obvious reason for this is the emergence of so-called tOTTh apps, which let users send messages
+over IP.   Apps such as WhatsApp, Facebook Messenger, WeChat and Viber give people the ability to
+send video and photos and to easily set up closed groups. These are features that are not readily
+available via tradiMonal SMS text messaging.
+The Mobile Ecosystem Forum 2016 Messenger Report reveals that internet based apps are now
+favored by a manority of end users. For example, 56q of people say they regularly use Facebook
+Messenger, while only 42q use SMS messages.
+While there has been a shiT away from SMS in person-to-person messaging, the same is not true in
+the A2P iapplicaMon-to-personj space. MEFhs study reveals widespread adopMon of A2P messaging
+across many verMcals, with fnancial services being the most acMve. Analysts expect the market to
+keep growing.  muniper Research says the market may be worth almost l100 billion by 2018, up from
+l55 billion in 2013. Some intriguing market developments could drive this expansion. More and
+more developers are using simple APIs in their apps to send messages to users. Further ahead is the
+intriguing prospect of tconversaMonal commerceh in which brands use bots to talk to customers as if
+they were human operators.
+It is expected that by 2020 the market will grow to l120 billion, and we believe that SuchApp will be
+strategically placed to gain a signifcant share of it. Our Mme-to-market strategy is compeMMve and is
+supported by the high level of readiness of the core applicaMon. Also ias you can see from the table
+belowj, some of SuchApphs features are going to be exclusive and it will take substanMal Mme and
+investment for the exisMng players to replicate our funcMonality.
+9
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+PRODUCT DESCRIPTION
+INTRODUCTION
+SuchApp combines best-of-class messaging with the power of a social network architected over a
+robust, enterprise-level blockchain economy to create the worldes frst 5G messaging ecosphere.
+We understand that communicaMng seamlessly is an essenMal requirement in todayhs world. We also
+know that negoMaMng the fnancial landscape with ease is equally important. SuchApp integrates
+both of these requirements into a soluMon that fts in the palm of your hand.
+Some of our innova=ve features:
+▪   Connect: Connect effortlessly with friends, family and colleagues anywhere at any Mme.
+▪   Groups: Form, fnd or noin groups of all sizes.
+▪   Broadcasts: Share live broadcasts of lifehs most unforgerable moments.
+▪   Video Chat: Live video chats as well as VOIP conferences - Personal and Group.   Exclusive
+feature of up to 4 people being able to zone in for chats.
+▪   Full featured business messaging: MulMple channels with granular security support.
+▪   MarkeMng:  Branding,  promoMons,  offers  and  customer  support  that  enables  business
+enMMes to market products aTer seeking individual or group approval.
+▪   Loyalty Programs: Create and manage your own fully funcMonal loyalty programs.
+▪   Live Filters and Video EdiMng: Enhanced resoluMon to 4K for high-clarity photos and videos.
+▪   Digital Wallet and Digital Currency:   Carry money digitally, pay bills and manage fnancial
+assets and transacMons in a hassle-free manner with our integrated digital wallet.
+▪   Exclusive debit/giT card for managing your digital currency:  Manage all assets with ease and
+in one place with digital currency stored exclusively in a custom debit/giT card.
+▪   SMckers: 1000u unique and animated sMckers to enliven all your virtual conversaMons.
+Flow screens for an intui=ve, responsive and dynamic experience:
+Flow  screens  help  people  to  easily  connect  and  navigate  through  SuchApp.  Flow  screens
+incorporated in SuchApp include Chat Flow Screens, Group Flow Screens, AcMvity Flow Screens and
+Sevngs Flow Screens.
+Chat Flow Screens: Chat oow screens are dedicated to your chats with friends, family and
+colleagues in an exclusive screen nust for that.  They also allow people to indicate when they are free
+to chat with the following indicators: Available, Busy, At Work, In a MeeMng. If you are meeMng up
+with friends during the weekend, chat oow screens allow allow people to share the exact meeMng
+locaMon via GPS mapping. This is in addiMon to enabling the sharing of media like photos and videos.
+10
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Group Flow Screens:   Group oow screens house the group features: Private, Open, Secure as well
+as locaMon based RADAR groups. These screens enable users to easily and seamlessly navigate
+between all of the groups that they belong to.
+Ac=vity Flow Screens:   AcMvity oow screens are dedicated to the social, cultural and sporMng
+acMviMes that are coordinated and showcased through SuchApp.   These screens that help people to
+easily discuss and share their opinions about acMviMes that they are passionate about.
+Seengs Flow Screens: Sevng Flow Screens allows users to easily set and alter their profle and to
+manage privacy and safety opMons such as blocking contacts.
+11
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+RADAR
+Search for “Such & Such” on your radar
+GPS-enabled social and lifestyle feature
+Feel at home in any part of the world and won-the-gox
+with the locaMon-enabled radar feature.  With RADAR,
+you can fnd like-minded groups, restaurants, ByBs,
+hiking  trails  and  much  more  nearby.  This  can  be
+anywhere within a 2 to 5 km radius.   You can search
+for groups or businesses by locaMon and by category.
+This enables an easy and hassle-free search for nearby
+groups and locaMons.
+Makes traveling memorable
+“It’s a small world aker all.”
+RADAR  helps  you  connect  with  social  groups  and
+businesses in any travel desMnaMon. You can easily
+connect with the people on the radar group through
+messaging, voice or video calls. You can parMcipate in
+video conference calls with up to 4 people on your RADAR at a Mme wherever you are.
+Make your moments memorable wherever you are - cherish and share them.
+Make wonderful friends, fght for causes, form meet-ups, share interests, do pronects, arend music
+fesMvals within your vicinity. View moments shared by people on your RADAR and share yours too.
+How does SuchApp RADAR transform traveling?
+Meet Dora. She is an avid traveller and loves to trek.
+Dora is excited to be on the US-Canada border. With SuchApp RADAR, she fnds affordable lodging,
+nust 3 km from Niagara Falls.  She also fnds and noins a SuchApp RADAR trekking group.
+SuchApp Radar helps you find others who share your interests.
+Dora treks with a group of 20 through Niagara Gorge, passing woodlands, meadows and streams.
+They fnally arrive at Niagara Falls and are mesmerized by the whole experience. They share amazing
+moments like spovng a busy woodpecker to singing old folk songs along the way. They share these
+moments with all their friends through SuchApp.
+What makes the RADAR feature stand out?
+Forming groups and meeMng people through RADAR is a totally new feature found only on SuchApp.
+Also, fnding cool spots and social events in your vicinity is another aspect not found in other apps.
+12
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+SUCHAPP GROUPS
+Most messaging apps have very limited group funcMonality. This is not the case with SuchApp. Our
+app is designed from the borom up to support vibrant engaged communiMes of like minded people.
+Private Groups — For Confiden=ality
+Stay connected with friends, loved ones and passionate groups
+Create  a  group  and  include  only  people  you  like  and  trust.  Enno
+confdenMality with our Private Group feature. Admin approval is required to
+noin. Only the admin/creator of the group can add members from her/hi
+contacts. No one else has rights to add members.   The group is discoverable
+only among the contacts of the admin, and they can noin the group only aTe
+seeking approval.   A private group can be family groups, friend circles and
+close knit interest groups. Only group members can view and take part in
+what is going on.
+Open Groups - Public and Open to All
+Enjoy the Spirit of Democracy and Camaraderie within SuchApp
+Anyone can create an open group that is easily discoverable and allow anyone
+to noin. Admin confrmaMon is not required for noining public groups.   Anyon
+who fnds the group can noin the group without approval from the creator of the group.    It is
+completely open.
+Open groups are great for public discussion forums, interest groups, social acMvism, environmental
+campaigns and much more.
+The administrators of the group have granular control over the grouphs acMvity and can easily
+moderate and assure that parMcipants comply with the grouphs code of conduct. The app also
+incorporates clear mechanisms for prevenMng unwanted spamming.
+Secure Groups - For Safety, Security and Confiden=ality
+Feel secure and communicate to your secure group with confidence
+Anyone can create a secure group and approve who should noin. Ennoy extra confdenMality within
+the secure group.  Admin approval is required to noin, and admins have the ability to keep the group
+confdenMal and choose who can know about it. A secure group can be a family group, a circle of
+friends, an organizaMon or a business group. Everything discussed and any informaMon shared within
+the group will remain secure and will not be visible outside the group. The secure group feature
+allows for secure real-Mme messaging with team members and supports mulMple channels such as
+departments or specifc side conversaMons. You can also manage and upload fles and other
+important confdenMal documents with security and confdence.
+Greet your group members with scheduled gree=ngs or broadcast messages
+GreeMng oow feature: The group admin can send scheduled greeMngs, be it a birthday or holidays.
+This is done by sevng date and Mme with the opMon to send images and videos as well.
+Start campaigns and conduct polls
+Start campaigns in all the groups, open, private and secure, for all that you care about.  From a blood
+donaMon appeal to environmental protecMon campaigns, any a campaign about any idea that you
+are passionate about can be started.
+13
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Conduct polls, fun quizzes and surveys through the poll opMon. From conducMng opinion polls on the
+latest pressing issues to conducMng social impact surveys, the poll opMon helps you to easily gauge
+the opinion of your group members.
+Push noMfcaMon screen enabled: Any campaign or poll can be started by the admin or creator of the
+group. They can customize the campaign or poll with engaging images. Polls and campaign opMons
+encourage interacMvity and parMcipaMon among group members.
+Live Group Mul=-Video Chats
+Instantly start an Exclusive Live Video Broadcast in your Group instantly
+Surprise your group of friends and family spread across the globe with live video broadcasts. You can
+instantly send special broadcasts of birthday parMes, school programs, college fesMvals, music gigs,
+weddings, graduaMon ceremonies etc. Are you laughing at your kidhs latest pranks? Instantly share
+live video broadcasts, and bring your loved ones closer, no marer the distance. From videos of
+prisMne nature to vibrant scenes of daily life, broadcast the noie de vivre and share your passions
+with everyone in your group.
+Share your excitement live, whether it is a match, an exo=c place or a live performance.
+Let your group feel the excitement too. Broadcasts can be conversaMon starters. You can inspire your
+group to be part of the real experience, even from across the globe.
+Make use of Live Broadcasts to Enhance Your Corporate Culture
+Broadcast important messages and updates in an effecMve manner with Live Ozce Broadcasts. You
+can enhance ozce synergy and use broadcasts as a producMvity and moMvaMon tool to foster your
+unique company culture.
+Explain and resolve problems in real=me
+Broadcast live explanaMons, soluMons and suggesMons on diverse topics. Are you a math tutor? You
+can explain soluMons to tricky problems with a live broadcast to your group. Did your friendhs car
+breakdown? Broadcast a live step-by-step procedure on how to resolve the problem.
+What makes these features so unique and powerful?
+SuchApp will be the frst realMme messaging app to include the Open iPublicj group feature.
+From Whatsapp and WeChat to Skype, none of the exisMng communicaMon apps in the market have
+an Open Group feature. The Secure Group and Live Broadcast feature can be used by corporate
+groups and is secure and confdenMal. Compared to other communicaMon apps like Whatsapp and
+Google Hangout, SuchApp has more enhanced group opMons, offers berer security and integrates
+our Live Video Group Feature for instant broadcasts.
+14
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+GROUP ADMINISTRATION AND CONTROL
+Control Every Part of Your Business Effec=vely
+Managing your group is easy when you are an admin of a SuchApp group. We provide an all-in-one
+app with great chavng, ediMng and markeMng features built in. When the group contains your
+customers and you are building your business and serving your customers through the group,
+focused management is crucial. Every part of the group and every product and services you offer
+should be carefully administered whether it  be it a small local business or a global corporaMon.
+Manage Members
+With the inbuilt features of SuchApp, you can easily manage who should be in your group and the
+level of access you wish to provide them. You can also choose which messages should be sent to
+which members in your group.
+Manage Offers & Discounts
+Offers and discounts can be sent to select customers within your group. Offers can also be
+customized specifcally for your SuchApp customers. Discounts can be setup and provided based on
+spend level or product category. SuchApphs built in loyalty features help you create unlimited
+discounts with as many customizaMons as you need.
+Manage what you Sell
+Products and services can be customized based on customers and product type. Product stock levels,
+discount periods, offer periods and other criteria can be meMculously managed making SuchApp an
+excellent e-commerce plakorm to grow with.
+Manage Gree=ngs
+Customers love being greeted on special occasions. Customized greeMngs for every customer can be
+designed, scheduled and sent making your customers feel unique and special. Customized greeMngs
+can be combined with one-Mme offers and discounts making their occasion truly specials
+Manage Files, Photos and Videos
+Your fles and photos can contain sensiMve data and not all informaMon can be shared with all
+members in your group. Provide different levels of access to different members and ensure the
+informaMon shared remains in safe hands.
+15
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+VIDEO CHAT
+Bring your family, friends and colleagues right into your living room or conference room
+Video chats have brought the world community closer together. must decades ago, people had to
+communicate with their friends and family through lerers which oTen took weeks to reach the
+other party. Also, conducMng professional meeMngs and collaboraMng with like-minded people in far
+away places was an ordeal. Video chats have transformed the way we communicate and are an
+integral part of the informaMon revoluMon.
+Chat to your heart’s content with your friends and family (as if they’re right next to you)
+With the video chavng feature, you can connect and do live video chats with your friends and family
+in an instant and with perfect clarity.  Your friends and family, whether they are overseas, in another
+neighborhood or in another part of the country, will loom life-like on the screen. You can share many
+memorable conversaMons through the video chat.
+The chat oow screens help people share and record
+wonderful moments, video included.
+Join and have engrossing conversa=ons with all
+your SuchApp groups
+With SuchApp, you will be able to meet new people
+and widen your circle of friends becoming more
+involved in the causes that are important to you. The
+friends you make through RADAR groups can be
+naMonal or internaMonal, and you can always keep in
+touch once you have fnished traveling through video
+chats.   With the interest groups you noin in SuchApp,
+from book clubs to music clubs, you can keep in touch and have wonderful discussions through video
+as well. SomeMmes, the weather may prevent you from arending a meeMng of like-minded people,
+so video discussions can help you do that. You can do the same if you noin any business group.
+Whether it is a secure, open or private group, video chats can further help in strengthening group
+dynamics. Also, save and share all your memorable video group moments through the group oow
+screens.
+VOIP Conferences -  Conduct video conferences in an instant
+Video conferencing is becoming smoother with the power of the internet. There is no need to feel
+oustered if the video comes into focus but there is an audio problem. With the aid of our VOIP
+implementaMon, conducMng video conferences with teams across the globe is no longer mired by
+interrupMons due to poor audio. This is someMmes the case when conducMng video conferences
+through the more tradiMonal route of PTSN ipublic switched telephone networkj.
+Make your video conversa=ons more with S=ckers, Filters and Frames
+Add that extra oavor to your video conversaMons by sending sMckers, adding frames and enhancing
+through flters.  This will make your video conversaMons more colorful and unique.
+Up to 4 People can come into Focus and Video Chat on SuchApp
+SuchApp enables up to 4 people to come into focus on the screen and video chat.   The screen gets
+divided into four.  This enables a group of 4 to video chat with ease and clarity in an instant.
+16
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+MARKETING
+Branding, Promo=ons, Offers and Customer Support
+Increase your Brand Impact with a Powerful Digital Presence
+SuchApphs revoluMonary instant messaging app features can be leveraged for strengthening your
+brand.   Each and every feature from RADAR to digital currency can become a transformaMve part of
+your business.
+Let any customer passing through a vicinity find you easily
+The RADAR feature allows businesses to list their services and presence in a parMcular vicinity.
+Restaurants, hotels, department stores and any other service provider can make use of the RADAR
+feature to promote their business. This will help to bring in considerable trazc and enhances your
+visibility and presence in the areas that you operate. Customer support can also be provided in a
+more effecMve and Mmely manner with RADAR as a tool. This can further enhance the reputaMon of
+your business in the neighborhoods that you offer your services.
+Promote your brand to Poten=al Customers and Groups and Reach Out to Them
+The Groups feature { Private, Open and Secure, can be used for improving brand presence. The
+admin of a private or secure group can add subtle o
+campaigns  of  their  products  based  on  their  a
+Likewise, similar business strategies can be used to
+corporate markeMng digitally through an Open Group
+Businesses can also offer customer support in an
+enhanced manner through virtual SuchApp support
+in  the  resoluMon  of  product-related  queries  o
+complaints.  They can offer customer support through
+own Secure SuchApp Groups.
+Live  Video  Broadcast  and  Adver=se  Your
+Compelling in a Maqer of Minutes
+The live broadcast feature can be leveraged for adver
+manner in a marer of minutes. You can send live broadcasts of ad campaigns to your SuchApp
+groups based at your discreMon in either a subtle or compelling manner and create brand impact far
+and wide.
+Promote your Brand through Video Chats
+Your brand can also be promoted through the video chat features to SuchApp individuals, groups or
+during VOIP conferences. You can do an enMre brand promoMon through a VOIP conference
+complete with graphs and other info. You can discuss, clarify and answer all quesMons instantly and
+make an awesome impression.
+Leverage Push No=fica=on Features for your Brand
+You can also make use of the push noMfcaMon feature and create ad campaigns in an interacMve
+manner with fun quizzes and polls. While the greeMngs push noMfcaMon feature is mainly for social
+purposes, it can be used in a respeckul manner for certain brand-related acMviMes.
+Make use of Corporate and other Unique S=ckers for Branding and Promo=on
+Any campaign, branding communique to groups, or product post can be enhanced with the unique
+sMckers on SuchApp. If your business provides table tennis racquets and ball, you can include unique
+sMckers featured among our extensive 1000u range of sMckers.
+17
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Increase the Clarity of Your Corporate Promo=onal Videos with 4K Resolu=on using H265
+Technology
+In SuchApp, live video flters in 4K ResoluMon using H265 ihigh-ezciency videoj technology can
+make your corporate promoMonal video broadcast crystal clear in any part of the world. Any
+promoMonal video will be a success if the video streaming and broadcast is of excellent quality. The
+message of the promoMonal video then becomes impackul and resounding.
+Provide good offers and discounts for the discerning customer
+With the help of all the features of SuchApp, corporate markeMng can also be further enhanced by
+providing good offers and discounts for discerning customers.
+LOYALTY PROGRAMS
+Easy Digital Loyalty System to Grow Your Business
+Loyalty programs are great structured strategies for businesses to encourage their customers to shop
+more and use their services more frequently.
+Loyalty programs have been a great tool for years, but unBl now seang up and managing your
+program has been difficult and expensive. This is no longer the case with SuchApp.
+Our loyalty programs provide a range of opBons from reward points, promoBons, discounts,
+seasonal offers and gics. Research has shown that one loyalty card customer is more acBve than two
+non-loyalty card customer as they tend to spend twice per visit. Raising customer retenBon by just
+5% can boost a business profit by up to 75%. Research also states that 47% of consumers who
+acBvely use smartphones usually choose a store that offers a mobile loyalty program.
+SuchApp offers this great markeBng strategy to every group administrator to increase interest in
+their products or services. This is an excellent tool for small and medium sized businesses as well as
+large corporaBons. Our SuchApp plaeorm seamlessly integrates this great organic markeBng feature
+into our app. Once customers sign up for loyalty programs, group administrators can send messages
+and promoBons to increase sales during off-season Bmes.
+Every  Group  Administrator  has  an  op=on  to  create  and  launch  their  own  custom  loyalty
+membership program for their group. Group also administrators have the opBon to create Gic
+Cards for their group, create promoBons, setup discounts and provide points.
+B2B groups can also benefit from SuchApp loyalty programs for the purchase of goods and services
+from their suppliers.
+Exchange products and services with other group administrators
+You can have good partnerships with other group admins and exchange your products or services
+between your groups. You can also transfer/migrate offers, loyalty programs between groups. This
+will further help expand the reach of your brand for markeMng purposes. This will also be mutually
+benefcial and can enhance synergy among like-minded groups, etc.
+18
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+INTEGRATED DIGITAL WALLET
+Lighten your pocket and do business easily with our integrated Digital Wallet
+Digital wallets enable people to carry money safely
+and easily and help lighten onehs pocket. They help
+people make transacMons digitally without the hassle
+of carrying around and handling notes and coins.
+Digital wallets are being used alongside notes and
+coins in countries worldwide.
+Fully func=onal ERC20 compa=ble digital wallet
+SuchApp  includes  a  fully  funcMonal  ERC20
+compaMble digital wallet. This allows our users to
+store  and  transact  with  any  Ethereum  based
+cryptocurrency.
+While our focus is on SPS tokens, the SuchApp digital wallet will also be extended into the future to
+handle other cryptocurrencies like BitCoin, etc.
+Exchange money, make bill payments with ease from the comfort of your home or lodging
+From smartphone to electricity and water bills, all your bill payments can be made digitally from the
+comfort of your home or in any locaMon, when you are free. You do not have to worry about running
+around to pay bills or to recharge.
+Do bookings easily through the Digital Wallet
+Movie, train, hotel, oight, bus bookings, etc., can be done easily through the Digital Wallet.   You do
+not have to go to a travel agent or surf through websites to do certain bookings. It can be done easily
+and smoothly with the all-purpose instant communicaMon app, SuchApp, within minutes. Also, if you
+are traveling, fnding and booking a hotel, ByB, etc., iwithin a parMcular vicinity or in a wider
+geographical radiusj becomes extremely easy.
+Go shopping with the Digital Wallet
+You can stock up and shop for anything, from your daily needs to smartphones and clothing, through
+the digital wallet. You do not have to feel lost if you are in a new or unknown neighborhood. With
+SuchApp, you can order and shop at any locaMon that accepts SPS wherever you are. The digital
+wallet shopping feature comes in handy not only when you are at home but also when you are
+traveling. With the RADAR feature, you can easily search through the department stores, etc., in a
+parMcular vicinity and order what you require based on your needs. You can also connect with your
+SuchApp groups and ask for advice on reliable stores, good deals and so on.
+Exchange money with individuals and groups through the Digital Wallet
+From paying rent to paying donaMons to an interest group such as a social or environmental group,
+you can exchange money securely and easily with the help of the digital wallet feature. Since the
+Digital Wallet is integrated into what is predominantly a social media app, paying individuals and
+groups also becomes easier and hassle-free.
+Tracking of your payments and bills is quick and simple
+With our digital wallet, you can easily budget and track your payments and bills through the
+passbook feature. You do not have to go through the Mme-consuming nob of collecMng bills, noMng
+down each transacMon with dates and other details. You also do not to have to do rough esMmates of
+certain transacMon details. Our wallet saves you from recording all the info in your PC. because all
+the perMnent informaMon is saved in the digital wallet for you to look up and check. If something
+19
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+goes wrong, you can address the complaint in a hassle-free manner without having to hunt for bills,
+etc. You can access the informaMon anywhere, on any device.
+SPS DIGITAL CURRENCY
+Transforming how we handle money
+All transacMons that occur within SuchApp are handled in
+own digital currency called SPS. This ERC20 compliant toke
+serves  as  the  basis  for  the  enMre  fnancial  ecosphere
+included in the app.
+Not only can users purchase products and services from
+businesses that create groups within SuchApp, but the
+token serves as the basis for all of the individual loyalty
+apps that group administrators implement.
+This is especially powerful.
+For example, imagine that you run a local restaurant. Per
+you  decide  to  create  a  group  especially  for  your  mos
+customers and give them a bonus every Mme they come i
+your restaurant. This bonus would be stored as SP coins within their digital wallet. Later, aTer
+theyhve accrued enough SPS they could exchange them for a free meal.
+However, the system gets even berers Next imagine that close by there is a retail store that sells
+childrenhs toys that also has a SuchApp group and has set up a similar loyalty scheme. In this case,
+your customers could use SPS that youhve awarded them to buy a giT for their kidhs birthdays All of
+this happens thanks to the power of the blockchain ecosystem fully integrated into SuchApp.
+20
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+EXCLUSIVE DEBIT/GIFT CARD
+Carry an Exclusive SuchApp Debit/Gik Card for handling your digital currency
+SuchApp is offering an exclusive debit/giT card for handling your SPS. Handling the special digital
+currency requires a special card in most markets where digital currency is not that widespread.   We
+make it easy for you to start using digital currency.    You can use the SuchApp debit/giT card
+alongside your ATM card for the exclusive handling of our digital currency.
+Be in control of your assets and digital currency with the exclusive SuchApp debit/gik card
+SuchApphs special debit/giT card helps you easily stay in control of your digital currency assets. It
+helps you track all your business deals and transacMons anywhere. You are in control and will feel
+more secure than you would with a bank card, especially when you have to deal with more
+expensive assets.
+How does the SPS debit/gik card available through SuchApp work?
+All you need to do is to do top-ups on your SuchApp debit/giT card through your bank card.   It will
+automaMcally get converted into digital SPS currency. You can then buy, sell or own assets with ease
+wherever you are or happen to go. Unlike a credit card, you can be in control, set limits and track
+digital currency spending, especially since you need to be extra careful with large assets.
+Immediate freezing op=on if your card gets lost, misplaced or stolen
+You can go to SuchApp and simply tap freeze immediately if your card gets lost, misplaced or stolen.
+At SuchApp, we understand that losing your card can be extremely upsevng.   We make it easy for
+you to immediately freeze your account if something like this happens ihopefully, it will notj.
+All your assets can be managed in one place smoothly
+The card helps you to manage all your assets in one place and track all your business deals.  You can
+switch between dominant currencies like dollars, pounds, euros and much more and do currency
+conversions with a simple swipe.
+We make safety the number one priority with this Exclusive SuchApp Asset-Managing
+Card
+The card and app are extremely safe. Like all banking cards, we follow all security protocols. You can
+key in a confdenMal passphrase, which is also easier to remember. You can handle your assets easily
+on any device. The digital wallet for the exclusive SuchApp asset-managing card is triple-audited for
+extra security.
+21
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Gik and pay at any interna=onal locale with digital currency stored in your Debit/Gik Card
+With the special SuchApp debit/giT card, you can easily give giTs while traveling and visiMng friends
+and family worldwide. Also, you can make payments in an instant in any country with digital
+currency stored in your debit card. You do not have to worry about foreign exchange and currency
+conversions while traveling. With the card, you can easily switch between dominant currencies like
+dollars, pounds, euros and much more. You will feel much more secure and travel lighter. You will be
+able to handle any challenging or unforeseeable fnancial eventuality overseas with ease. You will
+also save much more Mme before you travel and also when you land with the help of digital currency
+saved right in your card.
+LIVE FILTERS IN 4K
+Enjoy every Selfie and Photographic Moment with Stunning Live Filters in 4K Resolu=on
+The Selfe is one of the latest phenomena to hit the world of photography. Whether you are bringing
+your friends and family into focus through a Selfe or wclicking awayx on your smartphone, live flters
+in 4K resoluMon will save the awesome moments for years to come with crystal-clear clarity.
+Enhance your smartphone photographs with 4K for High Defini=on and Click like a Pro
+4K is the latest development in video technology. You do not have to carry around a professional
+camera for looking back on lifehs memorable moments.  Live flters in 4K resoluMon offers 4 Mmes the
+resoluMon of full high defniMon ifull HDj. In pixels, 4K resoluMon refers to a horizontal resoluMon of
+4000 pixels. Full HD in itself offers enhanced clarity. So, with 4K, photography enthusiasts can take
+their passion to greater heights. Moreover, even amateurs can perform wmagicx at the touch of a
+screen.   People do not have to spend hours trying to take a saMsfactory photo.   With SuchApp iths
+easy, hassle-free and fun.
+“Magic” Live Filters in Selfie, Portrait, Landscape, Sports, Close-Up and Night Modes
+In all the modes, from Selfe to Night Modes, Suc
+whole new set of wmagicx live flters in 4K reso
+people  who  like  to  fddle  with  the  camera
+smartphone, this new addiMon will make taking
+exciMng.  You  can  adnust  for  color,  contrast
+background and do much more with an increased
+live flters to choose from to add that extra oavor t
+22
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Do Live Broadcasts in 4K Resolu=on and Reach Your Audience in Very High Defini=on
+Live Video broadcasts in 4K resoluMon will ensure that sharing all of your moments to groups and
+individuals is at maximum resoluMon. The live flters in 4K resoluMon enable you to record any
+moment from a school basketball match to a protest march with greater clarity. All the details of
+what is going on including what is happening in the background, the landscape contours and much
+more will be well defned with 4K.  You do not have to stare or squint at the video to noMce the deep
+essence of what is being broadcast.
+Share all Wonderful SuchApp Group Moments in Group Flow Screens in 4K Resolu=on
+SuchApp is mainly an instant and social messaging app with RADAR and groups brought into focus.
+You can send 4K resoluMon photos and videos through the group oow screens. Likewise, others can
+share their wonderful moments with you in 4K, even if you know you cannot arend a program in
+person.
+Live filters in 4K resolu=on for photographing and broadcas=ng fast-moving ac=on
+Live flters in 4K resoluMon enable people to click fast-moving acMon, be it during a sporMng event or
+wildlife photography and much more. If you take the case of wildlife photography or videography,
+the most dizcult part is when you need to photograph or broadcast fast-moving wildlife. From birds
+suddenly diving in to catch fsh to a fox hurriedly sprinMng away, with SuchApphs live flters in 4K
+resoluMon, you can enthrall your audience with awesome footage.
+Enjoy Video Chats with Live Filters in 4K resolu=on
+Video chats will be greatly enhanced with live flters in 4K resoluMon. You will be able to see your
+loved ones, staying far away, and all that is going on at the background with incredible clarity with
+the 4K resoluMon feature.
+23
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+4K VIDEO EDITING
+Learn the art of Video Edi=ng with 4K Resolu=on in H265 Technology
+The latest advance in video ediMng is 4K resoluMon using H265 technology.   It enables people to do
+video ediMng for conferences, etc., with great clarity and ease.
+What is H265 Technology?
+H265 technology is a technical term for high-ezciency video-coding technology.  It is the technology
+behind 4K resoluMon for enhanced high defniMon photos and videos. It is also slowly but steadily
+being used in video ediMng also. The predecessor of high-ezciency video-coding technology or H265
+technology is advanced video coding technology or H264 technology.  So, it is an upgraded version of
+the same technology.  It allows for enhanced compression without compromising on quality.
+Create impressive corporate presenta=ons, do video edi=ng through 4K-H265 technology
+Any corporate presentaMon needs to be carefully craTed and requires numerous edits. Impressive
+and comprehensive corporate presentaMons can be made through the powerful and dynamic
+medium of video. These require repeated edits unMl the fnale is ready. From poinMng out and
+explaining graphs and other data to a technical presentaMon of a product, any corporate video
+presentaMon can be enhanced with 4K resoluMon in H265 technology.
+Release  Soul-S=rring  Video  Presenta=ons  for  Social  and  Environmental  Causes  with
+Enhanced Edi=ng
+Documentaries  and  other  such  video  presentaMons  also  require  meMculous  ediMng.  Through
+SuchApp, you can widen your circle of like-minded people who really care. If you think of the Arab
+Spring, it all started through the power of social media through repeated heart-rending posts and
+brave appeals on Facebook, etc. Tunisian liberaMon and peace groups were awarded a Noble Peace
+Prize, and Tunisia is in the throes of a oedgling liberaMon movement. Dictatorships are being
+overthrown, but what situaMon will come next?
+You can make a documentary or video presentaMon that helps bring together millions of people who
+have been manipulated, silenced or inMmidated for too long. This requires keeping your eyes, ears
+and heart open and passionately ediMng, updaMng and coming up with a heart-sMrring documentary
+or presentaMon. With 4K resoluMon through H265 technology as a tool, you can be an integral part of
+the hope and resilience that is part of our human existence.
+Make adjustments to your video smoothly with 4K resolu=on in H265 technology
+You can make adnustments to your video and do video edits with ease by re-sizing, cropping and
+ediMng according to recent updates and requirements. You can do playbacks with ease due to 4K
+resoluMon in H265 technology. Higher defniMon gives that extra advantage to playback and pause
+and do video ediMng in a hassle-free manner. Your graphs, images and other details will show up
+clearly in your presentaMon for you to do explanaMons in a calm and effecMve manner.
+Check all the movie transi=ons and video edit in an organized manner
+The movie transiMons will be displayed in a page-like sequence. ATer fnishing the frst draT of your
+video presentaMon, you can do a step-wise ediMng of it. Also, you do not have to go hunMng for a
+parMcular point in a presentaMon. You can nust check the screens for the required movie transiMon
+phase, tap on it and do the required edits or updates. The 4K resoluMon in H265 technology allows
+for all the transiMons of the video to play in a greatly enhanced high defniMon format.
+24
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+SUCHAPP USER ACQUISITION STRATEGY
+In order to reach the full potenMal of the network, a suzcient user base needs to be established.
+We understand that the future of the plakorm relies on arracMng and maintaining an engaged
+and ever-growing audience of users, which moMvated us to create an incenMve program for new and
+contribuMng users according to the following guidelines:
+1.  A  mulM-level,  viral  referral  system-  Not  only  will  new  users  receive  SP  Tokens  when
+their friends sign up through their personal referral URLs, but they will also receive an addiMonal
+bonus for the friends their friends bring ins During the frst year following our ozcial launch, we will
+dedicate monthly pools of SP tokens that will be awarded proporMonally to all SP users based on the
+number of new users they have brought into the app.
+2. A gamifed community parMcipants award program- We will award tokens to users that enhance
+the reach of the plakorm, according to predetermined goals. Build a following - get tokens, offer
+services or products that increase user interacMon - get tokens, forward an offering to a friend - get
+tokens, build new communiMes - get tokens, and much much more. All of these programs will be
+presented in a gamifed system of earning points for parMcipaMon and contribuMon to the network,
+that will amount to token awards for advancing in the raMng and reaching new levels, thus creaMng
+an interacMon with the users that is both fun and rewarding.
+In addiMon, the SuchApp business development team has already prepared detailed user acquisiMon
+strategies, including iniMaMng serious deliberaMons with two internaMonal social networks. Each of
+these candidates has over a hundred million acMve monthly users and both are interested in merging
+their user bases into the SuchApp community.
+These will grant the network its frst two manor user boosts, in addiMon to enabling rapid adopMon of
+the tokens which will be widely accepted in businesses around the globe.
+SuchApp has reserved 540,000,000 tokens for this programs
+25
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+SUCHAPP BLOCKCHAIN SMARTPHONE
+SuchApp will be releasing its own branded Android smartphone with custom funcMonality for
+administrators of SuchApp groups. This smartphone will be sent free of charge to the administrator
+of any groups with over 1000 members.
+This smartphone is a standard android smartphone that is delivered with a customized soTware
+applicaMon that will not be available on any app store.
+Together with the digital wallet included in SuchApp, this new app allows the group administrator to
+leverage all of the business insight garnished from the acMvity within his or her group. It provides in-
+depth staMsMcs and facilitates the day to day management of their specifc loyalty program.
+State-of-the-art Secure Mobile Phone for Group Admins with 1000+ Members
+This highly secure mobile phone that includes our custom soTware will be offered to each group
+administrator who crosses 1000u members. Whether you create a RADAR, Secure, Open or Private
+Group, we understand your passion. Group administrators can hugely beneft from the SuchApp
+phone as it is specifcally designed to support crypto wallets and secure exchanges.
+What is blockchain technology?  How is it 100% secure, wallet secure?
+SuchApp is not only a social and messaging app but an excellent applicaMon to promote your
+business. While promoMng your business, you will have to ensure all your digital fnances and
+transacMons are safe and secure. Blockchain technology was developed by an anonymous team who
+designed bitcoin. This technology was subsequently used in the release of one of the earliest digital
+currency forms, bitcoin, in  2009. Unlike in banks, in blockchain technology, there is no central
+repository/central admin for keeping your fnances safe. It is decentralized and uMlizes cryptography
+for enhanced database programming and security of confdenMal informaMon. This way your wallet,
+fnances and assets will be extra secure.
+A Great Way to Manage Corporate Customers
+Businesses usually have concurrent offers running during different seasons. These offers oTen are
+complex including discounts, vouchers, giT cards for exclusive customers or frst-Mme shoppers, etc.
+26
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Businesses also oTen run campaigns only for certain products and services. These are also bound by
+a Mme period which makes it even more complex to successfully manage, read analyMcs, staMsMcally
+analyze the success and make proftable decisions. Using the powerful combinaMon of SuchApp
+Loyalty Management ApplicaMon and SuchApp Phone, you can read and analyze staMsMcs, make
+secure transacMons, effecMvely manage revenues at the touch of a few burons. Every loyalty
+program can be ezciently and accurately managed and analyzed. Historical data can be retrieved to
+compare year-on-year or month-on-month data.
+Based on in-depth analysis using our Loyalty Program App, you can then plan and execute your next
+campaign successfully. No other Mobile ApplicaMon has come close to what SuchApp can offer in
+terms of markeMng or online trading. Topping all these benefts lies the highly secure blockchain
+database, so all your transacMons, trades and purchases are safe and undisclosed.
+Secure and Anonymous Credit Card/Debit Card/Digital Wallet Payments
+Since SuchApp Phones work on a shared populated database, each transacMon is confrmed and
+encrypted in a decentralized environment. This is a great digital alternaMve to the regular banking
+process which is usually Mme-consuming, expensive, bureaucraMc and expensive. With our special
+SuchApp Credit Card, Digital Wallet and SP Coins, every transacMon can be made inside the world of
+SuchApp. This truly makes SuchApp self-suzcient, highly secure, confdenMal, fast and super-
+ezcient yet super-simple business applicaMon to run and maintain.
+27
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+TECHNICAL PAPER
+Introduc=on
+The following describes the architecture and future implementaMon to be used on the blockchain
+layer for the SuchApp pronect. It describes the technicaliMes of the highly secure decentralized
+blockchain database programming for the use of digital currency in SuchApp.
+Protocol
+We will be using a lightweight node implementaMon to be run on mobile devices and embedded into
+SuchApp. A lightweight node also known as Simple Payment VerifcaMon iSPVj node does not
+download the enMre blockchain locally to perform transacMon validaMons. It downloads only the
+headers of the blocks. This avoids having to download the enMre blockchain which would take too
+much Mme and consume too much space on a mobile device.   Also, all SuchApp digital currency and
+digital wallet users will be assigned private keys which are large integers. The private key is a security
+key which is known only to a parMcular user and is used during transacMons.   Through an algorithm,
+a public key ianother large integerj is derived from the private key of the user which reoects the
+address of the user. Users can send cryptocurrencies to the address of the user in this manner and
+vice versa and do transacMons through the private/public key algorithms securely.
+For validaMon, blockchain layer of the SuchApp app on the device will connect to a random full node.
+It will request all transacMons from the blockchain that are derived by the set of private/public keys
+stored in the wallet.
+The iniMal sync of the blockchain will take some minutes, but once it is done, we will be able to
+detect transacMons involving that wallet in seconds.
+The Blockchain Event Manager class of the applicaMon will noMfy when we are in sync ior out of
+syncj with the blockchain.
+The mava implementaMon of the SPV node will create contracts and transacMons under the ERC20
+protocol by adhering to Web3n standards.
+28
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+The blockchain layer will hold the private keys secured in the wallet and interact with the blockchain,
+submivng smart contracts and reacMng to triggered events.
+SP Coin Issuance
+SuchApp Coin isymbol: SPSj will be issued with the following characterisMcs:
+Amount                                                                                                    2,500,000,000
+Issuance Type                                                                                             Full - single Mme
+Coinbase frequency                                                                                        0
+Funds des=na=on                                                                                           SuchApp Admin
+SPS iSuchApp Tokenj coin will be issued on Ethereum blockchain by creaMng a smart contract to
+issue the tokens.
+Full amount of tokens will be delivered to SuchApp admin address upon creaMon.
+The SP issuance smart contract will allow exchange operaMons to acquire SPs by any interested party.
+SP Coin Wallet
+The embedded SP Coin   digital wallet will be a vault of private keys. It will consist of a password-
+protected fle on the mobile device that will expose the private keys only when a transacMon needs
+signing ito be safely broadcasted through algorithms to public keysj.
+Upon creaMon, when a new user for the frst Mme executes SuchApp, the wallet will generate a set of
+private/public keys maintained and encrypted inside the local fle. When needed and when those
+frst Mme generated keys are used and exhausted, a background process will take care of generaMng
+a new set of keys for future usage. The wallet will take care of generaMng new crypto-addresses and
+maintain transacMon histories of user-owned transacMons.
+Security
+Password protec=on
+Wallet fle storing the private keys will be secured by the password defned by the user. We will allow
+changing of passwords as many Mmes as needed. The user will need to provide the password each
+Mme a signature is needed. User-generated transacMons like sending coins to someone else requires
+signing the transacMon and using the private key. So, before sending the money, password will be
+requested in order to access private key vault. This will prevent a stolen device from emptying the
+ownerhs wallet.
+Wallet Backup
+29
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+We will enable the user to perform a backup of the wallet ifor stolen, lost cases, etc.j by exporMng
+the wallet fle to an SD card or even send it over a chat to someone else. Backup ias the wallet itselfj
+is password protected and only usable upon entering the correct password.
+The backup of the wallet will contain the seed of all keys generated, meaning that it will allow the
+creaMon and incorporaMon of all transacMons ever executed in the blockchain of the original wallet.
+In case of a stolen or lost device, the user will be able to recover the wallet with all transacMons and
+funds by restoring from backup and providing original password.
+Gik Cards
+The physical giT cards will be mapped to an SP address with SP funds already assigned to that
+address. In order to assign SPs to the card, SuchApp blockchain admin would generate a transacMon
+to change balance for the giT card address.
+The giT card in addiMon will include the private key data in order to redeem those SPs assigned to
+the address.
+The GiT Card holder will be able to register giT card on his/her own wallet by reading the |R code
+printed on the card. This event will trigger the blockchain layer to search for available funds of the
+giT card in the blockchain and update walleths balance accordingly.
+Shops or businesses accepMng SuchApp giT cards will be able to swipe and read assigned private
+keys of the GiT card. The validated balance will sMll be assigned to the address of the card. The
+available balance will be displayed. Depending on the available balance, they will conMnue with the
+trading operaMon and generate a new transacMon to deduct the purchase value of the service being
+offered, in exchange of the denominaMon in the giT card. Once card funds are exhausted, the same
+card can reset the cycle, and more funds can be granted again by blockchain admin.
+Gik cards and transac=ons “Gas” Payment
+Every smart contract transacMon requires wgasx for a miner to process it and include in the block.
+This is the miner wgasx fee and requires ETH iethereum coinsj in the userhs wallet.
+For example, a user receives a giT card with SPs that are included into his wallet as new fund.   In
+order to transfer those SPs to another user over the blockchain, he may need to pay the fee for a
+miner to process this transacMon.
+We want to help SuchApp users from not having to spend real money to acquire ETH. In order to do
+that, they will be able to call SP smart contract to exchange SPs for real goodsg and the giT card will
+be used in the following way:
+●   Business Owner, upon swiping and validaMng funds are available for the giT card, will be able
+to generate a smart contract call to deduct funds from the giT card. Business owner will be
+paying for the transacMon ismart contract callj and must have ETH posiMve balance.
+●   Card holder app will respond to the new event triggered by the new giT card transacMon
+generated by the business owner, verify the transacMon affecMng the address of the giT card
+previously registered, and update balance in the wallet.
+30
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+In this way, the giT card holder does not need to spend money on gevng ETH to be able to generate
+a smart contract call to update balance, and it is the business ownerhs responsibility to pay the fee of
+this transacMon.
+Card holder balance is updated from the blockchain itself and not from generaMng new transacMons
+when funds on the card are used.
+Transac=ons between users
+TransacMons between users, like sending SPs gained by registering a GiT Card, will not be enabled for
+transfer to another contact, unless the user owns ETH to be able to pay the miner fee.
+In this case, the wallet is loaded with ETHg then, the user will be able to transfer his SPs to another
+contact.
+API Architecture
+The nava API will consist of the following modules:
+Backup Restore manager: Responsible for generaMng backups of the exisMng wallet or creaMng a
+new wallet from an exisMng backup.
+Gik card registra=on manager: Responsible for reading GiT card |R code and sending informaMon
+to lower layers.
+SuchApp Contact Manager: Responsible for gevng contacts informaMon from applicaMon.
+SuchApp Database Manager: Module will generate connecMon to database and translate all db
+related queries.
+SuchApp Events Manager: Responsible for securely making public, from the app, all-related events
+on the blockchain.
+Crypto-Address factory: Responsible for using vault public keys to generate address and track
+contact informaMon
+Transac=on Manager: Responsible for making public crypto-transacMons related to wallet keys.
+31
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Token Balance manager: Responsible for safe conversion to public all available balances people
+might have in their wallets, SPs and ETH.
+Key Vault Manager: Holds the private key and is unlocked by user password only.
+Network Type Selector: Switcher between testnet and mainnet networks.
+Network Download Manager: Responsible for downloading block headers from blockchain to detect
+incoming transacMons.
+Network Connec=on Manager: Responsible for fnding full nodes and connecMng them.
+Checkpoint Manager: Handler of blockchain checkpoints to reduce download Mme.
+Blockchain Logger: Standard output logger of blockchain acMons.
+Applica=on Tech data
+iOS Applica=on Development
+Language: SwiT 3.0 / ObnecMve C
+Front End: Xcode 8.2.1
+Back End: S|LITE 3.0 / Core Data
+Android Applica=on Development
+Language: mava
+Front End: Android Studio 2.3.1
+Back End: S|LITE 3.0 / GSON
+Server Backend Development
+Language: PHP
+Back End: Mongo DB / MyS|L iThis will be for AcMviMes, Sevngs etc..j
+Chat Protocols
+XMPP Protocol
+Chat Server: Emabberd
+Database: MongoDB / Mnesia
+Audio / Video: WebRTC Library for iOS and Android.
+32
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+TOKEN UTILIZATION WITHIN SUCHAPP
+Token uMlizaMon within SuchApp is one of its key features.
+We promote open and transparent dialogue with our contributors and followers.   So, we have been
+using William Mougayarhs approach to clearly defne the value and benefts of the SP coins for our
+supporters.  The framework provides 3 tenets for the token uMlity: Role { Features { Purpose.
+APPLICATION OF THE MOUGAYAR’S TOKEN FRAMEWORK IN SUCHAPP MESSENGER
+THE RIGHTS
+The holders of SP coins would have certain rights based on several factors:
+ICO Value contributor’s rights
+All our original supporters who acquired more than 200,000 SP Coins during Pre-ICO and ICO get the
+right:
+   To  own  and  become  original  users  of  the  special  ICO-ediMon  of  SuchApp  blockchain
+smartphone with the frst versions of SuchApp App downloaded and ready to use when
+SuchApp is launched.
+   To claim the Golden Status of Group Administrator features in the SuchApp app for the
+period of 3 years aTer the launch of the product
+33
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+SP coin Value Holders rights
+In the post-ICO period, the value holders of the SP Coins in excess of 250,000 SPS who would like to
+become acMve members of the SuchApp community have the rights:
+1.  To claim the Silver Status of Group Administrator features in the SuchApp app}
+2.  To use selected paid SuchApp app services for free}
+Notes:
+*- to qualify for this right, the holder of SP Coins must keep in excess of 250,000 SP coins in SuchApp’s Reserve
+Wallet. This right would be ceased when the SP Coins are withdrawn from the Reserve Wallet by the owner.
+In addiBon the holder will receive 2 months of benefits stated in secBons 1 and 2 for free AFTER the SP Coins
+are withdrawn from the SuchApp’s Reserve Wallet.
+VALUE EXCHANGE
+SP Coin will be the fundamental measure of value for all products and services sold within SuchApp.
+User Case 1:
+mohn is a writer. He writes arMcles for magazines. He is a member of the fan group of Portland Trail
+Blazers NBA basketball team in SuchApp which has 23123 members in it. He also loves music and
+would like to learn to play the piano. mohn has a SuchApp wallet with 1000 SPS on it. Here are some
+of the opMons that he can use them with:
+1.  He can buy a Shout message from the SuchApphs Ad Service that targets parMcular areas for
+100 SPS adverMsing his services.
+2.  He can search the shouts database and acquire the contact details for the Piano teaching
+services that are offered in his area for 10 SPS.
+3.  He can also buy a Shout message from the Trail Blazershs Group Administrator for 50 SPS to
+either sell his service or buy the one he requires.
+User Case 2
+Marina sells hand-made dolls and has a small catalogue of her products with a shopping cart on her
+SuchApp profle page. She can adverMse her products in the same way as mohn above. When
+somebody likes her blond doll worth 1000 SPS, this customer can pay for it via a SuchApp Debit or
+GiT card using the simple Smart Contract built-into the Checkout algorithm within SuchApphs
+Shopping Cart feature.
+TOLL
+The toll feature in SuchApp is used in the following ways:
+   Access fee for the closed/VIP Groups
+   Access fee for certain resources and informaMon within SuchApp
+   Monthly Membership fees for Group Administrators
+   Monthly Exposure fees for the Service providers in RADAR service.
+There are more features to come.
+FUNCTION
+34
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Some of the features within SuchApp will require payment for accessing some services or content,
+connecMng to the users and providing the incenMves.
+User Case 1
+Fred was searching SuchApphs RADAR service and the map showed several girls within 3 miles from
+his house, one was looking totally his type. Since Emma ithe girl he likedj was not part of his circle,
+he has an opMon to pay 35 SPS In order to send her a private message and introduce himself.
+User Case 2
+~hang Wei i                                                                                               张伟 j is hungry and would like to order some takeaway i带⾛走 j. He searches his RADAR
+and fnds Lao Sze Chuan restaurant few blocks away. ConnecMng and making an order would not cost
+anything to ~hang Wei, but the restaurant would pay SuchApp 40 SPS fxed commission for the
+placed order through SuchApp.
+User Case 3
+Every Group Administrator who reaches 1000 subscripMon target will receive a reward of 1000 SPS
+and SuchApphs blockchain Smartphone for free.
+THE CURRENCY
+SPS token shall be openly used for internal payments for products and services in SuchApp. It would
+also be one of the currencies that our Debit and GiT Cards can be denominaMng in.
+We realize the importance of the liquidity, volaMlity and value issues surrounding any currency ifat
+or cryptoj in circulaMon and SP Coin is not the excepMon here. Saying that, we are taking measures to
+miMgate these issues:
+1.  We have reached preliminary agreement for SPS token lisMng on 2 manor exchanges from the
+top-20 list.
+2.  We are to introduce the SuchApphs Reserve Wallet system for the variety of services that
+would cut the supply of SP Coins to the open market for the short-term speculaMve gains.
+3.  We are planning to use up to 5q of the funds raised during the ICO crowd sale to support
+the Market Maker trading strategies on the exchanges to fght off the aracks on SP Coin by
+the speculators.
+EARNINGS
+SuchApphs SPS token is not a security, and nothing in this document should be construed as an
+offering of a security interest. SP Coin iSPS Tokenj is a uMlity token that would be uMlized within
+SuchApphs messaging app in the best possible manner to make SuchApphs popularity among users
+grow and drive the value of SPS tokens up as well.
+It is in our plans to become one of the top Messengers iby acMve user numbersj in the world within
+5 years of operaMons.
+35
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+DISTRIBUTION OF FUNDS AND TOKENS
+36
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+ROADMAP
+Our history dates back from 2011 when the parent company was formed. Since that Mme, the
+business has evolved into a driving technology company that is ready to traverse the world with a
+breakthrough product that we all are passionate about { SuchApp.
+37
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+TEAM
+The SuchApp team consists of 26 engineers, marke=ng specialists and legal and financial experts,
+along with an advisory board of world-class talent in the field of blockchain, finance and media.
+Execu=ve Team:
+Mr. Ronny Shany, Co-Founder & CEO
+Ronny is a senior execuMve with over 16 years of experience in the feld of
+Media y Entertainment. He is also the co-owner of Footprint Technology
+Ventures and invests in cryptocurrencies and blockchain technology. He also
+owns and operates Fintech and Media Spheres soTware and IT companies.
+Mr. Vladimir Dobrov, Project Manager and Chief Crypto-Officer
+Vladimir is an experienced ICO advisor and blockchain entrepreneur with a top
+level  corporate  fnancial  background  of                                                          15  years  and  has  worked  for
+mulMnaMonals across the globe. He also holds two degrees in Economics and
+Finance and is a reMred chartered accountant of the InsMtute of Chartered
+Accountants, Australia and New ~ealand.
+Mr. Jus=n Borrelo, Head of Business Development
+musMn is the Head of Business Development with a vast working experience in
+the entertainment and blockchain industry. He is skilled in digital strategy,
+mobile  content,  consumer  electronics,  television,  and  web  video.  He  also
+possesses strong business development skills and holds an MBA in Business
+AdministraMon.
+Mr. Jo Nakav, Chief Technology Officer
+mo leads the blockchain, debit card and mobile development teams.  He holds 12
+years of experience in system design and soTware architecture. mo built up a
+team of award-winning engineers and is an accomplished full-stack developer
+with  deep  knowledge  in  mava,  iOS,  Android  plakorms.  He  is  also  an  avid
+Blockchain enthusiast.
+mo  is  responsible  for  overseeing  the  acMvity  of  all  four  of  the  SuchApp
+development teams.
+38
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Mr. Idan Lakritz, Chief Financial Officer
+Blockchain and Crypto specialist with a vast fnancial background that includes
+taxes, audit, and analysis, while working for top-Mer frms PwC and EyY. Involved
+with crypto assets since 2013, he iniMally started mining coins, and today advises
+several companies around the world.
+Mr. Dennis Lewis, PR & Marke=ng Director
+Dennis is a seasoned digital storyteller and ICO markeMng specialist with a proven
+track record in both Europe and the United States. He has successfully lead to
+market and exited mulMple startup companies, and prides himself on his ability to
+make complex pronects easy to understand and relatable.
+In a markeMng landscape increasingly obsessed with shiny obnects and overly
+complicated sales funnels, Dennis sMll believes that the key to any successful
+markeMng campaign are the words on the page.
+Mr. Rafael Deramas, Marke=ng Manager
+Rafael is a digital markeMng execuMve with more than 10 years of experience, and
+has successfully built markeMng campaigns for more than  20 start-ups in the
+blockchain feld.
+39
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Advisors:
+Mr. Remigio Bongulielmi, Contribu=ng member of Crypto Valley Associa=on
+Remigio  is  a  manager  at  KPMG,  contribuMng  member  of  Crypto  Valley
+AssociaMon, worked as an operaMonal excellent expert at Nielsen for many years
+and is passionate about helping companies grow into digital, leaner, and more
+agile organizaMons through blockchain-led transformaMon, and dedicated to
+advising startups on ICO strategy and Tokenomics.
+Mr. Hans (Namkyu) Choi, CEO of Openchain
+Hans is the CEO of Openchain as well as co-founder of Korean Blockchain
+development community with various IT experts from many felds like fnancial
+systems, AI, big data, processing design and Fintech.
+He is also co-organizer of the largest Blockchain event with ISSAC-KAIST and
+Korean blockchain community. He has been a soTware developer for more
+than 20 years and focused on fntech feld for 10 years. He has parMcipated in
+various huge fnancial pronects, ordered by manor banks, insurance, stock and
+fntech frms, as a Business analyst.
+Ms. Deniz Erkut, CFA Fintech & Blockchain Expert
+ATer  25 years in fnancial services, working at senior execuMve level with
+market leaders including mP Morgan, State Street, Brown Brothers Harriman
+and PwC, covering clients, operaMons and pronects in Europe, Asia, the GCC
+and the USA, Deniz established her Swiss consultancy pracMce.
+Deniz focuses on supporMng Fintech businesses with their ICO, Blockchain and
+exchange pronects and on driving impact invesMng, in addiMon to supporMng
+investment funds with their regulatory compliance, risk management, strategic
+pronect and business analysis needs.
+Mr. James Hak, Entrepreneur and Merchant Banker
+mames has a broad experience in all aspects of forming, managing, advising,
+fund raising, and business development for entrepreneur-powered businesses,
+including, business strategy and MyA. He is also the co-founder of PALcapital,
+PALgenesis  Fund,  NXTPLabs,  ClimateCoin,  FairPay  iFairCoinj,  Condo.com,
+Houses.com, and StartupHub.nyc.
+Mr. Jason Hung, MBAT Bank co-founder and Entrepreneur
+mason  is  an  entrepreneur  and  inventor  in  mobile  technology,  blockchain
+ecosystem, digital markeMng, AI and ERP related business. He is the co-founder
+or  advisor  of  Treascovery,  Chidopi,  MBAT  bank,  GoldPower,  MiroBTC  and
+BeeSocials. He has more than 20 years proven track record on managing RD, IT,
+sales, consulMng service with 9 technology related patents which using at more
+than  2000 Apps. He was also formal PeopleSoT and mDE soluMon head in
+Greater China. He is also a blockchain expert of ICOBench and InternaMonal
+Blockchain ConsulMng Announcement Group.   He recently served at famous
+movie producMon company and online educaMon company as CTO.
+40
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Mr. Eric Klein, CEO of High TV 3D
+Eric is the CEO of High TV 3D, High 4K and NKOR, as well as co-owner of Footprint
+Technology Ventures, a company that invests in crypto-currency blockchain as well as
+owns and operates soTware and IT companies in Fintech and media spheres.
+Mr. Desmond Marshall, Founder of Rouge Ventures
+With over 23 years of strategic experience, Desmond Marshall is the founder of
+Rouge Ventures, an investment and strategic consulMng frm in Asia, that serves
+numerous Fortune 500, governments, tradiMonal and new global companies.   They
+conduct capital raising and advisory on investments, IPO/ICO/Blockchain pronects,
+and  other  mulM-industry  businesses,  for  strategic  repackaging  and  operaMonal
+enhancements.  He serves on a number of ICO advisory boards.Mr Marshall is one of
+the very frst individuals in Asia to be a member of the global Enterprise Ethereum
+Alliance, noining fellow ranks like Accenture, BP BriMsh Petroleum, Credit Suisse, mP
+Morgan, MicrosoT, UBS, and many other Fortune 500 companies.
+Dr. Sead Mukic, IT Security Expert
+Sead MuTic is working in the area of IT security for more than 40 years. He received
+his M.Sc. degree i1974j and Ph.D. degree i1976j at The Ohio State University, both in
+the area of IT security. Sead MuTic has been full professor at The Royal InsMtute of
+Technology iStockholm, Swedenj fro  25 years and also visiMng professor at the
+George Washington University iWashington, DC, USAj for several years.
+Dr.  MuTic  is  registered  as  an  InternaMonal  Expert  for  security  of  blockchain
+technologies and virtual currencies by the European Commission iBrussels, Belgiumj.
+He has been collaboraMng with the EC for more than  25 years as an expert,
+consultant, or pronect manager. Dr. MuTic is the founder and CEO of two IT security
+companies: SETECS, Inc. and BIX System CorporaMon.
+Dr. MuTic is the author of four U.S. patents, more than 50 research papers, expert
+reports and three books. He is the member of several Advisory Teams and Boards
+with companies working in the area of blockchain technologies.
+Mr. Dmitry Perman, Investment Banker
+Dmitry is an investment banker with over 10 years of experience working for Morgan
+Stanley, Merrill Lynch and Rothschild in London and Moscow. Holds MBA from Duke.
+41
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+Mr. Stuart Semark, CEO of Isle of Media
+Isle of Media is a noint iniMaMve with the Isle of Man Government. Stuart leads this
+iniMaMve to create entertainment and start-up environment cluster on the island.
+Mr. Ken Tachibana, Advisor of LENDO
+Ken, managing principal of Intelligence Capital based in Faro/London, is an ICO
+producer assisMng a number of leading ICOhs in various stages of development
+from seed fnancing, presales funding, worldwide ICO markeMng and post-ICO
+implementaMon  including  compleMng  engineering  and  development,  business
+development and retained execuMve search. Has been an advisor to leading ICOhs
+including Pundi X, InsurePal, Flux, thrivelabs and Discoperi Inc.
+Mr. Kyle Wang, Senior Consultantat IBM Global Business Services
+Kyle Wang is a senior consultant at IBM Global Business Services and the director
+of business development at the blockchain y DLT advisory frm Chain AgnosMcs.
+With a background in fnancial services, he is an avid investor, writer, and startup
+addict hoping to draw more people into the blockchain space.
+42
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+DISCLAIMERS
+DISCLAIMER SECTION IS TO BE READ VERY DILIGENTLY. CONSULT YOUR OWN LEGAL OR FINANCIAL
+ADVISOR  BEFORE  ENGAGING  IN  ANY  ACTION  OR  ACTIVITY  IN  RELATION  TO  THE  SUCHAPP
+PROJECT.
+SuchApp hereby disclaims that neither we and/or any third-party service provider shall be liable for
+any type of damage or loss, including direct and indirect, that may fall upon you in relaMon to
+accuracy and completeness of any informaMon this white paper presents.    This disclaimer also
+includes any other informaMon material produced or published by SuchApp or any other third-party.
+VERSIONING
+This white paper might be subnect to change in several addiMons up unMl the token sale. We reserve
+the right to change informaMon that we deem necessary to reoect current trends or changes that are
+happening in the markets and as per industry legislaMon. The last version will be announced and
+Mme-stamped as fnal version leading to the token sale.
+NO OFFERS OF SECURITIES, ADVICE OR SOLICITATION
+This white paper is intended for informaMonal purposes only and is not considered a prospectus
+offering any kinds of securiMes or related products.   SP Coins iSPS Tokensj do not represent any
+security in any nurisdicMon. The informaMon presented here is not intended to be solicitaMon or
+investment advice of any kind.   Any decisions or acMons taken based on informaMon presented in
+this white paper, the SuchApp website or other informaMonal media is done at your own risk and
+discreMon.
+NO GUARANTEES
+There is no guarantee whatsoever that the value of SuchApp Tokens will rise. SuchApp Tokens are
+specifcally used as uMlizaMon token in the whole SuchApp Venture.    You accept the risks and
+uncertainMes with engaging in any acMviMes and decisions in relaMon to the SuchApp Pronect.   No
+guarantees in terms of token value or future performance are made.
+FORWARD-LOOKING STATEMENTS
+All informaMon set forth in this white paper, press-releases or any other informaMon media include
+forward-looking statements regarding the future of the pronect and milestones regarded to it.  Some
+of these statements may be constructed by, but not limited to, words and phrases such as  will ,
+wpossiblex,  wcouldx,  wintendx,   esMmate ,  wmayx,  wifx,   believe ,   expect ,   pronect ,  wplanx,
+anMcipate , or words of similar meaning.   Such forward-looking statements are also included in
+other publicly available SuchApp materials.   InformaMon contained in this white paper consMtutes
+forward-looking statements and includes, but is not limited to:
+I.                                                                                                        ExecuMon of set milestones and deliverables
+II.                                                                                                       Expected Mmeline on development and delivery of the pronect
+III.                                                                                                      Liquidity and capital ibankrollj requirements
+The forward-looking statements involve known and unknown risks and uncertainMes. These risks and
+uncertainMes may surface as a consequence of numerous factors present in the cryptocurrency
+markets and poliMcal or regulatory environments.  These risks and uncertainMes may as such impede
+the actual performance and progress which would cause SuchApp to differ from expectaMons set by
+the forward-looking statements.    By acMng upon forward-looking informaMon received from the
+43
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+white paper, SuchApp website and other informaMon media produced or published by SuchApp or
+any other third-party:
+You hereby accept full responsibility in the case of forward-looking statements not being saMsfed.
+However, we will use all diligent efforts to update our users and token holders on such delays or
+changes in forward-looking statements.
+EXCLUSION OF LIABILITY
+SuchApp makes no representaMons, warranMes or undertaking in any form whatsoever and hereby
+disclaims any liability and responsibility to the maximum extent of the law for any statement or
+informaMve material, communicated and published. The SuchApp team takes all reasonable steps to
+ensure the accuracy and integrity of informaMon communicated as well as updaMng our readers on
+any changes that might arise in the future.
+REPRESENTATIONS AND WARRANTIES FOR YOU
+Upon taking acMon on the basis of informaMon presented in this white paper, the SuchApp website
+or other informaMon media produced or published by SuchApp, you confrm that:
+aj  This white paper, the SuchApp website or any other informaMon media produced or
+published by SuchApp is not an offering, solicitaMon or prospectus of any kind.
+bj  You agree and acknowledge that SuchApp iSPSj Tokens do not consMtute or represent any
+security in any nurisdicMon and that SuchApp iSPSj Tokens are classifed as a uMlity token.
+cj  SuchApp is exempted from any direct or indirect liability to the maximum extent of the law.
+dj  You are fully aware that you are engaging into a pronect revolving crypto currency markets
+and blockchain technology, and you are familiar with workings of this technology as well as
+upsides and downsides the market can present.
+ej  You are fully aware that you are not eligible to purchase any SPS Tokens if you are a ciMzen or
+a resident itax or otherwisej of the United States of America and China.
+44
+Copyright © 2018 SuchApp, All Rights Reserved
+
+
+
+
+

@@ -1,0 +1,1800 @@
+﻿Republia Whitepaper
+Outline
+OUTLINE
+Abstract   ……………………………………………………………………………………………………………………..…               5
+1. Introduction   …………………………………………………………………………..……………………….……             8
+1.1 Oversaturation of the industry with ICO projects   …………………………………….   8
+1.2 Hard forks   ………………………………………………………………………………………………….…….               10
+1.3 Crypto-market volatility   …………………………………………………………………………..…….         10
+1.4 Informational and financial losses   ……………………………..……………………..……….     11
+2. Background   ………………………………………………………………………………………………………….                13
+2.1 Solving the problem of hard forks   ………………………………………………..…………….       13
+2.2 Protection of fraudulent projects   ………………………………………………………………..       16
+2.3 Data security within Republia ecosystem   …………..….…………………………..…….    17
+3. Project specific section   …………………………….……………………….………………..…….          19
+3.1 Transparent and trustworthy management system   ……………………………….        21
+3.1.1 Distinction of “we-ecosystem”   ……………………………………..……………….…………        21
+3.2 Data security in Republia Ecosystem   …………………..……………………………….…..      23
+3.3 Republia ICO Platform   …………………………………………………………………………..………            25
+3.4 Republia Bank   ………………………………………………………………………………………………….               27
+3.4.1 Tools for smoothing volatility   ………………………………………………………………..…       28
+3.4.2 Wallets of Republia Bank   ……………………………………………………………..…              28
+3.4.3 “Parking” technology   …………………………………………………..…………………..              29
+3.4.4 Republia Bank Classic   ……………………………………………………………………..               29
+3.4.5 Republia Bank Next   ……………………………………………………………….…………                 30
+3.4.6 USDR tokens and Republia Bonds   ………………………………………...….….            31
+3.4.7 Republia Debit card   ………………………………………………………………………….                32
+
+
+
+
+Republia Whitepaper
+Outline
+4. Republia Exchange   ………………………………..………………………………………………………              34
+5. Artificial intelligence protocol  in Republia Bank … … … … … … … …   38
+6. Smart Contract Platform   …………………………………………………………………….…….             41
+7. Consensus   ……………………………………………………………………………………………………………                45
+7.1 Influence on solving global issues   ………………………………………………………………..     46
+8. RepubliaID   …………………………………………………………………………………………………….……..             48
+8.1 Advantage of RepubliaID in voting   ……………………………………………………….…..….
+                                                                        48
+9. Republia Cloud X   …………………………………………………………………………………………..…             51
+10. Republia Rating system   ………………………………………………………….                    54
+11. Republia Wallet   ……………………………………………………………………………………..……...           57
+12. Technologies of  AI (½)   ……………………………………………………………………………             60
+13. The description of minimum prototype, MVP   ……………………...…            62
+13.1 MVP Bank   ………………………………………………………………………………..……………….…..              62
+13.2 MVP Wallet   …………………………………………………………………………………………………….               63
+13.3 MVP Smart-Contract Platform   ………………………………………………………………….           64
+13.4 MVP Voting System   …………………………………………………………………………………….              65
+14. Founders   …………………………………………………………………………………………………………….               67
+15. Republia Initial Coin Offering   ………………………………………………………………           69
+16. Conclusion   …………………………………………………………………….……………………………..…..            80
+
+
+
+
+A   B S T R A C T
+
+
+
+
+Republia Whitepaper
+Abstract
+Technologies, in fact, about people,
+not about hardware or software.
+Robert Veiday, Head of the
+Department of Technological
+Development Khemeia Consulting
+ABSTRACT
+Republia is a large-scale decentralized ecosystem, that includes elements of
+the countries that are familiar to us in the digital space and operates
+mechanisms based on blockchain technology.
+The coordination structure of Republia is analogous to “we-government”
+model that is aimed at direct management of the ecosystem, without involving
+the relevant regulatory institutions.
+“We-ecosystem” is a new stage of management that excludes mediation and
+provides platform users with opportunity to influence the development of the
+system and make decisions according to different changes.
+The project collected all the most relevant mechanisms of the real countries
+that are familiar to us and combined them with highly efficient technologies.
+The global ecosystem Republia is a set of operating tools based on well-
+organized structure, operating under a set of internal rules, that ensures safe and
+comfortable usage at every stage of operation.
+Ecosystem is based on the main principles of the operation of blockchain
+technologies.
+secure storage of user data (information and resources are protected
+through integration with Republia blockchain);
+justice (all disputes are resolved by consensus);
+transparency (ecosystem users always have access to all the necessary
+information);
+full democracy (members of the ecosystem directly affect the life of
+Republia).
+5
+
+
+
+
+Republia Whitepaper
+Abstract
+The key components of the decentralized ecosystem provide a trusted and
+absolutely transparent relationship between users, presenting a unique concept
+of smart contracts, a platform for creating and modifying the entire ecosystem as
+well as comfortable way of communication between community members.
+A distinctive feature for Republia project is an approach to safety: innovative
+protocol is embedded in the project ensuring data and resource protection in the
+conditions of the entire global ecosystem.
+Republia’s internal payment tool is an RPB coin protected from strong
+volatility, smoothing of volatility shows undoubted advantage of RPB along with
+other coins of the crypto industry.
+Republia can be seen as a platform for organizing campaigns to attract
+investments through ICO, while protecting all blockchain communities from
+fraudulent schemes.
+The white paper of Republia project includes the study of all components of
+the decentralized global ecosystem, the description of the possibilities of
+fundamentally new technology and a proof of the need for such solutions in
+industry.
+6
+
+
+
+
+N   T R O D U C T I O N
+
+
+
+
+Republia Whitepaper
+Introduction
+The more artificial the environment
+around us, the more we depend on
+the technology, its reliability and
+failures if it allows them.
+Stanislav Lem   “ Sum of
+technology”
+INTRODUCTION
+1.1                                                                                    Oversaturation of the industry with ICO projects
+Nowadays new ICO are being created on the blockchain Ethereum Platform,
+NEM, NXT, Waves etc. The first of them, in turn, is able to conduct  maximum of
+25 transactions per second which is the minimum indicator of the comfortable
+usage of the network.
+Limited capacity of the network is an important drawback of the existing
+crypto-currencies and it is associated with the original nature of the blockchain.
+New projects often do not represent specific technologies, which creates mass
+character, but not market stability.
+Against the backdrop of the emergence of a huge number of ICOs which are
+connected neither ideologically no technologically, there is a glut of the industry.
+8
+
+
+
+
+Republia Whitepaper
+Introduction
+1
+Statistics on ICO  from 2014 to 2018
+ICO projects didn’t
+reach soft cap
+(36%)
+Successful
+ICO projects
+(36%)
+TOTAL
+1696
+ICO PROJECTS
+Fraudulent
+ICO projects
+(36%)
+Companies managed to raise $11,7 billion. Among them almost 40% did not
+collect appropriate amount and closed, every seventh ICO had signs of a fraudulent
+scheme or proved to be unpromising.
+These statistics are not comforting and confirms a list of problems such as
+deceived investors, government bans, disenchantment with technology.
+1                                                                                    on the materials of the article: https://stats.digrate.com/
+9
+
+
+
+
+Republia Whitepaper
+Introduction
+1.2                                                                                   Hard forks
+Starting from 2008 network of Bitcoin cryptocurrency has been undergoing a
+lot of hard forks. Users turn to this step in order to solve the problem of
+scalability, low capacity of transactions, limited block size and generally offload
+common Bitcoin network.
+At the same time hard fork entails creation of a new network chain which no
+longer operates according to the rules that were established by an old protocol of
+the blockchain. The nodes of a new and an old network are incompatible since
+hard fork means changes in the mechanism of consensus itself.
+According to the experts such an oversaturation of the industry with so many
+variations of one crypto-currency undermines trust of users towards blockchain,
+because, in fact, hard fork is a side effect of disagreements within the crypto
+community.
+Many crypto enthusiasts are sure that instead of permanent separation from
+2
+the main networks, it is better to come to a common agreement.
+1.3                                                                                   Crypto-market volatility
+Various factors affect crypto-market: economic and political situation,
+emergence of new-cryptocurrencies, news, demand or supply from users or
+investors.
+The volatility of crypto-currency can be 50-100% just because of one piece of
+news and several large traders that came into the market.
+If you compare digital assets with fiat money, average annual volatility of fiat
+money usually does not exceed 3-4%. In cryptocurrency this figure often is more
+than 20%.
+2                                                                                     on the materials of the article: https://cointelegraph.com/news/industry-leaders-give-
+perspective-on-bitcoin-forks-some-advantages-many-problems
+10
+
+
+
+
+Republia Whitepaper
+Introduction
+The volatility of the crypto-market with the Bitcoin network as an example
+$19345.10
+$24000
+$16000
+                                                                                 $2753.23
+$8000
+$0
+                                                                                 12 Jun     24 Jul   4 Sep                                16 Oct   27 Nov   8 Jan   19 Feb   2 Apr   14 May
+1.4                                                                                                  Informational and financial losses
+Members of the blockchain community are constantly at risk by providing
+their data and funds to various projects. Only in 2017 several serious hacking
+were recorded, which resulted in losses of billions of dollars.
+Losses from hacker attacks
+0                                                                                200        400      600
+Coincheck (2018)
+Mt. Gox (2014)
+BitGrail (2018)
+Bitfinex (2017)
+DAO (2016)
+Yobit (2017)
+As a result, reputation of both the hacked project and  the industry as a
+whole suffer, investors lose trust together with funds.
+11
+
+
+
+
+B   A C K G R O U N D
+
+
+
+
+Republia Whitepaper
+Background
+The first step is to determine that it
+is possible; opportunity will appear
+by itself.
+Илон Маск, основатель SpaceX
+и Tesla
+BACKGROUND
+2.1                                                                              Solving the problem of hardforks
+It is known that crypto community can be conditionally divided into two
+groups. The first group perceives crypto-currencies as a payment tool, and the
+second group considers them as an investment tool. Often these two groups
+argue with each other and it leads to uncompromising division of the crypto-
+currency into two new digital assets with own rules and regulations.
+Forks in BTC blockchain
+Bitcoin Cash Chain
+Original
+Bitcoin Chain
+SegwitGold Chain
+Segwit Chain 1x
+Segwit Chain
+Segwit Chain
+Segwit Chain 2x
+13
+
+
+
+
+Republia Whitepaper
+Background
+The problem is that fragmentation will not stop, as a result, the market will
+be filled with new coins and tokens.
+Since Republia acts on “we-ecosystem” ideology, where users can directly
+participate in the process of modernization of technological solutions, the project
+is based on the advanced system of consensus, which is one of the main
+advantages of technology. Modernization means addition of new functions to the
+subsystem.
+Voting Republia
+type t = int32
+type voting = t
+include (Compare.Int32 : Compare.S with type t := t)
+let encoding = Data_encoding.int32
+let pp ppf level = Format.fprintf ppf "%ld" level
+let arg =
+let construct voting = Int32.to_string voting in
+let destruct str =
+match Int32.of_string str with
+| exception _ -> Error "Cannot parse voting"
+| voting -> Ok voting in
+RPC.Arg.make
+~descr:"Republia voting"
+~name: "voting"
+~construct
+~destruct
+let root = 0l
+let succ = Int32.succ
+let to_int32 l = l
+let of_int32_exn l =
+if Compare.Int32.(l >= 0l)
+then l
+else invalid_arg "Voting_repr.of_int32"
+14
+
+
+
+
+Republia Whitepaper
+Background
+type check =
+| RepID
+| Hash
+| Total
+let open Data_encoding in
+union ~tag_size:`Int8 [ let check_encoding
+case ~tag:0
+(constant "RepID")
+(function repid -> Some () | _ -> None)
+(fun () -> repid) ;
+case ~tag:1
+(constant "Hash")
+(function hash -> Some () | _ -> None)
+(fun () -> hash) ;
+case ~tag:2
+(constant "total")
+(function total -> Some () | _ -> None)
+(fun () -> total) ;
+]
+type kind =
+| Proposal
+| Check
+| Vote
+let kind_encoding =
+let open Data_encoding in
+union ~tag_size:`Int8 [
+case ~tag:0
+(constant "proposal")
+(function Proposal -> Some () | _ -> None)
+(fun () -> Proposal) ;
+case ~tag:1
+(constant "check")
+(function check_vote -> Some () | _ -> None)
+(fun () -> check_vote) ;
+case ~tag:2
+(constant "vote")
+(function vote -> Some () | _ -> None)
+(fun () -> vote) ;
+]
+15
+
+
+
+
+Republia Whitepaper
+Background
+Due to voting system, that leads to adoption the decisions by consensus,
+and then automated updating of the protocol among users, Republia completely
+solves the problem of hardforks.
+Republia creates a single public blockchain, and its protocol is automatically
+updated. Since the system of the blockchain protocol is divided into three layers
+(network layer, layer of consensus, transaction layer), separating one layer from
+the others means that protocol can be modified without need for hardfork, the
+general system is doomed to split because of hardfork. Read more in Technical
+Paper.
+2.2                                                                                 Protection of fraudulent projects
+Republia can be considered as a platform for ICO, while it protects the entire
+blockchain community from the emergence of  projects that are ultimately
+announced as SCAM. This goal has been achieved by expanding the entire
+Republia ecosystem with  interrelated projects, rather than adding competitive
+ICOs, as it occurs inside, for example, the Ethereum Platform. However,
+competition remains in another form. Users compete for modernization, but not
+for maximizing profits.
+To add the desired project to Republia ecosystem you will need to submit an
+application within Republia ICO Platform and go through voting phase among
+users, which is based on the layer of  Republia Blockchain consensus protocol.
+Users can apply amendments to any subsystem as well, when most users
+consider a particular function as an error in the ecosystem, they can vote for
+changing or deleting this function.
+Each decision on a particular vote is entered in the blockchain and has its
+own hash and hash of the decision that was adopted or rejected. Also
+participants who voted will be recorded in the block, their decisions and time of
+the vote will be shown to the entire community, this type of the block can be
+viewed at any time, in this case falsifications are impossible.
+Thus Republia is a complex system, in which each subsequent addition is a
+product, and there is a demand among real users for this product.
+16
+
+
+
+
+Republia Whitepaper
+Background
+2.3                                                                                     Data security within Republia ecosystem
+Security is a priority for Republia team, all important information is stored in
+Cloud X.    It is a decentralized data storage, that provides security of information
+and funds in the context of the entire global ecosystem.
+Republia offers its users a unique digital analog Identity Card - RepubliaID.
+The main feature of RepubliaID is advanced security, which minimizes the risks of
+losing funds or hacking user accounts. Moreover, RepubliaID is used to identify
+users in the voting, exchange and Republia banking system. In this way,
+participant that owns RepubliaID becomes a full member of Republia community
+and can directly influence the life of the community.
+VERACITY
+SYSTEM
+Republia offers three-level security - Veracity System:
+The first level is a password and biometric identification of users;
+The second level is a confirmation by email + two-factor authentication;
+The third level is RepubliaID.
+In case of hacking attempt Veracity System automatically freezes all user
+data, including his private information and information on his accounts.
+Moreover, Veracity System will help to ensure that user can access his data
+and funds within the shortest period of time.
+Veracity System is an innovative security system, which is the first product in
+the line of Republia development using artificial intelligence.
+17
+
+
+
+
+P   R O J E C T
+S   P E C I F I C
+S   E C T I O N
+
+
+
+
+Republia Whitepaper
+Project specific section
+There is something fundamental in
+using products, that are centered
+around people, as opposed to products
+centered around information, that does
+not relate to people.
+Mark Zuckerberg, founder of
+Facebook
+PROJECT SPECIFIC SECTION
+The developers of the project laid a powerful technological foundation, due
+to this foundation all elements of the ecosystem will be realized with higher
+efficiency, than existing technological solutions, thus, the basic principles of the
+operation of blockchain technology will be observed - decentralized management,
+justice and pure democracy.
+The goal of Republia project is to create large-scale decentralized
+ecosystem, which combines elements of countries that are familiar to us and
+mechanisms based on blockchain technology, where users make decisions
+through consensus and influence modernization of the entire ecosystem directly.
+Republia tasks:
+to enable users to manage components of the ecosystem through
+transparent and democratic management system (we-ecosystem);
+to prevent the emergence of SCAM-projects;
+to establish trustworthy and transparent relationship between users by
+means of advanced system of smart contracts;
+to exclude the possibility of loss or theft of user accounts through three-level
+security (Veracity System);
+to provide a service for exchange of assets and the creation of liquidity for
+RPB crypto-currency;
+to introduce a coin excluding high volatility.
+19
+
+
+
+
+Republia Whitepaper
+Project specific section
+Having become a member of the community user can make important
+decisions in the life of Republia and influence the modernization and expansion
+of ecosystem elements, it ensures transparency and democracy of governance.
+Republia missions:
+safe and comfortable usage at each stage of operation;
+solving global problems;
+expansion and complementarity of blockchain ecosystem by means of
+Republia ICO Platform;
+creation of generally recognized, ideal ecosystem for the development and
+maintenance of the project.
+20
+
+
+
+
+Republia Whitepaper
+Project specific section
+3.1                                                                                Transparent and trustworthy management system
+The large-scale ecosystem of Republia allows its users to make important
+decisions in the life of Republia and to influence the modernization and
+expansion of ecosystem elements. Such possibility appears due to Republia
+operation within the framework of “we-ecosystem” model, which, in turn, is aimed
+at direct management of the platform, avoiding relevant regulatory authorities.
+3.1.1                                                                              Distinction of “we-ecosystem”
+In the traditional model of governance of a democratic state there are
+numerous branches of legislative and executive authorities between the head of
+state (president) and nation.
+Example of the US government
+Separation of power in the United States of America
+Legislative branch                                                                                                                 Executive branch
+The bicameral congress                                                             President                                       Judicial power
+Senate Supreme Chamber                                                             Lower Chamber of Representatives                Supreme Court
+If we exclude mediation in the digital world and provide users with opportunity
+to influence the development of the system by themselves, making decisions
+according to the changes in the community independently, new stage of
+management will appear - “we-ecosystem”.
+21
+
+
+
+
+Republia Whitepaper
+Project specific section
+Example of Republia Ecosystem control
+Republia Ecosystem
+Users
+The project has collected the best features of real countries that are familiar
+to us and combined them with highly efficient technologies.
+22
+
+
+
+
+Republia Whitepaper
+Project specific section
+3.2                                                                               Data security in Republia Ecosystem of “we-ecosystem”
+Within Republia Ecosystem there is a digital analogue Identity Card -
+RepubliaID, this technology minimizes risks of loss of funds or hacking of user
+accounts.
+RepubliaID in Republia Ecosystem
+Republia Smart Contract Platform
+Republia Wallet                                                                   Republia Bank
+Republia ICO Platform                                                             Republia Exchange
+23
+
+
+
+
+Republia Whitepaper
+Project specific section
+Operations of Veracity System when recording
+suspicious activity of an account:
+1. Instant notification of user( when system detects an attempt to
+hack into an account, user is instantly notified about it via a
+phone call, message, e-mail notification etc.);
+2. Automatic freezing of all data( during hacking attempt all data
+regarding funds and private information are frozen automatically,
+in order to exclude access by third parties);
+3. Help in regaining control over your account (when hacking
+attempt is detected, Veracity System freezes the data for 72
+hours, during this time the security system due to a specific
+algorithm will help the user to be able to access his account at
+the shortest period of time);
+4. As additional security, the user is given an opportunity to
+specify in settings three ecosystem participants - recovery
+partners, who are assigned digital keys. To restore access to your
+account, digital keys must unite.
+All user information is stored in Cloud X, which provides transparent
+relationship between community members and minimizes the risks of losses
+both informational and financial.
+24
+
+
+
+
+Republia Whitepaper
+Project specific section
+3.3                                                                               Republia ICO Platform
+Taking into account all the drawbacks of existing market solutions, Republia
+presents its own ICO Platform.
+All elements of Republia ecosystem will be interrelated, as they will logically
+complement each other.
+For example, consensus will not allow to pass ICO, if such a project already
+exists in the system, since there is no need to create projects on the platform
+several times, taking into account narrow market.
+User account will show the requests of teams, wishing to conduct their ICO
+on the platform and supplement Republia ecosystem with their projects.
+Adding unique ICO projects to the ecosystem
+ICO
+ICO
+Filling                                                                           Checking
+ICO
+Application                                                                       spam content bot
+ICO
+25
+
+
+
+
+Republia Whitepaper
+Project specific section
+To expand the ecosystem with your project you need:
+to be a member of Republia ecosystem;
+to have a unique RepubliaID;
+to fill in an application form;
+to pass automated verification Republia Spam-Content Bot;
+to pass an independent expert evaluation, which is carried out by
+professionals, chosen by the community members;
+to pass successfully a voting stage, in which at least 50% of ecosystem
+members should take part, while 51% of them will support the hosted project.
+Republia ICO Platform will allow to expand, add and supplement one or
+another product of the system.
+One of the advantages of such a system is data analysis in conditions of
+Republia ICO Platform, which occurs according to this principle:
+processing stage represents initial concept of the project with description of
+the idea, functionality, legal aspects of implementation;
+analysis is a stage at which the project is verified by specialists of various
+fields, who express their expert opinions about the project that is under
+consideration.
+their circle includes envoys, who are known to the community and are
+respectable representatives of various fields. Specialists can be chosen only by
+community members in the framework of separate decentralized polls;
+verification is a final stage in decision making process, which is left for the
+community members, and it shows a basic principle of democracy.
+26
+
+
+
+
+Republia Whitepaper
+Project specific section
+Republia ICO Platform is a place, where you can bring your idea to realisation
+without owning a huge capital and get a response from blockchain community.
+In addition to the above Republia ICO Platform operates in order to inspire users
+to new accomplishments in the industry, always pointing out inaccuracies during
+consideration of the projects for the purpose of further improvements.
+3.4                                                                                  Republia Bank
+RPB coin is a main payment tool in Republia Bank, which is based on
+decentralized and transparent mechanisms.
+The smoothing volatility is a definite advantage of RPB along with other
+coins of the crypto industry, the goal was achieved by implementation of Republia
+Bank, which is the main component of the economic model of decentralized
+Republia ecosystem.       Its main purpose is to smooth the volatility of RPB coin
+and two types of tokens released by Republia.
+Republia Bank combined principles of the Central Banks of countries familiar
+to us and innovative technologies. Republia Bank automatically regulates the
+volume of demand and supply on exchanges. Smoothed volatility is a result of a
+balance and an automated analysis of the market situation. Republia participants
+are an integral part of the stabilization of RPB coin, as the system offers them
+rewards for holding coins depending on the balance of demand and supply, which
+are formed from commission charges for the mining of RPB and reserve fund of
+Republia Bank.
+RPB cryptocurrency does not depend on top 10 cryptocurrency, this step
+provides support for the coin rate of exchange while the price of popular
+cryptocurrency is declining.
+Stability makes RPB coin suitable for both trading, long-term investments
+and for daily financial transactions.
+RPB is a cryptocurrency, which is a convenient payment tool for daily usage.
+Republia represents two generations of the bank - Republia Bank Classic and
+Republia Bank Next.
+27
+
+
+
+
+Republia Whitepaper
+Project specific section
+3.4.1                                                                              Tools for smoothing volatility
+Parking                                                                            Currency interventions           USDR
+The user voluntary holds                                                           The work is based on the         It is introduced for the
+some of the coins in his                                                           impact on the market             purpose of safety of user
+wallet. Such an operation                                                          through currency                 funds through in-chain
+does not require the                                                               interventions, used to           conversion of RPB coin to a
+participation of the bank for                                                      maintain RPB rate in a           token.
+accepting funds and                                                                particular price range and       At market spike there is no
+keeping them in its                                                                means sale or purchase of        need to convert funds on
+accounts. For coins ‘parked’                                                       coins.                           the exchange, it is enough
+in Republia Bank the user                                                          In case of a panic mood in       to exchange RPB for dollar
+receives interest charges,                                                         the market, currency             equivalent, which will be
+which will be paid after                                                           interventions will be used       released as a token of
+expiration of parking period.                                                      as the last step to avoid        USDR.
+The user can store coins on                                                        spike in the market.             USDR is bound to the US
+his wallets, that are not                                                                                           dollar and 1 USDR = 1 USD,
+brought to the market,                                                                                              being provided from
+during the time that will be                                                                                        Republia reserve fund.
+chosen by him.                                                                                                      Any user, if there is an
+appropriate request,
+receives the appropriate
+amount in funds(USD).
+3.4.2                                                                              Wallets of Republia Bank
+Republia Bank involves in its work two cold and one hot wallet.
+The first cold wallet performs the role of a reserve fund, which is constantly
+supplemented by a commission, accrued by mining. This type of wallet is formed
+in Genesis Block.
+The purpose of the second cold wallet is to accept funds when user converts
+RPB coin to USDR token.
+The third type of wallet, hot wallet, is used to pay interest rates in the bank.
+28
+
+
+
+
+Republia Whitepaper
+Project specific section
+Data about all wallets is available at any time in Republia Blockchain to
+assure users that claimed amount is stored. Republia Bank is a new era in
+banking, which marks trustworthy relationship between users and the structure.
+3.4.3                                                                                   “Parking” technology
+In Republia Bank 4 types of “parkings” are available (day, week, month and 6
+months). The user receives a reward for holding funds at his wallet accrued
+according to “parked” amount.
+Interest is accrued from the reserve fund Republia Bank, which consists of
+160 million coins. A fee is also charged for each of the guessed block, which is
+recorded in Genesis Block Republia Blockchain.
+In the addition to above, each user is provided with information on funds,
+stored in the bank, function of viewing the bank’s expenses and incomes as well
+as overall financial status of Republia Bank, which is a proof of its openness to
+ecosystem participants. Republia Bank, as a legal entity, is an institution, which is
+a subject to independent audit, it shows user the entire structure of all financial
+arrangements.
+3.4.4                                                                                   Republia Bank Classic
+Republia Bank Classic will be functioning for the first two years of the
+ecosystem and then it will be transformed into Republia Bank Next, transferring
+part of functionality from the previous version.
+The main objectives of Republia Bank Classic are to reduce volatility in the first
+stages of operation and popularize the ecosystem in the industry.
+The tool for smoothing volatility, “Parking”, will also tolerate the transition to
+another stage, thereby dividing Republia Bank into two generations.
+This step provides users with an honest and voluntary system of holding funds
+with transparent payments.
+29
+
+
+
+
+Republia Whitepaper
+Project specific section
+From the economic point of view, such technology as   “Parking”, will not be
+able for many years to satisfy the level of user demand that is observed on the
+market.
+Thus, interest rates during the first two years will be at the maximum levels -
+70% per annum, then they will gradually and evenly decline.
+3.4.5                                                                                Republia Bank Next
+Taking into account high demand for payments after two years of operation
+of the system, Republia Bank Nex will be brought into operation. This project is a
+financial institution that will act as an investment bank in the real economic
+sector.
+Republia Bank Next will undertake a task of accepting payments and will act
+within the framework of European legislation in accordance with regulations of
+international banking standards.
+Users of the ecosystem are offered two types of banking:
+1. Decentralized (when using a decentralized version, interest after two-year
+period will be lower than in the regulated Republia Bank Next).
+2. Regulated in the real sector ( percentage deductions from “parking” of the
+second type will remain almost at the same high level, as in Republia Bank
+Classic ).
+In the addition to above, Republia Bank Next will provide quarterly reports,
+which will describe all investment activities.
+30
+
+
+
+
+Republia Whitepaper
+Project specific section
+3.4.6                                                                                USDR tokens and Republia Bonds
+In order to achieve smoothed volatility of RPB coin USDR tokens and
+Republia Bonds operate in Republia ecosystem.
+These tools are introduced taking into account behavioural theory, according
+to this theory some shareholders want to move to more reliable and secure asset
+during disbalance of demand and supply. This disbalance is characterized by
+moving the investors to more stable assets(for example, the Swiss franc or gold)
+and is observed in global crises, during the fall of stock markets. “USDR’ system
+operates by the same principle. It is designed to encourage users to “lock in”
+during strong market fluctuations. USDR token is provided by the reserve fund
+Republia Bank in the conditions of real banking institutions.
+USDR tokens, in turn, are backed by the corresponding amount of US dollars.
+In order to achieve minimum market price fluctuation in USDR, Republia
+introduces an advanced algorithm, based on artificial intelligence and
+participation of financial experts. This algorithm is based on usage of the system
+of bonds (Republia Bonds).
+Bond tokens are released by  Republia Group and are sold on the basis of
+auctions.    The number of bonds and, correspondingly, the number of USDR
+tokens (1USDR:1USD) are known in advance, as Republia Group assumes an
+obligation to provide financial statements on financial condition of the banking
+institution on a quarterly basis.
+After making a decision to release a certain number of USDR tokens on the
+market, automatic exchange of bond tokens to USDR starts by “First in - First out”
+principle, which means that the first participants of auction will be given top
+priority in receiving USDR.
+If the price does not correspond to the declared characteristics of the token
+(1token:1USD) or if the balance of demand and supply is undetermined, Republia
+Group activates additional number of bonds, which had been released, but were
+not distributed among the participants of auction. In the addition to above, the
+user is provided with an opportunity to exchange his USDR tokens to the US
+dollars at any time via Republia Exchange and receive the amount to his bank
+account, in this case his tokens will be burned.
+31
+
+
+
+
+Republia Whitepaper
+Project specific section
+3.4.7                                                                              Republia Debit card
+Republia Bank releases its own debit card, and USDR token will be a payment
+tool of this card, which is very convenient way of exchanging cryptocurrency to
+fiat funds when paying bills by debit card, since USDR is bound to a stable fiat
+currency - USD.
+Fast transactions are provided by internal conversion of  RPB coin to USDR
+token, which is equivalent to the US dollar 1:1. Due to Republia Blockchain
+transactions will be executed much faster, than via such popular systems as
+Mastercard, American Express or Visa.
+Republia Bank system is configured in such a way that  that users always
+have an opportunity to “lock in” in dollar and to have more innovative tool of
+management - “parking”, while receiving a stable income.
+32
+
+
+
+
+Republia Whitepaper
+Republia Exchange
+Successful people do what
+unsuccessful people are unwilling to
+do. Don't wish it was easier wish you
+were better
+Jim Rohn, American entrepreneur
+REPUBLIA EXCHANGE
+Republia Exchange is the main platform for exchange of assets and creation
+of liquidity for RPB cryptocurrency. Users can choose among two types of
+exchanges - Rialto and Emporium, the first one was represented with the help of
+implementation of Atomic Swap technology with the most popular
+cryptocurrencies from Top-20, its priority is complete anonymity when making
+transactions.
+Republia plans to achieve the same transaction speed in decentralized Rialto
+Exchange , as it happens inside decentralized analogues.
+Republia Exchange is a platform for making fast and secure transaction,
+which is ensured by Veracity System.
+Emporium provides an opportunity for the exchange and executions of
+transactions via internal Republia bank cards. When making a transaction by
+Republia debit card, certain amount of RPB coins will be sold under a market
+order and the transaction will be made faster, than via such popular payment
+systems as MasterCard or Visa, due to instantaneous operation of Atomic Swap.
+34
+
+
+
+
+Republia Whitepaper
+Republia Exchange
+Republia Exchange
+EMPORIUM                                           RIALT0
+Transaction processing speed opening/              Funds are stored on wallets of both
+closing orders                                     transaction parties
+Atomic Swap with the most popular
+The ability to conduct financial transactions by
+cryptocurrencies
+debit cards via USDR token or via conversion of
+token through the exchange
+Implementation of limit and market
+orders
+Transaction security is ensured by Veracity
+System and RepubliaID
+Extended functionality for professional trading
+35
+
+
+
+
+Republia Whitepaper
+Republia Exchange
+Republia Exchange is one of the most effective factors influencing the
+creation of liquidity of RPB cryptocurrency.
+Transactions in Republia Blockchain
+Master-node
+Node
+Republia Blockchain
+Transaction pool
+RPB Coin
+Wallet
+36
+
+
+
+
+A   RT I F I C I A L
+N   T E L L I G E N C E
+P   R OT O C O L
+
+
+
+
+Republia Whitepaper
+Artificial intelligence protocol in Republia Bank
+It is important to create an environment,
+where innovations will flourish, but it is
+even more important to let them to
+develop in Darwinian spirit.
+Elon Musk, founder of SpaceX
+and Tesla
+ARTIFICIAL INTELLIGENCE PROTOCOL
+IN REPUBLIA BANK
+The artificial intelligence system Republia Bank operates on the basis of
+algorithms, each algorithm is responsible for individual tasks in functioning of
+Republia AI:
+analysis of the situation on the market and the change in interest rates for
+“Parking” instrument. The algorithm for changing interest rates is an improved
+version of the mechanism of the world central banks. This algorithm was moved
+to the digital space in order to record spike on top crypto exchanges.  In the
+addition to above, this algorithm does not react to small market movements (for
+example, short-term buying and selling RPB cryptocurrency, such small
+unsteadiness will be restored by the market independently.) The algorithm
+involves tools of technical analysis to determine long-term trends, while changing
+interest rates, which are coordinated with other bank systems.
+recording of critical points, sharp market volatility, and on the basis of
+collected data injects or charges money flows from top exchanges, on which RPB
+is traded. This algorithm is called Intervencium and it is designed to prevent
+short-term, but prolonged movements in the market, in order to change the trend
+quickly in the opposite direction. The algorithm is set to stabilize RPB
+cryptocurrency, it is achieved by gradual bringing the offer into the market during
+prolonged downward movements.
+38
+
+
+
+
+Republia Whitepaper
+Artificial intelligence protocol in Republia Bank
+creation of USDR token. The purpose of the algorithm is to calculate actual
+indicators for demand and supply for this token, and then to generate the
+required amount of USDR. This smart algorithm is stabilizing, activating the
+release of USDR tokens in equivalent to the US dollar.
+creation of bonds, which represent obligations of Republia Bank towards
+users, such as returning funds, exchanging bonds to USDR.
+The algorithm for changing interest rates and Intervencium algorithm
+operate together in order to provide Republia Bank with RPB cryptocurrency with
+smoothed volatility. The algorithm for changing interest rates and Intervencium
+algorithm involve generalized analysis of information, so only correct results are
+guaranteed.
+39
+
+
+
+
+Republia Whitepaper
+Smart Contract Platform
+In most cases trust causes reciprocal
+honesty.
+Titus Livius, Roman historian
+SMART CONTRACT PLATFORM
+Trustworthy and transparent relationship between users of Republia
+ecosystem are achieved through an advanced system of smart contracts.
+Republia Smart Contract Platform is a “user-friendly” environment for
+generating smart contracts, which eliminates problems of creating, executing and
+managing smart contracts on the basis of Republia blockchain.
+This platform allows users to generate digital types of contracts without
+knowledge and experience in the field of creating smart contracts and software
+engineering.
+41
+
+
+
+
+Republia Whitepaper
+Smart Contract Platform
+Advantages of Republia SC Platform:
+usage without knowledge and experience in software engineering
+creation of individual smart contracts for developers
+creation of templates, when the solution is available based on IoT
+technology
+making a search for finished projects by rating
+Republia SC Platform involves three modes user mode, developer mode and
+template mode.
+The user mode in Republia SC Platform is the ability of each participant of
+Republia ecosystem to create digital agreements for all types of transactions
+with no need for extensive programming skills.
+The developer mode in Republia SC Platform is a chance for developers with
+deep knowledge in the field of programming to realize their potential in creating
+individual smart contracts.
+The template mode in Republia SC Platform is the implementation of their
+templates in smart contract environment, it will allow developers to share their
+experience in this area as well as charge fee for their templates.
+42
+
+
+
+
+Republia Whitepaper
+Smart Contract Platform
+Advantages of Republia SC Platform:
+Comfortable usage
+Republia provides the ability to
+create user contracts according to
+the needs of participants. In addition
+to the above all projects are
+available to users at any time
+convenient for them and wherever.
+Security                                                                       Guarantees
+Republia Smart Contract Platform
+Description of the                                                             Smart contracts act under a
+system of smart                                                                principle of timestamp,
+contracts in functional                                                        without using GAS, which
+programming languages                                                          ensures accurate execution
+provided security during                                                       of transaction and avoiding
+operation of this                                                              situations of transition of
+technology through                                                             smart contracts into an
+formal verification of                                                         endless cycle.
+code.
+Accessibility                                                                  Professional usage
+Each participant without knowledge                                             Republia Smart Contract Platform
+and experience in the field of                                                 provides advanced developers with
+creating smart contracts and                                                   an opportunity to create individual
+software engineering can generate                                              smart contracts.
+digital agreements for all types of
+transactions.
+Republia SC Platform is an extensive platform for the implementation of IoT-
+solutions, because it is based on the paradigm of functional programming and
+the programming language OCaml, which supports formal verification of code.
+Read more in Technical Paper.
+43
+
+
+
+
+C   O N S E N S U S
+
+
+
+
+Republia Whitepaper
+Consensus
+There are no problems, there are only
+unpleasant solutions.
+Eric Berne, American psychologist
+CONSENSUS
+One of the main advantages of the technology, underlying the project, is the
+ability of users to participate directly in the process of modernization of
+technological and ideological solutions of the entire ecosystem, it is called
+consensus.
+Modernization means addition of new functions to the subsystem.
+1. Consensus in Republia ICO Platform.
+Republia users decide whether the proposed ICO is needed or not in the
+ecosystem.
+2. Consensus for changing any subsystem.
+When most users consider a function as a critical error in the ecosystem,
+they can vote for changing or deleting this function.
+Falsifications are impossible
+Elimination of falsifications in voting:
+decision is recorded in blockchain;
+regardless of the result, the decision has own hash;
+openness throughout the community (decisions of all participants, time of
+their votes are available for viewing)
+45
+
+
+
+
+Republia Whitepaper
+Consensus
+Republia Smart Contract Platform
+type gov_block_info = {
+hash: Gov_block_hash.t ;
+predecessor: Gov_block_hash.t ;
+size: MBytes.t list ;
+timestamp: Time.t ;
+result: Result_hash.t ;
+protocol: Protocol_hash.t option ;
+operations: Operation_hash.t list option ;
+users: voting_users_pass.t ;
+net: net ;
+}
+val info:
+?operations:bool -> block -> gov_block_info Lwt.t
+val list:
+?operations:bool -> ?length:int -> ?heads:Gov_block_hash.t list -> ?delay:int -
+>
+unit -> gov_block_info list Lwt.t
+Republia consensus acts using Delegated Proof-of-Authority (DPoA) + BFT
+(Byzantine Fault Tolerance) algorithm, which records all decisions on voting to
+distributed register and helps to avoid attacks, because users own a unique
+RepubliaID, which guarantees the reliability of each member of the ecosystem
+and the confidence that one participant within a certain vote will be able to vote
+only once.
+7.1                                                                                  Influence on solving global issues
+Also the concept of additional voting will be introduced by the ecosystem,
+this process will not be connected with the ecosystem, but it will be created to
+allocate funds (coins) for solving global issues (assistance to victims of
+environmental catastrophes, charity etc.).
+Republia provides not only decentralized technology, but also shows
+decentralized network of people, who are united by common and good purpose -
+assistance in solving global issues.
+46
+
+
+
+
+Republia Whitepaper
+Republia ID
+You have to work hard to start thinking
+clearly and do some simple thing. When
+you are good at doing this, you become
+an omnipotent.
+Steve Jobs, founder of Apple
+REPUBLIA ID
+Republia offers its users a unique, improved ID Card - Republia ID.
+The main feature of RepubliaID is advanced security - Veracity System, which
+minimizes the risk of loss of funds or hacking user accounts. Also RepubliaID
+and Veracity System are implemented into all components of the global
+ecosystem, where it is possible to harm other Republia community members.
+Thus, participant with RepubliaID becomes members of Republia community
+and can directly influence the life of the community.
+Information about RepubliaID is stored in encrypted form in Cloud X, which
+makes Republia community transparent and helps to avoid information and
+financial losses.
+RepubliaID can be used in several other areas -  IoT-solutions and smart
+contracts. Since the smart house system and other systems, related to IoT-
+solutions, will require personal information, a proper level of security should be
+ensured. In case of AI system (artificial intelligence), each user separately must
+provide personal information under the protection of RepubliaID for safe and
+decentralized teaching gadgets personally.
+48
+
+
+
+
+Republia Whitepaper
+Republia ID
+All information that is recorded in RepubliaID is described by the function:
+type reppass_info = {
+hash: reppass_id_hash.t ;
+size: MBytes.t list ;
+name: usr_name_hash.t ;
+dob: dob_hash.t ;
+title: title_hash.t ;
+validation: vld_hash_t;
+}
+8.1                                                                                   Advantage of RepubliaID in voting
+Using the number of your RepubliaID ensures fair and open voting,
+confirming that it is not falsified, as it is impossible to forge, because it is a
+unique, digital passport, and information about this passport is stored in Republia
+distributed register.
+Republia does not allow any falsifications in its ecosystem: user can see ID
+of each voter, as they all use this security tool.
+49
+
+
+
+
+Republia Whitepaper
+Republia Cloud X
+When a good idea has struck you, act
+immediately.
+Bill Gates, founder of Microsoft
+REPUBLIA CLOUD X
+Decentralized data storage is the future.
+All data exchanged between users in Republia ecosystem is stored under
+reliable protection of Cloud X technology.
+Cloud X was developed by Republia, and it is a decentralized cloud storage.
+Large flows of information flow through Republia ecosystem. Taking care of
+data security, they are not stored on Republiа servers, instead all user information
+is stored decentrally in an encrypted form.
+Economy of Republia project is built in such a way, that users are paid for the
+storage of data. Cloud X technology eliminates the problem of information theft.
+Popular services such as Facebook or Google, for the purpose of targeting,
+collect personal information and data about site visits. Considering this, Repulia
+provides complete security inside the ecosystem, because user data is stored
+decentrally in an encrypted form. Payment for data storage is not provided.
+Republia Cloud X is a safe data storage, and it is the future of the entire
+global ecosystem. All information is controlled by users without centralized
+servers.
+51
+
+
+
+
+Republia Whitepaper
+Republia Cloud X
+Republia Cloud X in the ecosystem is responsible for storing:
+1. Data about chats between users;
+2. Attached files;
+3. Media files;
+4. Information, recorded in RepubliaID;
+5. Confidential information, generated on the platform ( user data is recorded
+in Republia blockchain, due to this process the identity of ecosystem participant
+is verified)
+Republia Cloud X is also responsible for decentralized training of artificial
+intelligence (Machine Learning). So all data of the machine that you are training is
+stored in Cloud X. Decentralized training will take longer time than in case of
+Google AI, but with higher quality and safer.
+The inspiration of this technology is the development of the open source
+system of machine learning IBM (IBM Analytics).
+In the code it will be written:
+class learning =
+object
+initializer
+_className <- "learning"
+val _env =
+Env.getEnv()
+val mutable _learningObject : learningObject =
+new dummyLearningObject
+method getLearningObject : learningObject =
+_learningObject
+method setLearningObject (obj : learningObject) =
+_learningObject <- obj
+52
+
+
+
+
+Republia Whitepaper
+Republia Rating system
+I am convinced, that science and
+research bring more pleasure than
+making money
+Stephen Hawking, theoretical
+physicist
+REPUBLIA RATING SYSTEM
+Republia Rating system is designed to exclude malevolent users from the
+ecosystem, whose purpose is to harm, discriminate the system or to create
+obstacles for other users in making decisions and in Republia life.
+Republia Rating system provides users with confidence in professional
+competence of each Republia participant.
+Republia Rating system is embedded in such subsystems as:
+Republia Bank;
+Republia Exchange (in Emporium and Rialto);
+Smart Contract Platform;
+Votings (Consensus);
+Republia Cloud X;
+Spam-Content Bot.
+Participants with high rating will receive additional bonuses of the
+ecosystem ( visiting free meetups, organized by Republia Foundation, reducing
+commission etc.)
+The user rating will decrease for misbehaviour inside ecosystem (spam
+attacks, deception of other participants, theft of funds and attempts to hack
+accounts).
+54
+
+
+
+
+Republia Whitepaper
+Republia Rating system
+Reducing a rating could also be a consequence of verification which was not
+passed by spam content. In this case user is not allowed to access functions of
+“parking” in Republia Bank, to trade on Republia Exchange, to take part in voting
+on ICO Platform.
+Errors in calculation of the rating and falsified results are impossible in
+Republia Rating System, because this system is completely autonomous.
+If the user does not agree with his rating, there is a special automatic revision of
+coefficients in response to a user request.
+Such steps are aimed at users mutual respect and Republia intention to
+become one of the most progressive ecosystems in blockchain community.
+55
+
+
+
+
+Republia Whitepaper
+Republia Wallet
+Innovation distinguishes the leader
+from the person, who is trying to catch
+up.
+Steve Jobs, founder of Apple
+REPUBLIA WALLET
+Republia Wallet is a unique, complex technology, that includes both a wallet
+and an instant messenger with the addition of contacts via RepubliaID.
+Republia Wallet solves the problem of heavy wallets with 16-digit addresses
+through the implementation of the possibility of transaction using the number of
+RepubliaID.
+In Republia Wallet users can view their transaction history of their
+transactions, using clear and user-friendly graphical interface they can send or
+accept payment, and all transactions are under the protection of Veracity System.
+Holders of Republia Wallet can use a convenient function of expanding their
+address book by contacts via RepubliaID and users can open or close an access
+to sending funds.
+Republia Wallet includes not only the technology of wallet, but also instant
+messenger, users can exchange messages, files (stored in Republia Cloud X), and
+create smart contracts with their contacts.
+The possibility of direct voting is introduced in Republia Wallet as well, the
+user can directly participate in any voting created in the ecosystem, the result of
+voting will influence the modernization of Republia technologies.
+Republia ecosystem offers several types of wallets:
+1. Heavy wallet (full node):
+with GUI secure locker ;
+with GUI full version of the ecosystem.
+57
+
+
+
+
+Republia Whitepaper
+Republia Wallet
+In a heavy wallet there are a full node and a full Republia client, in which all
+the functions of the ecosystem are available, including Republia Bank, Republia
+Exchange, ICO Platform etc. After downloading a full node, the user also
+becomes a participant in blocks confirmation, in other words in PoA mining. The
+ecosystem provides a version in which only a full node will be available with the
+ability to store funds, in this case GUI will look like a secure locker and storage.
+2. Light weight wallet:
+In this type of wallet a full blockchain is not embedded, but it is implemented
+into site to transfer components of the wallet.
+58
+
+
+
+
+T E C H N O LO G I E
+S  O F  A I  ( ½ )
+O F  A I  ( ½ )
+
+
+
+
+Republia Whitepaper
+Technologies of AI (½)
+It is great to live at a time when
+everything is changing in the world and
+to feel progress by your fingertips on
+the keyboard.
+Julian Assange, founder of
+WikiLeaks site
+TECHNOLOGIES OF AI (½)
+Republia implements artificial intelligence as machine learning for one
+personal user. The user will train his one machine and all data will be stored in
+Cloud X system and under reliable protection of Veracity System. In the future
+these results will be used in IoT component. Republia offers a solution which will
+allow to use confidential information decentrally without collecting it. Thus,
+Republia develops decentralized AI.
+Personal machine learning is a basis for real AI which will operate in
+decentralized manner. All data collected by AI1 are not recorded in public register,
+but are stored in Cloud X. Analysis of this data will be personalized which
+excludes the usage of confidential information by third parties.
+In the ecosystem Artificial intelligence will be used: 1) in Republia Bank
+(regulation of interest rates); 2) spam content; 3) in the rating system; 4) for
+personal machine learning
+Artificial intelligence in RepubliaID decentrally read out information about the
+type of device when logging in, analyzing recent entries.
+While implementing decentralized mechanisms of data analysis, Republia
+completely protects its users from transferring/ hacking/ selling accounts.
+AI2 is a deep immersion in artificial intelligence and the creation of
+innovative AI, which operates in decentralized manner and provides strong
+platform for IoT market.
+60
+
+
+
+
+T H E
+D E S C              R I P T I O N
+O F  M I N I M U M
+P R                  OT OT Y P E ,
+M V P
+M V P
+
+
+
+
+Republia Whitepaper
+The description of minimum prototype, MVP
+THE DESCRIPTION OF MINIMUM
+PROTOTYPE, MVP
+MVP strategy of Republia focuses on testing hypotheses, but not on the
+reducing functionality for the sake of a cost-saving measure. All products in the
+early stages will be integrated into the system on the basis of reviews of the first
+users.
+Republia Foundation uses the following products to test viability of different
+solutions:
+Bank
+Wallet (Messenger)
+Smart-contract platform
+Voting
+13.1                                                                                   MVP Bank
+The minimal product Republia Bank is designed for users to get to know
+about the bank and the “parking” system from the initial stage of the project.
+“Parking” is a voluntary deposit of coins. Upon registration each user gets 10
+conventional units, those interests that users will receive from “parking” process,
+will be converted into real RPB coins.
+Interest rates on the type of “parking” will change in order to understand the
+structure of banking system.
+20% from “parking” in case of parking again.
+Functions of MVP RepubliaBank:
+Deposit of funds;
+Receiving interests from “parking”.
+62
+
+
+
+
+Republia Whitepaper
+The description of minimum prototype, MVP
+13.2                                                                                MVP Wallet
+MVP Wallet provides the ability to test the speed of Republia blockchain and
+send money to each other not by hash function of the wallet, but by usual
+username. The system of contacts (Republia ID) is embedded in Republia Wallet,
+where the user can send funds to another member of the ecosystem with a single
+click on the contact.
+The function of messenger will be implemented into Republia Wallet, all data
+about chats are stored decentrally in an encrypted form. The function of creating
+smart contracts and attaching files is implemented into Republia Wallet.
+Republia Wallet is a personal secure house and a social network, which
+cannot be compared with centralized analogues.
+Functions of  Republia Wallet:
+Sending funds;
+Acceptance of payment;
+Transaction history;
+Messenger;
+Creation of smart contract;
+DCS functions;
+File sharing.
+63
+
+
+
+
+Republia Whitepaper
+The description of minimum prototype, MVP
+13.3                                                                          MVP Smart-Contract Platform
+MVP Smart-Contract Platform is developed to assess the convenience of
+creating smart contracts in GUI. In MVP Smart Contract Platform users can
+create a smart contract simply by clicking on the desired icons.
+Users can try to create smart contract for renting a house, monthly payment
+for utilities, payment of debt etc..
+Users can choose the desired type of smart contract from the templates
+provided by Republia team. Each ecosystem participant can create smart
+contract without special knowledge in software engineering.
+IDE is implemented into Republia Smart Contract Platform, in IDE developer,
+using tips and certain templates, can implement and run smart contract.
+Functions of MVP Smart-Contract Platform:
+Creating smart contracts in GUI;
+Renting a house;
+Payment for utilities;
+To lend funds;
+Payment of debt;
+Escrow deposit of funds;
+Developer Mode;
+Tracking the history of creating smart contracts;
+Active smart contracts;
+Completed smart contracts;
+Remote smart contracts.
+64
+
+
+
+
+Republia Whitepaper
+The description of minimum prototype, MVP
+13.4                                                                             MVP Voting System
+MVP Voting System introduces advantages of WE-Government technology.
+In MVP Voting System participants can vote for changing or modifying an
+ecosystem product. Also this system includes voting for/against changes in the
+technical protocol of the project, which eliminates problem of hardforks.
+Republia Voting System platform eradicates numerous disputes, that occur
+in blockchain community. After adoption of technical vote, protocol will be
+updated by itself, depending on the decision of the participants.
+Republia Foundation acts as a performer, and the entire system is managed
+by the community. The whole history of voters is recorded in blockchain, which
+excludes all possible falsifications.
+Functions of MVP Voting System
+Creating polls;
+Voting process using Republia Pass;
+Viewing all Republia Pass that voted for improvements;
+Viewing information about the voting (who voted for/against);
+History of all polls.
+Voting is divided into several types :
+voting on technical part of the project;
+voting for the modification of the project ecosystem;
+voting for adding new features to the project.
+65
+
+
+
+
+E Y  P E R S O N S
+O F T H E
+C O                  M PA N Y
+C O M PA N Y
+
+
+
+
+Republia Whitepaper
+Founders
+KEY PERSONS OF THE COMPANY
+Daniel Shulyaev                            Vladyslav Gyrych
+Co-founder                                 Co-founder
+Daniel has an extensive experience in      Vladyslav has many years of experience
+the development of blockchain related      in the implementation and cooperation
+technologies,                              with international blockchain projects,
+which he uses to implement new             including work in MinexCoin, and own
+projects, support, maintain, analyse       project - Ukrainian logistics and
+existing solutions of                      technology, as well as direct
+Ukrainian and international companies.     participation in development and
+He contributed to four successfully        investment. Vladyslav also actively
+functioning                                participates in various blockchain
+projects.                                  conferences as a speaker.
+Konstantyn Denysenko                       Hayk Khachatryan
+Chief Communications Officer               Technical Director
+Experience in the area of political        Around 20 years of experience in IT
+consulting, support of investment          industry, including several years in the
+projects as well as skills gained during   position of Lead Engineer and Project
+participation in the development of ULT    Team Lead of Bada OS in Samsung
+project, which united blockchain           Electronics company, as well as direct
+technology with logistic services.         participation in the development of the
+national banking program - Armenian
+Card.
+67
+
+
+
+
+Republia Whitepaper
+Advisors
+ADVISORS
+Boris Shulyaev
+MinexCoin Founder and CEO
+Entrepreneur, blockchain enthusiasts and professional economist, owner of one of
+the largest mining farms in Europe, has a lot of experience in founding and
+managing large private and public companies. Business angel.
+Oleksiy Yakovlev
+The head of the Innovative Projects Department at Moore Stephens
+Deep expertise in providing the financial services for corporate and public sectors.
+Additional activities: Investing in Blockchain startups, Cybersecurity, automation of
+business processes.
+Yunzhu Lin
+Co-founder of Xstar.io
+Mr. Yunzhu Lin (Frank) is a New York and Wisconsin Licensed Attorney. Before
+founding 7 Seas Capital, Mr. Lin started his blockchain journey in 2013, he was Head
+of Global Market in Gridseed, the first Litecoin miner manufacturer in the world, and
+co-founded Xstar, a cryptocurrency exchange in China.
+68
+
+
+
+
+R     E P U B L I A
+I N   I T I A L  C O I N
+O     F F E R I N G
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+REPUBLIA INITIAL COIN OFFERING
+The date of Pre-SALE is  from 23.08.18 to 23.09.18.
+The date of PUBLIC SALE is from 23.11.18 to 23.12.18.
+Republia conduct a campaign for attracting investment in two stages in
+order to provide maximum transparency and efficiency of using the collected
+funds.
+Thus, during Pre-SALE, Republia attracts financing for finalization and official
+release of the test version of Republia Blockchain (testnet). Before the beginning
+of PUBLIC SALE phase all users will be provided with opportunity to participate in
+testing of this protocol. Hard cap of Pre-SALE stage implies the release of
+maximum full-fledged product, which together with existing results of Republia
+Group (MVP) will show all the advantages of the project. In addition, before Pre-
+SALE, Private Round is started, which has a number of distinctions from existing
+forms of attracting funds. During the month before Pre-SALE stage, Republia
+Group will provide everybody with an opportunity to leave objective feedback
+about the project, point out possible errors and assist in the implementation of
+their corrections. Private Round does not mean attracting funds, but only real
+participation of users and potential community for the improvement of any
+component of the project. This step will provide Republia project with an
+opportunity to move to the stage of collecting funds taking into account
+suggestions of all users, which entails the creation of real democratic project, in
+which decisions and possible adjustments are made by users.
+Collecting funds take place on the principle of share participation, which
+means obtaining a share by each investor, which is calculated in relation to the
+total amount invested by all PUBLIC SALE participants. In addition to the above,
+Private Round participants receive additional 5% from invested funds as a bonus,
+which is an incentive to participate in the modernization of the project.
+PUBLIC SALE phase is conducted to attract investment for the
+implementation of the entire ecosystem. Taking into account the real demand of
+investors for the fastest project implementation, Republia Group will do its best
+to implement the entire project and the components of the ecosystem during 1-2
+years, which, first of all, directly depends on the amount of collected funds.
+70
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+At the end of PUBLIC SALE, Post-PUBLIC SALE Portfolio is organized, in
+which some risks are transferred to fiat funds, some cryptocurrencies and
+precious metals. Decision on the components of Post-PUBLIC SALE Portfolio
+may be changed before the end of PUBLIC SALE, depending on the market
+trends. RPB coins will be available after the release of Republia blockchain, at the
+end of PUBLIC SALE stage.
+In case the soft cap is not reached at one of the stages, the funds will be
+immediately returned to investors.
+In case the hard cap is reached before the deadline, at one of the stages, -
+collecting funds will be finished in advance.
+The date of the beginning: August 23, 2018
+Pre-SALE period soft cap: 500.000$
+Pre-SALE period hard cap: 5.000.000$
+PUBLIC SALE period soft cap: 5.000.000$*
+PUBLIC SALE period hard cap: 50.000.000$
+Minimum purchase : 100$
+The soft cap of PUBLIC SALE period begins with the amount that was
+attracted during Pre-SALE.
+71
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+Bounty-campaign
+Type                             %      RPB
+Facebook                         14%    420,000
+Twitter                          14%    420,000
+LinkedIn                         6%     180,000
+Bitcoin Talk                     16%    480,000
+E-mail newsletter                3%     90,000
+Blogs                            6%     180,000
+Videos                           7%     210,000
+Forums                           1%     30,000
+Telegram                         5%     150,000
+WeChat                           1%     30,000
+KakaoTalk                        1%     30,000
+Slack                            3%     90,000
+Translations                     5%     150,000
+Reddit                           5%     150,000
+Instagram                        7%     210,000
+Other                            6%     180,000
+SUM                              100%   3,000,000
+72
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+Post-PUBLIC SALE Portfolio
+Cryptocurrency, which is accepted
+BTC                                 ETH   BCH   LTC   USDT   MNX
+73
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+Distribution of coins
+Pre-mining
+60 000 000 RPB
+15%
+Total Supply:
+20%
+400 000 000 RPB                                                                   Bank-reserve
+80 000 000
+65%
+Available for mining
+260 000 000
+In Republia Blockchain 400 million RPB coins will be available in total.
+65% of the total number of coins is allocated to the genesis block and will be
+available when the network starts operating.
+The reserve of Republia Bank is 20% of Total Supply. This amount of funds
+will provide users with functional system, which will be able to operate during
+specified time. 260 million coins are available for mining.
+74
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+Pre-mining distribution
+Bounty
+5%
+Pre-SALE
+19,75%
+Advisors
+8%
+Team
+22%
+PUBLIC SALE
+45,25%
+RPB coins of Republia team are frozen for 2 years and RPB coins of advisors
+are frozen for 6 months after the end of the PUBLIC SALE.
+75
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+Pre-mining distribution
+Block structure
+Name                                                                                  Amount
+New block in network (sec)                                                            1
+Bank fee                                                                              50%
+Block reward, RPB                                                                     0,3298
+Bank fee, RPB                                                                         0,1649
+Miners reward, RPB                                                                    0,1649
+Bonus for prior participation
+At the time of PUBLIC SALE and Pre-SALE investors are offered a bonus for
+prior participation. Thus, fast achievement of the objectives related to collecting
+funds is stimulated. In addition, bonuses for participation in Private Roun are
+taken into account, the highest bonus in Republia Initial Coin Offering is around
+30%
+76
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+Pre-SALE
+Contribution amount
+                                                                                  100 $-2000   $   2.000 $ - 5.000   $   More than 5.000$
+1st week                                                                          20%              22,5%                 25%
+2nd week                                                                          10%              12,5%                 15%
+3rd week                                                                          5%               7,5%                  10%
+4th week                                                                          0%               2,5%                  5%
+Bonus for prior participation
+The use of funds collected during the PUBLIC SALE is calculated taking into
+account the risks in the Post-PUBLIC SALE portfolio, the possible exchange rate
+fluctuations in assets, and in accordance with the road map.
+77
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+Coin distribution
+Ecosystem research and development        50%   25,000,000$
+Marketing and business development        18%   9,000,000$
+Administrative and operational expenses   15%   7,500,000$
+Negotiation and listing on exchanges      6%    3,000,000$
+Legal support                             6%    3,000,000$
+Unexpected circumstances                  5%    2,500,000$
+6% 5%
+6%
+15%                                       50%
+18%
+78
+
+
+
+
+Republia Whitepaper
+Republia Initial Coin Offering
+“Ecosystem research and development” means covering the expenses of
+creating of main products of  Republia ecosystem, including Republia Blockchain,
+with the use of services of international outsourcing companies in a particular
+area, as well as providing working conditions for employees, including an office
+for 40 engineers and management staff.
+“Marketing and business development” means covering expenses of
+marketing campaigns in order to attract new users and investors, as well as costs
+to expand into new markets.
+“Administrative and operational expenses” include the budget for
+maintenance of operational Republia office, excluding R&D department.
+“Negotiation and listing on exchanges” means covering costs of
+negotiations with large stock exchanges in Post-PUBLIC SALE period and listing
+during one month following the end of PUBLIC SALE.
+“Legal support” includes all costs for resolving issues related to functioning
+and expansion of Republia in different countries and areas.
+“Unexpected circumstances” - costs that were not listed above.
+79
+
+
+
+
+C   O N C L U S I O N
+
+
+
+
+Republia Whitepaper
+Conclusion
+CONCLUSION
+Republia project is the beginning of a new history in the development of
+decentralized ecosystems, as keynote idea of Republia team is direct influence
+and active participation of users.
+Republia Ecosystem
+This fact proves functioning using a new type of management - “We-
+ecosystem”, which contributes to full democracy, justice, transparency and
+decentralization within the entire ecosystem.
+Since the entire Republia ecosystem is very extensive and includes various
+structural elements (Republia Bank, Republia ICO Platform, Republia Exchange,
+Republia Wallet, Republia Smart Contract Platform), every stage of secure
+operation was carefully thought out and provided with innovative technologies of
+its own design.
+Moreover, having examined the document, you can be sure of thorough
+analysis of risks and elimination of most of the vulnerabilities, that emerge in the
+representatives of other industries.
+81
+
+
+
+
+Republia Whitepaper
+Conclusion
+Republia also provides users with a comfortable environment for operations
+with cryptocurrencies, solving the problem of the highest volatility, by introducing
+own RPB coin, which an internal payment tool. Smoothed volatility of RPB
+cryptocurrency is achieved by artificial intelligence, created using Republia
+blockchain.
+In the conditions of Republia ecosystem each participant will find all the
+advantages of using blockchain technology, which satisfy his requirements from
+the creation of his own ICO, generation of smart contracts, secure storage of his
+data to fast execution of transactions, comfortable communication with other
+community members and user-friendly interface.
+82
+
+
+
+
+

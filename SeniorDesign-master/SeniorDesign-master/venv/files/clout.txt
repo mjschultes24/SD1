@@ -1,0 +1,1268 @@
+﻿Media.Decentralised
+The purpose of this Whitepaper is to provide a clear insight
+into the CLOUT business model, The team behind it and our
+long-term vision for CLOUT. This Whitepaper can be subject to
+updates. Last published update occurred October 6th, 2017.
+We suggest that you review this information periodically for
+any changes.
+V12                                                             09 November 2017
+
+
+
+
+Table of Contents
+Concept                          3
+Introduction                     3
+The Clout Solution and Mission   5
+Digital Advertising Market       5
+Blockchain Technology            6
+The Clout Platform               7-10
+Platform Development             9-10
+Clout Timeline                   10
+Token and Economic Model         11-12
+ERC-223 Token Standard           12
+Token Allocation                 13
+Token Sale                       14-15
+Funding Breakdown                15-17
+Longevity                        18
+Team CLOUT                       19
+Financial Growth                 20
+Terms and Conditions             21-41
+page2
+
+
+
+
+Concept
+CLOUT aims to become the standard in quality for everything crypto -
+news, media, and investment. It is an online based integrated software
+that gives cryptocurrency investors a home.
+Clout
+/`Klout/
+Influence or power, especially in politics or business
+Introduction
+User-generated content drives billions of dollars’ worth of revenue every
+year. However, all the value created through the monetization of this
+content never reaches the user themselves. It is instead reserved for a few
+shareholders of the large social media outlets.
+At the same time, the lack of curation that is put into this content creates
+an ecosystem where fake news and misleading information thrive. Since
+there are no incentives for high-quality content and no consequences for
+low-quality content, the latter can end up being the most popular choice for
+average users.
+CLOUT aims to solve the issues by creating a new social-media platform
+where curation is incentivized and where advertising revenue is shared
+with the content creators, thus spreading the wealth that is generated
+through digital content and further advancing the overall ethos of decen-
+tralization and cryptocurrencies.
+page3
+
+
+
+
+The CLOUT solution & mission
+CLOUT is a blockchain-based platform for the cryptocurrency community. A
+place where all sorts of information about the space can be accessed and
+shared. CLOUT leverages blockchain technology as an incentive layer for
+both users and readers, rewarding them for acting in the platform’s best
+interests.
+CLOUT provides users with an intuitive interface based on the familiar
+social media concept. Users can monetize their crypto-related content,
+ensuring that the wealth they generate is not diverted to any other
+individual.  On the other hand, readers are financially incentivized to
+monitor the platform and to curate content, promoting high-quality material
+and demoting poorly written, inaccurate or plagiarized content.
+By building CLOUT, we hope to create a hub for cryptocurrency and
+blockchain enthusiasts, investors, and workers.  A place where they can
+read and learn freely without fear of being misled. Although CLOUT is
+focusing on the cryptosphere, the open source nature of the project can be
+leveraged for other communities and ecosystems that may want to benefit
+from the technology.
+page4
+
+
+
+
+Digital Advertising Market
+Today, online media and mobile content are the leaders of the publishing
+industry. Offline content generated in a centralized manner (i.e. print)
+does not see a high rate of social publishing nor does it create a signifi-
+cant revenue stream for the creator or the sharer of said content.
+According to research performed by eMarketer, the global internet adver-
+tising expenditure totaled $178.5 billion in 2016 and it is expected to
+grow to around $250 billion in the next two years. CLOUT expects not
+only to tap into the growing digital advertising market, but also to trans-
+form it. By allowing anyone to be part of the business, monopolies in the
+industry can be torn down, allowing it to become more efficient and
+transparent.
+Users will be rewarded for creating and curating the highest quality and
+most relevant content. Creators and investors in noteworthy projects will
+now have a tool to maximize their influence (or clout) in the crypto space,
+maximizing their value.
+page5
+
+
+
+
+Blockchain technology
+Blockchain technology works as a digital, distributed ledger in which
+transactions, balances, wallet addresses, and more are chronologically
+recorded. Information stored on the blockchain is both public and
+immutable.
+Although the blockchain industry is a new one, the growth potential can
+only be compared to that of the internet in the late 90s. Just as search
+engines, browsers, and social networks disrupted the information tech-
+nology and communications sectors, blockchain platforms like Bitcoin,
+Ethereum and others will force the hand of traditional institutions to
+change their respective roles in the industry. Not only is the cryptocurren-
+cy market growing at a remarkable speed, blockchain technology itself is
+being adopted by established institutions with growing frequency.
+Despite this undeniable trend, there is no content platform uniquely
+dedicated to cryptocurrency and blockchain technology. Crypto is a
+100-billion-dollar industry and yet it only has had a place as a sub-catego-
+ry on the traditional platforms used by the crypto community to get their
+information.
+On the other hand, the cryptocurrency space also suffers from a gross
+“over saturation” of media and investment content. Over 1.2 million+
+posts and 250+ hours of video are uploaded each day, since the begin-
+ning of 2017, under the broad subject matter of “Cryptocurrency.”
+The blockchain has made an immense impact on society and it is here to
+stay. Major businesses and corporations have not been able to deny the
+technological and financial advancements that blockchain technology
+brings to the world. The entire blockchain community is desperate for a
+place dedicated to it and only it. A place where the community can truly
+thrive as its rapid adoption continues worldwide.
+page6
+
+
+
+
+The CLOUT Platform
+The CLOUT Platform leverages blockchain technology to provide a
+multi-language platform where content creators and curators are incen-
+tivized to post and share high quality content globally. Through the
+CLOUT Platform, users will be able to create an account, edit their
+profile, search and find content, interact with the built-in CLOUT wallet
+and start posting and sharing posts.
+The CLOUT Platform will feature a familiar and intuitive user interface
+with the common characteristics of a social media platform. CLOUT will
+implement Artificial Intelligence to automatically compose user views
+ensuring that each user is always greeted with the most relevant con-
+tent, according to prior activity.
+Users will be able to register or login with their account or through their
+Facebook, twitter or google accounts. Once the account has been creat-
+ed, the user is free to edit his profile, including the profile picture,
+description, contacts, and more. The user dashboard will also feature a
+built-in wallet for the ERC223 CLOUT and CLC tokens.
+A vital part of the CLOUT ecosystem, the CLC tokens act as the incen-
+tive layer for content creators and sharers. By holding the CLOUT token,
+users will be able to receive CLC in yearly batches. The CLC token acts
+as the fuel for the platform and is required to create, rate, like or share
+content within CLOUT. If a member's post or comment is rated accurate
+or liked by the community, a percentage of the CLC gathered will be
+paid back to the original poster.
+page7
+
+
+
+
+Unlike most social media platforms, CLOUT will launch as a cryptocurren-
+cy-centric platform in which content will revolve around the blockchain space,
+cryptocurrency projects, ICOs, and so on. This approach allows the communi-
+ty to grow in an organic manner, acting as an information hub for cryptocur-
+rency users which can later turn into a more generic platform in which, for
+example, technology, economy or trading, are discussed.
+By focusing on the crypto-sphere as the platform’s kickstarter theme, CLOUT
+will also provide a much-needed information hub for cryptocurrency inves-
+tors, who are currently bombarded with content every day. By creating an
+incentive for quality posts, CLOUT will ensure that writers are incentivized to
+create honest and impartial reviews or articles, instead of being paid by the
+companies they are writing about. By doing so, content creators, noteworthy
+projects, investors and more, have the necessary tools to increase their
+influence in the cryptocurrency space.
+Other massive problems for today’s cryptocurrency investor are the scams
+and phishing attempts that plague the current “user-driven” communities
+online. Every single day, hackers come up with new ways to try to steal coins
+that do not belong to them. We are familiar with the common scams and do
+the due diligence needed to avoid them.  However, the often larger and most
+intricate scams are the ones that sell themselves as an ICO. CLOUT is going
+to provide a much-needed vetting process of ICOs for users.  The CLOUT
+platform will evaluate and provide analysis of all current and upcoming ICOs.
+As the blockchain continues to grow, CLOUT is going to help establish a
+much-needed standard of quality for today’s ICO space.
+CLOUT’s network provides the following functions for users:
+•A “home base” for cryptocurrency news and media. It consolidates all infor-
+mation from various platforms and maintains the integrity of the content
+through a reward system.
+•A platform for content sharers and creators alike with constant incentivizes
+to make quality contributions through its daughter token, CLC.
+page8
+
+
+
+
+•                                                                                 Resources for ICO due diligence and promotion of promising
+                                                                                  advancements in the blockchain and cryptocurrency technology.
+•                                                                                 A “Who’s Who” section in the world of cryptocurrencies and block-
+chain technology.
+Platform Development
+CLOUT is more than just an idea. We have begun designing and developing
+the CLOUT platform. Creating a revolutionary platform with maximum func-
+tionality for the user is our #1 priority. Building CLOUT is a challenging, yet
+exciting process since CLOUT’s functions differently from other blockchain
+networks by design. The coding reflects these difficult and intricate
+advancements within the system.
+The CLOUT Platform will run the following programming languages:
+•                                                                                 Angular 2
+•                                                                                 Python
+•                                                                                 PostgreSQL
+•                                                                                 Ethereum Smart Contracts
+Our vision for utilizing the blockchain as an incentive system for CLOUT is
+essential to cryptocurrency mass adoption. In terms of storage, the CLOUT
+Platform is going to use decentralized distributed storage networks such as
+IPFS. CLOUT developers will incorporate a distributed application execution
+and are monitoring many major distributed computation platforms. CLOUT
+plans on hosting major components of the system on such platforms once
+closer to the production phase of development.
+page9
+
+
+
+
+CLOUT smart contracts functionality will reset today’s standards. The
+ability to release tokens at a decaying rate over time is just one of the
+advancements in smart contracts that allows CLOUT to help protect
+users. Participants will no longer lose contributions immediately after
+an ICO following a massive sell-off of tokens at one time.
+CLOUT smart contracts are developed using:
+•                                                                           Solidity v.0.4.13
+•                                                                           JavaScript Truffle + Mocha (for automated tests)
+CLOUT Timeline
+ALPHA RELEASE 1
+Member Sign on
+Create Media Page                                                           15
+ICO Viewer Page                                                             NOV 2017
+                                                                            ALPHA RELEASE 2
+                                                                            CLC Upvote
+30                                                                          CLC Tracker
+DEC 2017                                                                    Web Scraping Bots
+ALPHA RELEASE 4
+Generate CLOUT on site
+Create Media Update
+30
+ICO Viewer Update
+Web Scraping Bots Update                                                    JAN 2018
+                                                                                                                                          ALPHA RELEASE 4
+                                                                                                                                          Submit Outside Media
+                                                                                                                               28         CLC Submit
+                                                                                                                               FEB 2018   CLC Vote
+PRIVATE BETA RELEASE
+Submit Social Content
+CLC Submit
+CLC Vote                                                                    28
+                                                                            FEB 2018
+                                                                            PUBLIC BETA RELEASE
+                                                                            Test All Features
+31                                                                          UX/UI Testing
+MAR 2018                                                                    Unit Testing
+Customer Feedback
+COMMERCIAL RELEASE V1.0
+Approved Beta
+Member Interaction
+Voting on features                                                          15
+                                                                            MAY 2018
+                                                                            COMMERCIAL RELEASE V2.0
+                                                                            Multi Language
+31                                                                          Translation
+OCT 2018                                                                    Reputation Scoring
+COMMERCIAL RELEASE V1.0
+CLC Exchange
+CLC Blockchain Integration
+Enhanced Voting                                                             15
+MAR 2019
+page10
+
+
+
+
+Token and Economic Model
+The CLOUT Platform has two native tokens:
+•
+•
+CLOU                                                                           e mining
+conce                                                                          t those
+who r                                                                          platform,
+which directly incentivizes them to act in its best interest.
+The initial amount of CLC is equal to the amount of CLOUT and will be
+distributed to the token sale participants at a 1-1 ratio. Only 100 million
+CLOUT tokens will ever be created. A maximum of 1 billion CLC will be
+generated throughout the lifetime of the CLOUT Platform.
+CLOUT generates its first batch of CLC at a rate of 1-1 per year through a
+process known as “auto genesis mining”. Every subsequent batch of CLC
+will take one additional year to generate. For example, the first batch will
+be generated one year after the close of the ICO, the second batch will
+generate 2 years later, the third batch after the 3rd year, etc. CLOUT that
+is transferred to a different address will have the subsequent CLC credit-
+ed to that new address.
+page11
+
+
+
+
+CLOUT purchased during the ICO will receive the corresponding CLC at no
+cost. Any CLOUT purchased after the ICO closes will need to wait for it to
+generate additional CLC or purchase it on its own. The CLC token will be
+distributed proportionally in accordance with the CLOUT tokens held. With the
+increasing rate of new block generation, the total limit of CLC will be achieved
+in 2062. CLOUT holders can initiate a transaction at any time to claim their
+CLC tokens to their wallet addresses. Users will have access to their CLOUT
+and CLC following their purchase in the ICO.
+CLC issuance schedule:
+1.                                                                                 Post ICO (Nov 2017) -
+2.                                                                                 2018 - 100M
+3.                                                                                 2020 - 100M
+4.                                                                                 2023 - 100M
+5.                                                                                 2027 - 100M
+6.                                                                                 2032 - 100M
+7.                                                                                 2038 - 100M
+8.                                                                                 2045 - 100M
+9.                                                                                 2053 - 100M
+10.                                                                                2062 - 100M
+ERC-223 Token S
+The CLOUT ecosystem is based on an open source cryptographic ERC-223
+token named CLOUT (CLOUT Token). CLOUT is fractionally divisible, transfer-
+able and functional.
+The ERC-223 tokens ability to eliminate the problem of “lost tokens” was an
+important function for the CLOUT token to ensure a safer transfer system. If a
+participant accidentally sends ETH from an exchange to CLOUT’s ICO deposit
+address, the ETH sent can be returned instead of being eliminated, unlike
+ERC-20 tokens.
+The ERC-223 tokens use half the gas required by an ERC-20 token. The deci-
+sion to improve this aspect of functionality ultimately benefits and safeguards
+our current and future participants.
+page12
+
+
+
+
+Token Allocation
+CLOUT’s 100 million token supply is allocated as so:
+1. 2.5 million tokens distributed to project early adopters during pre-ICO sale
+2. 10 million tokens (10%) will be distributed to project supporters during the
+token sale.
+3. 30 million tokens (30%) will be used to motivate developers and pay bounties
+used to develop the CLOUT Platform.
+4. 25 million tokens (25%) will be allocated to the CLOUT Fund and will be used
+to invest in other blockchain projects over time, including ICOs and/or
+cryptocurrencies. These investment decisions will be based on the highest
+rated opportunities by the “up-voting” of the CLOUT platform members.
+5. 22.5 million tokens (22.5%) will be used to motivate the CLOUT developers
+and executives overtime.
+6. 5 million tokens (5%) will be retained by the founders (To be released during
+a 20-month period)
+7. 5 million tokens (5%) to be released every 1 year over the next 5 years, based
+on certain milestones in the CLOUT roadmap being achieved.
+page13
+
+
+
+
+Token Sale
+To fund the development and marketing of the CLOUT platform and to ensure
+a fair and transparent distribution method, CLOUT is hosting a token sale.
+The CLOUT token sale will be divided in two stages, the pre-ICO and the main
+ICO.
+Pre-ICO
+•2.5 million tokens (2.5%) will be distributed during the Pre-ICO at $1/ CLOUT
+The Pre-ICO started on the 27th of September and will end on the 17th of
+November or when 2.5 million CLOUT tokens are sold. During the Pre-ICO, fiat
+currencies, BTC and ETH are accepted. There is a 1 BTC / 10 ETH minimum
+participation requirement.
+ICO
+•5 million tokens (5%) will be distributed during Phase 1 ICO at $2.50/ CLOUT
+•3 million tokens (3%) will be distributed during Phase 2 ICO at $5/ CLOUT
+•2 million tokens (2%) will be distributed during Phase 3 ICO at $10/ CLOUT
+The ICO will start on the 17th of November, following the Pre-ICO. The ICO
+will last for 30 days (December 17, 2017) or until the 10 million tokens are
+sold. During the ICO, BTC and ETH will be accepted. There is a 0.5 ETH
+minimum participation amount.
+Pre Sale and ICO will have a registration process where identity
+documentation is collected, verified and married to the wallet address, phone
+number and email provided. 2FA will be required to authenticate phone
+numbers. Identity documents must verify residential address and email must
+be confirmed. *Individuals from areas of “high-risk” or participation amounts
+greater than $13,160USD need to provide additional data (source of wealth,
+funds etc).
+Hard Cap: $50 million Individual Cap: $1 million
+page14
+
+
+
+
+Distribution of the CLOUT tokens will be done via smart contract.  The
+CLOUT smart contracts will be audited by the independent professional
+company ICOrating (www.icorating.com).  Tokens not sold during the ICO
+will be burned.
+Funding breakdown
+The CLOUT project will use of proceeds from the sale to fund the opera-
+tions and development of the CLOUT platform. The following funding
+breakdown was devised assuming the $50M USD cap is raised*:
+•                                                                              40% Marketing (Growing CLOUT brand)
+•                                                                              30% Research and Development (R&D)
+•                                                                              15% Bilateral Business Relationships
+•                                                                              10% Misc.
+•                                                                              5% Legal
+Marketing: Our marketing efforts include enhancing cooperation with
+potential new members and operators to allow as many people to join the
+platform as possible. Additionally, we plan to focus our efforts on market-
+ing CLOUT to broad audiences on traditional social media platforms, estab-
+lished cryptocurrency media outlets, and other traditional resources.
+CLOUT tokens will also be used as incentives to join the network, creating a
+network effect.
+R&D: The CLOUT platform will be on the cutting edge of today’s technologi-
+cal advancements. R&D funding will allow the team to research and devel-
+op the platform, the CLOUT token, CLC daughter token and all their func-
+tionalitie
+page15
+
+
+
+
+Bilateral Business Relationship: Establishing relationships with businesses
+that can benefit CLOUT’s vision to decentralize media, ultimately catalyzing
+the growth of Blockchain technology and the cryptocurrency community.
+Miscellaneous: Unexpected financial situations such as the underestimation
+of the previous categories’ funding allocations.
+Legal: Retaining legal counsel for the CLOUT Platform.
+Bilateral Business Relationship: Establishing relationships with businesses
+*The expected breakdown may be altered as the project progresses.
+Although team CLOUT has a clear plan to ensure that the value of the CLOUT
+token can be upheld, the main value propositions come not from the value of
+the token itself, but rather from the revenue streams that are open to plat-
+form contributors.
+Multiple Benefits for Users:
+•                                                                                Crowd Wisdom
+•                                                                                Referral Program Crowd Wisdom
+The concept of “Wisdom of the crowds” is not new and it has been leveraged
+by previous platforms within the blockchain space. However, CLOUT’s
+approach to this concept is unique, leveraging it not as a betting or guessing
+mechanism, but rather as a curation tool. This tool is powered by the CLC
+token which acts as a reward for the participants.
+page16
+
+
+
+
+CLC tokens represent the user's voice on the CLOUT platform, allowing him to
+take advantage the platform in its full capacity, with the ability to share, rate
+and create content. Without CLC, users can still access the CLOUT network in
+a “read only” mode but cannot contribute to the community, and therefore,
+cannot be rewarded.
+A user who creates a popular post, makes an accurate prediction or shares a
+quality media post is rewarded with CLC. Users are incentivized to keep their
+CLC so that they can interact with the platform and earn benefits while
+CLOUT holders are incentivized to keep their tokens to receive auto-mined
+CLC according to the defined economic model.
+Referral Program
+CLOUT token holders will receive a certain amount of CLC tokens based on
+how many new members they refer to the CLOUT Network.
+CLC will be rewarded to users who refer new subscribers to the CLOUT
+network based on a tiered system. The earlier the referral on the CLOUT road-
+map, the bigger the CLC reward. Referrals are rewarded as so:
+• Referrals made post-ICO - December will receive 1 CLC.
+• Referrals made Q1-2018- Q2-2018 will receive .75 CLC.
+• Referrals made post-Q2-2018 will receive .5 CLC
+page17
+
+
+
+
+Longevity
+CLOUT has an emphasis on long term growth built into its business
+model. The goal is to be the place where media meets cryptocurrency.
+So much so that CLOUT team members are to receive their CLOUT token
+positions on a timed-release schedule.  Each CLOUT team member will
+realize 5% of their total tokens per month for 20 months following the
+completion of the ICO. This system ensures that no team member could
+potentially compromise the growth of the token value in the open
+market. In addition to self-monitoring within the team 5% of the total
+number CLOUT tokens are set to be distributed over the course of the
+project roadmap over the next 5 years. Over 40% of the total number of
+CLOUT tokens are to be allocated to the advancement of the CLOUT
+project. Over HALF of the total number of CLOUT tokens are to be rein-
+vested into the CLOUT project in the long term.
+By releasing 1 million tokens each year for the next 5 years CLOUT
+intends on showing supporters it is not a “pump” token. Safeguards are
+being built directly into the smart contracts created by CLOUT develop-
+ers. The CLOUT team members main priorities are the advancement of
+CLOUT and to make an overall positive impact on the growth of the
+cryptocurrency community. We intend to grow with the entire market
+and become the flagship platform of cryptocurrency.
+page18
+
+
+
+
+Team CLOUT
+Team CLOUT is the personification of the level of quality the platform will
+bring to its users. With members representing 13 different countries world-
+wide, CLOUT has one of the most talented and diverse teams in the world.
+Each member is highly accomplished in its field and has extensive experience
+and knowledge with blockchain technology and high-growth startups.
+CLOUT’s developer team features some of the best in the industry and they
+are responsible for developing many popular blockchain platforms.
+CLOUT’s Chief Advisor Ryan Fugger has made significant impacts in the
+advancements of blockchain technology with the origination of Ripple (XRP).
+CLOUT’s CEO, David Cohen, has built multiple successful businesses and is
+one of the board members of the IOTA foundation.
+CLOUT's Managing Adviser Toni Lane Casserly, is the Co-Founder and first
+CEO of Cointelegraph. A pioneer in the cryptocurrency news and media
+space.
+The growth and marketing leadership on team CLOUT are vastly experienced
+in building massive community market places and creating worldwide brand
+aware- ness. The team has provided crypto-currency enthusiasts and new-
+comers with a place to temporarily congregate and share information through
+their massive groups on Facebook. Each member of team CLOUT genuinely
+wants to create an ecosystem that brings them the most relevant and high-
+est-quality information available.
+CLOUT was founded by Sean Kirtz, Dean James Langas, Frank Lucido and
+Simon Josef. Before we built a platform that will change the world, we built a
+team that has already proven their ability to do so.
+page19
+
+
+
+
+Financial Growth
+The CLOUT team members main priorities are the advancement of CLOUT
+and to make an overall positive impact on the growth of the cryptocurrency
+community, further advancing the mainstream adoption movement for
+blockchain technology.
+CLOUT aims to become a cornerstone in the cryptocurrency community.
+We intend to grow with the entire market and become the flagship platform
+for all crypto-related information and knowledge. The success of the
+CLOUT tokens will be measured in the long term.
+CONCLUSION
+Currently, cryptocurrency investors are forced to choose from a variety of
+different social media platforms when looking to access quality informa-
+tion pertaining to cryptocurrency. Platforms like Reddit, Facebook, Steemit
+are the only option for users. These websites are social media networks
+first and foremost and when crypto-related content is featured, it is always
+reduced to a sub-category of the platform. Reddit alone has over 50 differ-
+ent “sub-Reddits” dedicated to cryptocurrency and blockchain technology.
+Steemit’s reputation system largely compromises the integrity of informa-
+tion on it because it allows a small group of users with a high “reputation”
+level to dictate much of the content on the site.
+Cryptocurrency has grown into a $100 billion-dollar market that will contin-
+ue to grow exponentially as it continues to spark the public interest. Howev-
+er, blockchain technology enthusiasts and investors alike are forced to
+navigate multiple platforms, multiple subcategories. With what seems like
+a never-ending sea of inaccurate or biased posts when looking for new
+information.  The crypto-community deserves a platform that is exclusively
+dedicated to it and only it: CLOUT - Media Decentralized.
+page20
+
+
+
+
+Terms and Conditions
+CLOUT TECHNOLOGY LTD
+CONTRIBUTION TERMS RELATING TO TOKEN GENERATION EVENT
+PLEASE READ THESE CONTRIBUTION TERMS CAREFULLY. BY MAKING
+A CONTRIBUTION TO CLOUT TECHNOLOGIES LTD FOR THE PURCHASE
+OF TOKENS DURING THE CONTRIBUTION PERIOD, YOU WILL BE
+BOUND BY THESE CONTRIBUTION TERMS AND ALL TERMS INCORPO-
+RATED HEREIN BY REFERENCE. BY ACCEPTING THESE CONTRIBUTION
+TERMS, YOU WILL BE ENTERING INTO A LEGALLY BINDING AGREE-
+MENT WITH CLOUT TECHNOLOGIES LTD. THESE CONTRIBUTION
+TERMS CONTAIN PROVISIONS WHICH AFFECT YOUR LEGAL RIGHTS.
+IF YOU DO NOT AGREE TO THESE CONTRIBUTION TERMS, DO NOT
+MAKE A CONTRIBUTION FOR THE PURCHASE OF TOKENS.
+CLOUT TECHNOLOGIES LTD, is a company incorporated and registered
+in GIBRALTAR and is referred to in these Contribution Terms as
+“CLOUT”, “Company”, “We”, “Our” or “Us”. References in these Contri-
+bution Terms to “Contributor”, “User”, “your” or “you” are to the per-
+son/entity who accepts these Contribution Terms and agrees to make a
+contribution to CLOUT as  set  out  in  and on the terms of these Contri-
+bution Terms. You and CLOUT shall
+together be referred to as the “Parties” and references to a “Party” shall
+be to the relevant one
+of them as the context requires.
+If you have any questions relating to or about these Contribution Terms,
+please contact us at info@CLOUTtoken.io
+You and CLOUT hereby adefgree as follows:
+page21
+
+
+
+
+1. CLOUT Platform
+1.1 CLOUT promotes and develops modern technologies and applica-
+tions, especially in the fields of new open and decentralized software
+architecture. CLOUT’s core focus (but not exclusive focus) is on the
+promotion and development of the CLOUT platform and related technol-
+ogies, as well and the promotion and support of applications that use
+the CLOUT platform. The CLOUT is developing a blockchain based pro-
+tocol aimed at providing decentralized solutions for SOCIAL MEDIA
+PLATFORMs (the “CLOUT Platform”).
+2. Scope of Contribution Terms
+2.1 Save as otherwise set out in these Contribution Terms, these Contri-
+bution Terms (including any terms incorporated herein by reference)
+govern only your contribution to CLOUT for the purchase of Tokens
+during the Contribution Period (as such terms are defined in clauses 3.1
+and 3.2 respectively below).
+2.2 Any potential future use of the Tokens in connection with provision
+or receipt of services on the CLOUT Platform shall be subject to and
+governed by such other applicable terms, conditions and policies relat-
+ing to the use of the CLOUT Platform (“Platform Terms”). Such Platform
+Terms will be made available to CLOUT Platform users, if the CLOUT
+Platform is successfully developed and deployed.
+2.3 For a more detailed description of the CLOUT Platform, please refer
+to the CLOUT website at www.CLOUT.IO and the CLOUT Whitepaper (a
+copy of which can be found at: https://www.CLOUT.IO/assets/-
+clout-whitepaper.pdf . The information contained in the CLOUT White-
+paper and on the CLOUT website are of descriptive nature only, are not
+binding and do not form part of these Contribution Terms.
+page22
+
+
+
+
+3. Creation and issue of Tokens through the Smart Contract System
+3.1 CLOUT has deployed a smart contract system (the “Smart Contract
+System” or “SCS”) on the Ethereum blockchain for the purposes of
+receiving contributions, creating its own proprietary CLOUT tokens
+(“Tokens”) and issuing such Tokens to the Ethereum
+wallet from which the contribution was received. The Token created
+shall be based on the ERC223 token standard.
+3.2 The Smart Contract System shall be made available to receive con-
+tributions, create Tokens and issue Tokens for a defined period of time
+(“Contribution Period”). The
+Contribution Period shall commence on 17th of November 2017 at UTC
+12:00 and shall end on satisfaction of one of the following “Completion
+Conditions” (whichever is the earlier):
+a) USD 50 million worth of Ether contributions are received by the Smart
+Contract System; or
+b) The expiry of 4 weeks from the commencement of the Contribution
+Period.
+3.3 The creation and issue of Tokens shall be initiated by the Contribu-
+tor transferring an amount in Ether (“ETH”) during the Contribution
+Period to the Smart Contract System, located on the Ethereum block-
+chain at [the address to be published on
+www.CLOUT.IO when the Contribution Period commences. The Smart
+Contract
+System’s receipt of the contribution in Ether from the Contributor will
+trigger a smart contract operation whereby Tokens will be created and
+issued to the Ethereum wallet address from which the contribution was
+received.
+page23
+
+
+
+
+3.4 The Smart Contract System shall only accept contributions that are
+made in ETH. The Smart Contract System will not accept any contribu-
+tions made in fiat currencies or any crypto-currencies (other than ETH).
+3.5 Only the Smart Contract System existing at the addresses referred
+to in clause 3.3 will be able to accept contributions and create and issue
+Tokens during the Contribution Period. To the extent that any third-party
+website, service or smart-contract offers Tokens during the Contribu-
+tion Period or facilitates the allocation or transfer of Tokens in any way
+during the Contribution Period or at any time up to the release of the
+Genesis Block, such third-party websites or services are, unless
+expressly set out in these Contribution Terms or mentioned on the
+CLOUT website referred to in clause 3.3,  not authorized by CLOUT nor
+do they have any legal or commercial relationship in any way with
+CLOUT, the Tokens or the CLOUT Platform. Contributors who send con-
+tributions to any third- party website, service or smart contract that
+offers Tokens in the manner described in this clause 3.5, risk losing
+their entire contribution and CLOUT shall not be responsible or liable for
+recovering or returning any such contributions to the Contributor nor
+shall CLOUT be responsible or liable for any losses incurred by the
+Contributor in this respect.
+3.6 In order to receive Tokens created and issued by the Smart Contract
+System as described in clause 3.3, you shall send contributions to the
+Smart Contract System from an Ethereum wallet that supports the
+ERC223 token standard (in other words the Contributor’s Ethereum
+wallet must possess technical infrastructure that is compatible with the
+receipt, storage, holding and transfer of the Tokens, being tokens that
+are created based on the ERC223 token standard). CLOUT reserves the
+right to prescribed additional conditions relating to the specific wallet
+requirements at any time acting in its sole and absolute discretion.
+page24
+
+
+
+
+3.7 Contributions received by the Smart Contract System shall be the
+sole and exclusive property of CLOUT, who shall be entitled to apply
+such contributions towards the development of the CLOUT Platform and
+for other operational expenses of the Company. Subject to clause 3.9
+below, you irrevocably and unconditionally waive any rights which you
+have or may in the future have to claim title to or reimbursement of any
+contributions received by the Smart Contract System.
+3.7 Token Price: During the Contribution Period, the Smart Contract
+System shall create and issue 2.5M presale, 5M Tier 1, 3M Tier2, 2M
+Tier 3
+Minimum Target: CLOUT has imposed a minimum aggregate
+contribution target
+equivalent to USD 5 million (“Minimum Target”). If on conclusion of the
+Contribution Period pursuant to clause 3.2b), the aggregate sum of all
+contributions received by the Smart Contract System is less than the
+Minimum Target, CLOUT shall, within a reasonable period of time,
+exercise reasonable endeavors to procure that contributions are
+returned to the Ethereum wallet address from which the contribution
+was received.
+4. Refunds, Refusals, Suspension and Termination of Contributions
+4.1SContribution Terms are final and Contributors shall not be entitled
+to any refund or return of contributions from CLOUT, except to the
+extent required by applicable law.
+page25
+
+
+
+
+4.2 CLOUT reserves the right, through the Smart Contract System or
+otherwise, to refuse or reject any contributions made at any time in our
+sole and absolute discretion. To the extent that we refuse or reject a
+contribution, we will exercise reasonable endeavors to procure that the
+contribution is recovered and returned to the Ethereum wallet from
+which the contribution was made, however, we do not warrant, represent
+or offer any assurances that we will successfully be able to recover
+and/or return any such contributions.
+4.3 At any time prior to satisfaction of the Completion Conditions,
+CLOUT may either temporarily suspend or permanently abort the
+Contribution Period for security reasons. Any suspension or abort of the
+Contribution Period shall be deemed to commence from the moment
+that CLOUT publishes a notice to that effect on its website at
+www.CLOUT.IO .
+4.4 During any period of suspension or in the event that the
+Contribution Period is aborted, the Smart Contract System will no
+longer be able to receive and accept contributions, create Tokens
+and/or issue Tokens to Contributors. Contributors who send
+contributions to the Smart Contract System, after CLOUT has published
+a notice that the Contribution Period has been suspended or aborted in
+accordance with clause 4.3, risk losing their entire contribution and
+CLOUT shall not be responsible or liable for recovering or returning any
+such contributions to the Contributor nor shall we be responsible or
+liable for any losses incurred by the Contributor in this respect. You are
+therefore strongly advised to check the website link set out in clause
+4.3 above before sending a contribution to the Smart Contract System.
+5. Token Functionality
+Ownership of Tokens carries no rights, whether express or implied,
+other than a limited potential future right or expectation to use and
+interact with the CLOUT Platform (as further described in the White
+Paper ), if and to the extent the CLOUT Platform is successfully
+developed and launched. .
+page
+
+
+
+
+PLEASE NOTE THAT CLOUT IS IN THE PROCESS OF UNDERTAKING A
+LEGAL AND REGULATORY ANALYSIS OF THE FUNCTIONALITY OF
+TOKENS. FOLLOWING THE CONCLUSION OF THIS ANALYSIS, CLOUT
+MAY DECIDE TO AMEND THE INTENDED FUNCTIONALITY OF TOKENS
+IN ORDER TO ENSURE COMPLIANCE WITH ANY LEGAL OR REGULATO-
+RY REQUIREMENTS TO WHICH IT IS SUBJECT.
+You acknowledge and accept that Tokens do not represent or consti-
+tute:
+a) Any ownership right or stake, share, equity, security, commodity,
+bond, debt instrument or any other financial instrument or investment
+carrying equivalent rights;
+b) Any right to receive future revenues, shares or any other form of
+participation or governance right in or relating to CLOUT and/or the
+CLOUT Platform;
+c) Any form of money or legal tender in any jurisdiction, nor do they
+constitute any representation of money (including electronic money); or
+d) the provision of any goods and/or services as at the date that these
+Contribution Terms form a binding agreement between the Parties.
+5.4   Protections offered by applicable law in relation to the purchase,
+holding and/or sale of the instruments and/or investments referred to in
+clause 5.2 above shall not apply to any contribution made under these
+Contribution Terms for the purchase of Tokens or to your holding or
+sale of Tokens.
+5.5 CLOUT makes no warranties or representations and offers no assur-
+ances (in each case whether express or implied) that the Tokens shall
+confer any actual and/or exercisable rights of use, functionality, fea-
+tures, purpose or attributes in connection with CLOUT Platform.
+page27
+
+
+
+
+6. Audit of the Smart Contract System
+6.1 CLOUT has exercised reasonable endeavors to have the Smart
+Contract System audited and approved by technical experts. The tech-
+nical experts have confirmed that the Smart Contract System has, with
+regard to both accuracy and security, been programmed in accordance
+with best industry practice.
+6.2 Notwithstanding clause 6.1, smart contract technology is still in an
+early development stage and its application is currently of an experi-
+mental nature, which carries significant operational, technological,
+financial, regulatory and reputational risks. Accordingly, while the audit
+conducted raises the level of security and accuracy of the Smart Con-
+tract System, you acknowledge, understand and accept that the audit
+does not amount to any form of warranty, representation or assurance
+(in each case whether express or implied) that the Smart Contract
+System and the Token are fit for a particular purpose or that they are
+free from any defects, weaknesses, vulnerabilities, viruses or bugs
+which could cause, inter alia, the complete loss of ETH contributions
+and/or Tokens.
+7. Security
+7.1 You are responsible for implementing all reasonable and appropri-
+ate measures for securing the wallet, vault or other storage mechanism
+you use to receive and store Tokens that are issued to you by the Smart
+Contract System, including any requisite private key(s) or other creden-
+tials necessary to access such storage mechanism(s). If your private
+key(s) or other access credentials are lost, you may lose access to your
+Tokens. We are not responsible for any security measures relating to
+your receipt, possession, storage, transfer or potential future use of
+Tokens nor are we under any obligation to recover or return any Tokens
+and we hereby exclude (to the fullest extent permitted under applicable
+law) any and all liability for any security breaches or other acts or omis-
+sions which result in your loss of (including your loss of access to)
+Tokens.
+page28
+
+
+
+
+8. Right to Request Information
+8.1 We may determine, in our sole and absolute discretion, that it is
+necessary to obtain certain information about you in order to comply
+with applicable law or regulation in connection with creation and issue
+of Tokens to you. You agree to provide us such information promptly
+upon request, and you acknowledge and accept that we may refuse or
+reject any contributions for the purchase of Tokens until you provide
+such requested information and we have determined that it is permissi-
+ble to create and issue Tokens to you under applicable law or regulation.
+9. Indemnity
+9.1 To the fullest extent permitted by applicable law, you will indemnify,
+defend and hold harmless CLOUT and our respective past, present and
+future employees, officers, directors, contractors, consultants, equity
+holders, suppliers, vendors, service providers, parent companies, sub-
+sidiaries, affiliates, agents, representatives, predecessors, successors
+and assigns (the “CLOUT Parties”) from and against any and all claims,
+demands, actions, damages, losses, costs and expenses (including
+reasonable professional and legal fees) that arise from or relate to: (i)
+your acquisition or use of Tokens; (ii) the performance or non-perfor-
+mance of your responsibilities or obligations under these Contribution
+Terms; (iii) your violation of these Contribution Terms; or (iv) your viola-
+tion of any rights of any other person or entity.
+9.2 CLOUT reserves the right to exercise sole control over the defense,
+at your sole cost and expense, of any claim subject to indemnity set out
+in clause 9.1. This indemnity is in addition to, and not in lieu of, any
+other remedies that may be available to CLOUT under applicable law. .
+Disclaimers
+10. To the fullest extent permitted by applicable law and except as
+otherwise specified in writing by us:
+page29
+
+
+
+
+a) the Tokens are sold on an “as is” and “as available” basis, without any
+warranties or representations of any kind, and we expressly disclaim all
+warranties and representations relating to the to the Tokens (whether
+express or implied), including, without limitation, any implied warranties
+of merchantability, fitness for a particular purpose, title and non-in-
+fringement;
+b) we do not represent or warrant that the Tokens are reliable, current or
+error-free, meet your requirements, or that any defects Tokens will be
+corrected; and
+c) we cannot and do not represent or warrant that the Tokens or the
+delivery mechanism for Tokens are free of viruses or other harmful
+components.
+10.2 Neither these Contribution Terms nor the CLOUT Whitepaper con-
+stitute a prospectus or offering document, and are not an offer to sell,
+nor the solicitation of an offer to buy any investment or financial instru-
+ment in any jurisdiction. Tokens should not be acquired for speculative
+or investment purposes with the expectation of making a profit on
+immediate-sale.
+11. Limitation of Liability
+11.1 To the fullest extent permitted by applicable law, in no circum-
+stances shall:
+a) CLOUT or any of the CLOUT Parties be liable for any direct, indirect,
+special, incidental or consequential loss of any kind (including, but not
+limited to, loss of revenue, income, business or profits, loss of contract
+or depletion of goodwill, loss of anticipated savings, loss of use or data,
+or damages for business interruption or any like loss) arising out of or
+in any way related to the acquisition, storage, transfer or use of the
+tokens or otherwise related to these Contribution Terms, regardless of
+the cause of action, whether based in contract, through (including, but
+not
+page30
+
+
+
+
+12.1 Risk of software weaknesses: the Smart Contract System concept,
+the underlying software application and software platform (i.e. the
+Ethereum blockchain) is still in an early development stage and unprov-
+en. There is no warranty or assurance that the process for creating
+Tokens will be uninterrupted or error-free and there is an inherent risk
+that the software could contain defects, weaknesses, vulnerabilities,
+viruses or bugs causing, inter alia, the complete loss of ETH contribu-
+tions and/or Tokens.
+12.2 Regulatory risk: blockchain technology allows new forms of inter-
+action and that it is possible that certain jurisdictions will apply existing
+regulations on, or introduce new regulations addressing, blockchain
+technology based applications, which may be contrary to the current
+setup of the Smart Contract System and which may, inter alia, result in
+substantial modifications to the Smart Contract System and/or the
+CLOUT Platform, including its termination and the loss of Tokens for the
+Contributor. Additionally, regulation of SOCIAL MEDIA PLATFORM
+applications is uncertain in various jurisdictions owing to the potential
+crossovers that SOCIAL MEDIA PLATFORMs have into gambling, finan-
+cial services and blockchain technology laws and regulations. It is not
+known what regulatory framework the proposed CLOUT Platform and
+associated applications will be caught by, the nature and obligations
+that will be imposed on CLOUT in order to comply with any such regula-
+tory framework or when/if CLOUT will even be able to apply to be regu-
+lated so that it may lawfully carry out its proposed business activities.
+12.3 Risks Associated with Uncertain Regulations and Enforcement
+Actions: the regulatory status of the Tokens and distributed ledger
+technology is unclear or unsettled in many jurisdictions. It is difficult to
+predict how or whether regulatory authorities may apply existing regula-
+tion with respect to such technology and its applications, including the
+CLOUT Platform and the Tokens. It is likewise difficult to predict how or
+whether legislatures or regulatory authorities may implement changes
+to law and regulation affecting distributed ledger technology and its
+applications, including the CLOUT Platform and the Tokens
+page31
+
+
+
+
+Regulatory actions could negatively impact the CLOUT Platform and the
+Tokens in various ways, including, for purposes of illustration only,
+through a determination that Tokens are a regulated financial instru-
+ment that requires registration or licensing. CLOUT may cease opera-
+tions in a jurisdiction in the event that regulatory actions, or changes to
+law or regulation, make it illegal to operate in such jurisdiction, or com-
+mercially undesirable to obtain the necessary regulatory approval(s) to
+operate in such jurisdiction.
+12.4 Risk of abandonment / lack of success: the creation and issue of
+the Tokens and the development of the CLOUT Platform may be aban-
+doned for a number of reasons, including lack of interest from the
+public, lack of fun12ng, lack of commercial success or prospects (e.g.
+caused by competing projects). You therefore understand and accept
+that there is no warranty or assurance that, even if the CLOUT Platform
+is partially or fully developed and launched, you will receive any bene-
+fits through the Tokens that you hold.
+12.5 Risk associated with other applications: the CLOUT Platform may
+give rise to other, alternative projects, promoted by unaffiliated third
+parties, under  which Tokens will  have no intrinsic value.
+12.6 Risk of loss of private key: Tokens can only be accessed by using
+an Ethereum wallet with a combination of the Contributor’s account
+information (address), private key and password. The private key is
+encrypted with a password. You acknowledge, understand and accept
+that if your private key or password gets lost or stolen, the obtained
+Tokens associated with your account (address) or password will be
+unrecoverable and will be permanently lost. Additionally, any third party
+that gains access to your private key, including by gaining access to the
+login credentials relating to your Ethereum wallet, may be able to mis-
+appropriate your Tokens.
+page32
+
+
+
+
+12.7 Risk of theft: the Smart Contract System concept, the underlying
+software application and software platform (i.e. the Ethereum block-
+chain) may be exposed to attacks by hackers or other individuals
+including, but not limited to, malware attacks, denial of service attacks,
+consensus-based attacks, Sybil attacks, smurfing and spoofing. Any
+such successful attacks could result in theft or loss of Tokens or ETH,
+adversely impacting the ability to develop the CLOUT Platform and
+derive any usage or functionality from the Tokens. Furthermore,
+because the CLOUT Platform is based on open-source software, there is
+a risk that a third party or a member of the CLOUT team may intention-
+ally or unintentionally introduce weaknesses or defects into the core
+infrastructure of the CLOUT Platform, which could negatively affect the
+CLOUT Platform and the Tokens.
+12.8 Risk of Ethereum mining attacks: as with other cryptocurrencies,
+the blockchain used for the Smart Contract System is susceptible to
+mining attacks, including but not limited to double-spend attacks, ma-
+jority mining power attacks, “selfish-mining” attacks, and race condition
+attacks. Any successful attacks present a risk to the Smart Contract
+System, expected proper execution and sequencing of Token transac-
+tions, and expected proper execution and sequencing of contract com-
+putations.
+12.9 Risk of incompatible wallet service: the wallet or wallet service
+provider used for the contribution, has to conform to the ERC223 token
+standard in order to be be technically compatible with the Token. The
+failure to ensure such conformity may have the result that Contributor
+will not gain access to his Token.
+12.10 Risk of Hard-Fork: the CLOUT Platform will need to go through
+substantial development works as part of which it may become the
+subject of significant conceptual, technical and commercial changes
+before release. As part of the development
+page33
+
+
+
+
+an upgrade to the Token may be required (hard-fork of Token) and that,
+if you decide not to participate in such upgrade, you may no longer be
+able to use your Tokens and any non-upgraded Tokens may lose their
+functionality in full.
+12.11 Risk of Uninsured Losses: unlike bank accounts or accounts at
+some other financial institutions, Tokens are uninsured unless you
+specifically obtain private insurance to insure them. Thus, in the event
+of loss or loss of utility value, there is no public insurer or private insur-
+ance arranged by us, to offer recourse to you.
+12.12 Risks Arising from Taxation: the tax characterization of Tokens is
+uncertain. You must seek your own tax advice in connection with acqui-
+sition, storage, holding and use of Tokens, which may result in adverse
+tax consequences to you, including, without limitation, withholding
+taxes, transfer taxes, value added taxes, income taxes and similar
+taxes, levies, duties or other charges and tax reporting requirements.
+12.13 Risk of an Unfavorable Fluctuation of Ethereum and Other Curren-
+cy Value: the CLOUT team intends to use the contributions received to
+fund the maintenance and development of the CLOUT Platform. The
+contributions received will be denominated in Ether, and may be con-
+verted into other cryptographic and fiat currencies. If the value of Ethe-
+reum or other currencies fluctuates unfavorably during or after the
+Contribution Period, the CLOUT team may not be able to fund develop-
+ment, or may not be able to maintain the CLOUT Platform in the manner
+that it intended.
+12.14 Risk of Dissolution of the Company or Network: it is possible that,
+due to any number of reasons, including, but not limited to, an unfavor-
+able fluctuation in the value of Ethereum (or other cryptographic and
+fiat currencies), decrease in the Tokens’ utility due to negative
+page34
+
+
+
+
+adoption of the CLOUT Platform, the failure of commercial relation-
+ships, or intellectual property ownership challenges, the CLOUT Plat-
+form may no longer be viable to operate and the Company may dis-
+solve.
+12.15 Risks Arising from Lack of Governance Rights: because Tokens
+confer no governance rights of any kind with respect to the CLOUT
+Platform or CLOUT, all decisions involving the CLOUT Platform or
+CLOUT will be made by CLOUT acting in its sole and absolute discretion,
+including, but not limited to, decisions to discontinue the CLOUT Plat-
+form, to create and issue more Tokens for use in the CLOUT Platform, or
+to sell or liquidate CLOUT. These decisions could adversely affect the
+CLOUT Platform and/or the Tokens you hold.
+12.16 Unanticipated Risks: cryptographic tokens such as the Tokens are
+a new and untested technology. In addition to the risks set out in this
+clause 12, there are other risks associated with your acquisition, stor-
+age, transfer and use of Tokens, including those that CLOUT may not be
+able to anticipate. Such risks may further materialize as unanticipated
+variations or combinations of the risks set out in this clause 12.
+13. Representation and Warranties of Contributor
+By making  a contribution (i.e. transferring ETH to the Smart Contract
+System) for the purchase of Tokens, you hereby represent and warrant
+that:
+13.1 you have read and understood these Contribution Terms (including
+all the Schedules hereto);
+13.2 you have the necessary authority and consent to accept these
+Contribution Terms, to enter into a binding agreement with CLOUT and
+to perform the obligations set out herein;
+page35
+
+
+
+
+13.3 you have sufficient understanding of the functionality, usage,
+storage, transmission mechanisms and intricacies associated with
+cryptographic tokens (like Bitcoin (BTC) and Ether (ETH)), token storage
+facilities (including digital token wallets), blockchain technology and
+blockchain-based software systems;
+�you have obtained sufficient information about the potential future use
+and functionality of the Tokens to make an informed decision to pur-
+chase Tokens in accordance with these Contribution Terms;
+13.4 you understand that the Tokens confer only a limited potential
+future right or expectation to use and interact with the CLOUT Platform
+and that the Tokens confer no other rights of any kind with respect to
+CLOUT and/or the CLOUT Platform, including, but not limited to, any
+voting, distribution, redemption, liquidation, proprietary (including all
+forms of intellectual property rights), or other financial or legal rights;
+13.5 you have carefully reviewed the code of the Smart Contract
+System located on the Ethereum blockchain and you fully understand
+and accept the functions implemented therein;
+13.6 if you are an individual, you are at least 18 years of age, you have
+sufficient legal capacity to accept these Contribution Terms and to
+enter into a binding agreement with CLOUT on the terms set out herein;
+13.6 if you are making a contribution for the purchase of Tokens for or
+on behalf of an entity, such entity is duly incorporated, registered and
+validly existing under the applicable laws of the jurisdiction in which the
+entity is established;
+page36
+
+
+
+
+13.7 capacity to accept these Contribution Terms and to enter into a
+binding agreement with CLOUT on the terms set out herein;
+13.8 if you are making a contribution for the purchase of Tokens for or
+on behalf of an entity, such entity is duly incorporated, registered and
+validly existing under the applicable laws of the jurisdiction in which the
+entity is established;
+13.9 if you are making a contribution for the purchase of Tokens for or
+on behalf of an entity or person, you are authorized to accept these
+Contribution Terms and enter into a binding agreement with CLOUT on
+such entity’s or person’s behalf (and in such circumstances, references
+in these Contribution Terms to “Contributor”, User or “your” or “you”
+shall be a reference to the entity or person on whose behalf you are
+authorized to make a contribution);
+13.10 the acceptance by you of these Contribution Terms and the entry
+into a binding agreement with CLOUT shall not result in any violation of,
+be in conflict with, or constitute a material default under:
+any provision of the Contributor’s constitutional or organization docu-
+ments (in the case of a corporate entity including, without limitation.
+any company or partnership);
+13.11 any provision of any judgment, decree or order imposed on the
+Contributor by any court or governmental or regulatory authority; and/or
+13.12 any material agreement, obligation, duty or commitment to which
+the Contributor is a party or by which the Contributor is bound;
+13.13 you are making a contribution for the purchase of Tokens to
+support the development, testing, deployment and operation of the
+CLOUT Platform and to potentially use and interact with the CLOUT
+Platform at a future point in time. You are not making a contribution
+under these Contribution Terms for any other uses or purposes, includ-
+ing, but not limited to, any investment, speculative or other financial
+purposes;
+page37
+
+
+
+
+13.4 you shall not use the Tokens to finance, engage in, or otherwise
+support any unlawful activities;
+13.15 the contribution shall be transferred to the Smart Contract
+System from an Ethereum wallet that:
+a) is registered in your name or in the name of a person who is duly
+authorized by you to transfer the contribution to the Smart Contract
+System in accordance with this agreement and applicable law;
+b) supports the ERC223 token standard (i.e. technically supports the
+receipt, storage, holding and transfer of Tokens); and
+c) is not located in or that is not registered in the name of a person
+located in or resident of any country or territory that has been designat-
+ed by the Financial Action Task Force as a “non-cooperative country or
+territory”;
+13.15 making a contribution and receiving Tokens under these Contri-
+bution Terms is not unlawful or prohibited under the laws of your juris-
+diction or under the laws of any other jurisdiction to which you may be
+subject and any contribution shall be made in full compliance with
+applicable laws (including, but not limited to, in compliance with any tax
+obligations to which you may be subject in any relevant jurisdiction);
+13.16 you are not a citizen of or resident or domiciled in the United
+States of America or making a contribution for the purchase of Tokens
+from a location in the United States of America, nor are you an entity
+(including but not limited to any company or partnership) incorporated,
+established or registered in or under the laws of the United States of
+America, nor are you making a contribution for the purchase of Tokens
+for or on behalf of any such person or entity;
+page38
+
+
+
+
+13you are not a citizen of or resident or domiciled in the state of Israel,
+nor are you an entity (including but not limited to any company or part-
+nership) incorporated, established or registered in or under the laws of
+the state of Israel, nor are you making a contribution for the purchase of
+Tokens for or on behalf of any such person or entity;
+13.18 you are not a citizen of or resident at any domicile any other
+jurisdiction in which it is unlawful to participate in a Token Generation
+Event or similar activity.
+13.19 you are not the subject of any sanctions administered or enforced
+by any country, government or international authority nor are you resi-
+dent or established (in the case of a corporate entity) in a country or
+territory that is the subject of a country-wide or territory wide sanction
+imposed by any country or government or international authority.
+14. Taxation
+14.1 You are solely responsible for determining whether your contribu-
+tion into the Smart Contract System for the development of the CLOUT
+Platform, the transfer of ETH, the creation, ownership, use or liquidation
+of Token, the potential appreciation or depreciation in the value of
+TOKEN over time (if any), the allocation of Token and/or any other
+action or transaction contemplated by these Contribution Terms or
+related to the CLOUT Platform Protocol will give rise to any tax implica-
+tions on your part.
+14.2 You are also solely responsible for withholding, collecting, report-
+ing, paying, settling and/or remitting any and all taxes to the appropriate
+tax authorities in such jurisdiction(s) in which you may be liable to pay
+tax. CLOUT shall not be responsible for withholding, collecting, report-
+ing, paying, settling and/or remitting any sales, value added or similar
+tax which may arise from your contribution and acquisition of Tokens
+under or in connection with these Contribution Terms.
+page39
+
+
+
+
+14.3 By creating, holding, using or liquidating Tokens, and to the extent
+permitted by law, you agree not to hold any third party (including devel-
+opers, auditors, contractors or founders) liable for any tax liability asso-
+ciated with or arising from the creation, ownership, use or liquidation of
+Tokens or any other action or transaction related to the CLOUT Plat-
+form.
+15. Miscellaneous
+15.1 The User understands and accepts that the network of miners will
+be ultimately in control of the Smart Contract System. The User under-
+stands that a majority of these miners could agree at any point to make
+changes to the official Smart Contract System and to run the new ver-
+sion of the Smart Contract System. Such a scenario could lead to
+TOKEN losing intrinsic value.
+15.2 The User agrees that if any term, clause or provision of these
+Contribution Terms is found illegal, void or unenforceable (in whole or
+in part), then such term, clause or provision shall be severable from
+these Contribution Terms without affecting the validity or enforceability
+of any remaining part of that term, clause or provision, or any other
+term, clause or provision of these Contribution Terms, which shall con-
+tinue to be in full force and effect.
+15.3 These Contribution Terms constitute the entire agreement
+between the Parties in relation to its subject matter. These Contribution
+Terms replace and extinguish any and all prior agreements, draft agree-
+ments, arrangements, warranties, statements, assurances, representa-
+tions and undertakings of any nature made by, or on behalf of the Par-
+ties, whether oral or written, public or private, in relation to that subject
+matter.
+You acknowledge that by accepting these Contribution Terms, you have
+not relied on any oral or written statements, warranties, assurances,
+page40
+
+
+
+
+representations and undertakings of any nature made by, or on behalf
+of the Parties, whether oral or written, public or private, in relation to
+that subject matter.
+15.5 You acknowledge that by accepting these Contribution Terms, you
+have not relied on any oral or written statements, warranties, assuranc-
+es, representations or undertakings which were or may have been made
+by or on behalf of CLOUT in relation to the subject matter of these Con-
+tribution Terms at any time before your acceptance of them (“Pre-Con-
+tractual Statements”), other than those set out in these Contribution
+Terms. You hereby waive any and all rights and remedies which might
+otherwise be available in relation to such Pre- Contractual Statements.
+15.6 You Acknowledge that these Contribution Terms do not constitute
+an offer to sell, or a solicitation of an offer to buy, an interest in any
+jurisdiction in which it is unlawful to make such an offer or solicitation.
+15.7 Nothing in these Contribution Terms, (including the transfer of
+ETH to the Smart Contract System and/or your receipt of Tokens) shall
+be deemed to create any form of partnership, joint venture or any other
+similar relationship between you and CLOUT and/or other individuals or
+entities involved with the deployment of the Smart Contract System and
+the development of the CLOUT Platform.
+15.8 These Contribution Terms and any dispute or claim arising out of
+or in connection with their subject matter or formation (including
+non-contractual disputes and claims) shall be governed by and con-
+strued in accordance with GIBRALTAR Law.
+15.9 The Parties irrevocably agree that the GIBRALTAR courts shall
+have exclusive jurisdiction to settle any dispute or claim that arises out
+of or in connection with these Contribution Terms or their subject
+matter or formation (including non-contractual disputes and claims).
+page41
+
+
+
+
+

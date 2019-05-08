@@ -1,0 +1,617 @@
+﻿DMC Whitepaper
+v2.6
+The Future of Decentralized Financial Services
+Prepared by
+
+
+
+
+Table of Contents
+Disclaimer ...                                                        .. 4
+1.                  Abstract ...                                      ... 5
+2.                  DM Coin (DMC) Highlights ...                      .. 6
+2.1                 Global Top Platform...                            . 6
+2.2                 Ability to Scale to Additional Functions...       . 6
+2.3                 Transparency and Security ...                     .. 6
+2.4                 Critical Phase of Industry Changes ...            .. 5
+3.                  Industry Overview ...                             .. 7
+3.1                 Background ...                                    .. 7
+3.2                 Key Problems with the Industry ...                ... 8
+3.2.1               Lack of Transparency ...                          ... 8
+3.2.2               Complex and Evolving Global Regulations ...       ... 8
+3.2.3               Completely Offline Interactions ...               . 8
+3.3                 Future Growth ...                                 ... 8
+4.                  The DarcMatter Platform ...                       ... 9
+4.1                 Company Introduction ...                          .. 9
+4.2                 Accolades and Mentions ...                        .. 9
+4.2.1               Press ...                                         . 9
+4.2.2               Global Awards...                                  .. 9
+4.3                 Transactions ...                                  . 10
+5.                  Key Management and Advisor Profiles ...           . 11
+5.1                 Investors & Advisors ...                          . 12
+6.                  DM Coin (DMC) ...                                 .. 16
+6.1                 Introduction and Use Cases ...                    .. 16
+6.2                 Why NEM Blockchain?...                            . 17
+6.3                 Permissioned Blockchain ...                       ... 19
+6.3.1               Photon Gateways ...                               ... 19
+6.3.2               Singularity Nodes ...                             . 19
+6.3.3               DM Universe Ledger ...                            .. 20
+6.4                                                                   Tachyon ISC™……………………………………………………………………………………………………………………………………………..21
+7                   DMC ICO Specifics ...                             . 22
+                    7.1 Summary ...                                   .. 22
+                    7.2  Private Pre-Sale (By Invitation)- SAFT ...   ... 22
+                    7.3 Public Pre-Sale Specifics - SAFT ...          . 22
+Page 2 of 23
+
+
+
+
+7.4. Crowdsale...                      . 22
+7.5  Use of Exchanged Currencies ...   . 23
+7.6 Vesting Schedules ...              . 23
+Page 3 of 23
+
+
+
+
+Disclaimer
+This document is a  whitepaper setting out the current and future  developments of  DarcMatter  Coin  (“DMC”) and
+DarcMatter  (“DarcMatter”,  “DM” or the Parent Company). This paper is for information purposes only and is not a
+statement of future intent. Unless expressly specified otherwise, all features and technical capabilities are currently under
+development and not deployed on the DM platform.
+DarcMatter management, its employees, directors and/or affiliates make no representations or warranties with regards
+to the viability of the cryptocurrency market or its future prospects. Exchange of a cryptocurrency for the DarcMatter
+token in no way represents an ownership stake, investment contract and/or future contract between the DarcMatter
+company and the contributors. DMC may be exchanged for other cryptocurrencies only, unless expressly permitted by
+DM. Any future projections and anticipated roadmap are projections and should not be taken as fact. DarcMatter
+management, its employees, directors and/or affiliates make no representations or warranties with regards to these
+future projections financial or otherwise.
+This paper is not directed to, or intended for distribution to or use by, any person or entity who is a citizen or resident of
+or located in any state, country or other jurisdiction where such distribution, publication, availability or use would be
+contrary to law or regulation. This paper may not be redistributed, reproduced or passed on to any other person or
+published, in part or in whole, for any purpose, without the prior, written consent of DM. The manner of distributing this
+paper may be restricted by law or regulation in certain countries.
+Page 4 of 23
+
+
+
+
+1. Abstract
+DarcMatter is the first truly decentralized global platform for the alternative fund investment industry. DarcMatter already
+has a global presence with usage from over 24 different countries. Given the global reach and usage of DM, the team is
+eager to create platform solutions that encompass cutting edge technology. While there has been much development,
+many  tasks  in  the  alternative  fund  space  are  still  considered  manual  and  require  the  participation  of  numerous
+intermediaries and service providers to provide the compliance, security and transparency necessary for investors to
+connect with non-public alternative fund opportunities.
+The blockchain and the capabilities of the distributed ledger have the capability of bringing transparency and security
+into an industry that has been ripe with fraud and opacity since its inception. Additionally, changing and evolving
+regulations to provide additional security for investors, has only increased the cost load on alternative asset managers,
+which  makes  the  industry  more  incentivized  to  increase  the  assets  under  management,  rather  than  focusing  on
+enhancing investment returns.
+The distributed ledger that DarcMatter is developing has the ability to transform a multi-trillion-dollar industry from an era
+defined by paperwork, opacity and information asymmetry, into one that will be characterized by transparency, security
+and trust in a way that has never been seen before.
+Additionally,  blockchain implementation  into the alternative  fund industry  will have  much broader implications  and
+capabilities including but not limited to:
+•    Seamless cross border investment capabilities
+•    Documentation tracking for multi-consensus and logging
+•    Additional asset classes being seamlessly distributed through the entire investor vertical
+The DarcMatter team has operated the platform for 3+ years and is already working with 150+ funds (GPs) and 1,300+
+institutions and investors worldwide (LPs).
+Page 5 of 23
+
+
+
+
+2. DarcMatter Coin (DMC) Highlights
+History is written by the victors.
+Winston Churchill
+2.1 Global Top Platform
+DarcMatter is an already fully operational global platform, that allows investors all around the world to access the
+alternative fund asset class in a transparent and secure fashion. Highlights for DarcMatter include:
+•    Global Accolades: Awarded as Top FinTech platform from over 4 countries
+•    Worldwide Investor Reach: 1300 investors (institutional, advisors and individuals) use utilize the platform to
+source new investment opportunities
+•    Expansive Global Access:150+ Funds on the platform with over $10 billion in total AUM
+•    Global-Minded Team: Award winning team and top-caliber investors and advisors
+2.2 Ability to Scale to Additional Functions
+Alternative funds, while massive, represent just one of the industries in which the technology can be applied. Much of
+the industry constituents are focused on P2P type payment / financial transactions or (on the other end of the spectrum)
+enterprise solutions between institutions, like banks. DarcMatter’s platform and its technology has the ability to link these
+two components. We believe that the traditional investment banking model is broken (to which alternative funds is just
+one component) and ease of access from the individual retail investor to the most attractive (and previously inaccessible)
+financial opportunities is perfectly capable and feasible.
+2.3 Transparency and Security
+DMC (DarcMatter Coin) will use systems that run natively on the NEM blockchain and will also benefit from many of its
+important characteristics, including the proof-of-importance. Many other cryptocurrencies do not require that a ‘miner’ or
+the capability to verify such transactions, to be a constituent to the community. Others only rely upon the stake that the
+user might have. The Proof of Importance (PoI) allows for a natural synergy of both.
+2.4 Critical Phase of Industry Changes
+The alternative fund industry has been notoriously slow to change which was driven by both the culture of the industry
+as well as the regulatory burdens. However, the industry has reached a critical inflection point where the need for the
+market incumbents to access each other securely and seamlessly is becoming very critical. Large cases of fraud,
+impropriety, frictions around global access and a growing investor pool, have all played a massive part in these changes.
+The industry is now ready to embrace technological reform as a solution to much of the issues that plague the industry.
+Page 6 of 23
+
+
+
+
+3. Industry Overview
+“They always say time changes things, but you actually have to change them yourself.”
+Andy Warhol
+3.1 Background
+While traditionally there is much negative focus around the alternative fund industry, comprising of hedge funds, private
+equity funds and venture capital funds, the reality is that alternative funds are becoming one of the most important asset
+classes in the world.
+Alternative investment assets are loosely defined as anything that does not fall into the traditional buckets of cash, equity
+or bonds. As such this term is used to encompass exotic assets such as luxury goods, art, wine etc. Of these, the most
+widely used and sought after since its inception have been the alternative fund asset class. 1
+Historically, there has been a heavy concentration of investments into this asset class by institutional investors and only
+the most wealthy of investors. This was caused both by the innate underlying cultural overtone of this asset class, as well
+as heavy regulatory restrictions which required these funds to be intensely private, in exchange for looser regulations.
+However, with the increasing amount of data that is becoming available on a real-time basis the traditional paradigms of
+portfolio building are no longer sufficient and the inclusion of alternative funds is becoming critical for all investors. This
+1 Alternative Investments 2020 - World Economic Forum
+Page 7 of 23
+
+
+
+
+is still plagued by the difficulty in access, transparency and cost which makes it extraordinarily difficult for fund managers
+and investors to connect in a seamless, cost-efficient and transparent manner.
+3.2 Key Problems with the Industry
+The alternative fund industry and alternative investments in general have historically faced much criticism and
+challenges due to its opacity, difficulty in access and overarching costs of compliance that has been increasing over
+time. As it has matured into an asset class for all investors, these problems have come to bear and has brought the
+industry to the precipice of necessary change.
+3.2.1   Lack of Transparency
+Alternative funds have a notorious lack of transparency in its history. This has been traditionally driven by the state of
+regulations as well as the underlying tone of the industry.  At the time of inception, alternative funds such as hedge funds,
+private equity funds and venture capital funds, were reserved for the most sophisticated, well endowed institutions, and
+the wealthiest of all investors. Industry opacity created massive issues such as the Long-Term Capital Management
+collapse and the Madoff Ponzi Fraud Scheme. Billions, if not trillions of dollars, have been lost in this opacity, with no
+efforts to create an industry wide schema to protect privacy and confidentiality as necessary, while being able to analyze
+the overarching industry from a macro perspective to risk mitigate and make informed decisions.
+3.2.2   Complex and Evolving Global Regulations
+The state of financial regulations is constantly influx with global regulations evolving at an increasingly accelerated pace
+in order to keep up with requirements for investors protections and a breakneck pace in the proliferation of the new
+financial products. However, these complex and evolving global regulations currently hold all things constant for the
+method by which investors and new financial products interact. Massive reform needs to occur for investors and fund
+managers to have entirely new methodologies to interact through the blockchain, which DMC will accomplish.
+3.2.3   Completely Offline Interactions
+Currently nearly 100 percent of all interactions between investors and fund managers are conducted offline and through
+physical  paperwork.  All  paperwork  is  often  customized  to  meet  specific  requirements,  which  may or  may not  be
+necessary.  The offline nature of these interactions creates much room for error as well as leads to the increased opacity
+as mentioned within Section 3.2.1.
+3.3 Future Growth
+Over the last three decades, the alternative industry has matured to become an integral part of the financial system and
+the global economy.2 While this could also be driven by various macro factors, much of the changes also arise from the
+increase in access to information and real-time data as well as the explosion in the number of nodes created in financial
+services through the advent of technological change. By 2020, global wealth is estimated to reach US$220 trillion from
+$150 trillion today. In conjunction with this explosion in global wealth, the necessity and inclusion of alternative assets
+for investor portfolios will also continue to grow. As the importance of alternative funds continues to grow, the need for
+further  transparency,  security  and  compliance  will  also  increase,  which  can  be  effectively  provided  through  the
+blockchain and DMC.
+2 http://www3.weforum.org/docs/WEF_Alternative_Investments_2020_Future.pdf
+Page 8 of 23
+
+
+
+
+4. The DarcMatter Platform
+The world needs a better understanding of how to encourage innovation. And innovators need to
+get better at it. Sign me up.
+Robert Metcalfe
+4.1 Company Introduction
+Established in 2014, DM’s platform connects GP’s actively raising capital with Investors (LPs) globally, to seamlessly
+connect, access fund documentation, and invest in a curated set of Hedge Funds, Private Equity, and Venture Capital
+funds efficiently online. Headquartered in New York City, DM also has offices in Shanghai, Hong Kong, and Seoul, South
+Korea,  where  the  regional  teams  work  with  local  investors  to  provide  direct  access  to  cross  border  investment
+opportunities  via  the  platform.  DM  is  developing  a  blockchain  based  distributed  ledger  to  remove  opacity  and
+inefficiencies from  the alternative investment industry globally. and reporting  process while decreasing geographic
+boundaries.
+4.2 Accolades and Mentions
+Since DarcMatter’s launch, the company has been recognized and awarded with numerous accolades globally. DM’s
+award-winning platform technology has been noted in the press and by well-known financial networks, as a key FinTech
+solution focused on increasing transparency within alternative investments.
+4.2.1   Press
+Regarding press, DM has been recognized in both online and print publications, as well as received editorial coverage
+showcasing management’s thought leadership. To highlight, DM’s editorial coverage includes, but is not limited to:
+Finovate, Private Wealth Magazine, Daily Fintech, Benzinga, Wealth Management.com, Investopedia, FINalternatives,
+TheStreet, SeekingAlpha, 36KR, Invest China, RIABiz, and Huffington Post.
+4.2.2   Global Awards
+DarcMatter’s awards and accolades are a product of the platform’s technology and thought-leadership demonstrated by
+the  team.  DM’s  technology  awards  include:  “HFM  Technology  2017:  Best  Fintech  Solution  for  Hedge  Funds,”
+“NextMoney Hong Kong: Best Growth Stage FinTech Startup,” and “TechCrunch Beijing: Top 15 Global Startup.” DM
+was also selected to compete in various startup competitions globally. One of the largest was DarcMatter being selected
+by South Korea’s Ministry of Science, ICT and Future Planning, as a finalist from over 2,000 applicants globally, to
+participate in “K-Startup Grand Challenge,” where DM was a Top 4 Finalist.
+Page 9 of 23
+
+
+
+
+For more information on DarcMatter’s awards, press, and editorial coverage, please visit the DarcMatter Resource
+center. (https://blog.darcmatter.com/)
+4.3 Transactions
+All fees associated with transactions using DMC will be paid to DM, the parent company. At the completion of each
+transaction a certain portion shall be provided to the Singularity Node (see below) performing the transaction verification
+and the remainder shall be provided to DM in exchange for the specific functionality.
+Transaction Fee3                                                                                                              Fee paid upon successful completion of investment
+Subscription Completion                                                                                                       Completion of Subscription Smart Contract
+Escrow Setup & Release                                                                                                        Escrow Smart Contract when necessary
+Capital Call Requests                                                                                                         Capital call verifications and fund release
+Investor Reporting for Fund                                                                                                   Transparent reporting capability
+Information
+Distribution & Dividends                                                                                                      Multi-sig capability for distribution & dividends
+Secondary Sale of Interests*                                                                                                  Smart contract allows for seamless development of secondary market
+Tracking of Changes in                                                                                                        Changes in terms throughout interactions are verified through multi
+Contract Terms*                                                                                                               signature. Instant verification and acceptance
+Data Analysis & Interpretation*                                                                                               Anonymized data provides macro data analysis capabilities and instant
+                                                                                                                              access to consensus verified information
+*Stage 2.0 of the blockchain for additional capabilities.
+3 Current, primary fee model for DarcMatter platform. Range of 0.65% to 2.0%.
+Page 10 of 23
+
+
+
+
+5. Key Management and Advisor Profiles
+Great things in business are never done by one person. They're done by a team of people.
+Steve Jobs
+Sang Lee - Chief Executive Officer
+Sang H. Lee is the Co-Founder and CEO of DarcMatter. A leading pioneer within the
+Financial  Services  and  Technology  industries,  Sang  has  worked  to  push  forward
+necessary regulatory changes,  as  well  as  industry  buy-in  to  achieve  much  of  the
+platform  boarding, the industry has seen today.  Sang has  been recognized  as an
+'Under30CEO Entrepreneur to Watch in New York City' and a 'GOOD100' fellow, an
+annual list of 100 change making entrepreneurs.
+Sang is also an international keynote speaker on various topics within FinTech and
+Cross Border investments, accepting numerous speaking invitations from the UN, International CES, Harvard University,
+Brown University, the Council on Foreign Relations, among others. He has also been featured in both domestic and
+international publications including Forbes, Bloomberg Radio, Private Wealth Magazine, Entrepreneur Magazine, CNBC,
+FINalternatives, and many more.
+Formerly an investment banker at leading European investment bank BNP Paribas, Sang has significant experience in
+the advisory and execution of more than $10.0 Bn equivalent of investment banking transactions in North America. Sang
+was recognized as  “Top Global Talent” and worked on global bank level strategy projects for the bank’s Executive
+Committee.
+Natasha Bansgopaul - Chief Operating Officer
+Natasha Bansgopaul is the Co-Founder and Chief Operating Officer  (COO) of THE
+Global Award Winning FinTech Platform, DarcMatter (DM). She is a part of the founding
+team of both DarcMatter and Return on Change, joining the company as an experienced
+marketing and strategy professional with over 10+ years of demonstrated leadership
+through key strategic roles at both Fortune 50 and Fortune 100 companies.
+Her most recent corporate role at PepsiCo provided significant experience in developing
+global billion-dollar brands through new product innovation, comprehensive go-to-
+market and social media marketing strategies, and consumer insights research. Her breakthrough and cross-functional
+collaboration project wins, earned her various awards and accolades, including the company’s “Crushed Can” award for
+increasing the brand’s market share versus competition.
+She holds an MBA in Marketing, Entrepreneurship, and Strategic Leadership from The Pennsylvania State University,
+and is the university’s 2010 Bunton Waller Scholar. She will also oversee the CMO responsibilities of the company.
+Page 11 of 23
+
+
+
+
+Konstantin (Stan) Solodkyy - Chief Technology Officer
+Stan is a CTO of DarcMatter and have joined the management team in 2013. He is part
+of the founding team of both Return on Change and DarcMatter. Stan is a pioneer in
+the technology industry being an early supporter of cutting edge technologies and
+platforms from the ground up including blockchain. Being an engineer by his education
+and calling, Stan received Master of Informatics degree at the age of 20. Starting his
+career  early,  he  has  17  years  of  experience  developing  commercial software.  He
+started from Windows API development in early 2000s and later on he covered mobile,
+server and frontend development working with such verticals as banking, fintech, trading, e-commerce, manufacturing,
+cloud services, professional services. Now an active participant in the blockchain movement, Stan will lead DarcMatter’s
+efforts in upgrading its platform.
+As part of DarcMatter, Stan manages DarcMatter’s Kiev office that has built a highly scalable platform using the latest
+technologies. The product delivered allowed DarcMatter to win “Best Fintech Solution for Small & Startup Funds” Award
+at the HFM U.S. Hedge Fund Technology Awards in 2017.
+5.1 Investors & Advisors4
+DarcMatter has a top group of investors and advisors hailing from top institutions in the world including:
+Mai Gang (Mark Mai)
+Mark is the co-founder of OKCoin, one of the world’s largest and pioneering cryptocurrency exchanges.
+Subsequently Mark founded VenturesLab in 2005, China’s first internet-business incubator, along with
+legendary venture capitalist Tim Draper.   He was also the venture partner of DFJ Dragon fund in Silicon
+Valley in the early 2000s. Mark started his entrepreneur career by starting his first venture eFriendsNet in
+2003, which was the earliest and became the largest social network at the time in China. Mark was named
+top angel investor in China and co-founded China Young Angel Investor Association (CYAIA) in 2013 and served as the current
+president. CYAIA is now the biggest and most influential angel investor organization in China.
+Page 12 of 23                                                                                                                 4 These represent selected investors and advisors to the DarcMatter platform and does not explicitly speak to the endorsement of DMC.
+
+
+
+
+John Nahm
+John Nahm is the Managing Director of Strong Ventures, John is a Co-Founder and Managing Partner of
+Strong Ventures, a seed fund with offices in Koreatown, Los Angeles and Gangnam, Seoul, which primarily
+supports and finances startups in Korea and Asian-American founders in the US. He was an early investor
+in Korbit, the leading Korean cryptocurrency exchange and an advisor and investor to the ICON ICO, the
+top ICO out of South Korea seeking to hyperconnect the country. In addition, John is a Venture Partner of
+Primer, S. Korea’s first and top startup accelerator program.
+#Hashed
+#Hashed is a blockchain focused fund, incubator and community builder with offices in Seoul, South Korea
+and San Francisco, CA. Their mission is to accelerate the global enablement of blockchain through community building and
+impact investing. With extensive experience and reach into the Korean and Asian markets, as well as San Francisco/Silicon
+Valley, Hashed aims to set global standards for ground breaking blockchain startups.
+Simon Seojoon Kim
+Simon Seojoon Kim is CEO and Partner of Hashed, a leading crypto fund based in South Korea. He is a
+Blockchain evangelist and organizer of Hashed Lounge, a premier Blockchain Seoul meetup community.
+Prior to Hashed, Simon was a serial entrepreneur and has co-founded numerous companies. He served
+as Chief Product Officer at Knowre, an ed-tech startup that was named one of World's Top  10 Most
+Innovative Companies in Education by Fast Company.
+George Sun (孙刚)
+Mr. Sun established and was CEO at China Merchants Kunlun Capital ("CMK Capital") a China focused
+PE  fund  with  AUM  of  RMB7.5BN.  He  was  also  the  Managing  Director,  Head  of  China  Business
+Development and at Deutsche Bank; Executive Director at Morgan Stanley and Direct and Head of China
+Financial Institutions group at HSBC.
+Hwisang Kim
+Hwisang Kim is CIO and Partner at Hashed. Previously, he worked for product planning, business planning
+and technical marketing team  in SK hynix and SK Telecom. Hwisang has been actively investing in
+blockchain since early 2015 and is credited for founding some of the earliest crypto communities in Korea.
+He's an active advisor to numerous global blockchain projects.
+Page 13 of 23
+
+
+
+
+Dr. Moe Levin
+Dr. Moe Levin is the Chief Executive Officer (CEO) of Keynote, an investor in high-tech startups, and an
+advisor to governments, regulators, banks, and venture-backed companies. Moe is also responsible for
+over $250M in investments into blockchain and bitcoin startups.
+Adrian Lam
+Adrian is the Founder of Workzspace.com with listings of 1000+ Serviced Offices and co-working spaces
+in Asia. He is also a top ICO Advisor, leading projects such as IHTcoin, Tradehero.mobi, and Electrify.Asia.
+He is also the former COO of Sportshero now listed on Australian Stock Exchange (ASX).
+Motti Peer
+Motti Peer is Co-CEO at Blonde 2.0 He is an experienced Co-Chief Executive Officer with a demonstrated
+history  of  working  in  the  public  relations  and  communications  industry.  Skilled  in  Entrepreneurship,
+Marketing Strategy, Strategy, Digital Marketing, and Social Media. Strong entrepreneurship professional
+with a MBA focused in Finance, Economics from Ono Academic.
+Mattan Lurie
+Mattan is private equity investor with over 15 years of industry experience, involved in both deals and
+investor relations, at some of Asia’s top PE firms, including Fosun Group (a $200bn conglomerate), Hony
+Capital (a $15bn firm), Ally Bridge Group, and CLSA.
+Joe Daniels (Legal Counsel)
+Joseph Daniels is Co-Chair of McCarter & English’s Venture Capital & Emerging Growth Companies
+practice. He represents startup to publicly-held technology, life science and consumer companies, venture
+capital and private equity funds and investment banks in a wide range of seed and venture financings,
+mergers and acquisitions, IPOs and other public offerings. He regularly advises a broad range of startups,
+venture-backed companies and VC funds, and has led hundreds of venture and strategic financing transactions.
+Page 14 of 23
+
+
+
+
+Sophia Ha Ho
+Sophia started her career as an external auditor with KPMG. Within the last 8 years, she has been working
+for top consulting and financial service firms as an auditor and management consultant. In 2012, she co-
+founded a consulting firm offering strategic market entry services to companies expanding into Vietnam.
+She advises various ICOs, such as DarcMatter. Sophia studied international business and is an ACCA
+(Association of Chartered Certified Accountants) Affiliate.
+CoinStreet Partners
+CoinStreet  Partners  is  the  next  generation  "Decentralized  Investment  Bank"  enabling  the  business
+ecosystem in the new era of crypto-economy.
+Strategic Investor
+Stellar Partners is a single family office investor founded by a successful Singaporean serial entrepreneur
+in January 2015. Stellar's investment strategies focus on deploying capital in opportunities across Real
+Estate and Technology (I.T and Fintech) Companies.
+Ceta Network
+Ceta Network is a full service marketing company. Our team's unique international heritage coupled with
+backgrounds from Apple, Facebook, PwC and various startups, positions our Company as a premier driver
+of transformative technologies.
+F50
+F50 is a venture capital platform that searches for the most extraordinary companies in the world and
+connects them with a community of global investors, especially leading players from Silicon Valley and
+China. F50 identifies with the most promising technology companies in North America by leveraging the
+collective intelligence of our investor network, corporate partners, and industry experts.
+eJam
+eJam  is a premium  performance marketing company focused on serving blockchain projects with a
+purpose. With over  10 years of experience and billions of ads under our belts, we help founders of
+blockchain projects build communities, momentum and make their mark within the eco-system. With a full
+suite of services from community management to direct response lead generation, we do the heavy lifting
+so you can focus on building an amazing company.
+Page 15 of 23
+
+
+
+
+Blonde 2.0
+Blonde 2.0 is one of the world's leading boutique tech PR firms. Since 2006 we've helped more than 1000
+technology companies such as Waze, Microsoft, Viber, and more, share their stories with the world. We
+also have a special dedicated crypto PR unit called BlondeChain, that is designed to serve the specific
+blockchain PR needs of crypto companies, and have substantial experience in doing coin PR and token
+PR with blockchain companies - amongst them: Bancor, IOTA , Status.im, Black Moon, Stox, Winding
+Tree, Neufund, Sirin Labs, Jelurida, Zen Protocol, and more.
+6. DarcMatter Coin (DMC)
+"The value of an idea lies in the using of it."
+Thomas Edison
+6.1 Introduction and Use Cases
+The DMC will be utilized to unlock and to consummate the smart contracts for the investment completion in the DM
+Decentralized Infrastructure. By tokenizing an antiquated system, DMC will create huge efficiencies and scalability for
+the industry.
+All contractual terms
+Fund manager lists fund profile                                                                                           Smart system searches for
+are stored in the DM
+on DarcMatter platform.                                                                                                   matching investors based
+Universe Ledger.
+                                                                                                                          on specific metrics
+Portion of the investor DMC stake
+DMnotes are created for
+is paid as transaction to the
+escrow and moved                                                                                                          Investor stakes DMC to view
+verifying Singularity Node.
+                                                                                                                          through the Photon            specific due diligence, but
+DMnotes are inserted back for
+                                                                                                                          Gateways.                     returned once investment is
+escrow release and burned.
+                                                                                                                                                        secured.
+Page 16 of 23
+
+
+
+
+6.2 Why NEM Blockchain?
+NEM has a very strong team of developers and a great vision which was driven around the development of the underlying
+technology and its efficient use rather than marketing and hype generation as with many other blockchain platforms.
+There was a focus on real-world use cases and the generation of the underlying value from the real-build out of platforms
+and economics.
+Furthermore, there has been significant  work  that  has been put  into  making the NEM  blockchain accessible  and
+modifiable in a much more scalable fashion than others including Ethereum. And while the technology is very well
+designed for platform building for secure transactions such as alternative investments, it also utilizes significantly less
+power in its harvesting process as opposed to high energy use from mining of other cryptocurrencies.
+Page 17 of 23
+
+
+
+
+Page 18 of 23
+
+
+
+
+6.3 Permissioned Blockchain
+There are various types of cryptocurrencies in existence, with the primary differentiator  being the public or private
+blockchain. DMC will be used for a permissioned blockchain, which is one specific type of private blockchain. While
+having all the benefits of a blockchain, it also permits for the level of discretion and privacy that is often required for the
+world of alternative funds and investments in general. The transactions are quick to verify for the DM platform as the
+nodes for verification and harvesting are determined by the PoI vs. allowing for anyone in the general public to participate,
+which would create security and privacy risks.
+6.3.1 Photon5 Gateways
+Photon Gateways allow for instant contract verification by Singularity Nodes (see below) that have the ability to harvest
+DMC. Photon Gateways provide for a decentralized payment methodology for managers and investors to interact with
+the Tachyon ISC™. This replaces the need for manual verification, paperwork and corresponding payments to travel
+back and forth between various counterparties. LPs and GPs are able to interact in real time without the related costs in
+a  completely  secure  and  transparent  manner.  Photon  Gateways  allow  for  fiat  or  cryptocurrency  denominated
+investments and distributions to be made between fund managers and investors by generating DMnotes, which are used
+to transfer the value of currency between parties and then burned upon usage.
+For the investment and distribution process, fiat currency will be utilized to purchase DMC and then exchanged on the
+Tachyon ISC™ for DMnotes. The DMnotes are then exchanged in smart escrow to be released once the contractual
+terms are confirmed and verified. There is no cap on the number of DMnotes, is non-exchangeable besides on the
+platform and denominated at US$10 / DMnote. DMnotes are returned once investments are closed and funded and then
+burned.
+6.3.2 Singularity Nodes
+In order to align the interests of the owners of the DMC and the participants utilizing the Tachyon ISC™, harvesting will
+only be conducted by participants based on our own system of PoI.  Singularity Nodes are permitted users or nodes that
+have at least  15,000 DMC and a necessary volume of transactions to harvest and verify specific transactions. The
+definition may evolve as the velocity of interactions increases and the complexity of the underlying information increases
+as well. Participants on the network will be incentivized to further participate the utilize the Tachyon ISC™ to become a
+Singularity Node and have the ability to harvest and verify.
+Singularity Nodes will be judged by their respective  ‘g-factor’8, which will be determined by a number of elements,
+including contractual complexity mapping from strategy profiles to outcomes9, the Dotson algorithm, nodal linkage history
+and other proprietary mechanisms. Dependent upon the number of parties and interactions, DarcMatter may have to
+develop a higher tier node with higher requirements.
+5 Wikipedia: A photon is a type of elementary particle, the quantum of the electromagnetic field including electromagnetic radiation such as light, and
+the force carrier for the electromagnetic force (even when static via virtual particles). The photon has zero rest mass and always moves at the speed
+of light within a vacuum.
+Page 19 of 23
+
+
+
+
+6.3.3   DM Universe Ledger
+The DM Universe Ledger all of the key information that is necessary for the alternative fund industry to operate. Each
+fund manager will record this information on the DM Universe Ledger and allow for seamless instantaneous interactions
+between fund managers and investors, which at times requires 3rd parties as well. The necessity for specific 3rd parties
+are often required because the system of accounting and reporting is not yet normalized, but with continuous growth
+reporting requirements are also expected to normalize. The figure below outlines the information concurrently stored
+and transacted through the blockchain which is stored on the decentralized DM Universe Ledger.
+6                                                                                                                          Proprietary measure of ‘gravity’ on the DarcMatter platform as determined by several variables and evolving algorithm.
+7                                                                                                                          Microsoft Research: Contract Complexity - June 10, 2014 - Moshe Babaioff; Eyal Winter
+Page 20 of 23
+
+
+
+
+6.4 Tachyon8 ISC™ 9
+DarcMatter is designing, on top of its already operational global platform, an alternative fund marketplace transaction
+tool powered by smart contracts and the distributed ledger driven by the blockchain. This will combine the necessary
+implementation of fund administration, distribution, reporting and logistics, which are highly inefficient between fund
+managers and investors today.
+DarcMatter will utilize a blockchain based distributed ledger which allows all parties necessary for completion of an
+alternative  fund  investment  (any distribution  intermediary,  fund  reporting  entity,  fund  manager  and/or  investor),  to
+concurrently and seamlessly be able to view the current and historical transaction record in full.
+This is called the Tachyon ISC™, allowing all parties involved from the consummation to the servicing and secondary
+sale of an alternative fund investment, to be recorded on the blockchain and executed through smart contracts. This
+provides for the seamless nature of the blockchain to create new efficiencies of distribution and drives down the cost of
+compliance while enhancing the investor transparency experience (without increasing costs).
+The Tachyon ISC™ will comprise three primary components which will work in conjunction with each other to create a
+truly decentralized and secure environment for platform managers and investors (1) Photon Gateways; (2) DM Universe
+Ledger; and (3) Singularity Nodes.
+8 Wikipedia: A tachyon or tachyonic particle is a hypothetical particle that always moves faster than light.
+9 Investment Smart Contract (ISC)
+Page 21 of 23
+
+
+
+
+7   DMC ICO Specifics
+The world is all gates, all opportunities, strings of tension waiting to be struck.
+Ralph Waldo Emerson
+7.1  Summary
+1,000,000,000 DMC - This is a finite supply and will not be increased.
+                                                                                      DMC ICO*                                    50%                                                    500,000,000
+                                                                                      Management Reserve                          35%                                                    350,000,000
+                                                                                      Developers                                  6%                                                     60,000,000
+                                                                                      Seed Investors                              4%                                                     40,000,000
+                                                                                      Company Reserve**                           5%                                                     50,000,000
+                                                                                      Total                                       100%                                                   1,000,000,000
+7.2                                                                                   Private Pre-Sale (By Invitation) - SAFT10
+                                                                                      Open Date:                                  December 31st 2017
+                                                                                      Amount:                                     Up to $10,000,000
+                                                                                      Lock-Up:                                    1-month after Crowdsale
+7.3                                                                                   Public Pre-Sale Specifics - SAFT
+                                                                                      Open Date:                                  March 22nd 2018 or earlier based on private pre-sale
+                                                                                      Amount:                                     Up to $20,000,000
+                                                                                      Lock-Up:                                    2-months after Crowdsale
+7.4                                                                                   Crowdsale11
+                                                                                      Open Date:                                  June 15 , 2018 or earlier based on private pre-sale
+                                                                                      Pricing:                                    $0.200
+                                                                                      Amount:                                     Up to $5,000,000
+                                                                                      Format:                                     DMC Tokens
+*Unsold tokens will be burned.
+**1 Year Lock Up for Company Reserve Tokens
+10 https://saftproject.com/ - Simple Agreement for Future Token
+11 At discretion of the company
+Page 22 of 23
+
+
+
+
+7.5  Use of Exchanged Currencies
+Project Development & R&D12                                                                                                                         49.04%
+Platform Marketing and Networking Development                                                                                                       15.00%
+PR & Marketing for the ICO                                                                                                                          4.00%
+SG&A / Overhead                                                                                                                                     15.00%
+Seed Investor Investments*                                                                                                                          5.00%
+Legal Counsel                                                                                                                                       2.00%
+Regulatory Compliance                                                                                                                               3.00%
+Shareholder Loans & Reimbursements                                                                                                                  2.50%
+Management Dividend**                                                                                                                               2.96%
+Developers Bonus                                                                                                                                    1.50%
+Project Development & R&D                                                                                                                           Platform Marketing and Networking Development
+PR & Marketing for the ICO                                                                                                                          SG&A / Overhead
+Seed Investor Investments*                                                                                                                          Legal Counsel
+Regulatory Compliance                                                                                                                               Shareholder Loans & Reimbursements
+Management Dividend**                                                                                                                               Developers Bonus
+*Seed investor distributions will be capped at specific percentages based on the total amount raised
+**Management will only have access to 50% of bonus at time of ICO float
+7.6  Vesting Schedules
+7.6.1   Management Vesting Schedule
+Year 1                                                                                                                                              Year 2                                          Year 3
+30%                                                                                                                                                 30%                                             40%
+7.6.2   Developer Vesting Schedule
+Year 1                                                                                                                                              Year 2                                          Year 3
+35%                                                                                                                                                 35%                                             30%
+7.6.3   Seed Investor Vesting Schedule
+Year 1                                                                                                                                              Year 2                                          Year 3
+50%                                                                                                                                                 25%                                             25%
+12 DarcMatter reserves the right to use all tokens in its form or exchanged to other currencies for the development of the blockchain technology,
+growth of the platform and global market development to increase the number of blockchain users on the DarcMatter platform.
+Page 23 of 23
+
+
+
+
+
